@@ -1,0 +1,988 @@
+/**
+ * 字道 ZiDao — 部编版九年级语文下册 教材数据
+ * Grade 9 Semester 2 Textbook Data (PEP Edition)
+ * Based on: 义务教育教科书 语文 九年级下册 (2018)
+ * This is the FINAL textbook of junior high — the graduation semester.
+ */
+var TB_G9S2 = {
+grade: 9, semester: 2,
+units: [
+/* ═══════════════════════════════════════════ */
+/*  UNIT 1 — 第一单元 诗歌 Poetry              */
+/* ═══════════════════════════════════════════ */
+{
+  id: 1, title: "\u7b2c\u4e00\u5355\u5143", titleEn: "Unit 1", type: "kewen",
+  theme: "\u8bd7\u6b4c", themeEn: "Poetry",
+  unitIntro: {
+    cn: "\u8bd7\u6b4c\uff0c\u8bed\u8a00\u51dd\u7ec3\uff0c\u5f62\u5f0f\u7cbe\u81f4\uff0c\u8bb2\u7a76\u97f5\u5f8b\u548c\u8282\u594f\uff0c\u5176\u5185\u5bb9\u5305\u7f57\u4e07\u8c61\uff0c\u4e30\u5bcc\u591a\u5f69\u3002\u672c\u5355\u5143\u7684\u4f5c\u54c1\u4e3b\u8981\u662f\u65b0\u8bd7\uff0c\u4e5f\u6709\u4ee5\u65e7\u4f53\u8868\u73b0\u65f6\u4ee3\u5185\u5bb9\u7684\u8bd7\u4f5c\uff0c\u8fd8\u6709\u6563\u6587\u8bd7\u3002\u5b66\u4e60\u672c\u5355\u5143\uff0c\u8981\u5728\u53cd\u590d\u6717\u8bfb\u3001\u611f\u53d7\u8bd7\u6b4c\u97f5\u5f8b\u7684\u57fa\u7840\u4e0a\uff0c\u8fdb\u4e00\u6b65\u628a\u63e1\u8bd7\u6b4c\u7684\u610f\u8c61\uff0c\u4f53\u4f1a\u8bd7\u4eba\u7684\u60c5\u611f\uff0c\u7406\u89e3\u8bd7\u4e2d\u8574\u542b\u7684\u54f2\u7406\u3002",
+    en: "Poetry is concise in language, refined in form, and attentive to rhythm and meter. Its content is all-encompassing and richly diverse. The works in this unit are mainly modern poetry, with some classical forms expressing contemporary content, as well as prose poetry. Through repeated reading, students should grasp poetic imagery, appreciate the poet\u2019s emotions, and understand the philosophy embedded in the verses."
+  },
+  lessons: [
+    {
+      id: 1, title: "\u7956\u56fd\u554a\uff0c\u6211\u4eb2\u7231\u7684\u7956\u56fd",
+      titleEn: "O Motherland, My Dear Motherland",
+      author: "\u8212\u5a77", authorEn: "Shu Ting",
+      authorBio: {cn:"舒婷（1952— ），原名龚佩瑜，福建泉州人，当代女诗人。朦胧诗派代表人物之一。代表作有《致橡树》《祖国啊，我亲爱的祖国》等。", en:"Shu Ting (b. 1952), original name Gong Peiyu, from Quanzhou, Fujian. Contemporary female poet and a leading figure of the Misty Poetry movement. Major works include To the Oak Tree and O Motherland, My Dear Motherland."},
+      isSelfRead: false,
+      preview: [{cn: "\u5148\u9ed8\u8bfb\u8bd7\u6b4c\uff0c\u7ed9\u4e0d\u8ba4\u8bc6\u7684\u5b57\u6ce8\u97f3\uff0c\u4e86\u89e3\u8bd7\u6b4c\u7684\u5185\u5bb9\uff0c\u628a\u6253\u52a8\u4f60\u7684\u8bd7\u53e5\u753b\u51fa\u6765\u3002\u518d\u5927\u58f0\u6717\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f5\u5f8b\u548c\u8282\u594f\u3002", en: "Read the poem silently first, annotate unfamiliar characters, and underline the lines that move you. Then read aloud to feel the rhythm and meter."}],
+      text: [
+        "\u6211\u662f\u4f60\u6cb3\u8fb9\u4e0a\u7834\u65e7\u7684\u8001\u6c34\u8f66\uff0c\u6570\u767e\u5e74\u6765\u7eba\u7740\u75b2\u60eb\u7684\u6b4c\uff1b\u6211\u662f\u4f60\u989d\u4e0a\u718f\u9ed1\u7684\u77ff\u706f\uff0c\u7167\u4f60\u5728\u5386\u53f2\u7684\u96a7\u6d1e\u91cc\u8717\u884c\u6478\u7d22\uff1b\u6211\u662f\u5e72\u7621\u7684\u7a3b\u7a57\uff1b\u662f\u5931\u4fee\u7684\u8def\u57fa\uff1b\u662f\u6de4\u6ee9\u4e0a\u7684\u9a73\u8239\u628a\u7ea4\u7ef3\u6df1\u6df1\u52d2\u8fdb\u4f60\u7684\u80a9\u818a\uff1b\u2014\u2014\u7956\u56fd\u554a\uff01",
+        "\u6211\u662f\u8d2b\u56f0\uff0c\u6211\u662f\u60b2\u54c0\u3002\u6211\u662f\u4f60\u7956\u7956\u8f88\u8f88\u75db\u82e6\u7684\u5e0c\u671b\u554a\uff0c\u662f\u201c\u98de\u5929\u201d\u8896\u95f4\u5343\u767e\u5e74\u6765\u672a\u843d\u5230\u5730\u9762\u7684\u82b1\u6735\uff1b\u2014\u2014\u7956\u56fd\u554a\uff01",
+        "\u6211\u662f\u4f60\u7c07\u65b0\u7684\u7406\u60f3\uff0c\u521a\u4ece\u795e\u8bdd\u7684\u86db\u7f51\u91cc\u631b\u8131\uff1b\u6211\u662f\u4f60\u96ea\u88ab\u4e0b\u53e4\u83b2\u7684\u80da\u82bd\uff1b\u6211\u662f\u4f60\u6302\u7740\u773c\u6cea\u7684\u7b11\u6da1\uff1b\u6211\u662f\u65b0\u5237\u51fa\u7684\u96ea\u767d\u7684\u8d77\u8dd1\u7ebf\uff1b\u662f\u7eef\u7ea2\u7684\u9ece\u660e\u6b63\u5728\u55b7\u8584\uff1b\u2014\u2014\u7956\u56fd\u554a\uff01",
+        "\u6211\u662f\u4f60\u7684\u5341\u4ebf\u5206\u4e4b\u4e00\uff0c\u662f\u4f60\u4e5d\u767e\u516d\u5341\u4e07\u5e73\u65b9\u7684\u603b\u548c\uff1b\u4f60\u4ee5\u4f24\u75d5\u7d2f\u7d2f\u7684\u4e73\u623f\u5582\u517b\u4e86\u8ff7\u60d8\u7684\u6211\u3001\u6df1\u601d\u7684\u6211\u3001\u6cb8\u817e\u7684\u6211\uff1b\u90a3\u5c31\u4ece\u6211\u7684\u8840\u8089\u4e4b\u8eaf\u4e0a\u53bb\u53d6\u5f97\u4f60\u7684\u5bcc\u9976\u3001\u4f60\u7684\u8363\u5149\u3001\u4f60\u7684\u81ea\u7531\uff1b\u2014\u2014\u7956\u56fd\u554a\uff0c\u6211\u4eb2\u7231\u7684\u7956\u56fd\uff01"
+      ],
+      textEn: [
+        "I am your old, broken waterwheel by the river, spinning a weary song for hundreds of years; I am the soot-blackened miner\u2019s lamp on your forehead, lighting your way as you grope through the tunnel of history; I am the withered ear of grain; the washed-out roadbed; the barge on the silted shoal whose tow-rope cuts deep into your shoulder; \u2014O Motherland!",
+        "I am poverty, I am sorrow. I am the painful hope of your ancestors for generations, the flower in the sleeves of the \u2018flying apsaras\u2019 that for millennia never fell to earth; \u2014O Motherland!",
+        "I am your brand-new ideal, just breaking free from the spider web of myth; I am the embryo of an ancient lotus beneath your blanket of snow; I am your tear-stained dimple; I am the freshly painted, snow-white starting line; the crimson dawn bursting forth; \u2014O Motherland!",
+        "I am one ten-billionth of you, the sum of your 9.6 million square kilometers; with your scarred breast you nourished the bewildered me, the contemplative me, the passionate me; then from my body of flesh and blood take your prosperity, your glory, your freedom; \u2014O Motherland, my dear Motherland!"
+      ],
+      annotations: [
+        {term: "\u7eba\u7740\u75b2\u60eb\u7684\u6b4c", cn: "\u5f62\u5bb9\u53e4\u8001\u7684\u6c34\u8f66\u53d1\u51fa\u758f\u7d2f\u7684\u58f0\u97f3", en: "Describes the old waterwheel emitting a weary sound"},
+        {term: "\u98de\u5929", cn: "\u6566\u714c\u58c1\u753b\u4e2d\u7684\u98de\u5929\u4ed9\u5973\u5f62\u8c61", en: "The flying apsaras (celestial beings) in Dunhuang murals"},
+        {term: "\u7c07\u65b0", cn: "\u5168\u65b0\u7684\uff0c\u5f62\u5bb9\u5149\u5f69\u5168\u65b0", en: "Brand-new, fresh and bright"}
+      ],
+      thinkExplore: [
+        {cn: "\u8bd7\u4e2d\u7684\u201c\u6211\u201d\u4ec5\u4ec5\u6307\u8bd7\u4eba\u81ea\u5df1\u5417\uff1f\u201c\u6211\u201d\u4e0e\u7956\u56fd\u662f\u4e00\u79cd\u4ec0\u4e48\u5173\u7cfb\uff1f", en: "Does \u2018I\u2019 in the poem refer only to the poet? What is the relationship between \u2018I\u2019 and the motherland?"},
+        {cn: "\u8bd7\u4eba\u7528\u4e00\u7cfb\u5217\u610f\u8c61\uff0c\u5f62\u8c61\u5730\u62d2\u53d1\u81ea\u5df1\u5bf9\u7956\u56fd\u7684\u60c5\u611f\u3002\u8bd5\u7ed3\u5408\u6bcf\u8282\u8bd7\u4e2d\u7684\u610f\u8c61\uff0c\u5206\u6790\u8bd7\u4eba\u7684\u60c5\u611f\u8109\u7edc\u3002", en: "The poet uses a series of images to express feelings about the motherland. Analyze the emotional progression through the images in each stanza."}
+      ],
+      accumExtend: [
+        {cn: "\u6717\u8bfb\u5e76\u80cc\u8bf5\u8fd9\u9996\u8bd7\u3002\u5982\u4f55\u628a\u63e1\u6717\u8bfb\u7684\u8bed\u901f\u3001\u8282\u594f\u3001\u8bed\u6c14\u548c\u8bed\u8c03\uff1f", en: "Read aloud and recite the poem. How should you control speed, rhythm, tone, and intonation?"}
+      ],
+      teachingPoints: [
+        {cn: "\u628a\u63e1\u8bd7\u6b4c\u4e2d\u7684\u610f\u8c61\uff0c\u7406\u89e3\u201c\u6211\u201d\u4e0e\u7956\u56fd\u7684\u5173\u7cfb\uff0c\u4f53\u4f1a\u8bd7\u4eba\u6df1\u6c89\u7684\u7231\u56fd\u4e4b\u60c5\u3002", en: "Grasp the imagery in the poem, understand the relationship between \u2018I\u2019 and the motherland, and appreciate the poet\u2019s deep patriotism."},
+        {cn: "\u5b66\u4e60\u8212\u5a77\u7684\u670b\u80e7\u8bd7\u98ce\u683c\uff0c\u611f\u53d7\u7528\u610f\u8c61\u8868\u8fbe\u60c5\u611f\u7684\u5199\u4f5c\u65b9\u6cd5\u3002", en: "Study Shu Ting\u2019s Misty Poetry style and learn how to express emotions through imagery."}
+      ],
+      parentTips: [
+        {cn: "\u5f15\u5bfc\u5b69\u5b50\u4e86\u89e3\u8bd7\u6b4c\u521b\u4f5c\u80cc\u666f\uff08\u6539\u9769\u5f00\u653e\u521d\u671f\uff09\uff0c\u4f53\u4f1a\u65f6\u4ee3\u611f\u3002", en: "Help your child understand the poem\u2019s historical context (early Reform and Opening-up period) and feel its sense of the times."}
+      ]
+    },
+    {
+      id: 2, title: "\u6885\u5cad\u4e09\u7ae0",
+      titleEn: "Three Poems at Meiling",
+      author: "\u9648\u6bc5", authorEn: "Chen Yi",
+      authorBio: {cn:"陈毅（1901—1972），四川乐至人。无产阶级革命家、军事家、外交家，中华人民共和国元帅。工于诗词，有《陈毅诗词选集》。", en:"Chen Yi (1901–1972), from Lezhi, Sichuan. Proletarian revolutionary, military strategist, and diplomat; Marshal of the People's Republic of China. An accomplished poet; published Selected Poems of Chen Yi."},
+      isSelfRead: true,
+      preview: [{cn: "\u751f\u4e0e\u6b7b\u7684\u6289\u62e9\uff0c\u662f\u4eba\u9762\u5bf9\u7684\u6700\u4e25\u5cfb\u7684\u8003\u9a8c\u3002\u9648\u6bc5\u5728\u751f\u6b7b\u5173\u5934\u5199\u4e0b\u8fd9\u4e09\u9996\u8bd7\u3002", en: "The choice between life and death is the most severe test one can face. Chen Yi wrote these three poems at a critical moment."}],
+      text: [
+        "\u4e00\u4e5d\u4e09\u516d\u5e74\u51ac\uff0c\u6885\u5c71\u88ab\u56f4\u3002\u4f59\u4f24\u75c5\u4f0f\u4e1b\u83bd\u95f4\u4e8c\u5341\u4f59\u65e5\uff0c\u8651\u4e0d\u5f97\u8131\uff0c\u5f97\u8bd7\u4e09\u9996\u7559\u8863\u5e95\u3002\u65cb\u56f4\u89e3\u3002",
+        "\u4e00\u3000\u65ad\u5934\u4eca\u65e5\u610f\u5982\u4f55\uff1f\u521b\u4e1a\u8270\u96be\u767e\u6218\u591a\u3002\u6b64\u53bb\u6cc9\u53f0\u62db\u65e7\u90e8\uff0c\u65cc\u65d7\u5341\u4e07\u65a9\u960e\u7f57\u3002",
+        "\u4e8c\u3000\u5357\u56fd\u70fd\u70df\u6b63\u5341\u5e74\uff0c\u6b64\u5934\u987b\u5411\u56fd\u95e8\u60ac\u3002\u540e\u6b7b\u8bf8\u541b\u591a\u52aa\u529b\uff0c\u6377\u62a5\u98de\u6765\u5f53\u7eb8\u94b1\u3002",
+        "\u4e09\u3000\u6295\u8eab\u9769\u547d\u5373\u4e3a\u5bb6\uff0c\u8840\u96e8\u8165\u98ce\u5e94\u6709\u6daf\u3002\u53d6\u4e49\u6210\u4ec1\u4eca\u65e5\u4e8b\uff0c\u4eba\u95f4\u904d\u79cd\u81ea\u7531\u82b1\u3002"
+      ],
+      textEn: [
+        "Winter of 1936, besieged at Meishan. Wounded and ill, I lay hidden in the undergrowth for over twenty days, fearing I could not escape. I wrote three poems and hid them in my clothing. Soon the siege was lifted.",
+        "I. What thoughts fill my mind today as I face the blade? The road of revolution has been paved with a hundred battles. From the netherworld I shall summon my old comrades \u2014 ten thousand strong with banners raised to vanquish the King of Hell.",
+        "II. Ten years of war smoke in the southern lands \u2014 this head must hang upon the city gate. Let the survivors redouble their efforts; let victorious dispatches serve as offerings of spirit money.",
+        "III. To join the revolution is to make it one\u2019s home; the rain of blood and stench of war must someday end. To die for righteousness and virtue is today\u2019s task \u2014 let flowers of freedom bloom across the land."
+      ],
+      annotations: [
+        {term: "\u6cc9\u53f0", cn: "\u6307\u4eba\u6b7b\u540e\u57cb\u846c\u7684\u5730\u65b9\uff0c\u4e5f\u6307\u9634\u95f4", en: "The netherworld; the realm of the dead"},
+        {term: "\u65cc\u65d7", cn: "\u65d7\u5e1c\u7684\u603b\u79f0\uff0c\u8fd9\u91cc\u501f\u6307\u519b\u58eb", en: "Banners; here it refers to soldiers"},
+        {term: "\u53d6\u4e49\u6210\u4ec1", cn: "\u5373\u201c\u820d\u751f\u53d6\u4e49\u201d\u201c\u6740\u8eab\u6210\u4ec1\u201d\uff0c\u4e3a\u4ec1\u4e49\u800c\u727a\u7272", en: "To sacrifice one\u2019s life for righteousness and virtue"}
+      ],
+      thinkExplore: [
+        {cn: "\u4f53\u4f1a\u9769\u547d\u8005\u6df1\u6c89\u535a\u5927\u800c\u53c8\u70bd\u70ed\u6fc0\u8d8a\u7684\u60c5\u611f\u3002", en: "Appreciate the revolutionary\u2019s deep, broad yet ardent and passionate emotions."}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u628a\u63e1\u8bd7\u4e2d\u610f\u8c61\uff0c\u4f53\u4f1a\u9769\u547d\u8005\u4e0d\u5c48\u7684\u6218\u6597\u610f\u5fd7\u548c\u5bf9\u9769\u547d\u5fc5\u80dc\u7684\u4fe1\u5ff5\u3002", en: "Grasp the imagery and appreciate the revolutionary\u2019s indomitable fighting spirit and faith in certain victory."}
+      ],
+      parentTips: [
+        {cn: "\u4e86\u89e3\u9648\u6bc5\u5143\u5e05\u7684\u751f\u5e73\u548c\u9769\u547d\u5386\u53f2\u80cc\u666f\u3002", en: "Learn about Marshal Chen Yi\u2019s life and the revolutionary historical context."}
+      ]
+    },
+    {
+      id: 3, title: "\u77ed\u8bd7\u4e94\u9996",
+      titleEn: "Five Short Poems",
+      author: "\u6c88\u5c39\u9ed8\u3001\u6234\u671b\u8212\u3001\u5351\u4e4b\u7433\u3001\u82a6\u83fb\u3001\u8042\u9c81\u8fbe", authorEn: "Shen Yinmo, Dai Wangshu, Bian Zhilin, Lu Di, Pablo Neruda",
+      authorBio: {cn:"沈尹默（1883—1971），浙江人，诗人、书法家。戴望舒（1905—1950），浙江杭州人，\u201c雨巷诗人\u201d。卞之琳（1910—2000），江苏海门人，诗人、翻译家。芦荻（1912—1994），广东人，诗人。聂鲁达（1904—1973），智利诗人，1971年获诺贝尔文学奖。", en:"Shen Yinmo (1883–1971), from Zhejiang, poet and calligrapher. Dai Wangshu (1905–1950), from Hangzhou, Zhejiang, known as the 'Poet of the Rainy Lane.' Bian Zhilin (1910–2000), from Haimen, Jiangsu, poet and translator. Lu Di (1912–1994), from Guangdong, poet. Pablo Neruda (1904–1973), Chilean poet, Nobel Prize in Literature 1971."},
+      isSelfRead: true,
+      preview: [{cn: "\u8fd9\u51e0\u9996\u77ed\u8bd7\uff0c\u8bed\u8a00\u51dd\u7ec3\u800c\u542b\u84c4\uff0c\u8574\u542b\u7740\u4e30\u5bcc\u7684\u60c5\u611f\u548c\u54f2\u601d\u3002", en: "These short poems are concise yet profound, rich with emotion and philosophical reflection."}],
+      text: [
+        "\u6708\u591c\u3000\u6c88\u5c39\u9ed8\n\u971c\u98ce\u547c\u547c\u7684\u5439\u7740\uff0c\u6708\u5149\u660e\u660e\u7684\u7167\u7740\u3002\u6211\u548c\u4e00\u682a\u9876\u9ad8\u7684\u6811\u5e76\u6392\u7acb\u7740\uff0c\u5374\u6ca1\u6709\u9760\u7740\u3002",
+        "\u8427\u7ea2\u5893\u7554\u53e3\u5360\u3000\u6234\u671b\u8212\n\u8d70\u516d\u5c0f\u65f6\u5bc2\u5bde\u7684\u957f\u9014\uff0c\u5230\u4f60\u5934\u8fb9\u653e\u4e00\u675f\u7ea2\u5c71\u8336\uff0c\u6211\u7b49\u5f85\u7740\uff0c\u957f\u591c\u6f2b\u6f2b\uff0c\u4f60\u5374\u5367\u542c\u7740\u6d77\u6d9b\u95f2\u8bdd\u3002",
+        "\u65ad\u7ae0\u3000\u5351\u4e4b\u7433\n\u4f60\u7ad9\u5728\u6865\u4e0a\u770b\u98ce\u666f\uff0c\u770b\u98ce\u666f\u4eba\u5728\u697c\u4e0a\u770b\u4f60\u3002\u660e\u6708\u88c5\u9970\u4e86\u4f60\u7684\u7a97\u5b50\uff0c\u4f60\u88c5\u9970\u4e86\u522b\u4eba\u7684\u68a6\u3002",
+        "\u98ce\u96e8\u541f\u3000\u82a6\u83fb\n\u98ce\u4ece\u5927\u5730\u5377\u6765\uff0c\u96e8\u4ece\u5927\u5730\u5954\u6765\u3002\u90ca\u539f\u5982\u6d77\uff0c\u623f\u820d\u5982\u821f\u3002\u6211\u6709\u5e74\u8f7b\u8235\u624b\u7684\u5fc3\uff0c\u5728\u5927\u5730\u98ce\u96e8\u7684\u6d77\u4e0a\u3002",
+        "\u7edf\u4e00\u3000\u8042\u9c81\u8fbe\n\u6240\u6709\u7684\u53f6\u662f\u8fd9\u4e00\u7247\uff0c\u6240\u6709\u7684\u82b1\u662f\u8fd9\u4e00\u6735\uff0c\u7e41\u591a\u662f\u4e2a\u8c0e\u8a00\u3002\u56e0\u4e3a\u4e00\u5207\u679c\u5b9e\u5e76\u65e0\u5dee\u5f02\uff0c\u6240\u6709\u6811\u6728\u65e0\u975e\u4e00\u68f5\uff0c\u6574\u7247\u5927\u5730\u662f\u4e00\u6735\u82b1\u3002"
+      ],
+      textEn: [
+        "Moonlit Night \u2014 Shen Yinmo\nThe frosty wind blows and blows, the moonlight shines and shines. I stand side by side with a tall tree, yet I do not lean against it.",
+        "At Xiao Hong\u2019s Grave \u2014 Dai Wangshu\nWalking six hours of lonely road, I come to place a bunch of red camellias by your head. I wait through the endless night, while you lie listening to the sea\u2019s idle talk.",
+        "A Fragment \u2014 Bian Zhilin\nYou stand on the bridge watching the scenery; the watcher on the balcony watches you. The bright moon adorns your window; you adorn someone else\u2019s dream.",
+        "Song of Wind and Rain \u2014 Lu Di\nWind sweeps in from the earth, rain rushes in from the earth. The open fields are like the sea, houses are like boats. I have the heart of a young helmsman, on the sea of wind and rain across the land.",
+        "Unity \u2014 Pablo Neruda\nAll leaves are this one leaf, all flowers are this one flower, multiplicity is a lie. For all fruits are without difference, all trees are but one tree, the whole earth is one flower."
+      ],
+      annotations: [
+        {term: "\u53e3\u5360", cn: "\u5373\u5174\u4f5c\u8bd7\uff0c\u4e0d\u6253\u8349\u7a3f\uff0c\u968f\u53e3\u541f\u8bf5\u51fa\u6765", en: "Impromptu verse, composed orally without drafting"},
+        {term: "\u6c88\u5c39\u9ed8", cn: "(1883\u20131971)\uff0c\u6d59\u6c5f\u4eba\uff0c\u8bd7\u4eba\u3001\u4e66\u6cd5\u5bb6", en: "(1883\u20131971), from Zhejiang, poet and calligrapher"},
+        {term: "\u8042\u9c81\u8fbe", cn: "(1904\u20131973)\uff0c\u667a\u5229\u8bd7\u4eba\uff0c1971\u5e74\u83b7\u8bfa\u8d1d\u5c14\u6587\u5b66\u5956", en: "(1904\u20131973), Chilean poet, Nobel Prize in Literature 1971"}
+      ],
+      thinkExplore: [
+        {cn: "\u8054\u7cfb\u8bd7\u4eba\u751f\u5e73\u548c\u521b\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u5185\u5bb9\uff0c\u628a\u63e1\u8bd7\u4eba\u7684\u601d\u60f3\u60c5\u611f\u3002", en: "Connect the poets\u2019 lives and creative backgrounds to understand the poems\u2019 content and grasp their emotions."}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u4f53\u4f1a\u77ed\u8bd7\u51dd\u7ec3\u542b\u84c4\u7684\u8bed\u8a00\uff0c\u611f\u53d7\u610f\u8c61\u8425\u9020\u7684\u4e0d\u540c\u6c1b\u56f4\u3002", en: "Appreciate the concise, suggestive language of short poems and feel the different atmospheres created by imagery."}
+      ],
+      parentTips: [
+        {cn: "\u9f13\u52b1\u5b69\u5b50\u5c1d\u8bd5\u5199\u4e00\u9996\u77ed\u8bd7\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u521b\u4f5c\u7684\u4e50\u8da3\u3002", en: "Encourage your child to try writing a short poem and experience the joy of poetic creation."}
+      ]
+    },
+    {
+      id: 4, title: "\u6d77\u71d5",
+      titleEn: "The Petrel",
+      author: "\u9ad8\u5c14\u57fa", authorEn: "Maxim Gorky",
+      authorBio: {cn:"高尔基（1868—1936），原名阿列克谢·马克西莫维奇·彼什科夫，苏联伟大的无产阶级作家。代表作有《母亲》《童年》《在人间》《我的大学》等。", en:"Maxim Gorky (1868–1936), born Alexei Maximovich Peshkov. Great Soviet proletarian writer. Major works include Mother, Childhood, In the World, and My Universities."},
+      isSelfRead: false,
+      preview: [{cn: "\u672c\u6587\u5199\u4e8e\u4fc4\u56fd1905\u5e74\u9769\u547d\u524d\u6c99\u7687\u7edf\u6cbb\u6700\u9ed1\u6697\u7684\u65f6\u671f\u3002\u201c\u6d77\u71d5\u201d\u5728\u4fc4\u6587\u91cc\u542b\u6709\u201c\u66b4\u98ce\u96e8\u7684\u9884\u8a00\u8005\u201d\u4e4b\u610f\u3002", en: "This was written during the darkest period of Tsarist rule before Russia\u2019s 1905 Revolution. \u2018Petrel\u2019 in Russian means \u2018herald of the storm.\u2019"}],
+      text: [
+        "\u5728\u82cd\u8292\u7684\u5927\u6d77\u4e0a\uff0c\u72c2\u98ce\u5377\u96c6\u7740\u4e4c\u4e91\u3002\u5728\u4e4c\u4e91\u548c\u5927\u6d77\u4e4b\u95f4\uff0c\u6d77\u71d5\u50cf\u9ed1\u8272\u7684\u95ea\u7535\uff0c\u5728\u9ad8\u50b2\u5730\u98de\u7fd4\u3002",
+        "\u4e00\u4f1a\u513f\u7fc5\u8180\u78b0\u7740\u6ce2\u6d6a\uff0c\u4e00\u4f1a\u513f\u7bad\u4e00\u822c\u5730\u76f4\u51b2\u5411\u4e4c\u4e91\uff0c\u5b83\u53eb\u558a\u7740\uff0c\u2014\u2014\u5c31\u5728\u8fd9\u9e1f\u513f\u52c7\u6562\u7684\u53eb\u558a\u58f0\u91cc\uff0c\u4e4c\u4e91\u542c\u51fa\u4e86\u6b22\u4e50\u3002",
+        "\u6d77\u9e25\u5728\u66b4\u98ce\u96e8\u6765\u4e34\u4e4b\u524d\u5458\u541f\u7740\uff0c\u5b83\u4eec\u5728\u5927\u6d77\u4e0a\u98de\u7a9c\uff0c\u60f3\u628a\u81ea\u5df1\u5bf9\u66b4\u98ce\u96e8\u7684\u6050\u60e7\u63a9\u85cf\u5230\u5927\u6d77\u6df1\u5904\u3002\u6d77\u9e2d\u4e5f\u5728\u5458\u541f\u7740\uff0c\u8e22\u7b28\u7684\u4f01\u9e45\uff0c\u80c6\u602f\u5730\u628a\u80a5\u80d6\u7684\u8eab\u4f53\u8e72\u85cf\u5728\u60ac\u5d16\u5e95\u4e0b\u2026\u2026\u53ea\u6709\u90a3\u9ad8\u50b2\u7684\u6d77\u71d5\uff0c\u52c7\u6562\u5730\uff0c\u81ea\u7531\u81ea\u5728\u5730\uff0c\u5728\u6cdb\u8d77\u767d\u6cab\u7684\u5927\u6d77\u4e0a\u98de\u7fd4\uff01",
+        "\u4e4c\u4e91\u8d8a\u6765\u8d8a\u6697\uff0c\u8d8a\u6765\u8d8a\u4f4e\uff0c\u5411\u6d77\u9762\u76f4\u538b\u4e0b\u6765\uff0c\u800c\u6ce2\u6d6a\u4e00\u8fb9\u6b4c\u5531\uff0c\u4e00\u8fb9\u51b2\u5411\u9ad8\u7a7a\uff0c\u53bb\u8fce\u63a5\u90a3\u96f7\u58f0\u3002",
+        "\u6d77\u71d5\u53eb\u558a\u7740\uff0c\u98de\u7fd4\u7740\uff0c\u50cf\u9ed1\u8272\u7684\u95ea\u7535\uff0c\u7bad\u4e00\u822c\u5730\u7a7f\u8fc7\u4e4c\u4e91\uff0c\u7fc5\u8180\u63a0\u8d77\u6ce2\u6d6a\u7684\u98de\u6cab\u3002",
+        "\u770b\u5427\uff0c\u5b83\u98de\u821e\u7740\uff0c\u50cf\u4e2a\u7cbe\u7075\uff0c\u2014\u2014\u9ad8\u50b2\u7684\u3001\u9ed1\u8272\u7684\u66b4\u98ce\u96e8\u7684\u7cbe\u7075\uff0c\u2014\u2014\u5b83\u5728\u5927\u7b11\uff0c\u5b83\u53c8\u5728\u53f7\u53eb\u2026\u2026\u5b83\u7b11\u90a3\u4e9b\u4e4c\u4e91\uff0c\u5b83\u56e0\u4e3a\u6b22\u4e50\u800c\u53f7\u53eb\uff01",
+        "\u2014\u2014\u66b4\u98ce\u96e8\uff01\u66b4\u98ce\u96e8\u5c31\u8981\u6765\u5566\uff01",
+        "\u8fd9\u662f\u52c7\u6562\u7684\u6d77\u71d5\uff0c\u5728\u6012\u543c\u7684\u5927\u6d77\u4e0a\uff0c\u5728\u95ea\u7535\u4e2d\u95f4\uff0c\u9ad8\u50b2\u5730\u98de\u7fd4\uff1b\u8fd9\u662f\u80dc\u5229\u7684\u9884\u8a00\u5bb6\u5728\u53eb\u558a\uff1a\u2014\u2014\u8ba9\u66b4\u98ce\u96e8\u6765\u5f97\u66f4\u731b\u70c8\u4e9b\u5427\uff01"
+      ],
+      textEn: [
+        "Over the grey expanse of the sea, the wind gathers storm clouds. Between the clouds and the sea, the petrel soars like a bolt of black lightning, proud in flight.",
+        "Now its wing tips touch the waves, now it darts upward like an arrow toward the clouds, crying out \u2014 and in this brave bird\u2019s cry, the clouds hear joy.",
+        "Seagulls moan before the coming storm, darting about the sea, trying to hide their terror in its depths. Sea ducks moan too. Stupid penguins cower beneath the cliffs\u2026 Only the proud petrel flies bravely and freely over the foam-crested sea!",
+        "The clouds press lower and darker toward the sea, while the waves sing and surge upward to meet the thunder.",
+        "The petrel cries and soars, a bolt of black lightning piercing the clouds, its wings scattering the spray of waves.",
+        "Look \u2014 it dances like a spirit \u2014 the proud, dark spirit of the storm \u2014 it laughs, it screams\u2026 It laughs at the clouds, it screams with joy!",
+        "\u2014The storm! The storm is coming!",
+        "This is the brave petrel, soaring proudly over the raging sea amid the lightning; this is the prophet of victory crying: \u2014Let the storm rage more fiercely!"
+      ],
+      annotations: [
+        {term: "\u6d77\u71d5", cn: "\u4e00\u79cd\u6d77\u9e1f\uff0c\u4fc4\u6587\u4e2d\u542b\u6709\u201c\u66b4\u98ce\u96e8\u7684\u9884\u8a00\u8005\u201d\u4e4b\u610f", en: "A seabird; in Russian the word implies \u2018herald of the storm\u2019"},
+        {term: "\u9ad8\u5c14\u57fa", cn: "(1868\u20131936)\uff0c\u539f\u540d\u963f\u5217\u514b\u8c22\u00b7\u9a6c\u514b\u897f\u83ab\u7ef4\u5947\u00b7\u5f7c\u4ec0\u79d1\u592b\uff0c\u82cf\u8054\u4f5c\u5bb6", en: "(1868\u20131936), born Alexei Maximovich Peshkov, Soviet writer"}
+      ],
+      thinkExplore: [
+        {cn: "\u6574\u4f53\u628a\u63e1\u8bfe\u6587\u5185\u5bb9\uff0c\u4f53\u4f1a\u8fd9\u9996\u6563\u6587\u8bd7\u4e2d\u4e0d\u540c\u5f62\u8c61\u7684\u8c61\u5f81\u610f\u4e49\u3002", en: "Grasp the overall content and understand the symbolic meaning of different images in this prose poem."},
+        {cn: "\u8bfe\u6587\u6b4c\u9882\u7684\u662f\u6d77\u71d5\uff0c\u4e3a\u4ec0\u4e48\u8fd8\u8981\u5199\u6d77\u9e25\u3001\u6d77\u9e2d\u548c\u4f01\u9e45\uff1f", en: "The text praises the petrel \u2014 why does it also describe the seagulls, sea ducks, and penguins?"}
+      ],
+      accumExtend: [
+        {cn: "\u54c1\u5473\u8bfe\u6587\u4e2d\u7684\u4fee\u8f9e\u624b\u6cd5\u53ca\u5176\u8868\u8fbe\u6548\u679c\u3002", en: "Analyze the rhetorical devices in the text and their expressive effects."}
+      ],
+      teachingPoints: [
+        {cn: "\u7406\u89e3\u8c61\u5f81\u624b\u6cd5\uff0c\u4f53\u4f1a\u6d77\u71d5\u3001\u6d77\u9e25\u3001\u4f01\u9e45\u7b49\u5f62\u8c61\u7684\u8c61\u5f81\u610f\u4e49\u3002", en: "Understand symbolism; appreciate the symbolic meanings of the petrel, seagulls, penguins, etc."},
+        {cn: "\u5b66\u4e60\u6563\u6587\u8bd7\u7684\u8bed\u8a00\u7279\u70b9\uff0c\u611f\u53d7\u5176\u6fc0\u60c5\u548c\u6c14\u52bf\u3002", en: "Study the linguistic features of prose poetry; feel its passion and momentum."}
+      ],
+      parentTips: [
+        {cn: "\u548c\u5b69\u5b50\u8ba8\u8bba\u201c\u6d77\u71d5\u7cbe\u795e\u201d\u5728\u73b0\u5b9e\u751f\u6d3b\u4e2d\u7684\u610f\u4e49\u3002", en: "Discuss the meaning of the \u2018petrel spirit\u2019 in real life with your child."}
+      ]
+    }
+  ],
+  writing: {
+    title: "\u5b66\u4e60\u6269\u5199", titleEn: "Learning to Expand Writing",
+    content: {
+      cn: "\u6269\u5199\uff0c\u662f\u5bf9\u672c\u6765\u8f83\u4e3a\u7b80\u7565\u7684\u6587\u7ae0\u6216\u7247\u6bb5\u52a0\u4ee5\u6269\u5c55\u3001\u8865\u5145\uff0c\u4f7f\u4e4b\u6210\u4e3a\u7bc7\u5e45\u66f4\u957f\u3001\u5185\u5bb9\u66f4\u5145\u5b9e\u7684\u6587\u7ae0\u3002\u6269\u5199\u8981\u5fe0\u4e8e\u539f\u6587\uff0c\u627e\u51c6\u6269\u5199\u70b9\uff0c\u6ce8\u610f\u5185\u5bb9\u7684\u4e00\u81f4\u548c\u8fde\u8d2f\u3002",
+      en: "Expansion writing means taking a brief text or passage and extending it into a longer, more detailed piece. One must stay faithful to the original, identify the right points for expansion, and maintain consistency and coherence."
+    }
+  }
+},
+/* ═══════════════════════════════════════════ */
+/*  UNIT 2 — 第二单元 小说 Fiction              */
+/* ═══════════════════════════════════════════ */
+{
+  id: 2, title: "\u7b2c\u4e8c\u5355\u5143", titleEn: "Unit 2", type: "kewen",
+  theme: "\u5c0f\u8bf4", themeEn: "Fiction",
+  unitIntro: {
+    cn: "\u5c0f\u8bf4\u5f80\u5f80\u901a\u8fc7\u5851\u9020\u4eba\u7269\u5f62\u8c61\u6765\u8868\u73b0\u793e\u4f1a\u751f\u6d3b\u3002\u5c0f\u8bf4\u4e2d\u4eba\u7269\u7684\u559c\u6012\u54c0\u4e50\u3001\u60b2\u6b22\u79bb\u5408\uff0c\u5e38\u5e38\u80fd\u6298\u5c04\u51fa\u4e16\u6001\u4eba\u60c5\u548c\u65f6\u4ee3\u98ce\u8c8c\u3002\u5b66\u4e60\u672c\u5355\u5143\uff0c\u8981\u5728\u68b3\u7406\u60c5\u8282\u3001\u5206\u6790\u4eba\u7269\u5f62\u8c61\u7684\u57fa\u7840\u4e0a\uff0c\u5bf9\u4f5c\u54c1\u7684\u5185\u5bb9\u3001\u4e3b\u9898\u6709\u81ea\u5df1\u7684\u770b\u6cd5\u3002",
+    en: "Fiction reveals social life through character portrayal. The joys, sorrows, and separations of fictional characters often reflect the human condition and the spirit of an age. Study this unit by tracing plots, analyzing characters, and forming your own views on themes and content."
+  },
+  lessons: [
+    {
+      id: 5, title: "\u5b54\u4e59\u5df1",
+      titleEn: "Kong Yiji",
+      author: "\u9c81\u8fc5", authorEn: "Lu Xun",
+      authorBio: {cn:"鲁迅（1881—1936），原名周树人，字豫才，浙江绍兴人。文学家、思想家、革命家，中国现代文学的奠基人。代表作有《呐喊》《彷徨》《朝花夕拾》等。", en:"Lu Xun (1881–1936), original name Zhou Shuren, from Shaoxing, Zhejiang. Literary giant, thinker, and revolutionary; founder of modern Chinese literature. Major works include Call to Arms, Wandering, and Dawn Blossoms Plucked at Dusk."},
+      isSelfRead: false,
+      preview: [{cn: "\u201c\u5b54\u4e59\u5df1\u201d\u662f\u5c0f\u8bf4\u4e2d\u4eba\u7269\u7684\u7ed0\u53f7\u3002\u8bfb\u5b8c\u8bfe\u6587\uff0c\u60f3\u4e00\u60f3\uff0c\u5b54\u4e59\u5df1\u7ed9\u4f60\u7559\u4e0b\u4e86\u600e\u6837\u7684\u5370\u8c61\uff1f", en: "\u2018Kong Yiji\u2019 is the character\u2019s nickname. After reading, consider: what impression does he leave on you?"}],
+      text: [
+        "\u9c81\u9547\u7684\u9152\u5e97\u7684\u683c\u5c40\uff0c\u662f\u548c\u522b\u5904\u4e0d\u540c\u7684\uff1a\u90fd\u662f\u5f53\u8857\u4e00\u4e2a\u66f2\u5c3a\u5f62\u7684\u5927\u67dc\u53f0\uff0c\u67dc\u91cc\u9762\u9884\u5907\u7740\u70ed\u6c34\uff0c\u53ef\u4ee5\u968f\u65f6\u6e29\u9152\u3002\u505a\u5de5\u7684\u4eba\uff0c\u508d\u5348\u508d\u665a\u6563\u4e86\u5de5\uff0c\u6bcf\u6bcf\u82b1\u56db\u6587\u94dc\u94b1\uff0c\u4e70\u4e00\u7897\u9152\uff0c\u9760\u67dc\u5916\u7ad9\u7740\uff0c\u70ed\u70ed\u7684\u559d\u4e86\u4f11\u606f\u3002",
+        "\u5b54\u4e59\u5df1\u662f\u7ad9\u7740\u559d\u9152\u800c\u7a7f\u957f\u886b\u7684\u552f\u4e00\u7684\u4eba\u3002\u4ed6\u8eab\u6750\u5f88\u9ad8\u5927\uff1b\u9752\u767d\u8138\u8272\uff0c\u76b1\u7eb9\u95f4\u65f6\u5e38\u5939\u4e9b\u4f24\u75d5\uff1b\u4e00\u90e8\u4e71\u84ec\u84ec\u7684\u82b1\u767d\u7684\u80e1\u5b50\u3002\u7a7f\u7684\u867d\u7136\u662f\u957f\u886b\uff0c\u53ef\u662f\u53c8\u810f\u53c8\u7834\uff0c\u4f3c\u4e4e\u5341\u591a\u5e74\u6ca1\u6709\u8865\uff0c\u4e5f\u6ca1\u6709\u6d17\u3002",
+        "\u5b54\u4e59\u5df1\u4e00\u5230\u5e97\uff0c\u6240\u6709\u559d\u9152\u7684\u4eba\u4fbf\u90fd\u770b\u7740\u4ed6\u7b11\uff0c\u6709\u7684\u53eb\u9053\uff1a\u201c\u5b54\u4e59\u5df1\uff0c\u4f60\u8138\u4e0a\u53c8\u6dfb\u4e0a\u65b0\u4f24\u7584\u4e86\uff01\u201d\u4ed6\u4e0d\u56de\u7b54\uff0c\u5bf9\u67dc\u91cc\u8bf4\uff1a\u201c\u6e29\u4e24\u7897\u9152\uff0c\u8981\u4e00\u789f\u8334\u9999\u8c46\u3002\u201d\u4fbf\u6392\u51fa\u4e5d\u6587\u5927\u94b1\u3002",
+        "\u6709\u4e00\u5929\uff0c\u5927\u7ea6\u662f\u4e2d\u79cb\u524d\u7684\u4e24\u4e09\u5929\uff0c\u638c\u67dc\u5ffd\u7136\u8bf4\uff1a\u201c\u5b54\u4e59\u5df1\u957f\u4e45\u6ca1\u6709\u6765\u4e86\u3002\u8fd8\u6b20\u5341\u4e5d\u4e2a\u94b1\u5462\uff01\u201d\u4e00\u4e2a\u559d\u9152\u7684\u4eba\u8bf4\u9053\uff1a\u201c\u4ed6\u600e\u4e48\u4f1a\u6765\uff1f\u2026\u2026\u4ed6\u6253\u6298\u4e86\u817f\u4e86\u3002\u201d",
+        "\u4e2d\u79cb\u8fc7\u540e\uff0c\u79cb\u98ce\u662f\u4e00\u5929\u51c9\u6bd4\u4e00\u5929\u3002\u5ffd\u7136\u95f4\u542c\u5f97\u4e00\u4e2a\u58f0\u97f3\uff1a\u201c\u6e29\u4e00\u7897\u9152\u3002\u201d\u90a3\u5b54\u4e59\u5df1\u4fbf\u5728\u67dc\u53f0\u4e0b\u5bf9\u4e86\u95e8\u69db\u5750\u7740\u3002\u4ed6\u8138\u4e0a\u9ed1\u800c\u4e14\u7626\uff0c\u5df2\u7ecf\u4e0d\u6210\u6837\u5b50\uff1b\u4ed6\u4ece\u7834\u8863\u888b\u91cc\u6478\u51fa\u56db\u6587\u5927\u94b1\uff0c\u539f\u6765\u4ed6\u4fbf\u7528\u8fd9\u624b\u8d70\u6765\u7684\u3002",
+        "\u6211\u5230\u73b0\u5728\u7ec8\u4e8e\u6ca1\u6709\u89c1\u2014\u2014\u5927\u7ea6\u5b54\u4e59\u5df1\u7684\u786e\u6b7b\u4e86\u3002"
+      ],
+      textEn: [
+        "The layout of the taverns in Luzhen was different from elsewhere: a large L-shaped counter faced the street, with hot water ready inside for warming wine. Working men would come after their shifts and spend four coppers on a bowl of wine, standing by the counter.",
+        "Kong Yiji was the only one who drank standing up while wearing a scholar\u2019s long gown. He was tall, with a pale face scarred between the wrinkles, and a tangled, graying beard. His gown, though long, was so dirty and tattered it seemed not to have been mended or washed in over ten years.",
+        "Whenever Kong Yiji arrived, all the drinkers would look at him and laugh. Someone would call out: \u2018Kong Yiji, you\u2019ve got new scars on your face!\u2019 He would not answer, but say to the counter: \u2018Warm two bowls of wine, and a dish of fennel beans.\u2019 Then he would lay out nine coppers.",
+        "One day, around two or three days before the Mid-Autumn Festival, the shopkeeper suddenly said: \u2018Kong Yiji hasn\u2019t come for a long time. He still owes nineteen coppers!\u2019 A drinker said: \u2018How could he come? His legs were broken.\u2019",
+        "After Mid-Autumn, the autumn wind grew colder each day. Suddenly I heard a voice: \u2018Warm a bowl of wine.\u2019 Kong Yiji was sitting on the ground below the counter by the threshold. His face was dark and thin, in terrible shape; he fumbled four coppers from his torn pocket \u2014 he had crawled here on his hands.",
+        "I have never seen him since \u2014 Kong Yiji is probably really dead."
+      ],
+      annotations: [
+        {term: "\u77ed\u8863\u5e2e", cn: "\u65e7\u6307\u77ed\u6253\u8863\u7740\u7684\u52b3\u52a8\u8005", en: "Refers to working-class people in short jackets"},
+        {term: "\u7a83\u4e66\u4e0d\u80fd\u7b97\u5077", cn: "\u5b54\u4e59\u5df1\u4e3a\u5077\u4e66\u8fa9\u89e3\u7684\u540d\u53e5", en: "Kong Yiji\u2019s famous excuse for stealing books"},
+        {term: "\u541b\u5b50\u56fa\u7a77", cn: "\u8bed\u51fa\u300a\u8bba\u8bed\u00b7\u536b\u7075\u516c\u300b\uff0c\u610f\u601d\u662f\u541b\u5b50\u80fd\u5b89\u5b88\u7a77\u56f0", en: "From the Analerta: a gentleman endures poverty with integrity"}
+      ],
+      thinkExplore: [
+        {cn: "\u5b54\u4e59\u5df1\u662f\u4e00\u4e2a\u600e\u6837\u7684\u4eba\uff1f\u7ed3\u5408\u5177\u4f53\u63cf\u5199\uff0c\u8054\u7cfb\u4eba\u7269\u6240\u5904\u7684\u793e\u4f1a\u73af\u5883\u3002", en: "What kind of person is Kong Yiji? Connect specific descriptions to his social environment."},
+        {cn: "\u5c0f\u8bf4\u591a\u6b21\u5199\u5230\u4eba\u4eec\u7684\u201c\u7b11\u201d\uff0c\u4f5c\u8005\u7528\u201c\u7b11\u201d\u6765\u8d2f\u7a7f\u6545\u4e8b\uff0c\u6709\u4ec0\u4e48\u7528\u610f\uff1f", en: "The novel repeatedly mentions people\u2019s \u2018laughter.\u2019 What is the author\u2019s purpose in using laughter as a thread?"}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u5206\u6790\u5c0f\u8bf4\u7684\u53d9\u8ff0\u89c6\u89d2\u3001\u4eba\u7269\u5f62\u8c61\u548c\u793e\u4f1a\u610f\u4e49\uff0c\u7406\u89e3\u5c01\u5efa\u79d1\u4e3e\u5236\u5ea6\u5bf9\u4eba\u7684\u6bc4\u5bb3\u3002", en: "Analyze the narrative perspective, character, and social significance; understand the harm of the imperial examination system."},
+        {cn: "\u54c1\u5473\u9c81\u8fc5\u5c0f\u8bf4\u4e2d\u201c\u770b\u5ba2\u201d\u5f62\u8c61\u7684\u6df1\u5c42\u542b\u4e49\u3002", en: "Appreciate the deeper meaning of the \u2018spectator\u2019 figures in Lu Xun\u2019s fiction."}
+      ],
+      parentTips: [
+        {cn: "\u4e86\u89e3\u9c81\u8fc5\u7684\u6587\u5b66\u601d\u60f3\uff0c\u63a2\u8ba8\u201c\u770b\u5ba2\u201d\u73b0\u8c61\u5728\u73b0\u4ee3\u793e\u4f1a\u7684\u542f\u793a\u3002", en: "Learn about Lu Xun\u2019s literary thought and discuss what the \u2018spectator\u2019 phenomenon means for modern society."}
+      ]
+    },
+    {
+      id: 6, title: "\u53d8\u8272\u9f99",
+      titleEn: "The Chameleon",
+      author: "\u5951\u8bc3\u592b", authorEn: "Anton Chekhov",
+      authorBio: {cn:"契诃夫（1860—1904），俄国作家、戏剧家，与莫泊桑、欧·亨利并称为\u201c世界三大短篇小说巨匠\u201d。代表作有《变色龙》《装在套子里的人》《樱桃园》等。", en:"Anton Chekhov (1860–1904), Russian writer and playwright. One of the 'three great masters of the short story' alongside Maupassant and O. Henry. Major works include The Chameleon, The Man in a Case, and The Cherry Orchard."},
+      isSelfRead: false,
+      preview: [{cn: "\u8fd9\u7bc7\u5c0f\u8bf4\u4ee5\u300a\u53d8\u8272\u9f99\u300b\u4e3a\u9898\uff0c\u4f1a\u5199\u4e00\u4e2a\u600e\u6837\u7684\u4eba\u7269\u5462\uff1f", en: "This story is titled \u2018The Chameleon\u2019 \u2014 what kind of character might it portray?"}],
+      text: [
+        "\u8b66\u5b98\u5965\u695a\u8511\u6d1b\u592b\u7a7f\u7740\u65b0\u7684\u519b\u5927\u8863\uff0c\u63d0\u7740\u5c0f\u5305\uff0c\u7a7f\u8fc7\u5e02\u573a\u7684\u5e7f\u573a\u3002",
+        "\u201c\u8fd9\u513f\u5230\u5e95\u51fa\u4e86\u4ec0\u4e48\u4e8b\uff1f\u201d\u5965\u695a\u8511\u6d1b\u592b\u6324\u8fdb\u4eba\u7fa4\u91cc\u53bb\uff0c\u95ee\u9053\u3002\u8d6b\u7559\u91d1\u628a\u8840\u6dcb\u6dcb\u7684\u624b\u6307\u5934\u4f38\u7ed9\u4eba\u4eec\u770b\uff1a\u201c\u8fd9\u8d31\u755c\u751f\u65e0\u7f18\u65e0\u6545\u5c31\u54ac\u4e86\u6211\u7684\u624b\u6307\u5934\u4e00\u53e3\u2026\u2026\u201d",
+        "\u201c\u8fd9\u597d\u50cf\u662f\u5e2d\u52a0\u6d1b\u592b\u5c06\u519b\u5bb6\u7684\u72d7\u3002\u201d\u4eba\u7fa4\u91cc\u6709\u4eba\u8bf4\u3002\u201c\u5e2d\u52a0\u6d1b\u592b\u5c06\u519b\uff1f\u54e6\uff01\u2026\u2026\u53f6\u5c14\u5fb7\u6797\uff0c\u5e2e\u6211\u628a\u5927\u8863\u8131\u4e0b\u6765\u2026\u2026\u771f\u8981\u547d\uff0c\u5929\u8fd9\u4e48\u70ed\u2026\u2026\u201d",
+        "\u201c\u8fd9\u4e0d\u662f\u6211\u4eec\u7684\u72d7\uff0c\u201d\u666e\u6d1b\u8bc3\u5c14\u63a5\u7740\u8bf4\uff0c\u201c\u8fd9\u662f\u5c06\u519b\u7684\u54e5\u54e5\u7684\u72d7\u3002\u201d\u201c\u4ed6\u54e5\u54e5\u6765\u5566\uff1f\u662f\u4e4c\u62c9\u5409\u7c73\u5c14\u00b7\u4f0a\u51e1\u5c3c\u5947\u5417\uff1f\u201d\u5965\u695a\u8511\u6d1b\u592b\u95ee\uff0c\u6574\u4e2a\u8138\u4e0a\u6d0b\u6ea2\u7740\u542b\u7b11\u7684\u6e29\u60c5\u3002\u201c\u8fd9\u5c0f\u72d7\u8fd8\u4e0d\u8d56\uff0c\u602a\u4f36\u4fd0\u7684\uff0c\u4e00\u53e3\u5c31\u54ac\u7834\u4e86\u8fd9\u5bb6\u4f19\u7684\u624b\u6307\u5934\uff01\u201d",
+        "\u201c\u6211\u65e9\u665a\u8981\u6536\u62fe\u4f60\uff01\u201d\u5965\u695a\u8511\u6d1b\u592b\u5411\u4ed6\u6050\u5413\u8bf4\uff0c\u88f9\u7d27\u5927\u8863\uff0c\u7a7f\u8fc7\u5e02\u573a\u7684\u5e7f\u573a\u5f84\u81ea\u8d70\u4e86\u3002"
+      ],
+      textEn: [
+        "Police Inspector Ochumelov, in his new greatcoat and carrying a small bundle, walked across the market square.",
+        "\u2018What\u2019s going on here?\u2019 Ochumelov pushed into the crowd. Khryukin held up his bleeding finger: \u2018This wretched animal bit my finger for no reason!\u2019",
+        "\u2018That looks like General Zhigalov\u2019s dog,\u2019 someone in the crowd said. \u2018General Zhigalov? Oh!\u2026 Yeldyrin, help me take off my coat\u2026 It\u2019s so terribly hot\u2026\u2019",
+        "\u2018That\u2019s not our dog,\u2019 Prokhor continued, \u2018it belongs to the general\u2019s brother.\u2019 \u2018His brother\u2019s here? Vladimir Ivanich?\u2019 Ochumelov\u2019s whole face beamed with warm affection. \u2018What a nice little dog \u2014 quite clever \u2014 snapped this fellow\u2019s finger right off!\u2019",
+        "\u2018I\u2019ll get you sooner or later!\u2019 Ochumelov threatened, wrapping his coat tightly, and walked off across the square."
+      ],
+      annotations: [
+        {term: "\u5965\u695a\u8511\u6d1b\u592b", cn: "\u4fc4\u8bed\u672c\u4e49\u4e3a\u201c\u75af\u7654\u7684\u201d\uff0c\u7528\u4f5c\u59d3\u6709\u8bbd\u523a\u610f\u5473", en: "The name means \u2018crazy\u2019 in Russian, used satirically"},
+        {term: "\u5951\u8bc3\u592b", cn: "(1860\u20131904)\uff0c\u4fc4\u56fd\u4f5c\u5bb6\u3001\u620f\u5267\u5bb6", en: "(1860\u20131904), Russian writer and playwright"}
+      ],
+      thinkExplore: [
+        {cn: "\u5965\u695a\u8511\u6d1b\u592b\u201c\u53d8\u8272\u201d\u7684\u539f\u56e0\u662f\u4ec0\u4e48\uff1f\u8fd9\u4e00\u4eba\u7269\u5f62\u8c61\u53cd\u6620\u4e86\u600e\u6837\u7684\u793e\u4f1a\u73b0\u5b9e\uff1f", en: "Why does Ochumelov keep \u2018changing color\u2019? What social reality does this character reflect?"},
+        {cn: "\u8fd9\u7bc7\u8bbd\u523a\u5c0f\u8bf4\u5982\u4f55\u8fd0\u7528\u5bf9\u6bd4\u3001\u5938\u5f20\u7b49\u624b\u6cd5\u8868\u73b0\u8bbd\u523a\u6548\u679c\uff1f", en: "How does this satirical story use contrast and exaggeration to achieve its satirical effect?"}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u7406\u89e3\u8bbd\u523a\u5c0f\u8bf4\u7684\u7279\u70b9\uff0c\u5206\u6790\u5bf9\u6bd4\u3001\u5938\u5f20\u7b49\u8bbd\u523a\u624b\u6cd5\u3002", en: "Understand the characteristics of satirical fiction; analyze devices like contrast and exaggeration."},
+        {cn: "\u4f53\u4f1a\u5951\u8bc3\u592b\u5c0f\u8bf4\u7684\u5e7d\u9ed8\u4e0e\u6df1\u523b\u3002", en: "Appreciate the humor and depth of Chekhov\u2019s fiction."}
+      ],
+      parentTips: [
+        {cn: "\u8ba8\u8bba\u73b0\u5b9e\u751f\u6d3b\u4e2d\u7684\u201c\u53d8\u8272\u9f99\u201d\u73b0\u8c61\uff0c\u57f9\u517b\u5b69\u5b50\u7684\u6279\u5224\u6027\u601d\u7ef4\u3002", en: "Discuss \u2018chameleon\u2019 behavior in real life to cultivate your child\u2019s critical thinking."}
+      ]
+    },
+    {
+      id: 7, title: "\u6e9c\u7d22",
+      titleEn: "The Zip Line",
+      author: "\u963f\u57ce", authorEn: "A Cheng",
+      authorBio: {cn:"阿城（1949— ），原名钟阿城，北京人，当代作家。\u201c寻根文学\u201d代表人物之一。代表作有《棋王》《树王》《孩子王》等。", en:"A Cheng (b. 1949), original name Zhong Acheng, from Beijing. Contemporary writer and a representative of the 'Root-seeking Literature' movement. Major works include The Chess Master, The Tree King, and The Child King."},
+      isSelfRead: true,
+      preview: [{cn: "\u8fd9\u7bc7\u5c0f\u8bf4\u5199\u4e86\u4e00\u5904\u5947\u9669\u7684\u73af\u5883\uff0c\u4e00\u7fa4\u8fc7\u6cb3\u7684\u9a6c\u5e2e\u6c49\u5b50\uff0c\u4e00\u6b21\u6e9c\u7d22\u7684\u7ecf\u5386\u3002", en: "This story depicts a perilous crossing by a caravan of muleteers over the raging Nu River via a zip line."}],
+      text: [
+        "\u4e0d\u4fe1\u8fd9\u58f0\u97f3\u5c31\u662f\u6012\u6c5f\u3002\u9996\u9886\u4e5f\u4e0d\u591a\u8bf4\uff0c\u7528\u5c0f\u817f\u78d5\u4e00\u4e0b\u9a6c\u3002\u9a6c\u5374\u66f4\u89c9\u8fdf\u7591\uff0c\u725b\u4eec\u4e5f\u6162\u4e0b\u6765\u3002",
+        "\u4e07\u4e08\u7edd\u58c1\u98de\u5feb\u5782\u4e0b\u53bb\uff0c\u9a6c\u5e2e\u539f\u6765\u5c31\u5728\u8fd9\u58c1\u9876\u4e0a\u3002\u6012\u6c5f\u81ea\u897f\u5317\u5929\u9645\u4eae\u4eae\u800c\u6765\uff0c\u6df1\u8fdc\u4f3c\u6d93\u6d93\u7ec6\u6d41\uff0c\u9690\u9690\u55a7\u58f0\u817e\u4e0a\u6765\uff0c\u7740\u4e00\u6d3e\u68ee\u6c14\u3002",
+        "\u9996\u9886\u7f13\u7f13\u79fb\u4e0b\u9a6c\uff0c\u62d0\u7740\u817f\u8d70\u5230\u7d22\u524d\uff0c\u4e3e\u624b\u6572\u4e00\u6572\u90a3\u7d22\uff0c\u7d22\u4e00\u52a8\u4e0d\u52a8\u3002",
+        "\u6218\u6218\u5178\u5154\u8de8\u4e0a\u89d2\u6846\uff0c\u9996\u9886\u543c\u4e00\u58f0\uff1a\u201c\u5f80\u4e0b\u770b\u4e0d\u5f97\uff0c\u547d\u5728\u5929\u4e0a\uff01\u201d\u731b\u4e00\u9001\uff0c\u53ea\u89c9\u8033\u8fb9\u751f\u98ce\uff0c\u804b\u4e86\u4e00\u822c\u3002",
+        "\u725b\u4eec\u7ec8\u4e8e\u53c8\u4e0a\u4e86\u9a6e\uff0c\u94c3\u94db\u6717\u6717\u54cd\u7740\uff0c\u6025\u6025\u5730\u8981\u79bb\u5f00\u8fd9\u91cc\u3002"
+      ],
+      textEn: [
+        "I couldn\u2019t believe this sound was the Nu River. The leader said nothing, just nudged his horse with his calf. The horse grew even more hesitant, and the oxen slowed too.",
+        "The cliff dropped away ten thousand feet below \u2014 the caravan had been traveling along its very top. The Nu River gleamed from the northwest horizon, looking deceptively like a thin trickle in the distance, its muffled roar rising up with a chill air.",
+        "The leader slowly dismounted and limped to the cable, reaching up to knock on it. The cable did not budge.",
+        "Trembling, I mounted the frame. The leader roared: \u2018Don\u2019t look down \u2014 your life is up above!\u2019 With a mighty push I was off, wind roaring past my ears as if I had gone deaf.",
+        "The oxen finally got their loads back and bells clanging, hurried to leave this place."
+      ],
+      annotations: [
+        {term: "\u6e9c\u7d22", cn: "\u4e00\u79cd\u539f\u59cb\u7684\u6e21\u6cb3\u5de5\u5177", en: "A primitive river-crossing device; a zip line"},
+        {term: "\u6012\u6c5f", cn: "\u4e2d\u56fd\u897f\u5357\u5730\u533a\u7684\u5927\u6cb3\u4e4b\u4e00", en: "The Nu River, one of the great rivers of southwest China"},
+        {term: "\u963f\u57ce", cn: "\u4f5c\u5bb6\uff0c\u4ee3\u8868\u4f5c\u300a\u68cb\u738b\u300b", en: "Writer, known for his novella The Chess King"}
+      ],
+      thinkExplore: [
+        {cn: "\u5c0f\u8bf4\u5904\u5904\u901a\u8fc7\u201c\u6211\u201d\u7684\u89c2\u5bdf\u548c\u611f\u53d7\u6765\u5199\uff0c\u4f53\u4f1a\u8eab\u4e34\u5176\u5883\u4e4b\u611f\u3002", en: "The story is written entirely through \u2018my\u2019 observations and feelings \u2014 experience the sense of being there."}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u54c1\u5473\u963f\u57ce\u7b80\u6d01\u51dd\u7ec3\u7684\u8bed\u8a00\u98ce\u683c\uff0c\u611f\u53d7\u9a6c\u5e2e\u6c49\u5b50\u7684\u82f1\u96c4\u672c\u8272\u3002", en: "Appreciate A Cheng\u2019s concise, polished language and feel the heroism of the caravan muleteers."}
+      ],
+      parentTips: [
+        {cn: "\u4e86\u89e3\u4e91\u5357\u6012\u6c5f\u5927\u5ce1\u8c37\u7684\u5730\u7406\u73af\u5883\uff0c\u52a0\u6df1\u5bf9\u8bfe\u6587\u7684\u7406\u89e3\u3002", en: "Learn about the geography of the Nu River Grand Canyon in Yunnan to deepen understanding of the text."}
+      ]
+    },
+    {
+      id: 8, title: "\u84b2\u67f3\u4eba\u5bb6\uff08\u8282\u9009\uff09",
+      titleEn: "The Willow Family (Excerpt)",
+      author: "\u5218\u7ecd\u68e0", authorEn: "Liu Shaotang",
+      authorBio: {cn:"刘绍棠（1936—1997），北京通县人，当代作家。13岁开始发表作品，被誉为\u201c神童作家\u201d。代表作有《蒲柳人家》《京门脸子》等。", en:"Liu Shaotang (1936–1997), from Tongxian, Beijing. Contemporary writer. He began publishing at age 13 and was praised as a 'prodigy writer.' Major works include The Wicker and Willow Family and Faces of the Capital."},
+      isSelfRead: true,
+      preview: [{cn: "\u8bfe\u6587\u63cf\u7ed8\u4e8620\u4e16\u7eaa30\u5e74\u4ee3\u4eac\u4e1c\u5730\u533a\u5317\u8fd0\u6cb3\u519c\u6751\u7684\u98ce\u60c5\u753b\u3002", en: "The text paints a vivid picture of rural life along the North Canal in eastern Beijing during the 1930s."}],
+      text: [
+        "\u4e03\u6708\u5929\uff0c\u4e2d\u4f0f\u5927\u664c\u5348\uff0c\u70ed\u5f97\u50cf\u5929\u4e0a\u4e0b\u706b\u3002\u4f55\u6ee1\u5b50\u88ab\u7237\u7237\u62f4\u5728\u8461\u8404\u67b6\u7684\u7acb\u67f1\u4e0a\uff0c\u7cfb\u7684\u662f\u62f4\u8d3c\u6263\u513f\u3002",
+        "\u4f55\u6ee1\u5b50\u7684\u5976\u5976\uff0c\u4eba\u4eba\u90fd\u7ba1\u5979\u53eb\u4e00\u4e08\u9752\u5927\u5a18\uff1b\u5927\u9ad8\u4e2a\u513f\uff0c\u4e00\u53cc\u5927\u811a\uff0c\u9752\u94dc\u80a4\u8272\uff0c\u55d3\u95e8\u4e5f\u4eae\u5802\uff0c\u9a82\u8d77\u4eba\u6765\uff0c\u65b9\u5706\u4e8c\u4e09\u5341\u91cc\uff0c\u6562\u8bf4\u627e\u4e0d\u51fa\u80fd\u591f\u62db\u67b6\u51e0\u4e2a\u56de\u5408\u7684\u654c\u624b\u3002",
+        "\u4f55\u6ee1\u5b50\u7684\u7237\u7237\uff0c\u5916\u53f7\u53eb\u4f55\u5927\u5b66\u95ee\u3002\u4f55\u5927\u5b66\u95ee\u4eba\u9ad8\u9a6c\u5927\uff0c\u8180\u9614\u8170\u5706\uff0c\u9762\u5982\u91cd\u67a3\uff0c\u6d53\u7709\u6717\u76ee\uff0c\u4e00\u526f\u5173\u516c\u76f8\u8c8c\u3002",
+        "\u591c\u6df1\u4eba\u9759\u7761\u4e0d\u7740\u89c9\u7684\u65f6\u5019\uff0c\u4f55\u5927\u5b66\u95ee\u4e5f\u5e38\u5e38\u611f\u5230\u9635\u9635\u60b2\u51c9\u3002\u770b\u6765\uff0c\u4f55\u5bb6\u8981\u51fa\u4e2a\u771f\u6b63\u5927\u5b66\u95ee\uff0c\u53ea\u6709\u6307\u671b\u5b59\u5b50\u4f55\u6ee1\u5b50\u4e86\u3002"
+      ],
+      textEn: [
+        "In the scorching heat of midsummer, He Manzi was tied to the grape trellis post by his grandfather with a thief\u2019s knot.",
+        "He Manzi\u2019s grandmother was known to everyone as \u2018One-Zhang-Tall\u2019 \u2014 tall, big-footed, bronze-skinned, with a booming voice. When she cursed someone, no one within twenty or thirty li could match her.",
+        "He Manzi\u2019s grandfather was nicknamed \u2018He the Great Scholar.\u2019 He was a big, broad man with a ruddy face, thick brows, and bright eyes \u2014 the very image of Lord Guan.",
+        "In the quiet of deep night, He the Great Scholar often felt waves of melancholy. It seemed that if the He family were ever to produce a real scholar, their only hope was grandson He Manzi."
+      ],
+      annotations: [
+        {term: "\u84b2\u67f3\u4eba\u5bb6", cn: "\u4ee5\u84b2\u67f3\u4ee3\u6307\u666e\u901a\u8d2b\u82e6\u519c\u5bb6", en: "\u2018Willow family\u2019 refers to ordinary poor rural households"},
+        {term: "\u4e00\u4e08\u9752", cn: "\u300a\u6c34\u6d52\u4f20\u300b\u4e2d\u6248\u4e09\u5a18\u7684\u7ed0\u53f7", en: "The nickname of Hu Sanniang from Water Margin"},
+        {term: "\u5218\u7ecd\u68e0", cn: "(1936\u20131997)\uff0c\u5317\u4eac\u901a\u5dde\u4eba\uff0c\u4f5c\u5bb6", en: "(1936\u20131997), from Tongzhou Beijing, writer"}
+      ],
+      thinkExplore: [
+        {cn: "\u4f53\u4f1a\u4f5c\u8005\u751f\u52a8\u7684\u4eba\u7269\u5851\u9020\u548c\u6d53\u539a\u7684\u4e61\u571f\u6c14\u606f\u3002", en: "Appreciate the author\u2019s vivid character portrayal and strong local flavor."}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u5b66\u4e60\u5c0f\u8bf4\u4eba\u7269\u5851\u9020\u7684\u591a\u79cd\u624b\u6cd5\uff1a\u5916\u8c8c\u3001\u8bed\u8a00\u3001\u52a8\u4f5c\u3001\u5938\u5f20\u7b49\u3002", en: "Study various techniques for character portrayal: appearance, language, action, exaggeration."},
+        {cn: "\u54c1\u5473\u5c0f\u8bf4\u5bcc\u6709\u7279\u8272\u7684\u53e3\u8bed\u3001\u4fd7\u8bed\u548c\u4f20\u7edf\u8bc4\u4e66\u8bed\u8a00\u3002", en: "Appreciate the distinctive colloquial language, proverbs, and traditional storytelling style."}
+      ],
+      parentTips: [
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u5c0f\u8bf4\u7684\u5176\u4ed6\u90e8\u5206\uff0c\u4e86\u89e3\u4eba\u7269\u547d\u8fd0\u7684\u53d1\u5c55\u3002", en: "Read the rest of the novel to learn how the characters\u2019 fates unfold."}
+      ]
+    }
+  ],
+  writing: {
+    title: "\u5ba1\u9898\u7acb\u610f", titleEn: "Analyzing the Topic and Establishing the Theme",
+    content: {
+      cn: "\u5ba1\u9898\u5c31\u662f\u5ba1\u5bdf\u9898\u610f\uff0c\u660e\u786e\u9898\u76ee\u7684\u8981\u6c42\uff1b\u7acb\u610f\u5c31\u662f\u786e\u7acb\u6700\u4e3b\u8981\u7684\u601d\u60f3\u5185\u5bb9\u3002\u8ba4\u771f\u5ba1\u9898\uff0c\u6070\u5f53\u7acb\u610f\uff0c\u624d\u80fd\u786e\u4fdd\u5199\u4f5c\u7b26\u5408\u8981\u6c42\uff0c\u4e0d\u8dd1\u9898\uff0c\u4e0d\u504f\u9898\u3002",
+      en: "Analyzing the topic means examining its intent and clarifying its requirements; establishing the theme means determining the core idea. Only careful analysis and appropriate themes ensure writing stays on track."
+    }
+  },
+  comprehensiveLearning: {
+    title: "\u5c81\u6708\u5982\u6b4c\u2014\u2014\u6211\u4eec\u7684\u521d\u4e2d\u751f\u6d3b",
+    titleEn: "Time Flies Like a Song \u2014 Our Junior High Life",
+    content: {
+      cn: "\u5728\u521d\u4e2d\u751f\u6d3b\u7684\u6700\u540e\u4e00\u4e2a\u5b66\u671f\uff0c\u5168\u73ed\u540c\u5b66\u5206\u5de5\u5408\u4f5c\uff0c\u5236\u4f5c\u4e00\u672c\u73ed\u53f2\uff0c\u4e3a\u4e09\u5e74\u7684\u9752\u6625\u65f6\u5149\u7559\u4e0b\u4e00\u4efd\u6c38\u4e45\u7684\u7eaa\u5ff5\u3002",
+      en: "In the final semester of junior high, the whole class collaborates to create a class history book as a lasting memento of three years of youth."
+    }
+  }
+},
+/* ═══════════════════════════════════════════ */
+/*  UNIT 3 — 第三单元 古文与词                    */
+/*  Classical Prose & Ci Poetry                */
+/* ═══════════════════════════════════════════ */
+{
+  id: 3, title: "\u7b2c\u4e09\u5355\u5143", titleEn: "Unit 3", type: "kewen",
+  theme: "\u53e4\u6587\u4e0e\u8bcd", themeEn: "Classical Prose & Ci Poetry",
+  unitIntro: {
+    cn: "\u672c\u5355\u5143\u8bfe\u6587\u90fd\u662f\u4f20\u7edf\u540d\u7bc7\uff0c\u5185\u6db5\u4e30\u5bcc\u800c\u6df1\u523b\uff1a\u6709\u7684\u8bba\u8ff0\u4eba\u751f\u7684\u7406\u6027\u6289\u62e9\uff0c\u6709\u7684\u53d9\u8ff0\u4e0d\u754f\u5f3a\u66b4\u7684\u6545\u4e8b\uff0c\u6709\u7684\u63cf\u8ff0\u5c11\u5e74\u65f6\u6c42\u5b66\u7684\u8270\u8f9b\uff0c\u6709\u7684\u5219\u662f\u4e0d\u540c\u65f6\u4ee3\u8bcd\u4eba\u4eec\u62d2\u53d1\u7684\u58ee\u5fd7\u8c6a\u60c5\u3002\u5b66\u4e60\u672c\u5355\u5143\uff0c\u8981\u6ce8\u610f\u628a\u63e1\u53e4\u8bd7\u6587\u7684\u610f\u8574\uff0c\u9886\u609f\u4f5c\u8005\u7684\u601d\u60f3\u611f\u60c5\u3002",
+    en: "This unit\u2019s texts are traditional masterpieces of profound depth: some discuss rational life choices, some narrate stories of defiance against tyranny, some describe the hardships of youthful study, and some express the heroic ambitions of ci poets across different eras. Study this unit by grasping the implications of classical texts and appreciating the authors\u2019 thoughts and emotions."
+  },
+  lessons: [
+    {
+      id: 9, title: "\u9c7c\u6211\u6240\u6b32\u4e5f",
+      titleEn: "Fish Is What I Desire",
+      author: "\u300a\u5b5f\u5b50\u300b", authorEn: "Mencius",
+      authorBio: {cn:"孟子（约前372—前289），名轲，邹国（今山东邹城）人。战国时期思想家、教育家，儒家学派代表人物，被尊为\u201c亚圣\u201d。", en:"Mencius (c. 372–289 BC), given name Ke, from the state of Zou (modern Zoucheng, Shandong). Warring States period thinker and educator, representative of the Confucian school, honored as the 'Second Sage.'"},
+      isSelfRead: false,
+      preview: [{cn: "\u7528\u81ea\u5df1\u7684\u8bdd\u8bf4\u8bf4\u8bfe\u6587\u5927\u610f\uff0c\u7406\u89e3\u5b5f\u5b50\u201c\u820d\u751f\u53d6\u4e49\u201d\u7684\u601d\u60f3\u3002", en: "Explain the text in your own words and understand Mencius\u2019 concept of \u2018sacrificing life for righteousness.\u2019"}],
+      text: [
+        "\u9c7c\uff0c\u6211\u6240\u6b32\u4e5f\uff1b\u718a\u638c\uff0c\u4ea6\u6211\u6240\u6b32\u4e5f\u3002\u4e8c\u8005\u4e0d\u53ef\u5f97\u517c\uff0c\u820d\u9c7c\u800c\u53d6\u718a\u638c\u8005\u4e5f\u3002\u751f\uff0c\u4ea6\u6211\u6240\u6b32\u4e5f\uff1b\u4e49\uff0c\u4ea6\u6211\u6240\u6b32\u4e5f\u3002\u4e8c\u8005\u4e0d\u53ef\u5f97\u517c\uff0c\u820d\u751f\u800c\u53d6\u4e49\u8005\u4e5f\u3002",
+        "\u751f\u4ea6\u6211\u6240\u6b32\uff0c\u6240\u6b32\u6709\u751a\u4e8e\u751f\u8005\uff0c\u6545\u4e0d\u4e3a\u82df\u5f97\u4e5f\uff1b\u6b7b\u4ea6\u6211\u6240\u6076\uff0c\u6240\u6076\u6709\u751a\u4e8e\u6b7b\u8005\uff0c\u6545\u60a3\u6709\u6240\u4e0d\u8f9f\u4e5f\u3002",
+        "\u5982\u4f7f\u4eba\u4e4b\u6240\u6b32\u83ab\u751a\u4e8e\u751f\uff0c\u5219\u51e1\u53ef\u4ee5\u5f97\u751f\u8005\u4f55\u4e0d\u7528\u4e5f\uff1f\u4f7f\u4eba\u4e4b\u6240\u6076\u83ab\u751a\u4e8e\u6b7b\u8005\uff0c\u5219\u51e1\u53ef\u4ee5\u8f9f\u60a3\u8005\u4f55\u4e0d\u4e3a\u4e5f\uff1f\u7531\u662f\u5219\u751f\u800c\u6709\u4e0d\u7528\u4e5f\uff0c\u7531\u662f\u5219\u53ef\u4ee5\u8f9f\u60a3\u800c\u6709\u4e0d\u4e3a\u4e5f\u3002\u662f\u6545\u6240\u6b32\u6709\u751a\u4e8e\u751f\u8005\uff0c\u6240\u6076\u6709\u751a\u4e8e\u6b7b\u8005\u3002\u975e\u72ec\u8d24\u8005\u6709\u662f\u5fc3\u4e5f\uff0c\u4eba\u7686\u6709\u4e4b\uff0c\u8d24\u8005\u80fd\u52ff\u4e27\u8033\u3002",
+        "\u4e00\u7bce\u98df\uff0c\u4e00\u8c46\u7fb9\uff0c\u5f97\u4e4b\u5219\u751f\uff0c\u5f17\u5f97\u5219\u6b7b\u3002\u547c\u5c14\u800c\u4e0e\u4e4b\uff0c\u884c\u9053\u4e4b\u4eba\u5f17\u53d7\uff1b\u8e74\u5c14\u800c\u4e0e\u4e4b\uff0c\u4e5e\u4eba\u4e0d\u5c51\u4e5f\u3002",
+        "\u4e07\u949f\u5219\u4e0d\u8fa9\u793c\u4e49\u800c\u53d7\u4e4b\uff0c\u4e07\u949f\u4e8e\u6211\u4f55\u52a0\u7109\uff01\u4e3a\u5bab\u5ba4\u4e4b\u7f8e\u3001\u59bb\u59be\u4e4b\u5949\u3001\u6240\u8bc6\u7a77\u4e4f\u8005\u5f97\u6211\u4e0e\uff1f\u4e61\u4e3a\u8eab\u6b7b\u800c\u4e0d\u53d7\uff0c\u4eca\u4e3a\u5bab\u5ba4\u4e4b\u7f8e\u4e3a\u4e4b\uff1b\u4e61\u4e3a\u8eab\u6b7b\u800c\u4e0d\u53d7\uff0c\u4eca\u4e3a\u59bb\u59be\u4e4b\u5949\u4e3a\u4e4b\uff1b\u4e61\u4e3a\u8eab\u6b7b\u800c\u4e0d\u53d7\uff0c\u4eca\u4e3a\u6240\u8bc6\u7a77\u4e4f\u8005\u5f97\u6211\u800c\u4e3a\u4e4b\uff1a\u662f\u4ea6\u4e0d\u53ef\u4ee5\u5df2\u4e4e\uff1f\u6b64\u4e4b\u8c13\u5931\u5176\u672c\u5fc3\u3002"
+      ],
+      textEn: [
+        "Fish is what I desire; bear\u2019s paw is also what I desire. If I cannot have both, I will give up fish and take bear\u2019s paw. Life is what I desire; righteousness is also what I desire. If I cannot have both, I will give up life and choose righteousness.",
+        "Life is what I desire, but there is something I desire more than life \u2014 therefore I will not resort to ignoble means to preserve it. Death is what I loathe, but there is something I loathe more than death \u2014 therefore there are dangers I will not avoid.",
+        "If there were nothing people desired more than life, they would use any means to preserve it. If there were nothing they loathed more than death, they would do anything to avoid danger. Yet there are means of preserving life they will not use, and dangers they will not avoid. Thus what they desire exceeds life, and what they loathe exceeds death. This sense of right and wrong is not unique to sages \u2014 all people possess it; sages simply do not lose it.",
+        "A basket of rice, a bowl of soup \u2014 getting them means life, losing them means death. Offer them with insults, and even a passerby will refuse; kick them toward a beggar, and even he will scorn them.",
+        "Yet a salary of ten thousand measures \u2014 some accept it without regard for propriety or righteousness. What does such a salary add to me? For the beauty of mansions, the service of wives and concubines, the gratitude of acquaintances? Previously one would rather die than accept charity; now one does it for luxury \u2014 this is what is called losing one\u2019s original heart."
+      ],
+      annotations: [
+        {term: "\u82df\u5f97", cn: "\u82df\u4e14\u53d6\u5f97\uff0c\u8fd9\u91cc\u662f\u82df\u4e14\u5077\u751f\u7684\u610f\u601d", en: "To acquire by ignoble means; here, to cling to life without principle"},
+        {term: "\u8e74\u5c14\u800c\u4e0e\u4e4b", cn: "\u7528\u811a\u8e29\u8e0f\u7740\u7ed9\u4eba", en: "To kick something toward someone; to give with contempt"},
+        {term: "\u672c\u5fc3", cn: "\u672c\u6027\uff0c\u8fd9\u91cc\u6307\u4eba\u7684\u7f9e\u6076\u4e4b\u5fc3", en: "Original heart/nature; here it refers to the innate sense of shame and moral judgment"}
+      ],
+      thinkExplore: [
+        {cn: "\u6839\u636e\u8bfe\u6587\u5185\u5bb9\u7406\u89e3\u4f5c\u8005\u7684\u8bba\u8bc1\u601d\u8def\u3002", en: "Understand the author\u2019s logical argumentation based on the text."},
+        {cn: "\u8bf4\u8bf4\u4f60\u5bf9\u201c\u672c\u5fc3\u201d\u7684\u7406\u89e3\u3002", en: "Share your understanding of \u2018original heart.\u2019"}
+      ],
+      accumExtend: [
+        {cn: "\u5728\u4e2d\u534e\u6c11\u65cf\u5386\u53f2\u4e0a\uff0c\u65e0\u6570\u4ec1\u4eba\u5fd7\u58eb\u90fd\u628a\u201c\u820d\u751f\u53d6\u4e49\u201d\u5949\u4e3a\u4eba\u751f\u51c6\u5219\uff0c\u4f60\u80fd\u4e3e\u51fa\u51e0\u4e2a\u4e8b\u4f8b\u5417\uff1f", en: "Throughout Chinese history, countless heroes upheld \u2018sacrificing life for righteousness\u2019 as a principle. Can you give examples?"}
+      ],
+      teachingPoints: [
+        {cn: "\u7406\u89e3\u5b5f\u5b50\u201c\u820d\u751f\u53d6\u4e49\u201d\u7684\u601d\u60f3\uff0c\u5b66\u4e60\u7c7b\u6bd4\u8bba\u8bc1\u7684\u65b9\u6cd5\u3002", en: "Understand Mencius\u2019 concept of \u2018sacrificing life for righteousness\u2019 and learn analogical argumentation."},
+        {cn: "\u79ef\u7d2f\u5e38\u89c1\u6587\u8a00\u8bcd\u8bed\uff0c\u5728\u8bf5\u8bfb\u4e2d\u589e\u5f3a\u6587\u8a00\u8bed\u611f\u3002", en: "Accumulate common classical Chinese vocabulary and strengthen literary language sense through recitation."}
+      ],
+      parentTips: [
+        {cn: "\u5f15\u5bfc\u5b69\u5b50\u601d\u8003\u5f53\u4ee3\u793e\u4f1a\u4e2d\u201c\u4e49\u201d\u7684\u542b\u4e49\u3002", en: "Guide your child to think about the meaning of \u2018righteousness\u2019 in contemporary society."}
+      ]
+    },
+    {
+      id: 10, title: "\u5510\u96ce\u4e0d\u8fb1\u4f7f\u547d",
+      titleEn: "Tang Ju Fulfills His Mission",
+      author: "\u300a\u6218\u56fd\u7b56\u300b", authorEn: "Strategies of the Warring States",
+      authorBio: {cn:"《战国策》是西汉刘向整理编辑的一部国别体史书，记载了战国时期各国政治、军事、外交活动及策士的言论和谋略。", en:"Strategies of the Warring States is a state-by-state history compiled and edited by Liu Xiang of the Western Han Dynasty, recording the political, military, and diplomatic activities and the speeches and stratagems of advisors during the Warring States period."},
+      isSelfRead: true,
+      preview: [{cn: "\u5510\u96ce\u4e34\u5371\u53d7\u547d\uff0c\u51fa\u4f7f\u79e6\u56fd\uff0c\u6700\u7ec8\u4e0d\u8fb1\u4f7f\u547d\uff0c\u7ef4\u62a4\u4e86\u56fd\u5bb6\u7684\u5229\u76ca\u548c\u5c0a\u4e25\u3002", en: "Tang Ju was sent on an emergency mission to Qin, and ultimately fulfilled his mission, defending his country\u2019s interests and dignity."}],
+      text: [
+        "\u79e6\u738b\u4f7f\u4eba\u8c13\u5b89\u9675\u541b\u66f0\uff1a\u201c\u5be1\u4eba\u6b32\u4ee5\u4e94\u767e\u91cc\u4e4b\u5730\u6613\u5b89\u9675\uff0c\u5b89\u9675\u541b\u5176\u8bb8\u5be1\u4eba\uff01\u201d\u5b89\u9675\u541b\u66f0\uff1a\u201c\u5927\u738b\u52a0\u60e0\uff0c\u4ee5\u5927\u6613\u5c0f\uff0c\u751a\u5584\uff1b\u867d\u7136\uff0c\u53d7\u5730\u4e8e\u5148\u738b\uff0c\u613f\u7ec8\u5b88\u4e4b\uff0c\u5f17\u6562\u6613\uff01\u201d\u79e6\u738b\u4e0d\u8bf4\u3002\u5b89\u9675\u541b\u56e0\u4f7f\u5510\u96ce\u4f7f\u4e8e\u79e6\u3002",
+        "\u79e6\u738b\u6028\u7136\u6012\uff0c\u8c13\u5510\u96ce\u66f0\uff1a\u201c\u516c\u4ea6\u5c1d\u95fb\u5929\u5b50\u4e4b\u6012\u4e4e\uff1f\u201d\u5510\u96ce\u5bf9\u66f0\uff1a\u201c\u81e3\u672a\u5c1d\u95fb\u4e5f\u3002\u201d\u79e6\u738b\u66f0\uff1a\u201c\u5929\u5b50\u4e4b\u6012\uff0c\u4f0f\u5c38\u767e\u4e07\uff0c\u6d41\u8840\u5343\u91cc\u3002\u201d",
+        "\u5510\u96ce\u66f0\uff1a\u201c\u5927\u738b\u5c1d\u95fb\u5e03\u8863\u4e4b\u6012\u4e4e\uff1f\u201d\u79e6\u738b\u66f0\uff1a\u201c\u5e03\u8863\u4e4b\u6012\uff0c\u4ea6\u514d\u51a0\u5f92\u8de3\uff0c\u4ee5\u5934\u62a2\u5730\u5c14\u3002\u201d\u5510\u96ce\u66f0\uff1a\u201c\u6b64\u5eb8\u592b\u4e4b\u6012\u4e5f\uff0c\u975e\u58eb\u4e4b\u6012\u4e5f\u3002\u82e5\u58eb\u5fc5\u6012\uff0c\u4f0f\u5c38\u4e8c\u4eba\uff0c\u6d41\u8840\u4e94\u6b65\uff0c\u5929\u4e0b\u7f1f\u7d20\uff0c\u4eca\u65e5\u662f\u4e5f\u3002\u201d\u631a\u5251\u800c\u8d77\u3002",
+        "\u79e6\u738b\u8272\u6320\uff0c\u957f\u8dea\u800c\u8c22\u4e4b\u66f0\uff1a\u201c\u5148\u751f\u5750\uff01\u4f55\u81f3\u4e8e\u6b64\uff01\u5be1\u4eba\u8c15\u77e3\uff1a\u592b\u97e9\u3001\u9b4f\u706d\u4ea1\uff0c\u800c\u5b89\u9675\u4ee5\u4e94\u5341\u91cc\u4e4b\u5730\u5b58\u8005\uff0c\u5f92\u4ee5\u6709\u5148\u751f\u4e5f\u3002\u201d"
+      ],
+      textEn: [
+        "The King of Qin sent a messenger to the Lord of Anling: \u2018I wish to exchange five hundred li of land for Anling. Will you agree?\u2019 The Lord of Anling replied: \u2018Your Majesty\u2019s grace in offering large land for small is most generous; however, I received this land from my forebears and wish to keep it.\u2019 The King of Qin was displeased. The Lord of Anling then sent Tang Ju as envoy to Qin.",
+        "The King of Qin said angrily: \u2018Have you ever heard of the wrath of a Son of Heaven?\u2019 Tang Ju replied: \u2018I have not.\u2019 The King said: \u2018When the Son of Heaven is angry, corpses litter the ground by the millions and blood flows for a thousand li.\u2019",
+        "Tang Ju said: \u2018Has Your Majesty heard of the wrath of a commoner?\u2019 The King said: \u2018A commoner\u2019s wrath? He removes his cap, bares his feet, and bangs his head on the ground.\u2019 Tang Ju said: \u2018That is the wrath of a mediocre man, not of a true warrior. When a warrior is truly enraged, only two bodies fall, blood flows five paces, and the whole world wears mourning \u2014 and today is that day.\u2019 He drew his sword and rose.",
+        "The King\u2019s face showed fear. He straightened up on his knees and apologized: \u2018Please sit down, sir! It need not come to this! I understand now: Han and Wei perished, yet Anling survives with just fifty li \u2014 solely because of you, sir.\u2019"
+      ],
+      annotations: [
+        {term: "\u5e03\u8863", cn: "\u5e73\u6c11\uff0c\u53e4\u4ee3\u6ca1\u6709\u5b98\u804c\u7684\u4eba\u7a7f\u9ebb\u5e03\u8863\u670d", en: "Common people; those without official rank wore hemp cloth"},
+        {term: "\u7f1e\u7d20", cn: "\u767d\u8272\u4e27\u670d\uff0c\u6307\u5168\u56fd\u54c0\u60bc", en: "White mourning clothes; meaning the whole nation mourns"},
+        {term: "\u8272\u6320", cn: "\u9762\u9732\u80c6\u602f\u4e4b\u8272", en: "Face showing fear and cowardice"}
+      ],
+      thinkExplore: [
+        {cn: "\u5510\u96ce\u4e3a\u4ec0\u4e48\u80fd\u8ba9\u79e6\u738b\u5c48\u670d\uff1f", en: "Why was Tang Ju able to make the King of Qin yield?"}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u901a\u8fc7\u4eba\u7269\u8bed\u8a00\u5851\u9020\u201c\u58eb\u201d\u7684\u5f62\u8c61\uff0c\u7406\u89e3\u5916\u4ea4\u8f9e\u4ee4\u7684\u827a\u672f\u3002", en: "Understand how character dialogue shapes the image of a \u2018true warrior\u2019 and appreciate the art of diplomatic rhetoric."}
+      ],
+      parentTips: [
+        {cn: "\u4e86\u89e3\u6218\u56fd\u65f6\u671f\u7684\u5386\u53f2\u80cc\u666f\uff0c\u5e2e\u52a9\u7406\u89e3\u6587\u672c\u3002", en: "Learn about the Warring States period to help understand the text."}
+      ]
+    },
+    {
+      id: 11, title: "\u9001\u4e1c\u9633\u9a6c\u751f\u5e8f",
+      titleEn: "Preface to Sending Off Ma Sheng of Dongyang",
+      author: "\u5b8b\u6fc2", authorEn: "Song Lian",
+      authorBio: {cn:"宋濂（1310—1381），字景濂，号潜溪，浦江（今浙江浦江）人。明初文学家，被誉为\u201c开国文臣之首\u201d。著有《宋学士文集》。", en:"Song Lian (1310–1381), courtesy name Jinglian, from Pujiang, Zhejiang. Early Ming literary figure, praised as 'the foremost civil official of the founding era.' Author of Collected Works of Academician Song."},
+      isSelfRead: false,
+      preview: [{cn: "\u8fd9\u662f\u5b8b\u6fc2\u5199\u7ed9\u540c\u4e61\u540e\u5b66\u7684\u4e34\u522b\u8d60\u8a00\uff0c\u8bb2\u8ff0\u81ea\u5df1\u7684\u6c42\u5b66\u7ecf\u5386\u3002", en: "This is Song Lian\u2019s farewell gift to a younger scholar from his hometown, recounting his own study experiences."}],
+      text: [
+        "\u4f59\u5e7c\u65f6\u5373\u55dc\u5b66\u3002\u5bb6\u8d2b\uff0c\u65e0\u4ece\u81f4\u4e66\u4ee5\u89c2\uff0c\u6bcf\u5047\u501f\u4e8e\u85cf\u4e66\u4e4b\u5bb6\uff0c\u624b\u81ea\u7b14\u5f55\uff0c\u8ba1\u65e5\u4ee5\u8fd8\u3002\u5929\u5927\u5bd2\uff0c\u780c\u51b0\u575a\uff0c\u624b\u6307\u4e0d\u53ef\u5c48\u4f38\uff0c\u5f17\u4e4b\u6020\u3002\u5f55\u6bd5\uff0c\u8d70\u9001\u4e4b\uff0c\u4e0d\u6562\u7a0d\u903e\u7ea6\u3002\u4ee5\u662f\u4eba\u591a\u4ee5\u4e66\u5047\u4f59\uff0c\u4f59\u56e0\u5f97\u904d\u89c2\u7fa4\u4e66\u3002",
+        "\u65e2\u52a0\u51a0\uff0c\u76ca\u6155\u5723\u8d24\u4e4b\u9053\u3002\u53c8\u60a3\u65e0\u7855\u5e08\u540d\u4eba\u4e0e\u6e38\uff0c\u5c1d\u8d8b\u767e\u91cc\u5916\uff0c\u4ece\u4e61\u4e4b\u5148\u8fbe\u6267\u7ecf\u53e9\u95ee\u3002\u5148\u8fbe\u5fb7\u9686\u671b\u5c0a\uff0c\u95e8\u4eba\u5f1f\u5b50\u586b\u5176\u5ba4\uff0c\u672a\u5c1d\u7a0d\u964d\u8f9e\u8272\u3002\u4f59\u7acb\u4f8d\u5de6\u53f3\uff0c\u63f4\u7591\u8d28\u7406\uff0c\u4fef\u8eab\u503e\u8033\u4ee5\u8bf7\uff1b\u6216\u9047\u5176\u53f1\u54a4\uff0c\u8272\u6108\u606d\uff0c\u793c\u6108\u81f3\uff0c\u4e0d\u6562\u51fa\u4e00\u8a00\u4ee5\u590d\u3002",
+        "\u5f53\u4f59\u4e4b\u4ece\u5e08\u4e5f\uff0c\u8d1f\u7bb7\u66f3\u5c63\u884c\u6df1\u5c71\u5de8\u8c37\u4e2d\u3002\u7a77\u51ac\u70c8\u98ce\uff0c\u5927\u96ea\u6df1\u6570\u5c3a\uff0c\u8db3\u80a4\u76b2\u88c2\u800c\u4e0d\u77e5\u3002\u540c\u820d\u751f\u7686\u88ab\u7eee\u7ee3\uff0c\u4f59\u5219\u7ef4\u888d\u6557\u8863\u5904\u5176\u95f4\uff0c\u7565\u65e0\u6155\u8273\u610f\uff0c\u4ee5\u4e2d\u6709\u8db3\u4e50\u8005\uff0c\u4e0d\u77e5\u53e3\u4f53\u4e4b\u5949\u4e0d\u82e5\u4eba\u4e5f\u3002",
+        "\u4eca\u8bf8\u751f\u5b66\u4e8e\u592a\u5b66\uff0c\u53bf\u5b98\u65e5\u6709\u5eca\u7a0d\u4e4b\u4f9b\uff0c\u7236\u6bcd\u5c81\u6709\u88d8\u845b\u4e4b\u9057\u3002\u5176\u4e1a\u6709\u4e0d\u7cbe\u3001\u5fb7\u6709\u4e0d\u6210\u8005\uff0c\u975e\u5929\u8d28\u4e4b\u5351\uff0c\u5219\u5fc3\u4e0d\u82e5\u4f59\u4e4b\u4e13\u8033\uff0c\u5c82\u4ed6\u4eba\u4e4b\u8fc7\u54c9\uff1f"
+      ],
+      textEn: [
+        "As a child I was already devoted to study. My family was poor, with no means to obtain books. I would borrow from collectors, copy by hand, and return them by the deadline. Even in bitter cold when the ink froze and my fingers could not bend, I never slackened. Because I always returned books on time, many were willing to lend to me, and thus I was able to read widely.",
+        "After coming of age, I admired the Way of the sages even more. Lacking a great teacher nearby, I would walk a hundred li to consult learned elders. They were dignified and surrounded by students, never softening their manner. I would stand respectfully by their side, ask questions with bowed head and attentive ear, and if met with rebuke, I would become even more respectful, not daring to say a word in reply.",
+        "When traveling to study, I carried my book-bag through deep mountains in the dead of winter. In fierce winds and snow several feet deep, my feet cracked without my noticing. My fellow students wore fine embroidered robes while I sat among them in ragged clothes, without a trace of envy \u2014 for within me there was enough joy that I did not notice how my food and clothing fell short.",
+        "Now students at the Imperial Academy receive government stipends and parental support for clothing. If their studies are not refined or their character not formed, it is not from lack of native talent but from lack of devotion \u2014 how can they blame others?"
+      ],
+      annotations: [
+        {term: "\u52a0\u51a0", cn: "\u53e4\u65f6\u7537\u5b50\u4e8c\u5341\u5c81\u884c\u52a0\u51a0\u4eea\u5f0f\uff0c\u8868\u793a\u5df2\u6210\u5e74", en: "Capping ceremony at age 20 in ancient times, signifying adulthood"},
+        {term: "\u8d1f\u7bb7\u66f3\u5c63", cn: "\u80cc\u7740\u4e66\u7bb1\uff0c\u62d6\u7740\u978b\u5b50", en: "Carrying a book-box and dragging worn shoes"},
+        {term: "\u5b8b\u6fc2", cn: "(1310\u20131381)\uff0c\u5143\u672b\u660e\u521d\u6587\u5b66\u5bb6", en: "(1310\u20131381), writer at the transition from Yuan to Ming dynasty"}
+      ],
+      thinkExplore: [
+        {cn: "\u4f5c\u8005\u5728\u6c42\u5b66\u8fc7\u7a0b\u4e2d\u9047\u5230\u4e86\u54ea\u4e9b\u56f0\u96be\uff1f\u4ed6\u662f\u5982\u4f55\u514b\u670d\u7684\uff1f", en: "What difficulties did the author face in his studies? How did he overcome them?"},
+        {cn: "\u8bfe\u6587\u591a\u5904\u8fd0\u7528\u5bf9\u6bd4\u624b\u6cd5\uff0c\u627e\u51fa\u6765\uff0c\u8c08\u8c08\u8fd9\u6837\u5199\u7684\u597d\u5904\u3002", en: "The text uses contrast extensively. Find examples and discuss the benefits."}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u7406\u89e3\u8d60\u5e8f\u7684\u6587\u4f53\u7279\u70b9\uff0c\u4f53\u4f1a\u4f5c\u8005\u7684\u826f\u82e6\u7528\u5fc3\u3002", en: "Understand the characteristics of farewell prefaces and appreciate the author\u2019s earnest good intentions."},
+        {cn: "\u5b66\u4e60\u5bf9\u6bd4\u624b\u6cd5\u7684\u8fd0\u7528\uff0c\u79ef\u7d2f\u6587\u8a00\u8bcd\u6c47\u3002", en: "Study the use of contrast and accumulate classical Chinese vocabulary."}
+      ],
+      parentTips: [
+        {cn: "\u548c\u5b69\u5b50\u8ba8\u8bba\u5b66\u4e60\u6001\u5ea6\u548c\u52a4\u594b\u7cbe\u795e\u5728\u5f53\u4ee3\u7684\u610f\u4e49\u3002", en: "Discuss the significance of study attitudes and diligence in modern times with your child."}
+      ]
+    },
+    {
+      id: 12, title: "\u8bcd\u56db\u9996",
+      titleEn: "Four Ci Poems",
+      author: "\u8303\u4ef2\u6dd1\u3001\u82cf\u8f7c\u3001\u8f9b\u5f03\u75be\u3001\u79cb\u747e", authorEn: "Fan Zhongyan, Su Shi, Xin Qiji, Qiu Jin",
+      authorBio: {cn:"范仲淹（989—1052），北宋政治家、文学家。苏轼（1037—1101），北宋文学家，\u201c唐宋八大家\u201d之一。辛弃疾（1140—1207），南宋词人，豪放派代表。秋瑾（1875—1907），近代民主革命志士、女诗人。", en:"Fan Zhongyan (989–1052), Northern Song statesman and writer. Su Shi (1037–1101), Northern Song literary master, one of the Eight Great Prose Masters. Xin Qiji (1140–1207), Southern Song ci poet, representative of the bold school. Qiu Jin (1875–1907), modern democratic revolutionary and female poet."},
+      isSelfRead: false,
+      preview: [{cn: "\u53cd\u590d\u8bf5\u8bfb\u8fd9\u56db\u9996\u8bcd\uff0c\u611f\u53d7\u8bcd\u7684\u97f3\u97f5\u7f8e\uff0c\u4f53\u4f1a\u5404\u9996\u8bcd\u4e2d\u8574\u542b\u7684\u60c5\u611f\u3002", en: "Repeatedly recite these four ci poems, feel their musical beauty, and appreciate the emotions in each."}],
+      text: [
+        "\u6e14\u5bb6\u50b2\u00b7\u79cb\u601d\u3000\u8303\u4ef2\u6dd1\n\u585e\u4e0b\u79cb\u6765\u98ce\u666f\u5f02\uff0c\u8861\u9633\u96c1\u53bb\u65e0\u7559\u610f\u3002\u56db\u9762\u8fb9\u58f0\u8fde\u89d2\u8d77\uff0c\u5343\u5d82\u91cc\uff0c\u957f\u70df\u843d\u65e5\u5b64\u57ce\u95ed\u3002\u6d4a\u9152\u4e00\u676f\u5bb6\u4e07\u91cc\uff0c\u71d5\u7136\u672a\u52d2\u5f52\u65e0\u8ba1\u3002\u7f8c\u7ba1\u60a0\u60a0\u971c\u6ee1\u5730\uff0c\u4eba\u4e0d\u5bd0\uff0c\u5c06\u519b\u767d\u53d1\u5f81\u592b\u6cea\u3002",
+        "\u6c5f\u57ce\u5b50\u00b7\u5bc6\u5dde\u51fa\u730e\u3000\u82cf\u8f7c\n\u8001\u592b\u804a\u53d1\u5c11\u5e74\u72c2\uff0c\u5de6\u7275\u9ec4\uff0c\u53f3\u64ce\u82cd\uff0c\u9526\u5e3d\u8c82\u88d8\uff0c\u5343\u9a91\u5377\u5e73\u5188\u3002\u4e3a\u62a5\u503e\u57ce\u968f\u592a\u5b88\uff0c\u4eb2\u5c04\u864e\uff0c\u770b\u5b59\u90ce\u3002\u9152\u9163\u80f8\u80c6\u5c1a\u5f00\u5f20\u3002\u9b13\u5fae\u971c\uff0c\u53c8\u4f55\u59a8\uff01\u6301\u8282\u4e91\u4e2d\uff0c\u4f55\u65e5\u9063\u51af\u5510\uff1f\u4f1a\u631d\u96d5\u5f13\u5982\u6ee1\u6708\uff0c\u897f\u5317\u671b\uff0c\u5c04\u5929\u72fc\u3002",
+        "\u7834\u9635\u5b50\u00b7\u4e3a\u9648\u540c\u7525\u8d4b\u58ee\u8bcd\u4ee5\u5bc4\u4e4b\u3000\u8f9b\u5f03\u75be\n\u9189\u91cc\u6311\u706f\u770b\u5251\uff0c\u68a6\u56de\u5439\u89d2\u8fde\u8425\u3002\u516b\u767e\u91cc\u5206\u9ebc\u4e0b\u7099\uff0c\u4e94\u5341\u5f26\u7ffb\u585e\u5916\u58f0\uff0c\u6c99\u573a\u79cb\u70b9\u5175\u3002\u9a6c\u4f5c\u7684\u5362\u98de\u5feb\uff0c\u5f13\u5982\u9739\u9713\u5f26\u60ca\u3002\u4e86\u5374\u541b\u738b\u5929\u4e0b\u4e8b\uff0c\u8d62\u5f97\u751f\u524d\u8eab\u540e\u540d\u3002\u53ef\u601c\u767d\u53d1\u751f\uff01",
+        "\u6ee1\u6c5f\u7ea2\uff08\u5c0f\u4f4f\u4eac\u534e\uff09\u3000\u79cb\u747e\n\u5c0f\u4f4f\u4eac\u534e\uff0c\u65e9\u53c8\u662f\u4e2d\u79cb\u4f73\u8282\u3002\u4e3a\u7bf1\u4e0b\u9ec4\u82b1\u5f00\u904d\uff0c\u79cb\u5bb9\u5982\u62ed\u3002\u56db\u9762\u6b4c\u6b8b\u7ec8\u7834\u695a\uff0c\u516b\u5e74\u98ce\u5473\u5f92\u601d\u6d59\u3002\u82e6\u5c06\u4fac\u5f3a\u6d3e\u4f5c\u86fe\u7709\uff0c\u6b8a\u672a\u5c51\uff01\u8eab\u4e0d\u5f97\uff0c\u7537\u513f\u5217\uff0c\u5fc3\u5374\u6bd4\uff0c\u7537\u513f\u70c8\u3002\u7b97\u5e73\u751f\u809d\u80c6\uff0c\u56e0\u4eba\u5e38\u70ed\u3002\u4fd7\u5b50\u80f8\u895f\u8c01\u8bc6\u6211\uff1f\u82f1\u96c4\u672b\u8def\u5f53\u78e8\u6298\u3002\u83bd\u7ea2\u5c18\u4f55\u5904\u89c5\u77e5\u97f3\uff1f\u9752\u886b\u6e7f\uff01"
+      ],
+      textEn: [
+        "Fisherman\u2019s Pride: Autumn Thoughts \u2014 Fan Zhongyan\nAutumn at the frontier brings a different scene \u2014 wild geese fly toward Hengyang without lingering. Border sounds rise on all sides with bugle calls. A thousand peaks surround an isolated fortress under long smoke and setting sun. A cup of turbid wine, home ten thousand li away; the campaign is unfinished, there\u2019s no plan to return. Qiang flutes play on and on; frost covers the ground. No one sleeps \u2014 the general\u2019s hair turns white, the soldiers shed tears.",
+        "River Town: Hunting at Mizhou \u2014 Su Shi\nThis old man still harbors youthful exuberance. Left hand leading the hound, right arm bearing the hawk, in brocade cap and sable coat, a thousand riders sweeping the plains. To repay the city that followed the governor: I\u2019ll shoot the tiger myself \u2014 watch this Sun Quan! Warmed by wine, my heart still bold. Temples slightly frosted \u2014 what does it matter! When will the court send a Feng Tang? I shall yet draw my bow like a full moon, and looking northwest, shoot the Wolf Star.",
+        "Smashing the Battle Lines: For Chen Tongfu \u2014 Xin Qiji\nDrunk, I trim the lamp and examine my sword; in dreams I return to the camps where bugles sound. Meat is divided among the men, instruments play frontier songs, as autumn troops are reviewed on the field. Horses race swift as Di Lu; bows thunder like lightning. Oh, to fulfill the king\u2019s great cause and win glory for all time! Alas \u2014 but my hair has turned white!",
+        "Red Fills the River (A Brief Stay in the Capital) \u2014 Qiu Jin\nA brief stay in the capital, and already it\u2019s Mid-Autumn. Yellow chrysanthemums bloom below the fence; the autumn scene is bright as if wiped clean. Songs end on all sides as Chu finally falls; eight years of married life, only longing for Zhejiang. Bitter to be forced into a woman\u2019s role \u2014 I utterly disdain it! My body cannot join the ranks of men, but my heart surpasses men in valor. Through life my courage burns for others. Who among the vulgar recognizes me? A hero at road\u2019s end must endure trials. In this vast dusty world, where can I find a kindred spirit? My blue robe is wet with tears!"
+      ],
+      annotations: [
+        {term: "\u71d5\u7136\u672a\u52d2", cn: "\u6307\u8fb9\u60a3\u672a\u5e73\uff0c\u529f\u4e1a\u672a\u5efa", en: "The frontier has not been pacified; the mission is incomplete"},
+        {term: "\u5929\u72fc", cn: "\u661f\u540d\uff0c\u4f20\u8bf4\u4e3b\u4fb5\u63a0\uff0c\u8fd9\u91cc\u55bb\u6307\u897f\u590f\u519b\u961f", en: "The Wolf Star (Sirius), symbolizing invaders; here referring to the Western Xia forces"},
+        {term: "\u53ef\u601c\u767d\u53d1\u751f", cn: "\u8868\u8fbe\u58ee\u5fd7\u672a\u914c\u7684\u60b2\u54c0", en: "Expressing sorrow at unfulfilled ambitions as one ages"},
+        {term: "\u9752\u886b\u6e7f", cn: "\u8bed\u51fa\u767d\u5c45\u6613\u300a\u7435\u7436\u884c\u300b\uff0c\u6307\u56e0\u60b2\u53f9\u65e0\u77e5\u97f3\u800c\u843d\u6cea", en: "From Bai Juyi\u2019s Pipa Song; weeping from finding no kindred spirit"}
+      ],
+      thinkExplore: [
+        {cn: "\u300a\u6e14\u5bb6\u50b2\u00b7\u79cb\u601d\u300b\u8868\u8fbe\u4e86\u600e\u6837\u7684\u601d\u60f3\u611f\u60c5\uff1f", en: "What emotions does \u2018Fisherman\u2019s Pride: Autumn Thoughts\u2019 express?"},
+        {cn: "\u8f9b\u5f03\u75be\u8bf4\u81ea\u5df1\u5199\u300a\u7834\u9635\u5b50\u300b\u662f\u201c\u8d4b\u58ee\u8bcd\u201d\uff0c\u8bd5\u7ed3\u5408\u4f5c\u54c1\u8bf4\u8bf4\u4f60\u7684\u7406\u89e3\u3002", en: "Xin Qiji called his piece a \u2018heroic ci.\u2019 Explain your understanding with reference to the work."}
+      ],
+      accumExtend: [
+        {cn: "\u80cc\u8bf5\u5e76\u9ed8\u5199\u672c\u8bfe\u7684\u56db\u9996\u8bcd\u3002", en: "Recite and write out all four ci poems from memory."}
+      ],
+      teachingPoints: [
+        {cn: "\u611f\u53d7\u8bcd\u7684\u97f3\u97f5\u7f8e\uff0c\u4f53\u4f1a\u4e0d\u540c\u8bcd\u4eba\u7684\u58ee\u5fd7\u8c6a\u60c5\u3002", en: "Feel the musical beauty of ci poetry and appreciate the heroic ambitions of different ci poets."},
+        {cn: "\u7406\u89e3\u8bcd\u4e2d\u5178\u6545\u7684\u8fd0\u7528\u53ca\u5176\u8868\u8fbe\u6548\u679c\u3002", en: "Understand the use of allusions in ci poetry and their expressive effects."}
+      ],
+      parentTips: [
+        {cn: "\u548c\u5b69\u5b50\u4e00\u8d77\u6717\u8bfb\u8fd9\u4e9b\u8bcd\uff0c\u611f\u53d7\u53e4\u5178\u8bd7\u8bcd\u7684\u9b45\u529b\u3002", en: "Read these ci poems aloud together with your child and feel the charm of classical poetry."}
+      ]
+    }
+  ],
+  writing: {
+    title: "\u5e03\u5c40\u8c0b\u7bc7", titleEn: "Planning Structure and Layout",
+    content: {
+      cn: "\u5e03\u5c40\u8c0b\u7bc7\u662f\u5728\u5ba1\u9898\u7acb\u610f\u3001\u9009\u6750\u4e4b\u540e\uff0c\u5bf9\u6750\u6599\u7684\u7ec4\u7ec7\u3001\u7ed3\u6784\u7684\u5b89\u6392\u7b49\u505a\u6574\u4f53\u8c0b\u5212\u3002\u5217\u63d0\u7eb2\u6709\u52a9\u4e8e\u7406\u6e05\u601d\u8def\uff0c\u628a\u63e1\u5168\u5c40\u3002",
+      en: "Planning structure and layout means organizing materials and arranging the overall framework after analyzing the topic and selecting content. Outlining helps clarify thinking and maintain a global perspective."
+    }
+  },
+  famousReading: {
+    title: "\u300a\u5112\u6797\u5916\u53f2\u300b\u2014\u2014\u8bbd\u523a\u4f5c\u54c1\u7684\u9605\u8bfb",
+    titleEn: "The Scholars \u2014 Reading Satirical Works",
+    content: {
+      cn: "\u300a\u5112\u6797\u5916\u53f2\u300b\u662f\u5434\u656c\u6893\u521b\u4f5c\u7684\u8bbd\u523a\u5c0f\u8bf4\uff0c\u5c06\u8bbd\u523a\u7684\u950b\u8292\u9690\u85cf\u5728\u542b\u800c\u4e0d\u9732\u3001\u8010\u4eba\u5bfb\u5473\u7684\u53d9\u8ff0\u4e2d\uff0c\u6df1\u523b\u6279\u5224\u4e86\u5c01\u5efa\u79d1\u4e3e\u5236\u5ea6\u5bf9\u4eba\u7075\u9b42\u7684\u6bd2\u5bb3\u3002",
+      en: "The Scholars by Wu Jingzi is a satirical novel that hides its sharp critique beneath seemingly understated narration, profoundly criticizing how the imperial examination system corrupted the human spirit."
+    }
+  },
+  extracurricularPoetry: [
+    {title: "\u5b9a\u98ce\u6ce2", titleEn: "Calming the Waves", author: "\u82cf\u8f7c", authorEn: "Su Shi"},
+    {title: "\u4e34\u6c5f\u4ed9\u00b7\u591c\u767b\u5c0f\u9601\u61c6\u6d1b\u4e2d\u65e7\u6e38", titleEn: "Immortal by the River: Climbing the Little Tower at Night", author: "\u9648\u4e0e\u4e49", authorEn: "Chen Yuyi"},
+    {title: "\u592a\u5e38\u5f15\u00b7\u5efa\u5eb7\u4e2d\u79cb\u591c\u4e3a\u5415\u53d4\u6f5c\u8d4b", titleEn: "Taichang Melody: Mid-Autumn Night at Jiankang", author: "\u8f9b\u5f03\u75be", authorEn: "Xin Qiji"},
+    {title: "\u6d63\u6eaa\u6c99\uff08\u8eab\u5411\u4e91\u5c71\u90a3\u7554\u884c\uff09", titleEn: "Washing Creek Sand (Heading Toward the Clouded Mountains)", author: "\u7eb3\u5170\u6027\u5fb7", authorEn: "Nalan Xingde"}
+  ]
+},
+/* ═══════════════════════════════════════════ */
+/*  UNIT 4 — 第四单元 读书与鉴赏                  */
+/*  Reading & Appreciation                     */
+/* ═══════════════════════════════════════════ */
+{
+  id: 4, title: "\u7b2c\u56db\u5355\u5143", titleEn: "Unit 4", type: "kewen",
+  theme: "\u8bfb\u4e66\u4e0e\u9274\u8d4f", themeEn: "Reading & Appreciation",
+  unitIntro: {
+    cn: "\u8bfb\u4e66\u95ee\u5b66\u3001\u8c08\u6587\u8bba\u827a\uff0c\u662f\u4eba\u4eec\u7cbe\u795e\u751f\u6d3b\u7684\u91cd\u8981\u5185\u5bb9\u3002\u672c\u5355\u5143\u6240\u9009\u7684\u6587\u7ae0\uff0c\u6216\u8c08\u8bba\u8bfb\u4e66\u6c42\u77e5\uff0c\u6216\u63a2\u8ba8\u6b23\u8d4f\u827a\u672f\u4f5c\u54c1\u7684\u65b9\u6cd5\uff0c\u6216\u9610\u91ca\u7f8e\u5b66\u89c2\u5ff5\u3002\u9605\u8bfb\u65f6\uff0c\u8981\u6ce8\u610f\u4e86\u89e3\u4f5c\u8005\u7684\u89c2\u70b9\uff0c\u5b66\u4e60\u601d\u8fa8\u7684\u65b9\u6cd5\u3002",
+    en: "Reading, studying, discussing literature and art are vital parts of intellectual life. This unit\u2019s essays discuss reading, art appreciation, and aesthetics. While reading, pay attention to the authors\u2019 viewpoints and learn methods of critical thinking."
+  },
+  lessons: [
+    {
+      id: 13, title: "\u77ed\u6587\u4e24\u7bc7",
+      titleEn: "Two Short Essays",
+      author: "\u57f9\u6839\u3001\u9a6c\u5357\u90a8", authorEn: "Francis Bacon & Ma Nancun (Deng Tuo)",
+      authorBio: {cn:"弗朗西斯·培根（1561—1626），英国哲学家、作家，著有《随笔集》。马南邨（1912—1966），本名邓拓，福建闽侯人，新闻工作者、杂文家，著有《燕山夜话》。", en:"Francis Bacon (1561–1626), English philosopher and essayist, author of Essays. Ma Nancun (1912–1966), pen name of Deng Tuo, from Minhou, Fujian. Journalist and essayist, author of Evening Talks at Yanshan."},
+      isSelfRead: false,
+      preview: [{cn: "\u5728\u4f60\u7684\u6210\u957f\u8fc7\u7a0b\u4e2d\uff0c\u54ea\u4e9b\u4e66\u5bf9\u4f60\u4ea7\u751f\u8fc7\u91cd\u8981\u7684\u5f71\u54cd\uff1f", en: "Which books have had an important influence on you during your growth?"}],
+      text: [
+        "\u8c08\u8bfb\u4e66\u3000\u5f17\u6717\u897f\u65af\u00b7\u57f9\u6839\n\u8bfb\u4e66\u8db3\u4ee5\u6021\u60c5\uff0c\u8db3\u4ee5\u5085\u5f69\uff0c\u8db3\u4ee5\u957f\u624d\u3002\u5176\u6021\u60c5\u4e5f\uff0c\u6700\u89c1\u4e8e\u72ec\u5904\u5e7d\u5c45\u4e4b\u65f6\uff1b\u5176\u5085\u5f69\u4e5f\uff0c\u6700\u89c1\u4e8e\u9ad8\u8c08\u9614\u8bba\u4e4b\u4e2d\uff1b\u5176\u957f\u624d\u4e5f\uff0c\u6700\u89c1\u4e8e\u5904\u4e16\u5224\u4e8b\u4e4b\u9645\u3002",
+        "\u8bfb\u53f2\u4f7f\u4eba\u660e\u667a\uff0c\u8bfb\u8bd7\u4f7f\u4eba\u7075\u79c0\uff0c\u6570\u5b66\u4f7f\u4eba\u5468\u5bc6\uff0c\u79d1\u5b66\u4f7f\u4eba\u6df1\u523b\uff0c\u4f26\u7406\u5b66\u4f7f\u4eba\u5e84\u91cd\uff0c\u903b\u8f91\u4fee\u8f9e\u4e4b\u5b66\u4f7f\u4eba\u5584\u8fa9\uff1a\u51e1\u6709\u6240\u5b66\uff0c\u7686\u6210\u6027\u683c\u3002",
+        "\u4e0d\u6c42\u751a\u89e3\u3000\u9a6c\u5357\u90a8\n\u4e00\u822c\u4eba\u5e38\u5e38\u4ee5\u4e3a\uff0c\u5bf9\u4efb\u4f55\u95ee\u9898\u4e0d\u6c42\u751a\u89e3\u90fd\u662f\u4e0d\u597d\u7684\u3002\u5176\u5b9e\u4e5f\u4e0d\u5c3d\u7136\u3002",
+        "\u4e0d\u6c42\u751a\u89e3\u8fd9\u53e5\u8bdd\u6700\u65e9\u662f\u9676\u6e0a\u660e\u8bf4\u7684\u3002\u4ed6\u5728\u300a\u4e94\u67f3\u5148\u751f\u4f20\u300b\u4e2d\u5199\u9053\uff1a\u201c\u597d\u8bfb\u4e66\uff0c\u4e0d\u6c42\u751a\u89e3\uff1b\u6bcf\u6709\u4f1a\u610f\uff0c\u4fbf\u6b23\u7136\u5fd8\u98df\u3002\u201d\u4eba\u4eec\u5f80\u5f80\u53ea\u6293\u4f4f\u4ed6\u8bf4\u7684\u524d\u4e00\u53e5\u8bdd\uff0c\u800c\u4e22\u4e86\u4ed6\u8bf4\u7684\u540e\u4e00\u53e5\u8bdd\u3002"
+      ],
+      textEn: [
+        "Of Studies \u2014 Francis Bacon\nStudies serve for delight, for ornament, and for ability. Their chief use for delight is in privacy and retiring; for ornament, in discourse; and for ability, in the judgment and disposition of business.",
+        "Histories make men wise; poets, witty; the mathematics, subtle; natural philosophy, deep; moral, grave; logic and rhetoric, able to contend: whatever is learned shapes character.",
+        "Don\u2019t Seek to Understand Everything \u2014 Ma Nancun\nPeople commonly think that failing to understand everything about any subject is always bad. This is not necessarily true.",
+        "The phrase \u2018not seeking thorough understanding\u2019 was first said by Tao Yuanming, who wrote: \u2018He loved to read, not seeking thorough understanding; whenever something struck him, he would forget to eat with delight.\u2019 People seize upon the first half while ignoring the second."
+      ],
+      annotations: [
+        {term: "\u6021\u60c5", cn: "\u4f7f\u5fc3\u60c5\u6109\u5feb", en: "To bring delight to the mind"},
+        {term: "\u5085\u5f69", cn: "\u6d82\u4e0a\u8272\u5f69\uff0c\u6307\u7ed9\u8a00\u8f9e\u589e\u6dfb\u5149\u5f69", en: "To add color; to ornament discourse"},
+        {term: "\u57f9\u6839", cn: "(1561\u20131626)\uff0c\u82f1\u56fd\u54f2\u5b66\u5bb6\u3001\u4f5c\u5bb6", en: "(1561\u20131626), English philosopher and writer"},
+        {term: "\u9a6c\u5357\u90a8", cn: "(1912\u20131966)\uff0c\u539f\u540d\u90d3\u62d3\uff0c\u6742\u6587\u5bb6", en: "(1912\u20131966), pen name of Deng Tuo, essayist"}
+      ],
+      thinkExplore: [
+        {cn: "\u300a\u8c08\u8bfb\u4e66\u300b\u548c\u300a\u4e0d\u6c42\u751a\u89e3\u300b\u5206\u522b\u8868\u8fbe\u4e86\u4ec0\u4e48\u89c2\u70b9\uff1f\u4f60\u66f4\u8d5e\u540c\u54ea\u4e00\u79cd\uff1f", en: "What views do \u2018Of Studies\u2019 and \u2018Don\u2019t Seek to Understand Everything\u2019 express? Which do you agree with more?"}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u7406\u89e3\u4e24\u7bc7\u77ed\u6587\u7684\u8bba\u70b9\u548c\u8bba\u8bc1\u65b9\u6cd5\uff0c\u5b66\u4e60\u6279\u5224\u6027\u601d\u7ef4\u3002", en: "Understand the viewpoints and argumentative methods of both essays; learn critical thinking."}
+      ],
+      parentTips: [
+        {cn: "\u548c\u5b69\u5b50\u5206\u4eab\u81ea\u5df1\u7684\u8bfb\u4e66\u7ecf\u9a8c\u548c\u65b9\u6cd5\u3002", en: "Share your own reading experiences and methods with your child."}
+      ]
+    },
+    {
+      id: 14, title: "\u5c71\u6c34\u753b\u7684\u610f\u5883",
+      titleEn: "The Artistic Conception of Landscape Painting",
+      author: "\u674e\u53ef\u67d3", authorEn: "Li Keran",
+      authorBio: {cn:"李可染（1907—1989），江苏徐州人，画家。他是中国近现代杰出的山水画大师，曾师从齐白石、黄宾虹。", en:"Li Keran (1907–1989), from Xuzhou, Jiangsu. Painter. An outstanding modern Chinese landscape painting master who studied under Qi Baishi and Huang Binhong."},
+      isSelfRead: false,
+      preview: [{cn: "\u753b\u5bb6\u674e\u53ef\u67d3\u8c08\u5c71\u6c34\u753b\u7684\u610f\u5883\u3002", en: "Painter Li Keran discusses the artistic conception of landscape painting."}],
+      text: [
+        "\u753b\u5c71\u6c34\u6700\u91cd\u8981\u7684\u95ee\u9898\u662f\u201c\u610f\u5883\u201d\u3002\u4ec0\u4e48\u662f\u610f\u5883\uff1f\u610f\u5883\u5c31\u662f\u666f\u4e0e\u60c5\u7684\u7ed3\u5408\uff1b\u5199\u666f\u5c31\u662f\u5199\u60c5\u3002",
+        "\u8981\u6df1\u5165\u5168\u9762\u5730\u8ba4\u8bc6\u5bf9\u8c61\uff0c\u5fc5\u987b\u8eab\u4e34\u5176\u5883\uff0c\u957f\u671f\u89c2\u5bdf\u3002\u8981\u6df1\u5165\uff0c\u4e0d\u80fd\u505c\u7559\u5728\u8868\u9762\u4e0a\u3002",
+        "\u610f\u5883\u7684\u4ea7\u751f\uff0c\u6709\u8d56\u4e8e\u601d\u60f3\u611f\u60c5\uff0c\u800c\u601d\u60f3\u611f\u60c5\u7684\u4ea7\u751f\uff0c\u53c8\u4e0e\u5bf9\u5ba2\u89c2\u4e8b\u7269\u7684\u6df1\u5165\u7814\u7a76\u6709\u5173\u3002"
+      ],
+      textEn: [
+        "The most important question in landscape painting is \u2018artistic conception.\u2019 What is artistic conception? It is the union of scenery and emotion; to paint scenery is to paint emotion.",
+        "To deeply and fully understand your subject, you must be there in person and observe over a long time. You must go deep \u2014 you cannot stay on the surface.",
+        "The creation of artistic conception depends on thoughts and emotions, and the generation of thoughts and emotions relates to deep study of objective things."
+      ],
+      annotations: [
+        {term: "\u674e\u53ef\u67d3", cn: "(1907\u20131989)\uff0c\u4e2d\u56fd\u8fd1\u4ee3\u5c71\u6c34\u753b\u5927\u5e08", en: "(1907\u20131989), a master of modern Chinese landscape painting"}
+      ],
+      thinkExplore: [
+        {cn: "\u4f5c\u8005\u8ba4\u4e3a\u610f\u5883\u662f\u4ec0\u4e48\uff1f\u5982\u4f55\u83b7\u5f97\u610f\u5883\uff1f", en: "What does the author believe artistic conception is? How is it achieved?"}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u7406\u89e3\u201c\u610f\u5883\u201d\u7684\u6982\u5ff5\uff0c\u5b66\u4e60\u827a\u672f\u9274\u8d4f\u7684\u65b9\u6cd5\u3002", en: "Understand the concept of \u2018artistic conception\u2019 and learn methods of art appreciation."}
+      ],
+      parentTips: [
+        {cn: "\u5e26\u5b69\u5b50\u6b23\u8d4f\u4e00\u4e9b\u4e2d\u56fd\u5c71\u6c34\u753b\uff0c\u4f53\u4f1a\u610f\u5883\u4e4b\u7f8e\u3002", en: "Take your child to appreciate Chinese landscape paintings and experience the beauty of artistic conception."}
+      ]
+    },
+    {
+      id: 15, title: "\u65e0\u8a00\u4e4b\u7f8e",
+      titleEn: "The Beauty of Silence",
+      author: "\u6731\u5149\u6f5c", authorEn: "Zhu Guangqian",
+      authorBio: {cn:"朱光潜（1897—1986），安徽桐城人，美学家、文艺理论家、翻译家。中国现代美学的开拓者和奠基者之一。著有《谈美》《西方美学史》等。", en:"Zhu Guangqian (1897–1986), from Tongcheng, Anhui. Aesthetician, literary theorist, and translator. A pioneer and founder of modern Chinese aesthetics. Works include On Beauty and A History of Western Aesthetics."},
+      isSelfRead: true,
+      preview: [{cn: "\u201c\u65e0\u8a00\u201d\u5230\u5e95\u6307\u4ec0\u4e48\uff1f\u5b83\u53c8\u7f8e\u5728\u4f55\u5904\uff1f", en: "What does \u2018silence\u2019 actually mean? Where does its beauty lie?"}],
+      text: [
+        "\u62ff\u7f8e\u672f\u6765\u8868\u73b0\u601d\u60f3\u548c\u60c5\u611f\uff0c\u4e0e\u5176\u5c3d\u91cf\u6d41\u9732\uff0c\u4e0d\u5982\u7a0d\u6709\u542b\u84c4\uff1b\u4e0e\u5176\u5410\u809a\u5b50\u628a\u4e00\u5207\u90fd\u8bf4\u51fa\u6765\uff0c\u4e0d\u5982\u7559\u4e00\u5927\u90e8\u5206\u8ba9\u6b23\u8d4f\u8005\u81ea\u5df1\u53bb\u9886\u4f1a\u3002",
+        "\u56e0\u4e3a\u5728\u6b23\u8d4f\u8005\u7684\u5934\u8111\u91cc\u6240\u4ea7\u751f\u7684\u5370\u8c61\u548c\u7f8e\u611f\uff0c\u6709\u542b\u84c4\u6bd4\u8f83\u5c3d\u91cf\u6d41\u9732\u7684\u8fd8\u8981\u66f4\u52a0\u6df1\u523b\u3002",
+        "\u6362\u53e5\u8bdd\u8bf4\uff0c\u8bf4\u51fa\u6765\u7684\u8d8a\u5c11\uff0c\u7559\u7740\u4e0d\u8bf4\u7684\u8d8a\u591a\uff0c\u6240\u5f15\u8d77\u7684\u7f8e\u611f\u5c31\u8d8a\u5927\u8d8a\u6df1\u8d8a\u771f\u5207\u3002"
+      ],
+      textEn: [
+        "In using art to express thoughts and emotions, it is better to be somewhat restrained than to reveal everything; better to leave a large part for the audience to discover on their own.",
+        "For the impressions and aesthetic feelings produced in the audience\u2019s mind, restrained expression is more profound than full disclosure.",
+        "In other words, the less that is said, the more that remains unsaid, and the greater, deeper, and more authentic the aesthetic feeling it evokes."
+      ],
+      annotations: [
+        {term: "\u6731\u5149\u6f5c", cn: "(1897\u20131986)\uff0c\u7f8e\u5b66\u5bb6\u3001\u6587\u827a\u7406\u8bba\u5bb6", en: "(1897\u20131986), aesthetician and literary theorist"}
+      ],
+      thinkExplore: [
+        {cn: "\u4f5c\u8005\u4ee5\u6587\u5b66\u3001\u97f3\u4e50\u3001\u96d5\u5851\u7b49\u4e3e\u4f8b\u8bf4\u660e\u201c\u65e0\u8a00\u4e4b\u7f8e\u201d\uff0c\u4f60\u8fd8\u80fd\u4e3e\u51fa\u5176\u4ed6\u4f8b\u5b50\u5417\uff1f", en: "The author illustrates \u2018the beauty of silence\u2019 with literature, music, and sculpture. Can you give other examples?"}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u7406\u89e3\u201c\u65e0\u8a00\u4e4b\u7f8e\u201d\u7684\u6982\u5ff5\uff0c\u5b66\u4e60\u542b\u84c4\u4e4b\u7f8e\u7684\u9274\u8d4f\u65b9\u6cd5\u3002", en: "Understand the concept of \u2018the beauty of silence\u2019 and learn to appreciate understated beauty."}
+      ],
+      parentTips: [
+        {cn: "\u548c\u5b69\u5b50\u4e00\u8d77\u6b23\u8d4f\u827a\u672f\u4f5c\u54c1\uff0c\u5173\u6ce8\u5176\u4e2d\u7684\u201c\u7a7a\u767d\u201d\u4e0e\u201c\u542b\u84c4\u201d\u3002", en: "Appreciate art together with your child, paying attention to its \u2018blank spaces\u2019 and \u2018restraint.\u2019"}
+      ]
+    },
+    {
+      id: 16, title: "\u9a71\u9063\u6211\u4eec\u7684\u60f3\u8c61",
+      titleEn: "Driving Our Imagination",
+      author: "\u53f6\u5723\u9676", authorEn: "Ye Shengtao",
+      authorBio: {cn:"叶圣陶（1894—1988），原名叶绍钧，江苏苏州人，作家、教育家、编辑家。有\u201c优秀的语言艺术家\u201d之称。代表作有《倪焕之》《稻草人》等。", en:"Ye Shengtao (1894–1988), original name Ye Shaojun, from Suzhou, Jiangsu. Writer, educator, and editor. Known as 'an excellent language artist.' Major works include Ni Huanzhi and The Scarecrow."},
+      isSelfRead: true,
+      preview: [{cn: "\u6b23\u8d4f\u6587\u827a\u4f5c\u54c1\uff0c\u4e0d\u80fd\u62d8\u6ce5\u4e8e\u6587\u5b57\uff0c\u5fc5\u987b\u9a71\u9063\u60f3\u8c61\u3002", en: "Appreciating literary works requires not clinging to the words but driving our imagination."}],
+      text: [
+        "\u6587\u5b57\u662f\u4e00\u9053\u6865\u6881\u3002\u8fd9\u8fb9\u7684\u6865\u5835\u7ad9\u7740\u8bfb\u8005\uff0c\u90a3\u8fb9\u7684\u6865\u5835\u7ad9\u7740\u4f5c\u8005\u3002\u901a\u8fc7\u4e86\u8fd9\u4e00\u9053\u6865\u6881\uff0c\u8bfb\u8005\u624d\u548c\u4f5c\u8005\u4f1a\u9762\u3002",
+        "\u8981\u9886\u4f1a\u738b\u7ef4\u7684\u201c\u5927\u6f20\u5b64\u70df\u76f4\uff0c\u957f\u6cb3\u843d\u65e5\u5706\u201d\uff0c\u5f97\u5728\u60f3\u8c61\u4e2d\u7741\u5f00\u773c\u775b\u6765\uff0c\u770b\u8fd9\u5341\u4e2a\u6587\u5b57\u6240\u6784\u6210\u7684\u4e00\u5e45\u56fe\u753b\u3002",
+        "\u6211\u4eec\u9274\u8d4f\u6587\u827a\uff0c\u6700\u5927\u76ee\u7684\u65e0\u975e\u662f\u63a5\u53d7\u7f8e\u611f\u7684\u7ecf\u9a8c\uff0c\u5f97\u5230\u4eba\u751f\u7684\u53d7\u7528\u3002\u8981\u8fbe\u5230\u8fd9\u4e2a\u76ee\u7684\uff0c\u4e0d\u80fd\u62d8\u6ce5\u4e8e\u6587\u5b57\uff0c\u5fc5\u987b\u9a71\u9063\u6211\u4eec\u7684\u60f3\u8c61\u3002"
+      ],
+      textEn: [
+        "Words are a bridge. The reader stands at one end, the author at the other. Through this bridge, the reader meets the author.",
+        "To appreciate Wang Wei\u2019s \u2018Lone smoke rises straight from the vast desert, the round sun sets over the long river,\u2019 you must open your eyes in imagination and see the picture these ten characters paint.",
+        "Our greatest purpose in appreciating literature is to receive the experience of beauty and gain something for life. To achieve this, we must not cling to the words but must drive our imagination."
+      ],
+      annotations: [
+        {term: "\u53f6\u5723\u9676", cn: "(1894\u20131988)\uff0c\u4f5c\u5bb6\u3001\u6559\u80b2\u5bb6\u3001\u7f16\u8f91\u5bb6", en: "(1894\u20131988), writer, educator, and editor"}
+      ],
+      thinkExplore: [
+        {cn: "\u4f5c\u8005\u662f\u5982\u4f55\u5f15\u5bfc\u6211\u4eec\u9a71\u9063\u60f3\u8c61\u53bb\u6b23\u8d4f\u4f5c\u54c1\u7684\uff1f", en: "How does the author guide us in using our imagination to appreciate works?"}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "\u5b66\u4e60\u9a71\u9063\u60f3\u8c61\u6765\u9274\u8d4f\u6587\u827a\u4f5c\u54c1\u7684\u65b9\u6cd5\u3002", en: "Learn the method of using imagination to appreciate literary works."}
+      ],
+      parentTips: [
+        {cn: "\u9f13\u52b1\u5b69\u5b50\u5728\u9605\u8bfb\u65f6\u53d1\u6325\u60f3\u8c61\u529b\uff0c\u4e0d\u8981\u53ea\u5173\u6ce8\u5b57\u9762\u610f\u601d\u3002", en: "Encourage your child to use imagination while reading, not just focusing on literal meanings."}
+      ]
+    }
+  ],
+  writing: {
+    title: "\u4fee\u6539\u6da6\u8272", titleEn: "Revising and Polishing",
+    content: {
+      cn: "\u6587\u7ae0\u5199\u6210\u540e\uff0c\u591a\u8bfb\u51e0\u904d\uff0c\u505a\u4e9b\u4fee\u6539\uff0c\u76f4\u5230\u6ee1\u610f\u4e3a\u6b62\u3002\u4fee\u6539\u6587\u7ae0\u8981\u517c\u987e\u201c\u8a00\u201d\u548c\u201c\u610f\u201d\uff0c\u65e2\u8981\u6539\u201c\u5bf9\u201d\uff0c\u4e5f\u8981\u6539\u201c\u597d\u201d\u3002",
+      en: "After writing, read through several times and make revisions until satisfied. Revision should address both \u2018expression\u2019 and \u2018meaning\u2019 \u2014 getting it right and making it good."
+    }
+  },
+  oralCommunication: {
+    title: "\u8fa9\u8bba", titleEn: "Debate",
+    content: {
+      cn: "\u8fa9\u8bba\u662f\u4e00\u79cd\u5728\u65e5\u5e38\u751f\u6d3b\u548c\u793e\u4f1a\u6d3b\u52a8\u4e2d\u7ecf\u5e38\u7528\u5230\u7684\u53e3\u8bed\u4ea4\u9645\u65b9\u5f0f\u3002\u8981\u8868\u8fbe\u6e05\u6670\uff0c\u89c2\u70b9\u9c9c\u660e\uff0c\u5584\u4e8e\u8046\u542c\uff0c\u5feb\u901f\u53cd\u5e94\u3002",
+      en: "Debate is a common form of oral communication in daily life and social activities. One should express clearly, state opinions firmly, listen well, and respond quickly."
+    }
+  }
+},
+/* ═══════════════════════════════════════════ */
+/*  UNIT 5 — 第五单元 活动·探究 (戏剧)        */
+/* ═══════════════════════════════════════════ */
+{
+  id: 5, title: "第五单元", titleEn: "Unit 5", type: "activity",
+  theme: "戏剧", themeEn: "Drama",
+  unitIntro: {
+    cn: "\u201c舞台小天地，天地大舞台。\u201d舞台上的故事，凝聚着无尽的人生，或令人感动振奋，或引人慨叹深思；舞台上的人物，折射出多样的人格。本单元将阅读优秀剧本选段，在此基础上，自主选择合适的剧本，分配角色，合作排练，尝试戏剧演出，给初中生活留下美好的回忆。",
+    en: "\"The stage is a small world; the world is a great stage.\" Stories on stage condense infinite human experience, inspiring or thought-provoking. Characters onstage reflect diverse personalities. In this unit, students will read outstanding play excerpts, then independently select scripts, assign roles, rehearse cooperatively, and attempt theatrical performances, leaving beautiful memories of junior high."
+  },
+  tasks: [
+    {title: "阅读与思考", titleEn: "Reading and Reflection", cn: "认真阅读教材提供的剧本，把握戏剧冲突，理解人物形象，品味戏剧台词，思考如何把自己对剧本的感受与理解在舞台上表现出来。", en: "Read the scripts provided carefully, grasp dramatic conflicts, understand characters, savor theatrical dialogue, and consider how to express your understanding on stage."},
+    {title: "准备与排练", titleEn: "Preparation and Rehearsal", cn: "从教材中选择一部剧本，也可以自选合适的剧本，组织剧组，分别安排导演、演员、剧务，明确任务、要求，分工准备，合作排练。", en: "Select a script from the textbook or choose your own. Organize a troupe, assign director, actors, and crew. Clarify tasks, prepare collaboratively, and rehearse together."},
+    {title: "演出与评议", titleEn: "Performance and Evaluation", cn: "正式演出，评选优秀演员。结合演出情况，自选话题，写一篇作文。", en: "Perform formally, select outstanding actors. Choose a topic related to the performance and write a composition."}
+  ],
+  lessons: [
+    {
+      id: 17, title: "屈原（节选）",
+      titleEn: "Erta — Qu Yuan (Excerpt)",
+      author: "郭沫若", authorEn: "Guo Moruo",
+      authorBio: {cn:"郭沫若（1892—1978），原名郭开贞，四川乐山人。文学家、历史学家、考古学家。代表作有诗集《女神》、历史剧《屈原》《虎符》等。", en:"Guo Moruo (1892–1978), original name Guo Kaizhen, from Leshan, Sichuan. Literary figure, historian, and archaeologist. Major works include the poetry collection The Goddesses and historical dramas Qu Yuan and The Tiger Tally."},
+      isSelfRead: true,
+      preview: [{cn: "本文节选自郭沫若历史剧《屈原》第五幕第二场。阅读时注意把握屈原独白中风、雷、电等形象的象征意义。", en: "This excerpt is from Act V, Scene 2 of Guo Moruo\u2019s historical drama Qu Yuan. Pay attention to the symbolic meaning of wind, thunder, and lightning in Qu Yuan\u2019s monologue."}],
+      text: [
+        "靳尚带卫士二人登场，命人叫太卜郑詹尹来见。靳尚告知南后密令，要郑詹尹用毒酒毒死屈原，然后放火焚烧大庙，借雷火之名消灭于无形。",
+        "郑詹尹将屈原带出神殿，让他走动走动。屈原手足戴刑具，颈系长链，在殿中徘徊。",
+        "屈原（向风及雷电）风！你咆哮吧！咆哮吧！尽力地咆哮吧！在这暗无天日的时候，一切都睡着了，都沉在梦里，都死了的时候，正是应该你咆哮的时候，应该你尽力咆哮的时候！",
+        "啊，电！你这宇宙中最犀利的剑呀！我的长剑是被人拔去了，但是你，你能拔去我有形的长剑，你不能拔去我无形的长剑呀。电，你这宇宙中的剑，也正是，我心中的剑。你劈吧，劈吧，劈吧！把这比铁还坚固的黑暗，劈开，劈开，劈开！",
+        "光明呀，我景仰你，我景仰你，我要向你拜手，我要向你稽首。我知道，你的本身就是火，你，你这宇宙中的最伟大者呀，火！",
+        "炸裂呀，我的身体！炸裂呀，宇宙！让那赤条条的火滚动起来，像这风一样，像那海一样，滚动起来，把一切的有形，一切的污秽，烧毁了吧，烧毁了吧！把这包含着一切罪恶的黑暗烧毁了吧！",
+        "鼓动吧，风！咆哮吧，雷！闪耀吧，电！把一切沉睡在黑暗怀里的东西，毁灭，毁灭，毁灭呀！"
+      ],
+      textEn: [
+        "Jin Shang enters with two guards and summons the diviner Zheng Zhanyin. He relays the Queen\u2019s secret order: poison Qu Yuan with wine, then set fire to the temple, blaming it on lightning.",
+        "Zheng Zhanyin brings Qu Yuan out of confinement to walk about the hall. Qu Yuan, shackled at hands and feet with a chain around his neck, paces the temple.",
+        "Qu Yuan (to the wind and thunder): Wind! Howl! Howl! Howl with all your might! In this time of utter darkness, when everything sleeps, sinks into dreams, lies dead \u2014 now is the time for you to howl, to howl with all your might!",
+        "Ah, Lightning! You, the sharpest sword in the universe! They have taken my tangible sword, but you \u2014 you can take my physical sword, yet you cannot take my invisible sword! Lightning, you sword of the cosmos, you are also the sword in my heart. Strike! Strike! Strike! Cleave open this darkness harder than iron \u2014 cleave it open!",
+        "O Light! I revere you, I revere you. I bow to you, I prostrate before you. I know your very essence is fire \u2014 you, the greatest force in the universe \u2014 Fire!",
+        "Burst apart, my body! Burst apart, universe! Let the naked flames roll on like the wind, like the sea, and burn away all that is material, all that is foul \u2014 burn it away! Burn away this darkness that harbors every evil!",
+        "Blow, wind! Roar, thunder! Flash, lightning! Destroy everything that sleeps in the embrace of darkness \u2014 destroy, destroy, destroy!"
+      ],
+      annotations: [
+        {term: "靳尚", cn: "楚国大臣，屈原的政敌", en: "A minister of Chu, Qu Yuan\u2019s political enemy"},
+        {term: "郑詹尹", cn: "太卜，南后的父亲", en: "The Grand Diviner, father of Queen Nan"},
+        {term: "睥睨", cn: "眼睛斜着看，形容高傲的样子", en: "To look askance, expressing a haughty manner"},
+        {term: "稽首", cn: "古代跪拜礼，叩头至地", en: "An ancient prostration ritual, head touching the ground"},
+        {term: "土偶木梗", cn: "泥塑和木雕的神像，比喻徒有形式而无实际", en: "Clay and wooden idols; metaphor for things that are mere empty forms"}
+      ],
+      thinkExplore: [
+        {cn: "屈原的独白中，\u201c风\u201d\u201c雷\u201d\u201c电\u201d等形象有怎样的象征意义？", en: "What is the symbolic meaning of \u2018wind,\u2019 \u2018thunder,\u2019 and \u2018lightning\u2019 in Qu Yuan\u2019s monologue?"},
+        {cn: "靳尚和郑詹尹的对话与屈原的独白有什么联系？", en: "What is the connection between the dialogue of Jin Shang and Zheng Zhanyin and Qu Yuan\u2019s monologue?"}
+      ],
+      accumExtend: [
+        {cn: "分角色朗读课文，注意读出人物的心理和情感。", en: "Read the text aloud by role, paying attention to conveying the characters\u2019 psychology and emotions."}
+      ],
+      teachingPoints: [
+        {cn: "历史剧中的象征手法：风、雷、电象征正义力量和变革", en: "Symbolism in historical drama: wind, thunder, and lightning symbolize forces of justice and transformation"},
+        {cn: "独白的戏剧功能：揭示人物内心世界，推动情节发展", en: "Dramatic function of monologue: reveals character\u2019s inner world and advances the plot"}
+      ],
+      parentTips: [
+        {cn: "可与孩子讨论屈原的爱国精神如何通过戏剧形式表现", en: "Discuss with your child how Qu Yuan\u2019s patriotism is expressed through dramatic form"}
+      ]
+    },
+    {
+      id: 18, title: "天下第一楼（节选）",
+      titleEn: "The Best Restaurant Under Heaven (Excerpt)",
+      author: "何冀平", authorEn: "He Jiping",
+      authorBio: {cn:"何冀平（1951— ），北京人，剧作家。北京人民艺术剧院编剧。代表作有话剧《天下第一楼》等，被誉为当代优秀剧作家。", en:"He Jiping (b. 1951), from Beijing. Playwright at the Beijing People's Art Theatre. Major works include the play The Number One Restaurant Under Heaven; praised as an outstanding contemporary playwright."},
+      isSelfRead: true,
+      preview: [{cn: "话剧《天下第一楼》讲述民国初年北京老字号烤鸭店福聚德的兴衰。本文节选自第三幕，展现了福聚德鼎盛时期的种种矛盾冲突。", en: "The play The Best Restaurant Under Heaven tells of the rise and fall of Fujude, a time-honored Beijing roast duck restaurant in the early Republic era. This excerpt from Act III shows various conflicts during the restaurant\u2019s heyday."}],
+      text: [
+        "今天是大年初六，福聚德大开张。伙计们簇拥着王子西将铜幌子挂在门前。掌案的把砧板剁得当当响，掌勺的啪啪啪地敲着炒勺，这就是旧时买卖家讲究的\u201c响案板\u201d。",
+        "唐茂昌带福子气冲冲上场，要从钱柜里支五百块钱，王子西无奈打开钱柜。唐茂昌还暗示卢孟实在老家置了产业。",
+        "卢孟实上场，处罚了看落子的小伙计，厚赏即将成婚的成顺，让福聚德的伙计也体面。",
+        "罗大头因烤杆被动而与卢孟实冲突，揭了卢孟实父亲被人用大秤当牲口称的旧伤。卢孟实凄惨地笑着赶走了罗大头。",
+        "唐茂盛来借钱修分号门脸，还要带走堂头常贵。卢孟实欲骂无言，欲哭无泪，一拳砸在柜台上。",
+        "修鼎新感叹：\u201c一个人干，八个人拆。\u201d"
+      ],
+      textEn: [
+        "It is the sixth day of the New Year, and Fujude\u2019s grand reopening. The staff hang the old copper signboards at the gate. The chopping board rings, the ladle clangs \u2014 this is the traditional \u2018sounding board\u2019 custom for a prosperous start.",
+        "Tang Maochang storms in with his servant Fuzi, demanding five hundred dollars from the cash box. Wang Zixi reluctantly opens it. Tang hints that Lu Mengshi has been buying property back home.",
+        "Lu Mengshi arrives, punishes a young waiter who broke rules by watching lowbrow entertainment, then generously rewards Chengshun for his upcoming wedding, declaring that Fujude\u2019s workers deserve dignity.",
+        "Luo Datou, the master roast duck chef, quarrels with Lu Mengshi over the roasting pole and cruelly dredges up the old wound about Lu\u2019s father being weighed on a giant scale like livestock. Lu laughs a bleak, shuddering laugh and orders Luo out.",
+        "Tang Maosheng arrives to borrow money for his branch restaurant and insists on taking away Changgui, the head waiter. Lu is speechless with rage, on the verge of tears, and slams his fist on the counter.",
+        "Xiu Dingxin sighs: \u2018One man builds while eight tear it down.\u2019"
+      ],
+      annotations: [
+        {term: "响案板", cn: "旧时饭庄开张时砧板、炒勺、算盘齐响的习俗，图个吉利", en: "A tradition where chopping boards, ladles, and abacuses all sound together at reopening, for good luck"},
+        {term: "东六西四", cn: "旧时利润分成比例，东家六成，掌柜四成", en: "Traditional profit-sharing ratio: 60% for the owner, 40% for the manager"},
+        {term: "五子行", cn: "旧时对厨子、戏子等服务业者的蔑称", en: "A derogatory term for service trades such as cooks and actors"},
+        {term: "拿糖", cn: "装模作样或故意表示为难，以抬高身价", en: "To put on airs or feign difficulty to raise one\u2019s status"}
+      ],
+      thinkExplore: [
+        {cn: "\u201c一个人干，八个人拆\u201d道出了福聚德由盛转衰的直接原因。结合课文具体内容，说说你对福聚德衰落根本原因的认识。", en: "\u2018One man builds while eight tear it down\u2019 reveals the direct cause of Fujude\u2019s decline. Based on the text, discuss your understanding of the fundamental reasons for its downfall."},
+        {cn: "《天下第一楼》被称为\u201c京味话剧\u201d，其语言有什么特色？", en: "The Best Restaurant is called a \u2018Beijing-flavor play.\u2019 What are its linguistic characteristics?"}
+      ],
+      accumExtend: [],
+      teachingPoints: [
+        {cn: "京味话剧的语言特色：北京方言、行业术语、生活气息浓厚", en: "Beijing-flavor drama: characterized by Beijing dialect, trade jargon, and vivid everyday atmosphere"},
+        {cn: "多重戏剧冲突的编织：东家与掌柜、师傅与学徒、旧势力与新秩序", en: "Weaving multiple dramatic conflicts: owner vs. manager, master vs. apprentice, old order vs. new"}
+      ],
+      parentTips: [
+        {cn: "可讨论剧中人物关系及矛盾冲突所反映的社会问题", en: "Discuss the character relationships and social issues reflected in the dramatic conflicts"}
+      ]
+    },
+    {
+      id: 19, title: "枣儿",
+      titleEn: "Dates (Zaor)",
+      author: "孙鸿", authorEn: "Sun Hong",
+      authorBio: {cn:"孙鸿，当代剧作家。代表作有话剧《枣儿》等，关注农村留守问题和社会变迁。", en:"Sun Hong, contemporary playwright. Major works include the play The Jujubes, which addresses the issue of rural left-behind populations and social change."},
+      isSelfRead: true,
+      preview: [{cn: "一棵挂满红枣的老树下，一位老人和一个男孩相遇。枣儿串起了两代人的故事——等待远方亲人归来的孤独与期盼。", en: "Under an old tree laden with red dates, an elderly man and a young boy meet. The dates connect stories of two generations \u2014 the loneliness and longing of waiting for distant loved ones to return."}],
+      text: [
+        "幕启。一棵挂满红枣的老树。树下坐着位形如雕塑的老人。幕后传来带西北口音的童谣：枣儿甜，枣儿香，要吃枣儿喊爹娘……",
+        "老人让男孩吃枣儿，给他讲枣儿的故事。老人的儿子就叫枣儿，命中缺\u201c木\u201d，所以取名枣儿。",
+        "老人讲起往事：小日本站在树下端枪，一颗枣儿落到鬼子钢盔上，吓得那狗娘养的抱头就逃。又讲闹灾荒时，老伴儿把仅剩的八十一颗枣儿让给爷儿俩吃，才活了下来。",
+        "男孩说要回去等爹。老人心事重重：\u201c你有了巧克力，就不会来了。\u201d男孩说：\u201c也来。你的枣儿甜！\u201d",
+        "男孩终于说出：\u201c爹不会回来了。我爹在城里又有了一个家。\u201d老人紧紧搂住男孩。",
+        "男孩说：\u201c我娘说，出远门的人有时候不认识回家的路了，只要家里人天天喊，他早晚会回来的。\u201d二人爬上土坡，齐声喊起童谣。二人翘首远望，状如雕塑。响起无数个童声呼唤声。"
+      ],
+      textEn: [
+        "Curtain rises. An old tree laden with red dates. An old man sits beneath it, still as a sculpture. From backstage comes a folk song in a northwestern accent: Dates are sweet, dates are fragrant, want to eat dates, call for mom and dad...",
+        "The old man gives the boy dates and tells him stories. His son was named Zaor (Dates) because a fortune teller said the child\u2019s fate lacked the element \u2018wood,\u2019 and the character for \u2018date\u2019 contains \u2018wood.\u2019",
+        "The old man recalls the past: a Japanese soldier aimed his gun under this tree, and a falling date struck his helmet with a \u2018clang,\u2019 scaring him into fleeing. During a famine, his wife gave her last eighty-one dates to father and son, saving their lives.",
+        "The boy says he must go wait for his father. The old man says wistfully: \u2018Once you have chocolate, you won\u2019t come anymore.\u2019 The boy replies: \u2018I\u2019ll still come. Your dates are sweet!\u2019",
+        "The boy finally reveals: \u2018Dad won\u2019t come back. He has a new family in the city.\u2019 The old man hugs the boy tightly.",
+        "The boy says: \u2018Mom says people who go far away sometimes forget the way home, but if the family calls every day, they\u2019ll come back eventually.\u2019 The two climb a mound and chant the folk song together. They gaze into the distance, still as sculptures. Countless children\u2019s voices echo the call."
+      ],
+      annotations: [
+        {term: "形如雕塑", cn: "形容一动不动，像雕塑一样", en: "Motionless as a sculpture"},
+        {term: "囫囵", cn: "完整，整个儿的", en: "Whole, entire"},
+        {term: "踌躇", cn: "犹豫不决", en: "Hesitant, irresolute"}
+      ],
+      thinkExplore: [
+        {cn: "\u201c枣儿\u201d在文中有什么作用？作者想要借\u201c枣儿\u201d表达怎样的思想感情？", en: "What role do the \u2018dates\u2019 play in the text? What thoughts and feelings does the author wish to convey through them?"},
+        {cn: "剧本开头和结尾用了同一首童谣，两次出现的表达效果有什么不同？", en: "The same folk song appears at the beginning and end. How do the two occurrences differ in expressive effect?"}
+      ],
+      accumExtend: [
+        {cn: "联系现实生活，关注空巢老人和留守儿童现象，谈谈你的看法。", en: "Relate this to real life. Discuss your views on the phenomena of empty-nest elderly and left-behind children."}
+      ],
+      teachingPoints: [
+        {cn: "象征手法：枣儿象征亲情、乡土、传统生活方式", en: "Symbolism: dates symbolize family bonds, homeland, and traditional ways of life"},
+        {cn: "戏剧中的舞台说明：交代环境、暗示人物心理", en: "Stage directions in drama: setting the scene and hinting at characters\u2019 inner states"}
+      ],
+      parentTips: [
+        {cn: "可与孩子讨论城镇化进程中的家庭变迁与亲情维系", en: "Discuss family changes and maintaining bonds amid urbanization with your child"}
+      ]
+    }
+  ]
+},
+/* ═══════════════════════════════════════════ */
+/*  UNIT 6 — 第六单元 古文经典 Classical Prose  */
+/* ═══════════════════════════════════════════ */
+{
+  id: 6, title: "第六单元", titleEn: "Unit 6", type: "kewen",
+  theme: "古文经典", themeEn: "Classical Chinese Masterpieces",
+  unitIntro: {
+    cn: "本单元课文从不同角度反映了古人的政治、军事生活：有以弱胜强的战争实例，有反抗苛政的起义壮举，有连类取譬的婉转讽劝，有恳切诚挚的进谏献言，还有描写社会生活、抒发豪迈情怀的咏唱。阅读这类诗文，可以感受古人的智慧，体会他们的责任感和担当精神。",
+    en: "This unit\u2019s texts reflect ancient Chinese political and military life from different angles: battles won by the weak against the strong, uprisings against tyranny, subtle persuasion through analogy, earnest memorials of advice, and poems expressing heroic sentiments. Reading these works, students can appreciate the wisdom of the ancients and their sense of responsibility and commitment."
+  },
+  lessons: [
+    {
+      id: 20, title: "曹刿论战",
+      titleEn: "Cao Gui on the Battle",
+      author: "《左传》", authorEn: "Zuo Zhuan (Chronicle of Zuo)",
+      authorBio: {cn:"《左传》是中国第一部叙事详细的编年体史书，相传为春秋时期左丘明所著，记载了春秋时期各诸侯国的政治、军事、外交等活动。", en:"Zuo Zhuan (Chronicle of Zuo) is China's first detailed chronological history, traditionally attributed to Zuo Qiuming of the Spring and Autumn period, recording the political, military, and diplomatic activities of the vassal states."},
+      isSelfRead: false,
+      preview: [{cn: "长勺之战是古代以弱胜强的经典战例。朗读课文，读准字音，把握好停顿，结合注释了解课文大意。", en: "The Battle of Changshao is a classic example of the weak defeating the strong. Read aloud with correct pronunciation and pauses, and use annotations to understand the general meaning."}],
+      text: [
+        "十年春，齐师伐我。公将战，曹刿请见。其乡人曰：\u201c肉食者谋之，又何间焉？\u201d刿曰：\u201c肉食者鄙，未能远谋。\u201d乃入见。问：\u201c何以战？\u201d公曰：\u201c衣食所安，弗敢专也，必以分人。\u201d对曰：\u201c小惠未遍，民弗从也。\u201d公曰：\u201c牺牲玉帛，弗敢加也，必以信。\u201d对曰：\u201c小信未孚，神弗福也。\u201d公曰：\u201c小大之狱，虽不能察，必以情。\u201d对曰：\u201c忠之属也。可以一战。战则请从。\u201d",
+        "公与之乘，战于长勺。公将鼓之。刿曰：\u201c未可。\u201d齐人三鼓。刿曰：\u201c可矣。\u201d齐师败绩。公将驰之。刿曰：\u201c未可。\u201d下视其辙，登轼而望之，曰：\u201c可矣。\u201d遂逐齐师。",
+        "既克，公问其故。对曰：\u201c夫战，勇气也。一鼓作气，再而衰，三而竭。彼竭我盈，故克之。夫大国，难测也，惧有伏焉。吾视其辙乱，望其旗靡，故逐之。\u201d"
+      ],
+      textEn: [
+        "In the tenth year of Duke Zhuang, spring, the army of Qi attacked us. The Duke was about to fight. Cao Gui requested an audience. His fellow villagers said: \u2018Those who eat meat plan such things \u2014 why should you interfere?\u2019 Gui said: \u2018Those who eat meat are short-sighted and incapable of far-reaching plans.\u2019 So he went in to see the Duke. He asked: \u2018What will you rely on to fight?\u2019 The Duke said: \u2018Clothing and food that bring comfort \u2014 I dare not keep them for myself, but always share with others.\u2019 Gui replied: \u2018Small favors that don\u2019t reach everyone \u2014 the people will not follow you.\u2019 The Duke said: \u2018Sacrificial offerings of jade and silk \u2014 I dare not exaggerate them, and always report truthfully.\u2019 Gui replied: \u2018Such small sincerity doesn\u2019t win the gods\u2019 trust \u2014 they will not bless you.\u2019 The Duke said: \u2018In lawsuits great and small, though I cannot examine every detail, I always judge with sincerity.\u2019 Gui replied: \u2018That is an act of devotion to duty. With this you can fight. When we fight, I ask to accompany you.\u2019",
+        "The Duke rode with him into battle at Changshao. The Duke was about to order the drums struck. Gui said: \u2018Not yet.\u2019 The men of Qi drummed three times. Gui said: \u2018Now!\u2019 The army of Qi was routed. The Duke was about to pursue them. Gui said: \u2018Not yet.\u2019 He dismounted to examine their wheel-tracks, then climbed the crossbar to survey them, and said: \u2018Now!\u2019 They then pursued the army of Qi.",
+        "After the victory, the Duke asked the reason. Gui replied: \u2018Fighting depends on courage. The first drum rouses it; the second weakens it; the third exhausts it. When their courage was spent and ours full, we defeated them. A great state is hard to fathom \u2014 I feared an ambush. When I saw their tracks in disorder and their banners fallen, I knew we could pursue.\u2019"
+      ],
+      annotations: [
+        {term: "肉食者", cn: "吃肉的人，指当权者", en: "Those who eat meat \u2014 i.e., those in power"},
+        {term: "间", cn: "参与", en: "To participate, intervene"},
+        {term: "牺牲玉帛", cn: "古代祭祀用的祭品。牺牲指纯色全体牲畜，玉帛指玉和丝织品", en: "Sacrificial offerings: livestock of pure color, jade, and silk"},
+        {term: "小信未孚", cn: "小信用未能让神灵信服", en: "Small sincerity is not enough to win the gods\u2019 trust"},
+        {term: "一鼓作气", cn: "第一次击鼓能够鼓起士气", en: "The first drumbeat rouses courage \u2014 now an idiom meaning \u2018to accomplish in one vigorous effort\u2019"},
+        {term: "辙", cn: "车轮碾出的痕迹", en: "Wheel tracks"},
+        {term: "靡", cn: "倒下", en: "To fall, collapse"}
+      ],
+      thinkExplore: [
+        {cn: "齐鲁长勺之战，鲁国能够以弱胜强的主要原因是什么？", en: "What were the main reasons Lu could defeat the stronger Qi at the Battle of Changshao?"},
+        {cn: "课文仅用二百多字叙述了长勺之战的全过程。说说课文是怎样安排详略的。", en: "The text narrates the entire battle in just over 200 characters. How does the text handle detail versus brevity?"}
+      ],
+      accumExtend: [
+        {cn: "熟读并背诵课文。", en: "Read and memorize the text."}
+      ],
+      teachingPoints: [
+        {cn: "《左传》的叙事特点：简洁凝练，详略得当", en: "Narrative features of Zuo Zhuan: concise, well-balanced in detail"},
+        {cn: "以弱胜强的战略思想：政治清明是军事胜利的基础", en: "Strategy of the weak defeating the strong: good governance is the foundation of military victory"}
+      ],
+      parentTips: [
+        {cn: "引导孩子理解\u201c一鼓作气\u201d的出处和应用", en: "Help your child understand the origin and application of the idiom \u2018accomplish in one vigorous effort\u2019"}
+      ]
+    },
+    {
+      id: 21, title: "邹忌讽齐王纳谏",
+      titleEn: "Zou Ji Advises the King of Qi to Accept Counsel",
+      author: "《战国策》", authorEn: "Strategies of the Warring States",
+      authorBio: {cn:"《战国策》是西汉刘向整理编辑的一部国别体史书，记载了战国时期各国政治、军事、外交活动及策士的言论和谋略。", en:"Strategies of the Warring States is a state-by-state history compiled by Liu Xiang of the Western Han Dynasty, recording political, military, and diplomatic activities during the Warring States period."},
+      isSelfRead: true,
+      preview: [{cn: "面对家人的赞美和客人的奉承，邹忌没有沾沾自喜，而是作了理性的思考，从\u201c治家\u201d中悟出\u201c治国\u201d的道理。", en: "Facing family praise and guest flattery, Zou Ji did not become complacent but reflected rationally, deriving principles of governance from household matters."}],
+      text: [
+        "邹忌修八尺有余，而形貌昳丽。朝服衣冠，窥镜，谓其妻曰：\u201c我孰与城北徐公美？\u201d其妻曰：\u201c君美甚，徐公何能及君也？\u201d城北徐公，齐国之美丽者也。忌不自信，而复问其妾曰：\u201c吾孰与徐公美？\u201d妾曰：\u201c徐公何能及君也？\u201d旦日，客从外来，与坐谈，问之客曰：\u201c吾与徐公孰美？\u201d客曰：\u201c徐公不若君之美也。\u201d明日徐公来，孰视之，自以为不如；窥镜而自视，又弗如远甚。暮寝而思之，曰：\u201c吾妻之美我者，私我也；妾之美我者，畏我也；客之美我者，欲有求于我也。\u201d",
+        "于是入朝见威王，曰：\u201c臣诚知不如徐公美。臣之妻私臣，臣之妾畏臣，臣之客欲有求于臣，皆以美于徐公。今齐地方千里，百二十城，宫妇左右莫不私王，朝廷之臣莫不畏王，四境之内莫不有求于王：由此观之，王之蔽甚矣。\u201d",
+        "王曰：\u201c善。\u201d乃下令：\u201c群臣吏民能面刺寡人之过者，受上赏；上书谏寡人者，受中赏；能谤讥于市朝，闻寡人之耳者，受下赏。\u201d令初下，群臣进谏，门庭若市；数月之后，时时而间进；期年之后，虽欲言，无可进者。燕、赵、韩、魏闻之，皆朝于齐。此所谓战胜于朝廷。"
+      ],
+      textEn: [
+        "Zou Ji was over eight chi tall and handsome. One morning he dressed and looked in the mirror, asking his wife: \u2018Who is more handsome, I or Lord Xu of the northern city?\u2019 His wife said: \u2018You are far more handsome \u2014 how could Lord Xu compare?\u2019 Lord Xu was the most handsome man in Qi. Unconvinced, Zou Ji asked his concubine the same question and received the same answer. The next day a guest visited, and Zou Ji asked him too; the guest also said Zou Ji was more handsome. When Lord Xu actually came, Zou Ji studied him carefully and realized he was far less handsome. That night he reflected: \u2018My wife says I\u2019m handsomer because she loves me; my concubine because she fears me; my guest because he wants something from me.\u2019",
+        "He then went to court and told King Wei: \u2018I truly know I am not as handsome as Lord Xu. Yet my wife flatters me out of love, my concubine out of fear, my guest out of self-interest \u2014 all declaring me handsomer. Now Qi spans a thousand li with one hundred twenty cities. Every palace woman and attendant favors you; every minister fears you; everyone within your borders seeks something from you. From this we can see: Your Majesty is deeply deceived.\u2019",
+        "The King said: \u2018Excellent.\u2019 He then decreed: \u2018Any minister, official, or commoner who criticizes my faults to my face shall receive the highest reward; those who submit written advice, the middle reward; those who censure me in public places so that it reaches my ears, the lowest reward.\u2019 When the decree was first issued, ministers flooded in to advise, making the court as crowded as a marketplace. After several months, advice came only occasionally. After a full year, even those who wished to speak could find nothing to criticize. Yan, Zhao, Han, and Wei all came to pay court to Qi. This is what is called \u2018winning battles at court.\u2019"
+      ],
+      annotations: [
+        {term: "修", cn: "长，这里指身高", en: "Tall; here refers to height"},
+        {term: "昳丽", cn: "光艳美丽", en: "Radiantly beautiful"},
+        {term: "孰与", cn: "与……相比怎么样", en: "Compared with... how does one measure up"},
+        {term: "美我", cn: "认为我美", en: "To consider me beautiful (causative use)"},
+        {term: "私", cn: "偏爱", en: "To show favoritism, to love partially"},
+        {term: "蔽", cn: "蒙蔽，这里指所受的蒙蔽", en: "Deceived, misled"},
+        {term: "面刺", cn: "当面指责", en: "To criticize to one\u2019s face"},
+        {term: "门庭若市", cn: "门前像集市一样热闹，形容来的人很多", en: "The courtyard is as busy as a market \u2014 idiom for \u2018crowded with visitors\u2019"},
+        {term: "期年", cn: "满一年", en: "A full year"}
+      ],
+      thinkExplore: [
+        {cn: "邹忌是怎样说服齐王的，其劝谏艺术有哪些高妙之处？", en: "How did Zou Ji persuade the King? What is masterful about his art of persuasion?"},
+        {cn: "除了高超的语言艺术，邹忌劝谏成功还有哪些重要因素？", en: "Besides brilliant rhetoric, what other factors contributed to Zou Ji\u2019s success?"}
+      ],
+      accumExtend: [
+        {cn: "熟读成诵，体会文章\u201c三问答—三类比—三赏赐—三变化\u201d的结构之妙。", en: "Memorize and appreciate the structural beauty of \u2018three questions \u2014 three analogies \u2014 three rewards \u2014 three changes.\u2019"}
+      ],
+      teachingPoints: [
+        {cn: "类比论证：以小见大，从生活琐事推及国家大事", en: "Analogical reasoning: seeing the big picture from small matters, extrapolating from household to state affairs"},
+        {cn: "讽谏艺术：委婉含蓄，不直接批评而让对方自己悟出道理", en: "The art of indirect persuasion: subtle and implicit, letting the listener arrive at the conclusion independently"}
+      ],
+      parentTips: [
+        {cn: "引导孩子理解\u201c兼听则明\u201d的道理，培养批判性思维", en: "Help your child understand the principle of \u2018listening to all sides brings enlightenment\u2019 and cultivate critical thinking"}
+      ]
+    },
+/* __G9S2_CONT4__ */
+  ],
+  writing: {
+    title: "有创意地表达", titleEn: "Creative Expression",
+    content: {
+      cn: "有创意地表达，是指表达时有新意，有个性，不落俗套。除立意新颖外，还要注意选材新颖、角度新颖、语言新颖、表现形式新颖。",
+      en: "Creative expression means conveying ideas with originality and personality. Besides novel themes, pay attention to fresh material selection, unique angles, innovative language, and novel formats."
+    }
+  },
+  famousReading: {
+    title: "《简·爱》", titleEn: "Jane Eyre",
+    content: {
+      cn: "夏洛蒂·勃朗特的代表作《简·爱》讲述了贫苦孤女简·爱为寻求人格独立、爱情和尊严而挣扎奋斗的故事。她虽然貌不惊人，但人格独立，心灵强大，是现代女性美的象征。阅读外国小说要注意了解创作背景、理解文化内涵、关注叙事角度、体会语言特点。",
+      en: "Charlotte Bront\u00eb\u2019s masterpiece Jane Eyre tells the story of a poor orphan who struggles for personal independence, love, and dignity. Though plain in appearance, she is independent in spirit and strong in soul, symbolizing modern feminine beauty. When reading foreign novels, pay attention to the creative background, cultural connotations, narrative perspective, and language features."
+    }
+  },
+  extracurricularPoetry: [
+    {title: "南安军", titleEn: "At Nan\u2019an Garrison", author: "文天祥", authorEn: "Wen Tianxiang",
+     text: "梅花南北路，风雨湿征衣。出岭同谁出？归乡如此归！山河千古在，城郭一时非。饿死真吾志，梦中行采薇。",
+     textEn: "The plum-blossom road runs north and south; wind and rain soak my traveling clothes. Crossing the pass \u2014 with whom do I cross? Returning home \u2014 is this how I return! Mountains and rivers endure through ages; cities and walls are changed in a moment. To starve to death is truly my resolve; in dreams I gather ferns on the hillside."},
+    {title: "别云间", titleEn: "Farewell to Yunjian", author: "夏完淳", authorEn: "Xia Wanchun",
+     text: "三年羁旅客，今日又南冠。无限山河泪，谁言天地宽。已知泉路近，欲别故乡难。毅魄归来日，灵旗空际看。",
+     textEn: "Three years a wandering exile, today again a southern captive. Endless tears for mountains and rivers \u2014 who says heaven and earth are wide? I know the path to the underworld is near, yet parting from my homeland is hard. When my resolute spirit returns, watch for the battle flag in the empty sky."},
+    {title: "山坡羊·骊山怀古", titleEn: "Shanpuyang: Meditating on the Past at Li Mountain", author: "张养浩", authorEn: "Zhang Yanghao",
+     text: "骊山四顾，阿房一炬，当时奢侈今何处？只见草萧疏，水萦纡。至今遗恨迷烟树。列国周齐秦汉楚。赢，都变做了土；输，都变做了土。",
+     textEn: "Looking around from Li Mountain \u2014 Epang Palace burned in a single blaze. Where is all that extravagance now? Only sparse grass and winding waters remain. Ancient regrets linger among misty trees. The rival kingdoms \u2014 Zhou, Qi, Qin, Han, Chu. Winners all turned to dust; losers all turned to dust."},
+    {title: "朝天子·咏喇叭", titleEn: "Chaotianzi: Ode to the Trumpet", author: "王磐", authorEn: "Wang Pan",
+     text: "喇叭，唢呐，曲儿小腔儿大。官船来往乱如麻，全仗你抬声价。军听了军愁，民听了民怕。哪里去辨甚么真共假？眼见的吹翻了这家，吹伤了那家，只吹的水尽鹅飞罢！",
+     textEn: "Trumpet! Suona! The tune is small but the sound is big. Official boats come and go in tangles \u2014 all relying on you to raise their prestige. Soldiers hear it and worry; people hear it and fear. How can one tell what is real from what is false? You\u2019ve blown this family to ruin, hurt that family over there, and blown until the water is drained and the geese have all fled!"}
+  ]
+}
+]};

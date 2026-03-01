@@ -1,0 +1,24 @@
+# Source PDFs (large textbook scans)
+*.pdf
+
+# Images
+*.png
+*.jpg
+*.jfif
+
+# Word documents
+*.docx
+
+# Extracted text files
+_docx2_full.txt
+_g1s1_extracted.txt
+
+# Backup files
+*.backup.html
+
+# Notes
+优化.txt
+需求分两类.docx
+
+# Claude internal
+.claude/

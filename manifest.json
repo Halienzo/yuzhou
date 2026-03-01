@@ -1,0 +1,19 @@
+{
+  "name": "字道 ZiDao",
+  "short_name": "ZiDao",
+  "description": "小学初中语文学习系统 - Chinese Language Learning System (G1-G9)",
+  "start_url": "./Chinese chars.html",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#1510f0",
+  "orientation": "any",
+  "lang": "zh-CN",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231510f0' rx='32' width='192' height='192'/><text x='96' y='130' font-size='100' text-anchor='middle' fill='white'>字</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
