@@ -1,5 +1,5 @@
 /**
- * 字道 ZiDao — 部编版三年级语文上册 教材数据
+ * 语宙 YuZhou — 部编版三年级语文上册 教材数据
  * Grade 3 Semester 1 Textbook Data (PEP Edition)
  * Based on: 义务教育教科书 语文 三年级上册 (2018)
  */
@@ -13,10 +13,12 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 1, title: "课文", titleEn: "Texts",
+  difficulty: 2,
   type: "kewen",
   lessons: [
     {
       id: 1, title: "大青树下的小学", titleEn: "A Primary School Under the Big Banyan Tree",
+      difficulty: 2,
       text: [
         "早晨，从山坡上，从坪坝里，从一条条开着绒球花和太阳花的小路上，走来了许多小学生，有汉族的，有傣族的，有景颇族的，还有阿昌族和德昂族的。大家穿戴不同，来到学校，都成了好朋友。那鲜艳的服装，把学校打扮得绚丽多彩。同学们向在校园里欢唱的小鸟打招呼，向敬爱的老师问好，向高高飘扬的国旗敬礼。",
         "\u201C当，当当！当，当当！\u201D大青树上的铜钟敲响了。",
@@ -31,6 +33,16 @@ units: [
       ],
       recognizeChars: ["坝","汉","艳","扮","扬","读","摔","跤","凤","洁"],
       writeChars: ["晨","绒","球","汉","艳","服","装","扮","静","停","孔","雀","粗"],
+      vocabWords: [
+        {word:'坪坝',pinyin:'píng bà',en:'flat ground',sentence:'早晨，从坪坝走来了许多小学生。',sentenceEn:'In the morning, many students came from the flat ground.'},
+        {word:'穿戴',pinyin:'chuān dài',en:'dress up',sentence:'大家穿戴不同。',sentenceEn:'Everyone dressed differently.'},
+        {word:'鲜艳',pinyin:'xiān yàn',en:'bright; vivid',sentence:'鲜艳的民族服装。',sentenceEn:'Bright ethnic costumes.'},
+        {word:'好奇',pinyin:'hào qí',en:'curious',sentence:'小动物好奇地看着。',sentenceEn:'Little animals watched curiously.'},
+        {word:'摇晃',pinyin:'yáo huàng',en:'sway',sentence:'古老的铜钟挂在大青树上。',sentenceEn:'An ancient bronze bell hangs on the banyan tree.'}
+      ],
+      grammarPoints: [
+        {point:'有……有……还有……',pointEn:'there are...and...and also...',example:'有傣族的，有景颇族的，还有汉族的。',exampleEn:'There are Dai, Jingpo, and also Han.',explanation:'表示列举多个事物',explanationEn:'Lists multiple items in a series'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，一边读一边想象课文描写的画面",en:"Read the text aloud while imagining the scenes described"},
         {type:"discuss",cn:"这所学校有哪些特别的地方？用自己的话说一说",en:"What is special about this school? Describe it in your own words"},
@@ -47,6 +59,7 @@ units: [
     },
     {
       id: 2, title: "花的学校", titleEn: "The Flower School",
+      difficulty: 2,
       text: [
         "当雷云在天上轰响，六月的阵雨落下的时候，湿润的东风走过荒野，在竹林中吹着口笛。",
         "于是，一群一群的花从无人知道的地方突然跑出来，在绿草上跳舞，狂欢。",
@@ -65,10 +78,20 @@ units: [
         "Branches clash in the forest, green leaves rustle in the storm, and the thunderclouds clap their giant hands. Then the flower children rush out wearing purple, yellow, and white dresses.",
         "Do you know, Mother, their home is in the sky, where the stars live.",
         "Haven\u2019t you seen how eager they are to get there? Don\u2019t you know why they are in such a hurry?",
-        "I can surely guess whom they raise their arms to \u2014 they too have their mother, just as I have mine."
+        "I can surely guess to whom they raise both arms \u2014 they too have their own mother, just as I have my own mother."
       ],
       recognizeChars: ["荒","笛","罚","假","裳"],
       writeChars: ["落","荒","笛","舞","狂","罚","假","互","所","够","猜","扬","臂"],
+      vocabWords: [
+        {word:'润湿',pinyin:'rùn shī',en:'moist',sentence:'六月的阵雨落下来。',sentenceEn:'The June showers fall.'},
+        {word:'狂欢',pinyin:'kuáng huān',en:'revel',sentence:'树枝在林中互相碰触，绿叶在狂欢。',sentenceEn:'Branches touch and leaves revel.'},
+        {word:'急急忙忙',pinyin:'jí jí máng máng',en:'hurriedly',sentence:'花孩子们急急忙忙赶来。',sentenceEn:'The flower children hurry over.'},
+        {word:'自然',pinyin:'zì rán',en:'nature',sentence:'花在绿草上跳舞。',sentenceEn:'Flowers dance on the green grass.'},
+        {word:'罚站',pinyin:'fá zhàn',en:'stand as punishment',sentence:'关在屋子里被罚站。',sentenceEn:'Shut indoors, standing as punishment.'}
+      ],
+      grammarPoints: [
+        {point:'一……就……',pointEn:'as soon as...then...',example:'一阵阵湿润的风一吹，花就跳舞了。',exampleEn:'As soon as the moist wind blows, flowers dance.',explanation:'表示紧接着发生',explanationEn:'Indicates immediate sequence of events'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，想象花\u201C在绿草上跳舞，狂欢\u201D的情景",en:"Read aloud and imagine the flowers \u2018dancing on the green grass in celebration\u2019"},
         {type:"write",cn:"\u201C雨一来，他们便放假了。\u201D你喜欢这样的表达吗？照样子写一写",en:"\u2018When the rain comes, they have their holidays.\u2019 Do you like this expression? Write a similar one"},
@@ -85,6 +108,7 @@ units: [
     },
     {
       id: 3, title: "不懂就要问", titleEn: "If You Don\u2019t Understand, Ask",
+      difficulty: 2,
       isSelfRead: true,
       text: [
         "孙中山小时候在私塾读书。那时候上课，先生念，学生跟着念，咿咿呀呀，像唱歌一样。学生读熟了，先生就让他们一个一个地背诵。至于书里的意思，先生从来不讲。",
@@ -109,6 +133,16 @@ units: [
         "Sun Yat-sen smiled and said: \u201CLearning means asking. To understand the truth, even a punishment is worthwhile.\u201D"
       ],
       recognizeChars: ["背","诵","例","圈","段","练","糊","涂","呆","戒","厉","挨","楚"],
+      vocabWords: [
+        {word:'私塾',pinyin:'sī shú',en:'private school',sentence:'孙中山小时候在私塾读书。',sentenceEn:'Sun Yat-sen studied at a private school as a child.'},
+        {word:'照例',pinyin:'zhào lì',en:'as usual',sentence:'先生照例让学生背书。',sentenceEn:'The teacher, as usual, had students recite.'},
+        {word:'流利',pinyin:'liú lì',en:'fluent',sentence:'孙中山背得很流利。',sentenceEn:'Sun Yat-sen recited very fluently.'},
+        {word:'糊里糊涂',pinyin:'hú li hú tu',en:'muddled; confused',sentence:'糊里糊涂地背有什么用？',sentenceEn:'What use is memorizing without understanding?'},
+        {word:'鼓起勇气',pinyin:'gǔ qǐ yǒng qì',en:'summon courage',sentence:'他鼓起勇气问先生。',sentenceEn:'He summoned the courage to ask the teacher.'}
+      ],
+      grammarPoints: [
+        {point:'先……再……',pointEn:'first...then...',example:'先背熟课文，再讲解意思。',exampleEn:'First memorize the text, then explain the meaning.',explanation:'表示动作的先后顺序',explanationEn:'Indicates sequential order of actions'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，想想课文讲了一件什么事",en:"Read silently and think about what story the text tells"},
         {type:"discuss",cn:"和同学交流你对孙中山\u201C不懂就要问\u201D这件事的看法",en:"Discuss with classmates your view on Sun Yat-sen\u2019s \u2018if you don\u2019t understand, ask\u2019 attitude"}
@@ -127,7 +161,39 @@ units: [
   garden: {
     accumulation: {title:"日积月累",titleEn:"Accumulation",content:{cn:"所见\n[清] 袁枚\n牧童骑黄牛，歌声振林樾。\n意欲捕鸣蝉，忽然闭口立。",en:"What I Saw\n[Qing] Yuan Mei\nA shepherd boy rides a yellow ox, his song echoes through the forest shade.\nWanting to catch the singing cicada, he suddenly closes his mouth and stands still."}},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"摇头晃脑、披头散发、张牙舞爪、提心吊胆、面红耳赤、手忙脚乱、眼疾手快、口干舌燥",en:"Body-part idioms: bobbing heads, hair disheveled, baring fangs, on edge, red-faced, flustered, quick-eyed and nimble, parched"}},
-    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"猜猜他是谁——选择一个同学，用几句话或一段话写一写他，不出现名字但让别人能猜出来",en:"Guess Who — Choose a classmate and write a short description without using their name, so others can guess who it is"}}
+    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"猜猜他是谁——选择一个同学，用几句话或一段话写一写他，不出现名字但让别人能猜出来",en:"Guess Who — Choose a classmate and write a short description without using their name, so others can guess who it is"},modelEssays:[
+      {title:"\u6211\u7684\u597D\u670B\u53CB",titleEn:"My Good Friend",level:"\u57FA\u7840",
+      structure:[
+        {cn:"\u5F00\u5934\uFF1A\u7528\u5916\u8C8C\u7279\u5F81\u5F15\u51FA\u4EBA\u7269",en:"Opening: Introduce the person through physical appearance"},
+        {cn:"\u4E2D\u95F4\uFF1A\u5199\u6027\u683C\u548C\u7231\u597D",en:"Middle: Describe personality and hobbies"},
+        {cn:"\u7ED3\u5C3E\uFF1A\u70B9\u660E\u53CB\u8C0A",en:"Ending: Highlight the friendship"}
+      ],
+      cn:"\u4ED6\u4E2A\u5B50\u4E0D\u9AD8\uFF0C\u5706\u5706\u7684\u8138\u4E0A\u6709\u4E00\u53CC\u5927\u5927\u7684\u773C\u775B\uFF0C\u7B11\u8D77\u6765\u7684\u65F6\u5019\u773C\u775B\u5F2F\u5F2F\u7684\uFF0C\u50CF\u4E24\u4E2A\u5C0F\u6708\u7259\u3002\u4ED6\u7684\u5934\u53D1\u77ED\u77ED\u7684\uFF0C\u8DD1\u8D77\u6765\u7684\u65F6\u5019\u4E00\u98A0\u4E00\u98A0\u7684\uFF0C\u7279\u522B\u53EF\u7231\u3002\u4ED6\u6700\u7231\u8E22\u8DB3\u7403\uFF0C\u6BCF\u5929\u4E0B\u8BFE\u90FD\u80FD\u770B\u89C1\u4ED6\u5728\u64CD\u573A\u4E0A\u98DE\u5954\u7684\u8EAB\u5F71\u3002\u6709\u4E00\u6B21\u6BD4\u8D5B\uFF0C\u4ED6\u8E22\u8FDB\u4E86\u4E24\u4E2A\u7403\uFF0C\u5168\u73ED\u540C\u5B66\u90FD\u4E3A\u4ED6\u6B22\u547C\u3002\u4ED6\u4E5F\u5F88\u4E50\u4E8E\u52A9\u4EBA\uFF0C\u8C01\u6709\u56F0\u96BE\u4ED6\u90FD\u4F1A\u4E3B\u52A8\u5E2E\u5FD9\u3002\u4F60\u731C\u51FA\u4ED6\u662F\u8C01\u4E86\u5417\uFF1F",
+      en:"He is not very tall. His round face has a pair of big eyes that curve like two little crescent moons when he smiles. His hair is short and bobs up and down when he runs \u2014 very cute. He loves playing soccer, and after every class you can see him dashing around on the field. Once during a match, he scored two goals and the whole class cheered for him. He is also very helpful \u2014 whenever someone has trouble, he volunteers to help. Can you guess who he is?",
+      notes:"\u8FD9\u7BC7\u8303\u6587\u4ECE\u5916\u8C8C\u5199\u5230\u7231\u597D\uFF0C\u518D\u5230\u6027\u683C\uFF0C\u5C42\u6B21\u5206\u660E\u3002\u7528\u4E86\u6BD4\u55BB\uFF08\u773C\u775B\u50CF\u5C0F\u6708\u7259\uFF09\uFF0C\u8BA9\u4EBA\u7269\u5F62\u8C61\u66F4\u751F\u52A8\u3002\u7ED3\u5C3E\u8BBE\u95EE\uFF0C\u7B26\u5408\u201C\u731C\u731C\u4ED6\u662F\u8C01\u201D\u7684\u4E3B\u9898\u3002",
+      notesEn:"This essay moves from appearance to hobbies to personality in a clear structure. It uses a simile (eyes like crescent moons) to make the character vivid. The ending question matches the \u2018Guess Who\u2019 theme."},
+      {title:"\u6211\u4EEC\u73ED\u7684\u201C\u5C0F\u4E66\u866B\u201D",titleEn:"Our Class Bookworm",level:"\u63D0\u9AD8",
+      structure:[
+        {cn:"\u5F00\u5934\uFF1A\u7528\u7ECF\u5178\u573A\u666F\u5F15\u5165",en:"Opening: Introduce with a classic scene"},
+        {cn:"\u4E2D\u95F4\uFF1A\u901A\u8FC7\u4E24\u4E2A\u5177\u4F53\u4E8B\u4F8B\u5C55\u73B0\u7279\u70B9",en:"Middle: Show character traits through two specific examples"},
+        {cn:"\u7ED3\u5C3E\uFF1A\u7559\u60AC\u5FF5\uFF0C\u5F15\u5BFC\u8BFB\u8005\u731C\u60F3",en:"Ending: Create suspense and invite the reader to guess"}
+      ],
+      cn:"\u8BFE\u95F4\u4F11\u606F\u7684\u65F6\u5019\uFF0C\u522B\u7684\u540C\u5B66\u90FD\u5728\u64CD\u573A\u4E0A\u73A9\u800D\uFF0C\u53EA\u6709\u4ED6\u5B89\u5B89\u9759\u9759\u5730\u5750\u5728\u5EA7\u4F4D\u4E0A\u770B\u4E66\u3002\u4ED6\u7684\u684C\u5B50\u4E0A\u603B\u662F\u6446\u7740\u4E00\u672C\u4E66\uFF0C\u6709\u65F6\u662F\u7AE5\u8BDD\u6545\u4E8B\uFF0C\u6709\u65F6\u662F\u79D1\u5B66\u767E\u79D1\u3002\u6709\u4E00\u6B21\u4E0A\u8BFE\u94C3\u54CD\u4E86\uFF0C\u4ED6\u8FD8\u57CB\u5934\u770B\u4E66\uFF0C\u8001\u5E08\u53EB\u4E86\u4ED6\u4E09\u6B21\u4ED6\u624D\u542C\u89C1\uFF0C\u5168\u73ED\u54C8\u54C8\u5927\u7B11\u3002\u8FD8\u6709\u4E00\u6B21\uFF0C\u8001\u5E08\u95EE\u4E86\u4E00\u4E2A\u5F88\u96BE\u7684\u95EE\u9898\uFF0C\u6CA1\u4EBA\u4F1A\u7B54\uFF0C\u4ED6\u5374\u4E3E\u8D77\u624B\uFF0C\u56DE\u7B54\u5F97\u53C8\u5BF9\u53C8\u597D\uFF0C\u8FDE\u8001\u5E08\u90FD\u5FFD\u4E0D\u4F4F\u593A\u4ED6\u3002\u8FD9\u5C31\u662F\u6211\u4EEC\u73ED\u7684\u201C\u5C0F\u4E66\u866B\u201D\uFF0C\u4F60\u77E5\u9053\u4ED6\u662F\u8C01\u5417\uFF1F",
+      en:"During recess, while other classmates play on the playground, he sits quietly at his desk reading. There is always a book on his desk \u2014 sometimes fairy tales, sometimes science encyclopedias. Once the class bell rang and he was still buried in his book; the teacher called him three times before he heard, and the whole class burst out laughing. Another time, the teacher asked a very hard question that nobody could answer, but he raised his hand and gave a perfect answer. Even the teacher couldn\u2019t help praising him. This is our class\u2019s \u2018bookworm\u2019 \u2014 do you know who he is?",
+      notes:"\u8FD9\u7BC7\u8303\u6587\u7528\u4E86\u4E24\u4E2A\u5177\u4F53\u4E8B\u4F8B\u6765\u8868\u73B0\u4EBA\u7269\u7279\u70B9\uFF0C\u6BD4\u7B2C\u4E00\u7BC7\u66F4\u6DF1\u5165\u3002\u201C\u5C0F\u4E66\u866B\u201D\u8FD9\u4E2A\u7ECB\u53F7\u8BA9\u4EBA\u7269\u66F4\u6709\u7279\u8272\u3002\u5BF9\u6BD4\u624B\u6CD5\uFF08\u522B\u4EBA\u73A9\u800D vs \u4ED6\u770B\u4E66\uFF09\u5F88\u51FA\u5F69\u3002",
+      notesEn:"This essay uses two concrete examples to demonstrate the character\u2019s traits, going deeper than the basic level. The nickname \u2018bookworm\u2019 makes the character memorable. The contrast technique (others playing vs. him reading) is effective."},
+      {title:"\u6211\u4EEC\u73ED\u7684\u5C0F\u753B\u5BB6",titleEn:"Our Class\u2019s Little Artist",level:"\u62D3\u5C55",
+      structure:[
+        {cn:"\u5F00\u5934\uFF1A\u8BBE\u7F6E\u60AC\u5FF5\uFF0C\u5148\u5199\u4F5C\u54C1\u518D\u5199\u4EBA",en:"Opening: Create suspense by describing artwork before the person"},
+        {cn:"\u4E2D\u95F4\uFF1A\u591A\u89D2\u5EA6\u63CF\u5199\uFF08\u5916\u8C8C+\u4E60\u60EF+\u4E8B\u4F8B\uFF09",en:"Middle: Multi-angle description (appearance + habits + example)"},
+        {cn:"\u8FC7\u6E21\uFF1A\u7528\u8F6C\u6298\u53E5\u589E\u52A0\u5C42\u6B21",en:"Transition: Use a turning sentence to add depth"},
+        {cn:"\u7ED3\u5C3E\uFF1A\u70B9\u9898+\u8868\u8FBE\u4F69\u670D",en:"Ending: Echo the theme and express admiration"}
+      ],
+      cn:"\u6559\u5BA4\u540E\u9762\u7684\u5C55\u793A\u680F\u91CC\uFF0C\u6709\u4E00\u5E45\u753B\u7279\u522B\u5F15\u4EBA\u6CE8\u76EE\u3002\u753B\u4E0A\u662F\u4E00\u7247\u79CB\u5929\u7684\u68EE\u6797\uFF0C\u7EA2\u7684\u3001\u9EC4\u7684\u3001\u6A59\u7684\u53F6\u5B50\u5C42\u5C42\u53E0\u53E0\uFF0C\u7F8E\u6781\u4E86\u3002\u8FD9\u5E45\u753B\u7684\u4F5C\u8005\uFF0C\u5C31\u662F\u6211\u4EEC\u73ED\u4E0A\u7684\u4E00\u4F4D\u540C\u5B66\u3002\u5979\u7684\u8F6B\u5B50\u4E0A\u603B\u662F\u624E\u7740\u4E00\u4E2A\u9A6C\u5C3E\u8FA8\uFF0C\u8D70\u8DEF\u7684\u65F6\u5019\u4E00\u7538\u4E00\u7538\u7684\u3002\u5979\u7684\u624B\u6307\u4E0A\u5E38\u5E38\u6CBE\u7740\u989C\u6599\uFF0C\u6709\u65F6\u5403\u996D\u7684\u65F6\u5019\u8138\u4E0A\u8FD8\u6709\u4E00\u62B9\u84DD\u8272\uFF0C\u540C\u5B66\u4EEC\u90FD\u7B11\u5979\u662F\u201C\u5C0F\u82B1\u732B\u201D\u3002\u4E0D\u8FC7\uFF0C\u522B\u770B\u5979\u5E73\u65F6\u9A6C\u9A6C\u864E\u864E\u7684\uFF0C\u4E00\u62FF\u8D77\u753B\u7B14\u5C31\u53D8\u4E86\u4E00\u4E2A\u4EBA\u3002\u7F8E\u672F\u8BFE\u4E0A\uFF0C\u5979\u603B\u662F\u6700\u540E\u4E00\u4E2A\u4EA4\u4F5C\u4E1A\uFF0C\u56E0\u4E3A\u5979\u8981\u628A\u6BCF\u4E00\u4E2A\u7EC6\u8282\u90FD\u753B\u5F97\u5B8C\u7F8E\u3002\u6709\u4E00\u6B21\u5979\u7528\u4E86\u6574\u6574\u4E00\u8282\u8BFE\u53EA\u753B\u4E86\u4E00\u53EA\u5C0F\u9E1F\uFF0C\u4F46\u90A3\u53EA\u5C0F\u9E1F\u6813\u6813\u5982\u751F\uFF0C\u8FDE\u7FBD\u6BDB\u7684\u7EB9\u8DEF\u90FD\u770B\u5F97\u6E05\u6E05\u695A\u695A\u3002\u8FD9\u5C31\u662F\u6211\u4EEC\u73ED\u7684\u5C0F\u753B\u5BB6\uFF0C\u6211\u771F\u4F69\u670D\u5979\uFF01",
+      en:"On the display board at the back of the classroom, one painting stands out. It shows an autumn forest with layers of red, yellow, and orange leaves \u2014 absolutely beautiful. The artist is a classmate of ours. She always wears her hair in a ponytail that swings as she walks. Her fingers are often stained with paint, and sometimes she even has a smudge of blue on her face at lunchtime \u2014 classmates call her \u2018little tabby cat.\u2019 But don\u2019t let her casual manner fool you \u2014 the moment she picks up a paintbrush, she becomes a different person. In art class, she is always the last to turn in her work because she wants every detail to be perfect. Once she spent an entire class painting just one bird, but that bird looked so lifelike that you could see every feather. This is our class\u2019s little artist \u2014 I truly admire her!",
+      notes:"\u8FD9\u7BC7\u8303\u6587\u91C7\u7528\u201C\u5148\u5199\u4F5C\u54C1\u518D\u5199\u4EBA\u201D\u7684\u65B0\u9896\u5199\u6CD5\uFF0C\u7ED3\u6784\u66F4\u6709\u521B\u610F\u3002\u7528\u4E86\u201C\u4E0D\u8FC7\u201D\u8F6C\u6298\u8BCD\u589E\u52A0\u5C42\u6B21\u611F\uFF0C\u201C\u5C0F\u82B1\u732B\u201D\u7684\u7ECB\u53F7\u589E\u6DFB\u8DA3\u5473\uFF0C\u7EC6\u8282\u63CF\u5199\uFF08\u7FBD\u6BDB\u7EB9\u8DEF\uFF09\u4F53\u73B0\u4E86\u66F4\u9AD8\u7684\u5199\u4F5C\u6C34\u5E73\u3002",
+      notesEn:"This essay uses the creative approach of describing the artwork before the person. The turning word \u2018but\u2019 adds depth, the nickname \u2018little tabby cat\u2019 adds fun, and the fine detail (feather patterns) shows a higher level of writing skill."}
+    ]}
   }
 },
 /* ═══════════════════════════════════════════ */
@@ -135,10 +201,12 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 2, title: "课文", titleEn: "Texts",
+  difficulty: 2,
   type: "kewen",
   lessons: [
     {
       id: 4, title: "古诗三首", titleEn: "Three Ancient Poems",
+      difficulty: 2,
       text: [
         "山行\n[唐] 杜牧\n远上寒山石径斜，白云生处有人家。\n停车坐爱枫林晚，霜叶红于二月花。",
         "赠刘景文\n[宋] 苏轼\n荷尽已无擎雨盖，菊残犹有傲霜枝。\n一年好景君须记，最是橙黄橘绿时。",
@@ -151,6 +219,13 @@ units: [
       ],
       recognizeChars: ["径","斜","赠","刘","残","犹","傲","君","橙","橘","挑"],
       writeChars: ["寒","径","斜","霜","赠","刘","盖","菊","残","君","橙","送","挑"],
+      vocabWords: [
+        {word:'夜书所见',pinyin:'yè shū suǒ jiàn',en:'what I wrote seeing at night',sentence:'夜书所见。',sentenceEn:'What I wrote seeing at night.'},
+        {word:'萧萧',pinyin:'xiāo xiāo',en:'rustling',sentence:'萧萧梧叶送寒声。',sentenceEn:'Rustling parasol leaves bring cold sounds.'},
+        {word:'篱落',pinyin:'lí luò',en:'fence',sentence:'知有儿童挑促织。',sentenceEn:'I know children chase crickets by the fence.'},
+        {word:'赠刘景文',pinyin:'zèng liú jǐng wén',en:'gift to Liu Jingwen',sentence:'赠刘景文。',sentenceEn:'Gift to Liu Jingwen.'},
+        {word:'残荷',pinyin:'cán hé',en:'withered lotus',sentence:'荷尽已无擎雨盖。',sentenceEn:'The lotus gone, no umbrella shields the rain.'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文，背诵课文，默写《山行》",en:"Read with feeling, recite all three poems, and write \u2018Mountain Walk\u2019 from memory"},
         {type:"discuss",cn:"这三首诗写的是哪个季节的景色？你是从哪些地方发现的？",en:"What season do these poems describe? How can you tell?"},
@@ -168,6 +243,7 @@ units: [
     },
     {
       id: 5, title: "铺满金色巴掌的水泥道", titleEn: "Cement Road Covered with Golden Palm Prints",
+      difficulty: 2,
       text: [
         "一夜秋风，一夜秋雨。",
         "我背着书包去上学时，天开始放晴了。",
@@ -196,6 +272,16 @@ units: [
       ],
       recognizeChars: ["洼","印","凌","增","棕","靴"],
       writeChars: ["铺","泥","晶","院","墙","印","排","列","规","则","乱","棕","迟"],
+      vocabWords: [
+        {word:'水泥道',pinyin:'shuǐ ní dào',en:'cement road',sentence:'门前的水泥道真美。',sentenceEn:'The cement road in front is beautiful.'},
+        {word:'金色',pinyin:'jīn sè',en:'golden',sentence:'铺满金色巴掌。',sentenceEn:'Covered with golden palm prints.'},
+        {word:'梧桐',pinyin:'wú tóng',en:'parasol tree',sentence:'梧桐树的叶子像手掌。',sentenceEn:'Parasol tree leaves look like palms.'},
+        {word:'明朗',pinyin:'míng lǎng',en:'bright and clear',sentence:'天空明朗。',sentenceEn:'The sky is bright and clear.'},
+        {word:'排列',pinyin:'pái liè',en:'arrange in rows',sentence:'落叶排列得很整齐。',sentenceEn:'The fallen leaves are neatly arranged.'}
+      ],
+      grammarPoints: [
+        {point:'像……一样',pointEn:'like...',example:'梧桐树的落叶像金色的巴掌一样。',exampleEn:'Parasol tree leaves are like golden palms.',explanation:'比喻句：用"像"来做比较',explanationEn:'Simile: using "like" for comparison'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，把你喜欢的句子抄写下来",en:"Read aloud and copy down sentences you like"},
         {type:"vocab",cn:"下面加点的词语你是用什么方法理解的？\u201C明朗\u201D\u201C凌乱\u201D",en:"How did you figure out the meanings of \u2018bright and clear\u2019 and \u2018messy\u2019?"},
@@ -212,6 +298,7 @@ units: [
     },
     {
       id: 6, title: "秋天的雨", titleEn: "Autumn Rain",
+      difficulty: 2,
       text: [
         "秋天的雨，是一把钥匙。它带着清凉和温柔，轻轻地，轻轻地，趁你没留意，把秋天的大门打开了。",
         "秋天的雨，有一盒五彩缤纷的颜料。你看，它把黄色给了银杏树，黄黄的叶子像一把把小扇子，扇哪扇哪，扇走了夏天的炎热。它把红色给了枫树，红红的枫叶像一枚枚邮票，飘哇飘哇，邮来了秋天的凉爽。金黄色是给田野的，看，田野像金色的海洋。橙红色是给果树的，橘子、柿子你挤我碰，争着要人们去摘呢！菊花仙子得到的颜色就更多了，紫红的、淡黄的、雪白的\u2026\u2026美丽的菊花在秋雨里频频点头。",
@@ -224,10 +311,20 @@ units: [
         "Autumn rain has a box of colorful paints. Look \u2014 it gives yellow to the ginkgo trees; the golden leaves are like little fans, fanning away summer\u2019s heat. It gives red to the maples; the crimson leaves are like stamps, drifting and drifting, mailing in autumn\u2019s coolness. Golden yellow goes to the fields \u2014 the fields look like a golden ocean. Orange-red goes to the fruit trees \u2014 oranges and persimmons jostle each other, eager to be picked! The chrysanthemum fairies get the most colors: purple-red, pale yellow, snow white\u2026 Beautiful chrysanthemums nod in the autumn rain.",
         "Autumn rain holds wonderful fragrances. Pears smell sweet, pineapples smell sugary, and so many sweet scents from apples and oranges hide in the little raindrops! Children\u2019s feet are often caught by those tempting aromas.",
         "Autumn rain blows its golden trumpet. It tells everyone that winter is coming soon. Little squirrels gather pine cones for food, little frogs hurry to dig holes for a cozy winter sleep. Pines and cypresses put on thick, glossy coats, while poplar and willow leaves flutter down to their tree-mother\u2019s feet. They\u2019re all getting ready for winter.",
-        "Autumn rain brings the earth a harvest song, and brings children a song of joy."
+        "The autumn rain brings to the earth a song of harvest, and brings to the children a song of joy."
       ],
       recognizeChars: ["钥","匙","缤","枚","勾","喇","叭","厚","曲","丰"],
       writeChars: ["盒","颜","料","票","争","仙","闻","勾","紧","洞","油","曲","丰"],
+      vocabWords: [
+        {word:'钥匙',pinyin:'yào shi',en:'key',sentence:'秋天的雨是一把钥匙。',sentenceEn:'Autumn rain is a key.'},
+        {word:'颜料',pinyin:'yán liào',en:'paint; pigment',sentence:'秋天的雨有一盒五彩缤纷的颜料。',sentenceEn:'Autumn rain has a box of colorful paints.'},
+        {word:'丰收',pinyin:'fēng shōu',en:'harvest',sentence:'秋天的雨带来丰收的歌。',sentenceEn:'Autumn rain brings the song of harvest.'},
+        {word:'频频',pinyin:'pín pín',en:'repeatedly',sentence:'菊花频频点头。',sentenceEn:'Chrysanthemums nod repeatedly.'},
+        {word:'气味',pinyin:'qì wèi',en:'scent; smell',sentence:'梨香香的，菠萝甜甜的。',sentenceEn:'Pears are fragrant, pineapples are sweet.'}
+      ],
+      grammarPoints: [
+        {point:'把……比作……',pointEn:'compare...to...',example:'秋天的雨把颜色给了银杏树。',exampleEn:'Autumn rain gave colors to the ginkgo tree.',explanation:'拟人化表达：赋予事物人的动作',explanationEn:'Personification: giving human actions to things'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文，背诵第2自然段",en:"Read with feeling and recite the second paragraph"},
         {type:"discuss",cn:"课文从哪几个方面写了秋天？和同学交流你感兴趣的内容",en:"From what aspects does the text describe autumn? Discuss what interests you"},
@@ -244,6 +341,7 @@ units: [
     },
     {
       id: 7, title: "听听，秋的声音", titleEn: "Listen, the Sounds of Autumn",
+      difficulty: 2,
       isSelfRead: true,
       text: [
         "听听，秋的声音，大树抖抖手臂，\u201C唰唰\u201D，是黄叶道别的话音。",
@@ -262,6 +360,13 @@ units: [
         "Listen \u2014 autumn\u2019s sounds hurry from afar and hurry away again. Listen \u2014 let us listen to the sounds of autumn."
       ],
       recognizeChars: ["抖","蟋","蟀","振","韵","掠","吟","辽","阔"],
+      vocabWords: [
+        {word:'叮咛',pinyin:'dīng níng',en:'urge gently',sentence:'听听，秋的声音。',sentenceEn:'Listen, the sounds of autumn.'},
+        {word:'掠过',pinyin:'lüè guò',en:'sweep past',sentence:'大雁掠过田野。',sentenceEn:'Wild geese sweep past the fields.'},
+        {word:'歌吟',pinyin:'gē yín',en:'sing softly',sentence:'秋的声音在歌吟。',sentenceEn:'The sounds of autumn are singing.'},
+        {word:'道别',pinyin:'dào bié',en:'say goodbye',sentence:'黄叶道别。',sentenceEn:'Yellow leaves say goodbye.'},
+        {word:'辽阔',pinyin:'liáo kuò',en:'vast',sentence:'辽阔的田野。',sentenceEn:'The vast fields.'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文，一边读一边想象，你听到了秋天的哪些声音？",en:"Read with feeling while imagining: what autumn sounds can you hear?"},
         {type:"discuss",cn:"和同学交流：你在秋天还听到了哪些声音？",en:"Discuss with classmates: what other sounds have you heard in autumn?"}
@@ -279,7 +384,40 @@ units: [
   garden: {
     accumulation: {title:"日积月累",titleEn:"Accumulation",content:{cn:"秋高气爽\u3000天高云淡\u3000秋风习习\n一叶知秋\u3000金桂飘香\u3000层林尽染\n五谷丰登\u3000果实累累\u3000春华秋实",en:"Clear autumn sky, high clouds and light breeze, gentle autumn wind\nOne leaf heralds autumn, osmanthus fragrance, forests dyed in color\nBountiful harvest, fruits in abundance, spring blossoms bring autumn fruit"}},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"用描写季节的词语填空：春（暖和、春光明媚）夏（）秋（）冬（）",en:"Fill in seasonal vocabulary: Spring (warm, bright spring days), Summer (), Autumn (), Winter ()"}},
-    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"写日记——准备一个日记本，开始写日记吧！坚持写下去，你一定会大有收获",en:"Write a diary \u2014 Get a diary notebook and start writing! Keep it up and you\u2019ll gain a lot"}}
+    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"写日记——准备一个日记本，开始写日记吧！坚持写下去，你一定会大有收获",en:"Write a diary \u2014 Get a diary notebook and start writing! Keep it up and you\u2019ll gain a lot"},modelEssays:[
+      {title:"今天的新发现",titleEn:"Today\u2019s New Discovery",level:"基础",
+      structure:[
+        {cn:"开头：写日期、天气、心情",en:"Opening: Date, weather, and mood"},
+        {cn:"中间：记录一件印象深刻的事",en:"Middle: Record one memorable event"},
+        {cn:"结尾：写感受或收获",en:"Ending: Write feelings or reflections"}
+      ],
+      cn:"9月18日\u3000星期三\u3000晴\n今天放学回家的路上，我发现路边的大树下有一窝小蚂蚁。它们排着长长的队伍，一只接一只，正在往窝里搬东西。我蹲下来仔细看，原来它们在搬一块饼干屑，比蚂蚁大好几倍呢！十几只小蚂蚁一起用力，终于把饼干屑搬到了洞口。我觉得蚂蚁真了不起，它们虽然很小，但是团结起来力量可大了！",
+      en:"September 18, Wednesday, Sunny\nOn my way home from school today, I discovered a nest of little ants under the big tree by the road. They were lined up in a long column, one after another, carrying things into their nest. I squatted down to look closely and found they were moving a cookie crumb many times bigger than themselves! More than ten little ants pushed together, and finally they moved the crumb to the entrance of their hole. I think ants are truly amazing \u2014 even though they\u2019re tiny, when they work together their strength is enormous!",
+      notes:"这篇日记格式规范（日期+天气），内容集中写一件事，观察细致，结尾有感想。适合初学日记的同学参考。",
+      notesEn:"This diary entry has proper format (date + weather), focuses on one event, shows careful observation, and ends with a reflection. Good reference for beginners learning to write diary entries."},
+      {title:"雨天的快乐",titleEn:"Joy on a Rainy Day",level:"提高",
+      structure:[
+        {cn:"开头：天气变化引出事件",en:"Opening: Weather change leads into the event"},
+        {cn:"中间：详细描写玩耍过程",en:"Middle: Detailed description of playing"},
+        {cn:"过渡：通过感官描写雨景",en:"Transition: Describe the rain through senses"},
+        {cn:"结尾：表达快乐心情",en:"Ending: Express joyful feelings"}
+      ],
+      cn:"10月5日\u3000星期四\u3000雨\n今天下午突然下起了大雨，豆大的雨点打在窗户上\u201C啦啦啦\u201D地响。放学的时候，雨小了一些，我和同学小明一起撑着伞走在回家的路上。路边有很多小水洼，我们忍不住跳了进去，水花溅了一身，裤子都湿透了。我们笑得前仰后合。雨后的空气特别清新，树叶被洗得绿绿的，还挂着亮晶晶的水珠。我抬头一看，天边竟然出现了一道彩虹！今天虽然淹成了\u201C落汤鸡\u201D，但我觉得这是最快乐的一天。",
+      en:"October 5, Thursday, Rainy\nThis afternoon it suddenly started pouring. Big raindrops hit the windows making a \u2018pitter-patter\u2019 sound. When school let out, the rain had lightened a bit. My classmate Xiao Ming and I shared an umbrella on the way home. There were many puddles by the road, and we couldn\u2019t resist jumping in \u2014 water splashed everywhere and our pants were soaked through. We laughed so hard we could barely stand. The air after the rain was especially fresh, the leaves were washed bright green, and glistening water droplets hung from them. I looked up and there was a rainbow in the sky! Even though I ended up looking like a \u2018drowned chicken,\u2019 I think this was the happiest day.",
+      notes:"这篇日记使用了拟声词（\u201C啦啦啦\u201D）、比喻（\u201C落汤鸡\u201D）和多感官描写（视觉、听觉、触觉），让文章更加生动。彩虹的出现是亮点，让结尾有惊喜感。",
+      notesEn:"This diary entry uses onomatopoeia (\u2018pitter-patter\u2019), a metaphor (\u2018drowned chicken\u2019), and multi-sensory description (sight, sound, touch) to make the writing vivid. The rainbow appearance is a highlight that adds a pleasant surprise at the end."},
+      {title:"姥姥的花园",titleEn:"Grandma\u2019s Garden",level:"拓展",
+      structure:[
+        {cn:"开头：引入场景，设置期待",en:"Opening: Set the scene and create anticipation"},
+        {cn:"中间：按时间顺序写观察和活动",en:"Middle: Describe observations and activities in time order"},
+        {cn:"过渡：从做事转向内心感受",en:"Transition: Shift from action to inner feelings"},
+        {cn:"结尾：升华主题，表达感情",en:"Ending: Elevate the theme and express emotion"}
+      ],
+      cn:"10月12日\u3000星期六\u3000晴\n今天我去姥姥家，一进门就闻到一阵花香。原来姥姥的小花园里桂花开了！金黄色的小花一簇一簇的，藏在绿叶里，像小星星一样。姥姥教我认识各种花：月季红得像火，菊花黄得耀眼，还有一盆多肉胖嘟嘟的，像小娃娃。姥姥让我帮忙浇水，我小心翼翼地端着水壶，一棵一棵地浇。姥姥说：\u201C浇花就像照顾朋友，要用心。\u201D我觉得姥姥的花园不只是花园，还装着姥姥对生活的热爱。我想，以后我也要像姥姥一样，用心去发现生活中的美好。",
+      en:"October 12, Saturday, Sunny\nWhen I went to Grandma\u2019s house today, a wave of floral fragrance greeted me at the door. The osmanthus in Grandma\u2019s little garden was blooming! Clusters of tiny golden flowers hid among the green leaves like little stars. Grandma taught me to recognize different flowers: the roses were red as fire, the chrysanthemums dazzlingly yellow, and there was a pot of succulents, plump and round like little dolls. Grandma asked me to help water the plants. I carefully carried the watering can, watering them one by one. Grandma said, \u2018Watering flowers is like caring for friends \u2014 you must do it with your heart.\u2019 I realized Grandma\u2019s garden isn\u2019t just a garden \u2014 it holds her love for life. I want to be like Grandma and discover the beauty in everyday life with all my heart.",
+      notes:"这篇日记层次丰富：从观察花园到动手浇花，再到引用姥姥的话升华主题。用了多个比喻（小星星、像火、小娃娃），语言生动。结尾从花园谈到\u201C生活的美好\u201D，体现了思考深度。",
+      notesEn:"This diary entry is richly layered: from observing the garden to watering flowers, then quoting Grandma\u2019s words to elevate the theme. Multiple similes are used (little stars, red as fire, like dolls) for vivid language. The ending moves from the garden to \u2018beauty in life,\u2019 showing depth of thought."}
+    ]}
   }
 },
 /* ═══════════════════════════════════════════ */
@@ -287,10 +425,12 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 3, title: "童话", titleEn: "Fairy Tales",
+  difficulty: 2,
   type: "tonghua",
   lessons: [
     {
       id: 8, title: "卖火柴的小女孩", titleEn: "The Little Match Girl",
+      difficulty: 2,
       text: [
         "天冷极了，下着雪，又快黑了。这是一年的最后一夜——大年夜。在这又冷又黑的晚上，一个穷苦的小女孩，没戴帽子，赤着脚在街上走着。她从家里出来的时候还穿着一双拖鞋，但是有什么用呢？那是一双很大的拖鞋——那么大，一向是她妈妈穿的。她穿过马路的时候，两辆马车飞快地冲过来，吓得她把鞋都跑掉了。一只怎么也找不着，另一只叫一个男孩捡起来拿着跑了。他说，将来他有了孩子可以用它当摇篮。",
         "小女孩只好赤着脚走，一双小脚冻得红一块青一块的。她的旧围裙里兜着许多火柴，手里还拿着一把。这一整天，谁也没买过她一根火柴，谁也没给过她一个硬币。",
@@ -309,7 +449,7 @@ units: [
         "The little girl had to walk on with bare feet, which were red and blue from the cold. In her old apron she carried bundles of matches, and she held one bunch in her hand. All day long, nobody had bought a single match; nobody had given her a single coin.",
         "Poor little girl! Cold and hungry, she trembled as she walked on. Snowflakes fell on her beautiful long golden hair, which hung in curls on her shoulders \u2014 but she paid no attention to that. Lights shone from every window, and the smell of roast goose drifted through the street, for it was New Year\u2019s Eve \u2014 she couldn\u2019t forget that.",
         "She sat down in a corner between two houses, drawing her little legs up under her. She felt even colder. She didn\u2019t dare go home \u2014 she hadn\u2019t sold a single match or earned a single penny, and her father would surely beat her. Besides, it was just as cold at home. They only had a roof overhead, and though the biggest cracks had been stuffed with straw and rags, the wind still blew through.",
-        "Her little hands were almost frozen stiff. Oh, even one little match would help! Dare she pull one from the bundle and strike it against the wall to warm her hands? She finally pulled one out. Scratch! The match flared up! She cupped her hands over the flame. What a warm, bright flame \u2014 just like a little candle! It seemed to the girl that she was sitting before a great iron stove with shining brass feet and handles, burning so warmly, so comfortably. But when she stretched out her feet to warm them, the match went out, and the stove vanished. She sat there with just a burnt match-end in her hand.",
+        "Her pair of little hands were almost frozen stiff. Oh, even one little match would do her good! Dare she pull one from the bundle and strike it against the wall to warm her little hands? She finally pulled one out. Scratch! The match burst into flame, sending up a bright blaze! She cupped her little hands over the flame. What a warm, bright flame \u2014 just like a little candle! What a wondrous light it was! The little girl felt as if she were sitting before a great stove with shining brass feet and brass handles, burning vigorously, warm and toasty \u2014 how comfortable it was! Alas, what was happening? She had just stretched out her feet, wanting to warm them too, when the match went out and the stove vanished. She sat there with nothing but a burnt match-end in her hand.",
         "She struck another. The flame lit up the wall, which suddenly became as transparent as gauze. She could see right into a room with a snow-white tablecloth, fine china, and a roast goose stuffed with apples and prunes, steaming deliciously. Even more wonderful \u2014 the goose jumped off the dish with a knife and fork in its back, waddling across the floor straight toward the poor girl. Then the match went out, and there was nothing but the thick, cold wall.",
         "She lit another match. Now she sat under a beautiful Christmas tree, even bigger and more beautiful than the one she had seen last year through the rich merchant\u2019s glass door. Thousands of candles burned on its green branches, and colorful pictures like those in shop windows seemed to wink at her. She reached her hands toward them \u2014 and the match went out. The Christmas lights rose higher and higher until they became twinkling stars. One star fell, drawing a long streak of red light. \u201CSomeone is dying,\u201D the little girl said. Her dear grandmother, the only one who had been kind to her, had told her: when a star falls, a soul goes to God.",
         "She struck another match. This time, the light shone all around, and there stood her grandmother, so gentle, so loving. \u201CGrandmother!\u201D the girl cried. \u201COh, take me with you! I know you\u2019ll disappear when the match goes out \u2014 just like the warm stove, the delicious goose, and the beautiful Christmas tree!\u201D",
@@ -319,6 +459,16 @@ units: [
       ],
       recognizeChars: ["旧","饿","卷","挣","几","燃","焰","蜡","烛","富","晃","划","喷","强","烈"],
       writeChars: ["柴","旧","裙","怜","饿","焰","蜡","烛","伸","忽","板","富","颗"],
+      vocabWords: [
+        {word:'火柴',pinyin:'huǒ chái',en:'match',sentence:'卖火柴的小女孩。',sentenceEn:'The little match girl.'},
+        {word:'哆嗦',pinyin:'duō suo',en:'shiver',sentence:'她冷得直哆嗦。',sentenceEn:'She shivered with cold.'},
+        {word:'奇异',pinyin:'qí yì',en:'wondrous',sentence:'她看到了奇异的景象。',sentenceEn:'She saw wondrous sights.'},
+        {word:'温暖',pinyin:'wēn nuǎn',en:'warm',sentence:'火炉多么温暖。',sentenceEn:'How warm the stove was.'},
+        {word:'火焰',pinyin:'huǒ yàn',en:'flame',sentence:'火柴发出明亮的火焰。',sentenceEn:'The match gave off a bright flame.'}
+      ],
+      grammarPoints: [
+        {point:'一……就……',pointEn:'as soon as',example:'她一擦着火柴，就看到了奇异的景象。',exampleEn:'As soon as she struck a match, she saw wondrous sights.',explanation:'前一动作引发后一结果',explanationEn:'First action triggers the second result'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"小女孩擦燃了几次火柴？每次擦燃后看到了什么，表达了她怎样的愿望？",en:"How many times did the girl light matches? What did she see each time, and what wishes did they express?"},
@@ -336,6 +486,7 @@ units: [
     },
     {
       id: 9, title: "那一定会很好", titleEn: "That Must Feel Great",
+      difficulty: 2,
       isSelfRead: true,
       text: [
         "种子被泥土紧紧地包裹着，它不得不把身体缩成一团。",
@@ -368,6 +519,13 @@ units: [
         "The wooden floor stretched out contentedly, lying on the balcony in the warm sunshine, perfectly comfortable. It felt as though it had become a tree once more."
       ],
       recognizeChars: ["缩","努","茎","锯","斧","推","吱","拆"],
+      vocabWords: [
+        {word:'种子',pinyin:'zhǒng zi',en:'seed',sentence:'一粒种子被泥土盖住了。',sentenceEn:'A seed was covered by soil.'},
+        {word:'努力',pinyin:'nǔ lì',en:'strive',sentence:'种子努力生长。',sentenceEn:'The seed strived to grow.'},
+        {word:'手推车',pinyin:'shǒu tuī chē',en:'pushcart',sentence:'被做成了手推车。',sentenceEn:'Was made into a pushcart.'},
+        {word:'阳台',pinyin:'yáng tái',en:'balcony',sentence:'坐在阳台上晒太阳。',sentenceEn:'Sitting on the balcony in the sun.'},
+        {word:'舒服',pinyin:'shū fu',en:'comfortable',sentence:'那一定会很舒服。',sentenceEn:'That must feel very comfortable.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，想一想，从一粒种子到阳台上的木地板，它经过了怎样的历程？",en:"Read silently and think: what journey did it take from a tiny seed to a balcony floor?"},
         {type:"discuss",cn:"试着用自己的话说一说种子的变化历程",en:"Try retelling the seed\u2019s transformation journey in your own words"}
@@ -383,6 +541,7 @@ units: [
     },
     {
       id: 10, title: "在牛肚子里旅行", titleEn: "A Journey Inside a Cow\u2019s Stomach",
+      difficulty: 2,
       text: [
         "有两只小蟋蟀，一只叫青头，另一只叫红头。它们是一对非常要好的朋友。有一天，吃过早饭，青头对红头说：\u201C咱们玩捉迷藏吧！\u201D",
         "\u201C那让我先藏，你来找。\u201D红头说。",
@@ -421,7 +580,7 @@ units: [
         "\u201CBut what good does that do me?\u201D Red Head said sadly.",
         "\u201COf course it helps! When the cow rests, it sends the grass back to its mouth to chew again slowly\u2026 You\u2019re a brave cricket \u2014 you\u2019ll definitely get out.\u201D",
         "\u201CThank you!\u201D Red Head\u2019s voice was barely audible. He gritted his teeth to stay conscious.",
-        "Red Head traveled with the grass from the first stomach to the second, then back to the cow\u2019s mouth. He could see light again! But he couldn\u2019t move at all.",
+        "Inside the cow\u2019s belly, Red Head moved along with the grass, from the first stomach to the second, and then from the second stomach back to the cow\u2019s mouth. Now Red Head could see light again. But he could no longer move at all.",
         "Then Green Head crawled onto the cow\u2019s nose and rubbed his body inside the nostrils.",
         "\u201CAchoo!\u201D The cow sneezed, and Red Head was blasted out with a wad of grass.",
         "Seeing his friend, Red Head wept with joy: \u201CThank you\u2026\u201D",
@@ -429,6 +588,16 @@ units: [
       ],
       recognizeChars: ["咱","偷","答","应","骨","齿","嚼","吞","胃","悲","咽","泪","眯"],
       writeChars: ["旅","咱","偷","救","命","拼","扫","胃","管","乎","流","泪","算"],
+      vocabWords: [
+        {word:'旅行',pinyin:'lǚ xíng',en:'travel',sentence:'在牛肚子里旅行。',sentenceEn:'Traveling inside a cow stomach.'},
+        {word:'蟋蟀',pinyin:'xī shuài',en:'cricket',sentence:'红头和青头是蟋蟀。',sentenceEn:'Red-head and Green-head are crickets.'},
+        {word:'反刍',pinyin:'fǎn chú',en:'ruminate',sentence:'牛有反刍的习惯。',sentenceEn:'Cows have the habit of ruminating.'},
+        {word:'贮藏',pinyin:'zhù cáng',en:'store',sentence:'牛的胃能贮藏食物。',sentenceEn:'A cow stomach stores food.'},
+        {word:'悲哀',pinyin:'bēi āi',en:'sorrowful',sentence:'红头悲哀地哭了。',sentenceEn:'Red-head cried sorrowfully.'}
+      ],
+      grammarPoints: [
+        {point:'虽然……但是……',pointEn:'although...but...',example:'虽然被吃进了肚子里，但是还有机会出来。',exampleEn:'Although swallowed, there is still a chance to get out.',explanation:'转折复句',explanationEn:'Adversative compound sentence'}
+      ],
       exercises: [
         {type:"read",cn:"分角色朗读课文，体会青头和红头对话时的心情",en:"Read with assigned roles and feel the emotions in Green Head and Red Head\u2019s dialogue"},
         {type:"discuss",cn:"从哪里可以看出青头和红头是\u201C非常要好的朋友\u201D？默读全文，至少找出三处",en:"Where can you see that they are \u2018the best of friends\u2019? Find at least three examples"},
@@ -445,6 +614,7 @@ units: [
     },
     {
       id: 11, title: "一块奶酪", titleEn: "A Piece of Cheese",
+      difficulty: 2,
       isSelfRead: true,
       text: [
         "蚂蚁队长集合好队伍，向大家宣布：\u201C今天搬运粮食，只许出力，不许偷嘴。谁偷嘴就要处罚谁。\u201D",
@@ -477,6 +647,13 @@ units: [
         "Everyone got back to work with even more energy than before, and the cheese was carried into the hole in no time."
       ],
       recognizeChars: ["宣","处","诱","舔","毅","犯","禁","稍","豫","跺","聚"],
+      vocabWords: [
+        {word:'奶酪',pinyin:'nǎi lào',en:'cheese',sentence:'蚂蚁队长发现了一块奶酪。',sentenceEn:'The ant captain found a piece of cheese.'},
+        {word:'纪律',pinyin:'jì lǜ',en:'discipline',sentence:'要遵守纪律。',sentenceEn:'Must follow discipline.'},
+        {word:'犹豫',pinyin:'yóu yù',en:'hesitate',sentence:'蚂蚁队长犹豫了一下。',sentenceEn:'The ant captain hesitated.'},
+        {word:'分配',pinyin:'fēn pèi',en:'distribute',sentence:'公平地分配食物。',sentenceEn:'Distribute food fairly.'},
+        {word:'以身作则',pinyin:'yǐ shēn zuò zé',en:'lead by example',sentence:'队长以身作则。',sentenceEn:'The captain leads by example.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，想想课文围绕一块奶酪讲了一件什么事",en:"Read silently and think: what story does the text tell about a piece of cheese?"},
         {type:"discuss",cn:"说说你喜不喜欢文中的蚂蚁队长，理由是什么",en:"Do you like the ant captain? Explain why or why not"}
@@ -494,7 +671,40 @@ units: [
   garden: {
     accumulation: {title:"日积月累",titleEn:"Accumulation",content:{cn:"灯不拨不亮，理不辩不明。\n有理走遍天下，无理寸步难行。\n一时强弱在于力，万古胜负在于理。",en:"A lamp won\u2019t shine without trimming; truth won\u2019t emerge without debate.\nWith reason you can go anywhere; without it, you can\u2019t take a single step.\nMomentary strength depends on force; eternal victory depends on justice."}},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"用口字旁的字分类：叼、啃、含、咬、咽、吞、嚼（吃的动作）；嚷、喊、叫、吱、嘀、哗、呜、啪、嘟、嗡（声音）；唤、啼、吵、吼（叫喊）",en:"Classify mouth-radical characters by meaning: eating actions (bite, gnaw, hold, chew, swallow); sounds (yell, shout, screech, buzz); calling/crying"}},
-    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"我来编童话——发挥想象，从给定的角色和场景中选择，编一个童话故事",en:"Write Your Own Fairy Tale \u2014 Use your imagination, choose from the given characters and settings, and compose a fairy tale"}},
+    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"我来编童话——发挥想象，从给定的角色和场景中选择，编一个童话故事",en:"Write Your Own Fairy Tale \u2014 Use your imagination, choose from the given characters and settings, and compose a fairy tale"},modelEssays:[
+      {title:"小兔子开店",titleEn:"Little Rabbit Opens a Shop",level:"基础",
+      structure:[
+        {cn:"开头：介绍主角和背景",en:"Opening: Introduce the main character and setting"},
+        {cn:"中间：遇到问题和解决过程",en:"Middle: Encounter a problem and solve it"},
+        {cn:"结尾：揭示道理",en:"Ending: Reveal the moral"}
+      ],
+      cn:"森林里住着一只小白兔，她想开一家蛋糕店。小白兔每天早早起来，认认真真地做蛋糕。可是，开张的第一天，一个客人也没来。小白兔很伤心。小松鼠路过，闻到了香味，走进来尝了一口，高兴地说：\u201C真好吃！\u201D小松鼠把消息告诉了大家。第二天，小动物们排着队来买蛋糕。小熊说：\u201C草莓蛋糕最棒！\u201D小鹿说：\u201C巧克力蛋糕真甜！\u201D小白兔的店越来越热闹了。她明白了一个道理：只要用心做事，大家一定会看到的。",
+      en:"A little white rabbit lived in the forest. She wanted to open a cake shop. Every day she got up early and carefully made cakes. But on opening day, not a single customer came. Little Rabbit was very sad. A squirrel passed by, smelled the fragrance, walked in and took a bite, and said happily, \u2018This is delicious!\u2019 The squirrel told everyone the news. The next day, animals lined up to buy cakes. Bear said, \u2018The strawberry cake is the best!\u2019 Deer said, \u2018The chocolate cake is so sweet!\u2019 Little Rabbit\u2019s shop became busier and busier. She understood a truth: as long as you put your heart into your work, everyone will notice.",
+      notes:"这篇童话结构完整（起因—经过—结果），角色可爱，对话生动。道理简单明了：用心做事会有回报。适合初学写童话的同学。",
+      notesEn:"This fairy tale has a complete structure (cause \u2014 process \u2014 result), cute characters, and lively dialogue. The moral is simple and clear: hard work is rewarded. Good for students learning to write fairy tales."},
+      {title:"骄傲的玫瑰花",titleEn:"The Proud Rose",level:"提高",
+      structure:[
+        {cn:"开头：用对比引出角色性格",en:"Opening: Use contrast to show character traits"},
+        {cn:"发展：骄傲导致困境",en:"Development: Pride leads to trouble"},
+        {cn:"转折：得到帮助后反思",en:"Turning point: Reflection after receiving help"},
+        {cn:"结尾：角色成长，点明主题",en:"Ending: Character growth and moral"}
+      ],
+      cn:"花园里有一朵美丽的玫瑰花，她总是昂着头，看不起身边的小草和野花。\u201C你们又矮又丑，怎么配和我站在一起？\u201D玫瑰花骄傲地说。小草和野花听了很难过，但是谁也不跟她争。\n夏天来了，太阳火辣辣地照着。玫瑰花的叶子开始发黄，花瓣也耷拉了下来。她渴极了，可是地面干得都裂开了。这时候，小草的根深深扎在泥土里，把周围的水分送到玫瑰花的根边。野花们也围在玫瑰花身边，帮她挡住了最毒的阳光。\n玫瑰花慢慢恢复了精神。她低下头，红着脸说：\u201C对不起，我以前太骄傲了。谢谢你们救了我。\u201D从那以后，玫瑰花再也不嘲笑别人了，花园里的花儿们都成了好朋友。",
+      en:"In the garden there was a beautiful rose who always held her head high, looking down on the grass and wildflowers around her. \u2018You\u2019re so short and ugly \u2014 how can you stand next to me?\u2019 the rose said proudly. The grass and wildflowers felt sad, but no one argued with her.\nSummer came, and the sun blazed fiercely. The rose\u2019s leaves turned yellow and her petals drooped. She was terribly thirsty, but the ground was cracked and dry. Then, the grass, whose roots grew deep in the soil, sent moisture to the rose\u2019s roots. The wildflowers gathered around the rose and shielded her from the harshest sunlight.\nThe rose slowly recovered. She lowered her head and said with a blush, \u2018I\u2019m sorry \u2014 I was too proud before. Thank you for saving me.\u2019 From then on, the rose never mocked others again, and all the flowers in the garden became good friends.",
+      notes:"这篇童话用了拟人手法，赋予花儿人的性格。\u201C骄傲—遭难—被帮助—醒悟\u201D的情节很完整。对比手法突出主题：真正的美在于内心。语言比基础篇更丰富，有环境描写。",
+      notesEn:"This fairy tale uses personification, giving flowers human personalities. The plot arc \u2018pride \u2014 trouble \u2014 help \u2014 realization\u2019 is complete. Contrast highlights the theme: true beauty is inner beauty. The language is richer than the basic level, with environmental description."},
+      {title:"星星的愿望",titleEn:"The Star\u2019s Wish",level:"拓展",
+      structure:[
+        {cn:"开头：用优美语言营造童话氛围",en:"Opening: Create a fairy-tale atmosphere with beautiful language"},
+        {cn:"发展：主角离开舒适区去冒险",en:"Development: The protagonist leaves their comfort zone"},
+        {cn:"高潮：经历考验，获得成长",en:"Climax: Face a challenge and grow"},
+        {cn:"结尾：回归与升华，余韵悠长",en:"Ending: Return and transcend, leaving a lingering feeling"}
+      ],
+      cn:"夜空中有一颗最小的星星，她每天眨着眼睛看地上的世界。她看见小河在月光下闪闪发亮，看见孩子们在草地上追萤火虫，她好羡慕啊！\u201C我好想去地上看看。\u201D小星星对月亮妈妈说。月亮妈妈说：\u201C去吧，但记住，天亮之前你必须回来。\u201D\n小星星变成一颗亮闪闪的露珠，落在一朵荷花上。她看见了青蛙在唱歌，蜻蜓在跳舞，萤火虫提着小灯笼飞来飞去。\u201C原来地上这么热闹！\u201D小星星开心极了。一只迷路的小蚂蚁走过来，哭着说：\u201C我找不到家了。\u201D小星星说：\u201C别怕，我来帮你。\u201D她发出柔柔的光，照亮了小路。小蚂蚁顺着光找到了家，感激地说：\u201C谢谢你，小露珠！\u201D\n天快亮了，小星星依依不舍地飞回天空。她发现自己比以前更亮了。月亮妈妈笑着说：\u201C因为你帮助了别人，你的心里多了一份光。\u201D从此，每当夜晚来临，那颗最亮的星星总是温柔地照着大地，好像在守护着每一个需要帮助的小生命。",
+      en:"In the night sky there was the tiniest star. She blinked every day, watching the world below. She saw the river sparkling under the moonlight, children chasing fireflies on the grass \u2014 how she envied them! \u2018I so wish I could visit the earth,\u2019 Little Star said to Mother Moon. Mother Moon replied, \u2018Go, but remember \u2014 you must return before dawn.\u2019\nLittle Star turned into a glittering dewdrop and landed on a lotus flower. She saw frogs singing, dragonflies dancing, and fireflies flying about with tiny lanterns. \u2018So this is how lively the earth is!\u2019 Little Star was overjoyed. A lost little ant came by, crying, \u2018I can\u2019t find my home.\u2019 Little Star said, \u2018Don\u2019t be afraid \u2014 I\u2019ll help you.\u2019 She shone a gentle light, illuminating the path. The ant followed the light home and said gratefully, \u2018Thank you, little dewdrop!\u2019\nAs dawn approached, Little Star flew reluctantly back to the sky. She discovered she was brighter than before. Mother Moon smiled and said, \u2018Because you helped someone, your heart gained an extra glow.\u2019 From then on, whenever night falls, the brightest star always shines gently over the earth, as if watching over every little creature that needs help.",
+      notes:"这篇童话想象力丰富，语言优美（\u201C柔柔的光\u201D\u201C依依不舍\u201D），情节有起伏。用了\u201C变身\u201D这一经典童话手法，星星变露珠的设定很巧妙。结尾\u201C帮助别人让自己更亮\u201D的主题有深度，且有余韵。",
+      notesEn:"This fairy tale is rich in imagination with beautiful language (\u2018gentle light,\u2019 \u2018reluctantly\u2019) and a well-paced plot. It uses the classic fairy-tale device of transformation \u2014 star becoming a dewdrop is clever. The ending theme \u2018helping others makes you shine brighter\u2019 has depth and a lingering resonance."}
+    ]},
     happyReading: {title:"快乐读书吧",titleEn:"Happy Reading",prompt:{cn:"在那奇妙的王国里——推荐阅读《安徒生童话》《稻草人》《格林童话》",en:"In That Wonderful Kingdom \u2014 Recommended reading: Andersen\u2019s Fairy Tales, The Scarecrow, Grimm\u2019s Fairy Tales"}}
   }
 },
@@ -503,10 +713,12 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 4, title: "预测", titleEn: "Prediction",
+  difficulty: 2,
   type: "yuce",
   lessons: [
     {
       id: 12, title: "总也倒不了的老屋", titleEn: "The Old House That Never Falls Down",
+      difficulty: 2,
       text: [
         "老屋已经活了一百多岁了。它的窗户变成了黑窟窿，门板也破了洞。它很久很久没人住了。",
         "\u201C好了，我到了倒下的时候了！\u201D它自言自语着，准备往旁边倒去。",
@@ -547,6 +759,16 @@ units: [
       ],
       recognizeChars: ["暴","喵","孵","叽","偶","尔"],
       writeChars: ["准","备","等","暴","睡","壁","砍","蜘","蛛","漂","撞","饱","晒"],
+      vocabWords: [
+        {word:'老屋',pinyin:'lǎo wū',en:'old house',sentence:'老屋已经很久了。',sentenceEn:'The old house is very old.'},
+        {word:'暴风雨',pinyin:'bào fēng yǔ',en:'storm',sentence:'暴风雨来了。',sentenceEn:'The storm came.'},
+        {word:'安心',pinyin:'ān xīn',en:'at ease',sentence:'老屋让小动物安心。',sentenceEn:'The old house put animals at ease.'},
+        {word:'准备',pinyin:'zhǔn bèi',en:'prepare',sentence:'我准备倒下去了。',sentenceEn:'I am about to collapse.'},
+        {word:'等等',pinyin:'děng děng',en:'wait',sentence:'等等，再等一下。',sentenceEn:'Wait, wait a little longer.'}
+      ],
+      grammarPoints: [
+        {point:'预测',pointEn:'yù cè',example:'predict',exampleEn:'读到这里你觉得后面会发生什么？',explanation:'What do you think will happen next?',explanationEn:'根据故事发展预测接下来的情节'}
+      ],
       exercises: [
         {type:"read",cn:"老屋给你留下了什么样的印象？联系插图和课文内容说一说",en:"What impression did the old house leave on you? Describe using the illustrations and text"},
         {type:"discuss",cn:"读课文的过程中，你有没有猜到后面会发生什么？和同学交流",en:"While reading, did you predict what would happen next? Discuss with classmates"},
@@ -564,6 +786,7 @@ units: [
     },
     {
       id: 13, title: "胡萝卜先生的长胡子", titleEn: "Mr. Carrot\u2019s Long Beard",
+      difficulty: 2,
       isSelfRead: true,
       text: [
         "胡萝卜先生常常为胡子发愁，因为他长着浓密的胡子，必须每天刮。",
@@ -576,12 +799,19 @@ units: [
       textEn: [
         "Mr. Carrot was always troubled by his beard, because he had a very thick beard that needed shaving every day.",
         "One day, Mr. Carrot hastily shaved and went out eating a jam sandwich. Being nearsighted, he didn\u2019t notice he had missed one whisker. This whisker was on the right side of his chin, and when he ate the jam sandwich, it got coated with sweet jam. For a whisker, jam is wonderful nourishment!",
-        "So as Mr. Carrot walked step by step, the whisker grew bit by bit. You only had to see how far Mr. Carrot had walked to know how long his whisker had grown.",
+        "And so, as Mr. Carrot walked along step by step, this whisker kept growing longer little by little. You only had to look at how far Mr. Carrot had walked, and you could tell how long this whisker of his had already grown.",
         "Mr. Carrot kept walking, the long whisker blowing behind him in the wind, without him knowing at all.",
         "Far down the street, a boy was flying a kite. His string was too short \u2014 the kite could only fly above the rooftops. Mr. Carrot\u2019s whisker was fluttering in the wind nearby. \u201CThis rope is long enough \u2014 I just wonder if it\u2019s strong.\u201D The boy tugged on the whisker, decided it was strong enough, and snipped off a piece to fly his kite.",
         "Mr. Carrot continued walking. When he passed under Mrs. Bird\u2019s tree, Mrs. Bird was looking for a line to hang her baby birds\u2019 diapers. Mr. Carrot\u2019s whisker was fluttering in the wind\u2026"
       ],
       recognizeChars: ["萝","卜","愁","沾","晾"],
+      vocabWords: [
+        {word:'胡萝卜',pinyin:'hú luó bo',en:'carrot',sentence:'胡萝卜先生有浓密的胡子。',sentenceEn:'Mr. Carrot had a thick beard.'},
+        {word:'发愁',pinyin:'fā chóu',en:'worry',sentence:'他常常为胡子发愁。',sentenceEn:'He often worried about his beard.'},
+        {word:'匆匆忙忙',pinyin:'cōng cōng máng máng',en:'in a hurry',sentence:'他匆匆忙忙出门了。',sentenceEn:'He hurried out the door.'},
+        {word:'风筝',pinyin:'fēng zheng',en:'kite',sentence:'胡子被当成了风筝线。',sentenceEn:'His beard was used as kite string.'},
+        {word:'晾衣绳',pinyin:'liàng yī shéng',en:'clothesline',sentence:'胡子被用作晾衣绳。',sentenceEn:'His beard was used as a clothesline.'}
+      ],
       exercises: [
         {type:"predict",cn:"故事还没有结束，你认为后来可能会发生什么事情？你为什么这样想？",en:"The story isn\u2019t over. What do you think happens next? Why?"},
         {type:"discuss",cn:"听老师把故事讲完，看看自己的预测和故事有哪些相同和不同",en:"Listen to the teacher finish the story and compare your predictions with the actual ending"}
@@ -597,6 +827,7 @@ units: [
     },
     {
       id: 14, title: "小狗学叫", titleEn: "The Little Dog Learns to Bark",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "从前，有一条不会叫的狗。它不会像狗一样叫，不会像猫一样叫，也不会像牛那样哞哞叫，更不会像马那样嘶鸣。它是一只孤零零的小狗，不知道怎么到了一个没有狗的国家。",
@@ -615,12 +846,19 @@ units: [
         "\u201CI can\u2019t\u2026 I\u2019m from somewhere else\u2026\u201D",
         "\u201CWhat kind of answer is that? Don\u2019t you know dogs are supposed to bark?\u201D",
         "The little dog didn\u2019t know how to respond to the criticism. It couldn\u2019t bark and didn\u2019t know how to learn.",
-        "\u201CLearn from me,\u201D said a sympathetic rooster one day. The rooster crowed a few times. The dog tried to copy him but only made a funny clucking sound that scared the hens away.",
+        "\u201CLearn from me,\u201D a sympathetic little rooster said to him once. The little rooster crowed \u201Ccock-a-doodle-doo\u201D a few times. The little dog tried to imitate the little rooster, but his mouth only produced a funny clucking sound that scared all the little hens nearby into running away.",
         "From then on, the dog practiced every day, secretly from dawn to dusk. One morning in the forest, its crowing was so lifelike, so beautiful, so loud that a fox heard it and thought: at last, a chicken has come to me! The fox came, bringing a knife, fork, and napkin. Imagine its disappointment when it found a dog crowing instead of a rooster!",
         "Later, a cuckoo taught the dog to say \u201Ccoo-coo.\u201D The dog learned well, but a hunter heard the cooing and fired his gun. The terrified dog ran for its life.",
-        "The story has three endings. First: the dog meets a young cow and learns to \u201Cmoo\u201D\u2026 Second: the dog meets a farmer\u2026 Third: the dog hears \u201Cwoof, woof\u201D\u2026"
+        "The story has three kinds of endings. The first kind: the little dog encounters a young cow and learns to call \u201Cmoo, moo\u201D\u2026 The second kind: the little dog bumps into a farmer\u2026 The third kind: the little dog hears the barking sound of \u201Cwoof, woof\u201D\u2026"
       ],
       recognizeChars: ["吗","讨","厌","怒","批","访","担","压","差","默","模","中","弹","疯","汪","搞"],
+      vocabWords: [
+        {word:'同情',pinyin:'tóng qíng',en:'sympathize',sentence:'公鸡同情小狗。',sentenceEn:'The rooster sympathized with the dog.'},
+        {word:'模仿',pinyin:'mó fǎng',en:'imitate',sentence:'小狗学习模仿。',sentenceEn:'The dog learned to imitate.'},
+        {word:'嘲笑',pinyin:'cháo xiào',en:'ridicule',sentence:'有人嘲笑小狗。',sentenceEn:'Someone ridiculed the dog.'},
+        {word:'尝试',pinyin:'cháng shì',en:'try',sentence:'小狗不断尝试。',sentenceEn:'The dog kept trying.'},
+        {word:'自信',pinyin:'zì xìn',en:'confident',sentence:'最后小狗找到了自信。',sentenceEn:'Finally the dog found confidence.'}
+      ],
       exercises: [
         {type:"predict",cn:"故事的几种结局可能是怎样的？说说你的理由",en:"What might the different endings be? Explain your reasoning"},
         {type:"discuss",cn:"你喜欢故事的哪些内容？和同学交流",en:"What parts of the story do you like? Discuss with classmates"},
@@ -640,7 +878,40 @@ units: [
   garden: {
     accumulation: {title:"日积月累",titleEn:"Accumulation",content:{cn:"人心齐，泰山移。\n二人同心，其利断金。\n三个臭皮匠，顶个诸葛亮。\n一个篱笆三个桩，一个好汉三个帮。",en:"When people are united, they can move Mount Tai.\nTwo hearts as one can cut through metal.\nThree cobblers are as wise as Zhuge Liang.\nEvery fence needs three stakes; every hero needs three helpers."}},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"多音字辨析：假（假期jiǎ/假扮jiǎ/假装jiǎ/假日jià）；几（几乎jī/几百jǐ/茶几jī）；中（中毒zhòng/中奖zhòng/中间zhōng）；处（处罚chǔ/处分chǔ/到处chù）",en:"Distinguish polyphonic characters: 假 (vacation jiǎ / pretend jiǎ / holiday jià); 几 (almost jī / how many jǐ / table jī); 中 (hit zhòng / middle zhōng); 处 (punish chǔ / place chù)"}},
-    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"续写故事——看图想象，接下来可能发生什么？把故事写完",en:"Continue the Story \u2014 Look at the pictures, imagine what might happen next, and finish the story"}}
+    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"续写故事——看图想象，接下来可能发生什么？把故事写完",en:"Continue the Story \u2014 Look at the pictures, imagine what might happen next, and finish the story"},modelEssays:[
+      {title:"小狗找到了家",titleEn:"The Puppy Found a Home",level:"基础",
+      structure:[
+        {cn:"开头：简要交代前情",en:"Opening: Briefly set up the prior story"},
+        {cn:"中间：按顺序写接下来发生的事",en:"Middle: Continue events in order"},
+        {cn:"结尾：给故事一个圆满结局",en:"Ending: Give the story a happy conclusion"}
+      ],
+      cn:"李明在放学回家的路上，看见一只小狗蹲在路边，身上脏兮兮的，眼睛可怜巴巴地望着他。\n李明蹲下来，轻轻摸了摸小狗的头。小狗摇了摇尾巴，好像在说：\u201C带我回家吧。\u201D李明把小狗抱回了家，给它洗了个澡。小狗浑身雪白，原来是一只漂亮的小白狗。妈妈回来后，李明说：\u201C妈妈，我们能不能养它？\u201D妈妈看了看小狗，说：\u201C我们先贴个寻狗启事，如果没有人来领，就留下它吧。\u201D一个星期过去了，没有人来。小狗就这样成了李明家的新成员。李明给它起了个名字叫\u201C雪球\u201D，他们每天一起散步、一起玩耍，成了最好的伙伴。",
+      en:"On his way home from school, Li Ming saw a puppy crouching by the roadside, dirty all over, gazing at him with pitiful eyes.\nLi Ming squatted down and gently patted the puppy\u2019s head. The puppy wagged its tail as if saying, \u2018Take me home.\u2019 Li Ming carried the puppy home and gave it a bath. The puppy turned out to be snow-white \u2014 a beautiful little white dog. When Mom came home, Li Ming asked, \u2018Mom, can we keep it?\u2019 Mom looked at the puppy and said, \u2018Let\u2019s put up a lost-dog notice first. If nobody comes to claim it, we\u2019ll keep it.\u2019 A week passed and nobody came. The puppy became a new member of Li Ming\u2019s family. Li Ming named it \u2018Snowball,\u2019 and they walked and played together every day, becoming the best of friends.",
+      notes:"这篇续写情节简单顺畅，按时间顺序展开。对话自然，结局温暖。\u201C洗澡后发现是白狗\u201D的小反转增加了趣味性。适合初学续写的同学。",
+      notesEn:"This continuation has a simple, smooth plot that unfolds chronologically. The dialogue is natural and the ending is warm. The small twist of discovering the dog is white after bathing adds interest. Good for students learning story continuation."},
+      {title:"迷路的小鸟",titleEn:"The Lost Little Bird",level:"提高",
+      structure:[
+        {cn:"开头：承接前文，制造悬念",en:"Opening: Connect to the prior story and create suspense"},
+        {cn:"发展：设置困难，尝试解决",en:"Development: Create difficulties and attempt solutions"},
+        {cn:"转折：意外帮助推动情节",en:"Turning point: Unexpected help moves the plot"},
+        {cn:"结尾：解决问题，收获友谊",en:"Ending: Problem solved, friendship gained"}
+      ],
+      cn:"一天早上，小美在阳台上发现了一只小鸟，它的翅膀受了伤，飞不起来了。\n小美小心翼翼地把小鸟捧在手心里，用棉花给它包扎了伤口。她每天给小鸟喂水和米粒，还用纸盒给它做了一个温暖的小窝。可是小鸟整天不吃不喝，只是望着窗外叫个不停。小美很担心，问爸爸：\u201C小鸟是不是想妈妈了？\u201D爸爸说：\u201C可能是吧，鸟儿最快乐的地方是天空。\u201D\n过了几天，小鸟的翅膀好了。小美虽然舍不得，但还是打开了窗户。小鸟在窗台上停了一会儿，回头看了看小美，好像在说\u201C谢谢\u201D，然后展开翅膀飞向了蓝天。让小美惊喜的是，从那以后，每天早上那只小鸟都会飞到她的窗台上唱一首歌，好像在问候她。小美觉得，这就是最美的礼物。",
+      en:"One morning, Xiao Mei found a little bird on the balcony. Its wing was injured and it couldn\u2019t fly.\nXiao Mei carefully cradled the bird in her hands and bandaged its wound with cotton. Every day she fed the bird water and grains of rice and made it a cozy little nest from a paper box. But the bird wouldn\u2019t eat or drink; it just gazed out the window and chirped constantly. Worried, Xiao Mei asked her father, \u2018Does the bird miss its mother?\u2019 Dad said, \u2018Probably \u2014 the happiest place for a bird is the sky.\u2019\nAfter a few days, the bird\u2019s wing healed. Though reluctant, Xiao Mei opened the window. The bird paused on the windowsill, looked back at Xiao Mei as if saying \u2018thank you,\u2019 then spread its wings and flew into the blue sky. To Xiao Mei\u2019s delight, from that day on, the little bird flew to her windowsill every morning and sang a song, as if greeting her. Xiao Mei felt this was the most beautiful gift.",
+      notes:"这篇续写有情感起伏：担心—照顾—不舍—放飞—惊喜。爸爸的话是点睛之笔。小鸟每天来唱歌的结尾既温馨又有想象力，比简单的\u201C快乐结局\u201D更有韵味。",
+      notesEn:"This continuation has emotional ups and downs: worry \u2014 care \u2014 reluctance \u2014 release \u2014 surprise. The father\u2019s words are a masterstroke. The ending where the bird visits daily is both heartwarming and imaginative, with more flavor than a simple happy ending."},
+      {title:"老树的秘密",titleEn:"The Old Tree\u2019s Secret",level:"拓展",
+      structure:[
+        {cn:"开头：营造神秘氛围",en:"Opening: Create a mysterious atmosphere"},
+        {cn:"发展：层层深入，揭示秘密",en:"Development: Layer by layer, reveal the secret"},
+        {cn:"高潮：关键发现带来转折",en:"Climax: A key discovery creates a turning point"},
+        {cn:"结尾：点明主题，引发思考",en:"Ending: Highlight the theme and inspire reflection"}
+      ],
+      cn:"学校后面有一棵很老很老的大树，同学们都说它有一百岁了。有一天，小刚发现树洞里好像藏着什么东西。\n放学后，小刚叫上好朋友小丽一起去看。他们趴在树洞前，用手电筒往里照。\u201C是一个铁盒子！\u201D小丽惊讶地说。小刚伸手把铁盒子掏了出来，盒子已经生了锈，打开后，里面是一本旧旧的日记本和一张泛黄的照片。照片上是几个穿着白衬衫的少年，站在这棵大树前，笑得特别开心。日记本的第一页写着：\u201C1990年6月1日，今天我们在大树下埋了时间胶囊，约好二十年后一起打开。\u201D\n小刚和小丽把这件事告诉了校长。校长看了照片，笑了：\u201C这是我和我的同学们啊！那时候我们也是三年级。\u201D校长的眼眶红了，他说：\u201C没想到过了这么多年，大树还在，记忆也还在。\u201D小刚忽然觉得，这棵老树不只是一棵树，它是一本活着的故事书，记录着一代又一代人的童年。",
+      en:"Behind the school stood a very, very old tree. Classmates said it was a hundred years old. One day, Xiao Gang noticed something seemed to be hidden inside the tree\u2019s hollow.\nAfter school, Xiao Gang called his good friend Xiao Li to check it out together. They crouched by the hollow and shone a flashlight inside. \u2018It\u2019s a tin box!\u2019 Xiao Li exclaimed. Xiao Gang reached in and pulled out a rusty tin box. Inside were an old diary and a yellowed photograph. The photo showed several teenagers in white shirts standing in front of this very tree, grinning broadly. The first page of the diary read: \u2018June 1, 1990 \u2014 Today we buried a time capsule under the tree, and we agreed to open it together in twenty years.\u2019\nXiao Gang and Xiao Li told the principal about their discovery. The principal looked at the photo and smiled: \u2018That\u2019s me and my classmates! We were also in third grade back then.\u2019 The principal\u2019s eyes reddened. He said, \u2018I never imagined that after so many years, the tree is still here, and so are the memories.\u2019 Xiao Gang suddenly felt that this old tree wasn\u2019t just a tree \u2014 it was a living storybook, recording the childhoods of generation after generation.",
+      notes:"这篇续写构思巧妙：从树洞中的铁盒子到时间胶囊，再到校长就是当年的孩子，层层推进，令人惊喜。结尾\u201C活着的故事书\u201D这个比喻有深度，把个人故事和时间、记忆联系起来。对话推动情节，节奏紧凑。",
+      notesEn:"This continuation is cleverly conceived: from the tin box in the tree hollow, to the time capsule, to the principal being one of the original children \u2014 each layer brings a surprise. The ending metaphor \u2018a living storybook\u2019 has depth, connecting personal stories with time and memory. Dialogue drives the plot and the pacing is tight."}
+    ]}
   }
 },
 /* ═══════════════════════════════════════════ */
@@ -648,10 +919,12 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 5, title: "习作单元", titleEn: "Writing Unit",
+  difficulty: 3,
   type: "xiezuo",
   lessons: [
     {
       id: 15, title: "搭船的鸟", titleEn: "The Bird on the Boat",
+      difficulty: 3,
       text: [
         "我和母亲坐着小船，到乡下外祖父家里去。我们坐在船舱里。天下着雨，雨点打在船篷上，沙啦沙啦地响。船夫披着蓑衣在船后用力地摇着橹。",
         "后来雨停了。我看见一只彩色的小鸟站在船头，多么美丽啊！它的羽毛是翠绿的，翅膀带着一些蓝色，比鹦鹉还漂亮。它还有一张红色的长嘴。",
@@ -668,6 +941,16 @@ units: [
       ],
       recognizeChars: ["父","啦","鹦","鹉","悄"],
       writeChars: ["搭","亲","父","沙","啦","响","羽","翠","嘴","悄","吞","哦","捕"],
+      vocabWords: [
+        {word:'翠鸟',pinyin:'cuì niǎo',en:'kingfisher',sentence:'一只翠鸟搭上了我们的船。',sentenceEn:'A kingfisher boarded our boat.'},
+        {word:'蓑衣',pinyin:'suō yī',en:'straw raincoat',sentence:'翠鸟披着翠绿的蓑衣。',sentenceEn:'The kingfisher wore an emerald green raincoat.'},
+        {word:'捕鱼',pinyin:'bǔ yú',en:'catch fish',sentence:'翠鸟一头扎进水里捕鱼。',sentenceEn:'The kingfisher dived into water to catch fish.'},
+        {word:'吞',pinyin:'tūn',en:'swallow',sentence:'一口吞了下去。',sentenceEn:'Swallowed it in one gulp.'},
+        {word:'观察',pinyin:'guān chá',en:'observe',sentence:'留心观察身边的事物。',sentenceEn:'Pay attention to things around you.'}
+      ],
+      grammarPoints: [
+        {point:'观察描写',pointEn:'guān chá miáo xiě',example:'observe and describe',exampleEn:'它的羽毛是翠绿的，翅膀带着一些蓝色。',explanation:'Its feathers are emerald green, wings with some blue.',explanationEn:'通过仔细观察写出事物的特点'}
+      ],
       exercises: [
         {type:"read",cn:"读课文，想想作者对哪些事物作了细致观察，说说你是从哪里看出来的",en:"Read and think about what the author observed carefully. How can you tell?"},
         {type:"vocab",cn:"读下面这段话，注意加点的词语，想象翠鸟捕鱼的情景",en:"Read the paragraph, note the highlighted verbs, and imagine the kingfisher catching fish"},
@@ -684,6 +967,7 @@ units: [
     },
     {
       id: 16, title: "金色的草地", titleEn: "The Golden Meadow",
+      difficulty: 3,
       text: [
         "我们住在乡下，窗前是一大片草地。草地上长满了蒲公英。当蒲公英盛开的时候，这片草地就变成金色的了。",
         "我和弟弟常常在草地上玩耍。有一次，弟弟跑在我前面，我装着一本正经的样子，喊：\u201C谢廖沙！\u201D他回过头来，我就使劲一吹，把蒲公英的绒毛吹到他的脸上。弟弟也假装打哈欠，把蒲公英的绒毛朝我脸上吹。就这样，这些并不引人注目的蒲公英，给我们带来了不少快乐。",
@@ -698,6 +982,13 @@ units: [
       ],
       recognizeChars: ["蒲","英","耍","欠","钓","拢"],
       writeChars: ["蒲","英","盛","耍","喊","欠","钓","而","察","拢","掌","趣","喜"],
+      vocabWords: [
+        {word:'蒲公英',pinyin:'pú gōng yīng',en:'dandelion',sentence:'草地上长满了蒲公英。',sentenceEn:'The meadow is full of dandelions.'},
+        {word:'绒毛',pinyin:'róng máo',en:'fluff',sentence:'蒲公英的绒毛飞起来。',sentenceEn:'Dandelion fluff floats up.'},
+        {word:'合拢',pinyin:'hé lǒng',en:'close up',sentence:'花朵合拢了。',sentenceEn:'The flowers closed up.'},
+        {word:'张开',pinyin:'zhāng kāi',en:'open up',sentence:'花朵张开了。',sentenceEn:'The flowers opened up.'},
+        {word:'发现',pinyin:'fā xiàn',en:'discover',sentence:'我发现了草地变色的秘密。',sentenceEn:'I discovered the secret of the color-changing meadow.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，一边读一边想象课文描写的场景",en:"Read aloud while imagining the scenes described"},
         {type:"order",cn:"仔细读第3自然段，把下面的内容补充完整：早上草地____，因为蒲公英____；中午草地____；傍晚草地____",en:"Read paragraph 3 carefully and fill in: In the morning the meadow is ___ because dandelions ___; at noon ___; in the evening ___"},
@@ -714,7 +1005,40 @@ units: [
     }
   ],
   garden: {
-    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"我们眼中的缤纷世界——把最近观察时印象最深的一种事物或一处场景写下来",en:"Our Colorful World \u2014 Write about the most impressive thing or scene you observed recently"}},
+    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"我们眼中的缤纷世界——把最近观察时印象最深的一种事物或一处场景写下来",en:"Our Colorful World \u2014 Write about the most impressive thing or scene you observed recently"},modelEssays:[
+      {title:"我家的小猫",titleEn:"My Cat at Home",level:"基础",
+      structure:[
+        {cn:"开头：介绍观察对象",en:"Opening: Introduce the subject of observation"},
+        {cn:"中间：抓住外形和动作特点",en:"Middle: Focus on appearance and behavior"},
+        {cn:"结尾：表达喜爱之情",en:"Ending: Express affection"}
+      ],
+      cn:"我家有一只小花猫，我给它起名叫\u201C花花\u201D。花花的毛是橘色和白色相间的，摸起来软软的，像棉花一样。它的眼睛圆圆的，像两颗绿宝石。\n花花最爱做的事就是晒太阳。每天中午，它都会跳到窗台上，把身子蜷成一团，眯着眼睛，尾巴卷在身边，舒舒服服地睡觉。你要是轻轻摸它，它就会\u201C咕噜咕噜\u201D地叫，好像在说\u201C真舒服\u201D。花花吃东西的样子也很可爱，它会用小舌头一下一下地舔，吃得很仔细。\n我最喜欢花花了，它是我们家最可爱的小成员。",
+      en:"Our family has a little tabby cat that I named \u2018Huahua.\u2019 Huahua\u2019s fur is a mix of orange and white, soft to the touch like cotton. Her eyes are round like two green gems.\nHuahua\u2019s favorite thing to do is sunbathe. Every noon, she jumps onto the windowsill, curls up into a ball, squints her eyes, tucks her tail alongside her body, and sleeps comfortably. If you gently pet her, she purrs as if saying \u2018so comfy.\u2019 Huahua is also cute when eating \u2014 she licks carefully with her little tongue, bite by bite.\nI love Huahua the most \u2014 she is the cutest little member of our family.",
+      notes:"这篇文章围绕一个观察对象（小猫）来写，抓住了外貌、习惯两个特点。用了比喻（绿宝石、棉花）和拟声词（咕噜咕噜），描写细致。适合初学观察作文的同学。",
+      notesEn:"This essay focuses on one subject (the cat) and captures two traits: appearance and habits. It uses similes (green gems, cotton) and onomatopoeia (purring) for detailed description. Good for students starting observational writing."},
+      {title:"秋天的校园",titleEn:"The Campus in Autumn",level:"提高",
+      structure:[
+        {cn:"开头：总写秋天到来的变化",en:"Opening: Describe the overall changes of autumn\u2019s arrival"},
+        {cn:"中间：按空间顺序写不同景物",en:"Middle: Describe different scenery in spatial order"},
+        {cn:"过渡：加入感官细节",en:"Transition: Add sensory details"},
+        {cn:"结尾：抒情，表达对校园秋色的喜爱",en:"Ending: Express love for the autumn campus"}
+      ],
+      cn:"秋天悄悄来到了我们的校园，把校园打扮得五彩缤纷。\n操场旁边的银杏树最先换上了新衣。一片片扇子形的叶子变成了金黄色，风一吹，它们就像金色的蝴蝶一样飘落下来。花坛里的菊花开了，有白的、黄的、紫的，一朵朵挨挨挤挤，好像在比谁最漂亮。走近一闻，一股淡淡的清香扑鼻而来。\n教学楼前的爬山虎更是一道亮丽的风景。原来绿绿的叶子变成了火红色，远远望去像一片红色的瀑布，铺满了整面墙壁。阳光照在上面，红得发亮，美极了。\n秋天的校园就像一幅五彩的画，每一个角落都有惊喜。我真想把这些美景画下来，永远留住这最美的秋天。",
+      en:"Autumn quietly came to our campus, dressing it in a riot of colors.\nThe ginkgo trees beside the playground were the first to put on new outfits. Their fan-shaped leaves turned golden, and when the wind blew, they floated down like golden butterflies. Chrysanthemums bloomed in the flower bed \u2014 white, yellow, purple \u2014 crowded together as if competing for who was prettiest. Up close, a gentle fragrance wafted to the nose.\nThe Boston ivy on the teaching building was an even more splendid sight. Its once-green leaves had turned fiery red, looking like a red waterfall from a distance, covering the entire wall. Sunlight shone on it, making the red glow brilliantly \u2014 absolutely beautiful.\nThe autumn campus is like a colorful painting, with surprises in every corner. I truly wish I could paint these beautiful scenes and keep this loveliest autumn forever.",
+      notes:"这篇观察作文按空间顺序（操场—花坛—教学楼）写了三处景物，条理清楚。用了比喻（金色蝴蝶、红色瀑布）和多感官描写（视觉+嗅觉），画面感很强。结尾的抒情自然流畅。",
+      notesEn:"This observational essay describes three locations in spatial order (playground \u2014 flower bed \u2014 building), well-organized. It uses similes (golden butterflies, red waterfall) and multi-sensory description (sight + smell) for strong visual impact. The lyrical ending flows naturally."},
+      {title:"菜市场的早晨",titleEn:"Morning at the Market",level:"拓展",
+      structure:[
+        {cn:"开头：点明时间地点，营造氛围",en:"Opening: State time and place, set the atmosphere"},
+        {cn:"中间：按\u201C看—听—闻\u201D多感官描写",en:"Middle: Multi-sensory description (see \u2014 hear \u2014 smell)"},
+        {cn:"过渡：聚焦一个有趣的细节",en:"Transition: Zoom in on an interesting detail"},
+        {cn:"结尾：从场景升华到对生活的感受",en:"Ending: Elevate from the scene to feelings about life"}
+      ],
+      cn:"星期天早上，妈妈带我去菜市场买菜。还没走到门口，我就听到了热闹的叫卖声。\n走进菜市场，眼前一片五彩缤纷：红红的西红柿堆成小山，绿油油的黄瓜排着整齐的队伍，紫色的茄子胖乎乎的，好像一个个小胖墩。水果摊上更是诱人，橙子散发着甜甜的香气，草莓红艳艳的，像一颗颗小宝石。\n\u201C新鲜的大虾，便宜卖啦！\u201D卖鱼的叔叔大声吆喝着。旁边卖豆腐的阿姨笑着说：\u201C来块豆腐吧，早上刚做的！\u201D妈妈在一个摊位前停下来，挑了几个又大又红的苹果。卖苹果的爷爷笑呵呵地多给了我一个，说：\u201C小朋友，送你一个尝尝。\u201D我连忙说\u201C谢谢\u201D，咬一口，又脆又甜。\n菜市场虽然有点吵，有点挤，但我觉得这里充满了生活的气息。每个人脸上都带着笑容，每个角落都散发着食物的香味。原来，最平凡的地方也藏着最真实的快乐。",
+      en:"On Sunday morning, Mom took me to the vegetable market. Before we even reached the entrance, I could hear the lively hawking sounds.\nInside the market, a colorful world unfolded: red tomatoes piled into little mountains, shiny green cucumbers lined up neatly, and plump purple eggplants looked like chubby little fellows. The fruit stall was even more tempting \u2014 oranges gave off a sweet fragrance, and strawberries were brilliantly red like tiny gems.\n\u2018Fresh prawns, selling cheap!\u2019 the fish seller shouted loudly. The tofu lady next to him smiled and said, \u2018Get some tofu \u2014 made fresh this morning!\u2019 Mom stopped at one stall and picked a few big, red apples. The apple-selling grandpa smiled and gave me an extra one, saying, \u2018Here, little one \u2014 try this.\u2019 I quickly said \u2018thank you\u2019 and took a bite \u2014 crisp and sweet.\nThe market is a bit noisy and crowded, but I think it\u2019s full of the flavor of life. Everyone has a smile on their face, and every corner radiates the aroma of food. It turns out that the most ordinary places hide the most genuine happiness.",
+      notes:"这篇观察作文视角独特（菜市场），运用了视觉、听觉、嗅觉、味觉四种感官描写，画面生动立体。人物语言活泼，增添了生活气息。结尾\u201C最平凡的地方藏着最真实的快乐\u201D升华了主题，展示了思考深度。",
+      notesEn:"This observational essay has a unique perspective (the market) and uses four senses \u2014 sight, hearing, smell, taste \u2014 for vivid, dimensional description. Character dialogue adds liveliness. The ending \u2018the most ordinary places hide the most genuine happiness\u2019 elevates the theme and shows depth of thought."}
+    ]},
     exampleEssays: {title:"习作例文",titleEn:"Model Essays",content:{cn:"我家的小狗（描写\u201C王子\u201D的淘气可爱）；我爱故乡的杨梅（描写杨梅的外形、颜色、味道）",en:"My Dog (describing \u2018Prince\u2019s\u2019 mischievous charm); I Love My Hometown\u2019s Bayberries (describing bayberry shape, color, and taste)"}}
   }
 },
@@ -723,10 +1047,12 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 6, title: "课文", titleEn: "Texts",
+  difficulty: 3,
   type: "kewen",
   lessons: [
     {
       id: 17, title: "古诗三首", titleEn: "Three Ancient Poems",
+      difficulty: 3,
       text: [
         "望天门山\n[唐] 李白\n天门中断楚江开，碧水东流至此回。\n两岸青山相对出，孤帆一片日边来。",
         "饮湖上初晴后雨\n[宋] 苏轼\n水光潋滟晴方好，山色空蒙雨亦奇。\n欲把西湖比西子，淡妆浓抹总相宜。",
@@ -755,6 +1081,7 @@ units: [
     },
     {
       id: 18, title: "富饶的西沙群岛", titleEn: "The Rich Xisha Islands",
+      difficulty: 3,
       text: [
         "西沙群岛位于南海的西北部，是我国海南省三沙市的一部分。那里风景优美，物产丰富，是个可爱的地方。",
         "西沙群岛一带海水五光十色，瑰丽无比：有深蓝的，淡青的，浅绿的，杏黄的。一块块，一条条，相互交错着。因为海底高低不平，有山崖，有峡谷，海水有深有浅，从海面看，色彩就不同了。",
@@ -773,6 +1100,16 @@ units: [
       ],
       recognizeChars: ["饶","优","瑰","岩","参","武","栖","粪","辈","设"],
       writeChars: ["优","淡","浅","错","岩","虾","挺","刺","鼓","数","厚","宝","贵"],
+      vocabWords: [
+        {word:'富饶',pinyin:'fù ráo',en:'rich; fertile',sentence:'西沙群岛是个富饶的地方。',sentenceEn:'The Xisha Islands are a rich place.'},
+        {word:'海底',pinyin:'hǎi dǐ',en:'seabed',sentence:'海底的岩石上长着各种珊瑚。',sentenceEn:'Corals grow on the seabed rocks.'},
+        {word:'珊瑚',pinyin:'shān hú',en:'coral',sentence:'珊瑚像分枝的鹿角。',sentenceEn:'Corals look like branching antlers.'},
+        {word:'海参',pinyin:'hǎi shēn',en:'sea cucumber',sentence:'海参懒洋洋地蠕动。',sentenceEn:'Sea cucumbers sluggishly wiggle.'},
+        {word:'海龟',pinyin:'hǎi guī',en:'sea turtle',sentence:'海龟在海里自由游泳。',sentenceEn:'Sea turtles swim freely in the ocean.'}
+      ],
+      grammarPoints: [
+        {point:'总分总结构',pointEn:'zǒng-fēn-zǒng',example:'general-specific-general',exampleEn:'那里风景优美，物产丰富。',explanation:'Beautiful scenery, abundant resources.',explanationEn:'先总说再分说最后总结'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文。说说从哪些地方可以看出西沙群岛风景优美、物产丰富",en:"Read with feeling. Where can you see that the islands have beautiful scenery and rich products?"},
         {type:"discuss",cn:"选择你喜欢的部分，向别人介绍西沙群岛",en:"Choose your favorite part and introduce the Xisha Islands to others"},
@@ -790,6 +1127,7 @@ units: [
     },
     {
       id: 19, title: "海滨小城", titleEn: "The Seaside Town",
+      difficulty: 3,
       text: [
         "我的家乡在广东，是一座海滨小城。人们走到街道尽头，就可以看见浩瀚的大海。天是蓝的，海也是蓝的。海天交界的水平线上，有棕色的机帆船和银白色的军舰来来往往。天空飞翔着白色的、灰色的海鸥，还飘着跟海鸥一样颜色的云朵。",
         "早晨，机帆船、军舰、海鸥、云朵，都被朝阳镀上了一层金黄色。帆船上的渔民，军舰上的战士，他们的脸和胳臂也镀上了一层金黄色。",
@@ -810,6 +1148,13 @@ units: [
       ],
       recognizeChars: ["滨","鸥","胳","臂","睬","载","凰","亚","榕","凳","逢","除"],
       writeChars: ["滨","灰","飘","渔","遍","躺","载","靠","亚","夏","除","踩","洁"],
+      vocabWords: [
+        {word:'海滨',pinyin:'hǎi bīn',en:'seaside',sentence:'海滨小城真美丽。',sentenceEn:'The seaside town is beautiful.'},
+        {word:'喧闹',pinyin:'xuān nào',en:'noisy; bustling',sentence:'大海不再喧闹。',sentenceEn:'The sea is no longer noisy.'},
+        {word:'庭院',pinyin:'tíng yuàn',en:'courtyard',sentence:'庭院里种满了鲜花。',sentenceEn:'Courtyards are full of flowers.'},
+        {word:'整洁',pinyin:'zhěng jié',en:'tidy',sentence:'小城的街道很整洁。',sentenceEn:'The town streets are very tidy.'},
+        {word:'凤凰树',pinyin:'fèng huáng shù',en:'phoenix tree',sentence:'凤凰树开花了。',sentenceEn:'The phoenix tree is blooming.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文。说说课文写了海滨小城的哪些景象，这些景象是什么样的",en:"Read aloud. What scenes of the seaside town does the text describe? What are they like?"},
         {type:"discuss",cn:"有些句子很重要，可以帮助我们理解一段话的意思，你能从课文中找出来吗？",en:"Some sentences are key to understanding a paragraph\u2019s meaning. Can you find them in the text?"},
@@ -827,6 +1172,7 @@ units: [
     },
     {
       id: 20, title: "美丽的小兴安岭", titleEn: "Beautiful Little Xing\u2019an Mountains",
+      difficulty: 3,
       text: [
         "我国东北的小兴安岭，有数不清的红松、白桦、栎树\u2026\u2026几百里连成一片，就像绿色的海洋。",
         "春天，树木抽出新的枝条，长出嫩绿的叶子。山上的积雪融化了，雪水汇成小溪，淙淙地流着。溪里涨满了春水。小鹿在溪边散步，它们有的俯下身子喝水，有的侧着脑袋欣赏自己映在水里的影子。",
@@ -845,6 +1191,16 @@ units: [
       ],
       recognizeChars: ["兴","融","侧","欣","浸","乳","梢","舍","显","材","膝","临","库"],
       writeChars: ["脑","袋","严","实","挡","视","线","坛","显","材","软","刮","库"],
+      vocabWords: [
+        {word:'抽出',pinyin:'chōu chū',en:'sprout',sentence:'树木抽出新的枝条。',sentenceEn:'Trees sprout new branches.'},
+        {word:'浸',pinyin:'jìn',en:'soak; immerse',sentence:'整个森林浸在乳白色的浓雾里。',sentenceEn:'The forest is soaked in milky white fog.'},
+        {word:'葱葱茏茏',pinyin:'cōng cōng lóng lóng',en:'lush and verdant',sentence:'树木葱葱茏茏。',sentenceEn:'Trees are lush and verdant.'},
+        {word:'宝库',pinyin:'bǎo kù',en:'treasure trove',sentence:'小兴安岭是巨大的宝库。',sentenceEn:'Little Xing an Mountains is a huge treasure trove.'},
+        {word:'人参',pinyin:'rén shēn',en:'ginseng',sentence:'这里有珍贵的人参。',sentenceEn:'There is precious ginseng here.'}
+      ],
+      grammarPoints: [
+        {point:'按时间顺序',pointEn:'àn shí jiān shùn xù',example:'chronological order',exampleEn:'春天……夏天……秋天……冬天……',explanation:'Spring...Summer...Autumn...Winter...',explanationEn:'按四季顺序描写景物变化'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文，注意读好文中的长句子",en:"Read with feeling, paying attention to long sentences"},
         {type:"vocab",cn:"读下面的句子，体会加点词语好在哪里：\u201C树木抽出新的枝条\u201D\u201C整个森林浸在乳白色的浓雾里\u201D",en:"Read the sentences and appreciate why the highlighted words work well: \u2018trees sprout new branches\u2019 \u2018the forest is bathed in milky fog\u2019"},
@@ -864,7 +1220,40 @@ units: [
   garden: {
     accumulation: {title:"日积月累",titleEn:"Accumulation",content:{cn:"早发白帝城\n[唐] 李白\n朝辞白帝彩云间，千里江陵一日还。\n两岸猿声啼不住，轻舟已过万重山。",en:"Early Departure from White Emperor City\n[Tang] Li Bai\nAt dawn I leave White Emperor City among colorful clouds;\nA thousand miles to Jiangling, done in a single day.\nApes cry on both banks without ceasing;\nMy light boat has already passed ten thousand mountains."}},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"ABB式词语：懒洋洋、慢腾腾、颤巍巍、兴冲冲、静悄悄、空荡荡、乱糟糟、闹哄哄",en:"ABB-pattern words: lazily, slowly, shakily, excitedly, quietly, emptily, messily, noisily"}},
-    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"这儿真美——把身边的美景介绍给别人，试着围绕一个意思写",en:"This Place Is Beautiful \u2014 Introduce a beautiful place nearby, writing around one central idea"}}
+    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"这儿真美——把身边的美景介绍给别人，试着围绕一个意思写",en:"This Place Is Beautiful \u2014 Introduce a beautiful place nearby, writing around one central idea"},modelEssays:[
+      {title:"美丽的小公园",titleEn:"The Beautiful Little Park",level:"基础",
+      structure:[
+        {cn:"开头：总写这个地方很美",en:"Opening: Generally state the place is beautiful"},
+        {cn:"中间：分别写几处景物",en:"Middle: Describe several specific sights"},
+        {cn:"结尾：总结，表达喜爱",en:"Ending: Summarize and express love"}
+      ],
+      cn:"我家旁边有一个小公园，那儿真美。\n公园里有一个小湖，湖水清清的，能看见小鱼在水里游来游去。湖边种着一排柳树，长长的柳条垂到水面上，风一吹就轻轻摆动，像在跳舞。湖中间有一座小石桥，弯弯的，像一道彩虹。\n公园的草地上种着各种各样的花，春天有桃花，夏天有荷花，秋天有菊花，冬天有腊梅。一年四季都有花开，美丽极了。\n我最喜欢傍晚去公园散步，看夕阳把湖水染成金色，听鸟儿在枝头唱歌。这个小公园虽然不大，但它是我心中最美的地方。",
+      en:"There is a little park next to my home \u2014 it\u2019s truly beautiful.\nThe park has a small lake with clear water where you can see fish swimming about. Along the shore stands a row of willow trees, their long branches draping to the water\u2019s surface, swaying gently in the breeze as if dancing. In the middle of the lake is a small stone bridge, curved like a rainbow.\nThe park\u2019s lawn is planted with all kinds of flowers: peach blossoms in spring, lotus in summer, chrysanthemums in autumn, and wintersweet in winter. Flowers bloom in every season \u2014 absolutely beautiful.\nI love taking evening walks in the park, watching the sunset turn the lake golden, listening to birds sing in the branches. Though this little park is small, it is the most beautiful place in my heart.",
+      notes:"这篇作文围绕\u201C美\u201D这个中心来写，结构是\u201C总—分—总\u201D，条理清楚。写了湖水、柳树、石桥、花朵四处景物，四季变化增加了层次。比喻自然贴切。",
+      notesEn:"This essay centers on \u2018beauty\u2019 with a \u2018general \u2014 specific \u2014 general\u2019 structure, well-organized. It describes four elements (lake, willows, bridge, flowers) and adds depth through seasonal changes. The similes are natural and fitting."},
+      {title:"外婆家的小院",titleEn:"Grandma\u2019s Courtyard",level:"提高",
+      structure:[
+        {cn:"开头：引出地点，表达特殊感情",en:"Opening: Introduce the place with special feelings"},
+        {cn:"中间：按空间顺序描写，加入活动",en:"Middle: Describe in spatial order with activities included"},
+        {cn:"过渡：融入人物和故事",en:"Transition: Blend in people and stories"},
+        {cn:"结尾：表达思念和感悟",en:"Ending: Express longing and reflection"}
+      ],
+      cn:"外婆家有一个小院子，那是我最喜欢的地方。\n一推开木门，首先映入眼帘的是一架葡萄藤。夏天的时候，绿油油的叶子搭成一个天然的凉棚，一串串紫色的葡萄挂在上面，像一颗颗紫色的珍珠。院子左边是外婆的菜园，里面种着西红柿、辣椒和黄瓜。西红柿红彤彤的，辣椒绿油油的，看着就让人高兴。\n院子右边有一棵大枣树，秋天的时候结满了又大又甜的红枣。我和表弟最喜欢拿竹竿打枣子，枣子掉下来，我们就抢着捡，笑声在院子里回荡。\n外婆常常坐在院子里的小凳子上，一边择菜一边给我讲故事。阳光洒在她的身上，暖暖的，那画面特别温馨。每次离开外婆家，我都会回头看看那个小院子。它不只是一个院子，更装满了我和外婆在一起的快乐时光。",
+      en:"Grandma has a small courtyard at her home \u2014 it\u2019s my favorite place.\nAs soon as you push open the wooden gate, a grapevine greets your eyes. In summer, its lush green leaves form a natural shade canopy, with clusters of purple grapes hanging down like strings of purple pearls. On the left side of the courtyard is Grandma\u2019s vegetable garden, planted with tomatoes, peppers, and cucumbers. The tomatoes are bright red, the peppers glossy green \u2014 just looking at them makes you happy.\nOn the right side stands a big jujube tree. In autumn it\u2019s loaded with big, sweet red dates. My cousin and I love knocking dates down with a bamboo pole \u2014 when they fall, we scramble to pick them up, our laughter echoing through the courtyard.\nGrandma often sits on a little stool in the courtyard, sorting vegetables while telling me stories. Sunlight falls on her, warm and gentle \u2014 the scene is especially heartwarming. Every time I leave Grandma\u2019s house, I look back at that little courtyard. It\u2019s not just a yard \u2014 it\u2019s filled with the happy times I\u2019ve spent with Grandma.",
+      notes:"这篇作文不只写景，还融入了人物活动（打枣、讲故事），让景物描写更有温度。按空间顺序（门口—左边—右边）写，条理清晰。结尾从写景上升到写情，主题更深刻。",
+      notesEn:"This essay doesn\u2019t just describe scenery \u2014 it blends in human activities (knocking dates, telling stories), adding warmth to the description. Spatial order (entrance \u2014 left \u2014 right) provides clear organization. The ending rises from scenery to emotion, deepening the theme."},
+      {title:"雨后的田野",titleEn:"The Fields After Rain",level:"拓展",
+      structure:[
+        {cn:"开头：用对比引出雨后美景",en:"Opening: Use contrast to introduce post-rain beauty"},
+        {cn:"中间：远景到近景，动静结合",en:"Middle: From distant to close views, combining movement and stillness"},
+        {cn:"高潮：发现细微之美",en:"Climax: Discover subtle beauty"},
+        {cn:"结尾：感悟自然之美，回扣标题",en:"Ending: Reflect on nature\u2019s beauty, echo the title"}
+      ],
+      cn:"昨天下了一场大雨，今天一早，爸爸带我去田野里散步。推开门，一股清新的泥土气息扑面而来，我忍不住深深吸了一口气。\n远远望去，田野像是被洗过一样，绿得发亮。一块块稻田整整齐齐，稻苗上还挂着晶莹的水珠，在阳光下闪闪发光，像无数颗小钻石。远处的山被一层薄薄的雾纱笼罩着，若隐若现，像一幅水墨画。\n走近小溪边，溪水涨了不少，哗哗地流着，比平时更欢快了。几只白鹭从水面上飞过，翅膀掠过水面，溅起一串水花。我蹲下来看溪边的石头，发现上面长着绿绿的苔藓，一只小青蛙正蹲在荷叶上，鼓着大眼睛望着我，好像在说：\u201C你好啊！\u201D\n爸爸说：\u201C大自然就是最好的画家。\u201D我点点头。雨后的田野，空气是甜的，颜色是亮的，声音是清脆的。这儿真美，美得让人舍不得离开。",
+      en:"It rained heavily yesterday. Early this morning, Dad took me for a walk in the fields. As we opened the door, a fresh earthy scent greeted us, and I couldn\u2019t help taking a deep breath.\nLooking into the distance, the fields seemed freshly washed, glistening green. Neat rows of rice paddies still held crystal water droplets on their seedlings, sparkling in the sunlight like countless tiny diamonds. The far-off mountains were veiled in a thin layer of mist, appearing and disappearing like an ink-wash painting.\nNear the stream, the water had risen and flowed with a cheerful gurgle, livelier than usual. Several egrets flew over the water\u2019s surface, their wings skimming it and splashing up a string of droplets. I crouched by the stream and saw green moss on the stones. A little frog sat on a lotus leaf, staring at me with bulging eyes as if saying, \u2018Hello there!\u2019\nDad said, \u2018Nature is the best painter.\u2019 I nodded. After the rain, the fields\u2019 air is sweet, their colors bright, their sounds crisp. This place is truly beautiful \u2014 so beautiful you can\u2019t bear to leave.",
+      notes:"这篇作文写作技巧丰富：远景到近景的空间变化、动静结合（稻田的静vs溪水的动）、多感官描写（视觉+嗅觉+听觉）。\u201C水墨画\u201D\u201C小钻石\u201D等比喻生动。结尾三个排比句节奏感强，\u201C美得让人舍不得离开\u201D回扣标题\u201C这儿真美\u201D。",
+      notesEn:"This essay is rich in technique: spatial shift from distant to close views, combining stillness (paddies) with movement (stream), and multi-sensory description (sight + smell + sound). Similes like \u2018ink-wash painting\u2019 and \u2018tiny diamonds\u2019 are vivid. The three parallel phrases at the ending create rhythm, and \u2018so beautiful you can\u2019t bear to leave\u2019 echoes the title \u2018This Place Is Beautiful.\u2019"}
+    ]}
   }
 },
 /* ═══════════════════════════════════════════ */
@@ -872,10 +1261,12 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 7, title: "课文", titleEn: "Texts",
+  difficulty: 3,
   type: "kewen",
   lessons: [
     {
       id: 21, title: "大自然的声音", titleEn: "Sounds of Nature",
+      difficulty: 3,
       text: [
         "大自然有许多美妙的声音。",
         "风，是大自然的音乐家。他会在森林里演奏他的手风琴。当他翻动树叶，树叶便像歌手一样，唱出各种不同的歌曲。不一样的树叶，有不一样的声音；不一样的季节，有不一样的音乐。当微风拂过，那声音轻轻柔柔的，好像呢喃细语，让人感受到大自然的温柔；当狂风吹起，整座森林都激动起来，合奏出一首雄伟的乐曲，那声音充满力量，令人感受到大自然的威力。",
@@ -890,6 +1281,16 @@ units: [
       ],
       recognizeChars: ["妙","奏","呢","喃","伟","击","汇","喳","唧","哩"],
       writeChars: ["妙","演","奏","琴","感","受","激","击","器","滴","敲","鸣","诉"],
+      vocabWords: [
+        {word:'美妙',pinyin:'měi miào',en:'wonderful',sentence:'大自然有许多美妙的声音。',sentenceEn:'Nature has many wonderful sounds.'},
+        {word:'演奏',pinyin:'yǎn zòu',en:'perform (music)',sentence:'风是大自然的音乐家。',sentenceEn:'Wind is nature musician.'},
+        {word:'温柔',pinyin:'wēn róu',en:'gentle',sentence:'微风是温柔的。',sentenceEn:'The breeze is gentle.'},
+        {word:'激动',pinyin:'jī dòng',en:'excited',sentence:'狂风令人激动。',sentenceEn:'Gale winds are exciting.'},
+        {word:'汇聚',pinyin:'huì jù',en:'converge',sentence:'小溪汇聚成河流。',sentenceEn:'Brooks converge into rivers.'}
+      ],
+      grammarPoints: [
+        {point:'拟人',pointEn:'nǐ rén',example:'personification',exampleEn:'风是大自然的音乐家。',explanation:'Wind is nature musician.',explanationEn:'把事物当作人来描写'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，体会大自然声音的美妙。背诵第2～3自然段",en:"Read aloud, appreciate nature\u2019s beautiful sounds. Recite paragraphs 2-3"},
         {type:"order",cn:"填一填，再说说课文写了大自然的哪些声音：大自然有许多美妙的声音→风，是大自然的音乐家→\u2026\u2026",en:"Fill in the outline: Nature has many wonderful sounds \u2192 Wind is nature\u2019s musician \u2192 ..."},
@@ -907,6 +1308,7 @@ units: [
     },
     {
       id: 22, title: "读不完的大书", titleEn: "The Never-ending Big Book",
+      difficulty: 3,
       text: [
         "我五六岁时，就喜欢到大自然中去寻找好玩的东西。高远的天空，广阔的大地，空中的浮云飞鸟，水里的虾蟹游鱼，地上的走兽昆虫、花草树木\u2026\u2026世界万物，不仅好玩，还让人沉思和遐想。",
         "小麻雀叽叽喳喳、蹦蹦跳跳的，叫人愉悦。老鹰在高空盘旋，展翅滑翔，突然猛扑而下，给人以雄健勇猛的感觉。蚂蚁搬家，井然有序，当两军对垒时，那勇敢忠贞的精神，真叫人敬佩。",
@@ -925,6 +1327,13 @@ units: [
       ],
       recognizeChars: ["仅","麻","旋","佩","姿","态","梨","笋","寸","副","爽"],
       writeChars: ["读","麻","勇","蚂","蚁","短","栽","梨","寸","柔","摇","册"],
+      vocabWords: [
+        {word:'大自然',pinyin:'dà zì rán',en:'nature',sentence:'大自然就是一本读不完的大书。',sentenceEn:'Nature is a never-ending big book.'},
+        {word:'蚂蚁',pinyin:'mǎ yǐ',en:'ant',sentence:'蚂蚁搬家。',sentenceEn:'Ants move house.'},
+        {word:'高明',pinyin:'gāo míng',en:'brilliant',sentence:'蜘蛛织网真高明。',sentenceEn:'Spiders weaving webs is brilliant.'},
+        {word:'花鸟虫鱼',pinyin:'huā niǎo chóng yú',en:'flowers birds insects fish',sentence:'花鸟虫鱼都是老师。',sentenceEn:'Flowers, birds, insects, fish are all teachers.'},
+        {word:'奥秘',pinyin:'ào mì',en:'mystery',sentence:'大自然充满了奥秘。',sentenceEn:'Nature is full of mysteries.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，感受大自然的乐趣",en:"Read aloud and feel the joy of nature"},
         {type:"vocab",cn:"课文描写了大自然中哪些\u201C好玩的东西\u201D？找出生动的语句读一读",en:"What \u2018interesting things\u2019 does the text describe? Find vivid sentences and read them"},
@@ -942,6 +1351,7 @@ units: [
     },
     {
       id: 23, title: "父亲、树林和鸟", titleEn: "Father, Woods, and Birds",
+      difficulty: 3,
       text: [
         "父亲一生最喜欢树林和歌唱的鸟。",
         "童年时，一个春天的黎明，父亲带着我从滹沱河岸的一片树林边走过。",
@@ -992,6 +1402,13 @@ units: [
       ],
       recognizeChars: ["黎","凝","畅","瞬","猎"],
       writeChars: ["朝","雾","蒙","鼻","总","抖","露","湿","吸","猎","翅","膀","重"],
+      vocabWords: [
+        {word:'黎明',pinyin:'lí míng',en:'dawn',sentence:'黎明时分的树林。',sentenceEn:'The forest at dawn.'},
+        {word:'雾蒙蒙',pinyin:'wù méng méng',en:'misty',sentence:'雾蒙蒙的树林。',sentenceEn:'The misty forest.'},
+        {word:'热腾腾',pinyin:'rè téng téng',en:'steaming',sentence:'鸟的气味热腾腾的。',sentenceEn:'The scent of birds is steamy.'},
+        {word:'舒畅',pinyin:'shū chàng',en:'relaxed; happy',sentence:'鸟唱歌最舒畅。',sentenceEn:'Birds are happiest when singing.'},
+        {word:'猎人',pinyin:'liè rén',en:'hunter',sentence:'最怕的是猎人。',sentenceEn:'What they fear most is hunters.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，想一想：为什么说\u201C我真高兴，父亲不是猎人\u201D？",en:"Read silently and think: why does the narrator say \u2018I\u2019m so glad Father was not a hunter\u2019?"},
         {type:"discuss",cn:"你同意下面这些对父亲的判断吗？说说理由：父亲一生最喜欢树林和鸟/父亲对鸟的习性十分了解/父亲很善于观察",en:"Do you agree with these judgments about Father? Explain: He loves trees and birds / He knows bird habits well / He is a keen observer"},
@@ -1012,7 +1429,40 @@ units: [
   garden: {
     accumulation: {title:"日积月累",titleEn:"Accumulation",content:{cn:"采莲曲\n[唐] 王昌龄\n荷叶罗裙一色裁，芙蓉向脸两边开。\n乱入池中看不见，闻歌始觉有人来。",en:"Lotus-picking Song\n[Tang] Wang Changling\nLotus leaves and silk skirts are the same green; lotus blooms on both sides frame her face.\nShe disappears among the lotus in the pond; only her song reveals someone is there."}},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"顶针句式：小溪淙淙，流向河流；河流潺潺，流向大海；大海哗哗，汹涌澎湃。\n练习\u201C得\u201D字句：它的声音小得几乎听不见了/王老师急得直跺脚/他跑得像兔子一样快",en:"Chain sentences: brook babbles to river; river murmurs to sea; sea roars and surges.\nPractice \u2018de\u2019 complements: voice so soft it was barely audible / teacher stamped in frustration / he ran fast as a rabbit"}},
-    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"我有一个想法——生活中有哪些现象或问题引起了你的关注？把现象和你的想法写清楚",en:"I Have an Idea \u2014 What issues or phenomena in life have caught your attention? Write about them clearly with your thoughts"}}
+    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"我有一个想法——生活中有哪些现象或问题引起了你的关注？把现象和你的想法写清楚",en:"I Have an Idea \u2014 What issues or phenomena in life have caught your attention? Write about them clearly with your thoughts"},modelEssays:[
+      {title:"不要浪费粮食",titleEn:"Don\u2019t Waste Food",level:"基础",
+      structure:[
+        {cn:"开头：说出观察到的现象",en:"Opening: Describe the observed phenomenon"},
+        {cn:"中间：分析为什么这样不好",en:"Middle: Analyze why this is problematic"},
+        {cn:"结尾：提出自己的想法和建议",en:"Ending: Present your own idea and suggestion"}
+      ],
+      cn:"最近我发现了一个现象：学校食堂里，每天都有很多同学把饭菜倒掉。有的同学米饭只吃了几口就不吃了，有的同学把不喜欢的菜全部倒掉。食堂的泔水桶每天都满满的。\n我觉得浪费粮食是不对的。我们学过\u201C谁知盘中餐，粒粒皆辛苦\u201D，每一粒米饭都是农民伯伯辛辛苦苦种出来的。而且，世界上还有很多人吃不饱饭呢。\n我有一个想法：学校可以让同学们打饭的时候，吃多少打多少，不要打太多。老师也可以给同学们讲一讲粮食是怎么来的，让大家知道粮食的来之不易。我自己也要做到不浪费，把碗里的饭菜都吃干净。",
+      en:"Recently I noticed a phenomenon: every day in the school cafeteria, many students throw away food. Some students only take a few bites of rice before stopping; others dump all the dishes they don\u2019t like. The slop buckets are full every day.\nI think wasting food is wrong. We learned the poem \u2018who knows the food on our plate, every grain was hard-earned.\u2019 Every grain of rice was grown through farmers\u2019 hard work. Moreover, many people in the world still don\u2019t have enough to eat.\nI have an idea: the school could let students serve only as much as they can eat, not too much. Teachers could also explain to students where food comes from, so everyone understands how precious it is. I will also make sure not to waste food and eat everything in my bowl.",
+      notes:"这篇作文结构清楚：现象—分析—建议。引用古诗\u201C谁知盘中餐\u201D增强了说服力。提出的建议具体可行。适合初学\u201C想法类\u201D作文的同学。",
+      notesEn:"This essay has a clear structure: phenomenon \u2014 analysis \u2014 suggestion. Quoting the ancient poem \u2018who knows the food on our plate\u2019 adds persuasiveness. The suggestions are specific and practical. Good for students learning to write opinion pieces."},
+      {title:"放下手机，多陪陪我",titleEn:"Put Down the Phone and Spend Time with Me",level:"提高",
+      structure:[
+        {cn:"开头：用具体场景引出问题",en:"Opening: Use a specific scene to introduce the problem"},
+        {cn:"中间：多角度描写现象",en:"Middle: Describe the phenomenon from multiple angles"},
+        {cn:"转折：表达自己的真实感受",en:"Turning point: Express genuine feelings"},
+        {cn:"结尾：提出想法，语气真诚",en:"Ending: Present ideas with sincerity"}
+      ],
+      cn:"我有一个想法，想说给爸爸妈妈听。\n每天吃完晚饭，爸爸就坐在沙发上刷手机，妈妈也在旁边看短视频。我想让爸爸陪我下棋，爸爸说\u201C等一下\u201D，可是一等就是半个小时。我想让妈妈给我讲故事，妈妈说\u201C马上\u201D，可是她的眼睛还是盯着屏幕。\n周末去公园玩的时候，我看见很多家长都在低头看手机，小朋友们只好自己玩。有一个小妹妹摔倒了，哭了好一会儿，她的妈妈才发现。\n我心里有点难过。我知道爸爸妈妈工作很辛苦，手机也有很多有用的东西。但是我觉得，和家人在一起的时候，应该放下手机，好好聊聊天，一起做游戏。因为我们在一起的时间其实没有那么多，我希望每一分钟都是快乐的。\n爸爸妈妈，你们能不能每天抽出半小时，放下手机，陪我聊聊天、做做游戏呢？",
+      en:"I have an idea that I want to share with Mom and Dad.\nEvery evening after dinner, Dad sits on the sofa scrolling through his phone, and Mom watches short videos next to him. I ask Dad to play chess with me, and he says \u2018in a moment\u2019 \u2014 but that moment lasts half an hour. I ask Mom to tell me a story, and she says \u2018right away\u2019 \u2014 but her eyes are still glued to the screen.\nAt the park on weekends, I see many parents looking down at their phones while children play alone. A little girl fell down and cried for a long time before her mother noticed.\nI feel a bit sad inside. I know Mom and Dad work very hard, and phones have many useful things. But I think when families are together, they should put down their phones, have a real conversation, and play games together. Because the time we have together isn\u2019t really that much \u2014 I hope every minute can be happy.\nMom and Dad, could you set aside half an hour every day to put down your phones and chat with me or play together?",
+      notes:"这篇作文选题贴近生活，很有共鸣。先写家里的现象，再写公园看到的，从个人到社会，视野开阔。情感表达真挚（\u201C心里有点难过\u201D），不是批评而是商量的语气，让人感动。结尾的请求具体真诚。",
+      notesEn:"This essay\u2019s topic resonates deeply with real life. It moves from the home scene to a park observation, broadening from personal to social perspective. The emotional expression is genuine (\u2018I feel a bit sad\u2019), using a negotiating tone rather than criticism, which is moving. The final request is specific and sincere."},
+      {title:"保护我们的小河",titleEn:"Protect Our Little River",level:"拓展",
+      structure:[
+        {cn:"开头：用今昔对比引出问题",en:"Opening: Use past-present contrast to introduce the problem"},
+        {cn:"中间：多角度描写污染现象",en:"Middle: Describe pollution from multiple angles"},
+        {cn:"转折：分析原因",en:"Turning point: Analyze the causes"},
+        {cn:"结尾：提出系统性建议，呼吁行动",en:"Ending: Propose systematic suggestions and call to action"}
+      ],
+      cn:"我家门前有一条小河。听爷爷说，他小时候，这条河清澈见底，夏天孩子们都在河里游泳捉鱼。可是现在，小河变了。\n河水变成了深绿色，还散发着一股难闻的气味。河面上漂着塑料袋、饮料瓶和各种垃圾。以前河里成群的小鱼不见了，连水草也枯黄了。有一次，我看见一位叔叔把一桶脏水直接倒进了河里，我心里特别难受。\n我想了想，小河变脏有几个原因：有人往河里扔垃圾，有人把污水排进河里，还有人在河边洗衣服倒洗衣水。大家觉得小河不重要，所以不爱护它。\n我有几个想法：第一，在河边立一些提示牌，提醒大家不要往河里扔垃圾。第二，居委会可以组织大家定期清理河道。第三，学校可以组织同学们去河边捡垃圾，让大家从小养成保护环境的习惯。\n我相信，只要每个人都行动起来，小河一定能变回爷爷记忆中的样子。我期待那一天，我也能在清清的河水里捉鱼、游泳。",
+      en:"There is a little river in front of my home. Grandpa told me that when he was young, the river was crystal clear, and in summer children would swim and catch fish in it. But now, the little river has changed.\nThe water has turned dark green and gives off an unpleasant smell. Plastic bags, drink bottles, and all kinds of garbage float on the surface. The schools of fish that once filled the river are gone, and even the water plants have withered and turned yellow. Once I saw a man pour a bucket of dirty water straight into the river \u2014 I felt terrible inside.\nThinking about it, the river got dirty for several reasons: people throw trash into it, some dump sewage in, and others wash clothes by the river and pour the wash water in. People don\u2019t think the little river matters, so they don\u2019t take care of it.\nI have a few ideas: First, put up signs by the river reminding people not to dump trash. Second, the neighborhood committee could organize regular river cleanups. Third, schools could arrange for students to pick up litter by the river, helping everyone develop environmental habits from a young age.\nI believe that as long as everyone takes action, the little river can return to how it was in Grandpa\u2019s memories. I look forward to the day when I too can catch fish and swim in clear river water.",
+      notes:"这篇作文视角宏大，从\u201C个人观察\u201D到\u201C原因分析\u201D再到\u201C系统建议\u201D，逻辑层层递进。今昔对比开头引人深思，多角度描写污染（颜色、气味、垃圾）很有感染力。提出三条建议具体可行，显示了较强的思维能力。结尾展望未来，回应开头，首尾呼应。",
+      notesEn:"This essay has a broad perspective, progressing logically from personal observation to cause analysis to systematic suggestions. The past-present contrast opening provokes thought; multi-angle pollution description (color, smell, trash) is impactful. Three specific, practical suggestions show strong thinking. The ending looks to the future and echoes the opening, creating structural coherence."}
+    ]}
   }
 },
 /* ═══════════════════════════════════════════ */
@@ -1020,10 +1470,12 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 8, title: "课文", titleEn: "Texts",
+  difficulty: 3,
   type: "kewen",
   lessons: [
     {
       id: 24, title: "司马光", titleEn: "Sima Guang",
+      difficulty: 3,
       text: [
         "群儿戏于庭，一儿登瓮，足跌没水中。众皆弃去，光持石击瓮破之，水迸，儿得活。"
       ],
@@ -1032,6 +1484,16 @@ units: [
       ],
       recognizeChars: ["司","跌","皆","弃","持"],
       writeChars: ["司","庭","登","跌","众","弃","持"],
+      vocabWords: [
+        {word:'庭院',pinyin:'tíng yuàn',en:'courtyard',sentence:'群儿戏于庭。',sentenceEn:'Children played in the courtyard.'},
+        {word:'跌落',pinyin:'diē luò',en:'fall into',sentence:'一儿登瓮，足跌没水中。',sentenceEn:'One child climbed the vat and fell in.'},
+        {word:'击破',pinyin:'jī pò',en:'smash',sentence:'光持石击瓮破之。',sentenceEn:'Guang took a stone and smashed the vat.'},
+        {word:'沉着',pinyin:'chén zhuó',en:'calm',sentence:'司马光很沉着。',sentenceEn:'Sima Guang was very calm.'},
+        {word:'机智',pinyin:'jī zhì',en:'clever; quick-witted',sentence:'司马光机智救人。',sentenceEn:'Sima Guang cleverly saved the child.'}
+      ],
+      grammarPoints: [
+        {point:'文言文',pointEn:'wén yán wén',example:'classical Chinese',exampleEn:'群儿戏于庭。',explanation:'Children played in the courtyard.',explanationEn:'古代书面语言，简洁精炼'}
+      ],
       exercises: [
         {type:"read",cn:"跟着老师朗读课文，注意词句间的停顿。背诵课文",en:"Read aloud with the teacher, noting pauses between phrases. Recite the text"},
         {type:"discuss",cn:"借助注释，用自己的话讲一讲这个故事",en:"Using the notes, retell this story in your own words"},
@@ -1049,6 +1511,7 @@ units: [
     },
     {
       id: 25, title: "灰雀", titleEn: "The Gray Sparrow",
+      difficulty: 3,
       text: [
         "有一年冬天，列宁在郊外养病。他每天到公园散步。公园里有一棵高大的白桦树，树上有三只灰雀：两只胸脯是粉红的，一只胸脯是深红的。它们在树枝间来回跳动，婉转地歌唱，非常惹人喜爱。列宁每次走到白桦树下，都要停下来，仰望这三只欢快的灰雀，还经常给它们带来面包渣和谷粒。",
         "一天，列宁又来到公园，走到白桦树下，发现那只胸脯深红的灰雀不见了。他在周围的树林中找遍了，也没有找到。",
@@ -1081,6 +1544,13 @@ units: [
       ],
       recognizeChars: ["宁","胸","脯","惹","仰","渣","或","者","惜","诚"],
       writeChars: ["郊","养","粉","谷","粒","男","或","者","冻","冷","惜","肯","诚"],
+      vocabWords: [
+        {word:'灰雀',pinyin:'huī què',en:'gray sparrow',sentence:'公园里有灰雀。',sentenceEn:'There are gray sparrows in the park.'},
+        {word:'仰望',pinyin:'yǎng wàng',en:'look up',sentence:'列宁仰望灰雀。',sentenceEn:'Lenin looked up at the sparrows.'},
+        {word:'诚实',pinyin:'chéng shí',en:'honest',sentence:'男孩是诚实的。',sentenceEn:'The boy was honest.'},
+        {word:'果然',pinyin:'guǒ rán',en:'as expected',sentence:'灰雀果然飞回来了。',sentenceEn:'The sparrow returned, as expected.'},
+        {word:'可惜',pinyin:'kě xī',en:'pity',sentence:'那只灰雀不见了，多可惜。',sentenceEn:'The sparrow is gone, what a pity.'}
+      ],
       exercises: [
         {type:"read",cn:"分角色朗读课文，读出对话的语气",en:"Read with assigned roles, expressing the right tone in the dialogue"},
         {type:"discuss",cn:"默读课文，想一想，列宁和小男孩在对话时各自心里想的是什么？",en:"Read silently and think: what were Lenin and the boy each thinking during their conversation?"},
@@ -1098,6 +1568,7 @@ units: [
     },
     {
       id: 26, title: "手术台就是阵地", titleEn: "The Operating Table Is the Battlefield",
+      difficulty: 3,
       text: [
         "1939年春，齐会战斗打响了。气焰嚣张的日军刚刚到齐会镇就挨了当头一棒，被我军消灭了五百多人。",
         "敌人不断反扑，战斗非常激烈。我军的伤员陆续从火线上抬下来。在离火线不远的一座小庙里，白求恩大夫正在给伤员做手术。他已经两天两夜没休息了，眼球上布满了血丝。突然，几发炮弹落在小庙前的空地上。硝烟滚滚，弹片纷飞，小庙被烟雾淹没了。白求恩仍然镇定地站在手术台旁。他接过助手递过来的镊子，敏捷地从伤员的腹腔里取出一块弹片，丢在盘子里。",
@@ -1116,6 +1587,13 @@ units: [
       ],
       recognizeChars: ["斗","棒","恩","大","血","撤","险","瓦","帘","迅","速","夺","秒"],
       writeChars: ["术","斗","刚","烈","离","血","仍","取","匆","险"],
+      vocabWords: [
+        {word:'手术台',pinyin:'shǒu shù tái',en:'operating table',sentence:'手术台就是阵地。',sentenceEn:'The operating table is the battlefield.'},
+        {word:'阵地',pinyin:'zhèn dì',en:'battlefield',sentence:'白求恩坚守阵地。',sentenceEn:'Bethune held his ground.'},
+        {word:'撤退',pinyin:'chè tuì',en:'retreat',sentence:'其他人撤退了。',sentenceEn:'Others retreated.'},
+        {word:'坚持',pinyin:'jiān chí',en:'persist',sentence:'白求恩坚持做手术。',sentenceEn:'Bethune persisted in operating.'},
+        {word:'白求恩',pinyin:'bái qiú ēn',en:'Norman Bethune',sentence:'白求恩是加拿大医生。',sentenceEn:'Bethune was a Canadian doctor.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，找出描写战斗激烈的内容，说说你对\u201C手术台就是阵地\u201D这句话的理解",en:"Read silently, find passages describing the fierce battle, and explain your understanding of \u2018the operating table is the battlefield\u2019"},
         {type:"vocab",cn:"说说你是用什么方法理解加点词语的：\u201C镇定\u201D\u201C恳求\u201D\u201C争分夺秒\u201D",en:"How did you understand these words: \u2018calm\u2019, \u2018plead\u2019, \u2018race against time\u2019?"},
@@ -1133,6 +1611,7 @@ units: [
     },
     {
       id: 27, title: "一个粗瓷大碗", titleEn: "A Large Rough Porcelain Bowl",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "中国人民革命军事博物馆里，陈列着一个粗瓷大碗，是赵一曼在东北抗日联军中担任团政治委员时用过的。这个碗，赵一曼仅仅用过一次，但是抗联的老战士都能认出来。因为这个碗有着一段令人感动的故事。",
@@ -1159,6 +1638,13 @@ units: [
         "According to later \u201Cinvestigation,\u201D the big porcelain bowl had become Squad Seven\u2019s vegetable basin."
       ],
       recognizeChars: ["陈","曼","联","缸","还","粱","顿","侦"],
+      vocabWords: [
+        {word:'粗瓷',pinyin:'cū cí',en:'coarse porcelain',sentence:'一个粗瓷大碗。',sentenceEn:'A large coarse porcelain bowl.'},
+        {word:'丢掉',pinyin:'diū diào',en:'throw away',sentence:'赵一曼又丢掉了碗。',sentenceEn:'Zhao Yiman threw away the bowl again.'},
+        {word:'战士',pinyin:'zhàn shì',en:'soldier',sentence:'战士们送给她碗。',sentenceEn:'Soldiers gave her a bowl.'},
+        {word:'粮食',pinyin:'liáng shi',en:'grain',sentence:'粮食很紧张。',sentenceEn:'Grain was very scarce.'},
+        {word:'关心',pinyin:'guān xīn',en:'care about',sentence:'她关心战士们的生活。',sentenceEn:'She cared about the soldiers lives.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，说说这个\u201C粗瓷大碗\u201D有什么感人的故事",en:"Read silently and describe the moving story behind this \u2018rough porcelain bowl\u2019"},
         {type:"discuss",cn:"你还可以查查资料，了解有关赵一曼的事迹",en:"Research more about Zhao Yiman\u2019s deeds"}
@@ -1175,9 +1661,42 @@ units: [
   ],
   oralComm: {title:"请教",titleEn:"Asking for Advice",prompt:{cn:"遇到不好解决的问题，向别人请教是个好办法。请教时要把问题说清楚，不管别人能否帮你都要表示感谢",en:"When you face a problem you can\u2019t solve, asking for advice is a good approach. State your problem clearly, and always thank the person whether or not they can help"}},
   garden: {
-    accumulation: {title:"日积月累",titleEn:"Accumulation",content:{cn:"不迁怒，不贰过。——《论语》\n爱人若爱其身。——《墨子》\n仁者爱人，有礼者敬人。——《孟子》\n与人善言，暖于布帛；伤人以言，深于矛戟。——《荀子》",en:"Do not transfer anger; do not repeat mistakes. \u2014 Analerta\nLove others as you love yourself. \u2014 Mozi\nThe benevolent love others; the courteous respect others. \u2014 Mencius\nKind words warm like silk; hurtful words cut deeper than spears. \u2014 Xunzi"}},
+    accumulation: {title:"日积月累",titleEn:"Accumulation",content:{cn:"不迁怒，不贰过。——《论语》\n爱人若爱其身。——《墨子》\n仁者爱人，有礼者敬人。——《孟子》\n与人善言，暖于布帛；伤人以言，深于矛戟。——《荀子》",en:"Do not transfer anger; do not repeat mistakes. \u2014 Analects\nLove others as you love yourself. \u2014 Mozi\nThe benevolent love others; the courteous respect others. \u2014 Mencius\nKind words warm like silk; hurtful words cut deeper than spears. \u2014 Xunzi"}},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"辨析近义词：陆续/继续/连续。帮妈妈整理购物清单（分类列出要买的东西）",en:"Distinguish near-synonyms: one by one / continue / continuously. Help mom organize a shopping list (categorize items to buy)"}},
-    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"那次玩得真高兴——回忆一次特别开心的经历，把玩的过程像放电影一样回想一遍，写下来",en:"That Time Was So Much Fun \u2014 Recall an especially happy experience, replay the process like a movie in your mind, and write it down"}}
+    composition: {title:"习作",titleEn:"Composition",prompt:{cn:"那次玩得真高兴——回忆一次特别开心的经历，把玩的过程像放电影一样回想一遍，写下来",en:"That Time Was So Much Fun \u2014 Recall an especially happy experience, replay the process like a movie in your mind, and write it down"},modelEssays:[
+      {title:"放风筝",titleEn:"Flying Kites",level:"基础",
+      structure:[
+        {cn:"开头：交代时间、地点、人物",en:"Opening: State time, place, and people"},
+        {cn:"中间：按顺序写玩的过程",en:"Middle: Describe the activity step by step"},
+        {cn:"结尾：表达快乐心情",en:"Ending: Express joyful feelings"}
+      ],
+      cn:"上个星期天，天气特别好，爸爸带我去广场上放风筝。\n广场上已经有好多人在放风筝了。天上飘着各种各样的风筝，有老鹰的，有蝴蝶的，还有长长的蜈蚣风筝。我的风筝是一只燕子，黑色的翅膀，红色的肚子，特别漂亮。\n爸爸帮我举着风筝，我拿着线轴。\u201C跑！\u201D爸爸一喊，我就使劲往前跑。可是风筝刚飞起来就掉下来了。我不灰心，又试了一次。这一次，风刚好吹过来，风筝一下子就飞起来了！我一边跑一边放线，风筝越飞越高。我高兴地喊：\u201C爸爸快看，我的燕子飞起来了！\u201D\n看着风筝在蓝天上自由自在地飞，我觉得自己也像在飞一样。那次玩得真高兴！",
+      en:"Last Sunday the weather was especially nice, and Dad took me to the plaza to fly kites.\nThere were already many people flying kites in the plaza. All kinds of kites floated in the sky \u2014 eagles, butterflies, and even a long centipede kite. My kite was a swallow with black wings and a red belly \u2014 very pretty.\nDad held the kite up while I held the string reel. \u2018Run!\u2019 Dad shouted, and I ran as fast as I could. But the kite rose only to fall right back down. I didn\u2019t give up and tried again. This time, the wind blew just right and the kite soared up at once! I ran and let out the string, and the kite flew higher and higher. I shouted happily, \u2018Dad, look \u2014 my swallow is flying!\u2019\nWatching the kite fly freely in the blue sky, I felt as if I were flying too. That time was so much fun!",
+      notes:"这篇作文按照\u201C准备—失败—成功\u201D的过程来写，有波折、有高潮。对话生动，动作描写具体（\u201C使劲跑\u201D\u201C放线\u201D）。结尾呼应标题，感受自然真实。",
+      notesEn:"This essay follows a \u2018preparation \u2014 failure \u2014 success\u2019 sequence with twists and a climax. The dialogue is lively and the action descriptions are specific (\u2018ran hard,\u2019 \u2018let out the string\u2019). The ending echoes the title with natural, genuine feelings."},
+      {title:"捉迷藏",titleEn:"Hide and Seek",level:"提高",
+      structure:[
+        {cn:"开头：交代背景，营造期待",en:"Opening: Set the background and build anticipation"},
+        {cn:"发展：详写一次躲藏的过程",en:"Development: Detail one hiding experience"},
+        {cn:"高潮：被发现时的紧张和惊喜",en:"Climax: Tension and surprise of being found"},
+        {cn:"结尾：回味快乐，余味悠长",en:"Ending: Savor the joy with a lingering aftertaste"}
+      ],
+      cn:"去年暑假，我去乡下表哥家玩。一天傍晚，我和表哥还有邻居家的小朋友一起玩捉迷藏。\n表哥来找，我们去藏。我悄悄跑到后院，发现了一个绝妙的藏身之处——大水缸和墙壁之间有一条窄窄的缝。我侧着身子挤了进去，心砰砰直跳，又紧张又兴奋。\n\u201C找到你了！\u201D院子里传来表哥的喊声，有人被找到了。我大气不敢出，紧紧贴着水缸。一只蚂蚁爬到我手上，痒痒的，我差点叫出来，赶紧咬住嘴唇忍住了。\n过了好一会儿，表哥从我面前走过去了，居然没有发现我！我偷偷在缝隙里笑。最后，表哥怎么也找不到我，急得直喊：\u201C我认输了，你出来吧！\u201D我从缝隙里钻出来，表哥看见我藏的地方，哈哈大笑：\u201C你怎么钻到那儿去的！\u201D大家笑成一团，笑声在院子里飘了很远很远。\n那天晚上，我躺在床上还在笑。那次玩得可真高兴啊，我到现在都忘不了！",
+      en:"Last summer vacation, I visited my cousin in the countryside. One evening, my cousin, neighbor kids, and I played hide and seek.\nMy cousin was the seeker and we hid. I sneaked to the backyard and found a perfect hiding spot \u2014 a narrow gap between the big water jar and the wall. I squeezed in sideways, my heart pounding, both nervous and excited.\n\u2018Found you!\u2019 My cousin\u2019s shout came from the yard \u2014 someone had been caught. I held my breath, pressing tightly against the water jar. An ant crawled onto my hand \u2014 it tickled so much I nearly cried out, but I quickly bit my lip and held it in.\nAfter a long while, my cousin walked right past me without noticing! I giggled secretly in the gap. Finally, my cousin couldn\u2019t find me no matter what and shouted in frustration, \u2018I give up \u2014 come out!\u2019 I squeezed out of the gap, and when my cousin saw where I\u2019d been hiding, he burst out laughing: \u2018How did you get in there!\u2019 Everyone collapsed in laughter, and the sound drifted far across the courtyard.\nThat night, lying in bed, I was still laughing. That time was truly so much fun \u2014 I\u2019ll never forget it!",
+      notes:"这篇作文把捉迷藏的过程写得像电影一样，有\u201C找到别人\u201D\u201C蚂蚁捣乱\u201D\u201C表哥认输\u201D三个小高潮。心理描写细腻（\u201C心砰砰直跳\u201D\u201C大气不敢出\u201D），让读者也跟着紧张。结尾\u201C躺在床上还在笑\u201D很有感染力。",
+      notesEn:"This essay unfolds hide and seek like a movie, with three mini-climaxes: someone found, the ant interruption, and the cousin giving up. Psychological descriptions are delicate (\u2018heart pounding,\u2019 \u2018held my breath\u2019), pulling readers into the tension. The ending \u2018still laughing in bed\u2019 is infectiously joyful."},
+      {title:"第一次游泳",titleEn:"My First Time Swimming",level:"拓展",
+      structure:[
+        {cn:"开头：写期待和紧张交织的心情",en:"Opening: Describe mixed feelings of anticipation and nervousness"},
+        {cn:"发展：详写学习和克服恐惧的过程",en:"Development: Detail the learning process and overcoming fear"},
+        {cn:"高潮：突破自我的关键时刻",en:"Climax: The key moment of breaking through"},
+        {cn:"结尾：成长感悟，升华主题",en:"Ending: Growth reflection, elevate the theme"}
+      ],
+      cn:"去年夏天，爸爸带我去游泳馆学游泳。这是我第一次下水，心里既期待又害怕。\n到了游泳馆，看见碧蓝的池水，我的腿有点发软。教练让我先在浅水区适应。水慢慢没过我的腰，凉凉的，我紧紧抓着池壁不敢松手。教练笑着说：\u201C别怕，水会托住你的。先学憋气。\u201D我深吸一口气，把头埋进水里。\u201C一、二、三\u2026\u2026\u201D刚数到三我就受不了了，猛地抬起头，呛了一口水，鼻子酸酸的，眼泪都快出来了。\n我想放弃，可是看见旁边比我小的小朋友都在认真练习，我又鼓起了勇气。第二次、第三次\u2026\u2026慢慢地，我能憋十秒了。然后教练教我蹬腿，\u201C像青蛙一样，收——翻——蹬——夹！\u201D我在水里笨笨地蹬着，喝了好几口水，但每一次都比上一次好一点。\n到了第五天，教练说：\u201C试试自己游。\u201D我松开了池壁，用力蹬腿，手划水\u2014\u2014我居然往前移动了！虽然只游了两三米，但那一刻，我觉得自己就像一条小鱼，自由极了！我兴奋地朝爸爸喊：\u201C爸爸，我会游了！\u201D爸爸在岸上使劲鼓掌。\n回家的路上，我的头发还是湿的，鼻子还有点酸，但我心里美滋滋的。我明白了一个道理：只要不放弃，再难的事也能学会。那次玩得真高兴，因为我不仅学会了游泳，还学会了勇敢。",
+      en:"Last summer, Dad took me to the swimming pool to learn to swim. It was my first time in the water, and I felt both excited and scared.\nAt the pool, seeing the blue water made my legs go weak. The coach had me start in the shallow end. The water slowly rose past my waist \u2014 cool to the touch \u2014 and I gripped the pool wall, not daring to let go. The coach smiled and said, \u2018Don\u2019t be afraid \u2014 the water will support you. Let\u2019s start with holding your breath.\u2019 I took a deep breath and buried my head in the water. \u2018One, two, three\u2026\u2019 I could barely make it to three before I shot up, choked on water, my nose stinging, tears nearly flowing.\nI wanted to quit, but then I saw kids younger than me practicing earnestly, and I mustered my courage again. Second try, third try\u2026 gradually I could hold my breath for ten seconds. Then the coach taught me to kick: \u2018Like a frog \u2014 pull in, turn, kick, squeeze!\u2019 I kicked clumsily in the water, swallowing several mouthfuls, but each time was a little better than the last.\nOn the fifth day, the coach said, \u2018Try swimming on your own.\u2019 I let go of the wall, kicked hard, and paddled \u2014 I actually moved forward! It was only two or three meters, but in that moment I felt like a little fish, completely free! I shouted excitedly to Dad, \u2018Dad, I can swim!\u2019 Dad clapped enthusiastically from the poolside.\nOn the way home, my hair was still wet and my nose still stung a little, but my heart was brimming with joy. I understood something: as long as you don\u2019t give up, you can learn even the hardest things. That time was truly wonderful, because I didn\u2019t just learn to swim \u2014 I learned to be brave.",
+      notes:"这篇作文细节丰富：从害怕到尝试、从失败到坚持再到成功，像电影一样有层次。心理描写细腻（\u201C腿发软\u201D\u201C不敢松手\u201D\u201C想放弃\u201D），动作描写具体（教练教蹬腿的口诀），让人身临其境。结尾不仅写了快乐，还上升到\u201C勇敢\u201D的成长主题，有深度。\u201C头发湿的，鼻子酸\u201D的细节让结尾更真实动人。",
+      notesEn:"This essay is rich in detail: from fear to attempt, failure to persistence to success \u2014 it unfolds like a movie with layers. Psychological descriptions are delicate (\u2018legs went weak,\u2019 \u2018didn\u2019t dare let go,\u2019 \u2018wanted to quit\u2019); action descriptions are specific (the coach\u2019s kicking mantra). The ending goes beyond happiness to the growth theme of \u2018bravery,\u2019 adding depth. The detail of \u2018wet hair, stinging nose\u2019 makes the conclusion more authentic and touching."}
+    ]}
   }
 }
 ]

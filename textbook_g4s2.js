@@ -17,6 +17,7 @@ units: [
   lessons: [
     {
       id: 1, title: "古诗词三首", titleEn: "Three Ancient Poems and Ci",
+      difficulty: 2,
       text: [
         "四时田园杂兴（其二十五）\n[宋] 范成大\n梅子金黄杏子肥，\n麦花雪白菜花稀。\n日长篱落无人过，\n惟有蜻蜓蛱蝶飞。",
         "宿新市徐公店\n[宋] 杨万里\n篱落疏疏一径深，\n树头新绿未成阴。\n儿童急走追黄蝶，\n飞入菜花无处寻。",
@@ -29,6 +30,16 @@ units: [
       ],
       recognizeChars: ["杂","篱","徐","疏","锄","剥"],
       writeChars: ["杂","稀","篱","蜻","蜓","蝶","宿","徐","疏","茅","檐","翁","笼","赖","剥"],
+      vocabWords: [
+        {word:'四时田园杂兴',pinyin:'sì shí tián yuán zá xìng',en:'Rural Pleasures in Four Seasons',sentence:'昼出耘田夜绩麻。',sentenceEn:'Plow by day, spin hemp at night.'},
+        {word:'蜻蜓',pinyin:'qīng tíng',en:'dragonfly',sentence:'日长篱落无人过，唯有蜻蜓蛱蝶飞。',sentenceEn:'Long days, no one passes; only dragonflies and butterflies fly.'},
+        {word:'乡村',pinyin:'xiāng cūn',en:'countryside',sentence:'乡村四月闲人少。',sentenceEn:'In the countryside in April, few are idle.'},
+        {word:'翁媪',pinyin:'wēng ǎo',en:'old couple',sentence:'白发谁家翁媪。',sentenceEn:'Whose white-haired old couple is this?'},
+        {word:'清平乐',pinyin:'qīng píng yuè',en:'a ci tune name',sentence:'清平乐·村居。',sentenceEn:'Qingpingle: Country Living.'}
+      ],
+      grammarPoints: [
+        {point:'词',pointEn:'cí',example:'ci (lyric poetry)',exampleEn:'清平乐是词牌名。',explanation:'Qingpingle is a ci tune name.',explanationEn:'词是古代的一种诗歌体裁，有固定的格律'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文，背诵课文。默写《宿新市徐公店》",en:"Read the poems with feeling, recite them, and write 'Lodging at Xu\u2019s Inn' from memory"},
         {type:"discuss",cn:"读下面的诗句，说说你眼前浮现出了怎样的情景",en:"Read the following lines and describe the scenes you imagine"},
@@ -45,6 +56,7 @@ units: [
     },
     {
       id: 2, title: "乡下人家", titleEn: "Country Homes",
+      difficulty: 2,
       text: [
         "乡下人家总爱在屋前搭一瓜架，或种南瓜，或种丝瓜，让那些瓜藤攀上棚架，爬上屋檐。当花儿落了的时候，藤上便结出了青的、红的瓜，它们一个个挂在房前，衬着那长长的藤，绿绿的叶。青、红的瓜，碧绿的藤和叶，构成了一道别有风趣的装饰，比那高楼门前蹲着一对石狮子或是竖着两根大旗杆，可爱多了。",
         "有些人家，还在门前的场地上种几株花，芍药，凤仙，鸡冠花，大丽菊，它们依着时令，顺序开放，朴素中带着几分华丽，显出一派独特的农家风光。还有些人家，在屋后种几十枝竹，绿的叶，青的竿，投下一片浓浓的绿荫。几场春雨过后，到那里走走，你常常会看见许多鲜嫩的笋，成群地从土里探出头来。",
@@ -65,6 +77,16 @@ units: [
       ],
       recognizeChars: ["构","冠","朴","素","率","倘","附","捣","绘","谐"],
       writeChars: ["构","饰","蹲","凤","序","例","率","觅","耸","踏","倘","绘","谐","寄","眠"],
+      vocabWords: [
+        {word:'装饰',pinyin:'zhuāng shì',en:'decorate',sentence:'青瓜藤和绿叶装饰了屋檐。',sentenceEn:'Cucumber vines and green leaves decorate the eaves.'},
+        {word:'朴素',pinyin:'pǔ sù',en:'simple; plain',sentence:'乡下人家虽然朴素。',sentenceEn:'Country homes are simple.'},
+        {word:'独特',pinyin:'dú tè',en:'unique',sentence:'有一道独特的风景。',sentenceEn:'A unique scenery.'},
+        {word:'和谐',pinyin:'hé xié',en:'harmonious',sentence:'自然和谐的风景。',sentenceEn:'Natural, harmonious scenery.'},
+        {word:'觅食',pinyin:'mì shí',en:'forage',sentence:'母鸡带着鸡雏觅食。',sentenceEn:'The hen forages with her chicks.'}
+      ],
+      grammarPoints: [
+        {point:'过渡句',pointEn:'guò dù jù',example:'transition sentence',exampleEn:'乡下人家，不论什么时候，都有一道独特的风景。',explanation:'Country homes always have unique scenery.',explanationEn:'连接上下文，起承上启下作用'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，想象画面。如果给课文配画，你觉得可以画几幅？试着给每幅画取个名字",en:"Read aloud and imagine the scenes. How many pictures could illustrate the text? Try naming each one"},
         {type:"discuss",cn:"你对课文描写的哪一处景致最感兴趣？和同学交流",en:"Which scene interests you most? Discuss with classmates"},
@@ -81,6 +103,7 @@ units: [
     },
     {
       id: 3, title: "天窗", titleEn: "The Skylight",
+      difficulty: 2,
       text: [
         "乡下的房子只有前面一排木板窗。暖和的晴天，木板窗扇扇打开，光线和空气都有了。",
         "碰着大风大雨，或者北风呼呼叫的冬天，木板窗只好关起来，屋子里就黑得像地洞似的。",
@@ -103,6 +126,13 @@ units: [
       ],
       recognizeChars: ["慰","藉","卜"],
       writeChars: ["慰","藉","卜","锐","滩","帐","烁","蝙","蝠","霸","鹰"],
+      vocabWords: [
+        {word:'天窗',pinyin:'tiān chuāng',en:'skylight',sentence:'屋顶开了一个天窗。',sentenceEn:'A skylight was opened in the roof.'},
+        {word:'安慰',pinyin:'ān wèi',en:'comfort',sentence:'天窗是孩子们的安慰。',sentenceEn:'The skylight was comfort for children.'},
+        {word:'想象',pinyin:'xiǎng xiàng',en:'imagine',sentence:'透过天窗想象外面的世界。',sentenceEn:'Imagine the world outside through the skylight.'},
+        {word:'闪电',pinyin:'shǎn diàn',en:'lightning',sentence:'一道闪电划过天窗。',sentenceEn:'A bolt of lightning flashes across the skylight.'},
+        {word:'神奇',pinyin:'shén qí',en:'magical',sentence:'天窗是神奇的。',sentenceEn:'The skylight is magical.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，说说天窗在哪儿，为什么要开天窗",en:"Read silently and explain where the skylight is and why it was made"},
         {type:"discuss",cn:"在什么情况下，小小的天窗成了孩子们\u201C唯一的慰藉\u201D？",en:"Under what circumstances did the tiny skylight become the children\u2019s \u2018only consolation\u2019?"},
@@ -119,6 +149,7 @@ units: [
     },
     {
       id: 4, title: "三月桃花水", titleEn: "March Peach Blossom Water",
+      difficulty: 2,
       isSelfRead: true,
       text: [
         "是什么声音，像一串小铃铛，轻轻地走过村边？是什么光芒，像一匹明洁的丝绸，映照着蓝天？",
@@ -136,6 +167,13 @@ units: [
       ],
       recognizeChars: ["绮","和","谈"],
       writeChars: [],
+      vocabWords: [
+        {word:'桃花',pinyin:'táo huā',en:'peach blossom',sentence:'三月桃花水。',sentenceEn:'March peach blossom water.'},
+        {word:'明镜',pinyin:'míng jìng',en:'bright mirror',sentence:'是什么光芒？是一面明镜。',sentenceEn:'What brightness? A bright mirror.'},
+        {word:'竖琴',pinyin:'shù qín',en:'harp',sentence:'是什么声响？是竖琴的旋律。',sentenceEn:'What sound? The melody of a harp.'},
+        {word:'催促',pinyin:'cuī cù',en:'urge',sentence:'催促着人们春耕。',sentenceEn:'Urging people to do spring plowing.'},
+        {word:'映照',pinyin:'yìng zhào',en:'reflect',sentence:'河水映照着蓝天。',sentenceEn:'The river reflects the blue sky.'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文，体会优美的语言，读出作者对桃花水的喜爱和赞美之情",en:"Read with feeling, appreciate the beautiful language, and convey the author\u2019s love and admiration"},
         {type:"think",cn:"作者把春水比作\u201C竖琴\u201D和\u201C明镜\u201D，体会这两个比喻的妙处",en:"The author compares spring water to a \u2018harp\u2019 and a \u2018mirror\u2019 \u2014 appreciate the beauty of these metaphors"}
@@ -166,6 +204,7 @@ units: [
   lessons: [
     {
       id: 5, title: "琥珀", titleEn: "Amber",
+      difficulty: 2,
       text: [
         "这个故事发生在很久很久以前，约莫算来，总有几万年了。",
         "一个夏日，太阳暖暖地照着，海在很远的地方翻腾怒吼，绿叶在树上飒飒地响。一只小苍蝇展开柔嫩的绿翅膀，在阳光下快乐地飞舞。它嗡嗡地穿过草地，飞进树林。那里长着许多高大的松树，太阳照得火热，可以闻到一股松脂的香味。",
@@ -204,6 +243,16 @@ units: [
       ],
       recognizeChars: ["琥","珀","嗡","脂","拭","渗","俯","扎","番","埋","澎","湃"],
       writeChars: ["怒","吼","脂","拭","餐","划","晌","辣","渗","挣","番","埋","刷","测","详"],
+      vocabWords: [
+        {word:'琥珀',pinyin:'hǔ pò',en:'amber',sentence:'这是一块琥珀。',sentenceEn:'This is a piece of amber.'},
+        {word:'松脂',pinyin:'sōng zhī',en:'pine resin',sentence:'一大滴松脂滴落下来。',sentenceEn:'A big drop of pine resin fell down.'},
+        {word:'推测',pinyin:'tuī cè',en:'deduce',sentence:'科学家推测故事的经过。',sentenceEn:'Scientists deduced the story.'},
+        {word:'化石',pinyin:'huà shí',en:'fossil',sentence:'琥珀是一种化石。',sentenceEn:'Amber is a type of fossil.'},
+        {word:'挣扎',pinyin:'zhēng zhá',en:'struggle',sentence:'蜘蛛和苍蝇挣扎着。',sentenceEn:'The spider and fly struggled.'}
+      ],
+      grammarPoints: [
+        {point:'推理',pointEn:'tuī lǐ',example:'reasoning',exampleEn:'从已知信息推测未知事物',explanation:'Deduce unknown from known information',explanationEn:'根据事实合理推理的方法'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，提出不懂的问题，并试着解决",en:"Read silently, raise questions you don\u2019t understand, and try to answer them"},
         {type:"discuss",cn:"用自己的话说说这块琥珀形成的过程",en:"Describe the process of amber formation in your own words"},
@@ -220,6 +269,7 @@ units: [
     },
     {
       id: 6, title: "飞向蓝天的恐龙", titleEn: "Dinosaurs That Flew to the Blue Sky",
+      difficulty: 2,
       text: [
         "说到恐龙，人们往往想到凶猛的霸王龙或者笨重、迟钝的马门溪龙；谈起鸟类，我们头脑中自然会浮现轻灵的鸽子或者五彩斑斓的孔雀。二者似乎毫不相干，但近年来发现的大量化石显示：在中生代时期，恐龙的一支经过漫长的演化，最终变成了凌空翱翔的鸟儿。",
         "早在19世纪，英国学者赫胥黎就注意到恐龙和鸟类在骨骼结构上有许多相似之处。在研究了大量恐龙和鸟类化石之后，科学家们提出，鸟类不仅和恐龙有亲缘关系，而且很可能就是一种小型恐龙的后裔。根据这一假说，一些与鸟类亲缘关系较近的恐龙应该长有羽毛，但一直没有找到化石证据。20世纪末期，我国科学家在辽宁西部首次发现了保存有羽毛的恐龙化石，顿时使全世界的研究者们欣喜若狂。辽西的发现向世人展示了恐龙长羽毛的证据，给这幅古生物学家们描绘的画卷涂上了点睛之笔。",
@@ -236,6 +286,13 @@ units: [
       ],
       recognizeChars: ["钝","仅","描","隧","衍","吨","颅","膨","捷","栖","辟","崭"],
       writeChars: ["笨","钝","鸽","毫","凌","末","描","隧","态","吨","颅","膨","肢","翼","辟"],
+      vocabWords: [
+        {word:'恐龙',pinyin:'kǒng lóng',en:'dinosaur',sentence:'恐龙飞向蓝天。',sentenceEn:'Dinosaurs flew to the blue sky.'},
+        {word:'演化',pinyin:'yǎn huà',en:'evolve',sentence:'恐龙演化成了鸟类。',sentenceEn:'Dinosaurs evolved into birds.'},
+        {word:'繁衍',pinyin:'fán yǎn',en:'reproduce',sentence:'恐龙大量繁衍。',sentenceEn:'Dinosaurs reproduced abundantly.'},
+        {word:'轻盈',pinyin:'qīng yíng',en:'light; graceful',sentence:'身体变得轻盈。',sentenceEn:'Bodies became light and graceful.'},
+        {word:'翱翔',pinyin:'áo xiáng',en:'soar',sentence:'鸟儿在天空翱翔。',sentenceEn:'Birds soar in the sky.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，把不懂的问题写下来，并试着解决",en:"Read silently, write down questions you don\u2019t understand, and try to solve them"},
         {type:"discuss",cn:"假如你是一个解说员，会怎样简明扼要地介绍恐龙飞向蓝天、演化成鸟类的过程？",en:"If you were a narrator, how would you briefly explain how dinosaurs evolved into birds?"},
@@ -252,6 +309,7 @@ units: [
     },
     {
       id: 7, title: "纳米技术就在我们身边", titleEn: "Nanotechnology Is Around Us",
+      difficulty: 2,
       text: [
         "纳米技术是20世纪90年代兴起的高新技术。如果说20世纪是微米的世纪，21世纪必将是纳米的世纪。",
         "什么是纳米技术呢？这得从纳米说起。纳米是非常非常小的长度单位，1纳米等于十亿分之一米。如果把直径为1纳米的小球放到乒乓球上，就好像把乒乓球放在地球上，可见纳米有多么小。纳米技术的研究对象一般在1纳米到100纳米之间，不仅肉眼根本看不见，就是普通的光学显微镜也无能为力。这种纳米级的物质拥有许多新奇的特性，纳米技术就是研究并利用这些特性造福人类的一门学问。",
@@ -268,6 +326,13 @@ units: [
       ],
       recognizeChars: ["乒","乓","拥","菌","臭","蔬","碳","癌","症","率","疾","灶"],
       writeChars: ["纳","拥","箱","臭","蔬","碳","钢","隐","健","康","胞","疾","防","灶","需"],
+      vocabWords: [
+        {word:'纳米',pinyin:'nà mǐ',en:'nanometer',sentence:'一纳米等于十亿分之一米。',sentenceEn:'One nanometer equals one billionth of a meter.'},
+        {word:'技术',pinyin:'jì shù',en:'technology',sentence:'纳米技术改变生活。',sentenceEn:'Nanotechnology changes life.'},
+        {word:'灵敏',pinyin:'líng mǐn',en:'sensitive',sentence:'纳米机器人灵敏灵巧。',sentenceEn:'Nano robots are sensitive and dexterous.'},
+        {word:'隐形',pinyin:'yǐn xíng',en:'invisible',sentence:'纳米涂层可以隐形。',sentenceEn:'Nano coatings can be invisible.'},
+        {word:'功能',pinyin:'gōng néng',en:'function',sentence:'具有杀菌功能。',sentenceEn:'Has sterilization function.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，把课文中的科技术语读正确。读了课文，你有什么不懂的问题？",en:"Read aloud, pronouncing the technical terms correctly. What questions do you have after reading?"},
         {type:"discuss",cn:"\u201C纳米技术就在我们身边\u201D\u201C纳米技术可以让人们更加健康\u201D，选择其中一句话，结合课文内容说说你的理解",en:"Choose one of the two topic sentences and explain your understanding using details from the text"},
@@ -284,6 +349,7 @@ units: [
     },
     {
       id: 8, title: "千年梦圆在今朝", titleEn: "A Thousand-Year Dream Fulfilled Today",
+      difficulty: 2,
       isSelfRead: true,
       text: [
         "飞离地球、遨游太空是中华民族很久以来的梦想。在古代就有\u201C嫦娥奔月\u201D的神话，有人飞上天、空中飞车的传说，还有\u201C鲲鹏展翅\u201D\u201C九天揽月\u201D的奇妙想象。富有激情和超凡想象力的炎黄子孙，在千百年的岁月流转之中，不断地尝试实现自己的美好愿望。",
@@ -297,14 +363,21 @@ units: [
       textEn: [
         "Leaving Earth and roaming space has long been the dream of the Chinese people. Ancient myths tell of Chang\u2019e flying to the moon, legends speak of people soaring to the sky and flying chariots, and there are wondrous imaginings of \u2018Kunpeng spreading its wings\u2019 and \u2018grasping the moon from the ninth heaven.\u2019 Passionate and extraordinarily imaginative, the descendants of Yan and Huang have ceaselessly pursued this dream through the ages.",
         "Legend has it that Wan Hu, a Ming dynasty official, was the first person in history to attempt rocket-powered flight. He strapped 47 rockets to a chair, sat down holding two large kites, and ordered ignition. With a great boom, he vanished in flame and smoke. Though his attempt failed, Wan Hu is internationally recognized as a pioneer of human flight exploration. The International Astronomical Union named a lunar crater \u2018Wan Hu\u2019 in his honor.",
-        "Wan Hu\u2019s bold spirit of exploration deeply inspired people. For centuries, the determined Chinese people endured countless failures and paid heavy costs in pursuit of their dream of flight, but never gave up.",
-        "In 1949, the founding of the People\u2019s Republic opened a new chapter. In 1958, Chairman Mao declared: \u2018We too must build satellites.\u2019 After over a decade of effort, on April 24, 1970, the song \u2018The East Is Red\u2019 echoed through space for the first time, filling Chinese people worldwide with pride. China became the fifth country to independently launch a satellite.",
-        "While preparing satellite launches, Chinese scientists began exploring manned spaceflight. In 1992, the government approved the manned space program. After over a decade of tireless work, on October 15, 2003, at the Jiuquan Satellite Launch Center, China\u2019s Shenzhou 5 spacecraft was launched into space with a thunderous roar. The rocket, like a dragon, traced a brilliant arc and vanished into the sky. On October 16, astronaut Yang Liwei returned safely after orbiting Earth 14 times, summarizing his journey in three sentences: \u2018The spacecraft operated normally. I feel fine. I am proud of my country.\u2019",
+        "Wan Hu\u2019s courageous spirit of hands-on exploration profoundly shook and inspired people. For centuries, the steadfast and determined descendants of Yan and Huang endured countless failures and paid heavy costs in the pursuit of their dream of flight, yet they never gave up the effort to leave the Earth.",
+        "In 1949, the People\u2019s Republic of China was founded, opening a brand-new chapter in the history of the Chinese nation, and China\u2019s space program began to show vigorous vitality. In the year after the Soviet Union launched the first artificial satellite \u2014 1958 \u2014 Chairman Mao solemnly declared: \u2018We too must build artificial satellites.\u2019 After more than a decade of effort, on April 24, 1970, for the first time, the voice of the Chinese people rang out in the lonely, vast expanse of space. The melody of \u2018The East Is Red,\u2019 piercing the heavens, filled Chinese people at home and abroad with tremendous excitement. China became the fifth country in the world to independently launch a satellite.",
+        "While preparing to launch artificial satellites, Chinese scientists hopefully began exploring manned spaceflight technology. On September 21, 1992, the Party Central Committee decided to implement the manned space program, and over 110 organizations directly took on research, construction, and launch tasks. After more than a decade of tireless effort by scientists, engineers, workers, and PLA soldiers and officers, at 9 a.m. on the morning of October 15, 2003, at the Jiuquan Satellite Launch Center, with an ear-splitting roar, China\u2019s independently developed Shenzhou 5 spacecraft was sent into space. The rocket, like a mighty dragon, traced a dazzling arc and vanished into the heavens in an instant. At 6:23 a.m. on the morning of October 16, the spacecraft successfully returned to the landing site after orbiting the Earth fourteen times. As astronaut Yang Liwei was about to board the plane back to Beijing, he summed up his space journey in three sentences: \u2018The spacecraft operated normally. I feel fine. I am proud of my motherland.\u2019",
         "China\u2019s first manned spaceflight proclaimed to the world that China had become the third country to independently master manned space technology.",
-        "The year after Shenzhou 5, China officially began its lunar exploration program. In 2007, it launched the Chang\u2019e 1 lunar probe. On January 3, 2019, Chang\u2019e 4 achieved humanity\u2019s first soft landing on the far side of the Moon, transmitting the first close-up photos of the lunar far side. The lander and its Yutu 2 rover, bearing China\u2019s five-star red flag, left historic images on the Moon\u2019s far side."
+        "The year after the successful launch of Shenzhou 5, China officially began its lunar exploration program. On October 24, 2007, China successfully launched its first lunar probe, Chang\u2019e 1 \u2014 yet another milestone in China\u2019s space endeavors. On January 3, 2019, the Chang\u2019e 4 probe achieved humanity\u2019s first soft landing on the far side of the Moon, and transmitted the first clear, close-up photograph of the lunar far side\u2019s surface features. Subsequently, the Chang\u2019e 4 lander and its lunar rover Yutu 2 successfully photographed each other; the lander and rover, bearing China\u2019s five-star red flag, left precious, historic images on the far side of the Moon."
       ],
       recognizeChars: ["鹏","揽","驱","践","着","党","施","懈","宛","碑"],
       writeChars: [],
+      vocabWords: [
+        {word:'飞天',pinyin:'fēi tiān',en:'fly to the sky',sentence:'千年飞天梦。',sentenceEn:'A thousand-year dream of flight.'},
+        {word:'嫦娥',pinyin:'cháng é',en:'Chang e (moon goddess)',sentence:'嫦娥奔月的传说。',sentenceEn:'The legend of Chang e flying to the moon.'},
+        {word:'航天',pinyin:'háng tiān',en:'space flight',sentence:'中国航天事业。',sentenceEn:'China space program.'},
+        {word:'载人',pinyin:'zài rén',en:'manned',sentence:'载人飞船。',sentenceEn:'Manned spacecraft.'},
+        {word:'实现',pinyin:'shí xiàn',en:'realize',sentence:'千年梦想终于实现了。',sentenceEn:'The thousand-year dream finally came true.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，说说中华民族千年的飞天梦是怎样逐步实现的",en:"Read silently and explain how the Chinese nation\u2019s thousand-year dream of flight was gradually realized"},
         {type:"think",cn:"感兴趣的同学可以查阅资料，了解我国在航天领域的最新成就",en:"Interested students can research China\u2019s latest achievements in space exploration"}
@@ -336,6 +409,7 @@ units: [
   lessons: [
     {
       id: 9, title: "短诗三首", titleEn: "Three Short Poems",
+      difficulty: 2,
       text: [
         "繁星（七一）\n冰心\n这些事——\n是永不漫灭的回忆：\n月明的园中，\n藤萝的叶下，\n母亲的膝上。",
         "繁星（一三一）\n冰心\n大海啊！\n哪一颗星没有光？\n哪一朵花没有香？\n哪一次我的思潮里\n没有你波涛的清响？",
@@ -348,6 +422,16 @@ units: [
       ],
       recognizeChars: ["漫","涛"],
       writeChars: ["繁","漫","灭","藤","萝","膝","涛","躲"],
+      vocabWords: [
+        {word:'繁星',pinyin:'fán xīng',en:'starry sky',sentence:'繁星闪烁。',sentenceEn:'Stars twinkle.'},
+        {word:'藤萝',pinyin:'téng luó',en:'wisteria',sentence:'墙角的花。',sentenceEn:'The flower in the corner.'},
+        {word:'母亲',pinyin:'mǔ qīn',en:'mother',sentence:'母亲啊，天上的风雨来了。',sentenceEn:'Mother, the storm in the sky is coming.'},
+        {word:'巢',pinyin:'cháo',en:'nest',sentence:'鸟儿躲到它的巢里。',sentenceEn:'Birds hide in their nests.'},
+        {word:'怀里',pinyin:'huái lǐ',en:'in one arms',sentence:'我只躲到你的怀里。',sentenceEn:'I only hide in your arms.'}
+      ],
+      grammarPoints: [
+        {point:'现代诗',pointEn:'xiàn dài shī',example:'modern poetry',exampleEn:'现代诗不受格律限制。',explanation:'Modern poetry is not bound by meter.',explanationEn:'形式自由，表达情感'}
+      ],
       exercises: [
         {type:"read",cn:"反复朗读课文，体会诗歌的韵味。背诵课文",en:"Read the poems aloud repeatedly, savoring their rhythm. Recite them from memory"},
         {type:"discuss",cn:"\u201C月明的园中，藤萝的叶下，母亲的膝上\u201D，唤起了你怎样的感受？",en:"What feelings does \u2018in the moonlit garden, under wisteria leaves, on Mother\u2019s lap\u2019 evoke?"},
@@ -364,6 +448,7 @@ units: [
     },
     {
       id: 10, title: "绿", titleEn: "Green",
+      difficulty: 2,
       text: [
         "好像绿色的墨水瓶倒翻了，\n到处是绿的……",
         "到哪儿去找这么多的绿：\n墨绿、浅绿、嫩绿、\n翠绿、淡绿、粉绿……\n绿得发黑、绿得出奇。",
@@ -396,6 +481,7 @@ units: [
     },
     {
       id: 11, title: "白桦", titleEn: "The White Birch",
+      difficulty: 2,
       text: [
         "在我的窗前，\n有一棵白桦，\n仿佛涂上银霜，\n披了一身雪花。",
         "毛茸茸的枝头，\n雪绣的花边潇洒，\n串串花穗齐绽，\n洁白的流苏如画。",
@@ -426,6 +512,7 @@ units: [
     },
     {
       id: 12, title: "在天晴了的时候", titleEn: "When the Sky Clears",
+      difficulty: 2,
       isSelfRead: true,
       text: [
         "在天晴了的时候，\n该到小径中去走走：\n给雨润过的泥路，\n一定是凉爽又温柔；",
@@ -472,6 +559,7 @@ units: [
   lessons: [
     {
       id: 13, title: "猫", titleEn: "The Cat",
+      difficulty: 2,
       text: [
         "猫的性格实在有些古怪。",
         "说它老实吧，它的确有时候很乖。它会找个暖和的地方，成天睡大觉，无忧无虑，什么事也不过问。可是，它决定要出去玩玩，就会出走一天一夜，任凭谁怎么呼唤，它也不肯回来。说它贪玩吧，的确是啊，要不怎么会一天一夜不回家呢？可是，它听到老鼠的一点儿响动，又是多么尽职。它屏息凝视，一连就是几个钟头，非把老鼠等出来不可！",
@@ -506,6 +594,7 @@ units: [
     },
     {
       id: 14, title: "母鸡", titleEn: "The Hen",
+      difficulty: 2,
       text: [
         "我一向讨厌母鸡。听吧，它由前院嘎嘎到后院，由后院再嘎嘎到前院，没完没了，并且没有什么理由，讨厌！",
         "有的时候，它不这样乱叫，而是细声细气的，有什么心事似的，颤颤巍巍的，顺着墙根，或沿着田坝，那么扯长了声如怨如诉，使人心中立刻结起个小疙瘩来。",
@@ -534,6 +623,16 @@ units: [
       ],
       recognizeChars: ["疙","瘩","侮","恶","聋","啄","伏","哼","啼","凄"],
       writeChars: ["讨","厌","坝","忠","毒","绩","孵","警","戒","歪","咕","汤","掘","伏","啼"],
+      vocabWords: [
+        {word:'母鸡',pinyin:'mǔ jī',en:'hen',sentence:'我一向讨厌母鸡。',sentenceEn:'I always disliked hens.'},
+        {word:'负责',pinyin:'fù zé',en:'responsible',sentence:'它负责、慈爱、勇敢。',sentenceEn:'She is responsible, loving, and brave.'},
+        {word:'警戒',pinyin:'jǐng jiè',en:'alert; on guard',sentence:'母鸡时刻警戒着。',sentenceEn:'The hen is always on guard.'},
+        {word:'欺侮',pinyin:'qī wǔ',en:'bully',sentence:'不允许谁欺侮孩子们。',sentenceEn:'She allows no one to bully her chicks.'},
+        {word:'英雄',pinyin:'yīng xióng',en:'hero',sentence:'它是一位英雄母亲。',sentenceEn:'She is a heroic mother.'}
+      ],
+      grammarPoints: [
+        {point:'先抑后扬',pointEn:'xiān yì hòu yáng',example:'criticize then praise',exampleEn:'先写讨厌母鸡，后写敬佩母鸡。',explanation:'First writes dislike, then admiration.',explanationEn:'先写不好的一面，再转折写好的一面'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，画出\u201C我\u201D对母鸡的态度前后变化的句子，说说为什么有这样的变化",en:"Read silently, find sentences showing the change in the narrator\u2019s attitude toward the hen, and explain why"},
         {type:"discuss",cn:"老舍先生写母鸡\u201C负责，慈爱，勇敢，辛苦\u201D，结合课文内容说一说",en:"Lao She wrote that the hen is 'responsible, loving, brave, hardworking' \u2014 explain using details from the text"},
@@ -550,6 +649,7 @@ units: [
     },
     {
       id: 15, title: "白鹅", titleEn: "The White Goose",
+      difficulty: 3,
       text: [
         "这白鹅，是一位即将远行的朋友送给我的。我抱着这雪白的\u201C大鸟\u201D回家，放在院子里。它伸长了头颈，左顾右盼，我一看这姿态，想道：\u201C好一个高傲的动物！\u201D",
         "鹅的高傲，更表现在它的叫声、步态和吃相中。",
@@ -565,11 +665,18 @@ units: [
         "Its call was solemn and stern, like a sharp reprimand. Its former owner told me keeping a goose was like keeping a dog \u2014 it could guard the house. Indeed: whenever a stranger came, the goose cried out fiercely; even if someone walked outside the fence, it honked loudly, rivaling a dog\u2019s barking.",
         "Its gait was even more arrogant. Similar to a duck\u2019s, but while ducks shuffle nervously, the goose walked with composure and grandeur, rather like a painted-face character entering a Beijing opera stage. It stood proudly, never yielding to passersby; sometimes it would even stretch its neck to bite you.",
         "The goose\u2019s eating habits always made us laugh. Our goose ate cold rice three times a day, accompanied by three things: water, mud, and grass. It would eat a mouthful of rice, take a sip of water, then go elsewhere for a bite of mud and grass. Perhaps these had their own delicious flavors. The ingredients were modest, but its eating method was utterly systematic and meticulous. After eating a mouthful of rice, if the water basin was far away, it would march there unhurriedly, sip some water, then march off to eat mud and grass, and only then return for more rice.",
-        "Such a leisurely meal required an attendant, like a restaurant waiter. The neighborhood dogs all knew our \u2018Lord Goose\u2019s\u2019 habits. At mealtime, dogs lurked by the fence. When the goose marched off for water and grass, dogs would dash over and eat its rice. If Lord Goose returned early, it snapped at the dog with fierce cries. The dog would retreat and wait. When the goose left again, the dog would run back and finish the rice. When the goose returned to find an empty bowl, it would raise its head and honk as if scolding the humans for poor service. We\u2019d refill the bowl and stand guard, because as soon as one dog left, another would arrive to lurk.",
+        "Such a leisurely meal required someone to attend it, like a waiter at a restaurant. The neighborhood dogs all knew our Lord Goose\u2019s temperament; whenever it was mealtime, the dogs hid by the fence, watching. Once the goose had eaten a mouthful of rice and marched off in measured steps to drink water, eat mud, and eat grass, the dogs would nimbly dash over and eagerly devour its rice. If Lord Goose happened to return early, it stretched its neck to bite the dog and scolded it loudly; the dog immediately fled to the fence and squatted there, waiting quietly. When the goose ate another mouthful of rice and walked off again to drink water, eat mud, and eat grass, the dog nimbly ran back, finished off all its rice, and sauntered away. By the time the goose came back to eat, the rice bowl was already completely empty. The goose would then raise its head and honk loudly, as if blaming the humans for poor service. At that point we would refill its bowl and stand there attending it, because there were many dogs in the neighborhood \u2014 as soon as one left, another would come and squat there watching.",
         "We grew weary and eventually placed the bowl and water basin together to prevent the goose from straying. But its necessary mud and grass were found at varying distances, so it still had to wander. Thus someone always had to attend its meals \u2014 truly a creature of airs!"
       ],
       recognizeChars: ["看","嚣","吭","吠","促","颇","奢","侈","苟","侍","窥","伺","供"],
       writeChars: ["吠","促","颇","剧","苟","譬","侍","馆","附","脾","敏","捷","昂","供","添"],
+      vocabWords: [
+        {word:'高傲',pinyin:'gāo ào',en:'arrogant',sentence:'白鹅真是高傲。',sentenceEn:'The white goose is truly arrogant.'},
+        {word:'步调',pinyin:'bù diào',en:'pace',sentence:'它的步调从容不迫。',sentenceEn:'Its pace is calm and unhurried.'},
+        {word:'净角',pinyin:'jìng jué',en:'painted face (opera role)',sentence:'叫声好像京剧里的净角。',sentenceEn:'Its call sounds like a painted face role in Beijing opera.'},
+        {word:'从容',pinyin:'cóng róng',en:'calm; leisurely',sentence:'大模大样地走。',sentenceEn:'Walking with great pomposity.'},
+        {word:'脾气',pinyin:'pí qi',en:'temperament',sentence:'它的脾气很大。',sentenceEn:'Its temper is big.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，体会语言的趣味",en:"Read aloud and appreciate the humorous language"},
         {type:"discuss",cn:"课文里有许多表现鹅高傲的词语，如\u201C引吭大叫\u201D\u201C傲然\u201D\u201C架子十足\u201D，找一找，分类抄下来",en:"Find and categorize words showing the goose\u2019s pride, such as \u2018honking loudly,\u2019 \u2018proudly,\u2019 \u2018full of airs\u2019"},
@@ -600,6 +707,7 @@ units: [
   lessons: [
     {
       id: 16, title: "海上日出", titleEn: "Sunrise at Sea",
+      difficulty: 3,
       text: [
         "为了看日出，我常常早起。那时天还没有大亮，周围非常清静，船上只有机器的响声。",
         "天空还是一片浅蓝，颜色很浅。转眼间天边出现了一道红霞，慢慢地在扩大它的范围，加强它的亮光。我知道太阳要从天边升起来了，便不转眼地望着那里。",
@@ -610,7 +718,7 @@ units: [
       ],
       textEn: [
         "To watch the sunrise, I often rose early. It was still dim; all around was very quiet, with only the sound of the ship\u2019s engine.",
-        "The sky was still pale blue. Suddenly a red glow appeared at the horizon, slowly expanding and brightening. I knew the sun was about to rise, so I watched intently.",
+        "The sky was still all pale blue, the color very light. In the blink of an eye, a band of red clouds appeared at the horizon, slowly expanding in range and intensifying in brightness. I knew the sun was about to rise from the horizon, so I fixed my gaze there without blinking.",
         "Sure enough, the sun\u2019s half-face appeared, truly red but without glare. The sun seemed to carry a heavy load, rising step by step, slowly, straining upward. At last it burst through the clouds and leaped fully above the sea, a beautiful red. In an instant, the deep red orb flashed with dazzling light that stung the eyes, and the clouds beside it suddenly glowed.",
         "Sometimes the sun entered a bank of clouds, yet its rays shot down through them to the water. It was hard to tell where water ended and sky began, for all I could see was a blaze of brilliance.",
         "Sometimes dark, thick clouds hung at the horizon, hiding the rising sun. Yet the sun\u2019s rays pierced the clouds, rimming them with a glowing golden edge. Slowly the sun broke free, appearing in the sky, even dyeing the dark clouds purple and red. Not only the sun, clouds, and sea were luminous then \u2014 even I seemed to glow.",
@@ -618,6 +726,16 @@ units: [
       ],
       recognizeChars: ["扩","荷","刹","镶"],
       writeChars: ["扩","范","努","刹","烂","替","镶","紫","仅"],
+      vocabWords: [
+        {word:'日出',pinyin:'rì chū',en:'sunrise',sentence:'海上日出是伟大的奇观。',sentenceEn:'Sunrise at sea is a great spectacle.'},
+        {word:'红霞',pinyin:'hóng xiá',en:'red clouds',sentence:'天空出现了红霞。',sentenceEn:'Red clouds appeared in the sky.'},
+        {word:'负着',pinyin:'fù zhe',en:'bearing',sentence:'太阳好像负着重荷。',sentenceEn:'The sun seems to bear a heavy load.'},
+        {word:'夺目',pinyin:'duó mù',en:'dazzling',sentence:'光彩夺目。',sentenceEn:'Dazzlingly brilliant.'},
+        {word:'奇观',pinyin:'qí guān',en:'spectacle',sentence:'这是伟大的奇观。',sentenceEn:'This is a great spectacle.'}
+      ],
+      grammarPoints: [
+        {point:'按顺序写景',pointEn:'àn shùn xù xiě jǐng',example:'describe scenery in order',exampleEn:'日出前……日出时……日出后……',explanation:'Before sunrise...during...after...',explanationEn:'按照时间顺序描写景物变化'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，说说海上日出的景象",en:"Read silently and describe the scene of the sunrise at sea"},
         {type:"discuss",cn:"读句子，注意加点的部分，想想这样写有什么好处",en:"Read the sentences, notice the highlighted parts, and think about the benefit of such writing"},
@@ -634,6 +752,7 @@ units: [
     },
     {
       id: 17, title: "记金华的双龙洞", titleEn: "A Visit to Jinhua\u2019s Double Dragon Cave",
+      difficulty: 3,
       text: [
         "4月14日，我在浙江金华，游北山的双龙洞。",
         "出金华城大约五公里到罗店，过了罗店就渐渐入山。公路盘曲而上。山上开满了映山红，无论花朵还是叶子，都比盆栽的杜鹃显得有精神。油桐也正开花，这儿一丛，那儿一簇，很不少。山上沙土呈粉红色，在别处似乎没有见过。粉红色的山，各色的映山红，再加上或浓或淡的新绿，眼前一片明艳。",
@@ -656,6 +775,16 @@ units: [
       ],
       recognizeChars: ["浙","簇","臀","漆","蜿","蜒"],
       writeChars: ["浙","罗","杜","鹃","窄","郁","肩","臀","移","额","陆","乳","笋","端","源"],
+      vocabWords: [
+        {word:'洞口',pinyin:'dòng kǒu',en:'cave entrance',sentence:'洞口很宽。',sentenceEn:'The cave entrance is wide.'},
+        {word:'石钟乳',pinyin:'shí zhōng rǔ',en:'stalactite',sentence:'石钟乳和石笋形状各异。',sentenceEn:'Stalactites and stalagmites have various shapes.'},
+        {word:'蜿蜒',pinyin:'wān yán',en:'wind; meander',sentence:'泉水蜿蜒而出。',sentenceEn:'Spring water winds its way out.'},
+        {word:'漆黑',pinyin:'qī hēi',en:'pitch dark',sentence:'里面漆黑一片。',sentenceEn:'It is pitch dark inside.'},
+        {word:'仰卧',pinyin:'yǎng wò',en:'lie on one back',sentence:'必须仰卧在小船里。',sentenceEn:'Must lie on your back in the small boat.'}
+      ],
+      grammarPoints: [
+        {point:'移步换景',pointEn:'yí bù huàn jǐng',example:'changing views with steps',exampleEn:'路上→洞口→外洞→孔隙→内洞→出洞。',explanation:'On the way→entrance→outer→gap→inner→exit.',explanationEn:'随着游览位置的移动来描写景物'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，理清作者游双龙洞的顺序，再把路线图补充完整",en:"Read silently, clarify the author\u2019s visiting order, and complete the route map"},
         {type:"discuss",cn:"读由外洞进内洞的部分，体会作者是怎样把孔隙的狭小和自己的感受写清楚的",en:"Read the passage through the gap and appreciate how the author conveys its narrowness and his feelings"},
@@ -685,6 +814,7 @@ units: [
   lessons: [
     {
       id: 18, title: "文言文二则", titleEn: "Two Classical Chinese Texts",
+      difficulty: 3,
       text: [
         "囊萤夜读\n胤恭勤不倦，博学多通。家贫不常得油，夏月则练囊盛数十萤火以照书，以夜继日焉。",
         "铁杵成针\n磨针溪，在象耳山下。世传李太白读书山中，未成，弃去。过是溪，逢老媪方磨铁杵。问之，曰：\u201C欲作针。\u201D太白感其意，还卒业。"
@@ -695,6 +825,13 @@ units: [
       ],
       recognizeChars: ["恭","勤","焉","卒"],
       writeChars: ["囊","萤","恭","勤","博","贫","焉","逢","卒"],
+      vocabWords: [
+        {word:'铁杵',pinyin:'tiě chǔ',en:'iron pestle',sentence:'只要功夫深，铁杵磨成针。',sentenceEn:'With enough effort, an iron pestle becomes a needle.'},
+        {word:'勤学',pinyin:'qín xué',en:'study diligently',sentence:'囊萤夜读的故事。',sentenceEn:'The story of reading by firefly light.'},
+        {word:'恭勤',pinyin:'gōng qín',en:'diligent and respectful',sentence:'博学多通，恭勤不倦。',sentenceEn:'Broadly learned, diligent and tireless.'},
+        {word:'囊萤',pinyin:'náng yíng',en:'bag of fireflies',sentence:'车胤囊萤夜读。',sentenceEn:'Che Yin read at night by firefly light.'},
+        {word:'磨针',pinyin:'mó zhēn',en:'grind into needle',sentence:'老婆婆在磨铁杵。',sentenceEn:'The old woman was grinding an iron pestle.'}
+      ],
       exercises: [
         {type:"read",cn:"正确、流利地朗读课文。背诵《囊萤夜读》",en:"Read aloud correctly and fluently. Recite 'Reading by Firefly Light' from memory"},
         {type:"discuss",cn:"借助注释，理解课文中每句话的意思",en:"Use the annotations to understand every sentence"},
@@ -711,6 +848,7 @@ units: [
     },
     {
       id: 19, title: "小英雄雨来（节选）", titleEn: "Little Hero Yu Lai (Excerpt)",
+      difficulty: 3,
       text: [
         "晋察冀边区的北部有一条还乡河，河里长着很多芦苇。河边有个小村庄。芦花开的时候，远远望去，黄绿的芦苇上好像盖了一层厚厚的白雪。风一吹，鹅毛般的苇絮就飘飘悠悠地飞起来，把这几十家小房屋都罩在柔软的芦花里。因此，这村就叫芦花村。十二岁的雨来就是这村的。",
         "雨来最喜欢这条紧靠着村边的还乡河。每到夏天，雨来和铁头、三钻儿，还有很多小朋友，好像一群鱼，在河里钻上钻下，藏猫猫，狗刨，立浮，仰浮。雨来仰浮的本领最高，能够脸朝天在水里躺着，不但不沉底，还要把小肚皮露在水面上。",
@@ -728,17 +866,24 @@ units: [
         "In the north of the Jin-Cha-Ji border region flowed the Huanxiang River, thick with reeds. A small village sat beside it. When reed flowers bloomed, the yellow-green reeds seemed covered with thick snow. In the breeze, the downy catkins drifted like goose feathers, shrouding the little houses. Thus the village was called Reed Flower Village. Twelve-year-old Yu Lai lived there.",
         "Yu Lai loved the river. Every summer, he and his friends would play in the water like a school of fish \u2014 diving, playing hide-and-seek, dog-paddling, floating upright and on their backs. Yu Lai was the best at floating on his back, lying face-up in the water with his little belly above the surface.",
         "In autumn, his father returned from selling reed mats and told his mother: \u2018The district said children must attend school \u2014 at least night school. Let Yu Lai go, or he\u2019ll grow up illiterate.\u2019",
-        "The teacher walked to the blackboard and the room fell silent. Yu Lai opened his book. The teacher pointed at the characters on the board and read: \u2018We are Chinese. We love our motherland.\u2019 Everyone read softly along: \u2018We \u2014 are \u2014 Chinese. We \u2014 love \u2014 our \u2014 motherland.\u2019",
-        "One day after night school, Yu Lai heard running footsteps shaking the house. He grabbed his book and ran out, but at the door met Li Dashu. Then came Japanese soldiers shouting. Li Dashu moved the half-full bran barrel, jumped into a hidden hole, and said: \u2018Put the barrel back and go to another yard. Tell no one.\u2019",
-        "The soldiers searched everywhere. The flat-nosed officer said in Chinese: \u2018Boy, answer my questions. No lying!\u2019 Yu Lai said: \u2018I was inside. I saw nothing.\u2019 The officer shoved candy at him: \u2018Eat! Tell me where he is!\u2019 Yu Lai refused the candy and said nothing.",
+        "The female teacher walked to the front of the blackboard, and the buzzing chatter in the room instantly stopped. Yu Lai opened his book. The teacher leaned sideways and pointed at the characters on the blackboard with her finger, reading: \u2018We are Chinese. We love our motherland.\u2019 Everyone followed the teacher\u2019s finger and read softly together in unison: \u2018We \u2014 are \u2014 Chinese. We \u2014 love \u2014 our \u2014 motherland.\u2019",
+        "One day, Yu Lai came home from night school, lay on the kang, and recited the text he had learned that evening. Suddenly he heard someone running thump-thump-thump in the street, shaking the house as if it were swaying. Yu Lai rolled off the kang, stuffed his book inside his shirt, and ran outside. Just as he was about to step over the threshold, a man came in \u2014 it was Uncle Li. Then he heard Japanese soldiers jabbering outside. Uncle Li quickly moved the barrel in the corner that was half full of bran husks, jumped into a hole underneath, and said: \u2018Put the barrel back in its place, then hurry to another yard. Don\u2019t tell anyone.\u2019",
+        "The soldiers ransacked the front and back yards. The flat-nosed officer spoke to Yu Lai in Chinese: \u2018Boy, I\u2019m going to ask you some questions. No lying!\u2019 Yu Lai said: \u2018I was inside. I didn\u2019t see anything.\u2019 The flat-nosed officer shoved some candy into Yu Lai\u2019s hand and said: \u2018Eat! You eat! You have to tell me where he is!\u2019 Yu Lai did not take his candy, nor did he answer him.",
         "The soldiers beat him until they tired, but Yu Lai gritted his teeth: \u2018I didn\u2019t see anything!\u2019 The officer screamed: \u2018Shoot him! Take him out!\u2019",
-        "Villagers heard gunshots by the river. Elders wept: \u2018Yu Lai was a good boy! What a pity!\u2019",
-        "Suddenly Tietou shouted: \u2018Yu Lai! Yu Lai!\u2019 A little head poked out of the reeds. Yu Lai shook the water from his hair like a duckling, wiped his eyes and nose, and called out: \u2018Are the soldiers gone?\u2019",
+        "The people of Reed Flower Village heard several gunshots ring out along the riverbank. The elders, with tears in their eyes, said: \u2018Yu Lai was a good boy! What a pity he\u2019s dead!\u2019",
+        "Suddenly Tietou shouted: \u2018Ah! Yu Lai! Yu Lai!\u2019 In the reed thicket, a little head emerged above the water. Yu Lai, just like a duckling, shook the water from his head, wiped his eyes and nose with his hand, and clinging to the reeds, asked the people on the bank: \u2018Are the soldiers gone?\u2019",
         "\u2018Ah!\u2019 Everyone cheered. \u2018Yu Lai is alive! Yu Lai is alive!\u2019",
         "Before the shots, Yu Lai had seized the moment when the soldiers weren\u2019t watching and dived into the river. They fired at the water, but our little hero had already swum far away underwater."
       ],
       recognizeChars: ["晋","絮","扭","姥","吧","塞","呜","哇","糠","栓","捆","绑","劫","毙","扒","尸"],
       writeChars: ["晋","炕","铅","呜","哩","栓","胳","膊","劫","绸","扒","敌","尸","趁","慌"],
+      vocabWords: [
+        {word:'芦花',pinyin:'lú huā',en:'reed catkins',sentence:'芦花开的时候远远望去。',sentenceEn:'When reed catkins bloom, looking from afar.'},
+        {word:'扁鼻子',pinyin:'biǎn bí zi',en:'flat nose',sentence:'扁鼻子军官。',sentenceEn:'The flat-nosed officer.'},
+        {word:'鬼子',pinyin:'guǐ zi',en:'enemy soldier',sentence:'鬼子来了。',sentenceEn:'The enemy soldiers came.'},
+        {word:'抗日',pinyin:'kàng rì',en:'anti-Japanese',sentence:'抗日小英雄。',sentenceEn:'Anti-Japanese little hero.'},
+        {word:'游泳',pinyin:'yóu yǒng',en:'swim',sentence:'雨来游泳本领高。',sentenceEn:'Yulai was an excellent swimmer.'}
+      ],
       exercises: [
         {type:"read",cn:"为什么说雨来是小英雄？带着这个问题，尝试用较快的速度默读课文",en:"Why is Yu Lai called a little hero? Read with this question in mind, trying to read quickly"},
         {type:"discuss",cn:"给每个部分列出小标题，再说说课文的主要内容",en:"Give each section a subtitle, then summarize the main content"},
@@ -755,6 +900,7 @@ units: [
     },
     {
       id: 20, title: "我们家的男子汉", titleEn: "The Man of Our Family",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "我们家里有一个男子汉，那是姐姐的孩子。他吃饭很爽气，量很多，范围很广——什么都要吃，而且吃得极有滋味。当然，和所有的孩子一样，他不爱吃青菜。可是我对他说：\u201C不吃青菜会死的。\u201D他便吃了，吃得很多。",
@@ -770,6 +916,13 @@ units: [
       ],
       recognizeChars: ["徽","谜","唇","尚","荤","倔","强","嘱","咐","沮","吭","嘹","仪","蹬","妨"],
       writeChars: [],
+      vocabWords: [
+        {word:'男子汉',pinyin:'nán zǐ hàn',en:'real man',sentence:'一个小小的男子汉。',sentenceEn:'A little man.'},
+        {word:'独立',pinyin:'dú lì',en:'independent',sentence:'他越来越独立。',sentenceEn:'He became more and more independent.'},
+        {word:'沉默',pinyin:'chén mò',en:'silent',sentence:'他变得沉默了一会儿。',sentenceEn:'He became silent for a moment.'},
+        {word:'坚强',pinyin:'jiān qiáng',en:'strong',sentence:'他表现得很坚强。',sentenceEn:'He showed himself to be strong.'},
+        {word:'逐渐',pinyin:'zhú jiàn',en:'gradually',sentence:'他逐渐长大了。',sentenceEn:'He gradually grew up.'}
+      ],
       exercises: [
         {type:"read",cn:"尝试用较快的速度默读课文。结合课文中的小标题，说说为什么称这个孩子为\u201C男子汉\u201D",en:"Read quickly. Using the section titles, explain why the child is called a \u2018man\u2019"},
         {type:"think",cn:"还可以给每个部分换个小标题",en:"Try giving each section a different subtitle"}
@@ -785,6 +938,7 @@ units: [
     },
     {
       id: 21, title: "芦花鞋", titleEn: "Reed Flower Shoes",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "这里出产一种冬天穿的芦花鞋。那鞋的制作工序是：先将上等的芦花采回来，然后将它们均匀地搓进草绳里，再编织成鞋。那鞋很厚实，像暖和和的鸟窝。",
@@ -798,14 +952,21 @@ units: [
       textEn: [
         "The area produced reed flower shoes for winter. The process: gather top-quality reed catkins, twist them evenly into straw rope, and weave them into shoes. The shoes were thick and warm, like cozy bird nests.",
         "After autumn harvest, Bronze\u2019s family decided: this winter, the whole family would weave a hundred pairs of reed flower shoes for Bronze to sell at Youmadi town.",
-        "The family spent every spare moment weaving. They made 101 pairs \u2014 the last pair for Bronze himself.",
-        "After a heavy overnight snowfall, a foot deep, Grandma told Bronze not to go to town. But he insisted.",
-        "The streets were nearly empty, snow falling on silent pavement. A group of city folk stopped at his shoes. The ten pairs, gleaming against the snow, captivated them. They touched the shoes admiringly. Nine people each took a pair; all ten pairs were sold.",
+        "Bronze\u2019s whole family, old and young alike, devoted every spare moment to weaving reed flower shoes. They wove one hundred and one pairs. The one hundred and first pair was made for Bronze.",
+        "It had snowed heavily all night, and the snow was a full foot deep. Grandma said to Bronze: \u2018Don\u2019t go to town to sell shoes today.\u2019 But Bronze insisted that he absolutely had to go to town today.",
+        "When he arrived at the town, the streets were nearly deserted; only heavy snow kept falling ceaselessly on the empty street. A group of city people walking past the reed flower shoes stopped in their tracks. The ten pairs of shoes, gleaming against the snow, instantly captivated them. They came forward one by one and stroked the shoes with their hands. There were nine people in all, and each took a pair of reed flower shoes; all ten pairs were now in their hands.",
         "A man chased after him: \u2018Do you have any more?\u2019 Bronze shook his head. The man sighed in disappointment. Bronze looked at the sky, at the snow, and then at the reed flower shoes on his own feet.",
         "He pulled his right foot out of the shoe, standing in the snow. Then his left foot. He bent down, picked up the shoes, and ran after the man. His bare feet splashed through the snow, sending up sprays of white\u2026"
       ],
       recognizeChars: ["搓","葵","祈","遗","憾","污","屑"],
       writeChars: [],
+      vocabWords: [
+        {word:'芦花',pinyin:'lú huā',en:'reed catkins',sentence:'青铜编芦花鞋。',sentenceEn:'Qingtong weaves reed-catkin shoes.'},
+        {word:'编织',pinyin:'biān zhī',en:'weave',sentence:'他学会了编织芦花鞋。',sentenceEn:'He learned to weave reed-catkin shoes.'},
+        {word:'冰天雪地',pinyin:'bīng tiān xuě dì',en:'icy and snowy',sentence:'冰天雪地里卖鞋。',sentenceEn:'Selling shoes in the freezing snow.'},
+        {word:'脱下',pinyin:'tuō xià',en:'take off',sentence:'青铜脱下自己的鞋。',sentenceEn:'Qingtong took off his own shoes.'},
+        {word:'赤脚',pinyin:'chì jiǎo',en:'barefoot',sentence:'他赤脚站在雪地里。',sentenceEn:'He stood barefoot in the snow.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，为每个部分列出小标题，再和同学交流印象最深的内容",en:"Read silently, create subtitles for each part, and discuss the most memorable content"},
         {type:"think",cn:"体会青铜把自己脚上的芦花鞋脱给别人这个细节，感受人物的善良品质",en:"Reflect on the detail of Bronze removing his own shoes and appreciate his kind nature"}
@@ -836,6 +997,7 @@ units: [
   lessons: [
     {
       id: 22, title: "古诗三首", titleEn: "Three Ancient Poems",
+      difficulty: 3,
       text: [
         "芙蓉楼送辛渐\n[唐] 王昌龄\n寒雨连江夜入吴，\n平明送客楚山孤。\n洛阳亲友如相问，\n一片冰心在玉壶。",
         "塞下曲\n[唐] 卢纶\n月黑雁飞高，\n单于夜遁逃。\n欲将轻骑逐，\n大雪满弓刀。",
@@ -848,6 +1010,13 @@ units: [
       ],
       recognizeChars: ["芙","蓉","洛","单","砚","乾","坤"],
       writeChars: ["芙","蓉","洛","壶","雁","砚","乾","坤"],
+      vocabWords: [
+        {word:'芙蓉',pinyin:'fú róng',en:'hibiscus',sentence:'芙蓉楼送辛渐。',sentenceEn:'Farewell at Hibiscus Tower.'},
+        {word:'塞下',pinyin:'sài xià',en:'border',sentence:'塞下曲。',sentenceEn:'Song of the Frontier.'},
+        {word:'墨梅',pinyin:'mò méi',en:'ink plum blossom',sentence:'不要人夸好颜色。',sentenceEn:'I do not seek praise for my color.'},
+        {word:'清气',pinyin:'qīng qì',en:'pure fragrance',sentence:'只留清气满乾坤。',sentenceEn:'Only leaving pure fragrance to fill the world.'},
+        {word:'将军',pinyin:'jiāng jūn',en:'general',sentence:'将军夜引弓。',sentenceEn:'The general draws his bow at night.'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文。背诵课文。默写《芙蓉楼送辛渐》",en:"Read with feeling, recite from memory, and write \u2018Seeing Off Xin Jian\u2019 from memory"},
         {type:"discuss",cn:"说说下面诗句的意思，再想想这些诗句表现了怎样的精神品格",en:"Explain the meaning of the following lines and what character traits they reveal"},
@@ -864,6 +1033,7 @@ units: [
     },
     {
       id: 23, title: "\u201C诺曼底号\u201D遇难记", titleEn: "The Wreck of the Normandie",
+      difficulty: 3,
       text: [
         "1870年3月17日夜晚，哈尔威船长照例走着从南安普敦到根西岛这条航线。大海上夜色正浓，烟雾弥漫。船长站在驾驶室里，小心翼翼地驾驶着他的\u201C诺曼底号\u201D。乘客们都进入了梦乡。",
         "\u201C诺曼底号\u201D是一艘大轮船，在英伦海峡也许可以算得上是最漂亮的邮船之一。它装货容量六百吨，船体长二百二十英尺，宽二十五英尺。海员们都说它很\u201C年轻\u201D，因为它才七岁，是1863年造的。",
@@ -878,18 +1048,25 @@ units: [
       ],
       textEn: [
         "On the evening of March 17, 1870, Captain Halville sailed his regular route from Southampton to Guernsey. The sea was deeply dark, shrouded in fog. He stood in the wheelhouse, carefully piloting the Normandie. Passengers slept.",
-        "The Normandie was a fine ship, perhaps one of the handsomest mail steamers on the English Channel: 600 tons, 220 feet long, 25 feet wide. Sailors called her \u2018young\u2019 \u2014 only seven years old, built in 1863.",
-        "Suddenly, a dark shape emerged from the fog like a ghost or a mountain peak. A sinister, upturned bow burst through the darkness amid spray. It was the Mary. At full speed, the Mary rammed the Normandie\u2019s side, tearing a gaping hole.",
-        "The impact was terrifying. In an instant, men, women, and children rushed to the deck, half-dressed, screaming, crying, panicking. Seawater poured in, surging and unstoppable.",
+        "The Normandie was a large steamship, perhaps one of the handsomest mail steamers on the English Channel. She had a cargo capacity of six hundred tons, was two hundred and twenty feet long, and twenty-five feet wide. Sailors all said she was \u2018young,\u2019 for she was only seven years old, having been built in 1863.",
+        "Suddenly, a dark dot appeared out of the thick night fog, looking like a phantom, or perhaps a mountain peak. A sinister bow, jutting upward, burst through the darkness and came flying through a spray of waves. It was the Mary. The Mary, at full speed, rammed into the Normandie\u2019s side, slicing open a gaping hole in her hull.",
+        "The jolt was absolutely terrifying. In an instant, men, women, children \u2014 everyone rushed to the deck. Half-clothed, they ran, screamed, wept, panic-stricken, in utter chaos. Seawater came rushing in with a roar, surging and turbulent, impossible to hold back.",
         "Captain Halville stood on the bridge and roared: \u2018Silence! Listen to my orders! Lower the lifeboats. Women first, then passengers, crew last. We must save sixty people!\u2019 In fact there were sixty-one \u2014 he had forgotten himself.",
         "The captain\u2019s commanding voice cut through the cries. In the darkness came a brief, powerful exchange: \u2018Where is engineer Locke?\u2019 \u2018You called, Captain?\u2019 \u2018The boilers?\u2019 \u2018Flooded.\u2019 \u2018The fire?\u2019 \u2018Out.\u2019 \u2018The engines?\u2019 \u2018Stopped.\u2019 \u2018How many minutes?\u2019 \u2018Twenty.\u2019 \u2018Enough.\u2019",
-        "Everyone fell silent. No one defied him. They felt a great soul had appeared above them.",
+        "Everyone immediately fell silent. Not a single person defied his will; people felt that a great soul had appeared above them.",
         "The rescue proceeded in perfect order with almost no quarrels or fights. Captain Halville stood towering at his post, commanding, directing, leading. He thought of every detail and every person. Facing the panicked crowd, he was calm and composed, as if giving orders not to people but to the disaster itself \u2014 even the sinking ship seemed to obey.",
         "Twenty minutes passed. The ship sank. The bow went first; moments later, the stern was submerged. Captain Halville made no gesture, spoke no word. Like iron cast, motionless, he sank with his ship into the deep. Through the dismal fog, people watched that black statue slowly descend into the sea.",
         "So ended Captain Halville\u2019s life. On the English Channel, no sailor could compare with him. All his life he demanded of himself loyalty to duty and the practice of virtue. Facing death, he performed one final act of heroism."
       ],
       recognizeChars: ["弥","脉","葬","剖","裸","泣","汹","维","酣","械","岗","宰","遣"],
       writeChars: ["伦","腹","剖","窟","窿","混","嘶","维","秩","岗","宰","措","遣","践"],
+      vocabWords: [
+        {word:'船长',pinyin:'chuán zhǎng',en:'captain',sentence:'哈尔威船长。',sentenceEn:'Captain Halville.'},
+        {word:'沉着',pinyin:'chén zhuó',en:'calm',sentence:'船长沉着指挥。',sentenceEn:'The captain commanded calmly.'},
+        {word:'救援',pinyin:'jiù yuán',en:'rescue',sentence:'组织救援工作。',sentenceEn:'Organized rescue efforts.'},
+        {word:'秩序',pinyin:'zhì xù',en:'order',sentence:'维持秩序。',sentenceEn:'Maintain order.'},
+        {word:'英雄',pinyin:'yīng xióng',en:'hero',sentence:'船长是真正的英雄。',sentenceEn:'The captain was a true hero.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，读好人物的对话",en:"Read aloud, paying attention to the characters\u2019 dialogue"},
         {type:"discuss",cn:"\u201C诺曼底号\u201D遇难时，哈尔威船长是怎么做的？你从中感受到他怎样的品质？",en:"What did Captain Halville do when the Normandie was in peril? What qualities do you see?"},
@@ -906,6 +1083,7 @@ units: [
     },
     {
       id: 24, title: "黄继光", titleEn: "Huang Jiguang",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "1952年10月，上甘岭战役打响了。这是朝鲜战场上最激烈的一次阵地战。",
@@ -919,16 +1097,23 @@ units: [
       ],
       textEn: [
         "In October 1952, the Battle of Shangganling began \u2014 the fiercest positional battle of the Korean War.",
-        "Huang Jiguang\u2019s battalion had fought for four days and nights. On the fifth night, orders came to capture Hill 597.9 before dawn.",
-        "The attack began with roaring artillery. Soldiers took hill after hill, nearing the peak. Suddenly, a fierce enemy bunker opened fire. Repeated charges were driven back by bullets thicker than rain.",
+        "Huang Jiguang\u2019s battalion had been fighting continuously for four days and four nights. On the fifth night, they received orders from their superiors to capture Hill 597.9, occupied by the enemy, before dawn.",
+        "The attack began; cannons roared. The soldiers captured one hilltop after another and were about to reach the main peak of Hill 597.9. Suddenly, an enemy firing position opened up with ferocious gunfire. The soldiers charged again and again, but each time they were driven back by bullets even thicker than raindrops.",
         "Huang Jiguang stared angrily at the enemy position, then turned firmly to the battalion staff officer: \u2018Sir, give this mission to me!\u2019 With two soldiers and grenades, he cried: \u2018Let the people of our motherland hear our victory!\u2019 and crawled toward the bunker.",
-        "The enemy turned machine guns on him; bullets flew like hail. Wounded in the shoulder and legs, he used all his strength to crawl on \u2014 twenty meters, ten meters\u2026 closer, closer still.",
+        "The enemy in the firing position aimed their machine guns at Huang Jiguang, and bullets came flying like hail. Huang Jiguang was wounded in the shoulder and legs. He used every ounce of strength in his body and crawled forward even more tenaciously \u2014 twenty meters, ten meters\u2026 closer, closer still.",
         "Suddenly Huang Jiguang stood up \u2014 stood up in a storm of bullets! He raised his right arm; the grenade gleamed in the searchlight. Boom! The bunker half-collapsed; Huang Jiguang fell unconscious.",
         "Dawn approached; the deadline was nearly up. Then Huang Jiguang stood again! He spread his arms wide and threw himself at the blazing gun port, blocking the enemy\u2019s muzzle with his own chest.",
         "\u2018Charge! Avenge Huang Jiguang!\u2019 The earth-shaking cry rang out. Soldiers surged forward like a tidal wave, capturing Hill 597.9 and destroying all enemy forces."
       ],
       recognizeChars: ["役","屡","启","摧","雹","晕","膛"],
       writeChars: [],
+      vocabWords: [
+        {word:'战斗',pinyin:'zhàn dòu',en:'battle',sentence:'上甘岭战斗。',sentenceEn:'The Battle of Shangganling.'},
+        {word:'堡垒',pinyin:'bǎo lěi',en:'bunker',sentence:'敌人的火力堡垒。',sentenceEn:'The enemy bunker.'},
+        {word:'匍匐',pinyin:'pú fú',en:'crawl',sentence:'匍匐前进。',sentenceEn:'Crawling forward.'},
+        {word:'牺牲',pinyin:'xī shēng',en:'sacrifice',sentence:'黄继光英勇牺牲。',sentenceEn:'Huang Jiguang heroically sacrificed himself.'},
+        {word:'光荣',pinyin:'guāng róng',en:'glorious',sentence:'光荣的战斗英雄。',sentenceEn:'A glorious battle hero.'}
+      ],
       exercises: [
         {type:"read",cn:"读一读，找出课文中描写语言、动作的语句，说说从中体会到了怎样的英雄气概",en:"Find sentences describing speech and actions, and explain what heroism you feel"},
         {type:"think",cn:"读读其他英雄人物故事，和同学交流",en:"Read other hero stories and discuss them with classmates"}
@@ -944,6 +1129,7 @@ units: [
     },
     {
       id: 25, title: "挑山工", titleEn: "Mountain Porters",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "在泰山上，随处都可以碰到挑山工。他们肩上搭一根光溜溜的扁担，扁担两头的绳子挂着沉甸甸的货物。登山的时候，他们一条胳膊搭在扁担上，另一条胳膊随着步子有节奏地一甩一甩，使身体保持平衡。他们走的路线是折尺形的，从台阶左侧起步，斜行向上，登上七八级，到了台阶右侧，就转过身子，反方向斜行，到了左侧再转回来。每转一次身，扁担换一次肩。这样曲折向上登，才能使挂在扁担前头的东西不碰到台阶，还可以省些力气。担了重物，如果照一般登山的人那样直往上走，膝盖会受不住的。但是路线曲折，就会使路程加长。挑山工登山走的路程大约比游人多一倍！",
@@ -953,14 +1139,24 @@ units: [
         "我心悦诚服地点着头，感到这位山民的几句朴素的话，似乎包蕴着意味深长的哲理。从泰山回来，我画了一幅画——在陡直的似乎没有尽头的山道上，一个穿红背心的挑山工给肩头的重物压弯了腰，他一步一步地向上攀登。这幅画一直挂在我的书桌前，因为我需要它。"
       ],
       textEn: [
-        "Mountain porters can be seen everywhere on Mount Tai. A smooth carrying pole rests on their shoulders, heavy loads hanging from ropes at each end. While climbing, one arm rests on the pole, the other swings rhythmically for balance. They walk a zigzag path: starting from the left side of the steps, angling upward for seven or eight steps to the right, then turning back leftward. With each turn, the pole shifts shoulders. This zigzag prevents loads from hitting the steps and saves energy. Carrying heavy loads straight up would be too much for the knees. But the zigzag path is twice as long as a tourist\u2019s!",
-        "Strangely, porters don\u2019t take more time than tourists. You walk briskly past them, sure you\u2019ve left them far behind. While you admire the scenery, read ancient inscriptions carved in cliff walls, or wash your feet in a noisy stream, they\u2019ve already silently passed you. When you notice, you\u2019re astonished \u2014 as if they flew there on clouds.",
-        "Once, painting with friends on Mount Tai, I experienced this. I voiced my puzzle: \u2018You walk so slowly, yet you\u2019re always ahead of us. Is there a shortcut?\u2019",
-        "He smiled knowingly. \u2018We have no shortcut \u2014 we walk the same path. You\u2019re faster without a load, but you stop to look around and play. We\u2019re different. We can\u2019t be casual. Every step must be firm; we can\u2019t waste time. We keep going steadily. We may be slow, but in the long run we get ahead.\u2019",
+        "Mountain porters can be seen everywhere on Mount Tai. A smooth carrying pole rests on their shoulders, with ropes at each end holding heavy loads. While climbing, one arm rests on the pole, while the other swings rhythmically with each step to keep balance. They walk a zigzag path, like a folding ruler: starting from the left side of the steps, they angle upward, climb seven or eight steps until they reach the right side, then turn around and angle in the opposite direction, turning back again when they reach the left side. With each turn, the pole shifts to the other shoulder. Only by zigzagging upward like this can the loads hanging from the front of the pole avoid hitting the steps, and it also saves some energy. Carrying heavy loads straight up the way ordinary climbers do would be too much for the knees. But the zigzag route makes the distance much longer. The path a mountain porter walks is roughly twice as long as a tourist\u2019s!",
+        "Strangely, porters don\u2019t take more time than tourists. You walk briskly past them, thinking you\u2019ve left them far behind. While you\u2019re somewhere feasting your eyes on the magnificent mountain scenery, or reading aloud ancient inscriptions carved into the stone cliffs along the path, or washing your face and feet by a noisy stream, they have already silently passed you and quietly gotten ahead. When you notice, you\u2019re astonished, thinking they must have flown there on clouds like immortals.",
+        "Once, I went to Mount Tai to paint from life with a few painter friends and encountered exactly this situation. I spoke aloud the riddle in my heart: \u2018I see you walking so slowly, yet how is it you always end up ahead of us? Do you have some shortcut?\u2019",
+        "Hearing this, a trace of pride appeared on his dark face. He said: \u2018What shortcut could we have? Don\u2019t we walk the very same path as you? You don\u2019t have a load on your shoulders, so sure, you walk faster, but along the way you\u2019re looking here and there, playing around, and you always have to stop! We\u2019re not like you \u2014 we can\u2019t be as free and easy as you, doing whatever we please. We can\u2019t afford a single unsteady step, and we certainly can\u2019t waste time. We have to keep pushing forward without stopping. Don\u2019t be fooled by our slowness \u2014 over the long haul, we end up ahead of you.\u2019",
         "I nodded, deeply convinced. This mountain man\u2019s simple words seemed to contain profound philosophy. After returning from Mount Tai, I painted a picture: on a steep, seemingly endless mountain path, a porter in a red vest, bent under his heavy load, climbing step by step. That painting has hung before my desk ever since, because I need it."
       ],
       recognizeChars: ["泰","杖","敞","拘","蕴"],
       writeChars: [],
+      vocabWords: [
+        {word:'挑山工',pinyin:'tiāo shān gōng',en:'mountain porter',sentence:'泰山上的挑山工。',sentenceEn:'Mountain porters on Mount Tai.'},
+        {word:'扁担',pinyin:'biǎn dan',en:'carrying pole',sentence:'肩挑扁担。',sentenceEn:'Carrying a pole on the shoulder.'},
+        {word:'折尺',pinyin:'zhé chǐ',en:'zigzag',sentence:'走折尺形路线。',sentenceEn:'Walking a zigzag route.'},
+        {word:'朴素',pinyin:'pǔ sù',en:'simple',sentence:'朴素的道理。',sentenceEn:'A simple truth.'},
+        {word:'脚踏实地',pinyin:'jiǎo tà shí dì',en:'down-to-earth',sentence:'一步一步脚踏实地。',sentenceEn:'Steadily, step by step.'}
+      ],
+      grammarPoints: [
+        {point:'借物喻理',pointEn:'jiè wù yù lǐ',example:'use things to illustrate ideas',exampleEn:'挑山工虽然走得慢但不停歇。',explanation:'Mountain porters walk slowly but never stop.',explanationEn:'通过具体事物说明深刻道理'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，说说挑山工是怎样登山的",en:"Read silently and describe how mountain porters climb"},
         {type:"think",cn:"作者说\u201C这位山民的几句朴素的话，似乎包蕴着意味深长的哲理\u201D，找出这几句话读一读，说说其中包含了怎样的哲理",en:"Find the porter\u2019s words the author calls \u2018profoundly philosophical\u2019 and explain the wisdom in them"}
@@ -977,7 +1173,7 @@ units: [
   ],
   oralComm: {title:"自我介绍",titleEn:"Self-Introduction",prompt:{cn:"面对不同的情况，自我介绍也应该有所不同。选择或创设一个情境，试着作自我介绍。",en:"Self-introductions should vary by situation. Choose or create a scenario and practice introducing yourself."}},
   garden: {
-    accumulation: {title:"日积月累",titleEn:"Daily Accumulation",content:{cn:"天行健，君子以自强不息。——《周易》\n胜人者有力，自胜者强。——《老子》\n不怨天，不尤人。——《论语》\n生于忧患而死于安乐。——《孟子》",en:"Heaven\u2019s movement is strong; a noble person strives ceaselessly. \u2014 Book of Changes\nOne who overcomes others has strength; one who overcomes oneself is truly strong. \u2014 Laozi\nDo not blame heaven or fault others. \u2014 Analerta\nBorn in adversity, perish in comfort. \u2014 Mencius"}},
+    accumulation: {title:"日积月累",titleEn:"Daily Accumulation",content:{cn:"天行健，君子以自强不息。——《周易》\n胜人者有力，自胜者强。——《老子》\n不怨天，不尤人。——《论语》\n生于忧患而死于安乐。——《孟子》",en:"Heaven\u2019s movement is strong; a noble person strives ceaselessly. \u2014 Book of Changes\nOne who overcomes others has strength; one who overcomes oneself is truly strong. \u2014 Laozi\nDo not blame heaven or fault others. \u2014 Analects\nBorn in adversity, perish in comfort. \u2014 Mencius"}},
     wordSentence: {title:"词句段运用",titleEn:"Words, Sentences & Paragraphs",content:{cn:"仿照例句写一组连续的动作；用学过的修改符号修改一段话。了解词语：和蔼、慷慨、贤惠、悲戚、临危不惧、彬彬有礼、焦躁不安、心急如焚。",en:"Write a sequence of continuous actions following the model; revise a paragraph using proofreading marks. Learn vocabulary: amiable, generous, virtuous, grieving, fearless in danger, courteous, restless, anxious as if on fire."}},
     composition: {title:"习作：我的\u201C自画像\u201D",titleEn:"Composition: My Self-Portrait",prompt:{cn:"假如你们班来了一位新班主任，请以\u201C我的\u2018自画像\u2019\u201D为题，向班主任介绍自己。",en:"Imagine a new class teacher arrives. Write a \u2018self-portrait\u2019 to introduce yourself to them."}}
   }
@@ -991,6 +1187,7 @@ units: [
   lessons: [
     {
       id: 26, title: "宝葫芦的秘密（节选）", titleEn: "The Secret of the Magic Gourd (Excerpt)",
+      difficulty: 3,
       text: [
         "我来给你们讲个故事。可是我先得介绍介绍我自己：我姓王，叫王葆。我要讲的，正是我自己的一件事情，是我和宝葫芦的故事。",
         "至于宝葫芦的故事，那我从小就知道了。那是我奶奶讲给我听的。奶奶每逢要求我干什么，就得给我讲个故事。这是我们的规矩。",
@@ -1005,12 +1202,19 @@ units: [
         "I\u2019ve known about the magic gourd since childhood. My grandma told me the stories. Whenever she wanted me to do something, she had to tell a story. That was our rule.",
         "\u2018Good little Bao, come, let Grandma wash your feet.\u2019 Grandma would chase me while beckoning. \u2018No! It\u2019s too hot!\u2019 I\u2019d dodge while waving her off. And so, Grandma told me a magic gourd story.",
         "From earliest childhood until I was about ten, Grandma told me stories \u2014 each one different. Once it was Zhang San bumping into an immortal and getting a magic gourd. Next it was Li Si traveling to the Dragon Palace and finding one. No matter who it was, once they had the magic gourd, they were perfectly happy \u2014 whatever they wished for appeared.",
-        "After hearing these stories, I\u2019d think: \u2018If I had a magic gourd, what would I do? What would I wish for?\u2019",
+        "After hearing these stories, I would often relate them to myself: \u2018If I had a magic gourd, what would I do? What would I wish for?\u2019",
         "Even after growing up, I sometimes thought about it. Staring blankly at a math problem, not knowing how to set up the equation, the figure \u20188\u2019 would remind me of a gourd \u2014 if only I had one!",
         "When my classmates and I competed growing sunflowers, mine were scrawny with tiny heads, pathetic compared to everyone else\u2019s. I thought of the magic gourd again. But it was just a fantasy. Yet I kept thinking about it."
       ],
       recognizeChars: ["妖","矩","乖","撵","丫","拽","冲","瘦"],
       writeChars: ["介","绍","妖","矩","乖","撵","烫","丫","拽","福","舔","葵","瘦","棒","罢"],
+      vocabWords: [
+        {word:'宝葫芦',pinyin:'bǎo hú lu',en:'magic gourd',sentence:'我有一个宝葫芦。',sentenceEn:'I have a magic gourd.'},
+        {word:'心想事成',pinyin:'xīn xiǎng shì chéng',en:'wishes come true',sentence:'宝葫芦能心想事成。',sentenceEn:'The magic gourd grants wishes.'},
+        {word:'奶奶',pinyin:'nǎi nai',en:'grandmother',sentence:'奶奶讲的故事。',sentenceEn:'Stories grandmother told.'},
+        {word:'幻想',pinyin:'huàn xiǎng',en:'fantasy',sentence:'美好的幻想。',sentenceEn:'A beautiful fantasy.'},
+        {word:'秘密',pinyin:'mì mì',en:'secret',sentence:'这是一个秘密。',sentenceEn:'This is a secret.'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，说一说王葆为什么想得到一个宝葫芦",en:"Read silently and explain why Wang Bao wanted a magic gourd"},
         {type:"discuss",cn:"奶奶给王葆讲了哪些故事？选一个，根据已有内容创编故事",en:"What stories did Grandma tell? Choose one and create your own version based on the content"},
@@ -1027,6 +1231,7 @@ units: [
     },
     {
       id: 27, title: "巨人的花园", titleEn: "The Giant\u2019s Garden",
+      difficulty: 3,
       text: [
         "每天下午，孩子们放学后，总喜欢到巨人的花园里去玩。这是一个很可爱的大花园。园里长满了柔嫩的青草，草丛中到处露出星星似的美丽花朵。还有十二棵桃树，春天开出淡红色和珍珠色的鲜花，秋天结出丰硕的果子。小鸟们在树上唱着悦耳的歌。\u201C我们在这儿多么快乐！\u201D孩子们欢叫着。",
         "有一天，巨人回来了。他离家去看朋友，一住就是七年。他看见孩子们正在花园里玩。\u201C你们在这儿做什么？\u201D他叱责道。孩子们吓得跑开了。\u201C我自己的花园就是我自己的花园，\u201D巨人自言自语道，\u201C除了我自己以外，我不允许任何人在里面玩。\u201D于是他在花园的四周砌了一道高墙，挂出一块布告牌：禁止入内，违者重惩。",
@@ -1036,15 +1241,22 @@ units: [
         "从那以后，巨人的花园又成了孩子们的乐园。许多年过去，巨人老了。他不能再跟孩子们一块儿玩了，只能坐在椅子上看孩子们玩各种游戏，同时也欣赏着他自己的花园。他说：\u201C我有许多美丽的花，可孩子们却是最美丽的花。\u201D"
       ],
       textEn: [
-        "Every afternoon after school, children loved playing in the Giant\u2019s garden. It was a lovely big garden with soft green grass dotted with beautiful star-like flowers, and twelve peach trees that bloomed pink and pearl in spring and bore rich fruit in autumn. Birds sang sweetly. \u2018How happy we are here!\u2019 the children cried.",
-        "One day the Giant returned after visiting a friend for seven years. Seeing children in his garden, he scolded: \u2018What are you doing here?\u2019 The children fled. \u2018My garden is mine alone,\u2019 he muttered, and built a high wall around it with a sign: NO TRESPASSING. VIOLATORS PUNISHED.",
+        "Every afternoon after school, children always loved to go and play in the Giant\u2019s garden. It was a very lovely big garden. The garden was full of soft, tender green grass, and everywhere among the grass beautiful flowers peeked out like stars. There were also twelve peach trees that bloomed with pale pink and pearl-colored blossoms in spring and bore rich fruit in autumn. Birds sang sweet songs in the trees. \u2018How happy we are here!\u2019 the children cried joyfully.",
+        "One day, the Giant came back. He had gone to visit a friend and ended up staying for seven years. He saw the children playing in his garden. \u2018What are you doing here?\u2019 he scolded. The children were so frightened that they ran away. \u2018My own garden is my own garden,\u2019 the Giant muttered to himself. \u2018I will not allow anyone except myself to play in it.\u2019 So he built a high wall all around the garden and hung up a notice board: ENTRY FORBIDDEN. VIOLATORS SEVERELY PUNISHED.",
         "Spring came everywhere with flowers and birdsong \u2014 except in the Giant\u2019s garden, where winter lingered. Birds wouldn\u2019t sing without children; peach trees forgot to bloom. Only Snow and Frost were happy; they invited North Wind to stay, and he howled through the garden all day.",
-        "One morning, the Giant heard lovely music. He looked outside. Children had crept through a hole in the wall and sat in the peach trees, which joyfully decked themselves with blossoms. But one corner remained wintry. A small boy stood there, too short to reach the branches, walking round and round the tree, crying bitterly.",
-        "The Giant\u2019s heart softened. \u2018How selfish I\u2019ve been! Now I understand why spring won\u2019t come.\u2019 He crept downstairs, tiptoed to the little boy, gently lifted him into the tree. It instantly bloomed; birds flew in singing. The other children, seeing the Giant was no longer fierce, returned. Spring came back too. \u2018Children, the garden is yours now,\u2019 said the Giant, and with a great axe he demolished the wall.",
+        "One morning, the Giant was still sleeping when he suddenly heard beautiful music. He jumped out of bed and looked outside. The children had crawled through a small hole in the wall into the garden, and they were all sitting in the peach trees. The peach trees were so happy to see the children back that they decked themselves out with blossoms. But one corner was still winter. A small boy stood there; he was too small, and his hands could not reach the branches, so he could only walk round and round the tree, crying bitterly.",
+        "Seeing this, the Giant\u2019s heart softened. He said to himself: \u2018How selfish I have been! Now I understand why spring refused to come here.\u2019 He softly walked downstairs and into the garden. The Giant quietly crept behind the little boy, gently picked him up, and set him on a branch. The tree immediately burst into bloom, and birds flew over to sing. The other children, seeing that the Giant was no longer as fierce as before, all came running back. Spring came back with them. The Giant said to them: \u2018Children, the garden is yours now.\u2019 He took out a great axe and tore down the wall.",
         "From then on, the garden was the children\u2019s paradise again. Years passed; the Giant grew old. He could no longer play but sat watching the children, admiring his garden. \u2018I have many beautiful flowers,\u2019 he said, \u2018but children are the most beautiful flowers of all.\u2019"
       ],
       recognizeChars: ["硕","允","砌","覆","啸","缕","搂","颊"],
       writeChars: ["硕","允","砌","牌","禁","惩","踪","啸","私","颊","拆"],
+      vocabWords: [
+        {word:'巨人',pinyin:'jù rén',en:'giant',sentence:'巨人有一个花园。',sentenceEn:'The giant had a garden.'},
+        {word:'围墙',pinyin:'wéi qiáng',en:'wall',sentence:'巨人砌了围墙。',sentenceEn:'The giant built a wall.'},
+        {word:'孤独',pinyin:'gū dú',en:'lonely',sentence:'巨人感到很孤独。',sentenceEn:'The giant felt very lonely.'},
+        {word:'融化',pinyin:'róng huà',en:'melt',sentence:'冰雪融化了。',sentenceEn:'The ice and snow melted.'},
+        {word:'分享',pinyin:'fēn xiǎng',en:'share',sentence:'巨人学会了分享。',sentenceEn:'The giant learned to share.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，边读边想象画面",en:"Read aloud while imagining the scenes"},
         {type:"discuss",cn:"说说巨人的花园发生了哪些变化，巨人又有什么转变",en:"Describe the changes in the garden and the Giant\u2019s transformation"},
@@ -1061,6 +1273,7 @@ units: [
     },
     {
       id: 28, title: "海的女儿", titleEn: "The Little Mermaid",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "在海的远处，水是那么蓝，像最美丽的矢车菊花瓣；又是那么清，像最明亮的玻璃。同时它又是那么深，深得任何铁锚都达不到底。要想从海底一直达到水面，必须把许多许多教堂的尖塔一个一个地叠起来才成。海底的人就住在这下面。",
@@ -1072,14 +1285,21 @@ units: [
       ],
       textEn: [
         "Far out at sea, the water is as blue as the prettiest cornflower petals, as clear as the purest glass, and so deep that no anchor can reach the bottom. To span from seabed to surface, you would need to stack many, many church steeples. Sea folk live down there.",
-        "But don\u2019t imagine it\u2019s just white sand. The strangest trees and plants grow there, branches and leaves so soft they sway at the slightest current as if alive. Fish glide among them like birds in the sky. In the deepest part stands the Sea King\u2019s palace, with walls of coral, tall arched windows of the clearest amber, and a roof of black mussel shells that open and close with the current.",
+        "But do not by any means imagine that there is nothing down there but a seabed covered with white sand. No! The most wondrous trees and other plants grow there. Their branches and leaves are so soft that at the slightest movement of the water they sway as if they were alive. Fish swim in and out among the branches and leaves, just like birds in the sky. In the very deepest part of the sea stands the Sea King\u2019s palace. Its walls are built of coral, its tall pointed windows are made of the clearest amber, and its roof is covered with black mussel shells that open and close with the flow of the water.",
         "The Sea King had lived alone for many years; his old mother managed the household. There were six beautiful princesses, and the youngest was the most beautiful of all. Her skin was smooth as rose petals; her eyes were blue as the deepest lake. Like her sisters, she had no legs \u2014 her lower body was a fish tail.",
-        "Each princess had her own garden plot. The youngest made hers round like the sun and planted only sun-red flowers. She was a peculiar child, seldom speaking, always lost in thought.",
+        "In the garden, each princess had her own little plot. But the youngest arranged her flower bed to be perfectly round, like the sun, and she planted only flowers as red as the sun. She was a peculiar child who did not much like to talk and was always quietly thinking about something.",
         "Her greatest joy was hearing stories about the human world above. Her grandmother told her everything she knew about ships, cities, people, and animals. What fascinated her most was that flowers on land could give off fragrance, while sea flowers could not.",
         "\u2018When you turn fifteen,\u2019 said Grandmother, \u2018I\u2019ll let you rise to the surface. Then you may sit on rocks in the moonlight and watch great ships sail by. You\u2019ll see forests and cities.\u2019"
       ],
       recognizeChars: ["矢","殿","抚","硫","鲸","昵","恰"],
       writeChars: [],
+      vocabWords: [
+        {word:'人鱼',pinyin:'rén yú',en:'mermaid',sentence:'小人鱼公主。',sentenceEn:'The little mermaid princess.'},
+        {word:'向往',pinyin:'xiàng wǎng',en:'yearn for',sentence:'小人鱼向往人类世界。',sentenceEn:'The mermaid yearned for the human world.'},
+        {word:'泡沫',pinyin:'pào mò',en:'foam',sentence:'变成了海上的泡沫。',sentenceEn:'Turned into foam on the sea.'},
+        {word:'善良',pinyin:'shàn liáng',en:'kind',sentence:'小人鱼善良勇敢。',sentenceEn:'The mermaid was kind and brave.'},
+        {word:'灵魂',pinyin:'líng hún',en:'soul',sentence:'她想要一个不灭的灵魂。',sentenceEn:'She wanted an immortal soul.'}
+      ],
       exercises: [
         {type:"read",cn:"用较快的速度读一读，说说你觉得奇妙的地方",en:"Read at a quick pace and share what you find wondrous"},
         {type:"think",cn:"那位最小的公主给你留下了怎样的印象？感兴趣的同学可以完整地读读这篇童话",en:"What impression does the youngest princess leave? Interested students can read the full fairy tale"}

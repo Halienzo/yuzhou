@@ -17,6 +17,7 @@ units: [
   lessons: [
     {
       id: 1, title: "古诗二首", titleEn: "Two Ancient Poems",
+      difficulty: 1,
       text: [
         "村居 [清]高鼎",
         "草长莺飞二月天，拂堤杨柳醉春烟。",
@@ -43,6 +44,13 @@ units: [
       ],
       recognizeChars: ["莺","拂","堤","柳","醉","咏","妆","丝","绦","裁","剪"],
       writeChars: ["诗","童","趁","碧","妆","绿","丝","剪"],
+      vocabWords: [
+        {word:'村庄',pinyin:'cūn zhuāng',en:'village',sentence:'草长莺飞二月天。',sentenceEn:'Grass grows and orioles fly in February.'},
+        {word:'堤岸',pinyin:'dī àn',en:'embankment',sentence:'拂堤杨柳醉春烟。',sentenceEn:'Willows brush the embankment in spring haze.'},
+        {word:'纸鸢',pinyin:'zhǐ yuān',en:'kite',sentence:'忙趁东风放纸鸢。',sentenceEn:'Hurry to fly kites in the east wind.'},
+        {word:'绝句',pinyin:'jué jù',en:'quatrain',sentence:'迟日江山丽。',sentenceEn:'Slow sun, beautiful land and river.'},
+        {word:'春风',pinyin:'chūn fēng',en:'spring breeze',sentence:'春风花草香。',sentenceEn:'Spring wind, flowers and grass fragrant.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"discuss",cn:"想象诗中描写的春天景象",en:"Imagine the spring scenes described in the poems"}
@@ -59,6 +67,7 @@ units: [
     },
     {
       id: 2, title: "找春天", titleEn: "Finding Spring",
+      difficulty: 1,
       text: [
         "春天来了！春天来了！",
         "我们几个孩子，脱掉棉袄，冲出家门，奔向田野，去寻找春天。",
@@ -91,6 +100,13 @@ units: [
       ],
       recognizeChars: ["脱","袄","冲","寻","姑","娘","仔","吐","柳","荡","桃","杏"],
       writeChars: ["冲","寻","姑","娘","仔","吐","柳","荡","桃","杏"],
+      vocabWords: [
+        {word:'春天',pinyin:'chūn tiān',en:'spring',sentence:'春天来了！我们去找春天。',sentenceEn:'Spring is here! Let us find spring.'},
+        {word:'嫩芽',pinyin:'nèn yá',en:'tender bud',sentence:'小草从地下探出头来。',sentenceEn:'Little grass pokes out its head from underground.'},
+        {word:'解冻',pinyin:'jiě dòng',en:'thaw',sentence:'小溪丁丁冬冬。',sentenceEn:'The brook goes ding-dong.'},
+        {word:'野花',pinyin:'yě huā',en:'wildflower',sentence:'野花一朵两朵。',sentenceEn:'Wildflowers, one, two.'},
+        {word:'探出',pinyin:'tàn chū',en:'poke out',sentence:'小草从地下探出头来。',sentenceEn:'Grass pokes its head above ground.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"说说你找到的春天是什么样的",en:"Describe the spring you\u2019ve found"}
@@ -107,6 +123,7 @@ units: [
     },
     {
       id: 3, title: "开满鲜花的小路", titleEn: "The Path Full of Flowers",
+      difficulty: 1,
       text: [
         "鼹鼠先生收到长颈鹿大叔寄来的包裹。他走到邮局去领包裹。",
         "他拿着包裹，往家走。走着走着，他看见包裹上有个洞。他赶紧堵住了洞。到了家，他打开包裹一看，里面空空的，什么也没有。",
@@ -121,7 +138,7 @@ units: [
       ],
       textEn: [
         "Mr. Mole received a package from Uncle Giraffe. He went to the post office to pick it up.",
-        "Carrying the package home, he noticed a hole in it. He quickly covered it. At home, he opened the package \u2014 it was empty.",
+        "He carried the package and headed home. As he walked along, he noticed a hole in the package. He quickly plugged the hole. When he got home, he opened the package and looked inside \u2014 it was completely empty, with nothing in it at all.",
         "He ran to ask Mrs. Squirrel: \u201CDo you know what Uncle Giraffe sent me?\u201D",
         "Mrs. Squirrel didn\u2019t know. Mrs. Hedgehog didn\u2019t know either.",
         "Spring came. Mr. Mole walked out and saw \u2014 oh! The little path was full of flowers, beautiful in all colors.",
@@ -145,6 +162,13 @@ units: [
       ],
       recognizeChars: ["鲜","邮","递","员","原","叔","局","堆","认","礼"],
       writeChars: ["鲜","邮","递","员","原","叔","局","堆","认","礼"],
+      vocabWords: [
+        {word:'邮递员',pinyin:'yóu dì yuán',en:'postman',sentence:'邮递员黄狗送来包裹。',sentenceEn:'Postman Yellow Dog delivered a package.'},
+        {word:'包裹',pinyin:'bāo guǒ',en:'package',sentence:'一个包裹破了。',sentenceEn:'A package was torn.'},
+        {word:'鲜花',pinyin:'xiān huā',en:'fresh flowers',sentence:'小路上开满了鲜花。',sentenceEn:'The path was full of fresh flowers.'},
+        {word:'绚丽',pinyin:'xuàn lì',en:'gorgeous',sentence:'多么绚丽的花朵！',sentenceEn:'How gorgeous the flowers are!'},
+        {word:'惊奇',pinyin:'jīng qí',en:'surprised',sentence:'大家都很惊奇。',sentenceEn:'Everyone was surprised.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"鼹鼠先生门前为什么开满了鲜花？",en:"Why was Mr. Mole\u2019s path full of flowers?"}
@@ -160,6 +184,7 @@ units: [
     },
     {
       id: 4, title: "邓小平爷爷植树", titleEn: "Grandpa Deng Xiaoping Plants Trees",
+      difficulty: 1,
       text: [
         "1987年4月5日，是个令人难忘的日子。",
         "这天，万里无云，春风拂面。在天坛公园植树的人群里，83岁高龄的邓小平爷爷格外引人注目。只见他手握铁锹，兴致勃勃地挖着树坑。",
@@ -183,6 +208,13 @@ units: [
       ],
       recognizeChars: ["邓","植","格","引","注","满","休","息"],
       writeChars: ["邓","植","格","引","注","满","休","息"],
+      vocabWords: [
+        {word:'植树',pinyin:'zhí shù',en:'plant trees',sentence:'邓爷爷去植树。',sentenceEn:'Grandpa Deng went to plant trees.'},
+        {word:'碧绿',pinyin:'bì lǜ',en:'emerald green',sentence:'碧绿的小柏树。',sentenceEn:'An emerald green little cypress.'},
+        {word:'挖坑',pinyin:'wā kēng',en:'dig a hole',sentence:'邓爷爷精心地挖坑。',sentenceEn:'Grandpa Deng carefully dug holes.'},
+        {word:'培土',pinyin:'péi tǔ',en:'add soil',sentence:'培土、浇水。',sentenceEn:'Add soil and water.'},
+        {word:'挺立',pinyin:'tǐng lì',en:'stand tall',sentence:'小柏树挺立在春风里。',sentenceEn:'The cypress stands tall in the spring wind.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"邓爷爷植树时是怎么做的？",en:"How did Grandpa Deng plant the tree?"}
@@ -213,6 +245,7 @@ units: [
   lessons: [
     {
       id: 5, title: "雷锋叔叔，你在哪里", titleEn: "Uncle Lei Feng, Where Are You?",
+      difficulty: 1,
       text: [
         "沿着长长的小溪，寻找雷锋的足迹。雷锋叔叔，你在哪里，你在哪里？",
         "小溪说：昨天，他曾路过这里，抱着迷路的孩子，冒着蒙蒙的细雨。瞧，那泥泞路上的脚窝，就是他留下的足迹。",
@@ -236,6 +269,13 @@ units: [
       ],
       recognizeChars: ["锋","昨","冒","留","弯","背","洒","温","暖"],
       writeChars: ["锋","昨","冒","留","弯","背","洒","温","暖"],
+      vocabWords: [
+        {word:'雷锋',pinyin:'léi fēng',en:'Lei Feng',sentence:'雷锋叔叔，你在哪里？',sentenceEn:'Uncle Lei Feng, where are you?'},
+        {word:'足迹',pinyin:'zú jì',en:'footprint',sentence:'沿着长长的小溪寻找足迹。',sentenceEn:'Following footprints along the long brook.'},
+        {word:'泥泞',pinyin:'ní nìng',en:'muddy',sentence:'踏着泥泞的道路。',sentenceEn:'Walking on the muddy road.'},
+        {word:'年迈',pinyin:'nián mài',en:'elderly',sentence:'背着年迈的大娘。',sentenceEn:'Carrying an elderly woman on his back.'},
+        {word:'温暖',pinyin:'wēn nuǎn',en:'warm',sentence:'哪里需要帮助，哪里就有温暖。',sentenceEn:'Where there is need, there is warmth.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"雷锋叔叔在哪里？他做了什么？",en:"Where is Uncle Lei Feng? What did he do?"}
@@ -251,6 +291,7 @@ units: [
     },
     {
       id: 6, title: "千人糕", titleEn: "Thousand-People Cake",
+      difficulty: 1,
       text: [
         "一天，孩子说：\u201C爸爸，这是什么糕？\u201D",
         "爸爸说：\u201C你尝尝，看能不能猜出来。\u201D",
@@ -273,7 +314,7 @@ units: [
         "The child thought: \u201CIs it egg cake?\u201D",
         "\u201CNo, it\u2019s thousand-people cake.\u201D",
         "\u201CThousand-people cake? Was it really made by a thousand people?\u201D",
-        "Dad said: \u201CYes, think about it. An ordinary cake needs the labor of very many people before it reaches us.\u201D",
+        "Dad said: \u201CYes, think about it. An ordinary, plain cake must go through the labor of very, very many people before it can be placed in front of us.\u201D",
         "\u201CFirst, rice must be grown. Seeds alone aren\u2019t enough \u2014 people must plow, sow, fertilize, water, and harvest, all the way until it becomes rice. Then it needs to be ground into flour, with sugar added.\u201D",
         "\u201CAnd sugar? It\u2019s made from sugarcane. Sugarcane also needs planting, harvesting, and processing to become sugar.\u201D",
         "\u201CEven after the cake is made, it needs packaging, transportation, and selling... See how many people\u2019s labor goes into one cake. Can\u2019t we call it thousand-people cake?\u201D",
@@ -295,6 +336,13 @@ units: [
       ],
       recognizeChars: ["能","桌","味","买","具","甘","甜","菜","劳","的","确","应"],
       writeChars: ["能","桌","味","买","具","甘","甜","菜","劳"],
+      vocabWords: [
+        {word:'米糕',pinyin:'mǐ gāo',en:'rice cake',sentence:'一块平平常常的米糕。',sentenceEn:'An ordinary rice cake.'},
+        {word:'工人',pinyin:'gōng rén',en:'worker',sentence:'种稻子的农民，磨面的工人。',sentenceEn:'Farmers who grow rice, workers who grind flour.'},
+        {word:'劳动',pinyin:'láo dòng',en:'labor',sentence:'需要很多人的劳动。',sentenceEn:'Needs the labor of many people.'},
+        {word:'感谢',pinyin:'gǎn xiè',en:'thank',sentence:'要感谢大家的付出。',sentenceEn:'We should thank everyone for their effort.'},
+        {word:'合作',pinyin:'hé zuò',en:'cooperate',sentence:'人们互相合作。',sentenceEn:'People cooperate with each other.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"为什么叫\u201C千人糕\u201D？",en:"Why is it called \u201Cthousand-people cake\u201D?"}
@@ -310,6 +358,7 @@ units: [
     },
     {
       id: 7, title: "一匹出色的马", titleEn: "An Excellent Horse",
+      difficulty: 1,
       text: [
         "一个春天的傍晚，妈妈牵着妹妹，爸爸牵着我，一家人沿着弯弯的小路，到郊外去散步。",
         "路的一边是田野，葱葱绿绿的，非常可爱，像一片柔软的绿毯。",
@@ -345,6 +394,13 @@ units: [
       ],
       recognizeChars: ["郊","泛","波","纹","葱","软","毯","异","恋","舍","求","株","拾","骑","跨"],
       writeChars: ["匹","妹","波","纹","像","景","恋","舍","求"],
+      vocabWords: [
+        {word:'郊外',pinyin:'jiāo wài',en:'outskirts',sentence:'一家人到郊外散步。',sentenceEn:'The family took a walk in the outskirts.'},
+        {word:'柳枝',pinyin:'liǔ zhī',en:'willow branch',sentence:'妹妹拿到一根柳枝。',sentenceEn:'Sister got a willow branch.'},
+        {word:'出色',pinyin:'chū sè',en:'outstanding',sentence:'这是一匹出色的马。',sentenceEn:'This is an outstanding horse.'},
+        {word:'恋恋不舍',pinyin:'liàn liàn bù shě',en:'reluctant to leave',sentence:'妹妹恋恋不舍。',sentenceEn:'Sister was reluctant to leave.'},
+        {word:'骑',pinyin:'qí',en:'ride',sentence:'妹妹骑着柳枝回家。',sentenceEn:'Sister rode the willow branch home.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"爸爸给妹妹的\u201C出色的马\u201D是什么？",en:"What was the \u201Cexcellent horse\u201D Dad gave to sister?"}
@@ -373,6 +429,7 @@ units: [
   lessons: [
     {
       id: 1, title: "神州谣", titleEn: "Ode to the Divine Land",
+      difficulty: 1,
       text: [
         "我神州，称中华，山川壮，风景佳。",
         "黄河奔，长江涌，长城长，珠峰耸。",
@@ -393,6 +450,13 @@ units: [
       ],
       recognizeChars: ["州","华","涌","峰","耸","隔","峡","与","陆","谊","浓","齐","奋","繁","荣"],
       writeChars: ["州","华","岛","峡","族","谊","齐","奋"],
+      vocabWords: [
+        {word:'神州',pinyin:'shén zhōu',en:'China (poetic)',sentence:'神州大地多壮丽。',sentenceEn:'The land of China is majestic.'},
+        {word:'长江',pinyin:'cháng jiāng',en:'Yangtze River',sentence:'长江黄河万里长。',sentenceEn:'The Yangtze and Yellow River stretch ten thousand miles.'},
+        {word:'黄河',pinyin:'huáng hé',en:'Yellow River',sentence:'黄河是母亲河。',sentenceEn:'The Yellow River is the mother river.'},
+        {word:'珠峰',pinyin:'zhū fēng',en:'Mount Everest',sentence:'珠穆朗玛峰最高。',sentenceEn:'Mount Everest is the highest.'},
+        {word:'台湾',pinyin:'tái wān',en:'Taiwan',sentence:'台湾岛是祖国的宝岛。',sentenceEn:'Taiwan is a treasure island of the motherland.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"discuss",cn:"说说你知道的祖国山川",en:"Talk about the mountains and rivers of China you know"}
@@ -408,6 +472,7 @@ units: [
     },
     {
       id: 2, title: "传统节日", titleEn: "Traditional Festivals",
+      difficulty: 1,
       text: [
         "春节到，人欢笑，贴窗花，放鞭炮。",
         "元宵节，看花灯，大街小巷人如潮。",
@@ -440,6 +505,14 @@ units: [
       ],
       recognizeChars: ["传","统","贴","宵","巷","祭","舟","艾","堂","乞","巧","郎","饼","赏","菊"],
       writeChars: ["贴","街","舟","艾","敬","转","团","热","闹"],
+      vocabWords: [
+        {word:'春节',pinyin:'chūn jié',en:'Spring Festival',sentence:'春节到，放鞭炮。',sentenceEn:'Spring Festival comes, set off firecrackers.'},
+        {word:'元宵节',pinyin:'yuán xiāo jié',en:'Lantern Festival',sentence:'元宵节看花灯。',sentenceEn:'Watch lanterns at the Lantern Festival.'},
+        {word:'清明节',pinyin:'qīng míng jié',en:'Tomb-Sweeping Day',sentence:'清明节去扫墓。',sentenceEn:'Sweep tombs on Tomb-Sweeping Day.'},
+        {word:'端午节',pinyin:'duān wǔ jié',en:'Dragon Boat Festival',sentence:'端午节赛龙舟。',sentenceEn:'Race dragon boats at Dragon Boat Festival.'},
+        {word:'中秋节',pinyin:'zhōng qiū jié',en:'Mid-Autumn Festival',sentence:'中秋月儿明。',sentenceEn:'The Mid-Autumn moon is bright.'},
+        {word:'重阳节',pinyin:'chóng yáng jié',en:'Double Ninth Festival',sentence:'重阳节要敬老。',sentenceEn:'Respect elders on Double Ninth Festival.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"discuss",cn:"说说你最喜欢的传统节日",en:"Talk about your favorite traditional festival"}
@@ -455,6 +528,7 @@ units: [
     },
     {
       id: 3, title: "\u201C贝\u201D的故事", titleEn: "The Story of \u201CShell\u201D",
+      difficulty: 1,
       text: [
         "一些生活在水里的动物，用贝壳保护自己的身体。甲骨文中的\u201C贝\u201D字，画的就是贝壳的两扇壳张开的样子。",
         "古时候，人们觉得贝壳很漂亮，很珍贵，喜欢把它们当作饰品戴在身上。而且贝壳可以随身携带，不容易损坏，于是古人还把贝壳当作钱币使用。",
@@ -472,6 +546,13 @@ units: [
       ],
       recognizeChars: ["甲","骨","漂","珍","饰","品","随","易","损","币","财","赚","赔","购","贫"],
       writeChars: ["贝","壳","甲","骨","钱","币","与","财","购"],
+      vocabWords: [
+        {word:'贝壳',pinyin:'bèi ké',en:'shell',sentence:'古人用贝壳当钱币。',sentenceEn:'Ancients used shells as currency.'},
+        {word:'珍贵',pinyin:'zhēn guì',en:'precious',sentence:'贝壳很珍贵。',sentenceEn:'Shells were precious.'},
+        {word:'钱币',pinyin:'qián bì',en:'money; currency',sentence:'用贝壳做钱币。',sentenceEn:'Used shells as currency.'},
+        {word:'偏旁',pinyin:'piān páng',en:'radical',sentence:'贝字旁的字和钱有关。',sentenceEn:'Characters with shell radical relate to money.'},
+        {word:'财富',pinyin:'cái fù',en:'wealth',sentence:'贝代表财富。',sentenceEn:'Shell represents wealth.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"用\u201C贝\u201D做偏旁的字为什么大多与钱财有关？",en:"Why are characters with the shell radical mostly related to money?"}
@@ -487,6 +568,7 @@ units: [
     },
     {
       id: 4, title: "中国美食", titleEn: "Chinese Cuisine",
+      difficulty: 1,
       text: [
         "凉拌菠菜 香煎豆腐 红烧茄子",
         "烤鸭 水煮鱼 葱爆羊肉",
@@ -507,6 +589,13 @@ units: [
       ],
       recognizeChars: ["菠","煎","腐","茄","烤","煮","爆","炖","蘑","菇","蒸","饺","炸","酱","粥","蛋"],
       writeChars: ["烧","茄","烤","鸭","肉","鸡","蛋","炒","饭"],
+      vocabWords: [
+        {word:'凉拌',pinyin:'liáng bàn',en:'cold-mixed (salad)',sentence:'凉拌菠菜。',sentenceEn:'Cold-mixed spinach.'},
+        {word:'红烧',pinyin:'hóng shāo',en:'braised in soy sauce',sentence:'红烧茄子。',sentenceEn:'Braised eggplant.'},
+        {word:'清蒸',pinyin:'qīng zhēng',en:'steamed',sentence:'清蒸鱼。',sentenceEn:'Steamed fish.'},
+        {word:'炒菜',pinyin:'chǎo cài',en:'stir-fry',sentence:'爆炒腰花。',sentenceEn:'Quick-fried kidney.'},
+        {word:'美食',pinyin:'měi shí',en:'delicious food',sentence:'中国美食种类多。',sentenceEn:'Chinese cuisine has many varieties.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"你最喜欢吃什么中国美食？",en:"What\u2019s your favorite Chinese food?"},
@@ -537,6 +626,7 @@ units: [
   lessons: [
     {
       id: 8, title: "彩色的梦", titleEn: "Colorful Dreams",
+      difficulty: 1,
       text: [
         "我有一大把彩色的梦，有的长，有的圆，有的硬。",
         "他们躺在铅笔盒里聊天，一打开，就在白纸上跳蹦。",
@@ -560,6 +650,13 @@ units: [
       ],
       recognizeChars: ["盒","聊","坪","郁","囱","般","精","叮","咛"],
       writeChars: ["彩","梦","森","拉","结","苹","般","精","灵"],
+      vocabWords: [
+        {word:'彩色',pinyin:'cǎi sè',en:'colorful',sentence:'我有一大把彩色的梦。',sentenceEn:'I have a big handful of colorful dreams.'},
+        {word:'铅笔',pinyin:'qiān bǐ',en:'pencil',sentence:'长长短短的铅笔。',sentenceEn:'Long and short pencils.'},
+        {word:'草坪',pinyin:'cǎo píng',en:'lawn',sentence:'在草坪上画画。',sentenceEn:'Drawing on the lawn.'},
+        {word:'葱郁',pinyin:'cōng yù',en:'lush',sentence:'大片的绿色葱郁。',sentenceEn:'Vast lush green.'},
+        {word:'精灵',pinyin:'jīng líng',en:'spirit; fairy',sentence:'彩色的精灵在跳舞。',sentenceEn:'Colorful spirits dance.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"write",cn:"用彩色铅笔画一画你的梦",en:"Draw your dream with colored pencils"}
@@ -575,6 +672,7 @@ units: [
     },
     {
       id: 9, title: "枫树上的喜鹊", titleEn: "Magpies in the Maple Tree",
+      difficulty: 1,
       text: [
         "我们村的渡口旁有一棵枫树，我很喜欢它。它好像一把很大又很高的绿色太阳伞，一直打开着。它的绿荫遮蔽了村里的渡口。枫树上有一个喜鹊的窝，我喜欢极了。",
         "是的，我喜欢站在枫树下，抬头看喜鹊的窝。我常常觉得喜鹊会跟我说话，我像童话书里那样，在心中称呼她喜鹊阿姨。",
@@ -604,6 +702,13 @@ units: [
       ],
       recognizeChars: ["渡","荫","蔽","撑","便","拼","母","冈","懂","案"],
       writeChars: ["伞","姨","弟","便","教","游","戏","母"],
+      vocabWords: [
+        {word:'枫树',pinyin:'fēng shù',en:'maple tree',sentence:'我喜欢站在枫树下看喜鹊。',sentenceEn:'I like standing under the maple watching magpies.'},
+        {word:'喜鹊',pinyin:'xǐ què',en:'magpie',sentence:'枫树上有喜鹊的窝。',sentenceEn:'There is a magpie nest in the maple.'},
+        {word:'阿姨',pinyin:'ā yí',en:'aunt (familiar)',sentence:'喜鹊阿姨在教小喜鹊唱歌。',sentenceEn:'Auntie Magpie teaches the little ones to sing.'},
+        {word:'问号',pinyin:'wèn hào',en:'question mark',sentence:'我有好多问号。',sentenceEn:'I have so many questions.'},
+        {word:'拼音',pinyin:'pīn yīn',en:'pinyin',sentence:'喜鹊在教拼音。',sentenceEn:'The magpie is teaching pinyin.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"你觉得喜鹊阿姨在教弟弟们什么？",en:"What do you think Auntie Magpie was teaching the little ones?"}
@@ -619,6 +724,7 @@ units: [
     },
     {
       id: 10, title: "沙滩上的童话", titleEn: "Fairy Tales on the Beach",
+      difficulty: 1,
       text: [
         "我们在沙滩上建造自己的乐园。",
         "首先，我们用沙子修了一座城堡。城堡周围插上了干树枝，那就是我们的树。",
@@ -633,11 +739,11 @@ units: [
       ],
       textEn: [
         "We built our own paradise on the beach.",
-        "First, we made a castle from sand. We stuck dry branches around it as our trees.",
+        "First, we built a castle out of sand. We stuck dry tree branches all around the castle \u2014 those were our trees.",
         "\u201CA fierce demon king lives in the castle,\u201D we made up, and continued: \u201COne day, the demon king storms out to kidnap the beautiful princess!\u201D",
         "\u201CHow do we attack the castle?\u201D someone asked.",
         "After discussion, a friend said: \u201CLet\u2019s fly planes and bomb it.\u201D",
-        "\u201CBoom! Boom!\u201D The \u201Cshells\u201D collapsed the castle. We dug through the ruins and found the \u201Cprincess\u201D \u2014 a small bottle with pills inside.",
+        "\u201CBoom! Boom!\u201D The launched \u201Ccannonballs\u201D blasted the castle to rubble. We dug and dug through the ruins of the castle, and finally found the \u201Cprincess\u201D \u2014 a small bottle filled with pills.",
         "\u201CThe princess is rescued!\u201D We added another part and decided to write this fairy tale down.",
         "\u201CWhere do we write it?\u201D",
         "\u201CRight on the beach \u2014 in our paradise.\u201D",
@@ -657,6 +763,13 @@ units: [
       ],
       recognizeChars: ["堡","插","凶","狠","补","充","攻","商","量","驾","轰","驳","药","赞","合","记"],
       writeChars: ["周","围","句","补","充","药","合","死","记"],
+      vocabWords: [
+        {word:'沙滩',pinyin:'shā tān',en:'beach',sentence:'我们在沙滩上玩。',sentenceEn:'We play on the beach.'},
+        {word:'城堡',pinyin:'chéng bǎo',en:'castle',sentence:'我们建了一座城堡。',sentenceEn:'We built a castle.'},
+        {word:'编',pinyin:'biān',en:'weave; compose',sentence:'编一个童话故事。',sentenceEn:'Make up a fairy tale.'},
+        {word:'勇士',pinyin:'yǒng shì',en:'warrior',sentence:'我们是勇敢的勇士。',sentenceEn:'We are brave warriors.'},
+        {word:'胜利',pinyin:'shèng lì',en:'victory',sentence:'最后胜利了！',sentenceEn:'Victory at last!'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"孩子们在沙滩上编了一个什么童话？",en:"What fairy tale did the children make up on the beach?"}
@@ -672,6 +785,7 @@ units: [
     },
     {
       id: 11, title: "我是一只小虫子", titleEn: "I Am a Little Bug",
+      difficulty: 2,
       text: [
         "当一只小虫子好不好？我的伙伴们都说：\u201C当一只小虫子，一点儿都不好。\u201D",
         "我们蹦蹦跳跳的时候，一不小心就被屁股会喷火的屁甲虫烧到了。一觉醒来，我发现自己被小狗的一泡尿给冲走了。一不留神，我们会被人踩扁。",
@@ -687,7 +801,7 @@ units: [
         "When we hop around, we might get burned by a bombardier beetle. Waking up, I find myself washed away by a dog\u2019s pee. If we\u2019re not careful, we get stepped on flat.",
         "But I think being a little bug is actually pretty nice.",
         "In the morning, I stretch on a swaying grass blade, wash my face with a dewdrop, and polish my long antennae until they shine.",
-        "If we can jump onto a dog, we get to travel far away. It\u2019s a free express train!",
+        "If we can jump onto a dog\u2019s body, we can travel to places very far away. Now that\u2019s a free express train!",
         "I have many friends, each one really interesting.",
         "The dung beetle is greedy \u2014 we call him \u201CDung Ball.\u201D The mantis looks fierce, but I don\u2019t like him. He has the same temper as the grasshopper.",
         "I like being a little bug. When I\u2019m really happy, I sing loudly. If you hear singing in the grass at night, you\u2019ll surely find me!"
@@ -704,6 +818,13 @@ units: [
       ],
       recognizeChars: ["屁","股","昏","泡","尿","茸","醒","晃","免","费","列","屎","撞","贪","脾","婶"],
       writeChars: ["屁","股","尿","净","屎","幸","使","劲"],
+      vocabWords: [
+        {word:'虫子',pinyin:'chóng zi',en:'bug',sentence:'我是一只小虫子。',sentenceEn:'I am a little bug.'},
+        {word:'花瓣',pinyin:'huā bàn',en:'petal',sentence:'在花瓣上滑滑梯。',sentenceEn:'Sliding down on petals.'},
+        {word:'草叶',pinyin:'cǎo yè',en:'blade of grass',sentence:'草叶上的露珠是饮水机。',sentenceEn:'Dew on grass blades is our water fountain.'},
+        {word:'危险',pinyin:'wēi xiǎn',en:'danger',sentence:'有时候很危险。',sentenceEn:'Sometimes it is dangerous.'},
+        {word:'毛茸茸',pinyin:'máo róng róng',en:'fluffy',sentence:'毛茸茸的小狗。',sentenceEn:'A fluffy puppy.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"小虫子觉得当虫子好不好？你觉得呢？",en:"Does the bug think being a bug is good? What do you think?"}
@@ -731,6 +852,7 @@ units: [
   lessons: [
     {
       id: 12, title: "寓言二则", titleEn: "Two Fables",
+      difficulty: 2,
       text: [
         "亡羊补牢",
         "从前有个人，养了几只羊。一天早上，他去放羊，发现羊少了一只。原来羊圈破了个窟窿，夜里狼从窟窿钻进去，把羊叼走了。",
@@ -747,16 +869,16 @@ units: [
       ],
       textEn: [
         "Mending the Fold After Losing Sheep",
-        "Once a man raised several sheep. One morning he found one missing. The pen had a hole \u2014 a wolf had crept in at night and stolen the sheep.",
+        "Once upon a time, there was a man who raised several sheep. One morning, he went to tend his sheep and found that one was missing. It turned out the sheep pen had a hole in it. During the night, a wolf had crept in through the hole and carried off a sheep.",
         "A neighbor advised: \u201CRepair the pen and plug that hole!\u201D",
         "He said: \u201CThe sheep is already lost. Why bother fixing the pen?\u201D",
-        "Next morning, another sheep was gone. The wolf had entered through the same hole.",
+        "The next morning, he went to tend his sheep and found that yet another one was missing. The wolf had once again crept in through the hole and carried off a sheep.",
         "He deeply regretted not listening. Thinking it wasn\u2019t too late, he quickly fixed the hole and repaired the pen solidly. From then on, he never lost another sheep.",
         "Pulling Up Seedlings to Help Them Grow",
         "Long ago, a man wished his rice seedlings would grow faster. He went to check every day. But after days, they seemed not to have grown at all. He paced anxiously at the field\u2019s edge.",
         "\u201CI must find a way to help them grow,\u201D he said.",
         "He rushed to the field and pulled each seedling higher, one by one. From noon till sunset, he worked until exhausted.",
-        "At home, he gasped: \u201CWhat a tiring day! But my effort wasn\u2019t wasted \u2014 the seedlings have all grown taller!\u201D",
+        "He went back home, and said while panting: \u201CToday really wore me out! But my effort wasn\u2019t wasted after all \u2014 the seedlings have all grown a good deal taller!\u201D",
         "His son, puzzled, went to the field next day \u2014 all the seedlings had withered and died."
       ],
       textPinyin: [
@@ -775,6 +897,13 @@ units: [
       ],
       recognizeChars: ["寓","则","亡","牢","圈","钻","叼","坊","悔","此","焦","筋","疲","喘","截"],
       writeChars: ["亡","牢","钻","劝","丢","告","筋","疲"],
+      vocabWords: [
+        {word:'亡羊补牢',pinyin:'wáng yáng bǔ láo',en:'mend the fold after losing sheep',sentence:'亡羊补牢，为时不晚。',sentenceEn:'It is not too late to mend the fold.'},
+        {word:'窟窿',pinyin:'kū long',en:'hole',sentence:'羊圈破了一个窟窿。',sentenceEn:'There is a hole in the sheep pen.'},
+        {word:'街坊',pinyin:'jiē fang',en:'neighbor',sentence:'街坊劝他补上。',sentenceEn:'Neighbors advised him to fix it.'},
+        {word:'揠苗助长',pinyin:'yà miáo zhù zhǎng',en:'pull seedlings to help them grow',sentence:'揠苗助长是寓言故事。',sentenceEn:'Pulling seedlings is a fable.'},
+        {word:'筋疲力尽',pinyin:'jīn pí lì jìn',en:'exhausted',sentence:'他累得筋疲力尽。',sentenceEn:'He was totally exhausted.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"说说这两个寓言故事各告诉我们什么道理",en:"What lesson does each fable teach us?"}
@@ -791,6 +920,7 @@ units: [
     },
     {
       id: 13, title: "画杨桃", titleEn: "Drawing a Star Fruit",
+      difficulty: 2,
       text: [
         "有一次学校上图画课，老师把两个杨桃摆在课桌上，要同学们画。",
         "我的座位在前排靠边的地方，我看到的杨桃根本不像平时看到的那样，而是像个五角星。",
@@ -818,7 +948,7 @@ units: [
         "\u201CYes!\u201D several students rushed to say.",
         "The teacher\u2019s expression became serious. After a pause, he said: \u201CNow take turns sitting in his seat and look.\u201D",
         "One by one, classmates sat in my seat and looked at the star fruit. Their expressions changed \u2014 each face showed embarrassment.",
-        "The teacher had them return to their seats, then said kindly: \u201CStudents, remember: things look different from different angles. When you see someone draw a star fruit as a five-pointed star, don\u2019t rush to laugh. See what angle they\u2019re looking from. We should trust our own eyes \u2014 draw what we actually see.\u201D",
+        "The teacher had these students return to their own seats, then said with a kind expression: \u201CStudents, let me remind you \u2014 when you look from different angles, the star fruit looks different. When we see someone draw a star fruit as a five-pointed star, don\u2019t rush to laugh. Instead, look at what angle that person is viewing from. We should trust our own eyes \u2014 draw it as whatever it looks like to us.\u201D",
         "The teacher\u2019s lesson stayed with me for life."
       ],
       textPinyin: [
@@ -838,6 +968,13 @@ units: [
       ],
       recognizeChars: ["室","靠","而","班","哈","倒","审","页","肃","晌","抢","嘻","悦","诲"],
       writeChars: ["图","课","摆","座","室","交","哈","页","抢","嘻"],
+      vocabWords: [
+        {word:'杨桃',pinyin:'yáng táo',en:'star fruit',sentence:'我画的杨桃像五角星。',sentenceEn:'My star fruit looks like a five-pointed star.'},
+        {word:'嘲笑',pinyin:'cháo xiào',en:'laugh at',sentence:'同学们嘲笑我。',sentenceEn:'Classmates laughed at me.'},
+        {word:'角度',pinyin:'jiǎo dù',en:'angle',sentence:'从不同角度看到不同形状。',sentenceEn:'Different angles show different shapes.'},
+        {word:'叮嘱',pinyin:'dīng zhǔ',en:'remind carefully',sentence:'爸爸叮嘱我看到什么画什么。',sentenceEn:'Dad told me to draw what I see.'},
+        {word:'老实',pinyin:'lǎo shi',en:'honest',sentence:'要做老实的人。',sentenceEn:'Be an honest person.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"老师的教诲是什么？你从中学到了什么？",en:"What was the teacher\u2019s lesson? What did you learn?"}
@@ -854,6 +991,7 @@ units: [
     },
     {
       id: 14, title: "小马过河", titleEn: "The Little Horse Crosses the River",
+      difficulty: 2,
       text: [
         "马棚里住着一匹老马和一匹小马。",
         "有一天，老马对小马说：\u201C你已经长大了，能帮妈妈做点事吗？\u201D小马连蹦带跳地说：\u201C怎么不能？我很愿意帮您做事。\u201D老马高兴地说：\u201C那好哇，你把这半口袋麦子驮到磨坊去吧。\u201D",
@@ -868,13 +1006,13 @@ units: [
       ],
       textEn: [
         "In a stable lived a mother horse and a little horse.",
-        "One day, Mother said: \u201CYou\u2019ve grown up. Can you help me?\u201D The little horse hopped excitedly: \u201COf course!\u201D Mother said: \u201CTake this half-bag of wheat to the mill.\u201D",
-        "The little horse trotted off, but a river blocked the way. He thought: can I cross? If only Mom were here to ask!",
-        "He saw an old ox eating grass by the river. \u201CUncle Ox, can I wade across?\u201D The ox said: \u201CThe water is shallow \u2014 only up to my calves. You can cross.\u201D",
-        "The little horse ran to the river, ready to cross. Suddenly a squirrel jumped down: \u201CDon\u2019t cross! The water will drown you!\u201D The horse asked: \u201CIs it deep?\u201D The squirrel said: \u201CVery deep! My friend drowned here yesterday!\u201D",
-        "The little horse stopped, unsure what to do. He sighed: \u201CI\u2019d better go ask Mom.\u201D",
-        "Back home, Mom asked: \u201CWhy are you back?\u201D The horse said: \u201CA river blocked my way.\u201D Mom said: \u201CIsn\u2019t it shallow?\u201D He said: \u201CThe ox said so, but the squirrel said it\u2019s deep!\u201D",
-        "Mom said: \u201CSo is it deep or shallow? Did you think about their words?\u201D The horse lowered his head: \u201CNo.\u201D Mom said gently: \u201CChild, just listening to others without thinking and trying won\u2019t do. Go try it yourself.\u201D",
+        "One day, the old horse said to the little horse: \u201CYou\u2019ve grown up now. Can you help Mama with something?\u201D The little horse said, bouncing and hopping: \u201COf course I can! I\u2019d love to help you.\u201D The old horse said happily: \u201CWonderful \u2014 then take this half-bag of wheat to the mill.\u201D",
+        "The little horse hoisted the wheat onto his back and galloped toward the mill. As he ran along, a small river blocked his path. The little horse was troubled, and thought to himself: Can I get across? If only Mama were here so I could ask her what to do \u2014 that would be wonderful!",
+        "He looked around in all directions and saw an old ox eating grass by the river. The little horse clip-clopped over and asked: \u201CUncle Ox, please tell me \u2014 can I wade across this river?\u201D The old ox said: \u201CThe water is very shallow, just barely covering my lower legs. You can wade across.\u201D",
+        "Hearing the old ox\u2019s words, the little horse immediately ran to the riverbank, ready to wade across. Suddenly, a squirrel jumped down from a tree and blocked his way, shouting: \u201CLittle horse, don\u2019t cross the river! Don\u2019t cross the river! The water will drown you!\u201D The little horse asked in surprise: \u201CIs the water very deep?\u201D The squirrel said earnestly: \u201CExtremely deep! Just yesterday, one of my companions fell into this very river and drowned!\u201D",
+        "The little horse hurriedly halted his steps, not knowing what to do. He let out a sigh and said: \u201CAh! I\u2019d better go home and ask Mama!\u201D",
+        "The little horse swished his tail and ran back home. Mama asked: \u201CWhy have you come back?\u201D The little horse said embarrassedly: \u201CA river blocked my way, and I... I couldn\u2019t get across.\u201D Mama said: \u201CIsn\u2019t that river quite shallow?\u201D The little horse said: \u201CYes! Uncle Ox said the same thing. But the squirrel said the river is very deep \u2014 it even drowned one of his companions!\u201D",
+        "Mama said: \u201CSo is the river water actually deep or shallow? Did you think carefully about what they said?\u201D The little horse lowered his head and said: \u201CNo... I didn\u2019t think about it.\u201D Mama said affectionately to the little horse: \u201CChild, just listening to what others say without using your own brain and without trying it yourself simply won\u2019t do. Whether the water is deep or shallow \u2014 go try it and you\u2019ll find out.\u201D",
         "The little horse went to the river. As he raised his hoof, the squirrel cried out again. The horse said: \u201CLet me try.\u201D He waded in carefully and reached the other side.",
         "The water was neither as shallow as the ox said, nor as deep as the squirrel said."
       ],
@@ -892,6 +1030,13 @@ units: [
       ],
       recognizeChars: ["棚","驮","磨","坊","挡","伯","浅","刻","突","叹","唉","试","蹄","既"],
       writeChars: ["愿","意","麦","该","伯","刻","突","掉"],
+      vocabWords: [
+        {word:'小马',pinyin:'xiǎo mǎ',en:'little horse',sentence:'小马要过河。',sentenceEn:'The little horse needs to cross the river.'},
+        {word:'磨坊',pinyin:'mò fáng',en:'mill',sentence:'妈妈让小马去磨坊。',sentenceEn:'Mom sent the little horse to the mill.'},
+        {word:'深浅',pinyin:'shēn qiǎn',en:'depth',sentence:'河水是深还是浅？',sentenceEn:'Is the river deep or shallow?'},
+        {word:'尝试',pinyin:'cháng shì',en:'try',sentence:'你自己去试一试。',sentenceEn:'Try it yourself.'},
+        {word:'动脑筋',pinyin:'dòng nǎo jīn',en:'think hard',sentence:'做事要自己动脑筋。',sentenceEn:'Think for yourself when doing things.'}
+      ],
       exercises: [
         {type:"read",cn:"分角色朗读课文",en:"Read aloud with assigned roles"},
         {type:"discuss",cn:"河水是深还是浅？为什么老牛和松鼠说的不一样？",en:"Was the river deep or shallow? Why did the ox and squirrel disagree?"}
@@ -921,6 +1066,7 @@ units: [
   lessons: [
     {
       id: 15, title: "古诗二首", titleEn: "Two Ancient Poems",
+      difficulty: 2,
       text: [
         "晓出净慈寺送林子方 [宋]杨万里",
         "毕竟西湖六月中，风光不与四时同。",
@@ -963,6 +1109,7 @@ units: [
     },
     {
       id: 16, title: "\u96F7\u96E8", titleEn: "Thunderstorm",
+      difficulty: 2,
       text: [
         "\u6EE1\u5929\u7684\u4E4C\u4E91\uFF0C\u9ED1\u6C89\u6C89\u5730\u538B\u4E0B\u6765\u3002",
         "\u6811\u4E0A\u7684\u53F6\u5B50\u4E00\u52A8\u4E0D\u52A8\uFF0C\u8749\u4E00\u58F0\u4E5F\u4E0D\u53EB\u3002",
@@ -998,6 +1145,13 @@ units: [
       ],
       recognizeChars: ["\u538B","\u8749","\u5782","\u54D7","\u6237","\u6251"],
       writeChars: ["\u96F7","\u4E4C","\u9ED1","\u538B","\u5782","\u6237","\u65B0","\u8FCE","\u6251"],
+      vocabWords: [
+        {word:'雷雨',pinyin:'léi yǔ',en:'thunderstorm',sentence:'满天乌云，黑沉沉。',sentenceEn:'Dark clouds fill the sky.'},
+        {word:'闪电',pinyin:'shǎn diàn',en:'lightning',sentence:'一道闪电划过天空。',sentenceEn:'A bolt of lightning streaks across the sky.'},
+        {word:'蜘蛛',pinyin:'zhī zhū',en:'spider',sentence:'蜘蛛从网上垂下来。',sentenceEn:'The spider hangs down from its web.'},
+        {word:'彩虹',pinyin:'cǎi hóng',en:'rainbow',sentence:'雨后出现一道彩虹。',sentenceEn:'A rainbow appears after the rain.'},
+        {word:'蝉',pinyin:'chán',en:'cicada',sentence:'蝉叫了。',sentenceEn:'The cicadas sing.'}
+      ],
       exercises: [
         {type:"read",cn:"\u6709\u611F\u60C5\u5730\u6717\u8BFB\u8BFE\u6587\uFF0C\u6CE8\u610F\u8BFB\u51FA\u96F7\u96E8\u524D\u540E\u7684\u53D8\u5316",en:"Read expressively, noting the changes before and after the storm"},
         {type:"think",cn:"\u8BF4\u8BF4\u96F7\u96E8\u524D\u3001\u96F7\u96E8\u4E2D\u3001\u96F7\u96E8\u540E\u7684\u666F\u8C61\u53D8\u5316",en:"Describe the scenery changes before, during, and after the thunderstorm"}
@@ -1014,6 +1168,7 @@ units: [
     },
     {
       id: 17, title: "\u8981\u662F\u4F60\u5728\u91CE\u5916\u8FF7\u4E86\u8DEF", titleEn: "If You Get Lost in the Wild",
+      difficulty: 2,
       text: [
         "\u8981\u662F\u4F60\u5728\u91CE\u5916\u8FF7\u4E86\u8DEF\uFF0C\u53EF\u5343\u4E07\u522B\u6148\u614C\uFF0C",
         "\u5927\u81EA\u7136\u6709\u5F88\u591A\u5929\u7136\u7684\u6307\u5357\u9488\uFF0C\u4F1A\u5E2E\u52A9\u4F60\u8FA8\u522B\u65B9\u5411\u3002",
@@ -1058,6 +1213,13 @@ units: [
       ],
       recognizeChars: ["\u614C","\u8FA8","\u5FE0","\u5B9E","\u5BFC","\u76CF","\u6C38","\u95EF","\u78B0","\u7A20","\u7A00","\u6E20","\u79EF"],
       writeChars: ["\u6307","\u9488","\u5E2E","\u52A9","\u5BFC","\u6C38","\u78B0","\u7279","\u79EF"],
+      vocabWords: [
+        {word:'指南针',pinyin:'zhǐ nán zhēn',en:'compass',sentence:'大自然有很多指南针。',sentenceEn:'Nature has many compasses.'},
+        {word:'太阳',pinyin:'tài yáng',en:'sun',sentence:'中午太阳在南边。',sentenceEn:'The sun is in the south at noon.'},
+        {word:'北极星',pinyin:'běi jí xīng',en:'North Star',sentence:'北极星指向北方。',sentenceEn:'The North Star points north.'},
+        {word:'树影',pinyin:'shù yǐng',en:'tree shadow',sentence:'树影能辨别方向。',sentenceEn:'Tree shadows help identify direction.'},
+        {word:'积雪',pinyin:'jī xuě',en:'snow cover',sentence:'积雪化得快的是南面。',sentenceEn:'Snow melts faster on the south side.'}
+      ],
       exercises: [
         {type:"recite",cn:"\u6709\u611F\u60C5\u5730\u6717\u8BFB\u8BFE\u6587",en:"Read the text with feeling"},
         {type:"think",cn:"\u8BFE\u6587\u4ECB\u7ECD\u4E86\u54EA\u51E0\u79CD\u5929\u7136\u7684\u6307\u5357\u9488\uFF1F",en:"What natural compasses does the text introduce?"}
@@ -1074,6 +1236,7 @@ units: [
     },
     {
       id: 18, title: "\u592A\u7A7A\u751F\u6D3B\u8DA3\u4E8B\u591A", titleEn: "Fun Facts About Life in Space",
+      difficulty: 2,
       text: [
         "\u4F60\u77E5\u9053\u5B87\u822A\u5458\u5728\u592A\u7A7A\u4E2D\u600E\u6837\u751F\u6D3B\u5417\uFF1F\u8BF4\u8D77\u6765\u8FD8\u5F88\u6709\u8DA3\u5462\uFF01",
         "\u5728\u5B87\u5B99\u98DE\u8239\u91CC\uFF0C\u7AD9\u7740\u7761\u89C9\u548C\u8EBA\u7740\u7761\u89C9\u4E00\u6837\u8212\u670D\u3002\u4E0D\u8FC7\uFF0C\u8981\u60F3\u7761\u4E0A\u4E00\u4E2A\u5B89\u7A33\u89C9\uFF0C\u5B87\u822A\u5458\u5FC5\u987B\u628A\u81EA\u5DF1\u7ED1\u5728\u7761\u888B\u91CC\u3002\u4E0D\u7136\uFF0C\u7FFB\u4E00\u4E2A\u8EAB\uFF0C\u5C31\u4F1A\u98D8\u5230\u522B\u5904\u53BB\u4E86\u3002",
@@ -1097,6 +1260,13 @@ units: [
       ],
       recognizeChars: ["\u822A","\u5B87","\u5B99","\u7A33","\u56FA","\u8231","\u676F","\u996E","\u4EF6","\u9898","\u5BC6","\u6D74","\u6876"],
       writeChars: ["\u676F","\u5931","\u6D17","\u6FA1","\u5BB9","\u6613","\u6D74","\u6876"],
+      vocabWords: [
+        {word:'太空',pinyin:'tài kōng',en:'space; outer space',sentence:'太空生活很有趣。',sentenceEn:'Life in space is interesting.'},
+        {word:'失重',pinyin:'shī zhòng',en:'weightlessness',sentence:'在太空中失重。',sentenceEn:'Weightlessness in space.'},
+        {word:'飘浮',pinyin:'piāo fú',en:'float',sentence:'人会飘浮起来。',sentenceEn:'People float up.'},
+        {word:'航天员',pinyin:'háng tiān yuán',en:'astronaut',sentence:'航天员在太空工作。',sentenceEn:'Astronauts work in space.'},
+        {word:'地球',pinyin:'dì qiú',en:'Earth',sentence:'从太空看地球很美。',sentenceEn:'Earth looks beautiful from space.'}
+      ],
       exercises: [
         {type:"read",cn:"\u6717\u8BFB\u8BFE\u6587\uFF0C\u8BF4\u8BF4\u592A\u7A7A\u751F\u6D3B\u6709\u54EA\u4E9B\u8DA3\u4E8B",en:"Read aloud and tell what interesting things happen in space life"},
         {type:"write",cn:"\u7528\u81EA\u5DF1\u7684\u8BDD\u8BF4\u8BF4\u592A\u7A7A\u751F\u6D3B\u4E2D\u7684\u8DA3\u4E8B",en:"Describe interesting space events in your own words"}
@@ -1127,6 +1297,7 @@ units: [
   lessons: [
     {
       id: 19, title: "\u5927\u8C61\u7684\u8033\u6735", titleEn: "The Elephant\u2019s Ears",
+      difficulty: 2,
       text: [
         "\u5927\u8C61\u6709\u4E00\u5BF9\u5927\u8033\u6735\uFF0C\u50CF\u6247\u5B50\u4F3C\u7684\u8037\u62C9\u7740\u3002",
         "\u5C0F\u5154\u5B50\u8BF4\uFF1A\u201C\u54A6\uFF0C\u5927\u8C61\u554A\uFF0C\u4F60\u7684\u8033\u6735\u600E\u4E48\u8037\u62C9\u4E0B\u6765\u4E86\uFF1F\u201D",
@@ -1165,6 +1336,13 @@ units: [
       ],
       recognizeChars: ["\u4F3C","\u8037","\u54A6","\u7AD6","\u7B06","\u821E","\u75DB","\u70E6","\u6247"],
       writeChars: ["\u6247","\u6162","\u9047","\u5154","\u5B89","\u6839","\u75DB","\u6700"],
+      vocabWords: [
+        {word:'大象',pinyin:'dà xiàng',en:'elephant',sentence:'大象有一对大耳朵。',sentenceEn:'The elephant has a pair of big ears.'},
+        {word:'耳朵',pinyin:'ěr duo',en:'ear',sentence:'大象的耳朵耷拉着。',sentenceEn:'The elephant ears droop down.'},
+        {word:'竖起',pinyin:'shù qǐ',en:'perk up',sentence:'别的动物耳朵都竖着。',sentenceEn:'Other animals have their ears perked up.'},
+        {word:'烦恼',pinyin:'fán nǎo',en:'worry',sentence:'大象有了烦恼。',sentenceEn:'The elephant had a worry.'},
+        {word:'人家',pinyin:'rén jia',en:'others',sentence:'人家是人家，我是我。',sentenceEn:'Others are others, I am me.'}
+      ],
       exercises: [
         {type:"read",cn:"\u5206\u89D2\u8272\u6717\u8BFB\u8BFE\u6587",en:"Read the text in character roles"},
         {type:"think",cn:"\u5927\u8C61\u7684\u60F3\u6CD5\u662F\u600E\u4E48\u6539\u53D8\u7684\uFF1F",en:"How did the elephant\u2019s thinking change?"}
@@ -1181,6 +1359,7 @@ units: [
     },
     {
       id: 20, title: "\u86DB\u86DB\u5F00\u5E97", titleEn: "Spider Opens a Shop",
+      difficulty: 2,
       text: [
         "\u6709\u4E00\u53EA\u86DB\u86DB\uFF0C\u6BCF\u5929\u8E72\u5728\u7F51\u4E0A\u7B49\u7740\u5C0F\u98DE\u866B\uFF0C\u5F88\u65E0\u804A\uFF0C\u5F88\u5BC2\u5BE5\u3002",
         "\u4ED6\u60F3\uFF1A\u201C\u6211\u8981\u5F00\u4E00\u5BB6\u5546\u5E97\u3002\u5356\u4EC0\u4E48\u5462\uFF1F\u5C31\u5356\u53E3\u7F69\u5427\uFF0C\u56E0\u4E3A\u53E3\u7F69\u7EC7\u8D77\u6765\u5F88\u7B80\u5355\u3002\u201D",
@@ -1196,7 +1375,7 @@ units: [
       textEn: [
         "There was a spider who sat on his web every day waiting for little flies. He was very bored and lonely.",
         "He thought: \u201CI should open a shop. What to sell? I\u2019ll sell face masks, because masks are easy to weave.\u201D",
-        "The next day, the spider\u2019s shop opened with a sign: \u201CMask Weaving Shop \u2014 Only one yuan per customer.\u201D",
+        "The next day, the spider\u2019s shop opened for business. The sign in the shop read: \u201CMask Weaving Shop \u2014 each customer only needs to pay one yuan.\u201D",
         "But a hippopotamus came. The hippo\u2019s mouth was so big! The spider spent the whole day and finally finished.",
         "Sigh, I\u2019d better sell something else. The spider thought: \u201CWhat to sell? I\u2019ll sell scarves, because scarves are easy to weave.\u201D",
         "The next day, the spider changed the sign: \u201CScarf Weaving Shop \u2014 Only one yuan per customer.\u201D",
@@ -1219,6 +1398,13 @@ units: [
       ],
       recognizeChars: ["\u5E97","\u8E72","\u5BC2","\u5BE5","\u7F69","\u7F16","\u987E","\u4ED8","\u592B","\u6362","\u9888","\u889C","\u5306","\u8717","\u8693"],
       writeChars: ["\u5E97","\u51B3","\u5B9A","\u5546","\u592B","\u7EC8","\u5B8C","\u6362","\u671F"],
+      vocabWords: [
+        {word:'蜘蛛',pinyin:'zhī zhū',en:'spider',sentence:'蜘蛛开了一家店。',sentenceEn:'The spider opened a shop.'},
+        {word:'口罩',pinyin:'kǒu zhào',en:'mask',sentence:'帮河马织口罩。',sentenceEn:'Weaving a mask for the hippo.'},
+        {word:'围巾',pinyin:'wéi jīn',en:'scarf',sentence:'帮长颈鹿织围巾。',sentenceEn:'Weaving a scarf for the giraffe.'},
+        {word:'袜子',pinyin:'wà zi',en:'sock',sentence:'帮蜈蚣织袜子。',sentenceEn:'Weaving socks for the centipede.'},
+        {word:'招牌',pinyin:'zhāo pái',en:'signboard',sentence:'蜘蛛换了招牌。',sentenceEn:'The spider changed the signboard.'}
+      ],
       exercises: [
         {type:"read",cn:"\u6545\u4E8B\u5F88\u6709\u8DA3\uFF0C\u8BFB\u4E00\u8BFB\uFF0C\u8BF4\u4E00\u8BF4",en:"The story is fun; read it and retell it"},
         {type:"think",cn:"\u86DB\u86DB\u4E3A\u4EC0\u4E48\u6700\u540E\u5173\u95E8\u4E86\uFF1F",en:"Why did the spider close the shop at the end?"}
@@ -1235,6 +1421,7 @@ units: [
     },
     {
       id: 21, title: "\u9752\u86D9\u5356\u6CE5\u5858", titleEn: "Frog Sells His Mud Pond",
+      difficulty: 2,
       text: [
         "\u9752\u86D9\u4F4F\u5728\u70C2\u6CE5\u5858\u91CC\u3002\u4ED6\u89C9\u5F97\u8FD9\u513F\u4E0D\u600E\u4E48\u597D\uFF0C\u60F3\u628A\u6CE5\u5858\u5356\u6389\u3002",
         "\u201C\u5356\u6CE5\u5858\u5586\uFF0C\u5356\u6CE5\u5858\uFF01\u201D\u9752\u86D9\u7AD9\u5728\u7267\u573A\u65C1\u5480\u559D\u3002\u4E00\u5934\u8001\u725B\u8D70\u8FC7\u6765\u3002",
@@ -1279,6 +1466,13 @@ units: [
       ],
       recognizeChars: ["\u5356","\u70C2","\u724C","\u559D","\u5751","\u8212","\u96C6","\u7C7D","\u64AD","\u6492","\u8335","\u704C","\u7F3A","\u6CF3","\u6123"],
       writeChars: ["\u86D9","\u5356","\u642C","\u5012","\u7C7D","\u6CC9","\u7834","\u5E94"],
+      vocabWords: [
+        {word:'泥塘',pinyin:'ní táng',en:'mud pond',sentence:'青蛙住在烂泥塘里。',sentenceEn:'The frog lived in a muddy pond.'},
+        {word:'吆喝',pinyin:'yāo he',en:'shout (to sell)',sentence:'青蛙吆喝卖泥塘。',sentenceEn:'The frog shouted to sell the mud pond.'},
+        {word:'种草',pinyin:'zhǒng cǎo',en:'plant grass',sentence:'青蛙种了草。',sentenceEn:'The frog planted grass.'},
+        {word:'栽树',pinyin:'zāi shù',en:'plant trees',sentence:'又栽了树。',sentenceEn:'Then planted trees.'},
+        {word:'舒服',pinyin:'shū fu',en:'comfortable',sentence:'泥塘变得很舒服。',sentenceEn:'The pond became very comfortable.'}
+      ],
       exercises: [
         {type:"read",cn:"\u5206\u89D2\u8272\u6717\u8BFB\u8BFE\u6587",en:"Read the text in character roles"},
         {type:"think",cn:"\u9752\u86D9\u4E3A\u4EC0\u4E48\u4E0D\u5356\u6CE5\u5858\u4E86\uFF1F",en:"Why did the frog stop selling his pond?"}
@@ -1295,6 +1489,7 @@ units: [
     },
     {
       id: 22, title: "\u5C0F\u6BDB\u866B", titleEn: "Little Caterpillar",
+      difficulty: 2,
       text: [
         "\u4E00\u6761\u5C0F\u6BDB\u866B\u8D9F\u5728\u4E00\u7247\u53F6\u5B50\u4E0A\uFF0C\u5BF9\u9762\u7684\u5C0F\u6606\u866B\u90FD\u5728\u5FEB\u4E50\u5730\u98DE\u6765\u98DE\u53BB\u3002",
         "\u5C0F\u6BDB\u866B\u89C9\u5F97\u81EA\u5DF1\u53EF\u601C\u6781\u4E86\u3002\u4ED6\u65E2\u4E0D\u4F1A\u5531\uFF0C\u4E5F\u4E0D\u4F1A\u8DD1\uFF0C\u66F4\u4E0D\u4F1A\u98DE\u3002",
@@ -1330,6 +1525,13 @@ units: [
       ],
       recognizeChars: ["\u6606","\u601C","\u631A","\u4EFF","\u4F5B","\u5C3D","\u4EFB","\u4F55","\u7EBA","\u7AED","\u89C4","\u5F8B","\u5F85","\u632F","\u6109","\u7ED2"],
       writeChars: ["\u6574","\u62BD","\u7EBA","\u7EC7","\u7F16","\u600E","\u5E03","\u6D88"],
+      vocabWords: [
+        {word:'毛虫',pinyin:'máo chóng',en:'caterpillar',sentence:'一只小毛虫趴在叶子上。',sentenceEn:'A caterpillar lies on a leaf.'},
+        {word:'笨拙',pinyin:'bèn zhuō',en:'clumsy',sentence:'小毛虫很笨拙。',sentenceEn:'The caterpillar was very clumsy.'},
+        {word:'尽力',pinyin:'jìn lì',en:'do one best',sentence:'小毛虫尽力做好每一件事。',sentenceEn:'The caterpillar did its best at everything.'},
+        {word:'茧',pinyin:'jiǎn',en:'cocoon',sentence:'小毛虫吐丝结茧。',sentenceEn:'The caterpillar spun silk to make a cocoon.'},
+        {word:'蝴蝶',pinyin:'hú dié',en:'butterfly',sentence:'小毛虫变成了蝴蝶！',sentenceEn:'The caterpillar became a butterfly!'}
+      ],
       exercises: [
         {type:"read",cn:"\u6709\u611F\u60C5\u5730\u6717\u8BFB\u8BFE\u6587",en:"Read the text with feeling"},
         {type:"think",cn:"\u5C0F\u6BDB\u866B\u7ECF\u5386\u4E86\u54EA\u4E9B\u53D8\u5316\uFF1F",en:"What changes did the caterpillar go through?"}
@@ -1360,6 +1562,7 @@ units: [
   lessons: [
     {
       id: 23, title: "\u7956\u5148\u7684\u6447\u7BEE", titleEn: "Cradle of Our Ancestors",
+      difficulty: 2,
       text: [
         "\u7235\u7235\u8BF4\uFF0C\u90A3\u539F\u59CB\u68EE\u6797\uFF0C\u662F\u6211\u4EEC\u7956\u5148\u7684\u6447\u7BEE\u3002",
         "\u771F\u6709\u610F\u601D\uFF0C\u8FD9\u662F\u591A\u5927\u7684\u6447\u7BEE\u554A\uFF01",
@@ -1401,6 +1604,13 @@ units: [
       ],
       recognizeChars: ["\u7956","\u6398","\u9017","\u8537","\u8587","\u902E","\u5FC6"],
       writeChars: ["\u7956","\u554A","\u6D53","\u671B","\u84DD","\u6458","\u6398","\u8D5B","\u5FC6"],
+      vocabWords: [
+        {word:'祖先',pinyin:'zǔ xiān',en:'ancestor',sentence:'原始森林是祖先的摇篮。',sentenceEn:'The primeval forest is the cradle of our ancestors.'},
+        {word:'采摘',pinyin:'cǎi zhāi',en:'pick; gather',sentence:'祖先在森林里采摘。',sentenceEn:'Ancestors gathered in the forest.'},
+        {word:'浓绿',pinyin:'nóng lǜ',en:'deep green',sentence:'浓绿的树荫。',sentenceEn:'Deep green shade of trees.'},
+        {word:'回忆',pinyin:'huí yì',en:'recall',sentence:'那是多么有趣的回忆。',sentenceEn:'What interesting memories those are.'},
+        {word:'原始森林',pinyin:'yuán shǐ sēn lín',en:'primeval forest',sentence:'原始森林多么大。',sentenceEn:'How vast the primeval forest is.'}
+      ],
       exercises: [
         {type:"recite",cn:"\u6709\u611F\u60C5\u5730\u6717\u8BFB\u8BFE\u6587\uFF0C\u80CC\u8BF5\u8BFE\u6587",en:"Read the text with feeling and recite it"},
         {type:"think",cn:"\u60F3\u8C61\u7956\u5148\u5728\u539F\u59CB\u68EE\u6797\u91CC\u505A\u4EC0\u4E48",en:"Imagine what ancestors did in the primeval forest"}
@@ -1417,6 +1627,7 @@ units: [
     },
     {
       id: 24, title: "\u5F53\u4E16\u754C\u5E74\u7EAA\u8FD8\u5C0F\u7684\u65F6\u5019", titleEn: "When the World Was Young",
+      difficulty: 2,
       text: [
         "\u5F88\u4E45\u5F88\u4E45\u4EE5\u524D\uFF0C\u5F53\u4E16\u754C\u5E74\u7EAA\u8FD8\u5C0F\u7684\u65F6\u5019\uFF0C\u6BCF\u6837\u4E1C\u897F\u90FD\u5FC5\u987B\u5B66\u4E60\u600E\u4E48\u751F\u6D3B\u3002",
         "\u592A\u9633\u5F00\u59CB\u5B66\u53D1\u5149\u3002\u5B83\u8BD5\u8FC7\u505A\u5F88\u591A\u4E8B\u60C5\uFF0C\u8B6C\u5982\u5531\u6B4C\u2014\u2014\u53EF\u662F\u5B83\u89C9\u5F97\u8FD8\u662F\u53D1\u5149\u597D\u3002",
@@ -1446,6 +1657,13 @@ units: [
       ],
       recognizeChars: ["\u7EAA","\u5FC5","\u987B","\u529F","\u8B6C","\u7CD9","\u654F","\u5F0F","\u7B80","\u7531","\u7741","\u79E9","\u5E8F","\u54E6"],
       writeChars: ["\u4E16","\u754C","\u529F","\u590D","\u5F0F","\u7B80","\u5F04","\u7531"],
+      vocabWords: [
+        {word:'世界',pinyin:'shì jiè',en:'world',sentence:'世界年纪还小的时候。',sentenceEn:'When the world was still young.'},
+        {word:'学习',pinyin:'xué xí',en:'learn',sentence:'万物都在学习。',sentenceEn:'All things were learning.'},
+        {word:'太阳',pinyin:'tài yáng',en:'sun',sentence:'太阳学会了发光。',sentenceEn:'The sun learned to shine.'},
+        {word:'月亮',pinyin:'yuè liang',en:'moon',sentence:'月亮学会了变化。',sentenceEn:'The moon learned to change.'},
+        {word:'秩序',pinyin:'zhì xù',en:'order',sentence:'世界慢慢有了秩序。',sentenceEn:'The world slowly found its order.'}
+      ],
       exercises: [
         {type:"read",cn:"\u6717\u8BFB\u8BFE\u6587\uFF0C\u8BF4\u8BF4\u4E16\u754C\u662F\u600E\u6837\u53D8\u5F97\u6709\u79E9\u5E8F\u7684",en:"Read aloud and tell how the world became orderly"},
         {type:"think",cn:"\u4F60\u89C9\u5F97\u8FD8\u6709\u4EC0\u4E48\u4E1C\u897F\u4E5F\u5728\u5B66\u4E60\uFF1F",en:"What else do you think was learning?"}
@@ -1462,6 +1680,7 @@ units: [
     },
     {
       id: 25, title: "\u7F9F\u5C04\u4E5D\u65E5", titleEn: "Yi Shoots Down Nine Suns",
+      difficulty: 2,
       text: [
         "\u5F88\u4E45\u5F88\u4E45\u4EE5\u524D\uFF0C\u5929\u4E0A\u6709\u5341\u4E2A\u592A\u9633\u3002",
         "\u5341\u4E2A\u592A\u9633\u50CF\u5341\u4E2A\u5927\u706B\u7403\uFF0C\u7167\u5F97\u5927\u5730\u5149\u660E\uFF0C\u6E29\u6696\u3002",
@@ -1503,6 +1722,13 @@ units: [
       ],
       recognizeChars: ["\u5C04","\u503C","\u7194","\u7C7B","\u8270","\u7BAD","\u88C2","\u708E","\u9000","\u5E84","\u7A3C","\u6ECB","\u817E"],
       writeChars: ["\u89C9","\u503C","\u7C7B","\u8270","\u5F13","\u708E","\u5BB3","\u6B64"],
+      vocabWords: [
+        {word:'后羿',pinyin:'hòu yì',en:'Hou Yi (myth hero)',sentence:'后羿要射下九个太阳。',sentenceEn:'Hou Yi would shoot down nine suns.'},
+        {word:'神箭手',pinyin:'shén jiàn shǒu',en:'divine archer',sentence:'后羿是神箭手。',sentenceEn:'Hou Yi was a divine archer.'},
+        {word:'炎热',pinyin:'yán rè',en:'scorching hot',sentence:'十个太阳让大地炎热。',sentenceEn:'Ten suns made the earth scorching.'},
+        {word:'枯萎',pinyin:'kū wěi',en:'wither',sentence:'禾苗都枯萎了。',sentenceEn:'The crops all withered.'},
+        {word:'勇敢',pinyin:'yǒng gǎn',en:'brave',sentence:'后羿非常勇敢。',sentenceEn:'Hou Yi was very brave.'}
+      ],
       exercises: [
         {type:"read",cn:"\u9ED8\u8BFB\u8BFE\u6587\uFF0C\u8BF4\u8BF4\u6545\u4E8B\u7684\u8D77\u56E0\u3001\u7ECF\u8FC7\u3001\u7ED3\u679C",en:"Read silently; tell the cause, events, and outcome of the story"},
         {type:"retell",cn:"\u6839\u636E\u63D0\u793A\u8BCD\u590D\u8FF0\u8BFE\u6587",en:"Retell the story using key words as prompts"}

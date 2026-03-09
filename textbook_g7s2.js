@@ -22,14 +22,26 @@ var TB_G7S2 = {
       lessons: [
         {
           id: 1,
-          title: "\u90d3\u7a3c\u5148",
+          title: "\u9093\u7a3c\u5148",
           titleEn: "Deng Jiaxian",
+          difficulty: 3,
+          vocabWords: [
+            {word:'元勋',pinyin:'yuán xūn',en:'founding hero; person of great merit',sentence:'邓稼先是中华民族核武器事业的奠基人和开拓者，张爱萍将军称他为"两弹"元勋。',sentenceEn:'Deng Jiaxian was the founder and pioneer of the Chinese nuclear weapons program; General Zhang Aiping called him the founding hero of the Two Bombs.'},
+            {word:'鞠躬尽瘁',pinyin:'jū gōng jìn cuì',en:'to devote oneself completely',sentence:'鞠躬尽瘁，死而后已正好准确地描述了他的一生。',sentenceEn:'To devote oneself completely until death accurately describes his entire life.'},
+            {word:'鲜为人知',pinyin:'xiǎn wéi rén zhī',en:'rarely known to others',sentence:'对这一转变做出了巨大贡献的，有一位长期以来鲜为人知的科学家。',sentenceEn:'A scientist who had long been rarely known to others made enormous contributions to this transformation.'},
+            {word:'截然不同',pinyin:'jié rán bù tóng',en:'completely different',sentence:'他们的性格和为人却截然不同。',sentenceEn:'Their personalities and conduct were completely different.'},
+            {word:'锋芒毕露',pinyin:'fēng máng bì lù',en:'to show off talent aggressively',sentence:'奥本海默是一个拔尖的人物，锋芒毕露。',sentenceEn:'Oppenheimer was an outstanding figure who showed off his talent aggressively.'}
+          ],
+          grammarPoints: [
+            {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'contrast technique',exampleEn:'邓稼先与奥本海默的性格截然不同——甚至可以说他们走向了两个相反的极端。',explanation:'The personalities of Deng Jiaxian and Oppenheimer were completely different — one could even say they went to two opposite extremes.',explanationEn:'通过对比两个人物的性格差异，突出邓稼先忠厚朴实的品质。'},
+            {point:'记叙与抒情结合',pointEn:'jì xù yǔ shū qíng jié hé',example:'combining narration with lyrical expression',exampleEn:'稼先为人忠诚纯正，是我最敬爱的挚友。他的无私的精神与巨大的贡献是你的也是我的永恒的骄傲。',explanation:'Jiaxian was loyal and sincere, my most beloved close friend. His selfless spirit and great contributions are your and my eternal pride.',explanationEn:'文章在叙述事实的基础上融入深沉的抒情，使读者感受到作者对邓稼先的敬仰与怀念。'}
+          ],
           author: "\u6768\u632f\u5b81",
           authorEn: "Yang Zhenning",
           source: "\u9009\u81ea1993\u5e748\u670821\u65e5\u300a\u4eba\u6c11\u65e5\u62a5\u300b\u3002\u6709\u6539\u52a8\u3002",
           sourceEn: "Selected from People\u2019s Daily, August 21, 1993. Adapted.",
           authorBio: {
-            cn: "\u90d3\u7a3c\u5148\uff081924\u20141986\uff09\uff0c\u5b89\u5fbd\u6000\u5b81\u4eba\uff0c\u6838\u7269\u7406\u5b66\u5bb6\u3001\u6838\u6b66\u5668\u79d1\u5b66\u548c\u6280\u672f\u4e13\u5bb6\u3002\u4e2d\u56fd\u7814\u5236\u548c\u53d1\u5c55\u6838\u6b66\u5668\u7684\u91cd\u8981\u6280\u672f\u9886\u5bfc\u4eba\uff0c1999\u5e74\u88ab\u8ffd\u6388\u201c\u4e24\u5f39\u4e00\u661f\u201d\u529f\u52cb\u5956\u7ae0\u3002\u6768\u632f\u5b81\uff081922\u2014\uff09\uff0c\u5b89\u5fbd\u5408\u80a5\u4eba\uff0c\u7406\u8bba\u7269\u7406\u5b66\u5bb6\uff0c1957\u5e74\u83b7\u8bfa\u8d1d\u5c14\u7269\u7406\u5b66\u5956\u3002",
+            cn: "\u9093\u7a3c\u5148\uff081924\u20141986\uff09\uff0c\u5b89\u5fbd\u6000\u5b81\u4eba\uff0c\u6838\u7269\u7406\u5b66\u5bb6\u3001\u6838\u6b66\u5668\u79d1\u5b66\u548c\u6280\u672f\u4e13\u5bb6\u3002\u4e2d\u56fd\u7814\u5236\u548c\u53d1\u5c55\u6838\u6b66\u5668\u7684\u91cd\u8981\u6280\u672f\u9886\u5bfc\u4eba\uff0c1999\u5e74\u88ab\u8ffd\u6388\u201c\u4e24\u5f39\u4e00\u661f\u201d\u529f\u52cb\u5956\u7ae0\u3002\u6768\u632f\u5b81\uff081922\u2014\uff09\uff0c\u5b89\u5fbd\u5408\u80a5\u4eba\uff0c\u7406\u8bba\u7269\u7406\u5b66\u5bb6\uff0c1957\u5e74\u83b7\u8bfa\u8d1d\u5c14\u7269\u7406\u5b66\u5956\u3002",
             en: "Deng Jiaxian (1924\u20131986), from Huaining, Anhui, was a nuclear physicist and weapons expert, a key leader in China\u2019s nuclear weapons program. Posthumously awarded the \u2018Two Bombs, One Satellite\u2019 Medal of Merit in 1999. Yang Zhenning (1922\u2013), from Hefei, Anhui, is a theoretical physicist who won the Nobel Prize in Physics in 1957."
           },
           isSelfRead: false,
@@ -37,9 +49,9 @@ var TB_G7S2 = {
             "\u4ece\u201c\u4efb\u4eba\u5bb0\u5272\u201d\u5230\u201c\u7ad9\u8d77\u6765\u4e86\u201d",
             "\u4e00\u767e\u5e74\u4ee5\u524d\uff0c\u7532\u5348\u6218\u4e89\u548c\u516b\u56fd\u8054\u519b\u65f6\u4ee3\uff0c\u6050\u6015\u662f\u4e2d\u534e\u6c11\u65cf\u4e94\u5343\u5e74\u5386\u53f2\u4e0a\u6700\u9ed1\u6697\u6700\u60b2\u60e8\u7684\u65f6\u4ee3\u3002",
             "\u4eca\u5929\uff0c\u4e00\u4e2a\u4e16\u7eaa\u4ee5\u540e\uff0c\u4e2d\u56fd\u4eba\u6c11\u7ad9\u8d77\u6765\u4e86\u3002",
-            "\u5bf9\u8fd9\u4e00\u8f6c\u53d8\u505a\u51fa\u4e86\u5de8\u5927\u8d21\u732e\u7684\uff0c\u6709\u4e00\u4f4d\u957f\u671f\u4ee5\u6765\u9c9c\u4e3a\u4eba\u77e5\u7684\u79d1\u5b66\u5bb6\u2014\u2014\u90d3\u7a3c\u5148\u3002",
+            "\u5bf9\u8fd9\u4e00\u8f6c\u53d8\u505a\u51fa\u4e86\u5de8\u5927\u8d21\u732e\u7684\uff0c\u6709\u4e00\u4f4d\u957f\u671f\u4ee5\u6765\u9c9c\u4e3a\u4eba\u77e5\u7684\u79d1\u5b66\u5bb6\u2014\u2014\u9093\u7a3c\u5148\u3002",
             "\u201c\u4e24\u5f39\u201d\u5143\u52cb",
-            "\u90d3\u7a3c\u5148\u59cb\u7ec8\u7ad9\u5728\u4e2d\u56fd\u539f\u5b50\u6b66\u5668\u8bbe\u8ba1\u5236\u9020\u548c\u7814\u7a76\u7684\u7b2c\u4e00\u7ebf\uff0c\u9886\u5bfc\u8bb8\u591a\u5b66\u8005\u548c\u6280\u672f\u4eba\u5458\uff0c\u6210\u529f\u5730\u8bbe\u8ba1\u4e86\u4e2d\u56fd\u7684\u539f\u5b50\u5f39\u548c\u6c22\u5f39\u3002",
+            "\u9093\u7a3c\u5148\u59cb\u7ec8\u7ad9\u5728\u4e2d\u56fd\u539f\u5b50\u6b66\u5668\u8bbe\u8ba1\u5236\u9020\u548c\u7814\u7a76\u7684\u7b2c\u4e00\u7ebf\uff0c\u9886\u5bfc\u8bb8\u591a\u5b66\u8005\u548c\u6280\u672f\u4eba\u5458\uff0c\u6210\u529f\u5730\u8bbe\u8ba1\u4e86\u4e2d\u56fd\u7684\u539f\u5b50\u5f39\u548c\u6c22\u5f39\u3002",
             "\u201c\u978b\u8eac\u5c3d\u7601\uff0c\u6b7b\u800c\u540e\u5df2\u201d\u6b63\u597d\u51c6\u786e\u5730\u63cf\u8ff0\u4e86\u4ed6\u7684\u4e00\u751f\u3002",
             "\u6c38\u6052\u7684\u9a84\u50b2",
             "\u2014\u2014\u7a3c\u5148\u4e3a\u4eba\u5fe0\u8bda\u7eaf\u6b63\uff0c\u662f\u6211\u6700\u656c\u7231\u7684\u631a\u53cb\u3002\u4ed6\u7684\u65e0\u79c1\u7684\u7cbe\u795e\u4e0e\u5de8\u5927\u7684\u8d21\u732e\u662f\u4f60\u7684\u4e5f\u662f\u6211\u7684\u6c38\u6052\u7684\u9a84\u50b2\u3002",
@@ -67,7 +79,7 @@ var TB_G7S2 = {
           ],
           thinkExplore: [
             { cn: "\u901a\u8bfb\u5168\u6587\uff0c\u628a\u63e1\u6587\u610f\uff0c\u56de\u7b54\uff1a\u521d\u8bfb\u8bfe\u6587\u65f6\uff0c\u54ea\u4e9b\u53e5\u6bb5\u6700\u8ba9\u4f60\u611f\u52a8\uff1f", en: "Read the entire text and identify which sentences moved you the most." },
-            { cn: "\u627e\u51fa\u6587\u4e2d\u8868\u73b0\u5965\u672c\u6d77\u9ed8\u4e0e\u90d3\u7a3c\u5148\u4e0d\u540c\u4e2a\u6027\u3001\u54c1\u8d28\u7684\u8bcd\u8bed\u53ca\u7ec6\u8282\uff0c\u601d\u8003\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u8fdb\u884c\u5bf9\u6bd4\u3002", en: "Find words and details showing the different personalities of Oppenheimer and Deng Jiaxian, and think about why the author uses contrast." },
+            { cn: "\u627e\u51fa\u6587\u4e2d\u8868\u73b0\u5965\u672c\u6d77\u9ed8\u4e0e\u9093\u7a3c\u5148\u4e0d\u540c\u4e2a\u6027\u3001\u54c1\u8d28\u7684\u8bcd\u8bed\u53ca\u7ec6\u8282\uff0c\u601d\u8003\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u8fdb\u884c\u5bf9\u6bd4\u3002", en: "Find words and details showing the different personalities of Oppenheimer and Deng Jiaxian, and think about why the author uses contrast." },
             { cn: "\u8bfe\u6587\u6700\u540e\u4e00\u6bb5\u5199\u9053\uff1a\u201c\u5982\u679c\u7a3c\u5148\u518d\u6b21\u9009\u62e9\u4ed6\u7684\u4eba\u751f\u7684\u8bdd\uff0c\u4ed6\u4ecd\u4f1a\u8d70\u4ed6\u5df2\u8d70\u8fc7\u7684\u9053\u8def\u3002\u201d\u7ed3\u5408\u8bfe\u6587\uff0c\u8bf4\u8bf4\u4f60\u7684\u7406\u89e3\u3002", en: "The last paragraph says: \u2018If Jiaxian could choose his life again, he would still walk the same path.\u2019 Share your understanding." }
           ],
           accumExtend: [
@@ -80,13 +92,24 @@ var TB_G7S2 = {
             { cn: "\u4f53\u4f1a\u6563\u6587\u4e2d\u8bae\u8bba\u3001\u62d2\u60c5\u8bed\u53e5\u7684\u70b9\u775b\u4f5c\u7528\u3002", en: "Appreciate the highlighting effect of argumentative and emotional sentences in prose." }
           ],
           parentTips: [
-            { cn: "\u5f15\u5bfc\u5b69\u5b50\u4e86\u89e3\u90d3\u7a3c\u5148\u7684\u5949\u732e\u7cbe\u795e\uff0c\u8ba8\u8bba\u79d1\u5b66\u5bb6\u7684\u793e\u4f1a\u8d23\u4efb\u3002", en: "Guide your child to understand Deng Jiaxian\u2019s spirit of dedication and discuss scientists\u2019 social responsibility." }
+            { cn: "\u5f15\u5bfc\u5b69\u5b50\u4e86\u89e3\u9093\u7a3c\u5148\u7684\u5949\u732e\u7cbe\u795e\uff0c\u8ba8\u8bba\u79d1\u5b66\u5bb6\u7684\u793e\u4f1a\u8d23\u4efb\u3002", en: "Guide your child to understand Deng Jiaxian\u2019s spirit of dedication and discuss scientists\u2019 social responsibility." }
           ]
         },
         {
           id: 2,
           title: "\u8bf4\u548c\u505a\u2014\u2014\u8bb0\u95fb\u4e00\u591a\u5148\u751f\u8a00\u884c\u7247\u6bb5",
           titleEn: "Words and Deeds \u2014 Fragments of Mr. Wen Yiduo",
+          difficulty: 4,
+          vocabWords: [
+            {word:'锲而不舍',pinyin:'qiè ér bù shě',en:'to persevere without giving up',sentence:'他正向古代典籍钻探，有如向地壳寻求宝藏，锲而不舍。',sentenceEn:'He was delving into ancient texts as if seeking treasure in the earth, persevering without giving up.'},
+            {word:'沥尽心血',pinyin:'lì jìn xīn xuè',en:'to exhaust every drop of effort',sentence:'他沥尽心血，为民族文化事业做出了巨大贡献。',sentenceEn:'He exhausted every drop of effort and made enormous contributions to the national cultural cause.'},
+            {word:'群蚁排衙',pinyin:'qún yǐ pái yá',en:'ants lined up in formation (describing dense notes)',sentence:'杂乱的书籍中到处是密密麻麻的小楷，如群蚁排衙。',sentenceEn:'Among the chaotic books were tiny characters packed tightly like ants lined up in formation.'},
+            {word:'慷慨淋漓',pinyin:'kāng kǎi lín lí',en:'impassioned and forceful',sentence:'他慷慨淋漓地发表了演说。',sentenceEn:'He delivered an impassioned and forceful speech.'},
+            {word:'气冲斗牛',pinyin:'qì chōng dǒu niú',en:'anger or passion that reaches the heavens',sentence:'闻一多先生大无畏地在群众大会上大骂特务，气冲斗牛。',sentenceEn:'Mr. Wen Yiduo fearlessly cursed the secret agents at a public rally, his passion reaching the heavens.'}
+          ],
+          grammarPoints: [
+            {point:'夹叙夹议',pointEn:'jiā xù jiā yì',example:'interweaving narration and commentary',exampleEn:'文章夹叙夹议，在叙述闻一多先生言行的同时加入评论，使人物形象更加鲜明。',explanation:'The article interweaves narration and commentary, adding evaluation while recounting Mr. Wen Yiduo’s words and deeds, making the figure more vivid.',explanationEn:'在记叙文中穿插议论，能深化主题，揭示人物精神品质。'}
+          ],
           author: "\u81e7\u514b\u5bb6",
           authorEn: "Zang Kejia",
           source: "\u9009\u81ea1980\u5e742\u670812\u65e5\u300a\u4eba\u6c11\u65e5\u62a5\u300b\u3002\u6709\u6539\u52a8\u3002",
@@ -122,7 +145,7 @@ var TB_G7S2 = {
             { id: 3, term: "\u7fa4\u8681\u6392\u8859", pinyin: "q\u00fan\u01d0p\u00e1iy\u00e1", definition: "\u8fd9\u91cc\u6307\u6574\u9f50\u5730\u6392\u5217\u7740\u3002", definitionEn: "Here it means neatly arranged in rows." },
             { id: 4, term: "\u8fe5\u4e4e\u4e0d\u540c", pinyin: "ji\u01d2ngh\u016bb\u00f9t\u00f3ng", definition: "\u5f88\u4e0d\u4e00\u6837\u3002\u8fe5\uff0c\u5dee\u5f97\u8fdc\u3002", definitionEn: "Very different. \u8fe5 means far apart." },
             { id: 5, term: "\u6c14\u51b2\u6597\u725b", pinyin: "q\u00ecch\u014dngd\u01d2uni\u00fa", definition: "\u5f62\u5bb9\u6c14\u52bf\u4e4b\u76db\u53ef\u4ee5\u76f4\u51b2\u4e91\u9704\u3002", definitionEn: "Describes an imposing spirit that could pierce the heavens." },
-            { id: 6, term: "\u9518\u800c\u4e0d\u820d", pinyin: "qi\u00e8\u00e9rb\u00f9sh\u011b", definition: "\u4e0d\u505c\u5730\u96d5\u523b\uff0c\u6bd4\u55bb\u6709\u6052\u5fc3\u3001\u6709\u6bc5\u529b\u3002", definitionEn: "To carve without stopping\u2014a metaphor for perseverance." }
+            { id: 6, term: "\u9532\u800c\u4e0d\u820d", pinyin: "qi\u00e8\u00e9rb\u00f9sh\u011b", definition: "\u4e0d\u505c\u5730\u96d5\u523b\uff0c\u6bd4\u55bb\u6709\u6052\u5fc3\u3001\u6709\u6bc5\u529b\u3002", definitionEn: "To carve without stopping\u2014a metaphor for perseverance." }
           ],
           thinkExplore: [
             { cn: "\u95fb\u4e00\u591a\u4f5c\u4e3a\u5b66\u8005\u65f6\u7684\u201c\u8bf4\u201d\u548c\u201c\u505a\u201d\uff0c\u4e0e\u4f5c\u4e3a\u6c11\u4e3b\u6218\u58eb\u65f6\u7684\u201c\u8bf4\u201d\u548c\u201c\u505a\u201d\u6709\u54ea\u4e9b\u4e0d\u540c\uff1f", en: "How do Wen Yiduo\u2019s \u2018words and deeds\u2019 differ between his roles as scholar and as democratic fighter?" },
@@ -132,7 +155,7 @@ var TB_G7S2 = {
             { cn: "\u67e5\u9605\u76f8\u5173\u8d44\u6599\uff0c\u4e3a\u672c\u6587\u518d\u8865\u5145\u4e00\u4e24\u4ef6\u4f53\u73b0\u95fb\u4e00\u591a\u201c\u8bf4\u201d\u548c\u201c\u505a\u201d\u7279\u70b9\u7684\u4e8b\u4f8b\u3002", en: "Research and add one or two more examples of Wen Yiduo\u2019s \u2018words and deeds.\u2019" },
             { cn: "\u8bfe\u5916\u9605\u8bfb\u95fb\u4e00\u591a\u7684\u300a\u592a\u9633\u541f\u300b\u300a\u6b7b\u6c34\u300b\u300a\u9759\u591c\u300b\u7b49\u8bd7\u4f5c\u3002", en: "Read Wen Yiduo\u2019s poems Sun Hymn, Dead Water, and Quiet Night outside of class." }
           ],
-          readWriteWords: ["\u68a6\u5bd0", "\u8870\u5fae", "\u8d6b\u7136", "\u8fc5\u901f", "\u6f5c\u5fc3\u8d2f\u6ce8", "\u5fc3\u4f1a\u795e\u51dd", "\u9518\u800c\u4e0d\u820d", "\u5140\u5140\u7a77\u5e74", "\u6c14\u51b2\u6597\u725b", "\u6177\u6168\u6dcb\u6f13"],
+          readWriteWords: ["\u68a6\u5bd0", "\u8870\u5fae", "\u8d6b\u7136", "\u8fc5\u901f", "\u6f5c\u5fc3\u8d2f\u6ce8", "\u5fc3\u4f1a\u795e\u51dd", "\u9532\u800c\u4e0d\u820d", "\u5140\u5140\u7a77\u5e74", "\u6c14\u51b2\u6597\u725b", "\u6177\u6168\u6dcb\u6f13"],
           teachingPoints: [
             { cn: "\u5b66\u4e60\u524d\u540e\u5bf9\u6bd4\u7684\u53cc\u7ebf\u7ed3\u6784\u5199\u6cd5\u3002", en: "Learn the dual-thread structure of before-and-after contrast." }
           ],
@@ -144,6 +167,14 @@ var TB_G7S2 = {
           id: 3,
           title: "\u56de\u5fc6\u9c81\u8fc5\u5148\u751f\uff08\u8282\u9009\uff09",
           titleEn: "Recollections of Mr. Lu Xun (Excerpt)",
+          difficulty: 4,
+          vocabWords: [
+            {word:'轻捷',pinyin:'qīng jié',en:'light and nimble',sentence:'鲁迅先生走路很轻捷。',sentenceEn:'Mr. Lu Xun walked lightly and nimbly.'},
+            {word:'草率',pinyin:'cǎo shuài',en:'careless; sloppy',sentence:'鲁迅先生不大注意人的衣裳，他说谁穿什么衣裳他看不见，但他看见了就不会草率地评论。',sentenceEn:'Mr. Lu Xun did not pay much attention to clothing, but once he noticed something he would not comment carelessly.'},
+            {word:'深恶痛绝',pinyin:'shēn wù tòng jué',en:'to detest utterly',sentence:'鲁迅先生对剥削人民的行为深恶痛绝。',sentenceEn:'Mr. Lu Xun utterly detested behavior that exploited the people.'},
+            {word:'不以为然',pinyin:'bù yǐ wéi rán',en:'to disagree; to disapprove',sentence:'鲁迅先生对此不以为然地笑了笑。',sentenceEn:'Mr. Lu Xun smiled with gentle disapproval.'},
+            {word:'忧郁',pinyin:'yōu yù',en:'melancholy; sorrowful',sentence:'鲁迅先生有时会显出忧郁的神色。',sentenceEn:'Mr. Lu Xun sometimes displayed a melancholy expression.'}
+          ],
           author: "\u8427\u7ea2",
           authorEn: "Xiao Hong",
           source: "\u9009\u81ea\u300a\u8427\u7ea2\u5168\u96c6\u300b\u7b2c\u4e8c\u5377\uff08\u9ed1\u9f99\u6c5f\u5927\u5b66\u51fa\u7248\u793e2011\u5e74\u7248\uff09\u3002\u6709\u6539\u52a8\u3002",
@@ -183,8 +214,19 @@ var TB_G7S2 = {
           id: 4,
           title: "\u5b59\u6743\u529d\u5b66",
           titleEn: "Sun Quan Urges Learning",
+          difficulty: 5,
+          vocabWords: [
+            {word:'卿',pinyin:'qīng',en:'a term of address used by rulers for ministers',sentence:'卿今当涂掌事，不可不学。',sentenceEn:'You are now in charge of important affairs and must not neglect learning.'},
+            {word:'涉猎',pinyin:'shè liè',en:'to browse; to read widely',sentence:'但当涉猎，见往事耳。',sentenceEn:'You need only browse widely and learn from past events.'},
+            {word:'刮目相待',pinyin:'guā mù xiāng dài',en:'to regard someone with new eyes',sentence:'士别三日，即更刮目相待。',sentenceEn:'When a scholar has been away for three days, one should regard him with entirely new eyes.'},
+            {word:'吴下阿蒙',pinyin:'wú xià ā méng',en:'the simple-minded Ah Meng of Wu (used for someone who has not improved)',sentence:'卿今者才略，非复吴下阿蒙。',sentenceEn:'Your talent and strategy now are no longer that of the simple Ah Meng of old.'},
+            {word:'博士',pinyin:'bó shì',en:'classical scholar; learned person',sentence:'孤岂欲卿治经为博士邪。',sentenceEn:'Do I wish for you to study the classics and become a learned scholar?'}
+          ],
+          grammarPoints: [
+            {point:'对话推动叙事',pointEn:'duì huà tuī dòng xù shì',example:'dialogue-driven narration',exampleEn:'全文主要通过孙权与吕蒙、鲁肃与吕蒙的对话展开叙事。',explanation:'The entire text unfolds its narrative mainly through dialogues between Sun Quan and Lu Meng, and between Lu Su and Lu Meng.',explanationEn:'以对话为主的叙事方式，言简意丰，既推动情节又展现人物性格。'}
+          ],
           author: "\u300a\u8d44\u6cbb\u901a\u9274\u300b",
-          authorEn: "Erta Comprehensive Mirror to Aid in Government",
+          authorEn: "Comprehensive Mirror to Aid in Government",
           source: "\u8282\u9009\u81ea\u300a\u8d44\u6cbb\u901a\u9274\u300b\u5377\u516d\u5341\u516d\uff08\u4e2d\u534e\u4e66\u5c401956\u5e74\u7248\uff09\u3002\u9898\u76ee\u662f\u7f16\u8005\u52a0\u7684\u3002",
           sourceEn: "Excerpted from Zizhi Tongjian, Chapter 66 (Zhonghua Book Company, 1956). Title added by editors.",
           authorBio: {
@@ -229,11 +271,25 @@ var TB_G7S2 = {
       writing: {
         title: "\u5199\u51fa\u4eba\u7269\u7684\u7cbe\u795e",
         titleEn: "Writing: Capturing a Person\u2019s Spirit",
+        vocabWords: [
+          {word:'典型细节',pinyin:'diǎn xíng xì jié',en:'typical details',sentence:'通过典型细节展现人物精神。',sentenceEn:'Reveal a person’s spirit through typical details.'},
+          {word:'对比衬托',pinyin:'duì bǐ chèn tuō',en:'contrast and foil',sentence:'用对比衬托的手法使人物形象更加鲜明。',sentenceEn:'Use contrast and foil techniques to make the character image more vivid.'},
+          {word:'侧面描写',pinyin:'cè miàn miáo xiě',en:'indirect description',sentence:'除了正面描写，还可以用侧面描写来表现人物精神。',sentenceEn:'Besides direct description, you can also use indirect description to convey a person’s spirit.'},
+          {word:'言行一致',pinyin:'yán xíng yī zhì',en:'consistency between words and deeds',sentence:'写人要抓住言行一致或言行矛盾的地方。',sentenceEn:'When writing about people, capture where words and deeds are consistent or contradictory.'},
+          {word:'精神品质',pinyin:'jīng shén pǐn zhì',en:'spiritual quality; moral character',sentence:'作文要深入挖掘人物的精神品质。',sentenceEn:'Compositions should deeply explore the spiritual qualities of characters.'}
+        ],
         prompt: { cn: "\u901a\u8fc7\u5178\u578b\u7ec6\u8282\u3001\u5bf9\u6bd4\u8854\u6258\u3001\u62d2\u60c5\u8bae\u8bba\u7b49\u624b\u6cd5\uff0c\u5199\u51fa\u4eba\u7269\u7684\u5185\u5728\u7cbe\u795e\u3002", en: "Use typical details, contrast, and emotional commentary to capture a person\u2019s inner spirit." }
       },
       readWrite: {
         title: "\u526f\u8bcd",
         titleEn: "Adverbs",
+        vocabWords: [
+          {word:'副词',pinyin:'fù cí',en:'adverb',sentence:'副词一般用在动词或形容词前边，起修饰、限制作用。',sentenceEn:'Adverbs are generally placed before verbs or adjectives to modify or limit them.'},
+          {word:'程度副词',pinyin:'chéng dù fù cí',en:'degree adverb',sentence:'很、非常、十分、极其等都是常见的程度副词。',sentenceEn:'Very, extremely, greatly, and exceedingly are all common degree adverbs.'},
+          {word:'否定副词',pinyin:'fǒu dìng fù cí',en:'negative adverb',sentence:'不、没、未等是否定副词。',sentenceEn:'Bu, mei, and wei are negative adverbs.'},
+          {word:'频率副词',pinyin:'pín lǜ fù cí',en:'frequency adverb',sentence:'常常、经常、偶尔、从不等是频率副词。',sentenceEn:'Often, frequently, occasionally, and never are frequency adverbs.'},
+          {word:'语气副词',pinyin:'yǔ qì fù cí',en:'tone adverb',sentence:'难道、究竟、到底等是语气副词。',sentenceEn:'Nandao, jiujing, and daodi are tone adverbs.'}
+        ],
         content: { cn: "\u526f\u8bcd\u4e00\u822c\u7528\u5728\u52a8\u8bcd\u6216\u5f62\u5bb9\u8bcd\u524d\u8fb9\uff0c\u8d77\u4fee\u9970\u3001\u9650\u5236\u4f5c\u7528\uff0c\u8868\u793a\u7a0b\u5ea6\u3001\u8303\u56f4\u3001\u65f6\u95f4\u3001\u9891\u7387\u6216\u8bed\u6c14\u7b49\u3002", en: "Adverbs are generally placed before verbs or adjectives, serving to modify or limit, indicating degree, scope, time, frequency, or tone." }
       }
     },
@@ -254,6 +310,17 @@ var TB_G7S2 = {
           id: 5,
           title: "\u9ec4\u6cb3\u9882",
           titleEn: "Ode to the Yellow River",
+          difficulty: 5,
+          vocabWords: [
+            {word:'气魄',pinyin:'qì pò',en:'imposing manner; grandeur',sentence:'黄河以它英雄的气魄，出现在亚洲的原野。',sentenceEn:'The Yellow River appears on the plains of Asia with its heroic grandeur.'},
+            {word:'澎湃',pinyin:'péng pài',en:'surging; roaring',sentence:'惊涛澎湃，掀起万丈狂澜。',sentenceEn:'Surging waves raise towering billows.'},
+            {word:'狂澜',pinyin:'kuáng lán',en:'raging waves',sentence:'掀起万丈狂澜。',sentenceEn:'Raising raging waves ten thousand feet high.'},
+            {word:'屏障',pinyin:'píng zhàng',en:'barrier; shield',sentence:'用你那英雄的体魄筑成我们民族的屏障。',sentenceEn:'With your heroic body you form the barrier of our nation.'},
+            {word:'哺育',pinyin:'bǔ yù',en:'to nurture; to nourish',sentence:'我们民族的伟大精神，将要在你的哺育下发扬滋长。',sentenceEn:'The great spirit of our nation will grow and flourish under your nurturing.'}
+          ],
+          grammarPoints: [
+            {point:'反复与呼告',pointEn:'fǎn fù yǔ hū gào',example:'repetition and apostrophe',exampleEn:'啊！黄河！反复出现三次，营造出回环往复的韵律美。',explanation:'Ah! Yellow River! appears three times, creating a rhythmic beauty of cyclical repetition.',explanationEn:'反复使用相同的句式和呼告，能增强诗歌的气势和感染力。'}
+          ],
           author: "\u5149\u672a\u7136",
           authorEn: "Guang Weiran",
           source: "\u9009\u81ea\u300a\u9ec4\u6cb3\u5927\u5408\u5531\u300b\u3002",
@@ -303,6 +370,17 @@ var TB_G7S2 = {
           id: 6,
           title: "\u8001\u5c71\u754c",
           titleEn: "Laoshan Pass",
+          difficulty: 3,
+          vocabWords: [
+            {word:'攀谈',pinyin:'pān tán',en:'to chat; to make conversation',sentence:'我们就跟瑶民攀谈起来。',sentenceEn:'We began chatting with the Yao villagers.'},
+            {word:'苛捐杂税',pinyin:'kē juān zá shuì',en:'excessive taxes and levies',sentence:'我们谈到苛捐杂税。',sentenceEn:'We talked about the excessive taxes and levies.'},
+            {word:'酣然入梦',pinyin:'hān rán rù mèng',en:'to fall into a deep sleep',sentence:'就在这山路上酣然入梦了。',sentenceEn:'They fell into a deep sleep right there on the mountain path.'},
+            {word:'陡峭',pinyin:'dǒu qiào',en:'steep; precipitous',sentence:'这么陡峭的山，这么茂密的树林。',sentenceEn:'Such a steep mountain and such dense forests.'},
+            {word:'矗立',pinyin:'chù lì',en:'to stand upright; to tower',sentence:'满天都是星光，火把也亮起来了，从山脚向上望，只见火把排成许多之字形。',sentenceEn:'Stars filled the sky and torches lit up; looking up from the foot of the mountain, the torches formed many zigzag shapes.'}
+          ],
+          grammarPoints: [
+            {point:'时间顺序',pointEn:'shí jiān shùn xù',example:'chronological order',exampleEn:'文章按时间顺序叙述红军翻越老山界的经过，从下午出发到第二天下午翻过山顶。',explanation:'The article narrates the Red Army crossing Laoshan Pass in chronological order, from departure in the afternoon to crossing the summit the next afternoon.',explanationEn:'按时间顺序组织材料，能清晰地展现事件的发展过程。'}
+          ],
           author: "\u9646\u5b9a\u4e00",
           authorEn: "Lu Dingyi",
           source: "\u9009\u81ea\u300a\u4e2d\u56fd\u5de5\u519c\u7ea2\u519b\u7b2c\u4e00\u65b9\u9762\u519b\u957f\u5f81\u8bb0\u300b\u3002",
@@ -325,7 +403,7 @@ var TB_G7S2 = {
             "The formidable Laoshan Pass was conquered by our cumbersome troops."
           ],
           annotations: [
-            { id: 1, term: "\u7410\u7887", pinyin: "su\u01d2su\u00ec", definition: "\u7ec6\u5c0f\u800c\u7e41\u591a\u3002", definitionEn: "Small and numerous, trivial." },
+            { id: 1, term: "\u7410\u788e", pinyin: "su\u01d2su\u00ec", definition: "\u7ec6\u5c0f\u800c\u7e41\u591a\u3002", definitionEn: "Small and numerous, trivial." },
             { id: 2, term: "\u7ec6\u5207", pinyin: "x\u00ecqi\u0113", definition: "\u5f62\u5bb9\u58f0\u97f3\u7ec6\u5fae\u6025\u4fc3\u3002", definitionEn: "Describes sounds that are fine and rapid." },
             { id: 3, term: "\u9163\u7136\u5165\u68a6", pinyin: "h\u0101nr\u00e1nr\u00f9m\u00e8ng", definition: "\u7545\u5feb\u5730\u5165\u7761\u3002", definitionEn: "To fall into a sound sleep." }
           ],
@@ -336,7 +414,7 @@ var TB_G7S2 = {
           accumExtend: [
             { cn: "\u8d4f\u6790\u534a\u591c\u5c71\u4e2d\u7684\u666f\u7269\u63cf\u5199\uff0c\u4f53\u4f1a\u6bd4\u55bb\u7684\u8868\u8fbe\u6548\u679c\u3002", en: "Analyze the midnight mountain scene and appreciate the effect of simile." }
           ],
-          readWriteWords: ["\u60ec\u6015", "\u6512\u62e5", "\u9163\u7136\u5165\u68a6", "\u7ec6\u5207", "\u7410\u7887"],
+          readWriteWords: ["\u60ec\u6015", "\u6512\u62e5", "\u9163\u7136\u5165\u68a6", "\u7ec6\u5207", "\u7410\u788e"],
           teachingPoints: [
             { cn: "\u5b66\u4e60\u6309\u65f6\u95f4\u987a\u5e8f\u548c\u5730\u70b9\u8f6c\u79fb\u7ec4\u7ec7\u6750\u6599\u7684\u65b9\u6cd5\u3002", en: "Learn to organize material by time sequence and location change." }
           ],
@@ -348,6 +426,17 @@ var TB_G7S2 = {
           id: 7,
           title: "\u8c01\u662f\u6700\u53ef\u7231\u7684\u4eba",
           titleEn: "Who Are the Most Beloved People",
+          difficulty: 4,
+          vocabWords: [
+            {word:'淳朴',pinyin:'chún pǔ',en:'simple and honest',sentence:'他们的气质是那样地淳朴和谦逊。',sentenceEn:'Their temperament is so simple, honest, and modest.'},
+            {word:'坚韧',pinyin:'jiān rèn',en:'tenacious; resilient',sentence:'他们的意志是那样地坚韧和刚强。',sentenceEn:'Their willpower is so tenacious and unyielding.'},
+            {word:'覆灭',pinyin:'fù miè',en:'to be destroyed; to perish',sentence:'好使自己的主力不致覆灭。',sentenceEn:'So that their main forces would not be destroyed.'},
+            {word:'豪迈',pinyin:'háo mài',en:'bold and heroic',sentence:'志愿军战士们有着豪迈的气概。',sentenceEn:'The volunteer soldiers possessed bold and heroic spirit.'},
+            {word:'可歌可泣',pinyin:'kě gē kě qì',en:'worthy of song and tears; deeply moving',sentence:'这是许许多多可歌可泣的英雄人物创造出来的伟大胜利。',sentenceEn:'This was a great victory created by countless deeply moving heroes.'}
+          ],
+          grammarPoints: [
+            {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'他们的品质是那样地纯洁和高尚，他们的意志是那样地坚韧和刚强，他们的气质是那样地淳朴和谦逊。',explanation:'Their character is so pure and noble, their willpower so tenacious and unyielding, their temperament so simple and modest.',explanationEn:'连续使用相同句式的排比，增强了语势，充分表达了作者对志愿军战士的赞美之情。'}
+          ],
           author: "\u9b4f\u5dcd",
           authorEn: "Wei Wei",
           source: "\u9009\u81ea\u300a\u8c01\u662f\u6700\u53ef\u7231\u7684\u4eba\u300b\uff08\u4eba\u6c11\u6587\u5b66\u51fa\u7248\u793e1978\u5e74\u7248\uff09\u3002\u7565\u6709\u6539\u52a8\u3002",
@@ -391,6 +480,14 @@ var TB_G7S2 = {
           id: 8,
           title: "\u571f\u5730\u7684\u8a93\u8a00",
           titleEn: "Oath to the Land",
+          difficulty: 4,
+          vocabWords: [
+            {word:'挚痛',pinyin:'zhì tòng',en:'deeply sincere and painful',sentence:'对于广大的关东原野，我心里怀着挚痛的热爱。',sentenceEn:'For the vast Guandong plains, I feel a deeply sincere and painful love in my heart.'},
+            {word:'泛滥',pinyin:'fàn làn',en:'to flood; to overflow',sentence:'我常常感到它在泛滥着一种热情。',sentenceEn:'I often felt it overflowing with a kind of passion.'},
+            {word:'亘古',pinyin:'gèn gǔ',en:'since time immemorial',sentence:'在那亘古的地层里，有着一股燃烧的洪流。',sentenceEn:'In those strata from time immemorial, there is a burning torrent.'},
+            {word:'斑斓',pinyin:'bān lán',en:'colorful; brilliant',sentence:'我想起斑斓的山雕，奔驰的鹿群。',sentenceEn:'I recall the brilliant mountain eagles and galloping herds of deer.'},
+            {word:'默契',pinyin:'mò qì',en:'tacit understanding; unspoken agreement',sentence:'在热情的默契里它们彼此呼唤着。',sentenceEn:'In their passionate tacit understanding they call to each other.'}
+          ],
           author: "\u7aef\u6728\u857b\u826f",
           authorEn: "Duanmu Hongliang",
           source: "\u9009\u81ea\u300a\u4e2d\u56fd\u73b0\u4ee3\u6563\u6587\u9009\u300b\u3002",
@@ -414,7 +511,7 @@ var TB_G7S2 = {
           ],
           annotations: [
             { id: 1, term: "\u70bd\u75db", pinyin: "ch\u00ect\u00f2ng", definition: "\u70ed\u70c8\u800c\u6df1\u5207\u3002", definitionEn: "Passionate and deep." },
-            { id: 2, term: "\u5606\u606f", pinyin: "t\u00e0nx\u012b", definition: "\u56e0\u60c5\u611f\u6fc0\u52a8\u800c\u53d1\u51fa\u7684\u58f0\u97f3\u3002", definitionEn: "A sigh of deep emotion." }
+            { id: 2, term: "\u53f9\u606f", pinyin: "t\u00e0nx\u012b", definition: "\u56e0\u60c5\u611f\u6fc0\u52a8\u800c\u53d1\u51fa\u7684\u58f0\u97f3\u3002", definitionEn: "A sigh of deep emotion." }
           ],
           readingTips: [
             { cn: "\u672c\u6587\u5927\u91cf\u8fd0\u7528\u6392\u6bd4\u3001\u547c\u544a\u7b49\u4fee\u8f9e\u624b\u6cd5\uff0c\u62d2\u53d1\u5bf9\u6545\u571f\u7684\u70c8\u7231\u3002\u6ce8\u610f\u4f53\u4f1a\u5176\u4e2d\u7684\u611f\u60c5\u529b\u91cf\u3002", en: "This text uses parallelism and apostrophe extensively to express passionate love for the homeland. Notice the emotional power." }
@@ -430,6 +527,18 @@ var TB_G7S2 = {
           id: 9,
           title: "\u6728\u5170\u8bd7",
           titleEn: "The Ballad of Mulan",
+          difficulty: 4,
+          vocabWords: [
+            {word:'机杼',pinyin:'jī zhù',en:'loom and shuttle',sentence:'不闻机杼声，唯闻女叹息。',sentenceEn:'The sound of the loom was not heard, only the girl’s sighs.'},
+            {word:'戎机',pinyin:'róng jī',en:'military affairs; warfare',sentence:'万里赴戎机，关山度若飞。',sentenceEn:'She rode ten thousand li to join the war, crossing passes and mountains as if flying.'},
+            {word:'朔气',pinyin:'shuò qì',en:'cold air of the north',sentence:'朔气传金柝，寒光照铁衣。',sentenceEn:'Northern cold air carried the sound of the watchman’s clapper; cold light shone on iron armor.'},
+            {word:'扑朔迷离',pinyin:'pū shuò mí lí',en:'confusing and hard to distinguish',sentence:'雄兔脚扑朔，雌兔眼迷离。',sentenceEn:'The male hare hops about, the female hare has misty eyes.'},
+            {word:'策勋',pinyin:'cè xūn',en:'to record meritorious deeds',sentence:'策勋十二转，赏赐百千强。',sentenceEn:'Her meritorious deeds were recorded at the highest rank, and she was richly rewarded.'}
+          ],
+          grammarPoints: [
+            {point:'互文',pointEn:'hù wén',example:'mutual text (a rhetorical device where two clauses complete each other)',exampleEn:'东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭。',explanation:'At the east market she bought a fine horse, at the west market a saddle pad, at the south market a bridle, at the north market a long whip.',explanationEn:'互文是古诗常用的修辞手法，上下句互相补充，合起来表达一个完整意思。'},
+            {point:'顶真',pointEn:'dǐng zhēn',example:'anadiplosis (repeating the ending of one clause at the start of the next)',exampleEn:'归来见天子，天子坐明堂。',explanation:'She returned to see the emperor; the emperor sat in the bright hall.',explanationEn:'前一句结尾的词语作为后一句的开头，使语句紧凑连贯，增强韵律感。'}
+          ],
           author: "\u5317\u671d\u6c11\u6b4c",
           authorEn: "Northern Dynasties Folk Song",
           source: "\u9009\u81ea\u300a\u4e50\u5e9c\u8bd7\u96c6\u300b\u5377\u4e8c\u5341\u4e94\uff08\u5317\u5b8b\u90ed\u8302\u5029\u7f16\uff0c\u4e2d\u534e\u4e66\u5c401979\u5e74\u7248\uff09\u3002",
@@ -438,9 +547,9 @@ var TB_G7S2 = {
           isClassical: true,
           isPoetry: true,
           text: [
-            "\u553f\u553f\u590d\u553f\u553f\uff0c\u6728\u5170\u5f53\u6237\u7ec7\u3002\u4e0d\u95fb\u673a\u677c\u58f0\uff0c\u60df\u95fb\u5973\u53f9\u606f\u3002",
+            "\u5527\u5527\u590d\u5527\u5527\uff0c\u6728\u5170\u5f53\u6237\u7ec7\u3002\u4e0d\u95fb\u673a\u677c\u58f0\uff0c\u60df\u95fb\u5973\u53f9\u606f\u3002",
             "\u95ee\u5973\u4f55\u6240\u601d\uff0c\u95ee\u5973\u4f55\u6240\u5fc6\u3002\u5973\u4ea6\u65e0\u6240\u601d\uff0c\u5973\u4ea6\u65e0\u6240\u5fc6\u3002\u6628\u591c\u89c1\u519b\u5e16\uff0c\u53ef\u6c57\u5927\u70b9\u5175\uff0c\u519b\u4e66\u5341\u4e8c\u5377\uff0c\u5377\u5377\u6709\u7237\u540d\u3002\u963f\u7237\u65e0\u5927\u513f\uff0c\u6728\u5170\u65e0\u957f\u5144\uff0c\u613f\u4e3a\u5e02\u978d\u9a6c\uff0c\u4ece\u6b64\u66ff\u7237\u5f81\u3002",
-            "\u4e07\u91cc\u8d74\u6208\u673a\uff0c\u5173\u5c71\u5ea6\u82e5\u98de\u3002\u6714\u6c14\u4f20\u91d1\u67d8\uff0c\u5bd2\u5149\u7167\u94c1\u8863\u3002\u5c06\u519b\u767e\u6218\u6b7b\uff0c\u58ee\u58eb\u5341\u5e74\u5f52\u3002",
+            "\u4e07\u91cc\u8d74\u620e\u673a\uff0c\u5173\u5c71\u5ea6\u82e5\u98de\u3002\u6714\u6c14\u4f20\u91d1\u67dd\uff0c\u5bd2\u5149\u7167\u94c1\u8863\u3002\u5c06\u519b\u767e\u6218\u6b7b\uff0c\u58ee\u58eb\u5341\u5e74\u5f52\u3002",
             "\u5f52\u6765\u89c1\u5929\u5b50\uff0c\u5929\u5b50\u5750\u660e\u5802\u3002\u7b56\u52cb\u5341\u4e8c\u8f6c\uff0c\u8d4f\u8d50\u767e\u5343\u5f3a\u3002\u53ef\u6c57\u95ee\u6240\u6b32\uff0c\u6728\u5170\u4e0d\u7528\u5c1a\u4e66\u90ce\uff0c\u613f\u9a70\u5343\u91cc\u8db3\uff0c\u9001\u513f\u8fd8\u6545\u4e61\u3002",
             "\u7237\u5a18\u95fb\u5973\u6765\uff0c\u51fa\u90ed\u76f8\u6276\u5c06\uff1b\u963f\u59ca\u95fb\u59b9\u6765\uff0c\u5f53\u6237\u7406\u7ea2\u5986\uff1b\u5c0f\u5f1f\u95fb\u59ca\u6765\uff0c\u78e8\u5200\u970d\u970d\u5411\u732a\u7f8a\u3002",
             "\u96c4\u5154\u811a\u6251\u6714\uff0c\u96cc\u5154\u773c\u8ff7\u79bb\uff1b\u53cc\u5154\u508d\u5730\u8d70\uff0c\u5b89\u80fd\u8fa8\u6211\u662f\u96c4\u96cc\uff1f"
@@ -454,10 +563,10 @@ var TB_G7S2 = {
             "The buck kicks its feet; the doe\u2019s eyes are half-shut. When two rabbits run side by side, how can one tell which is male and which female?"
           ],
           annotations: [
-            { id: 1, term: "\u553f\u553f", pinyin: "j\u012bj\u012b", definition: "\u53f9\u606f\u58f0\u3002", definitionEn: "Sound of sighing." },
+            { id: 1, term: "\u5527\u5527", pinyin: "j\u012bj\u012b", definition: "\u7ec7\u5e03\u673a\u7684\u58f0\u97f3\u3002", definitionEn: "Sound of weaving on a loom." },
             { id: 2, term: "\u519b\u5e16", pinyin: "j\u016bnti\u011b", definition: "\u519b\u4e2d\u7684\u6587\u544a\u3002", definitionEn: "Military notice." },
             { id: 3, term: "\u53ef\u6c57", pinyin: "k\u00e8h\u00e1n", definition: "\u6211\u56fd\u53e4\u4ee3\u897f\u5317\u5730\u533a\u6c11\u65cf\u5bf9\u6700\u9ad8\u7edf\u6cbb\u8005\u7684\u79f0\u547c\u3002", definitionEn: "The supreme ruler\u2019s title among ancient northwestern peoples." },
-            { id: 4, term: "\u6234\u673a", pinyin: "r\u00f3ngj\u012b", definition: "\u6218\u4e8b\u3002", definitionEn: "War, military affairs." },
+            { id: 4, term: "\u620e\u673a", pinyin: "r\u00f3ngj\u012b", definition: "\u6218\u4e8b\u3002", definitionEn: "War, military affairs." },
             { id: 5, term: "\u7b56\u52cb\u5341\u4e8c\u8f6c", pinyin: "c\u00e8x\u016bnsh\u00ed\u00e8rzhu\u01cen", definition: "\u8bb0\u5f88\u5927\u7684\u529f\u3002\u7b56\u52cb\uff0c\u8bb0\u529f\u3002\u8f6c\uff0c\u52cb\u4f4d\u6bcf\u5347\u4e00\u7ea7\u53eb\u4e00\u8f6c\u3002", definitionEn: "To record very high merit. Each level of merit is called one \u8f6c." },
             { id: 6, term: "\u6251\u6714", pinyin: "p\u016bshu\u00f2", definition: "\u52a8\u5f39\u3002", definitionEn: "To scramble, to kick about." },
             { id: 7, term: "\u8ff7\u79bb", pinyin: "m\u00edl\u00ed", definition: "\u7720\u7740\u773c\u3002", definitionEn: "With eyes half-shut." }
@@ -481,16 +590,37 @@ var TB_G7S2 = {
       writing: {
         title: "\u5b66\u4e60\u62d2\u60c5",
         titleEn: "Writing: Learning to Express Emotions",
+        vocabWords: [
+          {word:'直抒胸臆',pinyin:'zhí shū xiōng yì',en:'to express feelings directly',sentence:'直抒胸臆是最基本的抒情方式。',sentenceEn:'Expressing feelings directly is the most fundamental mode of emotional expression.'},
+          {word:'借景抒情',pinyin:'jiè jǐng shū qíng',en:'to express feelings through scenery',sentence:'通过描写景物来间接表达内心情感。',sentenceEn:'Express inner feelings indirectly through describing scenery.'},
+          {word:'融情于事',pinyin:'róng qíng yú shì',en:'to blend emotion into narrative',sentence:'在叙事中自然地融入情感。',sentenceEn:'Blend emotions naturally into the narrative.'},
+          {word:'触景生情',pinyin:'chù jǐng shēng qíng',en:'to be moved by what one sees',sentence:'看到眼前的景物而引发内心的情感。',sentenceEn:'Inner feelings are stirred by seeing the scenery before one’s eyes.'},
+          {word:'含蓄',pinyin:'hán xù',en:'implicit; restrained',sentence:'好的抒情往往是含蓄的，不直接说破。',sentenceEn:'Good emotional expression is often implicit, not stated bluntly.'}
+        ],
         prompt: { cn: "\u6070\u5f53\u62d2\u53d1\u81ea\u5df1\u7684\u771f\u60c5\u5b9e\u611f\uff0c\u80fd\u589e\u5f3a\u6587\u7ae0\u7684\u611f\u67d3\u529b\u3002\u5e38\u89c1\u7684\u62d2\u60c5\u65b9\u5f0f\u6709\u4e24\u79cd\uff1a\u76f4\u63a5\u62d2\u60c5\u548c\u95f4\u63a5\u62d2\u60c5\u3002", en: "Expressing genuine emotions strengthens a piece of writing. Two common approaches: direct expression and indirect expression." }
       },
       comprehensiveLearning: {
         title: "\u5929\u4e0b\u56fd\u5bb6",
         titleEn: "Our Nation and Homeland",
+        vocabWords: [
+          {word:'天下兴亡',pinyin:'tiān xià xīng wáng',en:'the rise and fall of a nation',sentence:'天下兴亡，匹夫有责。',sentenceEn:'The rise and fall of a nation is the responsibility of every citizen.'},
+          {word:'匹夫有责',pinyin:'pǐ fū yǒu zé',en:'every common person has a responsibility',sentence:'天下兴亡，匹夫有责。',sentenceEn:'The rise and fall of a nation is the responsibility of every common person.'},
+          {word:'家国情怀',pinyin:'jiā guó qíng huái',en:'patriotic sentiments',sentence:'家国情怀是中华民族的优良传统。',sentenceEn:'Patriotic sentiments are a fine tradition of the Chinese nation.'},
+          {word:'赤子之心',pinyin:'chì zǐ zhī xīn',en:'a heart of pure devotion',sentence:'爱国志士都怀着一颗赤子之心。',sentenceEn:'Patriots all harbor a heart of pure devotion.'},
+          {word:'忧国忧民',pinyin:'yōu guó yōu mín',en:'to worry about the country and the people',sentence:'古代文人常怀忧国忧民之情。',sentenceEn:'Ancient scholars often harbored feelings of worry for the country and the people.'}
+        ],
         description: { cn: "\u4ee5\u201c\u7231\u56fd\u201d\u4e3a\u6838\u5fc3\uff0c\u5f00\u5c55\u7231\u56fd\u4eba\u7269\u6545\u4e8b\u4f1a\u3001\u7231\u56fd\u8bd7\u8bcd\u6717\u8bf5\u4f1a\u3001\u7231\u56fd\u540d\u8a00\u5c55\u793a\u4f1a\u7b49\u6d3b\u52a8\u3002", en: "Centered on \u2018patriotism,\u2019 activities include patriotic figure story sessions, patriotic poetry recitals, and patriotic quotation exhibitions." }
       },
       readWrite: {
         title: "\u8fde\u8bcd",
         titleEn: "Conjunctions",
+        vocabWords: [
+          {word:'连词',pinyin:'lián cí',en:'conjunction',sentence:'连词是用来连接词、短语或句子的虚词。',sentenceEn:'A conjunction is a function word used to connect words, phrases, or sentences.'},
+          {word:'转折连词',pinyin:'zhuǎn zhé lián cí',en:'adversative conjunction',sentence:'虽然、但是、然而等是转折连词。',sentenceEn:'Although, but, and however are adversative conjunctions.'},
+          {word:'因果连词',pinyin:'yīn guǒ lián cí',en:'causal conjunction',sentence:'因为、所以、因此等是因果连词。',sentenceEn:'Because, therefore, and hence are causal conjunctions.'},
+          {word:'递进连词',pinyin:'dì jìn lián cí',en:'progressive conjunction',sentence:'不但、而且、甚至等是递进连词。',sentenceEn:'Not only, but also, and even are progressive conjunctions.'},
+          {word:'并列连词',pinyin:'bìng liè lián cí',en:'coordinate conjunction',sentence:'和、跟、与、以及等是并列连词。',sentenceEn:'And, with, as well as are coordinate conjunctions.'}
+        ],
         content: { cn: "\u5e38\u89c1\u7684\u8fde\u8bcd\u6709\u548c\u3001\u8ddf\u3001\u540c\u3001\u800c\u3001\u6216\u3001\u800c\u4e14\u3001\u5e76\u4e14\u3001\u867d\u7136\u3001\u4f46\u662f\u3001\u5982\u679c\u3001\u53ea\u6709\u3001\u53ea\u8981\u3001\u56e0\u4e3a\u7b49\uff0c\u7528\u6765\u8868\u793a\u5e76\u5217\u3001\u8f6c\u6298\u3001\u9009\u62e9\u3001\u9012\u8fdb\u3001\u6761\u4ef6\u3001\u56e0\u679c\u7b49\u5173\u7cfb\u3002", en: "Common conjunctions include \u548c, \u800c, \u6216, \u800c\u4e14, \u867d\u7136, \u4f46\u662f, \u5982\u679c, \u56e0\u4e3a, etc., expressing parallel, contrastive, alternative, progressive, conditional, or causal relationships." }
       }
     },
@@ -511,6 +641,17 @@ var TB_G7S2 = {
           id: 10,
           title: "\u963f\u957f\u4e0e\u300a\u5c71\u6d77\u7ecf\u300b",
           titleEn: "Ah Chang and the Classic of Mountains and Seas",
+          difficulty: 4,
+          vocabWords: [
+            {word:'惶急',pinyin:'huáng jí',en:'anxious and flustered',sentence:'她惶急地看着四周。',sentenceEn:'She looked around anxiously and in a flustered manner.'},
+            {word:'诘问',pinyin:'jié wèn',en:'to question closely',sentence:'大家诘问她取来的方法。',sentenceEn:'Everyone questioned her closely about how she obtained it.'},
+            {word:'渴慕',pinyin:'kě mù',en:'to long for; to yearn for',sentence:'我渴慕着绘图的《山海经》。',sentenceEn:'I yearned for an illustrated edition of the Classic of Mountains and Seas.'},
+            {word:'疏懒',pinyin:'shū lǎn',en:'lazy and careless',sentence:'她生得黄胖而矮，虽然也并不十分疏懒。',sentenceEn:'She was stout, yellow-skinned, and short, though not particularly lazy and careless.'},
+            {word:'震悚',pinyin:'zhèn sǒng',en:'to shudder with fear',sentence:'这又使我发生新的敬意了，别人不肯做的事她却能够做成，这实在令人震悚。',sentenceEn:'This made me feel new respect for her; she could accomplish what others would not do, which was truly astonishing.'}
+          ],
+          grammarPoints: [
+            {point:'欲扬先抑',pointEn:'yù yáng xiān yì',example:'to praise by first criticizing',exampleEn:'作者先写阿长的种种缺点和令人讨厌的习惯，再写她为我买来山海经的感人之举。',explanation:'The author first writes about Ah Chang’s various shortcomings and annoying habits, then describes her touching act of buying the Classic of Mountains and Seas for him.',explanationEn:'先写不好的方面，再转折写好的方面，形成强烈对比，使人物形象更加丰满。'}
+          ],
           author: "\u9c81\u8fc5",
           authorEn: "Lu Xun",
           source: "\u9009\u81ea\u300a\u671d\u82b1\u5915\u62fe\u300b\uff08\u300a\u9c81\u8fc5\u5168\u96c6\u300b\u7b2c\u4e8c\u5377\uff09\u3002",
@@ -563,6 +704,14 @@ var TB_G7S2 = {
           id: 11,
           title: "\u8001\u738b",
           titleEn: "Old Wang",
+          difficulty: 5,
+          vocabWords: [
+            {word:'伛偻',pinyin:'yǔ lǚ',en:'hunched; bent over',sentence:'他伛偻着身子进来。',sentenceEn:'He came in with his body hunched over.'},
+            {word:'惶恐',pinyin:'huáng kǒng',en:'terrified; fearful',sentence:'我看他那样子，心里只有同情和惶恐。',sentenceEn:'Seeing him like that, I felt only sympathy and unease.'},
+            {word:'塌败',pinyin:'tā bài',en:'dilapidated; run-down',sentence:'他住在一个塌败的小屋里。',sentenceEn:'He lived in a dilapidated little house.'},
+            {word:'愧怍',pinyin:'kuì zuò',en:'ashamed; feeling guilty',sentence:'几年过去了，我渐渐明白：那是一个幸运的人对一个不幸者的愧怍。',sentenceEn:'Years later, I gradually understood: it was the shame of a fortunate person toward an unfortunate one.'},
+            {word:'滞笨',pinyin:'zhì bèn',en:'clumsy; dull',sentence:'他那直僵僵的身体好像不能坐，稍一弯曲就会散架似的，动作显得很滞笨。',sentenceEn:'His stiff body seemed unable to sit down, as if it would fall apart with the slightest bend, making his movements seem very clumsy.'}
+          ],
           author: "\u6768\u7edb",
           authorEn: "Yang Jiang",
           source: "\u9009\u81ea\u300a\u6768\u7edb\u6563\u6587\u300b\uff08\u4eba\u6c11\u6587\u5b66\u51fa\u7248\u793e1994\u5e74\u7248\uff09\u3002\u6709\u6539\u52a8\u3002",
@@ -606,6 +755,14 @@ var TB_G7S2 = {
           id: 12,
           title: "\u53f0\u9636",
           titleEn: "The Steps",
+          difficulty: 3,
+          vocabWords: [
+            {word:'凹凼',pinyin:'āo dàng',en:'a hollow; a depression',sentence:'门口有个凹凼，是父亲觉得台阶太低的证明。',sentenceEn:'There was a hollow at the doorstep, proof that father felt the steps were too low.'},
+            {word:'尴尬',pinyin:'gān gà',en:'awkward; embarrassed',sentence:'新台阶砌好了，父亲却显得有些尴尬。',sentenceEn:'After the new steps were built, father seemed somewhat awkward.'},
+            {word:'烦躁',pinyin:'fán zào',en:'irritable; restless',sentence:'父亲变得越来越烦躁。',sentenceEn:'Father became increasingly irritable.'},
+            {word:'大庭广众',pinyin:'dà tíng guǎng zhòng',en:'in public; before a large audience',sentence:'父亲在大庭广众面前总觉得不自在。',sentenceEn:'Father always felt uneasy in public.'},
+            {word:'微不足道',pinyin:'wēi bù zú dào',en:'insignificant; negligible',sentence:'在别人看来微不足道的台阶，却是父亲一生的追求。',sentenceEn:'The steps, negligible in the eyes of others, were the pursuit of father’s entire life.'}
+          ],
           author: "\u674e\u68ee\u7965",
           authorEn: "Li Senxiang",
           isSelfRead: true,
@@ -625,7 +782,7 @@ var TB_G7S2 = {
           ],
           annotations: [
             { id: 1, term: "\u4f4e\u7709\u987a\u773c", pinyin: "d\u012bm\u00e9ish\u00f9ny\u01cen", definition: "\u5f62\u5bb9\u9a6f\u826f\u987a\u4ece\u7684\u6837\u5b50\u3002", definitionEn: "Describes a meek, submissive manner." },
-            { id: 2, term: "\u5c2c\u5c2c", pinyin: "g\u0101ng\u00e0", definition: "\u795e\u60c5\u4e0d\u81ea\u7136\u3002", definitionEn: "Awkward, embarrassed." }
+            { id: 2, term: "\u5c34\u5c2c", pinyin: "g\u0101ng\u00e0", definition: "\u795e\u60c5\u4e0d\u81ea\u7136\u3002", definitionEn: "Awkward, embarrassed." }
           ],
           readingTips: [
             { cn: "\u5c0f\u8bf4\u7528\u7b2c\u4e00\u4eba\u79f0\u53d9\u8ff0\u4e86\u7236\u4eb2\u4e0e\u53f0\u9636\u7684\u6545\u4e8b\u3002\u53f0\u9636\u65e2\u662f\u5bb6\u5883\u53d8\u5316\u7684\u6807\u5fd7\uff0c\u4e5f\u662f\u7236\u4eb2\u4eba\u751f\u8ffd\u6c42\u7684\u8c61\u5f81\u3002", en: "This story uses first person to tell the tale of Father and the steps. The steps symbolize both family improvement and Father\u2019s life aspirations." }
@@ -641,6 +798,17 @@ var TB_G7S2 = {
           id: 13,
           title: "\u5356\u6cb9\u7fc1",
           titleEn: "The Oil Seller",
+          difficulty: 5,
+          vocabWords: [
+            {word:'自矜',pinyin:'zì jīn',en:'to be proud of oneself',sentence:'陈康肃公善射，当世无双，公亦以此自矜。',sentenceEn:'Lord Chen Kangsu was skilled in archery, unmatched in his time, and was proud of this himself.'},
+            {word:'颔之',pinyin:'hàn zhī',en:'to nod at it',sentence:'但微颔之。',sentenceEn:'He merely nodded slightly at it.'},
+            {word:'忿然',pinyin:'fèn rán',en:'angrily; indignantly',sentence:'康肃忿然曰：尔安敢轻吾射。',sentenceEn:'Kangsu said angrily: How dare you belittle my archery.'},
+            {word:'酌油',pinyin:'zhuó yóu',en:'to pour oil',sentence:'乃取一葫芦置于地，以钱覆其口，徐以杓酌油沥之。',sentenceEn:'He took a gourd, placed it on the ground, covered the opening with a coin, and slowly poured oil through it.'},
+            {word:'熟能生巧',pinyin:'shú néng shēng qiǎo',en:'practice makes perfect',sentence:'我亦无他，惟手熟尔。',sentenceEn:'I too have no special skill; it is merely that my hand is practiced.'}
+          ],
+          grammarPoints: [
+            {point:'以小见大',pointEn:'yǐ xiǎo jiàn dà',example:'illustrating a big principle through a small matter',exampleEn:'卖油翁通过倒油这一小技巧说明了熟能生巧的道理。',explanation:'The oil seller uses the small skill of pouring oil to illustrate the principle that practice makes perfect.',explanationEn:'通过一件小事来揭示普遍道理，使文章说理深入浅出、生动有力。'}
+          ],
           author: "\u6b27\u9633\u4fee",
           authorEn: "Ouyang Xiu",
           source: "\u9009\u81ea\u300a\u5f52\u7530\u5f55\u300b\u5377\u4e00\uff08\u4e2d\u534e\u4e66\u5c401981\u5e74\u7248\uff09\u3002",
@@ -652,9 +820,9 @@ var TB_G7S2 = {
           isSelfRead: false,
           isClassical: true,
           text: [
-            "\u9648\u5eb7\u8083\u516c\u5584\u5c04\uff0c\u5f53\u4e16\u65e0\u53cc\uff0c\u516c\u4ea6\u4ee5\u6b64\u81ea\u77dc\u3002\u5c1d\u5c04\u4e8e\u5bb6\u5703\uff0c\u6709\u5356\u6cb9\u7fc1\u91ca\u62c5\u800c\u7acb\uff0c\u7766\u4e4b\u4e45\u800c\u4e0d\u53bb\u3002\u89c1\u5176\u53d1\u77e2\u5341\u4e2d\u516b\u4e5d\uff0c\u4f46\u5fae\u9894\u4e4b\u3002",
+            "\u9648\u5eb7\u8083\u516c\u5584\u5c04\uff0c\u5f53\u4e16\u65e0\u53cc\uff0c\u516c\u4ea6\u4ee5\u6b64\u81ea\u77dc\u3002\u5c1d\u5c04\u4e8e\u5bb6\u5703\uff0c\u6709\u5356\u6cb9\u7fc1\u91ca\u62c5\u800c\u7acb\uff0c\u7768\u4e4b\u4e45\u800c\u4e0d\u53bb\u3002\u89c1\u5176\u53d1\u77e2\u5341\u4e2d\u516b\u4e5d\uff0c\u4f46\u5fae\u9894\u4e4b\u3002",
             "\u5eb7\u8083\u95ee\u66f0\uff1a\u201c\u6c5d\u4ea6\u77e5\u5c04\u4e4e\uff1f\u543e\u5c04\u4e0d\u4ea6\u7cbe\u4e4e\uff1f\u201d\u7fc1\u66f0\uff1a\u201c\u65e0\u4ed6\uff0c\u4f46\u624b\u719f\u5c14\u3002\u201d",
-            "\u5eb7\u8083\u5ffe\u7136\u66f0\uff1a\u201c\u5c14\u5b89\u6562\u8f7b\u543e\u5c04\uff01\u201d\u7fc1\u66f0\uff1a\u201c\u4ee5\u6211\u914c\u6cb9\u77e5\u4e4b\u3002\u201d\u4e43\u53d6\u4e00\u846b\u82a6\u7f6e\u4e8e\u5730\uff0c\u4ee5\u94b1\u8986\u5176\u53e3\uff0c\u5f90\u4ee5\u6753\u914c\u6cb9\u6ca5\u4e4b\uff0c\u81ea\u94b1\u5b54\u5165\uff0c\u800c\u94b1\u4e0d\u6e7f\u3002\u56e0\u66f0\uff1a\u201c\u6211\u4ea6\u65e0\u4ed6\uff0c\u60df\u624b\u719f\u5c14\u3002\u201d\u5eb7\u8083\u7b11\u800c\u9063\u4e4b\u3002"
+            "\u5eb7\u8083\u5fff\u7136\u66f0\uff1a\u201c\u5c14\u5b89\u6562\u8f7b\u543e\u5c04\uff01\u201d\u7fc1\u66f0\uff1a\u201c\u4ee5\u6211\u914c\u6cb9\u77e5\u4e4b\u3002\u201d\u4e43\u53d6\u4e00\u846b\u82a6\u7f6e\u4e8e\u5730\uff0c\u4ee5\u94b1\u8986\u5176\u53e3\uff0c\u5f90\u4ee5\u6753\u914c\u6cb9\u6ca5\u4e4b\uff0c\u81ea\u94b1\u5b54\u5165\uff0c\u800c\u94b1\u4e0d\u6e7f\u3002\u56e0\u66f0\uff1a\u201c\u6211\u4ea6\u65e0\u4ed6\uff0c\u60df\u624b\u719f\u5c14\u3002\u201d\u5eb7\u8083\u7b11\u800c\u9063\u4e4b\u3002"
           ],
           textEn: [
             "Chen Kangsu was skilled at archery, unmatched in his time, and proud of it. Once, while practicing in his garden, an oil seller set down his carrying pole, stood watching for a long time, and slightly nodded upon seeing him hit eight or nine out of ten shots.",
@@ -665,7 +833,7 @@ var TB_G7S2 = {
             { id: 1, term: "\u81ea\u77dc", pinyin: "z\u00ecj\u012bn", definition: "\u81ea\u5938\u3002", definitionEn: "To boast, to be proud of oneself." },
             { id: 2, term: "\u91ca\u62c5", pinyin: "sh\u00ecd\u00e0n", definition: "\u653e\u4e0b\u62c5\u5b50\u3002", definitionEn: "To set down one\u2019s carrying pole." },
             { id: 3, term: "\u9894", pinyin: "h\u00e1n", definition: "\u70b9\u5934\u3002", definitionEn: "To nod." },
-            { id: 4, term: "\u5ffe\u7136", pinyin: "f\u00e8nr\u00e1n", definition: "\u6c14\u6124\u7684\u6837\u5b50\u3002", definitionEn: "Angry, indignant." },
+            { id: 4, term: "\u5fff\u7136", pinyin: "f\u00e8nr\u00e1n", definition: "\u6c14\u6124\u7684\u6837\u5b50\u3002", definitionEn: "Angry, indignant." },
             { id: 5, term: "\u914c", pinyin: "zhu\u00f3", definition: "\u5012\u6cb9\u3002", definitionEn: "To pour (oil)." },
             { id: 6, term: "\u9063", pinyin: "qi\u01cen", definition: "\u6253\u53d1\u3002", definitionEn: "To send away." }
           ],
@@ -688,11 +856,25 @@ var TB_G7S2 = {
       writing: {
         title: "\u6293\u4f4f\u7ec6\u8282",
         titleEn: "Writing: Capturing Details",
+        vocabWords: [
+          {word:'细节描写',pinyin:'xì jié miáo xiě',en:'detail description',sentence:'好的细节描写能使人物形象栩栩如生。',sentenceEn:'Good detail description can make characters come alive.'},
+          {word:'动作细节',pinyin:'dòng zuò xì jié',en:'action details',sentence:'通过具体的动作细节展现人物性格。',sentenceEn:'Reveal character traits through specific action details.'},
+          {word:'外貌细节',pinyin:'wài mào xì jié',en:'appearance details',sentence:'抓住人物最突出的外貌特征来描写。',sentenceEn:'Capture the most prominent appearance features of a character for description.'},
+          {word:'语言细节',pinyin:'yǔ yán xì jié',en:'speech details',sentence:'人物的语言要符合其身份和性格特点。',sentenceEn:'A character’s speech should match their identity and personality.'},
+          {word:'环境细节',pinyin:'huán jìng xì jié',en:'environmental details',sentence:'环境细节能烘托人物心情和文章氛围。',sentenceEn:'Environmental details can set the mood and atmosphere of an article.'}
+        ],
         prompt: { cn: "\u5728\u5199\u4eba\u7eaa\u4e8b\u7684\u6587\u7ae0\u4e2d\uff0c\u7ec6\u8282\u63cf\u5199\u80fd\u8ba9\u4eba\u7269\u66f4\u52a0\u751f\u52a8\u3001\u7acb\u4f53\u3002", en: "In writing about people and events, detailed description makes characters more vivid and three-dimensional." }
       },
       classicBookGuide: {
         title: "\u300a\u9a86\u9a7c\u7965\u5b50\u300b",
         titleEn: "Camel Xiangzi",
+        vocabWords: [
+          {word:'圈点',pinyin:'quān diǎn',en:'to mark with circles and dots (annotation)',sentence:'阅读名著要学会做圈点与批注。',sentenceEn:'When reading classic works, learn to annotate with circles, dots, and margin notes.'},
+          {word:'批注',pinyin:'pī zhù',en:'marginal notes; annotation',sentence:'在关键处做批注可以加深理解。',sentenceEn:'Making marginal notes at key points deepens understanding.'},
+          {word:'车夫',pinyin:'chē fū',en:'rickshaw puller',sentence:'祥子是北平城里一个普通的车夫。',sentenceEn:'Xiangzi was an ordinary rickshaw puller in Beiping.'},
+          {word:'悲剧',pinyin:'bēi jù',en:'tragedy',sentence:'祥子的故事是一个城市底层劳动者的悲剧。',sentenceEn:'The story of Xiangzi is the tragedy of an urban laborer at the bottom of society.'},
+          {word:'奋斗',pinyin:'fèn dòu',en:'to struggle; to strive',sentence:'祥子最大的梦想就是拥有一辆属于自己的车，为此不断奋斗。',sentenceEn:'Xiangzi’s greatest dream was to own a rickshaw of his own, and he struggled ceaselessly for it.'}
+        ],
         author: "\u8001\u820d",
         authorEn: "Lao She",
         description: { cn: "\u5b66\u4e60\u5708\u70b9\u4e0e\u6279\u6ce8\u7684\u8bfb\u4e66\u65b9\u6cd5\u3002", en: "Learn the reading method of circling and annotating." }
@@ -706,6 +888,13 @@ var TB_G7S2 = {
       readWrite: {
         title: "\u4ecb\u8bcd",
         titleEn: "Prepositions",
+        vocabWords: [
+          {word:'介词',pinyin:'jiè cí',en:'preposition',sentence:'介词用在名词、代词或短语前面，组成介宾短语。',sentenceEn:'Prepositions are placed before nouns, pronouns, or phrases to form prepositional phrases.'},
+          {word:'方向介词',pinyin:'fāng xiàng jiè cí',en:'directional preposition',sentence:'从、往、向、朝等表示方向。',sentenceEn:'Cong, wang, xiang, and chao indicate direction.'},
+          {word:'时间介词',pinyin:'shí jiān jiè cí',en:'temporal preposition',sentence:'在、于、从、自等可以表示时间。',sentenceEn:'Zai, yu, cong, and zi can indicate time.'},
+          {word:'对象介词',pinyin:'duì xiàng jiè cí',en:'object preposition',sentence:'对、向、给、跟等表示动作的对象。',sentenceEn:'Dui, xiang, gei, and gen indicate the object of an action.'},
+          {word:'原因介词',pinyin:'yuán yīn jiè cí',en:'causal preposition',sentence:'因为、由于等表示原因。',sentenceEn:'Yinwei and youyu indicate cause.'}
+        ],
         content: { cn: "\u4ecb\u8bcd\u8ddf\u540d\u8bcd\u6216\u4ee3\u8bcd\u7ed3\u5408\u5728\u4e00\u8d77\u7ec4\u6210\u77ed\u8bed\uff0c\u8868\u793a\u5bf9\u8c61\u3001\u65b9\u5411\u3001\u5730\u70b9\u3001\u65f6\u95f4\u3001\u6bd4\u8f83\u7b49\u3002", en: "Prepositions combine with nouns or pronouns to form phrases indicating object, direction, place, time, comparison, etc." }
       }
     },
@@ -726,6 +915,14 @@ var TB_G7S2 = {
           id: 14,
           title: "\u53f6\u5723\u9676\u5148\u751f\u4e8c\u4e09\u4e8b",
           titleEn: "Two or Three Things about Mr. Ye Shengtao",
+          difficulty: 5,
+          vocabWords: [
+            {word:'修润',pinyin:'xiū rùn',en:'to revise and polish',sentence:'我同叶圣陶先生文墨方面的交往，从共同修润课本的文字开始。',sentenceEn:'My literary association with Mr. Ye Shengtao began with jointly revising and polishing textbook language.'},
+            {word:'商酌',pinyin:'shāng zhuó',en:'to discuss and consider',sentence:'只提一些商酌性的意见。',sentenceEn:'I only offered some suggestions for discussion and consideration.'},
+            {word:'恳切',pinyin:'kěn qiè',en:'earnest; sincere',sentence:'他谦虚而恳切地问我同意不同意恢复。',sentenceEn:'He asked me earnestly and modestly whether I agreed to restore the original wording.'},
+            {word:'诲人不倦',pinyin:'huì rén bù juàn',en:'to teach tirelessly',sentence:'叶老既是躬行君子，又能学而不厌，诲人不倦。',sentenceEn:'Mr. Ye was both a principled gentleman and someone who studied without weariness and taught without fatigue.'},
+            {word:'躬行君子',pinyin:'gōng xíng jūn zǐ',en:'a gentleman who practices what he preaches',sentence:'躬行君子，则吾未之有得。',sentenceEn:'To be a gentleman who practices what he preaches — that I have not yet achieved.'}
+          ],
           author: "\u5f20\u4e2d\u884c",
           authorEn: "Zhang Zhongxing",
           source: "\u9009\u81ea\u300a\u8bfb\u4e66\u300b1990\u5e74\u7b2c1\u671f\u3002\u6709\u5220\u6539\u3002",
@@ -770,6 +967,17 @@ var TB_G7S2 = {
           id: 15,
           title: "\u9a7f\u8def\u68a8\u82b1",
           titleEn: "Pear Blossoms Along the Post Road",
+          difficulty: 3,
+          vocabWords: [
+            {word:'陡峭',pinyin:'dǒu qiào',en:'steep; precipitous',sentence:'这么陡峭的山，这么茂密的树林。',sentenceEn:'Such steep mountains, such dense forests.'},
+            {word:'简陋',pinyin:'jiǎn lòu',en:'crude; simple',sentence:'一张简陋的大竹床铺着厚厚的稻草。',sentenceEn:'A crude bamboo bed was covered with thick straw.'},
+            {word:'修葺',pinyin:'xiū qì',en:'to repair; to renovate',sentence:'解放军叔叔经常来修葺小茅屋。',sentenceEn:'The PLA soldiers often came to repair the little thatched hut.'},
+            {word:'竹篾',pinyin:'zhú miè',en:'bamboo strips',sentence:'草顶、竹篾泥墙的小屋出现在梨树林边。',sentenceEn:'A hut with a grass roof and bamboo-strip-and-mud walls appeared at the edge of the pear grove.'},
+            {word:'恍然',pinyin:'huǎng rán',en:'suddenly realizing',sentence:'我们恍然大悟，原来小茅屋的主人不是一个人。',sentenceEn:'We suddenly realized that the owner of the little thatched hut was not just one person.'}
+          ],
+          grammarPoints: [
+            {point:'悬念设置',pointEn:'xuán niàn shè zhì',example:'creating suspense',exampleEn:'文章多次设置悬念：小茅屋的主人是谁？层层揭开，引人入胜。',explanation:'The article creates suspense multiple times: Who is the owner of the hut? The answer is revealed layer by layer, drawing the reader in.',explanationEn:'设置悬念能激发读者的阅读兴趣，增强文章的吸引力。'}
+          ],
           author: "\u5f6d\u8346\u98ce",
           authorEn: "Peng Jingfeng",
           isSelfRead: false,
@@ -803,6 +1011,17 @@ var TB_G7S2 = {
           id: 16,
           title: "\u6700\u82e6\u4e0e\u6700\u4e50",
           titleEn: "The Most Bitter and the Most Joyful",
+          difficulty: 5,
+          vocabWords: [
+            {word:'契约',pinyin:'qì yuē',en:'contract; agreement',sentence:'便是现在的自己和将来的自己立了一种契约。',sentenceEn:'It is like making a contract between the present self and the future self.'},
+            {word:'达观',pinyin:'dá guān',en:'philosophical; broad-minded',sentence:'达观的人看得很平常。',sentenceEn:'Philosophical people view these matters as quite ordinary.'},
+            {word:'如释重负',pinyin:'rú shì zhòng fù',en:'as if relieved of a heavy burden',sentence:'责任完了，如释重负。',sentenceEn:'When responsibility is fulfilled, one feels as if relieved of a heavy burden.'},
+            {word:'任重道远',pinyin:'rèn zhòng dào yuǎn',en:'heavy responsibility and a long road ahead',sentence:'任重而道远，死而后已。',sentenceEn:'The responsibility is heavy and the road ahead is long; only death brings rest.'},
+            {word:'悲天悯人',pinyin:'bēi tiān mǐn rén',en:'to feel sorrow for heaven and pity for humanity',sentence:'那诸圣诸佛的悲天悯人。',sentenceEn:'The compassion of all the sages and Buddhas who feel sorrow for heaven and pity for humanity.'}
+          ],
+          grammarPoints: [
+            {point:'举例论证',pointEn:'jǔ lì lùn zhèng',example:'argument by example',exampleEn:'答应人办一件事没有办，欠了人的钱没有还，受了人的恩惠没有报答。',explanation:'Promising to do something for someone but not doing it, owing someone money but not repaying it, receiving someone’s kindness but not returning it.',explanationEn:'通过列举日常生活中的具体事例来证明论点，使抽象的道理变得具体可感。'}
+          ],
           author: "\u6881\u542f\u8d85",
           authorEn: "Liang Qichao",
           source: "\u9009\u81ea\u300a\u6881\u542f\u8d85\u5168\u96c6\u300b\u3002",
@@ -836,13 +1055,14 @@ var TB_G7S2 = {
           id: 17,
           title: "\u77ed\u6587\u4e24\u7bc7",
           titleEn: "Two Short Essays",
+          difficulty: 4,
           isSelfRead: false,
           isClassical: true,
           text: [
             "\u964b\u5ba4\u94ed \u5218\u79b9\u9521",
-            "\u5c71\u4e0d\u5728\u9ad8\uff0c\u6709\u4ed9\u5219\u540d\u3002\u6c34\u4e0d\u5728\u6df1\uff0c\u6709\u9f99\u5219\u7075\u3002\u65af\u662f\u964b\u5ba4\uff0c\u60df\u543e\u5fb7\u99a8\u3002\u82d4\u75d5\u4e0a\u9636\u7eff\uff0c\u8349\u8272\u5165\u5e18\u9752\u3002\u8c08\u7b11\u6709\u9e3f\u5112\uff0c\u5f80\u6765\u65e0\u767d\u4e01\u3002\u53ef\u4ee5\u8c03\u7d20\u7434\uff0c\u9605\u91d1\u7ecf\u3002\u65e0\u4e1d\u7af9\u4e4b\u4e71\u8033\uff0c\u65e0\u6848\u7264\u4e4b\u52b3\u5f62\u3002\u5357\u9633\u8bf8\u845b\u5e90\uff0c\u897f\u8700\u5b50\u4e91\u4ead\u3002\u5b54\u5b50\u4e91\uff1a\u4f55\u964b\u4e4b\u6709\uff1f",
+            "\u5c71\u4e0d\u5728\u9ad8\uff0c\u6709\u4ed9\u5219\u540d\u3002\u6c34\u4e0d\u5728\u6df1\uff0c\u6709\u9f99\u5219\u7075\u3002\u65af\u662f\u964b\u5ba4\uff0c\u60df\u543e\u5fb7\u99a8\u3002\u82d4\u75d5\u4e0a\u9636\u7eff\uff0c\u8349\u8272\u5165\u5e18\u9752\u3002\u8c08\u7b11\u6709\u9e3f\u5112\uff0c\u5f80\u6765\u65e0\u767d\u4e01\u3002\u53ef\u4ee5\u8c03\u7d20\u7434\uff0c\u9605\u91d1\u7ecf\u3002\u65e0\u4e1d\u7af9\u4e4b\u4e71\u8033\uff0c\u65e0\u6848\u724d\u4e4b\u52b3\u5f62\u3002\u5357\u9633\u8bf8\u845b\u5e90\uff0c\u897f\u8700\u5b50\u4e91\u4ead\u3002\u5b54\u5b50\u4e91\uff1a\u4f55\u964b\u4e4b\u6709\uff1f",
             "\u7231\u83b2\u8bf4 \u5468\u6566\u9890",
-            "\u6c34\u9646\u8349\u6728\u4e4b\u82b1\uff0c\u53ef\u7231\u8005\u751a\u8543\u3002\u4e88\u72ec\u7231\u83b2\u4e4b\u51fa\u6de4\u6ce5\u800c\u4e0d\u67d3\uff0c\u6fee\u6e05\u6d9f\u800c\u4e0d\u5996\uff0c\u4e2d\u901a\u5916\u76f4\uff0c\u4e0d\u8513\u4e0d\u679d\uff0c\u9999\u8fdc\u76ca\u6e05\uff0c\u4ead\u4ead\u51c0\u690d\uff0c\u53ef\u8fdc\u89c2\u800c\u4e0d\u53ef\u4eb5\u73a9\u7109\u3002",
+            "\u6c34\u9646\u8349\u6728\u4e4b\u82b1\uff0c\u53ef\u7231\u8005\u751a\u8543\u3002\u4e88\u72ec\u7231\u83b2\u4e4b\u51fa\u6de4\u6ce5\u800c\u4e0d\u67d3\uff0c\u6fef\u6e05\u6d9f\u800c\u4e0d\u5996\uff0c\u4e2d\u901a\u5916\u76f4\uff0c\u4e0d\u8513\u4e0d\u679d\uff0c\u9999\u8fdc\u76ca\u6e05\uff0c\u4ead\u4ead\u51c0\u690d\uff0c\u53ef\u8fdc\u89c2\u800c\u4e0d\u53ef\u4eb5\u73a9\u7109\u3002",
             "\u4e88\u8c13\u83ca\uff0c\u82b1\u4e4b\u9690\u9038\u8005\u4e5f\uff1b\u7261\u4e39\uff0c\u82b1\u4e4b\u5bcc\u8d35\u8005\u4e5f\uff1b\u83b2\uff0c\u82b1\u4e4b\u541b\u5b50\u8005\u4e5f\u3002"
           ],
           textEn: [
@@ -851,6 +1071,16 @@ var TB_G7S2 = {
             "On the Love of the Lotus \u2014 Zhou Dunyi",
             "Of flowers on land and water, many are lovable. I alone love the lotus: rising from mud yet unstained, washed by clear ripples yet not seductive, hollow within and straight without, neither creeping nor branching, its fragrance growing purer at a distance, standing gracefully upright\u2014to be admired from afar, not to be trifled with.",
             "I say the chrysanthemum is the hermit of flowers; the peony, the aristocrat; the lotus, the gentleman."
+          ],
+          vocabWords: [
+            {word:'德馨',pinyin:'dé xīn',en:'virtuous; of noble character',sentence:'斯是陋室，惟吾德馨。',sentenceEn:'This is a humble room, but my virtue makes it fragrant.'},
+            {word:'鸿儒',pinyin:'hóng rú',en:'great scholar',sentence:'谈笑有鸿儒，往来无白丁。',sentenceEn:'In conversation there are great scholars; among visitors there are no ignorant persons.'},
+            {word:'案牍',pinyin:'àn dú',en:'official documents',sentence:'无案牍之劳形。',sentenceEn:'Without official documents to weary the body.'},
+            {word:'淤泥',pinyin:'yū ní',en:'mud; mire',sentence:'予独爱莲之出淤泥而不染。',sentenceEn:'I alone love the lotus for emerging from the mud without being stained.'},
+            {word:'亵玩',pinyin:'xiè wán',en:'to treat disrespectfully; to toy with',sentence:'可远观而不可亵玩焉。',sentenceEn:'It can be admired from afar but not treated disrespectfully.'}
+          ],
+          grammarPoints: [
+            {point:'托物言志',pointEn:'tuō wù yán zhì',example:'expressing aspirations through objects',exampleEn:'刘禹锡借陋室表达安贫乐道的志趣；周敦颐借莲花比喻君子品格。',explanation:'Liu Yuxi uses the humble room to express his aspiration for contentment in poverty; Zhou Dunyi compares the lotus to the character of a gentleman.',explanationEn:'通过描写某一事物来表达作者的志向或品格，使抽象的品质借具体的事物得以呈现。'}
           ],
           annotations: [
             { id: 1, term: "\u964b\u5ba4", pinyin: "l\u00f2ush\u00ec", definition: "\u7b80\u964b\u7684\u5c4b\u5b50\u3002", definitionEn: "A humble room." },
@@ -879,36 +1109,67 @@ var TB_G7S2 = {
       writing: {
         title: "\u600e\u6837\u9009\u6750",
         titleEn: "Writing: How to Select Material",
+        vocabWords: [
+          {word:'选材',pinyin:'xuǎn cái',en:'selecting material',sentence:'写作的材料源自生活。',sentenceEn:'Writing materials come from life.'},
+          {word:'详略得当',pinyin:'xiáng lüè dé dàng',en:'proper balance of detail and brevity',sentence:'文章的中心决定了材料的取舍以及详略的安排。',sentenceEn:'The central theme determines the selection of material and the arrangement of detail and brevity.'},
+          {word:'真实',pinyin:'zhēn shí',en:'authentic; real',sentence:'选择的材料应该是自己亲历的事情。',sentenceEn:'Selected materials should be things one has personally experienced.'},
+          {word:'新颖',pinyin:'xīn yǐng',en:'fresh; novel',sentence:'新颖的材料应该是别人未使用过的。',sentenceEn:'Novel materials should be those that others have not used before.'},
+          {word:'中心',pinyin:'zhōng xīn',en:'central theme',sentence:'没有明确的中心，想到哪里写到哪里，像一本流水账。',sentenceEn:'Without a clear central theme, writing wherever one thinks of is like keeping a running account.'}
+        ],
         prompt: { cn: "\u56f4\u7ed5\u4e2d\u5fc3\u8fdb\u884c\u9009\u62e9\uff0c\u6ce8\u610f\u6750\u6599\u7684\u771f\u5b9e\u548c\u65b0\u9896\u3002", en: "Select material around a central theme, ensuring authenticity and freshness." }
       },
       comprehensiveLearning: {
         title: "\u5b5d\u4eb2\u656c\u8001\uff0c\u4ece\u6211\u505a\u8d77",
         titleEn: "Filial Piety and Respect for Elders, Starting with Me",
+        vocabWords: [
+          {word:'孝亲',pinyin:'xiào qīn',en:'filial piety toward parents',sentence:'孝亲敬老是中华民族的传统美德。',sentenceEn:'Filial piety and respect for elders is a traditional virtue of the Chinese nation.'},
+          {word:'敬老',pinyin:'jìng lǎo',en:'respecting the elderly',sentence:'老吾老以及人之老。',sentenceEn:'Respect my own elders and extend that respect to the elders of others.'},
+          {word:'感恩',pinyin:'gǎn ēn',en:'gratitude',sentence:'懂得感恩是做人的基本品质。',sentenceEn:'Understanding gratitude is a fundamental quality of being human.'},
+          {word:'反哺',pinyin:'fǎn bǔ',en:'to repay kindness (literally: a crow feeding its parent)',sentence:'乌鸦反哺，羊羔跪乳。',sentenceEn:'The crow feeds its parent; the lamb kneels to nurse — both symbolize repaying parental kindness.'},
+          {word:'天伦之乐',pinyin:'tiān lún zhī lè',en:'family happiness',sentence:'一家人在一起享受天伦之乐。',sentenceEn:'The whole family enjoys the happiness of being together.'}
+        ],
         description: { cn: "\u4e86\u89e3\u4e2d\u56fd\u4f20\u7edf\u7684\u5b5d\u6587\u5316\uff0c\u7b56\u5212\u7ec4\u7ec7\u4e00\u6b21\u201c\u5b5d\u4eb2\u656c\u8001\u6708\u201d\u6d3b\u52a8\u3002", en: "Understand China\u2019s traditional filial culture and organize a \u2018Filial Piety Month\u2019 activity." }
       },
       readWrite: {
         title: "\u6392\u6bd4",
         titleEn: "Parallelism",
+        vocabWords: [
+          {word:'排比',pinyin:'pái bǐ',en:'parallelism',sentence:'排比是把三个或三个以上结构相似的句子排列在一起。',sentenceEn:'Parallelism is arranging three or more sentences with similar structure together.'},
+          {word:'气势',pinyin:'qì shì',en:'momentum; force',sentence:'排比能增强语言的气势和表达效果。',sentenceEn:'Parallelism strengthens the momentum and expressive effect of language.'},
+          {word:'节奏感',pinyin:'jié zòu gǎn',en:'sense of rhythm',sentence:'排比句读起来朗朗上口，富有节奏感。',sentenceEn:'Parallel sentences roll off the tongue with a strong sense of rhythm.'},
+          {word:'层层递进',pinyin:'céng céng dì jìn',en:'progressive layers',sentence:'排比句常常层层递进，逐步深化主题。',sentenceEn:'Parallel sentences often progress layer by layer, gradually deepening the theme.'},
+          {word:'感染力',pinyin:'gǎn rǎn lì',en:'emotional appeal',sentence:'排比增强了文章的感染力。',sentenceEn:'Parallelism enhances the emotional appeal of the writing.'}
+        ],
         content: { cn: "\u6392\u6bd4\u5c31\u662f\u628a\u7ed3\u6784\u76f8\u540c\u6216\u76f8\u4f3c\u3001\u5185\u5bb9\u5bc6\u5207\u76f8\u5173\u7684\u4e09\u4e2a\u6216\u66f4\u591a\u7684\u77ed\u8bed\u6216\u53e5\u5b50\u6392\u5217\u8d77\u6765\u3002\u7528\u6392\u6bd4\u62d2\u60c5\uff0c\u53ef\u4ee5\u628a\u611f\u60c5\u62d2\u53d1\u5f97\u6dcb\u6f13\u5c3d\u81f4\u3002", en: "Parallelism lines up three or more phrases or sentences with similar structure and closely related content. Using parallelism for emotional expression can convey feelings to the fullest." }
       }
     },
     // ── Unit 5 ─────────────────────────────────
     {
-      id: "u5",
+      id: 5,
       title: "\u6258\u7269\u8a00\u5fd7",
       titleEn: "Expressing Aspirations Through Objects",
       theme: "\u4f53\u4f1a\u5199\u666f\u72b6\u7269\u3001\u6258\u7269\u8a00\u5fd7\u7684\u624b\u6cd5",
       themeEn: "Appreciate the techniques of describing scenery, objects, and expressing aspirations through them",
       unitIntro: {
         cn: "\u738b\u56fd\u7ef4\u5728\u300a\u4eba\u95f4\u8bcd\u8bdd\u300b\u4e2d\u8bf4\uff1a\u201c\u4ee5\u6211\u89c2\u7269\uff0c\u6545\u7269\u7686\u8457\u6211\u4e4b\u8272\u5f69\u3002\u201d\u8bd7\u6587\u4e2d\u63cf\u5199\u7684\u666f\u7269\u5f80\u5f80\u6d78\u900f\u7740\u4f5c\u8005\u7684\u60c5\u611f\uff0c\u6240\u4ee5\u6211\u4eec\u80fd\u591f\u5728\u5c71\u5ddd\u6eaa\u6cc9\u4e2d\u542c\u89c1\u56de\u8361\u7684\u5fc3\u58f0\uff0c\u5728\u82b1\u8349\u6811\u6728\u95f4\u53d1\u73b0\u4eba\u751f\u7684\u5f71\u5b50\u3002\u672c\u5355\u5143\u5b66\u4e60\u6258\u7269\u8a00\u5fd7\u7684\u624b\u6cd5\uff0c\u4f53\u4f1a\u5982\u4f55\u8fd0\u7528\u751f\u52a8\u5f62\u8c61\u7684\u8bed\u8a00\u5199\u666f\u72b6\u7269\uff0c\u5bc4\u5bc3\u81ea\u5df1\u7684\u60c5\u601d\u3002",
-        en: "Wang Guowei said inErta on Ci Poetry: \u2018When I observe things, all things are colored by my emotions.\u2019 The scenery described in poetry is often infused with the author\u2019s feelings, so we can hear echoes of the heart in mountains and streams, and discover reflections of life among flowers and trees. This unit studies the technique of expressing aspirations through objects."
+        en: "Wang Guowei said in Remarks on Ci Poetry: \u2018When I observe things, all things are colored by my emotions.\u2019 The scenery described in poetry is often infused with the author\u2019s feelings, so we can hear echoes of the heart in mountains and streams, and discover reflections of life among flowers and trees. This unit studies the technique of expressing aspirations through objects."
       },
       type: "reading",
       lessons: [
         {
-          id: "l18",
+          id: 18,
           title: "\u7d2b\u85e4\u841d\u7011\u5e03",
           titleEn: "The Wisteria Waterfall",
+          vocabWords: [
+            {word:'迸溅',pinyin:'bèng jiàn',en:'to splash; to burst forth',sentence:'紫色的大条幅上，泛着点点银光，就像迸溅的水花。',sentenceEn:'Silver sparkles dotted the great purple banner, like splashing water.'},
+            {word:'伫立',pinyin:'zhù lì',en:'to stand for a long time',sentence:'我只是伫立凝望。',sentenceEn:'I merely stood still and gazed intently.'},
+            {word:'忍俊不禁',pinyin:'rěn jùn bù jīn',en:'unable to hold back a smile',sentence:'又像一个忍俊不禁的笑容，就要绽开似的。',sentenceEn:'Like a smile that could not be held back, about to burst open.'},
+            {word:'伶仃',pinyin:'líng dīng',en:'lonely; solitary',sentence:'东一穗西一串伶仃地挂在树梢。',sentenceEn:'Solitary clusters hung here and there on the treetops.'},
+            {word:'盘虬卧龙',pinyin:'pán qiú wò lóng',en:'coiling like a dragon',sentence:'紫色的瀑布遮住了粗壮的盘虬卧龙般的枝干。',sentenceEn:'The purple waterfall concealed the thick branches coiling like dragons.'}
+          ],
+          grammarPoints: [
+            {point:'借物抒情',pointEn:'jiè wù shū qíng',example:'expressing emotion through objects',exampleEn:'作者借紫藤萝花的由衰到盛，表达了对生命的感悟。',explanation:'The author uses the wisteria’s transition from decline to flourishing to express an insight about life.',explanationEn:'通过对具体事物的细致描写来表达作者的情感变化，使情感表达更加含蓄深沉。'}
+          ],
           author: "\u5b97\u7490",
           authorEn: "Zong Pu",
           source: "\u9009\u81ea\u300a\u94c1\u7b2b\u4eba\u8bed\u300b\uff08\u6625\u98ce\u6587\u827a\u51fa\u7248\u793e1994\u5e74\u7248\uff09",
@@ -957,16 +1218,23 @@ var TB_G7S2 = {
           ]
         },
         {
-          id: "l19",
+          id: 19,
           title: "\u4e00\u68f5\u5c0f\u6843\u6811",
           titleEn: "A Little Peach Tree",
+          vocabWords: [
+            {word:'矜持',pinyin:'jīn chí',en:'reserved; restrained',sentence:'往日多么傲慢的我，多么矜持的我。',sentenceEn:'How arrogant I used to be, how reserved I was.'},
+            {word:'猥琐',pinyin:'wěi suǒ',en:'shabby; insignificant-looking',sentence:'样子也极猥琐。',sentenceEn:'Its appearance was also extremely shabby.'},
+            {word:'忏悔',pinyin:'chàn huǐ',en:'to repent; to confess',sentence:'我也不知道是什么怪缘故，只是常常自个儿忏悔。',sentenceEn:'I did not know the strange reason; I only often repented to myself.'},
+            {word:'淅淅沥沥',pinyin:'xī xī lì lì',en:'the patter of light rain',sentence:'早晨起来，就淅淅沥沥的。',sentenceEn:'In the morning, a pattering rain had already begun.'},
+            {word:'懊丧',pinyin:'ào sàng',en:'dejected; frustrated',sentence:'我深深懊丧对不起我的奶奶，对不起我的小桃树了。',sentenceEn:'I felt deeply dejected for letting down my grandmother and my little peach tree.'}
+          ],
           author: "\u8d3e\u5e73\u51f9",
           authorEn: "Jia Pingwa",
           source: "\u9009\u81ea\u300a\u5e73\u51f9\u6563\u6587\u300b\uff08\u6d59\u6c5f\u6587\u827a\u51fa\u7248\u793e2008\u5e74\u7248\uff09\uff0c\u6709\u6539\u52a8",
           sourceEn: "Selected from Pingwa\u2019s Essays (Zhejiang Literature and Art Publishing House, 2008 edition), with modifications",
           authorBio: {
             cn: "\u8d3e\u5e73\u51f9\uff0c\u5f53\u4ee3\u4f5c\u5bb6\uff0c\u9655\u897f\u4e39\u51e4\u4eba\u3002\u4ee3\u8868\u4f5c\u6709\u300a\u5e9f\u90fd\u300b\u300a\u79e6\u8154\u300b\u300a\u6d6e\u8e81\u300b\u7b49\u3002",
-            en: "Jia Pingwa, contemporary writer from Danfeng, Shaanxi. Representative works include Ruined Capital, Qinqiang Opera, andErta."
+            en: "Jia Pingwa, contemporary writer from Danfeng, Shaanxi. Representative works include Ruined Capital, Qinqiang Opera, and Restless."
           },
           isSelfRead: true,
           isClassical: false,
@@ -984,7 +1252,7 @@ var TB_G7S2 = {
             "I felt slightly comforted. Oh, little peach tree! How can I thank you? You still have one blossom after all\u2014will you bloom tomorrow morning?"
           ],
           annotations: [
-            { term: "\u5b7a\u5934", pinyin: "c\u00e0n tou", definition: "\u8f6f\u5f31\u65e0\u80fd\u7684\u4eba", definitionEn: "weakling, coward" },
+            { term: "\u5b71\u5934", pinyin: "c\u00e0n tou", definition: "\u8f6f\u5f31\u65e0\u80fd\u7684\u4eba", definitionEn: "weakling, coward" },
             { term: "\u7325\u7410", pinyin: "w\u011bi su\u01d2", definition: "\u5eb8\u4fd7\u4e0d\u5927\u65b9", definitionEn: "vulgar and petty" },
             { term: "\u5782\u5782\u66ae\u8001", pinyin: "chu\u00ed chu\u00ed m\u00f9 l\u01ce o", definition: "\u5f62\u5bb9\u6e10\u6e10\u8870\u8001\u7684\u72b6\u6001", definitionEn: "gradually aging and declining" },
             { term: "\u707e\u706d\u4e34", pinyin: "zhu\u00f3 zhu\u00f3", definition: "\u5f62\u5bb9\u660e\u4eae\uff0c\u8fd9\u91cc\u5f62\u5bb9\u6843\u82b1\u7e41\u76db\u660e\u4e3d", definitionEn: "brilliant, describing peach blossoms\u2019 splendor" }
@@ -1002,9 +1270,16 @@ var TB_G7S2 = {
           ]
         },
         {
-          id: "l20",
+          id: 20,
           title: "\u5916\u56fd\u8bd7\u4e8c\u9996",
           titleEn: "Two Foreign Poems",
+          vocabWords: [
+            {word:'忧郁',pinyin:'yōu yù',en:'melancholy; gloomy',sentence:'忧郁的日子里须要镇静。',sentenceEn:'In melancholy days one must remain calm.'},
+            {word:'瞬息',pinyin:'shùn xī',en:'in an instant',sentence:'一切都是瞬息，一切都将会过去。',sentenceEn:'Everything is fleeting, everything will pass.'},
+            {word:'怀恋',pinyin:'huái liàn',en:'nostalgic longing',sentence:'而那过去了的，就会成为亲切的怀恋。',sentenceEn:'And what has passed will become a fond nostalgic memory.'},
+            {word:'伫立',pinyin:'zhù lì',en:'to stand for a long time',sentence:'我在那路口久久伫立。',sentenceEn:'I stood for a long time at that fork in the road.'},
+            {word:'荒草萋萋',pinyin:'huāng cǎo qī qī',en:'overgrown with wild grass',sentence:'它荒草萋萋，十分幽寂。',sentenceEn:'It was overgrown with wild grass, very quiet and secluded.'}
+          ],
           author: "\u666e\u5e0c\u91d1 / \u5f17\u7f57\u65af\u7279",
           authorEn: "Pushkin / Frost",
           source: "\u300a\u5047\u5982\u751f\u6d3b\u6b3a\u9a97\u4e86\u4f60\u300b\u9009\u81ea\u300a\u666e\u5e0c\u91d1\u8bd7\u96c6\u300b\uff1b\u300a\u672a\u9009\u62e9\u7684\u8def\u300b\u9009\u81ea\u300a\u4e2d\u5916\u54f2\u7406\u8bd7\u7cbe\u9009\u300b",
@@ -1025,7 +1300,7 @@ var TB_G7S2 = {
             "Two roads diverged in a yellow wood, and sorry I could not travel both, I stood long at that fork\u2026 Perhaps years hence, somewhere, I shall be telling this with a sigh: Two roads diverged in a wood\u2014and I took the one less traveled by, and that has made all the difference."
           ],
           annotations: [
-            { term: "\u841c\u841c", pinyin: "q\u012b q\u012b", definition: "\u5f62\u5bb9\u8349\u957f\u5f97\u8302\u76db\u7684\u6837\u5b50", definitionEn: "describing lush grass growth" }
+            { term: "\u840b\u840b", pinyin: "q\u012b q\u012b", definition: "\u5f62\u5bb9\u8349\u957f\u5f97\u8302\u76db\u7684\u6837\u5b50", definitionEn: "describing lush grass growth" }
           ],
           readingTips: [
             { cn: "\u300a\u5047\u5982\u751f\u6d3b\u6b3a\u9a97\u4e86\u4f60\u300b\u76f4\u629b\u80f8\u81c6\uff0c\u300a\u672a\u9009\u62e9\u7684\u8def\u300b\u5219\u7528\u5177\u4f53\u7684\u5f62\u8c61\u9610\u91ca\u54f2\u7406\u3002\u4e24\u79cd\u5199\u6cd5\uff0c\u4f60\u559c\u6b22\u54ea\u4e00\u79cd\uff1f", en: "If Life Deceives You expresses feelings directly; The Road Not Taken uses concrete imagery to illustrate philosophy. Which style do you prefer?" }
@@ -1039,9 +1314,20 @@ var TB_G7S2 = {
           ]
         },
         {
-          id: "l21",
+          id: 21,
           title: "\u53e4\u4ee3\u8bd7\u6b4c\u4e94\u9996",
           titleEn: "Five Ancient Poems",
+          vocabWords: [
+            {word:'怆然',pinyin:'chuàng rán',en:'sorrowful; desolate',sentence:'独怆然而涕下。',sentenceEn:'Alone and desolate, tears fell.'},
+            {word:'造化',pinyin:'zào huà',en:'nature; creation',sentence:'造化钟神秀，阴阳割昏晓。',sentenceEn:'Nature concentrates its beauty here; light and shadow divide dawn from dusk.'},
+            {word:'凌绝顶',pinyin:'líng jué dǐng',en:'to reach the highest peak',sentence:'会当凌绝顶，一览众山小。',sentenceEn:'I shall ascend the highest peak and see all other mountains appear small below.'},
+            {word:'落红',pinyin:'luò hóng',en:'fallen flowers',sentence:'落红不是无情物，化作春泥更护花。',sentenceEn:'Fallen flowers are not heartless things; they turn into spring mud to nurture more flowers.'},
+            {word:'柳暗花明',pinyin:'liǔ àn huā míng',en:'finding hope in a seemingly hopeless situation',sentence:'山重水复疑无路，柳暗花明又一村。',sentenceEn:'With mountains layered and streams winding, one doubts there is any road; then willows are dark and flowers bright, and another village appears.'}
+          ],
+          grammarPoints: [
+            {point:'借景抒情',pointEn:'jiè jǐng shū qíng',example:'expressing feelings through scenery',exampleEn:'会当凌绝顶，一览众山小。杜甫借泰山之景抒发远大志向。',explanation:'I shall ascend the highest peak and see all other mountains appear small. Du Fu expresses his lofty ambitions through the scenery of Mount Tai.',explanationEn:'诗人通过描写自然景物来寄托自己的情感和志向，情景交融。'},
+            {point:'言外之意',pointEn:'yán wài zhī yì',example:'implied meaning beyond the words',exampleEn:'落红不是无情物，化作春泥更护花。诗人借落花表达虽辞官但仍心系国家的心志。',explanation:'Fallen flowers are not heartless things; they turn into spring mud to nurture flowers. The poet uses fallen petals to express that though he resigned from office, he still cares about the nation.',explanationEn:'古诗名句常有言外之意，表面写景，实则寄托深意。'}
+          ],
           author: "\u9648\u5b50\u6602 / \u675c\u752b / \u738b\u5b89\u77f3 / \u9646\u6e38 / \u9868\u81ea\u73cd",
           authorEn: "Chen Zi\u2019ang / Du Fu / Wang Anshi / Lu You / Gong Zizhen",
           source: "\u5206\u522b\u9009\u81ea\u300a\u9648\u5b50\u6602\u96c6\u300b\u300a\u675c\u8bd7\u8be6\u6ce8\u300b\u300a\u738b\u8346\u6587\u516c\u8bd7\u7b3a\u6ce8\u300b\u300a\u5251\u5357\u8bd7\u7a3f\u6821\u6ce8\u300b\u300a\u9868\u81ea\u73cd\u5168\u96c6\u300b",
@@ -1098,17 +1384,31 @@ var TB_G7S2 = {
       writing: {
         title: "\u6587\u4ece\u5b57\u987a",
         titleEn: "Writing: Clarity and Fluency",
+        vocabWords: [
+          {word:'文从字顺',pinyin:'wén cóng zì shùn',en:'clear and fluent writing',sentence:'写文章要做到文从字顺，语言通顺流畅。',sentenceEn:'Writing should achieve clarity and fluency with smooth, flowing language.'},
+          {word:'语序',pinyin:'yǔ xù',en:'word order',sentence:'注意语序的合理安排。',sentenceEn:'Pay attention to the reasonable arrangement of word order.'},
+          {word:'语病',pinyin:'yǔ bìng',en:'language error; grammatical problem',sentence:'修改文章要注意消除语病。',sentenceEn:'When revising, pay attention to eliminating language errors.'},
+          {word:'连贯',pinyin:'lián guàn',en:'coherent; connected',sentence:'句与句之间要注意连贯。',sentenceEn:'Sentences should be coherent and connected to each other.'},
+          {word:'推敲',pinyin:'tuī qiāo',en:'to deliberate over word choice',sentence:'好文章需要反复推敲字句。',sentenceEn:'Good writing requires repeatedly deliberating over words and sentences.'}
+        ],
         prompt: { cn: "\u6587\u4ece\u5b57\u987a\u662f\u5199\u4f5c\u7684\u57fa\u672c\u8981\u6c42\uff0c\u6307\u7684\u662f\u8bed\u8a00\u8868\u8fbe\u6e05\u695a\u660e\u767d\u51c6\u786e\uff0c\u884c\u6587\u901a\u987a\u6d41\u7545\u3002\u8981\u6ce8\u610f\u8bed\u53e5\u8868\u8fbe\u51c6\u786e\uff0c\u907f\u514d\u6b67\u4e49\uff1b\u524d\u540e\u53e5\u5b50\u5728\u610f\u4e49\u4e0a\u8981\u6709\u6bd4\u8f83\u660e\u786e\u7684\u5173\u8054\uff1b\u5199\u5b8c\u540e\u8981\u81ea\u5df1\u8bfb\u4e00\u8bfb\uff0c\u62d7\u53e3\u542b\u6df7\u7684\u5c31\u5e94\u4fee\u6539\u3002", en: "Clarity and fluency are basic writing requirements: language should be clear, precise, and smooth. Avoid ambiguity, ensure logical connections between sentences, and always read your work aloud to catch awkward phrasing." }
       },
       readWrite: {
         title: "\u77ed\u8bed\u7c7b\u578b\uff1a\u5e76\u5217\u3001\u504f\u6b63\u3001\u4e3b\u8c13",
         titleEn: "Phrase Types: Coordinate, Modifier-Head, Subject-Predicate",
+        vocabWords: [
+          {word:'并列短语',pinyin:'bìng liè duǎn yǔ',en:'coordinate phrase',sentence:'报纸杂志、雄伟壮丽都是并列短语。',sentenceEn:'Newspapers-and-magazines and grand-and-magnificent are both coordinate phrases.'},
+          {word:'偏正短语',pinyin:'piān zhèng duǎn yǔ',en:'modifier-head phrase',sentence:'淡淡的芳香是偏正短语，偏在前正在后。',sentenceEn:'A faint fragrance is a modifier-head phrase, with the modifier before the head.'},
+          {word:'主谓短语',pinyin:'zhǔ wèi duǎn yǔ',en:'subject-predicate phrase',sentence:'春光明媚是主谓短语。',sentenceEn:'Bright spring scenery is a subject-predicate phrase.'},
+          {word:'短语',pinyin:'duǎn yǔ',en:'phrase; word group',sentence:'词和词组合起来构成短语。',sentenceEn:'Words combine to form phrases.'},
+          {word:'修饰',pinyin:'xiū shì',en:'to modify',sentence:'偏正短语中的偏是修饰成分。',sentenceEn:'In a modifier-head phrase, the modifier is the decorative component.'}
+        ],
         content: { cn: "\u5e76\u5217\u77ed\u8bed\u7531\u4e24\u4e2a\u6216\u66f4\u591a\u7684\u540d\u8bcd\u3001\u52a8\u8bcd\u6216\u5f62\u5bb9\u8bcd\u5e76\u5217\u7ec4\u6210\uff0c\u4e00\u822c\u6ca1\u6709\u8f7b\u91cd\u4e3b\u6b21\u4e4b\u5206\u3002\u504f\u6b63\u77ed\u8bed\u7531\u201c\u7684\u201d\u6216\u201c\u5730\u201d\u8fde\u63a5\u4fee\u9970\u8bed\u548c\u4e2d\u5fc3\u8bed\u3002\u4e3b\u8c13\u77ed\u8bed\u5148\u51fa\u73b0\u88ab\u9648\u8ff0\u7684\u5bf9\u8c61\uff08\u4e3b\u8bed\uff09\uff0c\u7136\u540e\u9648\u8ff0\u5176\u52a8\u4f5c\u6216\u7279\u5f81\uff08\u8c13\u8bed\uff09\u3002", en: "Coordinate phrases combine two or more nouns, verbs, or adjectives in parallel. Modifier-head phrases use \u2018de\u2019 to connect modifiers to head words. Subject-predicate phrases present the subject first, then describe its action or characteristic." }
       }
     },
     // ── Unit 6 ─────────────────────────────────
     {
-      id: "u6",
+      id: 6,
       title: "\u63a2\u9669\u4e0e\u79d1\u5e7b",
       titleEn: "Exploration and Science Fiction",
       theme: "\u5b66\u4e60\u6d4f\u89c8\uff0c\u6fc0\u53d1\u63a2\u7d22\u5174\u8da3\u4e0e\u60f3\u8c61\u529b",
@@ -1120,9 +1420,19 @@ var TB_G7S2 = {
       type: "reading",
       lessons: [
         {
-          id: "l22",
+          id: 22,
           title: "\u4f1f\u5927\u7684\u60b2\u5267",
           titleEn: "A Great Tragedy",
+          vocabWords: [
+            {word:'毛骨悚然',pinyin:'máo gǔ sǒng rán',en:'hair-raising; terrifying',sentence:'在这严酷的事实面前也就不必再怀疑，这令人毛骨悚然。',sentenceEn:'In the face of this harsh reality there was no room for doubt; it was terrifying.'},
+            {word:'怏怏不乐',pinyin:'yàng yàng bù lè',en:'discontented and unhappy',sentence:'他们怏怏不乐地在阿蒙森的胜利旗帜旁边插上英国国旗。',sentenceEn:'Discontented and unhappy, they planted the British flag beside Amundsen’s victory banner.'},
+            {word:'忧心忡忡',pinyin:'yōu xīn chōng chōng',en:'deeply worried',sentence:'他们每走一步都忧心忡忡。',sentenceEn:'They were deeply worried with every step they took.'},
+            {word:'凛冽',pinyin:'lǐn liè',en:'bitterly cold',sentence:'在他们身后刮来凛冽的寒风。',sentenceEn:'Behind them blew a bitterly cold wind.'},
+            {word:'吞噬',pinyin:'tūn shì',en:'to devour; to engulf',sentence:'刺骨的寒冷吞噬着他们已经疲惫不堪的躯体。',sentenceEn:'The bone-chilling cold devoured their exhausted bodies.'}
+          ],
+          grammarPoints: [
+            {point:'传记文学',pointEn:'zhuàn jì wén xué',example:'biographical literature',exampleEn:'茨威格以文学的笔法记述斯科特探险队的悲壮故事，既有历史的真实又有文学的感染力。',explanation:'Zweig recounts the heroic tragedy of Scott’s expedition with literary technique, combining historical truth with literary emotional power.',explanationEn:'传记文学将真实事件与文学手法结合，在尊重事实的基础上进行艺术加工。'}
+          ],
           author: "\u8328\u5a01\u683c",
           authorEn: "Stefan Zweig",
           source: "\u8282\u9009\u81ea\u300a\u593a\u53d6\u5357\u6781\u7684\u6597\u4e89\u300b\uff08\u300a\u4eba\u7c7b\u7684\u7fa4\u661f\u95ea\u8000\u65f6\u300b\uff0c\u751f\u6d3b\u00b7\u8bfb\u4e66\u00b7\u65b0\u77e5\u4e09\u8054\u4e66\u5e971986\u5e74\u7248\uff09",
@@ -1150,9 +1460,9 @@ var TB_G7S2 = {
             { term: "\u62fd", pinyin: "zhu\u00e0i", definition: "\u62c9", definitionEn: "to pull, to drag" },
             { term: "\u6bdb\u9aa8\u609a\u7136", pinyin: "m\u00e1o g\u01d4 s\u01d2ng r\u00e1n", definition: "\u5f62\u5bb9\u5341\u5206\u6050\u60e7\u7684\u6837\u5b50", definitionEn: "hair-raising, extremely frightened" },
             { term: "\u600f\u600f\u4e0d\u4e50", pinyin: "y\u00e0ng y\u00e0ng b\u00f9 l\u00e8", definition: "\u5f62\u5bb9\u4e0d\u6ee1\u610f\u6216\u4e0d\u9ad8\u5174\u7684\u795e\u60c5", definitionEn: "discontented, unhappy" },
-            { term: "\u7f98\u5f31", pinyin: "l\u00e9i ru\u00f2", definition: "\u7626\u5f31", definitionEn: "emaciated, frail" },
+            { term: "\u7fb8\u5f31", pinyin: "l\u00e9i ru\u00f2", definition: "\u7626\u5f31", definitionEn: "emaciated, frail" },
             { term: "\u544a\u7f44", pinyin: "g\u00e0o q\u00ecng", definition: "\u6307\u7269\u8d44\u7528\u5b8c", definitionEn: "exhausted, used up (supplies)" },
-            { term: "\u6bc3\u5b81", pinyin: "w\u00fa n\u00ecng", definition: "\u4e0d\u5982", definitionEn: "rather, would rather" }
+            { term: "\u6bcb\u5b81", pinyin: "w\u00fa n\u00ecng", definition: "\u4e0d\u5982", definitionEn: "rather, would rather" }
           ],
           thinkExplore: [
             { cn: "\u4f5c\u8005\u8bf4\u65af\u79d1\u7279\u7684\u5357\u6781\u63a2\u9669\u662f\u201c\u4f1f\u5927\u7684\u60b2\u5267\u201d\u3002\u201c\u60b2\u201d\u5728\u4f55\u5904\uff1f\u201c\u4f1f\u5927\u201d\u53c8\u6307\u4ec0\u4e48\uff1f", en: "The author calls Scott\u2019s Antarctic expedition \u2018a great tragedy.\u2019 Where is the \u2018tragedy\u2019? What makes it \u2018great\u2019?" },
@@ -1163,7 +1473,7 @@ var TB_G7S2 = {
             { cn: "\u9605\u8bfb\u65af\u79d1\u7279\u7684\u7edd\u547d\u4e66\u8282\u9009\uff0c\u7ed3\u5408\u8bfe\u6587\u5185\u5bb9\u5199\u4e00\u7bc7\u9605\u8bfb\u7b14\u8bb0\u3002", en: "Read the excerpt from Scott\u2019s last letter and write a reading note combining it with the text." },
             { cn: "\u8bfe\u5916\u9605\u8bfb\u8328\u5a01\u683c\u300a\u4eba\u7c7b\u7684\u7fa4\u661f\u95ea\u8000\u65f6\u300b\u4e2d\u7684\u5176\u4ed6\u4f20\u8bb0\u4f5c\u54c1\u3002", en: "Read other biographical works from Zweig\u2019s The Tide of Fortune." }
           ],
-          readWriteWords: ["\u62fd", "\u6781\u70b9", "\u5f92\u52b3", "\u60c4\u7136", "\u767b\u8fbe", "\u7f98\u5f31", "\u544a\u7f44", "\u51db\u51bd", "\u6b65\u5c65", "\u906e\u4f4f"],
+          readWriteWords: ["\u62fd", "\u6781\u70b9", "\u5f92\u52b3", "\u60c4\u7136", "\u767b\u8fbe", "\u7fb8\u5f31", "\u544a\u7f44", "\u51db\u51bd", "\u6b65\u5c65", "\u906e\u4f4f"],
           teachingPoints: [
             { cn: "\u5b66\u4e60\u6d4f\u89c8\u7684\u9605\u8bfb\u65b9\u6cd5\uff0c\u5feb\u901f\u62b1\u63e1\u6587\u7ae0\u4e3b\u8981\u5185\u5bb9\u3002", en: "Learn the skim-reading method to quickly grasp the main content of an article." },
             { cn: "\u4f53\u4f1a\u4f20\u8bb0\u6587\u5b66\u771f\u5b9e\u4e0e\u60f3\u8c61\u76f8\u7ed3\u5408\u7684\u7279\u70b9\u3002", en: "Appreciate how biographical literature combines factual accuracy with imagination." }
@@ -1173,9 +1483,19 @@ var TB_G7S2 = {
           ]
         },
         {
-          id: "l23",
+          id: 23,
           title: "\u592a\u7a7a\u4e00\u65e5",
           titleEn: "A Day in Space",
+          vocabWords: [
+            {word:'共振',pinyin:'gòng zhèn',en:'resonance; vibration',sentence:'火箭和飞船开始急剧抖动，产生共振。',sentenceEn:'The rocket and spacecraft began to shake violently, producing resonance.'},
+            {word:'屏息凝神',pinyin:'bǐng xī níng shén',en:'to hold one’s breath and concentrate',sentence:'我怀抱着操作盒，屏息凝神地等待着。',sentenceEn:'I held the control panel, holding my breath and concentrating as I waited.'},
+            {word:'俯瞰',pinyin:'fǔ kàn',en:'to look down from above',sentence:'我曾俯瞰我们的首都北京。',sentenceEn:'I once looked down upon our capital Beijing from above.'},
+            {word:'耐人寻味',pinyin:'nài rén xún wèi',en:'thought-provoking; intriguing',sentence:'我甚至觉得这个过程很耐人寻味。',sentenceEn:'I even found this process quite thought-provoking.'},
+            {word:'舷窗',pinyin:'xián chuāng',en:'porthole',sentence:'看到舷窗玻璃开始出现裂缝，我紧张了。',sentenceEn:'Seeing cracks begin to appear on the porthole glass, I became nervous.'}
+          ],
+          grammarPoints: [
+            {point:'科学精神',pointEn:'kē xué jīng shén',example:'scientific spirit',exampleEn:'杨利伟详细描述了飞行中的每一个细节，体现了航天员严谨的科学精神。',explanation:'Yang Liwei described every detail of the flight in detail, reflecting the rigorous scientific spirit of astronauts.',explanationEn:'对航天员来说最基本的要求是严谨，文章处处体现了科学的严谨态度。'}
+          ],
           author: "\u6768\u5229\u4f1f",
           authorEn: "Yang Liwei",
           source: "\u9009\u81ea\u300a\u5929\u5730\u4e5d\u91cd\u300b\uff08\u89e3\u653e\u519b\u51fa\u7248\u793e2010\u5e74\u7248\uff09\uff0c\u6709\u5220\u6539",
@@ -1221,9 +1541,16 @@ var TB_G7S2 = {
           ]
         },
         {
-          id: "l24",
+          id: 24,
           title: "\u5e26\u4e0a\u5979\u7684\u773c\u775b",
           titleEn: "Take Her Eyes Along",
+          vocabWords: [
+            {word:'传感',pinyin:'chuán gǎn',en:'sensor; sensory transmission',sentence:'所谓眼睛就是一副传感眼镜。',sentenceEn:'The so-called eyes were a pair of sensory transmission glasses.'},
+            {word:'压抑',pinyin:'yā yì',en:'oppressive; stifling',sentence:'飞船上方那巨量的地层物质产生了一种压抑感。',sentenceEn:'The enormous mass of geological material above the spacecraft created a sense of oppression.'},
+            {word:'蒙蒙',pinyin:'méng méng',en:'misty; hazy',sentence:'那个没有日出的细雨蒙蒙的草原早晨。',sentenceEn:'That misty, drizzling grassland morning without a sunrise.'},
+            {word:'闷热',pinyin:'mēn rè',en:'stuffy and hot',sentence:'她在地心的世界是那个活动范围不到十立方米的闷热的控制舱。',sentenceEn:'Her world at the center of the earth was a stuffy, hot control cabin of less than ten cubic meters.'},
+            {word:'迟钝',pinyin:'chí dùn',en:'dull; slow to react',sentence:'我对这个世界的美已感到有些迟钝了。',sentenceEn:'I had become somewhat dull to the beauty of this world.'}
+          ],
           author: "\u5218\u6148\u6b23",
           authorEn: "Liu Cixin",
           source: "\u672c\u6587\u7531\u4f5c\u8005\u6839\u636e\u81ea\u5df1\u7684\u540c\u540d\u5c0f\u8bf4\u6539\u5199",
@@ -1265,9 +1592,19 @@ var TB_G7S2 = {
           ]
         },
         {
-          id: "l25",
+          id: 25,
           title: "\u6d3b\u677f",
           titleEn: "Movable Type Printing",
+          vocabWords: [
+            {word:'布衣',pinyin:'bù yī',en:'commoner; person of humble origin',sentence:'庆历中，有布衣毕昇，又为活板。',sentenceEn:'During the Qingli era, a commoner named Bi Sheng invented movable type printing.'},
+            {word:'胶泥',pinyin:'jiāo ní',en:'adhesive clay',sentence:'其法：用胶泥刻字。',sentenceEn:'The method: carve characters from adhesive clay.'},
+            {word:'更互',pinyin:'gēng hù',en:'alternately; in turn',sentence:'更互用之，瞬息可就。',sentenceEn:'Using them alternately, the work could be completed in an instant.'},
+            {word:'神速',pinyin:'shén sù',en:'amazingly fast',sentence:'若印数十百千本，则极为神速。',sentenceEn:'If printing tens, hundreds, or thousands of copies, it was amazingly fast.'},
+            {word:'宝藏',pinyin:'bǎo cáng',en:'to treasure; to preserve as a treasure',sentence:'昇死，其印为余群从所得，至今宝藏。',sentenceEn:'After Sheng died, his type was obtained by my nephews and cousins and has been treasured ever since.'}
+          ],
+          grammarPoints: [
+            {point:'说明顺序',pointEn:'shuō míng shùn xù',example:'expository order',exampleEn:'文章按照制字、排版、印刷的程序逐层说明活字印刷术。',explanation:'The article explains movable type printing layer by layer in the order of making type, typesetting, and printing.',explanationEn:'说明文常按照逻辑顺序或工序流程来组织内容，使复杂事物条理清楚。'}
+          ],
           author: "\u6c88\u62ec",
           authorEn: "Shen Kuo",
           source: "\u9009\u81ea\u300a\u68a6\u6eaa\u7b14\u8c08\u300b\u5377\u5341\u516b\uff08\u4e0a\u6d77\u53e4\u7c4d\u51fa\u7248\u793e2015\u5e74\u7248\uff09",
@@ -1322,22 +1659,50 @@ var TB_G7S2 = {
       writing: {
         title: "\u8bed\u8a00\u7b80\u660e",
         titleEn: "Writing: Concise Language",
-        prompt: { cn: "\u7b80\u660e\uff0c\u5c31\u662f\u7b80\u8981\u3001\u660e\u767d\u3002\u884c\u6587\u65f6\u8bed\u8a00\u8981\u5c3d\u53ef\u80fd\u7cbe\u7ec3\uff0c\u4e0d\u91cd\u590d\u3001\u556e\u5606\uff0c\u540c\u65f6\u8868\u8fbe\u7684\u610f\u601d\u53c8\u8981\u6e05\u695a\u660e\u767d\uff0c\u4e0d\u8ba9\u4eba\u4ea7\u751f\u8bef\u89e3\u3002\u8981\u56f4\u7ed5\u4e2d\u5fc3\u6765\u5199\uff0c\u907f\u514d\u8bcd\u8bed\u91cd\u590d\u548c\u5806\u780c\u3002", en: "Concise language means being brief and clear. Writing should be as refined as possible\u2014no repetition or verbosity\u2014while remaining clear and unambiguous. Stay focused on the central topic and avoid word repetition or piling up synonyms." }
+        vocabWords: [
+          {word:'简明',pinyin:'jiǎn míng',en:'concise and clear',sentence:'语言要做到简明，就是简要、明白。',sentenceEn:'To achieve concise language means to be brief and clear.'},
+          {word:'累赘',pinyin:'léi zhui',en:'redundant; verbose',sentence:'删去累赘的词语可以使语言更加简洁。',sentenceEn:'Removing redundant words makes language more concise.'},
+          {word:'精炼',pinyin:'jīng liàn',en:'refined; succinct',sentence:'好的文章语言精炼，字字有用。',sentenceEn:'Good writing has refined language where every word serves a purpose.'},
+          {word:'歧义',pinyin:'qí yì',en:'ambiguity',sentence:'语言要明白，就要避免歧义。',sentenceEn:'For language to be clear, ambiguity must be avoided.'},
+          {word:'赘述',pinyin:'zhuì shù',en:'unnecessary repetition',sentence:'不必要的赘述会影响表达效果。',sentenceEn:'Unnecessary repetition affects the effectiveness of expression.'}
+        ],
+        prompt: { cn: "\u7b80\u660e\uff0c\u5c31\u662f\u7b80\u8981\u3001\u660e\u767d\u3002\u884c\u6587\u65f6\u8bed\u8a00\u8981\u5c3d\u53ef\u80fd\u7cbe\u7ec3\uff0c\u4e0d\u91cd\u590d\u3001\u556e\u53f9\uff0c\u540c\u65f6\u8868\u8fbe\u7684\u610f\u601d\u53c8\u8981\u6e05\u695a\u660e\u767d\uff0c\u4e0d\u8ba9\u4eba\u4ea7\u751f\u8bef\u89e3\u3002\u8981\u56f4\u7ed5\u4e2d\u5fc3\u6765\u5199\uff0c\u907f\u514d\u8bcd\u8bed\u91cd\u590d\u548c\u5806\u780c\u3002", en: "Concise language means being brief and clear. Writing should be as refined as possible\u2014no repetition or verbosity\u2014while remaining clear and unambiguous. Stay focused on the central topic and avoid word repetition or piling up synonyms." }
       },
       comprehensiveLearning: {
         title: "\u6211\u7684\u8bed\u6587\u751f\u6d3b",
         titleEn: "My Chinese Language Life",
+        vocabWords: [
+          {word:'语文生活',pinyin:'yǔ wén shēng huó',en:'Chinese language life',sentence:'语文学习不只在课堂上，生活处处都有语文。',sentenceEn:'Chinese language learning is not only in the classroom; language is everywhere in life.'},
+          {word:'标语',pinyin:'biāo yǔ',en:'slogan; banner',sentence:'生活中随处可见各种标语。',sentenceEn:'Slogans can be seen everywhere in daily life.'},
+          {word:'广告词',pinyin:'guǎng gào cí',en:'advertising slogan',sentence:'有些广告词巧妙地运用了修辞手法。',sentenceEn:'Some advertising slogans cleverly employ rhetorical techniques.'},
+          {word:'对联',pinyin:'duì lián',en:'couplet',sentence:'对联是中国传统文化的瑰宝。',sentenceEn:'Couplets are a treasure of traditional Chinese culture.'},
+          {word:'谐音',pinyin:'xié yīn',en:'homophone; pun',sentence:'有些广告利用谐音来吸引注意。',sentenceEn:'Some advertisements use homophones to attract attention.'}
+        ],
         description: { cn: "\u5b66\u4e60\u8bed\u6587\u4e0d\u4ec5\u5728\u8bfe\u5802\u4e0a\uff0c\u4e5f\u5728\u8bfe\u5916\u751f\u6d3b\u4e2d\u3002\u4e09\u4e2a\u6d3b\u52a8\uff1a\u201c\u6b63\u773c\u770b\u62db\u724c\u201d\u8c03\u67e5\u8857\u5e02\u62db\u724c\u7528\u5b57\uff1b\u201c\u6211\u6765\u5199\u5e7f\u544a\u8bcd\u201d\u521b\u4f5c\u5e7f\u544a\u8bcd\uff1b\u201c\u5bfb\u627e\u6700\u7f8e\u5bf9\u8054\u201d\u641c\u96c6\u5bf9\u8054\u5e76\u8bc4\u9009\u3002", en: "Learning Chinese happens both in and outside the classroom. Three activities: investigating street signs for correct character usage; writing advertising slogans; and collecting and judging the most beautiful couplets." }
       },
       classicBookGuide: {
         title: "\u300a\u6d77\u5e95\u4e24\u4e07\u91cc\u300b \u5feb\u901f\u9605\u8bfb",
         titleEn: "Twenty Thousand Leagues Under the Sea \u2014 Speed Reading",
+        vocabWords: [
+          {word:'快速阅读',pinyin:'kuài sù yuè dú',en:'speed reading',sentence:'快速阅读要求在较短的时间内把握全书的内容。',sentenceEn:'Speed reading requires grasping the content of the entire book in a relatively short time.'},
+          {word:'潜水艇',pinyin:'qián shuǐ tǐng',en:'submarine',sentence:'尼摩船长驾驶着神秘的潜水艇在海底航行。',sentenceEn:'Captain Nemo piloted the mysterious submarine through the ocean depths.'},
+          {word:'情节',pinyin:'qíng jié',en:'plot',sentence:'快速阅读时要抓住主要情节。',sentenceEn:'When speed reading, grasp the main plot.'},
+          {word:'科幻',pinyin:'kē huàn',en:'science fiction',sentence:'海底两万里是一部经典科幻小说。',sentenceEn:'Twenty Thousand Leagues Under the Sea is a classic science fiction novel.'},
+          {word:'探险',pinyin:'tàn xiǎn',en:'exploration; adventure',sentence:'书中描述了一段惊心动魄的海底探险。',sentenceEn:'The book describes a thrilling undersea adventure.'}
+        ],
         description: { cn: "\u5112\u52d2\u00b7\u51e1\u5c14\u7eb3\uff081828\u20141905\uff09\uff0c\u6cd5\u56fd\u79d1\u5e7b\u5c0f\u8bf4\u5bb6\uff0c\u88ab\u8a89\u4e3a\u201c\u79d1\u5b66\u65f6\u4ee3\u7684\u9884\u8a00\u5bb6\u201d\u3002\u300a\u6d77\u5e95\u4e24\u4e07\u91cc\u300b\u662f\u5176\u4ee3\u8868\u4f5c\uff0c\u8bb2\u8ff0\u5c3c\u6469\u8239\u957f\u9a7e\u9a76\u6f5c\u6c34\u8247\u5728\u5927\u6d77\u4e2d\u81ea\u7531\u822a\u884c\u7684\u795e\u5947\u6545\u4e8b\u3002\u5b66\u4e60\u5feb\u901f\u9605\u8bfb\u65b9\u6cd5\uff1a\u96c6\u4e2d\u7cbe\u529b\u3001\u4ee5\u9ed8\u8bfb\u4e3a\u4e3b\u3001\u6269\u5927\u89c6\u57df\u3001\u6293\u5173\u952e\u4fe1\u606f\u3002", en: "Jules Verne (1828\u20131905), French sci-fi novelist known as \u2018the prophet of the scientific age.\u2019 Twenty Thousand Leagues is his masterpiece about Captain Nemo\u2019s submarine adventures. Learn speed-reading techniques: concentrate, read silently, widen visual span, and grasp key information." }
       },
       extracurricularPoetry: [
         {
           title: "\u6cca\u79e6\u6dee",
           titleEn: "Mooring on the Qinhuai River",
+          vocabWords: [
+            {word:'笼',pinyin:'lǒng',en:'to envelop; to shroud',sentence:'烟笼寒水月笼沙。',sentenceEn:'Mist shrouds the cold water, moonlight shrouds the sand.'},
+            {word:'商女',pinyin:'shāng nǚ',en:'singing girl',sentence:'商女不知亡国恨。',sentenceEn:'The singing girl does not know the sorrow of a fallen nation.'},
+            {word:'犹唱',pinyin:'yóu chàng',en:'still singing',sentence:'隔江犹唱后庭花。',sentenceEn:'Across the river, she is still singing the song of the Rear Courtyard Flowers.'},
+            {word:'亡国恨',pinyin:'wáng guó hèn',en:'sorrow of national ruin',sentence:'商女不知亡国恨。',sentenceEn:'The singing girl does not know the sorrow of national ruin.'},
+            {word:'秦淮',pinyin:'qín huái',en:'Qinhuai River',sentence:'夜泊秦淮近酒家。',sentenceEn:'Mooring at night on the Qinhuai River near a tavern.'}
+          ],
           author: "\u675c\u7267",
           authorEn: "Du Mu",
           dynasty: "\u5510",
@@ -1349,6 +1714,13 @@ var TB_G7S2 = {
         {
           title: "\u8d3e\u751f",
           titleEn: "On Jia Yi",
+          vocabWords: [
+            {word:'求贤',pinyin:'qiú xián',en:'to seek the worthy',sentence:'宣室求贤访逐臣。',sentenceEn:'In the Xuanshi Hall, seeking the worthy, he consulted the banished minister.'},
+            {word:'才调',pinyin:'cái diào',en:'talent; ability',sentence:'贾生才调更无伦。',sentenceEn:'Jia Yi’s talent was truly beyond compare.'},
+            {word:'可怜',pinyin:'kě lián',en:'pitiable; what a pity',sentence:'可怜夜半虚前席。',sentenceEn:'What a pity that at midnight he moved forward on his seat in vain.'},
+            {word:'苍生',pinyin:'cāng shēng',en:'the common people',sentence:'不问苍生问鬼神。',sentenceEn:'He did not ask about the common people but inquired about ghosts and spirits.'},
+            {word:'前席',pinyin:'qián xí',en:'to move forward in one’s seat',sentence:'可怜夜半虚前席。',sentenceEn:'What a pity that at midnight he leaned forward on his seat in vain.'}
+          ],
           author: "\u674e\u5546\u9690",
           authorEn: "Li Shangyin",
           dynasty: "\u5510",
@@ -1360,6 +1732,13 @@ var TB_G7S2 = {
         {
           title: "\u8fc7\u677e\u6e90\u6668\u7082\u6f06\u516c\u5e97\uff08\u5176\u4e94\uff09",
           titleEn: "Passing Through Songyuan for Breakfast at Qigong\u2019s Inn (No. 5)",
+          vocabWords: [
+            {word:'下岭',pinyin:'xià lǐng',en:'going downhill',sentence:'莫言下岭便无难。',sentenceEn:'Do not say that going downhill means there are no more difficulties.'},
+            {word:'赚得',pinyin:'zuàn de',en:'to trick; to deceive',sentence:'赚得行人错喜欢。',sentenceEn:'It tricks travelers into false joy.'},
+            {word:'围子',pinyin:'wéi zi',en:'encirclement; ring',sentence:'政入万山围子里。',sentenceEn:'You find yourself right in the encirclement of countless mountains.'},
+            {word:'放出',pinyin:'fàng chū',en:'to let pass',sentence:'一山放出一山拦。',sentenceEn:'One mountain lets you pass only for another to block your way.'},
+            {word:'万山',pinyin:'wàn shān',en:'thousands of mountains',sentence:'政入万山围子里。',sentenceEn:'Right in the midst of thousands of mountains.'}
+          ],
           author: "\u6768\u4e07\u91cc",
           authorEn: "Yang Wanli",
           dynasty: "\u5357\u5b8b",
@@ -1371,6 +1750,13 @@ var TB_G7S2 = {
         {
           title: "\u7ea6\u5ba2",
           titleEn: "Expecting a Guest",
+          vocabWords: [
+            {word:'黄梅时节',pinyin:'huáng méi shí jié',en:'the rainy plum-ripening season',sentence:'黄梅时节家家雨。',sentenceEn:'During the plum-ripening season, rain falls at every house.'},
+            {word:'处处蛙',pinyin:'chù chù wā',en:'frogs everywhere',sentence:'青草池塘处处蛙。',sentenceEn:'Green grass, ponds, and frogs croaking everywhere.'},
+            {word:'闲敲棋子',pinyin:'xián qiāo qí zǐ',en:'idly tapping chess pieces',sentence:'有约不来过夜半，闲敲棋子落灯花。',sentenceEn:'The expected guest has not come past midnight; idly tapping chess pieces, lamp wick ash falls.'},
+            {word:'灯花',pinyin:'dēng huā',en:'lamp wick ash',sentence:'闲敲棋子落灯花。',sentenceEn:'Idly tapping chess pieces as lamp wick ash drops.'},
+            {word:'有约',pinyin:'yǒu yuē',en:'to have an appointment',sentence:'有约不来过夜半。',sentenceEn:'The appointment has not been kept past midnight.'}
+          ],
           author: "\u8d75\u5e08\u79c0",
           authorEn: "Zhao Shixiu",
           dynasty: "\u5357\u5b8b",
@@ -1383,6 +1769,13 @@ var TB_G7S2 = {
       readWrite: {
         title: "\u77ed\u8bed\u7c7b\u578b\uff1a\u52a8\u5bbe\u3001\u8865\u5145",
         titleEn: "Phrase Types: Verb-Object and Complement",
+        vocabWords: [
+          {word:'动宾短语',pinyin:'dòng bīn duǎn yǔ',en:'verb-object phrase',sentence:'写文章、学语文都是动宾短语。',sentenceEn:'Writing articles and studying Chinese are both verb-object phrases.'},
+          {word:'补充短语',pinyin:'bǔ chōng duǎn yǔ',en:'complement phrase',sentence:'看得清楚是补充短语，得字后面是补语。',sentenceEn:'Seeing clearly is a complement phrase; the word after de is the complement.'},
+          {word:'动词',pinyin:'dòng cí',en:'verb',sentence:'动宾短语以动词为中心。',sentenceEn:'Verb-object phrases center on the verb.'},
+          {word:'宾语',pinyin:'bīn yǔ',en:'object',sentence:'动词后面的词语是宾语。',sentenceEn:'The word following the verb is the object.'},
+          {word:'补语',pinyin:'bǔ yǔ',en:'complement',sentence:'补充短语中补语对动词或形容词进行补充说明。',sentenceEn:'In a complement phrase, the complement provides additional information about the verb or adjective.'}
+        ],
         content: { cn: "\u52a8\u5bbe\u77ed\u8bed\u524d\u8fb9\u662f\u52a8\u8bcd\uff0c\u540e\u8fb9\u662f\u53d7\u52a8\u8bcd\u652f\u914d\u7684\u5bbe\u8bed\uff0c\u4e8c\u8005\u6784\u6210\u52a8\u5bbe\u5173\u7cfb\u3002\u5bbe\u8bed\u4e3b\u8981\u56de\u7b54\u201c\u8c01\u201d\u201c\u4ec0\u4e48\u201d\u201c\u54ea\u91cc\u201d\u7b49\u3002\u8865\u5145\u77ed\u8bed\u7684\u524d\u4e00\u90e8\u5206\u5e38\u662f\u52a8\u8bcd\u6216\u5f62\u5bb9\u8bcd\uff0c\u540e\u4e00\u90e8\u5206\u8d77\u8865\u5145\u8bf4\u660e\u4f5c\u7528\uff0c\u5e38\u4ee5\u201c\u5f97\u201d\u4e3a\u6807\u5fd7\u3002", en: "Verb-object phrases have a verb followed by an object governed by it, answering \u2018who,\u2019 \u2018what,\u2019 or \u2018where.\u2019 Complement phrases have a verb or adjective followed by supplementary information, often marked by \u2018de (\u5f97).\u2019" }
       }
     }

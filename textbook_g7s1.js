@@ -24,10 +24,22 @@ var TB_G7S1 = {
           id: 1,
           title: "春",
           titleEn: "Spring",
+          difficulty: 3,
           author: "朱自清",
           authorEn: "Zhu Ziqing",
           source: "选自《朱自清全集》第四卷（江苏教育出版社1996年版）。略有改动。",
           sourceEn: "Selected from The Complete Works of Zhu Ziqing, Volume 4 (Jiangsu Education Press, 1996). Slightly adapted.",
+          vocabWords: [
+            {word:'朗润',pinyin:'lǎng rùn',en:'bright and moist',sentence:'山朗润起来了，水涨起来了。',sentenceEn:'The mountains became bright and moist, the waters rose.'},
+            {word:'酝酿',pinyin:'yùn niàng',en:'brew; develop gradually',sentence:'都在微微润湿的空气里酝酿。',sentenceEn:'All brewing in the slightly moist air.'},
+            {word:'嫩绿',pinyin:'nèn lǜ',en:'tender green',sentence:'小草偷偷地从土里钻出来，嫩嫩的，绿绿的。',sentenceEn:'The grass secretly poked out of the earth, tender and green.'},
+            {word:'抖擞',pinyin:'dǒu sǒu',en:'invigorate',sentence:'舒活舒活筋骨，抖擞抖擞精神。',sentenceEn:'Stretch the muscles and bones, invigorate the spirit.'},
+            {word:'花枝招展',pinyin:'huā zhī zhāo zhǎn',en:'gorgeously dressed',sentence:'春天像小姑娘，花枝招展的，笑着，走着。',sentenceEn:'Spring is like a young girl, gorgeously dressed, smiling and walking.'}
+          ],
+          grammarPoints: [
+            {point:'比喻',pointEn:'bǐ yù',example:'simile and metaphor',exampleEn:'春天像刚落地的娃娃，从头到脚都是新的。',explanation:'Spring is like a newborn baby, new from head to toe.',explanationEn:'用比喻修辞手法将春天具体化，增强形象感'},
+            {point:'拟人',pointEn:'nǐ rén',example:'personification',exampleEn:'小草偷偷地从土里钻出来。',explanation:'The grass secretly poked out of the earth.',explanationEn:'赋予植物人的动作，表现春天的生机'}
+          ],
           authorBio: {
             cn: "朱自清（1898—1948），字佩弦，江苏扬州人，散文家、诗人、学者。著有诗文集《踪迹》，散文集《背影》《欧游杂记》《你我》等。",
             en: "Zhu Ziqing (1898–1948), courtesy name Peixian, was from Yangzhou, Jiangsu. He was an essayist, poet, and scholar. His works include the poetry and prose collection Traces, and essay collections such as The Back View, Notes on Travels in Europe, and You and I."
@@ -92,10 +104,21 @@ var TB_G7S1 = {
           id: 2,
           title: "济南的冬天",
           titleEn: "Winter in Jinan",
+          difficulty: 3,
           author: "老舍",
           authorEn: "Lao She",
           source: "节选自《一些印象（四、五、六、七）》（《老舍全集》第十四卷，人民文学出版社1999年版）。题目是编者加的。略有改动。",
           sourceEn: "Excerpted from Some Impressions (IV, V, VI, VII) (Complete Works of Lao She, Vol. 14, People's Literature Publishing House, 1999). Title added by editors. Slightly adapted.",
+          vocabWords: [
+            {word:'温晴',pinyin:'wēn qíng',en:'warm and sunny',sentence:'在北中国的冬天，而能有温晴的天气。',sentenceEn:'In the winter of north China, to have warm and sunny weather.'},
+            {word:'响晴',pinyin:'xiǎng qíng',en:'perfectly clear',sentence:'济南的冬天是响晴的。',sentenceEn:'The winter in Jinan is perfectly clear.'},
+            {word:'安适',pinyin:'ān shì',en:'comfortable and cozy',sentence:'全在蓝天下很暖和安适地睡着。',sentenceEn:'All sleeping warm and cozy under the blue sky.'},
+            {word:'水墨画',pinyin:'shuǐ mò huà',en:'ink wash painting',sentence:'这是张小水墨画，也许是唐代的名手画的吧。',sentenceEn:'This is a small ink wash painting, perhaps by a master of the Tang dynasty.'},
+            {word:'空灵',pinyin:'kōng líng',en:'ethereal; crystalline',sentence:'整个的是块空灵的蓝水晶。',sentenceEn:'The whole thing is an ethereal blue crystal.'}
+          ],
+          grammarPoints: [
+            {point:'对比',pointEn:'duì bǐ',example:'contrast',exampleEn:'对于一个在北平住惯的人，像我，冬天要是不刮大风，便觉得是奇迹。',explanation:'For someone used to living in Beiping, like me, it is a miracle if there is no strong wind in winter.',explanationEn:'通过与北平、伦敦对比突出济南冬天的温暖'}
+          ],
           authorBio: {
             cn: "老舍（1899—1966），原名舒庆春，字舍予，北京人，满族，作家。主要作品有小说《骆驼祥子》《四世同堂》，话剧《茶馆》《龙须沟》等。",
             en: "Lao She (1899–1966), original name Shu Qingchun, courtesy name Sheyu, was a Manchu writer from Beijing. Major works include the novels Camel Xiangzi and Four Generations Under One Roof, and the plays Teahouse and Dragon Beard Ditch."
@@ -117,8 +140,8 @@ var TB_G7S1 = {
           textEn: [
             "For someone accustomed to living in Beiping, like me, if winter didn't bring fierce winds, it would seem miraculous; Jinan's winter has no sound of wind. For someone just returned from London, like me, if one could see sunlight in winter, it would seem extraordinary; Jinan's winter is brilliantly clear. Naturally, in the tropics, the sunlight is always fierce, and bright weather can be somewhat frightening. But in northern China, to have warm and sunny weather in winter — Jinan truly deserves to be called a treasured place.",
             "If it were merely sunny, that wouldn't be remarkable. Close your eyes and imagine: an old city with mountains and water, all sleeping warmly and comfortably under the blue sky, just waiting for the spring breeze to wake them — isn't that an ideal scene?",
-            "The small hills surround Jinan completely, with only a small gap to the north. This ring of little hills is especially lovely in winter, as if cradling Jinan in a small rocking cradle, all quietly whispering: 'Rest assured, it will be warm here.' Indeed, people in Jinan smile throughout winter. When they look at those little hills, they feel grounded and supported.",
-            "The most wonderful thing is a light snowfall. Look — the squat pines on the mountains become even darker green, with a knot of white flowers perched on their tips, like Japanese nurses. The mountain peaks are all white, bordering the blue sky with a silver edge. On the slopes, some places have thicker snow while grass still shows through elsewhere — white patches and dark yellow patches, dressing the mountains in a patterned garment with water-like ripples.",
+            "The small hills surround Jinan completely, with only a small gap to the north. This ring of little hills is especially lovely in winter, as if cradling Jinan in a small rocking cradle, all quietly and still, whispering softly: 'Rest assured, it will be warm here.' Indeed, people in Jinan smile throughout winter. When they look at those little hills, they feel grounded and supported. Looking from the sky to the mountains, they cannot help but think: 'Perhaps tomorrow will already be spring? With such warmth, maybe the mountain grass will turn green tonight?' Even if this bit of fantasy cannot be realized right away, they are not anxious at all, because with such a benevolent winter, why would they wish for anything else!",
+            "The most wonderful thing is a light snowfall. Look — the squat pines on the mountains become even darker green, with a knot of white flowers perched on their tips, like Japanese nurses. The mountain peaks are all white, bordering the blue sky with a silver edge. On the slopes, some places have thicker snow while grass still shows through elsewhere — white patches and dark yellow patches, dressing the mountains in a patterned garment with water-like ripples. As you gaze, this patterned garment seems to flutter in the breeze, making you wish to see a bit more of the mountains' lovely skin beneath. Near sunset, the faintly yellow sunlight slants across the mountainside, and the thin snow seems suddenly shy, blushing with a hint of pink. Let it be just a light snow — Jinan cannot bear a heavy one; those little hills are too delicate!",
             "Ancient Jinan — the city so narrow within, and so spacious without. Little villages nestle on the hillsides, with a dusting of snow on their rooftops. Yes, this is a small ink-wash painting, perhaps by a Tang dynasty master.",
             "And the water? Not only doesn't it freeze, but it actually steams slightly above the green duckweed. The water weeds are truly green, bringing out all the green they've stored up all year. The clearer the sky, the greener the weeds — with such green spirit, even the water can't bear to freeze over. Besides, the long-branched willows still want to admire their reflections in the water. Look — from the clear river slowly upward, through the air, the mid-air, the sky — everything from top to bottom is so clear and bright, so deeply blue, the whole thing is an ethereal blue crystal.",
             "This is winter in Jinan."
@@ -149,10 +172,18 @@ var TB_G7S1 = {
           id: 3,
           title: "雨的四季",
           titleEn: "Rain in Four Seasons",
+          difficulty: 5,
           author: "刘湛秋",
           authorEn: "Liu Zhanqiu",
           source: "选自《散文》1989年第4期。略有改动。",
           sourceEn: "Selected from Prose magazine, Issue 4, 1989. Slightly adapted.",
+          vocabWords: [
+            {word:'静谧',pinyin:'jìng mì',en:'tranquil; serene',sentence:'是使人静谧、使人怀想、使人动情的秋雨啊！',sentenceEn:'It is the autumn rain that makes people tranquil, nostalgic, and emotional!'},
+            {word:'高邈',pinyin:'gāo miǎo',en:'high and distant',sentence:'你只会感到更高邈、深远。',sentenceEn:'You will only feel it more high and distant, profound.'},
+            {word:'莅临',pinyin:'lì lín',en:'arrive (of honored guests)',sentence:'它经常变成美丽的雪花，飘然莅临人间。',sentenceEn:'It often turns into beautiful snowflakes, gracefully arriving in the human world.'},
+            {word:'粗犷',pinyin:'cū guǎng',en:'bold and uninhibited',sentence:'夏天的雨也有夏天的性格，热烈而又粗犷。',sentenceEn:'Summer rain has the character of summer, passionate and bold.'},
+            {word:'吝啬',pinyin:'lìn sè',en:'stingy; sparing',sentence:'它变得更吝啬了。',sentenceEn:'It becomes more sparing.'}
+          ],
           authorBio: {
             cn: "刘湛秋，当代诗人、散文家。",
             en: "Liu Zhanqiu is a contemporary poet and essayist."
@@ -172,11 +203,11 @@ var TB_G7S1 = {
           ],
           textEn: [
             "I love rain — rain of any season, I love it all. The image and memory she gives me is always beautiful.",
-            "In spring, leaves begin to flash yellow-green, flower buds gently sway in the wind, seemingly still carrying a wintry dimness. But after a spring rain washes over everything, the colors and expressions are beyond imagination. Every tree seems to open especially bright eyes, the arms of branches suddenly become supple, and the sprouting leaves undulate like a green wave. Droplets fall from flower buds, more charming than a maiden's tears.",
+            "In spring, leaves begin to flash yellow-green, flower buds gently sway in the wind, seemingly still carrying a wintry dimness. But after a spring rain washes over everything, the colors and expressions are beyond imagination. Every tree seems to open especially bright eyes, the arms of branches suddenly become supple, and the sprouting leaves undulate like a layer of green waves. Droplets fall from flower buds, more charming than a maiden's tears. In midair there seems always to hang a transparent curtain of misty silk, tugging at the prism of sunlight. At this moment, the whole earth is beautiful. The grass seems to turn and stir like earthworms awakening, making a rustling sound that can only be heard in spring. Breathing becomes easy and free; the air seems to hold countless sweet, fragrant fruits, tempting your nose and lips. Truly, only this rain can completely drive away winter and transform the face of the world.",
             "Summer has its own distinct charm. Summer rain has summer's personality — passionate and bold. A few dark clouds gather in the sky, sometimes without even a hint of thunder, and before you can think, bean-sized raindrops are upon you. But the rain isn't frightening then, because every pore on your body has opened its mouth from the heat, yearning for that cool nectar.",
             "When the fields are dyed golden and all kinds of fruits are shaking their bells, the rain seems like a married woman who has had children — dignified and calm. The rain doesn't go out much then. The fields are almost always golden with sunlight. Suddenly, one night, a sound comes from the window glass — it is rain, the autumn rain that brings tranquility, nostalgia, and emotion!",
             "Perhaps when winter comes, people will dislike rain! But by then, rain has changed its costume, often becoming beautiful snowflakes that gracefully descend upon the world. But in the south, rain still occasionally visits the earth, though it has become more sparing.",
-            "Ah, rain — my beloved rain! You flow before my eyes through all four seasons, bringing vitality to my life, moisture to my feelings, fluidity to my thoughts. Only in rain do I truly feel this world is alive, with both joy and tears.",
+            "Ah, rain — my beloved rain! You flow before my eyes through all four seasons, bringing vitality to my life, moisture to my feelings, fluidity to my thoughts. Only in rain do I truly feel this world is alive, with both joy and tears. But in the dry cities of the north, how rare our meetings are! I only hope that the ever-increasing greenery can invite you back into our lives.",
             "Ah, rain — always beautiful and beloved!"
           ],
           annotations: [
@@ -202,10 +233,21 @@ var TB_G7S1 = {
           id: 4,
           title: "古代诗歌四首",
           titleEn: "Four Ancient Poems",
+          difficulty: 3,
           author: "曹操、李白、王湾、马致远",
           authorEn: "Cao Cao, Li Bai, Wang Wan, Ma Zhiyuan",
           source: "分别选自《曹操集》《李白集校注》《全唐诗》《全元散曲》。",
           sourceEn: "Selected from various collections of these poets' works.",
+          vocabWords: [
+            {word:'澹澹',pinyin:'dàn dàn',en:'rippling',sentence:'水何澹澹，山岛竦峙。',sentenceEn:'How the waters ripple, and the mountain isles stand tall.'},
+            {word:'竦峙',pinyin:'sǒng zhì',en:'stand tall',sentence:'水何澹澹，山岛竦峙。',sentenceEn:'How the waters ripple, and the mountain isles stand tall.'},
+            {word:'枯藤',pinyin:'kū téng',en:'withered vines',sentence:'枯藤老树昏鸦。',sentenceEn:'Withered vines, old trees, crows at dusk.'},
+            {word:'断肠',pinyin:'duàn cháng',en:'heartbroken',sentence:'断肠人在天涯。',sentenceEn:'A heartbroken traveler at the edge of the world.'},
+            {word:'残夜',pinyin:'cán yè',en:'the last moments of night',sentence:'海日生残夜，江春入旧年。',sentenceEn:'The sea sun rises from the last moments of night, river spring enters the old year.'}
+          ],
+          grammarPoints: [
+            {point:'借景抒情',pointEn:'jiè jǐng shū qíng',example:'express feelings through scenery',exampleEn:'枯藤老树昏鸦，小桥流水人家，古道西风瘦马。',explanation:'Withered vines, old trees, crows at dusk; a small bridge, flowing water, cottages; an ancient road, west wind, a lean horse.',explanationEn:'通过罗列意象营造凄凉氛围，表达游子思乡之情'}
+          ],
           authorBio: {
             cn: "曹操（155—220），字孟德，东汉末政治家、军事家、诗人。李白（701—762），字太白，号青莲居士，唐代诗人。王湾，洛阳人，唐代诗人。马致远（约1251—1321以后），号东篱，元代戏曲作家、散曲家。",
             en: "Cao Cao (155–220), courtesy name Mengde, was a politician, military strategist, and poet of the late Eastern Han. Li Bai (701–762), courtesy name Taibai, was a Tang dynasty poet. Wang Wan was a Tang dynasty poet from Luoyang. Ma Zhiyuan (c. 1251–after 1321) was a Yuan dynasty playwright and lyricist."
@@ -255,6 +297,13 @@ var TB_G7S1 = {
       writing: {
         title: "热爱生活，热爱写作",
         titleEn: "Love Life, Love Writing",
+        vocabWords: [
+          {word:'写作',pinyin:'xiě zuò',en:'writing',sentence:'写作就是用笔来说话。',sentenceEn:'Writing is speaking with a pen.'},
+          {word:'观察',pinyin:'guān chá',en:'observe',sentence:'养成细心观察、勤于思考的习惯。',sentenceEn:'Develop the habit of careful observation and diligent thinking.'},
+          {word:'素材',pinyin:'sù cái',en:'raw material',sentence:'积累内容素材和语言材料。',sentenceEn:'Accumulate content material and language resources.'},
+          {word:'表达',pinyin:'biǎo dá',en:'express',sentence:'写作是表达、交流的重要方式。',sentenceEn:'Writing is an important way to express and communicate.'},
+          {word:'交流',pinyin:'jiāo liú',en:'communicate; exchange',sentence:'写作是生活中与人沟通、交流、分享信息的一种方式。',sentenceEn:'Writing is a way to communicate, exchange, and share information in life.'}
+        ],
         content: {
           cn: "写作不是什么\u201C高难动作\u201D，而是生活中与人沟通、交流、分享信息的一种方式，就像我们平常说话一样。写作就是用笔来说话。平时养成细心观察、勤于思考的习惯，你就不会为写什么东西发愁了。",
           en: "Writing is not a 'difficult feat' — it is a way of communicating, exchanging, and sharing information in daily life, just like speaking. Writing is simply speaking with a pen. Develop habits of careful observation and diligent thinking, and you won't worry about what to write."
@@ -264,6 +313,13 @@ var TB_G7S1 = {
         {
           title: "比喻",
           titleEn: "Simile and Metaphor",
+          vocabWords: [
+            {word:'比喻',pinyin:'bǐ yù',en:'simile; metaphor',sentence:'句子运用了比喻的修辞手法。',sentenceEn:'The sentence uses the rhetorical device of simile.'},
+            {word:'本体',pinyin:'běn tǐ',en:'tenor (thing compared)',sentence:'本体和喻体之间用比喻词连接。',sentenceEn:'The tenor and vehicle are connected by a comparison word.'},
+            {word:'喻体',pinyin:'yù tǐ',en:'vehicle (thing used for comparison)',sentence:'用来做比喻的事物叫喻体。',sentenceEn:'The thing used for comparison is called the vehicle.'},
+            {word:'明喻',pinyin:'míng yù',en:'explicit simile',sentence:'像、好像、仿佛等词连接的是明喻。',sentenceEn:'Comparisons using words like "like" or "as if" are explicit similes.'},
+            {word:'借喻',pinyin:'jiè yù',en:'implied metaphor',sentence:'借用喻体直接代替本体是借喻。',sentenceEn:'Using the vehicle directly to replace the tenor is an implied metaphor.'}
+          ],
           content: {
             cn: "比喻的修辞手法。本体和喻体之间用\u201C像\u201D\u201C好像\u201D\u201C仿佛\u201D等比喻词连接的是明喻；用\u201C是\u201D\u201C就是\u201D\u201C变成\u201D等词语连接的是暗喻；本体和比喻词都不出现，借用喻体直接代替本体的是借喻。",
             en: "The rhetorical device of metaphor and simile. Explicit simile uses words like 'like,' 'as if'; implicit metaphor uses words like 'is,' 'becomes'; and borrowed metaphor replaces the subject directly with the vehicle, omitting both subject and comparison words."
@@ -272,6 +328,13 @@ var TB_G7S1 = {
         {
           title: "比拟",
           titleEn: "Personification and Metaphorical Transfer",
+          vocabWords: [
+            {word:'拟人',pinyin:'nǐ rén',en:'personification',sentence:'把物当作人来写是拟人。',sentenceEn:'Writing about things as if they were people is personification.'},
+            {word:'拟物',pinyin:'nǐ wù',en:'objectification',sentence:'把人当作物来写是拟物。',sentenceEn:'Writing about people as if they were things is objectification.'},
+            {word:'修辞',pinyin:'xiū cí',en:'rhetoric',sentence:'比拟是一种修辞手法。',sentenceEn:'Personification is a rhetorical device.'},
+            {word:'赋予',pinyin:'fù yǔ',en:'endow with',sentence:'赋予物以人的动作行为或思想感情。',sentenceEn:'Endow things with human actions or thoughts and feelings.'},
+            {word:'共鸣',pinyin:'gòng míng',en:'resonance',sentence:'从而引起共鸣。',sentenceEn:'Thus arousing resonance.'}
+          ],
           content: {
             cn: "把物当作人来写，赋予物以人的动作行为或思想感情，称为拟人。把人当作物来写，或把甲物当乙物来写，称为拟物。恰当运用比拟，能让读者对所描绘的事物产生鲜明的印象。",
             en: "Writing about objects as if they were people, giving them human actions or emotions, is personification. Writing about people as if they were objects, or treating one thing as another, is metaphorical transfer. Proper use of these techniques creates vivid impressions."
@@ -280,6 +343,13 @@ var TB_G7S1 = {
         {
           title: "名词",
           titleEn: "Nouns",
+          vocabWords: [
+            {word:'名词',pinyin:'míng cí',en:'noun',sentence:'名词很常见。',sentenceEn:'Nouns are very common.'},
+            {word:'方位',pinyin:'fāng wèi',en:'direction; location',sentence:'表示方位的名词一般称为方位名词。',sentenceEn:'Nouns expressing direction are generally called directional nouns.'},
+            {word:'抽象',pinyin:'chōu xiàng',en:'abstract',sentence:'有的表示抽象的事物，如精神、传统。',sentenceEn:'Some express abstract things, such as spirit and tradition.'},
+            {word:'具体',pinyin:'jù tǐ',en:'concrete',sentence:'有的表示具体的事物，如绿萍、水藻。',sentenceEn:'Some express concrete things, such as duckweed and water plants.'},
+            {word:'位置',pinyin:'wèi zhì',en:'position',sentence:'表示事物所在的位置或范围。',sentenceEn:'Express the position or scope of things.'}
+          ],
           content: {
             cn: "名词有的表示人，有的表示具体的事物，有的表示抽象的事物，还有的表示时间。需要注意的是另一类表示方位的名词，一般称为方位名词。",
             en: "Some nouns denote people, some denote concrete things, some denote abstract concepts, and some denote time. A special category to note is directional nouns (nouns of location/direction)."
@@ -307,10 +377,22 @@ var TB_G7S1 = {
           id: 5,
           title: "秋天的怀念",
           titleEn: "Autumn Memories",
+          difficulty: 3,
           author: "史铁生",
           authorEn: "Shi Tiesheng",
           source: "选自《史铁生散文选》（人民文学出版社2005年版）。",
           sourceEn: "Selected from Selected Essays of Shi Tiesheng (People's Literature Publishing House, 2005).",
+          vocabWords: [
+            {word:'瘫痪',pinyin:'tān huàn',en:'paralyzed',sentence:'双腿瘫痪后，我的脾气变得暴怒无常。',sentenceEn:'After my legs became paralyzed, my temper became violently unpredictable.'},
+            {word:'暴怒',pinyin:'bào nù',en:'furious rage',sentence:'我的脾气变得暴怒无常。',sentenceEn:'My temper became furiously unpredictable.'},
+            {word:'憔悴',pinyin:'qiáo cuì',en:'haggard; worn out',sentence:'她憔悴的脸上现出央求般的神色。',sentenceEn:'Her haggard face showed a pleading expression.'},
+            {word:'诀别',pinyin:'jué bié',en:'final farewell',sentence:'她出去了，就再也没回来。',sentenceEn:'She went out and never came back again.'},
+            {word:'烂漫',pinyin:'làn màn',en:'bright and colorful',sentence:'北海的菊花开了，烂漫极了。',sentenceEn:'The chrysanthemums at Beihai bloomed, bright and colorful.'}
+          ],
+          grammarPoints: [
+            {point:'反复',pointEn:'fǎn fù',example:'repetition',exampleEn:'她出去了，就再也没回来。',explanation:'She went out and never came back again.',explanationEn:'用简洁的语言表达深沉的母爱与永恒的遗憾'},
+            {point:'象征',pointEn:'xiàng zhēng',example:'symbolism',exampleEn:'黄色的花淡雅、白色的花高洁、紫红色的花热烈而深沉。',explanation:'Yellow flowers are elegant, white flowers are noble, purple-red flowers are passionate and deep.',explanationEn:'用菊花象征生命的美好，暗示母亲的期望'}
+          ],
           authorBio: {
             cn: "史铁生（1951—2010），生于北京，作家。代表作有小说《我的遥远的清平湾》《命若琴弦》《务虚笔记》，散文《我与地坛》《合欢树》《病隙碎笔》等。",
             en: "Shi Tiesheng (1951–2010) was a writer born in Beijing. His representative works include the novels My Distant Qingping Bay and Fate Like a Stringed Instrument, and essays such as Me and the Altar of Earth and The Acacia Tree."
@@ -329,9 +411,9 @@ var TB_G7S1 = {
             "又是秋天，妹妹推我去北海看了菊花。黄色的花淡雅，白色的花高洁，紫红色的花热烈而深沉，泼泼洒洒，秋风中正开得烂漫。我懂得母亲没有说完的话。妹妹也懂。我俩在一块儿，要好好儿活……"
           ],
           textEn: [
-            "After I became paralyzed, my temper became violent and unpredictable. While watching flocks of wild geese returning north, I would suddenly smash the glass before me; while listening to Li Guyi's sweet singing, I would fling things at the surrounding walls. Mother would quietly slip away, secretly listening to my movements from where I couldn't see her. When all was silent again, she would quietly come back in, the rims of her eyes red, watching me. 'I hear the flowers at Beihai are all blooming. Let me take you for a walk,' she always said.",
+            "After I became paralyzed, my temper became violent and unpredictable. While watching flocks of wild geese returning north, I would suddenly smash the glass before me; while listening to Li Guyi's sweet singing, I would fling things at the surrounding walls. Mother would quietly slip away, secretly listening to my movements from where I couldn't see her. When all was silent again, she would quietly come back in, the rims of her eyes red, watching me. 'I hear the flowers at Beihai are all blooming. Let me take you for a walk,' she always said. Mother loved flowers, but ever since my legs became paralyzed, all the flowers she had tended died. 'No, I won't go!' I pounded fiercely at these hateful legs of mine, shouting, 'What's the point of living!' Mother rushed over and seized my hands, holding back her sobs: 'The two of us, mother and son, together — we must live well, live well...'",
             "But I never knew her illness had progressed that far. My sister later told me that she often couldn't sleep all night, tossing and turning from liver pain.",
-            "That day I was sitting alone in my room again, watching leaves flutter down outside the window. Mother came in and stood in front of the window: 'The chrysanthemums at Beihai are blooming. Let me take you to see them.' A pleading look appeared on her haggard face.",
+            "That day I was sitting alone in my room again, watching leaves rustle and flutter down outside the window. Mother came in and stood in front of the window: 'The chrysanthemums at Beihai are blooming. Let me take you to see them.' A pleading look appeared on her haggard face. 'When?' 'If you're willing, how about tomorrow?' she said. My answer had already made her overjoyed. 'All right, tomorrow then,' I said. She was so happy she kept sitting down and standing up again: 'Then let's hurry and get ready.' 'Oh, stop fussing! It's just a few steps — what is there to prepare!' She laughed too, sat beside me, and chattered on: 'After seeing the chrysanthemums, we'll go to Fangshan. You loved the pea-cake there when you were little. Remember that time I took you to Beihai? You insisted the poplar catkins were caterpillars, running along, stomping one flat with each step...' She suddenly stopped. She was even more sensitive than I was to words like 'running' and 'stomping.' She quietly slipped out again.",
             "She went out, and never came back.",
             "When the neighbors carried her onto the cart, she was still coughing up blood. I had no idea she was that ill. Watching the tricycle pull away, I never imagined that would be our final farewell.",
             "When a young neighbor carried me on his back to see her, she was breathing with difficulty, like her whole difficult life. Someone told me her last words before losing consciousness were: 'My sick son and my daughter who hasn't grown up yet...'",
@@ -361,10 +443,21 @@ var TB_G7S1 = {
           id: 6,
           title: "散步",
           titleEn: "A Walk",
+          difficulty: 3,
           author: "莫怀戚",
           authorEn: "Mo Huaiqi",
           source: "选自1985年8月2日《中国青年报》。略有改动。",
           sourceEn: "Selected from China Youth Daily, August 2, 1985. Slightly adapted.",
+          vocabWords: [
+            {word:'分歧',pinyin:'fēn qí',en:'disagreement',sentence:'后来发生了分歧。',sentenceEn:'Later a disagreement arose.'},
+            {word:'霎时',pinyin:'shà shí',en:'in an instant',sentence:'那里有金色的菜花，两行整齐的桑树。',sentenceEn:'There were golden rapeseed flowers, two rows of neat mulberry trees.'},
+            {word:'粼粼',pinyin:'lín lín',en:'shimmering (of water)',sentence:'水波粼粼的鱼塘。',sentenceEn:'A shimmering fish pond.'},
+            {word:'嫩芽',pinyin:'nèn yá',en:'tender buds',sentence:'这南方初春的田野，大块小块的新绿随意地铺着。',sentenceEn:'In these fields of early spring in the south, patches of new green lay scattered freely.'},
+            {word:'熬',pinyin:'áo',en:'endure; pull through',sentence:'她又熬过了一个严冬。',sentenceEn:'She endured through another harsh winter.'}
+          ],
+          grammarPoints: [
+            {point:'以小见大',pointEn:'yǐ xiǎo jiàn dà',example:'reveal the big through the small',exampleEn:'好像我背上的同她背上的加起来，就是整个世界。',explanation:'As if what was on my back and hers together was the whole world.',explanationEn:'通过一次散步展现家庭的责任与爱'}
+          ],
           authorBio: {
             cn: "莫怀戚（1951—2014），重庆人，作家。",
             en: "Mo Huaiqi (1951–2014) was a writer from Chongqing."
@@ -409,10 +502,21 @@ var TB_G7S1 = {
           id: 7,
           title: "散文诗二首",
           titleEn: "Two Prose Poems",
+          difficulty: 3,
           author: "泰戈尔、冰心",
           authorEn: "Rabindranath Tagore, Bing Xin",
           source: "《金色花》选自《泰戈尔诗选》（人民文学出版社2002年版），郑振铎译。《荷叶·母亲》节选自《往事（一）》（《冰心全集》第一册），题目是编者加的。",
           sourceEn: "The Golden Flower from Selected Poems of Tagore (People's Literature Publishing House, 2002), translated by Zheng Zhenduo. Lotus Leaf and Mother excerpted from Past Events (I) (Complete Works of Bing Xin, Vol. 1), title added by editors.",
+          vocabWords: [
+            {word:'金色花',pinyin:'jīn sè huā',en:'golden flower',sentence:'假如我变成了一朵金色花。',sentenceEn:'If I turned into a golden flower.'},
+            {word:'荷叶',pinyin:'hé yè',en:'lotus leaf',sentence:'母亲呵！你是荷叶，我是红莲。',sentenceEn:'Mother! You are the lotus leaf, I am the red lotus.'},
+            {word:'匿笑',pinyin:'nì xiào',en:'snicker; laugh secretly',sentence:'我暗暗地在那里匿笑。',sentenceEn:'I secretly snickered there.'},
+            {word:'亭亭',pinyin:'tíng tíng',en:'gracefully upright',sentence:'亭亭的荷叶覆盖在红莲上面。',sentenceEn:'The gracefully upright lotus leaf covered the red lotus.'},
+            {word:'慈怜',pinyin:'cí lián',en:'tender compassion',sentence:'心中的雨点来了，除了你，谁是我无遮拦天空下的荫蔽？',sentenceEn:'When the rain of my heart comes, except for you, who is my shelter under the open sky?'}
+          ],
+          grammarPoints: [
+            {point:'象征',pointEn:'xiàng zhēng',example:'symbolism',exampleEn:'母亲呵！你是荷叶，我是红莲。',explanation:'Mother! You are the lotus leaf, I am the red lotus.',explanationEn:'以荷叶护红莲象征母爱的庇护'}
+          ],
           authorBio: {
             cn: "泰戈尔（1861—1941），印度作家、诗人，获1913年诺贝尔文学奖。冰心（1900—1999），原名谢婉莹，福建长乐人，作家、诗人。",
             en: "Tagore (1861–1941) was an Indian writer and poet who won the 1913 Nobel Prize in Literature. Bing Xin (1900–1999), original name Xie Wanying, was a writer and poet from Changle, Fujian."
@@ -426,8 +530,8 @@ var TB_G7S1 = {
             "荷叶·母亲\n冰心\n父亲的朋友送给我们两缸莲花，一缸是红的，一缸是白的，都摆在院子里。\n半夜里听见繁杂的雨声，早起是浓阴的天，我觉得有些烦闷。从窗内往外看时，那一朵白莲已经谢了，白瓣儿小船般散漂在水面。梗上只留个小小的莲蓬和几根淡黄色的花须。那一朵红莲，昨夜还是菡萏的，今晨却开满了，亭亭地在绿叶中间立着。\n对屋里母亲唤着，我连忙走过去，坐在母亲旁边——一回头忽然看见红莲旁边的一个大荷叶，慢慢地倾侧了来，正覆盖在红莲上面……我不宁的心绪散尽了！\n雨势并不减退，红莲却不摇动了。雨点不住地打着，只能在那勇敢慈怜的荷叶上面，聚了些流转无力的水珠。\n我心中深深地受了感动——\n母亲啊！你是荷叶，我是红莲。心中的雨点来了，除了你，谁是我在无遮拦天空下的荫蔽？"
           ],
           textEn: [
-            "The Golden Flower\nTagore\nIf I turned into a golden flower, just for fun, growing on a high branch of that tree, swaying happily in the wind, dancing on the new leaves, Mama, would you recognize me?\nIf you called: 'Child, where are you?' I would secretly laugh, not making a sound.\nI would quietly open my petals and watch you work.\nWhen you walked through the shade of golden flowers to your little prayer courtyard after bathing, with wet hair on your shoulders, you would smell the fragrance but not know it came from me.\nIn the evening when you took a lamp to the cow shed, I would suddenly drop to the ground again, becoming your child once more, asking you to tell me a story.\n'Where did you go, you naughty child?'\n'I won't tell you, Mama.' That's what you and I would say to each other.",
-            "Lotus Leaf and Mother\nBing Xin\nA friend of Father's gave us two jars of lotus flowers, one red and one white, both placed in the courtyard.\nFrom the window I saw the white lotus had withered, its petals scattered on the water like small boats. The red lotus, still a bud last night, had fully bloomed this morning, standing gracefully among the green leaves.\nSuddenly I noticed a large lotus leaf beside the red lotus slowly tilting over, covering the red lotus exactly... my restless mood dissolved entirely!\nThe rain didn't let up, but the red lotus no longer swayed. The raindrops kept falling, only gathering into weak droplets on that brave, compassionate lotus leaf.\nI was deeply moved —\nMother! You are the lotus leaf; I am the red lotus. When the raindrops of my heart come, besides you, who is my shelter under the open sky?"
+            "The Golden Flower\nTagore\nIf I turned into a golden flower, just for fun, growing on a high branch of that tree, swaying happily in the wind, dancing upon the new leaves — Mama, would you recognize me?\nIf you called: 'Child, where are you?' I would laugh to myself in secret, not making a sound.\nI would quietly open my petals and watch you work.\nWhen you walked through the shade of the golden flowers to your little prayer courtyard after bathing, wet hair draped over your shoulders, you would catch the fragrance but never know it came from me.\nWhen you sat by the window after lunch reading the Ramayana, and the shadow of that tree fell across your hair and your lap, I would cast my own tiny shadow upon your page — right where you were reading.\nBut would you guess that the little shadow was your child's?\nAt dusk, when you carried a lamp to the cowshed, I would suddenly tumble back to the ground, a child once more, begging you to tell me a story.\n'Where have you been, you naughty child?'\n'I won't tell you, Mama.' That is what you and I would say to each other.",
+            "Lotus Leaf and Mother\nBing Xin\nA friend of Father's gave us two jars of lotus — one red, one white — both placed in the courtyard.\nIn the deep of night I heard the tangled sound of rain. Morning came overcast, and I felt somewhat restless. Looking out from the window, the white lotus had already withered, its petals scattered across the water like little boats drifting. Only a small seed pod and a few pale yellow stamens remained on the stem. But the red lotus — still a bud just last night — had bloomed fully this morning, standing tall and graceful among the green leaves.\nFrom the room across the way, Mother called to me. I hurried over and sat beside her — then, turning my head, I suddenly saw a large lotus leaf beside the red lotus slowly tilting over until it covered the red lotus completely... My restless heart was stilled at once!\nThe rain did not relent, yet the red lotus swayed no more. The drops fell ceaselessly, but could only gather into listless beads upon that brave, compassionate leaf.\nI was moved to the depths of my heart —\nMother! You are the lotus leaf; I am the red lotus. When the rain of my heart begins to fall, who but you is my shelter beneath the unsheltered sky?"
           ],
           annotations: [
             { id: 1, term: "匿笑", pinyin: "nìxiào", definition: "偷偷地笑。", definitionEn: "To laugh secretly." },
@@ -449,10 +553,21 @@ var TB_G7S1 = {
           id: 8,
           title: "《世说新语》二则",
           titleEn: "Two Tales from A New Account of the Tales of the World",
+          difficulty: 3,
           author: "刘义庆",
           authorEn: "Liu Yiqing",
           source: "选自《世说新语笺疏》（中华书局1983年版）。题目是编者加的。",
           sourceEn: "Selected from Annotated Edition of A New Account of the Tales of the World (Zhonghua Book Company, 1983). Titles added by editors.",
+          vocabWords: [
+            {word:'欣然',pinyin:'xīn rán',en:'joyfully',sentence:'公欣然曰：白雪纷纷何所似？',sentenceEn:'The lord joyfully said: What does the falling snow resemble?'},
+            {word:'纷纷',pinyin:'fēn fēn',en:'falling in profusion',sentence:'白雪纷纷何所似？',sentenceEn:'What does the falling snow resemble?'},
+            {word:'期行',pinyin:'qī xíng',en:'make an appointment to travel together',sentence:'陈太丘与友期行。',sentenceEn:'Chen Taiqiu made an appointment to travel with a friend.'},
+            {word:'舍去',pinyin:'shě qù',en:'leave and depart',sentence:'过中不至，太丘舍去。',sentenceEn:'Past noon he had not arrived, so Taiqiu left.'},
+            {word:'惭愧',pinyin:'cán kuì',en:'ashamed',sentence:'友人惭，下车引之。',sentenceEn:'The friend was ashamed and got off his carriage to greet him.'}
+          ],
+          grammarPoints: [
+            {point:'文言虚词',pointEn:'wén yán xū cí',example:'classical Chinese function words',exampleEn:'太丘舍去，去后乃至。',explanation:'Taiqiu left, and the friend arrived after he had gone.',explanationEn:'理解乃、之、而等虚词在文言文中的用法'}
+          ],
           authorBio: {
             cn: "《世说新语》，南朝宋临川王刘义庆（403—444）组织编写的一部志人小说集，主要记载汉末至东晋士大夫的言谈、逸事。",
             en: "A New Account of the Tales of the World was compiled under the direction of Liu Yiqing (403–444), Prince of Linchuan during the Liu Song dynasty. It mainly records the conversations and anecdotes of scholars from the late Han to the Eastern Jin dynasty."
@@ -497,6 +612,13 @@ var TB_G7S1 = {
       writing: {
         title: "学会记事",
         titleEn: "Learning to Record Events",
+        vocabWords: [
+          {word:'记事',pinyin:'jì shì',en:'record events',sentence:'写作中学会记事很重要。',sentenceEn:'Learning to record events is important in writing.'},
+          {word:'真实',pinyin:'zhēn shí',en:'authentic; real',sentence:'写事要真实，不能虚构。',sentenceEn:'Writing about events should be authentic, not fabricated.'},
+          {word:'线索',pinyin:'xiàn suǒ',en:'thread; clue',sentence:'围绕一条线索把事情写清楚。',sentenceEn:'Write things clearly around a central thread.'},
+          {word:'细节',pinyin:'xì jié',en:'detail',sentence:'注意描写事件中的细节。',sentenceEn:'Pay attention to describing details within events.'},
+          {word:'完整',pinyin:'wán zhěng',en:'complete',sentence:'把事情的起因、经过、结果写完整。',sentenceEn:'Write the cause, process, and result of events completely.'}
+        ],
         content: {
           cn: "记事能力是最基本的写作能力。写清楚是记事的基本要求，一般要写出事情的起因、经过和结果。还要学会写得有感情，关键是要写自己亲身经历的、有真切感受的事，说发自内心的话。",
           en: "The ability to record events is the most basic writing skill. Writing clearly is the fundamental requirement: generally include the cause, process, and result. Also learn to write with emotion — the key is to write about personal experiences with genuine feelings and speak from the heart."
@@ -505,6 +627,13 @@ var TB_G7S1 = {
       readWrite: {
         title: "词义和语境",
         titleEn: "Word Meaning and Context",
+        vocabWords: [
+          {word:'词义',pinyin:'cí yì',en:'word meaning',sentence:'词的意义有多种层次。',sentenceEn:'Word meanings have multiple levels.'},
+          {word:'语境',pinyin:'yǔ jìng',en:'context',sentence:'联系上下文理解词义。',sentenceEn:'Understand word meaning by connecting to context.'},
+          {word:'引申',pinyin:'yǐn shēn',en:'extended meaning',sentence:'词语可以从本义引申出新义。',sentenceEn:'Words can develop new meanings extended from the original.'},
+          {word:'本义',pinyin:'běn yì',en:'original meaning',sentence:'要区分词语的本义和引申义。',sentenceEn:'Distinguish the original meaning from extended meanings.'},
+          {word:'比喻义',pinyin:'bǐ yù yì',en:'figurative meaning',sentence:'有些词在特定语境中有比喻义。',sentenceEn:'Some words have figurative meanings in specific contexts.'}
+        ],
         content: {
           cn: "很多词有两个以上的意义，称为多义词。在实际语言运用中，词总是出现在一定的上下文中，称其为语境。语境对于词的意义起限制作用，阅读时要根据上下文确定多义词在文中的具体意义。",
           en: "Many words have two or more meanings, called polysemous words. In actual language use, words always appear in a certain context. Context limits the meaning of words, so when reading, determine the specific meaning of polysemous words based on context."
@@ -513,6 +642,13 @@ var TB_G7S1 = {
       comprehensiveLearning: {
         title: "有朋自远方来",
         titleEn: "A Friend Comes from Afar",
+        vocabWords: [
+          {word:'交友',pinyin:'jiāo yǒu',en:'make friends',sentence:'有朋自远方来，不亦乐乎？',sentenceEn:'Is it not a joy to have friends come from afar?'},
+          {word:'真诚',pinyin:'zhēn chéng',en:'sincere',sentence:'交友需要真诚。',sentenceEn:'Making friends requires sincerity.'},
+          {word:'信任',pinyin:'xìn rèn',en:'trust',sentence:'朋友之间最重要的是信任。',sentenceEn:'The most important thing between friends is trust.'},
+          {word:'尊重',pinyin:'zūn zhòng',en:'respect',sentence:'与朋友交往要互相尊重。',sentenceEn:'Interacting with friends requires mutual respect.'},
+          {word:'知己',pinyin:'zhī jǐ',en:'close friend; soulmate',sentence:'海内存知己，天涯若比邻。',sentenceEn:'If you have a soulmate within the four seas, even the distant horizon feels like a neighbor.'}
+        ],
         content: {
           cn: "围绕\u201C交友之道\u201D，搜集有关交友的名言、警句、成语典故和故事，开展学习活动。通过自我介绍展示自我，与新同学交流认识。",
           en: "Around the theme of 'the way of friendship,' collect famous sayings, aphorisms, idiom stories and tales about friendship, and conduct learning activities. Introduce yourself and get to know new classmates."
@@ -538,10 +674,22 @@ var TB_G7S1 = {
           id: 9,
           title: "从百草园到三味书屋",
           titleEn: "From Hundred-Herb Garden to Three-Flavour Study",
+          difficulty: 5,
           author: "鲁迅",
           authorEn: "Lu Xun",
           source: "选自《朝花夕拾》（《鲁迅全集》第二卷，人民文学出版社2005年版）。",
           sourceEn: "Selected from Dawn Blossoms Plucked at Dusk (Complete Works of Lu Xun, Vol. 2, People's Literature Publishing House, 2005).",
+          vocabWords: [
+            {word:'确凿',pinyin:'què záo',en:'definite; certain',sentence:'确凿只有一些野草。',sentenceEn:'There were definitely only some wild grasses.'},
+            {word:'攒',pinyin:'cuán',en:'gather together',sentence:'不必说碧绿的菜畦，光滑的石井栏。',sentenceEn:'No need to mention the emerald vegetable plots, the smooth stone well railing.'},
+            {word:'渊博',pinyin:'yuān bó',en:'profound and extensive (knowledge)',sentence:'他是本城中极方正、质朴、博学的人。',sentenceEn:'He was the most upright, plain, and learned man in the city.'},
+            {word:'人迹罕至',pinyin:'rén jì hǎn zhì',en:'seldom visited by people',sentence:'拍雪人和塑雪罗汉需要人迹罕至的地方。',sentenceEn:'Making snow figures and snow Buddhas requires a place seldom visited by people.'},
+            {word:'拗',pinyin:'ǎo',en:'bend',sentence:'用力地拗开它的角。',sentenceEn:'Forcefully bend open its horns.'}
+          ],
+          grammarPoints: [
+            {point:'对比',pointEn:'duì bǐ',example:'contrast',exampleEn:'百草园的自由快乐与三味书屋的枯燥对比。',explanation:'Contrast between the freedom and joy of Hundred-Herb Garden and the dullness of Three-Flavour Study.',explanationEn:'通过两个空间的对比表达作者对童年自由的怀念'},
+            {point:'详略得当',pointEn:'xiáng lüè dé dàng',example:'proper balance of detail',exampleEn:'不必说碧绿的菜畦……单是周围的短短的泥墙根一带，就有无限趣味。',explanation:'No need to mention the emerald vegetable plots... Just around the short mud wall base, there is infinite fun.',explanationEn:'用不必说……单是……的句式突出重点'}
+          ],
           authorBio: {
             cn: "鲁迅（1881—1936），原名周树人，字豫才，浙江绍兴人，文学家、思想家、革命家。代表作有小说集《呐喊》《彷徨》《故事新编》，散文集《朝花夕拾》，散文诗集《野草》和杂文集《坟》《热风》《且介亭杂文》等。",
             en: "Lu Xun (1881–1936), original name Zhou Shuren, courtesy name Yucai, was from Shaoxing, Zhejiang. He was a writer, thinker, and revolutionary. His major works include the story collections Call to Arms, Wandering, and Old Tales Retold, the essay collection Dawn Blossoms Plucked at Dusk, the prose poem collection Wild Grass, and various essay collections."
@@ -570,20 +718,20 @@ var TB_G7S1 = {
           ],
           textEn: [
             "Behind my house there was a very large garden, traditionally called the Hundred-Herb Garden. It had long since been sold together with the house to a descendant of Zhu Wengong. Even the last time I saw it was seven or eight years ago. There seemed to be nothing but some wild grass there — but at that time, it was my paradise.",
-            "Needless to mention the emerald vegetable beds, the smooth stone well-curb, the tall honey-locust tree, the purple mulberries; needless to mention the cicadas singing long notes among the leaves, the fat yellow bees crouching on the rapeseed flowers, or the nimble skylarks suddenly darting from the grass straight into the clouds. Just the short mud wall around the garden alone held endless delights. Oil-bugs sang softly here, crickets played their instruments here.",
+            "Needless to mention the emerald vegetable beds, the smooth stone well-curb, the tall honey-locust tree, the purple mulberries; needless to mention the cicadas singing long notes among the leaves, the fat yellow bees crouching on the rapeseed flowers, or the nimble skylarks suddenly darting from the grass straight into the clouds. Just the short mud wall around the garden alone held endless delights. Oil-bugs sang softly here, crickets played their instruments here. Turn over a broken brick, and sometimes you would find centipedes; there were also blister beetles — if you pressed a finger on their backs, they would pop and spray a puff of smoke from their rear opening. He-shou-wu vines and magnolia vines tangled together; the magnolia bore fruit shaped like lotus pods, while the he-shou-wu had swollen roots. Some said the he-shou-wu root sometimes took human form, and eating it could make you immortal, so I often pulled them up, pulling and pulling in an endless chain. I even damaged the mud wall because of this, yet I never found a single root that looked like a person. If you weren't afraid of thorns, you could also pick raspberries — little balls clustered like tiny coral beads, tart and sweet, far better than mulberries in both color and taste.",
             "One would not go into the tall grass, for it was said that a large scarlet snake lived in the garden.",
-            "Mama Chang had once told me a story: long ago, a scholar was studying in an ancient temple. One evening while enjoying the cool air in the courtyard, he suddenly heard someone calling his name. He answered, looked around, and saw a beautiful woman's face appearing over the wall, smiling at him before vanishing. He was delighted, but the old monk who came to chat that night saw through the trick.",
+            "Mama Chang had once told me a story: long ago, a scholar was studying in an ancient temple. One evening while enjoying the cool air in the courtyard, he suddenly heard someone calling his name. He answered, looked around, and saw a beautiful woman's face appearing over the wall, smiling at him before vanishing. He was delighted, but the old monk who came to chat that night saw through the trick. He said there was something demonic about the scholar's face — he must have encountered a 'beauty-snake,' a monster with a human head and snake body that could call people by name; if you answered, it would come to devour your flesh at night. Naturally the scholar was frightened half to death, but the old monk said there was no need to worry and gave him a small box, saying he only needed to place it by his pillow and he could sleep in peace. Although the scholar did as told, he couldn't fall asleep — of course he couldn't. At midnight, it came indeed — swish, swish, swish! Outside the door came sounds like wind and rain. Just as he was trembling all over, he heard a whoosh, and a golden light flew out from beside the pillow. Then all sound outside ceased, and the golden light flew back and settled into the box. And then what? The old monk explained that it was a flying centipede, which could suck out a snake's brain. The beauty-snake was killed by it.",
             "The moral of the story was: if a strange voice calls your name, you must never answer.",
-            "This story made me keenly aware of the dangers of being human. On summer nights while enjoying the cool air, I often worried and dared not look at the wall, and desperately wished to obtain a flying centipede box like the old monk's.",
-            "Winter in the Hundred-Herb Garden was rather dull, but once it snowed, things were different. Making snow-prints and building snow Buddhas required an audience — this was a deserted garden, rarely visited — so the only option was to catch birds.",
+            "This story made me keenly aware of the dangers of being human. On summer nights while enjoying the cool air, I often worried and dared not look at the wall, and desperately wished to obtain a flying centipede box like the old monk's. Walking past the grass in the Hundred-Herb Garden, I often thought the same. But to this day I have never obtained one — though I have also never encountered a scarlet banded snake or a beauty-snake. Strange voices calling my name were common enough, but they were never beauty-snakes.",
+            "Winter in the Hundred-Herb Garden was rather dull, but once it snowed, things were different. Making snow-prints — pressing one's whole body shape into the snow — and building snow Buddhas required an audience to appreciate them, but this was a deserted garden, rarely visited, so the only option was to catch birds. A thin layer of snow wouldn't do; the snow had to have covered the ground for a day or two, when the birds could no longer find food anywhere. You would sweep clear a patch of snow, exposing the bare ground, and prop up a large bamboo sieve with a short stick, scatter some chaff underneath, tie a long string to the stick, and hold the other end from far away. When the birds came down to peck at the chaff and wandered under the sieve, you would pull the string and trap them. But what you mostly caught were sparrows; sometimes you got 'Zhang Fei birds' with white cheeks, but they were too temperamental and wouldn't survive the night.",
             "I don't know why my family sent me to a private school — and the strictest one in the whole city at that. Perhaps it was because I had ruined the mud wall pulling up he-shou-wu roots, or perhaps because I threw bricks into the Liang family's compound next door, or because I jumped down from the stone well-curb... All in all: I would no longer be able to visit the Hundred-Herb Garden often. Ade, my crickets! Ade, my raspberries and lotus vines!",
             "Going east from the door, less than half a li, across a stone bridge, was my teacher's house. Through a black-lacquered bamboo door, the third room was the study. In the middle hung a plaque reading: Three-Flavour Study; below it was a painting of a very plump plum-blossom deer resting under an ancient tree.",
             "The teacher was a tall, thin old man with white hair and beard, still wearing large spectacles. I respected him greatly, for I had long heard he was the most upright, simple, and learned man in the city.",
             "I just read books, practiced calligraphy at noon, and did couplet exercises in the evening. The teacher was very strict with me at first but later became kinder, though the books he gave me to read gradually increased.",
-            "Behind the Three-Flavour Study there was also a garden, small though it was. There one could climb the flower beds to pick wintersweet blossoms, or search for cicada shells on the ground or in the osmanthus tree.",
-            "Then everyone would raise their voices and read aloud for a while — truly a din of voices. Some recited from the Analerta, some from elementary primers, some from the Book of Changes. The teacher himself also read aloud.",
+            "Behind the Three-Flavour Study there was also a garden, small though it was. There one could climb the flower beds to pick wintersweet blossoms, or search for cicada shells on the ground or in the osmanthus tree. The best activity was catching flies to feed the ants — quiet, without a sound. But when too many classmates went to the garden and stayed too long, it wouldn't do. The teacher would shout from the study: 'Where has everyone gone?!'",
+            "Then everyone would raise their voices and read aloud for a while — truly a din of voices. Some chanted 'Is benevolence far away? When I desire benevolence, benevolence is at hand'; some chanted 'Laugh at a man with missing teeth, saying the dog-hole is wide open'; some chanted 'Top nine: the hidden dragon, do not act'; some chanted 'Its soil is of the lower-upper-upper grade, its tribute includes bundled thatch, tangerines, and pomelos'... The teacher himself also read aloud. Later, our voices would die down and grow quiet, while he alone continued reading loudly: 'The iron ruyi scepter, commanding with such flair, the whole audience amazed; the golden drinking cup, pouring without restraint, a thousand cups and still not drunk...'",
             "I suspected this was an excellent piece of writing, for whenever he read to this point, he would always smile, raise his head, sway, and lean back further and further.",
-            "When the teacher was absorbed in his reading, it was most convenient for us. Some would put paper armor on their fingernails and play-act. I drew pictures, tracing over illustrations from novels with a kind of thin paper called 'Jingchuan paper,' like copying characters."
+            "When the teacher was absorbed in his reading, it was most convenient for us. Some would put paper armor on their fingernails and play-act. I drew pictures, using a kind of thin paper called 'Jingchuan paper' to trace over the illustrations in novels one by one, just like shadow-copying when practicing calligraphy. As the books I read increased, so did the pictures I drew. The books were never mastered, but the drawings were quite an achievement — the most complete sets were the illustrations from The Water Margin Sequel and Journey to the West, each filling a whole volume. Later, because I needed money, I sold them to a wealthy classmate."
           ],
           annotations: [
             { id: 1, term: "确凿", pinyin: "quèzáo", definition: "确实。", definitionEn: "Indeed, certainly." },
@@ -614,10 +762,21 @@ var TB_G7S1 = {
           id: 10,
           title: "再塑生命的人",
           titleEn: "The One Who Remade My Life",
+          difficulty: 5,
           author: "海伦·凯勒",
           authorEn: "Helen Keller",
           source: "选自《假如给我三天光明》（华文出版社2002年版）。李汉昭译。",
           sourceEn: "Selected from Three Days to See (Huawen Publishing House, 2002). Translated by Li Hanzhao.",
+          vocabWords: [
+            {word:'截然不同',pinyin:'jié rán bù tóng',en:'completely different',sentence:'莎莉文老师的到来使我的世界截然不同。',sentenceEn:'The arrival of Miss Sullivan made my world completely different.'},
+            {word:'感慨',pinyin:'gǎn kǎi',en:'sigh with emotion',sentence:'回想起这段经历，我感慨万千。',sentenceEn:'Looking back at this experience, I am filled with emotion.'},
+            {word:'恍然大悟',pinyin:'huǎng rán dà wù',en:'suddenly see the light',sentence:'我恍然大悟，水就是从手上流过的那种清凉的东西。',sentenceEn:'I suddenly understood: water was that cool thing flowing over my hand.'},
+            {word:'企盼',pinyin:'qǐ pàn',en:'eagerly hope',sentence:'我企盼着新的一天快些来到。',sentenceEn:'I eagerly hoped for a new day to come soon.'},
+            {word:'唤醒',pinyin:'huàn xǐng',en:'awaken',sentence:'她唤醒了我的灵魂，给予我光明和希望。',sentenceEn:'She awakened my soul, giving me light and hope.'}
+          ],
+          grammarPoints: [
+            {point:'细节描写',pointEn:'xì jié miáo xiě',example:'detailed description',exampleEn:'莎莉文老师把洋娃娃放在我的手中，然后在我手心里慢慢拼写。',explanation:'Miss Sullivan put a doll in my hand, then slowly spelled in my palm.',explanationEn:'通过感官细节展现海伦的内心世界'}
+          ],
           authorBio: {
             cn: "海伦·凯勒（1880—1968），美国盲聋女作家，教育家、慈善家。",
             en: "Helen Keller (1880–1968), an American blind and deaf writer, educator, and philanthropist."
@@ -640,17 +799,17 @@ var TB_G7S1 = {
             "那一天，我学会了不少词，譬如\u201C父亲\u201D（father）、\u201C母亲\u201D（mother）、\u201C妹妹\u201D（sister）、\u201C老师\u201D（teacher）等。这些词使整个世界在我面前变得花团锦簇，美不胜收。记得那个美好的夜晚，我独自躺在床上，心中充满了喜悦，企盼着新的一天快些来到。啊！世界上还有比我更幸福的孩子吗？"
           ],
           textEn: [
-            "The most important day I remember in all my life is the one on which my teacher, Anne Mansfield Sullivan, came to me. It was the third of March 1887, three months before I was seven years old.",
-            "That afternoon I stood on the porch, silent. From my mother's gestures and the hurrying to and fro of the household, I guessed that something unusual was about to happen.",
-            "The afternoon sun penetrated the honeysuckle leaves that covered the porch, falling upon my upturned face. My fingers lingered over the leaves, touching the flowers that had opened to greet the Southern spring.",
-            "Have you ever been at sea in a dense fog? I was like that ship before my education began, only I had no compass or sounding-line, and no way of knowing how near the harbor was. 'Light! Give me light!' was the wordless cry of my soul.",
+            "The most important day I remember in all my life is the one on which my teacher, Anne Mansfield Sullivan, came to me. It was the third of March 1887, three months before I was seven years old. Looking back at the utterly different life before and after that day, I cannot help but be deeply moved.",
+            "That afternoon I stood silently on the porch. From my mother's gestures and the hurrying to and fro of the household, I guessed that something unusual was about to happen. So I walked quietly to the door and stood on the steps, waiting.",
+            "The afternoon sun penetrated the honeysuckle leaves that covered the porch, falling upon my upturned face. My fingers lingered over the leaves, touching the flowers that had opened to greet the Southern spring. I did not know what miracle the future held; after weeks of anger and frustration, I was utterly exhausted.",
+            "Have you ever been at sea in a dense fog, nervously steering a great ship, inching cautiously toward the far shore, your heart pounding for fear of disaster? I was like that ship before my education began, only I had no compass or sounding-line, and no way of knowing how near the harbor was. 'Light! Give me light!' was the wordless cry of my soul — and just at that moment, the light of love shone upon me.",
             "I felt approaching footsteps. I stretched out my hand, thinking it was my mother. Someone took it, and I was caught up and held close. I seemed to feel that she was the one who was to reveal all things to me — my teacher, Anne Sullivan.",
-            "The next morning my teacher gave me a doll. She slowly spelled into my hand the word 'd-o-l-l.' I was at once interested in this finger play and tried to imitate it.",
-            "One day Miss Sullivan gave me a new, bigger doll and also brought the old one, spelling 'd-o-l-l' into my hand to show that both were called 'doll.'",
-            "We walked down the path to the well-house. Someone was drawing water, and my teacher placed my hand under the spout. As the cool stream gushed over one hand, she spelled into the other the word 'water,' first slowly, then rapidly. Suddenly I understood — the mystery of language was revealed to me. I knew that 'w-a-t-e-r' meant the wonderful cool something that was flowing over my hand.",
+            "The next morning, Miss Sullivan took me to her room and gave me a doll. After I had played with the doll for a while, Miss Sullivan took my hand and slowly spelled the word 'd-o-l-l' into my palm. This action sparked my interest in the finger game, and I imitated the motions on her hand.",
+            "One day Miss Sullivan gave me a new, bigger doll, and at the same time brought the old doll and placed it on my lap. Then she spelled 'd-o-l-l' into my hand, meaning to tell me that the big doll and the small doll were both called 'doll.'",
+            "We walked along the path to the well-house, where the honeysuckle on the roof was in full bloom and wonderfully fragrant. Miss Sullivan placed one of my hands under the spout, and a stream of cool water flowed over it. She spelled 'water' into my other hand — first slowly, then faster the second time. I stood still, focusing on the movements of her fingers. Suddenly, I had a flash of understanding — a miraculous feeling surged through my mind. All at once I grasped the mystery of language: I knew that 'water' meant the cool, wonderful something flowing over my hand.",
             "That living word awakened my soul, gave it light, hope, joy, set it free!",
-            "I left the well-house eager to learn. Everything had a name, and each name gave birth to a new thought. I recalled the doll I had broken, felt my way to the hearth, and picked up the pieces, trying to put them together. My eyes filled with tears — for the first time.",
-            "I learned a great many words that day. The beautiful words made the whole world blossom for me. That night, lying in bed, I was filled with joy, looking forward to the new day. Could there be a happier child than I?"
+            "The experience at the well-house filled me with an eager desire to learn. Ah, so everything in the universe has a name, and each name can inspire a new thought! I began to look at everything with curious eyes. Back in the house, every object I touched seemed to have come alive. I remembered the doll I had smashed, groped my way to the stove, picked up the pieces, and tried to put them back together, but I could not. Remembering what I had just done, I was filled with regret and remorse, and my eyes brimmed with tears — for the first time in my life.",
+            "That day I learned a great many words, such as 'father,' 'mother,' 'sister,' 'teacher,' and others. These words made the whole world before me burst into splendid bloom, too beautiful to take in. I remember that wonderful evening, lying alone in bed, my heart brimming with joy, eagerly looking forward to the new day. Ah, could there be a happier child in the world than I?"
           ],
           annotations: [
             { id: 1, term: "花团锦簇", pinyin: "huātuánjǐncù", definition: "形容五彩缤纷、十分华丽的景象。簇，丛集、聚集。", definitionEn: "Describes a colorful, gorgeous scene. 簇 means clustered together." },
@@ -672,11 +831,23 @@ var TB_G7S1 = {
         {
           id: 11,
           title: "《论语》十二章",
-          titleEn: "Twelve Chapters from The Analerta",
+          titleEn: "Twelve Chapters from The Analects",
+          difficulty: 3,
           author: "孔子及其弟子",
           authorEn: "Confucius and His Disciples",
           source: "选自《论语译注》（中华书局1980年版）。《论语》，儒家经典著作，记录孔子及其弟子言行的一部书。共20篇。",
-          sourceEn: "Selected from Annotated Translation of The Analerta (Zhonghua Book Company, 1980). The Analerta is a Confucian classic recording the words and deeds of Confucius and his disciples, in 20 chapters.",
+          sourceEn: "Selected from Annotated Translation of The Analects (Zhonghua Book Company, 1980). The Analects is a Confucian classic recording the words and deeds of Confucius and his disciples, in 20 chapters.",
+          vocabWords: [
+            {word:'不亦乐乎',pinyin:'bù yì lè hū',en:'is it not a joy',sentence:'有朋自远方来，不亦乐乎？',sentenceEn:'Is it not a joy to have friends come from afar?'},
+            {word:'三省',pinyin:'sān xǐng',en:'examine oneself in three ways',sentence:'吾日三省吾身。',sentenceEn:'I examine myself three times a day.'},
+            {word:'温故知新',pinyin:'wēn gù zhī xīn',en:'review the old to learn the new',sentence:'温故而知新，可以为师矣。',sentenceEn:'Review the old and learn the new, and you can be a teacher.'},
+            {word:'逾矩',pinyin:'yú jǔ',en:'overstep the rules',sentence:'七十而从心所欲，不逾矩。',sentenceEn:'At seventy I could follow my heart desire without overstepping the rules.'},
+            {word:'博学',pinyin:'bó xué',en:'broad learning',sentence:'博学而笃志，切问而近思。',sentenceEn:'Learn broadly and hold firm to your aspirations, question earnestly and reflect on what is near.'}
+          ],
+          grammarPoints: [
+            {point:'对偶',pointEn:'duì ǒu',example:'parallelism',exampleEn:'学而不思则罔，思而不学则殆。',explanation:'Learning without thinking leads to confusion; thinking without learning leads to peril.',explanationEn:'用对偶句式阐明学与思的辩证关系'},
+            {point:'比喻论证',pointEn:'bǐ yù lùn zhèng',example:'argument by analogy',exampleEn:'逝者如斯夫，不舍昼夜。',explanation:'Time flows on like this river, not ceasing day or night.',explanationEn:'以河水比喻时间流逝，感叹光阴易逝'}
+          ],
           authorBio: {
             cn: "孔子（前551—前479），名丘，字仲尼，鲁国陬邑（今山东曲阜东南）人，春秋末期思想家、政治家、教育家。",
             en: "Confucius (551–479 BC), named Qiu, courtesy name Zhongni, was from Zou in the State of Lu (now southeast of Qufu, Shandong). He was a thinker, statesman, and educator of the late Spring and Autumn period."
@@ -728,20 +899,27 @@ var TB_G7S1 = {
           ],
           accumExtend: [
             { cn: "背诵全文。", en: "Recite the entire text from memory." },
-            { cn: "《论语》中有不少语句逐渐演化并固定为成语，如\u201C温故知新\u201D\u201C不耻下问\u201D\u201C诲人不倦\u201D等。你还知道哪些？", en: "Many phrases from The Analerta have evolved into idiomatic expressions, such as 'review the old to know the new,' 'not ashamed to learn from inferiors,' 'tireless in teaching.' What others do you know?" }
+            { cn: "《论语》中有不少语句逐渐演化并固定为成语，如\u201C温故知新\u201D\u201C不耻下问\u201D\u201C诲人不倦\u201D等。你还知道哪些？", en: "Many phrases from The Analects have evolved into idiomatic expressions, such as 'review the old to know the new,' 'not ashamed to learn from inferiors,' 'tireless in teaching.' What others do you know?" }
           ],
           teachingPoints: [
             { cn: "初步学习文言文的阅读方法：借助注释理解大意。", en: "Begin learning methods for reading classical Chinese: use annotations to understand the general meaning." },
             { cn: "理解孔子关于学习与修身的思想精华。", en: "Understand the essence of Confucius's thought on learning and self-cultivation." }
           ],
           parentTips: [
-            { cn: "与孩子一起背诵《论语》名句，讨论其在日常生活中的实际意义。", en: "Memorize famous Analerta passages together and discuss their practical significance in daily life." }
+            { cn: "与孩子一起背诵《论语》名句，讨论其在日常生活中的实际意义。", en: "Memorize famous Analects passages together and discuss their practical significance in daily life." }
           ]
         }
       ],
       writing: {
         title: "写人要抓住特点",
         titleEn: "Capture Character Traits When Writing About People",
+        vocabWords: [
+          {word:'特点',pinyin:'tè diǎn',en:'characteristic',sentence:'写人要抓住人物的突出特点。',sentenceEn:'When writing about people, capture their outstanding characteristics.'},
+          {word:'外貌',pinyin:'wài mào',en:'appearance',sentence:'描写人物可以从外貌入手。',sentenceEn:'Describing people can start from their appearance.'},
+          {word:'神态',pinyin:'shén tài',en:'expression; demeanor',sentence:'注意捕捉人物的神态变化。',sentenceEn:'Pay attention to capturing changes in expressions.'},
+          {word:'语言',pinyin:'yǔ yán',en:'speech; language',sentence:'人物的语言要符合身份和性格。',sentenceEn:'Character speech should match identity and personality.'},
+          {word:'动作',pinyin:'dòng zuò',en:'action; movement',sentence:'通过动作描写展现人物性格。',sentenceEn:'Show character personality through action description.'}
+        ],
         content: {
           cn: "记叙文写作除了记事，也常常写人。每个人都有不同的特点。要写好一个人物，首先要学会细心观察，抓住人物的特点。描写外貌，可写人物的五官、头发与胡须，也可写脸色、神情。\u201C人\u201D从来都不是孤立存在的，要把人放在事件中写，写他富有个性的语言、动作行为和心理活动。",
           en: "Narrative writing involves not only recording events but also portraying people. Everyone has unique characteristics. To write a good character, first learn to observe carefully and capture their distinctive traits. For appearance, describe facial features, hair, complexion, and expressions. People never exist in isolation — place them in events and write their distinctive language, actions, and inner thoughts."
@@ -752,6 +930,13 @@ var TB_G7S1 = {
       classicBookGuide: {
         title: "《朝花夕拾》消除与经典的隔膜",
         titleEn: "Dawn Blossoms Plucked at Dusk: Bridging the Gap with Classics",
+        vocabWords: [
+          {word:'朝花夕拾',pinyin:'zhāo huā xī shí',en:'dawn blossoms plucked at dusk',sentence:'鲁迅用朝花夕拾记录了童年往事。',sentenceEn:'Lu Xun used Dawn Blossoms Plucked at Dusk to record childhood memories.'},
+          {word:'回忆',pinyin:'huí yì',en:'reminisce; recall',sentence:'这是一部回忆性散文集。',sentenceEn:'This is a collection of reminiscent essays.'},
+          {word:'经典',pinyin:'jīng diǎn',en:'classic',sentence:'消除与经典的隔膜。',sentenceEn:'Bridge the gap with classics.'},
+          {word:'散文',pinyin:'sǎn wén',en:'prose; essay',sentence:'鲁迅的散文充满了深情与幽默。',sentenceEn:'The prose of Lu Xun is full of deep feeling and humor.'},
+          {word:'隔膜',pinyin:'gé mó',en:'barrier; estrangement',sentence:'消除与经典之间的隔膜需要耐心阅读。',sentenceEn:'Bridging the barrier with classics requires patient reading.'}
+        ],
         content: {
           cn: "《朝花夕拾》是鲁迅1926年撰写的十篇回忆性散文的结集。这组散文是鲁迅作品中最富生活情趣的篇章，可借此了解鲁迅从幼年到青年时期的生活道路和心路历程。读经典作品，会丰富我们的人生感受和经验，可以帮助我们思考许多人生问题。",
           en: "Dawn Blossoms Plucked at Dusk is a collection of ten reminiscent essays written by Lu Xun in 1926. These essays are the most life-rich chapters among Lu Xun's works, through which we can understand his life path and inner journey from childhood to youth. Reading classics enriches our life experiences and helps us think about many life questions."
@@ -763,6 +948,13 @@ var TB_G7S1 = {
           titleEn: "Song of Mount Emei Moon",
           author: "李白",
           authorEn: "Li Bai",
+          vocabWords: [
+            {word:'峨眉',pinyin:'é méi',en:'Mount Emei',sentence:'峨眉山月半轮秋。',sentenceEn:'Above Mount Emei the moon is half a wheel in autumn.'},
+            {word:'半轮',pinyin:'bàn lún',en:'half wheel',sentence:'峨眉山月半轮秋。',sentenceEn:'Above Mount Emei the moon is half a wheel in autumn.'},
+            {word:'思君',pinyin:'sī jūn',en:'miss you',sentence:'思君不见下渝州。',sentenceEn:'Missing you but unable to see you, I go down to Yuzhou.'},
+            {word:'平羌',pinyin:'píng qiāng',en:'Pingqiang River',sentence:'影入平羌江水流。',sentenceEn:'Its reflection enters the flowing Pingqiang River.'},
+            {word:'渝州',pinyin:'yú zhōu',en:'Yuzhou',sentence:'思君不见下渝州。',sentenceEn:'Missing you but unable to see you, I go down to Yuzhou.'}
+          ],
           text: "峨眉山月半轮秋，影入平羌江水流。\n夜发清溪向三峡，思君不见下渝州。",
           textEn: "A half-moon of autumn hangs over Mount Emei, / Its reflection enters the Pingqiang River and flows away. / Setting out by night from Qingxi toward the Three Gorges, / I think of you, unseen, as I descend toward Yuzhou."
         },
@@ -771,6 +963,13 @@ var TB_G7S1 = {
           titleEn: "Meeting Li Guinian South of the Yangtze",
           author: "杜甫",
           authorEn: "Du Fu",
+          vocabWords: [
+            {word:'寻常',pinyin:'xún cháng',en:'ordinary; common',sentence:'岐王宅里寻常见。',sentenceEn:'In Prince Qi residence, you were commonly seen.'},
+            {word:'崔九',pinyin:'cuī jiǔ',en:'Cui Jiu (a patron)',sentence:'崔九堂前几度闻。',sentenceEn:'At Cui Jiu hall, several times heard.'},
+            {word:'落花',pinyin:'luò huā',en:'falling flowers',sentence:'正是江南好风景，落花时节又逢君。',sentenceEn:'Just when the scenery of Jiangnan is finest, in the season of falling flowers, I meet you again.'},
+            {word:'风景',pinyin:'fēng jǐng',en:'scenery',sentence:'正是江南好风景。',sentenceEn:'Just when the scenery of Jiangnan is finest.'},
+            {word:'感慨',pinyin:'gǎn kǎi',en:'sigh with emotion',sentence:'诗人借重逢感慨世事沧桑。',sentenceEn:'The poet sighs about the changes of the world through their reunion.'}
+          ],
           text: "岐王宅里寻常见，崔九堂前几度闻。\n正是江南好风景，落花时节又逢君。",
           textEn: "In Prince Qi's mansion we often met, / Before Cui Jiu's hall I heard you many times. / Now in the fine scenery south of the river, / In the season of falling flowers, we meet again."
         },
@@ -779,6 +978,13 @@ var TB_G7S1 = {
           titleEn: "Thinking of Home on the Ninth Day While Marching",
           author: "岑参",
           authorEn: "Cen Shen",
+          vocabWords: [
+            {word:'强欲',pinyin:'qiǎng yù',en:'force oneself to',sentence:'强欲登高去。',sentenceEn:'Forcing oneself to climb high.'},
+            {word:'登高',pinyin:'dēng gāo',en:'climb to a height',sentence:'强欲登高去，无人送酒来。',sentenceEn:'Forcing oneself to climb high, no one brings wine.'},
+            {word:'故园',pinyin:'gù yuán',en:'old homeland',sentence:'遥怜故园菊。',sentenceEn:'From afar I feel tender for the chrysanthemums of my old homeland.'},
+            {word:'战场',pinyin:'zhàn chǎng',en:'battlefield',sentence:'应傍战场开。',sentenceEn:'They must be blooming beside the battlefield.'},
+            {word:'重阳',pinyin:'chóng yáng',en:'Double Ninth Festival',sentence:'九日是重阳节，有登高赏菊的习俗。',sentenceEn:'The ninth day is the Double Ninth Festival, with the custom of climbing high and admiring chrysanthemums.'}
+          ],
           text: "强欲登高去，无人送酒来。\n遥怜故园菊，应傍战场开。",
           textEn: "I force myself to climb the height, but no one brings me wine. / Far away I pity my garden's chrysanthemums — / They must be blooming beside the battlefield."
         },
@@ -787,6 +993,13 @@ var TB_G7S1 = {
           titleEn: "Hearing a Flute at Night atop Shoujiang City",
           author: "李益",
           authorEn: "Li Yi",
+          vocabWords: [
+            {word:'回乐烽',pinyin:'huí lè fēng',en:'Huile beacon tower',sentence:'回乐烽前沙似雪。',sentenceEn:'Before Huile beacon tower, the sand resembles snow.'},
+            {word:'受降城',pinyin:'shòu jiàng chéng',en:'Shoujiang City',sentence:'受降城外月如霜。',sentenceEn:'Outside Shoujiang City, the moon is like frost.'},
+            {word:'芦管',pinyin:'lú guǎn',en:'reed pipe',sentence:'不知何处吹芦管。',sentenceEn:'I know not where the reed pipe is blown.'},
+            {word:'征人',pinyin:'zhēng rén',en:'frontier soldier',sentence:'一夜征人尽望乡。',sentenceEn:'All night the frontier soldiers gaze toward home.'},
+            {word:'望乡',pinyin:'wàng xiāng',en:'gaze toward home',sentence:'一夜征人尽望乡。',sentenceEn:'All night the frontier soldiers gaze toward home.'}
+          ],
           text: "回乐烽前沙似雪，受降城外月如霜。\n不知何处吹芦管，一夜征人尽望乡。",
           textEn: "Before Huile Beacon the sand is like snow, / Outside Shoujiang City the moon is like frost. / I don't know where the reed flute is playing — / All night, the soldiers gaze toward home."
         }
@@ -809,10 +1022,22 @@ var TB_G7S1 = {
           id: 12,
           title: "纪念白求恩",
           titleEn: "In Memory of Norman Bethune",
+          difficulty: 3,
           author: "毛泽东",
           authorEn: "Mao Zedong",
           source: "选自《毛泽东选集》第二卷（人民出版社1991年版）。",
           sourceEn: "Selected from Selected Works of Mao Zedong, Vol. 2 (People's Publishing House, 1991).",
+          vocabWords: [
+            {word:'国际主义',pinyin:'guó jì zhǔ yì',en:'internationalism',sentence:'白求恩同志是国际主义的典范。',sentenceEn:'Comrade Bethune was a model of internationalism.'},
+            {word:'热忱',pinyin:'rè chén',en:'enthusiasm; fervor',sentence:'对同志对人民的极端的热忱。',sentenceEn:'Extreme enthusiasm toward comrades and the people.'},
+            {word:'纯粹',pinyin:'chún cuì',en:'pure; genuine',sentence:'一个纯粹的人，一个有道德的人。',sentenceEn:'A pure person, a moral person.'},
+            {word:'狭隘',pinyin:'xiá ài',en:'narrow-minded',sentence:'这就是我们用以反对狭隘民族主义的国际主义。',sentenceEn:'This is the internationalism we use to oppose narrow-minded nationalism.'},
+            {word:'精益求精',pinyin:'jīng yì qiú jīng',en:'strive for perfection',sentence:'他的医术是精益求精的。',sentenceEn:'His medical skills were ever striving for perfection.'}
+          ],
+          grammarPoints: [
+            {point:'对比论证',pointEn:'duì bǐ lùn zhèng',example:'argument by contrast',exampleEn:'白求恩毫不利己专门利人的精神与不少人对工作不负责任进行对比。',explanation:'Contrast Bethune selfless spirit with many people being irresponsible.',explanationEn:'通过正反对比突出白求恩精神的伟大'},
+            {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'一个高尚的人，一个纯粹的人，一个有道德的人，一个脱离了低级趣味的人，一个有益于人民的人。',explanation:'A noble person, a pure person, a moral person, a person free from vulgar tastes, a person beneficial to the people.',explanationEn:'五个并列短语层层递进，增强论证力度'}
+          ],
           authorBio: {
             cn: "毛泽东（1893—1976），伟大的马克思主义者，无产阶级革命家、战略家和理论家。",
             en: "Mao Zedong (1893–1976) was a great Marxist, proletarian revolutionary, strategist, and theorist."
@@ -830,9 +1055,9 @@ var TB_G7S1 = {
           ],
           textEn: [
             "Comrade Bethune, a member of the Communist Party of Canada, was around fifty years old. Sent by the Communist Parties of Canada and the United States, he traveled thousands of miles to help China in the War of Resistance Against Japan. He came to Yan'an last spring, then went to work in the Wutai Mountains, where he unfortunately gave his life in the line of duty. A foreigner, with no selfish motives whatsoever, devoted himself to China's liberation cause as if it were his own — what spirit is this? This is the spirit of internationalism, the spirit of communism.",
-            "Comrade Bethune's spirit of utter devotion to others without any thought of self was shown in his extreme sense of responsibility in his work and his boundless warmth toward all comrades and the people. Every Communist must learn from him.",
-            "Comrade Bethune was a doctor; he took healing as his profession, and he was constantly perfecting his skill. His medical expertise was among the finest in the entire Eighth Route Army medical system.",
-            "I met Comrade Bethune only once. Later he wrote me many letters, but I was too busy and replied to only one — I don't even know if he received it. A person's ability may be great or small, but if he has this spirit, he is already a noble person, a pure person, a moral person, a person free of vulgar interests, a person who is of benefit to the people."
+            "Comrade Bethune's spirit of utter devotion to others without any thought of self was shown in his extreme sense of responsibility in his work and his boundless warmth toward all comrades and the people. Every Communist must learn from him. Not a few people are irresponsible in their work, preferring the light to the heavy, shifting the burden onto others while choosing the easy tasks themselves. At every turn they think of themselves first, then of others. After the slightest effort they swell with self-importance, boasting for fear others won't notice. Toward comrades and the people they are not warm but cold, indifferent, numb. Such people are in fact not Communists, or at least cannot be considered pure Communists.",
+            "Comrade Bethune was a doctor; he took healing as his profession, and he was constantly perfecting his skill. His medical expertise was among the finest in the entire Eighth Route Army medical system. This is an excellent lesson for those who are fickle and change direction at every new sight, and for those who look down on technical work as beneath them or as a dead end.",
+            "I met Comrade Bethune only once. Later he wrote me many letters, but I was too busy and replied to only one — I don't even know if he received it. I am deeply grieved by his death. Now that we all commemorate him, we can see how profoundly his spirit has moved people. We must all learn from his spirit of absolute selflessness. Starting from this point, one can become a person of great benefit to the people. A person's ability may be great or small, but if he has this spirit, he is already a noble person, a pure person, a moral person, a person free of vulgar interests, a person who is of benefit to the people."
           ],
           annotations: [
             { id: 1, term: "殉职", pinyin: "xùnzhí", definition: "为公务而牺牲生命。", definitionEn: "To die in the line of duty." },
@@ -861,10 +1086,21 @@ var TB_G7S1 = {
           id: 13,
           title: "植树的牧羊人",
           titleEn: "The Man Who Planted Trees",
+          difficulty: 4,
           author: "让·乔诺",
           authorEn: "Jean Giono",
           source: "节选自绘本《植树的男人》（二十一世纪出版社2011年版）。武娟译，崔维燕校译。有删改。",
           sourceEn: "Excerpted from the picture book The Man Who Planted Trees (21st Century Publishing House, 2011). Translated by Wu Juan, reviewed by Cui Weiyan. Abridged.",
+          vocabWords: [
+            {word:'慷慨',pinyin:'kāng kǎi',en:'generous',sentence:'如果他慷慨无私，不图回报。',sentenceEn:'If he is generous and selfless, seeking no reward.'},
+            {word:'荒地',pinyin:'huāng dì',en:'wasteland',sentence:'到处是荒地。',sentenceEn:'Everywhere was wasteland.'},
+            {word:'不毛之地',pinyin:'bù máo zhī dì',en:'barren land',sentence:'他就像这块不毛之地上涌出的神秘泉水。',sentenceEn:'He was like a mysterious spring welling up from this barren land.'},
+            {word:'沉默寡言',pinyin:'chén mò guǎ yán',en:'taciturn',sentence:'他还是那么沉默寡言。',sentenceEn:'He was still as taciturn as ever.'},
+            {word:'沃土',pinyin:'wò tǔ',en:'fertile land',sentence:'昔日的荒地如今生机勃勃，成为一片沃土。',sentenceEn:'The once barren land was now vibrant with life, becoming fertile land.'}
+          ],
+          grammarPoints: [
+            {point:'以时间为线索',pointEn:'yǐ shí jiān wéi xiàn suǒ',example:'using time as a thread',exampleEn:'1913年、1920年、1945年，三次到访展现变化。',explanation:'Visits in 1913, 1920, and 1945 show the transformation.',explanationEn:'以三次访问为时间线索，展现荒地到绿洲的巨大变化'}
+          ],
           authorBio: {
             cn: "让·乔诺（1895—1970），法国作家、电影编剧。",
             en: "Jean Giono (1895–1970) was a French writer and screenwriter."
@@ -885,11 +1121,11 @@ var TB_G7S1 = {
           ],
           textEn: [
             "To truly know someone, you must observe what he does over a long period. If he is generous and selfless, seeking no reward, and leaves much to the world, then you can say with certainty: this is a rare good person.",
-            "It was in 1913, and I was on a walking tour through the sparsely visited Alps of Provence, France. At an altitude of 1,200 to 1,300 meters, barren land stretched in every direction.",
+            "It was in 1913, and I was on a walking tour through the sparsely visited Alps of Provence, France. At an altitude of 1,200 to 1,300 meters, barren land stretched in every direction. On the bare mountains, a few wild lavender plants grew here and there. In the boundless wilderness, I walked for three days before finally arriving at an abandoned village.",
             "The shepherd gave me water from his canteen and took me to his hut in the mountains. He drew sweet water from a deep well. He was a man of few words — those who live alone often are. But he seemed confident and serene. In my eyes, he was like a mysterious spring welling up from this barren land.",
-            "The shepherd took out a bag, poured a pile of acorns onto the table, and began sorting them one by one, separating good from bad. Finally, he selected a hundred large, perfect acorns.",
+            "The shepherd took out a bag, poured a pile of acorns onto the table, and began sorting them one by one, separating the good acorns from the bad. Finally, he selected a hundred large, perfect acorns, then stopped, and we went to sleep.",
             "For three years, he had been planting trees alone. He had planted a hundred thousand acorns; twenty thousand had sprouted; nearly half of those would be damaged by animals or die from other causes. The remaining ten thousand saplings would take root and grow into great trees on this barren land.",
-            "The oaks he had planted in 1910 were now taller than me. The largest section of forest stretched eleven kilometers wide. When I realized that all of this was the work of one man's hands and perseverance — not any advanced technology — I understood that humans, besides destruction, can also create like God.",
+            "The oaks he had planted in 1910 were now taller than me — truly unbelievable. I was so astonished I couldn't speak, and he remained as taciturn as ever. We spent the whole day silently wandering through the forest he had planted. This forest was divided into three sections; the largest stretched eleven kilometers wide. When I realized that all of this was not the work of any advanced technology but of one man's hands and perseverance, I understood that humans, besides destruction, can also create like God.",
             "In June 1945, I saw the old tree-planter for the last time. He was 87 years old. The former wasteland was now vibrant and fertile. The forests had retained rainwater and snowwater; springs had reappeared. The abandoned villages were being rebuilt. The happiness of more than ten thousand people all came from this old man named Elzéard Bouffier.",
             "Whenever I think of this old man — how, with only his physical strength and willpower, he transformed this desert into an oasis — I am awed by the greatness of human power. And when I think of the perseverance and selflessness it required, I feel boundless admiration for this uneducated, ordinary farmer. He accomplished what only God could do."
           ],
@@ -917,10 +1153,21 @@ var TB_G7S1 = {
           id: 14,
           title: "走一步，再走一步",
           titleEn: "One Step, Then Another",
+          difficulty: 4,
           author: "莫顿·亨特",
           authorEn: "Morton Hunt",
           source: "选自《心理学与成长》（世界图书出版公司2009年版）。田文慧译。原题为《悬崖上的一课》。",
           sourceEn: "Selected from Psychology and Growth (World Book Publishing Company, 2009). Translated by Tian Wenhui. Original title: 'The Lesson on the Cliff.'",
+          vocabWords: [
+            {word:'灼人',pinyin:'zhuó rén',en:'scorching',sentence:'一个酷热的七月天，灼人的热浪。',sentenceEn:'A scorching July day, blazing heat waves.'},
+            {word:'犹豫',pinyin:'yóu yù',en:'hesitate',sentence:'我犹豫了。',sentenceEn:'I hesitated.'},
+            {word:'恍惚',pinyin:'huǎng hū',en:'dazed; absent-minded',sentence:'我趴在岩石上，神情恍惚。',sentenceEn:'I lay on the rock, dazed.'},
+            {word:'小心翼翼',pinyin:'xiǎo xīn yì yì',en:'extremely carefully',sentence:'我小心翼翼地感觉着岩石。',sentenceEn:'I felt for the rock extremely carefully.'},
+            {word:'成就感',pinyin:'chéng jiù gǎn',en:'sense of achievement',sentence:'我产生了一种巨大的成就感。',sentenceEn:'I felt an enormous sense of achievement.'}
+          ],
+          grammarPoints: [
+            {point:'心理描写',pointEn:'xīn lǐ miáo xiě',example:'psychological description',exampleEn:'我趴在岩石上，神情恍惚，害怕和疲劳已经让我麻木。',explanation:'I lay on the rock, dazed; fear and exhaustion had numbed me.',explanationEn:'通过细腻的心理描写展现主人公的恐惧与成长'}
+          ],
           authorBio: {
             cn: "莫顿·亨特（1920—2016），美国作家、心理学家。",
             en: "Morton Hunt (1920–2016), American writer and psychologist."
@@ -942,16 +1189,16 @@ var TB_G7S1 = {
             "此后，我生命中有很多时刻，面对一个遥不可及的目标，或者一个令人畏惧的情境，当我感到惊慌失措时，我都能够轻松应对——因为我回想起了很久以前悬崖上的那一课。我提醒自己不要看下面遥远的岩石，而是注意相对轻松、容易的第一小步，迈出一小步，再一小步，就这样体会每一步带来的成就感，直到达成了自己的目标。"
           ],
           textEn: [
-            "It was in Philadelphia, on a blistering July day — even 56 years later, I can still feel that scorching heat wave.",
-            "I hesitated. I longed to be as brave and active as the other boys, but for most of my eight years I had been a sickly child, and I kept my mother's warning firmly in mind.",
+            "It was in Philadelphia, on a blistering July day — even 56 years later, I can still feel that scorching heat wave. The five boys I was with had grown tired of playing marbles and burning holes in dry leaves with a magnifying glass, and were looking for something else to do.",
+            "I hesitated. I longed to be as brave and active as the other boys, but for most of my eight years I had been a sickly child, and I kept my mother's warning firmly in mind — I was not as strong as other children and must not take risks.",
             "We came to an open field. Far on the other side was a cliff, jutting out like a nearly vertical wall. From the jumbled rocks at the bottom to the grassy edge at the top was only about 60 feet, but to me it represented everything forbidden and impossible.",
-            "At some point I looked down and was terrified: the ground below seemed impossibly far away.",
+            "At some point I looked down and was terrified: the ground at the base of the cliff seemed impossibly far away. One slip and I would fall, crash against the cliff wall, and smash onto the rocks below, shattering to pieces.",
             "Time passed slowly. Shadows lengthened, the sun sank below the treetops, and darkness began to fall. I lay on the rock, dazed, numb with fear and exhaustion.",
             "In the dusk, the first star appeared. Through the trees came a flashlight beam, then the voices of Jerry and my father.",
-            "'Listen,' Dad said, 'don't think about how far it is. Think about taking one small step — you can do that. See that rock the flashlight is pointing at?'",
+            "'Listen,' Dad continued, 'don't think about how far it is or how difficult it is. All you need to think about is taking one small step — you can do that. Look where the flashlight is pointing. Do you see that rock?'",
             "And so, one step at a time, one foothold at a time, I climbed down as he directed. Dad made sure I only had to make one simple move each time, never giving me a chance to think about how far I still had to go.",
             "Suddenly I took the last step down, stepped onto the jumbled rocks at the bottom, and fell into my father's strong arms with a sob — then, surprisingly, I felt an enormous sense of accomplishment and something like pride.",
-            "In many moments of my life since then, when facing a seemingly unreachable goal or a frightening situation, I have been able to cope — because I remembered that lesson on the cliff long ago. I remind myself not to look at the distant rocks below, but to focus on the relatively easy first small step."
+            "In many moments of my life since then, when facing a seemingly unreachable goal or a frightening situation, whenever I felt panicked and overwhelmed, I have been able to cope with ease — because I remembered that lesson on the cliff long ago. I remind myself not to look at the distant rocks below, but to focus on the relatively easy first small step. Take one small step, then another, savoring the sense of accomplishment each step brings, until I reach my goal."
           ],
           annotations: [
             { id: 1, term: "灼", pinyin: "zhuó", definition: "烧，烫。", definitionEn: "To burn, to scorch." },
@@ -974,10 +1221,21 @@ var TB_G7S1 = {
           id: 15,
           title: "诫子书",
           titleEn: "Letter of Admonition to His Son",
+          difficulty: 4,
           author: "诸葛亮",
           authorEn: "Zhuge Liang",
           source: "选自《诸葛亮集·文集》卷一（中华书局2012年版）。",
           sourceEn: "Selected from Collected Works of Zhuge Liang, Literary Works, Vol. 1 (Zhonghua Book Company, 2012).",
+          vocabWords: [
+            {word:'淡泊',pinyin:'dàn bó',en:'indifferent to fame and fortune',sentence:'非淡泊无以明志。',sentenceEn:'Without indifference to fame and fortune, one cannot make clear one aspirations.'},
+            {word:'宁静',pinyin:'níng jìng',en:'tranquil',sentence:'非宁静无以致远。',sentenceEn:'Without tranquility, one cannot reach far.'},
+            {word:'志',pinyin:'zhì',en:'aspiration; ambition',sentence:'非学无以广才，非志无以成学。',sentenceEn:'Without learning, one cannot broaden talent; without ambition, one cannot achieve learning.'},
+            {word:'淫慢',pinyin:'yín màn',en:'indulgent and slack',sentence:'淫慢则不能励精。',sentenceEn:'Indulgence and slackness prevent one from cultivating spirit.'},
+            {word:'险躁',pinyin:'xiǎn zào',en:'reckless and impatient',sentence:'险躁则不能治性。',sentenceEn:'Recklessness and impatience prevent one from cultivating character.'}
+          ],
+          grammarPoints: [
+            {point:'正反论证',pointEn:'zhèng fǎn lùn zhèng',example:'argument from both sides',exampleEn:'非淡泊无以明志，非宁静无以致远。',explanation:'Without indifference, no clear aspiration; without tranquility, no far-reaching goals.',explanationEn:'用双重否定从正反两面论证修身治学的道理'}
+          ],
           authorBio: {
             cn: "诸葛亮（181—234），字孔明，琅玡阳都（今山东沂南南）人，三国时蜀汉政治家、军事家。",
             en: "Zhuge Liang (181–234), courtesy name Kongming, was from Langya Yangdu (now southern Yinan, Shandong). He was a statesman and military strategist of Shu Han during the Three Kingdoms period."
@@ -1018,6 +1276,13 @@ var TB_G7S1 = {
       writing: {
         title: "思路要清晰",
         titleEn: "Keep Your Train of Thought Clear",
+        vocabWords: [
+          {word:'思路',pinyin:'sī lù',en:'train of thought',sentence:'写文章要思路清晰。',sentenceEn:'Writing articles requires a clear train of thought.'},
+          {word:'层次',pinyin:'céng cì',en:'layers; structure',sentence:'文章要有清晰的层次。',sentenceEn:'An article must have clear structural layers.'},
+          {word:'过渡',pinyin:'guò dù',en:'transition',sentence:'段落之间要有自然的过渡。',sentenceEn:'There should be natural transitions between paragraphs.'},
+          {word:'总结',pinyin:'zǒng jié',en:'summarize',sentence:'文章结尾要有简洁的总结。',sentenceEn:'An article ending should have a concise summary.'},
+          {word:'条理',pinyin:'tiáo lǐ',en:'orderliness',sentence:'叙事要有条理。',sentenceEn:'Narration should be orderly.'}
+        ],
         content: {
           cn: "\u201C思路，是个比喻的说法，把一番话、一篇文章比作思想走的一条路。\u201D具体要求就是条理清楚，层次分明。要做到思路清晰，可以从整体构思、确定写作顺序和列提纲三个方面入手。",
           en: "'Train of thought' is a metaphor, comparing a passage or article to a path that thought follows. The specific requirement is clear organization and distinct levels. To achieve clear thinking, start with overall conception, determine the writing order, and create an outline."
@@ -1027,6 +1292,13 @@ var TB_G7S1 = {
       comprehensiveLearning: {
         title: "少年正是读书时",
         titleEn: "Youth Is the Time for Reading",
+        vocabWords: [
+          {word:'读书',pinyin:'dú shū',en:'reading',sentence:'少年正是读书时。',sentenceEn:'Youth is the time for reading.'},
+          {word:'阅读',pinyin:'yuè dú',en:'read',sentence:'培养良好的阅读习惯。',sentenceEn:'Develop good reading habits.'},
+          {word:'经典',pinyin:'jīng diǎn',en:'classic',sentence:'多读经典名著。',sentenceEn:'Read more classic masterpieces.'},
+          {word:'积累',pinyin:'jī lěi',en:'accumulate',sentence:'读书要注重积累。',sentenceEn:'Reading should focus on accumulation.'},
+          {word:'视野',pinyin:'shì yě',en:'horizon; vision',sentence:'读书能开阔视野。',sentenceEn:'Reading broadens horizons.'}
+        ],
         content: {
           cn: "语文学习，得法于课内，得益于课外。课外阅读是课内阅读的延伸和补充。每天拿出一定的时间读一点儿好书，不仅可以开阔眼界，增长知识，启迪思维，还可以塑造良好的精神气质。让我们一起想办法，激发阅读的兴趣，养成阅读的习惯，营造一个良好的读书环境吧！",
           en: "Language learning benefits from in-class methods and out-of-class practice. Extracurricular reading extends and supplements classroom reading. Setting aside time each day to read good books broadens horizons, increases knowledge, inspires thinking, and shapes good character. Let's find ways to spark reading interest, develop reading habits, and create a good reading environment!"
@@ -1052,10 +1324,22 @@ var TB_G7S1 = {
           id: 16,
           title: "猫",
           titleEn: "Cats",
+          difficulty: 4,
           author: "郑振铎",
           authorEn: "Zheng Zhenduo",
           source: "选自《郑振铎选集》上册（福建人民出版社1984年版）。",
           sourceEn: "Selected from Selected Works of Zheng Zhenduo, Vol. 1 (Fujian People's Publishing House, 1984).",
+          vocabWords: [
+            {word:'污涩',pinyin:'wū sè',en:'dirty and rough',sentence:'毛色花白，并不好看，又很瘦。',sentenceEn:'Its coat was patchy white, not pretty, and very thin.'},
+            {word:'怂恿',pinyin:'sǒng yǒng',en:'urge; egg on',sentence:'三妹便怂恿着她去拿一只来。',sentenceEn:'The third sister urged her to go get one.'},
+            {word:'怅然',pinyin:'chàng rán',en:'melancholy',sentence:'我也怅然地，愤恨地。',sentenceEn:'I was also melancholy and indignant.'},
+            {word:'蜷伏',pinyin:'quán fú',en:'curl up',sentence:'冬天的早晨，门口蜷伏着一只很可怜的小猫。',sentenceEn:'On a winter morning, a pitiful kitten was curled up at the door.'},
+            {word:'冤枉',pinyin:'yuān wǎng',en:'falsely accuse',sentence:'我没有判断明白，便妄下断语，冤枉了一只不能说话辩诉的动物。',sentenceEn:'Without judging clearly, I rashly made a verdict and falsely accused an animal that could not speak in its own defense.'}
+          ],
+          grammarPoints: [
+            {point:'首尾呼应',pointEn:'shǒu wěi hū yìng',example:'beginning and end echo each other',exampleEn:'自此，我家永不养猫。',explanation:'From then on, my family never kept cats again.',explanationEn:'三次养猫经历层层递进，最后的永不养猫呼应全文主题'},
+            {point:'对比',pointEn:'duì bǐ',example:'contrast',exampleEn:'三只猫的不同命运形成鲜明对比。',explanation:'The different fates of the three cats form a sharp contrast.',explanationEn:'通过三只猫的对比深化主题——不要妄下结论'}
+          ],
           authorBio: {
             cn: "郑振铎（1898—1958），笔名西谛，福建长乐人，作家、翻译家、文学史家。",
             en: "Zheng Zhenduo (1898–1958), pen name Xidi, was from Changle, Fujian. He was a writer, translator, and literary historian."
@@ -1117,10 +1401,18 @@ var TB_G7S1 = {
           id: 17,
           title: "动物笑谈",
           titleEn: "Animal Anecdotes",
+          difficulty: 4,
           author: "康拉德·劳伦兹",
           authorEn: "Konrad Lorenz",
           source: "节选自《所罗门王的指环》第五章（中国和平出版社1998年版）。游复熙、季光容译。",
           sourceEn: "Excerpted from Chapter 5 of King Solomon's Ring (China Peace Publishing House, 1998). Translated by You Fuxi and Ji Guangrong.",
+          vocabWords: [
+            {word:'嗔怪',pinyin:'chēn guài',en:'reproach',sentence:'别人对他的嗔怪是可以理解的。',sentenceEn:'The reproach from others was understandable.'},
+            {word:'怪诞不经',pinyin:'guài dàn bù jīng',en:'absurd and preposterous',sentence:'在研究中常常发生怪诞不经的趣事。',sentenceEn:'Absurd and preposterous amusing things often happen during research.'},
+            {word:'大相径庭',pinyin:'dà xiāng jìng tíng',en:'vastly different',sentence:'从外表看来和真正的水鸭大相径庭。',sentenceEn:'In appearance, vastly different from a real wild duck.'},
+            {word:'禁锢',pinyin:'jìn gù',en:'imprison; confine',sentence:'从长期被禁锢所受的精神虐待中恢复过来。',sentenceEn:'Recovering from the mental abuse of long-term confinement.'},
+            {word:'蹒跚',pinyin:'pán shān',en:'stagger; hobble',sentence:'老先生弯着身子，蹒跚地走过来。',sentenceEn:'The old man bent over and staggered toward me.'}
+          ],
           authorBio: {
             cn: "康拉德·劳伦兹（1903—1989），奥地利动物行为学家、科普作家。获1973年诺贝尔生理学或医学奖。",
             en: "Konrad Lorenz (1903–1989) was an Austrian animal behaviorist and science writer. He received the 1973 Nobel Prize in Physiology or Medicine."
@@ -1163,10 +1455,21 @@ var TB_G7S1 = {
           id: 18,
           title: "狼",
           titleEn: "The Wolves",
+          difficulty: 4,
           author: "蒲松龄",
           authorEn: "Pu Songling",
           source: "选自《聊斋志异》卷六（上海古籍出版社1986年版）。此题下共有三则故事，这里选的是第二则。",
           sourceEn: "Selected from Chapter 6 of Strange Tales from a Chinese Studio (Shanghai Classics Publishing House, 1986). This is the second of three stories under this title.",
+          vocabWords: [
+            {word:'缀行',pinyin:'zhuì xíng',en:'follow closely',sentence:'缀行甚远。',sentenceEn:'Followed closely for a very long distance.'},
+            {word:'屠',pinyin:'tú',en:'butcher',sentence:'一屠晚归，担中肉尽。',sentenceEn:'A butcher returning late, the meat in his load all gone.'},
+            {word:'窘',pinyin:'jiǒng',en:'desperate; cornered',sentence:'屠大窘，恐前后受其敌。',sentenceEn:'The butcher was desperate, fearing attack from front and back.'},
+            {word:'假寐',pinyin:'jiǎ mèi',en:'pretend to sleep',sentence:'一狼径去，其一犬坐于前，目似瞑，意暇甚。',sentenceEn:'One wolf left, the other sat like a dog in front, eyes seemingly closed, looking very relaxed.'},
+            {word:'黠',pinyin:'xiá',en:'cunning',sentence:'狼亦黠矣，而顷刻两毙。',sentenceEn:'The wolves were indeed cunning, yet both were killed in a moment.'}
+          ],
+          grammarPoints: [
+            {point:'文言叙事',pointEn:'wén yán xù shì',example:'classical narrative',exampleEn:'一屠晚归，担中肉尽，止有剩骨。',explanation:'A butcher returning late, the meat all gone, only leftover bones remained.',explanationEn:'文言文用简练的语言叙述紧张的故事情节'}
+          ],
           authorBio: {
             cn: "蒲松龄（1640—1715），字留仙，世称聊斋先生，淄川（今属山东淄博）人，清代文学家。著有文言小说集《聊斋志异》等。",
             en: "Pu Songling (1640–1715), courtesy name Liuxian, known as Master Liaozhai, was from Zichuan (modern Zibo, Shandong), a Qing dynasty writer. Author of Strange Tales from a Chinese Studio."
@@ -1221,6 +1524,13 @@ var TB_G7S1 = {
       writing: {
         title: "如何突出中心",
         titleEn: "How to Highlight the Central Theme",
+        vocabWords: [
+          {word:'中心',pinyin:'zhōng xīn',en:'central theme',sentence:'写文章要突出中心。',sentenceEn:'Writing articles should highlight the central theme.'},
+          {word:'选材',pinyin:'xuǎn cái',en:'select material',sentence:'选材要围绕中心。',sentenceEn:'Material selection should revolve around the theme.'},
+          {word:'详略',pinyin:'xiáng lüè',en:'detailed and brief',sentence:'安排好详略。',sentenceEn:'Arrange the balance of detail and brevity well.'},
+          {word:'主题',pinyin:'zhǔ tí',en:'theme; subject',sentence:'主题要鲜明、集中。',sentenceEn:'The theme should be clear and focused.'},
+          {word:'深化',pinyin:'shēn huà',en:'deepen',sentence:'通过细节深化中心。',sentenceEn:'Deepen the central theme through details.'}
+        ],
         content: {
           cn: "中心是文章传达的作者基本观点、态度、情感和意图。围绕中心写作是作文的基本要求。为了突出中心，可以设置贯穿全文的线索，注意安排内容的主次和详略，还可以采用开门见山、卒章显志、前后呼应、抑扬对比等技巧。",
           en: "The central theme conveys the author's basic viewpoint, attitude, emotion, and intent. Writing around a central theme is a basic requirement. To highlight it, set a thread through the text, arrange content by importance and detail, and use techniques like getting straight to the point, revealing the theme at the end, echoing, and contrast."
@@ -1229,6 +1539,13 @@ var TB_G7S1 = {
       readWrite: [{
         title: "数词和量词",
         titleEn: "Numerals and Measure Words",
+        vocabWords: [
+          {word:'数词',pinyin:'shù cí',en:'numeral',sentence:'数词是表示数量的词。',sentenceEn:'Numerals are words that express quantity.'},
+          {word:'量词',pinyin:'liàng cí',en:'measure word',sentence:'量词是表示单位的词。',sentenceEn:'Measure words express units of measurement.'},
+          {word:'确数',pinyin:'què shù',en:'exact number',sentence:'一、七千、六万九千表示确数。',sentenceEn:'One, seven thousand, sixty-nine thousand are exact numbers.'},
+          {word:'概数',pinyin:'gài shù',en:'approximate number',sentence:'十来个、二十几只表示概数。',sentenceEn:'About ten, twenty-something are approximate numbers.'},
+          {word:'序数',pinyin:'xù shù',en:'ordinal number',sentence:'第一、老三、初五表示序数。',sentenceEn:'First, third eldest, fifth day are ordinal numbers.'}
+        ],
         content: {
           cn: "数词表示确数、概数或序数。量词表示单位：\u201C个\u201D\u201C条\u201D\u201C只\u201D等表示事物单位，\u201C次\u201D\u201C回\u201D\u201C遍\u201D等表示动作单位。数词与量词结合使用表示数量。",
           en: "Numerals express exact, approximate, or ordinal numbers. Measure words express units: 个, 条, 只 for things; 次, 回, 遍 for actions. Numerals and measure words combine to express quantities."
@@ -1255,10 +1572,22 @@ var TB_G7S1 = {
           id: 19,
           title: "皇帝的新装",
           titleEn: "The Emperor's New Clothes",
+          difficulty: 4,
           author: "安徒生",
           authorEn: "Hans Christian Andersen",
           source: "选自《安徒生童话和故事选》（人民文学出版社1956年版）。叶君健译。有改动。",
           sourceEn: "Selected from Selected Andersen's Fairy Tales (People's Literature Publishing House, 1956). Translated by Ye Junjian. Adapted.",
+          vocabWords: [
+            {word:'炫耀',pinyin:'xuàn yào',en:'show off',sentence:'除非是为了去炫耀一下他的新衣服。',sentenceEn:'Unless it was to show off his new clothes.'},
+            {word:'愚蠢',pinyin:'yú chǔn',en:'foolish; stupid',sentence:'凡是愚蠢或不称职的人就看不见这布。',sentenceEn:'Anyone who was foolish or incompetent could not see the cloth.'},
+            {word:'骗子',pinyin:'piàn zi',en:'swindler',sentence:'两个骗子装作在工作的样子。',sentenceEn:'The two swindlers pretended to be working.'},
+            {word:'称职',pinyin:'chèn zhí',en:'competent',sentence:'不称职的人看不见这布。',sentenceEn:'Incompetent people could not see the cloth.'},
+            {word:'赤裸',pinyin:'chì luǒ',en:'naked; bare',sentence:'他实在没有穿什么衣服啊！',sentenceEn:'He really has nothing on at all!'}
+          ],
+          grammarPoints: [
+            {point:'讽刺',pointEn:'fěng cì',example:'satire',exampleEn:'通过一个荒诞的故事讽刺了虚伪和愚蠢。',explanation:'Through an absurd story, it satirizes hypocrisy and foolishness.',explanationEn:'用儿童视角戳穿成人世界的虚伪'},
+            {point:'夸张',pointEn:'kuā zhāng',example:'exaggeration',exampleEn:'他每一天每一点钟都要换一套衣服。',explanation:'He changed his clothes every hour of every day.',explanationEn:'用夸张手法突出皇帝爱虚荣的性格'}
+          ],
           authorBio: {
             cn: "安徒生（1805—1875），丹麦作家。代表作有童话《卖火柴的小女孩》《海的女儿》《丑小鸭》等。",
             en: "Hans Christian Andersen (1805–1875) was a Danish author. His representative works include The Little Match Girl, The Little Mermaid, and The Ugly Duckling."
@@ -1278,13 +1607,13 @@ var TB_G7S1 = {
             "\u201C他实在没有穿什么衣服啊！\u201D最后所有的老百姓都说。皇帝有点儿发抖，因为他似乎觉得老百姓们所讲的话是真的。不过他自己心里却这样想：\u201C我必须把这游行大典举行完毕。\u201D"
           ],
           textEn: [
-            "Many years ago there was an Emperor who was so fond of new clothes that he spent all his money on them.",
+            "Many years ago there was an Emperor who was so exceedingly fond of beautiful new clothes that he spent all his money on them just to dress well.",
             "One day two swindlers came. They said they could weave the most magnificent fabric. Clothes made of this fabric had a wonderful property: they were invisible to anyone who was unfit for his position or hopelessly stupid.",
-            "The good old minister went to the swindlers' room. 'God have mercy on me!' he thought. 'I can't see anything!' But he dared not say so.",
-            "'What's this?' thought the Emperor. 'I can see nothing! This is terrible! Am I a fool?'",
+            "The good old minister went to the room where the two swindlers were working. 'God have mercy on me!' the old minister thought. 'I can't see a thing!' But he did not dare say so aloud.",
+            "'What's going on?' thought the Emperor. 'I can see nothing at all! This is absolutely appalling. Am I a fool?'",
             "And so the Emperor walked in procession under the magnificent canopy. Everyone said: 'How splendid the Emperor's new clothes are!'",
             "'But he hasn't got anything on!' a little child called out at last.",
-            "'He really hasn't got anything on!' all the people finally said. The Emperor shivered, but he thought: 'I must go through with the procession.'"
+            "'He really hasn't got anything on!' all the people finally said. The Emperor shivered slightly, for he felt that what the people were saying seemed to be true. But he thought to himself: 'I must go through with this procession to the end.'"
           ],
           annotations: [
             { id: 1, term: "称职", pinyin: "chènzhí", definition: "能力与所担任的职务相称。", definitionEn: "Competent for one's position." },
@@ -1310,10 +1639,21 @@ var TB_G7S1 = {
           id: 20,
           title: "天上的街市",
           titleEn: "The Street in the Sky",
+          difficulty: 3,
           author: "郭沫若",
           authorEn: "Guo Moruo",
           source: "选自《郭沫若全集·文学编》第一卷（人民文学出版社1982年版）。略有改动。",
           sourceEn: "Selected from Complete Works of Guo Moruo, Literature Vol. 1 (People's Literature Publishing House, 1982). Slightly adapted.",
+          vocabWords: [
+            {word:'缥缈',pinyin:'piāo miǎo',en:'ethereal; illusory',sentence:'我想那缥缈的空中。',sentenceEn:'I imagine that ethereal sky.'},
+            {word:'珍奇',pinyin:'zhēn qí',en:'rare and precious',sentence:'定然是世上没有的珍奇。',sentenceEn:'They must be rare treasures unseen in this world.'},
+            {word:'街灯',pinyin:'jiē dēng',en:'street lights',sentence:'远远的街灯明了。',sentenceEn:'The distant street lights are lit.'},
+            {word:'明星',pinyin:'míng xīng',en:'bright stars',sentence:'好像闪着无数的明星。',sentenceEn:'Like countless bright stars twinkling.'},
+            {word:'闲游',pinyin:'xián yóu',en:'stroll leisurely',sentence:'定然在天街闲游。',sentenceEn:'Surely strolling leisurely on the heavenly street.'}
+          ],
+          grammarPoints: [
+            {point:'联想与想象',pointEn:'lián xiǎng yǔ xiǎng xiàng',example:'association and imagination',exampleEn:'远远的街灯明了，好像闪着无数的明星。',explanation:'The distant street lights lit up, like countless bright stars twinkling.',explanationEn:'从街灯联想到星星，从星星想象到天上的街市'}
+          ],
           authorBio: {
             cn: "郭沫若（1892—1978），原名郭开贞，四川乐山人，作家、诗人、历史学家、古文字学家。代表作有诗集《女神》《星空》，历史剧《屈原》等。",
             en: "Guo Moruo (1892–1978), original name Guo Kaizhen, from Leshan, Sichuan. Writer, poet, historian, and paleographer. Works include poetry collections The Goddesses and Starry Sky, and the historical drama Qu Yuan."
@@ -1357,10 +1697,18 @@ var TB_G7S1 = {
           id: 21,
           title: "女娲造人",
           titleEn: "Nüwa Creates Humans",
+          difficulty: 4,
           author: "袁珂",
           authorEn: "Yuan Ke",
           source: "选自《神话故事新编》（中国青年出版社1963年版）。原题为《女娲创造人类》。",
           sourceEn: "Selected from Myths Retold (China Youth Press, 1963). Originally titled 'Nüwa Creates Humanity.'",
+          vocabWords: [
+            {word:'神通广大',pinyin:'shén tōng guǎng dà',en:'infinitely powerful',sentence:'出现了一个神通广大的女神。',sentenceEn:'There appeared an infinitely powerful goddess.'},
+            {word:'莽莽榛榛',pinyin:'mǎng mǎng zhēn zhēn',en:'thick and wild vegetation',sentence:'行走在这片莽莽榛榛的原野上。',sentenceEn:'Walking across this wildly overgrown plain.'},
+            {word:'眉开眼笑',pinyin:'méi kāi yǎn xiào',en:'beaming with joy',sentence:'不由得满心欢喜，眉开眼笑。',sentenceEn:'Could not help but feel overjoyed, beaming with delight.'},
+            {word:'绵延',pinyin:'mián yán',en:'extend continuously',sentence:'人类就世世代代绵延下来。',sentenceEn:'Humanity extended continuously from generation to generation.'},
+            {word:'孤独',pinyin:'gū dú',en:'lonely',sentence:'感到非常孤独。',sentenceEn:'Felt very lonely.'}
+          ],
           authorBio: {
             cn: "袁珂（1916—2001），四川新都人，神话学家。著有《中国古代神话》《山海经校注》等。",
             en: "Yuan Ke (1916–2001) was from Xindu, Sichuan. Mythologist and author of Ancient Chinese Myths and Annotated Classic of Mountains and Seas."
@@ -1379,7 +1727,7 @@ var TB_G7S1 = {
           ],
           textEn: [
             "After heaven and earth were created, the sky had sun, moon, and stars; the earth had mountains, rivers, and creatures — but no humans.",
-            "At some unknown time, a powerful goddess named Nüwa appeared. Walking across the vast wilderness, she felt lonely. She felt something should be added to bring the world to life.",
+            "At some unknown time, a powerful goddess named Nüwa appeared. One day, the great goddess Nüwa walked across the thick, wild wilderness and felt terribly lonely. She felt that something should be added to make heaven and earth burst with vitality.",
             "She scooped yellow earth from the pool's edge, mixed it with water, and kneaded a little doll-like figure. She placed it on the ground. Amazingly, the moment this clay figure touched the ground, it came alive and cried: 'Mama!'",
             "She wanted to fill the whole earth with these lively creatures. But the earth was too vast. Finally, she devised a brilliant method — she pulled a vine from a cliff, dipped it in muddy water, and flung it onto the ground. Wherever the mud droplets fell, little people appeared, jumping and calling.",
             "Later she divided them into male and female, letting them create their own offspring. Thus humanity continued from generation to generation."
@@ -1399,10 +1747,21 @@ var TB_G7S1 = {
           id: 22,
           title: "寓言四则",
           titleEn: "Four Fables",
+          difficulty: 5,
           author: "《伊索寓言》/《吕氏春秋》/《列子》",
           authorEn: "Aesop's Fables / Lüshi Chunqiu / Liezi",
           source: "分别选自《伊索寓言》《吕氏春秋·慎行论·察传》和《列子·天瑞》。",
           sourceEn: "Selected from Aesop's Fables, Lüshi Chunqiu, and Liezi.",
+          vocabWords: [
+            {word:'雕像',pinyin:'diāo xiàng',en:'sculpture; statue',sentence:'赫耳墨斯来到一个雕像者的店里。',sentenceEn:'Hermes came to a sculptor shop.'},
+            {word:'虚荣',pinyin:'xū róng',en:'vanity',sentence:'赫耳墨斯的虚荣心使他自取其辱。',sentenceEn:'The vanity of Hermes brought him humiliation.'},
+            {word:'杞人忧天',pinyin:'qǐ rén yōu tiān',en:'needless anxiety',sentence:'杞国有人忧天地崩坠。',sentenceEn:'In the state of Qi, someone worried the sky would collapse.'},
+            {word:'穿井得一人',pinyin:'chuān jǐng dé yī rén',en:'digging a well yields a person',sentence:'宋之丁氏，家无井而出溉汲。',sentenceEn:'The Ding family of Song had no well and went out to draw water.'},
+            {word:'道听途说',pinyin:'dào tīng tú shuō',en:'hearsay',sentence:'求闻之若此，不若无闻也。',sentenceEn:'Seeking news like this is worse than hearing nothing at all.'}
+          ],
+          grammarPoints: [
+            {point:'寓言寓意',pointEn:'yù yán yù yì',example:'fable and its moral',exampleEn:'蚊子打败了狮子，却被蜘蛛网粘住了。',explanation:'The mosquito defeated the lion but got stuck in a spider web.',explanationEn:'通过简短的故事传达深刻的道理'}
+          ],
           authorBio: {
             cn: "伊索（约公元前6世纪），古希腊作家。《吕氏春秋》为先秦杂家代表著作。《列子》旧题列御寇著，今本八篇。",
             en: "Aesop (c. 6th century BCE) was an ancient Greek writer. Lüshi Chunqiu is a pre-Qin miscellaneous school work. Liezi is attributed to Lie Yukou and contains eight chapters."
@@ -1419,7 +1778,7 @@ var TB_G7S1 = {
             "杞人忧天\n杞国有人忧天地崩坠，身亡所寄，废寝食者。又有忧彼之所忧者，因往晓之，曰：\u201C天，积气耳，亡处亡气。若屈伸呼吸，终日在天中行止，奈何忧崩坠乎？\u201D其人舍然大喜，晓之者亦舍然大喜。"
           ],
           textEn: [
-            "Hermes and the Sculptor\nHermes wanted to know how much he was esteemed, so he disguised himself and visited a sculptor's shop. He asked the price of Zeus's statue — 'One silver coin.' Hera's? 'A bit more.' His own? 'If you buy those two, this one's free.'\nThis story applies to those who are vain but not respected.",
+            "Hermes and the Sculptor\nHermes wanted to know how much he was esteemed among mortals, so he disguised himself as a mortal and came to a sculptor's shop. He saw a statue of Zeus and asked: 'How much is it worth?' 'One silver coin.' Hermes then asked how much the statue of Hera was worth. 'A bit more,' was the reply. Later, seeing a statue of himself, he asked: 'How much is this one?' 'If you buy those two, this one comes free as a bonus.'\nThis story applies to those who are vain but not respected by others.",
             "The Mosquito and the Lion\nA mosquito told the lion: 'I'm not afraid of you.' It charged, biting the lion's hairless nose. The lion scratched his own face raw. The victorious mosquito flew away but got caught in a spider's web.\nThis applies to those who defeat the great but are beaten by the small.",
             "Getting a Person by Digging a Well\nThe Ding family of Song had no well and kept one person outside to draw water. When they dug a well, Ding said: 'By digging a well, I gained a person.' Someone passed it on as: 'The Dings found a person in their well.' The Duke of Song investigated, and Ding explained: 'I gained one person's labor, not a person from the well.' Seeking news like this is worse than having no news at all.",
             "The Man of Qi Who Worried About the Sky\nIn Qi, a man worried that heaven and earth would collapse, losing sleep and appetite. Someone went to explain: 'The sky is just accumulated air — why worry about it collapsing?' The man was greatly relieved, and the explainer was also greatly relieved."
@@ -1448,6 +1807,13 @@ var TB_G7S1 = {
       writing: {
         title: "发挥联想和想象",
         titleEn: "Use Association and Imagination",
+        vocabWords: [
+          {word:'联想',pinyin:'lián xiǎng',en:'association',sentence:'联想是由一事物想到另一事物。',sentenceEn:'Association is thinking of one thing from another.'},
+          {word:'想象',pinyin:'xiǎng xiàng',en:'imagination',sentence:'想象是在头脑中创造新的形象。',sentenceEn:'Imagination is creating new images in the mind.'},
+          {word:'触景生情',pinyin:'chù jǐng shēng qíng',en:'scenery stirs feelings',sentence:'触景生情是常用的写法。',sentenceEn:'Being moved by scenery is a common writing technique.'},
+          {word:'新颖',pinyin:'xīn yǐng',en:'novel; fresh',sentence:'联想和想象要有新意。',sentenceEn:'Association and imagination should be novel.'},
+          {word:'创造',pinyin:'chuàng zào',en:'create',sentence:'想象力是创造性思维的重要源泉。',sentenceEn:'Imagination is an important source of creative thinking.'}
+        ],
         content: {
           cn: "联想是由一事物想到与之相关的另一事物，想象则是在头脑中创造出未曾有过的新形象。写作时善于运用联想和想象，可以思接千载，视通万里。注意联想要自然恰切，想象要合情合理，并且要有新意。",
           en: "Association means connecting related things; imagination creates entirely new images. Using both in writing connects across millennia and distances. Association should be natural, imagination reasonable, and both should be fresh and original."
@@ -1456,6 +1822,13 @@ var TB_G7S1 = {
       readWrite: [{
         title: "代词",
         titleEn: "Pronouns",
+        vocabWords: [
+          {word:'代词',pinyin:'dài cí',en:'pronoun',sentence:'代词是用来代替其他词语的词。',sentenceEn:'Pronouns are words used to replace other words.'},
+          {word:'人称代词',pinyin:'rén chēng dài cí',en:'personal pronoun',sentence:'我、你、他、她是人称代词。',sentenceEn:'I, you, he, she are personal pronouns.'},
+          {word:'指示代词',pinyin:'zhǐ shì dài cí',en:'demonstrative pronoun',sentence:'这、那、这里、那里是指示代词。',sentenceEn:'This, that, here, there are demonstrative pronouns.'},
+          {word:'疑问代词',pinyin:'yí wèn dài cí',en:'interrogative pronoun',sentence:'谁、什么、怎样是疑问代词。',sentenceEn:'Who, what, how are interrogative pronouns.'},
+          {word:'指代',pinyin:'zhǐ dài',en:'refer to',sentence:'代词可以指代人、事物或位置。',sentenceEn:'Pronouns can refer to people, things, or locations.'}
+        ],
         content: {
           cn: "代词包括人称代词（我、你、他、她等）、指示代词（这、那、这样、那样等）和疑问代词（谁、什么、怎样、哪等）。",
           en: "Pronouns include personal (I, you, he, she), demonstrative (this, that), and interrogative (who, what, how, which) pronouns."
@@ -1464,6 +1837,13 @@ var TB_G7S1 = {
       comprehensiveLearning: {
         title: "文学部落",
         titleEn: "Literary Colony",
+        vocabWords: [
+          {word:'文学',pinyin:'wén xué',en:'literature',sentence:'文学是语言的艺术。',sentenceEn:'Literature is the art of language.'},
+          {word:'部落',pinyin:'bù luò',en:'colony; community',sentence:'组建属于我们的文学部落。',sentenceEn:'Build a literary community that belongs to us.'},
+          {word:'创作',pinyin:'chuàng zuò',en:'create; write',sentence:'鼓励学生进行文学创作。',sentenceEn:'Encourage students to engage in literary creation.'},
+          {word:'分享',pinyin:'fēn xiǎng',en:'share',sentence:'分享文学带来的诗意与美。',sentenceEn:'Share the poetry and beauty that literature brings.'},
+          {word:'审美',pinyin:'shěn měi',en:'aesthetic appreciation',sentence:'提高审美品位。',sentenceEn:'Improve aesthetic taste.'}
+        ],
         content: {
           cn: "文学是语言的艺术，以其独特的美感形式，陶冶性情，滋润心灵。与班级同学共同组建文学兴趣小组，分成小说、戏剧、诗歌、散文等组别，开展读书写作交流会、布置文学角、创立班刊等活动。",
           en: "Literature is the art of language, cultivating character and nourishing the soul. Form literary interest groups with classmates in fiction, drama, poetry, and prose. Hold reading exchanges, set up a literary corner, and create a class journal."
@@ -1474,6 +1854,13 @@ var TB_G7S1 = {
         titleEn: "Classic Reading Guide",
         subtitle: "《西游记》——精读和跳读",
         subtitleEn: "Journey to the West — Close Reading and Skimming",
+        vocabWords: [
+          {word:'名著',pinyin:'míng zhù',en:'masterpiece',sentence:'阅读经典名著能开阔视野。',sentenceEn:'Reading classic masterpieces broadens horizons.'},
+          {word:'导读',pinyin:'dǎo dú',en:'guided reading',sentence:'名著导读帮助理解作品。',sentenceEn:'Guided reading helps understand works.'},
+          {word:'鉴赏',pinyin:'jiàn shǎng',en:'appreciate; appraise',sentence:'学会鉴赏文学作品。',sentenceEn:'Learn to appreciate literary works.'},
+          {word:'阅读方法',pinyin:'yuè dú fāng fǎ',en:'reading method',sentence:'掌握不同的阅读方法很重要。',sentenceEn:'Mastering different reading methods is important.'},
+          {word:'理解',pinyin:'lǐ jiě',en:'understand',sentence:'深入理解作品的思想内涵。',sentenceEn:'Deeply understand the intellectual content of works.'}
+        ],
         content: {
           cn: "《西游记》是中国古典文学中最富有想象力的作品之一。小说围绕唐僧师徒四人前往西天取经的主线，写了许多降妖除魔的故事。读此书适合\u201C精读\u201D与\u201C跳读\u201D并用：精读即细读、精思、鉴赏精彩段落；跳读即跳过无关或不精彩的内容以提高效率。",
           en: "Journey to the West is one of the most imaginative works in Chinese classical literature. It follows the monk Tripitaka and his three disciples on their westward journey, encountering many demons. Reading it is best done with both 'close reading' and 'skimming': close reading means careful appreciation of brilliant passages; skimming means skipping irrelevant or unexciting content for efficiency."
@@ -1487,6 +1874,13 @@ var TB_G7S1 = {
           authorEn: "Liu Yuxi",
           dynasty: "唐",
           dynastyEn: "Tang",
+          vocabWords: [
+            {word:'秋日',pinyin:'qiū rì',en:'autumn day',sentence:'我言秋日胜春朝。',sentenceEn:'I say autumn days surpass spring mornings.'},
+            {word:'寂寥',pinyin:'jì liáo',en:'desolate; lonely',sentence:'自古逢秋悲寂寥。',sentenceEn:'Since ancient times, encountering autumn brings sadness and desolation.'},
+            {word:'一鹤',pinyin:'yī hè',en:'a single crane',sentence:'晴空一鹤排云上。',sentenceEn:'A single crane soars through the clouds into the clear sky.'},
+            {word:'碧霄',pinyin:'bì xiāo',en:'azure sky',sentence:'便引诗情到碧霄。',sentenceEn:'Drawing poetic feeling up to the azure sky.'},
+            {word:'乐观',pinyin:'lè guān',en:'optimistic',sentence:'诗人以乐观的态度赞美秋天。',sentenceEn:'The poet praises autumn with an optimistic attitude.'}
+          ],
           text: "自古逢秋悲寂寥，我言秋日胜春朝。\n晴空一鹤排云上，便引诗情到碧霄。",
           textEn: "Since ancient times, autumn has evoked sorrow,\nBut I say autumn surpasses spring mornings.\nA single crane soars through clouds in the clear sky,\nDrawing poetic inspiration to the azure heavens."
         },
@@ -1497,6 +1891,13 @@ var TB_G7S1 = {
           authorEn: "Li Shangyin",
           dynasty: "唐",
           dynastyEn: "Tang",
+          vocabWords: [
+            {word:'巴山',pinyin:'bā shān',en:'Ba Mountains',sentence:'君问归期未有期，巴山夜雨涨秋池。',sentenceEn:'You ask when I return, but there is no set date; the night rain on Ba Mountains swells the autumn pools.'},
+            {word:'归期',pinyin:'guī qī',en:'date of return',sentence:'君问归期未有期。',sentenceEn:'You ask when I return, but there is no set date.'},
+            {word:'秋池',pinyin:'qiū chí',en:'autumn pool',sentence:'巴山夜雨涨秋池。',sentenceEn:'Night rain on Ba Mountains swells the autumn pools.'},
+            {word:'西窗',pinyin:'xī chuāng',en:'west window',sentence:'何当共剪西窗烛。',sentenceEn:'When can we trim the candles at the west window together?'},
+            {word:'却话',pinyin:'què huà',en:'then talk about',sentence:'却话巴山夜雨时。',sentenceEn:'And then talk about this night of rain on Ba Mountains.'}
+          ],
           text: "君问归期未有期，巴山夜雨涨秋池。\n何当共剪西窗烛，却话巴山夜雨时。",
           textEn: "You ask when I'll return — no date is set;\nNight rain on Ba Mountain fills the autumn pool.\nWhen shall we trim candles by the western window,\nAnd talk of this night of rain on Ba Mountain?"
         },
@@ -1507,6 +1908,13 @@ var TB_G7S1 = {
           authorEn: "Lu You",
           dynasty: "宋",
           dynastyEn: "Song",
+          vocabWords: [
+            {word:'僵卧',pinyin:'jiāng wò',en:'lying stiff in bed',sentence:'僵卧孤村不自哀。',sentenceEn:'Lying stiff in a lonely village, I do not feel sorry for myself.'},
+            {word:'戍轮台',pinyin:'shù lún tái',en:'guard the frontier',sentence:'尚思为国戍轮台。',sentenceEn:'I still think of guarding the frontier for my country.'},
+            {word:'铁马',pinyin:'tiě mǎ',en:'armored horses',sentence:'夜阑卧听风吹雨，铁马冰河入梦来。',sentenceEn:'Late at night, lying and listening to wind and rain, armored horses and frozen rivers enter my dreams.'},
+            {word:'夜阑',pinyin:'yè lán',en:'deep in the night',sentence:'夜阑卧听风吹雨。',sentenceEn:'Late at night, lying and listening to wind and rain.'},
+            {word:'爱国',pinyin:'ài guó',en:'patriotic',sentence:'诗人在风雨之夜抒发爱国之情。',sentenceEn:'The poet expresses patriotic feelings on a stormy night.'}
+          ],
           text: "僵卧孤村不自哀，尚思为国戍轮台。\n夜阑卧听风吹雨，铁马冰河入梦来。",
           textEn: "Lying stiff in a lonely village, I do not grieve,\nStill dreaming of guarding the frontier for my country.\nDeep in the night, listening to wind and rain,\nArmored horses crossing frozen rivers enter my dreams."
         },
@@ -1517,6 +1925,13 @@ var TB_G7S1 = {
           authorEn: "Tan Sitong",
           dynasty: "清",
           dynastyEn: "Qing",
+          vocabWords: [
+            {word:'潼关',pinyin:'tóng guān',en:'Tongguan Pass',sentence:'终古高云簇此城。',sentenceEn:'Since ancient times, lofty clouds cluster around this fortress.'},
+            {word:'秋风',pinyin:'qiū fēng',en:'autumn wind',sentence:'秋风吹散马蹄声。',sentenceEn:'The autumn wind scatters the sound of hoofbeats.'},
+            {word:'河流',pinyin:'hé liú',en:'river',sentence:'河流大野犹嫌束。',sentenceEn:'The river across the great plain still finds it confining.'},
+            {word:'山势',pinyin:'shān shì',en:'mountain terrain',sentence:'山入潼关不解平。',sentenceEn:'Mountains entering Tongguan do not know how to be flat.'},
+            {word:'豪情',pinyin:'háo qíng',en:'heroic spirit',sentence:'少年诗人的豪情壮志。',sentenceEn:'The heroic spirit and great ambition of the young poet.'}
+          ],
           text: "终古高云簇此城，秋风吹散马蹄声。\n河流大野犹嫌束，山入潼关不解平。",
           textEn: "Since ancient times, high clouds cluster around this city;\nAutumn wind scatters the sound of hoofbeats.\nThe river through vast plains still feels constrained;\nMountains entering Tongguan know not how to be level."
         }

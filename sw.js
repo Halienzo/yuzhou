@@ -1,17 +1,26 @@
 /**
- * Service Worker for 字道 ZiDao
+ * Service Worker for 语宙 YuZhou
  * Caches core assets for offline use
  * Textbook data files cached on-demand (not at install)
  */
-const CACHE_NAME = 'zidao-v11';
+const CACHE_NAME = 'yuzhou-v28';
 const CORE_ASSETS = [
   './Chinese chars.html',
   './review_data.js',
-  './review_en.js'
+  './review_en.js',
+  './hsk_index.js',
+  './yujing_data.js'
 ];
 
-/* Pattern for textbook data files — cached on first access, not at install */
+/* Pattern for textbook and HSK data files — cached on first access, not at install */
 const TEXTBOOK_PATTERN = /textbook_g\d+s\d+\.js$/;
+const HSK_PATTERN = /hsk_(index|data_\d+)\.js$/;
+const BRIDGE_PATTERN = /bridge_data\.js$/;
+const XCSC_PATTERN = /xcsc_(data|composition_data)\.js$/;
+const ZK_PATTERN = /zhongkao_(data|composition_data)\.js$/;
+const ANALYSIS_PATTERN = /analysis_g\d+s\d+\.js$/;
+const CT_PATTERN = /ct_g\d+s\d+\.js$/;
+const WT_PATTERN = /wt_g\d+s\d+\.js$/;
 
 /* Install: cache core assets only */
 self.addEventListener('install', event => {
@@ -58,8 +67,8 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  /* On-demand caching for textbook data files — network-first, cache for offline */
-  if (TEXTBOOK_PATTERN.test(url.pathname)) {
+  /* On-demand caching for textbook, HSK, and bridge data files — network-first, cache for offline */
+  if (TEXTBOOK_PATTERN.test(url.pathname) || HSK_PATTERN.test(url.pathname) || BRIDGE_PATTERN.test(url.pathname) || XCSC_PATTERN.test(url.pathname) || ZK_PATTERN.test(url.pathname) || ANALYSIS_PATTERN.test(url.pathname) || CT_PATTERN.test(url.pathname) || WT_PATTERN.test(url.pathname)) {
     event.respondWith(
       fetch(event.request).then(response => {
         if (response.ok) {

@@ -20,9 +20,21 @@ units: [
   lessons: [
     {
       id: 1, title: "\u793e\u620f", titleEn: "Village Opera",
+      difficulty: 5,
       author: "\u9c81\u8fc5", authorEn: "Lu Xun",
       source: "\u300a\u5450\u558a\u300b\uff08\u300a\u9c81\u8fc5\u5168\u96c6\u300b\u7b2c\u4e00\u5377\uff0c\u4eba\u6c11\u6587\u5b66\u51fa\u7248\u793e2005\u5e74\u7248\uff09",
-      sourceEn: "Selected fromErta (Complete Works of Lu Xun, Vol. 1, People's Literature Publishing House, 2005 edition)",
+      sourceEn: "Selected from Call to Arms (Complete Works of Lu Xun, Vol. 1, People's Literature Publishing House, 2005 edition)",
+      vocabWords: [
+        {word:'消夏',pinyin:'xiāo xià',en:'to spend the summer; to escape the heat',sentence:'夏间便大抵回到母家去消夏。',sentenceEn:'In summer she would usually go back to her maiden home to escape the heat.'},
+        {word:'撺掇',pinyin:'cuān duo',en:'to urge; to egg on',sentence:'十几个别的少年也大悟，立刻撺掇起来。',sentenceEn:'A dozen other boys understood at once and began egging everyone on.'},
+        {word:'朦胧',pinyin:'méng lóng',en:'hazy; dim',sentence:'月色便朦胧在这水气里。',sentenceEn:'The moonlight became hazy in the mist over the water.'},
+        {word:'踊跃',pinyin:'yǒng yuè',en:'eager; enthusiastic',sentence:'淡黑的起伏的连山，仿佛是踊跃的铁的兽脊似的。',sentenceEn:'The undulating dark hills looked like the leaping iron spines of beasts.'},
+        {word:'皎洁',pinyin:'jiǎo jié',en:'bright and clean (of moonlight)',sentence:'一离赵庄，月光又显得格外的皎洁。',sentenceEn:'Once we left Zhaozhuang, the moonlight seemed especially bright and clean.'}
+      ],
+      grammarPoints: [
+        {point:'多种表达方式',pointEn:'duō zhǒng biǎo dá fāng shì',example:'multiple modes of expression',exampleEn:'两岸的豆麦和河底的水草所发散出来的清香，夹杂在水气中扑面的吹来。',explanation:'The fragrance of beans and wheat from both banks and waterweed from the river bottom mingled in the mist and blew into our faces.',explanationEn:'综合运用叙述、描写、抒情等多种表达方式，使文章更加生动感人。'},
+        {point:'侧面烘托',pointEn:'cè miàn hōng tuō',example:'indirect portrayal',exampleEn:'那航船，就像一条大白鱼背着一群孩子在浪花里蹿。',explanation:'The boat was like a great white fish carrying a group of children and leaping through the spray.',explanationEn:'通过比喻和侧面描写来衬托人物心情或环境氛围。'}
+      ],
       authorBio: {
         cn: "\u9c81\u8fc5\uff081881\u20141936\uff09\uff0c\u539f\u540d\u5468\u6811\u4eba\uff0c\u5b57\u8c6b\u624d\uff0c\u6d59\u6c5f\u7ecd\u5174\u4eba\uff0c\u4e2d\u56fd\u73b0\u4ee3\u6587\u5b66\u7684\u5960\u57fa\u4eba\u3002\u4ee3\u8868\u4f5c\u6709\u5c0f\u8bf4\u96c6\u300a\u5450\u558a\u300b\u300a\u5f77\u5fa8\u300b\u7b49\u3002",
         en: "Lu Xun (1881\u20131936), original name Zhou Shuren, courtesy name Yucai, was from Shaoxing, Zhejiang. He is the founder of modern Chinese literature. His representative works include the story collections Call to Arms and Wandering."
@@ -46,7 +58,7 @@ units: [
         "\u771f\u7684\uff0c\u4e00\u76f4\u5230\u73b0\u5728\uff0c\u6211\u5b9e\u5728\u518d\u6ca1\u6709\u5403\u5230\u90a3\u591c\u4f3c\u7684\u597d\u8c46\uff0c\u2014\u2014\u4e5f\u4e0d\u518d\u770b\u5230\u90a3\u591c\u4f3c\u7684\u597d\u620f\u4e86\u3002"
       ],
       textEn: [
-        "It was the custom in our town of Lu Zhen that married daughters, if they were not yet the heads of their households, would mostly go back to their mothers\u2019 homes for the summer. My grandmother was still healthy then, but my mother had already taken on some household duties, so summer visits had to be short.",
+        "It was the custom in our town of Lu Zhen that married daughters, if they were not yet the heads of their households, would mostly go back to their mothers\u2019 homes for the summer. My grandmother was still healthy then, but my mother had already taken on some household duties, so summer visits had to be short. She could only spare a few days after the tomb-sweeping was done, and every year I would follow her to stay at my maternal grandmother\u2019s house. The place was called Pingqiao Village \u2014 a remote little riverside hamlet not far from the sea.",
         "My playmates were many young friends, who, because a guest had come from afar, had all gotten permission from their parents to reduce their work and keep me company in games.",
         "Our daily activities mainly consisted of digging for earthworms, threading them on copper-wire hooks, and lying by the riverbank to fish for shrimp.",
         "What I most looked forward to there was going to Zhao Village to watch the opera.",
@@ -62,9 +74,9 @@ units: [
         {id: 1, term: "\u6d88\u590f", definition: "\u907f\u6691\u3002", definitionEn: "To escape the summer heat."},
         {id: 2, term: "\u5f52\u7701(x\u01d0ng)", definition: "\u56de\u5bb6\u63a2\u671b\u7236\u6bcd\u3002\u7701\uff0c\u63a2\u671b\u3001\u95ee\u5019\u3002", definitionEn: "To visit parents. Sheng means to visit."},
         {id: 3, term: "\u884c(h\u00e1ng)\u8f88", definition: "\u8f88\u5206\u3002", definitionEn: "Seniority in the family."},
-        {id: 4, term: "\u6491\u6387(cu\u0101nduo)", definition: "\u4ece\u65c1\u9f13\u52a8\u4eba\u505a\u67d0\u4e8b\u3002", definitionEn: "To egg someone on; to urge from the side."},
+        {id: 4, term: "\u64ba\u6387(cu\u0101nduo)", definition: "\u4ece\u65c1\u9f13\u52a8\u4eba\u505a\u67d0\u4e8b\u3002", definitionEn: "To egg someone on; to urge from the side."},
         {id: 5, term: "\u51eb(f\u00fa)\u6c34", definition: "\u6e38\u6cf3\u3002", definitionEn: "To swim."},
-        {id: 6, term: "\u6a39(l\u01d4)", definition: "\u6bd4\u6868\u957f\u800c\u5927\u7684\u5212\u8239\u5de5\u5177\u3002", definitionEn: "A large oar used for rowing."},
+        {id: 6, term: "\u6a79(l\u01d4)", definition: "\u6bd4\u6868\u957f\u800c\u5927\u7684\u5212\u8239\u5de5\u5177\u3002", definitionEn: "A large oar used for rowing."},
         {id: 7, term: "\u81ea\u5931", definition: "\u6307\u542c\u5f97\u51fa\u795e\u800c\u5fd8\u4e86\u81ea\u5df1\u3002", definitionEn: "Lost in reverie; forgetting oneself."},
         {id: 8, term: "\u65fa\u76f8", definition: "\u8302\u76db\u3002", definitionEn: "Thriving; lush."}
       ],
@@ -86,9 +98,17 @@ units: [
     },
     {
       id: 2, title: "\u56de\u5ef6\u5b89", titleEn: "Return to Yan\u2019an",
+      difficulty: 5,
       author: "\u8d3a\u656c\u4e4b", authorEn: "He Jingzhi",
       source: "\u300a\u8d3a\u656c\u4e4b\u8bd7\u9009\u300b\uff08\u4eba\u6c11\u6587\u5b66\u51fa\u7248\u793e2004\u5e74\u7248\uff09",
       sourceEn: "Selected from Poems of He Jingzhi (People\u2019s Literature Publishing House, 2004 edition)",
+      vocabWords: [
+        {word:'信天游',pinyin:'xìn tiān yóu',en:'a folk song style of northern Shaanxi',sentence:'全诗采用陕北民歌信天游的形式。',sentenceEn:'The entire poem uses the Shaanxi folk song form of xin tian you.'},
+        {word:'糜子',pinyin:'méi zi',en:'broomcorn millet',sentence:'东山的糜子西山的谷。',sentenceEn:'Broomcorn millet on the eastern hills, grain on the western hills.'},
+        {word:'满窑',pinyin:'mǎn yáo',en:'a full cave dwelling',sentence:'满窑里围得不透风。',sentenceEn:'The cave dwelling was packed so tight that no breeze could get through.'},
+        {word:'脑畔',pinyin:'nǎo pàn',en:'hillside; slope (Shaanxi dialect)',sentence:'杨家岭的红旗啊高高地飘，革命万里起高潮。',sentenceEn:'The red flag at Yangjia Hill flies high, revolution surges across ten thousand miles.'},
+        {word:'几回回',pinyin:'jǐ huí huí',en:'time after time (dialect)',sentence:'几回回梦里回延安，双手搂定宝塔山。',sentenceEn:'Time after time I dreamed of returning to Yan’an, embracing Pagoda Hill with both arms.'}
+      ],
       authorBio: {
         cn: "\u8d3a\u656c\u4e4b\uff081924\u2014\u2014\uff09\uff0c\u5c71\u4e1c\u5cef\u53bf\u4eba\uff0c\u8bd7\u4eba\u3001\u5267\u4f5c\u5bb6\u3002\u4ee3\u8868\u4f5c\u6709\u6b4c\u5267\u300a\u767d\u6bdb\u5973\u300b\uff08\u4e0e\u4e01\u6bd5\u5408\u4f5c\uff09\u7b49\u3002",
         en: "He Jingzhi (1924\u2013), from Yi County, Shandong. Poet and dramatist. Representative works include the opera The White-Haired Girl (co-authored with Ding Yi)."
@@ -117,7 +137,7 @@ units: [
         {id: 1, term: "\u51e0\u56de\u56de", definition: "\u65b9\u8a00\uff0c\u4e00\u56de\u53c8\u4e00\u56de\u3002", definitionEn: "Dialect: again and again."},
         {id: 2, term: "\u5b9d\u5854\u5c71", definition: "\u5728\u5ef6\u5b89\u57ce\u4e1c\u5357\uff0c\u56e0\u5c71\u4e0a\u5efa\u6709\u5b9d\u5854\u800c\u5f97\u540d\u3002", definitionEn: "Pagoda Hill, southeast of Yan\u2019an, named for its pagoda."},
         {id: 3, term: "\u767d\u7f8a\u809a(d\u01d4)\u624b\u5dfe", definition: "\u767d\u6bdb\u5dfe\u3002", definitionEn: "White towel, resembling a turned-out sheep\u2019s stomach."},
-        {id: 4, term: "\u7cd3(m\u00e9i)\u5b50", definition: "\u4e00\u79cd\u5f62\u72b6\u50cf\u5c0f\u7c73\u3001\u6ca1\u6709\u9ecf\u6027\u7684\u9ecd\u7c7b\u8c37\u7269\u3002", definitionEn: "A grain similar to millet but non-glutinous."},
+        {id: 4, term: "\u7cdc(m\u00e9i)\u5b50", definition: "\u4e00\u79cd\u5f62\u72b6\u50cf\u5c0f\u7c73\u3001\u6ca1\u6709\u9ecf\u6027\u7684\u9ecd\u7c7b\u8c37\u7269\u3002", definitionEn: "A grain similar to millet but non-glutinous."},
         {id: 5, term: "\u6768\u5bb6\u5cad", definition: "\u5ef6\u5b89\u57ce\u5317\u7684\u4e00\u4e2a\u6751\u5b50\uff0c1938\u5e7411\u6708\u52301947\u5e743\u6708\u4e2d\u5171\u4e2d\u592e\u7684\u6240\u5728\u5730\u3002", definitionEn: "A village north of Yan\u2019an, site of the CPC Central Committee from November 1938 to March 1947."}
       ],
       thinkExplore: [
@@ -137,9 +157,21 @@ units: [
     },
     {
       id: 3, title: "\u5b89\u585e\u8170\u9f13", titleEn: "Ansai Waist Drum",
+      difficulty: 4,
       author: "\u5218\u6210\u7ae0", authorEn: "Liu Chengzhang",
       source: "1986\u5e7410\u67083\u65e5\u300a\u4eba\u6c11\u65e5\u62a5\u300b",
       sourceEn: "People\u2019s Daily, October 3, 1986",
+      vocabWords: [
+        {word:'亢奋',pinyin:'kàng fèn',en:'extremely excited; exhilarated',sentence:'使困倦的世界立即变得亢奋了。',sentenceEn:'It immediately turned the weary world into a state of exhilaration.'},
+        {word:'羁绊',pinyin:'jī bàn',en:'fetters; restraints',sentence:'容不得束缚，容不得羁绊，容不得闭塞。',sentenceEn:'It cannot stand confinement, cannot stand restraints, cannot stand isolation.'},
+        {word:'蓦然',pinyin:'mò rán',en:'suddenly; abruptly',sentence:'山崖蓦然变成牛皮鼓面了。',sentenceEn:'The cliff suddenly became a cowhide drumhead.'},
+        {word:'磅礴',pinyin:'páng bó',en:'majestic; boundless',sentence:'居然可以释放出那么奇伟磅礴的能量。',sentenceEn:'They could actually release such magnificent and boundless energy.'},
+        {word:'戛然而止',pinyin:'jiá rán ér zhǐ',en:'to come to an abrupt stop',sentence:'当它戛然而止的时候，世界出奇地寂静。',sentenceEn:'When it came to an abrupt stop, the world was remarkably silent.'}
+      ],
+      grammarPoints: [
+        {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'骤雨一样，是急促的鼓点；旋风一样，是飞扬的流苏。',explanation:'Like a sudden rainstorm are the rapid drumbeats; like a whirlwind are the flying tassels.',explanationEn:'连续使用排比句式，增强语言气势，营造出激昂奔放的节奏感。'},
+        {point:'反复',pointEn:'fǎn fù',example:'repetition',exampleEn:'好一个安塞腰鼓！',explanation:'What a magnificent Ansai waist drum!',explanationEn:'反复出现的感叹句贯穿全文，起到强调主题、深化情感的作用。'}
+      ],
       authorBio: {
         cn: "\u5218\u6210\u7ae0\uff081937\u2014\u2014\uff09\uff0c\u9655\u897f\u5ef6\u5b89\u4eba\uff0c\u6563\u6587\u5bb6\u3002",
         en: "Liu Chengzhang (1937\u2013), from Yan\u2019an, Shaanxi. Essayist."
@@ -182,9 +214,17 @@ units: [
     },
     {
       id: 4, title: "\u706f\u7b3c", titleEn: "Lanterns",
+      difficulty: 4,
       author: "\u5434\u4f2f\u7bab", authorEn: "Wu Boxiao",
       source: "\u300a\u5434\u4f2f\u7bab\u6563\u6587\u9009\u300b\uff08\u4eba\u6c11\u6587\u5b66\u51fa\u7248\u793e1983\u5e74\u7248\uff09",
       sourceEn: "Selected Prose of Wu Boxiao (People\u2019s Literature Publishing House, 1983 edition)",
+      vocabWords: [
+        {word:'斡旋',pinyin:'wò xuán',en:'to mediate; to negotiate',sentence:'祖父好，在路上轻易不提斡旋着的情事。',sentenceEn:'Grandfather was kind and would not easily mention the disputes he was mediating.'},
+        {word:'怅惘',pinyin:'chàng wǎng',en:'melancholy; wistful',sentence:'深深感到怅惘。',sentenceEn:'I felt deeply wistful.'},
+        {word:'熙熙然',pinyin:'xī xī rán',en:'warm and peaceful',sentence:'那种熙熙然庭院的静穆。',sentenceEn:'That warm and peaceful tranquility of the courtyard.'},
+        {word:'锵然',pinyin:'qiāng rán',en:'with a clear ringing sound',sentence:'遍悬珠玉金银而风至锵然。',sentenceEn:'Hung all over with jewels and gold that rang clearly when the wind blew.'},
+        {word:'燎原',pinyin:'liáo yuán',en:'to spread like wildfire',sentence:'正萧萧班马鸣也，我愿就是那灯笼下的马前卒。',sentenceEn:'As war horses neigh in farewell, I would be the foot soldier carrying a lantern.'}
+      ],
       authorBio: {
         cn: "\u5434\u4f2f\u7bab\uff081906\u20141982\uff09\uff0c\u539f\u540d\u7199\u6210\uff0c\u5c71\u4e1c\u83b1\u829c\u4eba\uff0c\u6563\u6587\u5bb6\u3001\u6559\u80b2\u5bb6\u3002",
         en: "Wu Boxiao (1906\u20131982), original name Xicheng, from Laiwu, Shandong. Essayist and educator."
@@ -204,7 +244,7 @@ units: [
         "Children love fire and light, as if by nature. Mention a lantern, and I think of dogs barking in the three-family village, and the old man scolding his dog.",
         "I remember my grandfather, who served as an upright village squire, was often invited to the town five li away to settle disputes, gone all day, always returning late. Accompanying us, besides Old Li\u2019s chatter, were a saber and a lantern.",
         "\u2018It\u2019s dark out \u2014 take the lantern.\u2019 Since leaving home, I haven\u2019t heard such words from a loving mother for a long time.",
-        "Most stirring is the frontier military camp, horns blowing through connected encampments, and the general examining his sword by lantern light late at night. Don\u2019t you hope the bold characters on that lantern read Huo Biaoyao, General Li Guang, or Minister Pei of the Tang?",
+        "Most stirring is the frontier military camp, horns blowing through connected encampments, and the general examining his sword by lantern light late at night. Don\u2019t you hope the bold characters on that lantern read Huo Piaoyao, General Li Guang, or Minister Pei of the Tang?",
         "Alas, how stirring \u2014 yet now lanterns are not enough. We should count torches, searchlights, and the blazing fire of a prairie inferno!"
       ],
       annotations: [
@@ -246,9 +286,21 @@ units: [
   lessons: [
     {
       id: 5, title: "\u5927\u81ea\u7136\u7684\u8bed\u8a00", titleEn: "The Language of Nature",
+      difficulty: 4,
       author: "\u7afa\u53ef\u6862", authorEn: "Zhu Kezhen",
       source: "\u6839\u636e\u300a\u79d1\u5b66\u5927\u4f17\u300b1963\u5e74\u7b2c1\u671f\u6539\u5199",
       sourceEn: "Adapted from Popular Science, Issue 1, 1963",
+      vocabWords: [
+        {word:'物候',pinyin:'wù hòu',en:'phenology; seasonal phenomena',sentence:'这些自然现象，我国古代劳动人民称它为物候。',sentenceEn:'Ancient Chinese working people called these natural phenomena phenology.'},
+        {word:'翩然',pinyin:'piān rán',en:'gracefully; lightly',sentence:'再过两个月，燕子翩然归来。',sentenceEn:'Two more months later, the swallows gracefully return.'},
+        {word:'销声匿迹',pinyin:'xiāo shēng nì jì',en:'to vanish without a trace',sentence:'活跃在田间草际的昆虫也都销声匿迹。',sentenceEn:'The insects active in the fields and grass all vanish without a trace.'},
+        {word:'次第',pinyin:'cì dì',en:'one after another; in order',sentence:'各种花次第开放。',sentenceEn:'Various flowers bloom one after another.'},
+        {word:'悬殊',pinyin:'xuán shū',en:'vastly different; disparity',sentence:'冬季南北温度悬殊。',sentenceEn:'In winter the temperature difference between north and south is vast.'}
+      ],
+      grammarPoints: [
+        {point:'说明顺序',pointEn:'shuō míng shùn xù',example:'order of explanation',exampleEn:'首先是纬度。经度的差异是影响物候的第二个因素。影响物候的第三个因素是高下的差异。',explanation:'First comes latitude. Longitude is the second factor. The third factor is altitude.',explanationEn:'按照由主到次的逻辑顺序说明物候现象的决定因素，条理清晰。'},
+        {point:'举例子',pointEn:'jǔ lì zi',example:'giving examples',exampleEn:'北京的物候记录，1962年的山桃、杏花、苹果的花期比1961年迟十天左右。',explanation:'Beijing phenological records show that the blooming of mountain peach, apricot, and apple in 1962 was about ten days later than in 1961.',explanationEn:'用具体的数据和实例来支持说明，增强文章的说服力和可信度。'}
+      ],
       authorBio: {
         cn: "\u7afa\u53ef\u6862\uff081890\u20141974\uff09\uff0c\u6d59\u6c5f\u4e0a\u865e\u4eba\uff0c\u6c14\u8c61\u5b66\u5bb6\u3001\u5730\u7406\u5b66\u5bb6\u3002",
         en: "Zhu Kezhen (1890\u20131974), from Shangyu, Zhejiang. Meteorologist and geographer."
@@ -265,7 +317,7 @@ units: [
       ],
       textEn: [
         "After the Start of Spring, the earth gradually awakens from slumber. Snow melts, plants sprout, flowers bloom in succession. Two months later, swallows return gracefully.",
-        "For thousands of years, working people have observed the relationship between natural phenomena \u2014 such as the flourishing and withering of plants and the migration of birds \u2014 and climate, using these observations to arrange agricultural activities.",
+        "For thousands of years, working people have observed the relationship between natural phenomena \u2014 such as the flourishing and withering of plants and the migration of birds \u2014 and climate, using these observations to arrange agricultural activities. When the apricot blossoms open, it is as if nature is sending word to hurry and plow the fields.",
         "What factors determine the arrival of phenological phenomena? First, latitude. Second, longitude differences. Third, elevation differences. Additionally, there are historical differences between ancient and modern times.",
         "Phenology is a science related to agricultural abundance. We must strengthen phenological observation, understand the language of nature, and strive for greater agricultural harvests."
       ],
@@ -287,9 +339,20 @@ units: [
     },
     {
       id: 6, title: "\u963f\u897f\u83ab\u592b\u77ed\u6587\u4e24\u7bc7", titleEn: "Two Short Essays by Asimov",
+      difficulty: 4,
       author: "\u963f\u897f\u83ab\u592b", authorEn: "Isaac Asimov",
       source: "\u300a\u65b0\u7586\u57df\u300b\uff08\u4e0a\u6d77\u79d1\u6280\u6559\u80b2\u51fa\u7248\u793e1999\u5e74\u7248\uff09",
       sourceEn: "Frontiers (Shanghai Science and Technology Education Press, 1999 edition)",
+      vocabWords: [
+        {word:'骨骼',pinyin:'gǔ gé',en:'skeleton; bones',sentence:'宣布在詹姆斯罗斯岛发现了一些骨骼化石。',sentenceEn:'They announced the discovery of some skeletal fossils on James Ross Island.'},
+        {word:'漂移',pinyin:'piāo yí',en:'to drift',sentence:'是大陆在漂移而不是恐龙自己在迁移。',sentenceEn:'It was the continents that were drifting, not the dinosaurs migrating.'},
+        {word:'褶皱',pinyin:'zhě zhòu',en:'folds; creases (geological)',sentence:'两个陆块在那里聚合并缓慢地褶皱变形。',sentenceEn:'The two landmasses converged there and slowly folded and deformed.'},
+        {word:'致密',pinyin:'zhì mì',en:'extremely dense; compact',sentence:'如果二氧化硅处于超高压的状态，那么它的原子相距很近，从而变得极为致密。',sentenceEn:'If silicon dioxide is under extreme pressure, its atoms are so close together that it becomes extremely dense.'},
+        {word:'衍射',pinyin:'yǎn shè',en:'diffraction',sentence:'利用核磁共振和X光衍射，他们确实检测到了斯石英中存在的一种原子排列。',sentenceEn:'Using NMR and X-ray diffraction, they did detect an atomic arrangement found in stishovite.'}
+      ],
+      grammarPoints: [
+        {point:'逻辑推理',pointEn:'luó jí tuī lǐ',example:'logical reasoning',exampleEn:'恐龙不可能在每一块大陆上独立生存，那么它们是如何越过大洋到另一个大陆上去的呢？',explanation:'Dinosaurs could not have evolved independently on each continent, so how did they cross the oceans?',explanationEn:'通过提出问题并逐步推理得出结论，体现科学说明文的严密逻辑。'}
+      ],
       authorBio: {
         cn: "\u963f\u897f\u83ab\u592b\uff081920\u20141992\uff09\uff0c\u7f8e\u56fd\u79d1\u666e\u4f5c\u5bb6\u3001\u79d1\u5e7b\u5c0f\u8bf4\u5bb6\u3002\u4ee3\u8868\u4f5c\u6709\u300a\u57fa\u5730\u300b\u300a\u65b0\u7586\u57df\u300b\u7b49\u3002",
         en: "Isaac Asimov (1920\u20131992), American science writer and science fiction author. Representative works include Foundation and Frontiers."
@@ -323,9 +386,17 @@ units: [
     },
     {
       id: 7, title: "\u5927\u96c1\u5f52\u6765", titleEn: "The Return of the Wild Geese",
+      difficulty: 4,
       author: "\u5229\u5965\u6ce2\u5fb7", authorEn: "Aldo Leopold",
       source: "\u300a\u6c99\u4e61\u5e74\u9274\u300b\uff08\u5409\u6797\u4eba\u6c11\u51fa\u7248\u793e1997\u5e74\u7248\uff09",
       sourceEn: "A Sand County Almanac (Jilin People\u2019s Publishing House, 1997 edition)",
+      vocabWords: [
+        {word:'缄默',pinyin:'jiān mò',en:'silence; reticence',sentence:'它还可以纠正自己的错误，继续保持它在冬季的缄默。',sentenceEn:'It can still correct its mistake and continue its winter silence.'},
+        {word:'迁徙',pinyin:'qiān xǐ',en:'to migrate',sentence:'一只定期迁徙的大雁，下定了在黑夜飞行200英里的赌注。',sentenceEn:'A goose that migrates on schedule has staked its bet on flying 200 miles through the dark.'},
+        {word:'凋零',pinyin:'diāo líng',en:'withered; fallen',sentence:'返回的雁群像凋零的枫叶一样摇晃着从空中落下来。',sentenceEn:'The returning geese fell from the sky like withered maple leaves.'},
+        {word:'喧闹',pinyin:'xuān nào',en:'noisy; clamorous',sentence:'从早到晚，它们一群一群地喧闹着往收割后的玉米地飞去。',sentenceEn:'From dawn to dusk they fly in noisy groups to the harvested cornfields.'},
+        {word:'弥漫',pinyin:'mí màn',en:'to fill; to permeate',sentence:'我们的沼泽便再次成为弥漫着青草气息的地方。',sentenceEn:'Our marsh once again becomes a place permeated with the scent of green grass.'}
+      ],
       authorBio: {
         cn: "\u5229\u5965\u6ce2\u5fb7\uff081887\u20141948\uff09\uff0c\u7f8e\u56fd\u751f\u6001\u5b66\u5bb6\u3002",
         en: "Aldo Leopold (1887\u20131948), American ecologist."
@@ -346,7 +417,7 @@ units: [
       ],
       annotations: [
         {id: 1, term: "\u7f04(ji\u0101n)\u9ed8", definition: "\u95ed\u53e3\u4e0d\u8bf4\u8bdd\u3002", definitionEn: "Silent; reticent."},
-        {id: 2, term: "\u9999\u8469", definition: "\u4e00\u79cd\u591a\u5e74\u751f\u8349\u672c\u690d\u7269\u3002", definitionEn: "Cattail, a perennial aquatic plant."}
+        {id: 2, term: "\u9999\u846d", definition: "\u4e00\u79cd\u591a\u5e74\u751f\u8349\u672c\u690d\u7269\u3002", definitionEn: "Cattail, a perennial aquatic plant."}
       ],
       thinkExplore: [
         {cn: "\u6b23\u8d4f\u4f5c\u8005\u7684\u62b1\u60c5\u7b14\u6cd5\uff0c\u611f\u53d7\u4f5c\u8005\u7684\u6d6a\u6f2b\u60c5\u6000\u3002", en: "Appreciate the author\u2019s lyrical style and feel his romantic sentiment."}
@@ -360,9 +431,17 @@ units: [
     },
     {
       id: 8, title: "\u65f6\u95f4\u7684\u811a\u5370", titleEn: "Footprints of Time",
+      difficulty: 4,
       author: "\u9676\u4e16\u9f99", authorEn: "Tao Shilong",
       source: "\u300a\u65f6\u95f4\u7684\u811a\u5370\u300b\uff08\u6c5f\u82cf\u6559\u80b2\u51fa\u7248\u793e1999\u5e74\u7248\uff09",
       sourceEn: "Footprints of Time (Jiangsu Education Publishing House, 1999 edition)",
+      vocabWords: [
+        {word:'踪迹',pinyin:'zōng jì',en:'trace; track',sentence:'人们却想出了许多法子记录下它的踪迹。',sentenceEn:'People have devised many ways to record its traces.'},
+        {word:'腐蚀',pinyin:'fǔ shí',en:'to corrode; to erode',sentence:'空气和水中的酸类，腐蚀了岩石中的一部分物质。',sentenceEn:'Acids in air and water corroded some of the substances in the rock.'},
+        {word:'胶结',pinyin:'jiāo jié',en:'to cement together',sentence:'有一些物质填充到泥沙中的孔隙里去，就使泥沙胶结得更紧密了。',sentenceEn:'Some substances filled the gaps in the sediment, cementing it more tightly.'},
+        {word:'沉淀',pinyin:'chén diàn',en:'to precipitate; to settle',sentence:'有许多泥沙沉淀下来的结果。',sentenceEn:'The result of much sediment settling down.'},
+        {word:'浑浊',pinyin:'hún zhuó',en:'muddy; turbid',sentence:'黄河中下游河水变得浑浊。',sentenceEn:'The water of the middle and lower Yellow River becomes turbid.'}
+      ],
       authorBio: {
         cn: "\u9676\u4e16\u9f99\uff081929\u2014\u2014\uff09\uff0c\u79d1\u666e\u4f5c\u5bb6\u3002",
         en: "Tao Shilong (1929\u2013), science writer."
@@ -420,9 +499,21 @@ units: [
   lessons: [
     {
       id: 9, title: "\u6843\u82b1\u6e90\u8bb0", titleEn: "The Peach Blossom Spring",
+      difficulty: 4,
       author: "\u9676\u6e0a\u660e", authorEn: "Tao Yuanming",
       source: "\u300a\u9676\u6e0a\u660e\u96c6\u300b\u5377\u516d\uff08\u4e2d\u534e\u4e66\u5c401979\u5e74\u7248\uff09",
       sourceEn: "Collected Works of Tao Yuanming, Vol. 6 (Zhonghua Book Company, 1979 edition)",
+      vocabWords: [
+        {word:'缤纷',pinyin:'bīn fēn',en:'in great abundance; profuse',sentence:'芳草鲜美，落英缤纷。',sentenceEn:'The fragrant grass was fresh and beautiful, and fallen petals lay in profusion.'},
+        {word:'豁然开朗',pinyin:'huò rán kāi lǎng',en:'suddenly seeing the light; wide and open',sentence:'复行数十步，豁然开朗。',sentenceEn:'Walking on a few dozen more steps, the view suddenly opened up wide.'},
+        {word:'俨然',pinyin:'yǎn rán',en:'neat and orderly',sentence:'屋舍俨然。',sentenceEn:'The houses were neat and orderly.'},
+        {word:'怡然自乐',pinyin:'yí rán zì lè',en:'happy and content',sentence:'黄发垂髫，并怡然自乐。',sentenceEn:'The old and the young were all happy and content.'},
+        {word:'叹惋',pinyin:'tàn wǎn',en:'to sigh with regret',sentence:'此人一一为具言所闻，皆叹惋。',sentenceEn:'This man told them everything he had heard, and they all sighed with regret.'}
+      ],
+      grammarPoints: [
+        {point:'虚实相映',pointEn:'xū shí xiāng yìng',example:'interplay of reality and fantasy',exampleEn:'寻向所志，遂迷，不复得路。',explanation:'They looked for the marks he had made, but lost their way and never found the path again.',explanationEn:'通过虚实结合，既描写了桃花源的美好，又暗示其不可复得，寄寓理想与现实的矛盾。'},
+        {point:'古今异义',pointEn:'gǔ jīn yì yì',example:'words with different ancient and modern meanings',exampleEn:'率妻子邑人来此绝境。',explanation:'He brought his wife, children, and townspeople to this isolated place.',explanationEn:'文言文中"妻子"指妻子和儿女，"绝境"指与世隔绝的地方，与现代汉语含义不同。'}
+      ],
       authorBio: {
         cn: "\u9676\u6e0a\u660e\uff08\u7ea6365\u2014427\uff09\uff0c\u53c8\u540d\u6f5c\uff0c\u5b57\u5143\u4eae\uff0c\u6d54\u9633\u67f4\u6851\uff08\u4eca\u6c5f\u897f\u4e5d\u6c5f\uff09\u4eba\uff0c\u4e1c\u664b\u8bd7\u4eba\u3002",
         en: "Tao Yuanming (c. 365\u2013427), also named Qian, courtesy name Yuanliang, from Chaisang, Xunyang (modern Jiujiang, Jiangxi). Eastern Jin poet."
@@ -433,7 +524,7 @@ units: [
       ],
       text: [
         "\u664b\u592a\u5143\u4e2d\uff0c\u6b66\u9675\u4eba\u6355\u9c7c\u4e3a\u4e1a\u3002\u7f18\u6eaa\u884c\uff0c\u5fd8\u8def\u4e4b\u8fdc\u8fd1\u3002\u5ffd\u9022\u6843\u82b1\u6797\uff0c\u5939\u5cb8\u6570\u767e\u6b65\uff0c\u4e2d\u65e0\u6742\u6811\uff0c\u82b3\u8349\u9c9c\u7f8e\uff0c\u843d\u82f1\u7f24\u7eb7\u3002\u6e14\u4eba\u751a\u5f02\u4e4b\uff0c\u590d\u524d\u884c\uff0c\u6b32\u7a77\u5176\u6797\u3002",
-        "\u6797\u5c3d\u6c34\u6e90\uff0c\u4fbf\u5f97\u4e00\u5c71\uff0c\u5c71\u6709\u5c0f\u53e3\uff0c\u4eff\u4f5b\u82e5\u6709\u5149\u3002\u4fbf\u820d\u8239\uff0c\u4ece\u53e3\u5165\u3002\u521d\u6781\u72ed\uff0c\u624d\u901a\u4eba\u3002\u590d\u884c\u6570\u5341\u6b65\uff0c\u8c41\u7136\u5f00\u6717\u3002\u571f\u5730\u5e73\u65f7\uff0c\u5c4b\u820d\u4fe8\u7136\uff0c\u6709\u826f\u7530\u3001\u7f8e\u6c60\u3001\u6851\u7af9\u4e4b\u5c5e\u3002\u961c\u964c\u4ea4\u901a\uff0c\u9e21\u72ac\u76f8\u95fb\u3002\u5176\u4e2d\u5f80\u6765\u79cd\u4f5c\uff0c\u7537\u5973\u8863\u7740\uff0c\u6089\u5982\u5916\u4eba\u3002\u9ec4\u53d1\u5782\u9aea\uff0c\u5e76\u6021\u7136\u81ea\u4e50\u3002",
+        "\u6797\u5c3d\u6c34\u6e90\uff0c\u4fbf\u5f97\u4e00\u5c71\uff0c\u5c71\u6709\u5c0f\u53e3\uff0c\u4eff\u4f5b\u82e5\u6709\u5149\u3002\u4fbf\u820d\u8239\uff0c\u4ece\u53e3\u5165\u3002\u521d\u6781\u72ed\uff0c\u624d\u901a\u4eba\u3002\u590d\u884c\u6570\u5341\u6b65\uff0c\u8c41\u7136\u5f00\u6717\u3002\u571f\u5730\u5e73\u65f7\uff0c\u5c4b\u820d\u4fe8\u7136\uff0c\u6709\u826f\u7530\u3001\u7f8e\u6c60\u3001\u6851\u7af9\u4e4b\u5c5e\u3002\u9621\u964c\u4ea4\u901a\uff0c\u9e21\u72ac\u76f8\u95fb\u3002\u5176\u4e2d\u5f80\u6765\u79cd\u4f5c\uff0c\u7537\u5973\u8863\u7740\uff0c\u6089\u5982\u5916\u4eba\u3002\u9ec4\u53d1\u5782\u9aeb\uff0c\u5e76\u6021\u7136\u81ea\u4e50\u3002",
         "\u89c1\u6e14\u4eba\uff0c\u4e43\u5927\u60ca\uff0c\u95ee\u6240\u4ece\u6765\u3002\u5177\u7b54\u4e4b\u3002\u4fbf\u8981\u8fd8\u5bb6\uff0c\u8bbe\u9152\u6740\u9e21\u4f5c\u98df\u3002\u6751\u4e2d\u95fb\u6709\u6b64\u4eba\uff0c\u54b8\u6765\u95ee\u8baf\u3002\u81ea\u4e91\u5148\u4e16\u907f\u79e6\u65f6\u4e71\uff0c\u7387\u59bb\u5b50\u9091\u4eba\u6765\u6b64\u7edd\u5883\uff0c\u4e0d\u590d\u51fa\u7109\uff0c\u9042\u4e0e\u5916\u4eba\u95f4\u9694\u3002\u95ee\u4eca\u662f\u4f55\u4e16\uff0c\u4e43\u4e0d\u77e5\u6709\u6c49\uff0c\u65e0\u8bba\u9b4f\u664b\u3002",
         "\u65e2\u51fa\uff0c\u5f97\u5176\u8239\uff0c\u4fbf\u6276\u5411\u8def\uff0c\u5904\u5904\u5fd7\u4e4b\u3002\u53ca\u90e1\u4e0b\uff0c\u8be3\u592a\u5b88\uff0c\u8bf4\u5982\u6b64\u3002\u592a\u5b88\u5373\u9063\u4eba\u968f\u5176\u5f80\uff0c\u5bfb\u5411\u6240\u5fd7\uff0c\u9042\u8ff7\uff0c\u4e0d\u590d\u5f97\u8def\u3002\u5357\u9633\u5218\u5b50\u9aa5\uff0c\u9ad8\u5c1a\u58eb\u4e5f\uff0c\u95fb\u4e4b\uff0c\u6b23\u7136\u89c4\u5f80\u3002\u672a\u679c\uff0c\u5bfb\u75c5\u7ec8\u3002\u540e\u9042\u65e0\u95ee\u6d25\u8005\u3002"
       ],
@@ -447,8 +538,8 @@ units: [
         {id: 1, term: "\u7f18", definition: "\u6cbf\u7740\uff0c\u987a\u7740\u3002", definitionEn: "Along; following."},
         {id: 2, term: "\u8c41\u7136\u5f00\u6717", definition: "\u5f62\u5bb9\u7531\u72ed\u7a84\u5e7d\u6697\u7a81\u7136\u53d8\u5f97\u5f00\u9614\u656c\u4eae\u3002", definitionEn: "Suddenly opening up from narrow darkness into spacious brightness."},
         {id: 3, term: "\u4fe8(y\u01cen)\u7136", definition: "\u6574\u9f50\u7684\u6837\u5b50\u3002", definitionEn: "Orderly; neat."},
-        {id: 4, term: "\u961c\u964c\u4ea4\u901a", definition: "\u7530\u95f4\u5c0f\u8def\u4ea4\u9519\u76f8\u901a\u3002", definitionEn: "Paths between fields crisscrossing and interconnecting."},
-        {id: 5, term: "\u9ec4\u53d1\u5782\u9aea(ti\u00e1o)", definition: "\u6307\u8001\u4eba\u548c\u5c0f\u5b69\u3002", definitionEn: "Referring to the elderly and young children."},
+        {id: 4, term: "\u9621\u964c\u4ea4\u901a", definition: "\u7530\u95f4\u5c0f\u8def\u4ea4\u9519\u76f8\u901a\u3002", definitionEn: "Paths between fields crisscrossing and interconnecting."},
+        {id: 5, term: "\u9ec4\u53d1\u5782\u9aeb(ti\u00e1o)", definition: "\u6307\u8001\u4eba\u548c\u5c0f\u5b69\u3002", definitionEn: "Referring to the elderly and young children."},
         {id: 6, term: "\u8981(y\u0101o)", definition: "\u540c\u201c\u9080\u201d\uff0c\u9080\u8bf7\u3002", definitionEn: "Same as \u2018invite.\u2019"},
         {id: 7, term: "\u65e0\u8bba", definition: "\u4e0d\u8981\u8bf4\uff0c\u66f4\u4e0d\u5fc5\u8bf4\u3002", definitionEn: "Not to mention; let alone."},
         {id: 8, term: "\u95ee\u6d25", definition: "\u8be2\u95ee\u6e21\u53e3\u3002\u8fd9\u91cc\u662f\u201c\u8bbf\u6c42\u3001\u63a2\u6c42\u201d\u7684\u610f\u601d\u3002", definitionEn: "To inquire about a ford; here meaning \u2018to seek out.\u2019"}
@@ -467,9 +558,20 @@ units: [
     },
     {
       id: 10, title: "\u5c0f\u77f3\u6f6d\u8bb0", titleEn: "Record of the Small Stone Pond",
+      difficulty: 4,
       author: "\u67f3\u5b97\u5143", authorEn: "Liu Zongyuan",
       source: "\u300a\u67f3\u6cb3\u4e1c\u96c6\u300b\u5377\u4e8c\u5341\u4e5d\uff08\u4e0a\u6d77\u53e4\u7c4d\u51fa\u7248\u793e2008\u5e74\u7248\uff09",
       sourceEn: "Collected Works of Liu Hedong, Vol. 29 (Shanghai Classics Publishing House, 2008 edition)",
+      vocabWords: [
+        {word:'清冽',pinyin:'qīng liè',en:'clear and cool',sentence:'水尤清冽。',sentenceEn:'The water was especially clear and cool.'},
+        {word:'佁然',pinyin:'yǐ rán',en:'still; motionless',sentence:'佁然不动。',sentenceEn:'Motionless and still.'},
+        {word:'翕忽',pinyin:'xī hū',en:'swift and darting',sentence:'往来翕忽，似与游者相乐。',sentenceEn:'Darting back and forth, as if playing with the visitors.'},
+        {word:'悄怆',pinyin:'qiǎo chuàng',en:'sad and desolate',sentence:'凄神寒骨，悄怆幽邃。',sentenceEn:'It chilled the spirit and the bones, sad, desolate, and profoundly deep.'},
+        {word:'犬牙差互',pinyin:'quǎn yá cī hù',en:'jagged like dog teeth',sentence:'其岸势犬牙差互。',sentenceEn:'The banks were jagged like dog teeth.'}
+      ],
+      grammarPoints: [
+        {point:'情景交融',pointEn:'qíng jǐng jiāo róng',example:'blending emotion with scenery',exampleEn:'坐潭上，四面竹树环合，寂寥无人，凄神寒骨，悄怆幽邃。',explanation:'Sitting beside the pond, bamboo and trees enclosed it on all sides, lonely and deserted, chilling the spirit and the bones, sad and profoundly deep.',explanationEn:'先写景物之幽美，后转为凄清孤寂，借景抒发被贬后的抑郁之情。'}
+      ],
       authorBio: {
         cn: "\u67f3\u5b97\u5143\uff08773\u2014819\uff09\uff0c\u5b57\u5b50\u539a\uff0c\u6cb3\u4e1c\uff08\u4eca\u5c71\u897f\u6c38\u6d4e\u897f\uff09\u4eba\uff0c\u5510\u4ee3\u6587\u5b66\u5bb6\uff0c\u201c\u5510\u5b8b\u516b\u5927\u5bb6\u201d\u4e4b\u4e00\u3002",
         en: "Liu Zongyuan (773\u2013819), courtesy name Zihou, from Hedong (modern Yongji, Shanxi). Tang Dynasty writer, one of the \u2018Eight Great Prose Masters of Tang and Song.\u2019"
@@ -479,10 +581,10 @@ units: [
         {cn: "\u672c\u6587\u662f\u201c\u6c38\u5dde\u516b\u8bb0\u201d\u4e4b\u4e00\uff0c\u662f\u67f3\u5b97\u5143\u88ab\u8d2c\u8c2a\u540e\u5199\u4e0b\u7684\u5c71\u6c34\u6e38\u8bb0\u3002", en: "This is one of the \u2018Eight Records of Yongzhou,\u2019 a landscape essay written during Liu Zongyuan\u2019s exile."}
       ],
       text: [
-        "\u4ece\u5c0f\u4e18\u897f\u884c\u767e\u4e8c\u5341\u6b65\uff0c\u9694\u7c01\u7af9\uff0c\u95fb\u6c34\u58f0\uff0c\u5982\u9e23\u73ee\u73af\uff0c\u5fc3\u4e50\u4e4b\u3002\u4f10\u7af9\u53d6\u9053\uff0c\u4e0b\u89c1\u5c0f\u6f6d\uff0c\u6c34\u5c24\u6e05\u51bd\u3002\u5168\u77f3\u4ee5\u4e3a\u5e95\uff0c\u8fd1\u5cb8\uff0c\u5377\u77f3\u5e95\u4ee5\u51fa\uff0c\u4e3a\u577b\uff0c\u4e3a\u5c7f\uff0c\u4e3a\u5d41\uff0c\u4e3a\u5ca9\u3002\u9752\u6811\u7fe0\u8513\uff0c\u8499\u7edc\u6447\u7f00\uff0c\u53c2\u5dee\u62ab\u62c2\u3002",
-        "\u6f6d\u4e2d\u9c7c\u53ef\u767e\u8bb8\u5934\uff0c\u7686\u82e5\u7a7a\u6e38\u65e0\u6240\u4f9d\uff0c\u65e5\u5149\u4e0b\u6f88\uff0c\u5f71\u5e03\u77f3\u4e0a\u3002\u4f41\u7136\u4e0d\u52a8\uff0c\u4ff6\u5c14\u8fdc\u901d\uff0c\u5f80\u6765\u7fce\u5ffd\uff0c\u4f3c\u4e0e\u6e38\u8005\u76f8\u4e50\u3002",
+        "\u4ece\u5c0f\u4e18\u897f\u884c\u767e\u4e8c\u5341\u6b65\uff0c\u9694\u7bc1\u7af9\uff0c\u95fb\u6c34\u58f0\uff0c\u5982\u9e23\u73ee\u73af\uff0c\u5fc3\u4e50\u4e4b\u3002\u4f10\u7af9\u53d6\u9053\uff0c\u4e0b\u89c1\u5c0f\u6f6d\uff0c\u6c34\u5c24\u6e05\u51bd\u3002\u5168\u77f3\u4ee5\u4e3a\u5e95\uff0c\u8fd1\u5cb8\uff0c\u5377\u77f3\u5e95\u4ee5\u51fa\uff0c\u4e3a\u577b\uff0c\u4e3a\u5c7f\uff0c\u4e3a\u5d41\uff0c\u4e3a\u5ca9\u3002\u9752\u6811\u7fe0\u8513\uff0c\u8499\u7edc\u6447\u7f00\uff0c\u53c2\u5dee\u62ab\u62c2\u3002",
+        "\u6f6d\u4e2d\u9c7c\u53ef\u767e\u8bb8\u5934\uff0c\u7686\u82e5\u7a7a\u6e38\u65e0\u6240\u4f9d\uff0c\u65e5\u5149\u4e0b\u6f88\uff0c\u5f71\u5e03\u77f3\u4e0a\u3002\u4f41\u7136\u4e0d\u52a8\uff0c\u4ff6\u5c14\u8fdc\u901d\uff0c\u5f80\u6765\u7fd5\u5ffd\uff0c\u4f3c\u4e0e\u6e38\u8005\u76f8\u4e50\u3002",
         "\u6f6d\u897f\u5357\u800c\u671b\uff0c\u6597\u6298\u86c7\u884c\uff0c\u660e\u706d\u53ef\u89c1\u3002\u5176\u5cb8\u52bf\u72ac\u7259\u5dee\u4e92\uff0c\u4e0d\u53ef\u77e5\u5176\u6e90\u3002",
-        "\u5750\u6f6d\u4e0a\uff0c\u56db\u9762\u7af9\u6811\u73af\u5408\uff0c\u5bc2\u5be5\u65e0\u4eba\uff0c\u51c4\u795e\u5bd2\u9aa8\uff0c\u6084\u6006\u5e7d\u9082\u3002\u4ee5\u5176\u5883\u8fc7\u6e05\uff0c\u4e0d\u53ef\u4e45\u5c45\uff0c\u4e43\u8bb0\u4e4b\u800c\u53bb\u3002"
+        "\u5750\u6f6d\u4e0a\uff0c\u56db\u9762\u7af9\u6811\u73af\u5408\uff0c\u5bc2\u5be5\u65e0\u4eba\uff0c\u51c4\u795e\u5bd2\u9aa8\uff0c\u6084\u6006\u5e7d\u9083\u3002\u4ee5\u5176\u5883\u8fc7\u6e05\uff0c\u4e0d\u53ef\u4e45\u5c45\uff0c\u4e43\u8bb0\u4e4b\u800c\u53bb\u3002"
       ],
       textEn: [
         "Walking a hundred and twenty paces west from the small hill, through bamboo groves, I heard the sound of water like jade ornaments tinkling, which delighted me. Cutting through bamboo to make a path, I looked down and found a small pond of exceptionally clear, cool water.",
@@ -491,11 +593,11 @@ units: [
         "Sitting by the pond, surrounded by bamboo and trees, desolate and empty, a chill seeped into the spirit and bones, quiet and profound. The place was too desolate to stay long, so I recorded it and left."
       ],
       annotations: [
-        {id: 1, term: "\u7c01(hu\u00e1ng)\u7af9", definition: "\u7af9\u6797\u3002", definitionEn: "Bamboo grove."},
+        {id: 1, term: "\u7bc1(hu\u00e1ng)\u7af9", definition: "\u7af9\u6797\u3002", definitionEn: "Bamboo grove."},
         {id: 2, term: "\u4f41(y\u01d0)\u7136", definition: "\u9759\u6b62\u4e0d\u52a8\u7684\u6837\u5b50\u3002", definitionEn: "Motionless; still."},
         {id: 3, term: "\u4ff6(ch\u00f9)\u5c14\u8fdc\u901d", definition: "\u5ffd\u7136\u95f4\u5411\u8fdc\u5904\u6e38\u53bb\u3002", definitionEn: "Suddenly darting away into the distance."},
-        {id: 4, term: "\u7fce(x\u012b)\u5ffd", definition: "\u8f7b\u5feb\u8fc5\u75be\u7684\u6837\u5b50\u3002", definitionEn: "Swift and nimble."},
-        {id: 5, term: "\u6084(qi\u01ceo)\u6006\u5e7d\u9082(su\u00ec)", definition: "\u51c4\u51c9\u5e7d\u6df1\u3002", definitionEn: "Desolate and profound."}
+        {id: 4, term: "\u7fd5(x\u012b)\u5ffd", definition: "\u8f7b\u5feb\u8fc5\u75be\u7684\u6837\u5b50\u3002", definitionEn: "Swift and nimble."},
+        {id: 5, term: "\u6084(qi\u01ceo)\u6006\u5e7d\u9083(su\u00ec)", definition: "\u51c4\u51c9\u5e7d\u6df1\u3002", definitionEn: "Desolate and profound."}
       ],
       thinkExplore: [
         {cn: "\u672c\u6587\u5728\u666f\u7269\u63cf\u5199\u4e2d\u8574\u542b\u7740\u60c5\u611f\uff0c\u8bd5\u505a\u5177\u4f53\u5206\u6790\u3002", en: "The text contains emotions within its landscape descriptions. Analyze specifically."}
@@ -508,10 +610,18 @@ units: [
       ]
     },
     {
-      id: 11, title: "\u6838\u821f\u8bb0", titleEn: "The Nuclear Boat",
+      id: 11, title: "\u6838\u821f\u8bb0", titleEn: "The Peach-Pit Boat",
+      difficulty: 4,
       author: "\u9b4f\u5b66\u6d22", authorEn: "Wei Xueyi",
       source: "\u300a\u865e\u521d\u65b0\u5fd7\u300b\u5377\u5341\uff08\u6587\u5b66\u53e4\u7c4d\u520a\u884c\u793e1954\u5e74\u7248\uff09",
       sourceEn: "Yu Chu Xin Zhi, Vol. 10 (Literary Classics Publishing House, 1954 edition)",
+      vocabWords: [
+        {word:'罔不',pinyin:'wǎng bù',en:'without exception; all',sentence:'罔不因势象形，各具情态。',sentenceEn:'Without exception he carved to follow the natural shape, each figure with its own expression.'},
+        {word:'峨冠',pinyin:'é guān',en:'tall hat',sentence:'中峨冠而多髯者为东坡。',sentenceEn:'The one in the center with the tall hat and abundant beard was Dongpo.'},
+        {word:'矫首',pinyin:'jiǎo shǒu',en:'to raise the head',sentence:'矫首昂视。',sentenceEn:'He raised his head and gazed upward.'},
+        {word:'历历',pinyin:'lì lì',en:'clearly; distinctly',sentence:'珠可历历数也。',sentenceEn:'The beads could be clearly counted one by one.'},
+        {word:'叹为观止',pinyin:'tàn wéi guān zhǐ',en:'to gasp in admiration',sentence:'技亦灵怪矣哉！',sentenceEn:'What marvelous and wondrous skill!'}
+      ],
       authorBio: {
         cn: "\u9b4f\u5b66\u6d22\uff08\u7ea61596\u2014\u7ea61625\uff09\uff0c\u5b57\u5b50\u656c\uff0c\u660e\u672b\u5609\u5584\uff08\u4eca\u6d59\u6c5f\u5609\u5174\uff09\u4eba\u3002",
         en: "Wei Xueyi (c. 1596\u2013c. 1625), courtesy name Zijing, from Jiashan (modern Jiaxing, Zhejiang) in the late Ming Dynasty."
@@ -547,9 +657,20 @@ units: [
     },
     {
       id: 12, title: "\u300a\u8bd7\u7ecf\u300b\u4e8c\u9996", titleEn: "Two Poems from the Book of Songs",
+      difficulty: 4,
       author: "\u300a\u8bd7\u7ecf\u300b", authorEn: "The Book of Songs",
       source: "\u300a\u8bd7\u7ecf\u6ce8\u6790\u300b\uff08\u4e2d\u534e\u4e66\u5c401991\u5e74\u7248\uff09",
       sourceEn: "Annotated Book of Songs (Zhonghua Book Company, 1991 edition)",
+      vocabWords: [
+        {word:'窈窕',pinyin:'yǎo tiǎo',en:'graceful and beautiful',sentence:'窈窕淑女，君子好逑。',sentenceEn:'A graceful and virtuous maiden is a fine match for a gentleman.'},
+        {word:'辗转反侧',pinyin:'zhǎn zhuǎn fǎn cè',en:'to toss and turn in bed',sentence:'悠哉悠哉，辗转反侧。',sentenceEn:'Longing and longing, tossing and turning.'},
+        {word:'蒹葭',pinyin:'jiān jiā',en:'reeds',sentence:'蒹葭苍苍，白露为霜。',sentenceEn:'The reeds grow thick and green, the white dew has turned to frost.'},
+        {word:'溯洄',pinyin:'sù huí',en:'to go against the current',sentence:'溯洄从之，道阻且长。',sentenceEn:'I follow against the current, the road is difficult and long.'},
+        {word:'伊人',pinyin:'yī rén',en:'that person; the one I love',sentence:'所谓伊人，在水一方。',sentenceEn:'The one I love is on the other side of the water.'}
+      ],
+      grammarPoints: [
+        {point:'重章叠句',pointEn:'chóng zhāng dié jù',example:'repeated stanzas with slight variations',exampleEn:'蒹葭苍苍……蒹葭萋萋……蒹葭采采。',explanation:'The reeds grow thick... the reeds grow lush... the reeds grow bright.',explanationEn:'每章只更换少数词语，反复咏唱，形成回环往复的表达效果，深化思念之情。'}
+      ],
       authorBio: {
         cn: "\u300a\u8bd7\u7ecf\u300b\u662f\u6211\u56fd\u6700\u65e9\u7684\u4e00\u90e8\u8bd7\u6b4c\u603b\u96c6\uff0c\u6536\u5f55\u4e86\u4ece\u897f\u5468\u5230\u6625\u79cb\u65f6\u671f\u7684\u8bd7\u6b4c305\u7bc7\uff0c\u5206\u4e3a\u98ce\u3001\u96c5\u3001\u9882\u4e09\u4e2a\u90e8\u5206\u3002",
         en: "The Book of Songs is China\u2019s earliest anthology of poetry, containing 305 poems from the Western Zhou to the Spring and Autumn period, divided into Feng (Airs), Ya (Odes), and Song (Hymns)."
@@ -559,8 +680,8 @@ units: [
         {cn: "\u8fd9\u4e24\u9996\u8bd7\u6b4c\u548f\u7231\u60c5\uff0c\u4eca\u5929\u8bfb\u6765\u4ecd\u7136\u4f1a\u8ba9\u4eba\u602a\u7136\u5fc3\u52a8\u3002", en: "These two poems sing of love; reading them today still stirs the heart."}
       ],
       text: [
-        "\u5173\u96ce\uff1a\u5173\u5173\u96ce\u9e20\uff0c\u5728\u6cb3\u4e4b\u6d32\u3002\u7a86\u7a95\u6dd1\u5973\uff0c\u541b\u5b50\u597d\u9011\u3002\u53c2\u5dee\u83c7\u83dc\uff0c\u5de6\u53f3\u6d41\u4e4b\u3002\u7a86\u7a95\u6dd1\u5973\uff0c\u5be4\u5bc2\u6c42\u4e4b\u3002\u6c42\u4e4b\u4e0d\u5f97\uff0c\u5be4\u5bc2\u601d\u670d\u3002\u60a0\u54c9\u60a0\u54c9\uff0c\u8f97\u8f6c\u53cd\u4fa7\u3002\u53c2\u5dee\u83c7\u83dc\uff0c\u5de6\u53f3\u91c7\u4e4b\u3002\u7a86\u7a95\u6dd1\u5973\uff0c\u7434\u745f\u53cb\u4e4b\u3002\u53c2\u5dee\u83c7\u83dc\uff0c\u5de6\u53f3\u82bc\u4e4b\u3002\u7a86\u7a95\u6dd1\u5973\uff0c\u949f\u9f13\u4e50\u4e4b\u3002",
-        "\u84b9\u8469\uff1a\u84b9\u8469\u82cd\u82cd\uff0c\u767d\u9732\u4e3a\u971c\u3002\u6240\u8c13\u4f0a\u4eba\uff0c\u5728\u6c34\u4e00\u65b9\u3002\u6eaf\u6d84\u4ece\u4e4b\uff0c\u9053\u963b\u4e14\u957f\u3002\u6eaf\u6e38\u4ece\u4e4b\uff0c\u5b9b\u5728\u6c34\u4e2d\u592e\u3002\u84b9\u8469\u840b\u840b\uff0c\u767d\u9732\u672a\u6666\u3002\u6240\u8c13\u4f0a\u4eba\uff0c\u5728\u6c34\u4e4b\u6e44\u3002\u6eaf\u6d44\u4ece\u4e4b\uff0c\u9053\u963b\u4e14\u8dc0\u3002\u6eaf\u6e38\u4ece\u4e4b\uff0c\u5b9b\u5728\u6c34\u4e2d\u577b\u3002\u84b9\u8469\u91c7\u91c7\uff0c\u767d\u9732\u672a\u5df2\u3002\u6240\u8c13\u4f0a\u4eba\uff0c\u5728\u6c34\u4e4b\u6d98\u3002\u6eaf\u6d44\u4ece\u4e4b\uff0c\u9053\u963b\u4e14\u53f3\u3002\u6eaf\u6e38\u4ece\u4e4b\uff0c\u5b9b\u5728\u6c34\u4e2d\u6c9a\u3002"
+        "\u5173\u96ce\uff1a\u5173\u5173\u96ce\u9e20\uff0c\u5728\u6cb3\u4e4b\u6d32\u3002\u7a88\u7a95\u6dd1\u5973\uff0c\u541b\u5b50\u597d\u9011\u3002\u53c2\u5dee\u8347\u83dc\uff0c\u5de6\u53f3\u6d41\u4e4b\u3002\u7a88\u7a95\u6dd1\u5973\uff0c\u5be4\u5bd0\u6c42\u4e4b\u3002\u6c42\u4e4b\u4e0d\u5f97\uff0c\u5be4\u5bc2\u601d\u670d\u3002\u60a0\u54c9\u60a0\u54c9\uff0c\u8f97\u8f6c\u53cd\u4fa7\u3002\u53c2\u5dee\u8347\u83dc\uff0c\u5de6\u53f3\u91c7\u4e4b\u3002\u7a88\u7a95\u6dd1\u5973\uff0c\u7434\u745f\u53cb\u4e4b\u3002\u53c2\u5dee\u8347\u83dc\uff0c\u5de6\u53f3\u82bc\u4e4b\u3002\u7a88\u7a95\u6dd1\u5973\uff0c\u949f\u9f13\u4e50\u4e4b\u3002",
+        "\u84b9\u846d\uff1a\u84b9\u846d\u82cd\u82cd\uff0c\u767d\u9732\u4e3a\u971c\u3002\u6240\u8c13\u4f0a\u4eba\uff0c\u5728\u6c34\u4e00\u65b9\u3002\u6eaf\u6d04\u4ece\u4e4b\uff0c\u9053\u963b\u4e14\u957f\u3002\u6eaf\u6e38\u4ece\u4e4b\uff0c\u5b9b\u5728\u6c34\u4e2d\u592e\u3002\u84b9\u846d\u840b\u840b\uff0c\u767d\u9732\u672a\u665e\u3002\u6240\u8c13\u4f0a\u4eba\uff0c\u5728\u6c34\u4e4b\u6e44\u3002\u6eaf\u6d04\u4ece\u4e4b\uff0c\u9053\u963b\u4e14\u8dfb\u3002\u6eaf\u6e38\u4ece\u4e4b\uff0c\u5b9b\u5728\u6c34\u4e2d\u577b\u3002\u84b9\u846d\u91c7\u91c7\uff0c\u767d\u9732\u672a\u5df2\u3002\u6240\u8c13\u4f0a\u4eba\uff0c\u5728\u6c34\u4e4b\u6d98\u3002\u6eaf\u6d04\u4ece\u4e4b\uff0c\u9053\u963b\u4e14\u53f3\u3002\u6eaf\u6e38\u4ece\u4e4b\uff0c\u5b9b\u5728\u6c34\u4e2d\u6c9a\u3002"
       ],
       textEn: [
         "Guan Ju: \u2018Guan guan\u2019 cry the ospreys, on the islet in the river. Gentle and gracious is the lady \u2014 a fine match for the gentleman. Uneven water plants, gathered left and right. Gentle lady \u2014 waking and sleeping he seeks her. Seeking but not finding, waking and sleeping he thinks of her. Endlessly, endlessly \u2014 tossing and turning. Uneven water plants, picked left and right. Gentle lady \u2014 with lute and harp he befriends her. Uneven water plants, sorted left and right. Gentle lady \u2014 with bells and drums he delights her.",
@@ -568,13 +689,13 @@ units: [
       ],
       annotations: [
         {id: 1, term: "\u96ce\u9e20(j\u016b ji\u016b)", definition: "\u4e00\u79cd\u6c34\u9e1f\uff0c\u4f20\u8bf4\u96cc\u96c4\u5f62\u5f71\u4e0d\u79bb\u3002", definitionEn: "A water bird; traditionally said to be inseparable as mates."},
-        {id: 2, term: "\u7a86\u7a95(y\u01ceoti\u01ceo)", definition: "\u6587\u9759\u7f8e\u597d\u7684\u6837\u5b50\u3002", definitionEn: "Gentle and graceful."},
-        {id: 3, term: "\u6eaf\u6d44(s\u00f9hu\u00ed)", definition: "\u9006\u6d41\u800c\u4e0a\u3002", definitionEn: "Going upstream."},
+        {id: 2, term: "\u7a88\u7a95(y\u01ceoti\u01ceo)", definition: "\u6587\u9759\u7f8e\u597d\u7684\u6837\u5b50\u3002", definitionEn: "Gentle and graceful."},
+        {id: 3, term: "\u6eaf\u6d04(s\u00f9hu\u00ed)", definition: "\u9006\u6d41\u800c\u4e0a\u3002", definitionEn: "Going upstream."},
         {id: 4, term: "\u4f0a\u4eba", definition: "\u90a3\u4eba\uff0c\u6307\u6240\u7231\u7684\u4eba\u3002", definitionEn: "That person; the beloved."}
       ],
       thinkExplore: [
         {cn: "\u300a\u8bd7\u7ecf\u300b\u591a\u91c7\u7528\u91cd\u7ae0\u53e0\u53e5\u7684\u5f62\u5f0f\uff0c\u9009\u62e9\u4e00\u9996\u505a\u5177\u4f53\u5206\u6790\u3002", en: "The Book of Songs often uses repetition with variation. Choose one poem for specific analysis."},
-        {cn: "\u300a\u84b9\u8469\u300b\u4e00\u8bd7\u6ca1\u6709\u76f4\u63a5\u8bc9\u8bf4\u4e3b\u4eba\u516c\u7684\u601d\u5ff5\u4e4b\u60c5\uff0c\u4f46\u601d\u5ff5\u5374\u7ef5\u8fdc\u60a0\u957f\u3002", en: "Jian Jia does not directly state the speaker\u2019s longing, yet the longing is deep and endless."}
+        {cn: "\u300a\u84b9\u846d\u300b\u4e00\u8bd7\u6ca1\u6709\u76f4\u63a5\u8bc9\u8bf4\u4e3b\u4eba\u516c\u7684\u601d\u5ff5\u4e4b\u60c5\uff0c\u4f46\u601d\u5ff5\u5374\u7ef5\u8fdc\u60a0\u957f\u3002", en: "Jian Jia does not directly state the speaker\u2019s longing, yet the longing is deep and endless."}
       ],
       teachingPoints: [
         {cn: "\u4e86\u89e3\u300a\u8bd7\u7ecf\u300b\u7684\u6bd4\u3001\u5174\u624b\u6cd5\uff0c\u80cc\u8bf5\u4e24\u9996\u8bd7\u3002", en: "Learn about the \u2018bi\u2019 and \u2018xing\u2019 techniques of the Book of Songs; memorize both poems."}
@@ -597,7 +718,7 @@ units: [
     en: "Selective reading. This is a collection of painstaking, heartfelt letters from a father to his son, and also the best reading material for artistic cultivation."
   }},
   extraPoems: [
-    {title: "\u5f0f\u5fae", titleEn: "Shi Wei", author: "\u300a\u8bd7\u7ecf\u00b7\u90b6\u98ce\u300b", authorEn: "Book of Songs \u2013 Bei Feng"},
+    {title: "\u5f0f\u5fae", titleEn: "Shi Wei", author: "\u300a\u8bd7\u7ecf\u00b7\u90aa\u98ce\u300b", authorEn: "Book of Songs \u2013 Bei Feng"},
     {title: "\u5b50\u886c", titleEn: "Zi Jin", author: "\u300a\u8bd7\u7ecf\u00b7\u90d1\u98ce\u300b", authorEn: "Book of Songs \u2013 Zheng Feng"},
     {title: "\u9001\u675c\u5c11\u5e9c\u4e4b\u4efb\u8700\u5dde", titleEn: "Seeing Off Prefect Du", author: "\u738b\u52c3", authorEn: "Wang Bo"},
     {title: "\u671b\u6d1e\u5ead\u6e56\u8d60\u5f20\u4e1e\u76f8", titleEn: "Gazing at Dongting Lake", author: "\u5b5f\u6d69\u7136", authorEn: "Meng Haoran"}
@@ -617,9 +738,20 @@ units: [
   lessons: [
     {
       id: 13, title: "\u6700\u540e\u4e00\u6b21\u8bb2\u6f14", titleEn: "The Last Speech",
+      difficulty: 5,
       author: "\u95fb\u4e00\u591a", authorEn: "Wen Yiduo",
       source: "\u300a\u95fb\u4e00\u591a\u5168\u96c6\u300b\u7b2c\u4e09\u5377\uff08\u751f\u6d3b\u00b7\u8bfb\u4e66\u00b7\u65b0\u77e5\u4e09\u8054\u4e66\u5e971982\u5e74\u7248\uff09",
       sourceEn: "Complete Works of Wen Yiduo, Vol. 3 (SDX Joint Publishing, 1982 edition)",
+      vocabWords: [
+        {word:'卑劣',pinyin:'bēi liè',en:'despicable; contemptible',sentence:'在昆明出现了历史上最卑劣最无耻的事情。',sentenceEn:'The most despicable and shameless event in history has occurred in Kunming.'},
+        {word:'毒手',pinyin:'dú shǒu',en:'murderous hand',sentence:'李先生究竟犯了什么罪，竟遭此毒手？',sentenceEn:'What crime did Mr. Li commit to meet such a murderous hand?'},
+        {word:'诬蔑',pinyin:'wū miè',en:'to slander; to vilify',sentence:'杀死了人，又不敢承认，还要诬蔑人。',sentenceEn:'They killed a person, dared not admit it, and even slandered the victim.'},
+        {word:'赋予',pinyin:'fù yǔ',en:'to bestow; to give',sentence:'争取民主和平是要付出代价的，但历史赋予我们的任务是争取民主。',sentenceEn:'The struggle for democracy and peace comes at a cost, but history has bestowed on us the task of fighting for democracy.'},
+        {word:'光明正大',pinyin:'guāng míng zhèng dà',en:'open and aboveboard',sentence:'为什么不敢光明正大地来打来杀？',sentenceEn:'Why do they not dare to act in the open?'}
+      ],
+      grammarPoints: [
+        {point:'演讲技巧',pointEn:'yǎn jiǎng jì qiǎo',example:'public speaking techniques',exampleEn:'你站出来！是好汉的站出来！你出来讲！凭什么要杀死李先生？',explanation:'You come out! If you are a real man, come out! Speak up! What justification was there to kill Mr. Li?',explanationEn:'使用短句、感叹句、反问句，配合直接呼告，使演讲慷慨激昂、直击人心。'}
+      ],
       authorBio: {
         cn: "\u95fb\u4e00\u591a\uff081899\u20141946\uff09\uff0c\u6e56\u5317\u6d60\u6c34\u4eba\uff0c\u8bd7\u4eba\u3001\u5b66\u8005\u3001\u6c11\u4e3b\u6218\u58eb\u3002\u4ee3\u8868\u4f5c\u6709\u8bd7\u96c6\u300a\u7ea2\u70db\u300b\u300a\u6b7b\u6c34\u300b\u7b49\u3002",
         en: "Wen Yiduo (1899\u20131946), from Xishui, Hubei. Poet, scholar, and democratic fighter. Representative works include poetry collections Red Candle and Dead Water."
@@ -654,9 +786,20 @@ units: [
     },
     {
       id: 14, title: "\u5e94\u6709\u683c\u7269\u81f4\u77e5\u7cbe\u795e", titleEn: "The Spirit of Investigation",
+      difficulty: 5,
       author: "\u4e01\u8087\u4e2d", authorEn: "Ding Zhaozhong (Samuel Ting)",
       source: "\u300a\u77ad\u671b\u300b1991\u5e74\u7b2c44\u671f",
       sourceEn: "Outlook Weekly, Issue 44, 1991",
+      vocabWords: [
+        {word:'格物致知',pinyin:'gé wù zhì zhī',en:'to investigate things and extend knowledge',sentence:'应有格物致知精神。',sentenceEn:'One should have the spirit of investigating things to extend knowledge.'},
+        {word:'彷徨',pinyin:'páng huáng',en:'to hesitate; to waver',sentence:'一个受中国传统教育长大的学生研究科学时往往感到彷徨。',sentenceEn:'A student raised under traditional Chinese education often feels at a loss when studying science.'},
+        {word:'探索',pinyin:'tàn suǒ',en:'to explore; to probe',sentence:'科学需要的是实际的探索。',sentenceEn:'Science requires practical exploration.'},
+        {word:'袖手旁观',pinyin:'xiù shǒu páng guān',en:'to stand by with folded arms',sentence:'传统的中国教育重视理论而忽视实验，让学生袖手旁观。',sentenceEn:'Traditional Chinese education values theory over experiment, letting students stand by passively.'},
+        {word:'推究',pinyin:'tuī jiū',en:'to investigate; to deduce',sentence:'一切推究事物的道理都叫做格物。',sentenceEn:'All investigation into the principles of things is called the study of things.'}
+      ],
+      grammarPoints: [
+        {point:'举例论证',pointEn:'jǔ lì lùn zhèng',example:'argumentation by example',exampleEn:'明朝大理论家王阳明要依照朱熹的方法来格物致知，结果他格了七天竹子也没有格出什么道理来。',explanation:'The great Ming theorist Wang Yangming tried to study things following Zhu Xi’s method, but after contemplating bamboo for seven days he found no principles.',explanationEn:'用王阳明格竹的典型事例来论证纯粹内省不能获得科学知识，增强了说服力。'}
+      ],
       authorBio: {
         cn: "\u4e01\u8087\u4e2d\uff0c1936\u5e74\u751f\uff0c\u7956\u7c4d\u5c71\u4e1c\u65e5\u7167\uff0c\u7f8e\u7c4d\u534e\u88d4\u7269\u7406\u5b66\u5bb6\u30021976\u5e74\u83b7\u8bfa\u8d1d\u5c14\u7269\u7406\u5b66\u5956\u3002",
         en: "Ding Zhaozhong (Samuel Ting), born 1936, ancestral home Rizhao, Shandong. Chinese-American physicist. Received the 1976 Nobel Prize in Physics."
@@ -690,9 +833,17 @@ units: [
     },
     {
       id: 15, title: "\u6211\u4e00\u751f\u4e2d\u7684\u91cd\u8981\u6289\u62e9", titleEn: "Important Choices in My Life",
+      difficulty: 4,
       author: "\u738b\u9009", authorEn: "Wang Xuan",
       source: "\u300a\u5728\u5317\u5927\u542c\u8bb2\u5ea7\u300b\uff08\u65b0\u4e16\u754c\u51fa\u7248\u793e1999\u5e74\u7248\uff09",
       sourceEn: "Lectures at Peking University (New World Press, 1999 edition)",
+      vocabWords: [
+        {word:'抉择',pinyin:'jué zé',en:'choice; decision',sentence:'我一生中的重要抉择。',sentenceEn:'The important choices in my life.'},
+        {word:'阳关道',pinyin:'yáng guān dào',en:'the broad highway; a promising path',sentence:'跨越学科的独木桥，走上阳关道。',sentenceEn:'Crossing the narrow bridge between disciplines onto the broad highway.'},
+        {word:'前沿',pinyin:'qián yán',en:'forefront; cutting edge',sentence:'在前沿课题上努力攻关。',sentenceEn:'Working hard on cutting-edge research topics.'},
+        {word:'芯片',pinyin:'xīn piàn',en:'microchip',sentence:'发展汉字激光照排系统，用芯片存储字库。',sentenceEn:'Developing a Chinese laser typesetting system using microchips to store character libraries.'},
+        {word:'权衡',pinyin:'quán héng',en:'to weigh; to balance',sentence:'抉择就是一种权衡。',sentenceEn:'Making a choice involves weighing alternatives.'}
+      ],
       authorBio: {
         cn: "\u738b\u9009\uff081937\u20142006\uff09\uff0c\u6c5f\u82cf\u65e0\u9521\u4eba\uff0c\u8ba1\u7b97\u673a\u6587\u5b57\u4fe1\u606f\u5904\u7406\u4e13\u5bb6\uff0c\u88ab\u8a89\u4e3a\u201c\u5f53\u4ee3\u6bd5\u6607\u201d\u30022002\u5e74\u83b7\u56fd\u5bb6\u6700\u9ad8\u79d1\u5b66\u6280\u672f\u5956\u3002",
         en: "Wang Xuan (1937\u20132006), from Wuxi, Jiangsu. Computer typesetting expert, known as \u2018the modern Bi Sheng.\u2019 Received the State Preeminent Science and Technology Award in 2002."
@@ -709,7 +860,7 @@ units: [
       textEn: [
         "I am already 61. I consider myself \u2018a scientist who worked hard, once achieved results, whose peak has passed, and who can\u2019t keep up with new technological developments.\u2019",
         "My sixth important choice, in 1992, was to devote great effort to nurturing young people. Nurturing young people is a law of history.",
-        "Finally I give you a formula: I plus We equals Full I. To realize self-worth, you need to integrate yourself into the collective of \u2018We.\u2019"
+        "Finally I give you a formula: I plus We equals Full I. Everyone strongly emphasizes realizing self-worth. To realize self-worth, you need to integrate yourself into the collective of \u2018We.\u2019"
       ],
       annotations: [
         {id: 1, term: "\u72d7\u76ae\u818f\u836f", definition: "\u4f5c\u8005\u81ea\u8c26\u3001\u5e7d\u9ed8\u7684\u8bf4\u6cd5\u3002", definitionEn: "The author\u2019s self-deprecating, humorous expression."}
@@ -726,9 +877,20 @@ units: [
     },
     {
       id: 16, title: "\u5e86\u795d\u5965\u6797\u5339\u514b\u8fd0\u52a8\u590d\u517425\u5468\u5e74", titleEn: "Celebrating 25 Years of Olympic Revival",
+      difficulty: 5,
       author: "\u987e\u62dc\u65e6", authorEn: "Pierre de Coubertin",
       source: "\u300a\u5965\u6797\u5339\u514b\u4e3b\u4e49\u2014\u2014\u987e\u62dc\u65e6\u6587\u9009\u300b\uff08\u4eba\u6c11\u4f53\u80b2\u51fa\u7248\u793e2008\u5e74\u7248\uff09",
       sourceEn: "Olympism: Selected Writings of Coubertin (People\u2019s Sports Publishing House, 2008 edition)",
+      vocabWords: [
+        {word:'浩劫',pinyin:'hào jié',en:'catastrophe; great disaster',sentence:'五年前人类的浩劫曾使奥林匹克理想蒙尘。',sentenceEn:'Five years ago the catastrophe of humanity had tarnished the Olympic ideal.'},
+        {word:'萦绕',pinyin:'yíng rào',en:'to linger; to hover',sentence:'平和与自信重新萦绕在人们心头。',sentenceEn:'Peace and confidence once again lingered in people’s hearts.'},
+        {word:'拙劣',pinyin:'zhuō liè',en:'clumsy; inferior',sentence:'拙劣的作假行为是对奥林匹克精神的亵渎。',sentenceEn:'Clumsy acts of cheating are a desecration of the Olympic spirit.'},
+        {word:'分崩离析',pinyin:'fēn bēng lí xī',en:'to fall apart; to disintegrate',sentence:'如果没有这种精神，人类社会将分崩离析。',sentenceEn:'Without this spirit, human society would fall apart.'},
+        {word:'自圆其说',pinyin:'zì yuán qí shuō',en:'to make a self-consistent argument',sentence:'奥林匹克精神包含但又超越了竞技体育，这并非自圆其说。',sentenceEn:'The Olympic spirit encompasses but transcends competitive sports; this is not mere self-justification.'}
+      ],
+      grammarPoints: [
+        {point:'演讲词结构',pointEn:'yǎn jiǎng cí jié gòu',example:'structure of a speech',exampleEn:'五年前，在美丽的巴黎……如今在这光辉的周年纪念日。',explanation:'Five years ago, in beautiful Paris... now on this glorious anniversary.',explanationEn:'演讲词以时间推进和层层深入的方式展开，从回顾历史到展望未来，结构严谨。'}
+      ],
       authorBio: {
         cn: "\u987e\u62dc\u65e6\uff081863\u20141937\uff09\uff0c\u6cd5\u56fd\u6559\u80b2\u5bb6\u3001\u793e\u4f1a\u6d3b\u52a8\u5bb6\uff0c\u73b0\u4ee3\u5965\u6797\u5339\u514b\u8fd0\u52a8\u521b\u59cb\u4eba\u3002",
         en: "Pierre de Coubertin (1863\u20131937), French educator and social activist, founder of the modern Olympic movement."
@@ -744,11 +906,11 @@ units: [
       ],
       textEn: [
         "The Olympic spirit is beginning to be embraced by youth who are increasingly peaceful and self-confident.",
-        "Courage is a virtue in war that creates heroes. But the true and lasting cure for fear is self-confidence rather than courage.",
+        "Courage is a virtue in war, capable of creating heroes amid the circumstances of the times. But the true and lasting remedy for eradicating fear is self-confidence rather than courage.",
         "This is the perfect, democratic Olympic spirit \u2014 today we lay its foundation."
       ],
       annotations: [
-        {id: 1, term: "\u8902\u8912(qi\u01cengb\u01ceo)", definition: "\u5305\u88f9\u5a74\u513f\u7684\u88ab\u5b50\u548c\u5e26\u5b50\u3002", definitionEn: "Swaddling clothes for infants."},
+        {id: 1, term: "\u8941\u8913(qi\u01cengb\u01ceo)", definition: "\u5305\u88f9\u5a74\u513f\u7684\u88ab\u5b50\u548c\u5e26\u5b50\u3002", definitionEn: "Swaddling clothes for infants."},
         {id: 2, term: "\u884c\u5c06\u5c31\u6728", definition: "\u5feb\u8981\u8fdb\u68fa\u6750\u4e86\u3002\u6307\u4eba\u4e34\u8fd1\u6b7b\u4ea1\u3002", definitionEn: "About to enter the coffin; approaching death."}
       ],
       thinkExplore: [
@@ -787,9 +949,21 @@ units: [
   lessons: [
     {
       id: 17, title: "\u58f6\u53e3\u7011\u5e03", titleEn: "Hukou Waterfall",
+      difficulty: 5,
       author: "\u6881\u8861", authorEn: "Liang Heng",
       source: "\u300a\u6881\u8861\u6587\u96c6\u300b\u5377\u4e00\uff08\u4eba\u6c11\u6559\u80b2\u51fa\u7248\u793e2002\u5e74\u7248\uff09",
       sourceEn: "Collected Works of Liang Heng, Vol. 1 (People\u2019s Education Press, 2002 edition)",
+      vocabWords: [
+        {word:'震耳欲聋',pinyin:'zhèn ěr yù lóng',en:'deafening',sentence:'除了扑面而来的水汽，震耳欲聋的涛声。',sentenceEn:'Aside from the spray hitting our faces, the deafening roar of the torrent.'},
+        {word:'推搡',pinyin:'tuī sǎng',en:'to push and shove',sentence:'河水从五百米宽的河道上排排涌来，互相挤着、撞着，推推搡搡。',sentenceEn:'The river water surged forward in rows from the 500-meter-wide channel, squeezing and pushing one another.'},
+        {word:'驰骋',pinyin:'chí chěng',en:'to gallop; to race freely',sentence:'当河水正这般畅畅快快地驰骋着时。',sentenceEn:'Just as the river was galloping along so freely and joyfully.'},
+        {word:'怒不可遏',pinyin:'nù bù kě è',en:'to be unable to contain one’s fury',sentence:'至柔至和的水一旦被压迫竟会这样怒不可遏。',sentenceEn:'Water, the gentlest and most yielding of things, once pressed can become furious beyond restraint.'},
+        {word:'漩涡',pinyin:'xuán wō',en:'whirlpool; vortex',sentence:'沟底飞转着一个个漩涡。',sentenceEn:'Whirlpools spun rapidly at the bottom of the gorge.'}
+      ],
+      grammarPoints: [
+        {point:'移步换景',pointEn:'yí bù huàn jǐng',example:'changing scenes with each step',exampleEn:'第一次是雨季……第二次我专选了个枯水季节。',explanation:'The first time was during rainy season... the second time I chose a dry season.',explanationEn:'两次游览壶口呈现不同景象，体现了移步换景、时空对比的写作手法。'},
+        {point:'象征手法',pointEn:'xiàng zhēng shǒu fǎ',example:'symbolism',exampleEn:'这伟大只在冲过壶口的一刹那才闪现出来被我们看见。',explanation:'This greatness only flashes into view the instant it surges through the Hukou.',explanationEn:'以黄河之水的博大和壮美象征中华民族百折不挠的精神力量。'}
+      ],
       authorBio: {
         cn: "\u6881\u8861\uff0c1946\u5e74\u751f\uff0c\u5c71\u897f\u971e\u53bf\u4eba\uff0c\u5f53\u4ee3\u4f5c\u5bb6\u3001\u65b0\u95fb\u5de5\u4f5c\u8005\u3002\u4ee3\u8868\u4f5c\u6709\u6563\u6587\u96c6\u300a\u6881\u8861\u6587\u96c6\u300b\u7b49\u3002",
         en: "Liang Heng, born 1946, from Xia County, Shanxi. Contemporary writer and journalist. Representative works include the collected essays of Liang Heng."
@@ -813,7 +987,7 @@ units: [
         "The Yellow River is broad and magnanimous, gentle yet firm; restrained yet unsubmissive, pressed yet unbowed; crying out against injustice, resisting the strong; finding life even in desperate straits, charging ever forward. Like a person who has endured many hardships and thereby forged a unique character."
       ],
       annotations: [
-        {id: 1, term: "\u5bd2\u566c(j\u00ecn)", definition: "\u5bd2\u6218\u3002", definitionEn: "A shiver from cold."},
+        {id: 1, term: "\u5bd2\u5664(j\u00ecn)", definition: "\u5bd2\u6218\u3002", definitionEn: "A shiver from cold."},
         {id: 2, term: "\u51fa\u8f67(zh\u00e1)", definition: "\uff08\u94a2\u677f\uff09\u4ece\u8f67\u94a2\u673a\u91cc\u51fa\u6765\u3002", definitionEn: "Steel plate emerging from a rolling mill."},
         {id: 3, term: "\u6c69\u6c69(g\u01d4)", definition: "\u5f62\u5bb9\u6c34\u6d41\u52a8\u7684\u58f0\u97f3\u3002", definitionEn: "The gurgling sound of flowing water."},
         {id: 4, term: "\u6012\u4e0d\u53ef\u904f(\u00e8)", definition: "\u6124\u6012\u5f97\u4e0d\u80fd\u6291\u5236\uff0c\u8fd9\u91cc\u5f62\u5bb9\u6c34\u52bf\u4e0d\u53ef\u963b\u6321\u3002", definitionEn: "Uncontrollable fury; here describes the unstoppable force of water."}
@@ -832,9 +1006,17 @@ units: [
     },
     {
       id: 18, title: "\u5728\u957f\u6c5f\u6e90\u5934\u5404\u62c9\u4e39\u51ac", titleEn: "At the Source of the Yangtze: Geladandong",
+      difficulty: 5,
       author: "\u9a6c\u4e3d\u534e", authorEn: "Ma Lihua",
       source: "\u300a\u85cf\u5317\u6e38\u5386\u300b\uff08\u4e2d\u56fd\u85cf\u5b66\u51fa\u7248\u793e2007\u5e74\u7248\uff09",
       sourceEn: "Travels in Northern Tibet (China Tibetology Publishing House, 2007 edition)",
+      vocabWords: [
+        {word:'接踵而至',pinyin:'jiē zhǒng ér zhì',en:'to come one after another',sentence:'各种高原反应接踵而至。',sentenceEn:'Various altitude sickness symptoms came one after another.'},
+        {word:'砾石',pinyin:'lì shí',en:'gravel; pebbles',sentence:'冰河旁满是砾石。',sentenceEn:'The side of the glacier was full of gravel.'},
+        {word:'消长',pinyin:'xiāo zhǎng',en:'to ebb and flow; wax and wane',sentence:'冰塔林的消长是大自然的杰作。',sentenceEn:'The waxing and waning of the ice tower forest is a masterpiece of nature.'},
+        {word:'虔诚',pinyin:'qián chéng',en:'devout; reverent',sentence:'我以十分虔诚的目光注视着这片冰雪世界。',sentenceEn:'I gazed at this world of ice and snow with utterly reverent eyes.'},
+        {word:'蜿蜒',pinyin:'wān yán',en:'winding; meandering',sentence:'远方是蜿蜒的冰河。',sentenceEn:'In the distance was a meandering glacier.'}
+      ],
       authorBio: {
         cn: "\u9a6c\u4e3d\u534e\uff0c1953\u5e74\u751f\uff0c\u5c71\u4e1c\u6d4e\u5357\u4eba\uff0c\u5f53\u4ee3\u4f5c\u5bb6\u3002\u957f\u671f\u5728\u897f\u85cf\u5de5\u4f5c\uff0c\u4ee3\u8868\u4f5c\u6709\u300a\u85cf\u5317\u6e38\u5386\u300b\u7b49\u3002",
         en: "Ma Lihua, born 1953, from Jinan, Shandong. Contemporary writer who worked in Tibet for many years. Representative works include Travels in Northern Tibet."
@@ -875,9 +1057,17 @@ units: [
     },
     {
       id: 19, title: "\u767b\u52c3\u6717\u5cf0", titleEn: "Climbing Mont Blanc",
+      difficulty: 5,
       author: "\u9a6c\u514b\u00b7\u5410\u6e29", authorEn: "Mark Twain",
       source: "\u300a\u8fdc\u5904\u7684\u9752\u5c71\u300b\uff08\u65b0\u4e16\u754c\u51fa\u7248\u793e2011\u5e74\u7248\uff09",
       sourceEn: "The Distant Green Hills (New World Press, 2011 edition)",
+      vocabWords: [
+        {word:'翌日',pinyin:'yì rì',en:'the next day',sentence:'翌日我们便去登勃朗峰。',sentenceEn:'The next day we set off to climb Mont Blanc.'},
+        {word:'络绎不绝',pinyin:'luò yì bù jué',en:'in an endless stream',sentence:'登山的人络绎不绝。',sentenceEn:'People climbing the mountain came in an endless stream.'},
+        {word:'巉峻',pinyin:'chán jùn',en:'steep and precipitous',sentence:'这些巉峻的山峰在阳光下闪烁。',sentenceEn:'These steep peaks glittered in the sunlight.'},
+        {word:'拾级',pinyin:'shè jí',en:'to climb steps; to ascend',sentence:'沿途拾级而上。',sentenceEn:'We ascended step by step along the way.'},
+        {word:'纷至沓来',pinyin:'fēn zhì tà lái',en:'to come in swarms',sentence:'美景纷至沓来，让人目不暇接。',sentenceEn:'Beautiful scenery came in a flood, more than the eye could take in.'}
+      ],
       authorBio: {
         cn: "\u9a6c\u514b\u00b7\u5410\u6e29\uff081835\u20141910\uff09\uff0c\u7f8e\u56fd\u4f5c\u5bb6\u3002\u4ee3\u8868\u4f5c\u6709\u5c0f\u8bf4\u300a\u6c64\u59c6\u00b7\u7d22\u4e9a\u5386\u9669\u8bb0\u300b\u300a\u54c8\u514b\u8d1d\u5229\u00b7\u8d39\u6069\u5386\u9669\u8bb0\u300b\u7b49\u3002",
         en: "Mark Twain (1835\u20131910), American writer. Representative works include The Adventures of Tom Sawyer and Adventures of Huckleberry Finn."
@@ -899,7 +1089,7 @@ units: [
       annotations: [
         {id: 1, term: "\u7fcc(y\u00ec)\u65e5", definition: "\u6b21\u65e5\u3002", definitionEn: "The next day."},
         {id: 2, term: "\u8f9a\u8f9a(l\u00edn)", definition: "\u5f62\u5bb9\u8f66\u884c\u8d70\u65f6\u7684\u58f0\u97f3\u3002", definitionEn: "The rumbling sound of a cart moving."},
-        {id: 3, term: "\u5d5d(ch\u00e1n)\u5cfb", definition: "\u9669\u5cfb\u9661\u5ced\u3002", definitionEn: "Steep and precipitous."},
+        {id: 3, term: "\u5dc9(ch\u00e1n)\u5cfb", definition: "\u9669\u5cfb\u9661\u5ced\u3002", definitionEn: "Steep and precipitous."},
         {id: 4, term: "\u62fe(sh\u00e8)\u7ea7", definition: "\u9010\u6b65\u767b\u9636\u3002", definitionEn: "To ascend steps one by one."}
       ],
       thinkExplore: [
@@ -914,9 +1104,17 @@ units: [
     },
     {
       id: 20, title: "\u4e00\u6ef4\u6c34\u7ecf\u8fc7\u4e3d\u6c5f", titleEn: "A Drop of Water Through Lijiang",
+      difficulty: 5,
       author: "\u963f\u6765", authorEn: "A Lai",
       source: "\u300a\u8bfe\u5802\u5185\u5916\u300b2013\u5e746\u6708\u53f7",
       sourceEn: "Inside and Outside the Classroom, June 2013",
+      vocabWords: [
+        {word:'驿道',pinyin:'yì dào',en:'post road; courier route',sentence:'顺着驿道，我来到了丽江坝。',sentenceEn:'Following the post road, I arrived at the Lijiang plain.'},
+        {word:'翡翠',pinyin:'fěi cuì',en:'jade; emerald',sentence:'玉龙雪山的冰川像一块翡翠。',sentenceEn:'The glacier of Jade Dragon Snow Mountain was like a piece of emerald.'},
+        {word:'目眩神迷',pinyin:'mù xuàn shén mí',en:'dazzled and mesmerized',sentence:'那壮丽的雪山让人目眩神迷。',sentenceEn:'The magnificent snow mountain left people dazzled and mesmerized.'},
+        {word:'苍劲',pinyin:'cāng jìng',en:'bold and vigorous',sentence:'纳西族的东巴文字苍劲有力。',sentenceEn:'The Dongba script of the Naxi people is bold and vigorous.'},
+        {word:'喧哗',pinyin:'xuān huá',en:'clamor; hubbub',sentence:'不同民族的人使四方街一片喧哗。',sentenceEn:'People of different ethnic groups filled Sifang Street with a clamor.'}
+      ],
       authorBio: {
         cn: "\u963f\u6765\uff0c1959\u5e74\u751f\uff0c\u56db\u5ddd\u9a6c\u5c14\u5eb7\u4eba\uff0c\u85cf\u65cf\u5f53\u4ee3\u4f5c\u5bb6\u3002\u4ee3\u8868\u4f5c\u6709\u300a\u5c18\u57c3\u843d\u5b9a\u300b\uff08\u83b7\u7b2c\u4e94\u5c4a\u8305\u76fe\u6587\u5b66\u5956\uff09\u7b49\u3002",
         en: "A Lai, born 1959, from Ma\u2019erkang, Sichuan. Tibetan contemporary writer. Representative works include The Dust Settles (5th Mao Dun Literary Prize)."
@@ -975,21 +1173,33 @@ units: [
   lessons: [
     {
       id: 21, title: "\u300a\u5e84\u5b50\u300b\u4e8c\u5219", titleEn: "Two Selections from Zhuangzi",
+      difficulty: 4,
       author: "\u5e84\u5b50", authorEn: "Zhuangzi",
       source: "\u300a\u5e84\u5b50\u96c6\u91ca\u300b\uff08\u4e2d\u534e\u4e66\u5c401961\u5e74\u7248\uff09",
       sourceEn: "Collected Annotations on Zhuangzi (Zhonghua Book Company, 1961 edition)",
+      vocabWords: [
+        {word:'鲲鹏',pinyin:'kūn péng',en:'the great Kun fish and Peng bird',sentence:'鲲之大，不知其几千里也。',sentenceEn:'The Kun fish is so huge that no one knows how many thousands of miles it stretches.'},
+        {word:'扶摇',pinyin:'fú yáo',en:'whirlwind; rising wind',sentence:'抟扶摇而上者九万里。',sentenceEn:'Riding the whirlwind, it spirals up to ninety thousand miles.'},
+        {word:'从容',pinyin:'cóng róng',en:'leisurely; unhurried',sentence:'鲦鱼出游从容，是鱼之乐也。',sentenceEn:'The minnows swim about so leisurely; that is the joy of fish.'},
+        {word:'濠梁',pinyin:'háo liáng',en:'the bridge over the Hao River',sentence:'庄子与惠子游于濠梁之上。',sentenceEn:'Zhuangzi and Huizi were strolling on the bridge over the Hao River.'},
+        {word:'循其本',pinyin:'xún qí běn',en:'to trace back to the origin',sentence:'请循其本。',sentenceEn:'Please let us go back to the beginning of this argument.'}
+      ],
+      grammarPoints: [
+        {point:'寓言说理',pointEn:'yù yán shuō lǐ',example:'reasoning through fables',exampleEn:'北冥有鱼，其名为鲲。鲲之大，不知其几千里也。',explanation:'In the northern sea there is a fish called Kun. The Kun is so huge that no one knows how many thousands of miles it stretches.',explanationEn:'庄子善于用寓言故事来表达哲学思想，鲲鹏的寓言寄托了对精神自由的向往。'},
+        {point:'论辩技巧',pointEn:'lùn biàn jì qiǎo',example:'debating technique',exampleEn:'子非鱼，安知鱼之乐？子非我，安知我不知鱼之乐？',explanation:'You are not a fish; how do you know the joy of fish? You are not me; how do you know I do not know the joy of fish?',explanationEn:'庄子巧妙地用对方的逻辑来反驳对方，体现了高超的论辩技巧。'}
+      ],
       authorBio: {
         cn: "\u5e84\u5b50\uff08\u7ea6\u524d369\u2014\u524d286\uff09\uff0c\u540d\u5468\uff0c\u5b8b\u56fd\u8499\u4eba\uff0c\u6218\u56fd\u65f6\u671f\u54f2\u5b66\u5bb6\uff0c\u9053\u5bb6\u5b66\u6d3e\u7684\u4ee3\u8868\u4eba\u7269\u3002\u300a\u5e84\u5b50\u300b\u73b0\u5b5833\u7bc7\u3002",
         en: "Zhuangzi (c. 369\u2013286 BCE), given name Zhou, from Meng in the state of Song. Warring States philosopher and representative of the Daoist school. The Zhuangzi survives in 33 chapters."
       },
       isSelfRead: false,
       preview: [
-        {cn: "\u7b2c\u4e00\u5219\u300a\u5317\u51a5\u6709\u9c7c\u300b\u8282\u9009\u81ea\u300a\u9006\u9065\u6e38\u300b\uff0c\u7b2c\u4e8c\u5219\u300a\u5e84\u5b50\u4e0e\u60e0\u5b50\u6e38\u4e8e\u6fef\u6881\u4e4b\u4e0a\u300b\u8282\u9009\u81ea\u300a\u79cb\u6c34\u300b\u3002", en: "The first selection, \u2018The Northern Ocean Has a Fish,\u2019 is from \u2018Free and Easy Wandering.\u2019 The second, \u2018Zhuangzi and Huizi on the Hao Bridge,\u2019 is from \u2018Autumn Floods.\u2019"}
+        {cn: "\u7b2c\u4e00\u5219\u300a\u5317\u51a5\u6709\u9c7c\u300b\u8282\u9009\u81ea\u300a\u9006\u9065\u6e38\u300b\uff0c\u7b2c\u4e8c\u5219\u300a\u5e84\u5b50\u4e0e\u60e0\u5b50\u6e38\u4e8e\u6fe0\u6881\u4e4b\u4e0a\u300b\u8282\u9009\u81ea\u300a\u79cb\u6c34\u300b\u3002", en: "The first selection, \u2018The Northern Ocean Has a Fish,\u2019 is from \u2018Free and Easy Wandering.\u2019 The second, \u2018Zhuangzi and Huizi on the Hao Bridge,\u2019 is from \u2018Autumn Floods.\u2019"}
       ],
       text: [
         "\u5317\u51a5\u6709\u9c7c\uff0c\u5176\u540d\u4e3a\u9cb2\u3002\u9cb2\u4e4b\u5927\uff0c\u4e0d\u77e5\u5176\u51e0\u5343\u91cc\u4e5f\uff1b\u5316\u800c\u4e3a\u9e1f\uff0c\u5176\u540d\u4e3a\u9e4f\u3002\u9e4f\u4e4b\u80cc\uff0c\u4e0d\u77e5\u5176\u51e0\u5343\u91cc\u4e5f\uff1b\u6012\u800c\u98de\uff0c\u5176\u7ffc\u82e5\u5782\u5929\u4e4b\u4e91\u3002",
         "\u300a\u9f50\u8c10\u300b\u8005\uff0c\u5fd7\u602a\u8005\u4e5f\u3002\u300a\u8c10\u300b\u4e4b\u8a00\u66f0\uff1a\u201c\u9e4f\u4e4b\u5f99\u4e8e\u5357\u51a5\u4e5f\uff0c\u6c34\u51fb\u4e09\u5343\u91cc\uff0c\u629f\u6276\u6447\u800c\u4e0a\u8005\u4e5d\u4e07\u91cc\uff0c\u53bb\u4ee5\u516d\u6708\u606f\u8005\u4e5f\u3002\u201d",
-        "\u5e84\u5b50\u4e0e\u60e0\u5b50\u6e38\u4e8e\u6fef\u6881\u4e4b\u4e0a\u3002\u5e84\u5b50\u66f0\uff1a\u201c\u9cb5\u9c7c\u51fa\u6e38\u4ece\u5bb9\uff0c\u662f\u9c7c\u4e4b\u4e50\u4e5f\u3002\u201d\u60e0\u5b50\u66f0\uff1a\u201c\u5b50\u975e\u9c7c\uff0c\u5b89\u77e5\u9c7c\u4e4b\u4e50\uff1f\u201d\u5e84\u5b50\u66f0\uff1a\u201c\u5b50\u975e\u6211\uff0c\u5b89\u77e5\u6211\u4e0d\u77e5\u9c7c\u4e4b\u4e50\uff1f\u201d"
+        "\u5e84\u5b50\u4e0e\u60e0\u5b50\u6e38\u4e8e\u6fe0\u6881\u4e4b\u4e0a\u3002\u5e84\u5b50\u66f0\uff1a\u201c\u9cb5\u9c7c\u51fa\u6e38\u4ece\u5bb9\uff0c\u662f\u9c7c\u4e4b\u4e50\u4e5f\u3002\u201d\u60e0\u5b50\u66f0\uff1a\u201c\u5b50\u975e\u9c7c\uff0c\u5b89\u77e5\u9c7c\u4e4b\u4e50\uff1f\u201d\u5e84\u5b50\u66f0\uff1a\u201c\u5b50\u975e\u6211\uff0c\u5b89\u77e5\u6211\u4e0d\u77e5\u9c7c\u4e4b\u4e50\uff1f\u201d"
       ],
       textEn: [
         "In the Northern Ocean there is a fish called the Kun. The Kun is so large that no one knows how many thousand li it measures. It transforms into a bird called the Peng. The Peng\u2019s back \u2014 no one knows how many thousand li across. When it rouses and flies, its wings are like clouds hanging from the sky.",
@@ -1002,7 +1212,7 @@ units: [
         {id: 3, term: "\u6012", definition: "\u632f\u594b\uff0c\u8fd9\u91cc\u6307\u7528\u529b\u9f13\u52a8\u7fc5\u8180\u3002", definitionEn: "To rouse vigorously; here, to beat the wings with full force."},
         {id: 4, term: "\u629f(tu\u00e1n)\u6276\u6447\u800c\u4e0a\u8005\u4e5d\u4e07\u91cc", definition: "\u4e58\u7740\u65cb\u98ce\u76d8\u65cb\u98de\u81f3\u4e5d\u4e07\u91cc\u7684\u9ad8\u7a7a\u3002", definitionEn: "Spiraling upward on whirlwinds to ninety thousand li."},
         {id: 5, term: "\u60e0\u5b50", definition: "\u5373\u60e0\u65bd\uff0c\u6218\u56fd\u65f6\u671f\u54f2\u5b66\u5bb6\uff0c\u5e84\u5b50\u7684\u597d\u53cb\u3002", definitionEn: "Huizi, i.e. Hui Shi, a Warring States philosopher and Zhuangzi\u2019s close friend."},
-        {id: 6, term: "\u6fef(h\u00e1o)\u6881", definition: "\u6fef\u6c34\u4e0a\u7684\u6865\u3002\u6fef\uff0c\u6c34\u540d\uff0c\u5728\u4eca\u5b89\u5fbd\u51e4\u9633\u3002", definitionEn: "The bridge over the Hao River, in present-day Fengyang, Anhui."}
+        {id: 6, term: "\u6fe0(h\u00e1o)\u6881", definition: "\u6fe0\u6c34\u4e0a\u7684\u6865\u3002\u6fe0\uff0c\u6c34\u540d\uff0c\u5728\u4eca\u5b89\u5fbd\u51e4\u9633\u3002", definitionEn: "The bridge over the Hao River, in present-day Fengyang, Anhui."}
       ],
       thinkExplore: [
         {cn: "\u80cc\u8bf5\u300a\u5317\u51a5\u6709\u9c7c\u300b\uff0c\u8bf4\u8bf4\u4f5c\u8005\u7b14\u4e0b\u7684\u201c\u9e4f\u201d\u662f\u4e2a\u4ec0\u4e48\u6837\u7684\u5f62\u8c61\u3002", en: "Recite \u2018The Northern Ocean Has a Fish\u2019 and describe what the \u2018Peng\u2019 is like in the author\u2019s writing."},
@@ -1017,9 +1227,20 @@ units: [
     },
     {
       id: 22, title: "\u300a\u793c\u8bb0\u300b\u4e8c\u5219", titleEn: "Two Selections from the Book of Rites",
+      difficulty: 5,
       author: "\u300a\u793c\u8bb0\u300b", authorEn: "The Book of Rites",
       source: "\u300a\u793c\u8bb0\u6b63\u4e49\u300b\uff08\u4e0a\u6d77\u53e4\u7c4d\u51fa\u7248\u793e2008\u5e74\u7248\uff09",
       sourceEn: "Book of Rites with Correct Meanings (Shanghai Classics Publishing House, 2008 edition)",
+      vocabWords: [
+        {word:'嘉肴',pinyin:'jiā yáo',en:'fine delicacies',sentence:'虽有嘉肴，弗食，不知其旨也。',sentenceEn:'Even with fine delicacies, if you do not eat them, you will not know their flavor.'},
+        {word:'教学相长',pinyin:'jiào xué xiāng zhǎng',en:'teaching and learning promote each other',sentence:'故曰：教学相长也。',sentenceEn:'Therefore it is said: teaching and learning promote each other.'},
+        {word:'天下为公',pinyin:'tiān xià wéi gōng',en:'the world belongs to all',sentence:'大道之行也，天下为公。',sentenceEn:'When the Great Way prevails, the world belongs to all.'},
+        {word:'选贤与能',pinyin:'xuǎn xián jǔ néng',en:'to select the virtuous and capable',sentence:'选贤与能，讲信修睦。',sentenceEn:'Select the virtuous and capable, cultivate trust and harmony.'},
+        {word:'大同',pinyin:'dà tóng',en:'great unity; utopia',sentence:'是谓大同。',sentenceEn:'This is called the Great Unity.'}
+      ],
+      grammarPoints: [
+        {point:'类比论证',pointEn:'lèi bǐ lùn zhèng',example:'argument by analogy',exampleEn:'虽有嘉肴，弗食，不知其旨也；虽有至道，弗学，不知其善也。',explanation:'Even with fine delicacies, without tasting you will not know the flavor; even with the best teachings, without studying you will not know their value.',explanationEn:'用品尝美食来类比学习道理，深入浅出，使抽象道理变得具体易懂。'}
+      ],
       authorBio: {
         cn: "\u300a\u793c\u8bb0\u300b\uff0c\u6218\u56fd\u81f3\u79e6\u6c49\u95f4\u5112\u5bb6\u8bba\u8457\u7684\u6c47\u7f16\uff0c\u76f8\u4f20\u662f\u897f\u6c49\u7ecf\u5b66\u5bb6\u6234\u5723\u7f16\u7e82\u7684\u3002",
         en: "The Book of Rites, a compilation of Confucian writings from the Warring States to Qin-Han period, traditionally attributed to the Western Han classicist Dai Sheng."
@@ -1058,9 +1279,20 @@ units: [
     },
     {
       id: 23, title: "\u9a6c\u8bf4", titleEn: "On the Horse",
+      difficulty: 4,
       author: "\u97e9\u6108", authorEn: "Han Yu",
       source: "\u300a\u97e9\u660c\u9ece\u6587\u96c6\u6821\u6ce8\u300b\u5377\u4e00\uff08\u4e0a\u6d77\u53e4\u7c4d\u51fa\u7248\u793e1986\u5e74\u7248\uff09",
       sourceEn: "Annotated Collected Works of Han Changli, Vol. 1 (Shanghai Classics Publishing House, 1986 edition)",
+      vocabWords: [
+        {word:'伯乐',pinyin:'bó lè',en:'Bole, a legendary judge of horses',sentence:'世有伯乐，然后有千里马。',sentenceEn:'Only when there is a Bole in the world can there be a thousand-mile horse.'},
+        {word:'骈死',pinyin:'pián sǐ',en:'to die side by side (with common horses)',sentence:'祗辱于奴隶人之手，骈死于槽枥之间。',sentenceEn:'It is merely humiliated at the hands of servants and dies side by side with common horses in the stable.'},
+        {word:'千里马',pinyin:'qiān lǐ mǎ',en:'a horse that can run a thousand miles; a person of great talent',sentence:'千里马常有，而伯乐不常有。',sentenceEn:'Thousand-mile horses are common, but Boles are rare.'},
+        {word:'策之',pinyin:'cè zhī',en:'to whip it; to drive it',sentence:'策之不以其道。',sentenceEn:'They whip it without using the proper method.'},
+        {word:'食马者',pinyin:'sì mǎ zhě',en:'the one who feeds the horse',sentence:'食马者不知其能千里而食也。',sentenceEn:'The one who feeds it does not realize it can run a thousand miles.'}
+      ],
+      grammarPoints: [
+        {point:'托物言志',pointEn:'tuō wù yán zhì',example:'expressing aspirations through objects',exampleEn:'其真无马邪？其真不知马也！',explanation:'Is it really that there are no good horses? They simply do not recognize them!',explanationEn:'借千里马不被赏识的命运，寄托作者怀才不遇的悲愤之情。'}
+      ],
       authorBio: {
         cn: "\u97e9\u6108\uff08768\u2014824\uff09\uff0c\u5b57\u9000\u4e4b\uff0c\u6cb3\u9633\u4eba\uff0c\u4e16\u79f0\u201c\u97e9\u660c\u9ece\u201d\uff0c\u5510\u4ee3\u6587\u5b66\u5bb6\u3001\u601d\u60f3\u5bb6\u3001\u6559\u80b2\u5bb6\u3002",
         en: "Han Yu (768\u2013824), courtesy name Tuizhi, from Heyang (modern Henan). Known as \u2018Han Changli,\u2019 a Tang Dynasty writer, thinker, and educator."
@@ -1072,7 +1304,7 @@ units: [
       text: [
         "\u4e16\u6709\u4f2f\u4e50\uff0c\u7136\u540e\u6709\u5343\u91cc\u9a6c\u3002\u5343\u91cc\u9a6c\u5e38\u6709\uff0c\u800c\u4f2f\u4e50\u4e0d\u5e38\u6709\u3002\u6545\u867d\u6709\u540d\u9a6c\uff0c\u53ea\u8fb1\u4e8e\u5974\u96b6\u4eba\u4e4b\u624b\uff0c\u9a88\u6b7b\u4e8e\u69fd\u67a5\u4e4b\u95f4\uff0c\u4e0d\u4ee5\u5343\u91cc\u79f0\u4e5f\u3002",
         "\u9a6c\u4e4b\u5343\u91cc\u8005\uff0c\u4e00\u98df\u6216\u5c3d\u7c9f\u4e00\u77f3\u3002\u98df\u9a6c\u8005\u4e0d\u77e5\u5176\u80fd\u5343\u91cc\u800c\u98df\u4e5f\u3002\u662f\u9a6c\u4e5f\uff0c\u867d\u6709\u5343\u91cc\u4e4b\u80fd\uff0c\u98df\u4e0d\u9971\uff0c\u529b\u4e0d\u8db3\uff0c\u624d\u7f8e\u4e0d\u5916\u89c1\u3002",
-        "\u7b56\u4e4b\u4e0d\u4ee5\u5176\u9053\uff0c\u98df\u4e4b\u4e0d\u80fd\u5c3d\u5176\u6750\uff0c\u9e23\u4e4b\u800c\u4e0d\u80fd\u901a\u5176\u610f\uff0c\u6267\u7b56\u800c\u4e34\u4e4b\uff0c\u66f0\uff1a\u201c\u5929\u4e0b\u65e0\u9a6c\uff01\u201d\u545c\u547c\uff01\u5176\u771f\u65e0\u9a6c\u90b6\uff1f\u5176\u771f\u4e0d\u77e5\u9a6c\u4e5f\uff01"
+        "\u7b56\u4e4b\u4e0d\u4ee5\u5176\u9053\uff0c\u98df\u4e4b\u4e0d\u80fd\u5c3d\u5176\u6750\uff0c\u9e23\u4e4b\u800c\u4e0d\u80fd\u901a\u5176\u610f\uff0c\u6267\u7b56\u800c\u4e34\u4e4b\uff0c\u66f0\uff1a\u201c\u5929\u4e0b\u65e0\u9a6c\uff01\u201d\u545c\u547c\uff01\u5176\u771f\u65e0\u9a6c\u90aa\uff1f\u5176\u771f\u4e0d\u77e5\u9a6c\u4e5f\uff01"
       ],
       textEn: [
         "Only when there is a Bole in the world can there then be thousand-li horses. Thousand-li horses are common, but Boles are rare. Therefore, even a fine horse may be degraded in a groom\u2019s hands, die alongside ordinary horses in a stable, and never be recognized as a thousand-li horse.",
@@ -1100,9 +1332,21 @@ units: [
     },
     {
       id: 24, title: "\u5510\u8bd7\u4e09\u9996", titleEn: "Three Tang Poems",
+      difficulty: 4,
       author: "\u675c\u752b\u3001\u767d\u5c45\u6613", authorEn: "Du Fu, Bai Juyi",
       source: "\u300a\u675c\u8bd7\u8be6\u6ce8\u300b\u300a\u767d\u5c45\u6613\u96c6\u300b",
       sourceEn: "Detailed Annotations on Du Fu\u2019s Poetry; Collected Works of Bai Juyi",
+      vocabWords: [
+        {word:'逾墙',pinyin:'yú qiáng',en:'to climb over the wall',sentence:'老翁逾墙走。',sentenceEn:'The old man climbed over the wall and fled.'},
+        {word:'戍',pinyin:'shù',en:'to garrison; to guard',sentence:'三男邺城戍。',sentenceEn:'My three sons were sent to garrison Ye City.'},
+        {word:'布衾',pinyin:'bù qīn',en:'cloth quilt',sentence:'布衾多年冷似铁。',sentenceEn:'The cloth quilt, old for many years, was cold as iron.'},
+        {word:'广厦',pinyin:'guǎng shà',en:'great mansions',sentence:'安得广厦千万间，大庇天下寒士俱欢颜。',sentenceEn:'If only I could have great mansions by the thousands to shelter all the poor scholars of the world!'},
+        {word:'翩翩',pinyin:'piān piān',en:'dashing; graceful',sentence:'翩翩两骑来是谁？',sentenceEn:'Who are the two dashing riders that come?'}
+      ],
+      grammarPoints: [
+        {point:'叙事诗',pointEn:'xù shì shī',example:'narrative poetry',exampleEn:'暮投石壕村，有吏夜捉人。',explanation:'At dusk I sought lodging at Shihao Village; an officer came at night to seize men.',explanationEn:'《石壕吏》以叙事为主，通过客观记叙反映战乱中百姓的苦难。'},
+        {point:'忧国忧民',pointEn:'yōu guó yōu mín',example:'concern for the nation and the people',exampleEn:'安得广厦千万间，大庇天下寒士俱欢颜！',explanation:'If only I could have great mansions by the thousands to shelter all the poor scholars!',explanationEn:'从个人困境升华到忧国忧民的博大情怀，体现了杜甫诗歌的核心精神。'}
+      ],
       authorBio: {
         cn: "\u675c\u752b\uff08712\u2014770\uff09\uff0c\u5b57\u5b50\u7f8e\uff0c\u5510\u4ee3\u73b0\u5b9e\u4e3b\u4e49\u8bd7\u4eba\uff0c\u88ab\u79f0\u4e3a\u201c\u8bd7\u5723\u201d\u3002\u767d\u5c45\u6613\uff08772\u2014846\uff09\uff0c\u5b57\u4e50\u5929\uff0c\u5510\u4ee3\u73b0\u5b9e\u4e3b\u4e49\u8bd7\u4eba\u3002",
         en: "Du Fu (712\u2013770), courtesy name Zimei, Tang realist poet known as the \u2018Sage of Poetry.\u2019 Bai Juyi (772\u2013846), courtesy name Letian, Tang realist poet."
@@ -1112,7 +1356,7 @@ units: [
         {cn: "\u4e09\u9996\u8bd7\u5206\u522b\u662f\u675c\u752b\u7684\u300a\u77f3\u58d5\u5410\u300b\u300a\u8305\u5c4b\u4e3a\u79cb\u98ce\u6240\u7834\u6b4c\u300b\u548c\u767d\u5c45\u6613\u7684\u300a\u5356\u70ad\u7fc1\u300b\u3002", en: "The three poems are Du Fu\u2019s \u2018The Officer at Shihao,\u2019 \u2018Song of the Thatched Roof Broken by Autumn Wind,\u2019 and Bai Juyi\u2019s \u2018The Old Charcoal Seller.\u2019"}
       ],
       text: [
-        "\u66ae\u6295\u77f3\u58d5\u6751\uff0c\u6709\u5434\u591c\u6349\u4eba\u3002\u8001\u7fc1\u903e\u5899\u8d70\uff0c\u8001\u5987\u51fa\u95e8\u770b\u3002\u5434\u547c\u4e00\u4f55\u6012\uff01\u5987\u557c\u4e00\u4f55\u82e6\uff01\u542c\u5987\u524d\u81f4\u8bcd\uff1a\u4e09\u7537\u90ba\u57ce\u620d\u3002\u4e00\u7537\u9644\u4e66\u81f3\uff0c\u4e8c\u7537\u65b0\u6218\u6b7b\u3002",
+        "\u66ae\u6295\u77f3\u58d5\u6751\uff0c\u6709\u540f\u591c\u6349\u4eba\u3002\u8001\u7fc1\u903e\u5899\u8d70\uff0c\u8001\u5987\u51fa\u95e8\u770b\u3002\u540f\u547c\u4e00\u4f55\u6012\uff01\u5987\u557c\u4e00\u4f55\u82e6\uff01\u542c\u5987\u524d\u81f4\u8bcd\uff1a\u4e09\u7537\u90ba\u57ce\u620d\u3002\u4e00\u7537\u9644\u4e66\u81f3\uff0c\u4e8c\u7537\u65b0\u6218\u6b7b\u3002",
         "\u516b\u6708\u79cb\u9ad8\u98ce\u6012\u53f7\uff0c\u5377\u6211\u5c4b\u4e0a\u4e09\u91cd\u8305\u3002\u5b89\u5f97\u5e7f\u53a6\u5343\u4e07\u95f4\uff0c\u5927\u5e87\u5929\u4e0b\u5bd2\u58eb\u4ff1\u6b22\u989c\uff01\u98ce\u96e8\u4e0d\u52a8\u5b89\u5982\u5c71\u3002\u545c\u547c\uff01\u4f55\u65f6\u773c\u524d\u7a81\u5140\u89c1\u6b64\u5c4b\uff0c\u543e\u5e90\u72ec\u7834\u53d7\u51bb\u6b7b\u4ea6\u8db3\uff01",
         "\u5356\u70ad\u7fc1\uff0c\u4f10\u85aa\u70e7\u70ad\u5357\u5c71\u4e2d\u3002\u6ee1\u9762\u5c18\u7070\u70df\u706b\u8272\uff0c\u4e24\u9b13\u82cd\u82cd\u5341\u6307\u9ed1\u3002\u53ef\u601c\u8eab\u4e0a\u8863\u6b63\u5355\uff0c\u5fc3\u5fe7\u70ad\u8d31\u613f\u5929\u5bd2\u3002\u7fe9\u7fe9\u4e24\u9a91\u6765\u662f\u8c01\uff1f\u9ec4\u8863\u4f7f\u8005\u767d\u886b\u513f\u3002\u534a\u5339\u7ea2\u7eb1\u4e00\u4e08\u7eeb\uff0c\u7cfb\u5411\u725b\u5934\u5145\u70ad\u76f4\u3002"
       ],
@@ -1125,7 +1369,7 @@ units: [
         {id: 1, term: "\u77f3\u58d5", definition: "\u5373\u77f3\u58d5\u6751\uff0c\u5728\u4eca\u6cb3\u5357\u4e09\u95e8\u5ce1\u4e1c\u5357\u3002", definitionEn: "Shihao village, in present-day Sanmenxia, southeastern Henan."},
         {id: 2, term: "\u4e00\u4f55", definition: "\u591a\u4e48\u3002", definitionEn: "How (much)!"},
         {id: 3, term: "\u4e09\u91cd(ch\u00f3ng)\u8305", definition: "\u591a\u5c42\u8305\u8349\u3002", definitionEn: "Multiple layers of thatch."},
-        {id: 4, term: "\u5bfe(q\u012bn)", definition: "\u88ab\u5b50\u3002", definitionEn: "Quilt."},
+        {id: 4, term: "\u887e(q\u012bn)", definition: "\u88ab\u5b50\u3002", definitionEn: "Quilt."},
         {id: 5, term: "\u5bd2\u58eb", definition: "\u8d2b\u5bd2\u7684\u58eb\u4eba\u3002", definitionEn: "Poor scholars."},
         {id: 6, term: "\u85aa", definition: "\u6728\u67f4\u3002", definitionEn: "Firewood."},
         {id: 7, term: "\u6555(ch\u00ec)", definition: "\u6307\u7687\u5e1d\u7684\u547d\u4ee4\u3002", definitionEn: "Imperial edict; the emperor\u2019s command."},

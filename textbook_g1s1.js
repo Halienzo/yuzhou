@@ -1,5 +1,5 @@
 /**
- * 字道 ZiDao — 部编版一年级语文上册 教材数据
+ * 语宙 YuZhou — 部编版一年级语文上册 教材数据
  * Grade 1 Semester 1 Textbook Data (PEP Edition)
  * Based on: 义务教育教科书 语文 一年级上册 (2016)
  */
@@ -13,10 +13,12 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 0, title: "入学教育", titleEn: "Welcome to School",
+  difficulty: 1,
   type: "intro",
   lessons: [
     {
       id: 1, title: "我上学了", titleEn: "I Go to School",
+      difficulty: 1,
       text: ["我是中国人。","我是小学生。"],
       textEn: ["I am Chinese.","I am a primary school student."],
       textPinyin: ["wǒ shì zhōng guó rén。","wǒ shì xiǎo xué shēng。"],
@@ -41,15 +43,25 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 1, title: "识字（一）", titleEn: "Literacy (I)",
+  difficulty: 1,
   type: "shizi",
   lessons: [
     {
       id: 1, title: "天地人", titleEn: "Sky, Earth, People",
+      difficulty: 1,
       text: ["天 地 人","你 我 他"],
       textEn: ["Sky  Earth  People","You  Me  He/She"],
       textPinyin: ["tiān dì rén","nǐ wǒ tā"],
       recognizeChars: ["天","地","人","你","我","他"],
       writeChars: [],
+      vocabWords: [
+        {word:'天',pinyin:'tiān',en:'sky; heaven; day',sentence:'今天天气好。',sentenceEn:'The weather is nice today.'},
+        {word:'地',pinyin:'dì',en:'earth; ground',sentence:'小草从地里长出来。',sentenceEn:'Grass grows from the ground.'},
+        {word:'人',pinyin:'rén',en:'person; people',sentence:'我是中国人。',sentenceEn:'I am Chinese.'},
+        {word:'你',pinyin:'nǐ',en:'you',sentence:'你好！',sentenceEn:'Hello!'},
+        {word:'我',pinyin:'wǒ',en:'I; me',sentence:'我是小学生。',sentenceEn:'I am a primary school student.'},
+        {word:'他',pinyin:'tā',en:'he; him',sentence:'他是我的好朋友。',sentenceEn:'He is my good friend.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"match",cn:"看图片，指出对应的字",en:"Look at pictures and point to the matching character"}
@@ -65,6 +77,7 @@ units: [
     },
     {
       id: 2, title: "金木水火土", titleEn: "Metal, Wood, Water, Fire, Earth",
+      difficulty: 1,
       text: ["一二三四五，","金木水火土。","天地分上下，","日月照今古。"],
       textEn: ["One two three four five,","Metal wood water fire earth.","Heaven and earth divide above and below,","Sun and moon shine from ancient times to now."],
       textPinyin: ["yī èr sān sì wǔ，","jīn mù shuǐ huǒ tǔ。","tiān dì fēn shàng xià，","rì yuè zhào jīn gǔ。"],
@@ -86,6 +99,7 @@ units: [
     },
     {
       id: 3, title: "口耳目", titleEn: "Mouth, Ear, Eye",
+      difficulty: 1,
       text: ["口 耳 目","手 足","站如松，坐如钟。","行如风，卧如弓。"],
       textEn: ["Mouth  Ear  Eye","Hand  Foot","Stand like a pine, sit like a bell.","Walk like the wind, lie like a bow."],
       textPinyin: ["kǒu ěr mù","shǒu zú","zhàn rú sōng，zuò rú zhōng。","xíng rú fēng，wò rú gōng。"],
@@ -106,6 +120,7 @@ units: [
     },
     {
       id: 4, title: "日月水火", titleEn: "Sun, Moon, Water, Fire",
+      difficulty: 1,
       text: ["日 月 水 火","山 石 田 禾"],
       textEn: ["Sun  Moon  Water  Fire","Mountain  Stone  Field  Grain"],
       textPinyin: ["rì yuè shuǐ huǒ","shān shí tián hé"],
@@ -126,6 +141,7 @@ units: [
     },
     {
       id: 5, title: "对韵歌", titleEn: "Rhyming Pairs Song",
+      difficulty: 1,
       text: ["云对雨，雪对风。","花对树，鸟对虫。","山清对水秀，","柳绿对桃红。"],
       textEn: ["Clouds pair with rain, snow with wind.","Flowers pair with trees, birds with insects.","Clear mountains pair with beautiful waters,","Green willows pair with pink peach blossoms."],
       textPinyin: ["yún duì yǔ，xuě duì fēng。","huā duì shù，niǎo duì chóng。","shān qīng duì shuǐ xiù，","liǔ lǜ duì táo hóng。"],
@@ -212,6 +228,7 @@ units: [
   type: "pinyin",
   lessons: [
     {id:1,title:"a o e",titleEn:"Vowels a o e",
+      difficulty: 1,
       text:["a o e"],textEn:["Learn the three simple vowels: a, o, e"],
       textPinyin:["ā á ǎ à / ō ó ǒ ò / ē é ě è"],
       recognizeChars:[],writeChars:[],
@@ -229,6 +246,7 @@ units: [
       ]
     },
     {id:2,title:"i u ü y w",titleEn:"Vowels i u ü & Initials y w",
+      difficulty: 1,
       text:["i u ü","y w"],textEn:["Learn vowels i, u, ü and initials y, w"],
       textPinyin:["ī í ǐ ì / ū ú ǔ ù / ǖ ǘ ǚ ǜ"],
       recognizeChars:["文","数","学","音","乐"],writeChars:[],
@@ -246,6 +264,7 @@ units: [
       ]
     },
     {id:3,title:"b p m f",titleEn:"Initials b p m f",
+      difficulty: 1,
       text:["b p m f"],textEn:["Learn the four initial consonants: b, p, m, f"],
       textPinyin:["b p m f"],
       recognizeChars:["爸","妈"],writeChars:[],
@@ -263,6 +282,7 @@ units: [
       ]
     },
     {id:4,title:"d t n l",titleEn:"Initials d t n l",
+      difficulty: 1,
       text:["d t n l"],textEn:["Learn initial consonants: d, t, n, l"],
       textPinyin:["d t n l"],
       recognizeChars:["马","土","不"],writeChars:[],
@@ -280,6 +300,7 @@ units: [
       ]
     },
     {id:5,title:"g k h",titleEn:"Initials g k h",
+      difficulty: 1,
       text:["g k h"],textEn:["Learn initial consonants: g, k, h"],
       textPinyin:["g k h"],
       recognizeChars:["画","打"],writeChars:[],
@@ -297,6 +318,7 @@ units: [
       ]
     },
     {id:6,title:"j q x",titleEn:"Initials j q x",
+      difficulty: 1,
       text:["j q x"],textEn:["Learn initial consonants: j, q, x"],
       textPinyin:["j q x"],
       recognizeChars:["棋","鸡"],writeChars:[],
@@ -314,6 +336,7 @@ units: [
       ]
     },
     {id:7,title:"z c s",titleEn:"Initials z c s",
+      difficulty: 1,
       text:["z c s","zi ci si"],textEn:["Learn flat tongue initials: z, c, s","Learn whole-syllable recognition: zi, ci, si"],
       textPinyin:["z c s / zī cī sī"],
       recognizeChars:["字","词","语","句","子"],writeChars:[],
@@ -331,6 +354,7 @@ units: [
       ]
     },
     {id:8,title:"zh ch sh r",titleEn:"Initials zh ch sh r",
+      difficulty: 1,
       text:["zh ch sh r","zhi chi shi ri"],textEn:["Learn curled tongue initials: zh, ch, sh, r","Learn whole-syllable recognition: zhi, chi, shi, ri"],
       textPinyin:["zh ch sh r / zhī chī shī rì"],
       recognizeChars:["桌","纸"],writeChars:[],
@@ -371,9 +395,11 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 3, title: "汉语拼音（二）", titleEn: "Chinese Pinyin (II)",
+  difficulty: 1,
   type: "pinyin",
   lessons: [
     {id:9,title:"ai ei ui",titleEn:"Compound Finals ai ei ui",
+      difficulty: 1,
       text:["ai ei ui"],textEn:["Learn compound vowels: ai, ei, ui"],
       textPinyin:["āi ái ǎi ài / ēi éi ěi èi / uī uí uǐ uì"],
       recognizeChars:[],writeChars:[],
@@ -391,6 +417,7 @@ units: [
       ]
     },
     {id:10,title:"ao ou iu",titleEn:"Compound Finals ao ou iu",
+      difficulty: 1,
       text:["ao ou iu"],textEn:["Learn compound vowels: ao, ou, iu"],
       textPinyin:["āo áo ǎo ào / ōu óu ǒu òu / iū iú iǔ iù"],
       recognizeChars:[],writeChars:[],
@@ -407,6 +434,7 @@ units: [
       ]
     },
     {id:11,title:"ie üe er",titleEn:"Compound Finals ie üe er",
+      difficulty: 1,
       text:["ie üe er"],textEn:["Learn compound finals: ie, üe, er"],
       textPinyin:["iē ié iě iè / üē üé üě üè / ér"],
       recognizeChars:[],writeChars:[],
@@ -423,6 +451,7 @@ units: [
       ]
     },
     {id:12,title:"an en in un ün",titleEn:"Nasal Finals an en in un ün",
+      difficulty: 1,
       text:["an en in un ün"],textEn:["Learn front nasal finals: an, en, in, un, ün"],
       textPinyin:["ān án ǎn àn / ēn / īn / ūn / ǖn"],
       recognizeChars:[],writeChars:[],
@@ -440,6 +469,7 @@ units: [
       ]
     },
     {id:13,title:"ang eng ing ong",titleEn:"Nasal Finals ang eng ing ong",
+      difficulty: 1,
       text:["ang eng ing ong","ying"],textEn:["Learn back nasal finals: ang, eng, ing, ong","Learn whole syllable: ying"],
       textPinyin:["āng / ēng / īng / ōng"],
       recognizeChars:[],writeChars:[],
@@ -492,11 +522,20 @@ units: [
   type: "kewen",
   lessons: [
     {id:1,title:"秋天",titleEn:"Autumn",
+      difficulty: 1,
       text:["天气凉了，树叶黄了，一片片叶子从树上落下来。","天空那么蓝，那么高。一群大雁往南飞，一会儿排成个“人”字，一会儿排成个“一”字。","啊！秋天来了！"],
       textEn:["The weather has turned cool, the leaves have turned yellow, and one by one the leaves fall from the trees.","The sky is so blue, so high. A flock of wild geese fly south — sometimes in the shape of '人' (person), sometimes in the shape of '一' (one).","Ah! Autumn has come!"],
       textPinyin:["tiān qì liáng le, shù yè huáng le, yī piàn piàn yè zi cóng shù shàng luò xià lái.","tiān kōng nà me lán, nà me gāo. yī qún dà yàn wǎng nán fēi, yī huìr pái chéng gè 'rén' zì, yī huìr pái chéng gè 'yī' zì.","a! qiū tiān lái le!"],
       recognizeChars:["秋","气","了","树","叶","片","大","飞","会","个"],
       writeChars:["了","子","人","大"],
+      vocabWords: [
+        {word:'秋天',pinyin:'qiū tiān',en:'autumn',sentence:'秋天来了！',sentenceEn:'Autumn has come!'},
+        {word:'树叶',pinyin:'shù yè',en:'leaf',sentence:'树叶黄了。',sentenceEn:'The leaves turned yellow.'},
+        {word:'天气',pinyin:'tiān qì',en:'weather',sentence:'天气凉了。',sentenceEn:'The weather is cool.'},
+        {word:'一片片',pinyin:'yī piàn piàn',en:'piece by piece',sentence:'树叶一片片落下来。',sentenceEn:'Leaves fall one by one.'},
+        {word:'大雁',pinyin:'dà yàn',en:'wild goose',sentence:'一群大雁往南飞。',sentenceEn:'A flock of geese fly south.'},
+        {word:'一会儿',pinyin:'yī huìr',en:'a moment',sentence:'一会儿排成"人"字。',sentenceEn:'Now forming a "人" shape.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"read",cn:"注意“一”的不同读音",en:"Notice the different tones of 一"},
@@ -514,11 +553,19 @@ units: [
     },
     {id:2,title:"小小的船",titleEn:"The Little Boat",
       author:"叶圣陶",authorEn:"Ye Shengtao",
+      difficulty: 1,
       text:["弯弯的月儿小小的船，","小小的船儿两头尖。","我在小小的船里坐，","只看见闪闪的星星蓝蓝的天。"],
       textEn:["The curved moon is like a little boat,","The little boat has two pointed ends.","I sit in the little boat,","And see only twinkling stars and a blue, blue sky."],
       textPinyin:["wān wān de yuè er xiǎo xiǎo de chuán,","xiǎo xiǎo de chuán er liǎng tóu jiān.","wǒ zài xiǎo xiǎo de chuán lǐ zuò,","zhǐ kàn jiàn shǎn shǎn de xīng xing lán lán de tiān."],
       recognizeChars:["的","船","两","头","在","里","看","见","闪","星"],
       writeChars:["月","儿","头","里"],
+      vocabWords: [
+        {word:'弯弯',pinyin:'wān wān',en:'curved',sentence:'弯弯的月儿小小的船。',sentenceEn:'The curved moon is like a little boat.'},
+        {word:'月儿',pinyin:'yuèr',en:'moon (affectionate)',sentence:'月儿弯弯像小船。',sentenceEn:'The moon is curved like a little boat.'},
+        {word:'星星',pinyin:'xīng xing',en:'star',sentence:'只看见闪闪的星星蓝蓝的天。',sentenceEn:'I see only twinkling stars and blue sky.'},
+        {word:'蓝蓝',pinyin:'lán lán',en:'very blue',sentence:'蓝蓝的天。',sentenceEn:'The blue, blue sky.'},
+        {word:'闪闪',pinyin:'shǎn shǎn',en:'twinkling',sentence:'闪闪的星星。',sentenceEn:'Twinkling stars.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"extend",cn:"读一读照样子说一说：弯弯的月儿→弯弯的小河",en:"Read and extend: curved moon → curved river, twinkling stars → twinkling..."}
@@ -534,11 +581,18 @@ units: [
     },
     {id:3,title:"江南",titleEn:"South of the River",
       author:"汉乐府",authorEn:"Han Dynasty folk song",
+      difficulty: 2,
       text:["江南可采莲，","莲叶何田田。","鱼戏莲叶间。","鱼戏莲叶东，","鱼戏莲叶西，","鱼戏莲叶南，","鱼戏莲叶北。"],
       textEn:["South of the river, lotus can be gathered,","How lush the lotus leaves grow.","Fish play among the lotus leaves.","Fish play east of the lotus leaves,","Fish play west of the lotus leaves,","Fish play south of the lotus leaves,","Fish play north of the lotus leaves."],
       textPinyin:["jiāng nán kě cǎi lián,","lián yè hé tián tián.","yú xì lián yè jiān.","yú xì lián yè dōng,","yú xì lián yè xī,","yú xì lián yè nán,","yú xì lián yè běi."],
       recognizeChars:["江","南","可","采","莲","鱼","东","西","北"],
       writeChars:["可","东","西"],
+      vocabWords: [
+        {word:'江南',pinyin:'jiāng nán',en:'south of Yangtze',sentence:'江南可采莲。',sentenceEn:'In Jiangnan one can pick lotus.'},
+        {word:'莲叶',pinyin:'lián yè',en:'lotus leaf',sentence:'莲叶何田田。',sentenceEn:'How lush the lotus leaves are.'},
+        {word:'鱼',pinyin:'yú',en:'fish',sentence:'鱼戏莲叶间。',sentenceEn:'Fish play among the lotus.'},
+        {word:'东西南北',pinyin:'dōng xī nán běi',en:'east west south north',sentence:'鱼戏莲叶东，鱼戏莲叶西。',sentenceEn:'Fish play east, fish play west.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"discuss",cn:"想象鱼儿在莲叶间嬉戏的画面",en:"Imagine the scene of fish playing among lotus leaves"}
@@ -553,11 +607,22 @@ units: [
       ]
     },
     {id:4,title:"四季",titleEn:"Four Seasons",
+      difficulty: 1,
       text:["草芽尖尖，他对小鸟说：“我是春天。”","荷叶圆圆，他对青蛙说：“我是夏天。”","谷穗弯弯，他鞠着躬说：“我是秋天。”","雪人大肚子一挺，他顽皮地说：“我就是冬天。”"],
       textEn:["The pointy grass sprout says to the little bird: 'I am spring.'","The round lotus leaf says to the frog: 'I am summer.'","The bending grain ear bows and says: 'I am autumn.'","The snowman puffs out his big belly and says mischievously: 'I am winter.'"],
       textPinyin:["cǎo yá jiān jiān, tā duì xiǎo niǎo shuō: 'wǒ shì chūn tiān.'","hé yè yuán yuán, tā duì qīng wā shuō: 'wǒ shì xià tiān.'","gǔ suì wān wān, tā jū zhe gōng shuō: 'wǒ shì qiū tiān.'","xuě rén dà dù zi yī tǐng, tā wán pí de shuō: 'wǒ jiù shì dōng tiān.'"],
       recognizeChars:["尖","说","春","青","蛙","夏","弯","皮","地","冬"],
       writeChars:["天","四","是"],
+      vocabWords: [
+        {word:'春天',pinyin:'chūn tiān',en:'spring',sentence:'草芽对小鸟说："我是春天。"',sentenceEn:'The sprout says to birds: "I am spring."'},
+        {word:'夏天',pinyin:'xià tiān',en:'summer',sentence:'荷叶对青蛙说："我是夏天。"',sentenceEn:'The lotus leaf says: "I am summer."'},
+        {word:'秋天',pinyin:'qiū tiān',en:'autumn',sentence:'谷穗鞠着躬说："我是秋天。"',sentenceEn:'Grain bows: "I am autumn."'},
+        {word:'冬天',pinyin:'dōng tiān',en:'winter',sentence:'雪人说："我就是冬天。"',sentenceEn:'The snowman says: "I am winter."'},
+        {word:'草芽',pinyin:'cǎo yá',en:'grass sprout',sentence:'草芽尖尖。',sentenceEn:'Sharp grass sprouts.'},
+        {word:'荷叶',pinyin:'hé yè',en:'lotus leaf',sentence:'荷叶圆圆。',sentenceEn:'Round lotus leaves.'},
+        {word:'谷穗',pinyin:'gǔ suì',en:'grain ear',sentence:'谷穗弯弯。',sentenceEn:'Bending grain ears.'},
+        {word:'雪人',pinyin:'xuě rén',en:'snowman',sentence:'雪人大肚子一挺。',sentenceEn:'The snowman pushes out his belly.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"create",cn:"你喜欢哪个季节？仿照课文说一说",en:"Which season do you like? Create your own verse like the text"}
@@ -610,15 +675,25 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 5, title: "识字（二）", titleEn: "Literacy (II)",
+  difficulty: 2,
   type: "shizi",
   lessons: [
     {id:6,title:"画",titleEn:"Painting",
       author:"王维",authorEn:"Wang Wei",
+      difficulty: 2,
       text:["远看山有色，近听水无声。","春去花还在，人来鸟不惊。"],
       textEn:["From far, the mountains have color; up close, the water has no sound.","Spring passes, but the flowers remain; people come, but the birds aren't startled."],
       textPinyin:["yuǎn kàn shān yǒu sè, jìn tīng shuǐ wú shēng.","chūn qù huā hái zài, rén lái niǎo bù jīng."],
       recognizeChars:["远","有","色","近","听","无","声","去","还","来"],
       writeChars:["水","去","来","不"],
+      vocabWords: [
+        {word:'远',pinyin:'yuǎn',en:'far',sentence:'远看山有色。',sentenceEn:'From afar, mountains have color.'},
+        {word:'近',pinyin:'jìn',en:'near',sentence:'近听水无声。',sentenceEn:'Up close, water has no sound.'},
+        {word:'有',pinyin:'yǒu',en:'have',sentence:'远看山有色。',sentenceEn:'From afar, mountains have color.'},
+        {word:'无',pinyin:'wú',en:'without',sentence:'近听水无声。',sentenceEn:'Up close, water has no sound.'},
+        {word:'来',pinyin:'lái',en:'come',sentence:'人来鸟不惊。',sentenceEn:'People come but birds are not startled.'},
+        {word:'去',pinyin:'qù',en:'go',sentence:'春去花还在。',sentenceEn:'Spring goes but flowers remain.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"discuss",cn:"为什么水无声、鸟不惊？（因为是一幅画）",en:"Why is the water silent and the birds unfrightened? (Because it's a painting)"}
@@ -633,11 +708,20 @@ units: [
       ]
     },
     {id:7,title:"大小多少",titleEn:"Big Small Many Few",
+      difficulty: 1,
       text:["一个大，一个小，一头黄牛一只猫。","一边多，一边少，一群鸭子一只鸟。","一个大，一个小，一个苹果一颗枣。","一边多，一边少，一堆杏子一个桃。"],
       textEn:["One is big, one is small — a yellow ox and a cat.","One side has many, one side has few — a flock of ducks and a bird.","One is big, one is small — an apple and a jujube.","One side has many, one side has few — a pile of apricots and a peach."],
       textPinyin:["yī gè dà, yī gè xiǎo, yī tóu huáng niú yī zhī māo.","yī biān duō, yī biān shǎo, yī qún yā zi yī zhī niǎo.","yī gè dà, yī gè xiǎo, yī gè píng guǒ yī kē zǎo.","yī biān duō, yī biān shǎo, yī duī xìng zi yī gè táo."],
       recognizeChars:["多","少","黄","牛","只","猫","边","鸭","苹","果","杏","桃"],
       writeChars:["小","少","牛","果","鸟"],
+      vocabWords: [
+        {word:'大',pinyin:'dà',en:'big',sentence:'黄牛大。',sentenceEn:'The ox is big.'},
+        {word:'小',pinyin:'xiǎo',en:'small',sentence:'花猫小。',sentenceEn:'The kitten is small.'},
+        {word:'多',pinyin:'duō',en:'many',sentence:'鸭子多。',sentenceEn:'Many ducks.'},
+        {word:'少',pinyin:'shǎo',en:'few',sentence:'小鸟少。',sentenceEn:'Few birds.'},
+        {word:'黄牛',pinyin:'huáng niú',en:'ox',sentence:'一头黄牛一只猫。',sentenceEn:'One ox, one cat.'},
+        {word:'苹果',pinyin:'píng guǒ',en:'apple',sentence:'一个苹果一颗枣。',sentenceEn:'One apple, one date.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"学习量词：头、只、群、个、颗、堆",en:"Learn measure words: tóu, zhī, qún, gè, kē, duī"}
@@ -652,11 +736,19 @@ units: [
       ]
     },
     {id:8,title:"小书包",titleEn:"Little Schoolbag",
+      difficulty: 1,
       text:["我的小书包，宝贝真不少。","课本作业本，铅笔转笔刀。","上课静悄悄，下课不乱跑。","天天起得早，陪我去学校。"],
       textEn:["My little schoolbag has quite a few treasures.","Textbooks, exercise books, pencils, and a sharpener.","Quiet during class, no running after class.","Getting up early every day to go to school with me."],
       textPinyin:["wǒ de xiǎo shū bāo, bǎo bèi zhēn bù shǎo.","kè běn zuò yè běn, qiān bǐ zhuàn bǐ dāo.","shàng kè jìng qiāo qiāo, xià kè bù luàn pǎo.","tiān tiān qǐ de zǎo, péi wǒ qù xué xiào."],
       recognizeChars:["书","包","尺","作","业","本","笔","刀","课","早","校"],
       writeChars:["早","书","刀","尺","本"],
+      vocabWords: [
+        {word:'书包',pinyin:'shū bāo',en:'school bag',sentence:'我的小书包。',sentenceEn:'My little school bag.'},
+        {word:'课本',pinyin:'kè běn',en:'textbook',sentence:'书包里有课本。',sentenceEn:'Textbooks in the bag.'},
+        {word:'铅笔',pinyin:'qiān bǐ',en:'pencil',sentence:'铅笔是好朋友。',sentenceEn:'The pencil is a friend.'},
+        {word:'尺子',pinyin:'chǐ zi',en:'ruler',sentence:'尺子画直线。',sentenceEn:'Ruler draws straight lines.'},
+        {word:'橡皮',pinyin:'xiàng pí',en:'eraser',sentence:'橡皮擦错字。',sentenceEn:'Eraser removes mistakes.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，说说你的书包里有哪些文具",en:"Read aloud; describe what's in your schoolbag"},
         {type:"do",cn:"我会自己整理书包",en:"I can organize my schoolbag by myself"}
@@ -671,11 +763,20 @@ units: [
       ]
     },
     {id:9,title:"日月明",titleEn:"Sun + Moon = Bright",
+      difficulty: 2,
       text:["日月明，田力男。","小大尖，小土尘。","二人从，三人众。","双木林，三木森。","一人不成众，独木不成林。","众人一条心，黄土变成金。"],
       textEn:["Sun + Moon = Bright; Field + Strength = Man.","Small + Big = Pointed; Small + Earth = Dust.","Two people = Follow; Three people = Crowd.","Two trees = Grove; Three trees = Forest.","One person can't make a crowd; one tree can't make a forest.","When everyone shares one heart, yellow earth turns to gold."],
       textPinyin:["rì yuè míng, tián lì nán.","xiǎo dà jiān, xiǎo tǔ chén.","èr rén cóng, sān rén zhòng.","shuāng mù lín, sān mù sēn.","yī rén bù chéng zhòng, dú mù bù chéng lín.","zhòng rén yī tiáo xīn, huáng tǔ biàn chéng jīn."],
       recognizeChars:["明","力","尘","从","众","双","木","林","森","条","心"],
       writeChars:["木","林","土","力","心"],
+      vocabWords: [
+        {word:'明',pinyin:'míng',en:'bright (日+月)',sentence:'日月明。',sentenceEn:'Sun+moon=bright.'},
+        {word:'尖',pinyin:'jiān',en:'sharp (小+大)',sentence:'小大尖。',sentenceEn:'Small+big=sharp.'},
+        {word:'尘',pinyin:'chén',en:'dust (小+土)',sentence:'小土尘。',sentenceEn:'Small+earth=dust.'},
+        {word:'从',pinyin:'cóng',en:'follow (人+人)',sentence:'二人从。',sentenceEn:'Two people=follow.'},
+        {word:'众',pinyin:'zhòng',en:'crowd (人×3)',sentence:'三人众。',sentenceEn:'Three people=crowd.'},
+        {word:'力',pinyin:'lì',en:'strength',sentence:'众人一条心，黄土变成金。',sentenceEn:'United hearts turn soil to gold.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"guess",cn:"猜猜这些字的意思：鲜 歪 休 泪",en:"Guess the meanings: 鲜(fish+sheep=fresh) 歪(not+straight=crooked) 休(person+tree=rest) 泪(water+eye=tears)"}
@@ -690,11 +791,19 @@ units: [
       ]
     },
     {id:10,title:"升国旗",titleEn:"Raising the National Flag",
+      difficulty: 1,
       text:["五星红旗，我们的国旗。","国歌声中，高高升起。","我们立正，向您敬礼。"],
       textEn:["The five-star red flag, our national flag.","In the sound of the national anthem, it rises high.","We stand at attention and salute you."],
       textPinyin:["wǔ xīng hóng qí, wǒ men de guó qí.","guó gē shēng zhōng, gāo gāo shēng qǐ.","wǒ men lì zhèng, xiàng nín jìng lǐ."],
       recognizeChars:["升","国","旗","中","红","歌","起","么","美","丽","立"],
       writeChars:["中","五","立","正"],
+      vocabWords: [
+        {word:'国旗',pinyin:'guó qí',en:'national flag',sentence:'五星红旗是我们的国旗。',sentenceEn:'The five-star red flag is our national flag.'},
+        {word:'升旗',pinyin:'shēng qí',en:'raise the flag',sentence:'国旗国旗真美丽。',sentenceEn:'The flag is truly beautiful.'},
+        {word:'中国',pinyin:'zhōng guó',en:'China',sentence:'我是中国人。',sentenceEn:'I am Chinese.'},
+        {word:'立正',pinyin:'lì zhèng',en:'stand at attention',sentence:'我们立正。',sentenceEn:'We stand at attention.'},
+        {word:'敬礼',pinyin:'jìng lǐ',en:'salute',sentence:'向国旗敬礼。',sentenceEn:'Salute the flag.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"do",cn:"做升旗仪式的动作：立正、敬礼",en:"Practice flag ceremony actions: attention, salute"}
@@ -746,11 +855,20 @@ units: [
   type: "kewen",
   lessons: [
     {id:5,title:"影子",titleEn:"Shadow",
+      difficulty: 1,
       text:["影子在前，影子在后，影子常常跟着我，就像一条小黑狗。","影子在左，影子在右，影子常常陪着我，它是我的好朋友。"],
       textEn:["Shadow in front, shadow behind — shadow always follows me, just like a little black dog.","Shadow on the left, shadow on the right — shadow always keeps me company, it is my good friend."],
       textPinyin:["yǐng zi zài qián, yǐng zi zài hòu, yǐng zi cháng cháng gēn zhe wǒ, jiù xiàng yī tiáo xiǎo hēi gǒu.","yǐng zi zài zuǒ, yǐng zi zài yòu, yǐng zi cháng cháng péi zhe wǒ, tā shì wǒ de hǎo péng you."],
       recognizeChars:["影","前","后","黑","狗","左","右","它","好","朋","友"],
       writeChars:["在","后","我","好"],
+      vocabWords: [
+        {word:'影子',pinyin:'yǐng zi',en:'shadow',sentence:'影子在前，影子在后。',sentenceEn:'Shadow in front, shadow behind.'},
+        {word:'前',pinyin:'qián',en:'front',sentence:'影子在前。',sentenceEn:'Shadow in front.'},
+        {word:'后',pinyin:'hòu',en:'behind',sentence:'影子在后。',sentenceEn:'Shadow behind.'},
+        {word:'左',pinyin:'zuǒ',en:'left',sentence:'影子在左。',sentenceEn:'Shadow on left.'},
+        {word:'右',pinyin:'yòu',en:'right',sentence:'影子在右。',sentenceEn:'Shadow on right.'},
+        {word:'好朋友',pinyin:'hǎo péng you',en:'good friend',sentence:'影子是我的好朋友。',sentenceEn:'Shadow is my good friend.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"do",cn:"到操场上找找你的影子",en:"Go to the playground and find your shadow"}
@@ -765,11 +883,21 @@ units: [
       ]
     },
     {id:6,title:"比尾巴",titleEn:"Comparing Tails",
+      difficulty: 1,
       text:["谁的尾巴长？谁的尾巴短？谁的尾巴好像一把伞？","猴子的尾巴长，兔子的尾巴短，松鼠的尾巴好像一把伞。","谁的尾巴弯？谁的尾巴扁？谁的尾巴最好看？","公鸡的尾巴弯，鸭子的尾巴扁，孔雀的尾巴最好看。"],
       textEn:["Whose tail is long? Whose tail is short? Whose tail looks like an umbrella?","The monkey's tail is long, the rabbit's tail is short, the squirrel's tail looks like an umbrella.","Whose tail is curved? Whose tail is flat? Whose tail is the prettiest?","The rooster's tail is curved, the duck's tail is flat, the peacock's tail is the prettiest."],
       textPinyin:["shuí de wěi ba cháng? shuí de wěi ba duǎn? shuí de wěi ba hǎo xiàng yī bǎ sǎn?","hóu zi de wěi ba cháng, tù zi de wěi ba duǎn, sōng shǔ de wěi ba hǎo xiàng yī bǎ sǎn.","shuí de wěi ba wān? shuí de wěi ba biǎn? shuí de wěi ba zuì hǎo kàn?","gōng jī de wěi ba wān, yā zi de wěi ba biǎn, kǒng què de wěi ba zuì hǎo kàn."],
       recognizeChars:["比","尾","巴","谁","长","短","把","伞","兔","最","公"],
       writeChars:["长","比","巴","把"],
+      vocabWords: [
+        {word:'尾巴',pinyin:'wěi ba',en:'tail',sentence:'谁的尾巴长？',sentenceEn:'Whose tail is long?'},
+        {word:'长',pinyin:'cháng',en:'long',sentence:'猴子的尾巴长。',sentenceEn:'The monkey has a long tail.'},
+        {word:'短',pinyin:'duǎn',en:'short',sentence:'兔子的尾巴短。',sentenceEn:'The rabbit has a short tail.'},
+        {word:'猴子',pinyin:'hóu zi',en:'monkey',sentence:'猴子的尾巴长。',sentenceEn:'The monkey has a long tail.'},
+        {word:'兔子',pinyin:'tù zi',en:'rabbit',sentence:'兔子的尾巴短。',sentenceEn:'The rabbit has a short tail.'},
+        {word:'松鼠',pinyin:'sōng shǔ',en:'squirrel',sentence:'松鼠的尾巴好像一把伞。',sentenceEn:'The squirrel has a tail like an umbrella.'},
+        {word:'孔雀',pinyin:'kǒng què',en:'peacock',sentence:'孔雀的尾巴最好看。',sentenceEn:'The peacock has the prettiest tail.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"extend",cn:"你还知道哪些动物的尾巴有什么特点？",en:"What other animals' tails do you know about?"}
@@ -784,11 +912,19 @@ units: [
       ]
     },
     {id:7,title:"青蛙写诗",titleEn:"The Frog Writes a Poem",
+      difficulty: 2,
       text:["下雨了，雨点儿淅沥沥，沙啦啦。","青蛙说：“我要写诗啦！”","小蝌蚪游过来说：“我要给你当个小逗号。”","池塘里的水泡泡说：“我能当个小句号。”","荷叶上的一串水珠说：“我们可以当省略号。”","青蛙的诗写成了：“呱呱，呱呱，呱呱呱。呱呱，呱呱，呱呱呱……”"],
       textEn:["It's raining — the raindrops go xīlìlì, shālālā.","The frog says: 'I want to write a poem!'","A tadpole swims over: 'I'll be a little comma for you.'","A water bubble in the pond says: 'I can be a little period.'","A string of water drops on the lotus leaf says: 'We can be an ellipsis.'","The frog's poem is done: 'Ribbit ribbit, ribbit ribbit, ribbit ribbit ribbit. Ribbit ribbit, ribbit ribbit, ribbit ribbit ribbit...'"],
       textPinyin:["xià yǔ le, yǔ diǎn er xī lì lì, shā lā lā.","qīng wā shuō: 'wǒ yào xiě shī la!'","xiǎo kē dǒu yóu guò lái shuō: 'wǒ yào gěi nǐ dāng gè xiǎo dòu hào.'","chí táng lǐ de shuǐ pào pao shuō: 'wǒ néng dāng gè xiǎo jù hào.'","hé yè shàng de yī chuàn shuǐ zhū shuō: 'wǒ men kě yǐ dāng shěng lüè hào.'","qīng wā de shī xiě chéng le: 'guā guā, guā guā, guā guā guā. guā guā, guā guā, guā guā guā……'"],
       recognizeChars:["写","诗","点","要","过","给","当","串","们","以","成"],
       writeChars:["下","个","雨","们"],
+      vocabWords: [
+        {word:'青蛙',pinyin:'qīng wā',en:'frog',sentence:'青蛙说："我要写诗。"',sentenceEn:'The frog says: "I want to write a poem."'},
+        {word:'写诗',pinyin:'xiě shī',en:'write poetry',sentence:'青蛙写诗了。',sentenceEn:'The frog wrote a poem.'},
+        {word:'蝌蚪',pinyin:'kē dǒu',en:'tadpole',sentence:'小蝌蚪当逗号。',sentenceEn:'Tadpoles become commas.'},
+        {word:'逗号',pinyin:'dòu hào',en:'comma',sentence:'小蝌蚪说："我来当逗号。"',sentenceEn:'The tadpole says: "I will be a comma."'},
+        {word:'句号',pinyin:'jù hào',en:'period',sentence:'水泡泡说："我来当句号。"',sentenceEn:'Bubbles say: "I will be a period."'}
+      ],
       exercises:[
         {type:"read",cn:"分角色朗读课文",en:"Role-play reading"},
         {type:"learn",cn:"认识标点符号：逗号、句号、省略号",en:"Learn punctuation: comma, period, ellipsis"}
@@ -804,11 +940,18 @@ units: [
     },
     {id:8,title:"雨点儿",titleEn:"Raindrops",
       author:"金波",authorEn:"Jin Bo",
+      difficulty: 2,
       text:["数不清的雨点儿，从云彩里飘落下来。","半空中，大雨点儿问小雨点儿：“你要到哪里去？”","小雨点儿回答：“我要去有花有草的地方。你呢？”","大雨点儿说：“我要去没有花没有草的地方。”","不久，有花有草的地方，花更红了，草更绿了。没有花没有草的地方，开出了红的花，长出了绿的草。"],
       textEn:["Countless raindrops float down from the clouds.","In mid-air, Big Raindrop asks Little Raindrop: 'Where are you going?'","Little Raindrop answers: 'I'm going where there are flowers and grass. And you?'","Big Raindrop says: 'I'm going where there are no flowers and no grass.'","Soon, where there were flowers and grass, the flowers became redder and the grass greener. Where there were no flowers and no grass, red flowers bloomed and green grass grew."],
       textPinyin:["shǔ bù qīng de yǔ diǎn er, cóng yún cai lǐ piāo luò xià lái.","bàn kōng zhōng, dà yǔ diǎn er wèn xiǎo yǔ diǎn er: 'nǐ yào dào nǎ lǐ qù?'","xiǎo yǔ diǎn er huí dá: 'wǒ yào qù yǒu huā yǒu cǎo de dì fāng. nǐ ne?'","dà yǔ diǎn er shuō: 'wǒ yào qù méi yǒu huā méi yǒu cǎo de dì fāng.'","bù jiǔ, yǒu huā yǒu cǎo de dì fāng, huā gèng hóng le, cǎo gèng lǜ le. méi yǒu huā méi yǒu cǎo de dì fāng, kāi chū le hóng de huā, zhǎng chū le lǜ de cǎo."],
       recognizeChars:["数","彩","半","空","问","到","方","没","更","绿","出","长"],
       writeChars:["问","有","半","从","你"],
+      vocabWords: [
+        {word:'雨点儿',pinyin:'yǔ diǎnr',en:'raindrop',sentence:'数不清的雨点儿。',sentenceEn:'Countless raindrops.'},
+        {word:'数不清',pinyin:'shǔ bu qīng',en:'countless',sentence:'数不清的雨点儿从云彩里飘落下来。',sentenceEn:'Countless raindrops fall from clouds.'},
+        {word:'云彩',pinyin:'yún cai',en:'cloud',sentence:'从云彩里飘落下来。',sentenceEn:'Drifting down from the clouds.'},
+        {word:'飘落',pinyin:'piāo luò',en:'drift down',sentence:'雨点儿飘落下来。',sentenceEn:'Raindrops drift down.'}
+      ],
       exercises:[
         {type:"read",cn:"分角色朗读课文",en:"Role-play reading"},
         {type:"read",cn:"注意读好停顿",en:"Pay attention to reading pauses"},
@@ -867,14 +1010,23 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 7, title: "课文（三）", titleEn: "Texts (III)",
+  difficulty: 2,
   type: "kewen",
   lessons: [
     {id:9,title:"明天要远足",titleEn:"Tomorrow's Field Trip",
+      difficulty: 1,
       text:["翻过来，翻过去，唉——睡不着。","那地方的海，真的像老师说的，那么多种颜色吗？","翻过来，翻过去，唉——睡不着。","那地方的云，真的像同学说的，那么洁白柔软吗？","翻过来，翻过去，唉——到底什么时候，才天亮呢？"],
       textEn:["Tossing and turning — sigh — I can't sleep.","Will the sea there really have as many colors as the teacher said?","Tossing and turning — sigh — I can't sleep.","Will the clouds there really be as white and soft as my classmate said?","Tossing and turning — sigh — when will it finally be morning?"],
       textPinyin:["fān guò lái, fān guò qù, āi—— shuì bù zháo.","nà dì fāng de hǎi, zhēn de xiàng lǎo shī shuō de, nà me duō zhǒng yán sè ma?","fān guò lái, fān guò qù, āi—— shuì bù zháo.","nà dì fāng de yún, zhēn de xiàng tóng xué shuō de, nà me jié bái róu ruǎn ma?","fān guò lái, fān guò qù, āi—— dào dǐ shén me shí hou, cái tiān liàng ne?"],
       recognizeChars:["睡","那","海","真","老","师","吗","同","什","才","亮"],
       writeChars:["明","学","才","同"],
+      vocabWords: [
+        {word:'远足',pinyin:'yuǎn zú',en:'field trip',sentence:'明天要远足！',sentenceEn:'Field trip tomorrow!'},
+        {word:'明天',pinyin:'míng tiān',en:'tomorrow',sentence:'明天要远足。',sentenceEn:'Tomorrow is the field trip.'},
+        {word:'睡不着',pinyin:'shuì bu zháo',en:'cannot sleep',sentence:'翻过来，翻过去，睡不着。',sentenceEn:'Toss and turn, cannot sleep.'},
+        {word:'大海',pinyin:'dà hǎi',en:'ocean',sentence:'那地方的海真的很蓝吗？',sentenceEn:'Is the sea there really blue?'},
+        {word:'老师',pinyin:'lǎo shī',en:'teacher',sentence:'老师说海是蓝色的。',sentenceEn:'Teacher says the sea is blue.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"你有过这样的心情吗？和同学说一说",en:"Have you ever felt this way? Tell your classmates"}
@@ -890,11 +1042,18 @@ units: [
     },
     {id:10,title:"大还是小",titleEn:"Big or Small?",
       author:"龚艺兵",authorEn:"Gong Yibing",
+      difficulty: 1,
       text:["有时候，我觉得自己很大。","我自己穿衣服的时候，我自己系鞋带的时候，我觉得自己很大。","有时候，我觉得自己很小。","我够不到门铃的时候，我听到雷声喊妈妈的时候，我觉得自己很小。","有时候，我希望自己不要长大。","更多的时候，我盼着自己快点儿长大。"],
       textEn:["Sometimes, I feel I am very big.","When I dress myself, when I tie my own shoelaces, I feel I am very big.","Sometimes, I feel I am very small.","When I can't reach the doorbell, when I hear thunder and call for mama, I feel I am very small.","Sometimes, I wish I wouldn't grow up.","But most of the time, I wish I would grow up faster."],
       textPinyin:["yǒu shí hou, wǒ jué de zì jǐ hěn dà.","wǒ zì jǐ chuān yī fu de shí hou, wǒ zì jǐ jì xié dài de shí hou, wǒ jué de zì jǐ hěn dà.","yǒu shí hou, wǒ jué de zì jǐ hěn xiǎo.","wǒ gòu bù dào mén líng de shí hou, wǒ tīng dào léi shēng hǎn mā ma de shí hou, wǒ jué de zì jǐ hěn xiǎo.","yǒu shí hou, wǒ xī wàng zì jǐ bù yào zhǎng dà.","gèng duō de shí hou, wǒ pàn zhe zì jǐ kuài diǎnr zhǎng dà."],
       recognizeChars:["时","候","觉","得","自","己","很","穿","衣","服","门","快"],
       writeChars:["自","己","门","衣"],
+      vocabWords: [
+        {word:'觉得',pinyin:'jué de',en:'feel; think',sentence:'我觉得自己很大。',sentenceEn:'I feel I am very big.'},
+        {word:'有时候',pinyin:'yǒu shí hou',en:'sometimes',sentence:'有时候觉得自己很小。',sentenceEn:'Sometimes I feel small.'},
+        {word:'穿衣服',pinyin:'chuān yī fu',en:'get dressed',sentence:'自己穿衣服的时候。',sentenceEn:'When I dress myself.'},
+        {word:'快点儿',pinyin:'kuài diǎnr',en:'hurry up',sentence:'我盼着快点儿长大。',sentenceEn:'I wish I could grow up fast.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"你什么时候觉得自己大？什么时候觉得自己小？",en:"When do you feel big? When do you feel small?"}
@@ -909,11 +1068,19 @@ units: [
       ]
     },
     {id:11,title:"项链",titleEn:"Necklace",
+      difficulty: 2,
       text:["大海，蓝蓝的，又宽又远。沙滩，黄黄的，又长又软。","雪白雪白的浪花，哗哗地笑着，涌上沙滩，悄悄撒下小小的海螺和贝壳。","小娃娃嘻嘻地笑着，迎上去，捡起小小的海螺和贝壳，穿成彩色的项链，挂在胸前。","快活的脚印落在沙滩上，穿成金色的项链，挂在大海的胸前。"],
       textEn:["The sea — blue, blue — so wide and far. The beach — golden, golden — so long and soft.","Snow-white waves, laughing with a splash, rush up the beach, quietly scattering tiny conch shells and seashells.","The little child laughs happily, runs to meet them, picks up the tiny shells, strings them into a colorful necklace worn on the chest.","Happy footprints fall on the beach, strung into a golden necklace worn on the sea's chest."],
       textPinyin:["dà hǎi, lán lán de, yòu kuān yòu yuǎn. shā tān, huáng huáng de, yòu cháng yòu ruǎn.","xuě bái xuě bái de làng huā, huā huā de xiào zhe, yǒng shàng shā tān, qiāo qiāo sā xià xiǎo xiǎo de hǎi luó hé bèi ké.","xiǎo wá wa xī xī de xiào zhe, yíng shàng qù, jiǎn qǐ xiǎo xiǎo de hǎi luó hé bèi ké, chuān chéng cǎi sè de xiàng liàn, guà zài xiōng qián.","kuài huo de jiǎo yìn luò zài shā tān shàng, chuān chéng jīn sè de xiàng liàn, guà zài dà hǎi de xiōng qián."],
       recognizeChars:["蓝","又","笑","着","向","和","贝","娃","挂","活","金"],
       writeChars:["白","的","又","和"],
+      vocabWords: [
+        {word:'项链',pinyin:'xiàng liàn',en:'necklace',sentence:'大海给沙滩送来了项链。',sentenceEn:'The sea brings the beach a necklace.'},
+        {word:'沙滩',pinyin:'shā tān',en:'beach',sentence:'金色的沙滩。',sentenceEn:'The golden beach.'},
+        {word:'浪花',pinyin:'làng huā',en:'wave',sentence:'浪花哗哗地笑着。',sentenceEn:'Waves laugh with a splash.'},
+        {word:'贝壳',pinyin:'bèi ké',en:'seashell',sentence:'小娃娃捡贝壳。',sentenceEn:'The child picks up seashells.'},
+        {word:'脚印',pinyin:'jiǎo yìn',en:'footprint',sentence:'沙滩上的小小的脚印。',sentenceEn:'Little footprints on the beach.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，说说：大海的项链是什么？",en:"Read aloud; what is the sea's necklace?"},
         {type:"extend",cn:"读一读，说一说：快活的__、金色的__、雪白的__",en:"Read and extend: happy __, golden __, snow-white __"}
@@ -972,14 +1139,24 @@ units: [
 /* ═══════════════════════════════════════════ */
 {
   id: 8, title: "课文（四）", titleEn: "Texts (IV)",
+  difficulty: 2,
   type: "kewen",
   lessons: [
     {id:12,title:"雪地里的小画家",titleEn:"Little Artists in the Snow",
+      difficulty: 1,
       text:["下雪啦，下雪啦！","雪地里来了一群小画家。","小鸡画竹叶，小狗画梅花，小鸭画枫叶，小马画月牙。","不用颜料不用笔，几步就成一幅画。","青蛙为什么没参加？他在洞里睡着啦。"],
       textEn:["It's snowing, it's snowing!","A group of little artists has come to the snow.","The chick draws bamboo leaves, the puppy draws plum blossoms, the duckling draws maple leaves, the pony draws crescent moons.","No paint, no brushes needed — just a few steps and a picture is done.","Why didn't the frog join in? He's sleeping in his burrow!"],
       textPinyin:["xià xuě la, xià xuě la!","xuě dì lǐ lái le yī qún xiǎo huà jiā.","xiǎo jī huà zhú yè, xiǎo gǒu huà méi huā, xiǎo yā huà fēng yè, xiǎo mǎ huà yuè yá.","bù yòng yán liào bù yòng bǐ, jǐ bù jiù chéng yī fú huà.","qīng wā wèi shén me méi cān jiā? tā zài dòng lǐ shuì zháo la."],
       recognizeChars:["群","竹","牙","用","几","步","为","参","加","洞","着"],
       writeChars:["竹","牙","马","用","几"],
+      vocabWords: [
+        {word:'下雪',pinyin:'xià xuě',en:'to snow',sentence:'下雪啦！',sentenceEn:'It is snowing!'},
+        {word:'画家',pinyin:'huà jiā',en:'artist',sentence:'一群小画家。',sentenceEn:'A group of little artists.'},
+        {word:'竹叶',pinyin:'zhú yè',en:'bamboo leaf',sentence:'小鸡画竹叶。',sentenceEn:'Chick draws bamboo leaves.'},
+        {word:'梅花',pinyin:'méi huā',en:'plum blossom',sentence:'小狗画梅花。',sentenceEn:'Puppy draws plum blossoms.'},
+        {word:'枫叶',pinyin:'fēng yè',en:'maple leaf',sentence:'小鸭画枫叶。',sentenceEn:'Duckling draws maple leaves.'},
+        {word:'月牙',pinyin:'yuè yá',en:'crescent',sentence:'小马画月牙。',sentenceEn:'Pony draws crescents.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"为什么小动物的脚印像这些图案？",en:"Why do the animals' footprints look like these patterns?"},
@@ -996,11 +1173,20 @@ units: [
       ]
     },
     {id:13,title:"乌鸦喝水",titleEn:"The Crow Drinks Water",
+      difficulty: 2,
       text:["一只乌鸦口渴了，到处找水喝。","乌鸦看见一个瓶子，瓶子里有水。可是，瓶子里水不多，瓶口又小，乌鸦喝不着水。怎么办呢？","乌鸦看见旁边有许多小石子，想出办法来了。","乌鸦把小石子一颗一颗地放进瓶子里。瓶子里的水渐渐升高，乌鸦就喝着水了。"],
       textEn:["A crow was thirsty and searched everywhere for water.","The crow saw a bottle with water in it. But there wasn't much water, and the bottle's mouth was small — the crow couldn't reach the water. What to do?","The crow noticed many small pebbles nearby and thought of a plan.","The crow dropped the pebbles into the bottle one by one. The water level gradually rose, and the crow could finally drink!"],
       textPinyin:["yī zhī wū yā kǒu kě le, dào chù zhǎo shuǐ hē.","wū yā kàn jiàn yī gè píng zi, píng zi lǐ yǒu shuǐ. kě shì, píng zi lǐ shuǐ bù duō, píng kǒu yòu xiǎo, wū yā hē bù zháo shuǐ. zěn me bàn ne?","wū yā kàn jiàn páng biān yǒu xǔ duō xiǎo shí zi, xiǎng chū bàn fǎ lái le.","wū yā bǎ xiǎo shí zi yī kē yī kē de fàng jìn píng zi lǐ. píng zi lǐ de shuǐ jiàn jiàn shēng gāo, wū yā jiù hē zháo shuǐ le."],
       recognizeChars:["乌","鸦","处","找","办","旁","许","法","放","进","高"],
       writeChars:["只","石","出","见"],
+      vocabWords: [
+        {word:'乌鸦',pinyin:'wū yā',en:'crow',sentence:'一只乌鸦口渴了。',sentenceEn:'A crow was thirsty.'},
+        {word:'口渴',pinyin:'kǒu kě',en:'thirsty',sentence:'乌鸦口渴了。',sentenceEn:'The crow was thirsty.'},
+        {word:'瓶子',pinyin:'píng zi',en:'bottle',sentence:'瓶子里有水。',sentenceEn:'There is water in the bottle.'},
+        {word:'办法',pinyin:'bàn fǎ',en:'method',sentence:'乌鸦想出了办法。',sentenceEn:'The crow thought of a way.'},
+        {word:'石子',pinyin:'shí zi',en:'pebble',sentence:'把小石子放进瓶子里。',sentenceEn:'Put pebbles into the bottle.'},
+        {word:'渐渐',pinyin:'jiàn jiàn',en:'gradually',sentence:'水渐渐升高了。',sentenceEn:'Water gradually rose.'}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"乌鸦是怎么喝到水的？",en:"How did the crow manage to drink the water?"},
@@ -1016,11 +1202,18 @@ units: [
       ]
     },
     {id:14,title:"小蜗牛",titleEn:"The Little Snail",
+      difficulty: 2,
       text:["小蜗牛的妈妈说：“孩子，到小树林里去玩吧，小树发芽了。”","小蜗牛爬呀，爬呀，好久才爬回来。它说：“妈妈，小树林里的小树长满了叶子，碧绿碧绿的，地上还长着许多草莓呢。”","蜗牛妈妈说：“哦，已经是夏天了！快去采几颗草莓回来。”","小蜗牛爬呀，爬呀，好久才爬回来。它说：“妈妈，草莓没有了，地上长着蘑菇，树叶全变黄了。”","蜗牛妈妈说：“哦，已经是秋天了！快去采几个蘑菇回来。”","小蜗牛爬呀，爬呀，好久才爬回来。它说：“妈妈，蘑菇没有了，地上盖着雪，树叶全掉了。”","蜗牛妈妈说：“哦，已经是冬天了！你就待在家里过冬吧。”"],
-      textEn:["Mama Snail said: 'Dear child, go play in the grove — the little trees are sprouting.'","The little snail crawled and crawled, and after a long time finally came back. 'Mama, the trees in the grove are full of leaves, lush green, and there are strawberries on the ground!'","Mama said: 'Oh, it's already summer! Quick, go pick some strawberries.'","The snail crawled and crawled... 'Mama, the strawberries are gone. There are mushrooms and the leaves have turned yellow.'","'Oh, it's already autumn! Quick, go pick some mushrooms.'","The snail crawled and crawled... 'Mama, the mushrooms are gone. The ground is covered in snow and all the leaves have fallen.'","'Oh, it's already winter! Just stay home for the winter then.'"],
+      textEn:["Mama Snail said: 'Dear child, go play in the grove — the little trees are sprouting.'","The little snail crawled and crawled, and after a long time finally came back. It said: 'Mama, the trees in the grove are full of leaves, lush green, and there are strawberries on the ground!'","Mama Snail said: 'Oh, it's already summer! Quick, go pick some strawberries and bring them back.'","The little snail crawled and crawled, and after a long time finally came back. It said: 'Mama, the strawberries are gone. There are mushrooms growing on the ground, and the leaves have all turned yellow.'","Mama Snail said: 'Oh, it's already autumn! Quick, go pick some mushrooms and bring them back.'","The little snail crawled and crawled, and after a long time finally came back. It said: 'Mama, the mushrooms are gone. The ground is covered in snow and all the leaves have fallen.'","Mama Snail said: 'Oh, it's already winter! Just stay home for the winter then.'"],
       textPinyin:["xiǎo wō niú de mā ma shuō: 'hái zi, dào xiǎo shù lín lǐ qù wán ba, xiǎo shù fā yá le.'","xiǎo wō niú pá ya, pá ya, hǎo jiǔ cái pá huí lái...","wō niú mā ma shuō: 'ó, yǐ jīng shì xià tiān le! kuài qù cǎi jǐ kē cǎo méi huí lái.'","xiǎo wō niú pá ya, pá ya...","wō niú mā ma shuō: 'ó, yǐ jīng shì qiū tiān le!'","xiǎo wō niú pá ya, pá ya...","wō niú mā ma shuō: 'ó, yǐ jīng shì dōng tiān le! nǐ jiù dāi zài jiā lǐ guò dōng ba.'"],
       recognizeChars:["对","妈","全","回"],
       writeChars:["对","妈","全","回"],
+      vocabWords: [
+        {word:'蜗牛',pinyin:'wō niú',en:'snail',sentence:'小蜗牛爬呀爬。',sentenceEn:'The snail crawled and crawled.'},
+        {word:'妈妈',pinyin:'mā ma',en:'mom',sentence:'蜗牛妈妈说。',sentenceEn:'Mother snail said.'},
+        {word:'草莓',pinyin:'cǎo méi',en:'strawberry',sentence:'去摘草莓。',sentenceEn:'Go pick strawberries.'},
+        {word:'已经',pinyin:'yǐ jīng',en:'already',sentence:'已经是秋天了。',sentenceEn:'It is already autumn.'}
+      ],
       exercises:[
         {type:"read",cn:"对照图画，读一读课文",en:"Read the text while looking at the pictures"},
         {type:"discuss",cn:"小蜗牛为什么总是赶不上季节？",en:"Why does the snail always miss the season?"},

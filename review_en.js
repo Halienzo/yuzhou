@@ -365,7 +365,7 @@ accumulated: {
 "天对地，雨对风，大陆对长空。山花对海树":{en:"Heaven pairs with earth, rain with wind, continent with sky. Mountain flowers pair with sea trees, red sun with blue firmament.",source:"笠翁对韵 Li Weng's Rhyming Couplets"},
 "秋月白，晚霞红，水绕对云横。雨中山果落":{en:"Autumn moon white, evening clouds red, water winds round and clouds stretch across. Mountain fruit falls in the rain; insects sing by the lamp.",source:"笠翁对韵 Li Weng's Rhyming Couplets"},
 "正月菠菜才吐绿，二月栽下羊角葱；":{en:"Vegetable Song: January spinach turns green, February plant green onions; March leeks grow strong, April bamboo shoots spring after rain; May cucumbers sold on streets, June gourds bend like bows; July eggplants hang down, August peppers turn red; September persimmons glow like fire, October turnips weighed on scales; November cabbages every home has, December garlic sprouts turn green.",source:"蔬菜歌 Vegetable Song (multi-line)"},
-"温故而知新。":{en:"Review the old to learn the new.",source:"《论语》Analerta of Confucius"},
+"温故而知新。":{en:"Review the old to learn the new.",source:"《论语》Analects of Confucius"},
 "三人行，必有我师焉。":{en:"Among any three people walking, I will find something to learn from at least one.",source:"《论语》Analects of Confucius"},
 "学而时习之，不亦说乎？":{en:"Is it not a joy to study and practice what you have learned?",source:"《论语》Analects of Confucius"},
 "知之为知之，不知为不知，是知也。":{en:"To know what you know and know what you don't know - that is true knowledge.",source:"《论语》Analects of Confucius"},

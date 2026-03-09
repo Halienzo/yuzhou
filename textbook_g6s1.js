@@ -1,5 +1,5 @@
 /**
- * 字道 ZiDao — 部编版六年级语文上册 教材数据
+ * 语宙 YuZhou — 部编版六年级语文上册 教材数据
  * Grade 6 Semester 1 Textbook Data (PEP Edition)
  * Based on: 义务教育教科书 语文 六年级上册 (2019)
  */
@@ -12,10 +12,12 @@ units: [
 /*  UNIT 1 — 触摸山川湖海                      */
 /* ═══════════════════════════════════════════ */
 {
-  id: 1, title: "第一单元", titleEn: "Unit 1", type: "kewen",
+  id: 1, title: "第一单元", titleEn: "Unit 1",
+  difficulty: 3, type: "kewen",
   lessons: [
     {
       id: 1, title: "草原", titleEn: "The Grassland",
+      difficulty: 3,
       text: [
         "这次，我看到了草原。那里的天比别处的更可爱，空气是那么清鲜，天空是那么明朗，使我总想高歌一曲，表示我满心的愉快。在天底下，一碧千里，而并不茫茫。四面都有小丘，平地是绿的，小丘也是绿的。羊群一会儿上了小丘，一会儿又下来，走在哪里都像给无边的绿毯绣上了白色的大花。那些小丘的线条是那么柔美，就像只用绿色渲染，不用墨线勾勒的中国画那样，到处翠色欲流，轻轻流入云际。这种境界，既使人惊叹，又叫人舒服，既愿久立四望，又想坐下低吟一首奇丽的小诗。在这境界里，连骏马和大牛都有时候静立不动，好像回味着草原的无限乐趣。",
         "我们访问的是陈巴尔虎旗。汽车走了一百五十里，才到达目的地。一百五十里全是草原。再走一百五十里，也还是草原。草原上行车十分洒脱，只要方向不错，怎么走都可以。初入草原，听不见一点儿声音，也看不见什么东西，除了一些忽飞忽落的小鸟。走了许久，远远地望见了一条迂回的明如玻璃的带子——河！牛羊多起来，也看到了马群，隐隐有鞭子的轻响。快了，快到了。忽然，像被一阵风吹来似的，远处的小丘上出现了一群马，马上的男女老少穿着各色的衣裳，群马疾驰，襟飘带舞，像一条彩虹向我们飞过来。这是主人来到几十里外欢迎远客。见到我们，主人们立刻拨转马头，欢呼着，飞驰着，在汽车左右与前面引路。静寂的草原热闹起来：欢呼声，车声，马蹄声，响成一片。车跟着马飞过小丘，看见了几座蒙古包。",
@@ -25,12 +27,23 @@ units: [
       ],
       textEn: [
         "This time, I saw the grassland. The sky there was lovelier than elsewhere, the air so fresh, the sky so bright, it made me want to sing aloud to express my joy. Beneath the sky, a boundless green stretched in every direction. Hills rose on all sides, the flatlands green, the hills green too. Flocks of sheep went up and down the hills, as if embroidering white flowers on an endless green carpet. The curves of those hills were so graceful, like a Chinese painting done only in green wash without ink outlines, with emerald color flowing gently into the horizon. This scene both amazed and soothed, making one want to stand gazing and also sit down to compose a poem. Even horses and cattle sometimes stood still, as if savoring the grassland's endless charm.",
-        "We were visiting the Chenbarhu Banner. The car drove a hundred and fifty li before reaching our destination. The entire distance was grassland. Another hundred and fifty li would still be grassland. Driving on the grassland was carefree\u2014as long as the direction was right, any path would do. Entering the grassland, one heard nothing and saw nothing except some birds flitting about. After a long while, we spotted a winding, glass-clear ribbon in the distance\u2014a river! More cattle and sheep appeared, and horses too, with the faint crack of whips. Soon! Almost there! Suddenly, as if blown by the wind, a group of riders appeared on a distant hill, men and women of all ages in colorful clothes, galloping toward us like a rainbow. The hosts had come dozens of li to welcome their guests.",
+        "We were visiting the Chenbarhu Banner. The car drove a hundred and fifty li before reaching our destination. The entire hundred and fifty li was all grassland. Another hundred and fifty li would still be grassland. Driving on the grassland was carefree\u2014as long as the direction was right, any path would do. Upon first entering the grassland, one heard not a sound and saw nothing except some birds flitting up and down. After a long while, we spotted a winding, glass-clear ribbon in the distance\u2014a river! More cattle and sheep appeared, and horses too, with the faint crack of whips. Soon! Almost there! Suddenly, as if blown in by the wind, a group of horses appeared on a distant hill, their riders\u2014men and women, old and young\u2014wearing colorful clothes. The horses galloped, lapels and sashes fluttering, flying toward us like a rainbow. The hosts had come dozens of li to welcome their distant guests. Upon seeing us, the hosts immediately wheeled their horses around, cheering and galloping, guiding us on both sides and ahead of the car. The silent grassland came alive: cheers, the sound of the car, the clatter of hooves, all blending together. The car followed the horses over the hills, and we caught sight of several yurts.",
         "Outside the yurts were many horses and carts. Many people had come from dozens of li away to see us. The hosts dismounted, we got out of the car. Warm hands kept shaking ours, holding on tight. We spoke different languages, but our hearts were one. The common meaning was national unity and mutual help.",
-        "Somehow we found ourselves inside the yurts. Milk tea was poured, cheese curds laid out, hosts and guests sat cross-legged, all polite yet warm, completely at ease. Soon the generous hosts brought in large platters of hand-grabbed lamb. Officials toasted us, a seventy-year-old elder toasted us. We toasted back, they raised their cups again. Then Ewenki girls wearing pointed hats, poised yet a little shy, came to sing folk songs. Our own singers joined in\u2014the singing seemed louder and more moving than any spoken language.",
+        "Somehow we found ourselves inside the yurts. Milk tea was poured, cheese curds laid out, hosts and guests sat cross-legged, all polite yet warm, completely at ease. Soon the generous hosts brought in large platters of hand-grabbed lamb. Officials toasted us, a seventy-year-old elder toasted us. We toasted back, they raised their cups again, and we toasted back once more. Then Ewenki girls wearing pointed hats, poised yet a little shy, came to sing folk songs for the guests. Our own singers hastened to join in\u2014the singing seemed louder and more moving than any spoken language. No matter what was sung, the listeners always broke into knowing smiles.",
         "After the meal, young men performed lassoing and wrestling, and girls performed ethnic dances. The guests danced and sang too, and even rode Mongolian horses. The sun had moved westward, but nobody wanted to leave. Ah! How can Mongol and Han, bound by deep affection, bear to part, as they talk under the setting sun on the emerald grass!"
       ],
       writeChars: ["\u6bef","\u9648","\u88f3","\u8679","\u8e44","\u8150","\u7a0d","\u5fae"],
+      vocabWords: [
+        {word:'一碧千里',pinyin:'yī bì qiān lǐ',en:'a boundless stretch of green',sentence:'在天底下，一碧千里，而并不茫茫。',sentenceEn:'Beneath the sky, a boundless green stretched in every direction.'},
+        {word:'渲染',pinyin:'xuàn rǎn',en:'to render; to wash (in painting)',sentence:'就像只用绿色渲染，不用墨线勾勒的中国画那样。',sentenceEn:'Like a Chinese painting done only in green wash without ink outlines.'},
+        {word:'襟飘带舞',pinyin:'jīn piāo dài wǔ',en:'sashes and ribbons fluttering',sentence:'群马疾驰，襟飘带舞，像一条彩虹向我们飞过来。',sentenceEn:'Galloping horses with sashes fluttering, like a rainbow flying toward us.'},
+        {word:'拘束',pinyin:'jū shù',en:'restrained; constrained',sentence:'谁都有礼貌，谁都又那么亲热，一点儿不拘束。',sentenceEn:'Everyone was polite yet warm, completely at ease.'},
+        {word:'洒脱',pinyin:'sǎ tuō',en:'carefree; unrestrained',sentence:'草原上行车十分洒脱，只要方向不错，怎么走都可以。',sentenceEn:'Driving on the grassland was carefree — any direction would do.'}
+      ],
+      grammarPoints: [
+        {point:'情景交融',pointEn:'qíng jǐng jiāo róng',example:'blending scenery with emotion',exampleEn:'这种境界，既使人惊叹，又叫人舒服。',explanation:'This scene both amazed and soothed.',explanationEn:'将作者的感受融入景物描写中'},
+        {point:'比喻',pointEn:'bǐ yù',example:'metaphor',exampleEn:'羊群一会儿上了小丘，一会儿又下来，走在哪里都像给无边的绿毯绣上了白色的大花。',explanation:'Sheep went up and down the hills, like white flowers embroidered on an endless green carpet.',explanationEn:'用比喻使描写更加生动'}
+      ],
       exercises: [
         {type:"read",cn:"\u6717\u8bfb\u8bfe\u6587\uff0c\u60f3\u8c61\u8349\u539f\u8ff7\u4eba\u7684\u666f\u8272\uff0c\u8bfb\u51fa\u81ea\u5df1\u7684\u611f\u53d7\u3002\u80cc\u8bf5\u7b2c1\u81ea\u7136\u6bb5\u3002",en:"Read aloud, imagine the charming grassland scenery, and express your feelings. Recite paragraph 1."},
         {type:"think",cn:"\u8bfb\u4e0b\u9762\u7684\u53e5\u5b50\uff0c\u54ea\u53e5\u662f\u76f4\u63a5\u5199\u8349\u539f\u666f\u8272\u7684\uff1f\u54ea\u53e5\u5199\u4e86\u4f5c\u8005\u7684\u611f\u53d7\uff1f\u5728\u5199\u666f\u4e2d\u878d\u5165\u611f\u53d7\u6709\u4ec0\u4e48\u597d\u5904\uff1f",en:"Which sentences directly describe the grassland? Which convey the author's feelings? What is the benefit of blending feelings into scenery?"},
@@ -48,6 +61,7 @@ units: [
     },
     {
       id: 2, title: "\u4e01\u9999\u7ed3", titleEn: "Lilac Knots",
+      difficulty: 3,
       text: [
         "\u4eca\u5e74\u7684\u4e01\u9999\u82b1\u4f3c\u4e4e\u5f00\u5f97\u683c\u5916\u8302\u76db\uff0c\u57ce\u91cc\u57ce\u5916\uff0c\u90fd\u662f\u4e00\u6837\u3002\u57ce\u91cc\u8857\u65c1\uff0c\u5c18\u571f\u7eb7\u56a3\u4e4b\u95f4\uff0c\u5ffd\u7136\u5448\u51fa\u4e24\u7247\u96ea\u767d\uff0c\u987f\u4f7f\u4eba\u773c\u524d\u4e00\u4eae\uff0c\u518d\u4ed4\u7ec6\u770b\uff0c\u624d\u77e5\u662f\u4e24\u884c\u4e01\u9999\u82b1\u3002\u6709\u7684\u5b85\u9662\u91cc\u63a2\u51fa\u534a\u6811\u94f6\u599d\uff0c\u661f\u661f\u822c\u7684\u5c0f\u82b1\u7f00\u6ee1\u679d\u5934\uff0c\u4ece\u5899\u4e0a\u7aa5\u7740\u884c\u4eba\uff0c\u60f9\u5f97\u4eba\u8d70\u8fc7\u4e86\u8fd8\u8981\u56de\u5934\u671b\u3002",
         "\u57ce\u5916\u6821\u56ed\u91cc\u4e01\u9999\u66f4\u591a\u3002\u6700\u597d\u7684\u662f\u56fe\u4e66\u9986\u5317\u9762\u7684\u4e01\u9999\u4e09\u89d2\u5730\uff0c\u79cd\u6709\u5341\u6570\u68f5\u7684\u767d\u4e01\u9999\u548c\u7d2b\u4e01\u9999\u3002\u6708\u5149\u4e0b\u767d\u7684\u6f47\u6d12\uff0c\u7d2b\u7684\u6726\u80e7\u3002\u8fd8\u6709\u6de1\u6de1\u7684\u5e7d\u96c5\u7684\u751c\u9999\uff0c\u975e\u6842\u975e\u5170\uff0c\u5728\u591c\u8272\u4e2d\u4e5f\u80fd\u8ba9\u4eba\u5206\u8fa8\u51fa\uff0c\u8fd9\u662f\u4e01\u9999\u3002",
@@ -65,6 +79,16 @@ units: [
         "Lilac knots\u2014these three characters stir much imagination. Thinking of those ancient poems, one truly feels they carry unsolvable sorrows. Everyone has many frustrations in life; one ends and another begins. So lilac knots appear year after year. Knots can never be fully untied; nor can life\u2019s problems\u2014otherwise, wouldn\u2019t life be too bland?"
       ],
       writeChars: ["\u7f00","\u7aa5","\u5e7d","\u96c5","\u6848","\u62d9","\u8584","\u7cca","\u857e","\u895f","\u604d","\u6028"],
+      vocabWords: [
+        {word:'幽雅',pinyin:'yōu yǎ',en:'quiet and elegant',sentence:'还有淡淡的幽雅的甜香。',sentenceEn:'There was a faint, refined sweetness.'},
+        {word:'朦胧',pinyin:'méng lóng',en:'hazy; dim',sentence:'月光下白的潇洒，紫的朦胧。',sentenceEn:'Under moonlight the white ones looked elegant, the purple ones hazy.'},
+        {word:'愁怨',pinyin:'chóu yuàn',en:'sorrow and resentment',sentence:'真觉得它们负担着解不开的愁怨了。',sentenceEn:'One truly feels they carry unsolvable sorrows.'},
+        {word:'妩媚',pinyin:'wǔ mèi',en:'charming',sentence:'着了水滴的丁香格外妩媚。',sentenceEn:'Water-touched lilacs are especially charming.'},
+        {word:'恍然',pinyin:'huǎng rán',en:'suddenly (realize)',sentence:'我才恍然，果然是丁香结。',sentenceEn:'Then it dawned on me: indeed, a lilac knot.'}
+      ],
+      grammarPoints: [
+        {point:'借物喻理',pointEn:'jiè wù yù lǐ',example:'using an object to convey a truth',exampleEn:'丁香结，年年都有。结，是解不完的。',explanation:'Lilac knots appear year after year. Knots can never be fully untied.',explanationEn:'借丁香结象征人生的愁绪与问题'}
+      ],
       exercises: [
         {type:"read",cn:"\u6717\u8bfb\u8bfe\u6587\u3002\u8bf4\u8bf4\u4f5c\u8005\u662f\u4ece\u54ea\u51e0\u4e2a\u65b9\u9762\u63cf\u5199\u4e01\u9999\u7684\u3002",en:"Read aloud. Describe from which aspects the author depicts the lilacs."},
         {type:"think",cn:"\u4e01\u9999\u7ed3\u5f15\u53d1\u4e86\u4f5c\u8005\u5bf9\u4eba\u751f\u600e\u6837\u7684\u601d\u8003\uff1f\u7ed3\u5408\u751f\u6d3b\u5b9e\u9645\uff0c\u8c08\u8c08\u4f60\u7684\u7406\u89e3\u3002",en:"What life reflections did the lilac knots inspire? Share your understanding based on real life."}
@@ -80,6 +104,7 @@ units: [
     },
     {
       id: 3, title: "\u53e4\u8bd7\u8bcd\u4e09\u9996", titleEn: "Three Ancient Poems",
+      difficulty: 3,
       text: [
         "\u5bbf\u5efa\u5fb7\u6c5f\n[\u5510] \u5b5f\u6d69\u7136\n\u79fb\u821f\u6cca\u70df\u6e1a\uff0c\u65e5\u66ae\u5ba2\u6101\u65b0\u3002\n\u91ce\u65f7\u5929\u4f4e\u6811\uff0c\u6c5f\u6e05\u6708\u8fd1\u4eba\u3002",
         "\u516d\u6708\u4e8c\u5341\u4e03\u65e5\u671b\u6e56\u697c\u9189\u4e66\n[\u5b8b] \u82cf\u8f7c\n\u9ed1\u4e91\u7ffb\u58a8\u672a\u906e\u5c71\uff0c\u767d\u96e8\u8df3\u73e0\u4e71\u5165\u8239\u3002\n\u5377\u5730\u98ce\u6765\u5ffd\u5439\u6563\uff0c\u671b\u6e56\u697c\u4e0b\u6c34\u5982\u5929\u3002",
@@ -91,6 +116,13 @@ units: [
         "Xi Jiang Yue \u00b7 Night Walk on the Huangsha Road\n[Song] Xin Qiji\nThe bright moon startles magpies on side branches; a cool breeze at midnight sets cicadas singing. In the fragrance of rice flowers they speak of a bountiful year; listen to the chorus of frogs.\nSeven or eight stars beyond the sky, two or three drops of rain before the hills. By the old thatched inn near the village shrine grove, the path turns at the stream bridge and there it appears."
       ],
       writeChars: ["\u5fb7","\u9e4a","\u8749"],
+      vocabWords: [
+        {word:'烟渚',pinyin:'yān zhǔ',en:'misty islet',sentence:'移舟泊烟渚，日暮客愁新。',sentenceEn:'Moving the boat to moor by a misty islet, at dusk new sorrows stir.'},
+        {word:'野旷',pinyin:'yě kuàng',en:'vast wilderness',sentence:'野旷天低树，江清月近人。',sentenceEn:'The wilderness stretches, sky lower than the trees; the river clear, moon near.'},
+        {word:'丰年',pinyin:'fēng nián',en:'bountiful year',sentence:'稻花香里说丰年，听取蛙声一片。',sentenceEn:'In the fragrance of rice flowers they speak of harvest; listen to the chorus of frogs.'},
+        {word:'翻墨',pinyin:'fān mò',en:'overturned ink',sentence:'黑云翻墨未遮山，白雨跳珠乱入船。',sentenceEn:'Black clouds like overturned ink, not yet hiding the hills; white rain like jumping pearls.'},
+        {word:'茅店',pinyin:'máo diàn',en:'thatched inn',sentence:'旧时茅店社林边，路转溪桥忽见。',sentenceEn:'By the old thatched inn near the village shrine, the path turns and there it appears.'}
+      ],
       exercises: [
         {type:"read",cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\u3002\u80cc\u8bf5\u8bfe\u6587\u3002\u9ed8\u5199\u300a\u897f\u6c5f\u6708\u00b7\u591c\u884c\u9ec4\u6c99\u9053\u4e2d\u300b\u3002",en:"Read with feeling. Recite all poems. Write \u201CXi Jiang Yue\u201D from memory."},
         {type:"think",cn:"\u300a\u5bbf\u5efa\u5fb7\u6c5f\u300b\u300a\u897f\u6c5f\u6708\u00b7\u591c\u884c\u9ec4\u6c99\u9053\u4e2d\u300b\u90fd\u5199\u4e86\u6708\u591c\u7684\u666f\u8272\uff0c\u8868\u8fbe\u7684\u60c5\u611f\u5374\u4e0d\u4e00\u6837\uff0c\u7ed3\u5408\u8bd7\u53e5\u8bf4\u4e00\u8bf4\u3002",en:"Both poems depict moonlit nights but express different emotions. Explain with reference to the lines."},
@@ -106,6 +138,7 @@ units: [
     },
     {
       id: 4, title: "\u82b1\u4e4b\u6b4c", titleEn: "Song of the Flower",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "\u6211\u662f\u5927\u81ea\u7136\u7684\u8bdd\u8bed\uff0c\u5927\u81ea\u7136\u8bf4\u51fa\u6765\uff0c\u53c8\u6536\u56de\u53bb\uff0c\u85cf\u5728\u5fc3\u95f4\uff0c\u7136\u540e\u53c8\u8bf4\u4e00\u904d\u2026\u2026",
@@ -125,6 +158,13 @@ units: [
         "I sway in the fields, adorning the landscape; I breathe in the breeze, making it fragrant. When I drowse, millions of twinkling eyes in the night sky watch over me; when I wake, the single great eye of day gazes at me.",
         "I drink nectar brewed from morning dew, listening to birdsong. I dance gracefully while the grass applauds. I always look upward, yearning for the light; I never pity myself or admire myself in solitude. Yet these truths, humanity has not fully grasped."
       ],
+      vocabWords: [
+        {word:'大自然',pinyin:'dà zì rán',en:'nature',sentence:'我是大自然的话语。',sentenceEn:'I am the words of Nature.'},
+        {word:'苍穹',pinyin:'cāng qióng',en:'the blue dome of heaven',sentence:'我是星星，从苍穹坠落在绿茵中。',sentenceEn:'I am a star, fallen from the blue dome into a green meadow.'},
+        {word:'孕育',pinyin:'yùn yù',en:'to nurture; to conceive',sentence:'冬将我孕育，春使我开放。',sentenceEn:'Winter conceives me, Spring unfolds me.'},
+        {word:'冠冕',pinyin:'guān miǎn',en:'crown',sentence:'我是婚礼的冠冕。',sentenceEn:'I am the crown of weddings.'},
+        {word:'心驰神往',pinyin:'xīn chí shén wǎng',en:'filled with longing',sentence:'我总是仰望高空，对光明心驰神往。',sentenceEn:'I always look upward, yearning for the light.'}
+      ],
       exercises: [
         {type:"read",cn:"\u6717\u8bfb\u8bfe\u6587\u3002\u60f3\u60f3\u4ece\u54ea\u4e9b\u5730\u65b9\u53ef\u4ee5\u770b\u51fa\u201c\u6211\u201d\u662f\u82b1\u3002",en:"Read aloud. Think about which details reveal that \u201CI\u201D am a flower."},
         {type:"think",cn:"\u627e\u51fa\u8bfe\u6587\u4e2d\u60f3\u8c61\u5947\u7279\u7684\u5730\u65b9\uff0c\u548c\u540c\u5b66\u4ea4\u6d41\u3002",en:"Find places of strikingly imaginative writing and discuss with classmates."}
@@ -139,7 +179,38 @@ units: [
     }
   ],
   garden: {
-    composition: {title:"\u4e60\u4f5c\uff1a\u53d8\u5f62\u8bb0",titleEn:"Composition: Metamorphosis",prompt:{cn:"\u5982\u679c\u4f60\u6709\u673a\u4f1a\u628a\u81ea\u5df1\u53d8\u6210\u53e6\u4e00\u79cd\u4e8b\u7269\uff0c\u4f1a\u53d1\u751f\u4ec0\u4e48\uff1f\u53d1\u6325\u60f3\u8c61\uff0c\u628a\u91cd\u70b9\u90e8\u5206\u5199\u8be6\u7ec6\u3002",en:"If you could transform into something else, what would happen? Use your imagination and write the key parts in detail."}},
+    composition: {title:"\u4e60\u4f5c\uff1a\u53d8\u5f62\u8bb0",titleEn:"Composition: Metamorphosis",prompt:{cn:"\u5982\u679c\u4f60\u6709\u673a\u4f1a\u628a\u81ea\u5df1\u53d8\u6210\u53e6\u4e00\u79cd\u4e8b\u7269\uff0c\u4f1a\u53d1\u751f\u4ec0\u4e48\uff1f\u53d1\u6325\u60f3\u8c61\uff0c\u628a\u91cd\u70b9\u90e8\u5206\u5199\u8be6\u7ec6\u3002",en:"If you could transform into something else, what would happen? Use your imagination and write the key parts in detail."},modelEssays:[
+      {title:"\u6211\u53d8\u6210\u4e86\u4e00\u68f5\u6811",titleEn:"I Became a Tree",level:"\u57fa\u7840",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u53d8\u5f62\u7684\u7ecf\u8fc7",en:"Opening: How the transformation happened"},
+        {cn:"\u4e2d\u95f4\uff1a\u5f53\u6811\u7684\u4f53\u9a8c",en:"Body: Experience of being a tree"},
+        {cn:"\u7ed3\u5c3e\uff1a\u53d8\u56de\u540e\u7684\u611f\u609f",en:"Ending: Reflections after changing back"}
+      ],
+      cn:"\u4e00\u5929\u65e9\u4e0a\u9192\u6765\uff0c\u6211\u53d1\u73b0\u81ea\u5df1\u53d8\u6210\u4e86\u6821\u56ed\u91cc\u7684\u90a3\u68f5\u5927\u68a7\u6850\u6811\u3002\u6211\u7684\u53cc\u811a\u5316\u4f5c\u4e86\u6811\u6839\uff0c\u6df1\u6df1\u624e\u5165\u6ce5\u571f\uff1b\u53cc\u81c2\u5316\u4f5c\u4e86\u6811\u679d\uff0c\u4f38\u5411\u5929\u7a7a\u3002\n\n\u6211\u611f\u53d7\u5230\u4e86\u4ece\u672a\u4f53\u9a8c\u8fc7\u7684\u4e16\u754c\u3002\u6e29\u6696\u7684\u9633\u5149\u6d12\u5728\u6211\u7684\u53f6\u5b50\u4e0a\uff0c\u50cf\u65e0\u6570\u53cc\u5c0f\u624b\u8f7b\u8f7b\u629a\u6478\u3002\u5c0f\u9e1f\u98de\u6765\u505c\u5728\u6211\u7684\u80a9\u5934\uff0c\u5531\u7740\u52a8\u542c\u7684\u6b4c\u3002\u4e0b\u8bfe\u94c3\u54cd\u4e86\uff0c\u540c\u5b66\u4eec\u8dd1\u5230\u6211\u7684\u6811\u836b\u4e0b\u73a9\u8006\uff0c\u6709\u7684\u8bfb\u4e66\uff0c\u6709\u7684\u804a\u5929\uff0c\u4ed6\u4eec\u7684\u7b11\u58f0\u900f\u8fc7\u6811\u53f6\u4f20\u5230\u6211\u7684\u6bcf\u4e00\u6839\u679d\u6761\u3002\u6211\u5ffd\u7136\u660e\u767d\u4e86\uff0c\u539f\u6765\u4e00\u68f5\u6811\u4e5f\u53ef\u4ee5\u8fd9\u4e48\u5e78\u798f\u3002\n\n\u53ef\u662f\u5230\u4e86\u665a\u4e0a\uff0c\u6821\u56ed\u7a7a\u65e0\u4e00\u4eba\uff0c\u6211\u53ea\u80fd\u72ec\u81ea\u7ad9\u5728\u98ce\u4e2d\u3002\u6211\u5f00\u59cb\u60f3\u5ff5\u5988\u5988\u505a\u7684\u996d\u83dc\uff0c\u60f3\u5ff5\u6e29\u6696\u7684\u5e8a\u3002\u7b2c\u4e8c\u5929\u65e9\u4e0a\uff0c\u6211\u53d8\u56de\u4e86\u81ea\u5df1\u3002\u8fd9\u6b21\u7ecf\u5386\u8ba9\u6211\u660e\u767d\uff1a\u6bcf\u4e00\u68f5\u6811\u90fd\u662f\u9ed8\u9ed8\u5949\u732e\u7684\uff0c\u6211\u4eec\u5e94\u8be5\u73cd\u60dc\u8eab\u8fb9\u7684\u4e00\u8349\u4e00\u6728\u3002",
+      en:"One morning I woke up to find myself transformed into the big sycamore tree in the schoolyard. My feet had become roots, sinking deep into the soil; my arms had become branches, reaching toward the sky.\n\nI experienced a world I had never known. Warm sunlight fell on my leaves like countless small hands gently stroking me. Birds flew over and perched on my shoulder, singing beautifully. When the class bell rang, students ran to play under my canopy \u2014 some reading, some chatting. Their laughter traveled through the leaves to every one of my branches. I suddenly understood: even a tree can be this happy.\n\nBut at night, the campus was empty, and I could only stand alone in the wind. I began to miss Mom\u2019s cooking and my warm bed. The next morning, I changed back. This experience taught me: every tree gives silently. We should cherish every plant and tree around us.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u60f3\u8c61\u5408\u7406\uff0c\u4ece\u6811\u7684\u89c6\u89d2\u5199\u51fa\u4e86\u611f\u5b98\u4f53\u9a8c\uff0c\u5305\u542b\u201c\u53d8\u5f62\u201d\u548c\u201c\u53d8\u56de\u201d\u4e24\u90e8\u5206\uff0c\u7ed3\u5c3e\u6709\u611f\u609f\u3002",
+      notesEn:"This essay has reasonable imagination, writes sensory experiences from the tree\u2019s perspective, includes both transformation and return, and ends with reflection."},
+      {title:"\u6211\u53d8\u6210\u4e86\u4e00\u6ef4\u6c34",titleEn:"I Became a Drop of Water",level:"\u63d0\u9ad8",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u53d8\u6210\u6c34\u6ef4\uff0c\u5f00\u59cb\u65c5\u7a0b",en:"Opening: Become a water drop, begin the journey"},
+        {cn:"\u4e2d\u95f4\uff1a\u968f\u6c34\u5faa\u73af\u65c5\u884c\uff0c\u89c1\u8bc1\u4e16\u754c",en:"Body: Travel through the water cycle, witness the world"},
+        {cn:"\u7ed3\u5c3e\uff1a\u878d\u5165\u79d1\u5b66\u77e5\u8bc6\uff0c\u5347\u534e\u4e3b\u9898",en:"Ending: Integrate scientific knowledge, elevate the theme"}
+      ],
+      cn:"\u6211\u53d8\u6210\u4e86\u4e00\u6ef4\u6c34\uff0c\u4f4f\u5728\u4e91\u59c8\u59c8\u7684\u6000\u91cc\u3002\n\n\u4e00\u5929\uff0c\u4e91\u59c8\u59c8\u8bf4\uff1a\u201c\u5b69\u5b50\uff0c\u8be5\u4e0b\u53bb\u770b\u770b\u4e86\u3002\u201d\u6211\u4fbf\u548c\u4f19\u4f34\u4eec\u4e00\u8d77\u5316\u4f5c\u96e8\u6ef4\uff0c\u843d\u5411\u5927\u5730\u3002\u6211\u843d\u5728\u4e00\u7247\u7530\u91ce\u91cc\uff0c\u6e17\u8fdb\u6ce5\u571f\uff0c\u88ab\u4e00\u68f5\u5c0f\u9ea6\u82d7\u7684\u6839\u5438\u4e86\u8fdb\u53bb\u3002\u6211\u5728\u9ea6\u82d7\u4f53\u5185\u6e38\u8d70\uff0c\u89c1\u8bc1\u4e86\u5b83\u600e\u6837\u4ece\u4e00\u68f5\u5c0f\u82bd\u957f\u6210\u91d1\u9ec4\u7684\u9ea6\u7a57\u3002\u539f\u6765\uff0c\u6bcf\u4e00\u7c92\u7cae\u98df\u90fd\u79bb\u4e0d\u5f00\u6211\u4eec\u6c34\u6ef4\u7684\u5949\u732e\u3002\n\n\u540e\u6765\uff0c\u6211\u987a\u7740\u5c0f\u6eaa\u6d41\u5165\u6cb3\u6d41\uff0c\u53c8\u4ece\u6cb3\u6d41\u6c47\u5165\u5927\u6d77\u3002\u5728\u5927\u6d77\u91cc\uff0c\u6211\u770b\u89c1\u4e86\u4e94\u5f69\u7f24\u7eb7\u7684\u73ca\u745a\u3001\u81ea\u7531\u81ea\u5728\u7684\u6d77\u8c5a\u3002\u53ef\u6211\u4e5f\u770b\u89c1\u4e86\u6f02\u6d6e\u5728\u6c34\u9762\u7684\u5851\u6599\u888b\uff0c\u5fc3\u91cc\u5f88\u96be\u8fc7\u3002\u592a\u9633\u7167\u5c04\u4e0b\u6765\uff0c\u6211\u5316\u4f5c\u6c34\u84b8\u6c14\uff0c\u53c8\u56de\u5230\u4e86\u4e91\u59c8\u59c8\u8eab\u8fb9\u3002\n\n\u8fd9\u4e00\u8d9f\u65c5\u7a0b\u8ba9\u6211\u660e\u767d\uff1a\u6c34\u662f\u4e07\u7269\u7684\u751f\u547d\u4e4b\u6e90\uff0c\u6c34\u5faa\u73af\u8fde\u63a5\u7740\u6574\u4e2a\u4e16\u754c\u3002\u4fdd\u62a4\u6c34\u8d44\u6e90\uff0c\u5c31\u662f\u4fdd\u62a4\u6211\u4eec\u81ea\u5df1\u3002",
+      en:"I became a drop of water, living in Mother Cloud\u2019s embrace.\n\nOne day, Mother Cloud said: \u201CChild, it\u2019s time to go see the world.\u201D My companions and I turned into raindrops and fell to earth. I landed in a field, seeped into the soil, and was absorbed by a wheat seedling\u2019s roots. Traveling inside the plant, I witnessed how it grew from a tiny sprout into a golden wheat stalk. I realized that every grain of food depends on the dedication of us water drops.\n\nLater, I flowed along a stream into a river, and from the river into the ocean. In the sea, I saw colorful coral and carefree dolphins. But I also saw plastic bags floating on the surface, and it made me sad. When the sun shone down, I evaporated back into steam and returned to Mother Cloud\u2019s side.\n\nThis journey taught me: water is the source of life for all things, and the water cycle connects the entire world. Protecting water resources means protecting ourselves.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u628a\u60f3\u8c61\u4e0e\u79d1\u5b66\u77e5\u8bc6\uff08\u6c34\u5faa\u73af\uff09\u7ed3\u5408\uff0c\u6709\u6e29\u5ea6\u4e5f\u6709\u6df1\u5ea6\uff0c\u62df\u4eba\u5316\u624b\u6cd5\uff08\u4e91\u59c8\u59c8\uff09\u8ba9\u6587\u7ae0\u751f\u52a8\u3002",
+      notesEn:"This essay combines imagination with scientific knowledge (water cycle), has both warmth and depth, and uses personification (Mother Cloud) to enliven the writing."},
+      {title:"\u6211\u53d8\u6210\u4e86\u6545\u5bab\u91cc\u7684\u4e00\u53ea\u9e64",titleEn:"I Became a Crane in the Forbidden City",level:"\u62d3\u5c55",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u5947\u5e7b\u53d8\u5f62\uff0c\u8bbe\u5b9a\u573a\u666f",en:"Opening: Magical transformation, set the scene"},
+        {cn:"\u4e2d\u95f4\uff1a\u89c1\u8bc1\u5386\u53f2\u4e0e\u73b0\u5b9e\u4ea4\u7ec7",en:"Body: Witness history and present intertwine"},
+        {cn:"\u7ed3\u5c3e\uff1a\u53cd\u601d\u4eba\u4e0e\u5386\u53f2\u7684\u5173\u7cfb",en:"Ending: Reflect on the relationship between people and history"}
+      ],
+      cn:"\u4e00\u9635\u5947\u5f02\u7684\u98ce\u5439\u8fc7\uff0c\u6211\u53d8\u6210\u4e86\u4e00\u53ea\u94dc\u9e64\uff0c\u7ad9\u5728\u6545\u5bab\u592a\u548c\u6bbf\u524d\u7684\u5e7f\u573a\u4e0a\u3002\n\n\u6211\u7ad9\u5728\u8fd9\u91cc\u5df2\u7ecf\u516d\u767e\u591a\u5e74\u4e86\u3002\u6211\u89c1\u8fc7\u660e\u671d\u7687\u5e1d\u7a7f\u7740\u9f99\u888d\u4ece\u6211\u8eab\u8fb9\u8d70\u8fc7\uff0c\u89c1\u8fc7\u6e05\u671d\u7684\u5bab\u5973\u5728\u6708\u5149\u4e0b\u8e6e\u8e70\u7684\u8eab\u5f71\uff0c\u4e5f\u89c1\u8fc7\u5916\u56fd\u519b\u961f\u7684\u70ae\u706b\u5728\u57ce\u5899\u4e0a\u7559\u4e0b\u7684\u75a4\u75d5\u3002\u6211\u4eb2\u773c\u770b\u7740\u8fd9\u5ea7\u5bab\u6bbf\u4ece\u8f89\u714c\u5230\u8870\u843d\uff0c\u53c8\u4ece\u8870\u843d\u5230\u91cd\u65b0\u7efd\u653e\u5149\u5f69\u3002\n\n\u73b0\u5728\uff0c\u6bcf\u5929\u90fd\u6709\u6210\u5343\u4e0a\u4e07\u7684\u6e38\u5ba2\u4ece\u6211\u8eab\u8fb9\u8d70\u8fc7\u3002\u5b69\u5b50\u4eec\u6311\u7740\u773c\u775b\u597d\u5947\u5730\u770b\u7740\u6211\uff0c\u6709\u7684\u8fd8\u4f38\u624b\u6478\u6478\u6211\u7684\u7fbd\u6bdb\u3002\u4e00\u4e2a\u5c0f\u59d1\u5a18\u95ee\u5988\u5988\uff1a\u201c\u8fd9\u53ea\u9e64\u5728\u8fd9\u91cc\u7ad9\u4e86\u591a\u4e45\u4e86\uff1f\u201d\u5988\u5988\u8bf4\uff1a\u201c\u516d\u767e\u591a\u5e74\u5566\u3002\u201d\u5c0f\u59d1\u5a18\u60ca\u53eb\u8d77\u6765\uff0c\u6211\u5728\u5fc3\u91cc\u5fae\u7b11\u3002\n\n\u5982\u679c\u6211\u80fd\u8bf4\u8bdd\uff0c\u6211\u60f3\u544a\u8bc9\u6bcf\u4e00\u4e2a\u8d70\u8fc7\u6211\u8eab\u8fb9\u7684\u4eba\uff1a\u5386\u53f2\u4e0d\u662f\u4e66\u672c\u4e0a\u51b7\u51b0\u51b0\u7684\u6587\u5b57\uff0c\u5b83\u5c31\u523b\u5728\u6211\u8eab\u4e0a\u7684\u6bcf\u4e00\u9053\u7eb9\u8def\u91cc\uff0c\u5b83\u5c31\u5728\u4f60\u4eec\u7684\u811a\u4e0b\u3002\u8bf7\u73cd\u60dc\u5b83\uff0c\u56e0\u4e3a\u5b83\u662f\u6c11\u65cf\u7684\u8bb0\u5fc6\uff0c\u4e5f\u662f\u672a\u6765\u7684\u5e95\u6c14\u3002",
+      en:"A strange wind blew past, and I became a bronze crane standing in the square before the Hall of Supreme Harmony in the Forbidden City.\n\nI have stood here for over six hundred years. I have seen Ming emperors pass by me in dragon robes, seen Qing palace maids\u2019 flickering silhouettes in the moonlight, and seen the scars left on the walls by foreign armies\u2019 artillery. I watched this palace go from splendor to decline, and from decline to radiance once more.\n\nNow, thousands of visitors pass me every day. Children look at me with curious eyes, some reaching out to touch my feathers. A little girl asked her mother: \u201CHow long has this crane been standing here?\u201D Her mother answered: \u201COver six hundred years.\u201D The girl gasped in wonder, and I smiled inwardly.\n\nIf I could speak, I would tell everyone who passes by: history is not cold text in a book \u2014 it is etched in every line on my body, and it lies beneath your feet. Please cherish it, for it is our nation\u2019s memory and the foundation of our future.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u89c6\u89d2\u72ec\u7279\uff08\u94dc\u9e64\u89c6\u89d2\uff09\uff0c\u8de8\u8d8a\u65f6\u7a7a\uff0c\u878d\u5165\u5386\u53f2\u77e5\u8bc6\uff0c\u53cd\u601d\u6df1\u523b\uff0c\u5c55\u73b0\u4e86\u8f83\u9ad8\u7684\u60f3\u8c61\u529b\u548c\u5199\u4f5c\u529f\u5e95\u3002",
+      notesEn:"This essay takes a unique perspective (bronze crane), spans centuries, integrates historical knowledge, reflects deeply, and demonstrates strong imagination and writing skill."}
+    ]},
     wordSentence: {title:"\u8bcd\u53e5\u6bb5\u8fd0\u7528",titleEn:"Word & Sentence Practice",content:{cn:"\u4f53\u4f1a\u6392\u6bd4\u3001\u6bd4\u55bb\u7b49\u4fee\u8f9e\u624b\u6cd5\u7684\u597d\u5904\uff1b\u4e86\u89e3\u5206\u53f7\u7684\u7528\u6cd5\u3002",en:"Appreciate the effects of parallelism and metaphor; understand semicolon usage."}},
     accumulation: {title:"\u65e5\u79ef\u6708\u7d2f",titleEn:"Accumulation",content:{cn:"\u8fc7\u6545\u4eba\u5e84\uff08\u5510\u00b7\u5b5f\u6d69\u7136\uff09\uff1a\u6545\u4eba\u5177\u9e21\u9ecd\uff0c\u9080\u6211\u81f3\u7530\u5bb6\u3002\u7eff\u6811\u6751\u8fb9\u5408\uff0c\u9752\u5c71\u90ed\u5916\u659c\u3002\u5f00\u8f69\u9762\u573a\u5703\uff0c\u628a\u9152\u8bdd\u6851\u9ebb\u3002\u5f85\u5230\u91cd\u9633\u65e5\uff0c\u8fd8\u6765\u5c31\u83ca\u82b1\u3002",en:"Passing By an Old Friend\u2019s Farm (Tang, Meng Haoran): An old friend prepared chicken and millet, inviting me to his farm. Green trees surround the village, blue hills slope beyond the walls. We opened the window facing the garden and threshing floor, and over wine talked of mulberry and hemp. When Double Ninth comes, I\u2019ll return for the chrysanthemums."}}
   }
@@ -148,10 +219,12 @@ units: [
 /*  UNIT 2 — 革命岁月                          */
 /* ═══════════════════════════════════════════ */
 {
-  id: 2, title: "第二单元", titleEn: "Unit 2", type: "kewen",
+  id: 2, title: "第二单元", titleEn: "Unit 2",
+  difficulty: 3, type: "kewen",
   lessons: [
     {
       id: 5, title: "七律·长征", titleEn: "Seven-Character Regulated Verse: The Long March",
+      difficulty: 3,
       text: [
         "七律·长征\n毛泽东\n红军不怕远征难，万水千山只等闲。\n五岭逶迤腾细浪，乌蒙磅礴走泥丸。\n金沙水拍云崖暖，大渡桥横铁索寒。\n更喜岷山千里雪，三军过后尽开颜。"
       ],
@@ -159,6 +232,16 @@ units: [
         "Seven-Character Regulated Verse: The Long March\nMao Zedong\nThe Red Army fears not the trials of the Long March,\nTen thousand waters and a thousand mountains are but trifles.\nThe Five Ridges wind like gentle ripples,\nThe vast Wumeng range rolls by like mud balls.\nWarm are the cloud-cliffs where the Golden Sand River laps,\nCold are the iron chains spanning the Dadu Bridge.\nJoyous, the army crosses the Minshan\u2019s thousand li of snow,\nAfter which every face beams with delight."
       ],
       writeChars: ["\u5f8b","\u5d16","\u6e21","\u7d22"],
+      vocabWords: [
+        {word:'等闲',pinyin:'děng xián',en:'trivial; ordinary',sentence:'万水千山只等闲。',sentenceEn:'Ten thousand waters and a thousand mountains are but trifles.'},
+        {word:'逶迤',pinyin:'wēi yí',en:'winding; meandering',sentence:'五岭逶迤腾细浪。',sentenceEn:'The Five Ridges wind like gentle ripples.'},
+        {word:'磅礴',pinyin:'páng bó',en:'majestic; boundless',sentence:'乌蒙磅礴走泥丸。',sentenceEn:'The vast Wumeng range rolls by like mud balls.'},
+        {word:'铁索',pinyin:'tiě suǒ',en:'iron chains',sentence:'大渡桥横铁索寒。',sentenceEn:'Cold are the iron chains spanning the Dadu Bridge.'},
+        {word:'开颜',pinyin:'kāi yán',en:'to beam with delight',sentence:'三军过后尽开颜。',sentenceEn:'After crossing, every face beams with delight.'}
+      ],
+      grammarPoints: [
+        {point:'夸张',pointEn:'kuā zhāng',example:'hyperbole',exampleEn:'五岭逶迤腾细浪，乌蒙磅礴走泥丸。',explanation:'The Five Ridges wind like gentle ripples, the vast Wumeng rolls by like mud balls.',explanationEn:'用夸张手法表现红军的英雄气概'}
+      ],
       exercises: [
         {type:"read",cn:"\u6717\u8bfb\u8bfe\u6587\uff0c\u8bd5\u7740\u8bfb\u51fa\u78c5\u7934\u7684\u6c14\u52bf\u3002\u80cc\u8bf5\u8bfe\u6587\u3002",en:"Read aloud, trying to convey the poem\u2019s grandeur. Recite it."},
         {type:"think",cn:"\u8bfb\u4e00\u8bfb\uff0c\u8bf4\u8bf4\u8bd7\u53e5\u7684\u610f\u601d\u548c\u8868\u8fbe\u7684\u60c5\u611f\u3002",en:"Explain the meaning of the couplets and the emotions they express."}
@@ -173,6 +256,7 @@ units: [
     },
     {
       id: 6, title: "\u72fc\u7259\u5c71\u4e94\u58ee\u58eb", titleEn: "Five Heroes of Mount Langya",
+      difficulty: 3,
       text: [
         "1941\u5e74\u79cb\uff0c\u65e5\u5bc7\u96c6\u4e2d\u5175\u529b\uff0c\u5411\u6211\u664b\u5bdf\u5180\u6839\u636e\u5730\u5927\u4e3e\u8fdb\u72af\u3002\u5f53\u65f6\uff0c\u4e03\u8fde\u5949\u547d\u5728\u72fc\u7259\u5c71\u4e00\u5e26\u575a\u6301\u6e38\u51fb\u6218\u4e89\u3002\u7ecf\u8fc7\u4e00\u4e2a\u591a\u6708\u82f1\u52c7\u594b\u6218\uff0c\u4e03\u8fde\u51b3\u5b9a\u5411\u9f99\u738b\u5e99\u8f6c\u79fb\uff0c\u628a\u63a9\u62a4\u7fa4\u4f17\u548c\u8fde\u961f\u8f6c\u79fb\u7684\u4efb\u52a1\u4ea4\u7ed9\u4e86\u516d\u73ed\u3002",
         "\u4e3a\u4e86\u62d6\u4f4f\u654c\u4eba\uff0c\u4e03\u8fde\u516d\u73ed\u7684\u4e94\u4e2a\u6218\u58eb\u4e00\u8fb9\u75db\u51fb\u8ffd\u4e0a\u6765\u7684\u654c\u4eba\uff0c\u4e00\u8fb9\u6709\u8ba1\u5212\u5730\u628a\u5927\u6279\u654c\u4eba\u5f15\u4e0a\u4e86\u72fc\u7259\u5c71\u3002\u4ed6\u4eec\u5229\u7528\u9669\u8981\u7684\u5730\u5f62\uff0c\u628a\u51b2\u4e0a\u6765\u7684\u654c\u4eba\u4e00\u6b21\u53c8\u4e00\u6b21\u5730\u6253\u4e86\u4e0b\u53bb\u3002\u73ed\u957f\u9a6c\u5b9d\u7389\u6c89\u7740\u5730\u6307\u6325\u6218\u6597\uff0c\u8ba9\u654c\u4eba\u8d70\u8fd1\u4e86\uff0c\u624d\u4e0b\u547d\u4ee4\u72e0\u72e0\u5730\u6253\u3002\u526f\u73ed\u957f\u845b\u632f\u6797\u6253\u4e00\u67aa\u5c31\u5927\u543c\u4e00\u58f0\uff0c\u597d\u50cf\u7ec6\u5c0f\u7684\u67aa\u53e3\u55b7\u4e0d\u5b8c\u4ed6\u7684\u6ee1\u8154\u6012\u706b\u3002\u6218\u58eb\u5b8b\u5b66\u4e49\u6254\u624b\u69b4\u5f39\u603b\u8981\u628a\u80f3\u818a\u62a1\u4e00\u4e2a\u5708\uff0c\u597d\u4f7f\u51fa\u6d51\u8eab\u7684\u529b\u6c14\u3002\u80e1\u5fb7\u6797\u548c\u80e1\u798f\u624d\u8fd9\u4e24\u4e2a\u5c0f\u6218\u58eb\u628a\u8138\u7ef7\u5f97\u7d27\u7d27\u7684\uff0c\u5168\u795e\u8d2f\u6ce8\u5730\u7784\u51c6\u654c\u4eba\u5c04\u51fb\u3002\u654c\u4eba\u59cb\u7ec8\u4e0d\u80fd\u524d\u8fdb\u4e00\u6b65\u3002\u5728\u5d0e\u5c96\u7684\u5c71\u8def\u4e0a\uff0c\u6a2a\u4e03\u7ad6\u516b\u5730\u8eba\u7740\u8bb8\u591a\u654c\u4eba\u7684\u5c38\u4f53\u3002",
@@ -185,11 +269,21 @@ units: [
         "In autumn 1941, the Japanese invaders concentrated their forces for a major offensive against our Shanxi-Chahar-Hebei base area. The Seventh Company was ordered to carry on guerrilla warfare in the Langya Mountain area. After more than a month of brave fighting, the company decided to withdraw toward Longwang Temple, assigning the task of covering the retreat of the villagers and the main force to the Sixth Squad.",
         "To hold back the enemy, the five soldiers of the Sixth Squad fought the pursuing enemy while deliberately leading a large number of them up Langya Mountain. Using the treacherous terrain, they repelled wave after wave of attacks. Squad Leader Ma Baoyu calmly directed the battle, only giving the order to fire when the enemy came close. Deputy Squad Leader Ge Zhenlin roared with each shot. Soldier Song Xueyi swung his arm in a full circle when throwing grenades. The two young soldiers, Hu Delin and Hu Fucai, aimed at the enemy with intense concentration. The enemy could not advance a single step.",
         "Having successfully completed the covering mission, the five soldiers prepared to withdraw. Two paths lay before them: one led toward the main force but would draw the enemy after them; the other led to Qipantuo, the summit of Langya Mountain, with cliffs on three sides. Squad Leader Ma Baoyu said resolutely: \u201CGo!\u201D and led the way toward Qipantuo. The soldiers\u2019 blood boiled as they followed. They knew the squad leader was leading the enemy to a dead end.",
-        "The five heroes climbed toward the summit while firing at the enemy from behind trees and rocks. At the top, they continued shooting down at the pursuing enemy. Squad Leader Ma was wounded and out of ammunition. He seized the last grenade, inserted it in his belt, and raised a large rock, shouting: \u201CComrades! Use rocks!\u201D Stones flew like hail toward the enemy.",
+        "The five heroes climbed toward the summit while firing at the enemy from behind trees and rocks. The mountain path was once again littered with many enemy corpses. Upon reaching the peak of Langya Mountain, the five heroes commanded the high ground and continued firing down at the enemy close on their heels. Many enemies tumbled into the ravines, their bodies smashed to pieces. Squad Leader Ma Baoyu was wounded, and all the ammunition was spent. Only Hu Fucai still had one grenade left. He was about to unscrew the cap when Ma Baoyu stepped forward, snatched the grenade, and inserted it in his belt. Then he fiercely raised a large rock and shouted: \u201CComrades! Use rocks!\u201D Instantly, stones flew like hail, carrying the determination of the five heroes and the hatred of the Chinese people, crashing down on the enemy\u2019s heads.",
         "Another group of enemies charged up. Ma Baoyu pulled out the grenade, unscrewed the cap, and hurled it with all his might. With a tremendous blast, the grenade exploded among the enemy.",
         "The five heroes stood tall on the summit, gazing in the direction the villagers and main force had gone. They looked back at the enemy still climbing, their faces showing the joy of victory. Squad Leader Ma said: \u201CComrades, our mission is accomplished!\u201D He smashed the captured rifle and walked to the cliff edge. Like leading a charge, he was the first to leap into the abyss. The soldiers followed, heads held high. Their heroic battle cries echoed across Langya Mountain:\n\u201CDown with Japanese imperialism!\u201D\n\u201CLong live the Communist Party of China!\u201D\nThis was the indomitable voice of the heroic Chinese people! A voice that shook heaven and earth!"
       ],
       writeChars: ["\u5bc7","\u526f","\u69b4","\u5f39","\u62a1","\u8d2f","\u68cb","\u60ac","\u6cb8","\u6da7","\u96f9","\u5c79","\u60a6","\u5c48"],
+      vocabWords: [
+        {word:'斩钉截铁',pinyin:'zhǎn dīng jié tiě',en:'resolute; decisive',sentence:'班长马宝玉斩钉截铁地说了一声："走！"',sentenceEn:'Squad Leader Ma Baoyu said resolutely: "Go!"'},
+        {word:'居高临下',pinyin:'jū gāo lín xià',en:'to command from a height',sentence:'五位壮士居高临下，继续向敌人射击。',sentenceEn:'The five heroes fired down at the enemy from the heights.'},
+        {word:'豪迈',pinyin:'háo mài',en:'bold and heroic',sentence:'狼牙山上响起了他们壮烈豪迈的口号声。',sentenceEn:'Their heroic battle cries echoed across Langya Mountain.'},
+        {word:'全神贯注',pinyin:'quán shén guàn zhù',en:'fully concentrated',sentence:'全神贯注地瞄准敌人射击。',sentenceEn:'They aimed at the enemy with intense concentration.'},
+        {word:'掩护',pinyin:'yǎn hù',en:'to cover; to provide cover',sentence:'把掩护群众和连队转移的任务交给了六班。',sentenceEn:'The task of covering the retreat was assigned to the Sixth Squad.'}
+      ],
+      grammarPoints: [
+        {point:'点面结合',pointEn:'diǎn miàn jié hé',example:'combining individual focus with group overview',exampleEn:'班长马宝玉沉着地指挥战斗……副班长葛振林打一枪就大吼一声。',explanation:'Squad Leader Ma calmly directed; Deputy Squad Leader Ge roared with each shot.',explanationEn:'先写群体再写个人，使场面更生动'}
+      ],
       exercises: [
         {type:"read",cn:"\u6717\u8bfb\u8bfe\u6587\u3002\u6839\u636e\u8bfe\u6587\u5185\u5bb9\u586b\u4e00\u586b\uff0c\u518d\u8bb2\u8bb2\u8fd9\u4e2a\u6545\u4e8b\u3002",en:"Read aloud. Fill in the story outline (accept mission \u2192 ??? \u2192 ??? \u2192 heroic leap) and retell the story."},
         {type:"think",cn:"\u8bfe\u6587\u7b2c2\u81ea\u7136\u6bb5\u65e2\u5173\u6ce8\u4e86\u4eba\u7269\u7fa4\u4f53\uff0c\u4e5f\u5199\u4e86\u6bcf\u4e00\u4f4d\u6218\u58eb\uff0c\u8bf4\u8bf4\u8fd9\u6837\u5199\u7684\u597d\u5904\u3002",en:"Paragraph 2 describes both the group and each soldier. Discuss the benefits of this approach."}
@@ -204,6 +298,7 @@ units: [
     },
     {
       id: 7, title: "\u5f00\u56fd\u5927\u5178", titleEn: "The Founding Ceremony",
+      difficulty: 3,
       text: [
         "1949\u5e7410\u67081\u65e5\uff0c\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u4e2d\u592e\u4eba\u6c11\u653f\u5e9c\u6210\u7acb\uff0c\u5728\u9996\u90fd\u5317\u4eac\u4e3e\u884c\u5178\u793c\u3002\u53c2\u52a0\u5f00\u56fd\u5927\u5178\u7684\uff0c\u6709\u4e2d\u592e\u4eba\u6c11\u653f\u5e9c\u4e3b\u5e2d\u3001\u526f\u4e3b\u5e2d\u3001\u5404\u4f4d\u59d4\u5458\uff0c\u6709\u4e2d\u56fd\u4eba\u6c11\u653f\u6cbb\u534f\u5546\u4f1a\u8bae\u5168\u4f53\u4ee3\u8868\uff0c\u6709\u5de5\u4eba\u3001\u519c\u6c11\u3001\u5b66\u6821\u5e08\u751f\u3001\u673a\u5173\u5de5\u4f5c\u4eba\u5458\u3001\u57ce\u9632\u90e8\u961f\uff0c\u603b\u6570\u8fbe\u4e09\u5341\u4e07\u4eba\u3002",
         "\u4f1a\u573a\u5728\u5929\u5b89\u95e8\u5e7f\u573a\u3002\u5e7f\u573a\u5448\u4e01\u5b57\u5f62\u3002\u4e01\u5b57\u5f62\u4e00\u6a2a\u7684\u5317\u9762\u662f\u4e00\u9053\u6cb3\uff0c\u6cb3\u4e0a\u5e76\u6392\u67b6\u7740\u4e94\u5ea7\u767d\u77f3\u6865\uff1b\u518d\u5317\u9762\u662f\u57ce\u5899\uff0c\u57ce\u5899\u4e2d\u592e\u9ad8\u9ad8\u8038\u8d77\u5929\u5b89\u95e8\u7684\u57ce\u697c\u3002\u4e01\u5b57\u5f62\u7684\u4e00\u7ad6\u5411\u5357\u76f4\u4f38\u5230\u4e2d\u534e\u95e8\u3002\u5728\u4e00\u6a2a\u4e00\u7ad6\u7684\u4ea4\u70b9\u7684\u5357\u9762\uff0c\u573a\u4e2d\u6319\u7acb\u7740\u4e00\u6839\u7535\u52a8\u65d7\u6746\u3002",
@@ -217,10 +312,20 @@ units: [
         "The venue was Tiananmen Square, laid out in a T-shape. The top bar of the T faced a river spanned by five white stone bridges, behind which rose the Tiananmen gate tower. The vertical bar extended south to Zhonghua Gate. At their intersection stood an electric flagpole.",
         "At three o\u2019clock sharp, thunderous applause erupted as Chairman Mao Zedong appeared on the rostrum. Three hundred thousand pairs of eyes turned toward him. He proclaimed: \u201CThe Central People\u2019s Government of the People\u2019s Republic of China is hereby established today!\u201D This solemn declaration, this mighty voice, sent the crowd into cheers. Broadcast by radio, it reached every corner of China, making the hearts of all Chinese leap with joy.",
         "Next came the flag-raising. Chairman Mao personally pressed the button connected to the electric flagpole. The Five-Star Red Flag rose slowly amid the stirring strains of the March of the Volunteers. Three hundred thousand people stood at attention and gazed up at the bright red flag. The raising of the Five-Star Red Flag proclaimed that the Chinese people had stood up.",
-        "The military parade began. First came two platoons of the Navy in snow-white caps and ocean-blue uniforms, then an infantry division in formation, an artillery division with all manner of guns, an armored division with tanks rolling in neat rows, and a cavalry division. As the armored units passed, formations of the People\u2019s Air Force flew overhead in V-shapes.",
+        "The military parade began. Leading the procession were two platoons of the Navy in snow-white caps and ocean-blue uniforms. Next came an infantry division, marching in formation by company, advancing in step. Then came an artillery division\u2014field guns, howitzers, and all manner of guns\u2014lined up in single rows and advancing. Next was an armored division, with various armored vehicles and tanks rolling in neat rows of two or three. Then came a cavalry division. All these units passed before the rostrum at equal intervals and the same speed. As the armored units rolled by, squadrons of the People\u2019s Air Force flew overhead in V-formations across the sky.",
         "By the time the parade ended, it was evening. Lanterns and torches lit up Tiananmen Square, and ten thousand fireworks shot into the sky. The mass procession began. At half past nine, the last of the marchers filed out. Two \u201Cred rivers\u201D flowed east and west through the city streets, and light filled all of Beijing."
       ],
       writeChars: ["\u653f","\u5e9c","\u5bbe","\u680f","\u6c47","\u7206","\u5ba3","\u5e1c","\u9605","\u5236","\u5766","\u8ddd","\u9686","\u5c04"],
+      vocabWords: [
+        {word:'典礼',pinyin:'diǎn lǐ',en:'ceremony',sentence:'在首都北京举行典礼。',sentenceEn:'A ceremony was held in the capital, Beijing.'},
+        {word:'排山倒海',pinyin:'pái shān dǎo hǎi',en:'overwhelming; earth-shattering',sentence:'会场上爆发出一阵排山倒海的掌声。',sentenceEn:'Thunderous, earth-shattering applause erupted.'},
+        {word:'瞻仰',pinyin:'zhān yǎng',en:'to gaze up with reverence',sentence:'三十万人一齐抬起头，瞻仰这鲜红的国旗。',sentenceEn:'Three hundred thousand people gazed up at the bright red flag.'},
+        {word:'宣布',pinyin:'xuān bù',en:'to proclaim',sentence:'毛泽东主席宣布："中华人民共和国中央人民政府今天成立了！"',sentenceEn:'Chairman Mao proclaimed the founding of the government.'},
+        {word:'肃立',pinyin:'sù lì',en:'to stand solemnly',sentence:'三十万人一齐脱帽肃立。',sentenceEn:'Three hundred thousand people stood at attention.'}
+      ],
+      grammarPoints: [
+        {point:'场面描写',pointEn:'chǎng jǐng miáo xiě',example:'scene description',exampleEn:'开头是海军两个排，雪白的帽子，跟海洋一个颜色的蓝制服。',explanation:'First came two platoons of the Navy in snow-white caps and ocean-blue uniforms.',explanationEn:'按顺序描写阅兵式各兵种，层次分明'}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u60f3\u60f3\u8bfe\u6587\u5199\u4e86\u54ea\u51e0\u4e2a\u573a\u9762\uff0c\u7b80\u8981\u8bf4\u8bf4\u5f00\u56fd\u5927\u5178\u7684\u8fc7\u7a0b\u3002",en:"Read silently. What scenes are described? Briefly summarize the ceremony."},
         {type:"think",cn:"\u8bfb\u8bfb\u5199\u9605\u5175\u5f0f\u7684\u90e8\u5206\uff0c\u8bf4\u8bf4\u8bfe\u6587\u662f\u600e\u6837\u63cf\u5199\u8fd9\u4e2a\u573a\u9762\u7684\u3002",en:"Read the parade section. How does the text describe this scene?"}
@@ -235,6 +340,7 @@ units: [
     },
     {
       id: 8, title: "\u706f\u5149", titleEn: "The Light",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "\u6211\u7231\u5230\u5929\u5b89\u95e8\u5e7f\u573a\u8d70\u8d70\uff0c\u5c24\u5176\u662f\u665a\u4e0a\u3002\u5e7f\u573a\u4e0a\u5343\u4e07\u76cf\u706f\u9759\u9759\u5730\u7167\u8000\u7740\u5468\u56f4\u7684\u5b8f\u4f1f\u5efa\u7b51\uff0c\u4ee4\u4eba\u5fc3\u5934\u5149\u660e\u800c\u53c8\u6e29\u6696\u3002",
@@ -250,6 +356,13 @@ units: [
         "The battle began. Follow-up troops couldn\u2019t find the breach in the darkness. Suddenly a spark of light appeared\u2014a flash, then another. The soldiers charged through by that faint glow. It turned out Deputy Commander Hao had struck a match and lit the book, illuminating the way forward. But the light exposed him, and he was hit by enemy machine-gun fire.",
         "This young comrade gave his life so that children could study under electric lights, yet he himself never got to see one. Standing beneath the brilliant lights of Tiananmen, I think of this beloved comrade once more."
       ],
+      vocabWords: [
+        {word:'璀璨',pinyin:'cuǐ càn',en:'brilliant; dazzling',sentence:'在天安门前璀璨的华灯下面。',sentenceEn:'Beneath the brilliant lights of Tiananmen.'},
+        {word:'赞叹',pinyin:'zàn tàn',en:'to exclaim with admiration',sentence:'忽然背后传来一声赞叹："多好啊！"',sentenceEn:'A voice behind exclaimed: "How wonderful!"'},
+        {word:'微弱',pinyin:'wēi ruò',en:'faint; feeble',sentence:'他借着微弱的亮光看一本书上的插图。',sentenceEn:'By firelight he studied a book illustration.'},
+        {word:'牺牲',pinyin:'xī shēng',en:'to sacrifice',sentence:'他自己却没有来得及见一见电灯。',sentenceEn:'He himself never got to see an electric light.'},
+        {word:'沉入',pinyin:'chén rù',en:'to sink into',sentence:'于是，我沉入了深深的回忆。',sentenceEn:'I sank into deep memory.'}
+      ],
       exercises: [
         {type:"read",cn:"\u7528\u8f83\u5feb\u7684\u901f\u5ea6\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u5929\u5b89\u95e8\u524d\u7684\u706f\u5149\u3001\u4e66\u4e0a\u63d2\u56fe\u4e2d\u7684\u706f\u5149\u548c\u6218\u573a\u4e0a\u5fae\u5f31\u7684\u706b\u5149\u4e4b\u95f4\u6709\u4ec0\u4e48\u8054\u7cfb\u3002",en:"Read silently at a brisk pace. Discuss how the three types of light in the text are connected."}
       ],
@@ -263,6 +376,7 @@ units: [
     },
     {
       id: 9, title: "\u6211\u7684\u6218\u53cb\u90b1\u5c11\u4e91", titleEn: "My Comrade Qiu Shaoyun",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "\u5929\u4eae\u4ee5\u524d\uff0c\u6211\u4eec\u5728391\u9ad8\u5730\u7684\u5c71\u5787\u91cc\uff0c\u627e\u4e86\u4e00\u6761\u6bd4\u8f83\u9690\u853d\u7684\u5c71\u6c9f\u6f5c\u4f0f\u8d77\u6765\u3002",
@@ -276,9 +390,16 @@ units: [
         "Before dawn, we found a relatively concealed gully on Hill 391 and lay hidden there.",
         "The dry gully was not very well hidden. We were too close to the enemy\u2014their front line was only dozens of meters ahead. We had to lie absolutely still; even a low cough or a slight leg movement could give us away.",
         "Around 11 o\u2019clock, the enemy launched a search with incendiary bombs. The dry grass near us caught fire. Suddenly, the fire reached Qiu Shaoyun! His cotton uniform was ablaze, flames dancing all over his body.",
-        "At that moment, Qiu Shaoyun could have jumped out and rolled to extinguish the fire. But doing so would expose the entire hidden force and ruin the battle plan.",
+        "At that moment, if Qiu Shaoyun had quickly jumped out of the blaze and rolled on the ground a few times, the fire on his body could have been put out. But if he did so, we would be discovered by the enemy, the entire hidden force would suffer devastating losses, and the battle plan would be completely ruined.",
         "The fire burned on my comrade Qiu Shaoyun for over half an hour before gradually dying out. This great soldier lay motionless like a thousand-jin boulder until his very last breath, without uttering even the faintest moan.",
         "I will never forget that day\u2014October 12, 1952."
+      ],
+      vocabWords: [
+        {word:'潜伏',pinyin:'qián fú',en:'to lie hidden',sentence:'我们在391高地的山坳里潜伏起来。',sentenceEn:'We lay hidden in a gully on Hill 391.'},
+        {word:'僵卧',pinyin:'jiāng wò',en:'to lie rigidly still',sentence:'我们必须僵卧着一动不动。',sentenceEn:'We had to lie absolutely still.'},
+        {word:'燃烧弹',pinyin:'rán shāo dàn',en:'incendiary bomb',sentence:'敌人用燃烧弹进行搜索。',sentenceEn:'The enemy launched a search with incendiary bombs.'},
+        {word:'纹丝不动',pinyin:'wén sī bù dòng',en:'motionless; perfectly still',sentence:'像千斤巨石，伏在那儿纹丝不动。',sentenceEn:'He lay motionless like a thousand-jin boulder.'},
+        {word:'严守纪律',pinyin:'yán shǒu jì lǜ',en:'to strictly observe discipline',sentence:'直到牺牲前的最后一息，都没发出哪怕是极轻微的一声呻吟。',sentenceEn:'Until his very last breath, he did not utter even the faintest moan.'}
       ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u627e\u51fa\u63cf\u5199\u201c\u6211\u201d\u5fc3\u7406\u6d3b\u52a8\u7684\u53e5\u5b50\uff0c\u4f53\u4f1a\u90b1\u5c11\u4e91\u662f\u600e\u6837\u4e00\u4f4d\u201c\u4f1f\u5927\u7684\u6218\u58eb\u201d\u3002",en:"Read silently. Find sentences describing the narrator\u2019s thoughts and appreciate what made Qiu Shaoyun a \u201Cgreat soldier.\u201D"}
@@ -294,7 +415,38 @@ units: [
   ],
   garden: {
     oralComm: {title:"\u53e3\u8bed\u4ea4\u9645\uff1a\u6f14\u8bb2",titleEn:"Oral Communication: Giving a Speech",objectives:[{cn:"\u89c2\u70b9\u8981\u9c9c\u660e\uff0c\u9009\u62e9\u5408\u9002\u7684\u6750\u6599\u8bf4\u660e\u89c2\u70b9",en:"Have a clear viewpoint and choose appropriate supporting material"},{cn:"\u8bed\u6c14\u3001\u8bed\u8c03\u9002\u5f53\uff0c\u59ff\u6001\u5927\u65b9",en:"Use appropriate tone and confident posture"}]},
-    composition: {title:"\u4e60\u4f5c\uff1a\u591a\u5f69\u7684\u6d3b\u52a8",titleEn:"Composition: Colorful Activities",prompt:{cn:"\u9009\u4e00\u6b21\u6d3b\u52a8\u5199\u4e0b\u6765\uff0c\u5199\u6e05\u695a\u6d3b\u52a8\u8fc7\u7a0b\uff0c\u628a\u5370\u8c61\u6df1\u523b\u7684\u90e8\u5206\u4f5c\u4e3a\u91cd\u70b9\u6765\u5199\u3002\u6ce8\u610f\u70b9\u9762\u7ed3\u5408\u3002",en:"Write about an activity. Focus on the most memorable part. Use both overview and individual detail."}},
+    composition: {title:"\u4e60\u4f5c\uff1a\u591a\u5f69\u7684\u6d3b\u52a8",titleEn:"Composition: Colorful Activities",prompt:{cn:"\u9009\u4e00\u6b21\u6d3b\u52a8\u5199\u4e0b\u6765\uff0c\u5199\u6e05\u695a\u6d3b\u52a8\u8fc7\u7a0b\uff0c\u628a\u5370\u8c61\u6df1\u523b\u7684\u90e8\u5206\u4f5c\u4e3a\u91cd\u70b9\u6765\u5199\u3002\u6ce8\u610f\u70b9\u9762\u7ed3\u5408\u3002",en:"Write about an activity. Focus on the most memorable part. Use both overview and individual detail."},modelEssays:[
+      {title:"\u8db3\u7403\u8d5b",titleEn:"The Soccer Match",level:"\u57fa\u7840",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u4ecb\u7ecd\u6d3b\u52a8\u80cc\u666f",en:"Opening: Introduce the activity"},
+        {cn:"\u4e2d\u95f4\uff1a\u91cd\u70b9\u5199\u6700\u7cbe\u5f69\u7684\u73af\u8282",en:"Body: Focus on the most exciting moment"},
+        {cn:"\u7ed3\u5c3e\uff1a\u6d3b\u52a8\u53ca\u611f\u53d7",en:"Ending: The activity and feelings"}
+      ],
+      cn:"\u4e0a\u5468\u4e09\u4e0b\u5348\uff0c\u6211\u4eec\u73ed\u548c\u516d\u73ed\u8fdb\u884c\u4e86\u4e00\u573a\u8db3\u7403\u6bd4\u8d5b\u3002\u64cd\u573a\u4e0a\u7ad9\u6ee1\u4e86\u52a0\u6cb9\u7684\u540c\u5b66\uff0c\u6b22\u547c\u58f0\u6b64\u8d77\u5f7c\u4f0f\u3002\n\n\u6bd4\u8d5b\u8fdb\u884c\u5230\u4e0b\u534a\u573a\uff0c\u6bd4\u5206\u662f1\u6bd41\uff0c\u6c14\u6c1b\u7d27\u5f20\u6781\u4e86\u3002\u6700\u7cbe\u5f69\u7684\u662f\u6700\u540e\u4e09\u5206\u949f\u3002\u6211\u4eec\u73ed\u7684\u524d\u950b\u5c0f\u674e\u63a5\u5230\u4f20\u7403\uff0c\u8fc5\u901f\u5e26\u7403\u7a81\u7834\u4e24\u4e2a\u540e\u536b\u7684\u5939\u51fb\u3002\u4ed6\u7684\u7b11\u5bb9\u4e03\u5341\u4e8c\u53d8\uff0c\u4e00\u4f1a\u513f\u5411\u5de6\u665f\uff0c\u4e00\u4f1a\u513f\u5411\u53f3\u665f\uff0c\u5bf9\u65b9\u5b88\u95e8\u5458\u5de6\u53f3\u4e3a\u96be\u3002\u5c31\u5728\u5b88\u95e8\u5458\u51b2\u51fa\u6765\u7684\u4e00\u523b\uff0c\u5c0f\u674e\u62ac\u811a\u4e00\u5c04\uff01\u7403\u50cf\u7bad\u4e00\u6837\u98de\u5165\u7403\u95e8\u5de6\u4e0a\u89d2\uff01\u6211\u4eec\u73ed\u7684\u540c\u5b66\u5168\u90e8\u8df3\u4e86\u8d77\u6765\uff0c\u6b22\u547c\u58f0\u51e0\u4e4e\u8981\u628a\u5929\u7a7a\u6398\u7a7f\u3002\n\n\u6700\u7ec8\uff0c\u6211\u4eec\u4ee52\u6bd41\u8d62\u5f97\u4e86\u6bd4\u8d5b\u3002\u90a3\u5929\u56de\u5bb6\u7684\u8def\u4e0a\uff0c\u6211\u4eec\u8fd8\u5728\u5174\u594b\u5730\u8ba8\u8bba\u90a3\u4e2a\u8fdb\u7403\uff0c\u811a\u6b65\u90fd\u8f7b\u5feb\u4e86\u8bb8\u591a\u3002",
+      en:"Last Wednesday afternoon, our class played a soccer match against Class Six. The field was packed with cheering classmates, their shouts rising and falling.\n\nIn the second half, the score was tied 1-1, and the tension was intense. The most exciting moment came in the last three minutes. Our striker Xiao Li received a pass and swiftly dribbled past two defenders. He feinted left, then right, leaving the goalkeeper confused. The instant the goalkeeper rushed out, Xiao Li struck! The ball flew like an arrow into the top-left corner of the goal! Every classmate in our section leapt up, cheering so loud it seemed to pierce the sky.\n\nIn the end, we won 2-1. On the way home that day, we were still excitedly discussing that goal, our steps feeling much lighter.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u70b9\u9762\u7ed3\u5408\uff08\u5148\u5199\u6574\u4f53\u6c14\u6c1b\uff0c\u518d\u5199\u5173\u952e\u8fdb\u7403\uff09\uff0c\u52a8\u4f5c\u63cf\u5199\u8be6\u7ec6\uff0c\u573a\u9762\u611f\u5f3a\u3002",
+      notesEn:"This essay combines overview and detail (atmosphere first, then the key goal), with detailed action descriptions and a strong sense of the scene."},
+      {title:"\u7f8e\u98df\u8282",titleEn:"The Food Festival",level:"\u63d0\u9ad8",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u6e32\u67d3\u70ed\u95f9\u6c14\u6c1b",en:"Opening: Build the lively atmosphere"},
+        {cn:"\u4e2d\u95f4\uff1a\u70b9\u9762\u7ed3\u5408\uff0c\u5148\u5199\u6574\u4f53\u518d\u5199\u4e2a\u4eba",en:"Body: Overview then close-up, macro to micro"},
+        {cn:"\u7ed3\u5c3e\uff1a\u5199\u6d3b\u52a8\u7684\u610f\u4e49",en:"Ending: The meaning of the activity"}
+      ],
+      cn:"\u201c\u8d70\u8fc7\u8def\u8fc7\u4e0d\u8981\u9519\u8fc7\uff01\u6781\u54c1\u53cc\u76ae\u5976\uff0c\u8d70\u8fc7\u8def\u8fc7\u4e0d\u8981\u9519\u8fc7\uff01\u201d\u64cd\u573a\u4e0a\u4f20\u6765\u6b64\u8d77\u5f7c\u4f0f\u7684\u53eb\u5356\u58f0\u2014\u2014\u5b66\u6821\u4e00\u5e74\u4e00\u5ea6\u7684\u7f8e\u98df\u8282\u5f00\u59cb\u4e86\uff01\n\n\u64cd\u573a\u88ab\u6539\u9020\u6210\u4e86\u4e00\u4e2a\u5de8\u5927\u7684\u7f8e\u98df\u5e02\u573a\uff0c\u5404\u73ed\u7684\u6446\u4f4d\u4e00\u5b57\u6392\u5f00\uff0c\u5f69\u65d7\u98d8\u98d8\uff0c\u9999\u6c14\u56db\u6ea2\u3002\u6709\u7684\u73ed\u505a\u5bff\u53f8\uff0c\u6709\u7684\u73ed\u70b8\u9e21\u67b3\uff0c\u6709\u7684\u73ed\u505a\u6c34\u679c\u6c99\u62c9\u3002\u540c\u5b66\u4eec\u7a7f\u68ad\u5176\u4e2d\uff0c\u624b\u91cc\u5404\u62ff\u7f8e\u98df\uff0c\u8138\u4e0a\u5168\u662f\u7b11\u5bb9\u3002\n\n\u6211\u4eec\u73ed\u7684\u62db\u724c\u662f\u201c\u773c\u7b49\u714e\u997c\u201d\u3002\u53f0\u524d\uff0c\u5c0f\u96e8\u6b63\u5728\u5927\u663e\u8eab\u624b\u3002\u5979\u5148\u628a\u9762\u56e2\u63c9\u6210\u5706\u7403\uff0c\u518d\u538b\u6241\uff0c\u653e\u5165\u8c03\u597d\u7684\u9999\u8471\u9999\u83dc\u9999\u80a0\u9985\uff0c\u5c01\u53e3\u6536\u7d27\uff0c\u653e\u4e0a\u9505\u3002\u201c\u6ee8u201d\u7684\u4e00\u58f0\uff0c\u9999\u6c14\u5c31\u98d8\u4e86\u51fa\u6765\u3002\u6392\u961f\u7684\u540c\u5b66\u4f38\u957f\u4e86\u8116\u5b50\uff0c\u7709\u5934\u5f00\u4e86\u82b1\u3002\u7b2c\u4e00\u4e2a\u997c\u51fa\u9505\uff0c\u91d1\u9ec4\u9999\u8106\uff0c\u5927\u5bb6\u7acb\u523b\u9f13\u8d77\u638c\u6765\u3002\n\n\u7f8e\u98df\u8282\u4e0d\u4ec5\u8ba9\u6211\u4eec\u5403\u5230\u4e86\u7f8e\u5473\uff0c\u66f4\u8ba9\u6211\u4eec\u5b66\u4f1a\u4e86\u5408\u4f5c\u3002\u4ece\u91c7\u8d2d\u98df\u6750\u5230\u5e03\u7f6e\u6446\u4f4d\uff0c\u4ece\u5236\u4f5c\u5230\u53eb\u5356\uff0c\u6bcf\u4e00\u4e2a\u4eba\u90fd\u53d1\u6325\u4e86\u81ea\u5df1\u7684\u4f5c\u7528\u3002\u8fd9\u624d\u662f\u6d3b\u52a8\u6700\u5927\u7684\u4e50\u8da3\u3002",
+      en:"\u201CDon\u2019t miss out! Premium double-skin milk pudding!\u201D Shouts rose and fell across the field \u2014 the school\u2019s annual food festival had begun!\n\nThe field had been transformed into a huge food market. Class booths lined up in a row with colorful banners and delicious aromas everywhere. Some classes made sushi, some fried chicken legs, some prepared fruit salad. Students weaved through the crowd, hands full of food, faces full of smiles.\n\nOur class\u2019s specialty was \u201Cpan-fried pancakes.\u201D At the station, Xiao Yu was showing off her skills. She rolled the dough into a ball, pressed it flat, added a filling of scallion, cilantro, and sausage, sealed the edges, and placed it on the griddle. With a \u201Csizzle,\u201D the aroma wafted out. Students in line craned their necks, their faces lighting up. When the first pancake came off golden and crispy, everyone clapped.\n\nThe food festival didn\u2019t just let us enjoy delicious food \u2014 it taught us teamwork. From buying ingredients to setting up the booth, from cooking to selling, everyone played their part. That\u2019s the real joy of the activity.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u70b9\u9762\u7ed3\u5408\u51fa\u8272\uff1a\u5148\u5199\u6574\u4f53\u573a\u9762\uff0c\u518d\u8047\u7126\u4e00\u4e2a\u6446\u4f4d\uff0c\u8c03\u52a8\u591a\u79cd\u611f\u5b98\uff08\u89c6\u89c9\u3001\u5597\u89c9\u3001\u542c\u89c9\uff09\uff0c\u7ed3\u5c3e\u6709\u601d\u8003\u3002",
+      notesEn:"This essay excels at combining overview and detail: first the whole scene, then zooming into one booth. It engages multiple senses (sight, smell, sound) and ends with thoughtful reflection."},
+      {title:"\u6bd5\u4e1a\u665a\u4f1a",titleEn:"The Graduation Party",level:"\u62d3\u5c55",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u6e32\u67d3\u79bb\u522b\u6c14\u6c1b",en:"Opening: Build the atmosphere of parting"},
+        {cn:"\u4e2d\u95f4\uff1a\u5199\u8282\u76ee\u8868\u6f14+\u7a7f\u63d2\u56de\u5fc6",en:"Body: Describe performances interspersed with memories"},
+        {cn:"\u7ed3\u5c3e\uff1a\u4ee5\u666f\u7ed3\u60c5\uff0c\u4f59\u97f5\u60a0\u957f",en:"Ending: Scene echoes emotion, lingering resonance"}
+      ],
+      cn:"\u201c\u5c0f\u5b66\u751f\u6d3b\u5c31\u8981\u7ed3\u675f\u4e86\u5417\uff1f\u201d\u6211\u671b\u7740\u6559\u5ba4\u9ed1\u677f\u4e0a\u7684\u201c\u6bd5\u4e1a\u5feb\u4e50\u201d\u56db\u4e2a\u5b57\uff0c\u5fc3\u91cc\u6709\u4e00\u79cd\u8bf4\u4e0d\u51fa\u7684\u6ecb\u5473\u3002\n\n\u665a\u4f1a\u5f00\u59cb\u4e86\u3002\u9996\u5148\u662f\u5408\u5531\uff0c\u5168\u73ed\u540c\u5b66\u7ad9\u5728\u53f0\u4e0a\uff0c\u5531\u7740\u6211\u4eec\u7684\u73ed\u6b4c\u3002\u719f\u6089\u7684\u65cb\u5f8b\u54cd\u8d77\uff0c\u6211\u7684\u601d\u7eea\u98de\u56de\u4e86\u4e09\u5e74\u524d\u7684\u5f00\u5b66\u5178\u793c\uff0c\u90a3\u65f6\u6211\u4eec\u7b2c\u4e00\u6b21\u5531\u8fd9\u9996\u6b4c\uff0c\u8fd8\u8001\u5fd8\u8bcd\u3002\u63a5\u7740\u662f\u5c0f\u54c1\uff0c\u4e09\u4e2a\u540c\u5b66\u6f14\u7684\u201c\u65e9\u64cd\u8ff7\u60d1\u884c\u4e3a\u5927\u8d4f\u201d\uff0c\u628a\u5e73\u65f6\u505a\u64cd\u65f6\u7684\u5404\u79cd\u641e\u7b11\u52a8\u4f5c\u5b66\u5f97\u60df\u5999\u60df\u8096\uff0c\u5168\u573a\u7b11\u5f97\u524d\u4ef0\u540e\u5408\u3002\u6700\u540e\uff0c\u73ed\u4e3b\u4efb\u738b\u8001\u5e08\u8d70\u4e0a\u53f0\u3002\u5979\u6ca1\u6709\u8bf4\u591a\u5c11\u8bdd\uff0c\u53ea\u8bf4\u4e86\u4e00\u53e5\uff1a\u201c\u5e0c\u671b\u4f60\u4eec\u65e0\u8bba\u8d70\u5230\u54ea\u91cc\uff0c\u90fd\u8bb0\u5f97\u81ea\u5df1\u66fe\u7ecf\u662f\u516d\u5e74\u4e00\u73ed\u7684\u5b69\u5b50\u3002\u201d\u8bdd\u97f3\u521a\u843d\uff0c\u6559\u5ba4\u91cc\u5b89\u9759\u4e86\u51e0\u79d2\uff0c\u63a5\u7740\u7206\u53d1\u51fa\u4e00\u7247\u62cd\u638c\u58f0\u548c\u62bd\u6ce3\u58f0\u3002\n\n\u665a\u4f1a\u7ed3\u675f\u540e\uff0c\u6211\u4eec\u7ad9\u5728\u6821\u95e8\u53e3\uff0c\u8c01\u90fd\u4e0d\u613f\u5148\u8d70\u3002\u591c\u98ce\u8f7b\u8f7b\u5439\u8fc7\uff0c\u6821\u56ed\u91cc\u7684\u6811\u53f6\u6c99\u6c99\u4f5c\u54cd\uff0c\u4eff\u4f5b\u4e5f\u5728\u8bf4\uff1a\u201c\u518d\u89c1\u3002\u201d",
+      en:"\u201CIs elementary school really ending?\u201D I gazed at the four characters \u201CHappy Graduation\u201D on the blackboard, a feeling I couldn\u2019t name swelling inside me.\n\nThe party began. First came the choir \u2014 the entire class stood on stage, singing our class anthem. As the familiar melody played, my mind drifted back to the opening ceremony three years ago, when we first sang this song and kept forgetting the words. Next was a skit \u2014 three classmates performed \u201CA Guide to Morning Exercise Confusion,\u201D imitating all the silly moves people make during morning exercises so perfectly that everyone doubled over laughing. Finally, our homeroom teacher Ms. Wang stepped on stage. She didn\u2019t say much \u2014 just one sentence: \u201CNo matter where you go, remember that you were once children of Class One, Grade Six.\u201D The moment she finished, the classroom went silent for a few seconds, then erupted in applause and quiet sobs.\n\nAfter the party, we stood at the school gate, no one willing to leave first. The night breeze blew gently, and the leaves in the schoolyard rustled softly, as if saying: \u201CGoodbye.\u201D",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u70b9\u9762\u7ed3\u5408\uff08\u6574\u4f53\u6d41\u7a0b+\u91cd\u70b9\u73af\u8282\uff09\uff0c\u7a7f\u63d2\u56de\u5fc6\u589e\u52a0\u539a\u5ea6\uff0c\u73af\u5883\u63cf\u5199\u70d8\u6258\u611f\u60c5\uff0c\u8001\u5e08\u7684\u8bdd\u662f\u70b9\u775b\u4e4b\u7b14\u3002",
+      notesEn:"This essay combines overview and detail (program flow + key moments), weaves in memories for depth, uses environment to set off emotions, and the teacher\u2019s words serve as the crowning touch."}
+    ]},
     wordSentence: {title:"\u8bcd\u53e5\u6bb5\u8fd0\u7528",titleEn:"Word & Sentence Practice",content:{cn:"\u4f53\u4f1a\u201c\u53ea\u542c\u89c1\u201d\u201c\u662f\u90a3\u4e48\u201d\u7b49\u53e5\u5f0f\u7684\u8868\u8fbe\u6548\u679c\uff1b\u5b66\u4e60\u4e0d\u7528\u201c\u8bf4\u201d\u6765\u8868\u8fbe\u8bf4\u8bdd\u7684\u5199\u6cd5\u3002",en:"Appreciate the effect of phrases like \u201Conly hearing\u201D and \u201Cso very\u201D; learn to express speech without using the word \u201Csaid.\u201D"}},
     accumulation: {title:"\u65e5\u79ef\u6708\u7d2f",titleEn:"Accumulation",content:{cn:"\u97a0\u8eac\u5c3d\u7601\uff0c\u6b7b\u800c\u540e\u5df2\u3002\u2014\u8bf8\u845b\u4eae\n\u6350\u8eaf\u8d74\u56fd\u96be\uff0c\u89c6\u6b7b\u5ffd\u5982\u5f52\u3002\u2014\u66f9\u690d\n\u7956\u5b97\u7586\u571f\uff0c\u5f53\u4ee5\u6b7b\u5b88\uff0c\u4e0d\u53ef\u4ee5\u5c3a\u5bf8\u4e0e\u4eba\u3002\u2014\u674e\u7eb2\n\u4f4d\u5351\u672a\u6562\u5fd8\u5fe7\u56fd\u3002\u2014\u9646\u6e38",en:"Work oneself to the bone and stop only at death. \u2014Zhuge Liang\nSacrifice one\u2019s life for the nation as if going home. \u2014Cao Zhi\nAncestral lands must be defended to the death. \u2014Li Gang\nThough my position is humble, I dare not forget my country. \u2014Lu You"}}
   }
@@ -303,10 +455,12 @@ units: [
 /*  UNIT 3 — 有目的地阅读                      */
 /* ═══════════════════════════════════════════ */
 {
-  id: 3, title: "第三单元", titleEn: "Unit 3", type: "kewen",
+  id: 3, title: "第三单元", titleEn: "Unit 3",
+  difficulty: 3, type: "kewen",
   lessons: [
     {
       id: 10, title: "竹节人", titleEn: "Bamboo Joint Figurines",
+      difficulty: 3,
       text: [
         "我们小时候的玩具，都是自己做的，也只能自己做。只要有一个人做了一件新鲜玩意，大家看了有趣，很快就能风靡全班，以至全校。有一段时间，我们全迷上了斗竹节人。",
         "把毛笔杆锯成寸把长的一截，这就是竹节人的脑袋连同身躯了，在上面钻一对小眼，供装手臂用。再锯八截短的，分别当四肢。用一根纳鞋底的线把它们穿在一起，就成了。",
@@ -320,14 +474,24 @@ units: [
       textEn: [
         "When we were children, all our toys were homemade. Whenever someone created a new gadget, if it looked fun, it would sweep through the entire class and even the whole school. For a while, we were all obsessed with battling bamboo joint figurines.",
         "You sawed a brush handle into an inch-long piece\u2014that was the head and body. Drill two small holes for the arms. Saw eight shorter pieces for limbs. Thread them together with cobbler\u2019s twine, and there you have it.",
-        "Wedge the string into a desk crack, pull it taut, and the figurine stands like a warrior. Pull and release the string, and it dances and fights. Put two together, and they battle endlessly, never tiring, never falling.",
-        "Tie an ice-pop stick to its hand and it becomes Sun Wukong with a golden staff. Find two knitting hooks and it becomes Dou Erdun with twin hooks. The battered desk became a legendary battlefield.",
-        "During recess, a ring of dark heads gathered to watch, stamping and clapping. The bell would ring before anyone noticed, and everyone scattered.",
-        "Even in class, the itch remained. We\u2019d prop up textbooks as screens and resume battle. The student behind craned his neck, and the watchful teacher spotted us. He strode over, swept away the screen, and confiscated both figurines.",
+        "Wedge the cobbler\u2019s twine threaded through the nine bamboo joints into a crack in the desk, and pull it taut from below. The bamboo joints standing atop the crack would assume the pose of a warrior\u2014legs apart, arms spread, looking imposing and fierce. Alternately loosen and tighten the string, and the figurine would wave its arms and sway its body, dancing to life. Put two figurines together and you had a fight\u2014they would bash away at each other wildly, never tiring, never falling.",
+        "Tie an ice-pop stick to the figurine\u2019s hand and it becomes Sun Wukong wielding his golden staff, dubbed \u201CThe Little Sage Equal to Heaven.\u201D Find two discarded hooks from a knitting machine, attach them to the figurine\u2019s hands, and it becomes Dou Erdun with his tiger-head twin hooks. The battered old desk might as well have been a legendary ancient battlefield where heroes command the wind and clouds.",
+        "During recess, the classroom became an arena, attracting a ring of dark heads crowding around to watch the battle, stamping their feet and clapping their hands, hooting and hollering\u2014what a ruckus! Often it took the teacher walking in for anyone to realize class had started, and everyone scattered like startled birds and beasts.",
+        "Class started, but the excitement was undiminished and our hands itched. We propped our textbooks upright as screens and resumed battling on the desk with our deskmate. Unfortunately, the student sitting behind us had no sense of discretion\u2014so mesmerized by the fight, he craned his neck forward, and the eagle-eyed teacher spotted the flaw. The teacher strode over in great strides, furiously swept his hand across the desk, and the \u201Cscreen\u201D collapsed. The two figurines were snatched away in one grab.",
         "After class, we crept to the bushes under the office window, crouching and peering, but saw nothing. Just as we were about to leave, my deskmate pressed his face to the glass, fascinated. I peeked too\u2014and what did I see?",
         "The teacher was playing with the confiscated figurines at his own desk, pulling the strings from inside the drawer, muttering to himself, completely absorbed. His expression was exactly like ours when we played. My deskmate and I exchanged a smile. Empty-handed but content, we tiptoed away. Our little resentment and frustration vanished."
       ],
       writeChars: ["\u51db","\u7599","\u7629","\u68cd","\u88c1","\u7b79","\u6a61","\u96d5","\u8dfa","\u98a0","\u6cae","\u4e27","\u8db4","\u5c49"],
+      vocabWords: [
+        {word:'风靡',pinyin:'fēng mǐ',en:'to sweep through; to become wildly popular',sentence:'很快就能风靡全班，以至全校。',sentenceEn:'It would sweep through the entire class and even the whole school.'},
+        {word:'威风凛凛',pinyin:'wēi fēng lǐn lǐn',en:'awe-inspiring; imposing',sentence:'叉腿张胳膊，威风凛凛。',sentenceEn:'Legs apart, arms spread, imposing and impressive.'},
+        {word:'别出心裁',pinyin:'bié chū xīn cái',en:'to come up with something original',sentence:'竹节人手上系上一根冰棍棒，就成了孙悟空。',sentenceEn:'Tie an ice-pop stick to its hand and it becomes Sun Wukong.'},
+        {word:'心满意足',pinyin:'xīn mǎn yì zú',en:'content and satisfied',sentence:'虽两手空空，但心满意足。',sentenceEn:'Empty-handed but content.'},
+        {word:'全神贯注',pinyin:'quán shén guàn zhù',en:'fully absorbed',sentence:'全神贯注，忘乎所以。',sentenceEn:'Completely absorbed, oblivious to everything else.'}
+      ],
+      grammarPoints: [
+        {point:'有目的地阅读',pointEn:'yǒu mù dì de yuè dú',example:'reading with purpose',exampleEn:'同一篇文章，阅读目的不同，关注的内容和方法也不同。',explanation:'The same article can be read differently depending on your purpose.',explanationEn:'根据阅读目的选择阅读方法'}
+      ],
       exercises: [
         {type:"read",cn:"\u540c\u4e00\u7bc7\u6587\u7ae0\uff0c\u9605\u8bfb\u76ee\u7684\u4e0d\u540c\uff0c\u5173\u6ce8\u7684\u5185\u5bb9\u548c\u65b9\u6cd5\u4e5f\u4e0d\u540c\u3002\u8bf4\u8bf4\u4f60\u662f\u600e\u6837\u5b8c\u6210\u4e09\u4e2a\u4e0d\u540c\u4efb\u52a1\u7684\u3002",en:"The same article can be read differently depending on your purpose. Explain how you completed each of the three tasks."}
       ],
@@ -341,6 +505,7 @@ units: [
     },
     {
       id: 11, title: "\u5b87\u5b99\u751f\u547d\u4e4b\u8c1c", titleEn: "The Mystery of Life in the Universe",
+      difficulty: 3,
       text: [
         "\u53e4\u65f6\u5019\uff0c\u79d1\u5b66\u4e0d\u53d1\u8fbe\uff0c\u4eba\u4eec\u4e00\u76f4\u5411\u5f80\u7740\u201c\u5929\u4e0a\u7684\u4e16\u754c\u201d\u3002\u73b0\u5728\uff0c\u79d1\u5b66\u53d1\u8fbe\u4e86\uff0c\u4eba\u4eec\u77e5\u9053\u90a3\u90fd\u662f\u53e4\u4eba\u7f16\u51fa\u6765\u7684\u3002\u4f46\u662f\uff0c\u5730\u7403\u4e4b\u5916\u7684\u592a\u7a7a\u4e2d\u662f\u5426\u6709\u751f\u547d\u5b58\u5728\uff0c\u4ecd\u7136\u662f\u4e00\u4e2a\u5438\u5f15\u4eba\u7684\u95ee\u9898\u3002",
         "\u4ece\u7406\u8bba\u4e0a\u8bf4\uff0c\u5b87\u5b99\u662f\u65e0\u9650\u7684\u3002\u5730\u7403\u53ea\u662f\u592a\u9633\u7cfb\u4e2d\u7684\u4e00\u9897\u884c\u661f\uff0c\u800c\u592a\u9633\u7cfb\u53ea\u662f\u94f6\u6cb3\u7cfb\u4e2d\u4e00\u4e2a\u6781\u5c0f\u7684\u90e8\u5206\u3002\u53ef\u4ee5\u731c\u6d4b\uff0c\u5730\u7403\u7edd\u4e0d\u662f\u6709\u751f\u547d\u5b58\u5728\u7684\u552f\u4e00\u5929\u4f53\u3002\u4f46\u662f\uff0c\u4eba\u7c7b\u81f3\u4eca\u5c1a\u672a\u627e\u5230\u53e6\u5916\u4e00\u9897\u5b58\u5728\u751f\u547d\u7684\u661f\u7403\u3002",
@@ -352,12 +517,19 @@ units: [
       textEn: [
         "In ancient times, science was undeveloped, and people imagined a \u201Cheavenly world.\u201D Now we know those were inventions of the ancients. But whether life exists in outer space beyond Earth remains a fascinating question.",
         "Theoretically, the universe is infinite. Earth is just one planet in the solar system, which itself is a tiny part of the Milky Way. We can surmise that Earth is not the only body harboring life. Yet humanity has not found another planet with life.",
-        "Scientists believe life requires at least: suitable temperature, necessary water, appropriate atmosphere, and sufficient light and heat.",
+        "Scientists believe that the existence of life requires at least the following conditions: first, a temperature suitable for organisms to survive; second, the necessary water; third, an atmosphere of appropriate composition; and fourth, sufficient light and heat.",
         "Based on these criteria, scientists analyzed the other planets in the solar system. Mercury, Venus, Jupiter, Saturn, Uranus, and Neptune cannot support life. Mars is the only remaining candidate.",
         "To unveil Mars\u2019 mysteries, scientists used probes for close-range observation. Results show Mars is extremely dry, with very little oxygen, no magnetic field, and therefore no protection from ultraviolet radiation. All these factors suggest life can hardly exist on Mars.",
         "Whether life exists beyond Earth remains a cosmic mystery that humanity continues to explore."
       ],
       writeChars: ["\u8c1c","\u5c1a","\u6c27","\u503e","\u63ed","\u6591","\u71e5","\u6f20","\u78c1","\u62b5","\u5fa1","\u7d20","\u76d7","\u57f9"],
+      vocabWords: [
+        {word:'猜测',pinyin:'cāi cè',en:'to speculate',sentence:'可以猜测，地球绝不是有生命存在的唯一天体。',sentenceEn:'We can surmise that Earth is not the only body harboring life.'},
+        {word:'枯竭',pinyin:'kū jié',en:'to be exhausted; depleted',sentence:'在地球资源枯竭的时候。',sentenceEn:'When Earth’s resources are exhausted.'},
+        {word:'抵御',pinyin:'dǐ yù',en:'to resist; to defend against',sentence:'火星上没有磁场，因而不能抵御紫外线的照射。',sentenceEn:'Mars has no magnetic field and therefore cannot block ultraviolet radiation.'},
+        {word:'探测器',pinyin:'tàn cè qì',en:'probe; detector',sentence:'科学家们利用探测器对火星作近距离的观测。',sentenceEn:'Scientists used probes for close-range observation of Mars.'},
+        {word:'适合',pinyin:'shì hé',en:'suitable',sentence:'适合生物生存的温度。',sentenceEn:'Temperature suitable for biological survival.'}
+      ],
       exercises: [
         {type:"think",cn:"\u4e3a\u4e86\u4e86\u89e3\u5176\u4ed6\u661f\u7403\u662f\u5426\u5b58\u5728\u751f\u547d\uff0c\u4f60\u5728\u9605\u8bfb\u65f6\u662f\u600e\u4e48\u505a\u7684\uff1f",en:"What reading strategies did you use to explore whether other planets have life?"},
         {type:"think",cn:"\u4eba\u7c7b\u662f\u5426\u6709\u53ef\u80fd\u79fb\u5c45\u706b\u661f\uff1f",en:"Is it possible for humans to migrate to Mars?"}
@@ -372,6 +544,7 @@ units: [
     },
     {
       id: 12, title: "\u6545\u5bab\u535a\u7269\u9662", titleEn: "The Palace Museum",
+      difficulty: 3,
       isSelfRead: true,
       text: [
         "\u5728\u5317\u4eac\u57ce\u7684\u4e2d\u5fc3\uff0c\u6709\u4e00\u5ea7\u57ce\u4e2d\u4e4b\u57ce\uff0c\u8fd9\u5c31\u662f\u7d2b\u7981\u57ce\u3002\u73b0\u5728\u4eba\u4eec\u53eb\u5b83\u6545\u5bab\uff0c\u4e5f\u53eb\u6545\u5bab\u535a\u7269\u9662\u3002\u8fd9\u662f\u660e\u6e05\u4e24\u4ee3\u7684\u7687\u5bab\uff0c\u662f\u6211\u56fd\u73b0\u5b58\u7684\u6700\u5927\u6700\u5b8c\u6574\u7684\u53e4\u4ee3\u5bab\u6bbf\u5efa\u7b51\u7fa4\uff0c\u6709\u516d\u767e\u591a\u5e74\u7684\u5386\u53f2\u4e86\u3002",
@@ -387,6 +560,13 @@ units: [
         "The Three Great Halls stand on the central axis of the Forbidden City. Beyond the Hall of Preserving Harmony, through the Gate of Heavenly Purity, lies the Inner Court\u2014where the emperor and consorts lived.",
         "North of the Inner Court is the Imperial Garden. Through the Gate of Divine Might, one reaches Jingshan Hill. Looking down at the Forbidden City from its heights, one sees halls upon halls, walls beyond walls, in orderly splendor\u2014a truly awe-inspiring architectural achievement."
       ],
+      vocabWords: [
+        {word:'矗立',pinyin:'chù lì',en:'to stand tall',sentence:'三座大殿矗立在七米多高的白石台基上。',sentenceEn:'Three great halls stand on a seven-meter-high white stone platform.'},
+        {word:'宏伟',pinyin:'hóng wěi',en:'grand; magnificent',sentence:'这样宏伟的建筑群。',sentenceEn:'Such a grand architectural complex.'},
+        {word:'井然有序',pinyin:'jǐng rán yǒu xù',en:'orderly and well-arranged',sentence:'错综相连而又井然有序。',sentenceEn:'Intricately connected yet orderly.'},
+        {word:'中轴线',pinyin:'zhōng zhóu xiàn',en:'central axis',sentence:'三大殿建在紫禁城的中轴线上。',sentenceEn:'The Three Great Halls stand on the central axis.'},
+        {word:'俗称',pinyin:'sú chēng',en:'commonly known as',sentence:'太和殿俗称金銮殿。',sentenceEn:'The Hall of Supreme Harmony is commonly known as the Golden Throne Hall.'}
+      ],
       exercises: [
         {type:"think",cn:"\u6839\u636e\u4e0d\u540c\u7684\u4efb\u52a1\uff0c\u4f60\u4f1a\u600e\u6837\u9605\u8bfb\u8fd9\u4e9b\u6750\u6599\uff1f",en:"How would you read these materials differently for different tasks (e.g., planning a tour vs. giving a guided talk)?"}
       ],
@@ -400,7 +580,38 @@ units: [
     }
   ],
   garden: {
-    composition: {title:"\u4e60\u4f5c\uff1a___\u8ba9\u751f\u6d3b\u66f4\u7f8e\u597d",titleEn:"Composition: ___ Makes Life Better",prompt:{cn:"\u7ed3\u5408\u81ea\u5df1\u7684\u751f\u6d3b\u4f53\u9a8c\uff0c\u5199\u5199\u4ec0\u4e48\u8ba9\u4f60\u89c9\u5f97\u751f\u6d3b\u66f4\u7f8e\u597d\uff0c\u628a\u539f\u56e0\u5199\u5177\u4f53\u3002",en:"Based on your own experience, write about what makes your life better and explain why in detail."}},
+    composition: {title:"\u4e60\u4f5c\uff1a___\u8ba9\u751f\u6d3b\u66f4\u7f8e\u597d",titleEn:"Composition: ___ Makes Life Better",prompt:{cn:"\u7ed3\u5408\u81ea\u5df1\u7684\u751f\u6d3b\u4f53\u9a8c\uff0c\u5199\u5199\u4ec0\u4e48\u8ba9\u4f60\u89c9\u5f97\u751f\u6d3b\u66f4\u7f8e\u597d\uff0c\u628a\u539f\u56e0\u5199\u5177\u4f53\u3002",en:"Based on your own experience, write about what makes your life better and explain why in detail."},modelEssays:[
+      {title:"\u9605\u8bfb\u8ba9\u751f\u6d3b\u66f4\u7f8e\u597d",titleEn:"Reading Makes Life Better",level:"\u57fa\u7840",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u5f00\u95e8\u89c1\u5c71\uff0c\u63d0\u51fa\u89c2\u70b9",en:"Opening: State the viewpoint directly"},
+        {cn:"\u4e2d\u95f4\uff1a\u7528\u4e24\u4e2a\u5177\u4f53\u4e8b\u4f8b\u8bf4\u660e",en:"Body: Illustrate with two specific examples"},
+        {cn:"\u7ed3\u5c3e\uff1a\u603b\u7ed3\u611f\u53d7",en:"Ending: Summarize feelings"}
+      ],
+      cn:"\u5982\u679c\u95ee\u6211\u4ec0\u4e48\u8ba9\u751f\u6d3b\u66f4\u7f8e\u597d\uff0c\u6211\u4f1a\u6beb\u4e0d\u72b9\u8c6b\u5730\u8bf4\uff1a\u9605\u8bfb\u3002\n\n\u8bb0\u5f97\u6709\u4e00\u6b21\u8003\u8bd5\u8003\u5f97\u4e0d\u597d\uff0c\u6211\u5fc3\u60c5\u5f88\u4f4e\u843d\u3002\u56de\u5230\u5bb6\uff0c\u6211\u968f\u624b\u7ffb\u5f00\u4e00\u672c\u4e66\uff0c\u662f\u300a\u5047\u5982\u7ed9\u6211\u4e09\u5929\u5149\u660e\u300b\u3002\u6d77\u4f26\u00b7\u51ef\u52d2\u867d\u7136\u53cc\u76ee\u5931\u660e\uff0c\u5374\u59cb\u7ec8\u4e50\u89c2\u5730\u9762\u5bf9\u751f\u6d3b\u3002\u8bfb\u7740\u8bfb\u7740\uff0c\u6211\u89c9\u5f97\u81ea\u5df1\u7684\u90a3\u70b9\u6302\u79d1\u6839\u672c\u7b97\u4e0d\u4e86\u4ec0\u4e48\uff0c\u91cd\u8981\u7684\u662f\u4e0d\u653e\u5f03\u3002\n\n\u8fd8\u6709\u4e00\u6b21\uff0c\u6211\u548c\u597d\u670b\u53cb\u95f9\u4e86\u77db\u76fe\uff0c\u5f88\u4f24\u5fc3\u3002\u6070\u597d\u8bfb\u5230\u300a\u590f\u6d1b\u7684\u7f51\u300b\uff0c\u5c0f\u732a\u5a01\u5c14\u4f2f\u548c\u86db\u86db\u590f\u6d1b\u7684\u53cb\u8c0a\u8ba9\u6211\u611f\u52a8\u3002\u6211\u60f3\uff0c\u771f\u6b63\u7684\u53cb\u8c0a\u4e0d\u4f1a\u56e0\u4e3a\u4e00\u70b9\u5c0f\u4e8b\u5c31\u7834\u88c2\u3002\u7b2c\u4e8c\u5929\uff0c\u6211\u4e3b\u52a8\u548c\u670b\u53cb\u548c\u597d\u4e86\u3002\n\n\u9605\u8bfb\u5c31\u50cf\u4e00\u76cf\u706f\uff0c\u5728\u6211\u4f4e\u843d\u7684\u65f6\u5019\u7167\u4eae\u6211\uff0c\u5728\u6211\u8ff7\u832b\u7684\u65f6\u5019\u6307\u5f15\u6211\u3002\u6709\u4e86\u9605\u8bfb\uff0c\u751f\u6d3b\u771f\u7684\u53d8\u5f97\u66f4\u7f8e\u597d\u4e86\u3002",
+      en:"If you ask me what makes life better, I would say without hesitation: reading.\n\nOnce I did poorly on a test and felt terrible. At home, I casually opened a book \u2014 it was \u201CIf You Give Me Three Days of Sight.\u201D Though Helen Keller was blind, she always faced life optimistically. As I read, I realized my little failure was nothing compared to what she overcame. What matters is not giving up.\n\nAnother time, I had a fight with my best friend and was very upset. I happened to read \u201CCharlotte\u2019s Web,\u201D and the friendship between Wilbur the pig and Charlotte the spider moved me deeply. I thought: true friendship won\u2019t break over a small matter. The next day, I took the initiative to make up with my friend.\n\nReading is like a lamp \u2014 it illuminates me when I\u2019m low and guides me when I\u2019m lost. With reading, life truly becomes better.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u7528\u4e24\u4e2a\u5177\u4f53\u4e8b\u4f8b\u8bf4\u660e\u89c2\u70b9\uff0c\u7ed3\u5c3e\u7528\u6bd4\u55bb\u603b\u7ed3\uff0c\u903b\u8f91\u6e05\u6670\uff0c\u611f\u60c5\u771f\u5b9e\u3002",
+      notesEn:"This essay uses two specific examples to support its viewpoint, concludes with a metaphor, has clear logic and genuine emotion."},
+      {title:"\u97f3\u4e50\u8ba9\u751f\u6d3b\u66f4\u7f8e\u597d",titleEn:"Music Makes Life Better",level:"\u63d0\u9ad8",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u573a\u666f\u5f15\u5165",en:"Opening: Scene-based introduction"},
+        {cn:"\u4e2d\u95f4\uff1a\u4e0d\u540c\u573a\u666f\u4e2d\u97f3\u4e50\u7684\u4f5c\u7528",en:"Body: Music\u2019s role in different situations"},
+        {cn:"\u7ed3\u5c3e\uff1a\u5347\u534e\u611f\u609f",en:"Ending: Elevated reflection"}
+      ],
+      cn:"\u653e\u5b66\u56de\u5bb6\u7684\u8def\u4e0a\uff0c\u6234\u4e0a\u8033\u673a\uff0c\u7194\u7801\u7684\u65cb\u5f8b\u6d41\u6dcc\u800c\u51fa\u3002\u90a3\u4e00\u523b\uff0c\u5468\u56f4\u7684\u5636\u6742\u90fd\u5b89\u9759\u4e0b\u6765\uff0c\u53ea\u5269\u6211\u548c\u97f3\u4e50\u3002\n\n\u6211\u4ece\u56db\u5c81\u5f00\u59cb\u5b66\u94a2\u7434\u3002\u521a\u5f00\u59cb\uff0c\u6211\u89c9\u5f97\u7ec3\u7434\u67af\u71e5\u4e4f\u5473\uff0c\u6bcf\u5929\u91cd\u590d\u7ec3\u4e60\u97f3\u9636\uff0c\u624b\u6307\u90fd\u78e8\u51fa\u4e86\u8338\u5b50\u3002\u53ef\u662f\u5f53\u6211\u7b2c\u4e00\u6b21\u5b8c\u6574\u5730\u5f39\u51fa\u300a\u732e\u7ed9\u7231\u4e3d\u4e1d\u300b\u65f6\uff0c\u90a3\u79cd\u559c\u60a6\u65e0\u6cd5\u5f62\u5bb9\u2014\u2014\u6211\u7684\u624b\u6307\u5728\u7434\u952e\u4e0a\u8df3\u8dc3\uff0c\u97f3\u7b26\u50cf\u6cc9\u6c34\u4e00\u6837\u6d41\u6dcc\u51fa\u6765\uff0c\u6211\u89c9\u5f97\u6574\u4e2a\u4e16\u754c\u90fd\u4eae\u4e86\u3002\n\n\u73b0\u5728\uff0c\u97f3\u4e50\u5df2\u7ecf\u6210\u4e3a\u6211\u751f\u6d3b\u7684\u4e00\u90e8\u5206\u3002\u8003\u8bd5\u524d\u7d27\u5f20\u65f6\uff0c\u6211\u5f39\u4e00\u66f2\u8212\u7f13\u7684\u97f3\u4e50\uff0c\u5fc3\u5c31\u5e73\u9759\u4e86\uff1b\u5f00\u5fc3\u65f6\uff0c\u6211\u5f39\u4e00\u66f2\u6b22\u5feb\u7684\u8fdb\u884c\u66f2\uff0c\u5feb\u4e50\u52a0\u500d\uff1b\u96be\u8fc7\u65f6\uff0c\u6211\u5f39\u4e00\u66f2\u6df1\u6c89\u7684\u5965\u683c\uff0c\u4eff\u4f5b\u6709\u4eba\u5728\u7528\u65cb\u5f8b\u62e5\u62b1\u6211\u3002\n\n\u97f3\u4e50\u4e0d\u4f1a\u8bf4\u8bdd\uff0c\u5374\u80fd\u8868\u8fbe\u6700\u590d\u6742\u7684\u60c5\u611f\u3002\u5b83\u8ba9\u6211\u77e5\u9053\uff0c\u751f\u6d3b\u4e2d\u6bcf\u4e00\u79cd\u60c5\u7eea\u90fd\u503c\u5f97\u88ab\u542c\u89c1\u3002\u8fd9\u5c31\u662f\u97f3\u4e50\u8ba9\u751f\u6d3b\u66f4\u7f8e\u597d\u7684\u539f\u56e0\u3002",
+      en:"On the way home from school, I put on my earphones and a familiar melody flows out. In that moment, all the noise around me quiets, and there\u2019s only me and the music.\n\nI started learning piano at four. At first, I found practice dull and boring \u2014 repeating scales every day until my fingers blistered. But when I first played \u201CF\u00fcr Elise\u201D from beginning to end, the joy was beyond words \u2014 my fingers danced on the keys, notes pouring out like spring water, and I felt the whole world brighten.\n\nNow music has become part of my life. When nervous before exams, I play a soothing piece and my heart calms; when happy, I play a lively march and the joy doubles; when sad, I play a deep prelude, and it feels like someone is embracing me through melody.\n\nMusic doesn\u2019t speak, yet it can express the most complex emotions. It has taught me that every feeling in life deserves to be heard. That is why music makes life better.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u4ece\u4e2a\u4eba\u7ecf\u5386\u5165\u624b\uff0c\u7528\u4e0d\u540c\u573a\u666f\u4e0b\u7684\u97f3\u4e50\u4f53\u9a8c\u8bf4\u660e\u89c2\u70b9\uff0c\u6bd4\u55bb\u751f\u52a8\uff08\u97f3\u7b26\u50cf\u6cc9\u6c34\uff09\uff0c\u7ed3\u5c3e\u611f\u609f\u6709\u6df1\u5ea6\u3002",
+      notesEn:"This essay draws from personal experience, uses music in different scenarios to support the viewpoint, includes vivid metaphors (notes like spring water), and ends with a deep reflection."},
+      {title:"\u5584\u826f\u8ba9\u751f\u6d3b\u66f4\u7f8e\u597d",titleEn:"Kindness Makes Life Better",level:"\u62d3\u5c55",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u7528\u4e00\u4e2a\u5c0f\u7ec6\u8282\u5f15\u5165",en:"Opening: Begin with a small detail"},
+        {cn:"\u4e2d\u95f4\uff1a\u53d9\u4e8b+\u8bae\u8bba\u7ed3\u5408\uff0c\u5c42\u5c42\u6df1\u5165",en:"Body: Narrative and reflection intertwined, building depth"},
+        {cn:"\u7ed3\u5c3e\uff1a\u54f2\u7406\u5347\u534e\uff0c\u4f59\u97f3\u7ed5\u6881",en:"Ending: Philosophical elevation, lasting resonance"}
+      ],
+      cn:"\u90a3\u662f\u4e00\u4e2a\u96e8\u5929\uff0c\u6211\u6ca1\u5e26\u4f1e\uff0c\u8e72\u5728\u5c0f\u5356\u90e8\u7684\u96e8\u68da\u4e0b\u7b49\u96e8\u505c\u3002\u4e00\u4f4d\u7d20\u4e0d\u76f8\u8bc6\u7684\u8001\u5976\u5976\u8d70\u8fc7\u6765\uff0c\u4e8c\u8bdd\u4e0d\u8bf4\u5c31\u628a\u81ea\u5df1\u7684\u4f1e\u585e\u7ed9\u6211\uff1a\u201c\u5feb\u56de\u5bb6\u5427\uff0c\u522b\u6de8\u7740\u4e86\u3002\u201d\u6211\u8fd8\u6ca1\u6765\u5f97\u53ca\u8bf4\u8c22\u8c22\uff0c\u5979\u5df2\u7ecf\u8f6c\u8eab\u8d70\u8fdb\u4e86\u96e8\u5e18\u91cc\u3002\n\n\u56de\u5bb6\u7684\u8def\u4e0a\uff0c\u6491\u7740\u8001\u5976\u5976\u7684\u4f1e\uff0c\u6211\u5fc3\u91cc\u6696\u6696\u7684\u3002\u6211\u60f3\u8d77\u4e86\u5f88\u591a\u7c7b\u4f3c\u7684\u5c0f\u4e8b\uff1a\u516c\u4ea4\u8f66\u4e0a\u6709\u4eba\u4e3b\u52a8\u8ba9\u5ea7\uff0c\u6241\u5e97\u8001\u677f\u591a\u7ed9\u4e86\u6211\u4e00\u4e2a\u8c46\u6c99\u5305\uff0c\u540c\u5b66\u5728\u6211\u5fd8\u5e26\u94c5\u7b14\u65f6\u60c4\u60c4\u9012\u8fc7\u4e00\u652f\u3002\u8fd9\u4e9b\u5c0f\u4e8b\u90fd\u5f88\u666e\u901a\uff0c\u53ef\u6bcf\u4e00\u4ef6\u90fd\u50cf\u4e00\u7c92\u5c0f\u5c0f\u7684\u706b\u661f\uff0c\u70b9\u4eae\u4e86\u6211\u5e73\u51e1\u7684\u65e5\u5b50\u3002\n\n\u540e\u6765\uff0c\u6211\u4e5f\u5f00\u59cb\u5b66\u7740\u505a\u5584\u826f\u7684\u4e8b\uff1a\u5e2e\u90ae\u9012\u53d4\u53d4\u5f00\u95e8\uff0c\u7ed9\u8ff7\u8def\u7684\u5916\u5730\u4eba\u6307\u8def\uff0c\u628a\u5403\u5269\u7684\u9762\u5305\u5206\u7ed9\u6d41\u6d6a\u732b\u3002\u6bcf\u6b21\u505a\u5b8c\u8fd9\u4e9b\u5c0f\u4e8b\uff0c\u6211\u5fc3\u91cc\u90fd\u4f1a\u6d8c\u8d77\u4e00\u80a1\u5feb\u4e50\uff0c\u6bd4\u8003\u4e86\u6ee1\u5206\u8fd8\u5f00\u5fc3\u3002\n\n\u6211\u60f3\uff0c\u5584\u826f\u5c31\u50cf\u4e00\u6761\u770b\u4e0d\u89c1\u7684\u7ebf\uff0c\u628a\u4eba\u548c\u4eba\u8fde\u5728\u4e00\u8d77\u3002\u6211\u4eec\u6bcf\u4e2a\u4eba\u65e2\u662f\u63a5\u53d7\u5584\u826f\u7684\u4eba\uff0c\u4e5f\u53ef\u4ee5\u662f\u4f20\u9012\u5584\u826f\u7684\u4eba\u3002\u5f53\u5584\u826f\u6d41\u52a8\u8d77\u6765\uff0c\u751f\u6d3b\u5c31\u50cf\u88ab\u9633\u5149\u7167\u8000\u7684\u6cb3\u6d41\uff0c\u95ea\u95ea\u53d1\u5149\u3002",
+      en:"It was a rainy day and I had no umbrella, crouching under the awning of a small shop waiting for the rain to stop. A grandmother I had never met walked over and without a word pressed her own umbrella into my hands: \u201CHurry home \u2014 don\u2019t catch cold.\u201D Before I could say thank you, she had turned and walked into the curtain of rain.\n\nOn the way home, holding her umbrella, my heart felt warm. I recalled many similar small things: someone giving up their seat on the bus, a bakery owner slipping me an extra bun, a classmate quietly passing me a pencil when I forgot mine. These things were all ordinary, yet each one was like a tiny spark lighting up my everyday life.\n\nLater, I too began doing kind things: holding the door for the delivery man, giving directions to a lost tourist, sharing leftover bread with stray cats. Every time I did something small like this, a wave of happiness rose in me \u2014 even happier than getting a perfect score on a test.\n\nI think kindness is like an invisible thread connecting people to one another. Each of us is both a receiver and a giver of kindness. When kindness flows, life becomes like a river glowing in the sunlight.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u4ece\u53d7\u5230\u5584\u826f\u5230\u4f20\u9012\u5584\u826f\uff0c\u5c42\u5c42\u6df1\u5165\u3002\u53d9\u4e8b\u4e0e\u8bae\u8bba\u7ed3\u5408\uff0c\u6bd4\u55bb\u65b0\u9896\uff08\u5584\u826f\u50cf\u4e00\u6761\u770b\u4e0d\u89c1\u7684\u7ebf\uff09\uff0c\u4e3b\u9898\u6709\u6df1\u5ea6\u3002",
+      notesEn:"This essay progresses from receiving kindness to passing it on, building depth layer by layer. It combines narrative with reflection, uses a fresh metaphor (kindness as an invisible thread), and achieves thematic depth."}
+    ]},
     wordSentence: {title:"\u8bcd\u53e5\u6bb5\u8fd0\u7528",titleEn:"Word & Sentence Practice",content:{cn:"\u7528\u201c\u4e00\u662f\u2026\u2026\u4e8c\u662f\u2026\u2026\u4e09\u662f\u2026\u2026\u201d\u7684\u65b9\u5f0f\u8bf4\u660e\u7406\u7531\uff1b\u63cf\u5199\u4e00\u4e2a\u4eba\u5165\u8ff7\u7684\u6837\u5b50\u3002",en:"Use \u201CFirst... second... third...\u201D to explain reasons; describe someone absorbed in an activity."}},
     accumulation: {title:"\u65e5\u79ef\u6708\u7d2f",titleEn:"Accumulation",content:{cn:"\u6625\u65e5\uff08\u5b8b\u00b7\u6731\u7199\uff09\uff1a\u80dc\u65e5\u5bfb\u82b3\u6cd7\u6c34\u6ee8\uff0c\u65e0\u8fb9\u5149\u666f\u4e00\u65f6\u65b0\u3002\u7b49\u95f2\u8bc6\u5f97\u4e1c\u98ce\u9762\uff0c\u4e07\u7d2b\u5343\u7ea2\u603b\u662f\u6625\u3002",en:"Spring Day (Song, Zhu Xi): On a fine day I strolled by the Si River, endless scenery refreshed at once. It is easy to recognize the east wind\u2019s face\u2014a riot of purple and red is always spring."}}
   }
@@ -409,10 +620,12 @@ units: [
 /*  UNIT 4 — 小说                              */
 /* ═══════════════════════════════════════════ */
 {
-  id: 4, title: "第四单元", titleEn: "Unit 4", type: "kewen",
+  id: 4, title: "第四单元", titleEn: "Unit 4",
+  difficulty: 3, type: "kewen",
   lessons: [
     {
       id: 13, title: "桥", titleEn: "The Bridge",
+      difficulty: 3,
       text: [
         "\u9ece\u660e\u7684\u65f6\u5019\uff0c\u96e8\u7a81\u7136\u5927\u4e86\u3002\u50cf\u6cfc\u3002\u50cf\u5012\u3002",
         "\u5c71\u6d2a\u54ae\u54ee\u7740\uff0c\u50cf\u4e00\u7fa4\u53d7\u60ca\u7684\u91ce\u9a6c\uff0c\u4ece\u5c71\u8c37\u91cc\u72c2\u5954\u800c\u6765\uff0c\u52bf\u4e0d\u53ef\u5f53\u3002",
@@ -436,6 +649,17 @@ units: [
         "Five days later, the waters receded. An old woman, supported by others, came to pay her respects. She came to mourn two people. Her husband and her son."
       ],
       writeChars: ["\u54ae","\u54ee","\u55d3","\u6dcc","\u54d1","\u63ea","\u5459","\u5e9f"],
+      vocabWords: [
+        {word:'咆哮',pinyin:'páo xiào',en:'to roar',sentence:'山洪咆哮着，像一群受惊的野马。',sentenceEn:'Floodwaters roared like a stampede of wild horses.'},
+        {word:'狞笑',pinyin:'níng xiào',en:'fierce grin (of the flood)',sentence:'木桥开始发抖，开始痛苦地呻吟。',sentenceEn:'The bridge began to tremble and groan painfully.'},
+        {word:'拥戴',pinyin:'yōng dài',en:'to support and trust',sentence:'那个全村人都拥戴的老汉。',sentenceEn:'The old man everyone in the village trusted.'},
+        {word:'沙哑',pinyin:'shā yǎ',en:'hoarse',sentence:'老汉沙哑地喝话。',sentenceEn:'The old man spoke in a hoarse voice.'},
+        {word:'祭奠',pinyin:'jì diàn',en:'to hold a memorial',sentence:'一个老太太，被人搀扶着，来这里祭奠。',sentenceEn:'An old woman, supported by others, came to pay her respects.'}
+      ],
+      grammarPoints: [
+        {point:'短句营造紧张',pointEn:'duǎn jù yíng zào jǐn zhāng',example:'short sentences create tension',exampleEn:'雨突然大了。像泼。像倒。',explanation:'The rain suddenly intensified. Pouring. Dumping.',explanationEn:'用极短的句子营造紧迫的气氛'},
+        {point:'结尾反转',pointEn:'jié wěi fǎn zhuǎn',example:'surprise ending',exampleEn:'她来祭奠两个人。她丈夫和她儿子。',explanation:'She came to mourn two people. Her husband and her son.',explanationEn:'结尾揭示人物关系，出人意料'}
+      ],
       exercises: [
         {type:"read",cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\uff0c\u6ce8\u610f\u8bfb\u597d\u77ed\u53e5\u3002",en:"Read with feeling, paying attention to the short sentences."},
         {type:"think",cn:"\u8fd9\u7bc7\u5c0f\u8bf4\u5199\u4e86\u4e00\u4f4d\u600e\u6837\u7684\u8001\u652f\u4e66\uff1f\u627e\u51fa\u5199\u52a8\u4f5c\u3001\u8bed\u8a00\u3001\u795e\u6001\u7684\u53e5\u5b50\u3002",en:"What kind of Party secretary is portrayed? Find sentences describing his actions, language, and demeanor."},
@@ -451,6 +675,7 @@ units: [
     },
     {
       id: 14, title: "\u7a77\u4eba", titleEn: "The Poor",
+      difficulty: 3,
       text: [
         "\u6e14\u592b\u7684\u59bb\u5b50\u6851\u5a1c\u5750\u5728\u706b\u7089\u65c1\u8865\u4e00\u5f20\u7834\u5e06\u3002\u5c4b\u5916\u5bd2\u98ce\u547c\u5578\uff0c\u6c79\u6d8c\u6f8e\u6e43\u7684\u6d77\u6d6a\u62cd\u51fb\u7740\u6d77\u5cb8\u3002\u8fd9\u95f4\u6e14\u5bb6\u7684\u5c0f\u5c4b\u91cc\u5374\u6e29\u6696\u800c\u8212\u9002\u3002\u4e08\u592b\u6e05\u65e9\u9a7e\u7740\u5c0f\u8239\u51fa\u6d77\uff0c\u8fd9\u65f6\u5019\u8fd8\u6ca1\u6709\u56de\u6765\u3002",
         "\u6851\u5a1c\u6c89\u601d\uff1a\u4e08\u592b\u4e0d\u987e\u60dc\u8eab\u4f53\uff0c\u5192\u7740\u5bd2\u51b7\u548c\u98ce\u66b4\u51fa\u53bb\u6253\u9c7c\uff0c\u5979\u81ea\u5df1\u4e5f\u4ece\u65e9\u5230\u665a\u5730\u5e72\u6d3b\uff0c\u8fd8\u53ea\u80fd\u52c9\u5f3a\u586b\u9971\u809a\u5b50\u3002",
@@ -463,11 +688,21 @@ units: [
         "Sanna, the fisherman\u2019s wife, sat mending a torn sail by the fire. Outside, icy wind howled and waves crashed against the shore. Inside the little cottage, it was warm and cozy. Her husband had gone to sea at dawn and had not returned.",
         "Sanna reflected: her husband braved cold and storms to fish, she toiled from dawn to dusk, yet they could barely feed themselves.",
         "Sanna thought of her sick neighbor, Simon. She pushed open the door and found Simon dead. Beside the dead mother slept two small children. Sanna wrapped them in a shawl, carried them home, and placed them beside her own children.",
-        "Sanna thought anxiously: \u201CWhat will he say? We already have five children to feed\u2026 He\u2019ll beat me! Well, I deserve it\u2026 A beating would be fine!\u201D",
-        "The fisherman returned. Sanna told him Simon had died, leaving two children. He frowned: \u201CWe must bring them here\u2014they can\u2019t stay with a dead person! We\u2019ll manage somehow! Go, before they wake!\u201D",
+        "Sanna thought with a heart full of dread: \u201CWhat will he say? Is this some kind of joke? Our five children are already more than he can handle\u2026 Is that him coming?\u2026 No, not yet!\u2026 Why did I bring them here?\u2026 He\u2019ll beat me! Well, I deserve it\u2014I brought this on myself\u2026 Oh, a beating would be fine!\u201D",
+        "The fisherman returned. Sanna told him Simon had died, leaving two children. The fisherman furrowed his brow and said: \u201COh, that\u2019s a problem! We must bring them here\u2014how can they stay with a dead person! Well, we\u2026 we\u2019ll manage somehow! Go, quickly! Before they wake up.\u201D",
         "But Sanna sat motionless. \u201CWhat\u2019s wrong? Don\u2019t you want to?\u201D \u201CLook, they\u2019re here already.\u201D Sanna drew back the curtain."
       ],
       writeChars: ["\u6c79","\u6d8c","\u6f8e","\u6e43","\u7184","\u6380","\u56f0","\u5509","\u6dcb","\u563f","\u7cdf","\u561b","\u76b1","\u52fa"],
+      vocabWords: [
+        {word:'汹涌澎湃',pinyin:'xiōng yǒng péng pài',en:'surging and turbulent',sentence:'汹涌澎湃的海浪拍击着海岸。',sentenceEn:'Surging waves crashed against the shore.'},
+        {word:'忐忑不安',pinyin:'tǎn tè bù ān',en:'anxious and uneasy',sentence:'桑娜忐忑不安地想。',sentenceEn:'Sanna thought anxiously.'},
+        {word:'自作自受',pinyin:'zì zuò zì shòu',en:'to suffer the consequences of one’s own actions',sentence:'那也活该，我自作自受。',sentenceEn:'Well, I deserve it — I brought this upon myself.'},
+        {word:'熬过去',pinyin:'áo guò qù',en:'to endure; to get through',sentence:'我们总能熬过去的！',sentenceEn:'We will manage somehow!'},
+        {word:'勉强',pinyin:'miǎn qiǎng',en:'barely; with difficulty',sentence:'还只能勉强填饱肚子。',sentenceEn:'They could barely feed themselves.'}
+      ],
+      grammarPoints: [
+        {point:'心理描写',pointEn:'xīn lǐ miáo xiě',example:'psychological description',exampleEn:'他会说什么呢？……他会揍我的！那也活该。',explanation:'What will he say? He will beat me! Well, I deserve it.',explanationEn:'通过内心独白展现桑娜善良而矛盾的心理'}
+      ],
       exercises: [
         {type:"read",cn:"\u5feb\u901f\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u8bfe\u6587\u4e3b\u8981\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\u3002",en:"Read silently. Summarize the main event of the story."},
         {type:"think",cn:"\u4ece\u63cf\u5199\u4eba\u7269\u5bf9\u8bdd\u548c\u5fc3\u7406\u6d3b\u52a8\u7684\u53e5\u5b50\u4e2d\uff0c\u53ef\u4ee5\u770b\u51fa\u6851\u5a1c\u548c\u6e14\u592b\u662f\u600e\u6837\u7684\u4eba\uff1f",en:"What do the dialogue and inner thoughts reveal about Sanna and the fisherman?"}
@@ -482,6 +717,7 @@ units: [
     },
     {
       id: 15, title: "\u91d1\u8272\u7684\u9c7c\u94a9", titleEn: "The Golden Fishhook",
+      difficulty: 4,
       isSelfRead: true,
       text: [
         "1935\u5e74\u79cb\u5929\uff0c\u7ea2\u56db\u65b9\u9762\u519b\u8fdb\u5165\u8349\u5730\u3002\u6307\u5bfc\u5458\u6d3e\u708a\u4e8b\u73ed\u957f\u7167\u987e\u6211\u4eec\u4e09\u4e2a\u75c5\u53f7\u3002\u8001\u73ed\u957f\u5feb\u56db\u5341\u5c81\u4e86\uff0c\u80cc\u6709\u70b9\u513f\u9a7c\uff0c\u5927\u4f19\u90fd\u53eb\u4ed6\u201c\u8001\u73ed\u957f\u201d\u3002",
@@ -494,10 +730,17 @@ units: [
       textEn: [
         "In autumn 1935, the Fourth Front Army entered the grasslands. The instructor assigned the cooking squad leader to look after us three sick soldiers. Old Squad Leader was nearly forty, slightly hunched, and everyone called him \u201COld Squad Leader.\u201D",
         "Our two bags of barley flour ran out. Old Squad Leader bent a sewing needle into a fishhook, and we had fresh fish soup. But I never once saw him eat any fish himself.",
-        "Once I secretly followed him and found him chewing grass roots and fish bones from a tin bowl. I cried out: \u201COld Squad Leader, how could you\u2026\u201D",
+        "Once I secretly trailed him and found him sitting there, holding a chipped enamel bowl, chewing a few grass roots and the fish bones left over from our meal. I cried out involuntarily: \u201COld Squad Leader, how could you\u2026\u201D",
         "We were nearing the edge of the grasslands. Old Squad Leader cheerfully said: \u201CComrades, let\u2019s get some good food and walk out of the grasslands in one push.\u201D He took the fishhook and went to find a pond. But after a long time, we found him by a pool, unconscious.",
         "When I brought the fish soup to his lips, Old Squad Leader was barely breathing. He whispered: \u201CXiao Liang, don\u2019t waste anything. You eat it. You must walk out!\u201D His hand dropped.",
         "Wiping my tears, I carefully wrapped Old Squad Leader\u2019s fishhook. On that rust-covered hook gleamed a brilliant golden light!"
+      ],
+      vocabWords: [
+        {word:'老班长',pinyin:'lǎo bān zhǎng',en:'old squad leader',sentence:'大伙都叫他"老班长"。',sentenceEn:'Everyone called him Old Squad Leader.'},
+        {word:'严峻',pinyin:'yán jùn',en:'severe; grim',sentence:'草地的环境十分严峻。',sentenceEn:'The grassland environment was extremely harsh.'},
+        {word:'奄奄一息',pinyin:'yǎn yǎn yī xī',en:'on the verge of death',sentence:'老班长已经奄奄一息了。',sentenceEn:'Old Squad Leader was barely breathing.'},
+        {word:'闪烁',pinyin:'shǎn shuò',en:'to gleam; to glitter',sentence:'在这个长满了红锈的鱼钩上，闪烁着灿烂的金色的光芒！',sentenceEn:'On that rust-covered hook gleamed a brilliant golden light!'},
+        {word:'缝衣针',pinyin:'féng yī zhēn',en:'sewing needle',sentence:'老班长用缝衣针弯成个钓鱼钩。',sentenceEn:'Old Squad Leader bent a sewing needle into a fishhook.'}
       ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u5c0f\u8bf4\u5199\u4e86\u4e00\u4f4d\u600e\u6837\u7684\u8001\u73ed\u957f\u3002",en:"Read silently. What kind of person is the Old Squad Leader?"}
@@ -513,7 +756,38 @@ units: [
   ],
   garden: {
     oralComm: {title:"\u53e3\u8bed\u4ea4\u9645\uff1a\u8bf7\u4f60\u652f\u6301\u6211",titleEn:"Oral Communication: Please Support Me",objectives:[{cn:"\u5148\u8bf4\u60f3\u6cd5\uff0c\u518d\u628a\u5177\u4f53\u7684\u7406\u7531\u8bb2\u6e05\u695a",en:"State your idea first, then explain your reasons clearly"},{cn:"\u8bbe\u60f3\u5bf9\u65b9\u53ef\u80fd\u7684\u53cd\u5e94\uff0c\u6070\u5f53\u5e94\u5bf9",en:"Anticipate the other person\u2019s response and address it appropriately"}]},
-    composition: {title:"\u4e60\u4f5c\uff1a\u7b14\u5c16\u6d41\u51fa\u7684\u6545\u4e8b",titleEn:"Composition: A Story from My Pen",prompt:{cn:"\u4ece\u63d0\u4f9b\u7684\u73af\u5883\u548c\u4eba\u7269\u4e2d\u9009\u62e9\u4e00\u7ec4\uff0c\u521b\u7f16\u6545\u4e8b\u3002\u628a\u60c5\u8282\u5199\u5b8c\u6574\uff0c\u5199\u51fa\u73af\u5883\u548c\u4eba\u7269\u7684\u5fc3\u7406\u6d3b\u52a8\u3002",en:"Choose a setting and characters from the options, and create a complete story with environment and psychological descriptions."}},
+    composition: {title:"\u4e60\u4f5c\uff1a\u7b14\u5c16\u6d41\u51fa\u7684\u6545\u4e8b",titleEn:"Composition: A Story from My Pen",prompt:{cn:"\u4ece\u63d0\u4f9b\u7684\u73af\u5883\u548c\u4eba\u7269\u4e2d\u9009\u62e9\u4e00\u7ec4\uff0c\u521b\u7f16\u6545\u4e8b\u3002\u628a\u60c5\u8282\u5199\u5b8c\u6574\uff0c\u5199\u51fa\u73af\u5883\u548c\u4eba\u7269\u7684\u5fc3\u7406\u6d3b\u52a8\u3002",en:"Choose a setting and characters from the options, and create a complete story with environment and psychological descriptions."},modelEssays:[
+      {title:"\u96ea\u591c\u7684\u706f\u5149",titleEn:"Lamplight on a Snowy Night",level:"\u57fa\u7840",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u73af\u5883\u63cf\u5199\u5f15\u5165",en:"Opening: Environmental description"},
+        {cn:"\u4e2d\u95f4\uff1a\u4e24\u4e2a\u4eba\u7269\u7684\u76f8\u9047",en:"Body: Two characters meet"},
+        {cn:"\u7ed3\u5c3e\uff1a\u6e29\u6696\u7684\u7ed3\u5c40",en:"Ending: A warm conclusion"}
+      ],
+      cn:"\u96ea\u8d8a\u4e0b\u8d8a\u5927\uff0c\u6574\u4e2a\u5c0f\u9547\u88ab\u767d\u96ea\u8986\u76d6\u3002\u975e\u8fdf\u9a91\u7740\u81ea\u884c\u8f66\u5728\u96ea\u5730\u91cc\u8270\u96be\u5730\u524d\u884c\uff0c\u624b\u90fd\u51bb\u50f5\u4e86\u3002\n\n\u5230\u4e86\u6700\u540e\u4e00\u5bb6\u3001\u4e00\u5bb6\u5e97\u94fa\u95e8\u524d\uff0c\u4ed6\u53d1\u73b0\u95e8\u53e3\u575a\u575a\u7740\u4e00\u4e2a\u7ea2\u7eb8\u7b3a\uff0c\u91cc\u9762\u6709\u4e00\u76cf\u706f\u5728\u98ce\u96ea\u4e2d\u6447\u6643\u3002\u4e00\u4e2a\u8001\u5927\u7237\u63a8\u5f00\u95e8\uff0c\u558a\u9053\uff1a\u201c\u5c0f\u4f19\u5b50\uff0c\u8fdb\u6765\u6696\u6696\u3002\u201d\n\n\u975e\u8fdf\u8d70\u8fdb\u5e97\u91cc\uff0c\u53ea\u89c1\u4e00\u7897\u70ed\u6c14\u817e\u817e\u7684\u59dc\u6c64\u5df2\u7ecf\u6446\u5728\u684c\u4e0a\u3002\u8001\u5927\u7237\u7b11\u7740\u8bf4\uff1a\u201c\u6bcf\u5e74\u4e0b\u5927\u96ea\uff0c\u6211\u90fd\u4f1a\u5728\u95e8\u53e3\u653e\u4e00\u76cf\u706f\u3002\u8fc7\u8def\u7684\u4eba\u770b\u89c1\u706f\uff0c\u5c31\u77e5\u9053\u8fd9\u91cc\u6709\u4e2a\u6e29\u6696\u7684\u5730\u65b9\u3002\u201d\n\n\u975e\u8fdf\u5367\u7740\u59dc\u6c64\uff0c\u611f\u89c9\u6e29\u6696\u4ece\u80c3\u91cc\u4e00\u76f4\u6d41\u5230\u5fc3\u5e95\u3002\u7a97\u5916\u7684\u96ea\u8fd8\u5728\u4e0b\uff0c\u53ef\u90a3\u76cf\u5c0f\u5c0f\u7684\u706f\uff0c\u6b63\u5728\u96ea\u591c\u91cc\u9759\u9759\u5730\u7167\u4eae\u6bcf\u4e00\u4e2a\u8fc7\u8def\u4eba\u7684\u5fc3\u3002",
+      en:"The snow fell heavier and heavier, blanketing the entire small town in white. Feichi rode his bicycle through the snow, struggling forward, his hands frozen stiff.\n\nAt the last shop on the street, he noticed a red paper lantern hanging by the door, its light flickering in the wind and snow. An old man pushed the door open and called out: \u201CYoung man, come in and warm up.\u201D\n\nFeichi stepped inside and found a steaming bowl of ginger soup already set on the table. The old man smiled and said: \u201CEvery year when it snows heavily, I hang a lantern by the door. Passersby see the light and know there\u2019s a warm place here.\u201D\n\nFeichi sipped the ginger soup, feeling warmth flow from his stomach all the way to his heart. Outside, the snow kept falling, but that small lantern quietly illuminated the hearts of every passerby on that snowy night.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u7528\u73af\u5883\u63cf\u5199\u70d8\u6258\u6c14\u6c1b\uff0c\u4eba\u7269\u5bf9\u8bdd\u81ea\u7136\uff0c\u201c\u706f\u5149\u201d\u65e2\u662f\u5b9e\u7269\u53c8\u662f\u8c61\u5f81\uff0c\u6545\u4e8b\u5b8c\u6574\u6e29\u6696\u3002",
+      notesEn:"This essay uses environment to set the atmosphere, natural dialogue, and the \u201Clantern\u201D serves as both a physical object and a symbol. The story is complete and warm."},
+      {title:"\u96e8\u5de7\u4e0a\u7684\u5c0f\u7eb8\u6761",titleEn:"A Note on the Umbrella",level:"\u63d0\u9ad8",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u8bbe\u7f6e\u60ac\u5ff5",en:"Opening: Create suspense"},
+        {cn:"\u4e2d\u95f4\uff1a\u5fc3\u7406\u63cf\u5199\u4e30\u5bcc\uff0c\u60c5\u8282\u53cd\u8f6c",en:"Body: Rich psychological descriptions, plot twist"},
+        {cn:"\u7ed3\u5c3e\uff1a\u63ed\u793a\u771f\u76f8\uff0c\u4f59\u97f5\u60a0\u957f",en:"Ending: Reveal the truth, lingering resonance"}
+      ],
+      cn:"\u653e\u5b66\u65f6\u5929\u7a81\u7136\u4e0b\u8d77\u4e86\u96e8\uff0c\u9646\u5929\u53d1\u73b0\u81ea\u5df1\u7684\u96e8\u4f1e\u4e0a\u7ed1\u7740\u4e00\u5f20\u5c0f\u7eb8\u6761\u3002\u4ed6\u597d\u5947\u5730\u6253\u5f00\uff0c\u53ea\u89c1\u4e0a\u9762\u5199\u7740\u56db\u4e2a\u5b57\uff1a\u201c\u660e\u5929\u52a0\u6cb9\u3002\u201d\n\n\u8fd9\u662f\u8c01\u5199\u7684\uff1f\u9646\u5929\u767e\u601d\u4e0d\u5f97\u5176\u89e3\u3002\u660e\u5929\u8981\u8003\u8bd5\uff0c\u4ed6\u6700\u8fd1\u538b\u529b\u5f88\u5927\uff0c\u6210\u7ee9\u4e00\u76f4\u4e0b\u6ed1\u3002\u201c\u4f1a\u662f\u8c01\u5728\u5173\u5fc3\u6211\u5462\uff1f\u201d\u4ed6\u8fb9\u8d70\u8fb9\u60f3\u3002\u7b2c\u4e8c\u5929\u8003\u5b8c\u8bd5\uff0c\u4ed6\u7684\u96e8\u4f1e\u4e0a\u53c8\u591a\u4e86\u4e00\u5f20\u7eb8\u6761\uff1a\u201c\u4eca\u5929\u8003\u5f97\u4e0d\u9519\u5427\uff1f\u201d\n\n\u9646\u5929\u6ce8\u610f\u89c2\u5bdf\uff0c\u53d1\u73b0\u6bcf\u6b21\u4e0b\u8bfe\u65f6\uff0c\u540c\u684c\u5c0f\u6797\u603b\u662f\u6700\u540e\u4e00\u4e2a\u79bb\u5f00\u6559\u5ba4\u3002\u6709\u4e00\u5929\uff0c\u4ed6\u5047\u88c5\u5148\u8d70\uff0c\u8f6c\u5934\u5077\u5077\u770b\uff0c\u53ea\u89c1\u5c0f\u6797\u6b63\u5728\u4ed6\u7684\u96e8\u4f1e\u4e0a\u8ba4\u771f\u5730\u7ed1\u7eb8\u6761\u3002\n\n\u201c\u4f60\u2026\u2026\u4e3a\u4ec0\u4e48\uff1f\u201d\u9646\u5929\u7684\u58f0\u97f3\u6709\u4e9b\u54d1\u3002\u5c0f\u6797\u4e0d\u597d\u610f\u601d\u5730\u6328\u4e86\u6328\u5934\uff1a\u201c\u4f60\u6700\u8fd1\u597d\u50cf\u4e0d\u5f00\u5fc3\uff0c\u6211\u4e0d\u77e5\u9053\u600e\u4e48\u5b89\u6170\u4f60\uff0c\u5c31\u60f3\u5230\u4e86\u8fd9\u4e2a\u529e\u6cd5\u3002\u201d\n\n\u9646\u5929\u7b11\u4e86\u3002\u4ed6\u62ff\u8d77\u7b14\uff0c\u5728\u7eb8\u6761\u80cc\u9762\u5199\u4e0b\uff1a\u201c\u8c22\u8c22\u4f60\uff0c\u660e\u5929\u4e5f\u52a0\u6cb9\u3002\u201d",
+      en:"When school let out, it suddenly started raining. Lu Tian discovered a small note tied to his umbrella. He curiously opened it and found four characters: \u201CGood luck tomorrow.\u201D\n\nWho wrote this? Lu Tian was puzzled. Tomorrow was exam day, and he had been under great pressure lately, his grades steadily declining. \u201CWho could be worried about me?\u201D he wondered as he walked. The next day after the exam, another note appeared on his umbrella: \u201CDid well today?\u201D\n\nLu Tian started watching carefully. He noticed that his desk-mate, Xiao Lin, was always the last to leave the classroom after class. One day he pretended to leave first, then turned back to peek \u2014 and saw Xiao Lin carefully tying a note onto his umbrella.\n\n\u201CYou\u2026 why?\u201D Lu Tian\u2019s voice was a bit hoarse. Xiao Lin scratched his head shyly: \u201CYou\u2019ve seemed unhappy lately. I didn\u2019t know how to comfort you, so I thought of this.\u201D\n\nLu Tian smiled. He picked up a pen and wrote on the back of the note: \u201CThank you. Good luck to you too, tomorrow.\u201D",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u60ac\u5ff5\u8bbe\u7f6e\u5de7\u5999\uff08\u7eb8\u6761\u4e4b\u8c1c\uff09\uff0c\u5fc3\u7406\u63cf\u5199\u7ec6\u817b\uff0c\u60c5\u8282\u8f6c\u6298\u81ea\u7136\uff0c\u53cb\u8c0a\u7684\u8868\u8fbe\u542b\u84c4\u800c\u6e29\u6696\u3002",
+      notesEn:"This essay sets up suspense cleverly (the mystery of the notes), includes subtle psychological descriptions, has natural plot twists, and expresses friendship in a restrained yet warm way."},
+      {title:"\u65e7\u5de5\u5382\u7684\u6625\u5929",titleEn:"Spring in the Old Factory",level:"\u62d3\u5c55",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u73af\u5883\u4e0e\u4eba\u7269\u5f62\u6210\u5bf9\u6bd4",en:"Opening: Environment contrasts with character"},
+        {cn:"\u4e2d\u95f4\uff1a\u53cc\u7ebf\u53d9\u4e8b\uff0c\u4eba\u7269\u4e0e\u73af\u5883\u4e92\u76f8\u6620\u886c",en:"Body: Dual narrative threads, character and environment mirror each other"},
+        {cn:"\u7ed3\u5c3e\uff1a\u8c61\u5f81\u610f\u4e49\u6df1\u8fdc",en:"Ending: Deep symbolic meaning"}
+      ],
+      cn:"\u65e7\u5de5\u5382\u5df2\u7ecf\u505c\u4ea7\u5f88\u591a\u5e74\u4e86\u3002\u94c1\u95e8\u751f\u4e86\u9508\uff0c\u5899\u89d2\u957f\u6ee1\u4e86\u9752\u82d4\uff0c\u7834\u788e\u7684\u7a97\u6237\u50cf\u4e00\u53ea\u53ea\u7a7a\u6d1e\u7684\u773c\u775b\u3002\u53ef\u662f\u6bcf\u5929\u65e9\u4e0a\uff0c\u603b\u6709\u4e00\u4e2a\u8001\u4eba\u51c6\u65f6\u8d70\u8fdb\u5de5\u5382\u3002\n\n\u4ed6\u53eb\u8001\u5468\uff0c\u66fe\u7ecf\u662f\u8fd9\u5bb6\u5de5\u5382\u7684\u6280\u672f\u5458\u3002\u9000\u4f11\u540e\uff0c\u4ed6\u6ca1\u6709\u79bb\u5f00\uff0c\u800c\u662f\u5728\u5de5\u5382\u7684\u7a7a\u5730\u4e0a\u5f00\u8f9f\u4e86\u4e00\u4e2a\u5c0f\u82b1\u56ed\u3002\u4ed6\u6bcf\u5929\u6d47\u6c34\u3001\u62d4\u8349\u3001\u677e\u571f\uff0c\u52a8\u4f5c\u7f13\u6162\u800c\u8ba4\u771f\u3002\u6709\u4eba\u95ee\u4ed6\uff1a\u201c\u8001\u5468\uff0c\u5de5\u5382\u90fd\u5012\u95ed\u4e86\uff0c\u4f60\u8fd8\u6765\u5e72\u4ec0\u4e48\uff1f\u201d\u4ed6\u4e0d\u8bf4\u8bdd\uff0c\u53ea\u662f\u7b11\u7b11\u3002\n\n\u6625\u5929\u6765\u4e86\uff0c\u8001\u5468\u7684\u82b1\u56ed\u5f00\u6ee1\u4e86\u82b1\u3002\u7ea2\u7684\u6708\u5b63\u3001\u7d2b\u7684\u9e22\u5c3e\u82b1\u3001\u767d\u7684\u6813\u5b50\u82b1\uff0c\u5728\u7070\u8272\u7684\u5de5\u5382\u58c1\u524d\u7cbe\u795e\u62d6\u6c93\u5730\u7ebd\u653e\u3002\u8def\u8fc7\u7684\u4eba\u7eb7\u7eb7\u505c\u4e0b\u811a\u6b65\uff0c\u7ad9\u5728\u7af1\u7b06\u5916\u5411\u91cc\u7784\u3002\u4e00\u4e2a\u5c0f\u5973\u5b69\u62c9\u7740\u5988\u5988\u7684\u624b\u8bf4\uff1a\u201c\u5988\u5988\uff0c\u8fd9\u91cc\u597d\u6f02\u4eae\u5440\uff01\u201d\n\n\u8001\u5468\u7ad9\u5728\u82b1\u4e1b\u4e2d\uff0c\u80cc\u5f71\u6709\u4e9b\u4f5b\u5c42\uff0c\u4f46\u7b14\u6325\u5f97\u5f88\u76f4\u3002\u6211\u60f3\uff0c\u6709\u4e9b\u4e1c\u897f\u4f1a\u8001\u53bb\uff0c\u4f46\u7f8e\u4e0d\u4f1a\u3002\u53ea\u8981\u6709\u4eba\u613f\u610f\u7528\u5fc3\u53bb\u79cd\uff0c\u5373\u4f7f\u5728\u5e9f\u589f\u4e0a\uff0c\u4e5f\u80fd\u5f00\u51fa\u6700\u7f8e\u7684\u82b1\u3002",
+      en:"The old factory had been shut down for years. Its iron gates were rusted, moss grew thick in the corners, and broken windows gaped like hollow eyes. Yet every morning, an old man came through the gate right on time.\n\nHis name was Old Zhou, once a technician at the factory. After retirement, he didn\u2019t leave \u2014 instead, he cleared a small garden on the factory grounds. Every day he watered, weeded, and loosened the soil, his movements slow but careful. People asked him: \u201COld Zhou, the factory is closed. Why do you still come?\u201D He said nothing, just smiled.\n\nSpring came, and Old Zhou\u2019s garden bloomed. Red roses, purple irises, white gardenias \u2014 they burst into life against the gray factory walls. Passersby stopped in their tracks, peering through the fence. A little girl tugged her mother\u2019s hand: \u201CMom, it\u2019s so beautiful here!\u201D\n\nOld Zhou stood among the flowers, his back slightly hunched but straight. I thought: some things grow old, but beauty does not. As long as someone is willing to plant with care, even on ruins the most beautiful flowers can bloom.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u73af\u5883\u4e0e\u4eba\u7269\u4e92\u76f8\u6620\u886c\uff08\u8352\u51c9\u5de5\u5382 vs \u7efd\u653e\u82b1\u56ed\uff09\uff0c\u8c61\u5f81\u610f\u4e49\u6df1\u8fdc\uff0c\u7ed3\u5c3e\u5347\u534e\u4e3b\u9898\uff0c\u5c55\u73b0\u4e86\u8f83\u9ad8\u7684\u6587\u5b66\u6027\u3002",
+      notesEn:"This essay creates a mirroring effect between environment and character (desolate factory vs. blooming garden), carries deep symbolic meaning, elevates the theme in the conclusion, and demonstrates literary sophistication."}
+    ]},
     wordSentence: {title:"\u8bcd\u53e5\u6bb5\u8fd0\u7528",titleEn:"Word & Sentence Practice",content:{cn:"\u4f53\u4f1a\u4eba\u7269\u590d\u6742\u7684\u5fc3\u7406\u6d3b\u52a8\uff0c\u8bd5\u7740\u5199\u4e00\u5199\u5fe0\u5fd1\u4e0d\u5b89\u6216\u72b9\u8c6b\u4e0d\u51b3\u65f6\u7684\u5fc3\u7406\u3002",en:"Understand complex inner thoughts; try writing about feelings of anxiety or indecision."}},
     accumulation: {title:"\u65e5\u79ef\u6708\u7d2f",titleEn:"Accumulation",content:{cn:"\u56de\u4e61\u5076\u4e66\uff08\u5510\u00b7\u8d3a\u77e5\u7ae0\uff09\uff1a\u5c11\u5c0f\u79bb\u5bb6\u8001\u5927\u56de\uff0c\u4e61\u97f3\u65e0\u6539\u9b13\u6bdb\u8870\u3002\u513f\u7ae5\u76f8\u89c1\u4e0d\u76f8\u8bc6\uff0c\u7b11\u95ee\u5ba2\u4ece\u4f55\u5904\u6765\u3002",en:"On Returning Home (Tang, He Zhizhang): I left home young and return old, my accent unchanged but my temples grey. Children see me and do not know me\u2014laughing, they ask where the stranger is from."}},
     happyReading: {title:"\u5feb\u4e50\u8bfb\u4e66\u5427\uff1a\u7b11\u4e0e\u6cea\uff0c\u7ecf\u5386\u4e0e\u6210\u957f",titleEn:"Happy Reading: Laughter and Tears, Experiences and Growth",items:[{cn:"\u63a8\u8350\u9605\u8bfb\uff1a\u300a\u7ae5\u5e74\u300b\uff08\u9ad8\u5c14\u57fa\uff09\u3001\u300a\u5c0f\u82f1\u96c4\u96e8\u6765\u300b\u3001\u300a\u7231\u7684\u6559\u80b2\u300b",en:"Recommended: Childhood (Gorky), Little Hero Yulai, The Heart of a Boy (De Amicis)"}]}
@@ -523,10 +797,12 @@ units: [
 /*  UNIT 5 — 围绕中心意思写                    */
 /* ═══════════════════════════════════════════ */
 {
-  id: 5, title: "第五单元", titleEn: "Unit 5", type: "kewen",
+  id: 5, title: "第五单元", titleEn: "Unit 5",
+  difficulty: 4, type: "kewen",
   lessons: [
     {
       id: 16, title: "夏天里的成长", titleEn: "Growing in Summer",
+      difficulty: 4,
       text: [
         "夏天是万物迅速生长的季节。",
         "生物从小到大，本来是天天长的，不过夏天的长是飞快的长，跳跃的长，活生生的看得见的长。你在棚架上看瓜藤，一天可以长出几寸；你到竹子林、高粱地里听声音，在叭叭的声响里，一夜可以多出半节。昨天是苞蕾，今天是鲜花，明天就变成了小果实。一块白石头，几天不见，就长满了苔藓；一片黄泥土，几天不见，就变成了草坪菜畦。邻家的小猫小狗小鸡小鸭，个把月不过来，再见面，它已经有了妈妈的一半大。",
@@ -535,11 +811,21 @@ units: [
       ],
       textEn: [
         "Summer is the season of rapid growth for all things.",
-        "Living things grow every day, but summer growth is rapid, leaping, visibly alive. Melon vines on a trellis can grow several inches in a day; in bamboo groves you can hear them growing overnight. Yesterday\u2019s bud is today\u2019s flower and tomorrow\u2019s fruit. A white stone gets covered with moss in days; bare earth becomes a lawn. The neighbor\u2019s kitten grows to half its mother\u2019s size in a month.",
-        "Grass grows, trees grow, mountains fill out day by day. Rice seedlings grow, sugarcane grows, the land rises daily. Streams swell, waterfalls surge, rivers widen and deepen. As the sun\u2019s power increases, everything grows. At the height of summer, even railroad rails expand, nearly closing the gaps between them.",
-        "After summer, primary students become middle schoolers, middle schoolers become college students. Everyone must grow. A farmer\u2019s proverb says: \u201COn the sixth of the sixth month, check the grain.\u201D Crops that don\u2019t grow when they should have no hope of harvest. People are the same\u2014we must seize the moment and grow with all our might."
+        "Living things grow from small to large every day, but summer growth is rapid growth, leaping growth, vivid growth you can see with your own eyes. Watch the melon vines on a trellis\u2014they can grow several inches in a single day. Go listen in the bamboo groves or sorghum fields\u2014amid the crackling sounds, half a joint can sprout overnight. Yesterday\u2019s bud is today\u2019s blossom, and tomorrow it becomes a little fruit. Leave a white stone alone for a few days and it\u2019s covered in moss. Leave a patch of yellow earth for a few days and it\u2019s become a lawn or a vegetable bed. The neighbor\u2019s kittens, puppies, chicks, and ducklings\u2014if you don\u2019t see them for a month or so, next time you meet, they\u2019re already half the size of their mothers.",
+        "Grass grows, trees grow, mountains fill out day by day. Rice seedlings grow, sugarcane grows, the land rises a little higher each day. Streams swell, waterfalls surge, rivers grow wider and deeper day by day. As the saying goes: \u201CWithout heat, nothing grows; without heat, nothing gets big.\u201D As the sun\u2019s power increases and the temperature rises, everything is growing. At the height of summer, even the railroad rails expand, nearly closing the gaps between them. Asphalt roads go soft and spongy, as if they too are rising.",
+        "Once summer passes, some primary students have become middle schoolers, some middle schoolers have become college students. Advancing grades, skipping classes, faster or slower\u2014one must always grow. A northern farmer\u2019s proverb says: \u201COn the sixth of the sixth month, check if the grain has headed.\u201D Another says: \u201CIf the grain hasn\u2019t headed by the End of Heat, cut it down and feed it to the old ox.\u201D If crops don\u2019t grow when they should, or grow too slowly, there is no hope of harvest. People are the same\u2014we must seize the moment, seize the summer heat, and grow with all our might."
       ],
       writeChars: ["\u68da","\u82d4","\u85d3","\u576a","\u8517","\u7011","\u589e","\u7f1d","\u8c1a"],
+      vocabWords: [
+        {word:'飞快',pinyin:'fēi kuài',en:'extremely fast',sentence:'夏天的长是飞快的长，跳跃的长。',sentenceEn:'Summer growth is rapid, leaping growth.'},
+        {word:'苔藓',pinyin:'tái xiǎn',en:'moss',sentence:'一块白石头，几天不见，就长满了苔藓。',sentenceEn:'A white stone gets covered with moss in days.'},
+        {word:'谚语',pinyin:'yàn yǔ',en:'proverb',sentence:'北方农家的谚语说："六月六，看谷秀。"',sentenceEn:'A farmer’s proverb says: On the sixth of the sixth month, check the grain.'},
+        {word:'威力',pinyin:'wēi lì',en:'power; might',sentence:'随着太阳威力的增加，什么都在生长。',sentenceEn:'As the sun’s power increases, everything grows.'},
+        {word:'收成',pinyin:'shōu chéng',en:'harvest',sentence:'农作物到了该长的时候不长，就没有收成的希望。',sentenceEn:'Crops that do not grow when they should have no hope of harvest.'}
+      ],
+      grammarPoints: [
+        {point:'围绕中心句',pointEn:'wéi rào zhōng xīn jù',example:'writing around a central sentence',exampleEn:'夏天是万物迅速生长的季节。',explanation:'Summer is the season of rapid growth for all things.',explanationEn:'从不同角度围绕中心句展开论述'}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u627e\u51fa\u4e2d\u5fc3\u53e5\uff0c\u8bf4\u8bf4\u8bfe\u6587\u662f\u600e\u6837\u56f4\u7ed5\u8fd9\u53e5\u8bdd\u6765\u5199\u7684\u3002",en:"Read silently. Find the central sentence and explain how the text is organized around it."},
         {type:"think",cn:"\u7b2c2\u81ea\u7136\u6bb5\u5199\u5230\u4e86\u54ea\u4e9b\u52a8\u690d\u7269\uff0c\u662f\u600e\u6837\u4f53\u73b0\u8fd9\u4e00\u6bb5\u7684\u4e2d\u5fc3\u610f\u601d\u7684\uff1f",en:"What animals and plants are mentioned in paragraph 2? How do they illustrate the central idea?"}
@@ -554,6 +840,7 @@ units: [
     },
     {
       id: 17, title: "\u76fc", titleEn: "Longing",
+      difficulty: 4,
       text: [
         "\u6709\u4e00\u5929\uff0c\u5988\u5988\u4e0b\u73ed\u56de\u6765\uff0c\u9012\u7ed9\u6211\u4e00\u4e2a\u6241\u6241\u7684\u7eb8\u76d2\u5b50\u3002\u6211\u6253\u5f00\u4e00\u770b\uff0c\u662f\u4e00\u4ef6\u6de1\u7eff\u8272\u7684\u3001\u900f\u660e\u7684\u65b0\u96e8\u8863\u3002\u6211\u7acb\u523b\u5c31\u6296\u5f00\u96e8\u8863\u5f80\u8eab\u4e0a\u7a7f\u3002\u96e8\u8863\u4e0a\u7adf\u7136\u8fd8\u957f\u7740\u4e24\u53ea\u8896\u7b52\uff0c\u7a7f\u4e0a\u8fd9\u4ef6\u60c5\u51b5\u5c31\u4e0d\u540c\u4e86\uff0c\u7ba1\u4f60\u4e0b\u96e8\u4e0d\u4e0b\u96e8\uff0c\u60f3\u5e72\u4ec0\u4e48\u5c31\u5e72\u4ec0\u4e48\u3002",
         "\u6211\u5f00\u59cb\u76fc\u7740\u53d8\u5929\u3002\u53ef\u662f\u4e00\u8fde\u597d\u591a\u5929\uff0c\u767d\u5929\u5929\u4e0a\u90fd\u662f\u74e6\u84dd\u74e6\u84dd\u7684\uff0c\u591c\u665a\u53c8\u53d8\u6210\u6ee1\u5929\u661f\u6597\u3002\u6211\u7684\u96e8\u8863\u4e00\u76f4\u5b89\u5b89\u9759\u9759\u5730\u8eba\u5728\u76d2\u5b50\u91cc\u3002",
@@ -564,15 +851,22 @@ units: [
         "\u6211\u8d70\u5728\u8857\u4e0a\uff0c\u7529\u7740\u4e24\u53ea\u900f\u660e\u7684\u7eff\u8896\u5b50\uff0c\u89c9\u5f97\u597d\u50cf\u96e8\u70b9\u513f\u90fd\u7279\u522b\u7231\u5f80\u6211\u7684\u96e8\u8863\u4e0a\u843d\u3002\u5b83\u4eec\u5728\u6211\u7684\u5934\u9876\u548c\u80a9\u8180\u4e0a\u8d77\u52b2\u5730\u8df3\u8dc3\uff1a\u6ef4\u7b54\uff0c\u6ef4\u7b54\u6ef4\u7b54\u2026\u2026"
       ],
       textEn: [
-        "One day, Mom brought home a flat paper box. Inside was a pale green, transparent new raincoat. I immediately tried it on. It even had sleeves\u2014unlike a poncho, you could do anything while wearing it, rain or shine.",
+        "One day, Mom came home from work and handed me a flat paper box. I opened it and found a pale green, transparent new raincoat. I immediately shook it open and put it on. The raincoat actually even had two sleeves\u2014wearing this one made all the difference. Rain or no rain, you could do whatever you wanted.",
         "I began wishing for rain. But day after day the sky stayed bright blue, and nights were full of stars. My raincoat lay quietly in its box.",
-        "One day, near home, the little poplars suddenly rustled\u2014wind! Soon thick clouds rolled in, covering the sun. I raised my face excitedly, swung my school bag, and ran inside.",
-        "\u201CMom!\u201D I burst into the kitchen, desperate to go out. \u201CCan I buy soy sauce for you?\u201D I begged. But Mom needed nothing.",
+        "One day, almost home, the little poplars by the road suddenly rustled noisily\u2014no need to ask, the wind had picked up. Before long, several thick, plump clouds drifted over and blocked the sun. I raised my face excitedly, swung my school bag, and ran with big strides into the building entrance.",
+        "\u201CMom!\u201D I shouted as I dashed into the kitchen. \u201CBut\u2026 there\u2019s still half an hour to go,\u201D I mumbled. \u201CI\u2019m especially, especially not tired today. Mom, can I go buy soy sauce for you, please?\u201D I pleaded. But Mom didn\u2019t need anything.",
         "After dinner, the rain was still falling. I watched from the window, worrying: what if all the rain fell today and there was none left for tomorrow? Better save it for tomorrow.",
         "The next morning was quiet. I resolved to stop thinking about rain. But walking to school, drops fell on my forehead. I dashed home, triumphantly opened the closet, grabbed my raincoat, and declared: \u201CMom, it\u2019s raining! Still raining!\u201D",
         "I walked down the street, swinging my transparent green sleeves, feeling as if the raindrops especially loved landing on my raincoat. They bounced merrily on my head and shoulders: pitter-pat, pitter-patter\u2026"
       ],
       writeChars: ["\u8896","\u7bf7","\u7f29","\u75af","\u74e6","\u67dc","\u55a7","\u7529","\u56b7","\u9171","\u5507","\u8e66","\u68af"],
+      vocabWords: [
+        {word:'盼望',pinyin:'pàn wàng',en:'to long for; to yearn',sentence:'我开始盼着变天。',sentenceEn:'I began wishing for a change in the weather.'},
+        {word:'斗篷',pinyin:'dǒu péng',en:'poncho; cape',sentence:'穿上这件情况就不同了，管你下雨不下雨。',sentenceEn:'With this on, rain or not, you could do anything.'},
+        {word:'嚷',pinyin:'rǎng',en:'to yell; to shout',sentence:'妈妈！我嚷着奔进厨房。',sentenceEn:'Mom! I burst into the kitchen shouting.'},
+        {word:'理直气壮',pinyin:'lǐ zhí qì zhuàng',en:'with full confidence',sentence:'理直气壮地打开柜门，拿出雨衣。',sentenceEn:'I triumphantly opened the closet and grabbed my raincoat.'},
+        {word:'甩',pinyin:'shuǎi',en:'to swing; to fling',sentence:'我走在街上，甩着两只透明的绿袖子。',sentenceEn:'I walked down the street, swinging my transparent green sleeves.'}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u60f3\u60f3\u8bfe\u6587\u56f4\u7ed5\u201c\u76fc\u201d\u5199\u4e86\u201c\u6211\u201d\u7684\u54ea\u4e9b\u8868\u73b0\u3002",en:"Read silently. What actions around \u201Clonging\u201D are described?"},
         {type:"think",cn:"\u56f4\u7ed5\u201c\u76fc\u201d\u8fd9\u4e00\u5fc3\u7406\u6d3b\u52a8\uff0c\u54ea\u4e9b\u90e8\u5206\u5199\u5f97\u6bd4\u8f83\u5177\u4f53\uff1f\u8bf4\u8bf4\u597d\u5904\u3002",en:"Which parts are most vividly detailed? Discuss the effect."}
@@ -591,7 +885,38 @@ units: [
       {title:"\u7238\u7238\u7684\u8ba1\u5212",titleEn:"Dad\u2019s Plan",summary:{cn:"\u7f57\u5217\u7238\u7238\u7ed9\u6bcf\u4e2a\u4eba\u8ba2\u7684\u8ba1\u5212\uff0c\u7a81\u51fa\u4e86\u7238\u7238\u7231\u8ba2\u8ba1\u5212\u7684\u7279\u70b9\u3002",en:"Lists the plans Dad makes for everyone, highlighting his love of planning."}},
       {title:"\u5c0f\u7ad9",titleEn:"The Small Station",summary:{cn:"\u7528\u5c0f\u7ad9\u7684\u201c\u5c0f\u201d\u4e0e\u5de5\u4f5c\u4eba\u5458\u7684\u7528\u5fc3\u5f62\u6210\u5bf9\u6bd4\uff0c\u8868\u8fbe\u4e86\u5173\u7231\u4e0e\u6e29\u6696\u3002",en:"Contrasts the station\u2019s smallness with the workers\u2019 care, expressing warmth."}}
     ]},
-    composition: {title:"\u4e60\u4f5c\uff1a\u56f4\u7ed5\u4e2d\u5fc3\u610f\u601d\u5199",titleEn:"Composition: Writing Around a Central Idea",prompt:{cn:"\u9009\u62e9\u4e00\u4e2a\u611f\u53d7\u6700\u6df1\u7684\u6c49\u5b57\u5199\u4e00\u7bc7\u4e60\u4f5c\uff0c\u56f4\u7ed5\u4e2d\u5fc3\u610f\u601d\uff0c\u4ece\u4e0d\u540c\u65b9\u9762\u6216\u9009\u62e9\u4e0d\u540c\u4e8b\u4f8b\u6765\u5199\u3002",en:"Choose a Chinese character you feel deeply about and write a composition around it, using different aspects or examples."}},
+    composition: {title:"\u4e60\u4f5c\uff1a\u56f4\u7ed5\u4e2d\u5fc3\u610f\u601d\u5199",titleEn:"Composition: Writing Around a Central Idea",prompt:{cn:"\u9009\u62e9\u4e00\u4e2a\u611f\u53d7\u6700\u6df1\u7684\u6c49\u5b57\u5199\u4e00\u7bc7\u4e60\u4f5c\uff0c\u56f4\u7ed5\u4e2d\u5fc3\u610f\u601d\uff0c\u4ece\u4e0d\u540c\u65b9\u9762\u6216\u9009\u62e9\u4e0d\u540c\u4e8b\u4f8b\u6765\u5199\u3002",en:"Choose a Chinese character you feel deeply about and write a composition around it, using different aspects or examples."},modelEssays:[
+      {title:"\u6696",titleEn:"Warmth",level:"\u57fa\u7840",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u70b9\u660e\u4e2d\u5fc3\u5b57",en:"Opening: Introduce the central character"},
+        {cn:"\u4e2d\u95f4\uff1a\u4e24\u4e2a\u4e8b\u4f8b\u56f4\u7ed5\u201c\u6696\u201d",en:"Body: Two examples around \u201Cwarmth\u201D"},
+        {cn:"\u7ed3\u5c3e\uff1a\u56de\u6263\u4e2d\u5fc3\u5b57",en:"Ending: Return to the central character"}
+      ],
+      cn:"\u5982\u679c\u8ba9\u6211\u9009\u4e00\u4e2a\u5b57\u6765\u5f62\u5bb9\u6211\u7684\u751f\u6d3b\uff0c\u6211\u4f1a\u9009\u201c\u6696\u201d\u3002\n\n\u6bcf\u5929\u65e9\u4e0a\uff0c\u5988\u5988\u90fd\u4f1a\u6bd4\u6211\u65e9\u8d77\u534a\u5c0f\u65f6\uff0c\u7ed9\u6211\u51c6\u5907\u597d\u70ed\u4e4e\u4e4e\u7684\u65e9\u9910\u3002\u5f53\u6211\u63c9\u7740\u7761\u773c\u8d70\u5230\u9910\u684c\u524d\uff0c\u770b\u89c1\u51ac\u4e4e\u4e4e\u7684\u7ca5\u548c\u91d1\u9ec4\u7684\u714e\u86cb\uff0c\u5fc3\u91cc\u5c31\u89c9\u5f97\u6696\u6696\u7684\u3002\u5988\u5988\u603b\u8bf4\uff1a\u201c\u5403\u4e86\u65e9\u9910\u624d\u6709\u52b2\u513f\u4e0a\u5b66\u3002\u201d\u8fd9\u53e5\u8bdd\u5979\u8bf4\u4e86\u65e0\u6570\u904d\uff0c\u53ef\u6211\u6bcf\u6b21\u542c\u90fd\u89c9\u5f97\u5f88\u6e29\u6696\u3002\n\n\u5b66\u6821\u91cc\u4e5f\u6709\u201c\u6696\u201d\u3002\u6709\u4e00\u6b21\u4f53\u80b2\u8bfe\u4e0a\u6211\u6254\u4f24\u4e86\u811d\u818a\uff0c\u540c\u5b66\u4eec\u4e89\u5148\u6050\u540e\u5730\u5e2e\u5fd9\uff1a\u6709\u7684\u6276\u6211\u53bb\u533b\u52a1\u5ba4\uff0c\u6709\u7684\u5e2e\u6211\u62ff\u4e66\u5305\uff0c\u8fd8\u6709\u7684\u4e0b\u8bfe\u540e\u6765\u770b\u6211\u3002\u90a3\u4e00\u523b\uff0c\u6211\u89c9\u5f97\u540c\u5b66\u4eec\u5c31\u50cf\u51ac\u5929\u91cc\u7684\u5c0f\u592a\u9633\uff0c\u7167\u5f97\u6211\u5fc3\u91cc\u6696\u6696\u7684\u3002\n\n\u201c\u6696\u201d\u5b57\u867d\u7136\u7b80\u5355\uff0c\u5374\u88c5\u6ee1\u4e86\u7231\u3002\u5bb6\u4eba\u7684\u7231\u662f\u6696\uff0c\u670b\u53cb\u7684\u60c5\u4e5f\u662f\u6696\u3002\u6211\u5e0c\u671b\u81ea\u5df1\u4e5f\u80fd\u6210\u4e3a\u522b\u4eba\u751f\u6d3b\u91cc\u7684\u90a3\u4e00\u4efd\u201c\u6696\u201d\u3002",
+      en:"If I could choose one character to describe my life, I would choose \u201Cwarmth.\u201D\n\nEvery morning, Mom gets up half an hour before me to prepare a hot breakfast. When I shuffle to the table with sleepy eyes and see steaming porridge and golden fried eggs, my heart feels warm. Mom always says: \u201CEat breakfast and you\u2019ll have energy for school.\u201D She has said it countless times, but every time I hear it, I feel warm.\n\nSchool has \u201Cwarmth\u201D too. Once during P.E. I scraped my elbow. My classmates rushed to help: some supported me to the nurse\u2019s office, some carried my backpack, and others came to check on me after class. In that moment, I felt my classmates were like little suns in winter, warming my heart.\n\nThe character \u201Cwarmth\u201D is simple but holds so much love. Family\u2019s love is warmth; friends\u2019 care is also warmth. I hope I can become a source of \u201Cwarmth\u201D in others\u2019 lives too.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u56f4\u7ed5\u201c\u6696\u201d\u5b57\uff0c\u4ece\u5bb6\u5ead\u548c\u5b66\u6821\u4e24\u4e2a\u65b9\u9762\u5199\uff0c\u7ed3\u6784\u6e05\u6670\uff0c\u4e2d\u5fc3\u610f\u601d\u7a81\u51fa\u3002",
+      notesEn:"This essay centers on \u201Cwarmth\u201D with examples from family and school. The structure is clear and the central idea stands out."},
+      {title:"\u7532",titleEn:"First / Armor",level:"\u63d0\u9ad8",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u5f15\u51fa\u201c\u7532\u201d\u7684\u591a\u5c42\u542b\u4e49",en:"Opening: Introduce the multiple meanings of the character"},
+        {cn:"\u4e2d\u95f4\uff1a\u4ece\u4e0d\u540c\u89d2\u5ea6\u8be0\u91ca",en:"Body: Interpret from different angles"},
+        {cn:"\u7ed3\u5c3e\uff1a\u7edf\u4e00\u5404\u5c42\u542b\u4e49\uff0c\u6df1\u5316\u4e3b\u9898",en:"Ending: Unify meanings, deepen the theme"}
+      ],
+      cn:"\u201c\u7532\u201d\u662f\u4e00\u4e2a\u5f88\u6709\u610f\u601d\u7684\u5b57\u3002\u5b83\u53ef\u4ee5\u662f\u7b2c\u4e00\u540d\u7684\u201c\u7532\u201d\uff0c\u53ef\u4ee5\u662f\u62a4\u8eab\u7684\u201c\u94e0\u7532\u201d\uff0c\u8fd8\u53ef\u4ee5\u662f\u6307\u7532\u7684\u201c\u7532\u201d\u3002\u800c\u5728\u6211\u7684\u751f\u6d3b\u91cc\uff0c\u201c\u7532\u201d\u4ee3\u8868\u7684\u662f\u4e00\u79cd\u62fc\u6414\u7684\u7cbe\u795e\u3002\n\n\u8fd0\u52a8\u4f1a\u4e0a\uff0c\u6211\u53c2\u52a0\u4e86\u767e\u7c73\u8d5b\u8dd1\u3002\u67aa\u58f0\u54cd\u8d77\uff0c\u6211\u62fc\u547d\u5411\u524d\u51b2\uff0c\u53ef\u8dd1\u5230\u4e00\u534a\u5c31\u89c9\u5f97\u53cc\u817f\u50cf\u7070\u4e86\u4e00\u6837\u6c89\u91cd\u3002\u201c\u8981\u653e\u5f03\u5417\uff1f\u201d\u6211\u95ee\u81ea\u5df1\u3002\u201c\u4e0d\uff01\u201d\u6211\u54ac\u7d27\u7259\uff0c\u7528\u5c3d\u6700\u540e\u7684\u529b\u6c14\u51b2\u8fc7\u7ec8\u70b9\u3002\u867d\u7136\u6ca1\u62ff\u5230\u7b2c\u4e00\uff0c\u4f46\u6211\u6ca1\u6709\u653e\u5f03\u3002\n\n\u5b66\u4e60\u4e0a\u4e5f\u662f\u5982\u6b64\u3002\u6570\u5b66\u66fe\u662f\u6211\u7684\u5f31\u9879\uff0c\u6bcf\u6b21\u8003\u8bd5\u90fd\u4e0d\u7406\u60f3\u3002\u53ef\u6211\u6ca1\u6709\u653e\u5f03\uff0c\u6bcf\u5929\u591a\u82b1\u534a\u5c0f\u65f6\u7ec3\u4e60\uff0c\u4e0d\u61c2\u5c31\u95ee\u3002\u4e00\u5b66\u671f\u540e\uff0c\u6211\u7684\u6570\u5b66\u6210\u7ee9\u7ec8\u4e8e\u8fdb\u4e86\u73ed\u7ea7\u524d\u5341\u540d\u3002\u90a3\u4e00\u523b\uff0c\u6211\u7ec8\u4e8e\u660e\u767d\u4e86\u201c\u7532\u201d\u7684\u542b\u4e49\u2014\u2014\u4e0d\u662f\u7b2c\u4e00\u540d\u7684\u8363\u8000\uff0c\u800c\u662f\u8ffd\u6c42\u7b2c\u4e00\u7684\u52c7\u6c14\u3002\n\n\u201c\u7532\u201d\u5b57\u8fd8\u6709\u201c\u94e0\u7532\u201d\u7684\u610f\u601d\u3002\u6bcf\u6b21\u9047\u5230\u56f0\u96be\uff0c\u62fc\u6414\u7684\u7cbe\u795e\u5c31\u662f\u6211\u7684\u94e0\u7532\uff0c\u4fdd\u62a4\u6211\u4e0d\u8f7b\u6613\u653e\u5f03\u3002\u6211\u60f3\uff0c\u65e0\u8bba\u672a\u6765\u591a\u96be\uff0c\u6211\u90fd\u8981\u62ab\u7740\u8fd9\u526f\u201c\u7532\u201d\uff0c\u52c7\u5f80\u76f4\u524d\u3002",
+      en:"\u201CJia\u201D is a fascinating character. It can mean \u201Cfirst place,\u201D it can mean \u201Carmor,\u201D and it can mean \u201Cfingernail.\u201D In my life, \u201Cjia\u201D represents a spirit of striving.\n\nAt the sports meet, I entered the hundred-meter sprint. When the gun fired, I dashed forward, but halfway through my legs felt heavy as lead. \u201CShould I give up?\u201D I asked myself. \u201CNo!\u201D I clenched my teeth and used every last ounce of strength to cross the finish line. I didn\u2019t get first place, but I didn\u2019t give up.\n\nStudying was the same. Math was once my weakness \u2014 every test result was disappointing. But I didn\u2019t give up. I spent an extra half hour practicing every day and asked questions whenever I didn\u2019t understand. After a semester, my math score finally broke into the class top ten. In that moment, I understood the true meaning of \u201Cjia\u201D \u2014 it\u2019s not the glory of being first, but the courage to pursue it.\n\n\u201CJia\u201D also means \u201Carmor.\u201D Every time I face difficulty, the spirit of striving is my armor, protecting me from giving up easily. No matter how hard the future gets, I will wear this \u201Carmor\u201D and march forward.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u5229\u7528\u201c\u7532\u201d\u5b57\u7684\u591a\u4e49\u6027\u5c55\u5f00\uff0c\u4ece\u4e0d\u540c\u89d2\u5ea6\u8be0\u91ca\u540c\u4e00\u4e2a\u4e3b\u9898\uff0c\u6784\u601d\u5de7\u5999\u3002",
+      notesEn:"This essay leverages the polysemous nature of the character, interpreting the same theme from different angles with clever construction."},
+      {title:"\u7518",titleEn:"Sweet",level:"\u62d3\u5c55",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u4ece\u5473\u89c9\u5199\u5230\u5fc3\u7406",en:"Opening: From taste to feeling"},
+        {cn:"\u4e2d\u95f4\uff1a\u4e09\u4e2a\u4e8b\u4f8b\uff0c\u5c42\u5c42\u9012\u8fdb",en:"Body: Three examples, building progressively"},
+        {cn:"\u7ed3\u5c3e\uff1a\u8c61\u5f81\u610f\u4e49\u7684\u5347\u534e",en:"Ending: Symbolic elevation"}
+      ],
+      cn:"\u201c\u7518\u201d\u5b57\u5f88\u67d2\uff0c\u53ea\u6709\u4e94\u753b\uff0c\u53ef\u5b83\u7684\u6ee1\u5473\u5374\u53ef\u4ee5\u5f88\u4e30\u5bcc\u3002\n\n\u7b2c\u4e00\u79cd\u201c\u7518\u201d\uff0c\u662f\u5634\u91cc\u7684\u7518\u3002\u5916\u5a46\u5bb6\u7684\u7cd3\u5e74\u7cd5\uff0c\u5c0f\u65f6\u5019\u6211\u603b\u7f20\u7740\u5916\u5a46\u505a\u3002\u5979\u628a\u7cd8\u7c73\u84b8\u719f\uff0c\u4e00\u952e\u4e00\u952e\u5730\u6363\uff0c\u52a0\u5165\u7ea2\u67a3\u548c\u7ea2\u8c46\uff0c\u538b\u6210\u5706\u5706\u7684\u7cd5\u3002\u4e00\u53e3\u54ac\u4e0b\u53bb\uff0c\u7cd8\u7cd8\u7684\u3001\u751c\u751c\u7684\uff0c\u8fd9\u662f\u5916\u5a46\u7684\u5473\u9053\u3002\n\n\u7b2c\u4e8c\u79cd\u201c\u7518\u201d\uff0c\u662f\u82e6\u540e\u7684\u7518\u3002\u5b66\u4e60\u4e66\u6cd5\u65f6\uff0c\u6211\u7ec3\u4e86\u4e00\u5e74\u591a\u7684\u57fa\u672c\u7b14\u753b\uff0c\u67af\u71e5\u5f97\u51e0\u4e4e\u60f3\u653e\u5f03\u3002\u53ef\u5f53\u6211\u7b2c\u4e00\u6b21\u5199\u51fa\u4e00\u5e45\u88ab\u8001\u5e08\u5938\u5956\u7684\u4f5c\u54c1\u65f6\uff0c\u90a3\u79cd\u559c\u60a6\u5c31\u50cf\u5403\u4e86\u8702\u871c\u4e00\u6837\uff0c\u4ece\u5fc3\u5e95\u751c\u5230\u5634\u89d2\u3002\u6211\u660e\u767d\u4e86\uff0c\u8fd9\u79cd\u201c\u7518\u201d\u662f\u82e6\u7ec3\u51fa\u6765\u7684\u3002\n\n\u7b2c\u4e09\u79cd\u201c\u7518\u201d\uff0c\u662f\u5206\u4eab\u7684\u7518\u3002\u8fd0\u52a8\u4f1a\u4e0a\uff0c\u6211\u4eec\u73ed\u62ff\u4e86\u63a5\u529b\u8d5b\u7b2c\u4e00\u540d\u3002\u90a3\u4e00\u523b\uff0c\u6211\u4eec\u62b1\u5728\u4e00\u8d77\u6b22\u547c\uff0c\u6bcf\u4e2a\u4eba\u7684\u773c\u91cc\u90fd\u95ea\u7740\u5149\u3002\u8fd9\u79cd\u201c\u7518\u201d\uff0c\u6bd4\u4e00\u4e2a\u4eba\u5f97\u5230\u7684\u5956\u52b1\u66f4\u52a0\u751c\u7f8e\u3002\n\n\u201c\u7518\u201d\u5b57\u7684\u7ed3\u6784\u5f88\u50cf\u4e00\u4e2a\u7bb1\u5b50\uff0c\u91cc\u9762\u88c5\u7740\u4e16\u754c\u4e0a\u6700\u7f8e\u597d\u7684\u4e1c\u897f\uff1a\u4eb2\u60c5\u3001\u52aa\u529b\u548c\u53cb\u8c0a\u3002\u8fd9\u4e9b\uff0c\u624d\u662f\u751f\u6d3b\u4e2d\u6700\u6301\u4e45\u7684\u7518\u751c\u3002",
+      en:"\u201CSweet\u201D is a small character, just five strokes, but its flavor can be remarkably rich.\n\nThe first kind of \u201Csweet\u201D is sweetness on the tongue. Grandma\u2019s sticky rice cake \u2014 as a child, I always begged her to make it. She steamed the glutinous rice, pounded it piece by piece, added red dates and red beans, and pressed it into round cakes. One bite: sticky and sweet. That was the taste of Grandma.\n\nThe second kind of \u201Csweet\u201D is sweetness after bitterness. When learning calligraphy, I practiced basic strokes for over a year \u2014 so boring I nearly quit. But when I first wrote a piece the teacher praised, the joy was like tasting honey, sweetness flowing from my heart to the corners of my mouth. I understood: this kind of \u201Csweet\u201D comes from hard work.\n\nThe third kind of \u201Csweet\u201D is the sweetness of sharing. At the sports meet, our class won first place in the relay. In that moment, we hugged each other and cheered, everyone\u2019s eyes sparkling. This \u201Csweet\u201D is sweeter than any prize won alone.\n\nThe character \u201Csweet\u201D looks like a box, holding the most beautiful things in the world: family love, hard work, and friendship. These are life\u2019s most lasting sweetness.",
+      notes:"\u8fd9\u7bc7\u8303\u6587\u56f4\u7ed5\u201c\u7518\u201d\u5b57\u5206\u4e09\u5c42\u5199\uff08\u5473\u89c9\u7684\u7518\u3001\u82e6\u540e\u7684\u7518\u3001\u5206\u4eab\u7684\u7518\uff09\uff0c\u5c42\u5c42\u9012\u8fdb\uff0c\u7ed3\u5c3e\u628a\u5b57\u5f62\u4e0e\u5185\u6db5\u7ed3\u5408\uff0c\u6784\u601d\u7cbe\u5de7\u3002",
+      notesEn:"This essay writes about \u201Csweet\u201D in three layers (taste, reward after effort, sharing), builds progressively, and the ending creatively links the character\u2019s shape to its meaning \u2014 cleverly constructed."}
+    ]},
     wordSentence: {title:"\u8bcd\u53e5\u6bb5\u8fd0\u7528",titleEn:"Word & Sentence Practice",content:{cn:"\u56f4\u7ed5\u4e00\u4e2a\u610f\u601d\u8868\u8fbe\u65f6\uff0c\u8981\u5c06\u91cd\u8981\u90e8\u5206\u5199\u5f97\u8be6\u7ec6\u4e9b\u3001\u5177\u4f53\u4e9b\u3002",en:"When writing around a central idea, develop the important parts with detail and specifics."}}
   }
 },
@@ -599,21 +924,30 @@ units: [
 /*  UNIT 6 — 保护环境                          */
 /* ═══════════════════════════════════════════ */
 {
-  id: 6, title: "第六单元", titleEn: "Unit 6", type: "kewen",
+  id: 6, title: "第六单元", titleEn: "Unit 6",
+  difficulty: 4, type: "kewen",
   lessons: [
     {
       id: 18, title: "古诗三首", titleEn: "Three Classical Poems",
+      difficulty: 4,
       text: [
         "浪淘沙（其一）\n[唐] 刘禹锡\n九曲黄河万里沙，\n浪淘风簸自天涯。\n如今直上银河去，\n同到牵牛织女家。",
         "江南春\n[唐] 杜牧\n千里莺啼绿映红，\n水村山郭酒旗风。\n南朝四百八十寺，\n多少楼台烟雨中。",
         "书湖阴先生壁\n[宋] 王安石\n茅檐长扫净无苔，\n花木成畦手自栽。\n一水护田将绿绕，\n两山排闼送青来。"
       ],
       textEn: [
-        "Erta Waves of Sand (No. 1)\n[Tang] Liu Yuxi\nThe Yellow River winds ten thousand li through sand,\nWaves toss and winds blow from the edge of the sky.\nNow let us ride straight up to the Milky Way,\nAnd visit the homes of the Cowherd and Weaving Maid.",
+        "Waves of Sand (No. 1)\n[Tang] Liu Yuxi\nThe Yellow River winds ten thousand li through sand,\nWaves toss and winds blow from the edge of the sky.\nNow let us ride straight up to the Milky Way,\nAnd visit the homes of the Cowherd and Weaving Maid.",
         "Spring in Jiangnan\n[Tang] Du Mu\nFor a thousand li orioles sing amid red and green,\nWater villages, mountain towns, wine flags in the breeze.\nFour hundred and eighty temples of the Southern Dynasties—\nHow many towers and terraces lost in misty rain!",
         "Written on the Wall of Mr. Huyin's House\n[Song] Wang Anshi\nThe thatched eaves, long swept, are free of moss,\nFlower beds in neat rows, planted by his own hand.\nOne stream guards the fields, wrapping green around,\nTwo hills push open the gate, sending blue-green in."
       ],
       writeChars: ["涯","莺"],
+      vocabWords: [
+        {word:'浪淘沙',pinyin:'làng táo shā',en:'waves washing sand',sentence:'九曲黄河万里沙，浪淘风簸自天涯。',sentenceEn:'The Yellow River winds through sand, waves tossing from the edge of the sky.'},
+        {word:'莺啼',pinyin:'yīng tí',en:'orioles sing',sentence:'千里莺啼绿映红。',sentenceEn:'For a thousand li orioles sing amid red and green.'},
+        {word:'排闼',pinyin:'pái tà',en:'to push open the gate',sentence:'两山排闼送青来。',sentenceEn:'Two hills push open the gate, sending blue-green in.'},
+        {word:'酒旗',pinyin:'jiǔ qí',en:'wine flag; tavern banner',sentence:'水村山郭酒旗风。',sentenceEn:'Water villages, mountain towns, wine flags in the breeze.'},
+        {word:'茅檐',pinyin:'máo yán',en:'thatched eaves',sentence:'茅檐长扫净无苔。',sentenceEn:'The thatched eaves, long swept, are free of moss.'}
+      ],
       exercises: [
         {type:"recite",prompt:"有感情地朗读课文。背诵课文。",promptEn:"Read aloud with expression. Recite the poems from memory."},
         {type:"discuss",prompt:"读读《浪淘沙》（其一），说说你从哪里体会到了黄河的磅礴气势。",promptEn:"Read 'Waves of Sand' and tell where you feel the Yellow River's mighty power."},
@@ -625,6 +959,7 @@ units: [
     },
     {
       id: 19, title: "只有一个地球", titleEn: "Only One Earth",
+      difficulty: 4,
       text: [
         "据有幸飞上太空的宇航员介绍，他们在天际遨游时遥望地球，映入眼帘的是一个晶莹的球体，上面蓝色和白色的纹痕相互交错，周围裹着一层薄薄的水蓝色\u201c纱衣\u201d。地球，这位人类的母亲，这个生命的摇篮，是那样美丽壮观，和蔼可亲。",
         "但是，在群星璀璨的宇宙中，地球是一个半径约为6400千米的星球。同茫茫宇宙相比，地球是渺小的。它只有这么大，不会再长大。",
@@ -648,6 +983,16 @@ units: [
         "There is only one Earth. If it is destroyed, we have nowhere else to go. If all of Earth's resources are exhausted, we can hardly obtain replenishment from elsewhere. We must carefully protect Earth and its ecological environment. Let Earth better benefit our children and grandchildren!"
       ],
       writeChars: ["莹","裹","篮","蔼","资","矿","慷","慨","贡","滥","基","睹"],
+      vocabWords: [
+        {word:'晶莹',pinyin:'jīng yíng',en:'crystal-clear',sentence:'映入眼帘的是一个晶莹的球体。',sentenceEn:'What meets their eyes is a crystal-clear sphere.'},
+        {word:'渺小',pinyin:'miǎo xiǎo',en:'tiny; insignificant',sentence:'同茫茫宇宙相比，地球是渺小的。',sentenceEn:'Compared to the vast universe, Earth is tiny.'},
+        {word:'慷慨',pinyin:'kāng kǎi',en:'generous',sentence:'地球是无私的，它向人类慷慨地提供矿产资源。',sentenceEn:'Earth generously provides mineral resources to humanity.'},
+        {word:'枯竭',pinyin:'kū jié',en:'to be depleted',sentence:'必将加速地球上矿产资源的枯竭。',sentenceEn:'This will accelerate the depletion of mineral reserves.'},
+        {word:'生态',pinyin:'shēng tài',en:'ecology; ecological',sentence:'我们要精心地保护地球，保护地球的生态环境。',sentenceEn:'We must carefully protect Earth and its ecological environment.'}
+      ],
+      grammarPoints: [
+        {point:'层层论证',pointEn:'céng céng lùn zhèng',example:'step-by-step argumentation',exampleEn:'地球渺小→资源有限→不能移居→必须保护',explanation:'Earth is tiny, resources limited, cannot move, must protect.',explanationEn:'用层层递进的方式论证观点'}
+      ],
       exercises: [
         {type:"comprehension",prompt:"默读课文，结合关键句，说说课文讲了哪几个方面的内容。",promptEn:"Read silently and use key sentences to identify the main aspects the text covers."},
         {type:"discuss",prompt:"\u201c我们要精心地保护地球，保护地球的生态环境\u201d，这一结论是怎样一步步得出的？结合课文内容，和同学交流。",promptEn:"How is the conclusion 'We must carefully protect Earth' reached step by step? Discuss with classmates using the text."},
@@ -658,6 +1003,7 @@ units: [
     },
     {
       id: 20, title: "青山不老", titleEn: "The Green Mountains Never Grow Old",
+      difficulty: 4,
       isSelfRead: true,
       text: [
         "窗外是参天的杨柳。院子在山沟里，山上全是树。我们盘腿坐在土炕上，就像坐在船上，四周全是绿色的波浪，风一吹，树梢卷过涛声，叶间闪着粼粼的波光。",
@@ -677,6 +1023,13 @@ units: [
         "After viewing the trees, we said goodbye at the village entrance. The old man, leaning on his cane, slowly walked into his little courtyard where green breezes rippled. My nose stung with emotion—perhaps after he went in, he would never come out again. As a simple mountain farmer, this was how he realized his worth. He had already transformed his life into something else. He truly coexisted with the mountains and shone with the sun and moon.",
         "This ordinary old man taught me: the green mountains never grow old."
       ],
+      vocabWords: [
+        {word:'肆虐',pinyin:'sì nüè',en:'to ravage; to wreak havoc',sentence:'西伯利亚大风常来肆虐的地方。',sentenceEn:'A place frequently ravaged by Siberian winds.'},
+        {word:'盘踞',pinyin:'pán jù',en:'to occupy; to entrench',sentence:'干旱、霜冻、沙尘暴等怪物盘踞之地。',sentenceEn:'Where drought, frost, and sandstorms hold dominion.'},
+        {word:'绿洲',pinyin:'lǜ zhōu',en:'oasis',sentence:'竟创造了这块绿洲。',sentenceEn:'He had created this green oasis.'},
+        {word:'治理',pinyin:'zhì lǐ',en:'to manage; to reclaim',sentence:'六十五岁那年，他组织了七位老汉开始治理这条沟。',sentenceEn:'At sixty-five, he organized seven old men to start reclaiming this gully.'},
+        {word:'归宿',pinyin:'guī sù',en:'final resting place; destination',sentence:'屋后的青山就是生命的归宿。',sentenceEn:'The green mountains behind the house were his final resting place.'}
+      ],
       exercises: [
         {type:"comprehension",prompt:"默读课文，说说文中的老人创造了怎样的奇迹，是在什么样的条件下创造的。",promptEn:"Read silently and explain what miracle the old man created and under what conditions."},
         {type:"discuss",prompt:"再想想课文为什么以\u201c青山不老\u201d为题。",promptEn:"Think about why the text is titled 'The Green Mountains Never Grow Old.'"}
@@ -686,6 +1039,7 @@ units: [
     },
     {
       id: 21, title: "三黑和土地", titleEn: "Sanhei and the Land",
+      difficulty: 4,
       isSelfRead: true,
       text: [
         "农民一有了土地，\n就把整个生命投入了土地。\n活像旱天的鹅，\n一见了水就连头带尾巴钻进水里。",
@@ -721,6 +1075,13 @@ units: [
         "And buy a little donkey,\nAfter threshing, drive it to deliver the public grain;\nCarry his wife on it\nTo visit their daughter in the east village.",
         "Sanhei harrowed the land and thought:\nA liberated man's heart is truly sweet.\nHe grinned so wide he couldn't close his mouth.\nThe katydids in the field sang even more merrily."
       ],
+      vocabWords: [
+        {word:'翻身',pinyin:'fān shēn',en:'to be liberated; to turn over',sentence:'翻身的人儿心里真甜。',sentenceEn:'A liberated man’s heart is truly sweet.'},
+        {word:'耙地',pinyin:'bà dì',en:'to harrow the land',sentence:'地翻好，又耙了几遍，耙得又平又顺溜。',sentenceEn:'The land was turned, then harrowed several times, smooth and even.'},
+        {word:'土疙瘩',pinyin:'tǔ gē da',en:'clump of earth',sentence:'每一块土疙瘩都给细细打碎。',sentenceEn:'Every clump of earth was finely crumbled.'},
+        {word:'荞麦',pinyin:'qiáo mài',en:'buckwheat',sentence:'看见自己种的荞麦已经开花，白霎霎的像一片雪。',sentenceEn:'His buckwheat had bloomed, white as a blanket of snow.'},
+        {word:'蝈蝈',pinyin:'guō guō',en:'katydid',sentence:'荞麦地里还有两个蝈蝈儿在叫唤。',sentenceEn:'Two katydids were calling in the buckwheat field.'}
+      ],
       exercises: [
         {type:"comprehension",prompt:"有感情地朗读课文。说说三黑是怎样看待土地的。",promptEn:"Read with feeling. Explain how Sanhei views the land."},
         {type:"reflect",prompt:"读了这篇课文，你对脚下的土地有了什么新的感受？",promptEn:"After reading, what new feelings do you have about the land beneath your feet?"}
@@ -731,7 +1092,38 @@ units: [
   ],
   garden: {
     oralComm: {title:"口语交际：意见不同怎么办",titleEn:"Oral Communication: What to Do When Opinions Differ",prompt:{cn:"对生活中的很多事情，大家的意见会有分歧，需要协商才能解决。分小组选择一则材料进行讨论，分别选择一个角色，从这个角色出发阐述对问题的看法。",en:"People often disagree on everyday matters and need to negotiate solutions. In groups, choose a topic and role-play different perspectives."},tips:["准确把握别人的观点，不歪曲，不断章取义","尊重不同意见，讨论问题时态度要平和，以理服人"]},
-    composition: {title:"习作：学写倡议书",titleEn:"Composition: Writing a Proposal Letter",prompt:{cn:"如果你有一个想法希望得到大家的支持，并一起去实施，可以写一份倡议书。仿照例子，就你关心的问题写一份倡议书。",en:"If you have an idea you want others to support and act on, write a proposal letter. Following the example, write one about an issue you care about."}},
+    composition: {title:"习作：学写倡议书",titleEn:"Composition: Writing a Proposal Letter",prompt:{cn:"如果你有一个想法希望得到大家的支持，并一起去实施，可以写一份倡议书。仿照例子，就你关心的问题写一份倡议书。",en:"If you have an idea you want others to support and act on, write a proposal letter. Following the example, write one about an issue you care about."},modelEssays:[
+      {title:"\u5149\u76d8\u884c\u52a8\u5021\u8bae\u4e66",titleEn:"Proposal for Clean Plate Campaign",level:"\u57fa\u7840",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u63d0\u51fa\u95ee\u9898\u80cc\u666f",en:"Opening: Present the problem background"},
+        {cn:"\u4e2d\u95f4\uff1a\u5206\u6761\u9610\u8ff0\u5021\u8bae\u5185\u5bb9",en:"Body: Present proposal points"},
+        {cn:"\u7ed3\u5c3e\uff1a\u53f7\u53ec\u884c\u52a8",en:"Ending: Call to action"}
+      ],
+      cn:"\u5173\u4e8e\u5f00\u5c55\u201c\u5149\u76d8\u884c\u52a8\u201d\u7684\u5021\u8bae\u4e66\n\n\u4eb2\u7231\u7684\u540c\u5b66\u4eec\uff1a\n\n\u6700\u8fd1\uff0c\u6211\u6ce8\u610f\u5230\u5b66\u6821\u98df\u5802\u6bcf\u5929\u6d6a\u8d39\u7684\u7cae\u98df\u89e6\u76ee\u60ca\u5fc3\u3002\u636e\u7edf\u8ba1\uff0c\u5168\u56fd\u6bcf\u5e74\u88ab\u6d6a\u8d39\u7684\u7cae\u98df\u7ea6\u4e09\u5343\u4e94\u767e\u4e07\u5428\uff0c\u8fd9\u4e2a\u6570\u5b57\u4ee4\u4eba\u9707\u60ca\u3002\u201c\u8c01\u77e5\u76d8\u4e2d\u9910\uff0c\u7c92\u7c92\u7686\u8f9b\u82e6\u201d\uff0c\u6bcf\u4e00\u7c92\u7cae\u98df\u90fd\u6765\u4e4b\u4e0d\u6613\u3002\u4e3a\u6b64\uff0c\u6211\u5411\u5168\u4f53\u540c\u5b66\u53d1\u51fa\u4ee5\u4e0b\u5021\u8bae\uff1a\n\n\u4e00\u3001\u6309\u9700\u6253\u996d\uff0c\u5403\u591a\u5c11\u6253\u591a\u5c11\u3002\u4e0d\u6d6a\u8d39\u6bcf\u4e00\u7c92\u7c73\u996d\uff0c\u4e0d\u5012\u6389\u6bcf\u4e00\u53e3\u83dc\u3002\n\n\u4e8c\u3001\u5403\u996d\u65f6\u4e13\u5fc3\u81f4\u5fd7\uff0c\u4e0d\u8fb9\u5403\u8fb9\u73a9\uff0c\u517b\u6210\u826f\u597d\u7684\u996e\u98df\u4e60\u60ef\u3002\n\n\u4e09\u3001\u4e92\u76f8\u76d1\u7763\uff0c\u770b\u5230\u6d6a\u8d39\u73b0\u8c61\u53ca\u65f6\u63d0\u9192\u3002\u5f00\u5c55\u201c\u5149\u76d8\u5c0f\u660e\u661f\u201d\u8bc4\u9009\u6d3b\u52a8\uff0c\u6bcf\u5468\u8868\u5f70\u505a\u5f97\u597d\u7684\u540c\u5b66\u3002\n\n\u56db\u3001\u5411\u5bb6\u4eba\u5ba3\u4f20\u8282\u7ea6\u7406\u5ff5\uff0c\u8ba9\u201c\u5149\u76d8\u884c\u52a8\u201d\u4ece\u5b66\u6821\u8d70\u5411\u5bb6\u5ead\uff0c\u8d70\u5411\u793e\u4f1a\u3002\n\n\u540c\u5b66\u4eec\uff0c\u201c\u4e00\u7c92\u7c73\u5343\u6ef4\u6c57\u201d\uff0c\u8282\u7ea6\u7cae\u98df\u662f\u4e2d\u534e\u6c11\u65cf\u7684\u4f20\u7edf\u7f8e\u5fb7\u3002\u8ba9\u6211\u4eec\u4ece\u73b0\u5728\u505a\u8d77\uff0c\u4ece\u6bcf\u4e00\u9910\u505a\u8d77\uff0c\u4e00\u8d77\u52a0\u5165\u201c\u5149\u76d8\u884c\u52a8\u201d\uff01\n\n\u5021\u8bae\u4eba\uff1a\u516d\u5e74\u7ea7\u4e00\u73ed \u674e\u660e\n\u4e8c\u3007\u4e8c\u56db\u5e74\u5341\u6708\u4e8c\u5341\u65e5",
+      en:"Proposal for \u201CClean Plate Campaign\u201D\n\nDear fellow students,\n\nRecently, I noticed the shocking amount of food wasted in our school cafeteria every day. Statistics show that approximately 35 million tons of food are wasted nationwide each year \u2014 a staggering number. As the poem says, \u201CWho knows that the food on our plates, every grain came from hard labor.\u201D Every grain of food is hard-won. Therefore, I propose the following to all students:\n\n1. Take only what you need. Don\u2019t waste a single grain of rice or throw away any food.\n\n2. Focus on eating during meals. Don\u2019t eat while playing. Develop good eating habits.\n\n3. Supervise each other and remind others promptly when you see waste. Hold a weekly \u201CClean Plate Star\u201D award to recognize students who do well.\n\n4. Promote the concept of thrift to your families, extending the \u201CClean Plate Campaign\u201D from school to home and society.\n\nFellow students, \u201Ca thousand drops of sweat for a single grain of rice.\u201D Saving food is a traditional virtue of the Chinese nation. Let\u2019s start now, start with every meal, and join the \u201CClean Plate Campaign\u201D together!\n\nProposed by: Li Ming, Class 1, Grade 6\nOctober 20, 2024",
+      notes:"\u8fd9\u7bc7\u5021\u8bae\u4e66\u7ed3\u6784\u6e05\u6670\uff0c\u5206\u6761\u5217\u4e3e\u5021\u8bae\u5185\u5bb9\uff0c\u7528\u6570\u636e\u548c\u53e4\u8bd7\u589e\u5f3a\u8bf4\u670d\u529b\uff0c\u8bed\u8a00\u7b80\u6d01\u6709\u529b\u3002",
+      notesEn:"This proposal has a clear structure, lists points systematically, uses data and ancient poetry for persuasiveness, and employs concise, powerful language."},
+      {title:"\u4fdd\u62a4\u6821\u56ed\u7eff\u5316\u5021\u8bae\u4e66",titleEn:"Proposal for Protecting Campus Greenery",level:"\u63d0\u9ad8",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u63cf\u8ff0\u73b0\u72b6\u95ee\u9898",en:"Opening: Describe the current problem"},
+        {cn:"\u4e2d\u95f4\uff1a\u5206\u6790\u539f\u56e0\u5e76\u63d0\u51fa\u5efa\u8bae",en:"Body: Analyze causes and propose solutions"},
+        {cn:"\u7ed3\u5c3e\uff1a\u8868\u8fbe\u611f\u53ec\u4e0e\u671f\u671b",en:"Ending: Express appeal and expectations"}
+      ],
+      cn:"\u5173\u4e8e\u4fdd\u62a4\u6821\u56ed\u7eff\u5316\u7684\u5021\u8bae\u4e66\n\n\u5c0a\u656c\u7684\u8001\u5e08\u3001\u4eb2\u7231\u7684\u540c\u5b66\u4eec\uff1a\n\n\u6211\u4eec\u7684\u6821\u56ed\u66fe\u7ecf\u7eff\u6811\u6210\u836b\u3001\u9c9c\u82b1\u76db\u5f00\uff0c\u662f\u6211\u4eec\u5b66\u4e60\u7684\u7f8e\u4e3d\u5bb6\u56ed\u3002\u7136\u800c\uff0c\u6700\u8fd1\u6211\u53d1\u73b0\u4e00\u4e9b\u4ee4\u4eba\u75db\u5fc3\u7684\u73b0\u8c61\uff1a\u82b1\u575b\u91cc\u7684\u82b1\u8349\u88ab\u8e29\u8e0f\uff0c\u6811\u679d\u88ab\u6298\u65ad\uff0c\u8349\u5730\u4e0a\u4e22\u6ee1\u5783\u573e\u3002\u8fd9\u4e9b\u884c\u4e3a\u4e0d\u4ec5\u7834\u574f\u4e86\u6821\u56ed\u7684\u7f8e\u89c2\uff0c\u4e5f\u5f71\u54cd\u4e86\u6211\u4eec\u7684\u5b66\u4e60\u73af\u5883\u3002\n\n\u7ecf\u8fc7\u8c03\u67e5\uff0c\u6211\u53d1\u73b0\u4e3b\u8981\u539f\u56e0\u6709\u4e09\u70b9\uff1a\u4e00\u662f\u90e8\u5206\u540c\u5b66\u73af\u4fdd\u610f\u8bc6\u6de1\u8584\uff0c\u4e0d\u77e5\u9053\u8e29\u8e0f\u8349\u5730\u7684\u5371\u5bb3\uff1b\u4e8c\u662f\u6821\u56ed\u7ef4\u62a4\u4eba\u5458\u4e0d\u8db3\uff0c\u7ba1\u7406\u4e0d\u5230\u4f4d\uff1b\u4e09\u662f\u7f3a\u4e4f\u76f8\u5e94\u7684\u5956\u60e9\u5236\u5ea6\u3002\n\n\u4e3a\u6b64\uff0c\u6211\u63d0\u51fa\u4ee5\u4e0b\u5021\u8bae\uff1a\n\n\u7b2c\u4e00\uff0c\u6210\u7acb\u201c\u6821\u56ed\u7eff\u8272\u5c0f\u536b\u58eb\u201d\u5fd7\u613f\u961f\uff0c\u6bcf\u73ed\u9009\u51fa\u4e24\u540d\u5fd7\u613f\u8005\uff0c\u8d1f\u8d23\u5de1\u903b\u548c\u5ba3\u4f20\u3002\n\n\u7b2c\u4e8c\uff0c\u5f00\u5c55\u201c\u8ba4\u517b\u4e00\u68f5\u6811\u201d\u6d3b\u52a8\uff0c\u6bcf\u4e2a\u73ed\u7ea7\u8ba4\u517b\u4e00\u68f5\u6811\uff0c\u5b9a\u671f\u6d47\u6c34\u3001\u4fee\u526a\uff0c\u57f9\u517b\u540c\u5b66\u4eec\u7684\u8d23\u4efb\u5fc3\u3002\n\n\u7b2c\u4e09\uff0c\u8bbe\u7acb\u201c\u6700\u7f8e\u7eff\u8272\u73ed\u7ea7\u201d\u8bc4\u9009\uff0c\u6bcf\u6708\u8bc4\u6bd4\u5404\u73ed\u6240\u8d1f\u8d23\u7eff\u5316\u533a\u57df\u7684\u517b\u62a4\u60c5\u51b5\uff0c\u6fc0\u53d1\u5927\u5bb6\u7684\u79ef\u6781\u6027\u3002\n\n\u7b2c\u56db\uff0c\u5728\u6821\u56ed\u663e\u773c\u4f4d\u7f6e\u8bbe\u7f6e\u73af\u4fdd\u6807\u8bed\u724c\uff0c\u63d0\u9192\u5927\u5bb6\u7231\u62a4\u82b1\u8349\u6811\u6728\u3002\n\n\u6821\u56ed\u662f\u6211\u4eec\u5171\u540c\u7684\u5bb6\uff0c\u7eff\u8272\u662f\u6700\u7f8e\u7684\u8272\u5f69\u3002\u8ba9\u6211\u4eec\u643a\u8d77\u624b\u6765\uff0c\u7528\u884c\u52a8\u5b88\u62a4\u8fd9\u7247\u7eff\u8272\uff0c\u8ba9\u6821\u56ed\u56db\u5b63\u5982\u6625\uff01\n\n\u5021\u8bae\u4eba\uff1a\u516d\u5e74\u7ea7\u4e09\u73ed \u738b\u5c0f\u7ea2\n\u4e8c\u3007\u4e8c\u56db\u5e74\u5341\u4e00\u6708\u4e94\u65e5",
+      en:"Proposal for Protecting Campus Greenery\n\nDear teachers and fellow students,\n\nOur campus was once lush with green trees and blooming flowers \u2014 a beautiful home for learning. However, I recently noticed some distressing problems: flowers in the beds have been trampled, tree branches snapped, and the lawns littered with garbage. These behaviors not only damage the campus\u2019s beauty but also affect our learning environment.\n\nAfter investigating, I found three main causes: first, some students lack environmental awareness and don\u2019t understand the harm of trampling lawns; second, there are insufficient campus maintenance staff; third, there is no reward-and-penalty system.\n\nTherefore, I propose the following:\n\nFirst, establish a \u201CCampus Green Guardians\u201D volunteer team. Each class selects two volunteers responsible for patrol and promotion.\n\nSecond, launch an \u201CAdopt a Tree\u201D activity. Each class adopts a tree, regularly watering and pruning it, cultivating students\u2019 sense of responsibility.\n\nThird, create a \u201CGreenest Class\u201D monthly award, evaluating each class\u2019s care of their assigned green area to motivate everyone.\n\nFourth, place environmental slogans in prominent campus locations to remind everyone to care for plants.\n\nOur campus is our shared home, and green is the most beautiful color. Let us join hands, protect this greenery with action, and keep our campus like spring all year round!\n\nProposed by: Wang Xiaohong, Class 3, Grade 6\nNovember 5, 2024",
+      notes:"\u8fd9\u7bc7\u5021\u8bae\u4e66\u5148\u5206\u6790\u95ee\u9898\u539f\u56e0\uff0c\u518d\u63d0\u51fa\u89e3\u51b3\u65b9\u6848\uff0c\u903b\u8f91\u6e05\u6670\uff0c\u8bf4\u670d\u529b\u5f3a\u3002\u53f7\u53ec\u90e8\u5206\u4f7f\u7528\u6bd4\u55bb\u548c\u6392\u6bd4\uff0c\u589e\u5f3a\u611f\u67d3\u529b\u3002",
+      notesEn:"This proposal first analyzes the causes, then proposes solutions, with clear logic and strong persuasiveness. The appeal uses metaphor and parallelism for greater impact."},
+      {title:"\u5173\u7231\u7559\u5b88\u513f\u7ae5\u5021\u8bae\u4e66",titleEn:"Proposal for Caring for Left-Behind Children",level:"\u62d3\u5c55",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u63d0\u51fa\u793e\u4f1a\u73b0\u8c61",en:"Opening: Present a social phenomenon"},
+        {cn:"\u4e2d\u95f4\uff1a\u7528\u4e8b\u4f8b\u8bf4\u660e\u95ee\u9898\u5e76\u63d0\u5efa\u8bae",en:"Body: Use examples to illustrate and propose solutions"},
+        {cn:"\u7ed3\u5c3e\uff1a\u4e0a\u5347\u5230\u793e\u4f1a\u8d23\u4efb\u5c42\u9762",en:"Ending: Elevate to the level of social responsibility"}
+      ],
+      cn:"\u5173\u4e8e\u5173\u7231\u7559\u5b88\u513f\u7ae5\u7684\u5021\u8bae\u4e66\n\n\u4eb2\u7231\u7684\u540c\u5b66\u4eec\u3001\u5c0a\u656c\u7684\u5404\u754c\u4eba\u58eb\uff1a\n\n\u5728\u6211\u56fd\u5e7f\u5927\u519c\u6751\uff0c\u6709\u8fd9\u6837\u4e00\u7fa4\u5b69\u5b50\uff1a\u4ed6\u4eec\u7684\u7236\u6bcd\u8fdc\u5728\u4ed6\u4e61\u6253\u5de5\uff0c\u4ed6\u4eec\u5374\u7559\u5728\u5bb6\u4e2d\uff0c\u7531\u7956\u7236\u6bcd\u6216\u4eb2\u621a\u7167\u770b\u3002\u4ed6\u4eec\u88ab\u79f0\u4e3a\u201c\u7559\u5b88\u513f\u7ae5\u201d\u3002\u636e\u8c03\u67e5\uff0c\u5168\u56fd\u519c\u6751\u7559\u5b88\u513f\u7ae5\u7ea6\u6709\u516d\u767e\u591a\u4e07\u4eba\uff0c\u8fd9\u662f\u4e00\u4e2a\u5e9e\u5927\u800c\u9700\u8981\u5173\u7231\u7684\u7fa4\u4f53\u3002\n\n\u6211\u7684\u540c\u5b66\u5c0f\u6797\u5c31\u662f\u4e00\u540d\u7559\u5b88\u513f\u7ae5\u3002\u4ed6\u7684\u7236\u6bcd\u5728\u5916\u5730\u5de5\u4f5c\uff0c\u4e00\u5e74\u53ea\u56de\u6765\u4e00\u4e24\u6b21\u3002\u6bcf\u5f53\u5176\u4ed6\u540c\u5b66\u7684\u7236\u6bcd\u6765\u63a5\u9001\u65f6\uff0c\u5c0f\u6797\u603b\u662f\u9ed8\u9ed8\u5730\u770b\u7740\uff0c\u773c\u91cc\u5145\u6ee1\u7f21\u6155\u3002\u6709\u4e00\u6b21\u5199\u4f5c\u6587\uff0c\u9898\u76ee\u662f\u201c\u6211\u7684\u5988\u5988\u201d\uff0c\u5c0f\u6797\u5199\u9053\uff1a\u201c\u5988\u5988\uff0c\u60a8\u5728\u54ea\u91cc\uff1f\u6211\u597d\u60f3\u60a8\u2026\u2026\u201d\u770b\u5230\u8fd9\u91cc\uff0c\u6211\u7684\u773c\u6cf6\u6e7f\u6da6\u4e86\u3002\n\n\u7559\u5b88\u513f\u7ae5\u4eec\u9700\u8981\u7684\u4e0d\u4ec5\u662f\u7269\u8d28\u5e2e\u52a9\uff0c\u66f4\u9700\u8981\u60c5\u611f\u5173\u6000\u3002\u4e3a\u6b64\uff0c\u6211\u5021\u8bae\uff1a\n\n\u4e00\u3001\u5f00\u5c55\u201c\u624b\u62c9\u624b\u201d\u7ed3\u5bf9\u6d3b\u52a8\uff0c\u6bcf\u4f4d\u540c\u5b66\u4e0e\u4e00\u540d\u7559\u5b88\u513f\u7ae5\u7ed3\u6210\u5b66\u4e60\u4f19\u4f34\uff0c\u5171\u540c\u5b66\u4e60\u3001\u5171\u540c\u6e38\u620f\u3002\n\n\u4e8c\u3001\u5efa\u7acb\u201c\u7231\u5fc3\u4e66\u5c4b\u201d\uff0c\u53f7\u53ec\u5927\u5bb6\u6350\u732e\u8bfe\u5916\u4e66\u7c4d\uff0c\u4e30\u5bcc\u7559\u5b88\u513f\u7ae5\u7684\u8bfe\u4f59\u751f\u6d3b\u3002\n\n\u4e09\u3001\u5229\u7528\u8282\u5047\u65e5\u7ec4\u7ec7\u201c\u6e29\u6696\u5b63\u201d\u6d3b\u52a8\uff0c\u9080\u8bf7\u7559\u5b88\u513f\u7ae5\u5230\u5bb6\u4e2d\u505a\u5ba2\uff0c\u8ba9\u4ed6\u4eec\u611f\u53d7\u5bb6\u7684\u6e29\u6696\u3002\n\n\u56db\u3001\u5021\u8bae\u793e\u4f1a\u5404\u754c\u4eba\u58eb\u5173\u6ce8\u7559\u5b88\u513f\u7ae5\u95ee\u9898\uff0c\u4e3a\u4ed6\u4eec\u63d0\u4f9b\u5fc3\u7406\u8f85\u5bfc\u548c\u5b66\u4e1a\u5e2e\u52a9\u3002\n\n\u6bcf\u4e2a\u5b69\u5b50\u90fd\u5e94\u8be5\u88ab\u7231\u5305\u56f4\u3002\u5173\u7231\u7559\u5b88\u513f\u7ae5\uff0c\u4e0d\u662f\u67d0\u4e00\u4e2a\u4eba\u7684\u4e8b\uff0c\u800c\u662f\u5168\u793e\u4f1a\u7684\u8d23\u4efb\u3002\u8ba9\u6211\u4eec\u4f38\u51fa\u53cc\u624b\uff0c\u7528\u7231\u4e3a\u4ed6\u4eec\u6491\u8d77\u4e00\u7247\u6674\u6717\u7684\u5929\u7a7a\uff01\n\n\u5021\u8bae\u4eba\uff1a\u516d\u5e74\u7ea7\u4e8c\u73ed \u5f20\u96e8\u6674\n\u4e8c\u3007\u4e8c\u56db\u5e74\u5341\u4e8c\u6708\u4e00\u65e5",
+      en:"Proposal for Caring for Left-Behind Children\n\nDear fellow students and respected members of society,\n\nIn the vast rural areas of our country, there is a group of children whose parents work far from home. These children remain behind, cared for by grandparents or relatives. They are called \u201Cleft-behind children.\u201D According to surveys, there are approximately six million rural left-behind children nationwide \u2014 a large group that needs our care.\n\nMy classmate Xiao Lin is one such child. His parents work in another city and come home only once or twice a year. Whenever other students\u2019 parents come to pick them up, Xiao Lin watches silently, his eyes full of envy. Once during a writing assignment titled \u201CMy Mom,\u201D Xiao Lin wrote: \u201CMom, where are you? I miss you so much\u2026\u201D Reading this, my eyes grew moist.\n\nLeft-behind children need not only material help but also emotional care. Therefore, I propose:\n\n1. Launch a \u201CHand in Hand\u201D pairing activity. Each student pairs with a left-behind child as a study partner to learn and play together.\n\n2. Establish a \u201CLibrary of Love,\u201D calling on everyone to donate books to enrich left-behind children\u2019s after-school lives.\n\n3. Organize \u201CWarm Season\u201D events during holidays, inviting left-behind children to our homes to feel the warmth of family.\n\n4. Call upon all sectors of society to pay attention to left-behind children, providing them with psychological counseling and academic assistance.\n\nEvery child deserves to be surrounded by love. Caring for left-behind children is not one person\u2019s responsibility but all of society\u2019s. Let us extend our hands and hold up a bright sky for them with love!\n\nProposed by: Zhang Yuqing, Class 2, Grade 6\nDecember 1, 2024",
+      notes:"\u8fd9\u7bc7\u5021\u8bae\u4e66\u89c6\u89d2\u66f4\u5e7f\uff0c\u4ece\u4e2a\u4eba\u5c42\u9762\u4e0a\u5347\u5230\u793e\u4f1a\u5c42\u9762\u3002\u7528\u5c0f\u6797\u7684\u771f\u5b9e\u6545\u4e8b\u5f15\u53d1\u60c5\u611f\u5171\u9e23\uff0c\u589e\u5f3a\u611f\u67d3\u529b\uff0c\u662f\u8f83\u9ad8\u6c34\u5e73\u7684\u5021\u8bae\u4e66\u5199\u4f5c\u3002",
+      notesEn:"This proposal takes a broader perspective, elevating from personal to societal level. Xiao Lin\u2019s real story evokes emotional resonance, enhancing the impact. This represents a higher level of proposal writing."}
+    ]},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"读一读，说说这段话表达了怎样的观点。体会用具体事例和数据说明观点的方法。",en:"Read the passage and identify its viewpoint. Notice how concrete examples and data support the argument."}},
     accumulation: {title:"日积月累",titleEn:"Accumulation",items:[
       {cn:"五行：金、木、水、火、土",en:"Five Elements: metal, wood, water, fire, earth"},
@@ -745,10 +1137,12 @@ units: [
 /*  UNIT 7 — 艺术之美                          */
 /* ═══════════════════════════════════════════ */
 {
-  id: 7, title: "第七单元", titleEn: "Unit 7", type: "kewen",
+  id: 7, title: "第七单元", titleEn: "Unit 7",
+  difficulty: 4, type: "kewen",
   lessons: [
     {
       id: 22, title: "文言文二则", titleEn: "Two Classical Chinese Texts",
+      difficulty: 4,
       text: [
         "伯牙鼓琴\n伯牙鼓琴，锺子期听之。方鼓琴而志在太山，锺子期曰：\u201c善哉乎鼓琴，巍巍乎若太山。\u201d少选之间而志在流水，锺子期又曰：\u201c善哉乎鼓琴，汤汤乎若流水。\u201d锺子期死，伯牙破琴绝弦，终身不复鼓琴，以为世无足复为鼓琴者。",
         "书戴嵩画牛\n蜀中有杜处士，好书画，所宝以百数。有戴嵩《牛》一轴，尤所爱，锦囊玉轴，常以自随。\n一日曝书画，有一牧童见之，拊掌大笑，曰：\u201c此画斗牛也。牛斗，力在角，尾搐入两股间，今乃掉尾而斗，谬矣。\u201d处士笑而然之。古语有云：\u201c耕当问奴，织当问婢。\u201d不可改也。"
@@ -758,6 +1152,17 @@ units: [
         "On Dai Song's Painting of Bulls\nIn Shu there was a gentleman named Du who loved calligraphy and painting and treasured hundreds of works. He had one scroll of Dai Song's 'Bulls' that he loved above all, kept in a brocade bag with a jade roller, always carrying it with him.\nOne day he was airing his paintings when a shepherd boy saw it, clapped his hands and laughed aloud: 'This painting shows fighting bulls! When bulls fight, their strength is in their horns, and their tails are tucked between their legs. But here the tails are raised while fighting—that's wrong!' The gentleman laughed and agreed. As the old saying goes, 'Ask the farmhand about plowing, ask the maid about weaving.' This cannot be changed."
       ],
       writeChars: ["哉","巍","弦","锦","曝","矣"],
+      vocabWords: [
+        {word:'鼓琴',pinyin:'gǔ qín',en:'to play the qin',sentence:'伯牙鼓琴，锺子期听之。',sentenceEn:'Boya played the qin, and Zhong Ziqi listened.'},
+        {word:'巍巍',pinyin:'wēi wēi',en:'towering; lofty',sentence:'巍巍乎若太山。',sentenceEn:'Grand and towering like a great mountain.'},
+        {word:'汤汤',pinyin:'shāng shāng',en:'vast and sweeping (of water)',sentence:'汤汤乎若流水。',sentenceEn:'Vast and sweeping like flowing water.'},
+        {word:'知音',pinyin:'zhī yīn',en:'a true friend who understands',sentence:'以为世无足复为鼓琴者。',sentenceEn:'He believed there was no one left in the world worthy of his music.'},
+        {word:'拊掌',pinyin:'fǔ zhǎng',en:'to clap hands',sentence:'有一牧童见之，拊掌大笑。',sentenceEn:'A shepherd boy saw it and clapped his hands laughing.'}
+      ],
+      grammarPoints: [
+        {point:'文言文阅读',pointEn:'wén yán wén yuè dú',example:'classical Chinese reading',exampleEn:'伯牙破琴绝弦，终身不复鼓琴。',explanation:'Boya broke his qin and severed its strings, never playing again.',explanationEn:'借助注释理解文言文大意'},
+        {point:'实践出真知',pointEn:'shí jiàn chū zhēn zhī',example:'practice yields true knowledge',exampleEn:'耕当问奴，织当问婢。',explanation:'Ask the farmhand about plowing, ask the maid about weaving.',explanationEn:'实际经验比书本知识更可靠'}
+      ],
       exercises: [
         {type:"recite",prompt:"正确、流利地朗读课文。背诵《伯牙鼓琴》。",promptEn:"Read the texts correctly and fluently. Recite 'Boya Plays the Qin' from memory."},
         {type:"discuss",prompt:"\u201c伯牙破琴绝弦，终身不复鼓琴，以为世无足复为鼓琴者。\u201d说说这句话的意思，再结合\u201c资料袋\u201d和同学交流感受。",promptEn:"Explain the meaning of 'Boya broke his qin and severed its strings...' and share your feelings with classmates using the reference materials."},
@@ -768,6 +1173,7 @@ units: [
     },
     {
       id: 23, title: "月光曲", titleEn: "Moonlight Sonata",
+      difficulty: 4,
       text: [
         "两百多年前，德国有个音乐家叫贝多芬，他谱写了许多著名的乐曲。其中有一首著名的钢琴曲叫《月光曲》，传说是这样谱成的。",
         "有一年秋天，贝多芬去各地旅行演出，来到莱茵河边的一个小镇上。一天夜晚，他在幽静的小路上散步，听到断断续续的钢琴声从一所茅屋里传出来，弹的正是他的曲子。",
@@ -795,6 +1201,16 @@ units: [
         "The brother and sister were intoxicated by the beautiful music. By the time they came to their senses, Beethoven had long since left the cottage. He rushed back to his inn and spent the entire night recording the piece he had just played—the 'Moonlight Sonata.'"
       ],
       writeChars: ["谱","莱","茵","盲","纯","键","缕","陶"],
+      vocabWords: [
+        {word:'纯熟',pinyin:'chún shú',en:'skillful; proficient',sentence:'弹得多纯熟哇！感情多深哪！',sentenceEn:'Such mastery! Such deep feeling!'},
+        {word:'清幽',pinyin:'qīng yōu',en:'serene; tranquil',sentence:'月光照进窗子，显得格外清幽。',sentenceEn:'Moonlight streamed in, making it extraordinarily serene.'},
+        {word:'微波粼粼',pinyin:'wēi bō lín lín',en:'rippling gently',sentence:'微波粼粼的海面上，霎时间洒满了银光。',sentenceEn:'Silver light scattered across the rippling surface.'},
+        {word:'陶醉',pinyin:'táo zuì',en:'intoxicated; enchanted',sentence:'兄妹俩被美妙的琴声陶醉了。',sentenceEn:'The brother and sister were intoxicated by the beautiful music.'},
+        {word:'恬静',pinyin:'tián jìng',en:'tranquil; peaceful',sentence:'月光正照在她那恬静的脸上。',sentenceEn:'Moonlight fell on her tranquil face.'}
+      ],
+      grammarPoints: [
+        {point:'联想和想象',pointEn:'lián xiǎng hé xiǎng xiàng',example:'association and imagination',exampleEn:'他好像面对着大海，月亮正从水天相接的地方升起来。',explanation:'It was as if he were facing the sea, with the moon rising where water met sky.',explanationEn:'用联想和想象将音乐转化为画面'}
+      ],
       exercises: [
         {type:"comprehension",prompt:"有感情地朗读课文。说说贝多芬为什么弹琴给盲姑娘听，为什么弹完一曲又弹一曲。",promptEn:"Read with expression. Explain why Beethoven played for the blind girl and why he played a second piece."},
         {type:"recite",prompt:"反复朗读第9自然段，想象描绘的画面，感受乐曲的美妙，再背诵下来。",promptEn:"Read paragraph 9 repeatedly, imagine the scenes described, feel the beauty of the music, then recite it from memory."},
@@ -805,6 +1221,7 @@ units: [
     },
     {
       id: 24, title: "京剧趣谈", titleEn: "Fun Facts About Peking Opera",
+      difficulty: 4,
       isSelfRead: true,
       text: [
         "马鞭\n中国古人时常要骑马。可骑马在舞台上没办法表现，舞台方圆太小，马匹是无法驰骋的。真马出现在舞台上，演员也怕它失去控制。京剧继承、发展了中国传统戏曲的表现手段，终于战胜了这种尴尬——用一根小小的马鞭就彻底解决了，而且解决得无比漂亮。这种表演方式十分符合中国的美学。巨大的马匹被整个省略，但骑马人那种特定和优美的姿态却鲜明地显现出来。同时这一根虚拟的马鞭，给演员以无穷无尽的表演自由：可以高扬，可以低垂；可以跑半天还在家门口，可以一抬手就走了一百里。马鞭本身具备一种装饰的美，而且不同人物在使用马鞭时，也各自形成了一套约定俗成的方法。",
@@ -822,6 +1239,13 @@ units: [
         "The question is fair, but this is precisely the brilliance of Peking opera artistry. As the saying goes, 'Stillness is better than motion,' and as an ancient poem states, 'At such a moment, silence surpasses sound.' Stillness accentuates the fighters' supreme skill and their confidence in victory.",
         "There is also the 'weapon exit,' which can be seen as a dynamic pose. During a battle, one side is defeated and runs off. But the victor does not give chase. Instead, they stay center stage and twirl their weapon—a saber or spear—in a whirlwind of motion. Is this even theater? Isn't it more like acrobatics? Exactly right! This is the acrobatic element in Peking opera, a tradition since ancient times that survives today. Its purpose is to showcase the hero's daring spirit."
       ],
+      vocabWords: [
+        {word:'马鞭',pinyin:'mǎ biān',en:'horse whip; riding crop',sentence:'用一根小小的马鞭就彻底解决了。',sentenceEn:'A simple riding crop solved the problem brilliantly.'},
+        {word:'虚拟',pinyin:'xū nǐ',en:'virtual; imaginary',sentence:'京剧还有一些虚拟的道具。',sentenceEn:'Peking opera also has virtual props.'},
+        {word:'亮相',pinyin:'liàng xiàng',en:'to strike a pose',sentence:'双方脸对着脸，眼睛对着眼睛，一切都像被定身术给制服了。',sentenceEn:'Face to face, eyes locked, as if some spell had immobilized them all.'},
+        {word:'戛然而止',pinyin:'jiá rán ér zhǐ',en:'to stop abruptly',sentence:'那紧张而又整齐的锣鼓声忽然一停，人物的动作也戛然而止。',sentenceEn:'The drumbeats suddenly stopped, and the actors froze.'},
+        {word:'约定俗成',pinyin:'yuē dìng sú chéng',en:'established by convention',sentence:'不同人物在使用马鞭时，形成了一套约定俗成的方法。',sentenceEn:'Different characters have developed their own established ways of using the whip.'}
+      ],
       exercises: [
         {type:"comprehension",prompt:"默读课文，说说你对京剧有了哪些了解。",promptEn:"Read silently and share what you have learned about Peking opera."},
         {type:"explore",prompt:"课后有兴趣的同学可以看看京剧，并和同学交流。",promptEn:"If interested, watch a Peking opera performance and discuss it with classmates."}
@@ -832,7 +1256,38 @@ units: [
   ],
   garden: {
     oralComm: {title:"口语交际：聊聊书法",titleEn:"Oral Communication: Let's Talk About Calligraphy",prompt:{cn:"书法是我们的国粹，散发着艺术的魅力。你知道哪些著名的书法家？你学习过书法吗？你认为练习书法有什么益处？",en:"Calligraphy is a national treasure full of artistic charm. Do you know any famous calligraphers? Have you practiced calligraphy? What benefits does it offer?"},tips:["有条理地表达，如分点说明","对感兴趣的话题深入交谈"]},
-    composition: {title:"习作：我的拿手好戏",titleEn:"Composition: My Best Trick",prompt:{cn:"你的拿手好戏是什么？写下来和同学交流。想想哪些内容先写、后写，哪些是重点部分，哪些可以写得简略些。",en:"What is your best talent or skill? Write about it and share. Think about what to write first, what is the key part, and what can be kept brief."}},
+    composition: {title:"习作：我的拿手好戏",titleEn:"Composition: My Best Trick",prompt:{cn:"你的拿手好戏是什么？写下来和同学交流。想想哪些内容先写、后写，哪些是重点部分，哪些可以写得简略些。",en:"What is your best talent or skill? Write about it and share. Think about what to write first, what is the key part, and what can be kept brief."},modelEssays:[
+      {title:"\u6211\u7684\u62ff\u624b\u597d\u620f\u2014\u2014\u70e7\u83dc",titleEn:"My Best Trick \u2014 Cooking",level:"\u57fa\u7840",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u4ecb\u7ecd\u81ea\u5df1\u7684\u62ff\u624b\u597d\u620f",en:"Opening: Introduce my best skill"},
+        {cn:"\u4e2d\u95f4\uff1a\u5177\u4f53\u5c55\u793a\u4e00\u6b21\u70e7\u83dc\u8fc7\u7a0b",en:"Body: Show a specific cooking experience in detail"},
+        {cn:"\u7ed3\u5c3e\uff1a\u611f\u60df\u4e0e\u6536\u83b7",en:"Ending: Reflections and gains"}
+      ],
+      cn:"\u8981\u8bf4\u6211\u7684\u62ff\u624b\u597d\u620f\uff0c\u90a3\u5c31\u662f\u70e7\u83dc\u3002\u522b\u770b\u6211\u5e74\u7eaa\u5c0f\uff0c\u5728\u53a8\u623f\u91cc\u53ef\u662f\u6709\u6a21\u6709\u6837\u7684\u3002\n\n\u8bf4\u8d77\u5b66\u70e7\u83dc\uff0c\u8fd8\u5f97\u611f\u8c22\u5988\u5988\u3002\u4e09\u5e74\u7ea7\u65f6\uff0c\u5988\u5988\u5f00\u59cb\u6559\u6211\u505a\u7b80\u5355\u7684\u83DC\u3002\u4ece\u716e\u9762\u6761\u5230\u7092\u9e21\u86cb\uff0c\u6162\u6162\u5730\uff0c\u6211\u80fd\u505a\u7684\u83dc\u8d8a\u6765\u8d8a\u591a\u3002\n\n\u4eca\u5e74\u7238\u7238\u751f\u65e5\uff0c\u6211\u51b3\u5b9a\u4eb2\u624b\u505a\u4e00\u9053\u201c\u7cd6\u918b\u6392\u9aa8\u201d\u3002\u6211\u5148\u628a\u6392\u9aa8\u6d17\u51c0\u5207\u5757\uff0c\u7528\u6599\u9152\u3001\u751f\u62bd\u3001\u59dc\u7247\u814c\u5236\u534a\u5c0f\u65f6\u3002\u7136\u540e\u5728\u6392\u9aa8\u4e0a\u88f9\u4e00\u5c42\u8584\u8584\u7684\u6dc0\u7c89\uff0c\u4e0b\u6cb9\u9505\u714e\u81f3\u91d1\u9ec4\u3002\u8fd9\u4e00\u6b65\u6700\u9700\u8981\u8010\u5fc3\uff0c\u706b\u5019\u5927\u4e86\u4f1a\u7cca\uff0c\u5c0f\u4e86\u53c8\u4e0d\u591f\u9999\u3002\u6211\u5c4f\u4f4f\u547c\u5438\uff0c\u8c28\u614e\u5730\u7ffb\u52a8\u6bcf\u4e00\u5757\u6392\u9aa8\uff0c\u76f4\u5230\u5b83\u4eec\u53d8\u5f97\u91d1\u7078\u7078\u7684\u3002\u63a5\u7740\uff0c\u6211\u8c03\u597d\u7cd6\u918b\u6c41\uff1a\u767d\u7cd6\u3001\u918b\u3001\u756a\u8304\u9171\u3001\u751f\u62bd\uff0c\u6bd4\u4f8b\u8981\u521a\u521a\u597d\u3002\u5c06\u7cd6\u918b\u6c41\u6d47\u5728\u6392\u9aa8\u4e0a\uff0c\u7ffb\u7092\u5747\u5300\uff0c\u518d\u6492\u4e0a\u767d\u829d\u9ebb\u3002\n\n\u7238\u7238\u5c1d\u4e86\u7b2c\u4e00\u53e3\uff0c\u7741\u5927\u4e86\u773c\u775b\uff1a\u201c\u8fd9\u771f\u662f\u4f60\u505a\u7684\uff1f\u592a\u597d\u5403\u4e86\uff01\u201d\u90a3\u4e00\u523b\uff0c\u6211\u5fc3\u91cc\u7f8e\u6ecb\u6ecb\u7684\u3002\n\n\u70e7\u83dc\u8ba9\u6211\u660e\u767d\uff0c\u53ea\u8981\u7528\u5fc3\u53bb\u505a\uff0c\u5c31\u80fd\u628a\u7b80\u5355\u7684\u98df\u6750\u53d8\u6210\u7f8e\u5473\u4f73\u80b4\uff0c\u628a\u7231\u548c\u5e78\u798f\u4f20\u9012\u7ed9\u5bb6\u4eba\u3002",
+      en:"When it comes to my best trick, it has to be cooking. Don\u2019t be fooled by my age \u2014 I look quite the part in the kitchen.\n\nI have my mom to thank for teaching me. In third grade, she started showing me simple dishes. From boiling noodles to scrambling eggs, gradually I could cook more and more.\n\nThis year for Dad\u2019s birthday, I decided to make \u201Csweet and sour ribs\u201D from scratch. First, I washed and cut the ribs, then marinated them for half an hour with cooking wine, soy sauce, and ginger slices. Then I coated each piece with a thin layer of starch and pan-fried them until golden. This step requires the most patience \u2014 too much heat and they burn; too little and they\u2019re not crispy enough. I held my breath, carefully turning each piece until they were perfectly golden. Next, I mixed the sauce: white sugar, vinegar, ketchup, and soy sauce in just the right ratio. I poured the sauce over the ribs, stir-fried until evenly coated, and sprinkled white sesame seeds on top.\n\nDad took his first bite and widened his eyes: \u201CYou really made this? It\u2019s delicious!\u201D In that moment, my heart was bursting with joy.\n\nCooking has taught me that with heart and effort, you can transform simple ingredients into delicious dishes, and pass on love and happiness to your family.",
+      notes:"\u8fd9\u7bc7\u4f5c\u6587\u4ee5\u4e00\u6b21\u5177\u4f53\u7684\u70e7\u83dc\u7ecf\u5386\u4e3a\u4e3b\uff0c\u8fc7\u7a0b\u63cf\u5199\u8be6\u7ec6\uff0c\u52a8\u4f5c\u3001\u5fc3\u7406\u63cf\u5199\u81ea\u7136\uff0c\u7ed3\u5c3e\u5347\u534e\u4e3b\u9898\u3002",
+      notesEn:"This essay centers on one specific cooking experience with detailed process description, natural action and psychological descriptions, and a thematic elevation at the end."},
+      {title:"\u6211\u7684\u62ff\u624b\u597d\u620f\u2014\u2014\u4e66\u6cd5",titleEn:"My Best Trick \u2014 Calligraphy",level:"\u63d0\u9ad8",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u8bbe\u7f6e\u60ac\u5ff5\u5f15\u5165",en:"Opening: Create suspense to draw in the reader"},
+        {cn:"\u4e2d\u95f4\uff1a\u5b66\u4e60\u8fc7\u7a0b\u4e0e\u5c55\u793a\u573a\u666f",en:"Body: Learning process and showcase scene"},
+        {cn:"\u7ed3\u5c3e\uff1a\u611f\u609f\u4e0e\u6210\u957f",en:"Ending: Insight and growth"}
+      ],
+      cn:"\u201c\u8bf7\u6b23\u8d4f\u516d\u5e74\u7ea7\u4e09\u73ed\u738b\u6d69\u7136\u540c\u5b66\u7684\u4e66\u6cd5\u8868\u6f14\uff01\u201d\u4e3b\u6301\u4eba\u7684\u58f0\u97f3\u54cd\u8d77\uff0c\u6211\u6df1\u5438\u4e00\u53e3\u6c14\uff0c\u8d70\u4e0a\u4e86\u5b66\u6821\u827a\u672f\u8282\u7684\u821e\u53f0\u3002\n\n\u5b66\u4e66\u6cd5\u5df2\u7ecf\u56db\u5e74\u4e86\u3002\u521a\u5f00\u59cb\uff0c\u6211\u8fde\u6bdb\u7b14\u90fd\u63e1\u4e0d\u7a33\uff0c\u5199\u51fa\u7684\u5b57\u50cf\u4e00\u53ea\u53ea\u6b6a\u6b6a\u626d\u626d\u7684\u866b\u5b50\u3002\u8001\u5e08\u8010\u5fc3\u5730\u6559\u6211\uff1a\u201c\u4e66\u6cd5\u8bb2\u7a76\u2018\u6c38\u5b57\u516b\u6cd5\u2019\uff0c\u6a2a\u5982\u5343\u91cc\u9635\u4e91\uff0c\u70b9\u5982\u9ad8\u5cf0\u5760\u77f3\u2026\u2026\u201d\u6211\u4ece\u6700\u57fa\u672c\u7684\u7b14\u753b\u5f00\u59cb\u7ec3\u4e60\uff0c\u65e5\u590d\u4e00\u65e5\u3002\u51ac\u5929\uff0c\u624b\u51bb\u5f97\u7ea2\u80bf\uff0c\u6211\u6342\u70ed\u4e86\u53c8\u7ee7\u7eed\u5199\uff1b\u590f\u5929\uff0c\u6c57\u6c34\u6ef4\u5728\u7eb8\u4e0a\uff0c\u6211\u64e6\u5e72\u4e86\u518d\u6765\u3002\n\n\u4e09\u5e74\u7ea7\u65f6\uff0c\u6211\u7b2c\u4e00\u6b21\u53c2\u52a0\u4e66\u6cd5\u6bd4\u8d5b\u5c31\u83b7\u5f97\u4e86\u94f6\u5956\u3002\u4ece\u90a3\u4ee5\u540e\uff0c\u6211\u66f4\u52a0\u52e4\u594b\u7ec3\u4e60\uff0c\u4ece\u6977\u4e66\u5230\u884c\u4e66\uff0c\u4ece\u4e34\u5e16\u5230\u521b\u4f5c\uff0c\u4e00\u6b65\u6b65\u8d70\u6765\u3002\n\n\u6b64\u523b\uff0c\u6211\u5728\u821e\u53f0\u4e0a\u94fa\u5f00\u5ba3\u7eb8\uff0c\u63d0\u8d77\u6bdb\u7b14\u3002\u58a8\u6c41\u987a\u7740\u7b14\u950b\u6d41\u6dcc\uff0c\u201c\u6d77\u7eb3\u767e\u5ddd\uff0c\u6709\u5bb9\u4e43\u5927\u201d\u516b\u4e2a\u5927\u5b57\u4e00\u6c14\u547c\u6210\u3002\u53f0\u4e0b\u7206\u53d1\u51fa\u70ed\u70c8\u7684\u638c\u58f0\u3002\u6211\u653e\u4e0b\u7b14\uff0c\u770b\u7740\u81ea\u5df1\u7684\u4f5c\u54c1\uff0c\u5fc3\u4e2d\u6ee1\u662f\u81ea\u8c6a\u3002\n\n\u4e66\u6cd5\u6559\u4f1a\u6211\uff1a\u4e16\u4e0a\u65e0\u96be\u4e8b\uff0c\u53ea\u6015\u6709\u5fc3\u4eba\u3002\u6bcf\u4e00\u7b14\u6bcf\u4e00\u753b\u7684\u78e8\u7ec3\uff0c\u90fd\u662f\u5bf9\u81ea\u5df1\u7684\u8d85\u8d8a\u3002\u8fd9\u4e0d\u4ec5\u662f\u6211\u7684\u62ff\u624b\u597d\u620f\uff0c\u66f4\u662f\u6211\u4e00\u751f\u7684\u8d22\u5bcc\u3002",
+      en:"\u201CNow please enjoy the calligraphy performance by Wang Haoran from Class 3, Grade 6!\u201D As the host\u2019s voice rang out, I took a deep breath and walked onto the stage at our school\u2019s art festival.\n\nI\u2019ve been studying calligraphy for four years. At the start, I couldn\u2019t even hold the brush properly, and my characters looked like wobbly worms. My teacher patiently instructed me: \u201CCalligraphy follows the \u2018Eight Principles of Yong\u2019 \u2014 the horizontal stroke should be like clouds stretching a thousand miles, the dot like a boulder falling from a peak\u2026\u201D I practiced from the most basic strokes, day after day. In winter, my hands turned red and swollen with cold; I warmed them and kept writing. In summer, sweat dripped onto the paper; I wiped it dry and continued.\n\nIn third grade, I won a silver award in my first calligraphy competition. After that, I practiced even harder, progressing from regular script to running script, from copying masterworks to creating my own pieces, step by step.\n\nNow, on stage, I spread out the rice paper and raised my brush. Ink flowed along the brush tip as I wrote eight grand characters in one breath: \u201CThe sea embraces all rivers; tolerance makes greatness.\u201D The audience erupted in thunderous applause. Setting down my brush, I looked at my work, my heart swelling with pride.\n\nCalligraphy has taught me: nothing in the world is impossible for the determined. Every stroke, every practice, is a way of surpassing yourself. This is not just my best trick \u2014 it is a lifelong treasure.",
+      notes:"\u8fd9\u7bc7\u4f5c\u6587\u7528\u73b0\u573a\u8868\u6f14\u5f00\u5934\uff0c\u518d\u56de\u5fc6\u5b66\u4e60\u8fc7\u7a0b\uff0c\u524d\u540e\u7167\u5e94\u3002\u5fc3\u7406\u63cf\u5199\u7ec6\u817b\uff0c\u8fc7\u7a0b\u8be6\u7565\u5f97\u5f53\u3002",
+      notesEn:"This essay opens with a live performance scene, then flashes back to the learning journey, creating a before-and-after echo. Psychological descriptions are nuanced and the pacing of detail is well-managed."},
+      {title:"\u6211\u7684\u62ff\u624b\u597d\u620f\u2014\u2014\u9b54\u65b9",titleEn:"My Best Trick \u2014 Rubik\u2019s Cube",level:"\u62d3\u5c55",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u4ee5\u573a\u666f\u5f00\u7bc7\uff0c\u8bbe\u7f6e\u60ac\u5ff5",en:"Opening: Scene-setting with suspense"},
+        {cn:"\u4e2d\u95f4\uff1a\u7a7f\u63d2\u5b66\u4e60\u7ecf\u5386\u4e0e\u6bd4\u8d5b\u573a\u666f",en:"Body: Interweave learning journey and competition scene"},
+        {cn:"\u7ed3\u5c3e\uff1a\u54f2\u7406\u5347\u534e",en:"Ending: Philosophical elevation"}
+      ],
+      cn:"\u201c\u4e09\u3001\u4e8c\u3001\u4e00\uff0c\u5f00\u59cb\uff01\u201d\u88c1\u5224\u4e00\u58f0\u4ee4\u4e0b\uff0c\u6211\u7684\u53cc\u624b\u50cf\u4e24\u53ea\u7075\u6d3b\u7684\u5c0f\u9e1f\uff0c\u5728\u9b54\u65b9\u4e0a\u98de\u901f\u65cb\u8f6c\u3002\u5468\u56f4\u7684\u89c2\u4f17\u5c4f\u4f4f\u547c\u5438\uff0c\u53ea\u542c\u89c1\u201c\u5580\u55d2\u5580\u55d2\u201d\u7684\u58f0\u97f3\u3002\u4e8c\u5341\u4e09\u79d2\uff01\u6211\u628a\u6062\u590d\u597d\u7684\u9b54\u65b9\u9ad8\u9ad8\u4e3e\u8d77\u2014\u2014\u516d\u4e2a\u9762\uff0c\u516d\u79cd\u989c\u8272\uff0c\u6574\u6574\u9f50\u9f50\u3002\n\n\u8c01\u80fd\u60f3\u5230\uff0c\u4e00\u5e74\u524d\u7684\u6211\uff0c\u8fde\u6700\u7b80\u5355\u7684\u201c\u5e95\u5c42\u5341\u5b57\u201d\u90fd\u62fc\u4e0d\u51fa\u6765\u3002\u56db\u5e74\u7ea7\u751f\u65e5\u65f6\uff0c\u7238\u7238\u9001\u6211\u4e00\u4e2a\u9b54\u65b9\uff0c\u6211\u62ff\u5728\u624b\u91cc\u8f6c\u4e86\u534a\u5929\uff0c\u8d8a\u8f6c\u8d8a\u4e71\u3002\u4e8e\u662f\u6211\u4e0a\u7f51\u641c\u7d22\u6559\u7a0b\uff0c\u4e00\u4e2a\u516c\u5f0f\u4e00\u4e2a\u516c\u5f0f\u5730\u80cc\uff0c\u4e00\u4e2a\u6b65\u9aa4\u4e00\u4e2a\u6b65\u9aa4\u5730\u7ec3\u3002\u6700\u521d\u6062\u590d\u4e00\u4e2a\u9b54\u65b9\u9700\u8981\u5341\u5206\u949f\uff0c\u6211\u4e0d\u7518\u5fc3\uff0c\u5f00\u59cb\u7814\u7a76\u201cCFOP\u201d\u9ad8\u7ea7\u65b9\u6cd5\u3002\u6bcf\u5929\u653e\u5b66\u540e\uff0c\u6211\u90fd\u4f1a\u62ff\u51fa\u9b54\u65b9\u7ec3\u4e60\u4e00\u4e2a\u5c0f\u65f6\uff0c\u624b\u6307\u90fd\u78e8\u51fa\u4e86\u8585\u3002\n\n\u4e09\u4e2a\u6708\u540e\uff0c\u6211\u80fd\u5728\u4e00\u5206\u949f\u5185\u6062\u590d\uff1b\u534a\u5e74\u540e\uff0c\u6211\u7a81\u7834\u4e86\u4e09\u5341\u79d2\uff1b\u73b0\u5728\uff0c\u6211\u7684\u6700\u597d\u6210\u7ee9\u662f\u4e8c\u5341\u4e09\u79d2\u3002\u5728\u5168\u5e02\u5c0f\u5b66\u751f\u9b54\u65b9\u6bd4\u8d5b\u4e2d\uff0c\u6211\u83b7\u5f97\u4e86\u4e00\u7b49\u5956\u3002\n\n\u7ad9\u5728\u9886\u5956\u53f0\u4e0a\uff0c\u6211\u7ebf\u7740\u624b\u4e2d\u7684\u9b54\u65b9\u60f3\uff1a\u5b83\u591a\u50cf\u751f\u6d3b\u554a\u3002\u770b\u4f3c\u6742\u4e71\u65e0\u5e8f\uff0c\u53ea\u8981\u627e\u5230\u6b63\u786e\u7684\u65b9\u6cd5\uff0c\u4e00\u6b65\u4e00\u6b65\u575a\u6301\u4e0b\u53bb\uff0c\u7ec8\u7a76\u80fd\u8ba9\u6bcf\u4e00\u9762\u90fd\u5f52\u4f4d\u3002\u8fd9\u4e2a\u5c0f\u5c0f\u7684\u65b9\u5757\uff0c\u6559\u4f1a\u6211\u7684\u4e0d\u53ea\u662f\u901f\u5ea6\uff0c\u66f4\u662f\u89e3\u51b3\u95ee\u9898\u7684\u667a\u6167\u548c\u6c38\u4e0d\u653e\u5f03\u7684\u6bc5\u529b\u3002",
+      en:"\u201CThree, two, one, go!\u201D At the referee\u2019s command, my hands flew like two nimble birds, spinning the Rubik\u2019s Cube at dizzying speed. The audience around me held their breath, hearing only the rapid \u201Cclick-click-click.\u201D Twenty-three seconds! I held the solved cube high \u2014 six faces, six colors, perfectly aligned.\n\nWho would have thought that a year ago, I couldn\u2019t even solve the simplest \u201Cbottom cross\u201D? On my birthday in fourth grade, Dad gave me a Rubik\u2019s Cube. I turned it around for ages, making it more and more scrambled. So I searched online for tutorials, memorizing formulas one by one, practicing steps one by one. At first, solving one cube took ten minutes. Unsatisfied, I began studying the advanced \u201CCFOP\u201D method. Every day after school, I practiced for an hour, until my fingers developed calluses.\n\nAfter three months, I could solve it within a minute. After six months, I broke thirty seconds. Now, my personal best is twenty-three seconds. In the citywide elementary school Rubik\u2019s Cube competition, I won first prize.\n\nStanding on the podium, I looked at the cube in my hand and thought: it\u2019s so much like life. It seems chaotic and disordered, but as long as you find the right method and persist step by step, you can eventually get every face in place. This little cube has taught me not just speed, but the wisdom to solve problems and the determination to never give up.",
+      notes:"\u8fd9\u7bc7\u4f5c\u6587\u4ee5\u6bd4\u8d5b\u573a\u666f\u5f00\u7bc7\uff0c\u5012\u53d9\u5b66\u4e60\u8fc7\u7a0b\uff0c\u7ed3\u5c3e\u7528\u9b54\u65b9\u7c7b\u6bd4\u4eba\u751f\uff0c\u5bcc\u6709\u54f2\u7406\u3002\u7ec6\u8282\u63cf\u5199\u751f\u52a8\uff0c\u8282\u594f\u5f20\u5f1b\u6709\u81f4\u3002",
+      notesEn:"This essay opens with a competition scene, flashes back to the learning journey, and ends by comparing the Rubik\u2019s Cube to life, rich in philosophy. Vivid details and well-paced rhythm throughout."}
+    ]},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"日常生活中使用的一些词语与戏曲有关。读一读下面的词语，交流它们的意思：亮相、行当、压轴、行头、跑龙套、唱白脸、花架子、对台戏、粉墨登场、字正腔圆、有板有眼、科班出身。",en:"Some everyday expressions are related to opera. Discuss the meaning of these terms: 'make an appearance,' 'role type,' 'grand finale,' 'costume,' 'play a minor role,' etc."}},
     accumulation: {title:"日积月累",titleEn:"Accumulation",items:[
       {cn:"高山流水",en:"lofty mountains and flowing water (sublime music)"},
@@ -854,10 +1309,12 @@ units: [
 /*  UNIT 8 — 走近鲁迅                          */
 /* ═══════════════════════════════════════════ */
 {
-  id: 8, title: "第八单元", titleEn: "Unit 8", type: "kewen",
+  id: 8, title: "第八单元", titleEn: "Unit 8",
+  difficulty: 4, type: "kewen",
   lessons: [
     {
       id: 25, title: "少年闰土", titleEn: "Young Runtu",
+      difficulty: 4,
       text: [
         "深蓝的天空中挂着一轮金黄的圆月，下面是海边的沙地，都种着一望无际的碧绿的西瓜，其间有一个十一二岁的少年，项带银圈，手捏一柄钢叉，向一匹猹尽力的刺去，那猹却将身一扭，反从他的胯下逃走了。",
         "这少年便是闰土。我认识他时，也不过十多岁，离现在将有三十年了；那时我的父亲还在世，家景也好，我正是一个少爷。那一年，我家是一件大祭祀的值年。这祭祀，说是三十多年才能轮到一回，所以很郑重；正月里供祖像，供品很多，祭器很讲究，拜的人也很多，祭器也很要防偷去。我家只有一个忙月（我们这里给人做工的分三种：整年给一定人家做工的叫长年；按日给人做工的叫短工；自己也种地，只在过年过节以及收租时候来给一定的人家做工的称忙月），忙不过来，他便对父亲说，可以叫他的儿子闰土来管祭器的。",
@@ -885,6 +1342,16 @@ units: [
         "Sadly, the first month ended and Runtu had to go home. I cried bitterly; he too hid in the kitchen, weeping, refusing to leave, but in the end his father took him away. Later he sent me, through his father, a packet of shells and some beautiful bird feathers. I sent him a thing or two as well, but from then on we never met again."
       ],
       writeChars: ["郑","拜","租","厨","毡","羞","撒","缚","猬","伶","俐","窜"],
+      vocabWords: [
+        {word:'一望无际',pinyin:'yī wàng wú jì',en:'stretching endlessly',sentence:'下面是海边的沙地，都种着一望无际的碧绿的西瓜。',sentenceEn:'Below was the sandy shore planted with endless jade-green watermelons.'},
+        {word:'素不知道',pinyin:'sù bù zhī dào',en:'never knew; had no idea',sentence:'我素不知道天下有这许多新鲜事。',sentenceEn:'I had never known the world held such wonders.'},
+        {word:'无穷无尽',pinyin:'wú qióng wú jìn',en:'infinite; endless',sentence:'闰土的心里有无穷无尽的希奇的事。',sentenceEn:'Runtu’s mind held infinite marvels.'},
+        {word:'郑重',pinyin:'zhèng zhòng',en:'solemn; serious',sentence:'这祭祀说是三十多年才能轮到一回，所以很郑重。',sentenceEn:'The sacrifice came around only once in thirty years, so it was very solemn.'},
+        {word:'如许',pinyin:'rú xǔ',en:'so many; such',sentence:'海边有如许五色的贝壳。',sentenceEn:'The seashore had so many colorful shells.'}
+      ],
+      grammarPoints: [
+        {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'the technique of contrast',exampleEn:'他们都和我一样只看见院子里高墙上的四角的天空。',explanation:'They, like me, could see only the small square of sky above the high walls.',explanationEn:'用闰土丰富的生活经验与"我"狭窄的世界形成对比'}
+      ],
       exercises: [
         {type:"recite",prompt:"有感情地朗读课文。背诵第1自然段，体会闰土在\u201c我\u201d心中的美好形象。",promptEn:"Read with expression. Recite paragraph 1, feeling Runtu's beautiful image in 'my' heart."},
         {type:"discuss",prompt:"课文写了月下看瓜刺猹的闰土、初次相识时的闰土、给\u201c我\u201d讲新鲜事的闰土。结合相关内容，说说闰土是个怎样的少年。",promptEn:"The text shows Runtu guarding melons under the moon, meeting 'me' for the first time, and telling wondrous stories. What kind of boy was Runtu?"},
@@ -896,6 +1363,7 @@ units: [
     },
     {
       id: 26, title: "好的故事", titleEn: "A Good Story",
+      difficulty: 4,
       text: [
         "灯火渐渐地缩小了，在预告石油的已经不多；石油又不是老牌，早熏得灯罩很昏暗。鞭爆的繁响在四近，烟草的烟雾在身边：是昏沉的夜。",
         "我闭了眼睛，向后一仰，靠在椅背上；捏着《初学记》的手搁在膝髁上。",
@@ -925,6 +1393,13 @@ units: [
         "But I always remember having seen this good story, in the drowsy night...\nFebruary 24, 1925."
       ],
       writeChars: ["搁","综","澄","萍","藻","漾","焰","削","瞬","凝","骤","掷","陡"],
+      vocabWords: [
+        {word:'蒙胧',pinyin:'méng lóng',en:'hazy; dim',sentence:'我在蒙胧中，看见一个好的故事。',sentenceEn:'In a haze, I saw a good story.'},
+        {word:'错综',pinyin:'cuò zōng',en:'intricate; interwoven',sentence:'许多美的人和美的事，错综起来像一天云锦。',sentenceEn:'Many beautiful people and things interwove like a tapestry of clouds.'},
+        {word:'澄碧',pinyin:'chéng bì',en:'crystal-clear and green',sentence:'都倒影在澄碧的小河中。',sentenceEn:'All reflected in the crystal-clear river.'},
+        {word:'凝视',pinyin:'níng shì',en:'to gaze intently',sentence:'我就要凝视他们。',sentenceEn:'I was about to gaze at them.'},
+        {word:'皱蹙',pinyin:'zhòu cù',en:'crumpled; furrowed',sentence:'云锦也已皱蹙，凌乱。',sentenceEn:'The cloud tapestry was already crumpled and disordered.'}
+      ],
       exercises: [
         {type:"comprehension",prompt:"\u201c好的故事\u201d其实是一个梦境。这故事的美丽、幽雅、有趣体现在哪里？结合课文内容说一说。",promptEn:"'The good story' is actually a dream. Where does its beauty, elegance, and interest lie? Discuss using the text."},
         {type:"discuss",prompt:"结合\u201c阅读链接\u201d中的材料，说说对课文最后两个自然段的理解。",promptEn:"Using the reading link materials, share your understanding of the last two paragraphs."},
@@ -935,6 +1410,7 @@ units: [
     },
     {
       id: 27, title: "我的伯父鲁迅先生", titleEn: "My Uncle Mr. Lu Xun",
+      difficulty: 4,
       isSelfRead: true,
       text: [
         "伯父鲁迅先生在世的时候，我年纪还小，根本不知道鲁迅是谁，以为伯父就是伯父，跟任何人的伯父一样。伯父去世了，他的遗体躺在万国殡仪馆的礼堂里，许多人都来追悼他，向他致敬，有的甚至失声痛哭。数不清的挽联挂满了墙壁，大大小小的花圈堆满了整间屋子。送挽联送花圈的有工人，有学生，各色各样的人都有。那时候我有点儿惊异了，为什么伯父得到这么多人的爱戴？我呆呆地望着来来往往吊唁的人，想到我永远见不到伯父的面了，听不到他的声音了，也得不到他的爱抚了，泪珠就一滴一滴地掉下来。",
@@ -956,6 +1432,16 @@ units: [
         "After Uncle passed away, I met his servant Ah San. She was a worker's wife whose husband had lost his job. Her eyes had become cloudy with worry, seeing everything blurred as if through fog. She told me about Uncle's last days: 'Mr. Zhou was terribly ill himself, yet he still wrote articles deep into the night. Sometimes I'd hear him coughing and coughing, and I felt so sorry for him. He didn't care about his own illness at all, but he often told me to rest more and not do heavy work.'",
         "Indeed, that was the kind of person my uncle was—he thought little of himself and much of others."
       ],
+      vocabWords: [
+        {word:'囫囵吞枣',pinyin:'hú lún tūn zǎo',en:'to swallow dates whole (read without understanding)',sentence:'我读《水浒传》不过囫囵吞枣地看一遍。',sentenceEn:'I had only gulped through Water Margin once.'},
+        {word:'张冠李戴',pinyin:'zhāng guān lǐ dài',en:'to attribute to the wrong person',sentence:'伯父问我的时候，我就张冠李戴地乱说一气。',sentenceEn:'When Uncle asked me questions, I got everything jumbled.'},
+        {word:'饱经风霜',pinyin:'bǎo jīng fēng shuāng',en:'to have weathered many hardships',sentence:'饱经风霜的脸上现出难以忍受的痛苦。',sentenceEn:'His weather-beaten face showed unbearable pain.'},
+        {word:'碰壁',pinyin:'pèng bì',en:'to hit a wall (to be blocked or persecuted)',sentence:'可是到了后来，碰了几次壁，把鼻子碰扁了。',sentenceEn:'But later, I bumped into walls a few times and flattened my nose.'},
+        {word:'追悼',pinyin:'zhuī dào',en:'to mourn; to pay tribute',sentence:'许多人都来追悼他，向他致敬。',sentenceEn:'Many people came to mourn him and pay respects.'}
+      ],
+      grammarPoints: [
+        {point:'用事写人',pointEn:'yòng shì xiě rén',example:'revealing character through events',exampleEn:'伯父就是这样的一个人，他为自己想得少，为别人想得多。',explanation:'That was the kind of person my uncle was — he thought little of himself and much of others.',explanationEn:'通过多件具体事例展现人物品质'}
+      ],
       exercises: [
         {type:"comprehension",prompt:"用较快的速度默读课文，想想课文写了关于鲁迅的哪几件事，给每件事加个小标题。",promptEn:"Skim the text quickly. Identify the episodes about Lu Xun and give each a short title."},
         {type:"discuss",prompt:"再结合资料和同学交流：课文中的鲁迅给你留下了怎样的印象？",promptEn:"Using additional materials, discuss with classmates: what impression does Lu Xun leave on you?"}
@@ -965,6 +1451,7 @@ units: [
     },
     {
       id: 28, title: "有的人——纪念鲁迅有感", titleEn: "Some People — In Memory of Lu Xun",
+      difficulty: 4,
       isSelfRead: true,
       text: [
         "有的人活着，\n他已经死了；\n有的人死了，\n他还活着。",
@@ -984,6 +1471,16 @@ units: [
         "Those who carve their names into stone—\nTheir names rot faster than their corpses;\nWherever the spring wind blows,\nEverywhere is green, green wild grass.",
         "Those whose living means others cannot live—\nTheir fate is plain to see;\nThose who live for the many to live better—\nThe masses raise them high, so high."
       ],
+      vocabWords: [
+        {word:'俯下身子',pinyin:'fǔ xià shēn zi',en:'to bend down',sentence:'有的人俯下身子给人民当牛马。',sentenceEn:'Some people bend down to serve the people as ox and horse.'},
+        {word:'不朽',pinyin:'bù xiǔ',en:'immortal; everlasting',sentence:'把名字刻入石头，想"不朽"。',sentenceEn:'They carve their names into stone, seeking immortality.'},
+        {word:'野草',pinyin:'yě cǎo',en:'wild grass',sentence:'有的人情愿作野草，等着地下的火烧。',sentenceEn:'Some would rather be wild grass, waiting for underground fire to burn.'},
+        {word:'抬举',pinyin:'tái jǔ',en:'to raise high; to hold in esteem',sentence:'群众把他抬举得很高，很高。',sentenceEn:'The masses raise them high, so high.'},
+        {word:'摔垮',pinyin:'shuāi kuǎ',en:'to topple; to overthrow',sentence:'骑在人民头上的，人民把他摔垮。',sentenceEn:'Those who ride on the people — the people topple them.'}
+      ],
+      grammarPoints: [
+        {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'the technique of contrast',exampleEn:'有的人活着，他已经死了；有的人死了，他还活着。',explanation:'Some are alive but already dead; some are dead but still live.',explanationEn:'用鲜明对比揭示两种截然不同的人生价值'}
+      ],
       exercises: [
         {type:"recite",prompt:"有感情地读一读，结合本单元的课文和你查找的资料，说说鲁迅是一个怎样的人。",promptEn:"Read with feeling. Drawing on this unit's texts and your research, describe what kind of person Lu Xun was."}
       ],
@@ -992,7 +1489,38 @@ units: [
     }
   ],
   garden: {
-    composition: {title:"习作：有你，真好",titleEn:"Composition: Having You Is Wonderful",prompt:{cn:"看到\u201c有你，真好\u201d这句话，你想到了谁？为什么觉得有他\u201c真好\u201d？哪件事让你感触比较深？拿起笔，表达你真挚的情感吧！",en:"When you see 'Having you is wonderful,' who comes to mind? Why do you feel it's wonderful to have them? What event moved you deeply? Pick up your pen and express your sincere feelings!"}},
+    composition: {title:"习作：有你，真好",titleEn:"Composition: Having You Is Wonderful",prompt:{cn:"看到\u201c有你，真好\u201d这句话，你想到了谁？为什么觉得有他\u201c真好\u201d？哪件事让你感触比较深？拿起笔，表达你真挚的情感吧！",en:"When you see 'Having you is wonderful,' who comes to mind? Why do you feel it's wonderful to have them? What event moved you deeply? Pick up your pen and express your sincere feelings!"},modelEssays:[
+      {title:"\u6709\u4f60\uff0c\u771f\u597d\u2014\u2014\u5988\u5988",titleEn:"Having You Is Wonderful \u2014 Mom",level:"\u57fa\u7840",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u76f4\u63a5\u62b9\u60c5",en:"Opening: Express feelings directly"},
+        {cn:"\u4e2d\u95f4\uff1a\u4e24\u4e2a\u5177\u4f53\u4e8b\u4f8b",en:"Body: Two specific examples"},
+        {cn:"\u7ed3\u5c3e\uff1a\u611f\u6069\u4e0e\u8868\u767d",en:"Ending: Gratitude and declaration"}
+      ],
+      cn:"\u5988\u5988\uff0c\u6709\u4f60\uff0c\u771f\u597d\u3002\n\n\u8bb0\u5f97\u90a3\u6b21\u6211\u53d1\u9ad8\u70e7\uff0c\u534a\u591c\u4e09\u70b9\uff0c\u8ff7\u8ff7\u7cca\u7cca\u4e2d\u611f\u89c9\u989d\u5934\u4e0a\u6709\u4e00\u53cc\u6e29\u6696\u7684\u624b\u3002\u6211\u7762\u5f00\u773c\uff0c\u770b\u5230\u5988\u5988\u5750\u5728\u5e8a\u8fb9\uff0c\u773c\u5708\u53d1\u7ea2\uff0c\u4e00\u8138\u7591\u60e7\u3002\u201c\u5b9d\u8d1d\uff0c\u597d\u70b9\u4e86\u5417\uff1f\u201d\u5979\u7684\u58f0\u97f3\u8f7b\u8f7b\u7684\uff0c\u50cf\u6625\u98ce\u4e00\u6837\u3002\u6211\u624d\u77e5\u9053\uff0c\u5988\u5988\u6574\u665a\u90fd\u6ca1\u6709\u5408\u773c\uff0c\u4e00\u76f4\u5b88\u5728\u6211\u8eab\u8fb9\uff0c\u4e00\u6b21\u6b21\u7ed9\u6211\u91cf\u4f53\u6e29\u3001\u63e2\u6bdb\u5dfe\u3001\u5012\u6e29\u6c34\u3002\n\n\u8fd8\u6709\u4e00\u6b21\uff0c\u6211\u8003\u8bd5\u8003\u780c\u4e86\uff0c\u6000\u7740\u4e00\u9897\u5fe0\u5fe1\u4e0d\u5b89\u7684\u5fc3\u56de\u5230\u5bb6\u3002\u6211\u4ee5\u4e3a\u5988\u5988\u4f1a\u6279\u8bc4\u6211\uff0c\u6ca1\u60f3\u5230\u5979\u53ea\u662f\u8f7b\u8f7b\u5730\u6478\u4e86\u6478\u6211\u7684\u5934\uff0c\u8bf4\uff1a\u201c\u4e00\u6b21\u6ca1\u8003\u597d\u6ca1\u5173\u7cfb\uff0c\u6211\u4eec\u4e00\u8d77\u627e\u539f\u56e0\uff0c\u4e0b\u6b21\u52a0\u6cb9\u3002\u201d\u90a3\u4e00\u523b\uff0c\u6211\u7684\u9f3b\u5b50\u4e00\u9178\uff0c\u773c\u6cf3\u5dee\u70b9\u6389\u4e0b\u6765\u3002\u5988\u5988\u7684\u7406\u89e3\uff0c\u6bd4\u4efb\u4f55\u8bdd\u8bed\u90fd\u6e29\u6696\u3002\n\n\u5988\u5988\uff0c\u8c22\u8c22\u4f60\u5728\u6211\u751f\u75c5\u65f6\u7684\u5b88\u62a4\uff0c\u8c22\u8c22\u4f60\u5728\u6211\u5931\u8d25\u65f6\u7684\u9f13\u52b1\u3002\u6709\u4f60\uff0c\u771f\u597d\u3002\u6211\u5e0c\u671b\u957f\u5927\u540e\uff0c\u4e5f\u80fd\u6210\u4e3a\u4f60\u7684\u4f9d\u9760\uff0c\u8ba9\u4f60\u4e5f\u80fd\u8bf4\u4e00\u53e5\uff1a\u201c\u6709\u4f60\uff0c\u771f\u597d\u3002\u201d",
+      en:"Mom, having you is wonderful.\n\nI remember the time I had a high fever. At three in the morning, I vaguely felt a pair of warm hands on my forehead. I opened my eyes to see Mom sitting by my bed, eyes red-rimmed, her face full of worry. \u201CSweetheart, feeling any better?\u201D Her voice was soft as a spring breeze. Only then did I learn that Mom hadn\u2019t closed her eyes all night, staying by my side, again and again taking my temperature, applying cool towels, and bringing warm water.\n\nAnother time, I bombed a test and came home with a heart full of dread. I expected Mom to scold me, but instead she just gently stroked my head and said: \u201COne bad test doesn\u2019t matter. Let\u2019s figure out why together and do better next time.\u201D In that moment, my nose stung and tears nearly fell. Mom\u2019s understanding was warmer than any words.\n\nMom, thank you for watching over me when I was sick, and encouraging me when I failed. Having you is wonderful. I hope that when I grow up, I can be your support too, so you can also say: \u201CHaving you is wonderful.\u201D",
+      notes:"\u8fd9\u7bc7\u4f5c\u6587\u9009\u53d6\u4e86\u751f\u75c5\u548c\u8003\u8bd5\u4e24\u4e2a\u5178\u578b\u573a\u666f\uff0c\u7528\u7ec6\u8282\u5c55\u73b0\u6bcd\u7231\uff0c\u611f\u60c5\u771f\u6321\uff0c\u7ed3\u5c3e\u56de\u5e94\u5f00\u5934\uff0c\u9996\u5c3e\u547c\u5e94\u3002",
+      notesEn:"This essay selects two typical scenes \u2014 illness and a failed test \u2014 to show maternal love through details. Emotions are sincere, and the ending echoes the opening."},
+      {title:"\u6709\u4f60\uff0c\u771f\u597d\u2014\u2014\u6211\u7684\u597d\u670b\u53cb",titleEn:"Having You Is Wonderful \u2014 My Best Friend",level:"\u63d0\u9ad8",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u60c5\u666f\u5f15\u5165\uff0c\u70b9\u51fa\u4e3b\u9898",en:"Opening: Scene introduction, state the theme"},
+        {cn:"\u4e2d\u95f4\uff1a\u4e09\u4e2a\u7247\u6bb5\uff0c\u5c42\u5c42\u6df1\u5165",en:"Body: Three episodes, progressively deeper"},
+        {cn:"\u7ed3\u5c3e\uff1a\u611f\u609f\u53cb\u8c0a\u7684\u610f\u4e49",en:"Ending: Reflect on the meaning of friendship"}
+      ],
+      cn:"\u7ad9\u5728\u6bd5\u4e1a\u5178\u793c\u7684\u821e\u53f0\u4e0a\uff0c\u6211\u7684\u76ee\u5149\u4e0d\u7531\u81ea\u4e3b\u5730\u627e\u5230\u4e86\u4f60\u2014\u2014\u6211\u7684\u597d\u670b\u53cb\u5c0f\u6770\u3002\u56db\u5e74\u7684\u65f6\u5149\u5728\u773c\u524d\u6d6e\u73b0\uff0c\u6211\u60f3\u8bf4\uff1a\u6709\u4f60\uff0c\u771f\u597d\u3002\n\n\u8fd8\u8bb0\u5f97\u4e09\u5e74\u7ea7\u65f6\uff0c\u6211\u521a\u8f6c\u5b66\u6765\u5230\u8fd9\u4e2a\u73ed\u7ea7\uff0c\u4e00\u4e2a\u4eba\u90fd\u4e0d\u8ba4\u8bc6\u3002\u8bfe\u95f4\u4f11\u606f\u65f6\uff0c\u522b\u4eba\u90fd\u5728\u73a9\uff0c\u6211\u53ea\u80fd\u72ec\u81ea\u5750\u5728\u5ea7\u4f4d\u4e0a\u3002\u662f\u4f60\uff0c\u62ff\u7740\u4e00\u888b\u997c\u5e72\u8d70\u8fc7\u6765\uff1a\u201c\u8981\u5403\u5417\uff1f\u6211\u53eb\u5c0f\u6770\uff0c\u6211\u4eec\u505a\u670b\u53cb\u5427\uff01\u201d\u5c31\u8fd9\u6837\u7b80\u5355\u7684\u4e00\u53e5\u8bdd\uff0c\u6e29\u6696\u4e86\u6211\u6574\u4e2a\u7ae5\u5e74\u3002\n\n\u56db\u5e74\u7ea7\u7684\u8fd0\u52a8\u4f1a\uff0c\u6211\u62a5\u540d\u4e86\u957f\u8dd1\u5374\u62bd\u7b4b\u4e86\u3002\u4f60\u4e8c\u8bdd\u4e0d\u8bf4\uff0c\u80cc\u8d77\u6211\u5c31\u5f80\u533b\u52a1\u5ba4\u8dd1\u3002\u4e00\u8def\u4e0a\u4f60\u6c14\u5598\u541c\u541c\uff0c\u6c57\u6c34\u6d78\u900f\u4e86\u8863\u670d\uff0c\u5374\u59cb\u7ec8\u6ca1\u6709\u653e\u4e0b\u6211\u3002\u90a3\u4e00\u523b\uff0c\u6211\u5728\u4f60\u80cc\u4e0a\u6084\u6084\u5730\u54ed\u4e86\u3002\n\n\u4e94\u5e74\u7ea7\u65f6\uff0c\u6211\u4eec\u66fe\u56e0\u4e00\u4ef6\u5c0f\u4e8b\u4e89\u541b\uff0c\u4e00\u5468\u6ca1\u8bf4\u8bdd\u3002\u6211\u50bb\u50bb\u5730\u8d4c\u6c14\uff0c\u5fc3\u91cc\u5374\u96be\u53d7\u6781\u4e86\u3002\u7ec8\u4e8e\uff0c\u4f60\u5728\u6211\u684c\u4e0a\u653e\u4e86\u4e00\u5f20\u7eb8\u6761\uff1a\u201c\u6211\u4eec\u548c\u597d\u5427\uff0c\u6ca1\u6709\u4f60\u7684\u65e5\u5b50\u771f\u96be\u8fc7\u3002\u201d\u770b\u5230\u8fd9\u884c\u5b57\uff0c\u6211\u4eec\u76f8\u89c6\u800c\u7b11\uff0c\u6240\u6709\u7684\u4e0d\u5feb\u70df\u6d88\u4e91\u6563\u3002\n\n\u5c0f\u6770\uff0c\u8c22\u8c22\u4f60\u5728\u6211\u5b64\u5355\u65f6\u4f38\u51fa\u53cb\u8c0a\u4e4b\u624b\uff0c\u5728\u6211\u56f0\u96be\u65f6\u5f53\u6211\u7684\u201c\u62d0\u6756\u201d\uff0c\u5728\u6211\u56fa\u6267\u65f6\u7528\u5305\u5bb9\u5316\u89e3\u4e86\u4e00\u5207\u3002\u771f\u6b63\u7684\u53cb\u8c0a\uff0c\u4e0d\u662f\u9526\u4e0a\u6dfb\u82b1\uff0c\u800c\u662f\u96ea\u4e2d\u9001\u70ad\u3002\u6709\u4f60\uff0c\u771f\u597d\u3002",
+      en:"Standing on the graduation ceremony stage, my eyes found you involuntarily \u2014 my best friend Xiao Jie. Four years of memories flashed before my eyes, and I wanted to say: having you is wonderful.\n\nI still remember in third grade, when I had just transferred to this class and didn\u2019t know a single person. During breaks, while everyone else played, I could only sit alone at my desk. It was you who walked over with a bag of crackers: \u201CWant some? I\u2019m Xiao Jie. Let\u2019s be friends!\u201D That one simple sentence warmed my entire childhood.\n\nAt the sports meet in fourth grade, I signed up for the long run but got a cramp. Without a word, you hoisted me onto your back and ran to the infirmary. Along the way you were panting heavily, your shirt soaked with sweat, yet you never once put me down. In that moment, I quietly cried on your back.\n\nIn fifth grade, we quarreled over something small and didn\u2019t speak for a week. I was stubbornly sulking, but my heart ached. Finally, you left a note on my desk: \u201CLet\u2019s make up. Days without you are really hard.\u201D Reading those words, we looked at each other and smiled, all the unhappiness vanishing like smoke.\n\nXiao Jie, thank you for extending the hand of friendship when I was lonely, for being my \u201Ccrutch\u201D when I was in trouble, and for dissolving everything with tolerance when I was stubborn. True friendship isn\u2019t icing on the cake \u2014 it\u2019s sending charcoal in a snowstorm. Having you is wonderful.",
+      notes:"\u8fd9\u7bc7\u4f5c\u6587\u7528\u4e09\u4e2a\u4e0d\u540c\u65f6\u671f\u7684\u7247\u6bb5\u5c55\u73b0\u53cb\u8c0a\u7684\u591a\u4e2a\u5c42\u9762\uff0c\u5c42\u5c42\u6df1\u5165\u3002\u5f00\u5934\u7528\u6bd5\u4e1a\u5178\u793c\u7684\u573a\u666f\u5f15\u5165\uff0c\u5145\u6ee1\u611f\u67d3\u529b\u3002",
+      notesEn:"This essay uses three episodes from different periods to show multiple facets of friendship, progressively deepening. The graduation ceremony opening creates strong emotional resonance."},
+      {title:"\u6709\u4f60\uff0c\u771f\u597d\u2014\u2014\u4e66\u7c4d",titleEn:"Having You Is Wonderful \u2014 Books",level:"\u62d3\u5c55",
+      structure:[
+        {cn:"\u5f00\u5934\uff1a\u7528\u62df\u4eba\u624b\u6cd5\u5f15\u5165",en:"Opening: Introduce with personification"},
+        {cn:"\u4e2d\u95f4\uff1a\u4e0d\u540c\u9636\u6bb5\u7684\u9605\u8bfb\u4f53\u9a8c",en:"Body: Reading experiences across different stages"},
+        {cn:"\u7ed3\u5c3e\uff1a\u5347\u534e\u4e3b\u9898\uff0c\u4e66\u7c4d\u5bf9\u4eba\u751f\u7684\u610f\u4e49",en:"Ending: Elevate theme to the meaning of books for life"}
+      ],
+      cn:"\u6709\u4e00\u4f4d\u670b\u53cb\uff0c\u5b83\u4ece\u4e0d\u5f00\u53e3\u8bf4\u8bdd\uff0c\u5374\u603b\u80fd\u89e3\u7b54\u6211\u5fc3\u4e2d\u7684\u7591\u60d1\uff1b\u5b83\u4ece\u4e0d\u4e3b\u52a8\u627e\u6211\uff0c\u6211\u5374\u65f6\u523b\u79bb\u4e0d\u5f00\u5b83\u3002\u5b83\u5c31\u662f\u4e66\u7c4d\u3002\u6709\u4f60\uff0c\u771f\u597d\u3002\n\n\u5e7c\u5e74\u65f6\uff0c\u5988\u5988\u5728\u706f\u4e0b\u8bfb\u7ae5\u8bdd\u7ed9\u6211\u542c\u3002\u201c\u4ece\u524d\u6709\u5ea7\u5c71\u2026\u2026\u201d\u968f\u7740\u5979\u8f7b\u67d4\u7684\u58f0\u97f3\uff0c\u6211\u8d70\u8fdb\u4e86\u4e00\u4e2a\u53c8\u4e00\u4e2a\u5947\u5999\u7684\u4e16\u754c\u3002\u90a3\u65f6\uff0c\u4e66\u662f\u4e00\u6247\u795e\u5947\u7684\u7a97\uff0c\u8ba9\u6211\u770b\u5230\u4e86\u8fdc\u65b9\u3002\n\n\u4e0a\u5b66\u540e\uff0c\u6211\u5f00\u59cb\u72ec\u7acb\u9605\u8bfb\u3002\u300a\u897f\u6e38\u8bb0\u300b\u6559\u6211\u52c7\u6562\uff0c\u300a\u5c0f\u738b\u5b50\u300b\u6559\u6211\u7231\uff0c\u300a\u9c81\u6ee8\u5b59\u6f02\u6d41\u8bb0\u300b\u6559\u6211\u575a\u5f3a\u3002\u6709\u4e00\u6b21\uff0c\u6211\u56e0\u4e3a\u548c\u540c\u5b66\u95f9\u77db\u76fe\u800c\u4f24\u5fc3\uff0c\u7ffb\u5f00\u300a\u5c0f\u738b\u5b50\u300b\uff0c\u770b\u5230\u90a3\u53e5\u201c\u7528\u5fc3\u624d\u80fd\u770b\u89c1\u672c\u8d28\u7684\u4e1c\u897f\uff0c\u7528\u773c\u775b\u662f\u770b\u4e0d\u89c1\u7684\u201d\uff0c\u7a81\u7136\u660e\u767d\u4e86\u8bb8\u591a\u3002\u6211\u4e3b\u52a8\u5411\u540c\u5b66\u9053\u6b49\uff0c\u53cb\u8c0a\u91cd\u65b0\u56de\u5230\u6211\u4eec\u4e4b\u95f4\u3002\n\n\u5230\u4e86\u516d\u5e74\u7ea7\uff0c\u6211\u5f00\u59cb\u8bfb\u53f2\u4e66\u3002\u53f8\u9a6c\u8fc1\u5fcd\u8fb1\u8457\u4e66\uff0c\u82cf\u6b66\u5317\u6d77\u7267\u7f8a\uff0c\u8fd9\u4e9b\u6545\u4e8b\u8ba9\u6211\u61c2\u5f97\uff1a\u4eba\u751f\u4e0d\u53ef\u80fd\u4e00\u5e06\u98ce\u987a\uff0c\u4f46\u53ea\u8981\u6709\u4fe1\u5ff5\uff0c\u5c31\u6709\u5e0c\u671b\u3002\n\n\u4e66\u7c4d\uff0c\u4f60\u662f\u65e0\u58f0\u7684\u8001\u5e08\uff0c\u662f\u5fe0\u5b9e\u7684\u4f19\u4f34\uff0c\u662f\u6c38\u4e0d\u71c4\u706d\u7684\u706f\u3002\u4f60\u7167\u4eae\u4e86\u6211\u7684\u7ae5\u5e74\uff0c\u4e30\u5bcc\u4e86\u6211\u7684\u5fc3\u7075\uff0c\u6559\u4f1a\u6211\u601d\u8003\u4eba\u751f\u3002\u672a\u6765\u7684\u65e5\u5b50\u91cc\uff0c\u6211\u4ecd\u8981\u4e0e\u4f60\u540c\u884c\uff0c\u56e0\u4e3a\u2014\u2014\u6709\u4f60\uff0c\u771f\u597d\u3002",
+      en:"There is a friend who never speaks, yet always answers the questions in my heart; it never comes looking for me, yet I can never be without it. It is books. Having you is wonderful.\n\nIn my early years, Mom read fairy tales to me by lamplight. \u201COnce upon a time, there was a mountain\u2026\u201D Following her gentle voice, I entered one marvelous world after another. Back then, books were a magical window that let me see far away.\n\nAfter starting school, I began reading independently. Journey to the West taught me courage, The Little Prince taught me love, Robinson Crusoe taught me resilience. Once, I was upset after a fight with a classmate. I opened The Little Prince and read: \u201CIt is only with the heart that one can see rightly; what is essential is invisible to the eye.\u201D Suddenly, I understood so much. I apologized to my classmate, and friendship returned between us.\n\nIn sixth grade, I started reading history. Sima Qian endured humiliation to write his masterwork; Su Wu herded sheep by the northern sea for years. These stories taught me that life cannot always be smooth sailing, but as long as you have faith, there is hope.\n\nBooks, you are a silent teacher, a faithful companion, a lamp that never goes out. You illuminated my childhood, enriched my soul, and taught me to think about life. In the days to come, I will still walk with you, because \u2014 having you is wonderful.",
+      notes:"\u8fd9\u7bc7\u4f5c\u6587\u5c06\u201c\u4f60\u201d\u5b9a\u4e49\u4e3a\u4e66\u7c4d\uff0c\u89d2\u5ea6\u65b0\u9896\u3002\u4ee5\u65f6\u95f4\u4e3a\u7ebf\u7d22\uff0c\u5c55\u73b0\u9605\u8bfb\u5bf9\u6210\u957f\u7684\u591a\u5c42\u5f71\u54cd\uff0c\u62df\u4eba\u624b\u6cd5\u8fd0\u7528\u81ea\u7136\uff0c\u8bed\u8a00\u4f18\u7f8e\u3002",
+      notesEn:"This essay defines \u201Cyou\u201D as books \u2014 a fresh angle. It uses time as the thread, showing the multi-layered impact of reading on growth. Personification is used naturally, with beautiful language throughout."}
+    ]},
     wordSentence: {title:"词句段运用",titleEn:"Word & Sentence Practice",content:{cn:"读下面各组题目，说说你的发现。读下面的词语，选择一个把你想到的用一段话写下来：饱经风霜的脸、树林的深处、心灵的深处。",en:"Read the groups of titles below and share your observations. Choose a phrase and write a paragraph about what it makes you think of: 'a weather-beaten face,' 'deep in the forest,' 'deep in the heart.'"}},
     accumulation: {title:"日积月累",titleEn:"Accumulation",items:[
       {cn:"无情未必真豪杰，怜子如何不丈夫。——鲁迅《答客诮》",en:"The heartless may not be true heroes; to cherish one's children is no less manly. — Lu Xun, 'Reply to a Critic'"},

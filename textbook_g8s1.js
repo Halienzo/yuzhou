@@ -28,6 +28,7 @@ units: [
   lessons: [
     {
       id: 1, title: "消息二则", titleEn: "Two News Dispatches",
+      difficulty: 5,
       author: "毛泽东", authorEn: "Mao Zedong",
       isSelfRead: true,
       text: [
@@ -44,6 +45,17 @@ units: [
         "Xinhua News Agency, Yangtze Front, 10:00 PM, April 22 — The PLA's million-strong army broke through enemy lines and crossed the Yangtze along a front of over one thousand li. The crossing zone extended from Jiujiang in the west to Jiangyin in the east. Starting on the night of the 20th, the PLA's Central Route Army first broke through the Anqing-Wuhu line, crossing to the Fanchang-Tongling-Qingyang area, with 300,000 troops crossing within 24 hours. From 5 PM on the 21st, the Western Route Army began crossing between Jiujiang and Anqing.",
         "Like the Central Route Army, the Western Route Army encountered enemy troops who retreated in complete disarray. This was due both to the PLA's bravery and fighting skill, and to the Kuomintang's refusal to sign a peace agreement. The Eastern Route Army of 350,000 launched its crossing on the same day. All planned objectives were achieved. Our Eastern Route forces largely crossed to the south bank, with the remainder to complete crossing on the 23rd. Enemy resistance was stronger here, but after a full day of fierce fighting, we destroyed all resistance, occupied vast areas of Yangzhong, Zhenjiang, and Jiangyin counties, controlled the Jiangyin fortress, and sealed off the Yangtze."
       ],
+      vocabWords: [
+        {word:'溃退',pinyin:'kuì tuì',en:'to retreat in disarray',sentence:'国民党反动派经营了三个半月的长江防线，遇着人民解放军好似摧枯拉朽，军无斗志，纷纷溃退。',sentenceEn:'The Kuomintang defense line crumbled before the PLA; their troops lost the will to fight and retreated in disarray.'},
+        {word:'摧枯拉朽',pinyin:'cuī kū lā xiǔ',en:'to crush rotten wood; irresistible force',sentence:'遇着人民解放军好似摧枯拉朽。',sentenceEn:'Encountering the PLA was like crushing rotten wood.'},
+        {word:'锐不可当',pinyin:'ruì bù kě dāng',en:'irresistible; unstoppable',sentence:'我军锐不可当。',sentenceEn:'Our army was unstoppable.'},
+        {word:'歼灭',pinyin:'jiān miè',en:'to annihilate; to wipe out',sentence:'我已歼灭及击溃一切抵抗之敌。',sentenceEn:'We annihilated and routed all resisting enemies.'},
+        {word:'要塞',pinyin:'yào sài',en:'fortress; stronghold',sentence:'并控制江阴要塞，封锁长江。',sentenceEn:'And controlled the Jiangyin fortress, sealing off the Yangtze.'}
+      ],
+      grammarPoints: [
+        {point:'消息结构',pointEn:'xiāo xi jié gòu',example:'structure of a news dispatch',exampleEn:'标题、电头、导语和主体构成消息的基本结构。',explanation:'Headline, dateline, lead, and body form the basic structure of a news dispatch.',explanationEn:'消息由标题（概括事件）、电头（交代来源）、导语（核心事实）和主体（详细报道）四部分组成。'},
+        {point:'新闻六要素',pointEn:'xīn wén liù yào sù',example:'six elements of news',exampleEn:'何时、何地、何事、何人、何故、如何。',explanation:'When, where, what, who, why, and how.',explanationEn:'新闻报道应包含时间、地点、人物、事件、原因和经过六个基本要素，确保信息完整准确。'}
+      ],
       readingTips: [
         {cn:"从新闻要素的角度把握课文内容：何时、何地、何事、何人、何故、如何。", en:"Grasp the content through the six news elements: when, where, what, who, why, and how."},
         {cn:"注意消息的标题、电头、导语和主体结构。", en:"Pay attention to headline, dateline, lead, and body structure of the dispatch."},
@@ -55,6 +67,7 @@ units: [
     },
     {
       id: 2, title: "首届诺贝尔奖颁发", titleEn: "First Nobel Prizes Awarded",
+      difficulty: 4,
       author: "路透社", authorEn: "Reuters",
       isSelfRead: true,
       text: [
@@ -69,6 +82,13 @@ units: [
         "Henceforth, according to Nobel's will, the prizes are awarded by four institutions (three in Sweden, one in Norway). The award ceremony takes place annually on December 10, the anniversary of Nobel's death, in Stockholm and Oslo.",
         "In 1867, Swedish chemist Alfred Nobel invented dynamite, later inventing several other explosives, which brought him enormous income. After Nobel's death in 1896, this fortune was used to establish the Nobel Prizes. The Nobel Foundation legally owns and manages the fund's investments but has no role in selecting laureates — that authority belongs to the Swedish and Norwegian Nobel Committees."
       ],
+      vocabWords: [
+        {word:'颁发',pinyin:'bān fā',en:'to award; to confer',sentence:'瑞典国王和挪威诺贝尔基金会今天首次颁发了诺贝尔奖。',sentenceEn:'The Swedish King and the Norwegian Nobel Committee today awarded the Nobel Prize for the first time.'},
+        {word:'遗嘱',pinyin:'yí zhǔ',en:'will; testament',sentence:'根据诺贝尔的遗嘱，诺贝尔奖每年发给做出最大贡献的人。',sentenceEn:'According to Nobel’s will, the Nobel Prize is awarded annually to those who have made the greatest contributions.'},
+        {word:'卓有成就',pinyin:'zhuó yǒu chéng jiù',en:'to have remarkable achievements',sentence:'他在血清疗法的研究方面卓有成就。',sentenceEn:'He had remarkable achievements in the research of serum therapy.'},
+        {word:'建树',pinyin:'jiàn shù',en:'contributions; accomplishments',sentence:'他在诗歌创作方面颇有建树。',sentenceEn:'He had notable accomplishments in poetry.'},
+        {word:'仲裁',pinyin:'zhòng cái',en:'arbitration',sentence:'他建立了促进国际仲裁的各国议会联盟。',sentenceEn:'He founded an inter-parliamentary union to promote international arbitration.'}
+      ],
       readingTips: [
         {cn:"关注电头和导语交代了哪些内容。", en:"Note what information the dateline and lead paragraph convey."},
         {cn:"体会消息如何准确表述新闻事实。", en:"Appreciate how the dispatch accurately presents news facts."}
@@ -79,6 +99,7 @@ units: [
     },
     {
       id: 3, title: "\u201c飞天\u201d凌空", titleEn: "\"Flying Apsara\" Soars",
+      difficulty: 5,
       subtitle: "跳水姑娘吕伟夺魁记", subtitleEn: "Diver Lv Wei Wins Gold",
       author: "夏浩然 樊云芳", authorEn: "Xia Haoran & Fan Yunfang",
       isSelfRead: true,
@@ -98,6 +119,13 @@ units: [
         "\"Wonderful! Absolutely wonderful!\" A foreign journalist beside us leapt to his feet. The entire arena erupted. The awakened audience expressed their heartfelt admiration with thunderous applause and cheers.",
         "Her dive, coded \"5136,\" earned scores of 9.5 from several judges. This sixteen-year-old Chinese girl had won the gold medal."
       ],
+      vocabWords: [
+        {word:'凌空',pinyin:'líng kōng',en:'to soar through the air',sentence:'她在空中向前翻腾一周半，如飞天凌空。',sentenceEn:'She somersaulted one and a half times in the air, soaring like a flying apsara.'},
+        {word:'翘首',pinyin:'qiáo shǒu',en:'to crane one’s neck; to look up eagerly',sentence:'观众翘首而望。',sentenceEn:'The audience craned their necks to watch.'},
+        {word:'酷似',pinyin:'kù sì',en:'to closely resemble',sentence:'她那优美的身姿酷似敦煌壁画上的飞天。',sentenceEn:'Her graceful figure closely resembled the flying apsaras in Dunhuang murals.'},
+        {word:'屏息敛声',pinyin:'bǐng xī liǎn shēng',en:'to hold one’s breath in silence',sentence:'全场屏息敛声，静待她入水的一刻。',sentenceEn:'The entire venue held its breath, awaiting the moment she entered the water.'},
+        {word:'夺魁',pinyin:'duó kuí',en:'to win first place',sentence:'跳水姑娘吕伟夺魁。',sentenceEn:'Diver Lv Wei won the championship.'}
+      ],
       readingTips: [
         {cn:"体会新闻特写如何通过分解动作，形成\u201c慢镜头回放\u201d效果。", en:"Appreciate how the news feature creates a 'slow-motion replay' effect by breaking down the action."},
         {cn:"注意侧面描写（观众反应、外国记者）对烘托主题的作用。", en:"Note how indirect description (audience reactions, foreign journalist) enhances the theme."}
@@ -108,6 +136,7 @@ units: [
     },
     {
       id: 4, title: "一着惊海天", titleEn: "One Landing Astonishes Sea and Sky",
+      difficulty: 4,
       subtitle: "目击我国航母舰载战斗机首架次成功着舰", subtitleEn: "Witnessing the First Successful Carrier Landing of China's Fighter Jet",
       author: "蔡年迟 蒲海洋", authorEn: "Cai Nianchi & Pu Haiyang",
       isSelfRead: true,
@@ -127,6 +156,16 @@ units: [
         "\"Success!\" Amid cheers, anxious hearts relaxed at once. Thunderous applause from every station instantly ignited everyone's passion. Many wept!",
         "\"Click!\" \"Click!\" As camera shutters fired, the image of China's first successful carrier-based fighter pilot was frozen in people's lenses and engraved in the annals of the Republic."
       ],
+      vocabWords: [
+        {word:'着舰',pinyin:'zhuó jiàn',en:'carrier landing',sentence:'目击我国航母舰载战斗机首架次成功着舰。',sentenceEn:'Witnessing the first successful carrier landing of our fighter jet.'},
+        {word:'咆哮',pinyin:'páo xiào',en:'to roar; to howl',sentence:'发动机发出震耳欲聋的咆哮。',sentenceEn:'The engine let out a deafening roar.'},
+        {word:'镌刻',pinyin:'juān kè',en:'to engrave; to inscribe',sentence:'这一刻将永远镌刻在历史上。',sentenceEn:'This moment will be forever engraved in history.'},
+        {word:'白手起家',pinyin:'bái shǒu qǐ jiā',en:'to start from nothing',sentence:'中国海军航空兵白手起家。',sentenceEn:'The Chinese naval aviation force started from nothing.'},
+        {word:'殚精竭虑',pinyin:'dān jīng jié lǜ',en:'to exhaust one’s mind and energy',sentence:'科研人员殚精竭虑攻克一个个技术难关。',sentenceEn:'Researchers exhausted their minds and energy to overcome technical challenges one by one.'}
+      ],
+      grammarPoints: [
+        {point:'新闻特写',pointEn:'xīn wén tè xiě',example:'news feature writing',exampleEn:'本文用生动的现场描写记录历史性时刻。',explanation:'This article uses vivid on-site description to record a historic moment.',explanationEn:'新闻特写是截取新闻事件中最富有特征和表现力的片段进行放大描写的一种报道形式。'}
+      ],
       readingTips: [
         {cn:"注意通讯如何通过背景介绍和现场描写增强新闻感染力。", en:"Notice how the communication enhances impact through background information and on-the-scene description."},
         {cn:"体会文中引用诗句和侧面烘托的作用。", en:"Appreciate the role of quoted poetry and indirect characterization."}
@@ -137,6 +176,7 @@ units: [
     },
     {
       id: 5, title: "国行公祭，为佑世界和平", titleEn: "National Memorial, for World Peace",
+      difficulty: 4,
       author: "钟声", authorEn: "Zhong Sheng",
       isSelfRead: true,
       text: [
@@ -150,6 +190,16 @@ units: [
         "Eighty years after the Nanjing Massacre, people of justice worldwide still commemorate the victims in various ways. Ontario's provincial parliament passed a motion in October 2017 to establish a \"Nanjing Massacre Commemorative Day\"; in Japan, a research group of high school and university teachers recommended including terms like \"Nanjing Massacre\" in textbooks. History cannot be forgotten!",
         "History does not change with the times, and facts do not vanish through clever denial. The Nanjing Massacre has long been the collective memory of all forces of justice; only Japanese right-wing elements still mutter in their sleep. The alarm bell of the National Memorial Day is deafening.",
         "From \"city of terror\" to \"city of peace,\" Nanjing's transformation proves how precious peace is. Remembering history, honoring martyrs, cherishing peace, and building the future — China's consistent pledge of peace demonstrates firm conviction and tremendous strength."
+      ],
+      vocabWords: [
+        {word:'公祭',pinyin:'gōng jì',en:'national memorial ceremony',sentence:'国行公祭，为佑世界和平。',sentenceEn:'The national memorial ceremony is held to safeguard world peace.'},
+        {word:'铭记',pinyin:'míng jì',en:'to engrave in memory; to always remember',sentence:'铭记历史，不是为了延续仇恨。',sentenceEn:'Remembering history is not to perpetuate hatred.'},
+        {word:'惨绝人寰',pinyin:'cǎn jué rén huán',en:'the most tragic in the world',sentence:'南京大屠杀是惨绝人寰的历史悲剧。',sentenceEn:'The Nanjing Massacre was the most tragic historical atrocity.'},
+        {word:'篡改',pinyin:'cuàn gǎi',en:'to tamper with; to falsify',sentence:'日本右翼势力企图篡改历史。',sentenceEn:'Japanese right-wing forces attempted to falsify history.'},
+        {word:'振聋发聩',pinyin:'zhèn lóng fā kuì',en:'to enlighten the ignorant; earth-shaking',sentence:'文章发出振聋发聩的呼吁。',sentenceEn:'The article issued an earth-shaking appeal.'}
+      ],
+      grammarPoints: [
+        {point:'新闻评论',pointEn:'xīn wén píng lùn',example:'news commentary',exampleEn:'国行公祭，为佑世界和平。',explanation:'The national memorial is held to safeguard world peace.',explanationEn:'新闻评论是针对新闻事件发表看法和见解的文体，具有鲜明的观点和强烈的说服力。'}
       ],
       readingTips: [
         {cn:"注意新闻评论如何运用事实和论据来论证观点。", en:"Note how the news commentary uses facts and evidence to support its argument."},
@@ -175,6 +225,7 @@ units: [
   lessons: [
     {
       id: 6, title: "藤野先生", titleEn: "Mr. Fujino",
+      difficulty: 4,
       author: "鲁迅", authorEn: "Lu Xun",
       text: [
         "东京也无非是这样。上野的樱花烂熳的时节，望去确也像绯红的轻云，但花下也缺不了成群结队的\u201c清国留学生\u201d的速成班，头顶上盘着大辫子，顶得学生制帽的顶上高高耸起，形成一座富士山。也有解散辫子，盘得平的，除下帽来，油光可鉴，宛如小姑娘的发髻一般，还要将脖子扭几扭。实在标致极了。",
@@ -189,6 +240,17 @@ units: [
         "About a week later, on a Saturday perhaps, he sent his assistant to summon me. In the research room, I found him sitting among human bones and separate skulls. 'Can you copy down my lectures?' he asked. I handed over my notes; he kept them and returned them in two or three days. My lecture notes had been corrected from beginning to end in red ink — not only were many omissions filled in, but even grammatical errors were corrected one by one. This continued until he had finished teaching his courses.",
         "China was a weak country, so Chinese were naturally inferior — any score above sixty couldn't be earned by one's own ability. Then came my fate of watching Chinese people being shot. 'Long live!' They all clapped and cheered. Such cheers accompanied every slide, but to me, this particular cheer was especially jarring. After returning to China, seeing those idly watching executions — alas, there was nothing to be done! But at that time and place, my views had changed.",
         "Yet somehow I still often remember him. Among those I regard as my teachers, he is the one who gives me the most gratitude and encouragement. I often think: his earnest hopes and tireless teachings for me — on a small scale, were for China, hoping China would have new medicine; on a large scale, were for scholarship, hoping new medicine would reach China. His character, in my eyes and heart, was great, even though his name is unknown to many."
+      ],
+      vocabWords: [
+        {word:'绯红',pinyin:'fēi hóng',en:'crimson; scarlet',sentence:'上野的樱花烂熳的时节，望去确也像绯红的轻云。',sentenceEn:'During cherry blossom season in Ueno, the view indeed resembled light crimson clouds.'},
+        {word:'油光可鉴',pinyin:'yóu guāng kě jiàn',en:'so sleek it can serve as a mirror',sentence:'除下帽来，油光可鉴。',sentenceEn:'Remove the cap, and the hair was sleek enough to serve as a mirror.'},
+        {word:'抑扬顿挫',pinyin:'yì yáng dùn cuò',en:'with cadence; rhythmic',sentence:'藤野先生说话的声调抑扬顿挫。',sentenceEn:'Mr. Fujino spoke with a rhythmic cadence.'},
+        {word:'深恶痛疾',pinyin:'shēn wù tòng jí',en:'to detest deeply',sentence:'他对不认真学习的学生深恶痛疾。',sentenceEn:'He deeply detested students who did not study earnestly.'},
+        {word:'匿名',pinyin:'nì míng',en:'anonymous',sentence:'有人写了一封匿名信给我。',sentenceEn:'Someone wrote an anonymous letter to me.'}
+      ],
+      grammarPoints: [
+        {point:'叙事线索',pointEn:'xù shì xiàn suǒ',example:'narrative thread',exampleEn:'明线是与藤野先生的交往，暗线是作者思想感情的变化。',explanation:'The explicit thread is the relationship with Mr. Fujino; the implicit thread is the evolution of the author’s thoughts and feelings.',explanationEn:'叙事散文可以有多条线索：明线推动情节发展，暗线揭示主题思想。'},
+        {point:'欲扬先抑',pointEn:'yù yáng xiān yì',example:'suppression before elevation',exampleEn:'先写东京留学生的庸俗，反衬藤野先生的高尚品格。',explanation:'First describing the vulgarity of Chinese students in Tokyo contrasts with Mr. Fujino’s noble character.',explanationEn:'先写不好的方面，再突出好的方面，通过对比形成强烈反差。'}
       ],
       thinkExplore: [
         {cn:"文章记录了作者留学过程中的哪几件事？试为每件事拟一个小标题。", en:"What events from the author's study abroad does the article record? Try giving each a subtitle."},
@@ -205,6 +267,7 @@ units: [
     },
     {
       id: 7, title: "回忆我的母亲", titleEn: "Remembering My Mother",
+      difficulty: 5,
       author: "朱德", authorEn: "Zhu De",
       text: [
         "得到母亲去世的消息，我很悲痛。我爱我母亲，特别是她勤劳一生，很多事情是值得我永远回忆的。",
@@ -220,6 +283,16 @@ units: [
         "I should thank my mother for teaching me to struggle against difficulties. She also gave me a strong body and industrious habits, so I never felt fatigued.",
         "Mother was an ordinary person, just one of China's millions of working people, but it is precisely these millions who created and continue to create China's history. I will continue to serve our nation and people faithfully, serving the hope of our nation — the Communist Party of China — so that people living as my mother did can lead happy lives."
       ],
+      vocabWords: [
+        {word:'任劳任怨',pinyin:'rèn láo rèn yuàn',en:'to bear hardships and complaints without resentment',sentence:'母亲在家庭里极能任劳任怨。',sentenceEn:'Mother bore all hardships and complaints in the family without resentment.'},
+        {word:'周济',pinyin:'zhōu jì',en:'to give relief to; to help financially',sentence:'还周济和照顾比自己更穷的亲戚。',sentenceEn:'She still helped and cared for even poorer relatives.'},
+        {word:'为富不仁',pinyin:'wéi fù bù rén',en:'the rich are heartless',sentence:'地主为富不仁，压迫佃户。',sentenceEn:'The landlords were heartless and oppressed the tenants.'},
+        {word:'不辍',pinyin:'bù chuò',en:'without stopping; ceaselessly',sentence:'母亲勤劳不辍。',sentenceEn:'Mother worked ceaselessly.'},
+        {word:'聊叙',pinyin:'liáo xù',en:'to briefly narrate',sentence:'聊叙人伦之情。',sentenceEn:'To briefly narrate family bonds.'}
+      ],
+      grammarPoints: [
+        {point:'夹叙夹议',pointEn:'jiā xù jiā yì',example:'alternating narration and commentary',exampleEn:'我应该感谢母亲，她教给我与困难做斗争的经验。',explanation:'I should thank my mother for teaching me to struggle against difficulties.',explanationEn:'在叙述事实的过程中穿插议论，既展现事迹又揭示意义。'}
+      ],
       thinkExplore: [
         {cn:"母亲的\u201c勤劳\u201d是通过哪些事例体现出来的？从文中还可以看出母亲具有怎样的品格？", en:"Through which examples is the mother's 'industriousness' shown? What other qualities can be seen?"},
         {cn:"作者从母亲身上得到了哪些教益？", en:"What lessons did the author learn from his mother?"},
@@ -234,6 +307,7 @@ units: [
     },
     {
       id: 8, title: "列夫\u00b7托尔斯泰", titleEn: "Leo Tolstoy",
+      difficulty: 5,
       author: "茨威格", authorEn: "Stefan Zweig",
       isSelfRead: true,
       text: [
@@ -250,6 +324,16 @@ units: [
         "Thanks to these eyes, Tolstoy's face radiated genius. Gorky's apt description spoke our hearts: 'Tolstoy has a hundred eyes in those two eyes of his.'",
         "A person with such piercing vision who can see the truth can command the entire world and its intellectual wealth. Yet as someone who always possessed the ability to observe keenly and penetrate the essence of things, he surely lacked one thing — his own share of happiness."
       ],
+      vocabWords: [
+        {word:'黝黑',pinyin:'yǒu hēi',en:'swarthy; dark-skinned',sentence:'遮住了皱似树皮的黝黑脸膛。',sentenceEn:'Concealing the dark, bark-like complexion.'},
+        {word:'粗制滥造',pinyin:'cū zhì làn zào',en:'crudely and carelessly made',sentence:'这张脸仿佛是粗制滥造的。',sentenceEn:'This face seemed crudely fashioned.'},
+        {word:'藏污纳垢',pinyin:'cáng wū nà gòu',en:'to harbor filth',sentence:'这副面孔似乎能藏污纳垢。',sentenceEn:'This countenance seemed capable of harboring every kind of ugliness.'},
+        {word:'犀利',pinyin:'xī lì',en:'sharp; incisive',sentence:'那对灰色的眼睛射出犀利的目光。',sentenceEn:'Those gray eyes shot out an incisive gaze.'},
+        {word:'锃亮',pinyin:'zèng liàng',en:'shiny; gleaming',sentence:'目光就像一把锃亮的钢刀刺了过来。',sentenceEn:'The gaze pierced like a gleaming steel blade.'}
+      ],
+      grammarPoints: [
+        {point:'欲扬先抑',pointEn:'yù yáng xiān yì',example:'suppression before elevation',exampleEn:'先极力描写平庸的外貌，再突出眼睛的非凡。',explanation:'First describing the ordinary appearance in great detail, then highlighting the extraordinary eyes.',explanationEn:'先写不好的方面来形成铺垫，再突然转向好的方面，形成巨大的反差和强烈的震撼效果。'}
+      ],
       readingTips: [
         {cn:"体会欲扬先抑的手法如何形成巨大反差，带给读者强烈震撼。", en:"Appreciate how the technique of 'suppression before elevation' creates a powerful contrast that deeply moves the reader."},
         {cn:"品味作者大量运用比喻和夸张的语言特点。", en:"Savor the author's extensive use of metaphor and hyperbole."}
@@ -260,6 +344,7 @@ units: [
     },
     {
       id: 9, title: "美丽的颜色", titleEn: "The Beautiful Color",
+      difficulty: 5,
       author: "艾芙\u00b7居里", authorEn: "Eve Curie",
       isSelfRead: true,
       text: [
@@ -277,6 +362,13 @@ units: [
         "One day, Marie, like a child eagerly awaiting a promised toy, said with fervent curiosity: 'I wonder what \"it\" will look like, what its appearance will be. Pierre, what shape do you imagine it has?' The physicist replied gently: 'I don't know... but I hope it will have a very beautiful color.'",
         "Marie said: 'Don't turn on the light!' Then she laughed softly and added: 'Do you remember the day you said to me, \"I hope it will have a very beautiful color\"?' Radium didn't just have a 'beautiful color' — it glowed on its own! In the dark shed, those faintly blue-fluorescent outlines shimmered, suspended in the darkness of night.",
         "'Look... look!' the young woman whispered. She would forever remember this night of watching the glow, forever remember this wondrous spectacle of a magical world."
+      ],
+      vocabWords: [
+        {word:'燥热',pinyin:'zào rè',en:'sweltering',sentence:'棚屋里面燥热得像温室。',sentenceEn:'The shed was as sweltering as a greenhouse.'},
+        {word:'炽热',pinyin:'chì rè',en:'scorching; blazing',sentence:'那个炉子即使把它烧到炽热的程度。',sentenceEn:'Even when the stove was heated to a blazing degree.'},
+        {word:'沥青',pinyin:'lì qīng',en:'pitch; asphalt',sentence:'在那混着铁屑和沥青的空气中工作。',sentenceEn:'Working in air mixed with iron filings and pitch.'},
+        {word:'猝然',pinyin:'cù rán',en:'suddenly; unexpectedly',sentence:'猝然看见了那美丽的颜色。',sentenceEn:'Suddenly she saw that beautiful color.'},
+        {word:'荧光',pinyin:'yíng guāng',en:'fluorescence',sentence:'镭射出的荧光在黑暗中闪烁。',sentenceEn:'The fluorescence emitted by radium glowed in the darkness.'}
       ],
       readingTips: [
         {cn:"注意文中多次引用居里夫人自己的话，体会其增强真实性和变换叙述节奏的作用。", en:"Note the frequent quotations from Madame Curie herself, which enhance authenticity and vary the narrative pace."},
@@ -308,12 +400,13 @@ units: [
   lessons: [
     {
       id: 10, title: "三峡", titleEn: "The Three Gorges",
+      difficulty: 4,
       author: "郦道元", authorEn: "Li Daoyuan",
       isClassical: true,
       text: [
         "自三峡七百里中，两岸连山，略无阙处。重岩叠嶂，隐天蔽日，自非亭午夜分，不见曦月。",
         "至于夏水襄陵，沿溯阻绝。或王命急宣，有时朝发白帝，暮到江陵，其间千二百里，虽乘奔御风，不以疾也。",
-        "春冬之时，则素湍绿潭，回清倒影，绝\u5d8b多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
+        "春冬之时，则素湍绿潭，回清倒影，绝\u5dd8多生怪柏，悬泉瀑布，飞漱其间，清荣峻茂，良多趣味。",
         "每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。故渔者歌曰：\u201c巴东三峡巫峡长，猿鸣三声泪沾裳。\u201d"
       ],
       textEn: [
@@ -321,6 +414,16 @@ units: [
         "When summer waters surge over the hills, passage upstream or downstream is completely blocked. Sometimes, when a royal command requires urgent delivery, one may depart from Baidi at dawn and reach Jiangling by evening — a distance of twelve hundred li. Even riding a galloping horse or the wind itself could not be faster.",
         "In spring and winter, white rapids rush over green pools, and clear reflections shimmer. On the highest peaks grow strange cypresses; hanging springs and waterfalls cascade among them. The water is clear, trees flourish, mountains are steep, grasses are lush — truly full of charm.",
         "When the sky first clears on frosty mornings, the forests are cold and the gorges solemn. High-perched gibbons often give long, shrill cries — eerie and drawn-out — that echo through the empty valleys, their mournful sound lingering long before fading. As the fishermen's song goes: 'Of Badong's Three Gorges, the Wu Gorge is longest; at three gibbon cries, tears soak one's clothes.'"
+      ],
+      vocabWords: [
+        {word:'重岩叠嶂',pinyin:'chóng yán dié zhàng',en:'layers of cliffs and peaks',sentence:'重岩叠嶂，隐天蔽日。',sentenceEn:'Layer upon layer of cliffs and peaks hid the sky and blocked the sun.'},
+        {word:'沿溯阻绝',pinyin:'yán sù zǔ jué',en:'both downstream and upstream travel blocked',sentence:'至于夏水襄陵，沿溯阻绝。',sentenceEn:'When summer waters surged over the hills, passage in both directions was blocked.'},
+        {word:'素湍',pinyin:'sù tuān',en:'white rapids',sentence:'春冬之时，则素湍绿潭。',sentenceEn:'In spring and winter, white rapids rushed over green pools.'},
+        {word:'属引凄异',pinyin:'zhǔ yǐn qī yì',en:'prolonged and eerily mournful',sentence:'常有高猿长啸，属引凄异。',sentenceEn:'Often high-perched gibbons gave long cries, prolonged and eerily mournful.'},
+        {word:'清荣峻茂',pinyin:'qīng róng jùn mào',en:'water clear, trees lush, mountains steep, grasses thick',sentence:'清荣峻茂，良多趣味。',sentenceEn:'Water clear, trees lush, mountains steep, grasses thick, truly full of charm.'}
+      ],
+      grammarPoints: [
+        {point:'写景顺序',pointEn:'xiě jǐng shùn xù',example:'order of landscape description',exampleEn:'先写山，后写水；写水时先夏后春冬再秋。',explanation:'First describing mountains, then water; for water, starting with summer, then spring-winter, and finally autumn.',explanationEn:'按照由整体到局部、由主要到次要的顺序安排景物描写，层次分明。'}
       ],
       thinkExplore: [
         {cn:"作者是按什么顺序写三峡景物的？这样写有什么好处？", en:"In what order does the author describe the Three Gorges scenery? What are the benefits of this approach?"},
@@ -335,6 +438,7 @@ units: [
     },
     {
       id: 11, title: "短文二篇", titleEn: "Two Short Essays",
+      difficulty: 4,
       isClassical: true,
       multiText: [
         {
@@ -351,7 +455,7 @@ units: [
           title: "记承天寺夜游", titleEn: "Night Walk at Chengtian Temple",
           author: "苏轼", authorEn: "Su Shi",
           text: [
-            "元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。庭下如积水空明，水中藻、荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。"
+            "元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。庭下如积水空明，水中藻荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。"
           ],
           textEn: [
             "On the night of October 12 in the sixth year of Yuanfeng, I was undressing to sleep when moonlight entered the doorway, and I rose happily to walk. Thinking there was no one to share the joy, I went to Chengtian Temple to find Zhang Huaimin. Huaimin had not yet retired either, and we walked together in the courtyard. The courtyard floor was like a pool of crystal-clear water, with water plants crisscrossing in it — but it was actually the shadows of bamboo and cypress. What night lacks a moon? What place lacks bamboo and cypress? It is only that there are few idle people like the two of us."
@@ -360,11 +464,21 @@ units: [
       ],
       text: [
         "答谢中书书\n陶弘景\n山川之美，古来共谈。高峰入云，清流见底。两岸石壁，五色交辉。青林翠竹，四时俱备。晓雾将歇，猿鸟乱鸣；夕日欲颓，沉鳞竞跃。实是欲界之仙都。自康乐以来，未复有能与其奇者。",
-        "记承天寺夜游\n苏轼\n元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。庭下如积水空明，水中藻、荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。"
+        "记承天寺夜游\n苏轼\n元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。庭下如积水空明，水中藻荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。"
       ],
       textEn: [
         "Reply to Secretary Xie\nby Tao Hongjing\nThe beauty of mountains and rivers has been a shared topic since ancient times. Lofty peaks pierce the clouds; clear streams reveal their bottoms. Stone cliffs on both banks shimmer in five colors. Green forests and emerald bamboo are present in all four seasons. When morning mist lifts, apes and birds cry in chorus; as evening sun sinks, submerged fish leap in competition. This is truly a fairy realm on earth. Since Xie Lingyun, none has shared in its wonders.",
         "Night Walk at Chengtian Temple\nby Su Shi\nOn the night of October 12, sixth year of Yuanfeng, I was undressing to sleep when moonlight entered the doorway, and I rose happily to walk. Thinking there was no one to share the joy, I went to Chengtian Temple to find Zhang Huaimin. He too had not retired, and we walked together in the courtyard. The floor was like crystal-clear water, with plants crisscrossing — but it was bamboo and cypress shadows. What night lacks a moon? What place lacks bamboo and cypress? There are simply few idle people like us two."
+      ],
+      vocabWords: [
+        {word:'交辉',pinyin:'jiāo huī',en:'to shine upon each other',sentence:'两岸石壁，五色交辉。',sentenceEn:'Stone cliffs on both banks shimmered in five colors.'},
+        {word:'欲界之仙都',pinyin:'yù jiè zhī xiān dōu',en:'fairyland in the mortal world',sentence:'实是欲界之仙都。',sentenceEn:'It is truly a fairyland in the mortal world.'},
+        {word:'积水空明',pinyin:'jī shuǐ kōng míng',en:'clear as pooled water',sentence:'庭下如积水空明。',sentenceEn:'The courtyard was clear as pooled water bathed in moonlight.'},
+        {word:'藻荇交横',pinyin:'zǎo xìng jiāo héng',en:'water plants crisscrossing',sentence:'水中藻荇交横，盖竹柏影也。',sentenceEn:'Water plants crisscrossed in the water — actually the shadows of bamboo and cypress.'},
+        {word:'闲人',pinyin:'xián rén',en:'a person of leisure',sentence:'但少闲人如吾两人者耳。',sentenceEn:'Only there are few leisurely people like the two of us.'}
+      ],
+      grammarPoints: [
+        {point:'借景抒情',pointEn:'jiè jǐng shū qíng',example:'expressing emotion through scenery',exampleEn:'庭下如积水空明，水中藻荇交横。',explanation:'The courtyard was clear as pooled water; plants seemed to crisscross within.',explanationEn:'通过描写自然景物来表达作者内心的情感和志趣。'}
       ],
       thinkExplore: [
         {cn:"比较两篇短文在句式、节奏等方面的不同之处。", en:"Compare the two essays' differences in sentence patterns and rhythm."},
@@ -376,6 +490,7 @@ units: [
     },
     {
       id: 12, title: "与朱元思书", titleEn: "Letter to Zhu Yuansi",
+      difficulty: 4,
       author: "吴均", authorEn: "Wu Jun",
       isSelfRead: true,
       isClassical: true,
@@ -389,6 +504,13 @@ units: [
         "The water is all pale blue-green, visible to a depth of a thousand feet. Swimming fish and fine pebbles can be seen clearly. The swift rapids are faster than arrows; fierce waves surge like galloping horses.",
         "Tall mountains flank both banks, all growing cold-looking trees. They vie to climb higher by leveraging the terrain, soaring far and lofty, competing to point straight up, forming a thousand peaks. Spring water splashes on rocks with a clear tinkling; beautiful birds call to each other in harmonious song. Cicadas chirp endlessly; gibbons howl without cease. Those who soar to the heavens in pursuit of fame, gazing at these peaks, would quiet their ambitions; those who manage worldly affairs, peering into these valleys, would forget to return. Horizontal branches shade above, making daylight seem like dusk; where branches are sparse and interleaved, sunlight sometimes breaks through."
       ],
+      vocabWords: [
+        {word:'缥碧',pinyin:'piǎo bì',en:'pale blue-green',sentence:'水皆缥碧，千丈见底。',sentenceEn:'The water was all pale blue-green, with the bottom visible at a thousand feet.'},
+        {word:'急湍',pinyin:'jí tuān',en:'swift rapids',sentence:'急湍甚箭，猛浪若奔。',sentenceEn:'The rapids were swifter than arrows, the fierce waves like galloping horses.'},
+        {word:'息心',pinyin:'xī xīn',en:'to quiet one’s ambitions',sentence:'鸢飞戾天者，望峰息心。',sentenceEn:'Those who soar to the sky would quiet their ambitions upon seeing these peaks.'},
+        {word:'经纶',pinyin:'jīng lún',en:'statecraft; worldly affairs',sentence:'经纶世务者，窥谷忘反。',sentenceEn:'Those immersed in worldly affairs would forget to return upon glimpsing this valley.'},
+        {word:'轩邈',pinyin:'xuān miǎo',en:'to reach high and far',sentence:'负势竞上，互相轩邈。',sentenceEn:'They lean on the terrain to compete upward, each reaching higher and farther.'}
+      ],
       readingTips: [
         {cn:"体会\u201c奇山异水，天下独绝\u201d如何统领全文。", en:"Appreciate how 'wondrous mountains and unique waters, unmatched in the world' governs the entire text."},
         {cn:"理解\u201c鸢飞戾天者，望峰息心\u201d的深层含义。", en:"Understand the deeper meaning of 'those who soar to the heavens would quiet their ambitions upon seeing these peaks.'"}
@@ -399,9 +521,17 @@ units: [
     },
     {
       id: 13, title: "唐诗五首", titleEn: "Five Tang Poems",
+      difficulty: 5,
       isPoetry: true,
       poems: [
         {title:"野望", titleEn:"Gazing from the Wild", author:"王绩", authorEn:"Wang Ji",
+         vocabWords: [
+           {word:'徙倚',pinyin:'xǐ yǐ',en:'to pace; to linger',sentence:'东皋薄暮望，徙倚欲何依。',sentenceEn:'At East Ridge I gaze at dusk, pacing, wondering where to turn.'},
+           {word:'悠悠',pinyin:'yōu yōu',en:'drifting idly; endless',sentence:'白云千载空悠悠。',sentenceEn:'White clouds drift idly through a thousand years.'},
+           {word:'征蓬',pinyin:'zhēng péng',en:'tumbling tumbleweed (metaphor for a traveler)',sentence:'征蓬出汉塞，归雁入胡天。',sentenceEn:'Tumbleweeds drift from Han borders; returning geese enter barbarian skies.'},
+           {word:'萋萋',pinyin:'qī qī',en:'lush and thick',sentence:'芳草萋萋鹦鹉洲。',sentenceEn:'Fragrant grass grows lush and thick on Parrot Isle.'},
+           {word:'乱花',pinyin:'luàn huā',en:'scattered blossoms',sentence:'乱花渐欲迷人眼，浅草才能没马蹄。',sentenceEn:'Scattered blossoms begin to dazzle the eye; shallow grass barely hides horse hooves.'}
+         ],
          text:"东皋薄暮望，徙倚欲何依。\n树树皆秋色，山山唯落晖。\n牧人驱犊返，猎马带禽归。\n相顾无相识，长歌怀采薇。",
          textEn:"At East Ridge I gaze at dusk, pacing, wondering where to turn.\nEvery tree wears autumn colors; every mountain holds the setting glow.\nHerdsmen drive calves home; hunting horses bring back game.\nWe glance at each other, strangers all — I sing a long song, longing for the recluse life."},
         {title:"黄鹤楼", titleEn:"Yellow Crane Tower", author:"崔颢", authorEn:"Cui Hao",
@@ -455,6 +585,7 @@ units: [
   lessons: [
     {
       id: 14, title: "背影", titleEn: "The Silhouette (Back View)",
+      difficulty: 4,
       author: "朱自清", authorEn: "Zhu Ziqing",
       text: [
         "我与父亲不相见已二年余了，我最不能忘记的是他的背影。",
@@ -470,6 +601,17 @@ units: [
         "In recent years, father and I have been running about, and family circumstances have worsened by the day. He went out to earn a living young, supporting himself and accomplishing much. Who could have known old age would be so dismal! Everything he saw pained him; naturally his feelings could not be contained.",
         "Reading that, through glistening tears, I again see that stout silhouette in the dark blue padded gown and black cloth overcoat. Ah! I don't know when I shall see him again!"
       ],
+      vocabWords: [
+        {word:'狼藉',pinyin:'láng jí',en:'in a mess; in disarray',sentence:'看见满院狼藉的东西。',sentenceEn:'Seeing the yard in complete disarray.'},
+        {word:'蹒跚',pinyin:'pán shān',en:'to stagger; to hobble',sentence:'蹒跚地走到铁道边。',sentenceEn:'He staggered toward the railroad tracks.'},
+        {word:'踌躇',pinyin:'chóu chú',en:'to hesitate',sentence:'他踌躇了一会，终于决定还是自己送我去。',sentenceEn:'He hesitated a while, then finally decided to see me off himself.'},
+        {word:'颓唐',pinyin:'tuí táng',en:'dejected; dispirited',sentence:'哪知老境却如此颓唐！',sentenceEn:'Who would have thought his old age would be so dispirited!'},
+        {word:'触目伤怀',pinyin:'chù mù shāng huái',en:'the sight brings grief to the heart',sentence:'他触目伤怀，情郁于中。',sentenceEn:'Every sight brought grief to his heart; emotions weighed heavily within him.'}
+      ],
+      grammarPoints: [
+        {point:'背影的象征意义',pointEn:'bèi yǐng de xiàng zhēng yì yì',example:'symbolic meaning of the silhouette',exampleEn:'他用两手攀着上面，两脚再向上缩。',explanation:'He gripped the top with both hands and drew his feet upward.',explanationEn:'父亲买橘子时的背影是全文情感的凝聚点，象征着深沉而含蓄的父爱。'},
+        {point:'叙事散文的选材',pointEn:'xù shì sǎn wén de xuǎn cái',example:'material selection in narrative prose',exampleEn:'作者选取了送别一事中最动人的片段来表现父爱。',explanation:'The author selects the most moving moment from the farewell scene to express fatherly love.',explanationEn:'好的叙事散文善于从日常小事中选取最能打动人心的细节加以描写。'}
+      ],
       thinkExplore: [
         {cn:"\u201c背影\u201d在全文中起了什么作用？", en:"What role does the 'silhouette' play throughout the text?"},
         {cn:"文章第6段写父亲过铁道买橘子的过程，作者是怎样描写父亲的背影的？为什么写得这样详细？", en:"In paragraph 6, describing father crossing the tracks to buy oranges, how does the author depict his back view? Why so detailed?"},
@@ -484,6 +626,7 @@ units: [
     },
     {
       id: 15, title: "白杨礼赞", titleEn: "Eulogy for the White Poplar",
+      difficulty: 5,
       author: "茅盾", authorEn: "Mao Dun",
       text: [
         "白杨树实在是不平凡的，我赞美白杨树！",
@@ -497,7 +640,18 @@ units: [
         "As the car races across the endless plateau, what fills your vision is a great carpet of interwoven yellow and green. Yellow and green dominate, boundless, flat as a whetstone. Were it not for the distant mountain peaks reminding you, you'd forget the car is traveling on a plateau.",
         "This is a tree that strives upward — straight trunk, straight branches. Its trunk is usually over ten feet tall, as if artificially shaped, with no side branches within the first ten feet. All its boughs reach uniformly upward, tightly clustered as if man-made — never straying sideways. This is a tree that remains stubbornly upright even under the oppression of northern wind and snow!",
         "It lacks graceful posture and twisted, coiling branches. Perhaps you'd say it's not beautiful. If beauty means only 'graceful swaying' or 'branches straying sideways,' then the white poplar is no beauty among trees. But it is tall, upright, plain, serious, yet not lacking in gentleness — not to mention its unyielding strength.",
-        "Let those who look down on the common people and stubbornly cling to regression go praise the aristocratic nanmu tree. I shall loudly praise the white poplar!"
+        "Let those who look down on the common people, who despise them, who stubbornly cling to regression, go praise the aristocratic nanmu tree (which is also tall and elegantly straight) and disdain this most common, most easily grown white poplar — I shall loudly praise the white poplar!"
+      ],
+      vocabWords: [
+        {word:'坦荡如砥',pinyin:'tǎn dàng rú dǐ',en:'flat and smooth as a whetstone',sentence:'黄与绿主宰着，无边无垠，坦荡如砥。',sentenceEn:'Yellow and green dominate, boundless and flat as a whetstone.'},
+        {word:'潜滋暗长',pinyin:'qián zī àn zhǎng',en:'to grow silently and unseen',sentence:'另一种的味儿在你心头潜滋暗长了。',sentenceEn:'Another feeling was growing silently in your heart.'},
+        {word:'旁逸斜出',pinyin:'páng yì xié chū',en:'to branch off sideways',sentence:'绝不旁逸斜出。',sentenceEn:'The branches never stray sideways.'},
+        {word:'伟岸',pinyin:'wěi àn',en:'tall and sturdy; imposing',sentence:'它伟岸，正直，朴质，严肃。',sentenceEn:'It is imposing, upright, plain, and solemn.'},
+        {word:'不折不挠',pinyin:'bù zhé bù náo',en:'unyielding; indomitable',sentence:'不折不挠，对抗着西北风。',sentenceEn:'Unyielding, standing against the northwest wind.'}
+      ],
+      grammarPoints: [
+        {point:'象征手法',pointEn:'xiàng zhēng shǒu fǎ',example:'symbolism',exampleEn:'白杨树象征了北方的农民和民族解放斗争的精神。',explanation:'The white poplar symbolizes northern farmers and the spirit of national liberation.',explanationEn:'用具体的事物来象征某种精神品质或社会力量，使抽象的概念形象化。'},
+        {point:'排比反问',pointEn:'pái bǐ fǎn wèn',example:'parallelism with rhetorical questions',exampleEn:'难道你就觉得它只是树？难道你就不想到它的朴质？',explanation:'Do you really think it is just a tree? Do you not think of its plainness?',explanationEn:'连用排比反问句，层层递进，增强气势和说服力。'}
       ],
       thinkExplore: [
         {cn:"作者写白杨树\u201c不平凡\u201d，从哪些方面进行了阐述？", en:"From which aspects does the author explain how the white poplar is 'extraordinary'?"},
@@ -510,6 +664,7 @@ units: [
     },
     {
       id: 16, title: "散文二篇", titleEn: "Two Essays",
+      difficulty: 4,
       isSelfRead: true,
       multiText: [
         {
@@ -545,6 +700,13 @@ units: [
         "Eternal Life\nby Yan Wenjing\nTime past never returns. As one nears thirty, one discovers something lost. Yet we should not be pessimistic. We should see the miracle of life itself — life flows on, forever immortal.",
         "What I Have Lived For\nby Bertrand Russell\nThree simple but overwhelmingly strong passions have governed my life: the longing for love, the search for knowledge, and unbearable pity for human suffering. These passions, like great winds, have blown me hither and thither over a deep ocean of anguish, to the brink of despair."
       ],
+      vocabWords: [
+        {word:'臼齿',pinyin:'jiù chǐ',en:'molar tooth',sentence:'一个人到了三十岁的边头就会发现丢失了一颗臼齿。',sentenceEn:'At around thirty, a person discovers the loss of a molar tooth.'},
+        {word:'洗涤',pinyin:'xǐ dí',en:'to wash; to cleanse',sentence:'个人生命不像一件衬衣，可以脱下它来洗涤。',sentenceEn:'Individual life is not like a shirt that can be taken off and washed.'},
+        {word:'卑微',pinyin:'bēi wēi',en:'humble; lowly',sentence:'地面上的小草，它们是那样卑微。',sentenceEn:'The little grasses on the ground are so humble.'},
+        {word:'繁殖',pinyin:'fán zhí',en:'to reproduce; to multiply',sentence:'永不休止地繁殖着，蔓延着。',sentenceEn:'Reproducing and spreading without end.'},
+        {word:'凋谢',pinyin:'diāo xiè',en:'to wither; to fade',sentence:'个体消逝了，它却永远存在。',sentenceEn:'Individual forms perish, but life itself endures forever.'}
+      ],
       readingTips: [
         {cn:"比较两篇散文对生命意义的不同思考角度。", en:"Compare the two essays' different perspectives on the meaning of life."},
         {cn:"品味文章语言的哲理性和抒情性。", en:"Savor the philosophical and lyrical qualities of the language."}
@@ -555,10 +717,11 @@ units: [
     },
     {
       id: 17, title: "昆明的雨", titleEn: "Kunming Rain",
+      difficulty: 4,
       author: "汪曾祺", authorEn: "Wang Zengqi",
       isSelfRead: true,
       text: [
-        "宁坤要我给他画一张画，要有昆明的特点。我想了一些时候，画了一幅：右上角画了一片倒挂着的浓绿的仙人掌——Loss人掌有巴掌大一片，末端开出一朵金黄色的花；左下画了几朵青头菌和牛肝菌。",
+        "宁坤要我给他画一张画，要有昆明的特点。我想了一些时候，画了一幅：右上角画了一片倒挂着的浓绿的仙人掌——仙人掌有巴掌大一片，末端开出一朵金黄色的花；左下画了几朵青头菌和牛肝菌。",
         "我想念昆明的雨。昆明的雨季是明亮的、丰满的，使人动情的。昆明的雨季，是浓绿的。草木的枝叶里的水分都到了饱和状态，显示出过分的、近于夸张的旺盛。",
         "卖杨梅的都是苗族女孩子，戴一顶小花帽子，穿着扳尖的绣了满帮花的鞋，坐在人家阶石的一角，不时吆唤一声：\u201c卖杨梅——\u201d声音娇娇的。她们的声音使得昆明雨季的空气更加柔和了。",
         "带着雨珠的缅桂花使我的心软软的，不是怀人，不是思乡，不是因为这花很美。"
@@ -568,6 +731,13 @@ units: [
         "I miss the rain of Kunming. Kunming's rainy season is bright, full, and moving. Kunming's rainy season is deep green. The moisture in plant branches and leaves reaches saturation, displaying an excessive, nearly exaggerated vitality.",
         "The bayberry sellers were all Miao girls, wearing small flowered caps, shoes with embroidered upturned tips, sitting on someone's stone steps, occasionally calling out: 'Selling bayberries—' in a delicate voice. Their voices made the air of Kunming's rainy season even softer.",
         "The rain-pearled michelia flowers made my heart go soft — not because of missing someone, not homesickness, not because the flower was beautiful."
+      ],
+      vocabWords: [
+        {word:'青头菌',pinyin:'qīng tóu jùn',en:'green-cap mushroom',sentence:'青头菌比牛肝菌略贵。',sentenceEn:'Green-cap mushrooms are slightly more expensive than boletus.'},
+        {word:'鲜腴',pinyin:'xiān yú',en:'fresh and rich',sentence:'昆明的菌子极多，且鲜腴。',sentenceEn:'Kunming had abundant mushrooms, all fresh and rich.'},
+        {word:'缅桂',pinyin:'miǎn guì',en:'Burmese osmanthus',sentence:'缅桂花即白兰花，花香浓郁。',sentenceEn:'The Burmese osmanthus is white magnolia, with a rich fragrance.'},
+        {word:'密匝匝',pinyin:'mì zā zā',en:'densely packed',sentence:'密匝匝的细碎的绿叶，数不清的半开的白花和饱涨的花骨朵。',sentenceEn:'Densely packed fine green leaves, countless half-open white flowers and swelling buds.'},
+        {word:'情味',pinyin:'qíng wèi',en:'emotional flavor; charm',sentence:'我想念昆明的雨的情味。',sentenceEn:'I miss the emotional charm of Kunming rain.'}
       ],
       readingTips: [
         {cn:"体会汪曾祺散文\u201c淡而有味\u201d的语言风格。", en:"Appreciate Wang Zengqi's prose style — 'light yet flavorful.'"},
@@ -596,6 +766,7 @@ units: [
   lessons: [
     {
       id: 18, title: "中国石拱桥", titleEn: "China's Stone Arch Bridges",
+      difficulty: 4,
       author: "茅以昇", authorEn: "Mao Yisheng",
       text: [
         "石拱桥的桥洞成弧形，就像虹。古代神话里说，雨后彩虹是\u201c人间天上的桥\u201d，通过彩虹就能上天。我国的石拱桥有悠久的历史。《水经注》里提到的\u201c旅人桥\u201d，大约建成于公元282年，可能是有记载的最早的石拱桥了。",
@@ -608,8 +779,19 @@ units: [
         "The arch of a stone arch bridge is curved like a rainbow. Ancient myths say the rainbow after rain is a 'bridge between earth and heaven.' China's stone arch bridges have a long history. The 'Traveler's Bridge' mentioned in the Commentary on the Waterways Classic was built around 282 AD and may be the earliest recorded stone arch bridge.",
         "Stone arch bridges are found almost everywhere in China. These bridges vary in size and form, with many being astonishing masterpieces. The most famous are the Zhaozhou Bridge in Zhao County, Hebei, and the Lugou (Marco Polo) Bridge in Fengtai, Beijing.",
         "The Zhaozhou Bridge is magnificent — 50.82 meters long, 9.6 meters wide at the ends, narrowing to about 9 meters in the middle. Its design fully conforms to scientific principles, and the construction technique is supremely ingenious. The Tang Dynasty's Zhang Jiazhen called it 'uniquely constructed, beyond human understanding.'",
-        "The Lugou Bridge over the Yongding River was built between 1189 and 1192. It is 265 meters long, composed of 11 semicircular stone arches of varying lengths from 16 to 21.6 meters. The bridge is about 8 meters wide with a level surface nearly parallel to the river.",
+        "The Lugou Bridge over the Yongding River was built between 1189 and 1192. The bridge is 265 meters long, composed of 11 semicircular stone arches, each of varying length, ranging from 16 to 21.6 meters. The bridge is about 8 meters wide, with a level surface nearly parallel to the river. Between every two stone arches there is a stone pier, linking all 11 arches into one unified whole.",
         "Why have China's stone arch bridges achieved such brilliance? First, because of the diligence and wisdom of China's working people. Second, China's stone arch bridge design and construction has an excellent tradition. Third, China is rich in various building stones."
+      ],
+      vocabWords: [
+        {word:'雄跨',pinyin:'xióng kuà',en:'to span grandly',sentence:'能几十年几百年甚至上千年雄跨在江河之上。',sentenceEn:'They can span rivers grandly for decades, centuries, or even millennia.'},
+        {word:'巧妙绝伦',pinyin:'qiǎo miào jué lún',en:'extraordinarily ingenious',sentence:'施工技术更是巧妙绝伦。',sentenceEn:'The construction techniques were extraordinarily ingenious.'},
+        {word:'匀称',pinyin:'yún chèn',en:'well-proportioned; symmetrical',sentence:'全桥结构匀称，和四周景色配合得十分和谐。',sentenceEn:'The bridge is well-proportioned, harmonizing beautifully with surrounding scenery.'},
+        {word:'惟妙惟肖',pinyin:'wéi miào wéi xiào',en:'remarkably true to life',sentence:'桥栏柱上的石刻狮子惟妙惟肖。',sentenceEn:'The stone lions on the bridge railing pillars are remarkably true to life.'},
+        {word:'推崇',pinyin:'tuī chóng',en:'to esteem highly',sentence:'马可波罗十分推崇这座桥。',sentenceEn:'Marco Polo highly esteemed this bridge.'}
+      ],
+      grammarPoints: [
+        {point:'举例子',pointEn:'jǔ lì zi',example:'giving examples as explanation',exampleEn:'以赵州桥和卢沟桥为例说明中国石拱桥的特点。',explanation:'Using Zhaozhou Bridge and Lugou Bridge as examples to explain the features of Chinese stone arch bridges.',explanationEn:'举例子是说明文中最常用的说明方法，通过具体实例使抽象概念清晰易懂。'},
+        {point:'列数字',pointEn:'liè shù zì',example:'listing figures',exampleEn:'全长50.82米，两端宽9.6米。',explanation:'Total length 50.82 meters, width at both ends 9.6 meters.',explanationEn:'用准确的数字来说明事物的特征，增强说明的科学性和可信度。'}
       ],
       thinkExplore: [
         {cn:"文章选取了哪些例子来说明中国石拱桥的特征？", en:"What examples does the article select to illustrate the characteristics of Chinese stone arch bridges?"},
@@ -622,6 +804,7 @@ units: [
     },
     {
       id: 19, title: "苏州园林", titleEn: "Suzhou Gardens",
+      difficulty: 4,
       author: "叶圣陶", authorEn: "Ye Shengtao",
       text: [
         "苏州园林据说有一百多处，我到过的不过十多处。倘若要我说说总的印象，我觉得苏州园林是我国各地园林的标本，各地园林或多或少都受到苏州园林的影响。",
@@ -637,6 +820,16 @@ units: [
         "Visitors inevitably notice the flower walls and corridors. With walls dividing and corridors separating, layers multiply and views deepen. Yet the walls feature various openwork brick patterns, and corridors mostly stand unsupported on both sides — effectively dividing without truly dividing, separating without truly separating — thus adding even more depth to the scenery.",
         "There is certainly more that could be said, but I'll stop here."
       ],
+      vocabWords: [
+        {word:'因地制宜',pinyin:'yīn dì zhì yí',en:'to adapt to local conditions',sentence:'设计者和匠师们因地制宜，自出心裁。',sentenceEn:'The designers and craftsmen adapted to local conditions and used their own ingenuity.'},
+        {word:'自出心裁',pinyin:'zì chū xīn cái',en:'to use one’s own ingenuity',sentence:'因地制宜，自出心裁。',sentenceEn:'Adapting to conditions and using their own ingenuity.'},
+        {word:'嶙峋',pinyin:'lín xún',en:'rugged; craggy',sentence:'盘曲嶙峋的枝干就是一幅好画。',sentenceEn:'The rugged, twisting branches were a fine picture in themselves.'},
+        {word:'丘壑',pinyin:'qiū hè',en:'hills and valleys; a vision of landscape',sentence:'胸中有丘壑。',sentenceEn:'Having a vision of landscapes in one’s mind.'},
+        {word:'镂空',pinyin:'lòu kōng',en:'openwork; hollow carving',sentence:'墙壁上有砖砌的各式镂空图案。',sentenceEn:'The walls had various openwork patterns in brick.'}
+      ],
+      grammarPoints: [
+        {point:'总分结构',pointEn:'zǒng fēn jié gòu',example:'general-to-specific structure',exampleEn:'先总说苏州园林追求完美图画的特点，再分项具体说明。',explanation:'First stating the overall principle that Suzhou Gardens pursue perfect pictures, then explaining each aspect in detail.',explanationEn:'先提出总论点或总特征，再逐一展开具体论述，条理清晰，层次分明。'}
+      ],
       thinkExplore: [
         {cn:"课文中哪一句话最能说明苏州园林的整体特征？作者是从哪几个方面来具体展开说明的？", en:"Which sentence best captures the overall feature of Suzhou gardens? From which aspects does the author elaborate?"},
         {cn:"揣摩\u201c标本\u201d\u201c图案画\u201d和\u201c美术画\u201d\u201c隔而不隔，界而未界\u201d等词句的含义。", en:"Ponder the meanings of 'model,' 'pattern drawing' vs. 'fine art,' and 'dividing without truly dividing.'"}
@@ -647,6 +840,7 @@ units: [
     },
     {
       id: 20, title: "人民英雄永垂不朽", titleEn: "The People's Heroes Are Immortal",
+      difficulty: 4,
       subtitle: "瞻仰首都人民英雄纪念碑", subtitleEn: "Visiting the Monument to the People's Heroes",
       author: "周定舫", authorEn: "Zhou Dingfang",
       isSelfRead: true,
@@ -660,6 +854,13 @@ units: [
         "The monument is built from 17,000 blocks of hard granite and pure white marble. It rises on a two-tiered base; the main body is a single stone slab 14.7 meters long, 2.9 meters wide, 1 meter thick, weighing 60 tons — the largest stone tablet in China. On its front (north) face are engraved eight gilded characters by Mao Zedong: 'The People's Heroes Are Immortal.'",
         "The ten relief carvings around the base summarize over a century of the Chinese people's revolutionary struggle against imperialism and feudalism, especially under the leadership of the Communist Party of China."
       ],
+      vocabWords: [
+        {word:'瞻仰',pinyin:'zhān yǎng',en:'to pay respect to; to look up at with reverence',sentence:'瞻仰首都人民英雄纪念碑。',sentenceEn:'Paying respect to the Monument to the People’s Heroes in the capital.'},
+        {word:'矗立',pinyin:'chù lì',en:'to stand tall; to tower',sentence:'纪念碑矗立在天安门广场中心。',sentenceEn:'The monument stands tall in the center of Tiananmen Square.'},
+        {word:'浮雕',pinyin:'fú diāo',en:'relief sculpture',sentence:'碑身四周有十幅巨大的浮雕。',sentenceEn:'Around the monument are ten large relief sculptures.'},
+        {word:'上溯',pinyin:'shàng sù',en:'to trace back',sentence:'从碑身的浮雕可以上溯到1840年鸦片战争。',sentenceEn:'From the relief sculptures, one can trace back to the Opium War of 1840.'},
+        {word:'丰碑',pinyin:'fēng bēi',en:'great monument; milestone',sentence:'人民英雄永垂不朽的丰碑。',sentenceEn:'The great monument to the immortal people’s heroes.'}
+      ],
       readingTips: [
         {cn:"注意文章按照空间顺序（由远及近、由低到高）进行说明的方法。", en:"Note the article's use of spatial order (far to near, low to high) for organization."},
         {cn:"体会说明文中记叙、描写和议论相结合的特点。", en:"Appreciate the combination of narration, description, and commentary in expository writing."}
@@ -670,6 +871,7 @@ units: [
     },
     {
       id: 21, title: "蝉", titleEn: "Cicadas",
+      difficulty: 5,
       author: "法布尔", authorEn: "Jean-Henri Fabre",
       isSelfRead: true,
       text: [
@@ -682,6 +884,13 @@ units: [
         "Four years of toil in darkness, one month of pleasure in sunshine — this is the cicada's life. We should not resent its clamorous song, for after digging underground for four years, it can finally don its beautiful garments, grow wings to rival birds, and bask in warm sunlight.",
         "What cymbal crash could be loud enough to celebrate its hard-won moment of joy?"
       ],
+      vocabWords: [
+        {word:'隧道',pinyin:'suì dào',en:'tunnel',sentence:'蝉的幼虫从地下的隧道爬出来。',sentenceEn:'The cicada larva crawls out from its underground tunnel.'},
+        {word:'涂墁',pinyin:'tú màn',en:'to plaster',sentence:'幼虫用一种黏液涂墁隧道的墙壁。',sentenceEn:'The larva plasters the tunnel walls with a sticky liquid.'},
+        {word:'金蝉脱壳',pinyin:'jīn chán tuō qiào',en:'the golden cicada sheds its shell',sentence:'经过漫长的等待，幼虫终于金蝉脱壳。',sentenceEn:'After a long wait, the larva finally sheds its shell like a golden cicada.'},
+        {word:'喧嚣',pinyin:'xuān xiāo',en:'noisy; clamorous',sentence:'蝉的喧嚣声充满了整个夏天。',sentenceEn:'The clamorous sound of cicadas filled the entire summer.'},
+        {word:'蜕皮',pinyin:'tuì pí',en:'to molt; to shed skin',sentence:'蝉要经历多次蜕皮才能变为成虫。',sentenceEn:'Cicadas must molt multiple times before becoming adults.'}
+      ],
       readingTips: [
         {cn:"体会法布尔如何将科学观察与文学描写结合。", en:"Appreciate how Fabre combines scientific observation with literary description."},
         {cn:"注意说明文中拟人手法的运用。", en:"Note the use of personification in expository writing."}
@@ -692,6 +901,7 @@ units: [
     },
     {
       id: 22, title: "梦回繁华", titleEn: "Dreaming Back to Splendor",
+      difficulty: 5,
       author: "毛宁", authorEn: "Mao Ning",
       isSelfRead: true,
       text: [
@@ -703,6 +913,13 @@ units: [
         "During the Northern Song dynasty, commerce and handicraft industry developed rapidly. The strict boundaries between residential wards and marketplaces in city layouts were broken, producing unprecedented prosperity. Zhang Zeduan's 'Along the River During the Qingming Festival' was created against this historical backdrop — a genre painting scroll.",
         "Zhang Zeduan's painting is executed in color on silk, measuring 24.8 cm tall and 528.7 cm wide. It depicts the bustling scenes of the Northern Song capital Bianjing (Kaifeng) from the suburbs and the Bian River to the inner-city markets.",
         "This scroll is an extraordinarily vivid picture of 12th-century Chinese urban life and a portrait of the urban economy of 12th-century China."
+      ],
+      vocabWords: [
+        {word:'汴京',pinyin:'Biàn jīng',en:'Bianjing (ancient Kaifeng)',sentence:'张择端画了汴京的繁华景象。',sentenceEn:'Zhang Zeduan depicted the splendor of Bianjing.'},
+        {word:'绢本',pinyin:'juàn běn',en:'silk scroll',sentence:'这幅画为绢本设色长卷。',sentenceEn:'This painting is a colored long scroll on silk.'},
+        {word:'摩肩接踵',pinyin:'mó jiān jiē zhǒng',en:'shoulder to shoulder; extremely crowded',sentence:'街上行人摩肩接踵。',sentenceEn:'Pedestrians on the street were shoulder to shoulder.'},
+        {word:'络绎不绝',pinyin:'luò yì bù jué',en:'in an endless stream',sentence:'行人络绎不绝。',sentenceEn:'Pedestrians passed by in an endless stream.'},
+        {word:'长卷',pinyin:'cháng juàn',en:'long scroll',sentence:'清明上河图是一幅长卷。',sentenceEn:'Along the River During Qingming Festival is a long scroll.'}
       ],
       readingTips: [
         {cn:"注意文章如何按照画卷的空间顺序介绍《清明上河图》。", en:"Note how the article follows the scroll's spatial sequence to introduce 'Along the River During the Qingming Festival.'"},
@@ -734,6 +951,7 @@ units: [
   lessons: [
     {
       id: 23, title: "《孟子》三章", titleEn: "Three Chapters from Mencius",
+      difficulty: 5,
       author: "孟子", authorEn: "Mencius",
       isClassical: true,
       text: [
@@ -746,6 +964,17 @@ units: [
         "Wealth Cannot Corrupt\nJing Chun said: 'Are Gongsun Yan and Zhang Yi not truly great men? When they rage, the feudal lords tremble; when they rest at home, wars cease.' Mencius replied: 'How can they be called great men? Have you not studied ritual? When a man comes of age, his father instructs him; when a woman marries, her mother instructs her at the door: Go to your husband's home, be respectful, be cautious, do not disobey! Taking obedience as the norm is the way of a concubine. A great man dwells in the broadest dwelling — benevolence; stands in the most correct position — propriety; walks the greatest road — righteousness. When he achieves his ambitions, he follows this path with the people; when frustrated, he walks it alone. Wealth cannot corrupt him, poverty cannot sway him, power cannot bend him. This is what we call a great man.'",
         "Adversity Nurtures, Comfort Kills\nShun rose from the fields; Fu Yue was raised from building walls; Jiao Ge from selling fish and salt; Guan Zhong from prison; Sun Shuao from the seashore; Baili Xi from the marketplace. Thus, when Heaven is about to bestow a great mission upon a person, it first makes his heart suffer, his muscles and bones toil, his body hunger, his resources scarce, and his actions frustrated — all to stir his heart, toughen his nature, and develop abilities he did not have. People constantly err, then learn to correct themselves; struggle mentally and agonize in thought, then find a way forward; show it on their faces and express it in their words, then others understand. A nation with no principled ministers within and no rival powers without will always perish. Thus we know: adversity nurtures life, while comfort leads to death."
       ],
+      vocabWords: [
+        {word:'天时',pinyin:'tiān shí',en:'favorable timing',sentence:'天时不如地利，地利不如人和。',sentenceEn:'Favorable timing is not as good as geographical advantage; geographical advantage is not as good as unity among people.'},
+        {word:'畔',pinyin:'pàn',en:'to betray (same as 叛)',sentence:'寡助之至，亲戚畔之。',sentenceEn:'When one has minimal support, even relatives betray him.'},
+        {word:'大丈夫',pinyin:'dà zhàng fu',en:'a man of noble character',sentence:'富贵不能淫，贫贱不能移，威武不能屈。此之谓大丈夫。',sentenceEn:'Wealth cannot corrupt him, poverty cannot sway him, power cannot subdue him. This is what it means to be a man of noble character.'},
+        {word:'畎亩',pinyin:'quǎn mǔ',en:'fields; farmland',sentence:'舜发于畎亩之中。',sentenceEn:'Shun rose from the fields.'},
+        {word:'曾益',pinyin:'zēng yì',en:'to increase (曾 same as 增)',sentence:'曾益其所不能。',sentenceEn:'To increase what he could not do before.'}
+      ],
+      grammarPoints: [
+        {point:'排比论证',pointEn:'pái bǐ lùn zhèng',example:'parallel argumentation',exampleEn:'舜发于畎亩之中，傅说举于版筑之间，胶鬲举于鱼盐之中。',explanation:'Shun rose from the fields, Fu Yue was raised from wall-building, Jiao Ge was raised from fish and salt trading.',explanationEn:'用一连串排比句列举多个事例来论证观点，气势恢宏，说服力强。'},
+        {point:'论证方法',pointEn:'lùn zhèng fāng fǎ',example:'methods of argumentation',exampleEn:'先从反面论证，再从正面论证。',explanation:'Arguing from the negative side first, then from the positive side.',explanationEn:'先说如果没有忧患会导致灭亡，再说正是忧患使人生存，正反对比增强论证力度。'}
+      ],
       thinkExplore: [
         {cn:"结合课文内容说说你对\u201c得道者多助，失道者寡助\u201d\u201c生于忧患而死于安乐\u201d的理解。", en:"Based on the text, explain your understanding of 'those with the Way gain many allies' and 'adversity nurtures, comfort kills.'"},
         {cn:"孟子为什么认为公孙衍、张仪不配称为大丈夫？什么样的人才是真正的大丈夫？", en:"Why does Mencius think Gongsun Yan and Zhang Yi are not worthy of being called great men? What kind of person truly qualifies?"},
@@ -757,6 +986,7 @@ units: [
     },
     {
       id: 24, title: "愚公移山", titleEn: "The Foolish Old Man Removes the Mountains",
+      difficulty: 5,
       author: "《列子》", authorEn: "Liezi",
       isClassical: true,
       text: [
@@ -773,6 +1003,16 @@ units: [
         "The Wise Old Man of the River Bend laughed and stopped him: 'How foolish you are! With what remains of your years and strength, you cannot even remove a blade of grass from the mountain — what can you do to rocks and earth?' The Foolish Old Man sighed deeply: 'Your mind is so fixed, so stubbornly immovable — you are worse than the widow and her young child. Even when I die, my sons live on. Sons beget grandsons, grandsons beget sons — generation after generation without end, while the mountains do not grow. Why should I fear they cannot be leveled?' The Wise Old Man had no reply.",
         "The snake-wielding mountain god, hearing of this and fearing the old man would never stop, reported to the Lord of Heaven. Moved by the old man's sincerity, the Lord commanded the two sons of Kua'e to carry the mountains away — one to eastern Shuo, one to southern Yong. From then on, from south of Ji to the Han River, there were no mountain barriers."
       ],
+      vocabWords: [
+        {word:'万仞',pinyin:'wàn rèn',en:'ten thousand ren (extremely tall)',sentence:'太行、王屋二山，方七百里，高万仞。',sentenceEn:'Mount Taihang and Mount Wangwu are seven hundred li across and ten thousand ren high.'},
+        {word:'毕力平险',pinyin:'bì lì píng xiǎn',en:'to exert all strength to level the terrain',sentence:'吾与汝毕力平险。',sentenceEn:'I shall exert all strength together with you to level these mountains.'},
+        {word:'箕畚',pinyin:'jī běn',en:'dustpan and basket',sentence:'箕畚运于渤海之尾。',sentenceEn:'Carrying earth in dustpans and baskets to the edge of the Bohai Sea.'},
+        {word:'寒暑易节',pinyin:'hán shǔ yì jié',en:'cold and heat alternate between seasons',sentence:'寒暑易节，始一反焉。',sentenceEn:'After the seasons alternated between cold and heat, they made one return trip.'},
+        {word:'穷匮',pinyin:'qióng kuì',en:'exhausted; depleted',sentence:'子子孙孙无穷匮也。',sentenceEn:'Descendants will continue without end.'}
+      ],
+      grammarPoints: [
+        {point:'寓言寓意',pointEn:'yù yán yù yì',example:'moral of the fable',exampleEn:'愚公精神象征着坚持不懈、知难而进的意志。',explanation:'The spirit of the Foolish Old Man symbolizes perseverance and the will to advance despite difficulty.',explanationEn:'寓言通过简短的故事传达深刻的道理，让读者在故事情节中领悟人生哲理。'}
+      ],
       thinkExplore: [
         {cn:"文中人物对愚公移山的态度各不相同。找出相关语句，简析他们的态度。", en:"Characters in the story have different attitudes toward the old man's project. Find relevant sentences and briefly analyze their attitudes."},
         {cn:"这则寓言的寓意是什么？和同学讨论交流。", en:"What is the moral of this fable? Discuss with classmates."}
@@ -786,6 +1026,7 @@ units: [
     },
     {
       id: 25, title: "周亚夫军细柳", titleEn: "Zhou Yafu's Camp at Xiliu",
+      difficulty: 5,
       author: "司马迁", authorEn: "Sima Qian",
       isSelfRead: true,
       isClassical: true,
@@ -803,6 +1044,13 @@ units: [
         "The gate soldiers told the imperial escort: 'The general's rule: no galloping within the camp.' The emperor then reined in his horse and proceeded slowly. At the headquarters, General Zhou Yafu, holding his weapon, saluted and said: 'An armored soldier does not bow; please allow me to greet you with military protocol.' The emperor was moved, adjusted his expression respectfully, leaned forward on the chariot rail, and sent word: 'The Emperor respectfully salutes the General.' The ceremony complete, he departed.",
         "Once outside the camp gates, all the court officials were astonished. Emperor Wen said: 'Ah, this is a true general! The camps at Bashang and Jimen were like children's games — those generals could easily be ambushed and captured. But Zhou Yafu — who could possibly challenge him!' He praised him for a long time."
       ],
+      vocabWords: [
+        {word:'棘门',pinyin:'jí mén',en:'Jimen (place name)',sentence:'上自劳军。至霸上及棘门军。',sentenceEn:'The emperor personally visited the armies, arriving at Bashang and Jimen camps.'},
+        {word:'介胄',pinyin:'jiè zhòu',en:'wearing armor and helmet',sentence:'将军约，军中不得驱驰。天子且至，介胄之士不拜。',sentenceEn:'The general ordered: no galloping in camp. When the emperor arrives, armored soldiers do not bow.'},
+        {word:'按辔徐行',pinyin:'àn pèi xú xíng',en:'to hold the reins and proceed slowly',sentence:'于是天子乃按辔徐行。',sentenceEn:'So the emperor held his reins and proceeded slowly.'},
+        {word:'持兵揖',pinyin:'chí bīng yī',en:'to salute with weapons in hand',sentence:'以军礼见，持兵揖。',sentenceEn:'Meeting with military protocol, saluting with weapons in hand.'},
+        {word:'嗟乎',pinyin:'jiē hū',en:'alas; oh',sentence:'嗟乎，此真将军矣！',sentenceEn:'Alas, this is a true general indeed!'}
+      ],
       readingTips: [
         {cn:"注意文章如何通过对比手法（霸上、棘门与细柳）突出周亚夫的\u201c真将军\u201d形象。", en:"Note how the article uses contrast (Bashang and Jimen vs. Xiliu) to highlight Zhou Yafu's image as a 'true general.'"},
         {cn:"体会文中\u201c将军令曰\u2018军中闻将军令，不闻天子之诏\u2019\u201d的深意。", en:"Appreciate the deeper meaning of 'In the army, we obey the general's commands, not the emperor's edicts.'"}
@@ -813,9 +1061,17 @@ units: [
     },
     {
       id: 26, title: "诗词五首", titleEn: "Five Poems and Ci",
+      difficulty: 5,
       isPoetry: true,
       poems: [
         {title:"饮酒（其五）", titleEn:"Drinking Wine (V)", author:"陶渊明", authorEn:"Tao Yuanming",
+         vocabWords: [
+           {word:'结庐',pinyin:'jié lú',en:'to build a hut',sentence:'结庐在人境，而无车马喧。',sentenceEn:'I built my hut amid the world of men, yet hear no clamor of horse or carriage.'},
+           {word:'烽火',pinyin:'fēng huǒ',en:'beacon fires (signal of war)',sentence:'烽火连三月，家书抵万金。',sentenceEn:'Beacon fires have burned for three months; a letter from home is worth ten thousand gold.'},
+           {word:'折戟',pinyin:'zhé jǐ',en:'a broken halberd',sentence:'折戟沉沙铁未销。',sentenceEn:'A broken halberd sunk in sand, its iron not yet rusted away.'},
+           {word:'金鳞',pinyin:'jīn lín',en:'golden scales',sentence:'甲光向日金鳞开。',sentenceEn:'Armor gleams toward the sun like golden scales.'},
+           {word:'云涛',pinyin:'yún tāo',en:'cloud waves',sentence:'天接云涛连晓雾。',sentenceEn:'Sky meets cloud waves and morning mist.'}
+         ],
          text:"结庐在人境，而无车马喧。\n问君何能尔？心远地自偏。\n采菊东篱下，悠然见南山。\n山气日夕佳，飞鸟相与还。\n此中有真意，欲辨已忘言。",
          textEn:"I built my hut amid the world of men, yet hear no clamor of horse or carriage.\nYou ask how this can be? A distant heart makes any place remote.\nI pick chrysanthemums by the eastern fence; serenely I gaze at the southern mountain.\nMountain air is lovely at sunset; birds fly home together.\nIn this lies a true meaning — I wish to explain, but have forgotten words."},
         {title:"春望", titleEn:"Spring Prospect", author:"杜甫", authorEn:"Du Fu",

@@ -1,5 +1,5 @@
 /**
- * 字道 ZiDao — 部编版九年级语文下册 教材数据
+ * 语宙 YuZhou — 部编版九年级语文下册 教材数据
  * Grade 9 Semester 2 Textbook Data (PEP Edition)
  * Based on: 义务教育教科书 语文 九年级下册 (2018)
  * This is the FINAL textbook of junior high — the graduation semester.
@@ -21,7 +21,19 @@ units: [
     {
       id: 1, title: "\u7956\u56fd\u554a\uff0c\u6211\u4eb2\u7231\u7684\u7956\u56fd",
       titleEn: "O Motherland, My Dear Motherland",
+      difficulty: 4,
       author: "\u8212\u5a77", authorEn: "Shu Ting",
+      vocabWords: [
+        {word:'疲惫',pinyin:'pí bèi',en:'weary; exhausted',sentence:'数百年来纺着疲惫的歌。',sentenceEn:'Spinning a weary song for hundreds of years.'},
+        {word:'簇新',pinyin:'cù xīn',en:'brand-new; fresh',sentence:'我是你簇新的理想，刚从神话的蛛网里挣脱。',sentenceEn:'I am your brand-new ideal, just breaking free from the spider web of myth.'},
+        {word:'蜗行',pinyin:'wō xíng',en:'to crawl like a snail',sentence:'照你在历史的隧洞里蜗行摸索。',sentenceEn:'Lighting your way as you grope through the tunnel of history.'},
+        {word:'喷薄',pinyin:'pēn bó',en:'to surge forth; to burst out',sentence:'是绯红的黎明正在喷薄。',sentenceEn:'The crimson dawn is bursting forth.'},
+        {word:'迷惘',pinyin:'mí wǎng',en:'bewildered; confused',sentence:'你以伤痕累累的乳房喂养了迷惘的我。',sentenceEn:'With your scarred breast you nourished the bewildered me.'}
+      ],
+      grammarPoints: [
+        {point:'意象叠加',pointEn:'yì xiàng dié jiā',example:'accumulation of imagery',exampleEn:'我是你河边上破旧的老水车……我是你额上熏黑的矿灯……',explanation:'I am your old, broken waterwheel by the river... I am the soot-blackened miner’s lamp on your forehead...',explanationEn:'诗人用一连串意象层层叠加，构成一组宏大的诗歌画面，将抽象的情感具体化。'},
+        {point:'抒情主人公',pointEn:'shū qíng zhǔ rén gōng',example:'lyrical persona',exampleEn:'我是你的十亿分之一，是你九百六十万平方的总和。',explanation:'I am one ten-billionth of you, the sum of your 9.6 million square kilometers.',explanationEn:'诗歌中的"我"既是诗人自己，也代表了全体中国人民，是个体与民族的统一。'}
+      ],
       authorBio: {cn:"舒婷（1952— ），原名龚佩瑜，福建泉州人，当代女诗人。朦胧诗派代表人物之一。代表作有《致橡树》《祖国啊，我亲爱的祖国》等。", en:"Shu Ting (b. 1952), original name Gong Peiyu, from Quanzhou, Fujian. Contemporary female poet and a leading figure of the Misty Poetry movement. Major works include To the Oak Tree and O Motherland, My Dear Motherland."},
       isSelfRead: false,
       preview: [{cn: "\u5148\u9ed8\u8bfb\u8bd7\u6b4c\uff0c\u7ed9\u4e0d\u8ba4\u8bc6\u7684\u5b57\u6ce8\u97f3\uff0c\u4e86\u89e3\u8bd7\u6b4c\u7684\u5185\u5bb9\uff0c\u628a\u6253\u52a8\u4f60\u7684\u8bd7\u53e5\u753b\u51fa\u6765\u3002\u518d\u5927\u58f0\u6717\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f5\u5f8b\u548c\u8282\u594f\u3002", en: "Read the poem silently first, annotate unfamiliar characters, and underline the lines that move you. Then read aloud to feel the rhythm and meter."}],
@@ -60,7 +72,18 @@ units: [
     {
       id: 2, title: "\u6885\u5cad\u4e09\u7ae0",
       titleEn: "Three Poems at Meiling",
+      difficulty: 4,
       author: "\u9648\u6bc5", authorEn: "Chen Yi",
+      vocabWords: [
+        {word:'泉台',pinyin:'quán tái',en:'the netherworld; the realm of the dead',sentence:'此去泉台招旧部。',sentenceEn:'I shall go to the netherworld to rally my old comrades.'},
+        {word:'旌旗',pinyin:'jīng qí',en:'banners and flags; military forces',sentence:'旌旗十万斩阎罗。',sentenceEn:'Leading a hundred thousand troops to slay the King of Hell.'},
+        {word:'烽烟',pinyin:'fēng yān',en:'beacon fire; war flames',sentence:'南国烽烟正十年。',sentenceEn:'The war flames in the south have raged for exactly ten years.'},
+        {word:'捷报',pinyin:'jié bào',en:'news of victory',sentence:'捷报飞来当纸钱。',sentenceEn:'Let news of victory fly in to serve as sacrificial paper money.'},
+        {word:'血雨腥风',pinyin:'xuè yǔ xīng fēng',en:'bloody storm; reign of terror',sentence:'血雨腥风应有涯。',sentenceEn:'The bloody storm shall have its end.'}
+      ],
+      grammarPoints: [
+        {point:'绝命诗的传统',pointEn:'jué mìng shī de chuán tǒng',example:'the tradition of farewell-to-life poetry',exampleEn:'断头今日意如何？创业艰难百战多。',explanation:'What are my thoughts today as I face the blade? Establishing our cause has been hard through a hundred battles.',explanationEn:'绝命诗是中国文学的特殊体裁，诗人在生死关头写下最后的心声，表达理想与信念。'}
+      ],
       authorBio: {cn:"陈毅（1901—1972），四川乐至人。无产阶级革命家、军事家、外交家，中华人民共和国元帅。工于诗词，有《陈毅诗词选集》。", en:"Chen Yi (1901–1972), from Lezhi, Sichuan. Proletarian revolutionary, military strategist, and diplomat; Marshal of the People's Republic of China. An accomplished poet; published Selected Poems of Chen Yi."},
       isSelfRead: true,
       preview: [{cn: "\u751f\u4e0e\u6b7b\u7684\u6289\u62e9\uff0c\u662f\u4eba\u9762\u5bf9\u7684\u6700\u4e25\u5cfb\u7684\u8003\u9a8c\u3002\u9648\u6bc5\u5728\u751f\u6b7b\u5173\u5934\u5199\u4e0b\u8fd9\u4e09\u9996\u8bd7\u3002", en: "The choice between life and death is the most severe test one can face. Chen Yi wrote these three poems at a critical moment."}],
@@ -95,7 +118,15 @@ units: [
     {
       id: 3, title: "\u77ed\u8bd7\u4e94\u9996",
       titleEn: "Five Short Poems",
+      difficulty: 4,
       author: "\u6c88\u5c39\u9ed8\u3001\u6234\u671b\u8212\u3001\u5351\u4e4b\u7433\u3001\u82a6\u83fb\u3001\u8042\u9c81\u8fbe", authorEn: "Shen Yinmo, Dai Wangshu, Bian Zhilin, Lu Di, Pablo Neruda",
+      vocabWords: [
+        {word:'霜风',pinyin:'shuāng fēng',en:'frosty wind',sentence:'霜风呼呼的吹着。',sentenceEn:'The frosty wind blows with a howl.'},
+        {word:'口占',pinyin:'kǒu zhàn',en:'to compose a poem orally; impromptu verse',sentence:'萧红墓畔口占。',sentenceEn:'An impromptu poem composed at the grave of Xiao Hong.'},
+        {word:'装饰',pinyin:'zhuāng shì',en:'to decorate; decoration',sentence:'明月装饰了你的窗子。',sentenceEn:'The bright moon has decorated your window.'},
+        {word:'卑微',pinyin:'bēi wēi',en:'humble; lowly',sentence:'我和一株顶高的树并排立着。',sentenceEn:'I stand side by side with the tallest tree.'},
+        {word:'统一',pinyin:'tǒng yī',en:'unity; unification',sentence:'叶是不一样的，但是花是一样的。',sentenceEn:'The leaves are different, but the flowers are the same.'}
+      ],
       authorBio: {cn:"沈尹默（1883—1971），浙江人，诗人、书法家。戴望舒（1905—1950），浙江杭州人，\u201c雨巷诗人\u201d。卞之琳（1910—2000），江苏海门人，诗人、翻译家。芦荻（1912—1994），广东人，诗人。聂鲁达（1904—1973），智利诗人，1971年获诺贝尔文学奖。", en:"Shen Yinmo (1883–1971), from Zhejiang, poet and calligrapher. Dai Wangshu (1905–1950), from Hangzhou, Zhejiang, known as the 'Poet of the Rainy Lane.' Bian Zhilin (1910–2000), from Haimen, Jiangsu, poet and translator. Lu Di (1912–1994), from Guangdong, poet. Pablo Neruda (1904–1973), Chilean poet, Nobel Prize in Literature 1971."},
       isSelfRead: true,
       preview: [{cn: "\u8fd9\u51e0\u9996\u77ed\u8bd7\uff0c\u8bed\u8a00\u51dd\u7ec3\u800c\u542b\u84c4\uff0c\u8574\u542b\u7740\u4e30\u5bcc\u7684\u60c5\u611f\u548c\u54f2\u601d\u3002", en: "These short poems are concise yet profound, rich with emotion and philosophical reflection."}],
@@ -132,7 +163,18 @@ units: [
     {
       id: 4, title: "\u6d77\u71d5",
       titleEn: "The Petrel",
+      difficulty: 4,
       author: "\u9ad8\u5c14\u57fa", authorEn: "Maxim Gorky",
+      vocabWords: [
+        {word:'咆哮',pinyin:'páo xiào',en:'to roar; to howl',sentence:'看吧，它飞舞着，像个精灵。',sentenceEn:'Look, it dances like a spirit.'},
+        {word:'翡翠',pinyin:'fěi cuì',en:'emerald; jade green',sentence:'海浪是翡翠的。',sentenceEn:'The waves are emerald.'},
+        {word:'号叫',pinyin:'háo jiào',en:'to scream; to shriek',sentence:'海鸥在暴风雨前头哼着。',sentenceEn:'The seagull moans before the storm.'},
+        {word:'蠢笨',pinyin:'chǔn bèn',en:'clumsy; stupid',sentence:'蠢笨的企鹅，畏缩地躲藏着肥胖的身体。',sentenceEn:'The clumsy penguin timidly hides its fat body.'},
+        {word:'预言者',pinyin:'yù yán zhě',en:'prophet; foreteller',sentence:'这胜利的预言者叫了。',sentenceEn:'This prophet of victory cries out.'}
+      ],
+      grammarPoints: [
+        {point:'象征手法',pointEn:'xiàng zhēng shǒu fǎ',example:'symbolism',exampleEn:'让暴风雨来得厉害些吧！',explanation:'Let the storm come harder!',explanationEn:'海燕象征勇敢的革命先驱，暴风雨象征革命风暴，不同的鸟类象征不同阶层的人们。'}
+      ],
       authorBio: {cn:"高尔基（1868—1936），原名阿列克谢·马克西莫维奇·彼什科夫，苏联伟大的无产阶级作家。代表作有《母亲》《童年》《在人间》《我的大学》等。", en:"Maxim Gorky (1868–1936), born Alexei Maximovich Peshkov. Great Soviet proletarian writer. Major works include Mother, Childhood, In the World, and My Universities."},
       isSelfRead: false,
       preview: [{cn: "\u672c\u6587\u5199\u4e8e\u4fc4\u56fd1905\u5e74\u9769\u547d\u524d\u6c99\u7687\u7edf\u6cbb\u6700\u9ed1\u6697\u7684\u65f6\u671f\u3002\u201c\u6d77\u71d5\u201d\u5728\u4fc4\u6587\u91cc\u542b\u6709\u201c\u66b4\u98ce\u96e8\u7684\u9884\u8a00\u8005\u201d\u4e4b\u610f\u3002", en: "This was written during the darkest period of Tsarist rule before Russia\u2019s 1905 Revolution. \u2018Petrel\u2019 in Russian means \u2018herald of the storm.\u2019"}],
@@ -149,7 +191,7 @@ units: [
       textEn: [
         "Over the grey expanse of the sea, the wind gathers storm clouds. Between the clouds and the sea, the petrel soars like a bolt of black lightning, proud in flight.",
         "Now its wing tips touch the waves, now it darts upward like an arrow toward the clouds, crying out \u2014 and in this brave bird\u2019s cry, the clouds hear joy.",
-        "Seagulls moan before the coming storm, darting about the sea, trying to hide their terror in its depths. Sea ducks moan too. Stupid penguins cower beneath the cliffs\u2026 Only the proud petrel flies bravely and freely over the foam-crested sea!",
+        "Seagulls moan before the coming storm, darting about the sea, trying to hide their terror of the storm in its depths. Sea ducks moan too. Clumsy penguins timidly tuck their fat bodies away beneath the cliffs\u2026 Only the proud petrel flies bravely and freely over the foam-crested sea!",
         "The clouds press lower and darker toward the sea, while the waves sing and surge upward to meet the thunder.",
         "The petrel cries and soars, a bolt of black lightning piercing the clouds, its wings scattering the spray of waves.",
         "Look \u2014 it dances like a spirit \u2014 the proud, dark spirit of the storm \u2014 it laughs, it screams\u2026 It laughs at the clouds, it screams with joy!",
@@ -178,6 +220,13 @@ units: [
   ],
   writing: {
     title: "\u5b66\u4e60\u6269\u5199", titleEn: "Learning to Expand Writing",
+    vocabWords: [
+      {word:'扩写',pinyin:'kuò xiě',en:'to expand (a text); expanded writing',sentence:'扩写就是在保持原文中心思想的基础上加以扩展。',sentenceEn:'Expanded writing means developing a text while preserving its central idea.'},
+      {word:'细节描写',pinyin:'xì jié miáo xiě',en:'detailed description',sentence:'扩写时要增加必要的细节描写。',sentenceEn:'When expanding, one should add necessary detailed descriptions.'},
+      {word:'想象',pinyin:'xiǎng xiàng',en:'imagination',sentence:'合理的想象能使文章更加生动。',sentenceEn:'Reasonable imagination can make writing more vivid.'},
+      {word:'原文',pinyin:'yuán wén',en:'original text; source text',sentence:'扩写不能改变原文的中心思想。',sentenceEn:'Expanded writing must not change the central idea of the original.'},
+      {word:'丰富',pinyin:'fēng fù',en:'rich; to enrich',sentence:'通过扩写使内容更加丰富。',sentenceEn:'Enriching the content through expansion.'}
+    ],
     content: {
       cn: "\u6269\u5199\uff0c\u662f\u5bf9\u672c\u6765\u8f83\u4e3a\u7b80\u7565\u7684\u6587\u7ae0\u6216\u7247\u6bb5\u52a0\u4ee5\u6269\u5c55\u3001\u8865\u5145\uff0c\u4f7f\u4e4b\u6210\u4e3a\u7bc7\u5e45\u66f4\u957f\u3001\u5185\u5bb9\u66f4\u5145\u5b9e\u7684\u6587\u7ae0\u3002\u6269\u5199\u8981\u5fe0\u4e8e\u539f\u6587\uff0c\u627e\u51c6\u6269\u5199\u70b9\uff0c\u6ce8\u610f\u5185\u5bb9\u7684\u4e00\u81f4\u548c\u8fde\u8d2f\u3002",
       en: "Expansion writing means taking a brief text or passage and extending it into a longer, more detailed piece. One must stay faithful to the original, identify the right points for expansion, and maintain consistency and coherence."
@@ -198,7 +247,19 @@ units: [
     {
       id: 5, title: "\u5b54\u4e59\u5df1",
       titleEn: "Kong Yiji",
+      difficulty: 4,
       author: "\u9c81\u8fc5", authorEn: "Lu Xun",
+      vocabWords: [
+        {word:'阔绰',pinyin:'kuò chuò',en:'lavish; extravagant',sentence:'大抵没有这样阔绰。',sentenceEn:'Generally they were not that extravagant.'},
+        {word:'颓唐',pinyin:'tuí táng',en:'dejected; dispirited',sentence:'孔乙己立刻显出颓唐不安模样。',sentenceEn:'Kong Yiji immediately looked dejected and uneasy.'},
+        {word:'不屑',pinyin:'bù xiè',en:'to disdain; to scorn',sentence:'蹴尔而与之，乞人不屑也。',sentenceEn:'If you kick food toward a beggar, even a beggar will disdain it.'},
+        {word:'绰号',pinyin:'chuò hào',en:'nickname',sentence:'替他取下一个绰号，叫作孔乙己。',sentenceEn:'They gave him a nickname: Kong Yiji.'},
+        {word:'羼水',pinyin:'chàn shuǐ',en:'to dilute with water; to adulterate',sentence:'在这严重监督之下，羼水也很为难。',sentenceEn:'Under such strict supervision, even watering down the wine was difficult.'}
+      ],
+      grammarPoints: [
+        {point:'第一人称旁观视角',pointEn:'dì yī rén chēng páng guān shì jiǎo',example:'first-person observer perspective',exampleEn:'我从十二岁起，便在镇口的咸亨酒店里当伙计。',explanation:'From the age of twelve I worked as a helper at the Xianheng Tavern at the edge of town.',explanationEn:'小说以酒店小伙计的视角叙述，既是参与者又是旁观者，增强了叙事的客观性和可信度。'},
+        {point:'笑声的讽刺功能',pointEn:'xiào shēng de fěng cì gōng néng',example:'the satirical function of laughter',exampleEn:'孔乙己一到店，所有喝酒的人便都看着他笑。',explanation:'Whenever Kong Yiji arrived at the tavern, all the drinkers would look at him and laugh.',explanationEn:'小说中反复出现的"笑"是冷漠社会的象征，以喜剧手法写悲剧，增强了讽刺力度。'}
+      ],
       authorBio: {cn:"鲁迅（1881—1936），原名周树人，字豫才，浙江绍兴人。文学家、思想家、革命家，中国现代文学的奠基人。代表作有《呐喊》《彷徨》《朝花夕拾》等。", en:"Lu Xun (1881–1936), original name Zhou Shuren, from Shaoxing, Zhejiang. Literary giant, thinker, and revolutionary; founder of modern Chinese literature. Major works include Call to Arms, Wandering, and Dawn Blossoms Plucked at Dusk."},
       isSelfRead: false,
       preview: [{cn: "\u201c\u5b54\u4e59\u5df1\u201d\u662f\u5c0f\u8bf4\u4e2d\u4eba\u7269\u7684\u7ed0\u53f7\u3002\u8bfb\u5b8c\u8bfe\u6587\uff0c\u60f3\u4e00\u60f3\uff0c\u5b54\u4e59\u5df1\u7ed9\u4f60\u7559\u4e0b\u4e86\u600e\u6837\u7684\u5370\u8c61\uff1f", en: "\u2018Kong Yiji\u2019 is the character\u2019s nickname. After reading, consider: what impression does he leave on you?"}],
@@ -221,7 +282,7 @@ units: [
       annotations: [
         {term: "\u77ed\u8863\u5e2e", cn: "\u65e7\u6307\u77ed\u6253\u8863\u7740\u7684\u52b3\u52a8\u8005", en: "Refers to working-class people in short jackets"},
         {term: "\u7a83\u4e66\u4e0d\u80fd\u7b97\u5077", cn: "\u5b54\u4e59\u5df1\u4e3a\u5077\u4e66\u8fa9\u89e3\u7684\u540d\u53e5", en: "Kong Yiji\u2019s famous excuse for stealing books"},
-        {term: "\u541b\u5b50\u56fa\u7a77", cn: "\u8bed\u51fa\u300a\u8bba\u8bed\u00b7\u536b\u7075\u516c\u300b\uff0c\u610f\u601d\u662f\u541b\u5b50\u80fd\u5b89\u5b88\u7a77\u56f0", en: "From the Analerta: a gentleman endures poverty with integrity"}
+        {term: "\u541b\u5b50\u56fa\u7a77", cn: "\u8bed\u51fa\u300a\u8bba\u8bed\u00b7\u536b\u7075\u516c\u300b\uff0c\u610f\u601d\u662f\u541b\u5b50\u80fd\u5b89\u5b88\u7a77\u56f0", en: "From the Analects: a gentleman endures poverty with integrity"}
       ],
       thinkExplore: [
         {cn: "\u5b54\u4e59\u5df1\u662f\u4e00\u4e2a\u600e\u6837\u7684\u4eba\uff1f\u7ed3\u5408\u5177\u4f53\u63cf\u5199\uff0c\u8054\u7cfb\u4eba\u7269\u6240\u5904\u7684\u793e\u4f1a\u73af\u5883\u3002", en: "What kind of person is Kong Yiji? Connect specific descriptions to his social environment."},
@@ -239,7 +300,18 @@ units: [
     {
       id: 6, title: "\u53d8\u8272\u9f99",
       titleEn: "The Chameleon",
+      difficulty: 4,
       author: "\u5951\u8bc3\u592b", authorEn: "Anton Chekhov",
+      vocabWords: [
+        {word:'无精打采',pinyin:'wú jīng dǎ cǎi',en:'listless; lacking energy',sentence:'商店和饭馆的门无精打采地敞着。',sentenceEn:'The doors of the shops and restaurants gaped listlessly.'},
+        {word:'异想天开',pinyin:'yì xiǎng tiān kāi',en:'to have a fantastic idea; absurd',sentence:'简直是异想天开！',sentenceEn:'That is simply an absurd fantasy!'},
+        {word:'惩处',pinyin:'chéng chǔ',en:'to punish; to penalize',sentence:'得好好惩处那个人。',sentenceEn:'That person must be properly punished.'},
+        {word:'洋溢',pinyin:'yáng yì',en:'to overflow; brimming with',sentence:'他的脸上洋溢着含笑的温情。',sentenceEn:'His face was brimming with a warm, smiling tenderness.'},
+        {word:'筛子',pinyin:'shāi zi',en:'sieve',sentence:'跟着一个火红色头发的巡警，端着一个筛子。',sentenceEn:'Following him was a red-haired policeman carrying a sieve.'}
+      ],
+      grammarPoints: [
+        {point:'讽刺小说中的对比',pointEn:'fěng cì xiǎo shuō zhōng de duì bǐ',example:'contrast in satirical fiction',exampleEn:'好哇，你咬人？该死的东西！',explanation:'Aha, you bite people? You cursed thing!',explanationEn:'奥楚蔑洛夫对同一条狗态度的反复变化，形成鲜明对比，深刻揭示了见风使舵的丑态。'}
+      ],
       authorBio: {cn:"契诃夫（1860—1904），俄国作家、戏剧家，与莫泊桑、欧·亨利并称为\u201c世界三大短篇小说巨匠\u201d。代表作有《变色龙》《装在套子里的人》《樱桃园》等。", en:"Anton Chekhov (1860–1904), Russian writer and playwright. One of the 'three great masters of the short story' alongside Maupassant and O. Henry. Major works include The Chameleon, The Man in a Case, and The Cherry Orchard."},
       isSelfRead: false,
       preview: [{cn: "\u8fd9\u7bc7\u5c0f\u8bf4\u4ee5\u300a\u53d8\u8272\u9f99\u300b\u4e3a\u9898\uff0c\u4f1a\u5199\u4e00\u4e2a\u600e\u6837\u7684\u4eba\u7269\u5462\uff1f", en: "This story is titled \u2018The Chameleon\u2019 \u2014 what kind of character might it portray?"}],
@@ -252,8 +324,8 @@ units: [
       ],
       textEn: [
         "Police Inspector Ochumelov, in his new greatcoat and carrying a small bundle, walked across the market square.",
-        "\u2018What\u2019s going on here?\u2019 Ochumelov pushed into the crowd. Khryukin held up his bleeding finger: \u2018This wretched animal bit my finger for no reason!\u2019",
-        "\u2018That looks like General Zhigalov\u2019s dog,\u2019 someone in the crowd said. \u2018General Zhigalov? Oh!\u2026 Yeldyrin, help me take off my coat\u2026 It\u2019s so terribly hot\u2026\u2019",
+        "\u2018What on earth happened here?\u2019 Ochumelov squeezed into the crowd and asked. Khryukin held out his bleeding finger for everyone to see: \u2018This wretched animal bit my finger for no reason at all\u2026\u2019",
+        "\u2018That looks like General Zhigalov\u2019s dog,\u2019 someone in the crowd said. \u2018General Zhigalov? Oh!\u2026 Yeldyrin, help me take off my coat\u2026 Good heavens, it\u2019s so hot\u2026\u2019",
         "\u2018That\u2019s not our dog,\u2019 Prokhor continued, \u2018it belongs to the general\u2019s brother.\u2019 \u2018His brother\u2019s here? Vladimir Ivanich?\u2019 Ochumelov\u2019s whole face beamed with warm affection. \u2018What a nice little dog \u2014 quite clever \u2014 snapped this fellow\u2019s finger right off!\u2019",
         "\u2018I\u2019ll get you sooner or later!\u2019 Ochumelov threatened, wrapping his coat tightly, and walked off across the square."
       ],
@@ -277,7 +349,15 @@ units: [
     {
       id: 7, title: "\u6e9c\u7d22",
       titleEn: "The Zip Line",
+      difficulty: 4,
       author: "\u963f\u57ce", authorEn: "A Cheng",
+      vocabWords: [
+        {word:'万丈绝壁',pinyin:'wàn zhàng jué bì',en:'towering sheer cliff',sentence:'万丈绝壁飞快垂下去。',sentenceEn:'The towering sheer cliff dropped away at dizzying speed.'},
+        {word:'锱铢',pinyin:'zī zhū',en:'a tiny amount; a trifle',sentence:'仿佛再有锱铢之力加在上面。',sentenceEn:'As if the slightest additional force added upon it.'},
+        {word:'盘桓',pinyin:'pán huán',en:'to linger; to wind around',sentence:'一直是在万丈之处盘桓。',sentenceEn:'They had been winding around at a height of ten thousand feet all along.'},
+        {word:'涓涓',pinyin:'juān juān',en:'trickling; flowing gently',sentence:'怒江自西北天际亮亮而来，深远似涓涓细流。',sentenceEn:'The Nu River came shining from the northwest horizon, appearing deep and distant like a gentle trickle.'},
+        {word:'俯望',pinyin:'fǔ wàng',en:'to look down at; to gaze downward',sentence:'俯望那江，蓦地心中一颤。',sentenceEn:'Looking down at the river, my heart suddenly trembled.'}
+      ],
       authorBio: {cn:"阿城（1949— ），原名钟阿城，北京人，当代作家。\u201c寻根文学\u201d代表人物之一。代表作有《棋王》《树王》《孩子王》等。", en:"A Cheng (b. 1949), original name Zhong Acheng, from Beijing. Contemporary writer and a representative of the 'Root-seeking Literature' movement. Major works include The Chess Master, The Tree King, and The Child King."},
       isSelfRead: true,
       preview: [{cn: "\u8fd9\u7bc7\u5c0f\u8bf4\u5199\u4e86\u4e00\u5904\u5947\u9669\u7684\u73af\u5883\uff0c\u4e00\u7fa4\u8fc7\u6cb3\u7684\u9a6c\u5e2e\u6c49\u5b50\uff0c\u4e00\u6b21\u6e9c\u7d22\u7684\u7ecf\u5386\u3002", en: "This story depicts a perilous crossing by a caravan of muleteers over the raging Nu River via a zip line."}],
@@ -314,7 +394,15 @@ units: [
     {
       id: 8, title: "\u84b2\u67f3\u4eba\u5bb6\uff08\u8282\u9009\uff09",
       titleEn: "The Willow Family (Excerpt)",
+      difficulty: 4,
       author: "\u5218\u7ecd\u68e0", authorEn: "Liu Shaotang",
+      vocabWords: [
+        {word:'一丈青',pinyin:'yī zhàng qīng',en:'a tall, strong woman (nickname)',sentence:'一丈青大娘骂人，就像雨打芭蕉。',sentenceEn:'Granny Yizhangqing scolding people was like rain beating on banana leaves.'},
+        {word:'隐匿',pinyin:'yǐn nì',en:'to hide; to conceal',sentence:'何满子把脸隐匿在门后。',sentenceEn:'He Manzi hid his face behind the door.'},
+        {word:'腌臜',pinyin:'ā zā',en:'dirty; filthy',sentence:'你这个腌臜泼才。',sentenceEn:'You filthy rascal.'},
+        {word:'戏谑',pinyin:'xì xuè',en:'to banter; to tease',sentence:'他只顾嘻嘻哈哈地戏谑一番。',sentenceEn:'He just kept laughing and bantering.'},
+        {word:'嘎咕',pinyin:'gā gu',en:'to make noise; to squabble',sentence:'何满子天不怕地不怕，却怕爷爷。',sentenceEn:'He Manzi feared nothing in heaven or earth, except his grandfather.'}
+      ],
       authorBio: {cn:"刘绍棠（1936—1997），北京通县人，当代作家。13岁开始发表作品，被誉为\u201c神童作家\u201d。代表作有《蒲柳人家》《京门脸子》等。", en:"Liu Shaotang (1936–1997), from Tongxian, Beijing. Contemporary writer. He began publishing at age 13 and was praised as a 'prodigy writer.' Major works include The Wicker and Willow Family and Faces of the Capital."},
       isSelfRead: true,
       preview: [{cn: "\u8bfe\u6587\u63cf\u7ed8\u4e8620\u4e16\u7eaa30\u5e74\u4ee3\u4eac\u4e1c\u5730\u533a\u5317\u8fd0\u6cb3\u519c\u6751\u7684\u98ce\u60c5\u753b\u3002", en: "The text paints a vivid picture of rural life along the North Canal in eastern Beijing during the 1930s."}],
@@ -350,6 +438,13 @@ units: [
   ],
   writing: {
     title: "\u5ba1\u9898\u7acb\u610f", titleEn: "Analyzing the Topic and Establishing the Theme",
+    vocabWords: [
+      {word:'审题',pinyin:'shěn tí',en:'to analyze the topic; to examine the prompt',sentence:'写作前必须认真审题。',sentenceEn:'Before writing, one must carefully analyze the topic.'},
+      {word:'立意',pinyin:'lì yì',en:'to establish the theme; to determine the main idea',sentence:'立意要新颖、深刻。',sentenceEn:'The theme should be fresh and profound.'},
+      {word:'切题',pinyin:'qiē tí',en:'to be relevant to the topic',sentence:'作文要紧扣题目，切题表达。',sentenceEn:'Compositions should stick closely to the topic and express ideas relevantly.'},
+      {word:'偏题',pinyin:'piān tí',en:'to stray from the topic',sentence:'审题不仔细容易偏题。',sentenceEn:'Careless analysis of the topic easily leads to straying off topic.'},
+      {word:'中心思想',pinyin:'zhōng xīn sī xiǎng',en:'central idea; main theme',sentence:'每篇文章都应有明确的中心思想。',sentenceEn:'Every article should have a clear central idea.'}
+    ],
     content: {
       cn: "\u5ba1\u9898\u5c31\u662f\u5ba1\u5bdf\u9898\u610f\uff0c\u660e\u786e\u9898\u76ee\u7684\u8981\u6c42\uff1b\u7acb\u610f\u5c31\u662f\u786e\u7acb\u6700\u4e3b\u8981\u7684\u601d\u60f3\u5185\u5bb9\u3002\u8ba4\u771f\u5ba1\u9898\uff0c\u6070\u5f53\u7acb\u610f\uff0c\u624d\u80fd\u786e\u4fdd\u5199\u4f5c\u7b26\u5408\u8981\u6c42\uff0c\u4e0d\u8dd1\u9898\uff0c\u4e0d\u504f\u9898\u3002",
       en: "Analyzing the topic means examining its intent and clarifying its requirements; establishing the theme means determining the core idea. Only careful analysis and appropriate themes ensure writing stays on track."
@@ -358,6 +453,13 @@ units: [
   comprehensiveLearning: {
     title: "\u5c81\u6708\u5982\u6b4c\u2014\u2014\u6211\u4eec\u7684\u521d\u4e2d\u751f\u6d3b",
     titleEn: "Time Flies Like a Song \u2014 Our Junior High Life",
+    vocabWords: [
+      {word:'岁月',pinyin:'suì yuè',en:'years; time',sentence:'岁月如歌，初中三年转瞬即逝。',sentenceEn:'Time flies like a song; three years of junior high pass in a flash.'},
+      {word:'回顾',pinyin:'huí gù',en:'to look back; to review',sentence:'回顾初中生活的点点滴滴。',sentenceEn:'Looking back on the bits and pieces of junior high life.'},
+      {word:'毕业',pinyin:'bì yè',en:'to graduate; graduation',sentence:'即将毕业，依依不舍。',sentenceEn:'About to graduate, reluctant to part.'},
+      {word:'师恩',pinyin:'shī ēn',en:'the kindness of a teacher',sentence:'师恩难忘，铭记于心。',sentenceEn:'The kindness of teachers is unforgettable, engraved in the heart.'},
+      {word:'成长',pinyin:'chéng zhǎng',en:'to grow up; growth',sentence:'初中三年是成长的关键阶段。',sentenceEn:'The three years of junior high are a crucial stage of growth.'}
+    ],
     content: {
       cn: "\u5728\u521d\u4e2d\u751f\u6d3b\u7684\u6700\u540e\u4e00\u4e2a\u5b66\u671f\uff0c\u5168\u73ed\u540c\u5b66\u5206\u5de5\u5408\u4f5c\uff0c\u5236\u4f5c\u4e00\u672c\u73ed\u53f2\uff0c\u4e3a\u4e09\u5e74\u7684\u9752\u6625\u65f6\u5149\u7559\u4e0b\u4e00\u4efd\u6c38\u4e45\u7684\u7eaa\u5ff5\u3002",
       en: "In the final semester of junior high, the whole class collaborates to create a class history book as a lasting memento of three years of youth."
@@ -379,7 +481,19 @@ units: [
     {
       id: 9, title: "\u9c7c\u6211\u6240\u6b32\u4e5f",
       titleEn: "Fish Is What I Desire",
+      difficulty: 4,
       author: "\u300a\u5b5f\u5b50\u300b", authorEn: "Mencius",
+      vocabWords: [
+        {word:'苟得',pinyin:'gǒu dé',en:'to gain something by improper means; to scrape by',sentence:'故不为苟得也。',sentenceEn:'Therefore I will not live by compromising my principles.'},
+        {word:'蹴尔',pinyin:'cù ěr',en:'to kick at someone contemptuously',sentence:'蹴尔而与之，乞人不屑也。',sentenceEn:'If you kick food toward a beggar, even a beggar will disdain it.'},
+        {word:'本心',pinyin:'běn xīn',en:'original heart; innate moral sense',sentence:'此之谓失其本心。',sentenceEn:'This is called losing one’s innate moral sense.'},
+        {word:'所欲',pinyin:'suǒ yù',en:'what one desires',sentence:'所欲有甚于生者。',sentenceEn:'There are things I desire more than life itself.'},
+        {word:'万钟',pinyin:'wàn zhōng',en:'a very generous salary',sentence:'万钟则不辩礼义而受之。',sentenceEn:'For a generous salary one may accept without considering propriety and righteousness.'}
+      ],
+      grammarPoints: [
+        {point:'类比论证',pointEn:'lèi bǐ lùn zhèng',example:'argument by analogy',exampleEn:'鱼，我所欲也；熊掌，亦我所欲也。二者不可得兼，舍鱼而取熊掌者也。',explanation:'Fish is what I desire; bear paw is also what I desire. If I cannot have both, I will give up fish and take bear paw.',explanationEn:'用生活中常见的取舍作类比，引出舍生取义的论点，使抽象道理变得浅显易懂。'},
+        {point:'正反对比论证',pointEn:'zhèng fǎn duì bǐ lùn zhèng',example:'positive-negative contrast argument',exampleEn:'一箪食，一豆羹，得之则生，弗得则死。呼尔而与之，行道之人弗受。',explanation:'A basket of rice, a bowl of broth: getting them means life, not getting them means death. Yet if offered with contempt, even a passerby will refuse.',explanationEn:'通过对比"义"与"不义"的行为选择，强化了文章的说服力和道德感召力。'}
+      ],
       authorBio: {cn:"孟子（约前372—前289），名轲，邹国（今山东邹城）人。战国时期思想家、教育家，儒家学派代表人物，被尊为\u201c亚圣\u201d。", en:"Mencius (c. 372–289 BC), given name Ke, from the state of Zou (modern Zoucheng, Shandong). Warring States period thinker and educator, representative of the Confucian school, honored as the 'Second Sage.'"},
       isSelfRead: false,
       preview: [{cn: "\u7528\u81ea\u5df1\u7684\u8bdd\u8bf4\u8bf4\u8bfe\u6587\u5927\u610f\uff0c\u7406\u89e3\u5b5f\u5b50\u201c\u820d\u751f\u53d6\u4e49\u201d\u7684\u601d\u60f3\u3002", en: "Explain the text in your own words and understand Mencius\u2019 concept of \u2018sacrificing life for righteousness.\u2019"}],
@@ -420,14 +534,25 @@ units: [
     {
       id: 10, title: "\u5510\u96ce\u4e0d\u8fb1\u4f7f\u547d",
       titleEn: "Tang Ju Fulfills His Mission",
+      difficulty: 4,
       author: "\u300a\u6218\u56fd\u7b56\u300b", authorEn: "Strategies of the Warring States",
+      vocabWords: [
+        {word:'布衣',pinyin:'bù yī',en:'a commoner; plain-clothed person',sentence:'大王尝闻布衣之怒乎？',sentenceEn:'Has Your Majesty heard of the wrath of a commoner?'},
+        {word:'怫然',pinyin:'fú rán',en:'furiously; in a rage',sentence:'秦王怫然怒。',sentenceEn:'The King of Qin flew into a rage.'},
+        {word:'免冠徒跣',pinyin:'miǎn guān tú xiǎn',en:'to remove one’s cap and go barefoot (sign of distress)',sentence:'布衣之怒，亦免冠徒跣，以头抢地尔。',sentenceEn:'When a commoner is angry, he removes his cap, bares his feet, and bangs his head on the ground.'},
+        {word:'色挠',pinyin:'sè náo',en:'to look cowed; to lose composure',sentence:'秦王色挠，长跪而谢之。',sentenceEn:'The King of Qin looked cowed and knelt on both knees to apologize.'},
+        {word:'挺剑',pinyin:'tǐng jiàn',en:'to draw one’s sword',sentence:'挺剑而起。',sentenceEn:'He drew his sword and rose.'}
+      ],
+      grammarPoints: [
+        {point:'外交辞令',pointEn:'wài jiāo cí lìng',example:'diplomatic language',exampleEn:'安陵君受地于先王而守之，虽千里不敢易也，岂直五百里哉？',explanation:'Anling’s lord received this land from the former king and guards it; he would not dare exchange even a thousand li, let alone a mere five hundred.',explanationEn:'唐雎的外交辞令有理有节，既坚守立场又不直接冒犯对方，体现了高超的论辩艺术。'}
+      ],
       authorBio: {cn:"《战国策》是西汉刘向整理编辑的一部国别体史书，记载了战国时期各国政治、军事、外交活动及策士的言论和谋略。", en:"Strategies of the Warring States is a state-by-state history compiled and edited by Liu Xiang of the Western Han Dynasty, recording the political, military, and diplomatic activities and the speeches and stratagems of advisors during the Warring States period."},
       isSelfRead: true,
       preview: [{cn: "\u5510\u96ce\u4e34\u5371\u53d7\u547d\uff0c\u51fa\u4f7f\u79e6\u56fd\uff0c\u6700\u7ec8\u4e0d\u8fb1\u4f7f\u547d\uff0c\u7ef4\u62a4\u4e86\u56fd\u5bb6\u7684\u5229\u76ca\u548c\u5c0a\u4e25\u3002", en: "Tang Ju was sent on an emergency mission to Qin, and ultimately fulfilled his mission, defending his country\u2019s interests and dignity."}],
       text: [
         "\u79e6\u738b\u4f7f\u4eba\u8c13\u5b89\u9675\u541b\u66f0\uff1a\u201c\u5be1\u4eba\u6b32\u4ee5\u4e94\u767e\u91cc\u4e4b\u5730\u6613\u5b89\u9675\uff0c\u5b89\u9675\u541b\u5176\u8bb8\u5be1\u4eba\uff01\u201d\u5b89\u9675\u541b\u66f0\uff1a\u201c\u5927\u738b\u52a0\u60e0\uff0c\u4ee5\u5927\u6613\u5c0f\uff0c\u751a\u5584\uff1b\u867d\u7136\uff0c\u53d7\u5730\u4e8e\u5148\u738b\uff0c\u613f\u7ec8\u5b88\u4e4b\uff0c\u5f17\u6562\u6613\uff01\u201d\u79e6\u738b\u4e0d\u8bf4\u3002\u5b89\u9675\u541b\u56e0\u4f7f\u5510\u96ce\u4f7f\u4e8e\u79e6\u3002",
         "\u79e6\u738b\u6028\u7136\u6012\uff0c\u8c13\u5510\u96ce\u66f0\uff1a\u201c\u516c\u4ea6\u5c1d\u95fb\u5929\u5b50\u4e4b\u6012\u4e4e\uff1f\u201d\u5510\u96ce\u5bf9\u66f0\uff1a\u201c\u81e3\u672a\u5c1d\u95fb\u4e5f\u3002\u201d\u79e6\u738b\u66f0\uff1a\u201c\u5929\u5b50\u4e4b\u6012\uff0c\u4f0f\u5c38\u767e\u4e07\uff0c\u6d41\u8840\u5343\u91cc\u3002\u201d",
-        "\u5510\u96ce\u66f0\uff1a\u201c\u5927\u738b\u5c1d\u95fb\u5e03\u8863\u4e4b\u6012\u4e4e\uff1f\u201d\u79e6\u738b\u66f0\uff1a\u201c\u5e03\u8863\u4e4b\u6012\uff0c\u4ea6\u514d\u51a0\u5f92\u8de3\uff0c\u4ee5\u5934\u62a2\u5730\u5c14\u3002\u201d\u5510\u96ce\u66f0\uff1a\u201c\u6b64\u5eb8\u592b\u4e4b\u6012\u4e5f\uff0c\u975e\u58eb\u4e4b\u6012\u4e5f\u3002\u82e5\u58eb\u5fc5\u6012\uff0c\u4f0f\u5c38\u4e8c\u4eba\uff0c\u6d41\u8840\u4e94\u6b65\uff0c\u5929\u4e0b\u7f1f\u7d20\uff0c\u4eca\u65e5\u662f\u4e5f\u3002\u201d\u631a\u5251\u800c\u8d77\u3002",
+        "\u5510\u96ce\u66f0\uff1a\u201c\u5927\u738b\u5c1d\u95fb\u5e03\u8863\u4e4b\u6012\u4e4e\uff1f\u201d\u79e6\u738b\u66f0\uff1a\u201c\u5e03\u8863\u4e4b\u6012\uff0c\u4ea6\u514d\u51a0\u5f92\u8de3\uff0c\u4ee5\u5934\u62a2\u5730\u5c14\u3002\u201d\u5510\u96ce\u66f0\uff1a\u201c\u6b64\u5eb8\u592b\u4e4b\u6012\u4e5f\uff0c\u975e\u58eb\u4e4b\u6012\u4e5f\u3002\u82e5\u58eb\u5fc5\u6012\uff0c\u4f0f\u5c38\u4e8c\u4eba\uff0c\u6d41\u8840\u4e94\u6b65\uff0c\u5929\u4e0b\u7f1f\u7d20\uff0c\u4eca\u65e5\u662f\u4e5f\u3002\u201d\u633a\u5251\u800c\u8d77\u3002",
         "\u79e6\u738b\u8272\u6320\uff0c\u957f\u8dea\u800c\u8c22\u4e4b\u66f0\uff1a\u201c\u5148\u751f\u5750\uff01\u4f55\u81f3\u4e8e\u6b64\uff01\u5be1\u4eba\u8c15\u77e3\uff1a\u592b\u97e9\u3001\u9b4f\u706d\u4ea1\uff0c\u800c\u5b89\u9675\u4ee5\u4e94\u5341\u91cc\u4e4b\u5730\u5b58\u8005\uff0c\u5f92\u4ee5\u6709\u5148\u751f\u4e5f\u3002\u201d"
       ],
       textEn: [
@@ -438,7 +563,7 @@ units: [
       ],
       annotations: [
         {term: "\u5e03\u8863", cn: "\u5e73\u6c11\uff0c\u53e4\u4ee3\u6ca1\u6709\u5b98\u804c\u7684\u4eba\u7a7f\u9ebb\u5e03\u8863\u670d", en: "Common people; those without official rank wore hemp cloth"},
-        {term: "\u7f1e\u7d20", cn: "\u767d\u8272\u4e27\u670d\uff0c\u6307\u5168\u56fd\u54c0\u60bc", en: "White mourning clothes; meaning the whole nation mourns"},
+        {term: "\u7f1f\u7d20", cn: "\u767d\u8272\u4e27\u670d\uff0c\u6307\u5168\u56fd\u54c0\u60bc", en: "White mourning clothes; meaning the whole nation mourns"},
         {term: "\u8272\u6320", cn: "\u9762\u9732\u80c6\u602f\u4e4b\u8272", en: "Face showing fear and cowardice"}
       ],
       thinkExplore: [
@@ -455,14 +580,25 @@ units: [
     {
       id: 11, title: "\u9001\u4e1c\u9633\u9a6c\u751f\u5e8f",
       titleEn: "Preface to Sending Off Ma Sheng of Dongyang",
+      difficulty: 5,
       author: "\u5b8b\u6fc2", authorEn: "Song Lian",
+      vocabWords: [
+        {word:'嗜学',pinyin:'shì xué',en:'to love learning; devoted to study',sentence:'余幼时即嗜学。',sentenceEn:'From childhood I was devoted to learning.'},
+        {word:'假借',pinyin:'jiǎ jiè',en:'to borrow',sentence:'每假借于藏书之家。',sentenceEn:'I would borrow from families that had book collections.'},
+        {word:'逾约',pinyin:'yú yuē',en:'to exceed the deadline',sentence:'录毕，走送之，不敢稍逾约。',sentenceEn:'After copying, I would run to return them, never daring to exceed the deadline.'},
+        {word:'叱咄',pinyin:'chì duō',en:'to scold harshly; to berate',sentence:'或遇其叱咄，色愈恭，礼愈至。',sentenceEn:'Sometimes meeting with harsh scolding, my manner became even more respectful, my courtesy even more thorough.'},
+        {word:'缊袍敝衣',pinyin:'yùn páo bì yī',en:'ragged clothes stuffed with old cotton',sentence:'余则缊袍敝衣处其间。',sentenceEn:'I sat among them in ragged clothes stuffed with old cotton.'}
+      ],
+      grammarPoints: [
+        {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'contrast technique',exampleEn:'同舍生皆被绮绣……余则缊袍敝衣处其间，略无慕艳意。',explanation:'My fellow students all wore fine embroidered clothes... I sat among them in ragged clothing, without the slightest envy.',explanationEn:'通过作者求学的艰苦条件与同舍生的优越条件进行对比，突出了作者以学为乐的精神。'}
+      ],
       authorBio: {cn:"宋濂（1310—1381），字景濂，号潜溪，浦江（今浙江浦江）人。明初文学家，被誉为\u201c开国文臣之首\u201d。著有《宋学士文集》。", en:"Song Lian (1310–1381), courtesy name Jinglian, from Pujiang, Zhejiang. Early Ming literary figure, praised as 'the foremost civil official of the founding era.' Author of Collected Works of Academician Song."},
       isSelfRead: false,
       preview: [{cn: "\u8fd9\u662f\u5b8b\u6fc2\u5199\u7ed9\u540c\u4e61\u540e\u5b66\u7684\u4e34\u522b\u8d60\u8a00\uff0c\u8bb2\u8ff0\u81ea\u5df1\u7684\u6c42\u5b66\u7ecf\u5386\u3002", en: "This is Song Lian\u2019s farewell gift to a younger scholar from his hometown, recounting his own study experiences."}],
       text: [
-        "\u4f59\u5e7c\u65f6\u5373\u55dc\u5b66\u3002\u5bb6\u8d2b\uff0c\u65e0\u4ece\u81f4\u4e66\u4ee5\u89c2\uff0c\u6bcf\u5047\u501f\u4e8e\u85cf\u4e66\u4e4b\u5bb6\uff0c\u624b\u81ea\u7b14\u5f55\uff0c\u8ba1\u65e5\u4ee5\u8fd8\u3002\u5929\u5927\u5bd2\uff0c\u780c\u51b0\u575a\uff0c\u624b\u6307\u4e0d\u53ef\u5c48\u4f38\uff0c\u5f17\u4e4b\u6020\u3002\u5f55\u6bd5\uff0c\u8d70\u9001\u4e4b\uff0c\u4e0d\u6562\u7a0d\u903e\u7ea6\u3002\u4ee5\u662f\u4eba\u591a\u4ee5\u4e66\u5047\u4f59\uff0c\u4f59\u56e0\u5f97\u904d\u89c2\u7fa4\u4e66\u3002",
+        "\u4f59\u5e7c\u65f6\u5373\u55dc\u5b66\u3002\u5bb6\u8d2b\uff0c\u65e0\u4ece\u81f4\u4e66\u4ee5\u89c2\uff0c\u6bcf\u5047\u501f\u4e8e\u85cf\u4e66\u4e4b\u5bb6\uff0c\u624b\u81ea\u7b14\u5f55\uff0c\u8ba1\u65e5\u4ee5\u8fd8\u3002\u5929\u5927\u5bd2\uff0c\u781a\u51b0\u575a\uff0c\u624b\u6307\u4e0d\u53ef\u5c48\u4f38\uff0c\u5f17\u4e4b\u6020\u3002\u5f55\u6bd5\uff0c\u8d70\u9001\u4e4b\uff0c\u4e0d\u6562\u7a0d\u903e\u7ea6\u3002\u4ee5\u662f\u4eba\u591a\u4ee5\u4e66\u5047\u4f59\uff0c\u4f59\u56e0\u5f97\u904d\u89c2\u7fa4\u4e66\u3002",
         "\u65e2\u52a0\u51a0\uff0c\u76ca\u6155\u5723\u8d24\u4e4b\u9053\u3002\u53c8\u60a3\u65e0\u7855\u5e08\u540d\u4eba\u4e0e\u6e38\uff0c\u5c1d\u8d8b\u767e\u91cc\u5916\uff0c\u4ece\u4e61\u4e4b\u5148\u8fbe\u6267\u7ecf\u53e9\u95ee\u3002\u5148\u8fbe\u5fb7\u9686\u671b\u5c0a\uff0c\u95e8\u4eba\u5f1f\u5b50\u586b\u5176\u5ba4\uff0c\u672a\u5c1d\u7a0d\u964d\u8f9e\u8272\u3002\u4f59\u7acb\u4f8d\u5de6\u53f3\uff0c\u63f4\u7591\u8d28\u7406\uff0c\u4fef\u8eab\u503e\u8033\u4ee5\u8bf7\uff1b\u6216\u9047\u5176\u53f1\u54a4\uff0c\u8272\u6108\u606d\uff0c\u793c\u6108\u81f3\uff0c\u4e0d\u6562\u51fa\u4e00\u8a00\u4ee5\u590d\u3002",
-        "\u5f53\u4f59\u4e4b\u4ece\u5e08\u4e5f\uff0c\u8d1f\u7bb7\u66f3\u5c63\u884c\u6df1\u5c71\u5de8\u8c37\u4e2d\u3002\u7a77\u51ac\u70c8\u98ce\uff0c\u5927\u96ea\u6df1\u6570\u5c3a\uff0c\u8db3\u80a4\u76b2\u88c2\u800c\u4e0d\u77e5\u3002\u540c\u820d\u751f\u7686\u88ab\u7eee\u7ee3\uff0c\u4f59\u5219\u7ef4\u888d\u6557\u8863\u5904\u5176\u95f4\uff0c\u7565\u65e0\u6155\u8273\u610f\uff0c\u4ee5\u4e2d\u6709\u8db3\u4e50\u8005\uff0c\u4e0d\u77e5\u53e3\u4f53\u4e4b\u5949\u4e0d\u82e5\u4eba\u4e5f\u3002",
+        "\u5f53\u4f59\u4e4b\u4ece\u5e08\u4e5f\uff0c\u8d1f\u7bb7\u66f3\u5c63\u884c\u6df1\u5c71\u5de8\u8c37\u4e2d\u3002\u7a77\u51ac\u70c8\u98ce\uff0c\u5927\u96ea\u6df1\u6570\u5c3a\uff0c\u8db3\u80a4\u76b2\u88c2\u800c\u4e0d\u77e5\u3002\u540c\u820d\u751f\u7686\u88ab\u7eee\u7ee3\uff0c\u4f59\u5219\u7f0a\u888d\u655d\u8863\u5904\u5176\u95f4\uff0c\u7565\u65e0\u6155\u8273\u610f\uff0c\u4ee5\u4e2d\u6709\u8db3\u4e50\u8005\uff0c\u4e0d\u77e5\u53e3\u4f53\u4e4b\u5949\u4e0d\u82e5\u4eba\u4e5f\u3002",
         "\u4eca\u8bf8\u751f\u5b66\u4e8e\u592a\u5b66\uff0c\u53bf\u5b98\u65e5\u6709\u5eca\u7a0d\u4e4b\u4f9b\uff0c\u7236\u6bcd\u5c81\u6709\u88d8\u845b\u4e4b\u9057\u3002\u5176\u4e1a\u6709\u4e0d\u7cbe\u3001\u5fb7\u6709\u4e0d\u6210\u8005\uff0c\u975e\u5929\u8d28\u4e4b\u5351\uff0c\u5219\u5fc3\u4e0d\u82e5\u4f59\u4e4b\u4e13\u8033\uff0c\u5c82\u4ed6\u4eba\u4e4b\u8fc7\u54c9\uff1f"
       ],
       textEn: [
@@ -492,7 +628,18 @@ units: [
     {
       id: 12, title: "\u8bcd\u56db\u9996",
       titleEn: "Four Ci Poems",
+      difficulty: 5,
       author: "\u8303\u4ef2\u6dd1\u3001\u82cf\u8f7c\u3001\u8f9b\u5f03\u75be\u3001\u79cb\u747e", authorEn: "Fan Zhongyan, Su Shi, Xin Qiji, Qiu Jin",
+      vocabWords: [
+        {word:'燕然未勒',pinyin:'yān rán wèi lè',en:'the deed at Mount Yanran remains unaccomplished (military glory not yet achieved)',sentence:'燕然未勒归无计。',sentenceEn:'With glory unachieved, there is no plan for return.'},
+        {word:'千骑',pinyin:'qiān jì',en:'a thousand riders',sentence:'千骑卷平冈。',sentenceEn:'A thousand riders sweep across the flat ridge.'},
+        {word:'挽雕弓',pinyin:'wǎn diāo gōng',en:'to draw a carved bow',sentence:'会挽雕弓如满月。',sentenceEn:'I shall draw the carved bow to its full like a round moon.'},
+        {word:'了却',pinyin:'liǎo què',en:'to accomplish; to settle',sentence:'了却君王天下事。',sentenceEn:'To accomplish the affairs of the kingdom for the ruler.'},
+        {word:'四面楚歌',pinyin:'sì miàn chǔ gē',en:'to be besieged on all sides',sentence:'四面歌残终破楚。',sentenceEn:'Songs dying on all four sides, Chu is finally broken.'}
+      ],
+      grammarPoints: [
+        {point:'豪放词',pointEn:'háo fàng cí',example:'bold and unconstrained ci poetry',exampleEn:'老夫聊发少年狂，左牵黄，右擎苍。',explanation:'Let this old man indulge once more in youthful fervor: holding a yellow hound on the left, a grey falcon on the right.',explanationEn:'豪放词以气势磅礴、意境开阔为特征，抒发的多是报国壮志和英雄情怀。'}
+      ],
       authorBio: {cn:"范仲淹（989—1052），北宋政治家、文学家。苏轼（1037—1101），北宋文学家，\u201c唐宋八大家\u201d之一。辛弃疾（1140—1207），南宋词人，豪放派代表。秋瑾（1875—1907），近代民主革命志士、女诗人。", en:"Fan Zhongyan (989–1052), Northern Song statesman and writer. Su Shi (1037–1101), Northern Song literary master, one of the Eight Great Prose Masters. Xin Qiji (1140–1207), Southern Song ci poet, representative of the bold school. Qiu Jin (1875–1907), modern democratic revolutionary and female poet."},
       isSelfRead: false,
       preview: [{cn: "\u53cd\u590d\u8bf5\u8bfb\u8fd9\u56db\u9996\u8bcd\uff0c\u611f\u53d7\u8bcd\u7684\u97f3\u97f5\u7f8e\uff0c\u4f53\u4f1a\u5404\u9996\u8bcd\u4e2d\u8574\u542b\u7684\u60c5\u611f\u3002", en: "Repeatedly recite these four ci poems, feel their musical beauty, and appreciate the emotions in each."}],
@@ -532,6 +679,13 @@ units: [
   ],
   writing: {
     title: "\u5e03\u5c40\u8c0b\u7bc7", titleEn: "Planning Structure and Layout",
+    vocabWords: [
+      {word:'布局',pinyin:'bù jú',en:'layout; structure',sentence:'写文章要先布局谋篇。',sentenceEn:'Before writing, one must first plan the structure and layout.'},
+      {word:'谋篇',pinyin:'móu piān',en:'to plan a composition',sentence:'谋篇是写作的重要环节。',sentenceEn:'Planning the composition is a crucial step in writing.'},
+      {word:'过渡',pinyin:'guò dù',en:'transition',sentence:'段落之间需要合理过渡。',sentenceEn:'Reasonable transitions are needed between paragraphs.'},
+      {word:'照应',pinyin:'zhào yìng',en:'to echo; to correspond',sentence:'前后照应使文章结构严谨。',sentenceEn:'Front-to-back correspondence makes the structure of writing tight.'},
+      {word:'线索',pinyin:'xiàn suǒ',en:'clue; thread (of a story)',sentence:'一条线索贯穿全文。',sentenceEn:'A single thread runs through the entire text.'}
+    ],
     content: {
       cn: "\u5e03\u5c40\u8c0b\u7bc7\u662f\u5728\u5ba1\u9898\u7acb\u610f\u3001\u9009\u6750\u4e4b\u540e\uff0c\u5bf9\u6750\u6599\u7684\u7ec4\u7ec7\u3001\u7ed3\u6784\u7684\u5b89\u6392\u7b49\u505a\u6574\u4f53\u8c0b\u5212\u3002\u5217\u63d0\u7eb2\u6709\u52a9\u4e8e\u7406\u6e05\u601d\u8def\uff0c\u628a\u63e1\u5168\u5c40\u3002",
       en: "Planning structure and layout means organizing materials and arranging the overall framework after analyzing the topic and selecting content. Outlining helps clarify thinking and maintain a global perspective."
@@ -540,6 +694,13 @@ units: [
   famousReading: {
     title: "\u300a\u5112\u6797\u5916\u53f2\u300b\u2014\u2014\u8bbd\u523a\u4f5c\u54c1\u7684\u9605\u8bfb",
     titleEn: "The Scholars \u2014 Reading Satirical Works",
+    vocabWords: [
+      {word:'讽刺',pinyin:'fěng cì',en:'satire; to satirize',sentence:'《儒林外史》是一部杰出的讽刺小说。',sentenceEn:'The Scholars is an outstanding satirical novel.'},
+      {word:'科举',pinyin:'kē jǔ',en:'imperial civil examination system',sentence:'科举制度是小说讽刺的主要对象。',sentenceEn:'The imperial examination system is the main target of the novel’s satire.'},
+      {word:'白描',pinyin:'bái miáo',en:'plain sketch; unadorned description',sentence:'小说善于通过白描揭示人物精神世界。',sentenceEn:'The novel excels at revealing characters’ inner worlds through unadorned description.'},
+      {word:'功名利禄',pinyin:'gōng míng lì lù',en:'fame and fortune; official rank and salary',sentence:'士人们追求功名利禄的丑态。',sentenceEn:'The ugly behavior of scholars pursuing fame and fortune.'},
+      {word:'人情世态',pinyin:'rén qíng shì tài',en:'human feelings and worldly conditions',sentence:'折射出世态人情和时代风貌。',sentenceEn:'Reflecting worldly conditions, human feelings, and the characteristics of the era.'}
+    ],
     content: {
       cn: "\u300a\u5112\u6797\u5916\u53f2\u300b\u662f\u5434\u656c\u6893\u521b\u4f5c\u7684\u8bbd\u523a\u5c0f\u8bf4\uff0c\u5c06\u8bbd\u523a\u7684\u950b\u8292\u9690\u85cf\u5728\u542b\u800c\u4e0d\u9732\u3001\u8010\u4eba\u5bfb\u5473\u7684\u53d9\u8ff0\u4e2d\uff0c\u6df1\u523b\u6279\u5224\u4e86\u5c01\u5efa\u79d1\u4e3e\u5236\u5ea6\u5bf9\u4eba\u7075\u9b42\u7684\u6bd2\u5bb3\u3002",
       en: "The Scholars by Wu Jingzi is a satirical novel that hides its sharp critique beneath seemingly understated narration, profoundly criticizing how the imperial examination system corrupted the human spirit."
@@ -567,7 +728,19 @@ units: [
     {
       id: 13, title: "\u77ed\u6587\u4e24\u7bc7",
       titleEn: "Two Short Essays",
+      difficulty: 5,
       author: "\u57f9\u6839\u3001\u9a6c\u5357\u90a8", authorEn: "Francis Bacon & Ma Nancun (Deng Tuo)",
+      vocabWords: [
+        {word:'怡情',pinyin:'yí qíng',en:'to bring delight to the mind',sentence:'读书足以怡情，足以傅彩，足以长才。',sentenceEn:'Studies serve for delight, for ornament, and for ability.'},
+        {word:'傅彩',pinyin:'fù cǎi',en:'to ornament; to add color',sentence:'其傅彩也，最见于高谈阔论之中。',sentenceEn:'Their use for ornament is most apparent in eloquent discourse.'},
+        {word:'长才',pinyin:'zhǎng cái',en:'to develop ability',sentence:'其长才也，最见于处世判事之际。',sentenceEn:'Their use for ability is most apparent in judgment and business.'},
+        {word:'不求甚解',pinyin:'bù qiú shèn jiě',en:'not seeking thorough understanding',sentence:'好读书，不求甚解。',sentenceEn:'He loved to read, not seeking thorough understanding.'},
+        {word:'欣然',pinyin:'xīn rán',en:'with delight; gladly',sentence:'每有会意，便欣然忘食。',sentenceEn:'Whenever something struck him, he would forget to eat with delight.'}
+      ],
+      grammarPoints: [
+        {point:'格言体议论文',pointEn:'gé yán tǐ yì lùn wén',example:'aphoristic essay',exampleEn:'读史使人明智，读诗使人灵秀。',explanation:'Histories make men wise; poets make men witty.',explanationEn:'培根的《谈读书》以格言式的精炼语言，高度概括读书的功用和方法，言简意赅。'},
+        {point:'驳论',pointEn:'bó lùn',example:'refutational argument',exampleEn:'盲目地反对不求甚解的态度同样没有充分的理由。',explanation:'Blindly opposing the attitude of not seeking thorough understanding is equally without adequate reason.',explanationEn:'先树立批驳目标，再逐步论证，提出自己的观点，是驳论文的基本思路。'}
+      ],
       authorBio: {cn:"弗朗西斯·培根（1561—1626），英国哲学家、作家，著有《随笔集》。马南邨（1912—1966），本名邓拓，福建闽侯人，新闻工作者、杂文家，著有《燕山夜话》。", en:"Francis Bacon (1561–1626), English philosopher and essayist, author of Essays. Ma Nancun (1912–1966), pen name of Deng Tuo, from Minhou, Fujian. Journalist and essayist, author of Evening Talks at Yanshan."},
       isSelfRead: false,
       preview: [{cn: "\u5728\u4f60\u7684\u6210\u957f\u8fc7\u7a0b\u4e2d\uff0c\u54ea\u4e9b\u4e66\u5bf9\u4f60\u4ea7\u751f\u8fc7\u91cd\u8981\u7684\u5f71\u54cd\uff1f", en: "Which books have had an important influence on you during your growth?"}],
@@ -603,7 +776,18 @@ units: [
     {
       id: 14, title: "\u5c71\u6c34\u753b\u7684\u610f\u5883",
       titleEn: "The Artistic Conception of Landscape Painting",
+      difficulty: 5,
       author: "\u674e\u53ef\u67d3", authorEn: "Li Keran",
+      vocabWords: [
+        {word:'意境',pinyin:'yì jìng',en:'artistic conception; mood and atmosphere',sentence:'意境是山水画的灵魂。',sentenceEn:'Artistic conception is the soul of landscape painting.'},
+        {word:'情景交融',pinyin:'qíng jǐng jiāo róng',en:'the blending of emotion and scenery',sentence:'写景就是写情。',sentenceEn:'To depict scenery is to depict emotion.'},
+        {word:'惆怅',pinyin:'chóu chàng',en:'melancholy; wistful',sentence:'这里包含着朋友惜别的惆怅。',sentenceEn:'This contains the melancholy of friends parting reluctantly.'},
+        {word:'身临其境',pinyin:'shēn lín qí jìng',en:'to be there in person; immersive',sentence:'要深入全面地认识对象，必须身临其境。',sentenceEn:'To deeply and thoroughly understand the subject, one must be there in person.'},
+        {word:'胸有丘壑',pinyin:'xiōng yǒu qiū hè',en:'to have hills and valleys in one’s breast (artistic vision)',sentence:'画家必须胸有丘壑。',sentenceEn:'A painter must have an inner landscape in his mind.'}
+      ],
+      grammarPoints: [
+        {point:'以诗论画',pointEn:'yǐ shī lùn huà',example:'discussing painting through poetry',exampleEn:'故人西辞黄鹤楼，烟花三月下扬州。',explanation:'My old friend bids farewell west of Yellow Crane Tower, descending to Yangzhou amid the misty blossoms of March.',explanationEn:'作者引用古诗来阐释绘画中的意境理论，实现了诗与画的相互印证。'}
+      ],
       authorBio: {cn:"李可染（1907—1989），江苏徐州人，画家。他是中国近现代杰出的山水画大师，曾师从齐白石、黄宾虹。", en:"Li Keran (1907–1989), from Xuzhou, Jiangsu. Painter. An outstanding modern Chinese landscape painting master who studied under Qi Baishi and Huang Binhong."},
       isSelfRead: false,
       preview: [{cn: "\u753b\u5bb6\u674e\u53ef\u67d3\u8c08\u5c71\u6c34\u753b\u7684\u610f\u5883\u3002", en: "Painter Li Keran discusses the artistic conception of landscape painting."}],
@@ -634,7 +818,15 @@ units: [
     {
       id: 15, title: "\u65e0\u8a00\u4e4b\u7f8e",
       titleEn: "The Beauty of Silence",
+      difficulty: 5,
       author: "\u6731\u5149\u6f5c", authorEn: "Zhu Guangqian",
+      vocabWords: [
+        {word:'意蕴',pinyin:'yì yùn',en:'implied meaning; connotation',sentence:'要想明了无言的意蕴。',sentenceEn:'To understand the connotation of silence.'},
+        {word:'言不尽意',pinyin:'yán bù jìn yì',en:'words cannot fully express meaning',sentence:'意决不是完全可以言达的。',sentenceEn:'Meaning can never be completely conveyed through words.'},
+        {word:'含蓄不露',pinyin:'hán xù bù lù',en:'implicit and restrained',sentence:'他所表现的悲哀是含蓄不露的。',sentenceEn:'The sorrow he expresses is implicit and restrained.'},
+        {word:'铢两悉称',pinyin:'zhū liǎng xī chèn',en:'to match exactly in every detail',sentence:'笔之于书的和存之于心的铢两悉称。',sentenceEn:'What is written matches what is in the heart in every detail.'},
+        {word:'尽善尽美',pinyin:'jìn shàn jìn měi',en:'to be perfect in every way',sentence:'尽美尽善的条件很多。',sentenceEn:'There are many conditions for achieving perfection.'}
+      ],
       authorBio: {cn:"朱光潜（1897—1986），安徽桐城人，美学家、文艺理论家、翻译家。中国现代美学的开拓者和奠基者之一。著有《谈美》《西方美学史》等。", en:"Zhu Guangqian (1897–1986), from Tongcheng, Anhui. Aesthetician, literary theorist, and translator. A pioneer and founder of modern Chinese aesthetics. Works include On Beauty and A History of Western Aesthetics."},
       isSelfRead: true,
       preview: [{cn: "\u201c\u65e0\u8a00\u201d\u5230\u5e95\u6307\u4ec0\u4e48\uff1f\u5b83\u53c8\u7f8e\u5728\u4f55\u5904\uff1f", en: "What does \u2018silence\u2019 actually mean? Where does its beauty lie?"}],
@@ -665,7 +857,15 @@ units: [
     {
       id: 16, title: "\u9a71\u9063\u6211\u4eec\u7684\u60f3\u8c61",
       titleEn: "Driving Our Imagination",
+      difficulty: 5,
       author: "\u53f6\u5723\u9676", authorEn: "Ye Shengtao",
+      vocabWords: [
+        {word:'驱遣',pinyin:'qū qiǎn',en:'to drive; to deploy',sentence:'必须驱遣我们的想象。',sentenceEn:'We must deploy our imagination.'},
+        {word:'拘泥',pinyin:'jū nì',en:'to be rigid; to stick stubbornly to',sentence:'不能够拘泥于文字。',sentenceEn:'One must not stick stubbornly to the literal text.'},
+        {word:'鉴赏',pinyin:'jiàn shǎng',en:'to appreciate; to appraise',sentence:'鉴赏文艺，最大目的无非是接受美感的经验。',sentenceEn:'The greatest purpose of appreciating literature is to receive the experience of beauty.'},
+        {word:'意境',pinyin:'yì jìng',en:'artistic mood; conception',sentence:'在想象中睁开眼睛来看这十个文字所构成的一幅图画。',sentenceEn:'Open your eyes in your imagination to see the picture formed by these ten characters.'},
+        {word:'受用',pinyin:'shòu yòng',en:'to benefit; to enjoy',sentence:'得到人生的受用。',sentenceEn:'To gain enjoyment and benefit in life.'}
+      ],
       authorBio: {cn:"叶圣陶（1894—1988），原名叶绍钧，江苏苏州人，作家、教育家、编辑家。有\u201c优秀的语言艺术家\u201d之称。代表作有《倪焕之》《稻草人》等。", en:"Ye Shengtao (1894–1988), original name Ye Shaojun, from Suzhou, Jiangsu. Writer, educator, and editor. Known as 'an excellent language artist.' Major works include Ni Huanzhi and The Scarecrow."},
       isSelfRead: true,
       preview: [{cn: "\u6b23\u8d4f\u6587\u827a\u4f5c\u54c1\uff0c\u4e0d\u80fd\u62d8\u6ce5\u4e8e\u6587\u5b57\uff0c\u5fc5\u987b\u9a71\u9063\u60f3\u8c61\u3002", en: "Appreciating literary works requires not clinging to the words but driving our imagination."}],
@@ -696,6 +896,13 @@ units: [
   ],
   writing: {
     title: "\u4fee\u6539\u6da6\u8272", titleEn: "Revising and Polishing",
+    vocabWords: [
+      {word:'润色',pinyin:'rùn sè',en:'to polish; to embellish',sentence:'文章写成后要修改润色。',sentenceEn:'After finishing a composition, one should revise and polish it.'},
+      {word:'推敲',pinyin:'tuī qiāo',en:'to deliberate; to weigh words carefully',sentence:'推敲用词，使之准确恰当。',sentenceEn:'Deliberate over word choice to make it precise and appropriate.'},
+      {word:'增删',pinyin:'zēng shān',en:'to add and delete; to revise',sentence:'曹雪芹披阅十载，增删五次。',sentenceEn:'Cao Xueqin reviewed his work for ten years and revised it five times.'},
+      {word:'炼字',pinyin:'liàn zì',en:'to refine wording; to choose words carefully',sentence:'适当炼字、炼句，可以使文章更加生动。',sentenceEn:'Careful word and sentence refinement can make writing more vivid.'},
+      {word:'定稿',pinyin:'dìng gǎo',en:'to finalize a manuscript',sentence:'鲁迅先后改动九十多处才最终定稿。',sentenceEn:'Lu Xun made over ninety revisions before finalizing the manuscript.'}
+    ],
     content: {
       cn: "\u6587\u7ae0\u5199\u6210\u540e\uff0c\u591a\u8bfb\u51e0\u904d\uff0c\u505a\u4e9b\u4fee\u6539\uff0c\u76f4\u5230\u6ee1\u610f\u4e3a\u6b62\u3002\u4fee\u6539\u6587\u7ae0\u8981\u517c\u987e\u201c\u8a00\u201d\u548c\u201c\u610f\u201d\uff0c\u65e2\u8981\u6539\u201c\u5bf9\u201d\uff0c\u4e5f\u8981\u6539\u201c\u597d\u201d\u3002",
       en: "After writing, read through several times and make revisions until satisfied. Revision should address both \u2018expression\u2019 and \u2018meaning\u2019 \u2014 getting it right and making it good."
@@ -703,6 +910,13 @@ units: [
   },
   oralCommunication: {
     title: "\u8fa9\u8bba", titleEn: "Debate",
+    vocabWords: [
+      {word:'辩论',pinyin:'biàn lùn',en:'debate; to debate',sentence:'辩论是一种常用的口语交际方式。',sentenceEn:'Debate is a commonly used form of oral communication.'},
+      {word:'论据',pinyin:'lùn jù',en:'argument; evidence',sentence:'论据要充分有力。',sentenceEn:'Evidence should be sufficient and strong.'},
+      {word:'反驳',pinyin:'fǎn bó',en:'to refute; to rebut',sentence:'辩驳对方的错误或疏漏之处。',sentenceEn:'Refuting the errors or oversights of the opposing side.'},
+      {word:'总结陈词',pinyin:'zǒng jié chén cí',en:'closing statement',sentence:'四辩负责总结陈词。',sentenceEn:'The fourth debater is responsible for the closing statement.'},
+      {word:'唇枪舌剑',pinyin:'chún qiāng shé jiàn',en:'sharp verbal exchange; heated debate',sentence:'站在辩论场上，进行唇枪舌剑之战。',sentenceEn:'Standing in the debate arena, engaging in a battle of sharp verbal exchanges.'}
+    ],
     content: {
       cn: "\u8fa9\u8bba\u662f\u4e00\u79cd\u5728\u65e5\u5e38\u751f\u6d3b\u548c\u793e\u4f1a\u6d3b\u52a8\u4e2d\u7ecf\u5e38\u7528\u5230\u7684\u53e3\u8bed\u4ea4\u9645\u65b9\u5f0f\u3002\u8981\u8868\u8fbe\u6e05\u6670\uff0c\u89c2\u70b9\u9c9c\u660e\uff0c\u5584\u4e8e\u8046\u542c\uff0c\u5feb\u901f\u53cd\u5e94\u3002",
       en: "Debate is a common form of oral communication in daily life and social activities. One should express clearly, state opinions firmly, listen well, and respond quickly."
@@ -727,8 +941,20 @@ units: [
   lessons: [
     {
       id: 17, title: "屈原（节选）",
-      titleEn: "Erta — Qu Yuan (Excerpt)",
+      titleEn: "Qu Yuan (Excerpt)",
+      difficulty: 5,
       author: "郭沫若", authorEn: "Guo Moruo",
+      vocabWords: [
+        {word:'咆哮',pinyin:'páo xiào',en:'to roar; to howl',sentence:'风！你咆哮吧！咆哮吧！',sentenceEn:'Wind! Roar! Roar!'},
+        {word:'伫立',pinyin:'zhù lì',en:'to stand for a long time',sentence:'时而伫立睥睨，目中含有怒火。',sentenceEn:'At times he stood and glared, his eyes containing angry fire.'},
+        {word:'睥睨',pinyin:'pì nì',en:'to look down upon with disdain',sentence:'时而伫立睥睨。',sentenceEn:'At times he stood and glared disdainfully.'},
+        {word:'犀利',pinyin:'xī lì',en:'sharp; incisive',sentence:'啊，电！你这宇宙中最犀利的剑呀！',sentenceEn:'Ah, lightning! You are the sharpest sword in the universe!'},
+        {word:'炸裂',pinyin:'zhà liè',en:'to burst; to explode',sentence:'炸裂呀，我的身体！',sentenceEn:'Burst apart, my body!'}
+      ],
+      grammarPoints: [
+        {point:'戏剧独白',pointEn:'xì jù dú bái',example:'dramatic monologue',exampleEn:'风！你咆哮吧！咆哮吧！尽力地咆哮吧！',explanation:'Wind! Roar! Roar! Roar with all your might!',explanationEn:'大段独白是表达人物内心世界的重要手段，屈原的独白借风雷电抒发了对黑暗的愤怒和对光明的渴望。'},
+        {point:'象征与隐喻',pointEn:'xiàng zhēng yǔ yǐn yù',example:'symbolism and metaphor',exampleEn:'把这比铁还坚固的黑暗，劈开，劈开，劈开！',explanation:'Split open this darkness harder than iron, split it, split it!',explanationEn:'剧中的"风""雷""电"象征正义力量，"黑暗"象征反动势力，通过象征使抽象主题具象化。'}
+      ],
       authorBio: {cn:"郭沫若（1892—1978），原名郭开贞，四川乐山人。文学家、历史学家、考古学家。代表作有诗集《女神》、历史剧《屈原》《虎符》等。", en:"Guo Moruo (1892–1978), original name Guo Kaizhen, from Leshan, Sichuan. Literary figure, historian, and archaeologist. Major works include the poetry collection The Goddesses and historical dramas Qu Yuan and The Tiger Tally."},
       isSelfRead: true,
       preview: [{cn: "本文节选自郭沫若历史剧《屈原》第五幕第二场。阅读时注意把握屈原独白中风、雷、电等形象的象征意义。", en: "This excerpt is from Act V, Scene 2 of Guo Moruo\u2019s historical drama Qu Yuan. Pay attention to the symbolic meaning of wind, thunder, and lightning in Qu Yuan\u2019s monologue."}],
@@ -775,7 +1001,18 @@ units: [
     {
       id: 18, title: "天下第一楼（节选）",
       titleEn: "The Best Restaurant Under Heaven (Excerpt)",
+      difficulty: 5,
       author: "何冀平", authorEn: "He Jiping",
+      vocabWords: [
+        {word:'鼎盛',pinyin:'dǐng shèng',en:'at the peak; flourishing',sentence:'此时是福聚德的鼎盛时期。',sentenceEn:'This was the peak period of Fujude.'},
+        {word:'名噪京师',pinyin:'míng zào jīng shī',en:'famous throughout the capital',sentence:'福聚德已是赫赫扬扬，名噪京师。',sentenceEn:'Fujude was illustrious and renowned throughout the capital.'},
+        {word:'撂杆',pinyin:'liào gān',en:'to put down one’s tools (quit)',sentence:'我一撂杆不干，福聚德就得关门。',sentenceEn:'If I put down my tools, Fujude will have to close.'},
+        {word:'窝囊',pinyin:'wō nang',en:'cowardly; weak',sentence:'老爷子就这么窝囊死的。',sentenceEn:'The old man died so weak and humiliated.'},
+        {word:'怯懦',pinyin:'qiè nuò',en:'timid; cowardly',sentence:'王子西怯懦地应声。',sentenceEn:'Wang Zixi timidly responded.'}
+      ],
+      grammarPoints: [
+        {point:'戏剧冲突',pointEn:'xì jù chōng tū',example:'dramatic conflict',exampleEn:'一个人干，八个人拆。',explanation:'One person builds, eight people tear down.',explanationEn:'话剧通过多重矛盾冲突推动情节发展：东家与掌柜、师傅与徒弟、内部与外部的矛盾层层叠加。'}
+      ],
       authorBio: {cn:"何冀平（1951— ），北京人，剧作家。北京人民艺术剧院编剧。代表作有话剧《天下第一楼》等，被誉为当代优秀剧作家。", en:"He Jiping (b. 1951), from Beijing. Playwright at the Beijing People's Art Theatre. Major works include the play The Number One Restaurant Under Heaven; praised as an outstanding contemporary playwright."},
       isSelfRead: true,
       preview: [{cn: "话剧《天下第一楼》讲述民国初年北京老字号烤鸭店福聚德的兴衰。本文节选自第三幕，展现了福聚德鼎盛时期的种种矛盾冲突。", en: "The play The Best Restaurant Under Heaven tells of the rise and fall of Fujude, a time-honored Beijing roast duck restaurant in the early Republic era. This excerpt from Act III shows various conflicts during the restaurant\u2019s heyday."}],
@@ -817,7 +1054,18 @@ units: [
     {
       id: 19, title: "枣儿",
       titleEn: "Dates (Zaor)",
+      difficulty: 5,
       author: "孙鸿", authorEn: "Sun Hong",
+      vocabWords: [
+        {word:'喃喃自语',pinyin:'nán nán zì yǔ',en:'to murmur to oneself',sentence:'怎么没人来吃枣儿呢？',sentenceEn:'Why is no one coming to eat dates?'},
+        {word:'蹑手蹑脚',pinyin:'niè shǒu niè jiǎo',en:'on tiptoe; stealthily',sentence:'男孩蹑手蹑脚地走过去捡枣儿。',sentenceEn:'The boy tiptoed over stealthily to pick up the date.'},
+        {word:'喜出望外',pinyin:'xǐ chū wàng wài',en:'overjoyed; pleasantly surprised',sentence:'谢谢爷爷！枣儿真大。',sentenceEn:'Thank you, grandpa! The dates are really big.'},
+        {word:'威严',pinyin:'wēi yán',en:'stern; dignified',sentence:'叫你过来就过来。',sentenceEn:'Come here when you are told to come.'},
+        {word:'皱巴巴',pinyin:'zhòu bā bā',en:'wrinkled; shriveled',sentence:'和你脸一样，皱巴巴的。',sentenceEn:'Just like your face, all wrinkled.'}
+      ],
+      grammarPoints: [
+        {point:'舞台象征',pointEn:'wǔ tái xiàng zhēng',example:'stage symbolism',exampleEn:'一棵挂满红枣的老树。',explanation:'An old tree laden with red dates.',explanationEn:'枣树象征故乡和传统，枣儿象征亲情与牵挂，整个舞台意象寄托了对乡土文化流失的感伤。'}
+      ],
       authorBio: {cn:"孙鸿，当代剧作家。代表作有话剧《枣儿》等，关注农村留守问题和社会变迁。", en:"Sun Hong, contemporary playwright. Major works include the play The Jujubes, which addresses the issue of rural left-behind populations and social change."},
       isSelfRead: true,
       preview: [{cn: "一棵挂满红枣的老树下，一位老人和一个男孩相遇。枣儿串起了两代人的故事——等待远方亲人归来的孤独与期盼。", en: "Under an old tree laden with red dates, an elderly man and a young boy meet. The dates connect stories of two generations \u2014 the loneliness and longing of waiting for distant loved ones to return."}],
@@ -873,7 +1121,18 @@ units: [
     {
       id: 20, title: "曹刿论战",
       titleEn: "Cao Gui on the Battle",
+      difficulty: 5,
       author: "《左传》", authorEn: "Zuo Zhuan (Chronicle of Zuo)",
+      vocabWords: [
+        {word:'肉食者',pinyin:'ròu shí zhě',en:'meat-eaters (those in power)',sentence:'肉食者谋之，又何间焉？',sentenceEn:'Those in power will plan it; why should you get involved?'},
+        {word:'小惠',pinyin:'xiǎo huì',en:'small favor',sentence:'小惠未遍，民弗从也。',sentenceEn:'Small favors have not reached everyone; the people will not follow.'},
+        {word:'一鼓作气',pinyin:'yī gǔ zuò qì',en:'to succeed in one vigorous effort',sentence:'一鼓作气，再而衰，三而竭。',sentenceEn:'The first drum rouses spirits, the second weakens them, the third exhausts them.'},
+        {word:'辙乱旗靡',pinyin:'zhé luàn qí mǐ',en:'wheel-tracks in disorder and banners fallen (signs of rout)',sentence:'吾视其辙乱，望其旗靡，故逐之。',sentenceEn:'I saw their wheel-tracks in disorder and their banners fallen, so I pursued them.'},
+        {word:'败绩',pinyin:'bài jì',en:'to suffer a crushing defeat',sentence:'齐师败绩。',sentenceEn:'The army of Qi was routed.'}
+      ],
+      grammarPoints: [
+        {point:'详略得当',pointEn:'xiáng lüè dé dàng',example:'appropriate balance of detail and brevity',exampleEn:'公将鼓之。刿曰：未可。',explanation:'The Duke was about to order the drums struck. Gui said: Not yet.',explanationEn:'本文详写论战，略写战争过程，突出曹刿的军事才能和远见卓识。'}
+      ],
       authorBio: {cn:"《左传》是中国第一部叙事详细的编年体史书，相传为春秋时期左丘明所著，记载了春秋时期各诸侯国的政治、军事、外交等活动。", en:"Zuo Zhuan (Chronicle of Zuo) is China's first detailed chronological history, traditionally attributed to Zuo Qiuming of the Spring and Autumn period, recording the political, military, and diplomatic activities of the vassal states."},
       isSelfRead: false,
       preview: [{cn: "长勺之战是古代以弱胜强的经典战例。朗读课文，读准字音，把握好停顿，结合注释了解课文大意。", en: "The Battle of Changshao is a classic example of the weak defeating the strong. Read aloud with correct pronunciation and pauses, and use annotations to understand the general meaning."}],
@@ -914,7 +1173,19 @@ units: [
     {
       id: 21, title: "邹忌讽齐王纳谏",
       titleEn: "Zou Ji Advises the King of Qi to Accept Counsel",
+      difficulty: 5,
       author: "《战国策》", authorEn: "Strategies of the Warring States",
+      vocabWords: [
+        {word:'讽谏',pinyin:'fěng jiàn',en:'to remonstrate through analogy; indirect admonishment',sentence:'邹忌以自身经历讽谏齐王。',sentenceEn:'Zou Ji used his own experience to indirectly advise the King of Qi.'},
+        {word:'昳丽',pinyin:'yì lì',en:'handsome; beautiful',sentence:'邹忌修八尺有余，而形貌昳丽。',sentenceEn:'Zou Ji was over eight chi tall and had a handsome appearance.'},
+        {word:'门庭若市',pinyin:'mén tíng ruò shì',en:'the courtyard was like a marketplace (crowded with visitors)',sentence:'令初下，群臣进谏，门庭若市。',sentenceEn:'When the decree was first issued, ministers came to offer advice and the court was like a marketplace.'},
+        {word:'面刺',pinyin:'miàn cì',en:'to criticize face to face',sentence:'群臣吏民能面刺寡人之过者。',sentenceEn:'Any minister, official, or citizen who can criticize my faults to my face.'},
+        {word:'蔽',pinyin:'bì',en:'to be deceived; to have one’s vision obscured',sentence:'王之蔽甚矣。',sentenceEn:'Your Majesty has been greatly deceived.'}
+      ],
+      grammarPoints: [
+        {point:'设喻说理',pointEn:'shè yù shuō lǐ',example:'reasoning through analogy',exampleEn:'臣之妻私臣，臣之妾畏臣，臣之客欲有求于臣。',explanation:'My wife favors me, my concubine fears me, and my guest wants something from me.',explanationEn:'邹忌用自身比美的小事类比治国的大道理，由家及国，由小见大，委婉而有说服力。'},
+        {point:'三叠式结构',pointEn:'sān dié shì jié gòu',example:'triple-layered structure',exampleEn:'三问答——三类比——三赏赐——三变化。',explanation:'Three questions and answers, three analogies, three levels of reward, three stages of change.',explanationEn:'文章以"三"为结构框架，层层对照，整齐而富有变化，体现了先秦散文的艺术美。'}
+      ],
       authorBio: {cn:"《战国策》是西汉刘向整理编辑的一部国别体史书，记载了战国时期各国政治、军事、外交活动及策士的言论和谋略。", en:"Strategies of the Warring States is a state-by-state history compiled by Liu Xiang of the Western Han Dynasty, recording political, military, and diplomatic activities during the Warring States period."},
       isSelfRead: true,
       preview: [{cn: "面对家人的赞美和客人的奉承，邹忌没有沾沾自喜，而是作了理性的思考，从\u201c治家\u201d中悟出\u201c治国\u201d的道理。", en: "Facing family praise and guest flattery, Zou Ji did not become complacent but reflected rationally, deriving principles of governance from household matters."}],
@@ -958,6 +1229,13 @@ units: [
   ],
   writing: {
     title: "有创意地表达", titleEn: "Creative Expression",
+    vocabWords: [
+      {word:'创意',pinyin:'chuàng yì',en:'creativity; creative idea',sentence:'写作要有自己独特的创意。',sentenceEn:'Writing should have one’s own unique creativity.'},
+      {word:'新颖',pinyin:'xīn yǐng',en:'novel; fresh',sentence:'选材要新颖独到。',sentenceEn:'The choice of material should be novel and distinctive.'},
+      {word:'独到',pinyin:'dú dào',en:'unique; original',sentence:'表达方式要独到。',sentenceEn:'The mode of expression should be original.'},
+      {word:'角度',pinyin:'jiǎo dù',en:'angle; perspective',sentence:'从不同角度切入主题。',sentenceEn:'Approach the theme from different angles.'},
+      {word:'别出心裁',pinyin:'bié chū xīn cái',en:'to come up with something original',sentence:'文章贵在别出心裁。',sentenceEn:'The value of writing lies in originality.'}
+    ],
     content: {
       cn: "有创意地表达，是指表达时有新意，有个性，不落俗套。除立意新颖外，还要注意选材新颖、角度新颖、语言新颖、表现形式新颖。",
       en: "Creative expression means conveying ideas with originality and personality. Besides novel themes, pay attention to fresh material selection, unique angles, innovative language, and novel formats."
@@ -965,6 +1243,13 @@ units: [
   },
   famousReading: {
     title: "《简·爱》", titleEn: "Jane Eyre",
+    vocabWords: [
+      {word:'自尊',pinyin:'zì zūn',en:'self-respect; self-esteem',sentence:'简·爱是一个具有强烈自尊心的女性。',sentenceEn:'Jane Eyre is a woman with a strong sense of self-respect.'},
+      {word:'独立',pinyin:'dú lì',en:'independent; independence',sentence:'她追求人格独立和精神自由。',sentenceEn:'She pursues personal independence and spiritual freedom.'},
+      {word:'抗争',pinyin:'kàng zhēng',en:'to resist; to struggle against',sentence:'她不屈不挠地与命运抗争。',sentenceEn:'She struggles unyieldingly against fate.'},
+      {word:'平等',pinyin:'píng děng',en:'equal; equality',sentence:'她渴望获得平等的对待。',sentenceEn:'She yearns to be treated with equality.'},
+      {word:'坚韧',pinyin:'jiān rèn',en:'tenacious; resilient',sentence:'简·爱的坚韧品格令人敬佩。',sentenceEn:'Jane Eyre’s tenacious character commands admiration.'}
+    ],
     content: {
       cn: "夏洛蒂·勃朗特的代表作《简·爱》讲述了贫苦孤女简·爱为寻求人格独立、爱情和尊严而挣扎奋斗的故事。她虽然貌不惊人，但人格独立，心灵强大，是现代女性美的象征。阅读外国小说要注意了解创作背景、理解文化内涵、关注叙事角度、体会语言特点。",
       en: "Charlotte Bront\u00eb\u2019s masterpiece Jane Eyre tells the story of a poor orphan who struggles for personal independence, love, and dignity. Though plain in appearance, she is independent in spirit and strong in soul, symbolizing modern feminine beauty. When reading foreign novels, pay attention to the creative background, cultural connotations, narrative perspective, and language features."
@@ -972,15 +1257,43 @@ units: [
   },
   extracurricularPoetry: [
     {title: "南安军", titleEn: "At Nan\u2019an Garrison", author: "文天祥", authorEn: "Wen Tianxiang",
+     vocabWords: [
+       {word:'梅花',pinyin:'méi huā',en:'plum blossom',sentence:'梅花南北路，风雨湿征衣。',sentenceEn:'On the plum blossom road between north and south, wind and rain soak my traveling clothes.'},
+       {word:'出岭',pinyin:'chū lǐng',en:'to cross the mountain pass',sentence:'出岭同谁出？归乡如此归！',sentenceEn:'Crossing the pass with whom? Returning home in such a manner!'},
+       {word:'饥死',pinyin:'jī sǐ',en:'to starve to death',sentence:'饥死真吾志，梦中行采薇。',sentenceEn:'Starving to death is truly my resolve; in dreams I walk gathering ferns.'},
+       {word:'征衣',pinyin:'zhēng yī',en:'traveling clothes; military garments',sentence:'风雨湿征衣。',sentenceEn:'Wind and rain soak my traveling clothes.'},
+       {word:'采薇',pinyin:'cǎi wēi',en:'to gather ferns (allusion to Boyi and Shuqi)',sentence:'梦中行采薇。',sentenceEn:'In dreams I walk gathering ferns.'}
+     ],
      text: "梅花南北路，风雨湿征衣。出岭同谁出？归乡如此归！山河千古在，城郭一时非。饿死真吾志，梦中行采薇。",
      textEn: "The plum-blossom road runs north and south; wind and rain soak my traveling clothes. Crossing the pass \u2014 with whom do I cross? Returning home \u2014 is this how I return! Mountains and rivers endure through ages; cities and walls are changed in a moment. To starve to death is truly my resolve; in dreams I gather ferns on the hillside."},
     {title: "别云间", titleEn: "Farewell to Yunjian", author: "夏完淳", authorEn: "Xia Wanchun",
+     vocabWords: [
+       {word:'毅魄',pinyin:'yì pò',en:'resolute spirit',sentence:'毅魄归来日，灵旗空际看。',sentenceEn:'On the day my resolute spirit returns, look for the spirit banner in the sky.'},
+       {word:'无限山河泪',pinyin:'wú xiàn shān hé lèi',en:'endless tears for the mountains and rivers',sentence:'无限山河泪，谁言天地宽。',sentenceEn:'Endless tears for the mountains and rivers; who can say that heaven and earth are vast?'},
+       {word:'已知泉路近',pinyin:'yǐ zhī quán lù jìn',en:'knowing the road to the underworld is near',sentence:'已知泉路近，欲别故乡难。',sentenceEn:'Knowing the road to the underworld is near, it is hard to bid farewell to my homeland.'},
+       {word:'灵旗',pinyin:'líng qí',en:'spirit banner',sentence:'灵旗空际看。',sentenceEn:'Look for the spirit banner in the sky.'},
+       {word:'俘虏',pinyin:'fú lǔ',en:'captive; prisoner of war',sentence:'三年羁旅客，今日又南冠。',sentenceEn:'Three years a traveling captive, today again wearing the southern prisoner’s cap.'}
+     ],
      text: "三年羁旅客，今日又南冠。无限山河泪，谁言天地宽。已知泉路近，欲别故乡难。毅魄归来日，灵旗空际看。",
      textEn: "Three years a wandering exile, today again a southern captive. Endless tears for mountains and rivers \u2014 who says heaven and earth are wide? I know the path to the underworld is near, yet parting from my homeland is hard. When my resolute spirit returns, watch for the battle flag in the empty sky."},
     {title: "山坡羊·骊山怀古", titleEn: "Shanpuyang: Meditating on the Past at Li Mountain", author: "张养浩", authorEn: "Zhang Yanghao",
+     vocabWords: [
+       {word:'骊山',pinyin:'lí shān',en:'Li Mountain (near Xi’an)',sentence:'骊山四顾，阿房一炬。',sentenceEn:'Looking around from Li Mountain, Epang Palace burned in a single blaze.'},
+       {word:'阿房',pinyin:'ē páng',en:'Epang Palace',sentence:'阿房一炬，当时奢侈今何处？',sentenceEn:'Epang Palace burned; where is that extravagance today?'},
+       {word:'兴亡',pinyin:'xīng wáng',en:'rise and fall (of dynasties)',sentence:'赢，都变做了土；输，都变做了土。',sentenceEn:'Win or lose, all becomes dust.'},
+       {word:'奢侈',pinyin:'shē chǐ',en:'extravagant; luxurious',sentence:'当时奢侈今何处？',sentenceEn:'Where is that extravagance today?'},
+       {word:'怀古',pinyin:'huái gǔ',en:'to meditate on the past; to reflect on history',sentence:'只见草萧疏，水萦纡。',sentenceEn:'Only sparse grass and winding waters are seen.'}
+     ],
      text: "骊山四顾，阿房一炬，当时奢侈今何处？只见草萧疏，水萦纡。至今遗恨迷烟树。列国周齐秦汉楚。赢，都变做了土；输，都变做了土。",
      textEn: "Looking around from Li Mountain \u2014 Epang Palace burned in a single blaze. Where is all that extravagance now? Only sparse grass and winding waters remain. Ancient regrets linger among misty trees. The rival kingdoms \u2014 Zhou, Qi, Qin, Han, Chu. Winners all turned to dust; losers all turned to dust."},
     {title: "朝天子·咏喇叭", titleEn: "Chaotianzi: Ode to the Trumpet", author: "王磐", authorEn: "Wang Pan",
+     vocabWords: [
+       {word:'喇叭',pinyin:'lǎ ba',en:'trumpet; horn',sentence:'喇叭，唢呐，曲儿小腔儿大。',sentenceEn:'Trumpet, suona: small tunes but a big sound.'},
+       {word:'唢呐',pinyin:'suǒ nà',en:'suona (Chinese double-reed instrument)',sentence:'喇叭，唢呐，曲儿小腔儿大。',sentenceEn:'Trumpet, suona: small tunes but a big sound.'},
+       {word:'官船',pinyin:'guān chuán',en:'official boat',sentence:'官船来往乱如麻。',sentenceEn:'Official boats come and go, tangled like hemp.'},
+       {word:'吹翻',pinyin:'chuī fān',en:'to blow over; to topple',sentence:'吹翻了这家，吹伤了那家。',sentenceEn:'Blowing over this family, blowing damage on that family.'},
+       {word:'眼见',pinyin:'yǎn jiàn',en:'to witness',sentence:'眼见的吹翻了这家。',sentenceEn:'Witnessing this family being blown over.'}
+     ],
      text: "喇叭，唢呐，曲儿小腔儿大。官船来往乱如麻，全仗你抬声价。军听了军愁，民听了民怕。哪里去辨甚么真共假？眼见的吹翻了这家，吹伤了那家，只吹的水尽鹅飞罢！",
      textEn: "Trumpet! Suona! The tune is small but the sound is big. Official boats come and go in tangles \u2014 all relying on you to raise their prestige. Soldiers hear it and worry; people hear it and fear. How can one tell what is real from what is false? You\u2019ve blown this family to ruin, hurt that family over there, and blown until the water is drained and the geese have all fled!"}
   ]

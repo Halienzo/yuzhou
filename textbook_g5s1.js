@@ -1,5 +1,5 @@
 /**
- * 字道 ZiDao — 部编版五年级语文上册 教材数据
+ * 语宙 YuZhou — 部编版五年级语文上册 教材数据
  * Grade 5 Semester 1 Textbook Data (PEP Edition)
  * Based on: 义务教育教科书 语文 五年级上册 (2019)
  */
@@ -12,12 +12,14 @@ units: [
 /*  UNIT 1 — 一花一鸟总关情                    */
 /* ═══════════════════════════════════════════ */
 {
-  id: 1, title: "\u7b2c\u4e00\u5355\u5143", titleEn: "Unit 1", type: "kewen",
+  id: 1, title: "\u7b2c\u4e00\u5355\u5143", titleEn: "Unit 1",
+  difficulty: 3, type: "kewen",
   theme: "\u4e00\u82b1\u4e00\u9e1f\u603b\u5173\u60c5",
   themeEn: "Every flower and bird stirs emotion",
   lessons: [
     {
       id: 1, title: "\u767d\u9e6d", titleEn: "White Egret",
+      difficulty: 3,
       author: "\u90ed\u6c6b\u82e5",
       text: [
         "\u767d\u9e6d\u662f\u4e00\u9996\u7cbe\u5de7\u7684\u8bd7\u3002",
@@ -45,6 +47,16 @@ units: [
       ],
       recognizeChars: ["\u9e6d","\u5acc","\u9edb","\u5d4c","\u5323","\u55dc"],
       writeChars: ["\u5b9c","\u9e64","\u5acc","\u6731","\u5d4c","\u6846","\u5323","\u54e8","\u6069","\u97f5"],
+      vocabWords: [
+        {word:'白鹭',pinyin:'bái lù',en:'white egret',sentence:'白鹭是一首精巧的诗。',sentenceEn:'The white egret is an exquisite poem.'},
+        {word:'精巧',pinyin:'jīng qiǎo',en:'exquisite',sentence:'色素的配合，身段的大小，一切都很适宜。',sentenceEn:'The blend of colors, the proportion — everything is fitting.'},
+        {word:'嵌',pinyin:'qiàn',en:'set; inlay',sentence:'田里嵌着一只白鹭。',sentenceEn:'A white egret is set in the field.'},
+        {word:'悠然',pinyin:'yōu rán',en:'leisurely',sentence:'它悠然地站着。',sentenceEn:'It stands leisurely.'},
+        {word:'韵味',pinyin:'yùn wèi',en:'charm',sentence:'别有一番韵味。',sentenceEn:'Has a special charm.'}
+      ],
+      grammarPoints: [
+        {point:'借物抒情',pointEn:'jiè wù shū qíng',example:'express feelings through things',exampleEn:'白鹭实在是一首诗，一首韵在骨子里的散文诗。',explanation:'The egret is truly a poem, a prose poem.',explanationEn:'通过描写白鹭表达对美的感悟'}
+      ],
       exercises: [
         {type:"read",cn:"\u6717\u8bfb\u8bfe\u6587\u3002\u8bf4\u8bf4\u4f60\u4ece\u54ea\u4e9b\u5730\u65b9\u611f\u53d7\u5230\u201c\u767d\u9e6d\u662f\u4e00\u9996\u7cbe\u5de7\u7684\u8bd7\u201d\u3002",en:"Read the text aloud. Say where you feel that \u2018the egret is an exquisite poem.\u2019"},
         {type:"think",cn:"\u8bfe\u6587\u7b2c6\uff5e8\u81ea\u7136\u6bb5\u63cf\u7ed8\u4e86\u4e09\u5e45\u4f18\u7f8e\u7684\u56fe\u753b\uff0c\u8bf7\u4f60\u4e3a\u6bcf\u5e45\u56fe\u753b\u8d77\u4e00\u4e2a\u540d\u5b57\u3002",en:"Paragraphs 6\u20138 depict three beautiful pictures. Give each one a name."},
@@ -62,6 +74,7 @@ units: [
     },
     {
       id: 2, title: "\u843d\u82b1\u751f", titleEn: "Peanuts",
+      difficulty: 3,
       author: "\u8bb8\u5730\u5c71",
       text: [
         "\u6211\u4eec\u5bb6\u7684\u540e\u56ed\u6709\u534a\u4ea9\u7a7a\u5730\u3002\u6bcd\u4eb2\u8bf4\uff1a\u201c\u8ba9\u5b83\u8352\u7740\u602a\u53ef\u60dc\u7684\uff0c\u4f60\u4eec\u90a3\u4e48\u7231\u5403\u82b1\u751f\uff0c\u5c31\u5f00\u8f9f\u51fa\u6765\u79cd\u82b1\u751f\u5427\u3002\u201d\u6211\u4eec\u59d0\u5f1f\u51e0\u4e2a\u90fd\u5f88\u9ad8\u5174\uff0c\u4e70\u79cd\uff0c\u7ffb\u5730\uff0c\u64ad\u79cd\uff0c\u6d47\u6c34\uff0c\u6ca1\u8fc7\u51e0\u4e2a\u6708\uff0c\u5c45\u7136\u6536\u83b7\u4e86\u3002",
@@ -89,6 +102,16 @@ units: [
       ],
       recognizeChars: ["\u4ea9","\u5429","\u69a8","\u69b4","\u77ee"],
       writeChars: ["\u4ea9","\u64ad","\u6d47","\u5429","\u5490","\u4ead","\u69a8","\u6155","\u77ee","\u8c08"],
+      vocabWords: [
+        {word:'花生',pinyin:'huā shēng',en:'peanut',sentence:'花生的好处很多。',sentenceEn:'Peanuts have many benefits.'},
+        {word:'收获',pinyin:'shōu huò',en:'harvest',sentence:'今晚我们过一个收获节。',sentenceEn:'Tonight we celebrate a harvest festival.'},
+        {word:'体面',pinyin:'tǐ miàn',en:'dignified',sentence:'花生虽然不好看，但很有用。',sentenceEn:'Peanuts may not look good, but they are useful.'},
+        {word:'爱慕',pinyin:'ài mù',en:'admire',sentence:'不要只做外表好看让人爱慕的人。',sentenceEn:'Do not only be someone admired for looks.'},
+        {word:'有用',pinyin:'yǒu yòng',en:'useful',sentence:'做有用的人。',sentenceEn:'Be a useful person.'}
+      ],
+      grammarPoints: [
+        {point:'借物喻人',pointEn:'jiè wù yù rén',example:'use things to describe people',exampleEn:'做有用的人，不要只讲体面。',explanation:'Be useful, not just dignified.',explanationEn:'通过花生说明做人的道理'}
+      ],
       exercises: [
         {type:"read",cn:"\u5206\u89d2\u8272\u6717\u8bfb\u8bfe\u6587\u3002\u8bf4\u8bf4\u8bfe\u6587\u56f4\u7ed5\u201c\u843d\u82b1\u751f\u201d\u5199\u4e86\u54ea\u4e9b\u5185\u5bb9\u3002",en:"Read the text in roles. Say what the text covers about peanuts."},
         {type:"think",cn:"\u4ece\u8bfe\u6587\u4e2d\u7684\u5bf9\u8bdd\u53ef\u4ee5\u770b\u51fa\u82b1\u751f\u5177\u6709\u4ec0\u4e48\u6837\u7684\u7279\u70b9\uff1f\u7236\u4eb2\u60f3\u501f\u82b1\u751f\u544a\u8bc9\u201c\u6211\u4eec\u201d\u4ec0\u4e48\u9053\u7406\uff1f",en:"What traits of the peanut can you see from the dialogue? What lesson does Father want to teach?"},
@@ -106,6 +129,7 @@ units: [
     ,
     {
       id: 3, title: "\u6842\u82b1\u96e8", titleEn: "Osmanthus Rain",
+      difficulty: 3,
       author: "\u7426\u541b",
       text: [
         "\u4e2d\u79cb\u8282\u524d\u540e\uff0c\u6b63\u662f\u6545\u4e61\u6842\u82b1\u76db\u5f00\u7684\u65f6\u8282\u3002",
@@ -129,6 +153,13 @@ units: [
       ],
       recognizeChars: ["\u7ba9","\u676d"],
       writeChars: ["\u61c2","\u5170","\u7ba9","\u5a46","\u7cd5","\u997c","\u6d78","\u7f20","\u8336","\u6361"],
+      vocabWords: [
+        {word:'桂花',pinyin:'guì huā',en:'osmanthus',sentence:'中秋前后桂花盛开。',sentenceEn:'Osmanthus blooms around Mid-Autumn.'},
+        {word:'沉浸',pinyin:'chén jìn',en:'immerse',sentence:'沉浸在桂花的香气里。',sentenceEn:'Immersed in the fragrance of osmanthus.'},
+        {word:'摇花',pinyin:'yáo huā',en:'shake flowers down',sentence:'摇桂花是件大事。',sentenceEn:'Shaking osmanthus is a big event.'},
+        {word:'故乡',pinyin:'gù xiāng',en:'hometown',sentence:'这里的桂花比不上家乡的。',sentenceEn:'The osmanthus here cannot compare to hometown.'},
+        {word:'怀念',pinyin:'huái niàn',en:'miss; nostalgia',sentence:'怀念故乡的桂花。',sentenceEn:'Missing hometown osmanthus.'}
+      ],
       exercises: [
         {type:"read",cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\u3002\u8bf4\u8bf4\u6842\u82b1\u7ed9\u201c\u6211\u201d\u5e26\u6765\u4e86\u54ea\u4e9b\u7f8e\u597d\u7684\u56de\u5fc6\u3002",en:"Read with feeling. Say what beautiful memories the osmanthus brought to \u2018me.\u2019"},
         {type:"think",cn:"\u8054\u7cfb\u201c\u9605\u8bfb\u94fe\u63a5\u201d\uff0c\u8bf4\u8bf4\u201c\u8fd9\u91cc\u7684\u6842\u82b1\u518d\u9999\uff0c\u4e5f\u6bd4\u4e0d\u4e0a\u5bb6\u4e61\u9662\u5b50\u91cc\u7684\u6842\u82b1\u201d\u8fd9\u53e5\u8bdd\u7684\u542b\u4e49\u3002",en:"Using the reading link, explain the meaning of \u2018the osmanthus here can never compare with that from our yard back home.\u2019"}
@@ -143,6 +174,7 @@ units: [
     },
     {
       id: 4, title: "\u73cd\u73e0\u9e1f", titleEn: "Pearl Bird",
+      difficulty: 3,
       isSelfRead: true,
       author: "\u51af\u9a65\u624d",
       text: [
@@ -174,6 +206,16 @@ units: [
         "My pen moved, and these words flowed out: Trust often creates the most beautiful of realms."
       ],
       recognizeChars: ["\u8513","\u5e7d","\u6089","\u96cf","\u54df","\u67dc","\u4eab","\u966a","\u5f85","\u8d74","\u7751","\u7738"],
+      vocabWords: [
+        {word:'珍珠鸟',pinyin:'zhēn zhū niǎo',en:'pearl bird',sentence:'朋友送我一对珍珠鸟。',sentenceEn:'A friend gave me a pair of pearl birds.'},
+        {word:'信赖',pinyin:'xìn lài',en:'trust',sentence:'信赖创造了美好的境界。',sentenceEn:'Trust creates a beautiful realm.'},
+        {word:'巢',pinyin:'cháo',en:'nest',sentence:'它们在笼子里筑了巢。',sentenceEn:'They built a nest in the cage.'},
+        {word:'肩膀',pinyin:'jiān bǎng',en:'shoulder',sentence:'小鸟落在我的肩膀上。',sentenceEn:'The little bird landed on my shoulder.'},
+        {word:'渐渐',pinyin:'jiàn jiàn',en:'gradually',sentence:'小鸟渐渐胆大了。',sentenceEn:'The little bird gradually became bolder.'}
+      ],
+      grammarPoints: [
+        {point:'以小见大',pointEn:'yǐ xiǎo jiàn dà',example:'see the big through the small',exampleEn:'信赖，往往创造出美好的境界。',explanation:'Trust often creates a beautiful realm.',explanationEn:'从小事中感悟大道理'}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u60f3\u60f3\u201c\u6211\u201d\u662f\u600e\u6837\u9010\u6e10\u5f97\u5230\u73cd\u73e0\u9e1f\u7684\u4fe1\u8d56\u7684\u3002",en:"Read silently and think about how \u2018I\u2019 gradually earned the pearl bird\u2019s trust."},
         {type:"think",cn:"\u8bfe\u6587\u4e2d\u6709\u5f88\u591a\u5730\u65b9\u5199\u51fa\u4e86\u73cd\u73e0\u9e1f\u7684\u53ef\u7231\uff0c\u627e\u51fa\u8fd9\u6837\u7684\u8bed\u53e5\uff0c\u4f53\u4f1a\u201c\u6211\u201d\u548c\u73cd\u73e0\u9e1f\u4e4b\u95f4\u7684\u60c5\u610f\u3002",en:"Find passages that show how adorable the pearl bird is and appreciate the bond between \u2018me\u2019 and the bird."}
@@ -192,7 +234,23 @@ units: [
     exchange: {title:"\u4ea4\u6d41\u5e73\u53f0",titleEn:"Exchange Platform",content:{cn:"\u672c\u5355\u5143\u7684\u8bfe\u6587\u5199\u7684\u90fd\u662f\u4e8b\u7269\uff0c\u6709\u7684\u8574\u542b\u7740\u4f5c\u8005\u6d53\u6d53\u7684\u611f\u60c5\uff0c\u6709\u7684\u5f15\u53d1\u4e86\u4f5c\u8005\u6df1\u6df1\u7684\u601d\u8003\u3002",en:"The texts in this unit describe objects; some contain the author\u2019s deep feelings, others provoke deep thought."}},
     wordSentence: {title:"\u8bcd\u53e5\u6bb5\u8fd0\u7528",titleEn:"Word & Sentence Practice",content:{cn:"\u8bfb\u53e5\u5b50\uff0c\u4f53\u4f1a\u5b83\u4eec\u5728\u63cf\u5199\u4e8b\u7269\u7684\u65b9\u6cd5\u4e0a\u7684\u76f8\u4f3c\u4e4b\u5904\uff08\u5bf9\u6bd4\u624b\u6cd5\uff09\u3002\u6bd4\u8f83\u6bcf\u7ec4\u53e5\u5b50\u4e2d\u52a0\u70b9\u8bcd\u8bed\u7684\u610f\u601d\uff0c\u7528\u201c\u6e29\u548c\u201d\u5199\u53e5\u5b50\u3002",en:"Read the sentences and appreciate how they use contrast. Compare the meanings of highlighted words and write sentences using \u2018gentle.\u2019"}},
     accumulation: {title:"\u65e5\u79ef\u6708\u7d2f",titleEn:"Daily Accumulation",content:{cn:"\u8749\n[\u5510] \u865e\u4e16\u5357\n\u5782\u996e\u6e05\u9732\uff0c\u6d41\u54cd\u51fa\u758f\u6850\u3002\n\u5c45\u9ad8\u58f0\u81ea\u8fdc\uff0c\u975e\u662f\u85c9\u79cb\u98ce\u3002",en:"Cicada\nby Yu Shinan (Tang)\nDrinking dew while clinging to a branch,\nits song flows from the sparse tung tree.\nPerched high, its voice carries far \u2014\nnot by relying on the autumn wind."}},
-    composition: {title:"\u4e60\u4f5c\uff1a\u6211\u7684\u5fc3\u7231\u4e4b\u7269",titleEn:"Composition: My Beloved Thing",prompt:{cn:"\u60f3\u60f3\u4f60\u7684\u5fc3\u7231\u4e4b\u7269\u662f\u4ec0\u4e48\uff0c\u5199\u5199\u5b83\u662f\u4ec0\u4e48\u6837\u5b50\u7684\uff0c\u4f60\u662f\u600e\u4e48\u5f97\u5230\u7684\uff0c\u4e3a\u4ec0\u4e48\u4f1a\u6210\u4e3a\u4f60\u7684\u5fc3\u7231\u4e4b\u7269\u3002\u56f4\u7ed5\u5fc3\u7231\u4e4b\u7269\uff0c\u5199\u51fa\u81ea\u5df1\u7684\u559c\u7231\u4e4b\u60c5\u3002",en:"Think about what your beloved thing is. Describe it, how you got it, and why it became so special. Express your fondness for it."}}
+    composition: {title:"\u4e60\u4f5c\uff1a\u6211\u7684\u5fc3\u7231\u4e4b\u7269",titleEn:"Composition: My Beloved Thing",prompt:{cn:"\u60f3\u60f3\u4f60\u7684\u5fc3\u7231\u4e4b\u7269\u662f\u4ec0\u4e48\uff0c\u5199\u5199\u5b83\u662f\u4ec0\u4e48\u6837\u5b50\u7684\uff0c\u4f60\u662f\u600e\u4e48\u5f97\u5230\u7684\uff0c\u4e3a\u4ec0\u4e48\u4f1a\u6210\u4e3a\u4f60\u7684\u5fc3\u7231\u4e4b\u7269\u3002\u56f4\u7ed5\u5fc3\u7231\u4e4b\u7269\uff0c\u5199\u51fa\u81ea\u5df1\u7684\u559c\u7231\u4e4b\u60c5\u3002",en:"Think about what your beloved thing is. Describe it, how you got it, and why it became so special. Express your fondness for it."},modelEssays:[
+      {level:'\u57fa\u7840',levelEn:'Basic',title:'\u6211\u7684\u5c0f\u718a',titleEn:'My Little Bear',
+       outline:{cn:'\u5f00\u5934\u4ecb\u7ecd\u5fc3\u7231\u4e4b\u7269\u2014\u2014\u5c0f\u718a\u5e03\u5076\uff1b\u4e2d\u95f4\u5199\u5916\u8c8c\u548c\u6765\u5386\uff1b\u7ed3\u5c3e\u8868\u8fbe\u559c\u7231\u4e4b\u60c5\u3002',en:'Introduction of beloved thing \u2014 teddy bear; middle describes appearance and origin; ending expresses love.'},
+       text:'\u6211\u6709\u4e00\u53ea\u5c0f\u718a\u5e03\u5076\uff0c\u5b83\u662f\u6211\u6700\u5fc3\u7231\u7684\u5b9d\u8d1d\u3002\u5c0f\u718a\u5168\u8eab\u68d5\u8272\uff0c\u6bdb\u8338\u8338\u7684\uff0c\u6478\u4e0a\u53bb\u8f6f\u8f6f\u7684\uff0c\u50cf\u4e00\u56e2\u68c9\u82b1\u7cd6\u3002\u5b83\u7684\u4e24\u53ea\u773c\u775b\u5706\u6e9c\u6e9c\u7684\uff0c\u9ed1\u5f97\u53d1\u4eae\uff0c\u50cf\u4e24\u9897\u9ed1\u8461\u8404\u3002\u5c0f\u718a\u7684\u9f3b\u5b50\u662f\u4e00\u4e2a\u5c0f\u4e09\u89d2\u5f62\uff0c\u5634\u5df4\u5fae\u5fae\u4e0a\u7fd8\uff0c\u597d\u50cf\u603b\u5728\u5bf9\u6211\u5fae\u7b11\u3002\u8fd9\u53ea\u5c0f\u718a\u662f\u6211\u4e03\u5c81\u751f\u65e5\u65f6\u5988\u5988\u9001\u7ed9\u6211\u7684\u793c\u7269\u3002\u90a3\u5929\uff0c\u5988\u5988\u795e\u79d8\u5730\u4ece\u80cc\u540e\u62ff\u51fa\u4e00\u4e2a\u5927\u76d2\u5b50\uff0c\u6211\u6253\u5f00\u4e00\u770b\uff0c\u5c31\u770b\u5230\u4e86\u8fd9\u53ea\u53ef\u7231\u7684\u5c0f\u718a\u3002\u6211\u5f00\u5fc3\u6781\u4e86\uff0c\u4e00\u628a\u62b1\u4f4f\u5b83\uff0c\u8212\u670d\u5f97\u4e0d\u60f3\u653e\u624b\u3002\u4ece\u90a3\u4ee5\u540e\uff0c\u5c0f\u718a\u5c31\u6210\u4e86\u6211\u5f62\u5f71\u4e0d\u79bb\u7684\u597d\u4f19\u4f34\u3002\u6bcf\u5929\u665a\u4e0a\uff0c\u6211\u90fd\u62b1\u7740\u5b83\u7761\u89c9\uff1b\u5199\u4f5c\u4e1a\u7684\u65f6\u5019\uff0c\u5b83\u5c31\u9759\u9759\u5730\u5750\u5728\u684c\u5b50\u4e0a\u966a\u7740\u6211\u3002\u6709\u65f6\u5019\u6211\u4e0d\u5f00\u5fc3\uff0c\u5c31\u5bf9\u5b83\u8bf4\u8bf4\u5fc3\u91cc\u8bdd\uff0c\u5b83\u4f3c\u4e4e\u603b\u80fd\u542c\u61c2\u6211\u3002\u5c0f\u718a\u867d\u7136\u53ea\u662f\u4e00\u4e2a\u5e03\u5076\uff0c\u4f46\u5b83\u627f\u8f7d\u4e86\u5988\u5988\u7684\u7231\uff0c\u4e5f\u966a\u4f34\u6211\u5ea6\u8fc7\u4e86\u8bb8\u591a\u5feb\u4e50\u548c\u4f24\u5fc3\u7684\u65f6\u5149\u3002\u6211\u4f1a\u4e00\u76f4\u73cd\u60dc\u5b83\u3002',
+       textEn:'I have a teddy bear, and it is my most beloved treasure. The bear is brown all over and furry, feeling as soft as cotton candy when you touch it. Its two round eyes are shiny black, like two dark grapes. Its nose is a little triangle, and its mouth curves up slightly, as if always smiling at me. This teddy bear was a birthday gift from Mom when I turned seven. That day, she mysteriously pulled out a big box from behind her back. When I opened it, I saw this adorable little bear. I was so happy that I hugged it tight and did not want to let go. From then on, the bear became my inseparable companion. Every night I fall asleep holding it; when I do homework, it sits quietly on the desk beside me. Sometimes when I am upset, I talk to it, and it always seems to understand me. Although it is just a stuffed toy, it carries my mother\u2019s love and has accompanied me through many happy and sad times. I will always treasure it.',
+       notes:{cn:'\u8fd9\u7bc7\u4f5c\u6587\u56f4\u7ed5\u5c0f\u718a\u5e03\u5076\u5199\u4e86\u5916\u8c8c\u3001\u6765\u5386\u548c\u76f8\u4f34\u7684\u65e5\u5e38\uff0c\u8868\u8fbe\u4e86\u559c\u7231\u4e4b\u60c5\u3002\u7528\u4e86\u6bd4\u55bb\u548c\u62df\u4eba\u624b\u6cd5\u3002',en:'This essay describes the teddy bear\u2019s appearance, origin, and daily companionship, expressing love. It uses simile and personification.'}},
+      {level:'\u63d0\u9ad8',levelEn:'Intermediate',title:'\u7237\u7237\u7684\u6000\u8868',titleEn:'Grandpa\u2019s Pocket Watch',
+       outline:{cn:'\u5f00\u5934\u70b9\u660e\u5fc3\u7231\u4e4b\u7269\u2014\u2014\u7237\u7237\u7684\u65e7\u6000\u8868\uff1b\u4e2d\u95f4\u5199\u5916\u89c2\u3001\u5f97\u5230\u7684\u7ecf\u8fc7\u548c\u80cc\u540e\u7684\u6545\u4e8b\uff1b\u7ed3\u5c3e\u5347\u534e\u60c5\u611f\u3002',en:'Opening states beloved thing \u2014 grandpa\u2019s old pocket watch; middle covers appearance, how obtained, and the story behind it; ending deepens emotion.'},
+       text:'\u5728\u6211\u7684\u4e66\u684c\u62bd\u5c49\u91cc\uff0c\u9759\u9759\u5730\u8eba\u7740\u4e00\u5757\u65e7\u6000\u8868\u3002\u5b83\u7684\u8868\u9762\u5df2\u7ecf\u6709\u4e9b\u78e8\u635f\uff0c\u91d1\u5c5e\u5916\u58f3\u5931\u53bb\u4e86\u5f53\u5e74\u7684\u5149\u6cfd\uff0c\u8868\u76d8\u4e0a\u7684\u6570\u5b57\u4e5f\u6709\u4e9b\u6a21\u7cca\u4e86\u3002\u4f46\u8fd9\u5757\u770b\u4f3c\u666e\u901a\u7684\u6000\u8868\uff0c\u5374\u662f\u6211\u6700\u5fc3\u7231\u7684\u5b9d\u8d1d\u3002\u5b83\u662f\u7237\u7237\u7559\u7ed9\u6211\u7684\u3002\u7237\u7237\u5e74\u8f7b\u7684\u65f6\u5019\u662f\u4e00\u540d\u706b\u8f66\u53f8\u673a\uff0c\u8fd9\u5757\u6000\u8868\u966a\u4f34\u4ed6\u8d70\u8fc7\u4e86\u65e0\u6570\u4e2a\u65e5\u65e5\u591c\u591c\u3002\u7237\u7237\u8bf4\uff0c\u6bcf\u6b21\u51fa\u8f66\u524d\uff0c\u4ed6\u90fd\u8981\u770b\u770b\u6000\u8868\uff0c\u786e\u4fdd\u65f6\u95f4\u5206\u6beb\u4e0d\u5dee\u3002\u706b\u8f66\u5168\u901f\u524d\u8fdb\u7684\u65f6\u5019\uff0c\u6000\u8868\u7684\u6ef4\u7b54\u58f0\u548c\u8f66\u8f6e\u7684\u8f70\u9e23\u58f0\u4ea4\u7ec7\u5728\u4e00\u8d77\uff0c\u6210\u4e86\u7237\u7237\u6700\u719f\u6089\u7684\u65cb\u5f8b\u3002\u7237\u7237\u9000\u4f11\u540e\uff0c\u628a\u6000\u8868\u90d1\u91cd\u5730\u4ea4\u7ed9\u4e86\u6211\u3002\u4ed6\u8bf4\uff1a\u201c\u8fd9\u5757\u8868\u6559\u4f1a\u4e86\u6211\u5b88\u65f6\u548c\u8ba4\u771f\uff0c\u5e0c\u671b\u4e5f\u80fd\u6559\u4f1a\u4f60\u3002\u201d\u6211\u63a5\u8fc7\u6000\u8868\uff0c\u611f\u53d7\u5230\u5b83\u6c89\u7538\u7538\u7684\u91cd\u91cf\u3002\u90a3\u4e0d\u4ec5\u4ec5\u662f\u91d1\u5c5e\u7684\u91cd\u91cf\uff0c\u66f4\u662f\u7237\u7237\u51e0\u5341\u5e74\u5de5\u4f5c\u7684\u8d23\u4efb\u548c\u5bf9\u6211\u7684\u671f\u671b\u3002\u6bcf\u5f53\u6211\u61d2\u60f0\u7684\u65f6\u5019\uff0c\u6211\u5c31\u62ff\u51fa\u6000\u8868\u770b\u770b\uff0c\u4eff\u4f5b\u542c\u5230\u7237\u7237\u5728\u8bf4\uff1a\u201c\u65f6\u95f4\u4e0d\u7b49\u4eba\u554a\uff01\u201d\u8fd9\u5757\u6000\u8868\u4e0d\u4f1a\u8bf4\u8bdd\uff0c\u5374\u65f6\u523b\u63d0\u9192\u6211\u73cd\u60dc\u65f6\u5149\uff0c\u52c7\u5f80\u76f4\u524d\u3002\u5b83\u4e0d\u4ec5\u4ec5\u662f\u4e00\u5757\u8868\uff0c\u66f4\u662f\u7237\u7237\u7559\u7ed9\u6211\u6700\u73cd\u8d35\u7684\u793c\u7269\u3002',
+       textEn:'In my desk drawer lies an old pocket watch. Its surface is somewhat worn, the metal case has lost its former shine, and the numbers on the dial have become a bit blurry. Yet this seemingly ordinary watch is my most beloved treasure. It was left to me by Grandpa. When he was young, Grandpa was a train driver, and this watch accompanied him through countless days and nights. He said that before every departure, he would check the watch to make sure the time was exact. When the train raced forward at full speed, the ticking of the watch and the rumbling of the wheels wove together into the melody he knew best. After Grandpa retired, he solemnly handed the watch to me. He said, \u201cThis watch taught me punctuality and diligence; I hope it can teach you the same.\u201d I took the watch and felt its heavy weight \u2014 not just the weight of metal, but the weight of decades of responsibility and his expectations for me. Whenever I feel lazy, I take out the watch and look at it, as if hearing Grandpa say, \u201cTime waits for no one!\u201d This watch cannot speak, yet it constantly reminds me to cherish time and press forward. It is not merely a watch; it is the most precious gift Grandpa left me.',
+       notes:{cn:'\u8fd9\u7bc7\u4f5c\u6587\u901a\u8fc7\u6000\u8868\u4e32\u8054\u8d77\u7237\u7237\u7684\u5de5\u4f5c\u7ecf\u5386\u548c\u671f\u671b\uff0c\u5c42\u6b21\u5206\u660e\u3002\u7ed3\u5c3e\u7531\u7269\u53ca\u60c5\uff0c\u5347\u534e\u4e86\u4e3b\u9898\u3002',en:'This essay links the watch to grandpa\u2019s career and expectations, with clear layers. The ending elevates the theme from object to emotion.'}},
+      {level:'\u62d3\u5c55',levelEn:'Advanced',title:'\u90a3\u628a\u65e7\u5409\u4ed6',titleEn:'That Old Guitar',
+       outline:{cn:'\u5f00\u5934\u8bbe\u7f6e\u60ac\u5ff5\uff1b\u4e2d\u95f4\u5199\u5409\u4ed6\u7684\u6765\u5386\u3001\u5b66\u7434\u7684\u8270\u8f9b\u548c\u6536\u83b7\uff1b\u7ed3\u5c3e\u63ed\u793a\u5fc3\u7231\u7684\u6df1\u5c42\u542b\u4e49\u3002',en:'Opening creates suspense; middle covers the guitar\u2019s origin, the hardship and joy of learning; ending reveals the deeper meaning of this beloved thing.'},
+       text:'\u5728\u6211\u5bb6\u5ba2\u5385\u7684\u89d2\u843d\uff0c\u7ad9\u7740\u4e00\u628a\u65e7\u5409\u4ed6\u3002\u5b83\u7684\u6f06\u9762\u5df2\u7ecf\u6709\u4e9b\u5265\u843d\uff0c\u7434\u5f26\u6362\u8fc7\u597d\u51e0\u6b21\uff0c\u7434\u9888\u4e0a\u8fd8\u6709\u4e00\u9053\u6d45\u6d45\u7684\u88c2\u7eb9\u3002\u7136\u800c\uff0c\u6bcf\u6b21\u770b\u5230\u5b83\uff0c\u6211\u7684\u5fc3\u91cc\u90fd\u4f1a\u6d8c\u8d77\u4e00\u80a1\u6e29\u6696\u3002\u8fd9\u628a\u5409\u4ed6\u662f\u7238\u7238\u5728\u6211\u4e5d\u5c81\u65f6\u4e70\u7ed9\u6211\u7684\u3002\u90a3\u65f6\uff0c\u6211\u521a\u5f00\u59cb\u5b66\u5409\u4ed6\uff0c\u624b\u6307\u5c16\u88ab\u7434\u5f26\u52d2\u5f97\u901a\u7ea2\uff0c\u6309\u548c\u5f26\u7684\u65f6\u5019\u624b\u6307\u75bc\u5f97\u53d1\u9ebb\u3002\u6211\u4e00\u5ea6\u60f3\u8981\u653e\u5f03\uff0c\u53ef\u662f\u7238\u7238\u9f13\u52b1\u6211\u8bf4\uff1a\u201c\u575a\u6301\u4e0b\u53bb\uff0c\u603b\u6709\u4e00\u5929\u4f60\u4f1a\u5f39\u51fa\u7f8e\u5999\u7684\u97f3\u4e50\u3002\u201d\u6211\u5680\u7740\u7259\u7ee7\u7eed\u7ec3\u4e60\uff0c\u4e00\u4e2a\u6708\u3001\u4e24\u4e2a\u6708\u2026\u2026\u6162\u6162\u5730\uff0c\u6211\u7684\u624b\u6307\u957f\u51fa\u4e86\u8001\u8327\uff0c\u6309\u5f26\u4e0d\u518d\u75bc\u4e86\u3002\u5f53\u6211\u7b2c\u4e00\u6b21\u5b8c\u6574\u5730\u5f39\u51fa\u4e00\u9996\u66f2\u5b50\u65f6\uff0c\u90a3\u79cd\u559c\u60a6\u65e0\u6cd5\u5f62\u5bb9\u3002\u7238\u7238\u5728\u65c1\u8fb9\u9f13\u638c\uff0c\u7709\u5f00\u773c\u7b11\u3002\u540e\u6765\uff0c\u6211\u53c2\u52a0\u4e86\u5b66\u6821\u7684\u6587\u827a\u6c47\u6f14\uff0c\u62b1\u7740\u8fd9\u628a\u5409\u4ed6\u8d70\u4e0a\u821e\u53f0\u3002\u53f0\u4e0b\u7684\u638c\u58f0\u8ba9\u6211\u65e2\u7d27\u5f20\u53c8\u81ea\u8c6a\u3002\u6211\u4f4e\u4e0b\u5934\uff0c\u770b\u5230\u5409\u4ed6\u6f06\u9762\u4e0a\u6620\u51fa\u821e\u53f0\u706f\u5149\uff0c\u90a3\u4e00\u523b\u6211\u89c9\u5f97\u5b83\u662f\u4e16\u754c\u4e0a\u6700\u7f8e\u7684\u4e1c\u897f\u3002\u8fd9\u628a\u5409\u4ed6\u4e0d\u4ec5\u6559\u4f1a\u4e86\u6211\u97f3\u4e50\uff0c\u66f4\u6559\u4f1a\u4e86\u6211\u575a\u6301\u7684\u529b\u91cf\u3002\u6bcf\u4e00\u9053\u78e8\u635f\u7684\u75d5\u8ff9\u91cc\uff0c\u90fd\u85cf\u7740\u6211\u4e00\u6b65\u6b65\u6210\u957f\u7684\u6545\u4e8b\u3002\u5b83\u662f\u7238\u7238\u7231\u7684\u89c1\u8bc1\uff0c\u662f\u6211\u6210\u957f\u7684\u4f19\u4f34\uff0c\u662f\u6211\u6c38\u8fdc\u7684\u5fc3\u7231\u4e4b\u7269\u3002',
+       textEn:'In a corner of my living room stands an old guitar. Its lacquer has peeled in places, the strings have been replaced several times, and there is a shallow crack on the neck. Yet every time I see it, warmth fills my heart. Dad bought me this guitar when I was nine. Back then, I had just started learning. The string tips turned my fingertips red, and pressing bar chords made my fingers numb with pain. I almost gave up, but Dad encouraged me: \u201cKeep going \u2014 one day you will play beautiful music.\u201d I gritted my teeth and kept practicing \u2014 one month, two months \u2026 Gradually my fingertips grew calluses and pressing the strings no longer hurt. The first time I played a complete song, the joy was beyond words. Dad clapped beside me, beaming with pride. Later I joined the school talent show, carrying this guitar onto the stage. The applause below made me both nervous and proud. I looked down and saw the stage lights reflected on the guitar\u2019s lacquer; at that moment I felt it was the most beautiful thing in the world. This guitar taught me not only music but also the power of perseverance. Every scratch and scuff hides a chapter of my growth. It is the proof of Dad\u2019s love, the companion of my journey, and my beloved thing forever.',
+       notes:{cn:'\u8fd9\u7bc7\u4f5c\u6587\u4ee5\u5409\u4ed6\u4e3a\u7ebf\u7d22\uff0c\u4e32\u8054\u8d77\u5b66\u7434\u3001\u6f14\u51fa\u7b49\u4e8b\u4ef6\uff0c\u5199\u51fa\u4e86\u575a\u6301\u548c\u6210\u957f\u3002\u5f00\u5934\u8bbe\u60ac\u5ff5\uff0c\u7ed3\u5c3e\u5347\u534e\u4e3b\u9898\uff0c\u8bed\u8a00\u5bc6\u5ea6\u9ad8\u3002',en:'This essay uses the guitar as a thread, linking learning and performing, writing about perseverance and growth. The opening creates suspense, the ending elevates the theme, and the language is dense and expressive.'}}
+    ]}
   }
 }
 ,
@@ -200,12 +258,14 @@ units: [
 /*  UNIT 2 — 提高阅读速度                      */
 /* ═══════════════════════════════════════════ */
 {
-  id: 2, title: "\u7b2c\u4e8c\u5355\u5143", titleEn: "Unit 2", type: "kewen",
+  id: 2, title: "\u7b2c\u4e8c\u5355\u5143", titleEn: "Unit 2",
+  difficulty: 3, type: "kewen",
   theme: "\u63d0\u9ad8\u9605\u8bfb\u901f\u5ea6",
   themeEn: "Improve reading speed",
   lessons: [
     {
       id: 5, title: "\u642d\u77f3", titleEn: "Stepping Stones",
+      difficulty: 3,
       author: "\u5218\u7ae0",
       text: [
         "\u6211\u7684\u5bb6\u4e61\u6709\u4e00\u6761\u65e0\u540d\u5c0f\u6eaa\uff0c\u4e94\u516d\u4e2a\u5c0f\u6751\u5e84\u5206\u5e03\u5728\u5c0f\u6eaa\u7684\u4e24\u5cb8\u3002\u5c0f\u6eaa\u7684\u6d41\u6c34\u5e38\u5e74\u4e0d\u65ad\u3002\u6bcf\u5e74\u6c5b\u671f\uff0c\u5c71\u6d2a\u66b4\u53d1\uff0c\u6eaa\u6c34\u731b\u6da8\u3002\u5c71\u6d2a\u8fc7\u540e\uff0c\u4eba\u4eec\u51fa\u5de5\uff0c\u6536\u5de5\uff0c\u8d76\u96c6\uff0c\u8bbf\u53cb\uff0c\u6765\u6765\u53bb\u53bb\uff0c\u5fc5\u987b\u8131\u978b\u632d\u88e4\u3002\u8fdb\u5165\u79cb\u5929\uff0c\u5929\u6c14\u53d8\u51c9\uff0c\u5bb6\u4e61\u7684\u4eba\u4eec\u4f1a\u6839\u636e\u6c34\u7684\u6df1\u6d45\uff0c\u4ece\u6cb3\u7684\u4e24\u5cb8\u627e\u6765\u4e00\u4e9b\u5e73\u6574\u65b9\u6b63\u7684\u77f3\u5934\uff0c\u6309\u7167\u4e8c\u5c3a\u5de6\u53f3\u7684\u95f4\u9694\uff0c\u5728\u5c0f\u6eaa\u91cc\u6a2a\u7740\u6446\u4e0a\u4e00\u6392\uff0c\u8ba9\u4eba\u4eec\u4ece\u4e0a\u9762\u8e0f\u7740\u8fc7\u53bb\uff0c\u8fd9\u5c31\u662f\u642d\u77f3\u3002",
@@ -223,6 +283,13 @@ units: [
       ],
       recognizeChars: ["\u6c5b","\u632d","\u95f4","\u60f0","\u8861","\u534f","\u7ef0"],
       writeChars: ["\u6c5b","\u8bbf","\u978b","\u632d","\u9694","\u61d2","\u60f0","\u7a33","\u8861","\u534f"],
+      vocabWords: [
+        {word:'搭石',pinyin:'dā shí',en:'stepping stones',sentence:'人们摆搭石过小溪。',sentenceEn:'People placed stepping stones to cross the brook.'},
+        {word:'协调',pinyin:'xié tiáo',en:'coordinated',sentence:'走搭石动作要协调。',sentenceEn:'Walking on stepping stones requires coordination.'},
+        {word:'俗语',pinyin:'sú yǔ',en:'folk saying',sentence:'紧走搭石慢过桥。',sentenceEn:'Quick on stepping stones, slow on bridges.'},
+        {word:'谦让',pinyin:'qiān ràng',en:'yield; courteous',sentence:'人们互相谦让。',sentenceEn:'People yield to each other courteously.'},
+        {word:'风景',pinyin:'fēng jǐng',en:'scenery',sentence:'这是家乡一道美丽的风景。',sentenceEn:'This is a beautiful scene of the hometown.'}
+      ],
       exercises: [
         {type:"read",cn:"\u8bf4\u8bf4\u8bfe\u6587\u7ed9\u4f60\u7559\u4e0b\u5370\u8c61\u6700\u6df1\u7684\u753b\u9762\u662f\u4ec0\u4e48\uff0c\u4ece\u54ea\u4e9b\u8bed\u53e5\u4e2d\u53ef\u4ee5\u4f53\u4f1a\u5230\u4e61\u4eb2\u4eec\u7f8e\u597d\u7684\u60c5\u611f\u3002",en:"Which scene impressed you most? Which sentences show the villagers\u2019 good feelings?"},
         {type:"speed",cn:"\u4f60\u8bfb\u8fd9\u7bc7\u8bfe\u6587\u7528\u4e86\u51e0\u5206\u949f\uff1f\u4e86\u89e3\u4e86\u54ea\u4e9b\u5185\u5bb9\uff1f",en:"How many minutes did it take you to read this? What did you learn?"}
@@ -237,6 +304,7 @@ units: [
     },
     {
       id: 6, title: "\u5c06\u76f8\u548c", titleEn: "The General and the Prime Minister",
+      difficulty: 3,
       text: [
         "\u6218\u56fd\u65f6\uff0c\u79e6\u56fd\u5f88\u5f3a\u5927\uff0c\u5e38\u5e38\u8fdb\u653b\u522b\u7684\u56fd\u5bb6\u3002",
         "\u6709\u4e00\u56de\uff0c\u8d75\u738b\u5f97\u4e86\u4e00\u4ef6\u65e0\u4ef7\u4e4b\u5b9d\uff0c\u53eb\u548c\u6c0f\u74a7\u3002\u79e6\u738b\u77e5\u9053\u4e86\uff0c\u5c31\u5199\u4e86\u4e00\u5c01\u4fe1\u7ed9\u8d75\u738b\uff0c\u8bf4\u662f\u613f\u610f\u62ff\u5341\u4e94\u5ea7\u57ce\u6362\u8fd9\u5757\u74a7\u3002",
@@ -260,19 +328,29 @@ units: [
         "The King of Zhao was alarmed and summoned his ministers. They said the Qin king only wanted to cheat them out of the jade, but refusing might provoke an attack.",
         "At this difficult moment, someone mentioned a man named Lin Xiangru, brave and clever, who might solve the problem.",
         "Lin Xiangru thought for a moment and said, \u2018If Qin proposes to trade cities for the jade and we refuse, we are in the wrong. If we give the jade and Qin reneges, they are in the wrong. I will take the jade to Qin. If the king truly offers fifteen cities, I will hand it over; otherwise, I will bring it back intact.\u2019 So the King of Zhao sent Lin Xiangru with the jade.",
-        "Lin Xiangru presented the jade to the Qin king, who admired it without mentioning the cities. Lin Xiangru saw through this, stepped forward, and said the jade had a small flaw he could point out. When the Qin king handed it back, Lin Xiangru backed against a pillar and declared he would smash his head and the jade against it if forced. The Qin king relented and showed him fifteen cities on a map. Lin Xiangru insisted on a grand ceremony before handing over the jade.",
-        "Lin Xiangru knew the Qin king would not keep his word. He had a servant disguise himself and take the jade back to Zhao by a side road. At the ceremony, he told the Qin king the jade was already back in Zhao. The Qin king had no choice but to send him home politely.",
+        "Lin Xiangru arrived in Qin, entered the palace, and presented the He Shi Bi jade to the Qin king. The Qin king held the jade in both hands, admiring and praising it, but said not a word about the fifteen cities. Seeing this, Lin Xiangru knew the Qin king had no intention of trading cities for the jade. He stepped forward and said, \u2018This jade has a small flaw; let me point it out to you.\u2019 Hearing this, the Qin king handed the jade back to Lin Xiangru. Lin Xiangru held the jade, retreated several steps, and stood with his back against a pillar. His hair bristling with fury, he declared, \u2018I can see you have no intention of handing over the fifteen cities. Now the jade is in my hands. If you try to force me, I will smash my head and the jade together against this pillar!\u2019 Fearing he would really shatter the jade, the Qin king hastily said everything could be negotiated, and ordered a map brought out to show Lin Xiangru the fifteen cities he promised to cede to Zhao. Lin Xiangru said the He Shi Bi was a priceless treasure and that a grand ceremony must be held before he could hand it over. The Qin king had no choice but to agree on a date for the ceremony.",
+        "Lin Xiangru thought it over carefully and concluded that the Qin king would still not keep his promise. As soon as he returned to the guesthouse, he had one of his attendants disguise himself and take the He Shi Bi jade back to Zhao by a side road. When the day of the ceremony arrived, Lin Xiangru went to the palace and told the Qin king, \u2018The rulers of Qin have never been trustworthy. Fearing I would fail the King of Zhao\u2019s trust, I have already had someone take the jade back to Zhao.\u2019 The Qin king had no choice but to send Lin Xiangru back to Zhao with all courtesy.",
         "This is the story of \u2018Returning the Jade Intact to Zhao.\u2019 Lin Xiangru was made a Senior Grand Master.",
-        "Years later, the Qin king invited the King of Zhao to a meeting at Mianchi. Lin Xiangru accompanied him, while General Lian Po guarded the border.",
-        "The Qin king tried to humiliate the King of Zhao by making him play the se zither. Lin Xiangru demanded the Qin king strike a clay pot in return, threatening to die together if refused. The Qin king relented.",
-        "Qin ministers continued to provoke, but Lin Xiangru stood firm. Knowing Lian Po\u2019s army was ready at the border, the Qin king dared not harm the King of Zhao.",
+        "A few years later, the Qin king invited the King of Zhao to meet at Mianchi. The King of Zhao was timid and did not dare to go. But Lin Xiangru and the great general Lian Po believed they must not show weakness to the Qin king and that it was better to go, so the King of Zhao decided to set out. Lin Xiangru accompanied him. Lian Po led his troops to escort them to the border and made preparations to resist any attack from Qin.",
+        "The King of Zhao met the Qin king at Mianchi. The Qin king demanded that the King of Zhao play the se zither. Unable to refuse, the King of Zhao played a piece. The Qin king then had it recorded, stating that at the Mianchi meeting, the Qin king ordered the King of Zhao to play the se. Seeing the Qin king\u2019s deliberate intent to humiliate the King of Zhao, Lin Xiangru stepped forward and said, \u2018I have heard that the King of Qin is skilled in Qin-style music. I hope you would strike a fou clay pot to add to the festivities.\u2019 The Qin king was furious and refused. Lin Xiangru stepped forward again to make the request, but the Qin king still refused. Lin Xiangru said, \u2018You are now only five steps from me. If you do not agree, I will perish together with you!\u2019 Forced into a corner, the Qin king had no choice but to strike the fou once. Lin Xiangru also had it recorded, stating that at the Mianchi meeting, the Qin king struck the fou for the King of Zhao.",
+        "The Qin ministers were not willing to let it go and continued to make trouble, but Lin Xiangru refused to show any weakness. By the end of the meeting, the Qin king had gained no advantage. Knowing that Lian Po had already made preparations at the border, the Qin king dared not do anything to the King of Zhao and had no choice but to let him return.",
         "Lin Xiangru earned another merit and was made Prime Minister, ranking above Lian Po.",
-        "Lian Po was indignant, boasting he would humiliate Lin Xiangru. Lin Xiangru avoided him, even taking sick leave.",
-        "One day Lin Xiangru\u2019s carriage turned around upon seeing Lian Po. His followers complained. Lin Xiangru explained, \u2018I don\u2019t fear the Qin king \u2014 why would I fear Lian Po? Qin does not attack Zhao because of us two. If we quarrel, Zhao weakens and Qin will strike. I avoid him for Zhao\u2019s sake!\u2019",
-        "When Lian Po heard this, he realized his selfishness. He stripped off his armor, bound thorny branches to his back, and went to Lin Xiangru\u2019s door to apologize. Lin Xiangru welcomed him warmly. From then on, they became fast friends and worked together to defend Zhao."
+        "Lian Po was very displeased. He said to others, \u2018I, Lian Po, have won so many battles and earned so much merit, yet Lin Xiangru has climbed above me with nothing but his tongue. If I ever run into him, I will certainly put him to shame!\u2019 When Lin Xiangru heard this, he took sick leave and stopped attending court, so as to avoid running into Lian Po.",
+        "One day, Lin Xiangru was riding in his carriage when he saw Lian Po approaching in the distance. He quickly told his driver to turn the carriage around. Lin Xiangru\u2019s retainers were quite displeased and said to him, \u2018When you see Lian Po, you act like a mouse seeing a cat. Why are you so afraid of him?\u2019 Lin Xiangru replied, \u2018I am not even afraid of the King of Qin \u2014 why would I fear General Lian? The reason the King of Qin does not dare to attack our state of Zhao is precisely because we two are here. If we were to quarrel, it would weaken Zhao\u2019s strength, and Qin would surely seize the opportunity to attack us. The reason I avoid General Lian is for the sake of our state of Zhao!\u2019",
+        "Lin Xiangru\u2019s words reached Lian Po\u2019s ears. Lian Po calmed down and thought it over, realizing that he had been quarreling over petty pride while disregarding the nation\u2019s interests \u2014 that was truly wrong. So he took off his war robe, bound thorny branches to his back, and went to Lin Xiangru\u2019s door to plead guilty. When Lin Xiangru saw Lian Po coming to apologize, he hurried out to welcome him. From then on, the two became good friends and worked together wholeheartedly to defend the state of Zhao."
       ],
       recognizeChars: ["\u74a7","\u81e3","\u853a","\u5f3a","\u8bfa","\u5212","\u7f6a","\u5ec9","\u62b5","\u5fa1","\u8f9e","\u8fb1","\u64c5","\u537f","\u524a","\u888d"],
       writeChars: ["\u53ec","\u81e3","\u8bae","\u7f3a","\u5bab","\u732e","\u8bfa","\u5178","\u6284","\u7f6a","\u602f","\u62d2","\u8346"],
+      vocabWords: [
+        {word:'将相',pinyin:'jiàng xiàng',en:'general and minister',sentence:'将相和的故事。',sentenceEn:'The story of the General and the Prime Minister.'},
+        {word:'廉颇',pinyin:'lián pō',en:'Lian Po',sentence:'廉颇是赵国大将。',sentenceEn:'Lian Po was a great general of Zhao.'},
+        {word:'蔺相如',pinyin:'lìn xiāng rú',en:'Lin Xiangru',sentence:'蔺相如是赵国丞相。',sentenceEn:'Lin Xiangru was the prime minister of Zhao.'},
+        {word:'完璧归赵',pinyin:'wán bì guī zhào',en:'return the jade intact',sentence:'蔺相如完璧归赵。',sentenceEn:'Lin Xiangru returned the jade intact to Zhao.'},
+        {word:'负荆请罪',pinyin:'fù jīng qǐng zuì',en:'offer humble apology',sentence:'廉颇负荆请罪。',sentenceEn:'Lian Po humbly apologized.'}
+      ],
+      grammarPoints: [
+        {point:'因果关系',pointEn:'yīn guǒ guān xì',example:'cause and effect',exampleEn:'因为蔺相如顾全大局，所以廉颇负荆请罪。',explanation:'Because Lin put the big picture first, Lian Po apologized.',explanationEn:'原因和结果之间的逻辑关系'}
+      ],
       exercises: [
         {type:"read",cn:"\u6839\u636e\u63d0\u793a\uff0c\u7528\u81ea\u5df1\u7684\u8bdd\u8bf4\u8bf4\u8bfe\u6587\u7684\u4e3b\u8981\u5185\u5bb9\u3002",en:"Using the hints \u2018Returning the Jade / Mianchi Meeting / Apologizing with Thorns,\u2019 retell the main content."},
         {type:"think",cn:"\u853a\u76f8\u5982\u3001\u5ec9\u9887\u7ed9\u4f60\u7559\u4e0b\u4e86\u600e\u6837\u7684\u5370\u8c61\uff1f\u7ed3\u5408\u5177\u4f53\u4e8b\u4f8b\u8bf4\u4e00\u8bf4\u3002",en:"What impression did Lin Xiangru and Lian Po leave on you? Give specific examples."}
@@ -287,6 +365,7 @@ units: [
     },
     {
       id: 7, title: "\u4ec0\u4e48\u6bd4\u730e\u8c79\u7684\u901f\u5ea6\u66f4\u5feb", titleEn: "What\u2019s Faster Than a Cheetah?",
+      difficulty: 3,
       text: [
         "\u4e5f\u8bb8\u4f60\u8dd1\u5f97\u5f88\u5feb\u3002\u4e0d\u8fc7\u8981\u662f\u4f60\u8ddf\u730e\u8c79\u6216\u9e35\u9e1f\u8d5b\u8dd1\u7684\u8bdd\uff0c\u5c31\u4e00\u70b9\u513f\u8d62\u7684\u5e0c\u671b\u4e5f\u6ca1\u6709\u4e86\u3002",
         "\u4eba\u5728\u594b\u529b\u5954\u8dd1\u7684\u65f6\u5019\uff0c\u6700\u5927\u901f\u5ea6\u80fd\u591f\u8fbe\u523044\u5343\u7c73\u6bcf\u5c0f\u65f6\u3002\u8fd9\u4e2a\u901f\u5ea6\u8ddf\u9e35\u9e1f\u6bd4\u8d77\u6765\u5dee\u8fdc\u4e86\u2014\u2014\u9e35\u9e1f\u5954\u8dd1\u7684\u6700\u5927\u901f\u5ea6\u7ea672\u5343\u7c73\u6bcf\u5c0f\u65f6\u3002\u5728\u4e24\u6761\u817f\u7684\u52a8\u7269\u91cc\u9762\uff0c\u9e35\u9e1f\u5e94\u8be5\u7b97\u662f\u5954\u8dd1\u7684\u4e16\u754c\u51a0\u519b\u3002",
@@ -299,16 +378,23 @@ units: [
       ],
       textEn: [
         "You may run fast, but if you raced a cheetah or an ostrich, you\u2019d have no hope of winning.",
-        "A human\u2019s top running speed is about 44 km/h. That\u2019s far behind the ostrich at 72 km/h \u2014 the world\u2019s fastest two-legged runner.",
-        "The cheetah is even faster, reaching 110 km/h \u2014 the fastest land animal.",
-        "But the peregrine falcon dives at over 320 km/h \u2014 faster than any running animal.",
-        "Yet even the falcon can\u2019t match a jet plane. Sound travels at about 1,050 km/h at jet altitude, and some jets fly several times the speed of sound.",
-        "Jets are fast, but to reach the moon you need a rocket. Rockets can reach 40,000 km/h \u2014 over 30 times the speed of sound.",
-        "What streaks past a rocket as if it were standing still? A meteoroid! Some travel at 250,000 km/h \u2014 over 6 times rocket speed.",
+        "When running at full effort, a human\u2019s top speed can reach 44 km/h. That\u2019s far behind the ostrich \u2014 an ostrich\u2019s top running speed is about 72 km/h. Among two-legged animals, the ostrich should be considered the world champion of running.",
+        "The animal that runs even faster than the ostrich is the cheetah. A cheetah\u2019s top running speed can reach 110 km/h. The cheetah is truly the fastest animal on land.",
+        "But the peregrine falcon is even faster when diving downward, exceeding 320 km/h. Its diving speed is faster than the running speed of any animal.",
+        "However, the peregrine falcon still cannot match the speed of an airplane. At the altitude where jet planes fly, sound travels at about 1,050 km/h, and some high-speed jet planes fly at several times the speed of sound.",
+        "Traveling by jet plane is certainly fast enough. But if you want to go to the moon, you would need an even faster vehicle. A rocket\u2019s top speed can reach 40,000 km/h, which is over 30 times the speed of sound.",
+        "Look! What is that thing hurtling past up ahead? Compared to its speed, a rocket seems to be standing still. That is a meteoroid! Some meteoroids can travel at a top speed of 250,000 km/h, which is over 6 times the top speed of a rocket.",
         "But there\u2019s something even faster, right beside us. Flick on a flashlight and light appears instantly. Light travels at about 300,000 km per second \u2014 thousands of times faster than meteoroids! At light speed, you could circle Earth\u2019s equator over 7 times in one second!"
       ],
       recognizeChars: ["\u9e35","\u8d62","\u51a0","\u700a"],
       writeChars: ["\u51a0","\u4fef","\u55b7","\u679a","\u7bad","\u7b52","\u675f","\u8d64","\u5708","\u7f6e"],
+      vocabWords: [
+        {word:'猎豹',pinyin:'liè bào',en:'cheetah',sentence:'猎豹的速度很快。',sentenceEn:'The cheetah is very fast.'},
+        {word:'光速',pinyin:'guāng sù',en:'speed of light',sentence:'光的速度最快。',sentenceEn:'The speed of light is the fastest.'},
+        {word:'声速',pinyin:'shēng sù',en:'speed of sound',sentence:'声音每秒传播340米。',sentenceEn:'Sound travels 340 meters per second.'},
+        {word:'比较',pinyin:'bǐ jiào',en:'compare',sentence:'通过比较了解速度。',sentenceEn:'Understand speed through comparison.'},
+        {word:'宇宙',pinyin:'yǔ zhòu',en:'universe',sentence:'宇宙中的速度。',sentenceEn:'Speeds in the universe.'}
+      ],
       exercises: [
         {type:"think",cn:"\u6839\u636e\u8bfe\u6587\u5185\u5bb9\uff0c\u6309\u8fd0\u52a8\u901f\u5ea6\u7684\u5feb\u6162\u7ed9\u4e8b\u7269\u6392\u5e8f\u3002",en:"Rank the items by speed based on the text."},
         {type:"speed",cn:"\u4f60\u8bfb\u8fd9\u7bc7\u8bfe\u6587\u7528\u4e86\u51e0\u5206\u949f\uff1f",en:"How many minutes did this text take you?"}
@@ -323,6 +409,7 @@ units: [
     },
     {
       id: 8, title: "\u5180\u4e2d\u7684\u5730\u9053\u6218", titleEn: "Tunnel Warfare in Central Hebei",
+      difficulty: 4,
       author: "\u5468\u800c\u590d",
       text: [
         "1942\u52301944\u90a3\u51e0\u5e74\uff0c\u65e5\u672c\u4fb5\u7565\u519b\u5728\u5180\u4e2d\u5e73\u539f\u4e0a\u201c\u5927\u626b\u8361\u201d\uff0c\u8fd8\u4fee\u7b51\u4e86\u5c01\u9501\u6c9f\u548c\u5c01\u9501\u5899\uff0c\u5341\u91cc\u4e00\u7891\uff0c\u516b\u91cc\u4e00\u5821\uff0c\u60f3\u641e\u57ae\u6211\u4eec\u7684\u4eba\u6c11\u6b66\u88c5\u3002",
@@ -336,14 +423,21 @@ units: [
       textEn: [
         "From 1942 to 1944, the Japanese invaders conducted massive sweeps across the Jizhong plains, building blockade ditches and walls with watchtowers every few miles, trying to crush the people\u2019s armed forces.",
         "To counter the enemy\u2019s sweeps, the people of Jizhong, under Communist Party leadership, invented a new way of fighting: tunnel warfare.",
-        "Tunnel warfare was a miracle. Beneath the vast plains, countless tunnels were dug \u2014 horizontal, vertical, straight, curved \u2014 linking every house and every village. When the enemy came, people hid underground; when the enemy left, they emerged to farm and fight.",
-        "There were over a hundred tunnel designs. In Renqiu, for example, the village tunnels ran beneath streets, while inter-village tunnels ran under cropland. Large chambers held over a hundred people, with smaller rooms for living, storage, and livestock.",
-        "Tunnel exits were hidden. Branching \u2018decoy tunnels\u2019 confused intruders. Narrow \u2018throat passes\u2019 could be held by a single person with a stick \u2014 truly \u2018one man holds the pass, ten thousand cannot break through.\u2019",
-        "The enemy tried fire, water, and poison gas, but the people devised brilliant countermeasures: sand and dirt for fire, trapdoors for gas, and connections to dry wells and drainage ditches for water attacks.",
+        "Speaking of tunnel warfare, it was truly a miracle. Beneath the vast plains, countless tunnels were dug \u2014 horizontal, vertical, straight, curved \u2014 linking every house and connecting every village. When the enemy came, we went down into the tunnels and let them find nothing; when the enemy left, we came out from the tunnels and went on farming and living as usual, sometimes even striking back at the enemy.",
+        "There were over a hundred tunnel designs. Take Renqiu\u2019s tunnels as an example: the village tunnels were dug beneath the streets, while the tunnels connecting to other villages ran under the cropland. The tunnels were over four chi high, and a tall person could pass through by bending over. At regular intervals along the tunnels there were large chambers, with their ceilings supported by timber, making them very sturdy. Along the four walls of each large chamber were many smaller niches \u2014 some for people to sleep in, some for tying up livestock, some for storing supplies, and some serving as latrines.",
+        "The tunnel exits were also placed in concealed locations. At turns, branching passages called \u2018decoy tunnels\u2019 were dug. If the enemy ever got in, they could not tell which were dead ends and which were real passages. With just one person holding a wooden stick, the narrow \u2018throat pass\u2019 could be defended \u2014 truly \u2018one man holds the pass, ten thousand cannot break through.\u2019",
+        "The enemy had tasted the power of the tunnels and tried every means to destroy them. Fire attacks, water attacks, poison gas attacks \u2014 they used them all. But the people came up with many clever countermeasures. Dirt and sand were kept at the tunnel entrances, ready to put out fires. Hanging boards were installed at the \u2018throat passes\u2019 \u2014 if the enemy released poison gas, the boards could be lowered to block it. The method for countering water attacks was even more ingenious: the tunnels were connected to dry wells and hidden drainage ditches, so when the enemy pumped in water, it simply flowed into the wells and ditches.",
         "With tunnel warfare, the enemy\u2019s brutal sweeps were crushed. The people of Jizhong maintained production and struck back, leaving an astonishing chapter in the history of China\u2019s war against Japanese aggression."
       ],
       recognizeChars: ["\u4fb5","\u7565","\u5792","\u4efb","\u4e18","\u6401","\u9677","\u62d0","\u5c94"],
       writeChars: ["\u4fb5","\u7565","\u7b51","\u5821","\u515a","\u4e18","\u59a8","\u853d","\u9677","\u62d0"],
+      vocabWords: [
+        {word:'地道',pinyin:'dì dào',en:'tunnel',sentence:'冀中的地道战。',sentenceEn:'Tunnel warfare in central Hebei.'},
+        {word:'抗日',pinyin:'kàng rì',en:'anti-Japanese',sentence:'抗日战争时期。',sentenceEn:'During the anti-Japanese war.'},
+        {word:'隐蔽',pinyin:'yǐn bì',en:'concealed',sentence:'地道隐蔽巧妙。',sentenceEn:'The tunnels were cleverly concealed.'},
+        {word:'设计',pinyin:'shè jì',en:'design',sentence:'地道设计精巧。',sentenceEn:'The tunnels were ingeniously designed.'},
+        {word:'防御',pinyin:'fáng yù',en:'defense',sentence:'有效的防御方式。',sentenceEn:'An effective method of defense.'}
+      ],
       exercises: [
         {type:"think",cn:"\u5730\u9053\u6218\u53d6\u5f97\u6210\u529f\u7684\u5173\u952e\u662f\u4ec0\u4e48\uff1f\u7ed3\u5408\u8bfe\u6587\u5185\u5bb9\u8bf4\u4e00\u8bf4\u3002",en:"What was the key to tunnel warfare\u2019s success? Discuss with reference to the text."},
         {type:"speed",cn:"\u4f60\u8bfb\u8fd9\u7bc7\u8bfe\u6587\u7528\u4e86\u51e0\u5206\u949f\uff1f",en:"How many minutes did this text take you?"}
@@ -369,11 +463,13 @@ units: [
 /*  UNIT 3 — 民间故事                           */
 /* ═══════════════════════════════════════════ */
 {
-  id: 3, title: "\u7b2c\u4e09\u5355\u5143", titleEn: "Unit 3", type: "kewen",
+  id: 3, title: "\u7b2c\u4e09\u5355\u5143", titleEn: "Unit 3",
+  difficulty: 4, type: "kewen",
   theme: "\u6c11\u95f4\u6545\u4e8b", themeEn: "Folk tales",
   lessons: [
     {
       id: 9, title: "\u730e\u4eba\u6d77\u529b\u5e03", titleEn: "The Hunter Hailib",
+      difficulty: 4,
       text: [
         "\u5728\u6211\u56fd\u7684\u4e00\u4e9b\u5730\u533a\uff0c\u6d41\u4f20\u7740\u4e00\u4e2a\u52a8\u4eba\u7684\u6c11\u95f4\u6545\u4e8b\u3002",
         "\u4ece\u524d\u6709\u4e00\u4e2a\u730e\u4eba\uff0c\u540d\u53eb\u6d77\u529b\u5e03\u3002\u4ed6\u70ed\u5fc3\u5e2e\u52a9\u522b\u4eba\uff0c\u6bcf\u6b21\u6253\u730e\u56de\u6765\uff0c\u603b\u662f\u628a\u730e\u7269\u5206\u7ed9\u5927\u5bb6\uff0c\u81ea\u5df1\u53ea\u7559\u4e0b\u5f88\u5c11\u7684\u4e00\u4efd\u3002\u5927\u5bb6\u90fd\u975e\u5e38\u5c0a\u656c\u4ed6\u3002",
@@ -385,15 +481,22 @@ units: [
       ],
       textEn: [
         "In some regions of China, a moving folk tale has been passed down.",
-        "Once there was a hunter named Hailib. He always shared his catch with others, keeping very little for himself. Everyone respected him greatly.",
+        "Once there was a hunter named Hailib. He was warm-hearted and always helped others. Every time he came back from hunting, he would share the game with everyone, keeping only a very small portion for himself. Everyone respected him deeply.",
         "One day, Hailib saved the Dragon King\u2019s daughter, a little white snake. She told him about a magic gem in the Dragon King\u2019s mouth: whoever held it could understand all animal speech. But he must never tell others what the animals said, or he would turn to stone.",
         "With the gem, hunting became easy. Years later, he overheard birds saying, \u2018Let\u2019s fly away! Tonight the mountain will collapse and floods will engulf everything!\u2019",
-        "Hailib rushed home to urge everyone to flee, but no one believed him. Knowing he had no choice but to sacrifice himself, he told them everything \u2014 how he got the gem, what the birds said, and why he couldn\u2019t tell anyone. The moment he finished, he turned to stone.",
+        "Hailib rushed home and tried to persuade everyone to move away, but no one believed him. Hailib knew that panicking was useless \u2014 unless he explained clearly why they had to move, no one would believe him. To save his fellow villagers, the only option was to sacrifice himself. So he told them everything truthfully: how he had obtained the gem, how he had overheard the birds discussing the coming disaster, and why he must never tell anyone what he had heard from the animals. The moment Hailib finished speaking, he turned into a stone.",
         "Seeing this, everyone was filled with grief and regret. Weeping, they drove their livestock far away. At midnight, with a deafening roar, the mountain collapsed and floodwaters engulfed the village.",
         "People have honored Hailib\u2019s memory through the generations. They say you can still find the stone called \u2018Hailib\u2019 today."
       ],
       recognizeChars: ["\u916c","\u8a93","\u8c0e","\u727a"],
       writeChars: ["\u916c","\u73cd","\u53ee","\u5631","\u584c","\u7126","\u8a93","\u8c0e","\u5ef6","\u6094","\u6276"],
+      vocabWords: [
+        {word:'猎人',pinyin:'liè rén',en:'hunter',sentence:'海力布是一位猎人。',sentenceEn:'Hailib was a hunter.'},
+        {word:'宝石',pinyin:'bǎo shí',en:'gem',sentence:'他得到一颗宝石。',sentenceEn:'He obtained a gem.'},
+        {word:'牺牲',pinyin:'xī shēng',en:'sacrifice',sentence:'海力布牺牲自己救了乡亲。',sentenceEn:'Hailib sacrificed himself to save his neighbors.'},
+        {word:'变成',pinyin:'biàn chéng',en:'turn into',sentence:'他变成了石头。',sentenceEn:'He turned into stone.'},
+        {word:'善良',pinyin:'shàn liáng',en:'kind',sentence:'海力布很善良。',sentenceEn:'Hailib was very kind.'}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u8bfe\u6587\u5199\u4e86\u6d77\u529b\u5e03\u7684\u54ea\u51e0\u4ef6\u4e8b\u3002",en:"Read silently and say what events the text describes about Hailib."},
         {type:"retell",cn:"\u8bd5\u7740\u4ee5\u6d77\u529b\u5e03\u6216\u4e61\u4eb2\u4eec\u7684\u53e3\u543b\uff0c\u8bb2\u4e00\u8bb2\u6d77\u529b\u5e03\u529d\u8bf4\u4e61\u4eb2\u4eec\u8d76\u5feb\u642c\u5bb6\u7684\u90e8\u5206\u3002",en:"Retell the part where Hailib urges the villagers to flee, from his or their perspective."}
@@ -408,6 +511,7 @@ units: [
     },
     {
       id: 10, title: "\u725b\u90ce\u7ec7\u5973\uff08\u4e00\uff09", titleEn: "The Cowherd and the Weaving Maid (Part 1)",
+      difficulty: 4,
       text: [
         "\u53e4\u65f6\u5019\u6709\u4e2a\u5b69\u5b50\uff0c\u7239\u5a18\u90fd\u6b7b\u4e86\uff0c\u8ddf\u7740\u54e5\u5ac2\u8fc7\u65e5\u5b50\u3002\u54e5\u5ac2\u5f85\u4ed6\u5f88\u4e0d\u597d\uff0c\u53eb\u4ed6\u5403\u5269\u996d\uff0c\u7a7f\u7834\u8863\u88f3\uff0c\u591c\u91cc\u5728\u725b\u68da\u91cc\u7761\u3002\u4ed6\u6bcf\u5929\u653e\u725b\u3002\u90a3\u5934\u725b\u8ddf\u4ed6\u5f88\u4eb2\u5bc6\u3002\u4ed6\u6ca1\u540d\u5b57\uff0c\u4eba\u5bb6\u89c1\u4ed6\u6bcf\u5929\u653e\u725b\uff0c\u5c31\u53eb\u4ed6\u725b\u90ce\u3002",
         "\u725b\u90ce\u7167\u770b\u90a3\u5934\u725b\u633a\u5468\u5230\u3002\u4ed6\u603b\u662f\u6311\u5f88\u597d\u7684\u8349\u5730\uff0c\u8ba9\u725b\u5403\u5ae9\u5ae9\u7684\u9752\u8349\uff1b\u725b\u6e34\u4e86\uff0c\u5c31\u7275\u7740\u5b83\u5230\u5c0f\u6eaa\u7684\u4e0a\u6e38\uff0c\u8ba9\u5b83\u559d\u5e72\u51c0\u7684\u6c34\u3002\u4ed6\u628a\u725b\u8eab\u4e0a\u5237\u5f97\u5e72\u5e72\u51c0\u51c0\u3002\u725b\u90ce\u968f\u53e3\u54fc\u51e0\u652f\u5c0f\u66f2\u513f\uff0c\u725b\u6447\u6447\u8033\u6735\u95ed\u95ed\u773c\uff0c\u597d\u50cf\u542c\u5f97\u633a\u6709\u5473\u513f\u3002",
@@ -418,16 +522,23 @@ units: [
         "\u725b\u90ce\u542c\u5b8c\u7ec7\u5973\u7684\u8bdd\uff0c\u5c31\u8bf4\uff1a\u201c\u59d1\u5a18\uff0c\u65e2\u7136\u5929\u4e0a\u6ca1\u4ec0\u4e48\u597d\uff0c\u4f60\u5c31\u4e0d\u7528\u56de\u53bb\u4e86\u3002\u54b1\u4eec\u4e24\u4e2a\u7ed3\u4e86\u5a5a\uff0c\u4e00\u5757\u513f\u5728\u4eba\u95f4\u8fc7\u4e00\u8f88\u5b50\u5427\u3002\u201d\u7ec7\u5973\u60f3\u4e86\u60f3\uff0c\u8bf4\uff1a\u201c\u4f60\u8bf4\u5f97\u5f88\u5bf9\uff0c\u54b1\u4eec\u7ed3\u5a5a\uff0c\u4e00\u5757\u513f\u8fc7\u65e5\u5b50\u5427\u3002\u201d\u4ed6\u4eec\u624b\u62c9\u7740\u624b\uff0c\u7a7f\u8fc7\u6811\u6797\uff0c\u7ffb\u8fc7\u5c71\u5934\uff0c\u56de\u5230\u8349\u623f\u3002"
       ],
       textEn: [
-        "Long ago there was a boy whose parents had died. He lived with his older brother and sister-in-law, who treated him badly. He tended cattle every day, and the people called him Niulang (the Cowherd).",
-        "Niulang took excellent care of the old ox \u2014 finding the best grass, the cleanest water, keeping it spotlessly clean. When he hummed a tune, the ox swayed its ears as if listening with pleasure.",
-        "Years passed. His brother and sister-in-law wanted the family property for themselves. They gave him just the ox and a broken cart and told him to leave. Niulang built a grass hut by a mountain and farmed a small plot of land.",
+        "Long ago there was a boy whose parents had both died. He lived with his older brother and sister-in-law, who treated him very badly \u2014 making him eat leftovers, wear ragged clothes, and sleep in the cattle shed at night. Every day he tended the ox, and the ox was very close to him. He had no name, but since people saw him herding cattle every day, they called him Niulang (the Cowherd).",
+        "Niulang looked after the ox with great care. He always picked the best pastures and let it eat tender green grass. When the ox was thirsty, he would lead it to the upper reaches of the stream to drink clean water. He brushed the ox\u2019s body until it was spotlessly clean. When Niulang casually hummed a few tunes, the ox would sway its ears and close its eyes, as if listening with great enjoyment.",
+        "Year after year passed, and Niulang gradually grew up. His brother and sister-in-law wanted to keep all the family property for themselves and regarded him as a thorn in their side. One day, the brother called Niulang over and, pretending to be affectionate, said, \u2018You\u2019re grown up now; it\u2019s time to start your own life. One ox and one cart are yours; everything else is mine.\u2019 Niulang took the old ox and pulled the broken cart, walking forward without looking back. From then on, he gathered firewood on the mountain by day and slept on the cart at night. After some time, he built a grass hut at the foot of the mountain, cleared a small plot of land, and grew some crops \u2014 and that was his home.",
         "One evening, the old ox suddenly spoke! It told Niulang to go to a lake beyond the mountain the next evening, where fairy maidens would be bathing. He should pick up the pink gauze dress \u2014 the maiden who came asking for it would be his wife.",
         "The next evening, Niulang found the fairies just as the ox said. He took the pink dress and waited in the forest. The maiden put on the dress and began talking with Niulang. He told her his whole life story, and she was moved with sympathy and affection.",
-        "The maiden was the Weaving Maid, granddaughter of the Queen Mother of Heaven, forced to weave day and night with no freedom. She had long wished to come down to the human world. That day the Queen Mother had drunk too much celestial wine and dozed off, so the fairy maidens slipped away.",
-        "Niulang said, \u2018Since heaven has nothing good for you, stay here. Let\u2019s marry and live together in the human world.\u2019 The Weaving Maid agreed. Hand in hand, they crossed the forest and mountain, and returned to the grass hut."
+        "It turned out the maiden was the granddaughter of the Queen Mother of Heaven, skilled at weaving beautiful colorful brocade, and her name was Zhinu, the Weaving Maid. The Queen Mother made her weave day and night without rest, and she had lost all her freedom. She often dreamed of leaving heaven and going to the human world. That day, the Queen Mother had drunk a bit too much of her thousand-year grape wine and dozed off leaning on her throne. The fairy maidens saw this rare opportunity, slipped out, and flew down to the human world to play in the water.",
+        "After hearing the Weaving Maid\u2019s story, Niulang said, \u2018Since heaven has nothing good for you, there\u2019s no need to go back. Let us marry and spend our lives together in the human world.\u2019 The Weaving Maid thought for a moment and said, \u2018You\u2019re quite right. Let\u2019s marry and live together.\u2019 Hand in hand, they walked through the forest, crossed over the hilltop, and returned to the grass hut."
       ],
       recognizeChars: ["\u5ac2","\u6073","\u7b5b","\u6b79","\u7f55","\u68ad","\u72f1","\u917f","\u778c","\u843d","\u5a5a"],
       writeChars: ["\u90ce","\u7239","\u5ac2","\u8f86","\u6b79","\u7f55","\u7eb1","\u59bb","\u8d9f","\u6258","\u72f1","\u5a5a","\u8f88","\u6328"],
+      vocabWords: [
+        {word:'牛郎',pinyin:'niú láng',en:'cowherd',sentence:'牛郎从小父母双亡。',sentenceEn:'The Cowherd lost both parents young.'},
+        {word:'织女',pinyin:'zhī nǚ',en:'weaving maid',sentence:'织女是天上的仙女。',sentenceEn:'The Weaving Maid is a fairy in heaven.'},
+        {word:'老牛',pinyin:'lǎo niú',en:'old ox',sentence:'老牛会说话。',sentenceEn:'The old ox could speak.'},
+        {word:'勤劳',pinyin:'qín láo',en:'hardworking',sentence:'牛郎很勤劳。',sentenceEn:'The Cowherd was very hardworking.'},
+        {word:'嫂子',pinyin:'sǎo zi',en:'sister-in-law',sentence:'嫂子对他很不好。',sentenceEn:'His sister-in-law treated him badly.'}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u725b\u90ce\u548c\u8001\u725b\u662f\u600e\u4e48\u76f8\u5904\u7684\uff0c\u4ed6\u548c\u7ec7\u5973\u662f\u600e\u4e48\u8ba4\u8bc6\u7684\u3002",en:"Read silently. Describe how Niulang got along with the ox and how he met the Weaving Maid."},
         {type:"think",cn:"\u8bfe\u6587\u4e2d\u6709\u4e9b\u60c5\u8282\u5199\u5f97\u5f88\u7b80\u7565\uff0c\u53d1\u6325\u60f3\u8c61\u628a\u4e0b\u9762\u7684\u60c5\u8282\u8bf4\u5f97\u66f4\u5177\u4f53\u3002",en:"Some plot points are brief. Use your imagination to expand them."}
@@ -442,6 +553,7 @@ units: [
     },
     {
       id: 11, title: "\u725b\u90ce\u7ec7\u5973\uff08\u4e8c\uff09", titleEn: "The Cowherd and the Weaving Maid (Part 2)",
+      difficulty: 4,
       isSelfRead: true,
       text: [
         "\u4ece\u6b64\u725b\u90ce\u5728\u5730\u91cc\u8015\u79cd\uff0c\u7ec7\u5973\u5728\u5bb6\u91cc\u7eba\u7ec7\u3002\u4e24\u4e2a\u4eba\u52e4\u52b3\u8282\u4fed\uff0c\u65e5\u5b50\u8fc7\u5f97\u633a\u7f8e\u6ee1\u3002\u8f6c\u773c\u95f4\u4e24\u4e09\u4e2a\u5e74\u5934\u8fc7\u53bb\u4e86\uff0c\u4ed6\u4eec\u751f\u4e86\u4e00\u4e2a\u7537\u5b69\u548c\u4e00\u4e2a\u5973\u5b69\u3002",
@@ -454,14 +566,21 @@ units: [
       ],
       textEn: [
         "From then on, Niulang farmed and the Weaving Maid wove. They lived frugally and happily, and in a few years had a boy and a girl.",
-        "One day, the aging ox spoke its last words: \u2018I\u2019m dying. Keep my hide. When you face an emergency, put it on.\u2019 Then the ox died.",
-        "Meanwhile in heaven, the Queen Mother discovered the fairy maidens\u2019 escape. Furious, she seized the Weaving Maid and flew up to heaven.",
+        "One day, Niulang went to feed the ox, and the old, aging ox spoke again: \u2018I\u2019m not going to last much longer. After I die, keep my hide. Whenever you face an emergency, put on my hide\u2026\u2019 The old ox passed away before it could finish speaking.",
+        "As for heaven, the Queen Mother eventually found out that the fairy maidens had slipped down to the human world. She swore to capture the Weaving Maid and bring her back. One day, she went in person to Niulang\u2019s home, seized the Weaving Maid with one hand, and dragged her outside, flying up into the sky together.",
         "Niulang rushed home, threw on the ox hide, put a child in each basket on a carrying pole, and flew after them. Just as he was about to catch up, the Queen Mother pulled out her jade hairpin and slashed the sky behind her, creating a wide, uncrossable Heavenly River.",
-        "From then on, Niulang stood on one side and the Weaving Maid on the other. They became the stars Altair and Vega.",
+        "From then on, Niulang was on this side of the Heavenly River and the Weaving Maid on the other, able only to gaze at each other from afar. They became the stars Altair and Vega on either side of the Heavenly River.",
         "The Weaving Maid was severely punished but refused to give up. Eventually the Queen Mother relented and allowed them to meet once a year, on the seventh day of the seventh lunar month.",
         "Every year on that day, flocks of magpies build a bridge across the Heavenly River for the couple\u2019s reunion. It is said that on that night, if you listen quietly beneath a grapevine, you can hear them whispering on the bridge."
       ],
       recognizeChars: ["\u4fed","\u7687","\u5048","\u8870","\u73ca","\u7469","\u7901","\u7b50","\u62d7"],
+      vocabWords: [
+        {word:'银河',pinyin:'yín hé',en:'Milky Way',sentence:'王母娘娘划出一条银河。',sentenceEn:'The Queen Mother drew the Milky Way.'},
+        {word:'喜鹊',pinyin:'xǐ què',en:'magpie',sentence:'喜鹊搭成鹊桥。',sentenceEn:'Magpies formed a bridge.'},
+        {word:'七夕',pinyin:'qī xī',en:'Qixi Festival',sentence:'每年七月七日相会。',sentenceEn:'They meet every July 7th.'},
+        {word:'思念',pinyin:'sī niàn',en:'miss',sentence:'他们非常思念对方。',sentenceEn:'They missed each other deeply.'},
+        {word:'团圆',pinyin:'tuán yuán',en:'reunion',sentence:'一年一次的团圆。',sentenceEn:'A once-a-year reunion.'}
+      ],
       exercises: [
         {type:"read",cn:"\u7528\u4e0a\u4e00\u5355\u5143\u5b66\u5230\u7684\u9605\u8bfb\u65b9\u6cd5\uff0c\u5c3d\u53ef\u80fd\u5feb\u5730\u9ed8\u8bfb\u8bfe\u6587\uff0c\u4e86\u89e3\u725b\u90ce\u7ec7\u5973\u6545\u4e8b\u7684\u7ed3\u5c40\u3002",en:"Using the reading skills from the last unit, read as quickly as possible to learn the ending of the story."},
         {type:"think",cn:"\u8054\u7cfb\u4e0a\u4e00\u7bc7\u8bfe\u6587\uff0c\u8bf4\u8bf4\u5982\u679c\u7ed9\u300a\u725b\u90ce\u7ec7\u5973\u300b\u7ed8\u5236\u8fde\u73af\u753b\uff0c\u4f60\u6253\u7b97\u753b\u54ea\u4e9b\u5185\u5bb9\u3002",en:"Combining both parts, plan which scenes you would illustrate for a comic strip of the story."}
@@ -489,11 +608,13 @@ units: [
 /*  UNIT 4 — 爱国情怀                          */
 /* ═══════════════════════════════════════════ */
 {
-  id: 4, title: "\u7b2c\u56db\u5355\u5143", titleEn: "Unit 4", type: "kewen",
+  id: 4, title: "\u7b2c\u56db\u5355\u5143", titleEn: "Unit 4",
+  difficulty: 4, type: "kewen",
   theme: "\u7231\u56fd\u60c5\u6000", themeEn: "Patriotic feelings",
   lessons: [
     {
       id: 12, title: "\u53e4\u8bd7\u4e09\u9996", titleEn: "Three Ancient Poems",
+      difficulty: 4,
       text: [
         "\u793a\u513f\n[\u5b8b] \u9646\u6e38\n\u6b7b\u53bb\u5143\u77e5\u4e07\u4e8b\u7a7a\uff0c\n\u4f46\u60b2\u4e0d\u89c1\u4e5d\u5dde\u540c\u3002\n\u738b\u5e08\u5317\u5b9a\u4e2d\u539f\u65e5\uff0c\n\u5bb6\u796d\u65e0\u5fd8\u544a\u4e43\u7fc1\u3002",
         "\u9898\u4e34\u5b89\u90b8\n[\u5b8b] \u6797\u5347\n\u5c71\u5916\u9752\u5c71\u697c\u5916\u697c\uff0c\n\u897f\u6e56\u6b4c\u821e\u51e0\u65f6\u4f11\uff1f\n\u6696\u98ce\u718f\u5f97\u6e38\u4eba\u9189\uff0c\n\u76f4\u628a\u676d\u5dde\u4f5c\u6c74\u5dde\u3002",
@@ -506,6 +627,13 @@ units: [
       ],
       recognizeChars: ["\u4e43","\u718f","\u4ea5","\u6043","\u64de"],
       writeChars: ["\u796d","\u4e43","\u718f","\u676d","\u4ea5","\u6043","\u54c0","\u62d8"],
+      vocabWords: [
+        {word:'示儿',pinyin:'shì ér',en:'Showing to My Sons',sentence:'死去元知万事空。',sentenceEn:'In death I know all things are void.'},
+        {word:'题临安邸',pinyin:'tí lín ān dǐ',en:'Written at an Inn in Lin an',sentence:'暖风熏得游人醉。',sentenceEn:'Warm wind intoxicates the tourists.'},
+        {word:'己亥杂诗',pinyin:'jǐ hài zá shī',en:'Poems of 1839',sentence:'我劝天公重抖擞。',sentenceEn:'I urge the Heavenly Lord to rouse himself.'},
+        {word:'爱国',pinyin:'ài guó',en:'patriotic',sentence:'这些诗都表达了爱国情感。',sentenceEn:'These poems all express patriotic feelings.'},
+        {word:'忧国忧民',pinyin:'yōu guó yōu mín',en:'worry about the country and people',sentence:'诗人忧国忧民。',sentenceEn:'The poet worried about country and people.'}
+      ],
       exercises: [
         {type:"recite",cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\u3002\u80cc\u8bf5\u8bfe\u6587\u3002\u9ed8\u5199\u300a\u793a\u513f\u300b\u3002",en:"Read with feeling. Recite all three. Write \u2018To My Sons\u2019 from memory."},
         {type:"think",cn:"\u7ed3\u5408\u6ce8\u91ca\u548c\u76f8\u5173\u8d44\u6599\uff0c\u8bf4\u8bf4\u4e0b\u5217\u8bd7\u53e5\u7684\u610f\u601d\uff0c\u60f3\u60f3\u5b83\u4eec\u8868\u8fbe\u4e86\u8bd7\u4eba\u600e\u6837\u7684\u60c5\u611f\u3002",en:"Using notes and resources, explain the meaning of key lines and the poet\u2019s emotions."}
@@ -520,6 +648,7 @@ units: [
     },
     {
       id: 13, title: "\u5c11\u5e74\u4e2d\u56fd\u8bf4\uff08\u8282\u9009\uff09", titleEn: "Young China \u2014 Excerpt",
+      difficulty: 4,
       author: "\u6881\u542f\u8d85",
       text: [
         "\u6545\u4eca\u65e5\u4e4b\u8d23\u4efb\uff0c\u4e0d\u5728\u4ed6\u4eba\uff0c\u800c\u5168\u5728\u6211\u5c11\u5e74\u3002\u5c11\u5e74\u667a\u5219\u56fd\u667a\uff0c\u5c11\u5e74\u5bcc\u5219\u56fd\u5bcc\uff0c\u5c11\u5e74\u5f3a\u5219\u56fd\u5f3a\uff0c\u5c11\u5e74\u72ec\u7acb\u5219\u56fd\u72ec\u7acb\uff0c\u5c11\u5e74\u81ea\u7531\u5219\u56fd\u81ea\u7531\uff0c\u5c11\u5e74\u8fdb\u6b65\u5219\u56fd\u8fdb\u6b65\uff0c\u5c11\u5e74\u80dc\u4e8e\u6b27\u6d32\u5219\u56fd\u80dc\u4e8e\u6b27\u6d32\uff0c\u5c11\u5e74\u96c4\u4e8e\u5730\u7403\u5219\u56fd\u96c4\u4e8e\u5730\u7403\u3002",
@@ -533,6 +662,16 @@ units: [
       ],
       recognizeChars: ["\u6cfb","\u9cde","\u60f6","\u80ce","\u5c65","\u54c9"],
       writeChars: ["\u6cfb","\u6f5c","\u8bd5","\u80ce","\u7687","\u5c65","\u7586"],
+      vocabWords: [
+        {word:'少年',pinyin:'shào nián',en:'youth',sentence:'少年强则国强。',sentenceEn:'When youth are strong, the nation is strong.'},
+        {word:'中国',pinyin:'zhōng guó',en:'China',sentence:'少年中国说。',sentenceEn:'On Young China.'},
+        {word:'前途',pinyin:'qián tú',en:'future',sentence:'前途似海，来日方长。',sentenceEn:'Future like the sea, days ahead are long.'},
+        {word:'崛起',pinyin:'jué qǐ',en:'rise',sentence:'中国崛起。',sentenceEn:'China rises.'},
+        {word:'壮丽',pinyin:'zhuàng lì',en:'magnificent',sentence:'壮丽的未来。',sentenceEn:'A magnificent future.'}
+      ],
+      grammarPoints: [
+        {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'少年智则国智，少年富则国富，少年强则国强。',explanation:'When youth are wise, the nation is wise...',explanationEn:'用结构相同的句子加强气势'}
+      ],
       exercises: [
         {type:"recite",cn:"\u6b63\u786e\u3001\u6d41\u5229\u5730\u6717\u8bfb\u8bfe\u6587\uff0c\u505a\u5230\u8fde\u8d2f\u800c\u6709\u6c14\u52bf\u3002\u80cc\u8bf5\u8bfe\u6587\u3002",en:"Read fluently and with momentum. Recite the text."},
         {type:"think",cn:"\u8bfe\u6587\u7528\u54ea\u4e9b\u4e8b\u7269\u6765\u8d5e\u7f8e\u5c11\u5e74\u4e2d\u56fd\uff1f\u5c11\u5e74\u4e2d\u56fd\u548c\u4e2d\u56fd\u5c11\u5e74\u4e4b\u95f4\u6709\u4ec0\u4e48\u8054\u7cfb\uff1f",en:"What images does the text use to praise Young China? What is the connection between Young China and Chinese youth?"}
@@ -547,6 +686,7 @@ units: [
     },
     {
       id: 14, title: "\u5706\u660e\u56ed\u7684\u6bc1\u706d", titleEn: "The Destruction of Yuanmingyuan",
+      difficulty: 4,
       text: [
         "\u5706\u660e\u56ed\u7684\u6bc1\u706d\u662f\u4e2d\u56fd\u6587\u5316\u53f2\u4e0a\u4e0d\u53ef\u4f30\u91cf\u7684\u635f\u5931\uff0c\u4e5f\u662f\u4e16\u754c\u6587\u5316\u53f2\u4e0a\u4e0d\u53ef\u4f30\u91cf\u7684\u635f\u5931\uff01",
         "\u5706\u660e\u56ed\u5728\u5317\u4eac\u897f\u5317\u90ca\uff0c\u662f\u4e00\u5ea7\u4e3e\u4e16\u95fb\u540d\u7684\u7687\u5bb6\u56ed\u6797\u3002\u5b83\u7531\u5706\u660e\u56ed\u3001\u7eee\u6625\u56ed\u548c\u957f\u6625\u56ed\u7ec4\u6210\uff0c\u8fd8\u6709\u8bb8\u591a\u5c0f\u56ed\uff0c\u4f17\u661f\u62f1\u6708\u822c\u73af\u7ed5\u5728\u5706\u660e\u56ed\u5468\u56f4\u3002",
@@ -563,6 +703,13 @@ units: [
       ],
       recognizeChars: ["\u4f30","\u714c","\u6bbf","\u73d1","\u5254","\u6f9c","\u9675","\u5b8f","\u5949","\u70ec"],
       writeChars: ["\u6bc1","\u4f30","\u62f1","\u8f89","\u714c","\u6bbf","\u9675","\u89c8","\u5883","\u5b8f","\u5510","\u95ef","\u7edf","\u9500","\u5949"],
+      vocabWords: [
+        {word:'圆明园',pinyin:'yuán míng yuán',en:'Yuanmingyuan (Old Summer Palace)',sentence:'圆明园是皇家园林。',sentenceEn:'Yuanmingyuan was a royal garden.'},
+        {word:'瑰宝',pinyin:'guī bǎo',en:'treasure',sentence:'园中有无数珍贵的瑰宝。',sentenceEn:'The garden held countless treasures.'},
+        {word:'毁灭',pinyin:'huǐ miè',en:'destroy',sentence:'圆明园被毁灭了。',sentenceEn:'Yuanmingyuan was destroyed.'},
+        {word:'侵略',pinyin:'qīn lüè',en:'invade',sentence:'英法联军侵入北京。',sentenceEn:'Anglo-French forces invaded Beijing.'},
+        {word:'不可估量',pinyin:'bù kě gū liáng',en:'incalculable',sentence:'这是不可估量的损失。',sentenceEn:'This is an incalculable loss.'}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u60f3\u60f3\u8bfe\u6587\u4e3b\u8981\u8868\u8fbe\u4e86\u600e\u6837\u7684\u60c5\u611f\u3002\u53cd\u590d\u6717\u8bfb\uff0c\u8bfb\u51fa\u60c5\u611f\u7684\u53d8\u5316\u3002",en:"Read silently, considering the dominant emotion. Read aloud repeatedly, conveying the shifts in feeling."},
         {type:"think",cn:"\u8bfe\u6587\u9898\u76ee\u662f\u201c\u5706\u660e\u56ed\u7684\u6bc1\u706d\u201d\uff0c\u4f5c\u8005\u4e3a\u4ec0\u4e48\u7528\u90a3\u4e48\u591a\u7b14\u58a8\u5199\u5706\u660e\u56ed\u6614\u65e5\u7684\u8f89\u714c\uff1f",en:"The title is \u2018The Destruction\u2019 \u2014 why does the author devote so much space to Yuanmingyuan\u2019s former glory?"}
@@ -577,6 +724,7 @@ units: [
     },
     {
       id: 15, title: "\u5c0f\u5c9b", titleEn: "The Small Island",
+      difficulty: 4,
       isSelfRead: true,
       author: "\u9646\u9896\u58a8",
       text: [
@@ -591,9 +739,16 @@ units: [
         "When the general arrived, he discovered a vegetable patch covered by oilcloth. The squad leader explained that most of the soil had been carried from the soldiers\u2019 hometowns, bag by bag.",
         "At dinner, a dish of greens was served. Learning the soldiers only ate vegetables once a week, the general wanted to share the dish with them, but they shied away. So he poured the greens into the soup and ladled a spoonful for each soldier.",
         "The squad leader pointed outside \u2014 the green vegetable patch formed a map of China. \u2018More than half the provinces in the country have soil represented here.\u2019",
-        "At dawn, the general left by speedboat. Looking back, he saw a bright red sun rising over that patch of green. He saluted the sun, the green, and the little island."
+        "At dawn, the general left the little island by speedboat. Looking back at the island, he saw a bright red sun rising above that patch of green. Facing the sun, facing that green, and facing the little island, he performed a perfect military salute."
       ],
       recognizeChars: ["\u57df","\u8247","\u77db","\u76fe","\u7b77","\u708a","\u54fc","\u5589","\u548c","\u52fa","\u6405","\u8200"],
+      vocabWords: [
+        {word:'小岛',pinyin:'xiǎo dǎo',en:'small island',sentence:'一座小小的海岛。',sentenceEn:'A tiny sea island.'},
+        {word:'战士',pinyin:'zhàn shì',en:'soldier',sentence:'守岛战士。',sentenceEn:'Island-guarding soldiers.'},
+        {word:'蔬菜',pinyin:'shū cài',en:'vegetables',sentence:'在岛上种蔬菜。',sentenceEn:'Growing vegetables on the island.'},
+        {word:'坚守',pinyin:'jiān shǒu',en:'hold firm',sentence:'战士们坚守岗位。',sentenceEn:'Soldiers hold firm at their posts.'},
+        {word:'奉献',pinyin:'fèng xiàn',en:'dedicate',sentence:'默默奉献。',sentenceEn:'Silently dedicated.'}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u7528\u5c06\u519b\u7684\u53e3\u543b\uff0c\u8bb2\u8ff0\u767b\u4e0a\u5c0f\u5c9b\u540e\u53d1\u751f\u7684\u6545\u4e8b\u3002",en:"Read silently and retell the story from the general\u2019s perspective after landing on the island."},
         {type:"think",cn:"\u8bf4\u8bf4\u4f60\u5bf9\u8bfe\u6587\u6700\u540e\u4e00\u4e2a\u81ea\u7136\u6bb5\u7684\u7406\u89e3\u3002",en:"Share your understanding of the last paragraph."}
@@ -624,6 +779,7 @@ units: [
   lessons:[
     {
       id:16, title:"\u592a\u9633", titleEn:"The Sun",
+      difficulty: 4,
       text:[
         "\u6709\u8fd9\u4e48\u4e00\u4e2a\u4f20\u8bf4\uff0c\u53e4\u65f6\u5019\uff0c\u5929\u4e0a\u6709\u5341\u4e2a\u592a\u9633\uff0c\u6652\u5f97\u5730\u9762\u5bf8\u8349\u4e0d\u751f\u3002\u4eba\u4eec\u70ed\u5f97\u53d7\u4e0d\u4e86\uff0c\u5c31\u627e\u4e00\u4e2a\u7bad\u6cd5\u5f88\u597d\u7684\u4eba\u5c04\u6389\u4e5d\u4e2a\uff0c\u53ea\u7559\u4e0b\u4e00\u4e2a\uff0c\u5730\u9762\u4e0a\u624d\u4e0d\u90a3\u4e48\u70ed\u4e86\u3002\u5176\u5b9e\uff0c\u592a\u9633\u79bb\u6211\u4eec\u7ea6\u6709\u4e00\u4ebf\u4e94\u5343\u4e07\u5343\u7c73\u8fdc\u3002\u5230\u592a\u9633\u4e0a\u53bb\uff0c\u5982\u679c\u6b65\u884c\uff0c\u65e5\u591c\u4e0d\u505c\u5730\u8d70\uff0c\u5dee\u4e0d\u591a\u8981\u8d70\u4e09\u5343\u4e94\u767e\u5e74\uff1b\u5c31\u662f\u5750\u98de\u673a\uff0c\u4e5f\u8981\u98de\u4e8c\u5341\u51e0\u5e74\u3002\u8fd9\u4e48\u8fdc\uff0c\u7bad\u54ea\u80fd\u5c04\u5f97\u5230\u5462\uff1f",
         "\u6211\u4eec\u770b\u5230\u592a\u9633\uff0c\u89c9\u5f97\u5b83\u5e76\u4e0d\u5927\uff0c\u5b9e\u9645\u4e0a\u5b83\u5927\u5f97\u5f88\uff0c\u7ea6\u4e00\u767e\u4e09\u5341\u4e07\u4e2a\u5730\u7403\u7684\u4f53\u79ef\u624d\u80fd\u62b5\u5f97\u4e0a\u4e00\u4e2a\u592a\u9633\u3002\u56e0\u4e3a\u592a\u9633\u79bb\u5730\u7403\u592a\u8fdc\u4e86\uff0c\u6240\u4ee5\u770b\u4e0a\u53bb\u53ea\u6709\u4e00\u4e2a\u76d8\u5b50\u90a3\u4e48\u5927\u3002",
@@ -646,6 +802,17 @@ units: [
       ],
       recognizeChars:["\u6444","\u6b96","\u70ad","\u7597"],
       writeChars:["\u6444","\u6c0f","\u6b96","\u7cae","\u70ad","\u533a","\u6740","\u83cc","\u7597"],
+      vocabWords: [
+        {word:'太阳',pinyin:'tài yáng',en:'sun',sentence:'太阳离我们约有一亿五千万千米远。',sentenceEn:'The sun is about 150 million km away from us.'},
+        {word:'温度',pinyin:'wēn dù',en:'temperature',sentence:'太阳的表面温度有五千多摄氏度。',sentenceEn:'The surface temperature of the sun is over 5,000 degrees Celsius.'},
+        {word:'密切',pinyin:'mì qiè',en:'closely related',sentence:'太阳和我们的关系非常密切。',sentenceEn:'The sun is closely related to us.'},
+        {word:'繁殖',pinyin:'fán zhí',en:'reproduce',sentence:'鸟兽虫鱼才能生存、繁殖。',sentenceEn:'Birds, beasts, insects and fish can survive and reproduce.'},
+        {word:'杀菌',pinyin:'shā jūn',en:'sterilize',sentence:'太阳光有杀菌的作用。',sentenceEn:'Sunlight has a sterilizing effect.'}
+      ],
+      grammarPoints: [
+        {point:'列数字',pointEn:'liè shù zì',example:'using numbers',exampleEn:'约一百三十万个地球的体积才能抵得上一个太阳。',explanation:'About 1.3 million Earths could fit inside the sun.',explanationEn:'用具体数字说明事物特点'},
+        {point:'作比较',pointEn:'zuò bǐ jiào',example:'making comparisons',exampleEn:'太阳离我们约有一亿五千万千米远，步行要走三千五百年。',explanation:'The sun is 150 million km away; walking would take 3,500 years.',explanationEn:'通过比较让读者理解抽象概念'}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u60f3\u4e00\u60f3\uff1a\u8bfe\u6587\u4ece\u54ea\u4e9b\u65b9\u9762\u4ecb\u7ecd\u4e86\u592a\u9633\uff1f\u592a\u9633\u5bf9\u4eba\u7c7b\u6709\u54ea\u4e9b\u4f5c\u7528\uff1f",en:"Read silently and think: what aspects of the sun does the text introduce? What effects does the sun have on humans?"}},
         {type:"analysis",prompt:{cn:"\u8bfb\u4e0b\u9762\u7684\u53e5\u5b50\uff0c\u7ed3\u5408\u8bfe\u6587\u5185\u5bb9\uff0c\u8bf4\u8bf4\u4f5c\u8005\u662f\u8fd0\u7528\u54ea\u4e9b\u8bf4\u660e\u65b9\u6cd5\u4ecb\u7ecd\u592a\u9633\u7684\uff0c\u4f53\u4f1a\u8fd9\u6837\u5199\u7684\u597d\u5904\u3002",en:"Read the sentences below and identify what expository methods the author uses to describe the sun, and why they\u2019re effective."}}
@@ -660,6 +827,7 @@ units: [
     },
     {
       id:17, title:"\u677e\u9f20", titleEn:"Squirrels",
+      difficulty: 4,
       text:[
         "\u677e\u9f20\u662f\u4e00\u79cd\u6f02\u4eae\u7684\u5c0f\u52a8\u7269\uff0c\u4e56\u5de7\uff0c\u9a6f\u826f\uff0c\u5f88\u8ba8\u4eba\u559c\u6b22\u3002\u5b83\u4eec\u9762\u5bb9\u6e05\u79c0\uff0c\u773c\u775b\u95ea\u95ea\u53d1\u5149\uff0c\u8eab\u4f53\u77eb\u5065\uff0c\u56db\u80a2\u8f7b\u5feb\u3002\u73b2\u73d1\u7684\u5c0f\u9762\u5b54\uff0c\u886c\u4e0a\u4e00\u6761\u5e3d\u7f28\u5f62\u7684\u7f8e\u4e3d\u5c3e\u5df4\uff0c\u663e\u5f97\u683c\u5916\u6f02\u4eae\u3002\u5b83\u4eec\u7684\u5c3e\u5df4\u8001\u662f\u7fd8\u8d77\u6765\uff0c\u4e00\u76f4\u7fd8\u5230\u5934\u4e0a\uff0c\u81ea\u5df1\u5c31\u8eb2\u5728\u5c3e\u5df4\u5e95\u4e0b\u6b47\u51c9\u3002\u5b83\u4eec\u5e38\u5e38\u76f4\u7ad6\u7740\u8eab\u5b50\u5750\u7740\uff0c\u50cf\u4eba\u4eec\u7528\u624b\u4e00\u6837\uff0c\u7528\u524d\u722a\u5f80\u5634\u91cc\u9001\u4e1c\u897f\u5403\u3002\u53ef\u4ee5\u8bf4\uff0c\u677e\u9f20\u6700\u4e0d\u50cf\u56db\u8db3\u517d\u4e86\u3002",
         "\u677e\u9f20\u4e0d\u8eb2\u85cf\u5728\u5730\u5e95\u4e0b\uff0c\u7ecf\u5e38\u5728\u9ad8\u5904\u6d3b\u52a8\uff0c\u50cf\u98de\u9e1f\u4e00\u6837\u4f4f\u5728\u6811\u9876\u4e0a\uff0c\u6ee1\u6811\u6797\u91cc\u8dd1\uff0c\u4ece\u8fd9\u68f5\u6811\u8df3\u5230\u90a3\u68f5\u6811\u3002\u5b83\u4eec\u5728\u6811\u4e0a\u505a\u7a9d\uff0c\u6458\u679c\u5b9e\uff0c\u559d\u9732\u6c34\u3002\u53ea\u6709\u6811\u88ab\u98ce\u522e\u5f97\u592a\u5389\u5bb3\u4e86\uff0c\u624d\u5230\u5730\u4e0a\u6765\u3002\u5728\u5e73\u539f\u5730\u533a\u662f\u5f88\u5c11\u770b\u5230\u677e\u9f20\u7684\u3002\u5b83\u4eec\u4e0d\u63a5\u8fd1\u4eba\u7684\u4f4f\u5b85\uff0c\u4e5f\u4e0d\u5f85\u5728\u5c0f\u6811\u4e1b\u91cc\uff0c\u53ea\u559c\u6b22\u4f4f\u5728\u9ad8\u5927\u7684\u8001\u6811\u4e0a\u3002\u5728\u6e05\u6717\u7684\u590f\u591c\uff0c\u53ef\u4ee5\u542c\u5230\u677e\u9f20\u5728\u6811\u4e0a\u8df3\u7740\u53eb\u7740\uff0c\u4e92\u76f8\u8ffd\u9010\u3002\u5b83\u4eec\u597d\u50cf\u5f88\u6015\u5f3a\u70c8\u7684\u65e5\u5149\uff0c\u767d\u5929\u8eb2\u5728\u7a9d\u91cc\u6b47\u51c9\uff0c\u665a\u4e0a\u51fa\u6765\u5954\u8dd1\uff0c\u73a9\u800d\uff0c\u5403\u4e1c\u897f\u3002",
@@ -676,6 +844,13 @@ units: [
       ],
       recognizeChars:["\u9a6f","\u77eb","\u6b47","\u6764","\u85d3","\u72ed","\u52c9","\u9525"],
       writeChars:["\u9f20","\u79c0","\u73b2","\u73d1","\u6b47","\u7a9d","\u6ed1","\u62fe","\u72ed","\u52c9","\u68b3"],
+      vocabWords: [
+        {word:'松鼠',pinyin:'sōng shǔ',en:'squirrel',sentence:'松鼠是一种漂亮的小动物。',sentenceEn:'Squirrels are beautiful little animals.'},
+        {word:'乖巧',pinyin:'guāi qiǎo',en:'clever and cute',sentence:'松鼠乖巧、驯良，很讨人喜欢。',sentenceEn:'Squirrels are clever, tame, and lovable.'},
+        {word:'矫健',pinyin:'jiǎo jiàn',en:'agile',sentence:'身体矫健，四肢轻快。',sentenceEn:'Agile body, nimble limbs.'},
+        {word:'玲珑',pinyin:'líng lóng',en:'exquisite',sentence:'玲珑的小面孔。',sentenceEn:'An exquisite little face.'},
+        {word:'敏捷',pinyin:'mǐn jié',en:'agile; quick',sentence:'松鼠动作十分敏捷。',sentenceEn:'Squirrels are very agile.'}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u628a\u4ece\u8bfe\u6587\u4e2d\u83b7\u5f97\u7684\u6709\u5173\u677e\u9f20\u7684\u4fe1\u606f\u5206\u6761\u5199\u4e0b\u6765\u3002",en:"Read silently and list the information about squirrels you learned from the text."}},
         {type:"comparison",prompt:{cn:"\u8bfb\u4e0b\u9762\u7684\u53e5\u5b50\uff0c\u627e\u51fa\u8bfe\u6587\u4e2d\u76f8\u5e94\u7684\u5185\u5bb9\uff0c\u4f53\u4f1a\u8868\u8fbe\u4e0a\u7684\u4e0d\u540c\u3002",en:"Read the sentences below, find the corresponding content in the text, and compare the different ways they express the same information."}}
@@ -707,6 +882,7 @@ units: [
   lessons:[
     {
       id:18, title:"\u6148\u6bcd\u60c5\u6df1", titleEn:"A Mother\u2019s Deep Love",
+      difficulty: 4,
       text:[
         "\u6211\u4e00\u76f4\u60f3\u4e70\u4e00\u672c\u957f\u7bc7\u5c0f\u8bf4\u2014\u2014\u300a\u9752\u5e74\u8fd1\u536b\u519b\u300b\u3002\u4e66\u4ef7\u4e00\u5143\u591a\u94b1\u3002\u6bcd\u4eb2\u8fd8\u4ece\u6765\u6ca1\u6709\u4e00\u6b21\u7ed9\u8fc7\u6211\u8fd9\u4e48\u591a\u94b1\u3002\u6211\u4e5f\u4ece\u6765\u6ca1\u6709\u5411\u6bcd\u4eb2\u4e00\u6b21\u8981\u8fc7\u8fd9\u4e48\u591a\u94b1\u3002\u4f46\u6211\u60f3\u6709\u4e00\u672c\u300a\u9752\u5e74\u8fd1\u536b\u519b\u300b\uff0c\u60f3\u5f97\u6574\u5929\u5931\u9b42\u843d\u9b44\u3002",
         "\u5728\u81ea\u5df1\u5bf9\u81ea\u5df1\u7684\u6006\u6042\u4e4b\u4e0b\uff0c\u6211\u6765\u5230\u6bcd\u4eb2\u4e0a\u73ed\u7684\u5730\u65b9\uff0c\u5411\u6bcd\u4eb2\u8981\u94b1\u3002\u90a3\u662f\u6211\u7b2c\u4e00\u6b21\u5230\u6bcd\u4eb2\u4e3a\u6211\u4eec\u6323\u94b1\u7684\u90a3\u4e2a\u5730\u65b9\u3002",
@@ -733,6 +909,16 @@ units: [
       ],
       recognizeChars:["\u9b44","\u6291","\u9893","\u7eab","\u566a","\u8910","\u60eb","\u803d","\u515c","\u9f9f","\u6743"],
       writeChars:["\u8f9e","\u6291","\u788c","\u540a","\u9177","\u6691","\u566a","\u810a","\u7adf","\u9f9f","\u54c7","\u5fcd","\u68b0","\u9178","\u6743"],
+      vocabWords: [
+        {word:'慈母',pinyin:'cí mǔ',en:'loving mother',sentence:'慈母情深。',sentenceEn:'A mother has deep love.'},
+        {word:'情深',pinyin:'qíng shēn',en:'deep affection',sentence:'母亲对孩子的情意很深。',sentenceEn:'A mother has deep affection for her child.'},
+        {word:'缝纫机',pinyin:'féng rèn jī',en:'sewing machine',sentence:'七八十台破缝纫机发出的噪声震耳欲聋。',sentenceEn:'The noise from seventy or eighty old sewing machines was deafening.'},
+        {word:'疲惫',pinyin:'pí bèi',en:'exhausted',sentence:'一双眼神疲惫的眼睛吃惊地望着我。',sentenceEn:'A pair of exhausted eyes looked at me in surprise.'},
+        {word:'龟裂',pinyin:'jūn liè',en:'chapped; cracked',sentence:'用龟裂的手指数着钱。',sentenceEn:'Counting money with chapped fingers.'}
+      ],
+      grammarPoints: [
+        {point:'反复',pointEn:'fǎn fù',example:'repetition',exampleEn:'背直起来了，我的母亲。转过身来了，我的母亲。',explanation:'Her back straightened up, my mother. She turned around, my mother.',explanationEn:'重复相同结构强调情感'}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8fb9\u8bfb\u8fb9\u60f3\u8c61\u8bfe\u6587\u4e2d\u7684\u573a\u666f\uff0c\u8bf4\u8bf4\u54ea\u4e9b\u5730\u65b9\u8ba9\u4f60\u611f\u53d7\u5230\u4e86\u201c\u6148\u6bcd\u60c5\u6df1\u201d\u3002",en:"Read silently, imagine the scenes, and say which parts let you feel \u2018a mother\u2019s deep love.\u2019"}},
         {type:"analysis",prompt:{cn:"\u8bfb\u4e0b\u9762\u7684\u53e5\u5b50\uff0c\u6ce8\u610f\u53cd\u590d\u51fa\u73b0\u7684\u90e8\u5206\uff0c\u60f3\u60f3\u5b83\u4eec\u7684\u8868\u8fbe\u6548\u679c\u3002",en:"Read the sentences below, note the repeated parts, and think about their expressive effect."}},
@@ -748,6 +934,7 @@ units: [
     },
     {
       id:19, title:"\u7236\u7231\u4e4b\u821f", titleEn:"The Boat of Father\u2019s Love",
+      difficulty: 4,
       text:[
         "\u662f\u6628\u591c\u68a6\u4e2d\u7684\u7ecf\u5386\u5427\uff0c\u6211\u521a\u521a\u68a6\u9192\uff01\u6726\u80e7\u4e2d\uff0c\u7236\u4eb2\u548c\u6bcd\u4eb2\u5728\u534a\u591c\u8d77\u6765\u7ed9\u8695\u5b9d\u5b9d\u6dfb\u6851\u53f6\u2026\u2026\u6bcf\u5e74\u5356\u8327\u5b50\u7684\u65f6\u5019\uff0c\u6211\u603b\u8ddf\u5728\u7236\u4eb2\u8eab\u540e\uff0c\u5356\u4e86\u8327\u5b50\uff0c\u7236\u4eb2\u4fbf\u7ed9\u6211\u4e70\u6787\u6777\u5403\u2026\u2026",
         "\u6211\u53c8\u89c1\u5230\u4e86\u59d1\u7239\u90a3\u53ea\u5c0f\u6e14\u8239\u3002\u7236\u4eb2\u9001\u6211\u79bb\u5f00\u5bb6\u4e61\u53bb\u62a5\u8003\u5b66\u6821\u548c\u4e0a\u5b66\uff0c\u603b\u662f\u8981\u501f\u7528\u59d1\u7239\u90a3\u53ea\u5c0f\u6e14\u8239\u3002\u5e26\u4e86\u7c73\u5728\u8239\u4e0a\u505a\u996d\uff0c\u665a\u4e0a\u5c31\u7761\u5728\u8239\u4e0a\uff0c\u8fd9\u6837\u53ef\u4ee5\u8282\u7701\u996d\u94b1\u548c\u65c5\u5e97\u94b1\u3002",
@@ -770,6 +957,16 @@ units: [
       ],
       recognizeChars:["\u8327","\u6808","\u51a4","\u6789","\u60da","\u8e37","\u50fb","\u8fea","\u5ac1","\u7f34","\u699c","\u517c","\u5632","\u6795"],
       writeChars:["\u8695","\u8003","\u75bc","\u5e2d","\u7cd6","\u5c51","\u542f","\u8fea","\u9489","\u966a","\u6bd5","\u716e","\u6795"],
+      vocabWords: [
+        {word:'父爱',pinyin:'fù ài',en:'fatherly love',sentence:'父爱之舟承载着深沉的爱。',sentenceEn:'The boat of fatherly love carries deep affection.'},
+        {word:'节省',pinyin:'jié shěng',en:'save; economize',sentence:'父亲平时节省到极点。',sentenceEn:'Father was extremely frugal.'},
+        {word:'背影',pinyin:'bèi yǐng',en:'rear view; back',sentence:'父亲那弯腰低头缝补的背影。',sentenceEn:'The back of father bent over mending clothes.'},
+        {word:'心酸',pinyin:'xīn suān',en:'heartache',sentence:'这是我第一次真正心酸的哭。',sentenceEn:'This was my first truly heartfelt cry.'},
+        {word:'艰难',pinyin:'jiān nán',en:'difficult; hard',sentence:'我深深体会到父亲挣钱的艰难。',sentenceEn:'I deeply understood how hard it was for father to earn money.'}
+      ],
+      grammarPoints: [
+        {point:'场景描写',pointEn:'chǎng jǐng miáo xiě',example:'scene description',exampleEn:'人山人海，卖小吃的挤得密密层层。',explanation:'Crowds of people, snack sellers packed together.',explanationEn:'通过具体场景传达情感'}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u5728\u201c\u6211\u201d\u7684\u68a6\u4e2d\u51fa\u73b0\u4e86\u54ea\u4e9b\u96be\u5fd8\u7684\u573a\u666f\uff0c\u54ea\u4e2a\u573a\u666f\u7ed9\u4f60\u7684\u5370\u8c61\u6700\u6df1\u3002",en:"Read silently and say which unforgettable scenes appeared in \u2018my\u2019 dream, and which impressed you most."}},
         {type:"discussion",prompt:{cn:"\u8bfe\u6587\u4e3a\u4ec0\u4e48\u4ee5\u201c\u7236\u7231\u4e4b\u821f\u201d\u4e3a\u9898\uff1f\u4ece\u8bfe\u6587\u4e2d\u627e\u51fa\u76f8\u5173\u5185\u5bb9\u8bf4\u8bf4\u4f60\u7684\u7406\u89e3\u3002",en:"Why is the text titled \u2018The Boat of Father\u2019s Love\u2019? Find relevant content and explain your understanding."}}
@@ -784,6 +981,7 @@ units: [
     },
     {
       id:20, title:"\u201c\u7cbe\u5f69\u6781\u4e86\u201d\u548c\u201c\u7cdf\u7cd5\u900f\u4e86\u201d", titleEn:"\u2018Wonderful!\u2019 and \u2018Terrible!\u2019",
+      difficulty: 4,
       isSelfRead:true,
       text:[
         "\u8bb0\u5f97\u516b\u4e5d\u5c81\u7684\u65f6\u5019\uff0c\u6211\u5199\u4e86\u7b2c\u4e00\u9996\u8bd7\u3002\u6bcd\u4eb2\u4e00\u5ff5\u5b8c\u90a3\u9996\u8bd7\uff0c\u773c\u775b\u4eae\u4eae\u7684\uff0c\u5174\u594b\u5730\u568e\u7740\uff1a\u201c\u5df4\u8fea\uff0c\u771f\u662f\u4f60\u5199\u7684\u5417\uff1f\u591a\u7f8e\u7684\u8bd7\u554a\uff01\u7cbe\u5f69\u6781\u4e86\uff01\u201d\u5979\u6425\u4f4f\u4e86\u6211\uff0c\u8d5e\u626c\u58f0\u96e8\u70b9\u822c\u843d\u5230\u6211\u8eab\u4e0a\u3002",
@@ -800,10 +998,17 @@ units: [
         "Close to eight o\u2019clock, Father finally pushed open the door. \u2018What\u2019s this?\u2019 He picked up my poem. \u2018Dear, something marvelous has happened. Buddy wrote a poem\u2014it\u2019s wonderful\u2026\u2019 Mother stepped forward. \u2018I\u2019m sorry, I\u2019ll judge for myself,\u2019 Father said, and began to read.",
         "\u2018This poem is terrible,\u2019 Father said, tossing it back. I couldn\u2019t take it anymore. I rushed out of the dining room, ran to my room, and threw myself on the bed, sobbing.",
         "Years later, when I picked up that poem again, I had to admit Father was right\u2014it really was quite a terrible poem. But Mother kept encouraging me as always, so I kept writing.",
-        "Now I have many works\u2014novels, plays, and screenplays. I increasingly appreciate how fortunate I was. Every person needs the strength that comes from a mother\u2019s love\u2014a source of inspiration and creativity. But that alone isn\u2019t enough; it might lead one astray. One also needs the balancing force of warning.",
+        "Now I have produced many works, publishing novel after novel, as well as plays and screenplays. I have come to appreciate more and more how fortunate I was back then. A writer\u2014indeed, every person in life\u2014needs the strength that comes from a mother\u2019s love; this power of love is the wellspring of inspiration and creativity. But having only this is not enough; it could lead a person astray, so one also needs the balancing force of warning.",
         "Over the years, these two voices from my childhood have continued weaving through my mind. I carefully steer the little boat of my life so it isn\u2019t capsized by either wind. Deep in my heart I know that \u2018Wonderful!\u2019 and \u2018Terrible!\u2019\u2014these two extreme judgments share a common starting point, and that is love. Buoyed by love, I strive forward."
       ],
       recognizeChars:["\u8a4a","\u52b1","\u7248","\u7965","\u6b67","\u8c28"],
+      vocabWords: [
+        {word:'精彩',pinyin:'jīng cǎi',en:'wonderful',sentence:'多美的诗啊！精彩极了！',sentenceEn:'What a beautiful poem! Wonderful!'},
+        {word:'糟糕',pinyin:'zāo gāo',en:'terrible',sentence:'我看这首诗糟糕透了。',sentenceEn:'I think this poem is terrible.'},
+        {word:'赞扬',pinyin:'zàn yáng',en:'praise',sentence:'赞扬声雨点般落到我身上。',sentenceEn:'Praise rained down on me.'},
+        {word:'严厉',pinyin:'yán lì',en:'strict',sentence:'父亲的批评是严厉的。',sentenceEn:'The criticism from father was strict.'},
+        {word:'鼓舞',pinyin:'gǔ wǔ',en:'encourage; inspire',sentence:'在爱的鼓舞下，我努力地向前驶去。',sentenceEn:'Inspired by love, I pressed forward.'}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u60f3\u60f3\u7236\u4eb2\u548c\u6bcd\u4eb2\u5bf9\u5df4\u8fea\u7684\u8bd7\u4e3a\u4ec0\u4e48\u4f1a\u6709\u4e0d\u540c\u7684\u770b\u6cd5\u3002",en:"Think about why Father and Mother had different opinions about Buddy\u2019s poem."}},
         {type:"discussion",prompt:{cn:"\u8054\u7cfb\u751f\u6d3b\u5b9e\u9645\uff0c\u8bf4\u8bf4\u4f60\u5982\u4f55\u770b\u5f85\u5df4\u8fea\u7236\u6bcd\u8868\u8fbe\u7231\u7684\u65b9\u5f0f\u3002",en:"Connect to real life and discuss how you view the parents\u2019 different ways of expressing love."}}
@@ -834,8 +1039,9 @@ units: [
   lessons:[
     {
       id:21, title:"\u53e4\u8bd7\u8bcd\u4e09\u9996", titleEn:"Three Classical Poems",
+      difficulty: 4,
       text:[
-        "\u5c71\u5c45\u79cb\u6687\n[\u5510] \u738b\u7ef4\n\u7a7a\u5c71\u65b0\u96e8\u540e\uff0c\u5929\u6c14\u665a\u6765\u79cb\u3002\n\u660e\u6708\u677e\u95f4\u7167\uff0c\u6e05\u6cc9\u77f3\u4e0a\u6d41\u3002\n\u7af9\u55a7\u5f52\u6d63\u5973\uff0c\u83b2\u52a8\u4e0b\u6e14\u821f\u3002\n\u968f\u610f\u6625\u82b3\u6b47\uff0c\u738b\u5b59\u81ea\u53ef\u7559\u3002",
+        "\u5c71\u5c45\u79cb\u669d\n[\u5510] \u738b\u7ef4\n\u7a7a\u5c71\u65b0\u96e8\u540e\uff0c\u5929\u6c14\u665a\u6765\u79cb\u3002\n\u660e\u6708\u677e\u95f4\u7167\uff0c\u6e05\u6cc9\u77f3\u4e0a\u6d41\u3002\n\u7af9\u55a7\u5f52\u6d63\u5973\uff0c\u83b2\u52a8\u4e0b\u6e14\u821f\u3002\n\u968f\u610f\u6625\u82b3\u6b47\uff0c\u738b\u5b59\u81ea\u53ef\u7559\u3002",
         "\u67ab\u6865\u591c\u6cca\n[\u5510] \u5f20\u7ee7\n\u6708\u843d\u4e4c\u557c\u971c\u6ee1\u5929\uff0c\n\u6c5f\u67ab\u6e14\u706b\u5bf9\u6101\u7720\u3002\n\u59d1\u82cf\u57ce\u5916\u5bd2\u5c71\u5bfa\uff0c\n\u591c\u534a\u949f\u58f0\u5230\u5ba2\u8239\u3002",
         "\u957f\u76f8\u601d\n[\u6e05] \u7eb3\u5170\u6027\u5fb7\n\u5c71\u4e00\u7a0b\uff0c\u6c34\u4e00\u7a0b\uff0c\u8eab\u5411\u6986\u5173\u90a3\u7554\u884c\uff0c\u591c\u6df1\u5343\u5e10\u706f\u3002\n\u98ce\u4e00\u66f4\uff0c\u96ea\u4e00\u66f4\uff0c\u8076\u7897\u4e61\u5fc3\u68a6\u4e0d\u6210\uff0c\u6545\u56ed\u65e0\u6b64\u58f0\u3002"
       ],
@@ -846,6 +1052,13 @@ units: [
       ],
       recognizeChars:["\u6986","\u7554","\u66f4","\u8076"],
       writeChars:["\u5b59","\u6cca","\u6101","\u5bfa","\u6986","\u7554"],
+      vocabWords: [
+        {word:'山居秋暝',pinyin:'shān jū qiū míng',en:'Autumn Evening in the Mountains',sentence:'空山新雨后，天气晚来秋。',sentenceEn:'After fresh rain in empty mountains, autumn evening descends.'},
+        {word:'枫桥夜泊',pinyin:'fēng qiáo yè bó',en:'Mooring at Night by Maple Bridge',sentence:'月落乌啼霜满天。',sentenceEn:'The moon sets, crows cry, frost fills the sky.'},
+        {word:'长相思',pinyin:'cháng xiāng sī',en:'Everlasting Longing',sentence:'山一程，水一程。',sentenceEn:'Mountains stretch on, waters stretch on.'},
+        {word:'动静结合',pinyin:'dòng jìng jié hé',en:'combining movement and stillness',sentence:'明月松间照，清泉石上流。',sentenceEn:'Bright moon shines through pines, clear spring flows over rocks.'},
+        {word:'羁旅思乡',pinyin:'jī lǚ sī xiāng',en:'homesickness while traveling',sentence:'风一更，雪一更，聒碎乡心梦不成。',sentenceEn:'Wind howls, snow falls, shattering dreams of home.'}
+      ],
       exercises:[
         {type:"recitation",prompt:{cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\u3002\u80cc\u8bf5\u8bfe\u6587\u3002\u9ed8\u5199\u300a\u67ab\u6865\u591c\u6cca\u300b\u3002",en:"Read the poems aloud with feeling. Recite them from memory. Write \u2018Mooring by Maple Bridge at Night\u2019 from memory."}},
         {type:"analysis",prompt:{cn:"\u8bfb\u4e00\u8bfb\uff0c\u60f3\u8c61\u8bd7\u53e5\u63cf\u7ed8\u7684\u666f\u8c61\uff0c\u4f53\u4f1a\u5176\u4e2d\u7684\u9759\u6001\u63cf\u5199\u548c\u52a8\u6001\u63cf\u5199\u3002",en:"Read and imagine the scenes depicted; experience the static and dynamic descriptions within."}}
@@ -860,6 +1073,7 @@ units: [
     },
     {
       id:22, title:"\u56db\u5b63\u4e4b\u7f8e", titleEn:"The Beauty of the Four Seasons",
+      difficulty: 4,
       text:[
         "\u6625\u5929\u6700\u7f8e\u662f\u9ece\u660e\u3002\u4e1c\u65b9\u4e00\u70b9\u513f\u4e00\u70b9\u513f\u6cdb\u7740\u9c7c\u809a\u8272\u7684\u5929\u7a7a\uff0c\u67d3\u4e0a\u5fae\u5fae\u7684\u7ea2\u6655\uff0c\u98d8\u7740\u7ea2\u7d2b\u7ea2\u7d2b\u7684\u5f69\u4e91\u3002",
         "\u590f\u5929\u6700\u7f8e\u662f\u591c\u665a\u3002\u660e\u4eae\u7684\u6708\u591c\u56fa\u7136\u7f8e\uff0c\u6f06\u9ed1\u6f06\u9ed1\u7684\u6697\u591c\uff0c\u4e5f\u6709\u65e0\u6570\u7684\u8424\u706b\u866b\u7fe9\u7fe9\u98de\u821e\u3002\u5373\u4f7f\u662f\u8499\u8499\u7ec6\u96e8\u7684\u591c\u665a\uff0c\u4e5f\u6709\u4e00\u53ea\u4e24\u53ea\u8424\u706b\u866b\uff0c\u95ea\u7740\u6726\u80e7\u7684\u5fae\u5149\u5728\u98de\u884c\uff0c\u8fd9\u60c5\u666f\u7740\u5b9e\u8ff7\u4eba\u3002",
@@ -874,6 +1088,16 @@ units: [
       ],
       recognizeChars:["\u65f7","\u6021","\u51db","\u51bd","\u9038"],
       writeChars:["\u9ece","\u6655","\u6f06","\u5e55","\u6108","\u65f7","\u6021","\u9038","\u514d"],
+      vocabWords: [
+        {word:'黎明',pinyin:'lí míng',en:'dawn',sentence:'春天最美是黎明。',sentenceEn:'Spring is most beautiful at dawn.'},
+        {word:'夜幕',pinyin:'yè mù',en:'nightfall',sentence:'夏天最美是夜幕降临。',sentenceEn:'Summer is most beautiful when night falls.'},
+        {word:'闲逸',pinyin:'xián yì',en:'leisurely',sentence:'秋天闲逸的心情。',sentenceEn:'The leisurely mood of autumn.'},
+        {word:'凛冽',pinyin:'lǐn liè',en:'piercing cold',sentence:'冬天凛冽的早晨。',sentenceEn:'The piercing cold winter mornings.'},
+        {word:'静态描写',pinyin:'jìng tài miáo xiě',en:'static description',sentence:'东方一点儿一点儿泛着鱼肚色的天空。',sentenceEn:'The eastern sky gradually turning the color of a fish belly.'}
+      ],
+      grammarPoints: [
+        {point:'动静结合',pointEn:'dòng jìng jié hé',example:'combining movement and stillness',exampleEn:'明亮的月夜固然美，漆黑漆黑的暗夜也有萤火虫翩翩飞舞。',explanation:'Bright moonlit nights are beautiful, but dark nights have fireflies dancing.',explanationEn:'将动态与静态描写结合展现景色'}
+      ],
       exercises:[
         {type:"recitation",prompt:{cn:"\u53cd\u590d\u6717\u8bfb\u8bfe\u6587\uff0c\u4f53\u4f1a\u4f5c\u8005\u7b14\u4e0b\u56db\u5b63\u4e4b\u7f8e\u7684\u72ec\u7279\u97f5\u5473\u3002\u80cc\u8bf5\u8bfe\u6587\u3002",en:"Read the text repeatedly to appreciate the author\u2019s unique portrayal of each season\u2019s beauty. Recite it."}},
         {type:"analysis",prompt:{cn:"\u8bfb\u4e0b\u9762\u7684\u53e5\u5b50\uff0c\u8054\u7cfb\u4e0a\u4e0b\u6587\uff0c\u4f53\u4f1a\u5176\u4e2d\u7684\u52a8\u6001\u63cf\u5199\u3002",en:"Read the sentences below and, in context, appreciate the dynamic descriptions within them."}}
@@ -888,6 +1112,7 @@ units: [
     },
     {
       id:23, title:"\u9e1f\u7684\u5929\u5802", titleEn:"The Bird\u2019s Paradise",
+      difficulty: 4,
       text:[
         "\u6211\u4eec\u5403\u8fc7\u665a\u996d\uff0c\u70ed\u6c14\u5df2\u7ecf\u9000\u4e86\u3002\u592a\u9633\u843d\u4e0b\u4e86\u5c71\u5761\uff0c\u53ea\u7559\u4e0b\u4e00\u6bb5\u707f\u70c2\u7684\u7ea2\u971e\u5728\u5929\u8fb9\u3002",
         "\u6211\u4eec\u8d70\u8fc7\u4e00\u6bb5\u77f3\u5b50\u8def\uff0c\u5f88\u5feb\u5c31\u5230\u4e86\u6cb3\u8fb9\u3002\u6211\u4eec\u9646\u7eed\u8df3\u4e0a\u4e00\u53ea\u8239\u3002\u4e00\u4e2a\u670b\u53cb\u89e3\u5f00\u4e86\u7ef3\uff0c\u62ff\u8d77\u7af9\u7aff\u4e00\u62e8\uff0c\u8239\u7f13\u7f13\u5730\u52a8\u4e86\uff0c\u5411\u6cb3\u4e2d\u5fc3\u79fb\u53bb\u3002",
@@ -896,7 +1121,7 @@ units: [
         "\u6211\u4eec\u7684\u8239\u6e10\u6e10\u903c\u8fd1\u6995\u6811\u4e86\u3002\u6211\u6709\u673a\u4f1a\u770b\u6e05\u5b83\u7684\u771f\u9762\u76ee\uff0c\u771f\u662f\u4e00\u682a\u5927\u6811\uff0c\u679d\u5e72\u7684\u6570\u76ee\u4e0d\u53ef\u8ba1\u6570\u3002\u679d\u4e0a\u53c8\u751f\u6839\uff0c\u6709\u8bb8\u591a\u6839\u76f4\u5782\u5230\u5730\u4e0a\uff0c\u4f38\u8fdb\u6ce5\u571f\u91cc\u3002\u4e00\u90e8\u5206\u6811\u679d\u5782\u5230\u6c34\u9762\uff0c\u4ece\u8fdc\u5904\u770b\uff0c\u5c31\u50cf\u4e00\u682a\u5927\u6811\u5367\u5728\u6c34\u9762\u4e0a\u3002",
         "\u6995\u6811\u6b63\u503c\u8302\u76db\u7684\u65f6\u671f\uff0c\u597d\u50cf\u5728\u628a\u5b83\u7684\u5168\u90e8\u751f\u547d\u529b\u5c55\u793a\u7ed9\u6211\u4eec\u770b\u3002\u90a3\u4e48\u591a\u7684\u7eff\u53f6\uff0c\u4e00\u7c07\u5806\u5728\u53e6\u4e00\u7c07\u4e0a\u9762\uff0c\u4e0d\u7559\u4e00\u70b9\u513f\u7f1d\u9699\u3002\u90a3\u7fe0\u7eff\u7684\u989c\u8272\uff0c\u660e\u4eae\u5730\u7167\u8000\u7740\u6211\u4eec\u7684\u773c\u775b\uff0c\u4f3c\u4e4e\u6bcf\u4e00\u7247\u7eff\u53f6\u4e0a\u90fd\u6709\u4e00\u4e2a\u65b0\u7684\u751f\u547d\u5728\u98a4\u52a8\u3002\u8fd9\u7f8e\u4e3d\u7684\u5357\u56fd\u7684\u6811\uff01",
         "\u7b2c\u4e8c\u5929\uff0c\u6211\u4eec\u5212\u7740\u8239\u53c8\u7ecf\u8fc7\u90a3\u201c\u9e1f\u7684\u5929\u5802\u201d\u3002\u8fd9\u4e00\u6b21\u662f\u5728\u65e9\u6668\u3002\u8d77\u521d\u5468\u56f4\u662f\u9759\u5bc2\u7684\u3002\u540e\u6765\u5ffd\u7136\u8d77\u4e86\u4e00\u58f0\u9e1f\u53eb\u3002\u6211\u4eec\u628a\u624b\u4e00\u62cd\uff0c\u4fbf\u770b\u89c1\u4e00\u53ea\u5927\u9e1f\u98de\u4e86\u8d77\u6765\u3002\u63a5\u7740\u53c8\u770b\u89c1\u7b2c\u4e8c\u53ea\uff0c\u7b2c\u4e09\u53ea\u3002\u6211\u4eec\u7ee7\u7eed\u62cd\u638c\uff0c\u6811\u4e0a\u5c31\u53d8\u5f97\u70ed\u95f9\u4e86\uff0c\u5230\u5904\u90fd\u662f\u9e1f\u58f0\uff0c\u5230\u5904\u90fd\u662f\u9e1f\u5f71\u3002\u5927\u7684\uff0c\u5c0f\u7684\uff0c\u82b1\u7684\uff0c\u9ed1\u7684\uff0c\u6709\u7684\u7ad9\u5728\u6811\u679d\u4e0a\u53eb\uff0c\u6709\u7684\u98de\u8d77\u6765\uff0c\u6709\u7684\u5728\u6251\u7fc5\u8180\u3002",
-        "\u6211\u6ce8\u610f\u5730\u770b\u7740\uff0c\u773c\u775b\u5e94\u63a5\u4e0d\u6687\uff0c\u770b\u6e05\u695a\u4e86\u8fd9\u53ea\uff0c\u53c8\u9519\u8fc7\u4e86\u90a3\u53ea\uff0c\u770b\u89c1\u4e86\u90a3\u53ea\uff0c\u53e6\u4e00\u53ea\u53c8\u98de\u8d77\u6765\u4e86\u3002\u4e00\u53ea\u753b\u7709\u98de\u4e86\u51fa\u6765\uff0c\u88ab\u6211\u4eec\u7684\u638c\u58f0\u4e00\u5413\uff0c\u53c8\u98de\u8fdb\u4e86\u53f6\u4e1b\uff0c\u7ad9\u5728\u4e00\u6839\u5c0f\u679d\u4e0a\u5174\u594b\u5730\u53eb\u7740\uff0c\u90a3\u6b4c\u58f0\u771f\u597d\u542c\u3002",
+        "\u6211\u6ce8\u610f\u5730\u770b\u7740\uff0c\u773c\u775b\u5e94\u63a5\u4e0d\u669d\uff0c\u770b\u6e05\u695a\u4e86\u8fd9\u53ea\uff0c\u53c8\u9519\u8fc7\u4e86\u90a3\u53ea\uff0c\u770b\u89c1\u4e86\u90a3\u53ea\uff0c\u53e6\u4e00\u53ea\u53c8\u98de\u8d77\u6765\u4e86\u3002\u4e00\u53ea\u753b\u7709\u98de\u4e86\u51fa\u6765\uff0c\u88ab\u6211\u4eec\u7684\u638c\u58f0\u4e00\u5413\uff0c\u53c8\u98de\u8fdb\u4e86\u53f6\u4e1b\uff0c\u7ad9\u5728\u4e00\u6839\u5c0f\u679d\u4e0a\u5174\u594b\u5730\u53eb\u7740\uff0c\u90a3\u6b4c\u58f0\u771f\u597d\u542c\u3002",
         "\u5f53\u5c0f\u8239\u5411\u7740\u9ad8\u5854\u4e0b\u9762\u7684\u4e61\u6751\u5212\u53bb\u7684\u65f6\u5019\uff0c\u6211\u56de\u5934\u770b\u90a3\u88ab\u629b\u5728\u540e\u9762\u7684\u8302\u76db\u7684\u6995\u6811\u3002\u6211\u611f\u5230\u4e00\u70b9\u513f\u7559\u604b\u3002\u90a3\u201c\u9e1f\u7684\u5929\u5802\u201d\u7684\u786e\u662f\u9e1f\u7684\u5929\u5802\u554a\uff01"
       ],
       textEn:[
@@ -910,8 +1135,18 @@ units: [
         "I watched intently, my eyes overwhelmed\u2014no sooner had I focused on this one than I missed that one; I spotted that one and another took flight. A thrush flew out, startled by our clapping, and darted back into the foliage, landing on a twig and singing excitedly\u2014what a beautiful song.",
         "As our little boat headed toward the village below the tall tower, I turned to look at the lush banyan receding behind us. I felt a pang of attachment. That \u2018bird\u2019s paradise\u2019 was indeed a paradise for birds!"
       ],
-      recognizeChars:["\u6868","\u6869","\u6687"],
-      writeChars:["\u6868","\u6995","\u7ea0","\u8000","\u6869","\u6da8","\u5854","\u68a2","\u6687","\u7709","\u629b"],
+      recognizeChars:["\u6868","\u6869","\u669d"],
+      writeChars:["\u6868","\u6995","\u7ea0","\u8000","\u6869","\u6da8","\u5854","\u68a2","\u669d","\u7709","\u629b"],
+      vocabWords: [
+        {word:'天堂',pinyin:'tiān táng',en:'paradise',sentence:'那是鸟的天堂。',sentenceEn:'That is the paradise of birds.'},
+        {word:'榕树',pinyin:'róng shù',en:'banyan tree',sentence:'一株大榕树。',sentenceEn:'A great banyan tree.'},
+        {word:'茂盛',pinyin:'mào shèng',en:'luxuriant',sentence:'榕树枝叶茂盛。',sentenceEn:'The banyan tree has luxuriant branches and leaves.'},
+        {word:'应接不暇',pinyin:'yìng jiē bù xiá',en:'too many to take in',sentence:'群鸟纷飞，应接不暇。',sentenceEn:'Birds flew in all directions, too many to take in.'},
+        {word:'不可计数',pinyin:'bù kě jì shù',en:'countless',sentence:'不可计数的枝叶。',sentenceEn:'Countless branches and leaves.'}
+      ],
+      grammarPoints: [
+        {point:'点面结合',pointEn:'diǎn miàn jié hé',example:'combining detail and overview',exampleEn:'到处是鸟声，到处是鸟影……一只画眉鸟飞了出来。',explanation:'Birdsong and bird shadows everywhere... A thrush flew out.',explanationEn:'先写整体场面再聚焦个体'}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u8bf4\u8bf4\u4f5c\u8005\u4e3a\u4ec0\u4e48\u611f\u53f9\u201c\u90a3\u2018\u9e1f\u7684\u5929\u5802\u2019\u7684\u786e\u662f\u9e1f\u7684\u5929\u5802\u554a\u201d\u3002",en:"Explain why the author exclaims \u2018That bird\u2019s paradise is indeed a paradise for birds!\u2019"}},
         {type:"comparison",prompt:{cn:"\u8bfe\u6587\u5206\u522b\u63cf\u5199\u4e86\u508d\u665a\u548c\u65e9\u6668\u4e24\u6b21\u770b\u5230\u201c\u9e1f\u7684\u5929\u5802\u201d\u7684\u60c5\u666f\uff0c\u8bf4\u8bf4\u5b83\u4eec\u6709\u54ea\u4e9b\u4e0d\u540c\u7684\u7279\u70b9\u3002",en:"The text describes two visits to the \u2018bird\u2019s paradise\u2019\u2014at dusk and in the morning. Compare their different characteristics."}}
@@ -926,6 +1161,7 @@ units: [
     },
     {
       id:24, title:"\u6708\u8ff9", titleEn:"Moon Traces",
+      difficulty: 4,
       isSelfRead:true,
       text:[
         "\u6211\u4eec\u8fd9\u4e9b\u5b69\u5b50\uff0c\u4ec0\u4e48\u90fd\u89c9\u5f97\u65b0\u9c9c\uff0c\u53c8\u5e38\u5e38\u4ec0\u4e48\u90fd\u89c9\u5f97\u4e0d\u6ee1\u8db3\u3002\u4e2d\u79cb\u7684\u591c\u91cc\uff0c\u6211\u4eec\u5728\u9662\u5b50\u91cc\u76fc\u7740\u6708\u4eae\uff0c\u597d\u4e45\u5374\u4e0d\u89c1\u51fa\u6765\uff0c\u4fbf\u5750\u56de\u4e2d\u5802\u91cc\uff0c\u653e\u4e86\u7af9\u7a97\u5e18\u513f\u95f7\u7740\uff0c\u7f20\u7740\u5976\u5976\u8bf4\u6545\u4e8b\u3002",
@@ -944,6 +1180,13 @@ units: [
         "Oh, there were so many moons\u2014as long as you wanted one, there it was. We looked up at the moon in the sky, white and luminous overhead. I suddenly felt that since we had the moon, the boundless sky was ours too."
       ],
       recognizeChars:["\u6084","\u7d2f","\u8885","\u5ae6","\u5a25","\u5ac9","\u5992","\u74f7"],
+      vocabWords: [
+        {word:'月迹',pinyin:'yuè jì',en:'moon traces',sentence:'我们寻找月亮的痕迹。',sentenceEn:'We search for traces of the moon.'},
+        {word:'穿衣镜',pinyin:'chuān yī jìng',en:'dressing mirror',sentence:'月亮出现在穿衣镜上。',sentenceEn:'The moon appeared on the dressing mirror.'},
+        {word:'满盈',pinyin:'mǎn yíng',en:'brimming',sentence:'酒杯里有了一个小小的满盈的月亮。',sentenceEn:'In the wine cup there was a small, full moon.'},
+        {word:'嫉妒',pinyin:'jí dù',en:'jealous',sentence:'月亮是属于我们每个人的。',sentenceEn:'The moon belongs to each of us.'},
+        {word:'踪迹',pinyin:'zōng jì',en:'trace',sentence:'月亮的踪迹无处不在。',sentenceEn:'Traces of the moon are everywhere.'}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u6708\u4eae\u7684\u8db3\u8ff9\u90fd\u51fa\u73b0\u5728\u54ea\u91cc\u3002",en:"Read silently and say where the moon\u2019s traces appear throughout the text."}},
         {type:"appreciation",prompt:{cn:"\u628a\u4f60\u89c9\u5f97\u6709\u8da3\u7684\u5730\u65b9\u627e\u51fa\u6765\uff0c\u4f53\u4f1a\u4f5c\u8005\u7ec6\u817b\u7684\u611f\u53d7\u548c\u52a8\u4eba\u7684\u63cf\u5199\u3002",en:"Find the parts you find interesting and appreciate the author\u2019s delicate feelings and moving descriptions."}}
@@ -973,16 +1216,27 @@ units: [
   lessons:[
     {
       id:25, title:"\u53e4\u4eba\u8c08\u8bfb\u4e66", titleEn:"Ancients on Reading",
+      difficulty: 4,
       text:[
         "\u4e00\n\u77e5\u4e4b\u4e3a\u77e5\u4e4b\uff0c\u4e0d\u77e5\u4e3a\u4e0d\u77e5\uff0c\u662f\u77e5\u4e5f\u3002\n\u654f\u800c\u597d\u5b66\uff0c\u4e0d\u803b\u4e0b\u95ee\u3002\n\u9ed8\u800c\u8bc6\u4e4b\uff0c\u5b66\u800c\u4e0d\u538c\uff0c\u8bf2\u4eba\u4e0d\u5026\u3002\n\u6211\u975e\u751f\u800c\u77e5\u4e4b\u8005\uff0c\u597d\u53e4\uff0c\u654f\u4ee5\u6c42\u4e4b\u8005\u4e5f\u3002\n\u5b66\u5982\u4e0d\u53ca\uff0c\u72b9\u6050\u5931\u4e4b\u3002\n\u543e\u5c1d\u7ec8\u65e5\u4e0d\u98df\uff0c\u7ec8\u591c\u4e0d\u5bdd\uff0c\u4ee5\u601d\uff0c\u65e0\u76ca\uff0c\u4e0d\u5982\u5b66\u4e5f\u3002\n\u2014\u2014\u300a\u8bba\u8bed\u300b",
         "\u4e8c\n\u4f59\u5c1d\u8c13\u8bfb\u4e66\u6709\u4e09\u5230\uff0c\u8c13\u5fc3\u5230\u3001\u773c\u5230\u3001\u53e3\u5230\u3002\u5fc3\u4e0d\u5728\u6b64\uff0c\u5219\u773c\u4e0d\u770b\u4ed4\u7ec6\uff0c\u5fc3\u773c\u65e2\u4e0d\u4e13\u4e00\uff0c\u5374\u53ea\u6f2b\u6d6a\u8bf5\u8bfb\uff0c\u51b3\u4e0d\u80fd\u8bb0\uff0c\u8bb0\u4ea6\u4e0d\u80fd\u4e45\u4e5f\u3002\u4e09\u5230\u4e4b\u4e2d\uff0c\u5fc3\u5230\u6700\u6025\u3002\u5fc3\u65e2\u5230\u77e3\uff0c\u773c\u53e3\u5c82\u4e0d\u5230\u4e4e\uff1f\n\u2014\u2014[\u5b8b]\u6731\u7199"
       ],
       textEn:[
-        "Part I\nTo know what you know and to know what you do not know\u2014that is wisdom.\nBe quick to learn and not ashamed to ask those below you.\nSilently store up knowledge, study without satiety, teach without weariness.\nI was not born knowing; I am simply fond of the past and diligent in seeking it.\nPursue learning as though you cannot catch up, and fear losing what you have.\nI once spent a whole day without eating and a whole night without sleeping, just thinking\u2014it was useless; better to study.\n\u2014 The Analerta",
+        "Part I\nTo know what you know and to know what you do not know\u2014that is wisdom.\nBe quick to learn and not ashamed to ask those below you.\nSilently store up knowledge, study without satiety, teach without weariness.\nI was not born knowing; I am simply fond of the past and diligent in seeking it.\nPursue learning as though you cannot catch up, and fear losing what you have.\nI once spent a whole day without eating and a whole night without sleeping, just thinking\u2014it was useless; better to study.\n\u2014 The Analects",
         "Part II\nI once said that reading requires three arrivals: the arrival of the mind, the eye, and the mouth. If the mind is not present, the eyes will not read carefully; when mind and eyes lack focus, one merely recites carelessly and certainly cannot remember, or if one does, not for long. Of the three, the mind\u2019s arrival is most crucial. Once the mind has arrived, how could the eyes and mouth not follow?\n\u2014 Zhu Xi (Song Dynasty)"
       ],
       recognizeChars:["\u803b","\u8bc6","\u5bdd","\u77e3","\u5c82"],
       writeChars:["\u803b","\u8bf2","\u8c13","\u8bf5","\u5c82"],
+      vocabWords: [
+        {word:'论语',pinyin:'lún yǔ',en:'The Analects',sentence:'知之为知之，不知为不知，是知也。',sentenceEn:'To know what you know and know what you do not know — that is true knowledge.'},
+        {word:'朱熹',pinyin:'zhū xī',en:'Zhu Xi',sentence:'读书有三到：心到、眼到、口到。',sentenceEn:'Reading requires three arrivals: mind, eyes, and mouth.'},
+        {word:'好学',pinyin:'hào xué',en:'love learning',sentence:'敏而好学，不耻下问。',sentenceEn:'Quick to learn, not ashamed to ask those below.'},
+        {word:'诵读',pinyin:'sòng dú',en:'recite',sentence:'漫浪诵读，决不能记。',sentenceEn:'Reading carelessly, one can never remember.'},
+        {word:'专一',pinyin:'zhuān yī',en:'focused',sentence:'心眼既不专一，却只漫浪诵读。',sentenceEn:'If mind and eyes are not focused, one only reads carelessly.'}
+      ],
+      grammarPoints: [
+        {point:'文言文阅读',pointEn:'wén yán wén yuè dú',example:'classical Chinese reading',exampleEn:'知之为知之，不知为不知，是知也。',explanation:'To know what you know and not what you do not — that is wisdom.',explanationEn:'借助注释理解文言文大意'}
+      ],
       exercises:[
         {type:"recitation",prompt:{cn:"\u6b63\u786e\u3001\u6d41\u5229\u5730\u6717\u8bfb\u8bfe\u6587\u3002\u80cc\u8bf5\u8bfe\u6587\u3002",en:"Read aloud correctly and fluently. Recite from memory."}},
         {type:"comprehension",prompt:{cn:"\u501f\u52a9\u6ce8\u91ca\uff0c\u7528\u81ea\u5df1\u7684\u8bdd\u8bf4\u8bf4\u8bfe\u6587\u7684\u5927\u610f\u3002\u8054\u7cfb\u81ea\u5df1\u7684\u8bfb\u4e66\u4f53\u4f1a\uff0c\u8bf4\u8bf4\u54ea\u4e9b\u5185\u5bb9\u5bf9\u4f60\u6709\u542f\u53d1\u3002",en:"Using the annotations, explain the text in your own words. Connect to your own reading experience and say which parts inspire you."}}
@@ -997,6 +1251,7 @@ units: [
     },
     {
       id:26, title:"\u5fc6\u8bfb\u4e66", titleEn:"Remembering Reading",
+      difficulty: 4,
       text:[
         "\u4e00\u8c08\u5230\u8bfb\u4e66\uff0c\u6211\u7684\u8bdd\u5c31\u591a\u4e86\uff01\u6211\u4f1a\u8ba4\u5b57\u540e\u4e0d\u5230\u51e0\u5e74\uff0c\u5c31\u5f00\u59cb\u8bfb\u4e66\u3002\u5012\u4e0d\u662f\u56db\u5c81\u65f6\u8bfb\u6bcd\u4eb2\u6559\u7ed9\u6211\u7684\u56fd\u6587\u6559\u79d1\u4e66\uff0c\u800c\u662f\u4e03\u5c81\u65f6\u5f00\u59cb\u81ea\u5df1\u8bfb\u300a\u4e09\u56fd\u6f14\u4e49\u300b\u3002",
         "\u90a3\u65f6\uff0c\u6211\u7684\u8205\u7236\u6bcf\u5929\u665a\u996d\u540e\uff0c\u5fc5\u7ed9\u6211\u4eec\u51e0\u4e2a\u8868\u5144\u59b9\u8bb2\u4e00\u6bb5\u300a\u4e09\u56fd\u6f14\u4e49\u300b\uff0c\u6211\u542c\u5f97\u6d25\u6d25\u6709\u5473\u3002\u4f46\u662f\u4ed6\u8bb2\u4e86\u534a\u4e2a\u949f\u5934\uff0c\u5c31\u505c\u4e0b\u53bb\u5e72\u4ed6\u7684\u516c\u4e8b\u4e86\u3002\u6211\u53ea\u597d\u5e26\u7740\u5bf9\u6545\u4e8b\u4e0b\u6587\u7684\u65e0\u9650\u671f\u5f85\uff0c\u5728\u6bcd\u4eb2\u7684\u50ac\u4fc3\u4e0b\u542b\u6cea\u4e0a\u5e8a\u3002",
@@ -1017,6 +1272,13 @@ units: [
       ],
       recognizeChars:["\u8205","\u5bb4","\u65a9","\u51ef","\u845b","\u6d52","\u4f20","\u9c81","\u717d","\u5bc7","\u8d3e","\u5377","\u520a","\u7410","\u6829","\u5455","\u67d0"],
       writeChars:["\u8205","\u6d25","\u65a9","\u9650","\u51ef","\u845b","\u8ff0","\u8d3e","\u8870","\u520a","\u7410","\u6734","\u67d0"],
+      vocabWords: [
+        {word:'读书',pinyin:'dú shū',en:'reading',sentence:'一谈到读书，我的话就多了！',sentenceEn:'When it comes to reading, I have so much to say!'},
+        {word:'津津有味',pinyin:'jīn jīn yǒu wèi',en:'with great relish',sentence:'我听得津津有味。',sentenceEn:'I listened with great relish.'},
+        {word:'一知半解',pinyin:'yī zhī bàn jiě',en:'half understanding',sentence:'自己一知半解地读了起来。',sentenceEn:'I started reading with only a half understanding.'},
+        {word:'总而言之',pinyin:'zǒng ér yán zhī',en:'in summary',sentence:'总而言之，读书好。',sentenceEn:'In summary, reading is good.'},
+        {word:'质朴',pinyin:'zhì pǔ',en:'simple and natural',sentence:'冰心的文字质朴而深刻。',sentenceEn:'Bing Xin writes simply yet profoundly.'}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u7528\u8f83\u5feb\u7684\u901f\u5ea6\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u4f5c\u8005\u56de\u5fc6\u4e86\u81ea\u5df1\u8bfb\u4e66\u7684\u54ea\u4e9b\u7ecf\u5386\uff0c\u5979\u8ba4\u4e3a\u4ec0\u4e48\u6837\u7684\u4e66\u624d\u662f\u597d\u4e66\u3002",en:"Read quickly and say what reading experiences the author recalls and what she considers a good book."}},
         {type:"discussion",prompt:{cn:"\u7ed3\u5408\u81ea\u5df1\u7684\u8bfb\u4e66\u7ecf\u5386\uff0c\u8c08\u8c08\u4f60\u5bf9\u201c\u6211\u6c38\u8fdc\u611f\u5230\u8bfb\u4e66\u662f\u6211\u751f\u547d\u4e2d\u6700\u5927\u7684\u5feb\u4e50\u201d\u8fd9\u53e5\u8bdd\u7684\u4f53\u4f1a\u3002",en:"Share your thoughts on \u2018I always feel reading is my life\u2019s greatest joy,\u2019 drawing from your own reading experiences."}}
@@ -1031,6 +1293,7 @@ units: [
     },
     {
       id:27, title:"\u6211\u7684\u201c\u957f\u751f\u679c\u201d", titleEn:"My \u2018Elixir of Life\u2019",
+      difficulty: 4,
       isSelfRead:true,
       text:[
         "\u4e66\uff0c\u88ab\u4eba\u4eec\u79f0\u4e3a\u4eba\u7c7b\u6587\u660e\u7684\u201c\u957f\u751f\u679c\u201d\u3002\u8fd9\u4e2a\u6bd4\u55bb\uff0c\u6211\u89c9\u5f97\u7279\u522b\u4eb2\u5207\u3002",
@@ -1053,6 +1316,13 @@ units: [
         "From that, I learned another lesson: writing must convey genuine feeling; practice may begin with borrowing and imitating, but what truly moves people must be your own heartfelt creation."
       ],
       recognizeChars:["\u55bb","\u5dee","\u763e","\u5954","\u7c4d","\u9965","\u511f","\u7538","\u9988","\u78c1","\u59d4","\u9175","\u768e","\u9274","\u6ca5"],
+      vocabWords: [
+        {word:'长生果',pinyin:'cháng shēng guǒ',en:'elixir of life',sentence:'书被称为我的长生果。',sentenceEn:'Books are called my elixir of life.'},
+        {word:'如饥似渴',pinyin:'rú jī sì kě',en:'thirstily; eagerly',sentence:'我如饥似渴地读着每一本书。',sentenceEn:'I read every book eagerly.'},
+        {word:'心扉',pinyin:'xīn fēi',en:'heart',sentence:'书打开了我的心扉。',sentenceEn:'Books opened my heart.'},
+        {word:'馈赠',pinyin:'kuì zèng',en:'gift',sentence:'读书带给我丰厚的馈赠。',sentenceEn:'Reading brought me generous gifts.'},
+        {word:'真情实感',pinyin:'zhēn qíng shí gǎn',en:'true feelings',sentence:'作文要写出真情实感。',sentenceEn:'Writing should express true feelings.'}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u7528\u8f83\u5feb\u7684\u901f\u5ea6\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u4f5c\u8005\u8bfb\u8fc7\u54ea\u4e9b\u7c7b\u578b\u7684\u4e66\uff0c\u4ece\u7ae5\u5e74\u8bfb\u4e66\u3001\u4f5c\u6587\u4e2d\u609f\u51fa\u4e86\u54ea\u4e9b\u9053\u7406\u3002",en:"Read quickly and say what types of books the author read and what lessons she drew from childhood reading and writing."}}
       ],
