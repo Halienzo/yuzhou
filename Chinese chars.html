@@ -2670,36 +2670,10 @@ body>*:not(.hw-print-sheet){display:none!important}
 .dark .sb-lesson-card{background:var(--ink2);border-color:var(--ink3)}.dark .sb-question{background:var(--ink2);border-color:var(--ink3)}
 .dark .sb-stance{background:var(--ink2);border-color:var(--ink3);color:var(--rice)}.dark .sb-stance:hover{border-color:var(--blue)}
 .dark .sb-tier-observe{background:rgba(46,125,50,.15);color:#81c784}.dark .sb-tier-reason{background:rgba(21,101,192,.15);color:#64b5f6}.dark .sb-tier-argue{background:rgba(123,31,162,.15);color:#ce93d8}
-/* ═══════════════════════════════════════════════════════════ */
-/*  MOBILE/TABLET OPTIMIZATION — Comprehensive Touch UI      */
-/* ═══════════════════════════════════════════════════════════ */
+/* ─── Mobile/Tablet Optimization ─── */
 *{-webkit-tap-highlight-color:transparent}
-/* Safe area insets for notched phones */
-@supports(padding:env(safe-area-inset-top)){
-  .topbar{padding-top:max(10px,env(safe-area-inset-top));padding-left:max(10px,env(safe-area-inset-left));padding-right:max(10px,env(safe-area-inset-right))}
-  .content{padding-bottom:max(16px,env(safe-area-inset-bottom))}
-  .sidebar{padding-top:env(safe-area-inset-top)}
-  .mob-nav{padding-bottom:env(safe-area-inset-bottom)}
-}
-/* === Mobile Bottom Navigation Bar === */
-.mob-nav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:98;
-  background:#fff;border-top:1px solid var(--rice3);box-shadow:0 -2px 12px rgba(0,0,0,.08);
-  padding:4px 0 2px}
-.mob-nav-inner{display:flex;justify-content:space-around;align-items:center;max-width:500px;margin:0 auto}
-.mob-nav-btn{display:flex;flex-direction:column;align-items:center;gap:1px;padding:6px 4px;
-  min-width:52px;border:none;background:none;cursor:pointer;color:var(--ink3);font-size:10px;
-  transition:color .15s;-webkit-tap-highlight-color:transparent;border-radius:8px}
-.mob-nav-btn .mob-icon{font-size:20px;line-height:1}
-.mob-nav-btn.active{color:var(--blue)}
-.mob-nav-btn:active{background:var(--rice2)}
-body.dark .mob-nav{background:var(--ink);border-color:var(--ink3);box-shadow:0 -2px 12px rgba(0,0,0,.3)}
-body.dark .mob-nav-btn{color:var(--ink4)}
-body.dark .mob-nav-btn.active{color:var(--gold2)}
-body.dark .mob-nav-btn:active{background:var(--ink2)}
-/* === ≤900px: Tablet + Phone === */
 @media(max-width:900px){
-  input,select,textarea{font-size:16px}
-  /* Touch targets — minimum 44px */
+  input,select,button{font-size:16px}
   .rail-icon{width:44px;height:44px;font-size:17px}
   .rail-logo{width:44px;height:44px;font-size:18px}
   .menu-toggle{width:44px;height:44px}
@@ -2708,92 +2682,24 @@ body.dark .mob-nav-btn:active{background:var(--ink2)}
   .exam-pill{min-width:44px;min-height:44px;font-size:13px}
   .char-btn,.related-char{min-width:44px;min-height:44px}
   .icon-rail{width:48px;min-width:48px}
-  .ctrl-btn{min-height:36px;padding:6px 12px;font-size:13px}
-  .tool-btn{min-height:40px;padding:8px 12px}
-  .grade-tab{min-height:40px;padding:8px 14px}
-  .pnav-item{padding:12px 14px;min-height:44px}
-  .rv-cat-hd{padding:12px 12px;min-height:44px}
-  .gr-filter-btn{padding:8px 14px;min-height:40px}
-  .mj-sprint-check{width:36px;height:36px}
-  /* Enlarge small fonts */
-  .en{font-size:12px}
-  .panel-header .en{font-size:10px}
-  .stat-lbl,.rv-stat-lbl,.home-stat-lbl{font-size:11px}
-  .rv-cat-hd .rv-cnt,.rv-cat-hd .en,.pnav-item .pnav-en{font-size:10px}
-  .cmd-kbd{font-size:11px}
-  .panel-grade-label{font-size:10px}
-  /* Bottom nav visible on phone */
-  .mob-nav{display:block}
-  .content{padding-bottom:68px}
-  /* Topbar compact */
-  .topbar{padding:8px 12px}
-  .toolbar{padding:4px 8px;gap:4px;flex-wrap:wrap}
-  .tool-btn{font-size:13px}
-  .breadcrumb{font-size:11px;max-width:50vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .breadcrumb .en{display:none}
-  /* Overlays — full-width on phone */
-  .grp-popup{max-width:100%;width:98%;border-radius:var(--r-md) var(--r-md) 0 0}
-  .grp-overlay{padding:0;align-items:flex-end}
-  .char-explorer{width:100%;max-width:100%;border-radius:var(--r-md) var(--r-md) 0 0;max-height:92vh}
-  .char-explorer-overlay{align-items:flex-end}
-  .rv-detail-popup{width:100%;max-width:100%;border-radius:var(--r-md) var(--r-md) 0 0}
-  .rv-detail-overlay{align-items:flex-end;padding:0}
-  /* Tables scrollable — wrapper class only, not global */
-  /* Welcome page */
-  .welcome{padding:40px 16px}
-  .welcome h2{font-size:22px}
-  .stats-row{flex-wrap:wrap;gap:10px}
 }
-/* === ≤640px: Phone === */
-@media(max-width:640px){
-  .game-area{min-height:250px;max-height:60vh;overflow-y:auto}
-  .game-hud{padding:8px 12px;font-size:12px;flex-wrap:wrap;gap:8px}
-  .game-card{padding:12px}
-  .content{padding:12px 10px 68px}
-  .home-grid-header h2{font-size:22px}
-  .home-grid{gap:10px}
-  .home-tile{padding:14px 6px}
-  .home-tile-icon{font-size:26px}
-  .home-tile-name{font-size:12px}
-  /* Pinyin/Grammar compact */
-  .py-card{padding:12px 10px}
-  .gr-card{padding:12px 10px}
-  /* Splash */
-  .splash-sky{width:200px;height:200px}
-  .splash-cn{font-size:2.2em;letter-spacing:4px}
-  .splash-en{font-size:11px}
-  .splash-skip{bottom:16px;right:16px;font-size:14px;padding:10px 16px}
-  /* Sidebar overlay full */
-  .sidebar{max-width:85vw}
-  /* Exam/XCSC/ZK */
-  .zk-header h2,.xcsc-header h2{font-size:16px}
-  /* Analysis accordion */
-  .an-section-hd{padding:12px 10px;font-size:14px}
-  /* Reading text slightly larger for readability */
-  .tb-text-line{font-size:16px;line-height:1.9}
-}
-/* === ≤400px: Tiny Phone === */
-@media(max-width:400px){
-  .side-panel.open{width:170px}
-  .sidebar.open{max-width:calc(48px + 170px)}
-  .home-grid{grid-template-columns:repeat(2,1fr)}
-  .content{padding:8px 6px 68px}
-  .topbar{padding:6px 8px}
-  .mob-nav-btn{min-width:44px;font-size:9px}
-  .mob-nav-btn .mob-icon{font-size:18px}
-}
-/* === Landscape on phone === */
 @media(orientation:landscape) and (max-height:500px){
-  .content{padding:8px 12px 52px}
-  .mob-nav{padding:2px 0}
-  .mob-nav-btn{padding:3px 4px}
-  .mob-nav-btn .mob-icon{font-size:16px}
+  .content{padding:12px}
   .game-area{min-height:200px;max-height:80vh}
   .mizi{width:160px;height:160px}
   .zk-header h2,.xcsc-header h2{font-size:16px}
   .welcome{padding:30px 20px}
   .splash-sky{width:200px;height:200px}
   .splash{animation-delay:3s}
+}
+@media(max-width:640px){
+  .game-area{min-height:250px;max-height:60vh;overflow-y:auto}
+  .game-hud{padding:8px 12px;font-size:12px;flex-wrap:wrap;gap:8px}
+  .game-card{padding:12px}
+}
+@media(max-width:400px){
+  .side-panel.open{width:170px}
+  .sidebar.open{max-width:calc(48px + 170px)}
 }
 /* ══ Writing Technique Annotations 写作手法标注 ══ */
 .wt-ann{cursor:pointer;border-radius:3px;transition:background .2s,box-shadow .2s;padding:0 1px}
@@ -3194,17 +3100,6 @@ body.dark .wt-cat-H{background:rgba(224,85,69,.28)}
 <div class="char-explorer-overlay" id="charExplorerOverlay" onclick="if(event.target===this)closeCharExplorer()">
 <div class="char-explorer" id="charExplorer"></div>
 </div>
-<!-- Mobile Bottom Navigation -->
-<nav class="mob-nav" id="mobNav">
-<div class="mob-nav-inner">
-<button class="mob-nav-btn active" onclick="mobNav('home')" data-v="home"><span class="mob-icon">🏠</span>首页</button>
-<button class="mob-nav-btn" onclick="mobNav('textbook')" data-v="textbook"><span class="mob-icon">📚</span>教材</button>
-<button class="mob-nav-btn" onclick="mobNav('review')" data-v="review"><span class="mob-icon">🔄</span>复习</button>
-<button class="mob-nav-btn" onclick="mobNav('practice')" data-v="practice"><span class="mob-icon">💪</span>练习</button>
-<button class="mob-nav-btn" onclick="openCmdPalette()" data-v="search"><span class="mob-icon">🔍</span>搜索</button>
-<button class="mob-nav-btn" onclick="mobMore()" data-v="more"><span class="mob-icon">☰</span>更多</button>
-</div>
-</nav>
 </div>
 
 <!-- HSK Character Index — loaded before main script for getCharDetail() / search -->
@@ -7162,43 +7057,7 @@ function renderSRSWidget(){
 }
 
 function updStats(){document.getElementById('progressText').textContent='已学 Learned: '+S.learned.size;}
-function toggleSidebar(){var sb=document.getElementById('sidebar');sb.classList.toggle('open');document.getElementById('overlay').classList.toggle('show');}
-function closeSidebar(){var sb=document.getElementById('sidebar');if(sb.classList.contains('open')){sb.classList.remove('open');document.getElementById('overlay').classList.remove('show');}}
-
-/* ═══════════ Touch Gestures ═══════════ */
-(function(){
-  var _tx=0,_ty=0,_swiping=false;
-  document.addEventListener('touchstart',function(e){
-    _tx=e.touches[0].clientX;_ty=e.touches[0].clientY;_swiping=true;
-  },{passive:true});
-  document.addEventListener('touchend',function(e){
-    if(!_swiping)return;_swiping=false;
-    var dx=e.changedTouches[0].clientX-_tx;
-    var dy=e.changedTouches[0].clientY-_ty;
-    if(Math.abs(dx)<60||Math.abs(dy)>Math.abs(dx)*0.7)return;
-    var sb=document.getElementById('sidebar');
-    if(dx>0&&_tx<40&&!sb.classList.contains('open')){toggleSidebar();}
-    else if(dx<0&&sb.classList.contains('open')){closeSidebar();}
-  },{passive:true});
-})();
-
-/* ═══════════ Mobile Bottom Navigation ═══════════ */
-function mobNav(v){
-  if(v==='more'){mobMore();return;}
-  closeSidebar();
-  navigateTo(v);
-  _mobUpdateActive(v);
-}
-function _mobUpdateActive(v){
-  var btns=document.querySelectorAll('.mob-nav-btn');
-  btns.forEach(function(b){b.classList.toggle('active',b.getAttribute('data-v')===v);});
-}
-function mobMore(){
-  /* Open sidebar to show all modules */
-  var sb=document.getElementById('sidebar');
-  if(!sb.classList.contains('open')){toggleSidebar();}
-}
-/* mob-nav active state synced via navigateTo() */
+function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('show');}
 
 /* ═══════════ Review Module ═══════════ */
 let RV=null; // will hold REVIEW_DATA after loading
