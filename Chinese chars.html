@@ -49,7 +49,7 @@ var HanziWriter=function(){"use strict";var t;const e="undefined"==typeof window
 --dur-fast:120ms;--dur-normal:250ms;--dur-slow:400ms}
 html,body{height:100%;overflow:hidden;font-family:var(--font-cn);background:var(--rice);color:var(--ink)}
 .en{font-family:var(--font-en);color:var(--ink3);font-size:11px;font-weight:400;letter-spacing:0.3px}
-.app{display:flex;height:100vh;height:100dvh}
+.app{display:flex;height:100vh}
 /* === Icon Rail + Side Panel Sidebar === */
 .sidebar{width:auto;min-width:var(--rail-w);background:var(--ink);color:#fff;display:flex;flex-direction:row;overflow:hidden;z-index:10}
 .icon-rail{width:var(--rail-w);min-width:var(--rail-w);display:flex;flex-direction:column;align-items:center;padding:6px 0;background:linear-gradient(180deg,#1a3040 0%,#162832 100%);border-right:1px solid rgba(255,255,255,0.06);gap:1px;overflow-y:auto;overflow-x:hidden}
@@ -2673,9 +2673,7 @@ body>*:not(.hw-print-sheet){display:none!important}
 /* ═══════════════════════════════════════════════════════════ */
 /*  MOBILE/TABLET OPTIMIZATION — Comprehensive Touch UI      */
 /* ═══════════════════════════════════════════════════════════ */
-*{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}
-html{height:-webkit-fill-available}
-.app{min-height:100vh;min-height:-webkit-fill-available;min-height:100dvh}
+*{-webkit-tap-highlight-color:transparent}
 /* Safe area insets for notched phones */
 @supports(padding:env(safe-area-inset-top)){
   .topbar{padding-top:max(10px,env(safe-area-inset-top));padding-left:max(10px,env(safe-area-inset-left));padding-right:max(10px,env(safe-area-inset-right))}
@@ -2700,7 +2698,7 @@ body.dark .mob-nav-btn.active{color:var(--gold2)}
 body.dark .mob-nav-btn:active{background:var(--ink2)}
 /* === ≤900px: Tablet + Phone === */
 @media(max-width:900px){
-  input,select,button,textarea{font-size:16px!important}
+  input,select,textarea{font-size:16px}
   /* Touch targets — minimum 44px */
   .rail-icon{width:44px;height:44px;font-size:17px}
   .rail-logo{width:44px;height:44px;font-size:18px}
@@ -2740,9 +2738,7 @@ body.dark .mob-nav-btn:active{background:var(--ink2)}
   .char-explorer-overlay{align-items:flex-end}
   .rv-detail-popup{width:100%;max-width:100%;border-radius:var(--r-md) var(--r-md) 0 0}
   .rv-detail-overlay{align-items:flex-end;padding:0}
-  /* Tables scrollable */
-  table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-  table tbody,table thead{display:table;width:100%}
+  /* Tables scrollable — wrapper class only, not global */
   /* Welcome page */
   .welcome{padding:40px 16px}
   .welcome h2{font-size:22px}
@@ -7202,31 +7198,7 @@ function mobMore(){
   var sb=document.getElementById('sidebar');
   if(!sb.classList.contains('open')){toggleSidebar();}
 }
-/* Hook into navigateTo to sync mob-nav active state */
-var _origNavigateTo=typeof navigateTo==='function'?navigateTo:null;
-/* Monkey-patch navigateTo via a post-hook instead (safe) */
-(function(){
-  var _navTimer=null;
-  var _obs=new MutationObserver(function(){
-    clearTimeout(_navTimer);
-    _navTimer=setTimeout(function(){
-      /* Detect current view from VIEWS */
-      var found='home';
-      var btns=document.querySelectorAll('.mob-nav-btn');
-      var views=['home','textbook','review','practice'];
-      for(var i=0;i<views.length;i++){
-        var el=document.getElementById(views[i]==='home'?'homeView':views[i]+'View');
-        if(el&&el.style.display!=='none'&&el.innerHTML!==''){found=views[i];break;}
-      }
-      btns.forEach(function(b){
-        var v=b.getAttribute('data-v');
-        b.classList.toggle('active',v===found);
-      });
-    },100);
-  });
-  var content=document.querySelector('.content');
-  if(content)_obs.observe(content,{childList:true,subtree:true,attributes:true,attributeFilter:['style']});
-})();
+/* mob-nav active state synced via navigateTo() */
 
 /* ═══════════ Review Module ═══════════ */
 let RV=null; // will hold REVIEW_DATA after loading
