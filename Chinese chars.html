@@ -2670,10 +2670,29 @@ body>*:not(.hw-print-sheet){display:none!important}
 .dark .sb-lesson-card{background:var(--ink2);border-color:var(--ink3)}.dark .sb-question{background:var(--ink2);border-color:var(--ink3)}
 .dark .sb-stance{background:var(--ink2);border-color:var(--ink3);color:var(--rice)}.dark .sb-stance:hover{border-color:var(--blue)}
 .dark .sb-tier-observe{background:rgba(46,125,50,.15);color:#81c784}.dark .sb-tier-reason{background:rgba(21,101,192,.15);color:#64b5f6}.dark .sb-tier-argue{background:rgba(123,31,162,.15);color:#ce93d8}
-/* ─── Mobile/Tablet Optimization ─── */
+/* ═══════════════════════════════════════════════════════════ */
+/*  MOBILE/TABLET OPTIMIZATION                               */
+/* ═══════════════════════════════════════════════════════════ */
 *{-webkit-tap-highlight-color:transparent}
+/* Mobile bottom nav bar */
+.mob-nav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:98;
+  background:#fff;border-top:1px solid var(--rice3);box-shadow:0 -2px 10px rgba(0,0,0,.06);
+  padding:4px 0 2px}
+.mob-nav-inner{display:flex;justify-content:space-around;align-items:center;max-width:480px;margin:0 auto}
+.mob-nav-btn{display:flex;flex-direction:column;align-items:center;gap:1px;padding:6px 4px;
+  min-width:48px;border:none;background:none;cursor:pointer;color:var(--ink3);font-size:10px;
+  border-radius:8px;font-family:var(--font-cn)}
+.mob-nav-btn .mob-icon{font-size:20px;line-height:1}
+.mob-nav-btn.active{color:var(--blue)}
+.mob-nav-btn:active{background:var(--rice2)}
+body.dark .mob-nav{background:var(--ink);border-color:var(--ink3);box-shadow:0 -2px 10px rgba(0,0,0,.3)}
+body.dark .mob-nav-btn{color:var(--ink4)}
+body.dark .mob-nav-btn.active{color:var(--gold2)}
+body.dark .mob-nav-btn:active{background:var(--ink2)}
+/* === Tablet + Phone (<=900px) === */
 @media(max-width:900px){
-  input,select,button{font-size:16px}
+  input,select,button,textarea{font-size:16px}
+  /* Touch targets — minimum 44px */
   .rail-icon{width:44px;height:44px;font-size:17px}
   .rail-logo{width:44px;height:44px;font-size:18px}
   .menu-toggle{width:44px;height:44px}
@@ -2682,20 +2701,63 @@ body>*:not(.hw-print-sheet){display:none!important}
   .exam-pill{min-width:44px;min-height:44px;font-size:13px}
   .char-btn,.related-char{min-width:44px;min-height:44px}
   .icon-rail{width:48px;min-width:48px}
+  .ctrl-btn{min-height:36px;padding:6px 12px}
+  .tool-btn{min-height:40px;padding:8px 12px}
+  .grade-tab{min-height:40px;padding:8px 14px}
+  .pnav-item{padding:12px 14px;min-height:44px}
+  .rv-cat-hd{padding:12px 12px;min-height:44px}
+  /* Show mobile bottom nav */
+  .mob-nav{display:block}
+  .content{padding-bottom:68px}
+  /* Topbar compact */
+  .topbar{padding:8px 12px}
+  .toolbar{padding:4px 8px;gap:4px;flex-wrap:wrap}
+  .breadcrumb{font-size:11px;max-width:55vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .breadcrumb .en{display:none}
+  /* Overlays full-width on phone */
+  .grp-popup{max-width:100%;width:98%;border-radius:var(--r-md) var(--r-md) 0 0}
+  .grp-overlay{padding:0;align-items:flex-end}
+  .char-explorer{width:100%;max-width:100%;border-radius:var(--r-md) var(--r-md) 0 0;max-height:92vh}
+  .char-explorer-overlay{align-items:flex-end}
+  .rv-detail-popup{width:100%;max-width:100%;border-radius:var(--r-md) var(--r-md) 0 0}
+  .rv-detail-overlay{align-items:flex-end;padding:0}
+  /* Tables scrollable */
+  table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+  table tbody,table thead{display:table;width:100%}
 }
+/* === Phone (<=640px) === */
+@media(max-width:640px){
+  .game-area{min-height:250px;max-height:60vh;overflow-y:auto}
+  .game-hud{padding:8px 12px;font-size:12px;flex-wrap:wrap;gap:8px}
+  .game-card{padding:12px}
+  .content{padding:12px 10px 68px}
+  .home-grid{gap:10px}
+  .home-tile{padding:14px 6px}
+  .home-tile-icon{font-size:26px}
+  .home-tile-name{font-size:12px}
+  .sidebar{max-width:85vw}
+  .splash-sky{width:200px;height:200px}
+  .splash-skip{bottom:16px;right:16px;font-size:14px;padding:10px 16px}
+}
+/* === Tiny Phone (<=400px) === */
+@media(max-width:400px){
+  .side-panel.open{width:170px}
+  .sidebar.open{max-width:calc(48px + 170px)}
+  .home-grid{grid-template-columns:repeat(2,1fr)}
+  .content{padding:8px 6px 68px}
+}
+/* === Landscape phone === */
 @media(orientation:landscape) and (max-height:500px){
-  .content{padding:12px}
+  .content{padding:8px 12px 52px}
+  .mob-nav{padding:2px 0}
+  .mob-nav-btn{padding:3px 4px}
+  .mob-nav-btn .mob-icon{font-size:16px}
   .game-area{min-height:200px;max-height:80vh}
   .mizi{width:160px;height:160px}
   .zk-header h2,.xcsc-header h2{font-size:16px}
   .welcome{padding:30px 20px}
   .splash-sky{width:200px;height:200px}
   .splash{animation-delay:3s}
-}
-@media(max-width:640px){
-  .game-area{min-height:250px;max-height:60vh;overflow-y:auto}
-  .game-hud{padding:8px 12px;font-size:12px;flex-wrap:wrap;gap:8px}
-  .game-card{padding:12px}
 }
 @media(max-width:400px){
   .side-panel.open{width:170px}
@@ -2727,7 +2789,7 @@ body.dark .wt-cat-H{background:rgba(224,85,69,.28)}
 </style>
 </head>
 <body>
-<div id="splash" class="splash">
+<div id="splash" class="splash" onclick="closeSplash()" ontouchend="closeSplash()">
 <div class="splash-sky">
 <div class="splash-star s1">📚</div>
 <div class="splash-star s2">📖</div>
@@ -5937,19 +5999,20 @@ function renderZkStats(){
 
 /* Init */
 /* ─── Splash Screen ─── */
-function closeSplash(){var s=document.getElementById('splash');if(s){s.style.display='none';}sessionStorage.setItem('splashSeen','1');}
+function closeSplash(){var s=document.getElementById('splash');if(s){s.style.pointerEvents='none';s.style.display='none';try{s.remove();}catch(e){}}sessionStorage.setItem('splashSeen','1');}
 
 function init(){
-/* Splash: skip if already seen */
-if(sessionStorage.getItem('splashSeen')){var sp=document.getElementById('splash');if(sp)sp.style.display='none';}
-else{setTimeout(closeSplash,5800);}
-renderGT();selG(1);
-document.getElementById('speedSlider').addEventListener('input',e=>{const v=parseFloat(e.target.value);document.getElementById('speedLbl').textContent=v>=5?'\u26A1':''+v.toFixed(1)+'x';});
-checkReview();renderSRSWidget();
+/* Splash: skip if already seen — use remove() for reliable mobile clearing */
+if(sessionStorage.getItem('splashSeen')){var sp=document.getElementById('splash');if(sp){sp.style.display='none';try{sp.remove();}catch(e){}}}
+else{setTimeout(closeSplash,5800);/* Also set inline pointer-events as CSS animation fallback */var _sp=document.getElementById('splash');if(_sp){setTimeout(function(){if(_sp)_sp.style.pointerEvents='none';},5200);}}
+try{renderGT();selG(1);}catch(e){console.warn('init renderGT/selG:',e);}
+try{document.getElementById('speedSlider').addEventListener('input',e=>{const v=parseFloat(e.target.value);document.getElementById('speedLbl').textContent=v>=5?'\u26A1':''+v.toFixed(1)+'x';});}catch(e){}
+try{checkReview();renderSRSWidget();}catch(e){console.warn('init review:',e);}
 if('serviceWorker' in navigator){
 if(location.search.indexOf('reset')>=0){navigator.serviceWorker.getRegistrations().then(function(rs){rs.forEach(function(r){r.unregister();});caches.keys().then(function(ks){ks.forEach(function(k){caches.delete(k);});});setTimeout(function(){location.href=location.pathname;},500);});return;}
 navigator.serviceWorker.register('sw.js').catch(function(){});}
 showHome();
+try{_mobUpdateActive();}catch(e){}
 document.addEventListener('keydown',function(e){
 if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();openCmdPalette();}
 if(e.key==='Escape'){if(document.getElementById('cmdPalette').classList.contains('open')){closeCmdPalette();e.stopPropagation();}
@@ -5995,7 +6058,7 @@ try{if(typeof zkState!=='undefined'&&zkState.mode)exitZK();}catch(e){}
 try{if(typeof yjState!=='undefined'&&yjState.mode)exitYuJing();}catch(e){}
 try{if(typeof kgState!=='undefined'&&kgState.mode)exitKG();}catch(e){}
 try{if(typeof sbState!=='undefined'&&sbState.mode)exitSiBian();}catch(e){}
-currentView=v;VIEWS[v].enter();updateRail();}
+currentView=v;VIEWS[v].enter();updateRail();try{_mobUpdateActive();}catch(e){}}
 
 function showHome(){
 var w=document.getElementById('welcome');
@@ -6037,7 +6100,7 @@ h+='</div><div class="home-stats"><div class="home-stat"><div class="home-stat-v
 h+='<div class="home-stat"><div class="home-stat-val">'+lc.length+'</div><div class="home-stat-lbl">\u5DF2\u5B66<br>Learned</div></div>';
 h+='<div class="home-stat"><div class="home-stat-val">'+(du>0?du:'\u2014')+'</div><div class="home-stat-lbl">\u5F85\u590D\u4E60<br>Due</div></div></div>';
 h+='<div style="text-align:center;margin-top:16px;font-size:11px;color:var(--ink4)">\u6309 Ctrl+K \u641C\u7D22\u6C49\u5B57</div>';
-h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v31</div></div>';
+h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v32</div></div>';
 w.innerHTML=h;w.style.display='';currentView='home';
 }
 function navigateFromHome(id){if(VIEWS[id]){navigateTo(id);updateRail();return;}updateRail();}
@@ -7061,6 +7124,12 @@ function renderSRSWidget(){
 
 function updStats(){document.getElementById('progressText').textContent='已学 Learned: '+S.learned.size;}
 function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('show');}
+function closeSidebar(){document.getElementById('sidebar').classList.remove('open');document.getElementById('overlay').classList.remove('show');}
+
+/* ─── Mobile Bottom Nav ─── */
+function mobNav(view){closeSidebar();navigateTo(view);_mobUpdateActive();}
+function _mobUpdateActive(){var mn=document.getElementById('mobNav');if(!mn)return;var btns=mn.querySelectorAll('.mob-nav-btn');btns.forEach(function(b){b.classList.toggle('active',b.getAttribute('data-view')===currentView);});}
+function mobMore(){toggleSidebar();}
 
 /* ═══════════ Review Module ═══════════ */
 let RV=null; // will hold REVIEW_DATA after loading
@@ -22287,4 +22356,13 @@ function showHskGradeChars(hskLv,grade){
 init();
 </script>
 <script src="yujing_data.js"></script>
+<nav class="mob-nav" id="mobNav">
+<div class="mob-nav-inner">
+<button class="mob-nav-btn active" data-view="home" onclick="mobNav('home')"><span class="mob-icon">🏠</span>首页</button>
+<button class="mob-nav-btn" data-view="textbook" onclick="mobNav('textbook')"><span class="mob-icon">📚</span>教材</button>
+<button class="mob-nav-btn" data-view="review" onclick="mobNav('review')"><span class="mob-icon">🔄</span>复习</button>
+<button class="mob-nav-btn" data-view="games" onclick="mobNav('games')"><span class="mob-icon">🎮</span>游戏</button>
+<button class="mob-nav-btn" onclick="mobMore()"><span class="mob-icon">☰</span>更多</button>
+</div>
+</nav>
 </body></html>
