@@ -17158,25 +17158,33 @@ function tbShowUnit(uid){
           if(essay.level)h+=' <span style="font-size:10px;padding:1px 6px;border-radius:4px;background:var(--jade2);color:#fff">'+essay.level+'</span>';
           h+='</summary>';
           h+='<div style="padding:14px">';
-          /* Structure analysis */
-          if(essay.structure){
+          /* Structure/outline analysis — data may use 'structure' or 'outline' */
+          var _eStruct=essay.structure||essay.outline;
+          if(_eStruct){
             h+='<div style="margin-bottom:10px;padding:8px 12px;background:rgba(52,152,219,.08);border-radius:8px;border-left:3px solid #3498db">';
             h+='<div style="font-size:11px;font-weight:700;color:#3498db;margin-bottom:4px">\uD83D\uDCC1 \u7ED3\u6784\u5206\u6790 Structure</div>';
-            if(Array.isArray(essay.structure)){
-              essay.structure.forEach(function(s){h+='<div style="font-size:12px;line-height:1.5">\u2022 '+(s.cn||s)+' <span style="color:var(--ink4)">'+(s.en||'')+'</span></div>';});
-            }else{h+='<div style="font-size:12px;line-height:1.5">'+essay.structure+'</div>';}
+            if(Array.isArray(_eStruct)){
+              _eStruct.forEach(function(s){h+='<div style="font-size:12px;line-height:1.5">\u2022 '+(s.cn||s)+' <span style="color:var(--ink4)">'+(s.en||'')+'</span></div>';});
+            }else if(typeof _eStruct==='object'){
+              h+='<div style="font-size:12px;line-height:1.5">'+(_eStruct.cn||'')+'</div>';
+              if(_eStruct.en)h+='<div style="font-size:11px;color:var(--ink4);font-style:italic;margin-top:2px">'+_eStruct.en+'</div>';
+            }else{h+='<div style="font-size:12px;line-height:1.5">'+_eStruct+'</div>';}
             h+='</div>';
           }
-          /* Chinese text */
-          if(essay.cn)h+='<div style="font-size:14px;line-height:2;white-space:pre-line;font-family:\'Noto Serif SC\',serif">'+essay.cn+'</div>';
-          /* English translation */
-          if(essay.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;line-height:1.6;margin-top:8px;white-space:pre-line">'+essay.en+'</div>';
-          /* Annotation/guidance */
+          /* Chinese text — data may use 'cn' or 'text' */
+          var _eCn=essay.cn||essay.text||'';
+          if(_eCn)h+='<div style="font-size:14px;line-height:2;white-space:pre-line;font-family:\'Noto Serif SC\',serif">'+_eCn+'</div>';
+          /* English translation — data may use 'en' or 'textEn' */
+          var _eEn=essay.en||essay.textEn||'';
+          if(_eEn)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;line-height:1.6;margin-top:8px;white-space:pre-line">'+_eEn+'</div>';
+          /* Annotation/guidance — notes may be string or {cn,en} object */
           if(essay.notes){
+            var _nCn=typeof essay.notes==='object'?(essay.notes.cn||''):essay.notes;
+            var _nEn=typeof essay.notes==='object'?(essay.notes.en||''):(essay.notesEn||'');
             h+='<div style="margin-top:10px;padding:8px 12px;background:rgba(243,156,18,.08);border-radius:8px;border-left:3px solid #f39c12">';
             h+='<div style="font-size:11px;font-weight:700;color:#f39c12;margin-bottom:4px">\uD83D\uDCA1 \u8BB2\u89E3\u4E0E\u5F15\u5BFC Guidance</div>';
-            h+='<div style="font-size:12px;line-height:1.6">'+essay.notes+'</div>';
-            if(essay.notesEn)h+='<div style="font-size:11px;color:var(--ink4);font-style:italic;margin-top:4px">'+essay.notesEn+'</div>';
+            h+='<div style="font-size:12px;line-height:1.6">'+_nCn+'</div>';
+            if(_nEn)h+='<div style="font-size:11px;color:var(--ink4);font-style:italic;margin-top:4px">'+_nEn+'</div>';
             h+='</div>';
           }
           h+='</div></details>';
