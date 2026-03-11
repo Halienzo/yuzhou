@@ -203,7 +203,8 @@ window.XCSC_DATA = {
               "answerTextEn": "clever; precise; profound; refined; eloquent",
               "examPointEn": "Pinyin & Character Form",
               "explain": "释义：或：有的人；易：简单/容易（指学得太容易不深入）；救：补救/纠正",
-              "explainEn": "Definition: clever; precise; profound; refined; eloquent."
+              "explainEn": "Definition: clever; precise; profound; refined; eloquent.",
+              "passageEn": "Learners have four common failings, and a teacher must be aware of them. In learning, some err by attempting too much, some by learning too little, some by treating things too lightly, and some by giving up too soon — these differences arise from the varying inclinations of their minds. Only by understanding each student’s mind can a teacher remedy their failings. The purpose of teaching is to nurture strengths and remedy failings."
             },
             {
               "num": 2,
@@ -243,7 +244,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 22,
               "stem": "阅读短文《试》，回答问题。",
-              "passage": "（女主人对小保姆进行测试，分三天在门口放1元、5元、10元。小保姆第三天把10元放到楼梯上反向测试女主人。）",
+              "passage": "《试》\n\n①再过三天，小保姆一个月的试用期就到了。小保姆长得浓眉大眼，样子土气点，手脚很勤快。煮饭、洗衣、打扫房间，样样活儿都干得挚利索。毕竟是乡下来的姑娘，很实在，女主人对她的总体印象颇佳。不过，在最后三天中，女主人还想对她进行一项测试。\n\n②清早，小保姆起床要去做饭，在房门口捾到一元钱。她想准是女主人掉的，就随手把它放在厅中的茶几上，像收拾一件杂物，随收随放，琐琐碎碎，她根本没有意识到这当中的特殊意味：这钱藏着一个心计，对钱的漠视竟是一种抗争。\n\n③第二天清早，小保姆又在房门口见到一张钞票，是五元钱。她好生奇怪，女主人为何连续两天丢钱？她是个精细的主妇，怎么会丢三落四的？咦，会不会是在试探，在怀疑我的诚实？小保姆想到这儿，翘起了嘴巴，很生气：怎么能这样小看人？怎么能这样侮辱人？她越想越气，准备找女主人论理。然而，她仔细一想，又否定了自己的猜想。女主人刚从科长位上退休，富态中透着几分威严，待人接物很有风度。这样体面的人，怎么会玩“钓金龟”的小儿游戏呢？不会的。可是，再想回来，不是女主人，还会有谁把钱放在这儿？她迫切想知道究竟，于是眉头微微的蹙起，旋即用脚把钱拨进了茶几脚下……\n\n④晚上睡前，小保姆趴在卧室窗前窥看厅中动静，她想看看女主人是否来取钱。不出所料，女主人果然悄悄来到厅中，在茶几前趴下，把手伸到茶几脚下……这一镜头令小保姆看呆了。女主人在小保姆心目中受敬重的位置坍塔了，变成了一个粗俗可鄙的恶婆婆。她恨恨的咬了一下嘴唇，似乎在暗暗下定一个什么决心，随后便安然上床睡觉去了。\n\n⑤第三天清早，小保姆又在房门口见到一张钞票，是十元钱。她的嘴角立即泛起一丝冷笑，便把钱捾了起来，装进了自己的口袋里……当晚，女主人找小保姆谈话，像当年找科员个别谈话一样严肃，婉转，采用启发式：“你在试用期的工作表现是不错的，这应该充分肯定。可是，唉！做人起头，路正长着呢！诚实是顶要紧的。你如果能够记住这一点，痛改前非，我还是想留下你的！”\n\n⑥“你是不是说我捾了10元钱？”\n\n⑦“是呀！难道你不觉得自己有错吗？”\n\n⑧“不，我已经将10元钱还给你了！”\n\n⑨“咦，你啊时啊地还我钱了？”\n\n⑩“早上7点，公共楼梯！”\n\n女主人一时没有反应过来，还想开口反驳，但“楼梯”两个字却让她像触电一样，浑身一颤。她一时脸红语塞，十分狼狈，心中暗暗叫苦：怎么让她看到了？\n\n原来女主人每天早上7点钟都要下楼去锻炼，小保姆就把捾到的10元钱悄悄放在楼梯上。女主人下楼时，看见了10元钱，眼睛一亮，左右张望，看没人在场，便赶快捾起钞票揣进怀中，根本没有想到有谁也在悄悄地测试她……",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -341,7 +342,8 @@ window.XCSC_DATA = {
               "stemEn": "Write words from pinyin.\nReading history makes one wise, reading poetry makes one clever(cōnghuì), calculation makes one precise(jīngmíng), philosophy gives one deep(shēnkè) thoughts, logic gives one refinement(xīuyǎng), rhetoric makes one eloquent(shànbiàn).",
               "answerTextEn": "clever; precise; profound; refined; eloquent",
               "examPointEn": "Pinyin & Character Form",
-              "examPoint": "阅读理解"
+              "examPoint": "阅读理解",
+              "passageEn": "《The Test》\n\n① In three more days, the maid’s one-month probation would be over. The maid had big dark eyes and a somewhat rustic appearance, but was very hardworking. Cooking, laundry, cleaning — she handled every task neatly. After all, she was a country girl, very dependable, and the mistress had a favorable overall impression of her. However, in the final three days, the mistress wanted to put her through one more test.\n\n② Early morning, the maid got up to cook and found one yuan at the doorway. She figured the mistress must have dropped it, so she casually placed it on the tea table in the living room, like tidying a random object — she didn’t realize the special significance: the money concealed a scheme, and her indifference to it was itself a form of resistance.\n\n③ The next morning, the maid found another bill at the doorway — five yuan. She found it strange: why had the mistress lost money two days running? She was a meticulous housewife — how could she be so careless? Could this be testing her honesty? The maid felt angry. But on reflection, she dismissed her suspicion. The mistress had just retired from a leadership position and carried herself with dignity. Such a respectable person wouldn’t play childish games. Yet if not the mistress, who else would place money there? Anxious to find out, the maid furrowed her brow and kicked the bill under the tea table…\n\n④ Before bed, the maid peeked through her window at the living room. Sure enough, the mistress crept in, knelt before the tea table, and reached underneath… This scene stunned the maid. The mistress’s respectable image crumbled in her mind. She bit her lip, as if silently making a decision, then calmly went to bed.\n\n⑤ On the third morning, the maid found ten yuan at the doorway. A cold smile appeared as she pocketed it… That evening, the mistress summoned her for a solemn talk: “Your work was good, but honesty is paramount. If you can remember that, I’d still like to keep you.”\n\n⑥ “Are you saying I pocketed the 10 yuan?”\n⑦ “Yes! Don’t you think you were wrong?”\n⑧ “No — I already returned the 10 yuan to you!”\n⑨ “When and where?”\n⑩ “7 a.m., the public staircase!”\n\nThe mistress froze. The word “staircase” hit her like an electric shock. Her face turned red, she was speechless and utterly embarrassed: How did the maid see that?\n\nIt turned out the mistress went downstairs to exercise every morning at 7. The maid had quietly placed the 10 yuan on the staircase. When the mistress spotted it, she glanced around, saw no one, and quickly snatched it up — never imagining someone was quietly testing her too…"
             }
           ]
         },
@@ -469,7 +471,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 8,
               "stem": "阅读短文（一）苏格拉底的麦穗寓言，回答问题。",
-              "passage": "苏格拉底的弟子们悟出道理：人的一生仿佛在麦地里行走，寻找最大的一穗。有的人不失时机地摘下它，有的人则一再错失良机。追求应该是最大的，但把眼前的一穗拿在手中，这才是实实在在的。",
+              "passage": "苏格拉底的弟子们听了老师的话，悟出了这样一个道理：人的一生仿佛也是在麦地里行走，也在寻找那最大的一穗。有的人见到了那颗粒饱满的“麦穗”，就不失时机地摘下它；有的人则东张西望，一再地错失良机。当然，追求应该是最大的，但把眼前的一穗拿在手中，这才是实实在在的。",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -522,14 +524,15 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Socrates' Wheat Parable\" and answer questions.",
               "contextEn": "Socrates' disciples realized: Life is like walking through a wheat field seeking the largest ear. Some seize opportunities; others keep missing them.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Socrates’ disciples, after hearing their teacher, realized this truth: a person’s life is like walking through a wheat field, searching for the largest ear of wheat. Some people spot a plump “ear of wheat” and seize it without hesitation; others keep looking around and miss one opportunity after another. Of course, one’s aspirations should aim for the greatest, but grasping the ear right before you — that is what is truly real and solid."
             },
             {
               "num": 7,
               "type": "readingGroup",
               "score": 10,
               "stem": "阅读短文（二）泉水的志向，回答问题。",
-              "passage": "涓滴之水，志在海洋。小水潭留不了它，小石块挡不住它，小花草吸引不了它，它唱着歌向前流去。",
+              "passage": "你大概不止一次地看见过从地下淌出的清泉，或者在如茵的绿草旁边冒着的流水吧？你有没有注意到，当它还是涓涓细流的时候，就表现出了倔强的意志和旺盛的生命力。人们为了挡住一洼泉水，曾特意挖了一个小潭，潭口围着石块，潭边长满青草，还点缀着五颜六色的野花。对于刚刚冒出地面的泉水来说，这未尝不是一个舒适的、安逸的小天地。它满可以在这里留恋徜徉，直到春花凋谢，秋草枯黄，让这些东西沉落潭底，变成渣滓，连同自己一起在干涸的冬天成为一滩烂泥。但是，不，涓滴之水，志在海洋。小水潭留不了它，小石块挡不住它，小花草吸引不了它，打了一个转身，滑下斜坡，它唱着歌，汩汩地向前流去。",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -586,14 +589,15 @@ window.XCSC_DATA = {
               "stemEn": "Read 'The Spring's Aspiration\" and answer questions.",
               "contextEn": "A tiny trickle aspires to reach the ocean. No small pond can keep it, no small stone can block it, no small flower can distract it — it sings as it flows forward.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "You must have seen, more than once, clear springs gushing from the ground, or streams bubbling beside carpets of green grass. Have you noticed that even as a tiny trickle, the water already shows an indomitable will and vigorous life force? People once dug a small pond to hold back the spring water, lining its edge with stones, surrounding it with grass and colorful wildflowers. For the water just emerging from the earth, this was quite a comfortable, cozy little world. It could linger here until spring flowers wither, autumn grass turns yellow, letting everything sink to the bottom as sludge, ending up as mud in a dry winter. But no — the tiniest drops of water have their sights set on the ocean. The little pond cannot hold it, the small stones cannot block it, the wildflowers cannot attract it. With a swift turn, it slides down the slope, singing as it flows gurgling onward."
             },
             {
               "num": 8,
               "type": "readingGroup",
               "score": 12,
               "stem": "阅读短文（三）《台北闹饥荒》，回答问题。",
-              "passage": "（妈妈每次往儿子行李箱塞满东西。'提得起来，就是我们的\"是爸爸的口头禅。）",
+              "passage": "《台北闹饥荒》\n\n每次回到乡下老家，要返回台北的时候，妈妈总是塞很多东西到我的行李箱里，一直到完全塞不下为止，那种情况就好像台北正在闹饥荒。\n\n“妈，你什么都不用带，台北什么都有。”我说。\n\n妈妈总是这样回答：“骗谁的！台北什么都有，台北又不是极乐世界。”\n\n我把芭乐、橘子、哈密瓜拿出来，说：“至少，这些水果都有。”\n\n妈妈又帮我塞进去，说：“我们乡下的较好吃，也较便宜。”\n\n我把一大包肉干、肉松、肉脆拿出来，说：“我们家楼下就有新东阳呀！”\n\n她又帮我塞进去，说：“你是知道什么？我要买给我孙子吃的，又不是买给你吃，何况人家这些都是手工做的呢！”\n\n我看拗不过她，把最后希望放在皮箱里的六罐汽水和可乐上，我说：“这汽水可以不要带吧！”\n\n她说：“这是我在福利中心买的，一罐和外面的差十元，带着、带着，路上口渴可以喝。”\n\n“这重成这样！”我说。\n\n妈妈眼睛一亮，说：“你小时最喜欢喝汽水了，常常偷桌下的汽水来喝……”\n\n我立刻打断她的话，说：“我带，我……”因为我知道接下来她会把我小时候的糟事一一拿出来说，一直到我投降为止。\n\n这时，妈妈看我不再抗争了，终于满意地拍着我的行李箱，眼神悠远地说着：“提得起来，就是我们的。”\n\n然后，我们就陷进沉默，因为，“提得起来，就是我们的”正是我爸爸生前的口头禅，当妈妈这样说，我们都不约而同地想起爸爸。\n\n坐火车回台北的路上，我想到自从父亲过世，妈妈把所有的爱都投射在我们身上，她才不管我们是几十岁的人，以为我们都是需要照护的孩子。\n\n我想起父亲的口头禅“提得起来，就是我们的”，现在已经轮到妈妈说了。\n\n对于父母亲的爱，我们也是“提得起来，就是我们的”，趁还提得动，行李箱还有空间，就多塞一点爱进去吧！",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -648,7 +652,8 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Famine in Taipei\" and answer questions.",
               "contextEn": "Every time the narrator's mother stuffs the suitcase full of things. Father's catchphrase: 'If you can carry it, it's ours.\"",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "《Famine in Taipei》\n\nEvery time I returned to my parents’ countryside home and was about to head back to Taipei, Mom would stuff all sorts of things into my suitcase until it couldn’t hold another item — as if Taipei were suffering a famine.\n\n“Mom, you don’t need to pack anything. Taipei has everything,” I said.\n\nMom always replied: “Who are you fooling! Taipei has everything? Taipei isn’t paradise.”\n\nI pulled out guavas, oranges, and a honeydew melon: “At least we have all these fruits.”\n\nMom stuffed them back: “Ours from the countryside taste better, and they’re cheaper.”\n\nI pulled out a big bag of jerky, pork floss, and pork crumble: “There’s a Hsin Tung Yang right downstairs!”\n\nShe stuffed them back: “I’m buying these for my grandson, not for you — and these are all handmade!”\n\nSeeing I couldn’t win, I placed my last hope on six cans of soda: “Surely we don’t need the soda?”\n\nShe said: “I got them at the welfare center — ten yuan cheaper each. Take them for the road.”\n\n“It’s so heavy!” I said.\n\nMom’s eyes lit up: “When you were little, you loved soda. You used to sneak the bottles from under the table…”\n\nI immediately cut her off: “I’ll take them…” Because I knew she’d recount every embarrassing childhood story until I surrendered.\n\nSeeing I had stopped resisting, Mom contentedly patted my suitcase and said with a faraway look: “If you can carry it, it’s ours.”\n\nThen we fell into silence, because “If you can carry it, it’s ours” was my late father’s favorite saying. When Mom said those words, we both thought of Dad.\n\nOn the train back, I reflected that since Father passed, Mom had poured all her love onto us. She didn’t care that we were grown adults — she still saw us as children.\n\nI recalled Father’s saying, now passed to Mom.\n\nAs for our parents’ love: “If you can carry it, it’s ours.” While we can still carry it, while the suitcase still has room, let us stuff a little more love inside!"
             }
           ]
         },
@@ -5307,7 +5312,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 10,
               "stem": "阅读材料：《真理是怀疑的影子》",
-              "passage": "法国教育心理学专家给法国和上海小学生出了同一道无法回答的测试题（船上86头牛34只羊，问船长年纪），法国90%学生质疑题目，上海仅10%提出异议。专家引用笛卡尔、法拉第、爱因斯坦名言，指出应教育孩子敬重真理，有怀疑的地方才有真理。",
+              "passage": "真理是怀疑的影子\n\n①这是一件真实而又引人深思的小事。\n\n②不久前，一位法国教育心理学专家，给法国的小学生和上海的小学生先后出了下面这道完全一样的测试题：一艘船上有86头牛，34只羊，问：这艘船的船长年纪有多大？\n\n③法国小学生的回答情况是：超过90%的同学提出了异议，认为这道测试题根本没办法回答，甚至嘲笑老师的“糊涂”。显而易见，这些学生的回答是对的。上海小学生的回答情况恰恰相反：有80%的同学认真地做出了答案，86-34=52岁。只有10%的同学认为此题非常荒谬，无法解答。做出正确回答的同学竟然只有10%！\n\n④这位法国教育心理学专家很惊讶，两国的小学生为什么会出现这么大的差别呢？他通过对上海这80%小学生的调查后发现，他们之所以做出错误的答案，是因为他们坚信不移地认为：“老师平时教育我们，只有对问题做出回答，才可能得分；不做的话，就连一分也得不到。老师出的题总是对的，总是有答案的，不可能没办法做，也不可能没有答案。”\n\n⑤法国教育心理学专家在总结这两次实验的时候，引用了下面的几句话：\n\n⑥第一句话是笛卡尔说的：怀疑就是方法。\n\n⑦第二句话是法拉第说的：在学术上不盲从大师，他应当重事不重人，真理应当是他的首要目标。\n\n⑧第三句话是爱因斯坦说的：科学发现的过程是一个由好奇、疑虑开始的飞跃。\n\n⑨然后，他颇有感触地讲道：“应当教育孩子敬重老师，但更要教育孩子敬重真理。怀疑并不是缺点，总是没完没了的怀疑才是缺点。只有敢于怀疑，才能减少盲从。有怀疑的地方才有真理，真理是怀疑的影子。”",
               "subQuestions": [
                 {
                   "subNum": "9-①",
@@ -5338,7 +5343,8 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Truth Is the Shadow of Doubt\" and answer questions.",
               "contextEn": "A French psychologist gave the same impossible test to French and Shanghai students (86 cows + 34 sheep on a ship = captain's age?). 90% of French students questioned it; only 10% of Shanghai students did.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Truth Is the Shadow of Doubt\n\n① This is a true and thought-provoking story.\n\n② Not long ago, a French educational psychologist gave French and Shanghai primary school students the exact same test question: A ship carries 86 cows and 34 sheep. How old is the captain?\n\n③ The French students’ responses: over 90% challenged the question, saying it was impossible to answer, even mocking the teacher’s “confusion.” Clearly, these students were right. The Shanghai students’ responses were the opposite: 80% earnestly calculated an answer — 86 minus 34 equals 52 years old. Only 10% found the question absurd and unanswerable. Only 10% gave the correct response!\n\n④ The French psychologist was astonished. Through surveying the 80% of Shanghai students, he discovered they gave wrong answers because they firmly believed: “Our teachers taught us that only by answering can you score points; if you don’t answer, you get zero. Teachers’ questions are always correct and always have answers.”\n\n⑤ When summarizing the two experiments, the psychologist quoted these remarks:\n\n⑥ Descartes: Doubt is the method.\n⑦ Faraday: In scholarship, do not blindly follow masters; truth should be your primary goal.\n⑧ Einstein: Scientific discovery begins with curiosity and doubt.\n\n⑨ Then he remarked with feeling: “We should teach children to respect teachers, but even more to respect truth. Doubt is not a flaw — endless, purposeless doubt is. Only by daring to question can we reduce blind obedience. Where there is doubt, there is truth. Truth is the shadow of doubt.”"
             },
             {
               "num": 10,
@@ -5371,7 +5377,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 14,
               "stem": "阅读材料（记叙文，内容为'走一步再走一步\"——作者小时候被朋友邀请爬悬崖，困在石架上，父亲引导他一步步爬下来的经历）",
-              "passage": "57年前，五个男孩邀约'我\"去爬悬崖。\"我\"体弱多病，勉强跟着爬上石架后不敢再动。其他孩子离去，只有好友杰利不放心。暮色中父亲赶来，引导\"我\"一步步爬下悬崖。这段经历成为\"我\"一生的信念——着眼于最初的一小步。",
+              "passage": "①那是57年前的一个傍晚，天气特别闷热。五个小男孩邀约我去爬悬崖。\n\n②“走！出发！”有个孩子叫道。朋友们随声附和，于是他们就朝一座悬崖飞跑而去。\n\n③我一时拿不定主意。虽然我很希望自己也能像他们那样活泼勇敢，但自我出世以后，一直生病，所以我的心里一直牢记着母亲的训诫：不要做冒险的事。\n\n④“来呀！”我最要好的朋友杰利对我叫喊，“别做胆小鬼。”\n\n⑤“来了！”我一面应着，一面跟着他们跑。\n\n⑥那座悬崖就耸立在空地的另一边。那是一堵垂直的峭壁，壁面有许多凸出来的岩石和蓬乱的灌木。大约只有二十米高，但在我眼中却是高不可攀的险峰。其他孩子一个接一个地向上爬。我落在最后，全身颤抖，冷汗直冒，也跟着他们向上爬。我的心在瘦骨嶙峋的胸腔里怨怨直跳。\n\n⑦我终于爬上去了，蹲在石架上，心惊肉跳，尽量往里靠。其他孩子慢慢地向石架边缘移动，我看在眼里，吓得几乎晕倒。接着，他们又开始向崖顶攀爬。他们打算从崖顶沿着一条迁回的小路下山回家。\n\n⑧“嗨，慢着，”我软弱地请求道，“我没法——”\n\n⑨“再见！”其中一个孩子说。其他孩子都哈哈大笑起来。接着，他们左折右转地爬上崖顶，向下凝视着我。“如果你想待在那里，就待着好了。”有个孩子嘲笑道，“不用客气。”杰利看来好像有点不放心，但还是和大家一起走了。\n\n⑩从石架往下望，我感到头晕目眩。我担心会滑倒摔死。但是，往崖顶的路更难爬，因为它更陡，更险，我开始抽泣。\n\n⑪时间一分一秒地过去，在一片寂静中，我伏在岩石上，恐惧和疲乏使我全身麻木，不能动弹。\n\n⑫暮色苍范，悬崖下面的大地越来越暗。树林中有一道手电光照来照去。我听到杰利和我父亲的声音！父亲的手电光照着我。“下来吧，孩子，”他带着安慰的口气说，“晚饭做好了。”“我下不去！”我哭着说，“我会掉下去的，会摔死的！”“听我说，”父亲说，“不要想着距离有多远。你只要想着你是在走一小步，你能办得到的。眼睛看着电筒照着的地方，你能看见石架下面那块岩石吗？”此刻，我望向父亲，他平静的脸庞上没有一丝责备，眼神里流露出的尽是慈爱。\n\n⑬我慢慢地把身体移过去。爸爸对我说：“现在你把左脚踏到那块岩石上。不要担心下一步。”\n\n⑭这似乎能办得到。我小心翼翼地伸出左脚去探那块岩石，而且踩到了它，顿时有了信心。父亲又说到：“现在移右脚，把它移到右边稍低一点的地方，那里有另外一个落脚点。”我又照着做了，信心大增。\n\n⑮我每次只移动一小步，慢慢爬下悬崖。最后，我一脚踩在崖下的岩石上，投入了父亲粗壮的手臂中。先是抽泣了一会儿，然后，我产生了一种巨大的成就感和自豪感。\n\n⑯在以后的日子里，每当感到前途茫茫而灰心丧气时，回想起很久以前在那座小悬崖上的经历，我便能应付一切。我提醒自己，不要想着远在下面的岩石，而要着眼于那最初的一小步，走了这一步再走下一步，直到抵达所要到的地方。",
               "subQuestions": [
                 {
                   "subNum": "12",
@@ -5442,7 +5448,8 @@ window.XCSC_DATA = {
               "stemEn": "Read the story 'Step by Step\" and answer questions.",
               "contextEn": "57 years ago, five boys invited 'me\" to climb a cliff. Weak and sickly, I barely climbed up but froze on a ledge. At dusk, my father guided me down one step at a time. This became my lifelong belief — focus on the first small step.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "① It was an evening 57 years ago, unbearably hot. Five boys invited me to climb a cliff.\n\n② “Let’s go!” one shouted. The others chimed in, and they raced toward the cliff.\n\n③ I hesitated. Though I longed to be as bold as them, I’d been sickly since birth, and my mother’s warning echoed: don’t take risks.\n\n④ “Come on!” my best friend Jerry called. “Don’t be a coward.”\n\n⑤ “Coming!” I called back, running after them.\n\n⑥ The cliff was a vertical wall about twenty meters high — but to me, an insurmountable peak. The others scrambled up. I came last, trembling, drenched in cold sweat, my heart pounding in my bony chest.\n\n⑦ I finally made it onto a ledge, crouching, terrified. The others edged toward the rim, then climbed toward the top, planning to take a winding path home.\n\n⑧ “Hey, wait,” I begged weakly, “I can’t—”\n\n⑨ “Bye!” one said. They laughed, climbed to the top, and peered down. “Stay there if you like.” Jerry looked uneasy but left with the group.\n\n⑩ Looking down made me dizzy. Climbing up was even harder. I began to sob.\n\n⑪ Minutes passed in silence. I lay on the rock, paralyzed with fear and exhaustion.\n\n⑫ Dusk fell. A flashlight flickered in the trees. I heard Jerry and my father! “Come down, son,” Father said gently. “Dinner’s ready.” “I can’t! I’ll fall!” “Listen,” he said. “Don’t think about the distance. Just take one small step. Can you see that rock below the ledge?” His calm face showed no reproach, only love.\n\n⑬ I inched over. “Now put your left foot on that rock. Don’t worry about the next step.”\n\n⑭ It seemed doable. I cautiously reached out and stepped on it — confidence surged. “Now move your right foot to a spot a little lower.” I did, and my confidence grew.\n\n⑮ One small step at a time, I climbed down. At last I stepped onto the ground and fell into Father’s strong arms. After sobbing a moment, I felt an enormous sense of achievement and pride.\n\n⑯ In the years since, whenever I feel lost and discouraged, I remember that little cliff. I remind myself: don’t look at the distant rocks below — focus on that first small step, then the next, until you reach where you need to be."
             }
           ]
         },
@@ -5874,14 +5881,15 @@ window.XCSC_DATA = {
               "stemEn": "Look at the toothpaste image and complete exercises.",
               "contextEn": "A tube of Zhonghua brand dual-calcium anti-cavity toothpaste: brand, weight (140g), ingredients (dual calcium), flavor (cool mint), function (cavity prevention).",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Product information for a Zhonghua brand dual-calcium anti-cavity toothpaste: Brand (Zhonghua), Weight (140g), Ingredients (dual calcium), Flavor (refreshing mint), Function (cavity prevention)."
             },
             {
               "num": 20,
               "type": "readingGroup",
               "score": 7,
               "stem": "课内阅读：《十六年前的回忆》选段",
-              "passage": "在法庭上，'我们\"跟父亲见面。父亲穿着灰布旧棉袍，没戴眼镜，乱蓬蓬的长头发下面是平静而慈祥的脸。父亲神情安定沉着，心中被对革命事业的信心这种伟大力量占据。",
+              "passage": "①在法庭上，我们跟父亲见了面。父亲仍旧穿着他那件灰布旧棉袍，可是没戴眼镜。我看到了他那乱蓬莲的长头发下面的平静而慈祥的脸。\n\n②“爹！”我忍不住喊出声来。母亲哭了，妹妹也跟着哭起来了。\n\n③“不许乱喊！”法官拿起惊堂木重重地在桌子上拍了一下。\n\n④父亲瞅了瞅我们，没对我们说一句话。他的神情非常安定，非常沉着。他的心被一种伟大的力量占据着。这个力量就是他平日对我们讲的——他对于革命事业的信心。\n\n⑤“这是我的妻子。”他指着母亲说。接着他又指了一下我和妹妹：“这是我的两个孩子。”\n\n⑥“她是你最大的孩子吗？”法官指着我问父亲。\n\n⑦“是的，我是最大的。”我怕父亲说出哥哥来，就这样抢着说了。我不知道当时哪里来的机智和勇敢。\n\n⑧“不要多嘴！”法官怒气冲冲的，又拿起他面前那块木板狠狠地拍了几下。\n\n⑨父亲立刻就会意了，接着说：“是的，她是我最大的孩子。我的妻子是个乡下人，我的孩子年纪都还小，她们什么也不懂，一切都跟她们没有关系。”父亲说完了这段话，又望了望我们。",
               "subQuestions": [
                 {
                   "subNum": "20",
@@ -5963,14 +5971,15 @@ window.XCSC_DATA = {
               "stemEn": "Read an excerpt from 'Sixteen Years Ago\" and answer questions.",
               "contextEn": "In the courtroom, 'we\" see Father wearing old gray cotton robe, no glasses, messy long hair over a calm, kind face.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "① In the courtroom, we saw Father. He still wore his old gray cotton robe, but without his glasses. I saw his calm, kind face beneath his disheveled long hair.\n\n② “Dad!” I couldn’t help crying out. Mother wept, and my little sister followed.\n\n③ “No outbursts!” The judge slammed his gavel on the table.\n\n④ Father glanced at us but said nothing. His expression was perfectly steady, perfectly composed. His heart was filled with a great force — the very thing he always told us about: his faith in the revolutionary cause.\n\n⑤ “This is my wife,” he said, pointing to Mother. Then he pointed to my sister and me: “These are my two children.”\n\n⑥ “Is she your eldest?” the judge asked, pointing at me.\n\n⑦ “Yes, I’m the eldest,” I blurted out, afraid Father would mention my brother. I don’t know where I found such quick wit and courage.\n\n⑧ “Silence!” the judge roared, slamming his board several times.\n\n⑨ Father understood at once and continued: “Yes, she is my eldest. My wife is a country woman. My children are all still young — they know nothing. None of this has anything to do with them.” After saying this, he looked at us once more."
             },
             {
               "num": 25,
               "type": "readingGroup",
               "score": 11,
               "stem": "课外阅读：余秋雨《笔墨童年》",
-              "passage": "作者回忆童年与笔墨有关的美好经历：冬天期末考试时老师用白酒防止砚台结冰让学生蘸酒写字；四岁上学老师每节课后抱'我\"去河边洗墨迹；用小楷字借图书馆的书；家乡民间\"敬惜字纸\"的传统——农夫捡字纸送庙中焚烧，渔民用字纸压船舱远航。",
+              "passage": "笔墨童年\n余秋雨\n\n在山水萧瑟、岁月荒寒的家乡，我度过了非常美丽的童年。千般美丽中，有一半，竟与笔墨有关。那个冬天太冷了，河结了冰，湖结了冰，连家里的水缸也结了冰。就在这样的日子，小学要进行期末考试了。\n\n破旧的教室里，每个孩子都在用心磨墨。磨得快的，已经把毛笔在砚石上舔来舔去，准备答卷。那年月，铅笔、钢笔都还没有传到这个僻远的山村。磨墨要水，教室门口有一个小水桶，孩子们平日上课时要天天取用。但今天，那水桶也结了冰，刚刚还是用半块碎砖砸开了冰，才抖抖索索舀到砚台上的。孩子们都在担心，考试到一半，如果砚台结冰了，怎么办？\n\n这时，一位乐呵呵的男老师走进了教室。他从棉衣襟下取出一瓶白酒，给每个孩子的砚台上都倒几滴，说：“这就不会结冰了，放心写吧！”于是，教室里酒香阵阵，答卷上也酒香阵阵。我们的毛笔字，从一开始就有了李白余韵。其实岂止是李白。长大后才知道，就在我们小学的西面，比李白早四百年，一群人已经在薘酒写字了，领头那个人叫王羲之，写出的答卷叫《兰亭集序》。\n\n我上小学时只有四岁，自然成了老师们的重点保护对象。上课时都用毛笔记录，我太小了，弄得两手都是墨，又沾到了脸上。因此，每次下课，老师就会快速抱起我，冲到校门口的小河边，把我的脸和手都洗干净，然后，再快速抱着我回到座位，让下一节课的老师看着舒服一点。但是，下一节课的老师又会重复做这样的事。于是，那些奔跑的脚步，那些抱持的手臂，那些清亮的河水，加在一起，成了我最隆重的书法入门课。如果我写不好毛笔字，天理不容。\n\n后来，学校里有了一个图书馆。由于书很少，老师规定，用一页小楷，借一本书。不久又加码，提高为两页小楷借一本书。就在那时，我初次听到老师把毛笔字说成“书法”，因此立即产生误会，以为“书法”就是“借书的方法”。这个误会，倒是不错。\n\n学校外面，识字的人很少。但毕竟是王阳明、黄宗羲的家乡，民间有一个规矩，路上见到一片写过字的纸，哪怕只是小小一角，哪怕已经污损，也万不可踩踏。过路的农夫见了，都必须弯下腰去，恭恭敬敬捡起来，用手掌捧着，向吴山庙走去。庙门边上，有一个石炉，上刻四个字：“敬惜字纸。”石炉里还有余烬，把字纸放下去，有时有一朵小火，有时没有火，只见字纸慢慢焦黄，熔入灰烬。我听说下山见到路上字纸，也这样做。\n\n家乡近海，有不少渔民。哪一季节，如果发心要到远海打鱼，船主一定会步行几里地，找到一个读书人，用一篮鸡蛋、一捆鱼干，换得一叠字纸。他们相信，天下最重的，是这些黑森森的毛笔字。只有把一叠字纸压在船舱中间底部，才敢破浪远航。\n\n那些在路上捡字纸的农夫，以及把字纸压在船舱的渔民，都不识字。不识字的人尊重文字，就像我们崇拜从未谋面的神明，是为世间之礼、天地之敬。\n\n这是我的起点。",
               "subQuestions": [
                 {
                   "subNum": "25",
@@ -6078,7 +6087,8 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Penmanship Childhood\" by Yu Qiuyu and answer questions.",
               "contextEn": "The author recalls childhood memories with brush and ink: writing exams with wine-soaked ink to prevent freezing; teacher carrying him to the river to wash off ink; borrowing library books by writing in small regular script; villagers' tradition of revering written characters.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Brush-and-Ink Childhood — Yu Qiuyu\n\nIn my hometown of desolate mountains and barren years, I spent a remarkably beautiful childhood. Half of that beauty, astonishingly, was tied to brush and ink. That winter was bitterly cold — rivers froze, lakes froze, even the water vat at home froze. And right then, our school held final exams.\n\nIn the shabby classroom, every child was grinding ink. The faster ones were already wetting their brushes on the inkstone, ready to write. Back then, pencils and pens hadn’t reached our remote village. Grinding ink required water from a small bucket by the door, but today it had frozen too — we’d just cracked the ice with a brick. Everyone worried: what if our inkstones freeze mid-exam?\n\nThen a cheerful male teacher walked in. From under his padded jacket he produced a bottle of baijiu, dripping a few drops onto each child’s inkstone: “Now it won’t freeze — write freely!” The classroom smelled of wine, and so did our papers. Our calligraphy began with a touch of Li Bai’s spirit. In fact, four hundred years before Li Bai, a group had already been writing with wine — led by Wang Xizhi, whose masterpiece was the “Preface to the Orchid Pavilion.”\n\nI started school at four and became the teachers’ pet project. Writing with brushes, I got ink all over my hands and face. After each class, a teacher would scoop me up, dash to the stream by the school gate, wash my face and hands, then rush me back so the next teacher could find me presentable. But that teacher would repeat the whole routine. Those running footsteps, those cradling arms, that clear stream water — together they formed my most solemn initiation into calligraphy.\n\nLater, our school got a library. Since books were scarce, the rule was: one page of small regular script to borrow one book. Soon it was raised to two pages. That’s when I first heard brushwork called “shufa” (calligraphy), and immediately misunderstood it as “the method of borrowing books.” A fine misunderstanding.\n\nOutside school, few could read. But this was the homeland of Wang Yangming and Huang Zongxi, and folk custom demanded: if you see a scrap of paper with writing on it, however tiny or soiled, you must never tread on it. Passing farmers would bend down, reverently pick it up, carry it in cupped hands to the Wushan Temple, and place it in a stone furnace inscribed “Respect Written Characters.” The paper would slowly char and merge with the ash.\n\nNear the coast lived many fishermen. Before a distant voyage, a captain would walk miles to find a literate person and trade a basket of eggs and dried fish for a stack of written paper. They believed the heaviest things in the world were those dark brushstrokes. Only with written paper ballasting the hold did they dare brave the waves.\n\nThose farmers picking up scraps and those fishermen weighting their boats — none could read. Illiterate people revering the written word, like worshipping a god never seen — that is the world’s courtesy, heaven and earth’s reverence.\n\nThis is where I began."
             },
             {
               "num": 30,
@@ -6485,7 +6495,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 10,
               "stem": "活动一：以学为基——项籍弃书捐剑",
-              "passage": "文言文《项籍弃书捐剑》：项籍少时学书不成、学剑不成，后学兵法也'略知其意，又不肯竟学\"，最终被刘邦所败。",
+              "passage": "项籍少时，学书不成，去学剑，又不成。项梁怒之。籍曰：“书，足以记名姓而已。剑，一人敌，不足学，学万人敌。”于是项梁乃教籍兵法，籍大喜，略知其意，又不肯竟学。\n后刮、项相争，刮邦智取，项籍以力斗，然终为刮所败，乃智穷也。\n\n【注释】项籍：项羽，名籍，字羽。书：读书写字。去：去掉，指放弃学书。项梁：项羽的叔父。怒之：以……为怒。足：足够，充足。足：值得。敌：抵挡，抵抗。略：大概。竟：完毕",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -6531,14 +6541,15 @@ window.XCSC_DATA = {
               "stemEn": "Read the classical text 'Xiang Ji Abandons Study\" — Xiang Yu as a youth studied writing, swords, then military strategy, but \"略知其意，又不肯竟学\" (grasped the gist but refused to study thoroughly). Answer questions.",
               "contextEn": "Xiang Yu abandoned books, swords, and ultimately even military strategy, never finishing what he started.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "When Xiang Ji was young, he studied writing but could not master it, so he quit and studied swordsmanship, which he also could not master. His uncle Xiang Liang was angry with him. Ji said: “Writing is only good enough to record one’s name. Swordsmanship can only defeat one opponent — not worth learning. I want to learn how to defeat ten thousand men.” So Xiang Liang taught him the art of war. Ji was delighted, but after grasping the general idea, he refused to study it thoroughly.\n\nLater, Liu Bang and Xiang Ji contended for the empire. Liu Bang used strategy; Xiang Ji relied on brute force. In the end, Xiang Ji was defeated by Liu — his wisdom had been exhausted.\n\n[Notes] Xiang Ji: Xiang Yu, personal name Ji, courtesy name Yu. Writing: reading and writing. Xiang Liang: Xiang Yu’s uncle. Enough: sufficient/worth. Enemy: oppose, resist. Roughly: approximately. Finish: complete."
             },
             {
               "num": 17,
               "type": "readingGroup",
               "score": 11,
               "stem": "活动二：殷殷嘱托——写给未来的你（节选）",
-              "passage": "三段选文分别嘱托孩子：做理想主义者、做踏实的人、有勇气正视自己的缺点。",
+              "passage": "写给未来的你（节选）\n\n①孩子，我希望你自始至终都是一个理想主义者。你可以是农民，可以是工程师，可以是演员，可以是流浪汉，但你必须是个理想主义者。理想纯洁你的气质，理想会让你出众。孩子，你尽管去争取，你会结识许多智者和君子，你会见到许多旁人无法遇到的风景和奇迹。选择平庸虽然稳妥，但绝无色彩。不要为蝇头小利放弃自己的理想，不要为某种潮流而改换自己的信念。物质世界的外表太过复杂，你要懂得如何去拒绝虚荣的诱惑。\n\n②其次，孩子，我希望你是个踏实的人。人生太过短促，而虚的东西又太多，你很容易眼花缭乱，最终一事无成。如果你是个美貌的女孩，年轻的时候得到的东西太过容易，这会使你流于浅薄和虚浮；如果你是个极聪明的男孩，又会以为自己能够成就许多大事而流于轻佻。记住，每个人的能力有限，我们活在世上能做好一件事足矣。不要轻视平凡的人，不要投机取巧，不要攻击自己做不到的事。你长大后会知道，做好一件事太难，但绝不要放弃。\n\n③孩子，还有一件事，虽然做起来很难，但相当重要，这就是要有勇气正视自己的缺点。你会一年年地长大，会渐渐遇到比你强、比你优秀的人，会发现自己身上有许多你所厌恶的缺点。这会使你沮丧和自卑。但你一定要正视它，不要躲避，要一点点地加以改正。战胜自己比征服他人还要艰巨和有意义。",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -6606,14 +6617,15 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Letter to Your Future Self\" — three pieces of advice about being an idealist, being practical, and having courage to face flaws.",
               "contextEn": "Three passages advising children: remain a steadfast idealist, be a grounded person, and have the courage to face your own shortcomings.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Letter to Your Future Self (Excerpt)\n\n① Child, I hope you will always be an idealist. You may be a farmer, an engineer, an actor, or a wanderer, but you must be an idealist. Ideals purify your character and make you stand out. Go ahead and strive — you will meet wise people and gentlemen, and see wonders others never encounter. Choosing mediocrity is safe but colorless. Do not abandon your ideals for petty gains or change your beliefs for passing trends. The material world’s surface is too complex; you must learn to refuse the temptation of vanity.\n\n② Second, child, I hope you are a down-to-earth person. Life is too short and there is too much illusion — you can easily become dazzled and end up achieving nothing. If you are a beautiful girl, things come too easily when you’re young, leading to shallowness; if you are a very clever boy, you may think you can accomplish great things and become flippant. Remember, everyone’s ability is limited; doing one thing well in a lifetime is enough. Do not look down on ordinary people, do not cut corners, do not attack what you cannot achieve. When you grow up you will know: doing one thing well is incredibly hard — but never give up.\n\n③ Child, there is one more thing — difficult but crucial: have the courage to face your own shortcomings. As you grow, you will meet people stronger and better than you, and discover flaws in yourself that you detest. This will make you frustrated and insecure. But you must face them squarely, not hide, and correct them bit by bit. Conquering yourself is harder and more meaningful than conquering others."
             },
             {
               "num": 18,
               "type": "readingGroup",
               "score": 9,
               "stem": "活动三：书香致远（非连续性文本阅读）",
-              "passage": "三则材料：材料一介绍2024年第三届全民阅读大会在昆明开幕；材料二介绍各地创新阅读活动；材料三为儿童年阅读量分布情况图表。",
+              "passage": "材料一：滧池之畔，暖风和煦。云南昆明，书香弥漫。2024年4月23日，是第二十九个世界读书日，第三届全民阅读大会在昆明市开幕。\n\n材料二：以全民阅读大会举办为契机，全国各地积极寻求、主动贴近广大读者的兴趣点和关注点，创新阅读推广方式，深入开展阅读活动：江西珠市学校开展了“书香集市”，南京江北新区开展了“阅读马拉松线上线下”，青岛的创意“移动书吧”，昆明盘龙区东华市场以“好新鲜！书菜市场”为主题的读书沙龙设立40余家书籍和文旅生活摆位，邀请作者、艺术家现场分享……一大批接地气、有新意、有特色的读书活动持续举办。\n\n材料三：儿童年阅读量分布情况图表。",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -6670,7 +6682,8 @@ window.XCSC_DATA = {
               "stemEn": "Read three materials about the National Reading Conference and children's reading statistics. Answer questions.",
               "contextEn": "Material 1:3rd National Reading Conference opens in Kunming; Material 2: Creative reading activities across China; Material 3: Chart of children's annual reading volume distribution.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Material 1: By the shores of Dianchi Lake, warm breezes blow. Kunming, Yunnan — suffused with the fragrance of books. April 23, 2024 marks the 29th World Book Day, and the Third National Reading Congress opened in Kunming.\n\nMaterial 2: Seizing the congress as an opportunity, communities across China have actively sought innovative ways to promote reading: Jiangxi’s Zhushi School held a “Book Fair,” Nanjing’s Jiangbei New Area launched an “online-offline Reading Marathon,” Qingdao created a mobile “Book Bar,” and Kunming’s Panlong District Donghua Market hosted a reading salon themed “Fresh! Book-Vegetable Market” with over 40 stalls of books and cultural tourism products, inviting authors and artists to share in person… A wealth of down-to-earth, creative, and distinctive reading events continue to be held.\n\nMaterial 3: Chart showing the distribution of children’s annual reading volume."
             }
           ]
         },
@@ -7489,7 +7502,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 4,
               "stem": "阅读学校宣传部活动号召，完成以下题目",
-              "passage": "学校宣传稿号召参与'追光少年成长季\"毕业活动，含\"时间过得可真快啊，眨眼间……\"等修辞句。",
+              "passage": "尊敬的老师们、亲爱的同学们：\n大家好！\n时间过得可真快啊，眨眼间，我们度过了六年的小学时光。我们树立了远大的理想，凭借着锌而不舍的精神，一路追光，一路成长。学校准备于6月下旬开展主题为“追光少年成长季”的毕业系列活动。期待大家积极参与！\nXX小学宣传部\n2024年5月20日",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -7546,7 +7559,8 @@ window.XCSC_DATA = {
               "stemEn": "Read the school's activity announcement and answer questions.",
               "contextEn": "School promotion calling for 'Chasing Light Youth Growth Season\" graduation activities.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Dear teachers and students:\nHello!\nHow time flies — in the blink of an eye, we have spent six years of primary school. We set lofty ideals and, with perseverance, pursued the light and grew along the way. The school is planning a graduation event series themed “Light-Chasing Youth Growth Season” for late June. We look forward to your enthusiastic participation!\nXX Primary School Publicity Department\nMay 20, 2024"
             },
             {
               "num": 11,
@@ -7600,7 +7614,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 12,
               "stem": "活动一：追随榜样之光——十六年前的回忆（节选）",
-              "passage": "课文《十六年前的回忆》节选，描写在法庭上李大钊与家人见面的场景，展现其革命信仰的坚定。",
+              "passage": "十六年前的回忆（节选）\n\n①在法庭上，我们跟父亲见了面。父亲仍旧穿着他那件灰布旧棉袍，可是没戴眼镜。我看到了他那乱蓬莲的长头发下面的平静而慈祥的脸。\n\n②“爹！”我忍不住喊出声来。母亲哭了，妹妹也跟着哭起来了。\n\n③“不许乱喊！”法官拿起惊堂木重重地在桌子上拍了一下。\n\n④父亲瞅了瞅我们，没对我们说一句话。他的神情非常安定，非常沉着。他的心被一种伟大的力量占据着。这个力量就是他平日对我们讲的——他对于革命事业的信心。\n\n⑤“这是我的妻子。”他指着母亲说。接着他又指了一下我和妹妹：“这是我的两个孩子。”\n\n⑥“她是你最大的孩子吗？”法官指着我问父亲。\n\n⑦“是的，我是最大的。”我怕父亲说出哥哥来，就这样抢着说了。我不知道当时哪里来的机智和勇敢。\n\n⑧“不要多嘴！”法官怒气冲冲的，又拿起他面前那块木板狠狠地拍了几下。\n\n⑨父亲立刻就会意了，接着说：“是的，她是我最大的孩子。我的妻子是个乡下人，我的孩子年纪都还小，她们什么也不懂，一切都跟她们没有关系。”父亲说完了这段话，又望了望我们。",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -7683,14 +7697,15 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Sixteen Years Ago\" (courtroom scene) and answer questions.",
               "contextEn": "Li Dazhao's family meets him in court — old robe, no glasses, messy hair, but calm and kind expression.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Erta Sixteen Years Ago (Excerpt)\n\n① In the courtroom, we saw Father. He still wore his old gray cotton robe, but without his glasses. I saw his calm, kind face beneath his disheveled long hair.\n\n② “Dad!” I couldn’t help crying out. Mother wept, and my little sister followed.\n\n③ “No outbursts!” The judge slammed his gavel on the table.\n\n④ Father glanced at us but said nothing. His expression was perfectly steady, perfectly composed. His heart was filled with a great force — the very thing he always told us about: his faith in the revolutionary cause.\n\n⑤ “This is my wife,” he said, pointing to Mother. Then he pointed to my sister and me: “These are my two children.”\n\n⑥ “Is she your eldest?” the judge asked, pointing at me.\n\n⑦ “Yes, I’m the eldest,” I blurted out, afraid Father would mention my brother. I don’t know where I found such quick wit and courage.\n\n⑧ “Silence!” the judge roared, slamming his board several times.\n\n⑨ Father understood at once and continued: “Yes, she is my eldest. My wife is a country woman. My children are all still young — they know nothing. None of this has anything to do with them.” After saying this, he looked at us once more."
             },
             {
               "num": 14,
               "type": "readingGroup",
               "score": 11,
               "stem": "活动二：追忆前辈之光——做航天事业的铺路石",
-              "passage": "记叙'两弹一星\"元勋王希季的生平：从云南昆明出生，考入西南联大，赴美留学归国，带领团队在稻田里发射第一枚探空火箭，到建议载人航天方案。",
+              "passage": "做航天事业的铺路石\n\n①他是中国第一枚运载火箭“长征一号”总体方案的设计者，他是中国第一颗返回式卫星总设计师，他是中国18种探空火箭中12种型号的研制负责人，他就是中国科学院院士，“两弹一星”元勳王希季。\n\n②1921年7月26日，王希季在云南昆明的一个白族家庭里出生。白族崇文重教的传统，让他自小打下良好的学习基础。17岁时，他才读完高一就以优异的成绩考入西南联大机械系。\n\n③1940年，日军侵占越南后频繁轰炸昆明，炮火连天、尸横遍野，王希季怒火满腔，怀揣“工业救国”的理想和决心，以优异成绩考入美国弗吉尼亚理工学院，攻读动力与燃料专业。\n\n④1950年，王希季登上“克利夫兰总统号”归国，有人问他为什么不继续读博，他说：“从我出生时起，国家就一直在混乱中，支离破碎。现在，新中国成立了，这对我来说很重要。”王希季回国之后，先后在多所高校任教。1958年他在上海机电设计院带领团队研究火箭。当时设计院的研制条件十分简陋，既没经验，又没资料，也没专家，一切都要从零开始。他带领着一批年轻人，开始了边学边干的艰苦探索。计算机是手动的，为了计算一条弹道，几个人夜以继日干两个多月，计算用的纸比办公桌还高。没有发射场，他们把稻田当作发射场，用轘转绞车把火箭吊上发射架，用打气筒加压给火箭加燃烧剂、助推剂……\n\n⑤1960年，王希季和他的团队在上海郊区的一处稻田里，成功发射了中国第一枚探空火箭“T-7M”。虽然飞行高度只有8公里，却标志着我国已经在奔向太空的征程中迈出了关键的第一步。后来，王希季也从火箭的“门外汉”成为航天事业领头人。\n\n⑥20世纪80年代，中国载人航天工程迎来发展契机。时任中国空间技术研究院科学技术委员会主任的王希季，建议我国应以空间站系统为目标，从载人飞船起步，来突破载人航天技术，“神舟号”载人航天工程方案初步形成。\n\n⑦为了国家需求，王希季多次转行。在探空火箭、返回式卫星、载人航天等领域，完成了多项首创工作。1999年，王希季被授予“两弹一星功勋科学家奖章”。\n\n⑧如今102岁高龄的王希季，仍在为我国航天事业作贡献，关心着“中国制造2025”，研究着“互联网+航天”的新项目。\n\n⑨王希季用一生，奉献和践行了他的誓言：我愿做祖国航天事业的铺路石！",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -7760,14 +7775,15 @@ window.XCSC_DATA = {
               "stemEn": "Read about 'Two Bombs, One Star\" scientist Wang Xiji from Kunming — Southwest Associated University, studies in America, leading rocket development, to proposing manned spaceflight.",
               "contextEn": "Wang Xiji: born in Kunming, studied at Southwest Associated University and in America, returned to lead China's first sounding rocket launch from a rice paddy, later proposing manned space programs.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "A Stepping Stone for the Space Program\n\n① He designed the overall plan for China’s first carrier rocket “Long March 1,” was chief designer of China’s first recoverable satellite, and led development of 12 of China’s 18 sounding rocket models. He is Wang Xiji, member of the Chinese Academy of Sciences and “Two Bombs, One Satellite” medal recipient.\n\n② Born July 26, 1921 in Kunming to a Bai ethnic family, the Bai tradition of valuing education gave him a strong foundation. At 17, having completed only first-year high school, he passed the entrance exam for Southwest Associated University’s mechanical engineering department.\n\n③ In 1940, after Japan invaded Vietnam and frequently bombed Kunming, Wang was filled with rage and the ideal of “saving the nation through industry.” He earned admission to Virginia Polytechnic Institute to study power and fuels.\n\n④ In 1950, Wang boarded the SS “President Cleveland” to return home. When asked why he didn’t continue his doctorate, he said: “Since I was born, the country has been in chaos. Now New China has been founded — that matters greatly to me.” He taught at several universities, then in 1958 led a rocket research team at Shanghai’s Electromechanical Design Institute. Conditions were primitive — no experience, no data, no experts. They used hand-cranked computers, spending months calculating a single trajectory, stacking paper higher than desks. With no launch site, they used rice paddies, hoisting rockets onto launch frames with winches and pressurizing fuel with bicycle pumps…\n\n⑤ In 1960, Wang’s team successfully launched China’s first sounding rocket “T-7M” from a rice paddy near Shanghai. Though it reached only 8 km, it marked China’s crucial first step toward space.\n\n⑥ In the 1980s, Wang proposed that China’s manned space program should start with crewed spacecraft aiming toward a space station — the “Shenzhou” program took shape.\n\n⑦ Wang switched fields multiple times for national needs, pioneering work in sounding rockets, recoverable satellites, and manned spaceflight. In 1999, he received the “Two Bombs, One Satellite Meritorious Scientist Medal.”\n\n⑧ Now 102 years old, Wang still contributes to China’s space program.\n\n⑨ Wang Xiji devoted his life to his vow: I will be a stepping stone for our nation’s space program!"
             },
             {
               "num": 15,
               "type": "readingGroup",
               "score": 12,
               "stem": "活动三：追寻文化之光（非连续性文本阅读）",
-              "passage": "三则材料：材料一介绍喜洲古镇和千年蒙自的历史文化；材料二介绍云南旅游新搭配；材料三介绍官渡区非物质文化遗产。",
+              "passage": "【材料一】\n我们记录一个城市的美，除了摄影，最震撼人心的是文字。老舍、汪曾祠、林徽因、沈从文、朱自清……都曾在云南生活过，让我们跟随他们的描摹，走进这座西南边陲之城。\n千年来，喜洲古镇静静伫立于苍洱西部。这里曾是南诏古国的陪都，早在南诏入主洱海周围之前，就是白族先民“河蛮”的聚居地。走在古朴的石板街道上，感受白族文化的源远隽永，这里是另一个江南，却更有味道……\n千年蒙自，有着珍贵的历史文化，这里是清末民初云南对外通商最大的口岸，诞生了云南第一个海关、第一条民营铁路、第一个驻滞领事馆……在滞越铁路的米轨之间，与“法式浪漫”不期而遇，在西南联大的旧址里，追忆文化大师们的似水年华。\n\n【材料二】\n如今再到云南，不仅能体验山川之美、人文之美、历史之美，还能体验科技之美、健康之美，来看看这些旅游新搭配吧！\n\n【材料三】\n官渡区是云南省昆明市的一个繁华区域，拥有众多旅游景点，作为古滞文明的重要发祥地之一，历史悠久，人杰地灵，沉淀出丰富的非物质文化遗产。让我们一起走进大美官渡。",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -7811,7 +7827,8 @@ window.XCSC_DATA = {
               "stemEn": "Read three materials about Xizhou Ancient Town, Mengzi's heritage, and Guandu District's intangible cultural heritage. Answer questions.",
               "contextEn": "Material 1: Xizhou and thousand-year Mengzi history. Material 2: Yunnan's new tourism combinations. Material 3: Guandu District's intangible cultural heritage.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "[Material 1]\nTo record a city’s beauty, beyond photography, nothing is more powerful than words. Lao She, Wang Zengqi, Lin Huiyin, Shen Congwen, Zhu Ziqing… all lived in Yunnan. Let us follow their writings into this southwestern frontier city.\nFor a thousand years, Xizhou ancient town has stood quietly on the western shore of Erhai. It was once the secondary capital of the Nanzhao Kingdom and even earlier, the homeland of the Bai ancestors known as “He Man.” Walking along its ancient stone streets, one feels the deep roots of Bai culture — another Jiangnan, yet with richer flavor…\nThousand-year Mengzi holds precious historical culture: it was late Qing and early Republican Yunnan’s largest trading port, birthplace of Yunnan’s first customs house, first private railway, first foreign consulate… Between the meter-gauge tracks of the Yunnan-Vietnam Railway, you unexpectedly encounter “French romance”; in the old site of Southwest Associated University, you recall the great cultural masters’ flowing years.\n\n[Material 2]\nToday in Yunnan, you can experience not only the beauty of mountains, culture, and history, but also the beauty of technology and wellness — check out these new tourism combinations!\n\n[Material 3]\nGuandu District in Kunming is a thriving area with numerous scenic spots. As an important cradle of ancient Dian civilization, it has a long history, talented people, and rich intangible cultural heritage. Let us explore the beauty of Guandu together."
             }
           ]
         },
@@ -7886,7 +7903,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 11,
               "stem": "读片段，完成练习",
-              "passage": "一段关于我国科技创新、经济转型等成就的文字，含选字、选词、字义辨析等题目。",
+              "passage": "小龙听老师讲述：科技创新方面，我国成功研发多项前沿技术，引领全球潮流。经济板块，实现高质量发展。环保、教育、医疗等领①　　（预 誉 域）也取得显著成绩，提升民众福祉。这些成就展示了我国全面建设社会主义现代化国家的②　　（坚 艰 兼）实步伐。同学们肃然起敬——是呀，中国人民从来就具有不被困难③　　（伴 拌 绊）倒，不被挫折吓到的精神！",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -7994,7 +8011,8 @@ window.XCSC_DATA = {
               "stemEn": "Read the passage about China's technological innovations and answer questions.",
               "contextEn": "A passage about China's achievements in technology, economy, and culture, with character selection and idiom usage exercises.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Xiao Long listened to the teacher’s account: In terms of scientific and technological innovation, our country has successfully developed multiple cutting-edge technologies, leading global trends. In the economic sector, high-quality development has been achieved. Significant progress has also been made in environmental protection, education, healthcare, and other fields ① (choose: 预/誉/域), improving public welfare. These achievements demonstrate our nation’s ② (choose: 坚/艰/兼) solid steps toward building a modern socialist country. The students were filled with deep respect—yes indeed, the Chinese people have always possessed the spirit of never being ③ (choose: 伴/拌/绊) tripped up by difficulties, never frightened by setbacks!"
             },
             {
               "num": 4,
@@ -8015,7 +8033,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 4,
               "stem": "毕业前夕活动任务",
-              "passage": "毕业班'铭记往昔·启航梦想\"活动，含毕业赠言和演讲材料选择。",
+              "passage": "毕业前夕，学校组织毕业班举行“铭记往昔·启航梦想”的活动，感恩过去。\n\n（1）根据人物名片，在好朋友毕业留言册上写下你的赠言。\n人物名片：\n姓名：刘佳佳\n优点：乐于助人，成绩优异，深得同学喜欢\n不足：有时候会骄傲自满\n\n（2）班级准备开展以“少年当志存高远”为主题的毕业演讲比赛。你认为以下为演讲稿搜集的材料里，哪一项不符合此观点。\nA.华罗庚从小立志攀登数学高峰，成为我国杰出的数学家。\nB.李宁自幼立志刻苦练习体操，成为奥运冠军，为国家争得荣誉。\nC.周恩来从小立志“为中华之崛起而读书”。\nD.雷锋全心全意为人民服务，出差一千里，好事做了一火车。",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -8059,7 +8077,8 @@ window.XCSC_DATA = {
               "stemEn": "Graduation activities — write farewell messages and choose speech materials.",
               "contextEn": "A graduation event called 'Remember the Past, Set Sail for Dreams.\"",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "On the eve of graduation, the school organized graduating classes to hold a “Cherish the Past · Set Sail for Dreams” activity to express gratitude for the past.\n\n(1) Based on the character profile, write a farewell message in your good friend’s graduation autograph book.\nCharacter Profile:\nName: Liu Jiajia\nStrengths: Helpful, excellent grades, well-liked by classmates\nWeakness: Sometimes prone to arrogance and complacency\n\n(2) The class is preparing a graduation speech competition on the theme “Youth Should Aim High.” Which of the following materials collected for the speech does NOT match this theme?\nA. Hua Luogeng aspired from childhood to scale the heights of mathematics, becoming one of China’s outstanding mathematicians.\nB. Li Ning was determined from a young age to practice gymnastics diligently, becoming an Olympic champion and winning glory for his country.\nC. Zhou Enlai resolved as a child to “study for the rise of China.”\nD. Lei Feng devoted himself wholeheartedly to serving the people—on a single thousand-mile trip, he did a whole trainload of good deeds."
             }
           ]
         },
@@ -8074,7 +8093,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 11,
               "stem": "阅读《画蛇添足》，完成6-10题",
-              "passage": "文言文《画蛇添足》：楚国有人祭祀后赐门客一壶酒，门客们画蛇比赛，先画完的喝酒。一人先成却给蛇添脚，结果酒被别人夺去喝了。",
+              "passage": "楚有①者，赐其舍人②卮③酒。舍人相谓④曰：“数人饮之不足，一人饮之有余。请画地为蛇，先成者饮酒。”一人蛇先成，乃左手持卮，右手画蛇曰：“吾能为之足。”未成，夺其卮曰：“蛇固无足，子安能为⑤之足？”遂⑥饮其酒。为蛇足者，终亡⑦其酒。\n\n【注释】①祠（cí）：祭祀。②舍人：达官贵族家里的门客。③卮（zhī）古代一种盛酒的器皿。④相谓：相互商议。⑤为：给，就。⑦亡：失去，丢失。",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -8147,14 +8166,15 @@ window.XCSC_DATA = {
               "stemEn": "Read the classical text 'Drawing a Snake and Adding Feet\" and answer questions.",
               "contextEn": "A man at a sacrificial feast wins the snake-drawing contest but foolishly adds feet to the snake, losing his wine to the runner-up.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "In the state of Chu, there was a man who held a sacrificial ceremony① and bestowed upon his retainers② a goblet③ of wine. The retainers discussed④ among themselves: “For several people to share this wine would not be enough, but for one person alone it would be more than sufficient. Let us draw snakes on the ground, and whoever finishes first shall drink the wine.” One man finished his snake first. He then held the goblet in his left hand and drew with his right, saying: “I can even add feet to it.” Before he finished, another man snatched the goblet and said: “A snake has no feet by nature—how can you give⑤ it feet?” He then⑥ drank the wine. The man who added feet to his snake ended up losing⑦ his wine.\n\n[Notes] ①祠 (cí): to hold a sacrificial ceremony. ②Retainers: household guests of nobles and high officials. ③卮 (zhī): an ancient wine vessel. ④Discussed: consulted with one another. ⑤Give/provide. ⑦Lost/forfeited."
             },
             {
               "num": 7,
               "type": "readingGroup",
               "score": 15,
               "stem": "阅读四则材料，完成11-16题（材料关于体育运动）",
-              "passage": "材料一：昆明市第十二届少数民族传统体育运动会；材料二：昆明户外运动模式（户外+健身/社交/亲子游）；材料三：班委群关于加强学生体育锻炼的讨论；材料四：昆明长虫山户外运动。",
+              "passage": "[材料一]2023年10月15日晚，昆明市第十二届少数民族传统体育运动会在石林县民族体育场开幕。体育运动会设置了很多项目，如：抢花炮、摔跤、射弩、陀螺等12个竞赛项目和1个表演项目。来自全市的18个代表团参赛，参赛人员共1840人，其中运动员1457人，占比94%。全体运动员将秉持“平等、团结、拼搏、奋进”的宗旨，用实际行动，顽强拼搏、超越自我。\n\n[材料二]户外运动在昆明兴起，有很多户外运动模式。例如：“户外+健身”，增加耐力、强健体魄，结识志趣相投的驴友，开启说走就走的旅行，找到户外“遛姓”的好去处。\n\n[材料三]关于加强学生体育锻炼，小龙所在班委群也开展了激烈地讨论。\n班长：周五那天听老师说，今年体育成绩分值占比提高了。\n学习委员：学生还是要以学习为主。有空应该多看书，多刷题才对吧！体育即消耗精力又浪费时间，不知道为什么还要提分！\n生活委员：看老师怎么说吧，我们就跟着做就行，只要体育能及格就好。\n体育委员：其实体育也不光只关乎成绩啊，它跟读书学习一样，还能使人终身受益。袁隆平爷爷热爱游泳，也一直用健康的身体和良好的心态专注于自己的事业，我们也可以兼顾锻炼和学习的。\n\n[材料四]①昆明长虫山又名蛇山，位于昆明市北市区，蜊蛀的山势，吸引了众多的昆明人，定期或不定期去登高览胜。这不仅是一项特殊的户外运动。\n②中午，爬到长虫山顶，站在山顶看云，或在山峦处厚重地凝集。\n③傍晚，眺望沐浴在夕阳下的整个昆明城，看着霞光消散、万家灯火逐一点亮，一整天的疲劳也在绝美的落日中逐渐消散。",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -8237,14 +8257,15 @@ window.XCSC_DATA = {
               "stemEn": "Read four materials about sports and exercise, and answer questions.",
               "contextEn": "Material 1: Kunming's 12th Minority Sports Games. Material 2: Outdoor exercise modes. Material 3: Class committee discussing student fitness. Material 4: Changchong Mountain outdoor activities.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "[Material 1] On the evening of October 15, 2023, the 12th Kunming Ethnic Minority Traditional Sports Games opened at the Shilin County Ethnic Sports Stadium. The games featured many events, including flower-cannon grabbing, wrestling, crossbow shooting, and spinning tops—a total of 12 competitive events and 1 performance event. Eighteen delegations from across the city participated, with 1,840 total participants, including 1,457 athletes, accounting for 94%. All athletes would uphold the spirit of “equality, unity, hard work, and progress,” using their actions to compete tenaciously and surpass themselves.\n\n[Material 2] Outdoor sports have risen in popularity in Kunming, with many outdoor activity models. For example: “Outdoor + Fitness” builds endurance and strengthens the body; one can meet like-minded hiking friends, embark on spontaneous trips, and find great outdoor “walking” destinations.\n\n[Material 3] Regarding strengthening students’ physical exercise, Xiao Long’s class committee also held a heated discussion in their group chat.\nClass Monitor: Last Friday the teacher said the sports score weighting has been increased this year.\nStudy Commissioner: Students should still prioritize studying. Free time should be spent reading more books and doing more practice problems! Sports both drain energy and waste time—I don’t understand why the score has been raised!\nLife Commissioner: Let’s see what the teacher says and just follow along—as long as we can pass PE, that’s fine.\nSports Commissioner: Actually, sports aren’t just about grades. Like reading and studying, they can benefit a person for life. Grandpa Yuan Longping loved swimming and always used his healthy body and positive mindset to focus on his career. We can balance exercise and study too.\n\n[Material 4] ①Kunming’s Changchong Mountain, also called Snake Mountain, is located in the northern district of Kunming. Its winding terrain attracts many Kunming residents who regularly or occasionally go hiking there. This is not merely a special form of outdoor exercise.\n②At noon, climbing to the summit of Changchong Mountain and gazing at the clouds as they gather thickly around the ridges.\n③In the evening, looking out over the entire city of Kunming bathed in sunset light, watching the glow fade and ten thousand household lights flicker on one by one—the fatigue of an entire day gradually dissipates in the magnificent sunset."
             },
             {
               "num": 8,
               "type": "readingGroup",
               "score": 10,
               "stem": "阅读短文《长在树上的粽子》，完成17-21题",
-              "passage": "记叙文：五岁的'我\"生病在家，误以为粽子是一种水果。梦见树上长满粽子后告诉父母。父亲连夜去二十里外劈苇叶、买糯米，和母亲包好粽子挂在树上，满足了\"我\"的愿望。",
+              "passage": "长在树上的粽子\n\n①五岁之前我没见过粽子，更没吃过，在我记忆里端午节不算个节，我才真正见到了粽子。\n\n②看病回来的火车上，我偶尔发现附近有个小女孩在吃一个三角形的水果，那是我从没见过的水果，黑绿色的皮，里面全是白色的果肉，老远就能闻到香味。下车后，我好奇地问父亲那个小女孩吃的是什么。父亲随口说那是粽子，于是…\n\n③从城里回来后，我一直虚弱地躺在家里，每日喝着黑苦的药水，不由得想起那剥了皮来吃的粽子，想得满脑子都是。\n\n④后来睡觉竟做了一个梦，梦到院子的树上结满了粽子。醒来后我意犹未尽，叹着气跟身旁的父母说，父亲一愔，默默地看着我不说话。\n\n⑤第二天早晨听见姐姐叽叽嗳嗳喚我的名字，“快起来，咱家树上长出粽子了！”\n\n⑥我急忙爬到窗前，果然，院子里的两棵树变了样子，随风轻轻地晃动，清晨的太阳在它们身上闪着光。\n\n⑦我兴奋地穿衣跑出去，跳着要亲自去摘，父亲过来扇起我，一手用剪刀剪下来，递给下面的姐姐。我一个个地剪着，张着嘴不停地笑……\n\n⑧摘下全部的粽子，我坐到树下的凳子上，急不可待地学着爸爸的样子扛开粽子的皮，伴着一股浓香展现在我眼前。我轻轻咬一口，黏黏的，满口的绵软温香，却远胜我满嘴苦味，和想象中的一样好吃。\n\n⑨我抬头看看父亲又瞧瞧母亲，他们亦是满脸的笑。说来奇怪，吃过粽子后，又能到处跑跳了。从此对院子里的树，我格外上心地照顾。\n\n⑩一年后我知道了粽子不是长在树上的，也知道了为了满足我的愿望，那天父亲去了二十里外的河边芦苇丛中劈来苇叶，连夜和母亲包好了粽子煮上，在天还蒙蒙亮的时候…\n\n⑪一晃儿很多年过去了，我也过了很多次的端午节，那年粽子长在树上的经历…",
               "subQuestions": [
                 {
                   "subNum": "(1)",
@@ -8340,7 +8361,8 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Zongzi Growing on Trees\" and answer questions.",
               "contextEn": "At age 5, the narrator is sick at home and thinks zongzi are a fruit. After dreaming of zongzi trees, the father travels 20 miles overnight for reeds and glutinous rice, and parents hang homemade zongzi on a tree to fulfill the child's wish.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Zongzi Growing on Trees\n\n①Before the age of five, I had never seen a zongzi, let alone eaten one. In my memory, the Dragon Boat Festival didn’t really count as a holiday—until I finally saw a real zongzi.\n\n②On the train ride back from seeing the doctor, I happened to notice a little girl nearby eating a triangular fruit I had never seen before—dark green skin, all white flesh inside, and you could smell its fragrance from far away. After getting off the train, I curiously asked my father what the little girl had been eating. My father casually said it was a zongzi, and so...\n\n③After returning home from the city, I lay weakly in bed day after day, drinking bitter black medicine, and couldn’t help thinking about that zongzi you peeled to eat—I thought about it until my mind was completely full of it.\n\n④Later, while sleeping, I actually had a dream—I dreamed the trees in the courtyard were laden with zongzi. When I woke, still savoring the dream, I sighed and told my parents about it. My father froze for a moment, then looked at me silently without a word.\n\n⑤The next morning, I heard my sister chattering excitedly, calling my name: “Get up quick—our trees have grown zongzi!”\n\n⑥I hurried to the window, and sure enough, the two trees in the courtyard had transformed, swaying gently in the breeze, the morning sun glinting off them.\n\n⑦Thrilled, I threw on my clothes and ran outside, jumping up and reaching to pick them myself. My father came over, hoisted me up, and snipped them down one by one with scissors, handing them to my sister below. I kept clipping them off, mouth wide open, laughing nonstop...\n\n⑧After picking all the zongzi, I sat on the stool under the tree and impatiently peeled one open the way my father did. A rich fragrance greeted my eyes. I took a gentle bite—sticky and soft, the mouth filled with warm sweetness, far better than the bitterness that had filled my mouth before, and every bit as delicious as I had imagined.\n\n⑨I looked up at my father, then at my mother—both had faces full of smiles. Strangely enough, after eating the zongzi, I could run and jump around again. From then on, I took especially careful care of the trees in the courtyard.\n\n⑩A year later, I learned that zongzi don’t actually grow on trees. I also learned that to fulfill my wish, my father had gone twenty li to the riverside reed marshes to cut reed leaves, and he and my mother stayed up all night wrapping and boiling the zongzi, so that while the sky was still barely light...\n\n⑪Many years have passed in the blink of an eye, and I’ve celebrated many Dragon Boat Festivals since. That year when zongzi grew on the trees—that experience..."
             }
           ]
         },
@@ -9673,7 +9695,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 13,
               "stem": "阅读《匆匆》（节选）和《那个星期天》（节选），完成11-15题。",
-              "passage": "选文（一）《匆匆》节选：描写时光如何在日常生活中匆匆流逝。选文（二）《那个星期天》节选：描写'我\"在等待母亲回来时度过难挨时光的情景。",
+              "passage": "选文（一）《匈匈》节选（朱自清）\n\n去的尽管去了，来的尽管来着，去来的中间，又怎样地匈匈呢？早上我起来的时候，小屋里射进两三方斜斜的太阳。太阳他有脚啊，轻轻悄悄地挪移了，我也茧茧然跟着旋转。于是——洗手的时候，日子从水盆里过去；吃饭的时候，日子从饭碗里过去；默默时，便从凝然的双眼前过去；我觉察他去得匈匈了，伸出手遮挽时，他又从遮挽着的手边过去；天黑时，我躺在床上，他便伶伶俐俐地从我身上跨过，从我脚边飞去了；等我睁开眼和太阳再见，这算又溜走了一日。\n\n选文（二）《那个星期天》节选\n\n这段时光不好挥。我踏着一块块方砖跳，跳房子，等母亲回来。我看着天看着云彩走，等母亲回来，焦急又兴奋。我蹲在院子的地上，用树枝拨弄着一个蚁穴，爬着去找更多的蚁穴。院子里就我一个孩子，没人跟我玩。我坐在草丛里翻看一本画报，那是一本看了多少回的电影画报。那上面有一群比我大的女孩子，一个个都非常漂亮。我坐在草丛里看她们，想象她们的家，想象她们此刻在干什么，想象她们的兄弟姐妹和她们的父母，想象她们的声音。去年的荒草丛里又有了绿色，院子很大，空空落落。",
               "subQuestions": [
                 {
                   "subNum": "11",
@@ -9742,14 +9764,15 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Hurrying\" and \"That Sunday\" excerpts. Answer questions.",
               "contextEn": "Selection 1 from 'Hurrying\": how time slips away in daily life. Selection 2 from \"That Sunday\": a child waiting for mother through an agonizing day.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Excerpt (1): “Hurry” by Zhu Ziqing\n\nWhat has gone has gone, what is coming keeps coming — but in the gap between going and coming, how hurriedly time passes! When I rise in the morning, two or three slanting rays of sun enter the room. The sun has feet, moving softly and stealthily; I too follow in a daze. And so — when washing hands, the days pass through the basin; when eating, through the rice bowl; when sitting silent, past my still-gazing eyes. I sense them rushing away and reach out to hold them back, but they slip past my outstretched hands. At nightfall, lying in bed, they nimbly leap over me and fly from my feet. When I open my eyes to meet the sun again, another day has slipped away.\n\nExcerpt (2): “That Sunday”\n\nThose hours were hard to endure. I hopped on paving stones, playing hopscotch, waiting for Mother. I watched the sky, watched clouds drift by, anxious yet excited. I crouched on the ground, poking an anthill with a twig, crawling to find more. I was the only child in the courtyard; no one to play with. I sat in the grass flipping through a magazine — a film pictorial I’d seen many times. In it were girls older than me, all very pretty. I sat watching them, imagining their homes, imagining what they were doing right now, imagining their siblings and parents, imagining their voices. Last year’s weeds had turned green again. The courtyard was large, empty and forlorn."
             },
             {
               "num": 16,
               "type": "readingGroup",
               "score": 10,
               "stem": "阅读《读书要有选择》，完成16-18题。",
-              "passage": "议论文，论述小学生应选择优秀文学作品、名人传记、科普类书籍、工具书来阅读，并强调兴趣爱好可以通过读书培养，读书能扩大知识面。",
+              "passage": "读书要有选择\n\n①我们小学生可以选择哪些读物呢？\n\n②第一，可以选读一些优秀的文学作品，特别是那些已有定评的古今中外名著。这类书籍具有深刻的思想内容和较高的艺术水准。读了这些书，我们就能很形象地知道什么是美什么是丑，什么是真什么是假，什么是善什么是恶，什么样的人生才是有价值的，什么样的感情才是美好的……在得到精神陶冶的同时，我们还会明白，什么样的文章才是真正出色的文章。\n\n③第二，可以选读一些名人传记。领袖人物、爱国先贤和科学家的传记，会向我们展现他们成长的足迹、奋斗的历程和光辉的业绩；展现他们高尚的情操和执着的追求。这类书曾经激励了一代又一代的人为国家富强和民族振兴作出巨大贡献，是我们宝贵的精神财富。歌德说过：“读一本好书，就是在和高尚的人谈话。”读这些人物的传记，我们也仿佛是在聆听他们的教诲，接受他们的思想，这对我们的成长是非常有意义的。\n\n④第三，可以选读一些科普类的书。这类书通俗易懂，生动有趣，既可以学到各方面的科学知识，也可以启迪智慧，帮助我们插上幻想的翅膀，去探索大自然的奥秘。\n\n⑤此外，还可选择一些工具书，如字典、词典、百科全书等。这些都是最好的“无声老师”，我们在学习中遇到疑难问题，就可以随时向它们“请教”。\n\n⑥选择什么样的读物，往往因人而异。我们可以根据自己的兴趣爱好选择合适的读物。当然，一个人的兴趣爱好也是可以通过读书来培养的。一般说来，一个人兴趣越广泛，读的书越多，他的视野就越开阔，也就越能增强自己的才干。社会在不断进步，科技在飞速发展，我们应该通过有选择地读书来不断扩大自己的知识面，以适应这个日新月异的社会。",
               "subQuestions": [
                 {
                   "subNum": "16",
@@ -9794,14 +9817,15 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Reading Requires Selection\" and answer questions.",
               "contextEn": "An essay arguing that students should choose quality literary works, biographies, science books, and reference books.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Reading with Selectivity\n\n① What reading materials should we primary school students choose?\n\n② First, select outstanding literary works, especially recognized classics from home and abroad. These books have profound ideas and high artistic standards. They teach us vividly what is beautiful and ugly, true and false, good and evil, what kind of life has value, and what emotions are truly fine… While nourishing our spirit, we also learn what truly excellent writing looks like.\n\n③ Second, select biographies of famous people. Biographies of leaders, patriots, and scientists show us their growth, their struggles, and their brilliant achievements; their noble character and persistent pursuits. Such books have inspired generation after generation. As Goethe said: “To read a good book is to converse with a noble mind.”\n\n④ Third, select popular science books. These are accessible, lively, and fun — they teach scientific knowledge while sparking imagination and helping us explore nature’s mysteries.\n\n⑤ Additionally, choose reference books like dictionaries and encyclopedias — the best “silent teachers” to consult whenever difficulties arise.\n\n⑥ What to read varies by person. We can choose based on our interests, which themselves can be cultivated through reading. Generally, the broader one’s interests and the more one reads, the wider one’s horizons and the greater one’s capabilities. In an ever-advancing society, we should selectively read to keep expanding our knowledge and adapt to this rapidly changing world."
             },
             {
               "num": 19,
               "type": "readingGroup",
               "score": 11,
               "stem": "阅读三则材料（世界读书日、第三届全民阅读大会），完成19-22题。",
-              "passage": "材料一：世界读书日介绍（4月23日）；材料二：第三届全民阅读大会主题及嘉宾六个主题；材料三：昆明作为举办地的文化意义。",
+              "passage": "材料一：世界读书日全称“世界图书与版权日”，又称“世界图书日”。最初的创意来自于国际出版商协会。1995年，联合国教科文组织宣布4月23日为“世界读书日”，同时这一天也是西班牙著名作家塞万提斯和英国著名作家莎士比亚辞世纪念日。\n\n材料二：第三届全民阅读大会以“共建书香社会共享现代文明”为主题，旨在交流推广全民阅读工作经验，引导人民群众参与到阅读中来，进一步涵育爱读书、读好书、善读书的社会风尚，推动提升社会现代文明程度。此次活动邀请了多名重磅嘉宾，他们将围绕阅读、文化热点，分别带来“毛泽东的读书生活”“西南联大校史中的红色故事”“从鱼到人的生命进化之旅”“答案在书里”“读书培植家国情怀”“阅读的方法”六个主题。\n\n材料三：走进新时代，昆明作为第三届全民阅读大会的举办地，再次迎来文化高光时刻。来自全国的著名作家、知名学者和文化名人聚集于此，共赴书香之约，“悦”见春日美好。阅读与城市发展、阅读与民族团结、阅读与图书馆、阅读与生态文明、青少年阅读……各界嘉宾在一个个有关阅读的共同话题下碰撞智慧火花、进行思想对话，充分展现阅读魅力、激发大众阅读热情。",
               "subQuestions": [
                 {
                   "subNum": "19",
@@ -9858,7 +9882,8 @@ window.XCSC_DATA = {
               "stemEn": "Read three materials about World Reading Day and the 3rd National Reading Conference. Answer questions.",
               "contextEn": "Material 1: World Reading Day (April 23); Material 2: Six themes of the 3rd National Reading Conference; Material 3: Kunming as host city.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "Material 1: World Book Day, formally “World Book and Copyright Day,” was conceived by the International Publishers Association. In 1995, UNESCO declared April 23 as World Book Day — also the anniversary of the deaths of Cervantes and Shakespeare.\n\nMaterial 2: The Third National Reading Congress, themed “Building a Reading Society, Sharing Modern Civilization,” aims to promote reading experiences, encouraging the public to read, and fostering a social ethos of loving, choosing, and skillfully reading books. Distinguished guests presented six topics: “Mao Zedong’s Reading Life,” “Red Stories from Southwest Associated University,” “From Fish to Human: Evolution,” “Answers in Books,” “Reading to Cultivate Patriotism,” and “Methods of Reading.”\n\nMaterial 3: In the new era, Kunming once again shines as the host of the Third National Reading Congress. Renowned authors, scholars, and cultural figures gathered for a “rendezvous with books.” Topics like reading and urban development, ethnic unity, libraries, ecological civilization, and youth reading sparked intellectual dialogue, showcasing reading’s charm and inspiring public enthusiasm."
             }
           ]
         },
@@ -10156,7 +10181,7 @@ window.XCSC_DATA = {
               "type": "readingGroup",
               "score": 16,
               "stem": "阅读《笛声化作民族魂》，完成13-19题。",
-              "passage": "记叙文，讲述聂耳从昆明甬道街故居出生、学笛、求学、赴上海入歌剧社、加入共产党创作革命歌曲，直至创作《义勇军进行曲》成为国歌的经历。",
+              "passage": "笛声化作民族魂\n\n①昆明甬道街的聂耳故居很平常，这是一栋传统的昆明“一颗印”式房屋，三间土木结构的房屋，好在是座两层楼。故居为穿斗结构二层民居建筑，原建筑面宽两间、进深两间，底层铺面原为药店。聂耳就出生于这里。\n\n②进入院落，悠扬的音韵便萦绕在耳畔。不过，那并不是《义勇军进行曲》的旋律，而是竹笛吹出的稚嫩音韵。教聂耳吹笛子的师傅姓邱，只是一位木匠。聂耳勤奋好学，把笛子吹得优美迷人。\n\n③在学校里，聂耳长知识，长思想。他看到祖国积弱积贫，时刻梦想着国家能富裕强大。他把满腔热情寄托于变革，并鼓动同学和自己一道呼吁奔走。\n\n④后来，聂耳离开昆明远赴上海。有一天，他看到《申报》刊出联华影业公司音乐歌舞学校招收学员的广告，身上沉睡的音乐细胞马上被激活了，便去报考。成为歌剧社的一员后，聂耳如鱼得水，担任首席小提琴手。\n\n⑤此后，“九一八”事变发生了。聂耳不再只想着歌唱，他要呐喊！他结识了中国共产党员、戏剧家田汉，加入了中国共产党，开始为电影和戏剧创作主题曲和插曲：《大路》《开路先锋》《码头工人之歌》《毕业歌》……聂耳创作了一首又一首明快激昂的歌曲，他要用歌声惊醒沉睡的雄狮，用歌声点燃焚烧侵略者的烽火！\n\n⑥1935年，一部以宣传抗日救亡为主题的电影《风云儿女》开拍了。聂耳的呐喊声化作了这部电影主题曲《义勇军进行曲》的旋律。\n\n⑦“起来！不愿做奴隶的人们……”\n\n⑧创作于中华民族危难关头的《义勇军进行曲》，是由田汉作词，聂耳作曲的，唱出了抗日救亡时代大众的心声，表现出中华民族勇往直前、不屈不挠的战斗精神，后来成为国歌，散发出永恒的魅力。\n\n⑨站在昆明甬道街聂耳故居里，仿佛能听到那悠扬的稚嫩笛音。那笛音经过千铺百炼，最终怒吼出的是民族魂，中华韵！（作者乔忠延，有删改）",
               "subQuestions": [
                 {
                   "subNum": "13",
@@ -10310,14 +10335,15 @@ window.XCSC_DATA = {
               "stemEn": "Read 'Flute Sound Becomes National Spirit\" about Nie Er and answer questions.",
               "contextEn": "The story of Nie Er from his birth in Kunming's Yongdao Street, learning the flute, studying, joining Shanghai opera society, composing revolutionary songs, to creating 'March of the Volunteers\" (national anthem).",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "The Flute’s Song Became the Nation’s Soul\n\n① Nie Er’s former residence on Yongdao Street in Kunming is modest — a traditional Kunming “one-stamp” house with three rooms of timber-and-earth construction, fortunately two stories. Nie Er was born here.\n\n② Entering the courtyard, melodious notes linger. Not the March of the Volunteers, but the tender sounds of a bamboo flute. Nie Er’s flute teacher, surnamed Qiu, was merely a carpenter. Nie Er studied diligently and played beautifully.\n\n③ At school, Nie Er grew in knowledge and thought. Seeing his nation’s weakness and poverty, he dreamed of a strong, prosperous country, channeling his passion into reform.\n\n④ Later, Nie Er left Kunming for Shanghai. Spotting a newspaper ad for a film company’s music school, his dormant musical talent awakened. He joined the opera troupe and became its lead violinist.\n\n⑤ After the September 18th Incident, Nie Er no longer just wanted to sing — he wanted to shout! He befriended playwright Tian Han, joined the Communist Party, and began composing film and theater themes: “The Great Road,” “Pioneer,” “Song of the Dock Workers,” “Graduation Song”… He wanted his songs to awaken the sleeping lion and ignite resistance!\n\n⑥ In 1935, the anti-Japanese film “Children of Troubled Times” began production. Nie Er’s cry became its theme: the March of the Volunteers.\n\n⑦ “Arise! All who refuse to be slaves…”\n\n⑧ Composed at a critical moment for the Chinese nation, with lyrics by Tian Han and music by Nie Er, the March of the Volunteers voiced the people’s aspirations, embodied the nation’s indomitable fighting spirit, and later became the national anthem, radiating eternal power.\n\n⑨ Standing in Nie Er’s former residence on Yongdao Street, one can almost hear those tender flute notes — notes that, through relentless tempering, ultimately roared forth as the nation’s soul and China’s resonance! (Author: Qiao Zhongyan, abridged)"
             },
             {
               "num": 20,
               "type": "readingGroup",
               "score": 21,
               "stem": "阅读茶文化相关三则材料，完成20-24题。",
-              "passage": "材料一：茶的种类及功用（绿茶、红茶、黑茶、白茶）。材料二：明朝谢肇淛《滇略》节选，文言文描述云南茶文化。材料三：第十六届中国云南普洱茶国际博览交易会介绍。",
+              "passage": "【材料一】\n茶有多种，其特点和功用也大不相同：绿茶，能提神益思，消除疲劳，解毒防病；红茶具有暖胃的作用，适合女性或者冬天饮用；黑茶，可消食解腻，御寒，杀菌止泻；白茶，能明目，保肝护肝，促进血糖平衡。\n\n【材料二】\n滞苦无茗，非其地不产也，土人不得采取制造之方，即成而不知烹煦之节，犹无茗也。士并所用，皆普茶也，蒸而成团，煦作草气，差胜饮水耳。（节选自明朝谢肇淛《滞略》）\n【注释】滞：泛指云南。苦：苦于。茗：茶。土人：当地人。不得：不懂。即：即使。烹煦（yuè）：煮茶。犹：仍然。士并：有身份的人和普通人。普茶：即普洱茶。差胜饮水耳：味道比喝白开水好一些。\n\n【材料三】\n2024年4月22日，为期4天的第十六届中国云南普洱茶国际博览交易会落幕。本届茶博会以“绿色云茶·天下普洱”为主题，汇聚600多家优质茶企，展销商品涵盖普洱茶、红茶、绿茶等六大茶类，以及茶具、茶包装、茶机械、茶技术、新式茶饮等茶全产业链产品。",
               "subQuestions": [
                 {
                   "subNum": "20",
@@ -10452,7 +10478,8 @@ window.XCSC_DATA = {
               "stemEn": "Read three materials about tea culture and answer questions.",
               "contextEn": "Material 1: Types and functions of tea (green, red, black, white). Material 2: Classical Chinese from Ming Dynasty about Yunnan tea culture. Material 3: The 16th Yunnan Pu'er Tea International Expo.",
               "examPoint": "阅读理解",
-              "examPointEn": "Reading Comprehension"
+              "examPointEn": "Reading Comprehension",
+              "passageEn": "[Material 1]\nThere are many types of tea, each with distinct characteristics and benefits: Green tea boosts alertness, relieves fatigue, and detoxifies; Red (black) tea warms the stomach, suited for women or winter; Dark tea aids digestion, fights cold, and stops diarrhea; White tea brightens the eyes, protects the liver, and balances blood sugar.\n\n[Material 2]\nYunnan suffers from having no [good] tea — not because the land doesn’t produce it, but because the locals don’t know how to pick, process, or brew it properly; even when made, it’s as if there were no tea at all. What everyone uses is Pu’er tea, steamed into cakes, brewed with a grassy taste — barely better than plain water. (Excerpted from Xie Zhaozhe’s “Dian Lue,” Ming Dynasty)\n[Notes] Dian: Yunnan. Ku: to suffer from. Ming: tea. Locals didn’t know the methods of picking and processing.\n\n[Material 3]\nOn April 22, 2024, the 4-day 16th China Yunnan Pu’er Tea International Expo concluded. Themed “Green Yunnan Tea · World Pu’er,” it gathered over 600 quality tea enterprises, showcasing products spanning all six major tea categories, plus teaware, packaging, machinery, technology, and modern tea beverages — the full tea industry chain."
             }
           ]
         },

@@ -4281,6 +4281,20 @@ function xcscOpenSub(sub){
 
 /* ─── Escape helper ─── */
 function _xEsc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function _stripOptLbl(s){return typeof s==='string'?s.replace(/^[A-D]\s*[.、．]\s*/,''):String(s||'');}
+/* Format passage text: handle emphasis dots 加点字 marked as {.X.} and images marked as [img:desc] */
+function _xcscFmtPassage(s){
+  var t=_xEsc(s);
+  /* Handle emphasis dots: text wrapped in《》gets styled as title */
+  t=t.replace(/\u300A([^\u300B]+)\u300B/g,'<span style="font-weight:600">\u300A$1\u300B</span>');
+  /* Handle paragraph numbers ①②③ etc - make them stand out */
+  t=t.replace(/([\u2460-\u2473\u3251-\u325F])/g,'<span style="color:var(--gold);font-weight:600">$1</span>');
+  /* Handle emphasis-dot markup {.X.} → text with dots underneath */
+  t=t.replace(/\{\.([^}]+)\.\}/g,'<span style="text-emphasis:filled dot;-webkit-text-emphasis:filled dot;text-emphasis-position:under;-webkit-text-emphasis-position:under;font-weight:500">$1</span>');
+  /* Handle image placeholders [img:description] */
+  t=t.replace(/\[img:([^\]]+)\]/g,'<div style="margin:8px 0;padding:12px;background:var(--rice1);border:1px dashed var(--rice3);border-radius:var(--r-sm);text-align:center;color:var(--ink3);font-size:13px">\uD83D\uDDBC\uFE0F $1</div>');
+  return t;
+}
 
 /* ─── Paper Dashboard ─── */
 function renderXcscDash(){
@@ -4419,7 +4433,8 @@ function xcscRenderQ(q,mode,qKey,qIdx){
   h+='<div class="xcsc-q-stem"><span class="xcsc-q-num">'+q.num+'.</span>'+_xEsc(q.stem);
   h+='<span class="xcsc-q-score">('+q.score+'\u5206)</span></div>';
   if(q.stemEn)h+='<div class="xcsc-q-stem-en">'+_xEsc(q.stemEn)+'</div>';
-  if(q.context&&q.type!=='readingGroup')h+='<div class="xcsc-q-context">'+_xEsc(q.context)+(q.contextEn?'<div class="xcsc-en-note">'+_xEsc(q.contextEn)+'</div>':'')+'</div>';
+  var _qCtx=q.context||q.passage||'';var _qCtxEn=q.contextEn||q.passageEn||'';
+  if(_qCtx&&q.type!=='readingGroup')h+='<div class="xcsc-q-context" style="white-space:pre-line;line-height:1.8;border-left:3px solid var(--gold);padding:10px 14px;background:rgba(212,167,44,0.04);border-radius:var(--r-sm);margin:var(--sp-xs) 0">'+_xcscFmtPassage(_qCtx)+(_qCtxEn?'<div class="xcsc-en-note" style="margin-top:8px;padding-top:8px;border-top:1px dashed var(--rice3)">'+_xEsc(_qCtxEn)+'</div>':'')+'</div>';
   var t=q.type;
   if(t!=='readingGroup'){var _ti=EXAM_ANALYSIS.types[t]||{cn:t,en:t};h+='<span class="xcsc-type-badge">'+_ti.cn+' <span class="en">'+_ti.en+'</span></span>';}
   if(t==='choice'||t==='readingChoice'||t==='multiChoice')h+=_xcscRenderChoice(q,mode,qKey);
@@ -4448,8 +4463,9 @@ function _xcscRenderChoice(q,mode,qKey){
     if(mode==='quiz'&&userAns===i)cls+=' selected';
     if(mode==='review'){if(i===q.answer)cls+=' correct';if(userAns===i&&userAns!==q.answer)cls+=' wrong';}
     var lbl=String.fromCharCode(65+i);
+    var optTxt=typeof opt==='string'?opt.replace(/^[A-D]\s*[.、．]\s*/,''):String(opt);
     h+='<div class="'+cls+'"'+(mode==='quiz'?' onclick="xcscPickChoice(\''+_xEsc(qKey)+'\','+i+')"':'')+'>';
-    h+='<div class="xcsc-opt-radio"></div><div>'+lbl+'. '+_xEsc(opt)+(oEn[i]?'<span class="xcsc-en-note"> '+_xEsc(oEn[i])+'</span>':'')+'</div></div>';
+    h+='<div class="xcsc-opt-radio"></div><div>'+lbl+'. '+_xEsc(optTxt)+(oEn[i]?'<span class="xcsc-en-note"> '+_xEsc(oEn[i])+'</span>':'')+'</div></div>';
   });
   h+='</div>';return h;
 }
@@ -4572,7 +4588,16 @@ function xcscUpdateCharCount(el){
 }
 function _xcscRenderGroup(q,mode,qKey){
   var h='';
-  if(q.context){h+='<div class="xcsc-q-context">'+_xEsc(q.context);if(q.contextEn)h+='<div class="xcsc-en-note">'+_xEsc(q.contextEn)+'</div>';h+='</div>';}
+  /* Show passage (reading material) with enhanced display */
+  var _psg=q.passage||q.context||'';
+  var _psgEn=q.passageEn||q.contextEn||'';
+  if(_psg){
+    h+='<div class="xcsc-passage-box" style="margin:var(--sp-sm) 0;border:1px solid var(--rice3);border-radius:var(--r-md);overflow:hidden">';
+    h+='<div style="background:linear-gradient(135deg,rgba(212,167,44,0.12),rgba(212,167,44,0.04));padding:8px 16px;border-bottom:1px solid var(--rice3);font-weight:600;font-size:13px;color:var(--ink2)">\u7BC7\u7AE0\u539F\u6587 \u00B7 Reading Material</div>';
+    h+='<div style="white-space:pre-line;line-height:2;font-size:14.5px;padding:16px 20px;text-indent:0;letter-spacing:0.3px;color:var(--ink1)">'+_xcscFmtPassage(_psg)+'</div>';
+    if(_psgEn){h+='<details style="border-top:1px solid var(--rice3)"><summary style="padding:8px 16px;font-size:12px;color:var(--ink3);cursor:pointer">\u82F1\u6587\u8BD1\u6587 English Translation</summary><div style="padding:12px 20px;font-size:13px;line-height:1.8;color:var(--ink2);white-space:pre-line">'+_xEsc(_psgEn)+'</div></details>';}
+    h+='</div>';
+  }
   (q.subQuestions||[]).forEach(function(sq,si){
     var sKey=qKey+'_sub'+si;
     h+='<div class="xcsc-q" style="margin-left:16px;border-left:2px solid var(--rice3)">';
@@ -4773,7 +4798,7 @@ function _xcscRenderReviewInfo(q,qKey){
     h+='</div>';
   } else if(q.answer!==undefined&&q.options){
     var lbl=String.fromCharCode(65+(q.answer||0));var oEn=q.optionsEn||[];
-    h+='<div class="xcsc-answer-show">\u6B63\u786E\u7B54\u6848 Correct Answer: <b>'+lbl+'. '+_xEsc(q.options[q.answer]||'')+'</b>';
+    h+='<div class="xcsc-answer-show">\u6B63\u786E\u7B54\u6848 Correct Answer: <b>'+lbl+'. '+_xEsc(_stripOptLbl(q.options[q.answer]||''))+'</b>';
     if(oEn[q.answer])h+='<div class="xcsc-en-note">'+_xEsc(oEn[q.answer])+'</div>';
     h+='</div>';
   }
@@ -4980,7 +5005,7 @@ function renderXcscTypePractice(){
       if(checked&&xcscState.typePick===i&&i!==q.answer)cls+=' wrong';
       if(!checked&&xcscState.typePick===i)cls+=' selected';
       h+='<div class="'+cls+'"'+(checked?'':' onclick="xcscState.typePick='+i+';renderXcscTypePractice()"')+'>';
-      h+='<div class="xcsc-opt-radio"></div><div>'+String.fromCharCode(65+i)+'. '+_xEsc(opt)+(oEn[i]?'<span class="xcsc-en-note"> '+_xEsc(oEn[i])+'</span>':'')+'</div></div>';
+      h+='<div class="xcsc-opt-radio"></div><div>'+String.fromCharCode(65+i)+'. '+_xEsc(_stripOptLbl(opt))+(oEn[i]?'<span class="xcsc-en-note"> '+_xEsc(oEn[i])+'</span>':'')+'</div></div>';
     });h+='</div>';
   } else if(tp==='judgement'){
     var cv=(q.answer===true||q.answer===1||q.answer==='true'||q.answerText==='\u5BF9'||q.answerText==='\u221A');
@@ -5001,7 +5026,7 @@ function renderXcscTypePractice(){
   if(checked){
     h+='<div style="background:var(--rice);border-radius:var(--r-md);padding:var(--sp-md);width:100%">';
     if(q.answerText)h+='<div style="font-size:13px;margin-bottom:4px"><b>\u53C2\u8003\u7B54\u6848:</b> '+_xEsc(q.answerText)+'</div>';
-    else if(q.answer!==undefined&&(tp==='choice'||tp==='readingChoice')&&q.options)h+='<div style="font-size:13px;margin-bottom:4px"><b>\u6B63\u786E\u7B54\u6848:</b> '+String.fromCharCode(65+q.answer)+'. '+_xEsc(q.options[q.answer])+'</div>';
+    else if(q.answer!==undefined&&(tp==='choice'||tp==='readingChoice')&&q.options)h+='<div style="font-size:13px;margin-bottom:4px"><b>\u6B63\u786E\u7B54\u6848:</b> '+String.fromCharCode(65+q.answer)+'. '+_xEsc(_stripOptLbl(q.options[q.answer]))+'</div>';
     if(q.explain)h+='<div style="font-size:12px;color:var(--ink3)">\uD83D\uDCA1 '+_xEsc(q.explain)+'</div>';
     if(q.explainEn)h+='<div style="font-size:12px;color:var(--ink4);margin-top:2px">'+_xEsc(q.explainEn)+'</div>';
     h+='</div>';
@@ -5307,7 +5332,8 @@ function zkRenderQ(q,mode,qKey,qIdx){
   h+='<div class="zk-q-stem"><span class="zk-q-num">'+q.num+'.</span>'+_xEsc(q.stem);
   h+='<span class="zk-q-score">('+q.score+'\u5206)</span></div>';
   if(q.stemEn)h+='<div class="zk-q-stem-en">'+_xEsc(q.stemEn)+'</div>';
-  if(q.context&&q.type!=='readingGroup')h+='<div class="zk-q-context">'+_xEsc(q.context)+(q.contextEn?'<div class="zk-en-note">'+_xEsc(q.contextEn)+'</div>':'')+'</div>';
+  var _zqCtx=q.context||q.passage||'';var _zqCtxEn=q.contextEn||q.passageEn||'';
+  if(_zqCtx&&q.type!=='readingGroup')h+='<div class="zk-q-context" style="white-space:pre-line;line-height:1.8;border-left:3px solid var(--jade);padding:10px 14px;background:rgba(76,139,101,0.04);border-radius:var(--r-sm);margin:var(--sp-xs) 0">'+_xcscFmtPassage(_zqCtx)+(_zqCtxEn?'<div class="zk-en-note" style="margin-top:8px;padding-top:8px;border-top:1px dashed var(--rice3)">'+_xEsc(_zqCtxEn)+'</div>':'')+'</div>';
   var t=q.type;
   if(t!=='readingGroup'){var _ti=EXAM_ANALYSIS.types[t]||{cn:t,en:t};h+='<span class="zk-type-badge">'+_ti.cn+' <span class="en">'+_ti.en+'</span></span>';}
   if(t==='multiChoice')h+=_zkRenderMultiChoice(q,mode,qKey);
@@ -5337,8 +5363,9 @@ function _zkRenderChoice(q,mode,qKey){
     if(mode==='quiz'&&userAns===i)cls+=' selected';
     if(mode==='review'){if(i===q.answer)cls+=' correct';if(userAns===i&&userAns!==q.answer)cls+=' wrong';}
     var lbl=String.fromCharCode(65+i);
+    var optTxt=typeof opt==='string'?opt.replace(/^[A-D]\s*[.、．]\s*/,''):String(opt);
     h+='<div class="'+cls+'"'+(mode==='quiz'?' onclick="zkPickChoice(\''+_xEsc(qKey)+'\','+i+')"':'')+'>';
-    h+='<div class="zk-opt-radio"></div><div>'+lbl+'. '+_xEsc(opt)+(oEn[i]?'<span class="zk-en-note"> '+_xEsc(oEn[i])+'</span>':'')+'</div></div>';
+    h+='<div class="zk-opt-radio"></div><div>'+lbl+'. '+_xEsc(optTxt)+(oEn[i]?'<span class="zk-en-note"> '+_xEsc(oEn[i])+'</span>':'')+'</div></div>';
   });
   h+='</div>';return h;
 }
@@ -5352,8 +5379,9 @@ function _zkRenderMultiChoice(q,mode,qKey){
     if(mode==='quiz'&&picked)cls+=' selected';
     if(mode==='review'){if(correctArr.indexOf(i)!==-1)cls+=' correct';if(picked&&correctArr.indexOf(i)===-1)cls+=' wrong';}
     var lbl=String.fromCharCode(65+i);
+    var optTxt=typeof opt==='string'?opt.replace(/^[A-D]\s*[.、．]\s*/,''):String(opt);
     h+='<div class="'+cls+'"'+(mode==='quiz'?' onclick="zkPickMulti(\''+_xEsc(qKey)+'\','+i+')"':'')+'>';
-    h+='<div class="zk-opt-radio" style="border-radius:3px"></div><div>'+lbl+'. '+_xEsc(opt)+(oEn[i]?'<span class="zk-en-note"> '+_xEsc(oEn[i])+'</span>':'')+'</div></div>';
+    h+='<div class="zk-opt-radio" style="border-radius:3px"></div><div>'+lbl+'. '+_xEsc(optTxt)+(oEn[i]?'<span class="zk-en-note"> '+_xEsc(oEn[i])+'</span>':'')+'</div></div>';
   });
   h+='</div>';if(mode==='quiz')h+='<div style="font-size:11px;color:var(--ink4);margin-top:2px">\u53EF\u591A\u9009 Multiple selection allowed</div>';
   return h;
@@ -5483,7 +5511,14 @@ function zkUpdateCharCount(el){
 }
 function _zkRenderGroup(q,mode,qKey){
   var h='';
-  if(q.context){h+='<div class="zk-q-context">'+_xEsc(q.context);if(q.contextEn)h+='<div class="zk-en-note">'+_xEsc(q.contextEn)+'</div>';h+='</div>';}
+  var _zPsg=q.passage||q.context||'';var _zPsgEn=q.passageEn||q.contextEn||'';
+  if(_zPsg){
+    h+='<div class="zk-passage-box" style="margin:var(--sp-sm) 0;border:1px solid var(--rice3);border-radius:var(--r-md);overflow:hidden">';
+    h+='<div style="background:linear-gradient(135deg,rgba(76,139,101,0.12),rgba(76,139,101,0.04));padding:8px 16px;border-bottom:1px solid var(--rice3);font-weight:600;font-size:13px;color:var(--ink2)">\u7BC7\u7AE0\u539F\u6587 \u00B7 Reading Material</div>';
+    h+='<div style="white-space:pre-line;line-height:2;font-size:14.5px;padding:16px 20px;letter-spacing:0.3px;color:var(--ink1)">'+_xcscFmtPassage(_zPsg)+'</div>';
+    if(_zPsgEn){h+='<details style="border-top:1px solid var(--rice3)"><summary style="padding:8px 16px;font-size:12px;color:var(--ink3);cursor:pointer">\u82F1\u6587\u8BD1\u6587 English Translation</summary><div style="padding:12px 20px;font-size:13px;line-height:1.8;color:var(--ink2);white-space:pre-line">'+_xEsc(_zPsgEn)+'</div></details>';}
+    h+='</div>';
+  }
   (q.subQuestions||[]).forEach(function(sq,si){
     var sKey=qKey+'_sub'+si;
     h+='<div class="zk-q" style="margin-left:16px;border-left:2px solid var(--rice3)">';
@@ -5690,7 +5725,7 @@ function _zkRenderReviewInfo(q,qKey){
     h+='</div>';
   } else if(q.answer!==undefined&&q.options){
     var lbl=String.fromCharCode(65+(q.answer||0));var oEn=q.optionsEn||[];
-    h+='<div class="zk-answer-show">\u6B63\u786E\u7B54\u6848 Correct Answer: <b>'+lbl+'. '+_xEsc(q.options[q.answer]||'')+'</b>';
+    h+='<div class="zk-answer-show">\u6B63\u786E\u7B54\u6848 Correct Answer: <b>'+lbl+'. '+_xEsc(_stripOptLbl(q.options[q.answer]||''))+'</b>';
     if(oEn[q.answer])h+='<div class="zk-en-note">'+_xEsc(oEn[q.answer])+'</div>';
     h+='</div>';
   }
@@ -5918,8 +5953,8 @@ function renderZkTypePractice(){
   if(checked){
     h+='<div style="background:var(--rice);border-radius:var(--r-md);padding:var(--sp-md);width:100%">';
     if(q.answerText)h+='<div style="font-size:13px;margin-bottom:4px"><b>\u53C2\u8003\u7B54\u6848:</b> '+_xEsc(q.answerText)+'</div>';
-    else if(tp==='multiChoice'&&Array.isArray(q.answer)&&q.options){var _mc=q.answer.map(function(a){return String.fromCharCode(65+a)+'. '+_xEsc(q.options[a]);}).join(', ');h+='<div style="font-size:13px;margin-bottom:4px"><b>\u6B63\u786E\u7B54\u6848:</b> '+_mc+'</div>';}
-    else if(q.answer!==undefined&&(tp==='choice'||tp==='readingChoice')&&q.options)h+='<div style="font-size:13px;margin-bottom:4px"><b>\u6B63\u786E\u7B54\u6848:</b> '+String.fromCharCode(65+q.answer)+'. '+_xEsc(q.options[q.answer])+'</div>';
+    else if(tp==='multiChoice'&&Array.isArray(q.answer)&&q.options){var _mc=q.answer.map(function(a){return String.fromCharCode(65+a)+'. '+_xEsc(_stripOptLbl(q.options[a]));}).join(', ');h+='<div style="font-size:13px;margin-bottom:4px"><b>\u6B63\u786E\u7B54\u6848:</b> '+_mc+'</div>';}
+    else if(q.answer!==undefined&&(tp==='choice'||tp==='readingChoice')&&q.options)h+='<div style="font-size:13px;margin-bottom:4px"><b>\u6B63\u786E\u7B54\u6848:</b> '+String.fromCharCode(65+q.answer)+'. '+_xEsc(_stripOptLbl(q.options[q.answer]))+'</div>';
     if(q.explain)h+='<div style="font-size:12px;color:var(--ink3)">\uD83D\uDCA1 '+_xEsc(q.explain)+'</div>';
     if(q.explainEn)h+='<div style="font-size:12px;color:var(--ink4);margin-top:2px">'+_xEsc(q.explainEn)+'</div>';
     h+='</div>';
@@ -6100,7 +6135,7 @@ h+='</div><div class="home-stats"><div class="home-stat"><div class="home-stat-v
 h+='<div class="home-stat"><div class="home-stat-val">'+lc.length+'</div><div class="home-stat-lbl">\u5DF2\u5B66<br>Learned</div></div>';
 h+='<div class="home-stat"><div class="home-stat-val">'+(du>0?du:'\u2014')+'</div><div class="home-stat-lbl">\u5F85\u590D\u4E60<br>Due</div></div></div>';
 h+='<div style="text-align:center;margin-top:16px;font-size:11px;color:var(--ink4)">\u6309 Ctrl+K \u641C\u7D22\u6C49\u5B57</div>';
-h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v32</div></div>';
+h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v35</div></div>';
 w.innerHTML=h;w.style.display='';currentView='home';
 }
 function navigateFromHome(id){if(VIEWS[id]){navigateTo(id);updateRail();return;}updateRail();}
