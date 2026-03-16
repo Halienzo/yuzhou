@@ -1428,6 +1428,23 @@ body{background:#fff!important;color:#000!important}
 .tb-reading-text p:last-child{margin-bottom:0}
 .tb-pinyin-line{font-size:11px;color:var(--t3);letter-spacing:.5px;display:block;text-indent:2em;margin-bottom:2px;line-height:1.2}
 .tb-en-line{font-size:12px;color:var(--ink4);font-style:italic;display:block;margin-bottom:6px;text-indent:2em;line-height:1.4}
+/* Vertical poem layout 诗词纵向排版 */
+.tb-poem-wrap{display:flex;justify-content:center;padding:24px 16px;background:linear-gradient(135deg,#fdf6e3 0%,#f5eed6 100%);border:1px solid #d4c5a0;border-radius:12px;box-shadow:inset 0 0 30px rgba(0,0,0,.03);position:relative;margin-bottom:12px;overflow-x:auto}
+.tb-poem-wrap::before{content:'';position:absolute;top:8px;right:8px;bottom:8px;left:8px;border:1px solid rgba(180,160,120,.15);border-radius:8px;pointer-events:none}
+.tb-poem-scroll{writing-mode:vertical-rl;text-orientation:mixed;font-family:'Noto Serif SC','Songti SC',serif;font-size:22px;line-height:2.4;letter-spacing:3px;padding:8px 4px}
+.tb-poem-scroll p{margin:0;padding:0 14px;text-indent:0;white-space:nowrap;border-left:1px solid rgba(180,160,120,.12)}
+.tb-poem-scroll p:last-child{border-left:none}
+.tb-poem-scroll .tc{cursor:pointer;transition:color .15s}
+.tb-poem-scroll .tc:hover{color:#c0392b;text-decoration:none}
+.tb-poem-scroll rt.tbPyRuby{font-size:9px;color:var(--ink4);letter-spacing:0;font-weight:400}
+.tb-poem-scroll .poem-title-line{font-size:16px;letter-spacing:1px;color:var(--ink3);padding:0 10px}
+.tb-poem-en-wrap{margin-top:12px;padding:12px 16px;background:rgba(255,255,255,.5);border-radius:8px;text-align:center;line-height:1.8}
+.tb-poem-en-wrap p{margin:0 0 4px;text-indent:0;font-size:13px;color:var(--ink4);font-style:italic}
+.dark .tb-poem-wrap{background:linear-gradient(135deg,#2a2520,#1e1a15);border-color:#4a4030}
+.dark .tb-poem-wrap::before{border-color:rgba(120,100,60,.2)}
+.dark .tb-poem-scroll p{border-left-color:rgba(120,100,60,.15)}
+.dark .tb-poem-en-wrap{background:rgba(0,0,0,.2)}
+@media(max-width:600px){.tb-poem-scroll{font-size:18px;line-height:2.2;letter-spacing:2px}.tb-poem-scroll p{padding:0 10px}}
 .tb-toggle-row{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
 .tb-toggle{padding:4px 12px;border-radius:14px;border:1px solid var(--ink3);font-size:12px;cursor:pointer;background:#fff;transition:all .2s}
 .tb-toggle.active{background:var(--orange);color:#fff;border-color:var(--orange)}
@@ -1905,6 +1922,60 @@ body>*:not(.hw-print-sheet){display:none!important}
 .dark .ce-xref-item{background:var(--ink2)}
 .dark .ce-actions{border-color:var(--ink3)}
 .dark .ce-action-tts{background:var(--ink2);color:var(--rice)}
+/* ─── Clickable Character Mini Popup ─── */
+.tc{cursor:pointer;transition:color .15s}
+.tc:hover{color:var(--blue);text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px}
+.tc:active{color:var(--jade)}
+.char-mini{position:fixed;z-index:9990;background:#fff;box-shadow:0 8px 32px rgba(0,0,0,.18);
+  padding:16px;display:none;overflow:hidden;width:280px;border-radius:12px}
+.char-mini.open{display:block;animation:cmIn .2s ease}
+@keyframes cmIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.cm-header{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.cm-char{font-size:36px;font-weight:700;color:var(--red);font-family:var(--font-serif);line-height:1}
+.cm-pinyin{font-size:16px;color:var(--ink2);font-weight:500;flex:1}
+.cm-tts{border:none;background:none;font-size:16px;cursor:pointer;opacity:.5;padding:4px}
+.cm-tts:hover{opacity:1}
+.cm-close{border:none;background:var(--rice2);width:24px;height:24px;border-radius:6px;cursor:pointer;
+  font-size:14px;color:var(--ink4);display:flex;align-items:center;justify-content:center}
+.cm-close:hover{background:var(--red);color:#fff}
+.cm-meaning{font-size:13px;color:var(--ink3);margin-bottom:6px;line-height:1.4}
+.cm-badges{display:flex;gap:4px;margin-bottom:8px}
+.cm-badge{font-size:10px;padding:1px 6px;border-radius:4px;color:#fff;font-weight:600}
+.cm-badge.hsk{background:var(--jade)}
+.cm-badge.grade{background:var(--red)}
+.cm-row{display:flex;gap:10px;align-items:flex-start;margin-bottom:8px}
+.cm-writer-mini{width:68px;height:68px;border:1.5px solid var(--rice3);border-radius:8px;flex-shrink:0;overflow:hidden}
+.cm-info{font-size:12px;color:var(--ink3);line-height:1.7;flex:1}
+.cm-section{margin-bottom:6px}
+.cm-label{font-size:11px;color:var(--ink4);font-weight:600;margin-right:6px}
+.cm-tone-tag{font-size:10px;color:var(--orange);font-weight:600;margin-left:2px}
+.cm-multi{font-size:11px;color:var(--ink3);margin-bottom:6px;padding:4px 8px;background:var(--rice2);border-radius:6px;line-height:1.5}
+.cm-word-item{display:flex;align-items:baseline;gap:4px;padding:3px 0;font-size:12px;cursor:pointer;transition:color .15s}
+.cm-word-item:hover{color:var(--blue)}
+.cm-word-cn{font-weight:600;font-size:13px;flex-shrink:0}
+.cm-word-py{color:var(--ink4);font-size:11px;flex-shrink:0}
+.cm-word-en{color:var(--ink4);font-size:11px;font-style:italic;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cm-sent{font-size:12px;color:var(--ink3);line-height:1.5;margin-bottom:8px;padding:6px 10px;
+  background:var(--rice2);border-radius:8px}
+.cm-sent-en{font-size:11px;color:var(--ink4);font-style:italic;margin-top:3px}
+.cm-actions{display:flex;gap:6px}
+.cm-act-btn{flex:1;padding:7px 0;border:1px solid var(--rice3);border-radius:8px;background:#fff;
+  font-size:12px;cursor:pointer;transition:all .15s;font-family:inherit}
+.cm-act-btn:hover{background:var(--rice2)}
+.cm-act-detail{background:var(--blue);color:#fff;border-color:var(--blue)}
+.cm-act-detail:hover{background:var(--indigo)}
+.dark .char-mini{background:var(--ink);color:var(--rice);box-shadow:0 8px 32px rgba(0,0,0,.4)}
+.dark .cm-close{background:var(--ink2)}
+.dark .cm-word{background:var(--ink2)}
+.dark .cm-sent{background:var(--ink2)}
+.dark .cm-act-btn{background:var(--ink2);border-color:var(--ink3);color:var(--rice)}
+@media(max-width:600px){
+  .char-mini.open{left:0!important;right:0!important;bottom:0!important;top:auto!important;
+    width:100%!important;max-width:none!important;border-radius:16px 16px 0 0!important;
+    padding:20px 16px calc(env(safe-area-inset-bottom,0px) + 16px)!important;
+    animation:cmSlideUp .25s ease!important}
+}
+@keyframes cmSlideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
 /* ─── Bridge Module ─── */
 .br-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;max-width:960px;margin:0 auto}
 .br-card{background:#fff;border-radius:12px;padding:20px;text-align:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.08);transition:transform .2s,box-shadow .2s;border:2px solid transparent}
@@ -3300,7 +3371,7 @@ function wordToPinyin(word){
   for(var i=0;i<word.length;i++){
     var ch=word[i];
     if(map[ch])pys.push(map[ch]);
-    else if(/[\u4e00-\u9fff]/.test(ch))pys.push('?');
+    else if(/[\u4e00-\u9fff]/.test(ch)){var _rpy=(typeof _cmResolvePinyin==='function')?_cmResolvePinyin(ch):'';pys.push(_rpy||'');}
     else pys.push(ch);
   }
   return pys.join(' ');
@@ -3310,7 +3381,8 @@ function rubyHTML(word){
   var h='';
   for(var i=0;i<word.length;i++){
     var ch=word[i];
-    if(map[ch])h+='<ruby>'+ch+'<rp>(</rp><rt>'+map[ch]+'</rt><rp>)</rp></ruby>';
+    var py=map[ch]||((typeof _cmResolvePinyin==='function')?_cmResolvePinyin(ch):'');
+    if(py)h+='<ruby>'+ch+'<rp>(</rp><rt>'+py+'</rt><rp>)</rp></ruby>';
     else h+=ch;
   }
   return h;
@@ -6135,7 +6207,7 @@ h+='</div><div class="home-stats"><div class="home-stat"><div class="home-stat-v
 h+='<div class="home-stat"><div class="home-stat-val">'+lc.length+'</div><div class="home-stat-lbl">\u5DF2\u5B66<br>Learned</div></div>';
 h+='<div class="home-stat"><div class="home-stat-val">'+(du>0?du:'\u2014')+'</div><div class="home-stat-lbl">\u5F85\u590D\u4E60<br>Due</div></div></div>';
 h+='<div style="text-align:center;margin-top:16px;font-size:11px;color:var(--ink4)">\u6309 Ctrl+K \u641C\u7D22\u6C49\u5B57</div>';
-h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v35</div></div>';
+h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v37</div></div>';
 w.innerHTML=h;w.style.display='';currentView='home';
 }
 function navigateFromHome(id){if(VIEWS[id]){navigateTo(id);updateRail();return;}updateRail();}
@@ -6226,6 +6298,7 @@ var rd=null;for(var i=0;i<RAW_DATA.length;i++){if(RAW_DATA[i].c===ch){rd=RAW_DAT
 if(rd){d.pinyin=rd.p||'';d.grade='G'+rd.g+'S'+rd.s;d.unit='U'+rd.u+' L'+rd.ui;
 if(rd.w)d.words=rd.w.map(function(w){return{w:w,p:(typeof WORD_PINYIN!=='undefined'&&WORD_PINYIN[w])||'',en:''};});}
 if(CHAR_EN[ch])d.english=CHAR_EN[ch];
+if(!d.english&&typeof _cmEnPatch!=='undefined'&&_cmEnPatch[ch])d.english=_cmEnPatch[ch];
 /* Check HSK detailed data (highest priority for rich content) */
 var hskLevel=typeof HSK_INDEX!=='undefined'&&HSK_INDEX[ch]?HSK_INDEX[ch].level:0;
 if(hskLevel){d.hskLevel=hskLevel;
@@ -6387,6 +6460,196 @@ var info=document.getElementById('ceStrokeInfo');if(info)info.textContent='\u7B2
 else{window._ceStepMode=false;var info=document.getElementById('ceStrokeInfo');if(info)info.textContent='\u5168\u90E8\u7B14\u753B\u5B8C\u6210';}}
 function ceToggleFav(ch){var f=JSON.parse(localStorage.getItem('favs')||'[]'),i=f.indexOf(ch);if(i>=0)f.splice(i,1);else f.push(ch);localStorage.setItem('favs',JSON.stringify(f));showCharExplorer(ch);}
 function ceAddSRS(ch){var s=JSON.parse(localStorage.getItem('srs')||'{}');if(!s[ch])s[ch]={box:0,due:Date.now(),added:Date.now()};localStorage.setItem('srs',JSON.stringify(s));showCharExplorer(ch);}
+
+/* ─── Clickable Character Mini Popup System ─── */
+function makeCharsClickable(text){
+  if(!text)return'';
+  var h='',i=0,len=text.length;
+  while(i<len){var ch=text[i];
+    if(ch.charCodeAt(0)>=0x4e00&&ch.charCodeAt(0)<=0x9fff||ch.charCodeAt(0)>=0x3400&&ch.charCodeAt(0)<=0x4dbf){
+      h+='<span class="tc" data-ch="'+ch+'">'+ch+'</span>';
+    }else{h+=ch;}
+    i++;
+  }
+  return h;
+}
+var _miniPopup=null,_miniWriter=null;
+/* Resolve pinyin through cascading fallback sources */
+var _cmPyPatch={"吾":"wú","鹭":"lù","惟":"wéi","沥":"lì","坊":"fāng","宛":"wǎn","卢":"lú","蝌":"kē","蚪":"dǒu","澹":"dàn","卿":"qīng","伫":"zhù","萋":"qī","翡":"fěi","莎":"shā","淫":"yín","朔":"shuò","亵":"xiè","妾":"qiè","惘":"wǎng","雎":"jū","轼":"shì","轩":"xuān","淅":"xī","粼":"lín","怅":"chàng","缥":"piāo","榛":"zhēn","汝":"rǔ","怆":"chuàng","冽":"liè","犀":"xī","湍":"tuān","荇":"xìng","窈":"yǎo","窕":"tiǎo","淑":"shū","蒹":"jiān","葭":"jiā","涓":"juān","鸢":"yuān","鼹":"yǎn","玛":"mǎ","甫":"fǔ","蒿":"hāo","炽":"chì","邈":"miǎo","蹒":"pán","跚":"shān","汲":"jí","孰":"shú","矗":"chù","矜":"jīn","钝":"dùn","猿":"yuán","徙":"xǐ","壑":"hè","揖":"yī","嗟":"jiē","洄":"huí","刿":"guì","谏":"jiàn","陀":"tuó","毽":"jiàn","蹚":"tāng","鹂":"lí","耘":"yún","苞":"bāo","竦":"sǒng","漓":"lí","拗":"ào","罔":"wǎng","忱":"chén","兀":"wù","嗔":"chēn","寐":"mèi","杞":"qǐ","唧":"jī","悚":"sǒng","伛":"yǔ","偻":"lǚ","睨":"nì","篾":"miè","怏":"yàng","忡":"chōng","镌":"juān","匝":"zā","汴":"biàn","踵":"zhǒng","胄":"zhòu","烽":"fēng","詹":"zhān","抉":"jué","渎":"dú","冥":"míng","鲲":"kūn","娉":"pīng","婷":"tíng","毳":"cuì","凇":"sōng","沆":"hàng","砀":"dàng","懦":"nuò","醺":"xūn","谒":"yè","叱":"chì","尹":"yǐn","蹴":"cù","铢":"zhū","蹑":"niè","绚":"xuàn","锹":"qiāo","泞":"nìng","揠":"yà","嗒":"dā","鸳":"yuān","鸯":"yāng","豚":"tún","衢":"qú","媪":"ǎo","锵":"qiāng","虞":"yú","钲":"zhēng","晖":"huī","犷":"guǎng","谧":"mì","莅":"lì","吝":"lìn","啬":"sè","蜈":"wú","蚣":"gōng","蜕":"tuì","雍":"yōng","惚":"hū","蜷":"quán","鹦":"yīng","鹉":"wǔ","锢":"gù","黠":"xiá","缈":"miǎo","瘁":"cuì","淳":"chún","杼":"zhù","戎":"róng","雌":"cí","怍":"zuò","颔":"hàn","忿":"fèn","驿":"yì","牍":"dú","虬":"qiú","叩":"kòu","瞰":"kàn","昇":"shēng","渤":"bó","寰":"huán","聩":"kuì","礴":"bó","黝":"yǒu","锃":"zèng","纶":"guān","砥":"dǐ","凋":"diāo","镂":"lòu","嚣":"xiāo","绢":"juàn","畎":"quǎn","仞":"rèn","箕":"jī","畚":"běn","匮":"kuì","辔":"pèi","戛":"jiá","蓦":"mò","俨":"yǎn","郡":"jùn","佁":"yǐ","翕":"xī","鸠":"jiū","辗":"zhǎn","搡":"sǎng","翌":"yì","濠":"háo","肴":"yáo","骈":"pián","戍":"shù","娆":"ráo","妍":"yán","骛":"wù","瞥":"piē","谪":"zhé","霏":"fēi","谗":"chán","鸥":"ōu","拏":"ná","樽":"zūn","婵":"chán","娟":"juān","栈":"zhàn","拮":"jié","厮":"sī","觑":"qù","旌":"jīng","跣":"xiǎn","缊":"yùn","睥":"pì","啪":"pā","靡":"mǐ","邹":"zōu","昳":"yì","菠":"bō","蚱":"zhà","蒌":"lóu","苔":"tái","蛱":"jiá","黛":"dài","黍":"shǔ","晞":"xī","笠":"lì","髻":"jì","铛":"chēng","瓢":"piáo","唰":"shuā","畦":"qí","椹":"shèn","塾":"shú","厥":"jué","噫":"yī","盔":"kuī","怦":"pēng","笃":"dǔ","怂":"sǒng","恿":"yǒng","凫":"fú","眈":"dān","瞑":"míng","娲":"wā","衙":"yá","瑶":"yáo","亘":"gèn","斓":"lán","柝":"tuò","姊":"zǐ","诘":"jié","凼":"dàng","葫":"hú","杓":"sháo","葺":"qì","悯":"mǐn","禹":"yǔ","颐":"yí","迸":"bèng","仃":"dīng","猥":"wěi","忏":"chàn","噬":"shì","舷":"xián","芜":"wú","荻":"dí","咔":"kā","嚓":"chā","殚":"dān","篡":"cuàn","樱":"yīng","熳":"màn","辍":"chuò","髯":"rán","埃":"āi","镭":"léi","猝":"cù","曦":"xī","襄":"xiāng","泠":"líng","嘤":"yīng","戾":"lì","柯":"kē","簌":"sù","褂":"guà","踌":"chóu","躇":"chú","垠":"yín","臼":"jiù","腴":"yú","嶙":"lín","峋":"xún","墁":"màn","粟":"sù","侯":"hóu","舜":"shùn","孀":"shuāng","叟":"sǒu","厝":"cuò","诏":"zhào","撺":"cuān","掇":"duō","羔":"gāo","陕":"shǎn","糜":"méi","粱":"liáng","亢":"kàng","羁":"jī","燎":"liáo","斡":"wò","骼":"gé","褶":"zhě","缄":"jiān","髫":"tiáo","坻":"chí","邃":"suì","篓":"lǒu","峨":"é","逑":"qiú","寤":"wù","诬":"wū","彷":"páng","徨":"huáng","萦":"yíng","漩":"xuán","砾":"lì","蜿":"wān","蜒":"yán","巉":"chán","沓":"tà","眩":"xuàn","抟":"tuán","枥":"lì","邺":"yè","衾":"qīn","绦":"tāo","猬":"wèi","茁":"zhuó","咛":"níng","螳":"táng","螂":"láng","傣":"dǎi","樾":"yuè","谙":"ān","喙":"huì","铿":"kēng","陂":"bēi","漪":"yī","鄂":"è","荔":"lì","菱":"líng","饯":"jiàn","焜":"kūn","窠":"kē","碣":"jié","豌":"wān","菡":"hàn","萏":"dàn","奕":"yì","荚":"jiá","蛉":"líng","蝥":"máo","珊":"shān","瑚":"hú","秕":"bǐ","窦":"dòu","柚":"yòu","倜":"tì","傥":"tǎng","叵":"pǒ","嗬":"hē","捻":"niǎn","愠":"yùn","殆":"dài","箪":"dān","肱":"gōng","殉":"xùn","拈":"niān","薰":"xūn","涸":"hé","菲":"fēi","苫":"shàn","尻":"kāo","氢":"qīng","蘢":"lóng","镐":"gǎo","鞍":"ān","蕃":"fān","濯":"zhuó","涟":"lián","岱":"dài","眦":"zì","箫":"xiāo","茨":"cí","栗":"lì","燔":"fán","讫":"qì","缭":"liáo","哧":"chī","桅":"wéi","瀚":"hàn","殇":"shāng","戮":"lù","呓":"yì","佃":"diàn","髭":"zī","琪":"qí","娄":"lóu","渍":"zì","阙":"quē","巘":"yǎn","漱":"shù","皋":"gāo","犊":"dú","薇":"wēi","崔":"cuī","颢":"hào","楠":"nán","颀":"qí","飓":"jù","濒":"bīn","吆":"yāo","榭":"xiè","钹":"bó","鬲":"gé","敖":"áo","奚":"xī","龀":"chèn","陇":"lǒng","匈":"xiōng","彀":"gòu","弩":"nǔ","尉":"wèi","曩":"nǎng","搔":"sāo","簪":"zān","戟":"jǐ","谩":"mán","馍":"mó","阑":"lán","骠":"piào","姚":"yáo","裴":"péi","苑":"yuàn","硅":"guī","霽":"jì","阡":"qiān","邑":"yì","骥":"jì","篁":"huáng","珮":"pèi","嵁":"kān","俶":"chù","皿":"mǐn","贻":"yí","楸":"qiū","篆":"zhuàn","芼":"mào","湄":"méi","跻":"jī","涘":"sì","沚":"zhǐ","冉":"rǎn","鲵":"ní","鲦":"tiáo","祗":"zhī","壕":"háo","绫":"líng","俟":"sì","咒":"zhòu","缎":"duàn","曜":"yào","樯":"qiáng","楫":"jí","芷":"zhǐ","汀":"tīng","皓":"hào","耶":"yé","滁":"chú","蔚":"wèi","琅":"láng","琊":"yá","辄":"zhé","暝":"míng","晦":"huì","洌":"liè","芥":"jiè","闰":"rùn","愕":"è","褴":"lán","褛":"lǚ","诳":"kuáng","怔":"zhēng","嗳":"ài","蓼":"liǎo","溆":"xù","挛":"luán","沈":"shěn","琳":"lín","聂":"niè","茴":"huí","嘎":"gā","咕":"gū","羹":"gēng","缟":"gǎo","谕":"yù","咤":"zhà","屣":"xǐ","皲":"jūn","羌":"qiāng","貂":"diāo","甥":"shēng","炙":"zhì","霹":"pī","霓":"ní","瑾":"jǐn","侬":"nóng","蛾":"é","邨":"cūn","幌":"huǎng","砧":"zhēn","剁":"duò","孚":"fú","篝":"gōu","挝":"wō","聒":"guō","恪":"kè","宥":"yòu","坍":"tān","滕":"téng","湘":"xiāng","偕":"xié","潺":"chán","觥":"gōng","恣":"zì","睢":"suī","撩":"liáo","诓":"kuāng","豢":"huàn","帛":"bó","趱":"zǎn","恁":"nèn","腆":"tiǎn","诨":"hùn","羼":"chàn","锱":"zī","桓":"huán","谑":"xuè","怫":"fú","裘":"qiú","咄":"duō","惆":"chóu","靳":"jìn","撂":"liào","瘡":"chuāng","诃":"hē","镕":"róng","浢":"dòu","顨":"xùn","巚":"yǎn","锎":"kāi","锸":"chā","菻":"lǐn","噋":"tūn","腌":"ā","臜":"zā","麼":"me","鲤":"lǐ","拂":"fú","蝴":"hú","踮":"diǎn","啥":"shá","憔":"qiáo","悴":"cuì","莉":"lì","庐":"lú","蜘":"zhī","蛛":"zhū","峭":"qiào","懊":"ào","嶂":"zhàng","鳞":"lín","刃":"rèn","澈":"chè","庇":"bì","孜":"zī","俺":"ǎn","腮":"sāi","哟":"yo","蜗":"wō","箸":"zhù","疤":"bā","箧":"qiè","入":"rù","蚂":"mǎ","桐":"tóng","枫":"fēng","杉":"shān","杏":"xìng","屁":"pì","屎":"shǐ","剌":"là","汩":"gǔ"};
+var _cmEnPatch={"吾":"I; my (classical)","鹭":"egret; heron","惟":"only; but (literary)","沥":"drip; trickle","坊":"lane; workshop","宛":"as if; winding","卢":"Lu (surname)","蝌":"tadpole","蚪":"tadpole","澹":"calm; rippling","卿":"minister; you (archaic)","伫":"stand for long","萋":"lush; luxuriant (grass)","翡":"kingfisher; jade","莎":"sedge grass; Sha (name)","淫":"excessive; licentious","朔":"north; first day of month","亵":"profane; disrespect","妾":"concubine","惘":"disappointed; at a loss","雎":"osprey (bird)","轼":"crossbar of carriage","轩":"high; lofty; veranda","淅":"sound of rain","粼":"clear rippling water","怅":"melancholy; regretful","缥":"misty; dim","榛":"hazelnut; thicket","汝":"you (classical)","怆":"mournful; sorrowful","冽":"cold; chilly","犀":"rhinoceros; sharp","湍":"rapid current","荇":"water plant","窈":"deep; secluded","窕":"slender; graceful","淑":"gentle; kind","蒹":"reed","葭":"reed","涓":"trickle; brook","鸢":"kite (bird)","鼹":"mole (animal)","玛":"agate; Ma (name)","甫":"just; Pu/Fu (surname)","蒿":"mugwort; wormwood","炽":"blazing; fervent","邈":"distant; remote","蹒":"stagger; limp","跚":"stagger","汲":"draw water; hurry","孰":"who; which (classical)","矗":"towering; upright","矜":"boast; sympathize","钝":"dull; blunt","猿":"ape","徙":"move; migrate","壑":"ravine; valley","揖":"bow; salute","嗟":"alas; sigh","洄":"whirlpool; eddy","刿":"cut; wound","谏":"remonstrate; advise","陀":"steep; uneven","毽":"shuttlecock","蹚":"wade through","鹂":"oriole","耘":"weed; cultivate","苞":"bud; bract","竦":"towering; respectful","漓":"drip; seep","拗":"stubborn; contrary","罔":"deceive; not (classical)","忱":"sincere; genuine","兀":"towering; abrupt","嗔":"angry; annoyed","寐":"sleep","杞":"wolfberry; Qi (state)","唧":"chirp; whisper","悚":"frightened; alarmed","伛":"hunchbacked","偻":"hunchbacked","睨":"look sideways; glance","篾":"bamboo strips","怏":"discontented","忡":"anxious; worried","镌":"engrave; carve","匝":"circle; all around","汴":"Bian (Kaifeng)","踵":"heel; follow","胄":"helmet; descendant","烽":"beacon fire","詹":"verbose; Zhan (surname)","抉":"pick out; choose","渎":"ditch; disrespect","冥":"dark; underworld","鲲":"giant fish (mythical)","娉":"graceful","婷":"graceful; pretty","毳":"fine hair; fur","凇":"frost; rime","沆":"vast water","砀":"rocky; shake","懦":"cowardly; weak","醺":"drunk; tipsy","谒":"visit; pay respects","叱":"scold; shout","尹":"govern; Yin (surname)","蹴":"kick; tread","铢":"zhu (unit of weight)","蹑":"tiptoe; follow stealthily","绚":"gorgeous; brilliant","锹":"spade; shovel","泞":"muddy; miry","揠":"pull up","嗒":"click (sound)","鸳":"mandarin duck (male)","鸯":"mandarin duck (female)","豚":"pig; piglet","衢":"crossroads","媪":"old woman","锵":"clang; resounding","虞":"worry; expect; Yu (dynasty)","钲":"percussion instrument","晖":"sunshine; radiance","犷":"rough; wild","谧":"quiet; tranquil","莅":"attend; arrive","吝":"stingy; miserly","啬":"stingy; frugal","蜈":"centipede","蚣":"centipede","蜕":"shed; molt","雍":"harmonious; elegant","惚":"absent-minded; trance","蜷":"curl up; coil","鹦":"parrot","鹉":"parrot","锢":"imprison; confine","黠":"cunning; clever","缈":"misty; vague","瘁":"haggard; overworked","淳":"pure; honest","杼":"shuttle (weaving)","戎":"military; weapon","雌":"female (animal)","怍":"ashamed","颔":"chin; nod","忿":"angry; indignant","驿":"post station","牍":"wooden tablet","虬":"curling; young dragon","叩":"knock; kowtow","瞰":"overlook; survey","昇":"rise; ascend","渤":"Bohai (gulf)","寰":"world; domain","聩":"deaf; ignorant","礴":"majestic; grand","黝":"dark; black","锃":"shiny; polished","纶":"silk ribbon","砥":"whetstone; strengthen","凋":"wither; decline","镂":"engrave; carve","嚣":"noisy; clamor","绢":"silk","畎":"field ditch","仞":"ren (unit of length)","箕":"winnowing basket","畚":"dustpan","匮":"deficient; depleted","辔":"reins; bridle","戛":"clash; scrape","蓦":"suddenly","俨":"solemn; as if","郡":"county; prefecture","佁":"still; motionless","翕":"collect; agree","鸠":"pigeon; dove","辗":"toss; roll over","搡":"push; shove","翌":"next (day)","濠":"moat; trench","肴":"meat dishes; food","骈":"parallel; paired","戍":"garrison; guard border","娆":"graceful; enchanting","妍":"beautiful; gorgeous","骛":"gallop; pursue","瞥":"glance; glimpse","谪":"exile; demote","霏":"falling rain/snow","谗":"slander; defame","鸥":"gull; seagull","拏":"grasp; take","樽":"wine goblet","婵":"beautiful; graceful","娟":"beautiful; graceful","栈":"warehouse; plank road","拮":"hard-pressed; short of","厮":"servant; fellow","觑":"look; peek","旌":"banner; flag","跣":"barefoot","缊":"tangled hemp","睥":"look down upon","啪":"clap; slap (sound)","靡":"fall; extravagant","邹":"Zou (state/surname)","昳":"beautiful; setting sun","菠":"spinach","蚱":"grasshopper","蒌":"artemisia (plant)","苔":"moss","蛱":"butterfly (swallowtail)","黛":"dark pigment; eyebrow","黍":"millet","晞":"dry; dawn light","笠":"bamboo hat","髻":"hair bun; chignon","铛":"cooking pot; gong","瓢":"gourd ladle; scoop","唰":"swish (sound)","畦":"garden plot; bed","椹":"mulberry; anvil","塾":"private school","厥":"faint; his (classical)","噫":"alas; belch","盔":"helmet","怦":"pounding (heart)","笃":"sincere; serious","怂":"instigate","恿":"instigate","凫":"wild duck","眈":"stare; gaze","瞑":"close eyes","娲":"Wa (in Nuwa)","衙":"government office","瑶":"precious jade","亘":"span; stretch across","斓":"colorful; brilliant","柝":"wooden clapper","姊":"elder sister","诘":"question; interrogate","凼":"pool; puddle","葫":"gourd","杓":"ladle; spoon","葺":"repair; thatch","悯":"pity; sympathize","禹":"Yu (legendary ruler)","颐":"chin; nourish","迸":"burst; spurt","仃":"alone; solitary","猥":"humble; indecent","忏":"repent; confess","噬":"bite; devour","舷":"side of ship; gunwale","芜":"overgrown; weedy","荻":"reed; Miscanthus","咔":"click (sound)","嚓":"snap (sound)","殚":"exhaust; use up","篡":"usurp; seize","樱":"cherry","熳":"overflowing","辍":"stop; cease","髯":"beard; whiskers","埃":"dust; angstrom","镭":"radium","猝":"sudden; abrupt","曦":"dawn; sunlight","襄":"assist; rise","泠":"clear (water sound)","嘤":"chirp; cry","戾":"cruel; perverse","柯":"branch; axe handle","簌":"rustling (sound)","褂":"jacket; gown","踌":"hesitate","躇":"hesitate","垠":"boundary; limit","臼":"mortar; joint","腴":"rich; fertile","嶙":"jagged rocks","峋":"jagged","墁":"plaster; trowel","粟":"millet; grain","侯":"marquis; lord","舜":"Shun (legendary ruler)","孀":"widow","叟":"old man","厝":"place; arrange","诏":"edict; decree","撺":"throw; urge","掇":"pick up; gather","羔":"lamb; young goat","陕":"Shaanxi province","糜":"gruel; congee","粱":"sorghum; millet","亢":"high; overbearing","羁":"halter; restrain","燎":"burn; scorch","斡":"turn; mediate","骼":"skeleton; bones","褶":"pleat; fold","缄":"seal; enclose","髫":"child's hair","坻":"islet; mound","邃":"deep; profound","篓":"basket","峨":"lofty; towering","逑":"match; spouse","寤":"awake; wake up","诬":"slander; falsely accuse","彷":"wander","徨":"anxious; uneasy","萦":"wind around; linger","漩":"whirlpool","砾":"gravel; pebble","蜿":"winding","蜒":"winding; meandering","巉":"precipitous; jagged","沓":"overlap; numerous","眩":"dizzy; dazzled","抟":"roll into ball","枥":"stable; manger","邺":"Ye (ancient city)","衾":"quilt; blanket","绦":"silk ribbon; cord","猬":"hedgehog","茁":"grow; sprout","咛":"urge; remind","螳":"mantis","螂":"mantis","傣":"Dai (ethnic group)","樾":"shade of tree","谙":"familiar; versed in","喙":"beak; mouth","铿":"clang; resounding","陂":"dam; hillside","漪":"ripples","鄂":"Hubei; Hubei province","荔":"lychee","菱":"water chestnut","饯":"farewell feast; preserve","焜":"blaze; bright","窠":"nest; den","碣":"stone tablet","豌":"pea","菡":"lotus bud","萏":"lotus","奕":"flourishing; grand","荚":"pod; hull","蛉":"dragonfly","蝥":"beetle","珊":"coral","瑚":"coral","秕":"empty grain; chaff","窦":"hole; sinus; Dou (surname)","柚":"pomelo","倜":"elegant; unconventional","傥":"if; perhaps","叵":"cannot (archaic)","嗬":"ah; wow (exclamation)","捻":"twist; pinch","愠":"angry; resentful","殆":"dangerous; nearly","箪":"bamboo container","肱":"upper arm","殉":"die for; sacrifice","拈":"pick up with fingers","薰":"fragrant plant","涸":"dry up; drained","菲":"fragrant; humble","苫":"rush mat; thatch","尻":"buttocks; end","氢":"hydrogen","蘢":"lush; dense","镐":"pickaxe; Hao (capital)","鞍":"saddle","蕃":"flourish; foreign","濯":"wash; cleanse","涟":"ripples; tears","岱":"Mount Tai","眦":"corner of eye","箫":"vertical bamboo flute","茨":"thatch; thatched","栗":"chestnut; tremble","燔":"roast; burn","讫":"finish; complete","镕":"melt; cast","缭":"wind around","哧":"giggle; snicker","桅":"mast","瀚":"vast; wide","殇":"die young; tragedy","戮":"kill; slaughter","呓":"talk in sleep","佃":"tenant farmer","髭":"mustache","琪":"fine jade","娄":"Lou (surname); hollow","渍":"soak; stain","阙":"watchtower; palace","巘":"peak; summit","漱":"rinse; gargle","皋":"marsh; high land","犊":"calf","薇":"fern; vetch","崔":"towering; Cui (surname)","颢":"bright; white","楠":"nanmu tree","颀":"tall; slender","飓":"hurricane","濒":"on verge of","吆":"shout; cry","榭":"pavilion; terrace","钹":"cymbals","鬲":"ancient cooking vessel","敖":"ramble; roam","奚":"why; what (classical)","龀":"shed teeth (child)","陇":"Gansu; ridge","匈":"Hungary; chest","彀":"draw a bow; range","弩":"crossbow","尉":"military officer","曩":"formerly; past","搔":"scratch; scrape","簪":"hairpin","戟":"halberd","谩":"deceive; insult","馍":"steamed bread","阑":"railing; late; wane","骠":"fast horse","姚":"handsome; Yao (surname)","裴":"Pei (surname)","苑":"garden; park","硅":"silicon","霽":"clear up (rain)","阡":"path between fields","邑":"city; town","骥":"thoroughbred horse","篁":"bamboo grove","珮":"jade pendant","嵁":"cliff; precipice","俶":"begin; start","皿":"vessel; container","贻":"give; bequeath","楸":"Catalpa tree","篆":"seal script","芼":"pick; choose","湄":"waterside; bank","跻":"ascend; climb","涘":"water's edge","沚":"islet; sandbar","巚":"peak; summit","冉":"slowly; gradually","鲵":"giant salamander","鲦":"minnow","祗":"respectful; reverent","壕":"trench; moat","绫":"damask silk","俟":"wait; await","咒":"curse; spell","缎":"satin","曜":"shine; day of week","樯":"mast","楫":"oar; paddle","芷":"angelica (plant)","汀":"sandbar; beach","皓":"bright; white","耶":"(question particle)","滁":"Chuzhou (place)","蔚":"lush; flourishing","琅":"jade-like stone","琊":"(in place name Langya)","辄":"always; then (classical)","暝":"dusk; dim","晦":"dark; obscure","洌":"clear; pure (water)","芥":"mustard","闰":"intercalary; leap","愕":"shocked; startled","褴":"ragged; tattered","褛":"ragged","诳":"deceive; lie","锎":"californium","锸":"spade","怔":"startled; dazed","嗳":"(exclamation)","蓼":"smartweed","溆":"waterside","瘡":"sore; wound","挛":"cramp; spasm","沈":"Shen (surname)","琳":"fine jade; gem","菻":"(plant name)","聂":"Nie (surname); whisper","茴":"fennel","诃":"scold; shout","嘎":"quack; creak","咕":"coo; gurgle","羹":"soup; broth","缟":"white silk","谕":"instruct; inform","咤":"shout; exclaim","屣":"straw sandal; slipper","皲":"chapped (skin)","羌":"Qiang (ethnic group)","貂":"marten; sable","甥":"nephew (sister's son)","麼":"(question particle)","炙":"roast; broil","霹":"thunderbolt","霓":"secondary rainbow","瑾":"fine jade","侬":"I; you (Wu dialect)","蛾":"moth","邨":"village","幌":"curtain; signboard","砧":"anvil; chopping block","剁":"chop; mince","孚":"trust; inspire confidence","篝":"bamboo frame","挝":"strike; beat","聒":"noisy; clamor","恪":"respectful; reverent","宥":"forgive; pardon","坍":"collapse; cave in","滕":"Teng (surname/place)","湘":"Hunan; Xiang River","偕":"together; in company","潺":"murmur; babble (water)","觥":"wine vessel; horn cup","恣":"indulge; unrestrained","睢":"stare","撩":"tease; lift up","诓":"deceive; cheat","豢":"raise animals; feed","帛":"silk; fabric","趱":"hurry; hasten","恁":"so; such (dialect)","噋":"swallow","腆":"bulging; brazen","诨":"joke; jest","羼":"mix in; adulterate","锱":"zi (tiny weight unit)","桓":"pillar; majestic","腌":"dirty (colloquial)","臜":"dirty; filthy","谑":"joke; banter","怫":"angry; depressed","裘":"fur coat; leather","咄":"tut! (exclamation)","惆":"melancholy; sad","靳":"stingy; Jin (surname)","撂":"throw down; drop","浢":"(water variant)","顨":"(rare character)","箸":"chopsticks","疤":"scar; mark","箧":"bamboo chest; suitcase","剌":"slash; cut","汩":"gurgling (water)"};
+function _cmResolvePinyin(ch){
+  if(_cmPyPatch[ch])return _cmPyPatch[ch];
+  /* 1. charPyMap (RAW_DATA + multiReading) */
+  var pm=getCharPyMap();if(pm[ch])return pm[ch];
+  /* 1.5 HSK data (lazy-loaded, high-quality pinyin) */
+  if(typeof HSK_INDEX!=='undefined'&&HSK_INDEX[ch]){var _hl=HSK_INDEX[ch].level;var _hd=window['HSK_DATA_'+_hl]&&window['HSK_DATA_'+_hl][ch];if(_hd&&_hd.pinyin)return _hd.pinyin;}
+  /* 2. WORD_PINYIN — single-char entry or decompose 2-char word */
+  if(typeof WORD_PINYIN!=='undefined'){
+    if(WORD_PINYIN[ch])return WORD_PINYIN[ch];
+    for(var w in WORD_PINYIN){
+      if(w.length===2&&w.charAt(0)===ch){var pys=WORD_PINYIN[w].split(/\s+/);if(pys[0])return pys[0];}
+      if(w.length===2&&w.charAt(1)===ch){var pys2=WORD_PINYIN[w].split(/\s+/);if(pys2[1])return pys2[1];}
+    }
+  }
+  /* 3. Current lesson vocabWords — positional decomposition */
+  if(typeof tbState!=='undefined'&&tbState._currentLesson&&tbState._currentLesson.vocabWords){
+    var vws=tbState._currentLesson.vocabWords;
+    for(var i=0;i<vws.length;i++){
+      var v=vws[i];if(!v.word||!v.pinyin)continue;
+      var idx=v.word.indexOf(ch);
+      if(idx>=0){var ps=v.pinyin.split(/\s+/);if(ps[idx])return ps[idx];}
+    }
+  }
+  /* 4. Scan ALL loaded textbook vocab data */
+  for(var gi=1;gi<=9;gi++){for(var si=1;si<=2;si++){
+    var tb=window['TB_G'+gi+'S'+si];if(!tb)continue;
+    var units=tb.units||[];
+    for(var ui=0;ui<units.length;ui++){
+      var lns=units[ui].lessons||[];
+      for(var li=0;li<lns.length;li++){
+        if(!lns[li].vocabWords)continue;
+        for(var vi=0;vi<lns[li].vocabWords.length;vi++){
+          var v2=lns[li].vocabWords[vi];
+          if(!v2.word||!v2.pinyin)continue;
+          var idx2=v2.word.indexOf(ch);
+          if(idx2>=0){var ps2=v2.pinyin.split(/\s+/);if(ps2[idx2])return ps2[idx2];}
+        }
+      }
+    }
+  }}
+  return '';
+}
+/* Get English for a compound word — cascading lookup */
+function _cmWordEn(word){
+  /* 1. Current lesson vocab */
+  if(typeof tbState!=='undefined'&&tbState._currentLesson&&tbState._currentLesson.vocabWords){
+    var vws=tbState._currentLesson.vocabWords;
+    for(var i=0;i<vws.length;i++){if(vws[i].word===word&&vws[i].en)return vws[i].en;}
+  }
+  /* 2. tbWords from getCharDetail scan */
+  /* 3. Compose from individual CHAR_EN meanings */
+  if(typeof CHAR_EN!=='undefined'){
+    var parts=[];
+    for(var k=0;k<word.length;k++){
+      var ce=CHAR_EN[word[k]];
+      if(ce)parts.push(ce.split(/[;,]/)[0].trim());
+    }
+    if(parts.length===word.length)return parts.join(' ');
+  }
+  return '';
+}
+/* Detect neutral/light tone (轻声) — pinyin without any tone mark */
+function _cmIsNeutral(py){
+  if(!py||py.length>6)return false;
+  return!/[\u0100-\u01FF\u1E00-\u1EFF]/.test(py)&&/^[a-z\u00fc]+$/i.test(py);
+}
+function showCharMini(ch,evt){
+  if(document.getElementById('charExplorerOverlay').classList.contains('open'))return;
+  /* Lazy-load HSK data if needed */
+  if(typeof HSK_INDEX!=='undefined'&&HSK_INDEX[ch]){var _lv=HSK_INDEX[ch].level;
+    if(!window['HSK_DATA_'+_lv]){loadHskData(_lv,function(){showCharMini(ch,evt);});return;}}
+  var d=getCharDetail(ch);
+  /* Enhanced pinyin resolution — cascade through 4 fallback sources */
+  if(!d.pinyin)d.pinyin=_cmResolvePinyin(ch);
+  if(!_miniPopup){_miniPopup=document.createElement('div');_miniPopup.className='char-mini';
+    _miniPopup.addEventListener('click',function(e){e.stopPropagation();});document.body.appendChild(_miniPopup);}
+  var h='<div class="cm-header">';
+  h+='<span class="cm-char">'+ch+'</span>';
+  h+='<span class="cm-pinyin">'+(d.pinyin||'');
+  if(d.pinyin&&_cmIsNeutral(d.pinyin))h+=' <span class="cm-tone-tag">\u8F7B\u58F0 neutral</span>';
+  h+='</span>';
+  h+='<button class="cm-tts" onclick="speak(\''+ch+'\',0.5)">&#x1f50a;</button>';
+  h+='<button class="cm-close" onclick="closeCharMini()">&times;</button>';
+  h+='</div>';
+  h+='<div class="cm-meaning">'+(d.english||'\u2014')+'</div>';
+  /* Multi-reading indicator for 多音字 */
+  if(d.multiReading&&d.multiReading.length&&d.multiReading[0].readings&&d.multiReading[0].readings.length>1){
+    h+='<div class="cm-multi">\uD83D\uDD24 \u591A\u97F3\u5B57: ';
+    d.multiReading[0].readings.forEach(function(rd,ri){
+      if(ri>0)h+=' | ';
+      h+='<b>'+rd.pinyin+'</b> '+(rd.meaning||'').substring(0,15);
+    });
+    h+='</div>';
+  }
+  var badges='';
+  if(d.hskLevel)badges+='<span class="cm-badge hsk">HSK '+d.hskLevel+'</span>';
+  if(d.grade)badges+='<span class="cm-badge grade">'+d.grade+'</span>';
+  if(badges)h+='<div class="cm-badges">'+badges+'</div>';
+  h+='<div class="cm-row">';
+  h+='<div class="cm-writer-mini" id="cmWriter"></div>';
+  h+='<div class="cm-info">';
+  if(d.strokes)h+='<div>\u7B14\u753B '+d.strokes+'</div>';
+  if(d.radical)h+='<div>\u90E8\u9996 <span style="color:#e74c3c;font-weight:700">'+d.radical+'</span>'+(d.radicalMeaning?' ('+d.radicalMeaning+')':'')+'</div>';
+  if(d.structure)h+='<div>\u7ED3\u6784 '+d.structure+'</div>';
+  h+='</div></div>';
+  /* Words section — with pinyin + English for each word; cascading fallback */
+  var _cmW=d.words&&d.words.length?d.words:[];
+  if(!_cmW.length&&d.tbWords&&d.tbWords.length){_cmW=d.tbWords.slice(0,6).map(function(tw){return{w:tw.w,p:tw.p,en:tw.en};});}
+  if(!_cmW.length&&typeof WORD_PINYIN!=='undefined'){for(var _wp in WORD_PINYIN){if(_wp.indexOf(ch)>=0&&_wp.length>=2){_cmW.push({w:_wp,p:WORD_PINYIN[_wp],en:_cmWordEn(_wp)});if(_cmW.length>=6)break;}}}
+  if(_cmW.length){
+    h+='<div class="cm-section"><div class="cm-label">\u7EC4\u8BCD</div>';
+    _cmW.slice(0,6).forEach(function(w){
+      var wEn=w.en||_cmWordEn(w.w);
+      var wPy=w.p||'';
+      if(!wPy&&typeof WORD_PINYIN!=='undefined'&&WORD_PINYIN[w.w])wPy=WORD_PINYIN[w.w];
+      if(!wPy)wPy=wordToPinyin(w.w);
+      h+='<div class="cm-word-item" onclick="speak(\''+w.w.replace(/'/g,"\\'")+'\',0.5)">';
+      h+='<span class="cm-word-cn">'+w.w+'</span>';
+      if(wPy)h+=' <span class="cm-word-py">'+wPy+'</span>';
+      if(wEn)h+=' <span class="cm-word-en">'+wEn+'</span>';
+      h+='</div>';
+    });
+    h+='</div>';
+  }
+  /* Example sentence with English */
+  if(d.sentences&&d.sentences.length){
+    var s0=d.sentences[0];var cn0=typeof s0==='string'?s0:(s0.cn||s0.text||'');
+    var en0=typeof s0==='object'?(s0.en||s0.textEn||''):'';
+    if(cn0){h+='<div class="cm-sent">\u201C'+cn0+'\u201D';
+      if(en0)h+='<div class="cm-sent-en">'+en0+'</div>';
+      h+='</div>';
+    }
+  }
+  h+='<div class="cm-actions">';
+  h+='<button onclick="cmAnimate()" class="cm-act-btn">\u25B6 \u7B14\u753B</button>';
+  h+='<button onclick="closeCharMini();showCharExplorer(\''+ch+'\')" class="cm-act-btn cm-act-detail">\uD83D\uDCD6 \u8BE6\u60C5</button>';
+  var favs=JSON.parse(localStorage.getItem('favs')||'[]');
+  h+='<button onclick="ceToggleFav(\''+ch+'\');closeCharMini()" class="cm-act-btn">'+(favs.indexOf(ch)>=0?'\u2605':'\u2606')+'</button>';
+  h+='</div>';
+  _miniPopup.textContent='';
+  var _tmp=document.createElement('div');_tmp.innerHTML=h;
+  while(_tmp.firstChild)_miniPopup.appendChild(_tmp.firstChild);
+  _miniPopup.classList.add('open');
+  var isMobile=window.innerWidth<=600;
+  if(!isMobile){
+    var rect=evt.target.getBoundingClientRect();
+    var top=rect.bottom+8,left=rect.left;
+    if(top+340>window.innerHeight)top=rect.top-340-8;
+    if(left+280>window.innerWidth)left=window.innerWidth-290;
+    if(left<10)left=10;if(top<10)top=10;
+    _miniPopup.style.cssText='position:fixed;z-index:9990;width:280px;border-radius:12px;top:'+top+'px;left:'+left+'px';
+  }else{
+    _miniPopup.style.cssText='position:fixed;z-index:9990';
+  }
+  /* HanziWriter — vivid radical color for clear component distinction */
+  if(_miniWriter){try{_miniWriter.cancelQuiz();}catch(e){}_miniWriter=null;}
+  setTimeout(function(){
+    var wr=document.getElementById('cmWriter');if(!wr||typeof HanziWriter==='undefined')return;
+    try{_miniWriter=HanziWriter.create('cmWriter',ch,{width:64,height:64,padding:4,
+      strokeAnimationSpeed:1,delayBetweenStrokes:100,showOutline:true,showCharacter:true,
+      strokeColor:'#2c3e50',outlineColor:'#ddd',radicalColor:'#e74c3c',
+      onLoadCharDataSuccess:function(){setTimeout(function(){if(_miniWriter){_miniWriter.hideCharacter({duration:150});
+        setTimeout(function(){if(_miniWriter)_miniWriter.animateCharacter();},200);}},400);},
+      onLoadCharDataError:function(){}});}catch(e){}
+  },50);
+}
+function cmAnimate(){if(!_miniWriter)return;_miniWriter.hideCharacter({duration:150});setTimeout(function(){if(_miniWriter)_miniWriter.animateCharacter();},200);}
+function closeCharMini(){if(_miniPopup)_miniPopup.classList.remove('open');if(_miniWriter){try{_miniWriter.cancelQuiz();}catch(e){}_miniWriter=null;}}
+document.addEventListener('click',function(e){
+  var el=e.target;
+  if(el.classList&&el.classList.contains('tc')&&el.dataset&&el.dataset.ch){showCharMini(el.dataset.ch,e);return;}
+  if(_miniPopup&&_miniPopup.classList.contains('open')&&!_miniPopup.contains(el)){closeCharMini();}
+});
 
 /* ─── Icon Rail Navigation ─── */
 var _panelView='';
@@ -17099,7 +17362,7 @@ function tbShowUnit(uid){
       if(Array.isArray(g.shiziStation.items)){
         g.shiziStation.items.forEach(function(it){
           h+='<div style="margin:4px 0"><b style="color:var(--jade)">'+(it.category||'')+'</b>: ';
-          if(Array.isArray(it.chars))h+=it.chars.join(' \u3001 ');
+          if(Array.isArray(it.chars))h+=it.chars.map(function(c){return makeCharsClickable(c);}).join(' \u3001 ');
           h+='</div>';
         });
       }else if(g.shiziStation.content){
@@ -17116,7 +17379,7 @@ function tbShowUnit(uid){
       if(g.wordSentence.items&&Array.isArray(g.wordSentence.items)){
         g.wordSentence.items.forEach(function(it){
           h+='<div style="margin:6px 0;padding:8px 12px;background:var(--rice2);border-radius:8px;font-size:13px;line-height:1.6">';
-          h+=(it.text||it.cn||'');
+          h+=makeCharsClickable(it.text||it.cn||'');
           if(it.textEn||it.en)h+='<div style="font-size:11px;color:var(--ink4);font-style:italic;margin-top:3px">'+(it.textEn||it.en)+'</div>';
           h+='</div>';
         });
@@ -17142,7 +17405,7 @@ function tbShowUnit(uid){
             h+='<div style="display:flex;flex-wrap:wrap;gap:6px;margin:8px 0">';
             words.forEach(function(wd){
               wd=wd.trim();if(!wd)return;
-              h+='<span onclick="showCharExplorer(\''+wd.charAt(0)+'\')" style="padding:5px 10px;background:var(--rice2);border-radius:8px;font-size:13px;cursor:pointer;transition:all .15s;border:1px solid transparent" onmouseover="this.style.borderColor=\'var(--jade)\'" onmouseout="this.style.borderColor=\'transparent\'">'+wd+'</span>';
+              h+='<span style="padding:5px 10px;background:var(--rice2);border-radius:8px;font-size:13px;transition:all .15s;border:1px solid transparent" onmouseover="this.style.borderColor=\'var(--jade)\'" onmouseout="this.style.borderColor=\'transparent\'">'+makeCharsClickable(wd)+'</span>';
             });
             h+='</div>';
           });
@@ -17194,7 +17457,7 @@ function tbShowUnit(uid){
         /* Format D: items array (G6+) */
         g.accumulation.items.forEach(function(it){
           h+='<div style="margin:6px 0;padding:6px 10px;background:var(--rice2);border-radius:6px;font-size:13px;line-height:1.6">';
-          h+=(it.cn||'');
+          h+=makeCharsClickable(it.cn||'');
           if(it.en)h+='<div style="font-size:11px;color:var(--ink4);font-style:italic;margin-top:2px">'+it.en+'</div>';
           h+='</div>';
         });
@@ -17204,17 +17467,35 @@ function tbShowUnit(uid){
         accTxt=acc;
       }else if(acc.text){
         /* Format A/B: G1-G2 {title,author,text,textEn} */
-        if(acc.title)h+='<div style="font-weight:700;margin-bottom:4px">'+acc.title+(acc.author?' <span style="font-size:12px;color:var(--ink4)">'+acc.author+'</span>':'')+'</div>';
+        if(acc.title)h+='<div style="font-weight:700;margin-bottom:4px">'+makeCharsClickable(acc.title)+(acc.author?' <span style="font-size:12px;color:var(--ink4)">'+acc.author+'</span>':'')+'</div>';
         accTxt=Array.isArray(acc.text)?acc.text.join('\n'):acc.text;
         accTxtEn=Array.isArray(acc.textEn)?acc.textEn.join('\n'):(acc.textEn||'');
-        if(accTxt)h+='<div style="font-family:\'Noto Serif SC\',serif;line-height:1.8;white-space:pre-line">'+accTxt+'</div>';
-        if(accTxtEn)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+accTxtEn+'</div>';
+        /* Detect poem in accumulation (has author or all-short lines) */
+        var _accLines=Array.isArray(acc.text)?acc.text:accTxt.split('\n');
+        var _accIsPoem=!!acc.author;
+        if(!_accIsPoem&&_accLines.length>=4){var _accAllShort=_accLines.every(function(ln){return ln.replace(/[\s\uff0c\u3002\uff01\uff1f\u3001\uff1b\uff1a\u201c\u201d\u2018\u2019\uff08\uff09\u300a\u300b\u2014\u2026]/g,'').length<=14;});_accIsPoem=_accAllShort;}
+        if(_accIsPoem){
+          var _accPys=acc.textPinyin?(Array.isArray(acc.textPinyin)?acc.textPinyin:acc.textPinyin.split('\n')):null;
+          var _accEns=acc.textEn?(Array.isArray(acc.textEn)?acc.textEn:acc.textEn.split('\n')):null;
+          h+=_renderPoemBlock(_accLines,_accPys,_accEns,!!_accPys);
+        }else{
+          if(accTxt)h+='<div style="font-family:\'Noto Serif SC\',serif;line-height:1.8;white-space:pre-line">'+makeCharsClickable(accTxt)+'</div>';
+          if(accTxtEn)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+accTxtEn+'</div>';
+        }
       }else if(acc.cn||acc.en){
-        /* Format C: G3+ {cn,en} */
+        /* Format C: G3+ {cn,en} — detect poem by line structure */
         accTxt=acc.cn||'';
         accTxtEn=acc.en||'';
-        if(accTxt)h+='<div style="font-family:\'Noto Serif SC\',serif;line-height:1.8;white-space:pre-line">'+accTxt+'</div>';
-        if(accTxtEn)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+accTxtEn+'</div>';
+        var _cLines=accTxt.split('\n').filter(function(l){return l.trim();});
+        var _cIsPoem=false;
+        if(_cLines.length>=4){var _cShort=_cLines.every(function(ln){return ln.replace(/[\s\uff0c\u3002\uff01\uff1f\u3001\uff1b\uff1a\u201c\u201d\u2018\u2019\uff08\uff09\u300a\u300b\u2014\u2026]/g,'').length<=14;});_cIsPoem=_cShort;}
+        if(_cIsPoem){
+          var _cEns=accTxtEn?accTxtEn.split('\n'):null;
+          h+=_renderPoemBlock(_cLines,null,_cEns,false);
+        }else{
+          if(accTxt)h+='<div style="font-family:\'Noto Serif SC\',serif;line-height:1.8;white-space:pre-line">'+makeCharsClickable(accTxt)+'</div>';
+          if(accTxtEn)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+accTxtEn+'</div>';
+        }
       }
       if(accTxt)h+=' <button class="rv-tts-btn" onclick="speak(\''+String(accTxt).replace(/[\n']/g,' ').substring(0,80)+'\',0.5)">\uD83D\uDD0A</button>';
       h+='</div>';
@@ -17229,7 +17510,7 @@ function tbShowUnit(uid){
         var rwaEn=rwa.textEn||rwa.en||'';
         if(Array.isArray(rwaTxt))rwaTxt=rwaTxt.join('\n');
         if(Array.isArray(rwaEn))rwaEn=rwaEn.join('\n');
-        if(rwaTxt)h+='<div style="font-size:13px;line-height:1.8;white-space:pre-line">'+rwaTxt+'</div>';
+        if(rwaTxt)h+='<div style="font-size:13px;line-height:1.8;white-space:pre-line">'+makeCharsClickable(rwaTxt)+'</div>';
         if(rwaEn)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:6px;white-space:pre-line">'+rwaEn+'</div>';
       }
       h+='</div>';
@@ -17506,6 +17787,74 @@ function tbAccumType(cn){
   if(/搜集|查找|课外|阅读/.test(cn))return{badge:'拓展阅读 Extended Reading',cls:'read'};
   return{badge:'积累拓展 Accumulate',cls:'default'};
 }
+/* ─── Poem Detection & Vertical Rendering Helpers ─── */
+function _tbIsPoem(l){
+  if(!l||!l.text)return false;
+  var textArr=Array.isArray(l.text)?l.text:(typeof l.text==='string'?[l.text]:[]);
+  if(!textArr.length)return false;
+  var t=l.title||'';
+  if(/散文诗/.test(t))return false;
+  if(/古诗|诗词|诗歌|唐诗|宋词|元曲|七律|五律|七绝|五绝|绝句|律诗|乐府|浣溪沙|水调歌头|词[三二两四五六]首|诗[三二两四五六]首/.test(t))return true;
+  /* Flatten all lines (handle \n within entries) */
+  var lines=[];
+  textArr.forEach(function(s){s.split('\n').forEach(function(sub){if(sub.trim())lines.push(sub.trim());});});
+  if(lines.length<2)return false;
+  /* Check if lines are consistently short (typical of poetry) */
+  var pureLines=lines.map(function(ln){return ln.replace(/[\s，。！？、；：""''（）《》—…\[\]【】\u00b7·]/g,'');});
+  var allShort=pureLines.every(function(p){return p.length<=16;});
+  var avgLen=pureLines.reduce(function(s,p){return s+p.length;},0)/pureLines.length;
+  if(allShort&&avgLen<=12&&lines.length>=4)return true;
+  /* Author + short lines = likely poem */
+  if(l.author&&allShort&&avgLen<=14)return true;
+  return false;
+}
+function _poemRubyLine(text,pyStr){
+  if(!text)return'';
+  var pys=[];
+  if(pyStr){pys=pyStr.replace(/[,，。！？、；：.·\u00b7]/g,'').split(/\s+/).filter(function(s){return s;});}
+  var h='',pi=0;
+  for(var i=0;i<text.length;i++){
+    var ch=text[i],code=ch.charCodeAt(0);
+    if((code>=0x4e00&&code<=0x9fff)||(code>=0x3400&&code<=0x4dbf)){
+      var py=pys[pi]||'';if(!py)py=_cmResolvePinyin(ch);pi++;
+      if(py){h+='<ruby><span class="tc" data-ch="'+ch+'">'+ch+'</span><rp>(</rp><rt class="tbPyRuby">'+py+'</rt><rp>)</rp></ruby>';}
+      else{h+='<span class="tc" data-ch="'+ch+'">'+ch+'</span>';}
+    }else{h+=ch;}
+  }
+  return h;
+}
+function _renderPoemBlock(textArr,pyArr,enArr,showPy){
+  var h='<div class="tb-poem-wrap"><div class="tb-poem-scroll">';
+  var lineIdx=0;
+  textArr.forEach(function(entry,ei){
+    var subLines=entry.split('\n');
+    var subPys=pyArr&&pyArr[ei]?pyArr[ei].split('\n'):[];
+    subLines.forEach(function(sl,si){
+      if(!sl.trim())return;
+      var py=subPys[si]||'';
+      /* Detect title/author lines (contain [ or are short metadata) */
+      var isMeta=/\[.*\]/.test(sl)&&sl.replace(/[^\u4e00-\u9fff]/g,'').length<=8;
+      if(isMeta){h+='<p class="poem-title-line">'+makeCharsClickable(sl)+'</p>';}
+      else if(showPy&&py){h+='<p>'+_poemRubyLine(sl,py)+'</p>';}
+      else{h+='<p>'+makeCharsClickable(sl)+'</p>';}
+      lineIdx++;
+    });
+  });
+  h+='</div></div>';
+  /* English translations — horizontal block below */
+  if(enArr&&enArr.length){
+    var hasEn=enArr.some(function(e){return e;});
+    if(hasEn){
+      h+='<div class="tb-poem-en-wrap tbEnLine">';
+      enArr.forEach(function(en){
+        if(!en)return;
+        en.split('\n').forEach(function(eSub){if(eSub.trim())h+='<p>'+eSub+'</p>';});
+      });
+      h+='</div>';
+    }
+  }
+  return h;
+}
 function tbShowLesson(uid,lid){
   var d=tbState.data;if(!d)return;
   var u=d.units.find(function(x){return x.id==uid;});if(!u)return;
@@ -17553,18 +17902,29 @@ function tbShowLesson(uid,lid){
   h+='<span class="wt-legend-title">\u5199\u4f5c\u624b\u6cd5\u8272\u6807 Technique Legend:</span>';
   'ABCDEFGH'.split('').forEach(function(c){var cat=WT_CATS[c];h+='<span class="wt-legend-item"><span class="wt-legend-chip" style="background:'+WT_COLORS[c]+'"></span>'+cat.cn+' '+cat.en+'</span>';});
   h+='</div>';
-  /* Text display */
-  h+='<div class="tb-reading-text" id="tbTextArea">';
-  l.text.forEach(function(line,i){
-    if(l.textPinyin&&l.textPinyin[i])h+='<span class="tb-pinyin-line tbPyLine">'+l.textPinyin[i]+'</span>';
-    h+='<p>'+line+'</p>';
-    if(l.textEn&&l.textEn[i])h+='<span class="tb-en-line tbEnLine">'+l.textEn[i]+'</span>';
-  });
-  h+='</div>';
+  /* Text display — vertical layout for poems, horizontal for prose */
+  var _isP=_tbIsPoem(l);
+  window._tbIsCurrentPoem=_isP;
+  var _textArr=Array.isArray(l.text)?l.text:(typeof l.text==='string'?[l.text]:[]);
+  var _pyArr=l.textPinyin?( Array.isArray(l.textPinyin)?l.textPinyin:[l.textPinyin]):null;
+  var _enArr=l.textEn?(Array.isArray(l.textEn)?l.textEn:[l.textEn]):null;
+  if(_isP){
+    h+='<div class="tb-reading-text" id="tbTextArea">';
+    h+=_renderPoemBlock(_textArr,_pyArr,_enArr,true);
+    h+='</div>';
+  }else{
+    h+='<div class="tb-reading-text" id="tbTextArea">';
+    _textArr.forEach(function(line,i){
+      if(_pyArr&&_pyArr[i])h+='<span class="tb-pinyin-line tbPyLine">'+_pyArr[i]+'</span>';
+      h+='<p>'+makeCharsClickable(line)+'</p>';
+      if(_enArr&&_enArr[i])h+='<span class="tb-en-line tbEnLine">'+_enArr[i]+'</span>';
+    });
+    h+='</div>';
+  }
   /* Literary Analysis Panel */
   h+='<div id="tbAnalysisPanel" style="display:none"></div>';
   /* Load WT data and store plain lines for toggling */
-  window._wtPlainLines=l.text.map(function(line,i){return{text:line,py:(l.textPinyin&&l.textPinyin[i])||'',en:(l.textEn&&l.textEn[i])||''};});
+  window._wtPlainLines=_textArr.map(function(line,i){return{text:line,py:(_pyArr&&_pyArr[i])||'',en:(_enArr&&_enArr[i])||''};});
   window._wtCurrentAnns=null;_wtActive=false;_wtPopupStore=[];
   var _wtGen=++_wtLoadGen;
   loadWtData(d.grade,d.semester,function(wtData){
@@ -17737,6 +18097,9 @@ function tbTogglePinyin(){
   var btn=document.getElementById('tbTogglePy');
   var show=btn.classList.toggle('active');
   lines.forEach(function(l){l.style.display=show?'':'none';});
+  /* Poem ruby pinyin toggle */
+  var rubies=document.querySelectorAll('.tbPyRuby');
+  rubies.forEach(function(r){r.style.display=show?'':'none';});
 }
 function tbToggleEn(){
   var lines=document.querySelectorAll('.tbEnLine');
@@ -17848,7 +18211,11 @@ function wtAnnotatePara(text,paraAnnotations){
   var html='',i=0;
   while(i<len){
     if(charAnns[i].length===0){
-      html+=text[i];i++;continue;
+      var _c=text[i];
+      if(_c.charCodeAt(0)>=0x4e00&&_c.charCodeAt(0)<=0x9fff||_c.charCodeAt(0)>=0x3400&&_c.charCodeAt(0)<=0x4dbf){
+        html+='<span class="tc" data-ch="'+_c+'">'+_c+'</span>';
+      }else{html+=_c;}
+      i++;continue;
     }
     var anns=charAnns[i];
     var primary=anns[0];
@@ -17926,15 +18293,25 @@ function _wtRefresh(){
   var pyDisp=vis.showPy?'':'none';
   var enDisp=vis.showEn?'':'none';
   if(!_wtActive){
-    /* Restore plain text */
+    /* Restore plain text — vertical for poems, horizontal for prose */
     if(window._wtPlainLines){
-      var h='';
-      window._wtPlainLines.forEach(function(obj){
-        if(obj.py)h+='<span class="tb-pinyin-line tbPyLine" style="display:'+pyDisp+'">'+obj.py+'</span>';
-        h+='<p>'+obj.text+'</p>';
-        if(obj.en)h+='<span class="tb-en-line tbEnLine" style="display:'+enDisp+'">'+obj.en+'</span>';
-      });
-      area.innerHTML=h;
+      if(window._tbIsCurrentPoem){
+        var _pTexts=window._wtPlainLines.map(function(o){return o.text;});
+        var _pPys=window._wtPlainLines.map(function(o){return o.py||null;});
+        var _pEns=window._wtPlainLines.map(function(o){return o.en||null;});
+        var _hasPy=_pPys.some(function(p){return p;});
+        area.innerHTML=_renderPoemBlock(_pTexts,_hasPy?_pPys:null,_pEns,vis.showPy);
+        if(!vis.showEn){var _pw=area.querySelector('.tb-poem-en-wrap');if(_pw)_pw.style.display='none';}
+        if(!vis.showPy){var _prs=area.querySelectorAll('.tbPyRuby');_prs.forEach(function(r){r.style.display='none';});}
+      }else{
+        var h='';
+        window._wtPlainLines.forEach(function(obj){
+          if(obj.py)h+='<span class="tb-pinyin-line tbPyLine" style="display:'+pyDisp+'">'+obj.py+'</span>';
+          h+='<p>'+makeCharsClickable(obj.text)+'</p>';
+          if(obj.en)h+='<span class="tb-en-line tbEnLine" style="display:'+enDisp+'">'+obj.en+'</span>';
+        });
+        area.innerHTML=h;
+      }
     }
     /* Reset legend to default (all equal) */
     if(legend){
@@ -18290,10 +18667,74 @@ function tbShowUnitJH(uid){
     h+='<div class="tb-section-title">\u270D\uFE0F \u5199\u4F5C Writing</div>';
     h+='<div class="tb-garden-card"><div class="tb-garden-title">'+wr.title+'</div>';
     if(wr.titleEn)h+='<div class="tb-garden-en">'+wr.titleEn+'</div>';
-    if(wr.prompt){var wp=typeof wr.prompt==='object'?wr.prompt:{cn:wr.prompt,en:wr.promptEn};
+    if(wr.content){var wc=typeof wr.content==='object'?wr.content:{cn:wr.content};
+      h+='<div style="font-size:13px;line-height:1.6;margin-top:6px;white-space:pre-line">'+(wc.cn||'')+'</div>';
+      if(wc.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+wc.en+'</div>';
+    }else if(wr.prompt){var wp=typeof wr.prompt==='object'?wr.prompt:{cn:wr.prompt,en:wr.promptEn};
       h+='<div style="font-size:13px;line-height:1.6;margin-top:6px">'+wp.cn+'</div>';
       if(wp.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px">'+wp.en+'</div>';
     }else if(wr.promptEn){h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px">'+wr.promptEn+'</div>';}
+    /* Writing tips */
+    if(wr.tips&&wr.tips.length){
+      h+='<div style="margin-top:10px"><div style="font-weight:600;font-size:13px;margin-bottom:4px">\uD83D\uDCA1 \u5199\u4F5C\u8981\u70B9 Writing Tips</div>';
+      wr.tips.forEach(function(t){var tip=typeof t==='object'?t:{cn:t};
+        h+='<div style="font-size:13px;line-height:1.6;padding:3px 0">\u2022 '+(tip.cn||'');
+        if(tip.en)h+='<br><span style="font-size:12px;color:var(--ink4);font-style:italic">'+tip.en+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }
+    /* Writing examples */
+    if(wr.examples&&wr.examples.length){
+      h+='<div style="margin-top:10px;padding:10px;background:var(--bg2,#f5f5f0);border-radius:8px">';
+      h+='<div style="font-weight:600;font-size:13px;margin-bottom:4px">\uD83D\uDCDD \u8303\u6587\u793A\u4F8B Examples</div>';
+      wr.examples.forEach(function(e){var ex=typeof e==='object'?e:{cn:e};
+        h+='<div style="font-size:13px;line-height:1.6;padding:4px 0;white-space:pre-line">'+(ex.cn||'');
+        if(ex.en)h+='<br><span style="font-size:12px;color:var(--ink4);font-style:italic">'+ex.en+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }
+    /* Writing practice */
+    if(wr.practice&&wr.practice.length){
+      h+='<div style="margin-top:10px"><div style="font-weight:600;font-size:13px;margin-bottom:4px">\u270F\uFE0F \u7EC3\u7B14\u5B9E\u8DF5 Practice</div>';
+      wr.practice.forEach(function(p,pi){var pr=typeof p==='object'?p:{cn:p};
+        h+='<div style="font-size:13px;line-height:1.6;padding:4px 0;white-space:pre-line">'+(pi+1)+'. '+(pr.cn||'');
+        if(pr.en)h+='<br><span style="font-size:12px;color:var(--ink4);font-style:italic">'+pr.en+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }
+    h+='</div>';
+  }
+  /* Oral Communication 口语交际 (JH) */
+  if(u.oralComm){
+    var oc=u.oralComm;
+    h+='<div class="tb-section-title">\uD83D\uDDE3 \u53E3\u8BED\u4EA4\u9645 Oral Communication</div>';
+    h+='<div class="tb-garden-card"><div class="tb-garden-title">'+(oc.title||'')+'</div>';
+    if(oc.titleEn)h+='<div class="tb-garden-en">'+oc.titleEn+'</div>';
+    if(oc.content){var occ=typeof oc.content==='object'?oc.content:{cn:oc.content};
+      h+='<div style="font-size:13px;line-height:1.6;margin-top:6px;white-space:pre-line">'+(occ.cn||'')+'</div>';
+      if(occ.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+occ.en+'</div>';
+    }
+    if(oc.tips&&oc.tips.length){
+      h+='<div style="margin-top:10px"><div style="font-weight:600;font-size:13px;margin-bottom:4px">\uD83D\uDCA1 \u8981\u70B9 Key Points</div>';
+      oc.tips.forEach(function(t){var tip=typeof t==='object'?t:{cn:t};
+        h+='<div style="font-size:13px;line-height:1.6;padding:3px 0">\u2022 '+(tip.cn||'');
+        if(tip.en)h+='<br><span style="font-size:12px;color:var(--ink4);font-style:italic">'+tip.en+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }
+    if(oc.practice&&oc.practice.length){
+      h+='<div style="margin-top:10px"><div style="font-weight:600;font-size:13px;margin-bottom:4px">\u270F\uFE0F \u7EC3\u4E60 Practice</div>';
+      oc.practice.forEach(function(p,pi){var pr=typeof p==='object'?p:{cn:p};
+        h+='<div style="font-size:13px;line-height:1.6;padding:4px 0;white-space:pre-line">'+(pi+1)+'. '+(pr.cn||'');
+        if(pr.en)h+='<br><span style="font-size:12px;color:var(--ink4);font-style:italic">'+pr.en+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }
     h+='</div>';
   }
   /* Unit-level readWrite 读写结合 — supports both object and array format */
@@ -18320,14 +18761,27 @@ function tbShowUnitJH(uid){
     h+='<div class="tb-section-title">\uD83C\uDF1F \u7EFC\u5408\u6027\u5B66\u4E60 Comprehensive Learning</div>';
     h+='<div class="tb-garden-card"><div class="tb-garden-title">'+(cl.title||'\u7EFC\u5408\u6027\u5B66\u4E60')+'</div>';
     if(cl.titleEn)h+='<div class="tb-garden-en">'+cl.titleEn+'</div>';
-    if(cl.description){var cld=typeof cl.description==='object'?cl.description:{cn:cl.description};
+    if(cl.content){var clc=typeof cl.content==='object'?cl.content:{cn:cl.content};
+      h+='<div style="font-size:13px;line-height:1.6;margin-top:6px;white-space:pre-line">'+(clc.cn||'')+'</div>';
+      if(clc.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+clc.en+'</div>';
+    }else if(cl.description){var cld=typeof cl.description==='object'?cl.description:{cn:cl.description};
       h+='<div style="font-size:13px;line-height:1.6;margin-top:6px">'+(cld.cn||'')+'</div>';
       if(cld.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px">'+cld.en+'</div>';
     }
     if(cl.activities&&Array.isArray(cl.activities)){cl.activities.forEach(function(a){
-      h+='<div style="font-size:13px;margin:6px 0">\u25B6 '+(a.cn||'');
-      if(a.en)h+='<br><span class="en">'+a.en+'</span>';
-      h+='</div>';
+      if(a.title){
+        h+='<div style="margin-top:8px;padding:10px;background:var(--bg2,#f5f5f0);border-radius:8px">';
+        h+='<div style="font-weight:600;font-size:13px">\u25B6 '+a.title;
+        if(a.titleEn)h+=' <span style="font-weight:400;font-size:12px;color:var(--ink4)">'+a.titleEn+'</span>';
+        h+='</div>';
+        h+='<div style="font-size:13px;line-height:1.6;margin-top:4px;white-space:pre-line">'+(a.cn||'')+'</div>';
+        if(a.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+a.en+'</div>';
+        h+='</div>';
+      }else{
+        h+='<div style="font-size:13px;margin:6px 0">\u25B6 '+(a.cn||'');
+        if(a.en)h+='<br><span class="en">'+a.en+'</span>';
+        h+='</div>';
+      }
     });}
     h+='</div>';
   }
@@ -18341,8 +18795,43 @@ function tbShowUnitJH(uid){
     if(cr.description){h+='<div style="font-size:13px;line-height:1.6">'+cr.description+'</div>';
       if(cr.descriptionEn)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px">'+cr.descriptionEn+'</div>';
     }else if(cr.content){var crc=typeof cr.content==='object'?cr.content:{cn:cr.content};
-      h+='<div style="font-size:13px;line-height:1.6">'+crc.cn+'</div>';
-      if(crc.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px">'+crc.en+'</div>';
+      h+='<div style="font-size:13px;line-height:1.6;white-space:pre-line">'+crc.cn+'</div>';
+      if(crc.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+crc.en+'</div>';
+    }
+    /* Reading guide */
+    if(cr.readingGuide){var rg=typeof cr.readingGuide==='object'?cr.readingGuide:{cn:cr.readingGuide};
+      h+='<div style="margin-top:10px;padding:10px;background:var(--bg2,#f5f5f0);border-radius:8px">';
+      h+='<div style="font-weight:600;font-size:13px;margin-bottom:6px">\uD83D\uDCD6 \u9605\u8BFB\u6307\u5357 Reading Guide</div>';
+      h+='<div style="font-size:13px;line-height:1.6;white-space:pre-line">'+(rg.cn||'')+'</div>';
+      if(rg.en)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px;white-space:pre-line">'+rg.en+'</div>';
+      h+='</div>';
+    }
+    /* Tips */
+    if(cr.tips&&cr.tips.length){
+      h+='<div style="margin-top:10px">';
+      cr.tips.forEach(function(t){var tip=typeof t==='object'?t:{cn:t};
+        h+='<div style="font-size:13px;line-height:1.6;padding:4px 0">\u2022 '+tip.cn;
+        if(tip.en)h+='<br><span style="font-size:12px;color:var(--ink4);font-style:italic">'+tip.en+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }
+    /* Discussion topics */
+    if(cr.topics&&cr.topics.length){
+      h+='<div style="margin-top:10px;padding:10px;background:var(--bg2,#f5f5f0);border-radius:8px">';
+      h+='<div style="font-weight:600;font-size:13px;margin-bottom:6px">\uD83D\uDCAC \u8BA8\u8BBA\u4E0E\u601D\u8003 Discussion Topics</div>';
+      cr.topics.forEach(function(t,ti){var topic=typeof t==='object'?t:{cn:t};
+        h+='<div style="font-size:13px;line-height:1.6;padding:3px 0">'+(ti+1)+'. '+topic.cn;
+        if(topic.en)h+='<br><span style="font-size:12px;color:var(--ink4);font-style:italic">'+topic.en+'</span>';
+        h+='</div>';
+      });
+      h+='</div>';
+    }
+    /* Recommended edition */
+    if(cr.recommendedEdition){var re=typeof cr.recommendedEdition==='object'?cr.recommendedEdition:{cn:cr.recommendedEdition};
+      h+='<div style="margin-top:8px;font-size:12px;color:var(--ink4)">\uD83D\uDCDA \u63A8\u8350\u7248\u672C: '+(re.cn||re);
+      if(re.en)h+=' / '+re.en;
+      h+='</div>';
     }
     h+='</div>';
   }
@@ -18399,7 +18888,7 @@ function tbShowLessonJH(uid,lid){
   h+='<div class="tb-toggle active" id="tbToggleEn" onclick="tbToggleEn()">English</div>';
   h+='<div class="tb-toggle" id="tbToggleAn" onclick="tbToggleAnalysis()" style="border-color:var(--purple);color:var(--purple)">\u6587\u5b66\u5206\u6790 Analysis</div>';
   h+='<div class="tb-toggle" id="tbToggleWt" onclick="wtToggle()" style="border-color:var(--teal);color:var(--teal)">\u624b\u6cd5\u6807\u6ce8 Techniques</div>';
-  var _ttsFullTextJH=l.text.join('');
+  var _ttsFullTextJH=Array.isArray(l.text)?l.text.join(''):l.text;
   h+='<span class="tts-ctrl-group" style="display:inline-flex;gap:4px">';
   h+='<button class="rv-tts-btn tts-play" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid var(--ink3);cursor:pointer" onclick="ttsPlay(\''+_ttsFullTextJH.replace(/'/g,"\\'")+'\',0.5)">\u25B6 \u6717\u8BFB Read</button>';
   h+='<button class="rv-tts-btn tts-pause" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid var(--ink3);cursor:pointer;display:none" onclick="ttsState===\'paused\'?ttsResume():ttsPause()">\u23F8 \u6682\u505C Pause</button>';
@@ -18429,17 +18918,50 @@ function tbShowLessonJH(uid,lid){
   h+='<span class="wt-legend-title">\u5199\u4f5c\u624b\u6cd5\u8272\u6807 Technique Legend:</span>';
   'ABCDEFGH'.split('').forEach(function(c){var cat=WT_CATS[c];h+='<span class="wt-legend-item"><span class="wt-legend-chip" style="background:'+WT_COLORS[c]+'"></span>'+cat.cn+' '+cat.en+'</span>';});
   h+='</div>';
-  /* Text display */
-  h+='<div class="tb-reading-text" id="tbTextArea">';
-  l.text.forEach(function(line,i){
-    h+='<p>'+line+'</p>';
-    if(l.textEn&&l.textEn[i])h+='<span class="tb-en-line tbEnLine">'+l.textEn[i]+'</span>';
-  });
-  h+='</div>';
+  /* Text display — vertical for poems, horizontal for prose */
+  var _isPJH=_tbIsPoem(l);
+  window._tbIsCurrentPoem=_isPJH;
+  var _textArrJH=Array.isArray(l.text)?l.text:(typeof l.text==='string'?[l.text]:[]);
+  var _enArrJH=l.textEn?(Array.isArray(l.textEn)?l.textEn:[l.textEn]):null;
+  if(_isPJH){
+    h+='<div class="tb-reading-text" id="tbTextArea">';
+    h+=_renderPoemBlock(_textArrJH,null,_enArrJH,false);
+    h+='</div>';
+  }else{
+    h+='<div class="tb-reading-text" id="tbTextArea">';
+    /* When text is fewer paragraphs than textEn (e.g. 1 blob vs 10 en paragraphs),
+       split the CN text into paragraphs by double-newline to try to align */
+    var _cnParas=_textArrJH;
+    if(_enArrJH&&_cnParas.length<_enArrJH.length&&_cnParas.length<=2){
+      var _split=[];
+      _cnParas.forEach(function(p){
+        var parts=p.split(/\n{2,}/);
+        if(parts.length>1){parts.forEach(function(s){if(s.trim())_split.push(s.trim());});}
+        else{
+          /* Try single newline split for very long single blobs */
+          var lines=p.split('\n');
+          if(lines.length>3){lines.forEach(function(s){if(s.trim())_split.push(s.trim());});}
+          else _split.push(p);
+        }
+      });
+      _cnParas=_split;
+    }
+    _cnParas.forEach(function(line,i){
+      h+='<p>'+makeCharsClickable(line)+'</p>';
+      if(_enArrJH&&_enArrJH[i])h+='<span class="tb-en-line tbEnLine">'+_enArrJH[i]+'</span>';
+    });
+    /* Render any remaining textEn paragraphs that exceed cnParas count */
+    if(_enArrJH&&_enArrJH.length>_cnParas.length){
+      for(var _ei=_cnParas.length;_ei<_enArrJH.length;_ei++){
+        h+='<span class="tb-en-line tbEnLine">'+_enArrJH[_ei]+'</span>';
+      }
+    }
+    h+='</div>';
+  }
   /* Literary Analysis Panel */
   h+='<div id="tbAnalysisPanel" style="display:none"></div>';
   /* Load WT data for JH */
-  window._wtPlainLines=l.text.map(function(line,i){return{text:line,py:'',en:(l.textEn&&l.textEn[i])||''};});
+  window._wtPlainLines=_textArrJH.map(function(line,i){return{text:line,py:'',en:(_enArrJH&&_enArrJH[i])||''};});
   window._wtCurrentAnns=null;_wtActive=false;_wtPopupStore=[];
   var _wtGenJH=++_wtLoadGen;
   loadWtData(d.grade,d.semester,function(wtData){
@@ -18481,7 +19003,7 @@ function tbShowLessonJH(uid,lid){
     h+='<div class="tb-chars-section"><div class="tb-section-title">\u270D \u8BFB\u8BFB\u5199\u5199 Read & Write</div>';
     h+='<div class="tb-char-grid">';
     l.readWriteWords.forEach(function(w){
-      h+='<div style="padding:4px 10px;border-radius:6px;border:1px solid var(--ink3);font-size:14px;background:#fff">'+w+'</div>';
+      h+='<div style="padding:4px 10px;border-radius:6px;border:1px solid var(--ink3);font-size:14px;background:#fff">'+makeCharsClickable(w)+'</div>';
     });
     h+='</div></div>';
   }
