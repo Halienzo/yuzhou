@@ -792,9 +792,9 @@ units: [
     },
     {id:10,title:"升国旗",titleEn:"Raising the National Flag",
       difficulty: 1,
-      text:["五星红旗，我们的国旗。","国歌声中，高高升起。","我们立正，向您敬礼。"],
-      textEn:["The five-star red flag, our national flag.","In the sound of the national anthem, it rises high.","We stand at attention and salute you."],
-      textPinyin:["wǔ xīng hóng qí, wǒ men de guó qí.","guó gē shēng zhōng, gāo gāo shēng qǐ.","wǒ men lì zhèng, xiàng nín jìng lǐ."],
+      text:["五星红旗，我们的国旗。","国歌声中，徐徐升起。","迎风飘扬，多么美丽。","向着国旗，我们立正。","望着国旗，我们敬礼。"],
+      textEn:["The five-star red flag, our national flag.","In the sound of the national anthem, it slowly rises.","Fluttering in the wind, how beautiful it is.","Facing the flag, we stand at attention.","Gazing at the flag, we salute."],
+      textPinyin:["wǔ xīng hóng qí, wǒ men de guó qí.","guó gē shēng zhōng, xú xú shēng qǐ.","yíng fēng piāo yáng, duō me měi lì.","xiàng zhe guó qí, wǒ men lì zhèng.","wàng zhe guó qí, wǒ men jìng lǐ."],
       recognizeChars:["升","国","旗","中","红","歌","起","么","美","丽","立"],
       writeChars:["中","五","立","正"],
       vocabWords: [

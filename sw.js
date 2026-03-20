@@ -3,7 +3,7 @@
  * Caches core assets for offline use
  * Textbook data files cached on-demand (not at install)
  */
-const CACHE_NAME = 'yuzhou-v38';
+const CACHE_NAME = 'yuzhou-v39';
 const CORE_ASSETS = [
   './Chinese chars.html',
   './review_data.js',
