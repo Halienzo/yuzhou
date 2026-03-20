@@ -20,5 +20,5 @@ _g1s1_extracted.txt
 优化.txt
 需求分两类.docx
 
-# Claude internal
-.claude/
+# Claude internal (keep config in git, exclude local settings)
+.claude/settings.local.json
