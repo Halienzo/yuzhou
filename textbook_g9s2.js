@@ -1017,7 +1017,7 @@ units: [
       isSelfRead: true,
       preview: [{cn: "话剧《天下第一楼》讲述民国初年北京老字号烤鸭店福聚德的兴衰。本文节选自第三幕，展现了福聚德鼎盛时期的种种矛盾冲突。", en: "The play The Best Restaurant Under Heaven tells of the rise and fall of Fujude, a time-honored Beijing roast duck restaurant in the early Republic era. This excerpt from Act III shows various conflicts during the restaurant\u2019s heyday."}],
       text: [
-        "今天是大年初六，福聚德大开张。伙计们簇拥着王子西将铜幌子挂在门前。掌案的把砧板剁得当当响，掌勺的啪啪啪地敲着炒勺，这就是旧时买卖家讲究的\u201c响案板\u201d。",
+        "今天是大年初六，饭庄店铺大开张。福聚德伙计们簇拥着王子西将那两块老年间的铜幌子，当当正正地挂在门前。尔后，掌案的把砧板剁得当当响，掌勺的啪啪啪地敲着炒勺，账房把算盘拨拉得噼啪响，百年老炉中的炉火像浇上了油，烧得呼呼蹿火苗子，这就是旧时买卖家讲究的\u201c响案板\u201d，以求新年里买卖兴隆。",
         "唐茂昌带福子气冲冲上场，要从钱柜里支五百块钱，王子西无奈打开钱柜。唐茂昌还暗示卢孟实在老家置了产业。",
         "卢孟实上场，处罚了看落子的小伙计，厚赏即将成婚的成顺，让福聚德的伙计也体面。",
         "罗大头因烤杆被动而与卢孟实冲突，揭了卢孟实父亲被人用大秤当牲口称的旧伤。卢孟实凄惨地笑着赶走了罗大头。",
