@@ -1428,23 +1428,25 @@ body{background:#fff!important;color:#000!important}
 .tb-reading-text p:last-child{margin-bottom:0}
 .tb-pinyin-line{font-size:11px;color:var(--t3);letter-spacing:.5px;display:block;text-indent:2em;margin-bottom:2px;line-height:1.2}
 .tb-en-line{font-size:12px;color:var(--ink4);font-style:italic;display:block;margin-bottom:6px;text-indent:2em;line-height:1.4}
-/* Vertical poem layout 诗词纵向排版 */
-.tb-poem-wrap{display:flex;justify-content:center;padding:24px 16px;background:linear-gradient(135deg,#fdf6e3 0%,#f5eed6 100%);border:1px solid #d4c5a0;border-radius:12px;box-shadow:inset 0 0 30px rgba(0,0,0,.03);position:relative;margin-bottom:12px;overflow-x:auto}
+/* Poem layout 诗词横向排版 — each verse on its own line, centered */
+.tb-poem-wrap{display:flex;justify-content:center;padding:28px 20px;background:linear-gradient(135deg,#fdf6e3 0%,#f5eed6 100%);border:1px solid #d4c5a0;border-radius:12px;box-shadow:inset 0 0 30px rgba(0,0,0,.03);position:relative;margin-bottom:12px}
 .tb-poem-wrap::before{content:'';position:absolute;top:8px;right:8px;bottom:8px;left:8px;border:1px solid rgba(180,160,120,.15);border-radius:8px;pointer-events:none}
-.tb-poem-scroll{writing-mode:vertical-rl;text-orientation:mixed;font-family:'Noto Serif SC','Songti SC',serif;font-size:22px;line-height:2.4;letter-spacing:3px;padding:8px 4px}
-.tb-poem-scroll p{margin:0;padding:0 14px;text-indent:0;white-space:nowrap;border-left:1px solid rgba(180,160,120,.12)}
-.tb-poem-scroll p:last-child{border-left:none}
+.tb-poem-scroll{font-family:'Noto Serif SC','Songti SC','KaiTi',serif;font-size:20px;line-height:2;letter-spacing:2px;text-align:center;padding:8px 0;width:100%}
+.tb-poem-scroll p{margin:0;padding:4px 0;text-indent:0;white-space:nowrap}
 .tb-poem-scroll .tc{cursor:pointer;transition:color .15s}
 .tb-poem-scroll .tc:hover{color:#c0392b;text-decoration:none}
-.tb-poem-scroll rt.tbPyRuby{font-size:9px;color:var(--ink4);letter-spacing:0;font-weight:400}
-.tb-poem-scroll .poem-title-line{font-size:16px;letter-spacing:1px;color:var(--ink3);padding:0 10px}
+.tb-poem-scroll rt.tbPyRuby{font-size:10px;color:var(--ink4);letter-spacing:0;font-weight:400}
+.tb-poem-scroll .poem-title-line{font-size:18px;letter-spacing:2px;color:var(--ink2);font-weight:700;padding:0;margin-bottom:2px}
+.tb-poem-scroll .poem-author-line{font-size:14px;letter-spacing:1px;color:var(--ink4);padding:0;margin-bottom:8px}
+.tb-poem-scroll .poem-note-line{font-size:13px;letter-spacing:0;color:var(--ink4);text-align:left;padding:8px 16px 0;white-space:normal;line-height:1.6;border-top:1px dashed rgba(180,160,120,.25);margin-top:8px}
+.tb-poem-scroll .poem-divider{height:16px}
 .tb-poem-en-wrap{margin-top:12px;padding:12px 16px;background:rgba(255,255,255,.5);border-radius:8px;text-align:center;line-height:1.8}
 .tb-poem-en-wrap p{margin:0 0 4px;text-indent:0;font-size:13px;color:var(--ink4);font-style:italic}
 .dark .tb-poem-wrap{background:linear-gradient(135deg,#2a2520,#1e1a15);border-color:#4a4030}
 .dark .tb-poem-wrap::before{border-color:rgba(120,100,60,.2)}
-.dark .tb-poem-scroll p{border-left-color:rgba(120,100,60,.15)}
+.dark .tb-poem-scroll .poem-note-line{border-top-color:rgba(120,100,60,.25)}
 .dark .tb-poem-en-wrap{background:rgba(0,0,0,.2)}
-@media(max-width:600px){.tb-poem-scroll{font-size:18px;line-height:2.2;letter-spacing:2px}.tb-poem-scroll p{padding:0 10px}}
+@media(max-width:600px){.tb-poem-scroll{font-size:17px;line-height:1.9;letter-spacing:1px}}
 .tb-toggle-row{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
 .tb-toggle{padding:4px 12px;border-radius:14px;border:1px solid var(--ink3);font-size:12px;cursor:pointer;background:#fff;transition:all .2s}
 .tb-toggle.active{background:var(--orange);color:#fff;border-color:var(--orange)}
@@ -6207,7 +6209,7 @@ h+='</div><div class="home-stats"><div class="home-stat"><div class="home-stat-v
 h+='<div class="home-stat"><div class="home-stat-val">'+lc.length+'</div><div class="home-stat-lbl">\u5DF2\u5B66<br>Learned</div></div>';
 h+='<div class="home-stat"><div class="home-stat-val">'+(du>0?du:'\u2014')+'</div><div class="home-stat-lbl">\u5F85\u590D\u4E60<br>Due</div></div></div>';
 h+='<div style="text-align:center;margin-top:16px;font-size:11px;color:var(--ink4)">\u6309 Ctrl+K \u641C\u7D22\u6C49\u5B57</div>';
-h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v37</div></div>';
+h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v38</div></div>';
 w.innerHTML=h;w.style.display='';currentView='home';
 }
 function navigateFromHome(id){if(VIEWS[id]){navigateTo(id);updateRail();return;}updateRail();}
@@ -17787,7 +17789,7 @@ function tbAccumType(cn){
   if(/搜集|查找|课外|阅读/.test(cn))return{badge:'拓展阅读 Extended Reading',cls:'read'};
   return{badge:'积累拓展 Accumulate',cls:'default'};
 }
-/* ─── Poem Detection & Vertical Rendering Helpers ─── */
+/* ─── Poem Detection & Horizontal Rendering Helpers ─── */
 function _tbIsPoem(l){
   if(!l||!l.text)return false;
   var textArr=Array.isArray(l.text)?l.text:(typeof l.text==='string'?[l.text]:[]);
@@ -17825,20 +17827,50 @@ function _poemRubyLine(text,pyStr){
 }
 function _renderPoemBlock(textArr,pyArr,enArr,showPy){
   var h='<div class="tb-poem-wrap"><div class="tb-poem-scroll">';
-  var lineIdx=0;
+  var poemIdx=0;
+  function _addTitle(t){if(poemIdx>0)h+='<div class="poem-divider"></div>';poemIdx++;h+='<p class="poem-title-line">'+makeCharsClickable(t)+'</p>';}
+  function _addAuthor(a){h+='<p class="poem-author-line">'+makeCharsClickable(a)+'</p>';}
+  function _addVerse(v,py){if(showPy&&py){h+='<p>'+_poemRubyLine(v,py)+'</p>';}else{h+='<p>'+makeCharsClickable(v)+'</p>';}}
+  function _addNote(n){h+='<p class="poem-note-line">'+makeCharsClickable(n)+'</p>';}
   textArr.forEach(function(entry,ei){
+    var trimmed=entry.trim();
+    if(!trimmed)return;
+    /* Standalone annotation entry: "注释：..." */
+    if(/^注[释释]?[：:]/.test(trimmed)){_addNote(trimmed);return;}
     var subLines=entry.split('\n');
     var subPys=pyArr&&pyArr[ei]?pyArr[ei].split('\n'):[];
-    subLines.forEach(function(sl,si){
-      if(!sl.trim())return;
-      var py=subPys[si]||'';
-      /* Detect title/author lines (contain [ or are short metadata) */
-      var isMeta=/\[.*\]/.test(sl)&&sl.replace(/[^\u4e00-\u9fff]/g,'').length<=8;
-      if(isMeta){h+='<p class="poem-title-line">'+makeCharsClickable(sl)+'</p>';}
-      else if(showPy&&py){h+='<p>'+_poemRubyLine(sl,py)+'</p>';}
-      else{h+='<p>'+makeCharsClickable(sl)+'</p>';}
-      lineIdx++;
-    });
+    if(subLines.length>1){
+      /* Multi-line entry (G3+ format): line0=title, line1=[dynasty]author, rest=verses */
+      subLines.forEach(function(sl,si){
+        if(!sl.trim())return;
+        var py=subPys[si]||'';
+        if(si===0){
+          /* Check for "title —— author" pattern (G7-G9) */
+          var dm=sl.match(/^(.+?)\s*[—\u2014]{1,2}\s*(.+)$/);
+          if(dm){_addTitle(dm[1].trim());_addAuthor(dm[2].trim());}
+          else{_addTitle(sl.trim());}
+        }
+        else if(/^\s*[\[【（\(]/.test(sl)){_addAuthor(sl.trim());}
+        /* Bare author name at line 1: short, no punctuation (e.g. "曹操","李白") */
+        else if(si===1&&!/[，。！？；：、\n]/.test(sl)&&sl.trim().replace(/[^\u4e00-\u9fff]/g,'').length<=6){_addAuthor(sl.trim());}
+        else{_addVerse(sl,py);}
+      });
+    }else{
+      /* Single-line entry (G1-G2 format) */
+      var sl=trimmed,py=subPys[0]||'';
+      var hasPunct=/[，。！？；：、]/.test(sl);
+      /* Title+author with brackets: "登鹳雀楼 [唐]王之涣" */
+      var bm=sl.match(/^(.+?)\s*([\[【（\(].+)$/);
+      if(bm){_addTitle(bm[1]);_addAuthor(bm[2]);}
+      /* Short non-punctuation line: title, possibly with unbracketed author "敕勒歌 北朝民歌" */
+      else if(!hasPunct&&sl.replace(/[^\u4e00-\u9fff\u3400-\u4dbf]/g,'').length<=10){
+        var sp=sl.indexOf(' ');
+        if(sp>0&&sp<sl.length-1){_addTitle(sl.substring(0,sp));_addAuthor(sl.substring(sp+1));}
+        else{_addTitle(sl);}
+      }
+      /* Verse line */
+      else{_addVerse(sl,py);}
+    }
   });
   h+='</div></div>';
   /* English translations — horizontal block below */
