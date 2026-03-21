@@ -519,6 +519,14 @@ units: [
       ],
       recognizeChars: ["屠","苏","魂","酒","牧","兄","倍"],
       writeChars: ["符","欲","魂","借","酒","何","牧","兄","独","异","佳"],
+      vocabWords: [
+        {word:'爆竹',pinyin:'b\u00E0o zh\u00FA',en:'firecrackers',sentence:'\u7206\u7AF9\u58F0\u4E2D\u4E00\u5C81\u9664\u3002',sentenceEn:'Amidst the sound of firecrackers, another year has passed.'},
+        {word:'屠苏',pinyin:'t\u00FA s\u016B',en:'tusu wine (New Year wine)',sentence:'\u6625\u98CE\u9001\u6696\u5165\u5C60\u82CF\u3002',sentenceEn:'Spring breeze brings warmth into the tusu wine.'},
+        {word:'断魂',pinyin:'du\u00E0n h\u00FAn',en:'heartbroken; grief-stricken',sentence:'\u8DEF\u4E0A\u884C\u4EBA\u6B32\u65AD\u9B42\u3002',sentenceEn:'Travelers on the road feel as if their souls will break.'},
+        {word:'佳节',pinyin:'ji\u0101 ji\u00E9',en:'festival; holiday',sentence:'\u6BCF\u9022\u4F73\u8282\u500D\u601D\u4EB2\u3002',sentenceEn:'Every festive season I miss my family twice as much.'},
+        {word:'茱萸',pinyin:'zh\u016B y\u00FA',en:'dogwood (plant)',sentence:'\u904D\u63D2\u8331\u8438\u5C11\u4E00\u4EBA\u3002',sentenceEn:'Each wearing dogwood \u2014 but one person is missing.'},
+        {word:'异乡',pinyin:'y\u00EC xi\u0101ng',en:'foreign land',sentence:'\u72EC\u5728\u5F02\u4E61\u4E3A\u5F02\u5BA2\u3002',sentenceEn:'Alone in a foreign land, I am a stranger.'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文。背诵课文。默写《清明》。",en:"Read with feeling. Recite all poems. Write 'Qingming' from memory."},
         {type:"think",cn:"这三首诗分别写的是哪个传统节日？写出了什么样的节日情景？",en:"Which traditional festival does each poem describe? What festival scenes do they depict?"},

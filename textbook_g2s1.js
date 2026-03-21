@@ -1287,6 +1287,13 @@ units: [
       ],
       recognizeChars: ["宿","寺","危","辰","恐","惊","似","庐","笼","盖","苍","茫"],
       writeChars: ["危","敢","惊","阴","似","野","苍","茫"],
+      vocabWords: [
+        {word:'危楼',pinyin:'wēi lóu',en:'towering building',sentence:'危楼高百尺。',sentenceEn:'This towering building is a hundred feet tall.'},
+        {word:'星辰',pinyin:'xīng chén',en:'stars',sentence:'手可摘星辰。',sentenceEn:'One could reach out and pluck the stars.'},
+        {word:'恐',pinyin:'kǒng',en:'fear; afraid',sentence:'恐惊天上人。',sentenceEn:'For fear of startling the people in heaven.'},
+        {word:'苍苍',pinyin:'cāng cāng',en:'deep blue; vast',sentence:'天苍苍，野茫茫。',sentenceEn:'The sky is deep blue, the plains stretch endlessly.'},
+        {word:'穹庐',pinyin:'qióng lú',en:'great dome; yurt',sentence:'天似穹庐，笼盖四野。',sentenceEn:'The sky is like a great dome covering the vast land.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"discuss",cn:"想象诗中描绘的画面",en:"Imagine the scenes described in the poems"}

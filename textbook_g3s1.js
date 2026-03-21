@@ -1065,6 +1065,13 @@ units: [
       ],
       recognizeChars: ["亦","抹","宜","庭","未","磨","盘"],
       writeChars: ["断","楚","至","孤","帆","饮","初","镜","未","磨","遥","银","盘"],
+      vocabWords: [
+        {word:'孤帆',pinyin:'g\u016B f\u0101n',en:'a lone sail',sentence:'\u5B64\u5E06\u4E00\u7247\u65E5\u8FB9\u6765\u3002',sentenceEn:'A lone sail comes from beside the sun.'},
+        {word:'\u6F4B\u6EDF',pinyin:'li\u00E0n y\u00E0n',en:'shimmering; glistening',sentence:'\u6C34\u5149\u6F4B\u6EDF\u6674\u65B9\u597D\u3002',sentenceEn:'Shimmering water is beautiful in sunshine.'},
+        {word:'\u76F8\u5B9C',pinyin:'xi\u0101ng y\u00ED',en:'suitable; fitting',sentence:'\u6DE1\u5986\u6D53\u62B9\u603B\u76F8\u5B9C\u3002',sentenceEn:'Whether lightly or heavily adorned, she is always lovely.'},
+        {word:'\u9065\u671B',pinyin:'y\u00E1o w\u00E0ng',en:'to gaze from afar',sentence:'\u9065\u671B\u6D1E\u5EAD\u5C71\u6C34\u7FE0\u3002',sentenceEn:'Gazing far at Dongting\u2019s green mountains and water.'},
+        {word:'\u78A7\u6C34',pinyin:'b\u00EC shu\u01D0',en:'green/clear water',sentence:'\u78A7\u6C34\u4E1C\u6D41\u81F3\u6B64\u56DE\u3002',sentenceEn:'The blue water flows east and turns back here.'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文，想象诗中描绘的景色。背诵课文，默写《望天门山》",en:"Read with feeling, imagine the scenery. Recite all and write \u2018Gazing at Tianmen Mountain\u2019 from memory"},
         {type:"vocab",cn:"用自己的话说说诗句的意思：\u201C两岸青山相对出，孤帆一片日边来\u201D\u201C湖光秋月两相和，潭面无风镜未磨\u201D",en:"Explain in your own words: \u2018Green mountains face each other on both banks, a lone sail comes from the sun\u2019 and \u2018Lake light and moon blend; still surface like an unpolished mirror\u2019"}

@@ -1111,6 +1111,13 @@ units: [
       ],
       recognizeChars: ["\u6653","\u6148","\u6BD5","\u7ADF","\u6620","\u7EDD","\u9E42","\u9E23","\u884C","\u542B","\u5CAD","\u6CCA"],
       writeChars: ["\u6E56","\u83B2","\u7A77","\u8377","\u7EDD","\u542B","\u5CAD","\u5434"],
+      vocabWords: [
+        {word:'\u6BD5\u7ADF',pinyin:'b\u00EC j\u00ECng',en:'after all',sentence:'\u6BD5\u7ADF\u897F\u6E56\u516D\u6708\u4E2D\u3002',sentenceEn:'After all, it is the West Lake in June.'},
+        {word:'\u83B2\u53F6',pinyin:'li\u00E1n y\u00E8',en:'lotus leaf',sentence:'\u63A5\u5929\u83B2\u53F6\u65E0\u7A77\u78A7\u3002',sentenceEn:'Lotus leaves stretch to the horizon in endless green.'},
+        {word:'\u8377\u82B1',pinyin:'h\u00E9 hu\u0101',en:'lotus flower',sentence:'\u6620\u65E5\u8377\u82B1\u522B\u6837\u7EA2\u3002',sentenceEn:'Lotus flowers glow an extraordinary red in the sun.'},
+        {word:'\u9E23',pinyin:'m\u00EDng',en:'to sing (of birds)',sentence:'\u4E24\u4E2A\u9EC4\u9E42\u9E23\u7FE0\u67F3\u3002',sentenceEn:'Two golden orioles sing amid the green willows.'},
+        {word:'\u6CCA',pinyin:'b\u00F3',en:'to moor (a boat)',sentence:'\u95E8\u6CCA\u4E1C\u5434\u4E07\u91CC\u8239\u3002',sentenceEn:'At the gate a boat is moored, bound for eastern Wu.'}
+      ],
       exercises: [
         {type:"recite",cn:"\u6709\u611F\u60C5\u5730\u6717\u8BFB\u8BFE\u6587\uFF0C\u80CC\u8BF5\u8BFE\u6587",en:"Read the text with feeling and recite it"},
         {type:"think",cn:"\u8BF4\u8BF4\u8BD7\u53E5\u7684\u610F\u601D",en:"Explain the meaning of the poem lines"}

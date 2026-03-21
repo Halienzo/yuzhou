@@ -653,6 +653,16 @@ units: [
         "Crossing at Jingmen\n[Tang] Li Bai\nI cross far beyond Jingmen, journeying through Chu.\nMountains end at the plains; the river flows into wilderness.\nMoon below: a flying mirror; clouds above: sea mirages.\nStill I love my homeland's waters, escorting my boat ten thousand li.",
         "Spring Walk by Qiantang Lake\n[Tang] Bai Juyi\nNorth of Gushan Temple, west of Jia Pavilion, water level even, clouds low.\nEarly orioles compete for sunny trees; new swallows peck spring mud.\nScattered blossoms dazzle the eye; shallow grass hides horse hooves.\nI love most the east lake shore — White Sand Dike under green willows."
       ],
+      vocabWords: [
+        {word:'薄暮',pinyin:'b\u00F3 m\u00F9',en:'dusk; twilight',sentence:'东皋薄暮望。',sentenceEn:'At East Ridge I gaze at dusk.'},
+        {word:'落晖',pinyin:'lu\u00F2 hu\u012B',en:'setting glow; sunset light',sentence:'山山唯落晖。',sentenceEn:'Every mountain holds the setting glow.'},
+        {word:'历历',pinyin:'l\u00EC l\u00EC',en:'clearly visible',sentence:'晴川历历汉阳树。',sentenceEn:'Sunlit river clearly shows Hanyang\u2019s trees.'},
+        {word:'烟波',pinyin:'y\u0101n b\u014D',en:'misty waves',sentence:'烟波江上使人愁。',sentenceEn:'The misty river waves stir only sorrow.'},
+        {word:'大漠',pinyin:'d\u00E0 m\u00F2',en:'vast desert',sentence:'大漠孤烟直。',sentenceEn:'In the vast desert, a lone column of smoke rises straight.'},
+        {word:'平野',pinyin:'p\u00EDng y\u011B',en:'level plains',sentence:'山随平野尽。',sentenceEn:'Mountains end where the plains begin.'},
+        {word:'没马蹄',pinyin:'m\u00F2 m\u01CE t\u00ED',en:'to submerge horse hooves',sentence:'浅草才能没马蹄。',sentenceEn:'Shallow grass barely hides the horse\u2019s hooves.'},
+        {word:'白沙堤',pinyin:'b\u00E1i sh\u0101 d\u012B',en:'White Sand Dike',sentence:'绿杨阴里白沙堤。',sentenceEn:'The White Sand Dike in the shade of green willows.'}
+      ],
       thinkExplore: [
         {cn:"五首唐诗描写了不同的景物，表达了不同的情感。比较它们在写景抒情方面的特点。", en:"The five poems depict different scenery and express different emotions. Compare their characteristics in landscape description and emotional expression."},
         {cn:"赏析\u201c大漠孤烟直，长河落日圆\u201d的意境。", en:"Analyze the artistic conception of 'vast desert, lone smoke rises straight; long river, setting sun hangs round.'"}
@@ -1318,6 +1328,16 @@ units: [
         "Ballad of the Governor of Yanmen\n[Tang] Li He\nBlack clouds press the city, about to crush it; armor gleams like golden scales in the sun.\nHorns fill the autumn sky; border rouge congeals to purple night.\nHalf-furled red flags near the Yi River; heavy frost, cold drums muffled.\nTo repay my lord's Golden Terrace kindness, I draw my jade-dragon sword to die.",
         "Red Cliff\n[Tang] Du Mu\nA broken halberd in the sand, iron yet unrusted — polished, I recognize a former dynasty.\nHad east wind not favored Zhou Yu, Bronze Sparrow's spring would lock the two Qiaos.",
         "Yu Jia Ao\n[Song] Li Qingzhao\nSky meets cloud waves and dawn mist; the Milky Way turns, a thousand sails dance.\nDreaming, my soul returns to Heaven; heaven's voice asks where I wish to go.\nThe road is long, I sigh at dusk; my poems have only startling lines.\nThe roc rises on ninety-thousand-li winds — wind, don't stop! Blow my boat to the three isles!"
+      ],
+      vocabWords: [
+        {word:'结庐',pinyin:'ji\u00E9 l\u00FA',en:'to build a hut',sentence:'结庐在人境。',sentenceEn:'I built my hut amid the world of men.'},
+        {word:'悠然',pinyin:'y\u014Du r\u00E1n',en:'serene; leisurely',sentence:'悠然见南山。',sentenceEn:'Serenely I gaze at the southern mountain.'},
+        {word:'烽火',pinyin:'f\u0113ng huǒ',en:'beacon fires (signal of war)',sentence:'烽火连三月。',sentenceEn:'Beacon fires have burned for three months.'},
+        {word:'不胜簪',pinyin:'b\u00F9 sh\u00E8ng z\u0101n',en:'cannot hold a hairpin',sentence:'浑欲不胜簪。',sentenceEn:'Can barely hold a hairpin.'},
+        {word:'折戟',pinyin:'zh\u00E9 jǐ',en:'a broken halberd',sentence:'折戟沉沙铁未销。',sentenceEn:'A broken halberd sunk in sand, its iron not yet rusted away.'},
+        {word:'东风',pinyin:'d\u014Dng f\u0113ng',en:'east wind',sentence:'东风不与周郎便。',sentenceEn:'Had the east wind not favored young Commander Zhou.'},
+        {word:'星河',pinyin:'x\u012Bng h\u00E9',en:'Milky Way; starry river',sentence:'星河欲转千帆舞。',sentenceEn:'The Milky Way seems to turn as a thousand sails dance.'},
+        {word:'蓬舟',pinyin:'p\u00E9ng zh\u014Du',en:'reed boat',sentence:'蓬舟吹取三山去！',sentenceEn:'Blow my reed boat to the three sacred isles!'}
       ],
       thinkExplore: [
         {cn:"体会五首诗词不同的风格和主题。比较陶渊明的闲适与杜甫的忧国忧民。", en:"Appreciate the different styles and themes of the five poems. Compare Tao Yuanming's tranquility with Du Fu's concern for nation and people."},

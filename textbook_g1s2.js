@@ -453,6 +453,7 @@ units: [
     {id:8,title:"静夜思",titleEn:"Quiet Night Thoughts",
       difficulty: 1,
       author:"李白",authorEn:"Li Bai",
+      authorBio: {cn: "李白（701—762），字太白，号青莲居士，唐代伟大的浪漫主义诗人，世称\u201c诗仙\u201d。著有《李太白集》。", en: "Li Bai (701-762), courtesy name Taibai, was a great Romantic poet of the Tang Dynasty, known as the 'Immortal of Poetry.' His works are compiled in the Li Taibai Collection."},
       text:["床前明月光，","疑是地上霜。","举头望明月，","低头思故乡。"],
       textEn:["Bright moonlight before my bed,","Could it be frost on the ground?","I raise my head to gaze at the bright moon,","And lower it, thinking of my homeland."],
       textPinyin:["chuáng qián míng yuè guāng,","yí shì dì shàng shuāng.","jǔ tóu wàng míng yuè,","dī tóu sī gù xiāng."],

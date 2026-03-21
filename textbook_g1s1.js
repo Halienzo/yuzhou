@@ -31,6 +31,11 @@ units: [
         {cn:"帮助学生适应校园生活",en:"Help students adapt to school life"},
         {cn:"培养良好的读书写字姿势",en:"Develop good reading and writing posture"}
       ],
+      vocabWords: [
+        {word:'我',pinyin:'wǒ',en:'I; me',sentence:'我是小学生。',sentenceEn:'I am a primary school student.'},
+        {word:'上学',pinyin:'shàng xué',en:'go to school',sentence:'我上学了。',sentenceEn:'I go to school.'},
+        {word:'中国',pinyin:'zhōng guó',en:'China',sentence:'我是中国人。',sentenceEn:'I am Chinese.'}
+      ],
       parentTips: [
         {cn:"帮助孩子准备学习用品，建立上学的期待感",en:"Help prepare school supplies and build excitement for school"},
         {cn:"陪孩子一起唱《上学歌》",en:"Sing the School Song together"}
@@ -83,6 +88,13 @@ units: [
       textPinyin: ["yī èr sān sì wǔ，","jīn mù shuǐ huǒ tǔ。","tiān dì fēn shàng xià，","rì yuè zhào jīn gǔ。"],
       recognizeChars: ["一","二","三","四","五","上","下"],
       writeChars: ["一","二","三","上"],
+      vocabWords: [
+        {word:'金',pinyin:'jīn',en:'metal; gold',sentence:'金木水火土。',sentenceEn:'Metal, wood, water, fire, earth.'},
+        {word:'木',pinyin:'mù',en:'wood; tree',sentence:'金木水火土。',sentenceEn:'Metal, wood, water, fire, earth.'},
+        {word:'水',pinyin:'shuǐ',en:'water',sentence:'金木水火土。',sentenceEn:'Metal, wood, water, fire, earth.'},
+        {word:'上',pinyin:'shàng',en:'up; above',sentence:'天地分上下。',sentenceEn:'Heaven and earth divide above and below.'},
+        {word:'下',pinyin:'xià',en:'down; below',sentence:'天地分上下。',sentenceEn:'Heaven and earth divide above and below.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite the text"},
         {type:"write",cn:"认识田字格，注意笔画在田字格中的位置",en:"Learn the writing grid; pay attention to stroke positions"}
@@ -105,6 +117,13 @@ units: [
       textPinyin: ["kǒu ěr mù","shǒu zú","zhàn rú sōng，zuò rú zhōng。","xíng rú fēng，wò rú gōng。"],
       recognizeChars: ["口","耳","目","手","足","站","坐"],
       writeChars: ["口","目","耳","手"],
+      vocabWords: [
+        {word:'口',pinyin:'kǒu',en:'mouth',sentence:'口耳目。',sentenceEn:'Mouth, ear, eye.'},
+        {word:'耳',pinyin:'ěr',en:'ear',sentence:'口耳目。',sentenceEn:'Mouth, ear, eye.'},
+        {word:'目',pinyin:'mù',en:'eye',sentence:'口耳目。',sentenceEn:'Mouth, ear, eye.'},
+        {word:'手',pinyin:'shǒu',en:'hand',sentence:'手足。',sentenceEn:'Hand and foot.'},
+        {word:'站',pinyin:'zhàn',en:'stand',sentence:'站如松，坐如钟。',sentenceEn:'Stand like a pine, sit like a bell.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"我们的口、耳、目、手、足能做哪些事？",en:"What can our mouth, ears, eyes, hands, and feet do?"}
@@ -126,6 +145,13 @@ units: [
       textPinyin: ["rì yuè shuǐ huǒ","shān shí tián hé"],
       recognizeChars: ["日","月","水","火","山","石","田","禾"],
       writeChars: ["日","田","禾","火"],
+      vocabWords: [
+        {word:'日',pinyin:'rì',en:'sun; day',sentence:'日月水火。',sentenceEn:'Sun, moon, water, fire.'},
+        {word:'月',pinyin:'yuè',en:'moon; month',sentence:'日月水火。',sentenceEn:'Sun, moon, water, fire.'},
+        {word:'山',pinyin:'shān',en:'mountain',sentence:'山石田禾。',sentenceEn:'Mountain, stone, field, grain.'},
+        {word:'田',pinyin:'tián',en:'field',sentence:'山石田禾。',sentenceEn:'Mountain, stone, field, grain.'},
+        {word:'禾',pinyin:'hé',en:'grain; rice plant',sentence:'山石田禾。',sentenceEn:'Mountain, stone, field, grain.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"match",cn:"猜一猜，连一连（象形字与图片配对）",en:"Guess and match (match pictographic characters to pictures)"}
@@ -147,6 +173,13 @@ units: [
       textPinyin: ["yún duì yǔ，xuě duì fēng。","huā duì shù，niǎo duì chóng。","shān qīng duì shuǐ xiù，","liǔ lǜ duì táo hóng。"],
       recognizeChars: ["对","云","雨","风","花","鸟","虫"],
       writeChars: ["虫","云","山"],
+      vocabWords: [
+        {word:'云',pinyin:'yún',en:'cloud',sentence:'云对雨，雪对风。',sentenceEn:'Clouds pair with rain, snow with wind.'},
+        {word:'雨',pinyin:'yǔ',en:'rain',sentence:'云对雨，雪对风。',sentenceEn:'Clouds pair with rain, snow with wind.'},
+        {word:'风',pinyin:'fēng',en:'wind',sentence:'云对雨，雪对风。',sentenceEn:'Clouds pair with rain, snow with wind.'},
+        {word:'花',pinyin:'huā',en:'flower',sentence:'花对树，鸟对虫。',sentenceEn:'Flowers pair with trees, birds with insects.'},
+        {word:'鸟',pinyin:'niǎo',en:'bird',sentence:'花对树，鸟对虫。',sentenceEn:'Flowers pair with trees, birds with insects.'}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"extend",cn:"你还知道哪些对子？",en:"What other pairs do you know?"}
@@ -232,6 +265,10 @@ units: [
       text:["a o e"],textEn:["Learn the three simple vowels: a, o, e"],
       textPinyin:["ā á ǎ à / ō ó ǒ ò / ē é ě è"],
       recognizeChars:[],writeChars:[],
+      vocabWords: [
+        {word:'啊',pinyin:'a',en:'ah (exclamation)',sentence:'啊，真好看！',sentenceEn:'Ah, how beautiful!'},
+        {word:'鹅',pinyin:'é',en:'goose',sentence:'鹅鹅鹅。',sentenceEn:'Goose, goose, goose.'}
+      ],
       exercises:[
         {type:"read",cn:"学会a o e的四声读法",en:"Learn the four tones of a, o, e"},
         {type:"write",cn:"在四线格中正确书写a o e",en:"Write a o e correctly on four-line grid"}
@@ -250,6 +287,11 @@ units: [
       text:["i u ü","y w"],textEn:["Learn vowels i, u, ü","Learn initials y, w"],
       textPinyin:["ī í ǐ ì / ū ú ǔ ù / ǖ ǘ ǚ ǜ"],
       recognizeChars:["文","数","学","音","乐"],writeChars:[],
+      vocabWords: [
+        {word:'文',pinyin:'wén',en:'writing; language',sentence:'语文课。',sentenceEn:'Chinese language class.'},
+        {word:'音乐',pinyin:'yīn yuè',en:'music',sentence:'音乐课。',sentenceEn:'Music class.'},
+        {word:'数学',pinyin:'shù xué',en:'mathematics',sentence:'数学课。',sentenceEn:'Math class.'}
+      ],
       exercises:[
         {type:"read",cn:"学会i u ü的四声，认识声母y w",en:"Learn four tones of i u ü; learn initials y w"},
         {type:"write",cn:"在四线格中正确书写i u ü y w",en:"Write correctly on four-line grid"}
@@ -268,6 +310,10 @@ units: [
       text:["b p m f"],textEn:["Learn the four initial consonants: b, p, m, f"],
       textPinyin:["b p m f"],
       recognizeChars:["爸","妈"],writeChars:[],
+      vocabWords: [
+        {word:'爸',pinyin:'bà',en:'dad; father',sentence:'爸爸好。',sentenceEn:'Dad is great.'},
+        {word:'妈',pinyin:'mā',en:'mom; mother',sentence:'妈妈好。',sentenceEn:'Mom is great.'}
+      ],
       exercises:[
         {type:"read",cn:"准确拼读b p m f与韵母的组合",en:"Accurately spell combinations of b p m f with vowels"},
         {type:"spell",cn:"拼一拼：bà-mā（爸妈）",en:"Spell it out: bà-mā (Dad-Mom)"}
@@ -286,6 +332,11 @@ units: [
       text:["d t n l"],textEn:["Learn initial consonants: d, t, n, l"],
       textPinyin:["d t n l"],
       recognizeChars:["马","土","不"],writeChars:[],
+      vocabWords: [
+        {word:'马',pinyin:'mǎ',en:'horse',sentence:'大马跑得快。',sentenceEn:'The big horse runs fast.'},
+        {word:'土',pinyin:'tǔ',en:'earth; soil',sentence:'土地。',sentenceEn:'Land; soil.'},
+        {word:'不',pinyin:'bù',en:'not; no',sentence:'不好。',sentenceEn:'Not good.'}
+      ],
       exercises:[
         {type:"read",cn:"学习d t n l的发音及与韵母的拼读",en:"Learn d t n l pronunciation and syllable spelling"},
         {type:"spell",cn:"拼读练习：dà（大）、tǔ（土）、nǚ（女）、lù（路）",en:"Practice: dà, tǔ, nǚ, lù"}
@@ -304,6 +355,10 @@ units: [
       text:["g k h"],textEn:["Learn initial consonants: g, k, h"],
       textPinyin:["g k h"],
       recognizeChars:["画","打"],writeChars:[],
+      vocabWords: [
+        {word:'画',pinyin:'huà',en:'painting; to draw',sentence:'画画。',sentenceEn:'Draw a picture.'},
+        {word:'打',pinyin:'dǎ',en:'hit; play',sentence:'打球。',sentenceEn:'Play ball.'}
+      ],
       exercises:[
         {type:"read",cn:"区分g k h的送气与不送气",en:"Distinguish aspirated and unaspirated sounds"},
         {type:"spell",cn:"三拼音节练习：guā（瓜）、kuā（夸）、huā（花）",en:"Three-component syllable practice: guā, kuā, huā"}
@@ -322,6 +377,10 @@ units: [
       text:["j q x"],textEn:["Learn initial consonants: j, q, x"],
       textPinyin:["j q x"],
       recognizeChars:["棋","鸡"],writeChars:[],
+      vocabWords: [
+        {word:'鸡',pinyin:'jī',en:'chicken',sentence:'大公鸡。',sentenceEn:'Big rooster.'},
+        {word:'棋',pinyin:'qí',en:'chess; board game',sentence:'下棋。',sentenceEn:'Play chess.'}
+      ],
       exercises:[
         {type:"read",cn:"j q x与ü相拼去两点的规则",en:"Rule: j q x + ü removes the two dots"},
         {type:"spell",cn:"拼读：jī（鸡）、qí（棋）、xī（西）",en:"Spell: jī (chicken), qí (chess), xī (west)"}
@@ -340,6 +399,11 @@ units: [
       text:["z c s","zi ci si"],textEn:["Learn flat tongue initials: z, c, s","Learn whole-syllable recognition: zi, ci, si"],
       textPinyin:["z c s / zī cī sī"],
       recognizeChars:["字","词","语","句","子"],writeChars:[],
+      vocabWords: [
+        {word:'字',pinyin:'zì',en:'character; word',sentence:'写字。',sentenceEn:'Write characters.'},
+        {word:'词',pinyin:'cí',en:'word; phrase',sentence:'词语。',sentenceEn:'Words and phrases.'},
+        {word:'子',pinyin:'zǐ',en:'child; son',sentence:'孩子。',sentenceEn:'Child.'}
+      ],
       exercises:[
         {type:"read",cn:"区分z c s的平舌发音",en:"Distinguish flat tongue sounds z c s"},
         {type:"spell",cn:"认识整体认读音节zi ci si",en:"Learn whole-syllable recognition: zi ci si"}
@@ -358,6 +422,10 @@ units: [
       text:["zh ch sh r","zhi chi shi ri"],textEn:["Learn curled tongue initials: zh, ch, sh, r","Learn whole-syllable recognition: zhi, chi, shi, ri"],
       textPinyin:["zh ch sh r / zhī chī shī rì"],
       recognizeChars:["桌","纸"],writeChars:[],
+      vocabWords: [
+        {word:'桌',pinyin:'zhuō',en:'table; desk',sentence:'桌子。',sentenceEn:'Table.'},
+        {word:'纸',pinyin:'zhǐ',en:'paper',sentence:'一张纸。',sentenceEn:'A piece of paper.'}
+      ],
       exercises:[
         {type:"read",cn:"区分zh ch sh r的翘舌发音",en:"Distinguish curled tongue sounds zh ch sh r"},
         {type:"compare",cn:"对比平舌和翘舌：z-zh c-ch s-sh",en:"Compare flat and curled: z-zh c-ch s-sh"}
@@ -403,6 +471,10 @@ units: [
       text:["ai ei ui"],textEn:["Learn compound vowels: ai, ei, ui"],
       textPinyin:["āi ái ǎi ài / ēi éi ěi èi / uī uí uǐ uì"],
       recognizeChars:[],writeChars:[],
+      vocabWords: [
+        {word:'白',pinyin:'bái',en:'white',sentence:'白云。',sentenceEn:'White clouds.'},
+        {word:'水',pinyin:'shuǐ',en:'water',sentence:'喝水。',sentenceEn:'Drink water.'}
+      ],
       exercises:[
         {type:"read",cn:"正确拼读ai ei ui与声母的组合",en:"Correctly spell ai ei ui with initials"},
         {type:"tone",cn:"注意声调标在哪个韵母上",en:"Notice which vowel gets the tone mark"}
@@ -421,6 +493,11 @@ units: [
       text:["ao ou iu"],textEn:["Learn compound vowels: ao, ou, iu"],
       textPinyin:["āo áo ǎo ào / ōu óu ǒu òu / iū iú iǔ iù"],
       recognizeChars:[],writeChars:[],
+      vocabWords: [
+        {word:'猫',pinyin:'māo',en:'cat',sentence:'小猫。',sentenceEn:'Little cat.'},
+        {word:'狗',pinyin:'gǒu',en:'dog',sentence:'小狗。',sentenceEn:'Little dog.'},
+        {word:'牛',pinyin:'niú',en:'cow; ox',sentence:'大牛。',sentenceEn:'Big cow.'}
+      ],
       exercises:[
         {type:"read",cn:"正确拼读ao ou iu",en:"Correctly spell ao ou iu"},
         {type:"spell",cn:"练习：māo（猫）、gǒu（狗）、niú（牛）",en:"Practice: māo (cat), gǒu (dog), niú (cow)"}
@@ -438,6 +515,10 @@ units: [
       text:["ie üe er"],textEn:["Learn compound finals: ie, üe, er"],
       textPinyin:["iē ié iě iè / üē üé üě üè / ér"],
       recognizeChars:[],writeChars:[],
+      vocabWords: [
+        {word:'叶',pinyin:'yè',en:'leaf',sentence:'树叶。',sentenceEn:'Tree leaf.'},
+        {word:'二',pinyin:'èr',en:'two',sentence:'一二三。',sentenceEn:'One, two, three.'}
+      ],
       exercises:[
         {type:"read",cn:"正确拼读ie üe er",en:"Correctly spell ie üe er"},
         {type:"spell",cn:"认识特殊韵母er（儿）",en:"Learn the special final er (child/suffix)"}
@@ -455,6 +536,10 @@ units: [
       text:["an en in un ün"],textEn:["Learn front nasal finals: an, en, in, un, ün"],
       textPinyin:["ān án ǎn àn / ēn / īn / ūn / ǖn"],
       recognizeChars:[],writeChars:[],
+      vocabWords: [
+        {word:'山',pinyin:'shān',en:'mountain',sentence:'大山。',sentenceEn:'Big mountain.'},
+        {word:'人',pinyin:'rén',en:'person',sentence:'好人。',sentenceEn:'Good person.'}
+      ],
       exercises:[
         {type:"read",cn:"正确发出前鼻音-n的音",en:"Correctly produce the front nasal -n sound"},
         {type:"spell",cn:"练习：shān（山）、rén（人）",en:"Practice: shān (mountain), rén (person)"}
@@ -473,6 +558,10 @@ units: [
       text:["ang eng ing ong","ying"],textEn:["Learn back nasal finals: ang, eng, ing, ong","Learn whole syllable: ying"],
       textPinyin:["āng / ēng / īng / ōng"],
       recognizeChars:[],writeChars:[],
+      vocabWords: [
+        {word:'羊',pinyin:'yáng',en:'sheep',sentence:'小羊。',sentenceEn:'Little sheep.'},
+        {word:'星',pinyin:'xīng',en:'star',sentence:'星星。',sentenceEn:'Stars.'}
+      ],
       exercises:[
         {type:"read",cn:"正确发出后鼻音-ng的音",en:"Correctly produce the back nasal -ng sound"},
         {type:"compare",cn:"对比前鼻音和后鼻音：an-ang en-eng in-ing",en:"Compare front vs back nasals: an-ang en-eng in-ing"}
@@ -553,6 +642,7 @@ units: [
     },
     {id:2,title:"小小的船",titleEn:"The Little Boat",
       author:"叶圣陶",authorEn:"Ye Shengtao",
+      authorBio: {cn: "叶圣陶（1894—1988），原名叶绍钧，江苏苏州人，作家、教育家、编辑家。著有长篇小说《倪焕之》，童话集《稻草人》等。", en: "Ye Shengtao (1894-1988), originally named Ye Shaojun, was from Suzhou, Jiangsu. He was a writer, educator, and editor. His major works include the novel Ni Huanzhi and the fairy tale collection The Scarecrow."},
       difficulty: 1,
       text:["弯弯的月儿小小的船，","小小的船儿两头尖。","我在小小的船里坐，","只看见闪闪的星星蓝蓝的天。"],
       textEn:["The curved moon is like a little boat,","The little boat has two pointed ends.","I sit in the little boat,","And see only twinkling stars and a blue, blue sky."],
@@ -581,6 +671,7 @@ units: [
     },
     {id:3,title:"江南",titleEn:"South of the River",
       author:"汉乐府",authorEn:"Han Dynasty folk song",
+      authorBio: {cn: "汉乐府是汉代的民歌，由朝廷设立的乐府机构采集整理。汉乐府诗语言朴素自然，多反映社会生活和劳动人民的生活情感。", en: "Han Yuefu refers to folk songs of the Han Dynasty, collected and compiled by the imperial Music Bureau. These poems are noted for their plain, natural language and reflections of social life and the emotions of working people."},
       difficulty: 2,
       text:["江南可采莲，","莲叶何田田。","鱼戏莲叶间。","鱼戏莲叶东，","鱼戏莲叶西，","鱼戏莲叶南，","鱼戏莲叶北。"],
       textEn:["South of the river, lotus can be gathered,","How lush the lotus leaves grow.","Fish play among the lotus leaves.","Fish play east of the lotus leaves,","Fish play west of the lotus leaves,","Fish play south of the lotus leaves,","Fish play north of the lotus leaves."],
@@ -680,6 +771,7 @@ units: [
   lessons: [
     {id:6,title:"画",titleEn:"Painting",
       author:"王维",authorEn:"Wang Wei",
+      authorBio: {cn: "王维（约701—761），字摩诘，河东蒲州（今山西运城）人，唐代诗人、画家。世称\u201c诗佛\u201d，著有《王右丞集》。", en: "Wang Wei (c. 701-761), courtesy name Mojie, was from Puzhou, Hedong (present-day Yuncheng, Shanxi). He was a Tang Dynasty poet and painter, known as the 'Buddha of Poetry.' His works are compiled in the Wang Youcheng Collection."},
       difficulty: 2,
       text:["远看山有色，近听水无声。","春去花还在，人来鸟不惊。"],
       textEn:["From far, the mountains have color; up close, the water has no sound.","Spring passes, but the flowers remain; people come, but the birds aren't startled."],
@@ -940,6 +1032,7 @@ units: [
     },
     {id:8,title:"雨点儿",titleEn:"Raindrops",
       author:"金波",authorEn:"Jin Bo",
+      authorBio: {cn: "金波（1935—2024），原名王金波，北京人，儿童文学作家、诗人。著有诗集《回声》《绿色的太阳》，童话集《影子人》等。", en: "Jin Bo (1935-2024), originally named Wang Jinbo, was from Beijing. He was a children's literature writer and poet. His major works include the poetry collections Echo and The Green Sun, and the fairy tale collection Shadow Man."},
       difficulty: 2,
       text:["数不清的雨点儿，从云彩里飘落下来。","半空中，大雨点儿问小雨点儿：“你要到哪里去？”","小雨点儿回答：“我要去有花有草的地方。你呢？”","大雨点儿说：“我要去没有花没有草的地方。”","不久，有花有草的地方，花更红了，草更绿了。没有花没有草的地方，开出了红的花，长出了绿的草。"],
       textEn:["Countless raindrops float down from the clouds.","In mid-air, Big Raindrop asks Little Raindrop: 'Where are you going?'","Little Raindrop answers: 'I'm going where there are flowers and grass. And you?'","Big Raindrop says: 'I'm going where there are no flowers and no grass.'","Soon, where there were flowers and grass, the flowers became redder and the grass greener. Where there were no flowers and no grass, red flowers bloomed and green grass grew."],
@@ -1042,6 +1135,7 @@ units: [
     },
     {id:10,title:"大还是小",titleEn:"Big or Small?",
       author:"龚艺兵",authorEn:"Gong Yibing",
+      authorBio: {cn: "龚艺兵，当代儿童文学作家，作品关注儿童成长与心理，语言亲切质朴。", en: "Gong Yibing is a contemporary children's literature writer whose works focus on children's growth and psychology, characterized by warm and simple language."},
       difficulty: 1,
       text:["有时候，我觉得自己很大。","我自己穿衣服的时候，我自己系鞋带的时候，我觉得自己很大。","有时候，我觉得自己很小。","我够不到门铃的时候，我听到雷声喊妈妈的时候，我觉得自己很小。","有时候，我希望自己不要长大。","更多的时候，我盼着自己快点儿长大。"],
       textEn:["Sometimes, I feel I am very big.","When I dress myself, when I tie my own shoelaces, I feel I am very big.","Sometimes, I feel I am very small.","When I can't reach the doorbell, when I hear thunder and call for mama, I feel I am very small.","Sometimes, I wish I wouldn't grow up.","But most of the time, I wish I would grow up faster."],

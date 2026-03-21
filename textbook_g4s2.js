@@ -465,6 +465,13 @@ units: [
       ],
       recognizeChars: ["挤","叉"],
       writeChars: ["瓶","挤","叉","挥"],
+      vocabWords: [
+        {word:'墨绿',pinyin:'m\u00F2 l\u00FC',en:'ink green; dark green',sentence:'墨绿、浅绿、嫩绿。',sentenceEn:'Ink green, light green, tender green.'},
+        {word:'翠绿',pinyin:'cu\u00EC l\u00FC',en:'emerald green',sentence:'翠绿、淡绿、粉绿。',sentenceEn:'Emerald, pale green, pinkish green.'},
+        {word:'重叠',pinyin:'ch\u00F3ng di\u00E9',en:'to overlap',sentence:'重叠在一起。',sentenceEn:'Overlapping together.'},
+        {word:'交叉',pinyin:'ji\u0101o ch\u0101',en:'to crisscross',sentence:'静静地交叉在一起。',sentenceEn:'Quietly crisscrossing together.'},
+        {word:'节拍',pinyin:'ji\u00E9 p\u0101i',en:'rhythm; beat',sentence:'按着节拍飘动在一起。',sentenceEn:'Swaying together in perfect rhythm.'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文，背诵课文",en:"Read the poem with feeling and recite it from memory"},
         {type:"discuss",cn:"说说\u201C所有的绿就整齐地按着节拍飘动在一起\u201D带给你怎样的感受",en:"Share your feelings about \u2018all the greens swaying together in perfect rhythm\u2019"},
@@ -496,6 +503,13 @@ units: [
       ],
       recognizeChars: ["绣","潇","绽","朦","胧","晖","徜","徉"],
       writeChars: ["桦","涂","茸","绣","潇","穗","朦","胧","寂","霞","抹"],
+      vocabWords: [
+        {word:'银霜',pinyin:'y\u00EDn shu\u0101ng',en:'silver frost',sentence:'仿佛涂上银霜。',sentenceEn:'As if painted with silver frost.'},
+        {word:'流苏',pinyin:'li\u00FA s\u016B',en:'tassels; fringe',sentence:'洁白的流苏如画。',sentenceEn:'White tassels like a painting.'},
+        {word:'朦胧',pinyin:'m\u00E9ng l\u00F3ng',en:'hazy; dim',sentence:'在朦胧的寂静中。',sentenceEn:'In the hazy stillness.'},
+        {word:'金晖',pinyin:'j\u012Bn hu\u012B',en:'golden glow',sentence:'在灿灿的金晖里。',sentenceEn:'In the golden glow.'},
+        {word:'朝霞',pinyin:'zh\u0101o xi\u00E1',en:'morning glow; dawn',sentence:'姗姗来迟的朝霞。',sentenceEn:'The late-arriving dawn.'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文",en:"Read the poem aloud with feeling"},
         {type:"discuss",cn:"选择几个词语描述这棵白桦，说说它给你留下了怎样的印象",en:"Choose a few words to describe the birch tree and share the impression it leaves on you"},
@@ -530,6 +544,13 @@ units: [
       ],
       recognizeChars: ["炫","垢","怯","曝","赤","涉","晕"],
       writeChars: [],
+      vocabWords: [
+        {word:'小径',pinyin:'xi\u01CEo j\u00ECng',en:'little path',sentence:'该到小径中去走走。',sentenceEn:'You should stroll along the little path.'},
+        {word:'凉爽',pinyin:'li\u00E1ng shuǎng',en:'cool and refreshing',sentence:'一定是凉爽又温柔。',sentenceEn:'It must be cool and gentle.'},
+        {word:'胆怯',pinyin:'d\u01CEn qi\u00E8',en:'timid; shy',sentence:'不再胆怯的小白菊。',sentenceEn:'The small white daisies, timid no more.'},
+        {word:'绽透',pinyin:'zh\u00E0n t\u00F2u',en:'to bloom fully',sentence:'然后一瓣瓣地绽透。',sentenceEn:'Then blooming petal by petal.'},
+        {word:'阴霾',pinyin:'y\u012Bn m\u00E1i',en:'gloom; haze',sentence:'新阳推开了阴霾了。',sentenceEn:'The new sun has pushed away the gloom.'}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读并背诵课文。结合自己喜欢的诗句，和同学交流读后的感受",en:"Read with feeling and recite from memory. Discuss your favorite lines and feelings with classmates"},
         {type:"write",cn:"有兴趣的同学还可以用诗的形式，写写自己看到过的雨后天晴的景象",en:"Interested students can try writing a poem about a scene after rain"}
@@ -578,6 +599,14 @@ units: [
       ],
       recognizeChars: ["虑","职","屏","蹭","稿","腔","殃","折"],
       writeChars: ["忧","虑","贪","职","屏","蹭","稿","腔","解","闷","蛇","遭","殃","盆","勃"],
+      vocabWords: [
+        {word:'古怪',pinyin:'g\u01D4 gu\u00E0i',en:'peculiar; eccentric',sentence:'猫的性格实在有些古怪。',sentenceEn:'The cat\u2019s personality is truly peculiar.'},
+        {word:'无忧无虑',pinyin:'w\u00FA y\u014Du w\u00FA l\u01DC',en:'carefree; without worries',sentence:'无忧无虑，什么事也不过问。',sentenceEn:'Carefree, minding nothing.'},
+        {word:'尽职',pinyin:'j\u00ECn zh\u00ED',en:'conscientious; dutiful',sentence:'它听到老鼠的响动，又是多么尽职。',sentenceEn:'When it hears the slightest mouse stir, it becomes intensely focused.'},
+        {word:'屏息凝视',pinyin:'b\u01D0ng x\u012B n\u00EDng sh\u00EC',en:'hold breath and stare intently',sentence:'它屏息凝视，一连就是几个钟头。',sentenceEn:'Holding its breath and staring for hours.'},
+        {word:'遭殃',pinyin:'z\u0101o y\u0101ng',en:'to suffer; to be hit by disaster',sentence:'院中的花草可遭了殃。',sentenceEn:'The flowers and plants suffered!'},
+        {word:'生气勃勃',pinyin:'sh\u0113ng q\u00EC b\u00F3 b\u00F3',en:'full of life; vibrant',sentence:'它们是那么生气勃勃，天真可爱！',sentenceEn:'They are so full of life and innocent charm!'}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，说说课文围绕猫的可爱讲了哪几层意思",en:"Read silently and summarize the different aspects of the cat\u2019s lovableness"},
         {type:"discuss",cn:"举例说说可以从哪些地方看出作者非常喜欢猫",en:"Give examples showing where the author\u2019s deep affection for cats is evident"},
