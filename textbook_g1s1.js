@@ -37,9 +37,13 @@ units: [
         {word:'中国',pinyin:'zhōng guó',en:'China',sentence:'我是中国人。',sentenceEn:'I am Chinese.'}
       ],
       footnotes: [
-        {term:"\u6211", termEn:"I; me", definition:"(w\u01d2) I; me", definitionEn:"I; me"},
-        {term:"\u4e0a\u5b66", termEn:"go to school", definition:"(sh\u00e0ng xu\u00e9) go to school", definitionEn:"go to school"},
-        {term:"\u4e2d\u56fd", termEn:"China", definition:"(zh\u014dng gu\u00f3) China", definitionEn:"China"}
+        {term:"\u6211", termEn:"I; me", definition:"w\u01d2\uff0cI; me\u3002", definitionEn:"I; me"},
+        {term:"\u4e0a\u5b66", termEn:"go to school", definition:"sh\u00e0ng xu\u00e9\uff0cgo to school\u3002", definitionEn:"go to school"},
+        {term:"\u4e2d\u56fd", termEn:"China", definition:"zh\u014dng gu\u00f3\uff0cChina\u3002", definitionEn:"China"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       parentTips: [
         {cn:"帮助孩子准备学习用品，建立上学的期待感",en:"Help prepare school supplies and build excitement for school"},
@@ -73,12 +77,16 @@ units: [
         {word:'他',pinyin:'tā',en:'he; him',sentence:'他是我的好朋友。',sentenceEn:'He is my good friend.'}
       ],
       footnotes: [
-        {term:"\u5929", termEn:"sky; heaven; day", definition:"(ti\u0101n) sky; heaven; day", definitionEn:"sky; heaven; day"},
-        {term:"\u5730", termEn:"earth; ground", definition:"(d\u00ec) earth; ground", definitionEn:"earth; ground"},
-        {term:"\u4eba", termEn:"person; people", definition:"(r\u00e9n) person; people", definitionEn:"person; people"},
-        {term:"\u4f60", termEn:"you", definition:"(n\u01d0) you", definitionEn:"you"},
-        {term:"\u6211", termEn:"I; me", definition:"(w\u01d2) I; me", definitionEn:"I; me"},
-        {term:"\u4ed6", termEn:"he; him", definition:"(t\u0101) he; him", definitionEn:"he; him"}
+        {term:"\u5929", termEn:"sky; heaven; day", definition:"ti\u0101n\uff0csky; heaven; day\u3002", definitionEn:"sky; heaven; day"},
+        {term:"\u5730", termEn:"earth; ground", definition:"d\u00ec\uff0cearth; ground\u3002", definitionEn:"earth; ground"},
+        {term:"\u4eba", termEn:"person; people", definition:"r\u00e9n\uff0cperson; people\u3002", definitionEn:"person; people"},
+        {term:"\u4f60", termEn:"you", definition:"n\u01d0\uff0cyou\u3002", definitionEn:"you"},
+        {term:"\u6211", termEn:"I; me", definition:"w\u01d2\uff0cI; me\u3002", definitionEn:"I; me"},
+        {term:"\u4ed6", termEn:"he; him", definition:"t\u0101\uff0che; him\u3002", definitionEn:"he; him"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -109,11 +117,15 @@ units: [
         {word:'下',pinyin:'xià',en:'down; below',sentence:'天地分上下。',sentenceEn:'Heaven and earth divide above and below.'}
       ],
       footnotes: [
-        {term:"\u91d1", termEn:"metal; gold", definition:"(j\u012bn) metal; gold", definitionEn:"metal; gold"},
-        {term:"\u6728", termEn:"wood; tree", definition:"(m\u00f9) wood; tree", definitionEn:"wood; tree"},
-        {term:"\u6c34", termEn:"water", definition:"(shu\u01d0) water", definitionEn:"water"},
-        {term:"\u4e0a", termEn:"up; above", definition:"(sh\u00e0ng) up; above", definitionEn:"up; above"},
-        {term:"\u4e0b", termEn:"down; below", definition:"(xi\u00e0) down; below", definitionEn:"down; below"}
+        {term:"\u91d1", termEn:"metal; gold", definition:"j\u012bn\uff0cmetal; gold\u3002", definitionEn:"metal; gold"},
+        {term:"\u6728", termEn:"wood; tree", definition:"m\u00f9\uff0cwood; tree\u3002", definitionEn:"wood; tree"},
+        {term:"\u6c34", termEn:"water", definition:"shu\u01d0\uff0cwater\u3002", definitionEn:"water"},
+        {term:"\u4e0a", termEn:"up; above", definition:"sh\u00e0ng\uff0cup; above\u3002", definitionEn:"up; above"},
+        {term:"\u4e0b", termEn:"down; below", definition:"xi\u00e0\uff0cdown; below\u3002", definitionEn:"down; below"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite the text"},
@@ -145,11 +157,15 @@ units: [
         {word:'站',pinyin:'zhàn',en:'stand',sentence:'站如松，坐如钟。',sentenceEn:'Stand like a pine, sit like a bell.'}
       ],
       footnotes: [
-        {term:"\u53e3", termEn:"mouth", definition:"(k\u01d2u) mouth", definitionEn:"mouth"},
-        {term:"\u8033", termEn:"ear", definition:"(\u011br) ear", definitionEn:"ear"},
-        {term:"\u76ee", termEn:"eye", definition:"(m\u00f9) eye", definitionEn:"eye"},
-        {term:"\u624b", termEn:"hand", definition:"(sh\u01d2u) hand", definitionEn:"hand"},
-        {term:"\u7ad9", termEn:"stand", definition:"(zh\u00e0n) stand", definitionEn:"stand"}
+        {term:"\u53e3", termEn:"mouth", definition:"k\u01d2u\uff0cmouth\u3002", definitionEn:"mouth"},
+        {term:"\u8033", termEn:"ear", definition:"\u011br\uff0cear\u3002", definitionEn:"ear"},
+        {term:"\u76ee", termEn:"eye", definition:"m\u00f9\uff0ceye\u3002", definitionEn:"eye"},
+        {term:"\u624b", termEn:"hand", definition:"sh\u01d2u\uff0chand\u3002", definitionEn:"hand"},
+        {term:"\u7ad9", termEn:"stand", definition:"zh\u00e0n\uff0cstand\u3002", definitionEn:"stand"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -180,11 +196,15 @@ units: [
         {word:'禾',pinyin:'hé',en:'grain; rice plant',sentence:'山石田禾。',sentenceEn:'Mountain, stone, field, grain.'}
       ],
       footnotes: [
-        {term:"\u65e5", termEn:"sun; day", definition:"(r\u00ec) sun; day", definitionEn:"sun; day"},
-        {term:"\u6708", termEn:"moon; month", definition:"(yu\u00e8) moon; month", definitionEn:"moon; month"},
-        {term:"\u5c71", termEn:"mountain", definition:"(sh\u0101n) mountain", definitionEn:"mountain"},
-        {term:"\u7530", termEn:"field", definition:"(ti\u00e1n) field", definitionEn:"field"},
-        {term:"\u79be", termEn:"grain; rice plant", definition:"(h\u00e9) grain; rice plant", definitionEn:"grain; rice plant"}
+        {term:"\u65e5", termEn:"sun; day", definition:"r\u00ec\uff0csun; day\u3002", definitionEn:"sun; day"},
+        {term:"\u6708", termEn:"moon; month", definition:"yu\u00e8\uff0cmoon; month\u3002", definitionEn:"moon; month"},
+        {term:"\u5c71", termEn:"mountain", definition:"sh\u0101n\uff0cmountain\u3002", definitionEn:"mountain"},
+        {term:"\u7530", termEn:"field", definition:"ti\u00e1n\uff0cfield\u3002", definitionEn:"field"},
+        {term:"\u79be", termEn:"grain; rice plant", definition:"h\u00e9\uff0cgrain; rice plant\u3002", definitionEn:"grain; rice plant"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -215,11 +235,15 @@ units: [
         {word:'鸟',pinyin:'niǎo',en:'bird',sentence:'花对树，鸟对虫。',sentenceEn:'Flowers pair with trees, birds with insects.'}
       ],
       footnotes: [
-        {term:"\u4e91", termEn:"cloud", definition:"(y\u00fan) cloud", definitionEn:"cloud"},
-        {term:"\u96e8", termEn:"rain", definition:"(y\u01d4) rain", definitionEn:"rain"},
-        {term:"\u98ce", termEn:"wind", definition:"(f\u0113ng) wind", definitionEn:"wind"},
-        {term:"\u82b1", termEn:"flower", definition:"(hu\u0101) flower", definitionEn:"flower"},
-        {term:"\u9e1f", termEn:"bird", definition:"(ni\u01ceo) bird", definitionEn:"bird"}
+        {term:"\u4e91", termEn:"cloud", definition:"y\u00fan\uff0ccloud\u3002", definitionEn:"cloud"},
+        {term:"\u96e8", termEn:"rain", definition:"y\u01d4\uff0crain\u3002", definitionEn:"rain"},
+        {term:"\u98ce", termEn:"wind", definition:"f\u0113ng\uff0cwind\u3002", definitionEn:"wind"},
+        {term:"\u82b1", termEn:"flower", definition:"hu\u0101\uff0cflower\u3002", definitionEn:"flower"},
+        {term:"\u9e1f", termEn:"bird", definition:"ni\u01ceo\uff0cbird\u3002", definitionEn:"bird"}
+      ],
+      readingTips: [
+        {cn:"\u6709\u8da3\u5730\u8bfb\u4e00\u8bfb\uff0c\u8fb9\u8bfb\u8fb9\u62cd\u624b\u6253\u8282\u62cd\u3002\u8bd5\u7740\u80cc\u8bf5\u4e0b\u6765\u3002", en:"Read it aloud in a fun way, clapping along to the rhythm. Try to memorize it."},
+        {cn:"\u548c\u7238\u7238\u5988\u5988\u4e00\u8d77\u8bfb\uff0c\u770b\u770b\u8c01\u8bfb\u5f97\u66f4\u6d41\u5229\u3002", en:"Read together with your parents and see who can read more fluently."}
       ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
@@ -311,8 +335,12 @@ units: [
         {word:'鹅',pinyin:'é',en:'goose',sentence:'鹅鹅鹅。',sentenceEn:'Goose, goose, goose.'}
       ],
       footnotes: [
-        {term:"\u554a", termEn:"ah (exclamation)", definition:"(a) ah (exclamation)", definitionEn:"ah (exclamation)"},
-        {term:"\u9e45", termEn:"goose", definition:"(\u00e9) goose", definitionEn:"goose"}
+        {term:"\u554a", termEn:"ah (exclamation)", definition:"a\uff0cah (exclamation)\u3002", definitionEn:"ah (exclamation)"},
+        {term:"\u9e45", termEn:"goose", definition:"\u00e9\uff0cgoose\u3002", definitionEn:"goose"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"学会a o e的四声读法",en:"Learn the four tones of a, o, e"},
@@ -338,9 +366,13 @@ units: [
         {word:'数学',pinyin:'shù xué',en:'mathematics',sentence:'数学课。',sentenceEn:'Math class.'}
       ],
       footnotes: [
-        {term:"\u6587", termEn:"writing; language", definition:"(w\u00e9n) writing; language", definitionEn:"writing; language"},
-        {term:"\u97f3\u4e50", termEn:"music", definition:"(y\u012bn yu\u00e8) music", definitionEn:"music"},
-        {term:"\u6570\u5b66", termEn:"mathematics", definition:"(sh\u00f9 xu\u00e9) mathematics", definitionEn:"mathematics"}
+        {term:"\u6587", termEn:"writing; language", definition:"w\u00e9n\uff0cwriting; language\u3002", definitionEn:"writing; language"},
+        {term:"\u97f3\u4e50", termEn:"music", definition:"y\u012bn yu\u00e8\uff0cmusic\u3002", definitionEn:"music"},
+        {term:"\u6570\u5b66", termEn:"mathematics", definition:"sh\u00f9 xu\u00e9\uff0cmathematics\u3002", definitionEn:"mathematics"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"学会i u ü的四声，认识声母y w",en:"Learn four tones of i u ü; learn initials y w"},
@@ -365,8 +397,12 @@ units: [
         {word:'妈',pinyin:'mā',en:'mom; mother',sentence:'妈妈好。',sentenceEn:'Mom is great.'}
       ],
       footnotes: [
-        {term:"\u7238", termEn:"dad; father", definition:"(b\u00e0) dad; father", definitionEn:"dad; father"},
-        {term:"\u5988", termEn:"mom; mother", definition:"(m\u0101) mom; mother", definitionEn:"mom; mother"}
+        {term:"\u7238", termEn:"dad; father", definition:"b\u00e0\uff0cdad; father\u3002", definitionEn:"dad; father"},
+        {term:"\u5988", termEn:"mom; mother", definition:"m\u0101\uff0cmom; mother\u3002", definitionEn:"mom; mother"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"准确拼读b p m f与韵母的组合",en:"Accurately spell combinations of b p m f with vowels"},
@@ -392,9 +428,13 @@ units: [
         {word:'不',pinyin:'bù',en:'not; no',sentence:'不好。',sentenceEn:'Not good.'}
       ],
       footnotes: [
-        {term:"\u9a6c", termEn:"horse", definition:"(m\u01ce) horse", definitionEn:"horse"},
-        {term:"\u571f", termEn:"earth; soil", definition:"(t\u01d4) earth; soil", definitionEn:"earth; soil"},
-        {term:"\u4e0d", termEn:"not; no", definition:"(b\u00f9) not; no", definitionEn:"not; no"}
+        {term:"\u9a6c", termEn:"horse", definition:"m\u01ce\uff0chorse\u3002", definitionEn:"horse"},
+        {term:"\u571f", termEn:"earth; soil", definition:"t\u01d4\uff0cearth; soil\u3002", definitionEn:"earth; soil"},
+        {term:"\u4e0d", termEn:"not; no", definition:"b\u00f9\uff0cnot; no\u3002", definitionEn:"not; no"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"学习d t n l的发音及与韵母的拼读",en:"Learn d t n l pronunciation and syllable spelling"},
@@ -419,8 +459,12 @@ units: [
         {word:'打',pinyin:'dǎ',en:'hit; play',sentence:'打球。',sentenceEn:'Play ball.'}
       ],
       footnotes: [
-        {term:"\u753b", termEn:"painting; to draw", definition:"(hu\u00e0) painting; to draw", definitionEn:"painting; to draw"},
-        {term:"\u6253", termEn:"hit; play", definition:"(d\u01ce) hit; play", definitionEn:"hit; play"}
+        {term:"\u753b", termEn:"painting; to draw", definition:"hu\u00e0\uff0cpainting; to draw\u3002", definitionEn:"painting; to draw"},
+        {term:"\u6253", termEn:"hit; play", definition:"d\u01ce\uff0chit; play\u3002", definitionEn:"hit; play"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"区分g k h的送气与不送气",en:"Distinguish aspirated and unaspirated sounds"},
@@ -445,8 +489,12 @@ units: [
         {word:'棋',pinyin:'qí',en:'chess; board game',sentence:'下棋。',sentenceEn:'Play chess.'}
       ],
       footnotes: [
-        {term:"\u9e21", termEn:"chicken", definition:"(j\u012b) chicken", definitionEn:"chicken"},
-        {term:"\u68cb", termEn:"chess; board game", definition:"(q\u00ed) chess; board game", definitionEn:"chess; board game"}
+        {term:"\u9e21", termEn:"chicken", definition:"j\u012b\uff0cchicken\u3002", definitionEn:"chicken"},
+        {term:"\u68cb", termEn:"chess; board game", definition:"q\u00ed\uff0cchess; board game\u3002", definitionEn:"chess; board game"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"j q x与ü相拼去两点的规则",en:"Rule: j q x + ü removes the two dots"},
@@ -472,9 +520,13 @@ units: [
         {word:'子',pinyin:'zǐ',en:'child; son',sentence:'孩子。',sentenceEn:'Child.'}
       ],
       footnotes: [
-        {term:"\u5b57", termEn:"character; word", definition:"(z\u00ec) character; word", definitionEn:"character; word"},
-        {term:"\u8bcd", termEn:"word; phrase", definition:"(c\u00ed) word; phrase", definitionEn:"word; phrase"},
-        {term:"\u5b50", termEn:"child; son", definition:"(z\u01d0) child; son", definitionEn:"child; son"}
+        {term:"\u5b57", termEn:"character; word", definition:"z\u00ec\uff0ccharacter; word\u3002", definitionEn:"character; word"},
+        {term:"\u8bcd", termEn:"word; phrase", definition:"c\u00ed\uff0cword; phrase\u3002", definitionEn:"word; phrase"},
+        {term:"\u5b50", termEn:"child; son", definition:"z\u01d0\uff0cchild; son\u3002", definitionEn:"child; son"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"区分z c s的平舌发音",en:"Distinguish flat tongue sounds z c s"},
@@ -499,8 +551,12 @@ units: [
         {word:'纸',pinyin:'zhǐ',en:'paper',sentence:'一张纸。',sentenceEn:'A piece of paper.'}
       ],
       footnotes: [
-        {term:"\u684c", termEn:"table; desk", definition:"(zhu\u014d) table; desk", definitionEn:"table; desk"},
-        {term:"\u7eb8", termEn:"paper", definition:"(zh\u01d0) paper", definitionEn:"paper"}
+        {term:"\u684c", termEn:"table; desk", definition:"zhu\u014d\uff0ctable; desk\u3002", definitionEn:"table; desk"},
+        {term:"\u7eb8", termEn:"paper", definition:"zh\u01d0\uff0cpaper\u3002", definitionEn:"paper"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"区分zh ch sh r的翘舌发音",en:"Distinguish curled tongue sounds zh ch sh r"},
@@ -552,8 +608,12 @@ units: [
         {word:'水',pinyin:'shuǐ',en:'water',sentence:'喝水。',sentenceEn:'Drink water.'}
       ],
       footnotes: [
-        {term:"\u767d", termEn:"white", definition:"(b\u00e1i) white", definitionEn:"white"},
-        {term:"\u6c34", termEn:"water", definition:"(shu\u01d0) water", definitionEn:"water"}
+        {term:"\u767d", termEn:"white", definition:"b\u00e1i\uff0cwhite\u3002", definitionEn:"white"},
+        {term:"\u6c34", termEn:"water", definition:"shu\u01d0\uff0cwater\u3002", definitionEn:"water"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"正确拼读ai ei ui与声母的组合",en:"Correctly spell ai ei ui with initials"},
@@ -579,9 +639,13 @@ units: [
         {word:'牛',pinyin:'niú',en:'cow; ox',sentence:'大牛。',sentenceEn:'Big cow.'}
       ],
       footnotes: [
-        {term:"\u732b", termEn:"cat", definition:"(m\u0101o) cat", definitionEn:"cat"},
-        {term:"\u72d7", termEn:"dog", definition:"(g\u01d2u) dog", definitionEn:"dog"},
-        {term:"\u725b", termEn:"cow; ox", definition:"(ni\u00fa) cow; ox", definitionEn:"cow; ox"}
+        {term:"\u732b", termEn:"cat", definition:"m\u0101o\uff0ccat\u3002", definitionEn:"cat"},
+        {term:"\u72d7", termEn:"dog", definition:"g\u01d2u\uff0cdog\u3002", definitionEn:"dog"},
+        {term:"\u725b", termEn:"cow; ox", definition:"ni\u00fa\uff0ccow; ox\u3002", definitionEn:"cow; ox"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"正确拼读ao ou iu",en:"Correctly spell ao ou iu"},
@@ -605,8 +669,12 @@ units: [
         {word:'二',pinyin:'èr',en:'two',sentence:'一二三。',sentenceEn:'One, two, three.'}
       ],
       footnotes: [
-        {term:"\u53f6", termEn:"leaf", definition:"(y\u00e8) leaf", definitionEn:"leaf"},
-        {term:"\u4e8c", termEn:"two", definition:"(\u00e8r) two", definitionEn:"two"}
+        {term:"\u53f6", termEn:"leaf", definition:"y\u00e8\uff0cleaf\u3002", definitionEn:"leaf"},
+        {term:"\u4e8c", termEn:"two", definition:"\u00e8r\uff0ctwo\u3002", definitionEn:"two"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"正确拼读ie üe er",en:"Correctly spell ie üe er"},
@@ -630,8 +698,12 @@ units: [
         {word:'人',pinyin:'rén',en:'person',sentence:'好人。',sentenceEn:'Good person.'}
       ],
       footnotes: [
-        {term:"\u5c71", termEn:"mountain", definition:"(sh\u0101n) mountain", definitionEn:"mountain"},
-        {term:"\u4eba", termEn:"person", definition:"(r\u00e9n) person", definitionEn:"person"}
+        {term:"\u5c71", termEn:"mountain", definition:"sh\u0101n\uff0cmountain\u3002", definitionEn:"mountain"},
+        {term:"\u4eba", termEn:"person", definition:"r\u00e9n\uff0cperson\u3002", definitionEn:"person"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"正确发出前鼻音-n的音",en:"Correctly produce the front nasal -n sound"},
@@ -656,8 +728,12 @@ units: [
         {word:'星',pinyin:'xīng',en:'star',sentence:'星星。',sentenceEn:'Stars.'}
       ],
       footnotes: [
-        {term:"\u7f8a", termEn:"sheep", definition:"(y\u00e1ng) sheep", definitionEn:"sheep"},
-        {term:"\u661f", termEn:"star", definition:"(x\u012bng) star", definitionEn:"star"}
+        {term:"\u7f8a", termEn:"sheep", definition:"y\u00e1ng\uff0csheep\u3002", definitionEn:"sheep"},
+        {term:"\u661f", termEn:"star", definition:"x\u012bng\uff0cstar\u3002", definitionEn:"star"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"正确发出后鼻音-ng的音",en:"Correctly produce the back nasal -ng sound"},
@@ -723,12 +799,16 @@ units: [
         {word:'一会儿',pinyin:'yī huìr',en:'a moment',sentence:'一会儿排成"人"字。',sentenceEn:'Now forming a "人" shape.'}
       ],
       footnotes: [
-        {term:"\u79cb\u5929", termEn:"autumn", definition:"(qi\u016b ti\u0101n) autumn", definitionEn:"autumn"},
-        {term:"\u6811\u53f6", termEn:"leaf", definition:"(sh\u00f9 y\u00e8) leaf", definitionEn:"leaf"},
-        {term:"\u5929\u6c14", termEn:"weather", definition:"(ti\u0101n q\u00ec) weather", definitionEn:"weather"},
-        {term:"\u4e00\u7247\u7247", termEn:"piece by piece", definition:"(y\u012b pi\u00e0n pi\u00e0n) piece by piece", definitionEn:"piece by piece"},
-        {term:"\u5927\u96c1", termEn:"wild goose", definition:"(d\u00e0 y\u00e0n) wild goose", definitionEn:"wild goose"},
-        {term:"\u4e00\u4f1a\u513f", termEn:"a moment", definition:"(y\u012b hu\u00ecr) a moment", definitionEn:"a moment"}
+        {term:"\u79cb\u5929", termEn:"autumn", definition:"qi\u016b ti\u0101n\uff0cautumn\u3002", definitionEn:"autumn"},
+        {term:"\u6811\u53f6", termEn:"leaf", definition:"sh\u00f9 y\u00e8\uff0cleaf\u3002", definitionEn:"leaf"},
+        {term:"\u5929\u6c14", termEn:"weather", definition:"ti\u0101n q\u00ec\uff0cweather\u3002", definitionEn:"weather"},
+        {term:"\u4e00\u7247\u7247", termEn:"piece by piece", definition:"y\u012b pi\u00e0n pi\u00e0n\uff0cpiece by piece\u3002", definitionEn:"piece by piece"},
+        {term:"\u5927\u96c1", termEn:"wild goose", definition:"d\u00e0 y\u00e0n\uff0cwild goose\u3002", definitionEn:"wild goose"},
+        {term:"\u4e00\u4f1a\u513f", termEn:"a moment", definition:"y\u012b hu\u00ecr\uff0ca moment\u3002", definitionEn:"a moment"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
@@ -762,11 +842,15 @@ units: [
         {word:'闪闪',pinyin:'shǎn shǎn',en:'twinkling',sentence:'闪闪的星星。',sentenceEn:'Twinkling stars.'}
       ],
       footnotes: [
-        {term:"\u5f2f\u5f2f", termEn:"curved", definition:"(w\u0101n w\u0101n) curved", definitionEn:"curved"},
-        {term:"\u6708\u513f", termEn:"moon (affectionate)", definition:"(yu\u00e8r) moon (affectionate)", definitionEn:"moon (affectionate)"},
-        {term:"\u661f\u661f", termEn:"star", definition:"(x\u012bng xing) star", definitionEn:"star"},
-        {term:"\u84dd\u84dd", termEn:"very blue", definition:"(l\u00e1n l\u00e1n) very blue", definitionEn:"very blue"},
-        {term:"\u95ea\u95ea", termEn:"twinkling", definition:"(sh\u01cen sh\u01cen) twinkling", definitionEn:"twinkling"}
+        {term:"\u5f2f\u5f2f", termEn:"curved", definition:"w\u0101n w\u0101n\uff0ccurved\u3002", definitionEn:"curved"},
+        {term:"\u6708\u513f", termEn:"moon (affectionate)", definition:"yu\u00e8r\uff0cmoon (affectionate)\u3002", definitionEn:"moon (affectionate)"},
+        {term:"\u661f\u661f", termEn:"star", definition:"x\u012bng xing\uff0cstar\u3002", definitionEn:"star"},
+        {term:"\u84dd\u84dd", termEn:"very blue", definition:"l\u00e1n l\u00e1n\uff0cvery blue\u3002", definitionEn:"very blue"},
+        {term:"\u95ea\u95ea", termEn:"twinkling", definition:"sh\u01cen sh\u01cen\uff0ctwinkling\u3002", definitionEn:"twinkling"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
@@ -797,10 +881,14 @@ units: [
         {word:'东西南北',pinyin:'dōng xī nán běi',en:'east west south north',sentence:'鱼戏莲叶东，鱼戏莲叶西。',sentenceEn:'Fish play east, fish play west.'}
       ],
       footnotes: [
-        {term:"\u6c5f\u5357", termEn:"south of Yangtze", definition:"(ji\u0101ng n\u00e1n) south of Yangtze", definitionEn:"south of Yangtze"},
-        {term:"\u83b2\u53f6", termEn:"lotus leaf", definition:"(li\u00e1n y\u00e8) lotus leaf", definitionEn:"lotus leaf"},
-        {term:"\u9c7c", termEn:"fish", definition:"(y\u00fa) fish", definitionEn:"fish"},
-        {term:"\u4e1c\u897f\u5357\u5317", termEn:"east west south north", definition:"(d\u014dng x\u012b n\u00e1n b\u011bi) east west south north", definitionEn:"east west south north"}
+        {term:"\u6c5f\u5357", termEn:"south of Yangtze", definition:"ji\u0101ng n\u00e1n\uff0csouth of Yangtze\u3002", definitionEn:"south of Yangtze"},
+        {term:"\u83b2\u53f6", termEn:"lotus leaf", definition:"li\u00e1n y\u00e8\uff0clotus leaf\u3002", definitionEn:"lotus leaf"},
+        {term:"\u9c7c", termEn:"fish", definition:"y\u00fa\uff0cfish\u3002", definitionEn:"fish"},
+        {term:"\u4e1c\u897f\u5357\u5317", termEn:"east west south north", definition:"d\u014dng x\u012b n\u00e1n b\u011bi\uff0ceast west south north\u3002", definitionEn:"east west south north"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
@@ -833,14 +921,18 @@ units: [
         {word:'雪人',pinyin:'xuě rén',en:'snowman',sentence:'雪人大肚子一挺。',sentenceEn:'The snowman pushes out his belly.'}
       ],
       footnotes: [
-        {term:"\u6625\u5929", termEn:"spring", definition:"(ch\u016bn ti\u0101n) spring", definitionEn:"spring"},
-        {term:"\u590f\u5929", termEn:"summer", definition:"(xi\u00e0 ti\u0101n) summer", definitionEn:"summer"},
-        {term:"\u79cb\u5929", termEn:"autumn", definition:"(qi\u016b ti\u0101n) autumn", definitionEn:"autumn"},
-        {term:"\u51ac\u5929", termEn:"winter", definition:"(d\u014dng ti\u0101n) winter", definitionEn:"winter"},
-        {term:"\u8349\u82bd", termEn:"grass sprout", definition:"(c\u01ceo y\u00e1) grass sprout", definitionEn:"grass sprout"},
-        {term:"\u8377\u53f6", termEn:"lotus leaf", definition:"(h\u00e9 y\u00e8) lotus leaf", definitionEn:"lotus leaf"},
-        {term:"\u8c37\u7a57", termEn:"grain ear", definition:"(g\u01d4 su\u00ec) grain ear", definitionEn:"grain ear"},
-        {term:"\u96ea\u4eba", termEn:"snowman", definition:"(xu\u011b r\u00e9n) snowman", definitionEn:"snowman"}
+        {term:"\u6625\u5929", termEn:"spring", definition:"ch\u016bn ti\u0101n\uff0cspring\u3002", definitionEn:"spring"},
+        {term:"\u590f\u5929", termEn:"summer", definition:"xi\u00e0 ti\u0101n\uff0csummer\u3002", definitionEn:"summer"},
+        {term:"\u79cb\u5929", termEn:"autumn", definition:"qi\u016b ti\u0101n\uff0cautumn\u3002", definitionEn:"autumn"},
+        {term:"\u51ac\u5929", termEn:"winter", definition:"d\u014dng ti\u0101n\uff0cwinter\u3002", definitionEn:"winter"},
+        {term:"\u8349\u82bd", termEn:"grass sprout", definition:"c\u01ceo y\u00e1\uff0cgrass sprout\u3002", definitionEn:"grass sprout"},
+        {term:"\u8377\u53f6", termEn:"lotus leaf", definition:"h\u00e9 y\u00e8\uff0clotus leaf\u3002", definitionEn:"lotus leaf"},
+        {term:"\u8c37\u7a57", termEn:"grain ear", definition:"g\u01d4 su\u00ec\uff0cgrain ear\u3002", definitionEn:"grain ear"},
+        {term:"\u96ea\u4eba", termEn:"snowman", definition:"xu\u011b r\u00e9n\uff0csnowman\u3002", definitionEn:"snowman"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
@@ -915,12 +1007,16 @@ units: [
         {word:'去',pinyin:'qù',en:'go',sentence:'春去花还在。',sentenceEn:'Spring goes but flowers remain.'}
       ],
       footnotes: [
-        {term:"\u8fdc", termEn:"far", definition:"(yu\u01cen) far", definitionEn:"far"},
-        {term:"\u8fd1", termEn:"near", definition:"(j\u00ecn) near", definitionEn:"near"},
-        {term:"\u6709", termEn:"have", definition:"(y\u01d2u) have", definitionEn:"have"},
-        {term:"\u65e0", termEn:"without", definition:"(w\u00fa) without", definitionEn:"without"},
-        {term:"\u6765", termEn:"come", definition:"(l\u00e1i) come", definitionEn:"come"},
-        {term:"\u53bb", termEn:"go", definition:"(q\u00f9) go", definitionEn:"go"}
+        {term:"\u8fdc", termEn:"far", definition:"yu\u01cen\uff0cfar\u3002", definitionEn:"far"},
+        {term:"\u8fd1", termEn:"near", definition:"j\u00ecn\uff0cnear\u3002", definitionEn:"near"},
+        {term:"\u6709", termEn:"have", definition:"y\u01d2u\uff0chave\u3002", definitionEn:"have"},
+        {term:"\u65e0", termEn:"without", definition:"w\u00fa\uff0cwithout\u3002", definitionEn:"without"},
+        {term:"\u6765", termEn:"come", definition:"l\u00e1i\uff0ccome\u3002", definitionEn:"come"},
+        {term:"\u53bb", termEn:"go", definition:"q\u00f9\uff0cgo\u3002", definitionEn:"go"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
@@ -951,12 +1047,16 @@ units: [
         {word:'苹果',pinyin:'píng guǒ',en:'apple',sentence:'一个苹果一颗枣。',sentenceEn:'One apple, one date.'}
       ],
       footnotes: [
-        {term:"\u5927", termEn:"big", definition:"(d\u00e0) big", definitionEn:"big"},
-        {term:"\u5c0f", termEn:"small", definition:"(xi\u01ceo) small", definitionEn:"small"},
-        {term:"\u591a", termEn:"many", definition:"(du\u014d) many", definitionEn:"many"},
-        {term:"\u5c11", termEn:"few", definition:"(sh\u01ceo) few", definitionEn:"few"},
-        {term:"\u9ec4\u725b", termEn:"ox", definition:"(hu\u00e1ng ni\u00fa) ox", definitionEn:"ox"},
-        {term:"\u82f9\u679c", termEn:"apple", definition:"(p\u00edng gu\u01d2) apple", definitionEn:"apple"}
+        {term:"\u5927", termEn:"big", definition:"d\u00e0\uff0cbig\u3002", definitionEn:"big"},
+        {term:"\u5c0f", termEn:"small", definition:"xi\u01ceo\uff0csmall\u3002", definitionEn:"small"},
+        {term:"\u591a", termEn:"many", definition:"du\u014d\uff0cmany\u3002", definitionEn:"many"},
+        {term:"\u5c11", termEn:"few", definition:"sh\u01ceo\uff0cfew\u3002", definitionEn:"few"},
+        {term:"\u9ec4\u725b", termEn:"ox", definition:"hu\u00e1ng ni\u00fa\uff0cox\u3002", definitionEn:"ox"},
+        {term:"\u82f9\u679c", termEn:"apple", definition:"p\u00edng gu\u01d2\uff0capple\u3002", definitionEn:"apple"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -986,11 +1086,15 @@ units: [
         {word:'橡皮',pinyin:'xiàng pí',en:'eraser',sentence:'橡皮擦错字。',sentenceEn:'Eraser removes mistakes.'}
       ],
       footnotes: [
-        {term:"\u4e66\u5305", termEn:"school bag", definition:"(sh\u016b b\u0101o) school bag", definitionEn:"school bag"},
-        {term:"\u8bfe\u672c", termEn:"textbook", definition:"(k\u00e8 b\u011bn) textbook", definitionEn:"textbook"},
-        {term:"\u94c5\u7b14", termEn:"pencil", definition:"(qi\u0101n b\u01d0) pencil", definitionEn:"pencil"},
-        {term:"\u5c3a\u5b50", termEn:"ruler", definition:"(ch\u01d0 zi) ruler", definitionEn:"ruler"},
-        {term:"\u6a61\u76ae", termEn:"eraser", definition:"(xi\u00e0ng p\u00ed) eraser", definitionEn:"eraser"}
+        {term:"\u4e66\u5305", termEn:"school bag", definition:"sh\u016b b\u0101o\uff0cschool bag\u3002", definitionEn:"school bag"},
+        {term:"\u8bfe\u672c", termEn:"textbook", definition:"k\u00e8 b\u011bn\uff0ctextbook\u3002", definitionEn:"textbook"},
+        {term:"\u94c5\u7b14", termEn:"pencil", definition:"qi\u0101n b\u01d0\uff0cpencil\u3002", definitionEn:"pencil"},
+        {term:"\u5c3a\u5b50", termEn:"ruler", definition:"ch\u01d0 zi\uff0cruler\u3002", definitionEn:"ruler"},
+        {term:"\u6a61\u76ae", termEn:"eraser", definition:"xi\u00e0ng p\u00ed\uff0ceraser\u3002", definitionEn:"eraser"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，说说你的书包里有哪些文具",en:"Read aloud; describe what's in your schoolbag"},
@@ -1021,12 +1125,16 @@ units: [
         {word:'力',pinyin:'lì',en:'strength',sentence:'众人一条心，黄土变成金。',sentenceEn:'United hearts turn soil to gold.'}
       ],
       footnotes: [
-        {term:"\u660e", termEn:"bright (\u65e5+\u6708)", definition:"(m\u00edng) bright (\u65e5+\u6708)", definitionEn:"bright (\u65e5+\u6708)"},
-        {term:"\u5c16", termEn:"sharp (\u5c0f+\u5927)", definition:"(ji\u0101n) sharp (\u5c0f+\u5927)", definitionEn:"sharp (\u5c0f+\u5927)"},
-        {term:"\u5c18", termEn:"dust (\u5c0f+\u571f)", definition:"(ch\u00e9n) dust (\u5c0f+\u571f)", definitionEn:"dust (\u5c0f+\u571f)"},
-        {term:"\u4ece", termEn:"follow (\u4eba+\u4eba)", definition:"(c\u00f3ng) follow (\u4eba+\u4eba)", definitionEn:"follow (\u4eba+\u4eba)"},
-        {term:"\u4f17", termEn:"crowd (\u4eba\u00d73)", definition:"(zh\u00f2ng) crowd (\u4eba\u00d73)", definitionEn:"crowd (\u4eba\u00d73)"},
-        {term:"\u529b", termEn:"strength", definition:"(l\u00ec) strength", definitionEn:"strength"}
+        {term:"\u660e", termEn:"bright (\u65e5+\u6708)", definition:"m\u00edng\uff0cbright (\u65e5+\u6708)\u3002", definitionEn:"bright (\u65e5+\u6708)"},
+        {term:"\u5c16", termEn:"sharp (\u5c0f+\u5927)", definition:"ji\u0101n\uff0csharp (\u5c0f+\u5927)\u3002", definitionEn:"sharp (\u5c0f+\u5927)"},
+        {term:"\u5c18", termEn:"dust (\u5c0f+\u571f)", definition:"ch\u00e9n\uff0cdust (\u5c0f+\u571f)\u3002", definitionEn:"dust (\u5c0f+\u571f)"},
+        {term:"\u4ece", termEn:"follow (\u4eba+\u4eba)", definition:"c\u00f3ng\uff0cfollow (\u4eba+\u4eba)\u3002", definitionEn:"follow (\u4eba+\u4eba)"},
+        {term:"\u4f17", termEn:"crowd (\u4eba\u00d73)", definition:"zh\u00f2ng\uff0ccrowd (\u4eba\u00d73)\u3002", definitionEn:"crowd (\u4eba\u00d73)"},
+        {term:"\u529b", termEn:"strength", definition:"l\u00ec\uff0cstrength\u3002", definitionEn:"strength"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1056,11 +1164,15 @@ units: [
         {word:'敬礼',pinyin:'jìng lǐ',en:'salute',sentence:'向国旗敬礼。',sentenceEn:'Salute the flag.'}
       ],
       footnotes: [
-        {term:"\u56fd\u65d7", termEn:"national flag", definition:"(gu\u00f3 q\u00ed) national flag", definitionEn:"national flag"},
-        {term:"\u5347\u65d7", termEn:"raise the flag", definition:"(sh\u0113ng q\u00ed) raise the flag", definitionEn:"raise the flag"},
-        {term:"\u4e2d\u56fd", termEn:"China", definition:"(zh\u014dng gu\u00f3) China", definitionEn:"China"},
-        {term:"\u7acb\u6b63", termEn:"stand at attention", definition:"(l\u00ec zh\u00e8ng) stand at attention", definitionEn:"stand at attention"},
-        {term:"\u656c\u793c", termEn:"salute", definition:"(j\u00ecng l\u01d0) salute", definitionEn:"salute"}
+        {term:"\u56fd\u65d7", termEn:"national flag", definition:"gu\u00f3 q\u00ed\uff0cnational flag\u3002", definitionEn:"national flag"},
+        {term:"\u5347\u65d7", termEn:"raise the flag", definition:"sh\u0113ng q\u00ed\uff0craise the flag\u3002", definitionEn:"raise the flag"},
+        {term:"\u4e2d\u56fd", termEn:"China", definition:"zh\u014dng gu\u00f3\uff0cChina\u3002", definitionEn:"China"},
+        {term:"\u7acb\u6b63", termEn:"stand at attention", definition:"l\u00ec zh\u00e8ng\uff0cstand at attention\u3002", definitionEn:"stand at attention"},
+        {term:"\u656c\u793c", termEn:"salute", definition:"j\u00ecng l\u01d0\uff0csalute\u3002", definitionEn:"salute"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1128,12 +1240,16 @@ units: [
         {word:'好朋友',pinyin:'hǎo péng you',en:'good friend',sentence:'影子是我的好朋友。',sentenceEn:'Shadow is my good friend.'}
       ],
       footnotes: [
-        {term:"\u5f71\u5b50", termEn:"shadow", definition:"(y\u01d0ng zi) shadow", definitionEn:"shadow"},
-        {term:"\u524d", termEn:"front", definition:"(qi\u00e1n) front", definitionEn:"front"},
-        {term:"\u540e", termEn:"behind", definition:"(h\u00f2u) behind", definitionEn:"behind"},
-        {term:"\u5de6", termEn:"left", definition:"(zu\u01d2) left", definitionEn:"left"},
-        {term:"\u53f3", termEn:"right", definition:"(y\u00f2u) right", definitionEn:"right"},
-        {term:"\u597d\u670b\u53cb", termEn:"good friend", definition:"(h\u01ceo p\u00e9ng you) good friend", definitionEn:"good friend"}
+        {term:"\u5f71\u5b50", termEn:"shadow", definition:"y\u01d0ng zi\uff0cshadow\u3002", definitionEn:"shadow"},
+        {term:"\u524d", termEn:"front", definition:"qi\u00e1n\uff0cfront\u3002", definitionEn:"front"},
+        {term:"\u540e", termEn:"behind", definition:"h\u00f2u\uff0cbehind\u3002", definitionEn:"behind"},
+        {term:"\u5de6", termEn:"left", definition:"zu\u01d2\uff0cleft\u3002", definitionEn:"left"},
+        {term:"\u53f3", termEn:"right", definition:"y\u00f2u\uff0cright\u3002", definitionEn:"right"},
+        {term:"\u597d\u670b\u53cb", termEn:"good friend", definition:"h\u01ceo p\u00e9ng you\uff0cgood friend\u3002", definitionEn:"good friend"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1165,13 +1281,17 @@ units: [
         {word:'孔雀',pinyin:'kǒng què',en:'peacock',sentence:'孔雀的尾巴最好看。',sentenceEn:'The peacock has the prettiest tail.'}
       ],
       footnotes: [
-        {term:"\u5c3e\u5df4", termEn:"tail", definition:"(w\u011bi ba) tail", definitionEn:"tail"},
-        {term:"\u957f", termEn:"long", definition:"(ch\u00e1ng) long", definitionEn:"long"},
-        {term:"\u77ed", termEn:"short", definition:"(du\u01cen) short", definitionEn:"short"},
-        {term:"\u7334\u5b50", termEn:"monkey", definition:"(h\u00f3u zi) monkey", definitionEn:"monkey"},
-        {term:"\u5154\u5b50", termEn:"rabbit", definition:"(t\u00f9 zi) rabbit", definitionEn:"rabbit"},
-        {term:"\u677e\u9f20", termEn:"squirrel", definition:"(s\u014dng sh\u01d4) squirrel", definitionEn:"squirrel"},
-        {term:"\u5b54\u96c0", termEn:"peacock", definition:"(k\u01d2ng qu\u00e8) peacock", definitionEn:"peacock"}
+        {term:"\u5c3e\u5df4", termEn:"tail", definition:"w\u011bi ba\uff0ctail\u3002", definitionEn:"tail"},
+        {term:"\u957f", termEn:"long", definition:"ch\u00e1ng\uff0clong\u3002", definitionEn:"long"},
+        {term:"\u77ed", termEn:"short", definition:"du\u01cen\uff0cshort\u3002", definitionEn:"short"},
+        {term:"\u7334\u5b50", termEn:"monkey", definition:"h\u00f3u zi\uff0cmonkey\u3002", definitionEn:"monkey"},
+        {term:"\u5154\u5b50", termEn:"rabbit", definition:"t\u00f9 zi\uff0crabbit\u3002", definitionEn:"rabbit"},
+        {term:"\u677e\u9f20", termEn:"squirrel", definition:"s\u014dng sh\u01d4\uff0csquirrel\u3002", definitionEn:"squirrel"},
+        {term:"\u5b54\u96c0", termEn:"peacock", definition:"k\u01d2ng qu\u00e8\uff0cpeacock\u3002", definitionEn:"peacock"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1201,11 +1321,15 @@ units: [
         {word:'句号',pinyin:'jù hào',en:'period',sentence:'水泡泡说："我来当句号。"',sentenceEn:'Bubbles say: "I will be a period."'}
       ],
       footnotes: [
-        {term:"\u9752\u86d9", termEn:"frog", definition:"(q\u012bng w\u0101) frog", definitionEn:"frog"},
-        {term:"\u5199\u8bd7", termEn:"write poetry", definition:"(xi\u011b sh\u012b) write poetry", definitionEn:"write poetry"},
-        {term:"\u874c\u86aa", termEn:"tadpole", definition:"(k\u0113 d\u01d2u) tadpole", definitionEn:"tadpole"},
-        {term:"\u9017\u53f7", termEn:"comma", definition:"(d\u00f2u h\u00e0o) comma", definitionEn:"comma"},
-        {term:"\u53e5\u53f7", termEn:"period", definition:"(j\u00f9 h\u00e0o) period", definitionEn:"period"}
+        {term:"\u9752\u86d9", termEn:"frog", definition:"q\u012bng w\u0101\uff0cfrog\u3002", definitionEn:"frog"},
+        {term:"\u5199\u8bd7", termEn:"write poetry", definition:"xi\u011b sh\u012b\uff0cwrite poetry\u3002", definitionEn:"write poetry"},
+        {term:"\u874c\u86aa", termEn:"tadpole", definition:"k\u0113 d\u01d2u\uff0ctadpole\u3002", definitionEn:"tadpole"},
+        {term:"\u9017\u53f7", termEn:"comma", definition:"d\u00f2u h\u00e0o\uff0ccomma\u3002", definitionEn:"comma"},
+        {term:"\u53e5\u53f7", termEn:"period", definition:"j\u00f9 h\u00e0o\uff0cperiod\u3002", definitionEn:"period"}
+      ],
+      readingTips: [
+        {cn:"\u8bd5\u7740\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8fd9\u9996\u53e4\u8bd7\uff0c\u6ce8\u610f\u8282\u594f\u548c\u97f5\u5f8b\u3002\u60f3\u4e00\u60f3\u8bd7\u4eba\u63cf\u7ed8\u4e86\u600e\u6837\u7684\u753b\u9762\u3002", en:"Try reading this poem aloud with feeling, paying attention to rhythm and rhyme. Think about what scene the poet painted."},
+        {cn:"\u627e\u51fa\u8bd7\u4e2d\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\uff0c\u8bf4\u8bf4\u4e3a\u4ec0\u4e48\u559c\u6b22\u3002", en:"Find your favorite words in the poem and say why you like them."}
       ],
       exercises:[
         {type:"read",cn:"分角色朗读课文",en:"Role-play reading"},
@@ -1236,10 +1360,14 @@ units: [
         {word:'飘落',pinyin:'piāo luò',en:'drift down',sentence:'雨点儿飘落下来。',sentenceEn:'Raindrops drift down.'}
       ],
       footnotes: [
-        {term:"\u96e8\u70b9\u513f", termEn:"raindrop", definition:"(y\u01d4 di\u01cenr) raindrop", definitionEn:"raindrop"},
-        {term:"\u6570\u4e0d\u6e05", termEn:"countless", definition:"(sh\u01d4 bu q\u012bng) countless", definitionEn:"countless"},
-        {term:"\u4e91\u5f69", termEn:"cloud", definition:"(y\u00fan cai) cloud", definitionEn:"cloud"},
-        {term:"\u98d8\u843d", termEn:"drift down", definition:"(pi\u0101o lu\u00f2) drift down", definitionEn:"drift down"}
+        {term:"\u96e8\u70b9\u513f", termEn:"raindrop", definition:"y\u01d4 di\u01cenr\uff0craindrop\u3002", definitionEn:"raindrop"},
+        {term:"\u6570\u4e0d\u6e05", termEn:"countless", definition:"sh\u01d4 bu q\u012bng\uff0ccountless\u3002", definitionEn:"countless"},
+        {term:"\u4e91\u5f69", termEn:"cloud", definition:"y\u00fan cai\uff0ccloud\u3002", definitionEn:"cloud"},
+        {term:"\u98d8\u843d", termEn:"drift down", definition:"pi\u0101o lu\u00f2\uff0cdrift down\u3002", definitionEn:"drift down"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"分角色朗读课文",en:"Role-play reading"},
@@ -1317,11 +1445,15 @@ units: [
         {word:'老师',pinyin:'lǎo shī',en:'teacher',sentence:'老师说海是蓝色的。',sentenceEn:'Teacher says the sea is blue.'}
       ],
       footnotes: [
-        {term:"\u8fdc\u8db3", termEn:"field trip", definition:"(yu\u01cen z\u00fa) field trip", definitionEn:"field trip"},
-        {term:"\u660e\u5929", termEn:"tomorrow", definition:"(m\u00edng ti\u0101n) tomorrow", definitionEn:"tomorrow"},
-        {term:"\u7761\u4e0d\u7740", termEn:"cannot sleep", definition:"(shu\u00ec bu zh\u00e1o) cannot sleep", definitionEn:"cannot sleep"},
-        {term:"\u5927\u6d77", termEn:"ocean", definition:"(d\u00e0 h\u01cei) ocean", definitionEn:"ocean"},
-        {term:"\u8001\u5e08", termEn:"teacher", definition:"(l\u01ceo sh\u012b) teacher", definitionEn:"teacher"}
+        {term:"\u8fdc\u8db3", termEn:"field trip", definition:"yu\u01cen z\u00fa\uff0cfield trip\u3002", definitionEn:"field trip"},
+        {term:"\u660e\u5929", termEn:"tomorrow", definition:"m\u00edng ti\u0101n\uff0ctomorrow\u3002", definitionEn:"tomorrow"},
+        {term:"\u7761\u4e0d\u7740", termEn:"cannot sleep", definition:"shu\u00ec bu zh\u00e1o\uff0ccannot sleep\u3002", definitionEn:"cannot sleep"},
+        {term:"\u5927\u6d77", termEn:"ocean", definition:"d\u00e0 h\u01cei\uff0cocean\u3002", definitionEn:"ocean"},
+        {term:"\u8001\u5e08", termEn:"teacher", definition:"l\u01ceo sh\u012b\uff0cteacher\u3002", definitionEn:"teacher"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1352,10 +1484,14 @@ units: [
         {word:'快点儿',pinyin:'kuài diǎnr',en:'hurry up',sentence:'我盼着快点儿长大。',sentenceEn:'I wish I could grow up fast.'}
       ],
       footnotes: [
-        {term:"\u89c9\u5f97", termEn:"feel; think", definition:"(ju\u00e9 de) feel; think", definitionEn:"feel; think"},
-        {term:"\u6709\u65f6\u5019", termEn:"sometimes", definition:"(y\u01d2u sh\u00ed hou) sometimes", definitionEn:"sometimes"},
-        {term:"\u7a7f\u8863\u670d", termEn:"get dressed", definition:"(chu\u0101n y\u012b fu) get dressed", definitionEn:"get dressed"},
-        {term:"\u5feb\u70b9\u513f", termEn:"hurry up", definition:"(ku\u00e0i di\u01cenr) hurry up", definitionEn:"hurry up"}
+        {term:"\u89c9\u5f97", termEn:"feel; think", definition:"ju\u00e9 de\uff0cfeel; think\u3002", definitionEn:"feel; think"},
+        {term:"\u6709\u65f6\u5019", termEn:"sometimes", definition:"y\u01d2u sh\u00ed hou\uff0csometimes\u3002", definitionEn:"sometimes"},
+        {term:"\u7a7f\u8863\u670d", termEn:"get dressed", definition:"chu\u0101n y\u012b fu\uff0cget dressed\u3002", definitionEn:"get dressed"},
+        {term:"\u5feb\u70b9\u513f", termEn:"hurry up", definition:"ku\u00e0i di\u01cenr\uff0churry up\u3002", definitionEn:"hurry up"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1385,11 +1521,15 @@ units: [
         {word:'脚印',pinyin:'jiǎo yìn',en:'footprint',sentence:'沙滩上的小小的脚印。',sentenceEn:'Little footprints on the beach.'}
       ],
       footnotes: [
-        {term:"\u9879\u94fe", termEn:"necklace", definition:"(xi\u00e0ng li\u00e0n) necklace", definitionEn:"necklace"},
-        {term:"\u6c99\u6ee9", termEn:"beach", definition:"(sh\u0101 t\u0101n) beach", definitionEn:"beach"},
-        {term:"\u6d6a\u82b1", termEn:"wave", definition:"(l\u00e0ng hu\u0101) wave", definitionEn:"wave"},
-        {term:"\u8d1d\u58f3", termEn:"seashell", definition:"(b\u00e8i k\u00e9) seashell", definitionEn:"seashell"},
-        {term:"\u811a\u5370", termEn:"footprint", definition:"(ji\u01ceo y\u00ecn) footprint", definitionEn:"footprint"}
+        {term:"\u9879\u94fe", termEn:"necklace", definition:"xi\u00e0ng li\u00e0n\uff0cnecklace\u3002", definitionEn:"necklace"},
+        {term:"\u6c99\u6ee9", termEn:"beach", definition:"sh\u0101 t\u0101n\uff0cbeach\u3002", definitionEn:"beach"},
+        {term:"\u6d6a\u82b1", termEn:"wave", definition:"l\u00e0ng hu\u0101\uff0cwave\u3002", definitionEn:"wave"},
+        {term:"\u8d1d\u58f3", termEn:"seashell", definition:"b\u00e8i k\u00e9\uff0cseashell\u3002", definitionEn:"seashell"},
+        {term:"\u811a\u5370", termEn:"footprint", definition:"ji\u01ceo y\u00ecn\uff0cfootprint\u3002", definitionEn:"footprint"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，说说：大海的项链是什么？",en:"Read aloud; what is the sea's necklace?"},
@@ -1468,12 +1608,16 @@ units: [
         {word:'月牙',pinyin:'yuè yá',en:'crescent',sentence:'小马画月牙。',sentenceEn:'Pony draws crescents.'}
       ],
       footnotes: [
-        {term:"\u4e0b\u96ea", termEn:"to snow", definition:"(xi\u00e0 xu\u011b) to snow", definitionEn:"to snow"},
-        {term:"\u753b\u5bb6", termEn:"artist", definition:"(hu\u00e0 ji\u0101) artist", definitionEn:"artist"},
-        {term:"\u7af9\u53f6", termEn:"bamboo leaf", definition:"(zh\u00fa y\u00e8) bamboo leaf", definitionEn:"bamboo leaf"},
-        {term:"\u6885\u82b1", termEn:"plum blossom", definition:"(m\u00e9i hu\u0101) plum blossom", definitionEn:"plum blossom"},
-        {term:"\u67ab\u53f6", termEn:"maple leaf", definition:"(f\u0113ng y\u00e8) maple leaf", definitionEn:"maple leaf"},
-        {term:"\u6708\u7259", termEn:"crescent", definition:"(yu\u00e8 y\u00e1) crescent", definitionEn:"crescent"}
+        {term:"\u4e0b\u96ea", termEn:"to snow", definition:"xi\u00e0 xu\u011b\uff0cto snow\u3002", definitionEn:"to snow"},
+        {term:"\u753b\u5bb6", termEn:"artist", definition:"hu\u00e0 ji\u0101\uff0cartist\u3002", definitionEn:"artist"},
+        {term:"\u7af9\u53f6", termEn:"bamboo leaf", definition:"zh\u00fa y\u00e8\uff0cbamboo leaf\u3002", definitionEn:"bamboo leaf"},
+        {term:"\u6885\u82b1", termEn:"plum blossom", definition:"m\u00e9i hu\u0101\uff0cplum blossom\u3002", definitionEn:"plum blossom"},
+        {term:"\u67ab\u53f6", termEn:"maple leaf", definition:"f\u0113ng y\u00e8\uff0cmaple leaf\u3002", definitionEn:"maple leaf"},
+        {term:"\u6708\u7259", termEn:"crescent", definition:"yu\u00e8 y\u00e1\uff0ccrescent\u3002", definitionEn:"crescent"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1506,12 +1650,16 @@ units: [
         {word:'渐渐',pinyin:'jiàn jiàn',en:'gradually',sentence:'水渐渐升高了。',sentenceEn:'Water gradually rose.'}
       ],
       footnotes: [
-        {term:"\u4e4c\u9e26", termEn:"crow", definition:"(w\u016b y\u0101) crow", definitionEn:"crow"},
-        {term:"\u53e3\u6e34", termEn:"thirsty", definition:"(k\u01d2u k\u011b) thirsty", definitionEn:"thirsty"},
-        {term:"\u74f6\u5b50", termEn:"bottle", definition:"(p\u00edng zi) bottle", definitionEn:"bottle"},
-        {term:"\u529e\u6cd5", termEn:"method", definition:"(b\u00e0n f\u01ce) method", definitionEn:"method"},
-        {term:"\u77f3\u5b50", termEn:"pebble", definition:"(sh\u00ed zi) pebble", definitionEn:"pebble"},
-        {term:"\u6e10\u6e10", termEn:"gradually", definition:"(ji\u00e0n ji\u00e0n) gradually", definitionEn:"gradually"}
+        {term:"\u4e4c\u9e26", termEn:"crow", definition:"w\u016b y\u0101\uff0ccrow\u3002", definitionEn:"crow"},
+        {term:"\u53e3\u6e34", termEn:"thirsty", definition:"k\u01d2u k\u011b\uff0cthirsty\u3002", definitionEn:"thirsty"},
+        {term:"\u74f6\u5b50", termEn:"bottle", definition:"p\u00edng zi\uff0cbottle\u3002", definitionEn:"bottle"},
+        {term:"\u529e\u6cd5", termEn:"method", definition:"b\u00e0n f\u01ce\uff0cmethod\u3002", definitionEn:"method"},
+        {term:"\u77f3\u5b50", termEn:"pebble", definition:"sh\u00ed zi\uff0cpebble\u3002", definitionEn:"pebble"},
+        {term:"\u6e10\u6e10", termEn:"gradually", definition:"ji\u00e0n ji\u00e0n\uff0cgradually\u3002", definitionEn:"gradually"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1541,10 +1689,14 @@ units: [
         {word:'已经',pinyin:'yǐ jīng',en:'already',sentence:'已经是秋天了。',sentenceEn:'It is already autumn.'}
       ],
       footnotes: [
-        {term:"\u8717\u725b", termEn:"snail", definition:"(w\u014d ni\u00fa) snail", definitionEn:"snail"},
-        {term:"\u5988\u5988", termEn:"mom", definition:"(m\u0101 ma) mom", definitionEn:"mom"},
-        {term:"\u8349\u8393", termEn:"strawberry", definition:"(c\u01ceo m\u00e9i) strawberry", definitionEn:"strawberry"},
-        {term:"\u5df2\u7ecf", termEn:"already", definition:"(y\u01d0 j\u012bng) already", definitionEn:"already"}
+        {term:"\u8717\u725b", termEn:"snail", definition:"w\u014d ni\u00fa\uff0csnail\u3002", definitionEn:"snail"},
+        {term:"\u5988\u5988", termEn:"mom", definition:"m\u0101 ma\uff0cmom\u3002", definitionEn:"mom"},
+        {term:"\u8349\u8393", termEn:"strawberry", definition:"c\u01ceo m\u00e9i\uff0cstrawberry\u3002", definitionEn:"strawberry"},
+        {term:"\u5df2\u7ecf", termEn:"already", definition:"y\u01d0 j\u012bng\uff0calready\u3002", definitionEn:"already"}
+      ],
+      readingTips: [
+        {cn:"\u8fb9\u8bfb\u8fb9\u60f3\uff0c\u6587\u7ae0\u8bb2\u4e86\u4e00\u4ef6\u4ec0\u4e48\u4e8b\uff1f\u4f60\u89c9\u5f97\u6709\u8da3\u5417\uff1f", en:"As you read, think: what is this story about? Do you find it interesting?"},
+        {cn:"\u8bfb\u5b8c\u540e\u8bd5\u7740\u7528\u81ea\u5df1\u7684\u8bdd\u628a\u6545\u4e8b\u8bb2\u7ed9\u522b\u4eba\u542c\u3002", en:"After reading, try retelling the story in your own words."}
       ],
       exercises:[
         {type:"read",cn:"对照图画，读一读课文",en:"Read the text while looking at the pictures"},

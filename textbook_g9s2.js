@@ -31,11 +31,15 @@ units: [
         {word:'迷惘',pinyin:'mí wǎng',en:'bewildered; confused',sentence:'你以伤痕累累的乳房喂养了迷惘的我。',sentenceEn:'With your scarred breast you nourished the bewildered me.'}
       ],
       footnotes: [
-        {term:"\u75b2\u60eb", termEn:"weary; exhausted", definition:"(p\u00ed b\u00e8i) weary; exhausted", definitionEn:"weary; exhausted"},
-        {term:"\u7c07\u65b0", termEn:"brand-new; fresh", definition:"(c\u00f9 x\u012bn) brand-new; fresh", definitionEn:"brand-new; fresh"},
-        {term:"\u8717\u884c", termEn:"to crawl like a snail", definition:"(w\u014d x\u00edng) to crawl like a snail", definitionEn:"to crawl like a snail"},
-        {term:"\u55b7\u8584", termEn:"to surge forth; to burst out", definition:"(p\u0113n b\u00f3) to surge forth; to burst out", definitionEn:"to surge forth; to burst out"},
-        {term:"\u8ff7\u60d8", termEn:"bewildered; confused", definition:"(m\u00ed w\u01ceng) bewildered; confused", definitionEn:"bewildered; confused"}
+        {term:"\u75b2\u60eb", termEn:"weary; exhausted", definition:"\u3010p\u00ed b\u00e8i\u3011weary; exhausted\u3002", definitionEn:"weary; exhausted"},
+        {term:"\u7c07\u65b0", termEn:"brand-new; fresh", definition:"\u3010c\u00f9 x\u012bn\u3011brand-new; fresh\u3002", definitionEn:"brand-new; fresh"},
+        {term:"\u8717\u884c", termEn:"to crawl like a snail", definition:"\u3010w\u014d x\u00edng\u3011to crawl like a snail\u3002", definitionEn:"to crawl like a snail"},
+        {term:"\u55b7\u8584", termEn:"to surge forth; to burst out", definition:"\u3010p\u0113n b\u00f3\u3011to surge forth; to burst out\u3002", definitionEn:"to surge forth; to burst out"},
+        {term:"\u8ff7\u60d8", termEn:"bewildered; confused", definition:"\u3010m\u00ed w\u01ceng\u3011bewildered; confused\u3002", definitionEn:"bewildered; confused"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'意象叠加',pointEn:'yì xiàng dié jiā',example:'accumulation of imagery',exampleEn:'我是你河边上破旧的老水车……我是你额上熏黑的矿灯……',explanation:'I am your old, broken waterwheel by the river... I am the soot-blackened miner’s lamp on your forehead...',explanationEn:'诗人用一连串意象层层叠加，构成一组宏大的诗歌画面，将抽象的情感具体化。'},
@@ -95,11 +99,15 @@ units: [
         {word:'血雨腥风',pinyin:'xuè yǔ xīng fēng',en:'bloody storm; reign of terror',sentence:'血雨腥风应有涯。',sentenceEn:'The bloody storm shall have its end.'}
       ],
       footnotes: [
-        {term:"\u6cc9\u53f0", termEn:"the netherworld; the realm of the dead", definition:"(qu\u00e1n t\u00e1i) the netherworld; the realm of the dead", definitionEn:"the netherworld; the realm of the dead"},
-        {term:"\u65cc\u65d7", termEn:"banners and flags; military forces", definition:"(j\u012bng q\u00ed) banners and flags; military forces", definitionEn:"banners and flags; military forces"},
-        {term:"\u70fd\u70df", termEn:"beacon fire; war flames", definition:"(f\u0113ng y\u0101n) beacon fire; war flames", definitionEn:"beacon fire; war flames"},
-        {term:"\u6377\u62a5", termEn:"news of victory", definition:"(ji\u00e9 b\u00e0o) news of victory", definitionEn:"news of victory"},
-        {term:"\u8840\u96e8\u8165\u98ce", termEn:"bloody storm; reign of terror", definition:"(xu\u00e8 y\u01d4 x\u012bng f\u0113ng) bloody storm; reign of terror", definitionEn:"bloody storm; reign of terror"}
+        {term:"\u6cc9\u53f0", termEn:"the netherworld; the realm of the dead", definition:"\u3010qu\u00e1n t\u00e1i\u3011the netherworld; the realm of the dead\u3002", definitionEn:"the netherworld; the realm of the dead"},
+        {term:"\u65cc\u65d7", termEn:"banners and flags; military forces", definition:"\u3010j\u012bng q\u00ed\u3011banners and flags; military forces\u3002", definitionEn:"banners and flags; military forces"},
+        {term:"\u70fd\u70df", termEn:"beacon fire; war flames", definition:"\u3010f\u0113ng y\u0101n\u3011beacon fire; war flames\u3002", definitionEn:"beacon fire; war flames"},
+        {term:"\u6377\u62a5", termEn:"news of victory", definition:"\u3010ji\u00e9 b\u00e0o\u3011news of victory\u3002", definitionEn:"news of victory"},
+        {term:"\u8840\u96e8\u8165\u98ce", termEn:"bloody storm; reign of terror", definition:"\u3010xu\u00e8 y\u01d4 x\u012bng f\u0113ng\u3011bloody storm; reign of terror\u3002", definitionEn:"bloody storm; reign of terror"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'绝命诗的传统',pointEn:'jué mìng shī de chuán tǒng',example:'the tradition of farewell-to-life poetry',exampleEn:'断头今日意如何？创业艰难百战多。',explanation:'What are my thoughts today as I face the blade? Establishing our cause has been hard through a hundred battles.',explanationEn:'绝命诗是中国文学的特殊体裁，诗人在生死关头写下最后的心声，表达理想与信念。'}
@@ -154,11 +162,15 @@ units: [
         {word:'统一',pinyin:'tǒng yī',en:'unity; unification',sentence:'叶是不一样的，但是花是一样的。',sentenceEn:'The leaves are different, but the flowers are the same.'}
       ],
       footnotes: [
-        {term:"\u971c\u98ce", termEn:"frosty wind", definition:"(shu\u0101ng f\u0113ng) frosty wind", definitionEn:"frosty wind"},
-        {term:"\u53e3\u5360", termEn:"to compose a poem orally; impromptu verse", definition:"(k\u01d2u zh\u00e0n) to compose a poem orally; impromptu verse", definitionEn:"to compose a poem orally; impromptu verse"},
-        {term:"\u88c5\u9970", termEn:"to decorate; decoration", definition:"(zhu\u0101ng sh\u00ec) to decorate; decoration", definitionEn:"to decorate; decoration"},
-        {term:"\u5351\u5fae", termEn:"humble; lowly", definition:"(b\u0113i w\u0113i) humble; lowly", definitionEn:"humble; lowly"},
-        {term:"\u7edf\u4e00", termEn:"unity; unification", definition:"(t\u01d2ng y\u012b) unity; unification", definitionEn:"unity; unification"}
+        {term:"\u971c\u98ce", termEn:"frosty wind", definition:"\u3010shu\u0101ng f\u0113ng\u3011frosty wind\u3002", definitionEn:"frosty wind"},
+        {term:"\u53e3\u5360", termEn:"to compose a poem orally; impromptu verse", definition:"\u3010k\u01d2u zh\u00e0n\u3011to compose a poem orally; impromptu verse\u3002", definitionEn:"to compose a poem orally; impromptu verse"},
+        {term:"\u88c5\u9970", termEn:"to decorate; decoration", definition:"\u3010zhu\u0101ng sh\u00ec\u3011to decorate; decoration\u3002", definitionEn:"to decorate; decoration"},
+        {term:"\u5351\u5fae", termEn:"humble; lowly", definition:"\u3010b\u0113i w\u0113i\u3011humble; lowly\u3002", definitionEn:"humble; lowly"},
+        {term:"\u7edf\u4e00", termEn:"unity; unification", definition:"\u3010t\u01d2ng y\u012b\u3011unity; unification\u3002", definitionEn:"unity; unification"}
+      ],
+      readingTips: [
+        {cn:"\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f3\u97f5\u7f8e\u548c\u610f\u5883\u7f8e\u3002\u6ce8\u610f\u5206\u6790\u8bd7\u4e2d\u7684\u610f\u8c61\u548c\u4fee\u8f9e\u624b\u6cd5\u3002", en:"Read aloud repeatedly to appreciate the phonetic beauty and artistic conception. Analyze the imagery and rhetorical devices used."},
+        {cn:"\u7ed3\u5408\u8bd7\u4eba\u7684\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u4e2d\u8574\u542b\u7684\u601d\u60f3\u611f\u60c5\u3002", en:"Consider the poet's life and the context of writing to understand the deeper emotions expressed."}
       ],
       authorBio: {cn:"沈尹默（1883—1971），浙江人，诗人、书法家。戴望舒（1905—1950），浙江杭州人，\u201c雨巷诗人\u201d。卞之琳（1910—2000），江苏海门人，诗人、翻译家。芦荻（1912—1994），广东人，诗人。聂鲁达（1904—1973），智利诗人，1971年获诺贝尔文学奖。", en:"Shen Yinmo (1883–1971), from Zhejiang, poet and calligrapher. Dai Wangshu (1905–1950), from Hangzhou, Zhejiang, known as the 'Poet of the Rainy Lane.' Bian Zhilin (1910–2000), from Haimen, Jiangsu, poet and translator. Lu Di (1912–1994), from Guangdong, poet. Pablo Neruda (1904–1973), Chilean poet, Nobel Prize in Literature 1971."},
       isSelfRead: true,
@@ -213,11 +225,15 @@ units: [
         {word:'预言者',pinyin:'yù yán zhě',en:'prophet; foreteller',sentence:'这胜利的预言者叫了。',sentenceEn:'This prophet of victory cries out.'}
       ],
       footnotes: [
-        {term:"\u5486\u54ee", termEn:"to roar; to howl", definition:"(p\u00e1o xi\u00e0o) to roar; to howl", definitionEn:"to roar; to howl"},
-        {term:"\u7fe1\u7fe0", termEn:"emerald; jade green", definition:"(f\u011bi cu\u00ec) emerald; jade green", definitionEn:"emerald; jade green"},
-        {term:"\u53f7\u53eb", termEn:"to scream; to shriek", definition:"(h\u00e1o ji\u00e0o) to scream; to shriek", definitionEn:"to scream; to shriek"},
-        {term:"\u8822\u7b28", termEn:"clumsy; stupid", definition:"(ch\u01d4n b\u00e8n) clumsy; stupid", definitionEn:"clumsy; stupid"},
-        {term:"\u9884\u8a00\u8005", termEn:"prophet; foreteller", definition:"(y\u00f9 y\u00e1n zh\u011b) prophet; foreteller", definitionEn:"prophet; foreteller"}
+        {term:"\u5486\u54ee", termEn:"to roar; to howl", definition:"\u3010p\u00e1o xi\u00e0o\u3011to roar; to howl\u3002", definitionEn:"to roar; to howl"},
+        {term:"\u7fe1\u7fe0", termEn:"emerald; jade green", definition:"\u3010f\u011bi cu\u00ec\u3011emerald; jade green\u3002", definitionEn:"emerald; jade green"},
+        {term:"\u53f7\u53eb", termEn:"to scream; to shriek", definition:"\u3010h\u00e1o ji\u00e0o\u3011to scream; to shriek\u3002", definitionEn:"to scream; to shriek"},
+        {term:"\u8822\u7b28", termEn:"clumsy; stupid", definition:"\u3010ch\u01d4n b\u00e8n\u3011clumsy; stupid\u3002", definitionEn:"clumsy; stupid"},
+        {term:"\u9884\u8a00\u8005", termEn:"prophet; foreteller", definition:"\u3010y\u00f9 y\u00e1n zh\u011b\u3011prophet; foreteller\u3002", definitionEn:"prophet; foreteller"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'象征手法',pointEn:'xiàng zhēng shǒu fǎ',example:'symbolism',exampleEn:'让暴风雨来得厉害些吧！',explanation:'Let the storm come harder!',explanationEn:'海燕象征勇敢的革命先驱，暴风雨象征革命风暴，不同的鸟类象征不同阶层的人们。'}
@@ -314,11 +330,15 @@ units: [
         {word:'羼水',pinyin:'chàn shuǐ',en:'to dilute with water; to adulterate',sentence:'在这严重监督之下，羼水也很为难。',sentenceEn:'Under such strict supervision, even watering down the wine was difficult.'}
       ],
       footnotes: [
-        {term:"\u9614\u7ef0", termEn:"lavish; extravagant", definition:"(ku\u00f2 chu\u00f2) lavish; extravagant", definitionEn:"lavish; extravagant"},
-        {term:"\u9893\u5510", termEn:"dejected; dispirited", definition:"(tu\u00ed t\u00e1ng) dejected; dispirited", definitionEn:"dejected; dispirited"},
-        {term:"\u4e0d\u5c51", termEn:"to disdain; to scorn", definition:"(b\u00f9 xi\u00e8) to disdain; to scorn", definitionEn:"to disdain; to scorn"},
-        {term:"\u7ef0\u53f7", termEn:"nickname", definition:"(chu\u00f2 h\u00e0o) nickname", definitionEn:"nickname"},
-        {term:"\u7fbc\u6c34", termEn:"to dilute with water; to adulterate", definition:"(ch\u00e0n shu\u01d0) to dilute with water; to adulterate", definitionEn:"to dilute with water; to adulterate"}
+        {term:"\u9614\u7ef0", termEn:"lavish; extravagant", definition:"\u3010ku\u00f2 chu\u00f2\u3011lavish; extravagant\u3002", definitionEn:"lavish; extravagant"},
+        {term:"\u9893\u5510", termEn:"dejected; dispirited", definition:"\u3010tu\u00ed t\u00e1ng\u3011dejected; dispirited\u3002", definitionEn:"dejected; dispirited"},
+        {term:"\u4e0d\u5c51", termEn:"to disdain; to scorn", definition:"\u3010b\u00f9 xi\u00e8\u3011to disdain; to scorn\u3002", definitionEn:"to disdain; to scorn"},
+        {term:"\u7ef0\u53f7", termEn:"nickname", definition:"\u3010chu\u00f2 h\u00e0o\u3011nickname\u3002", definitionEn:"nickname"},
+        {term:"\u7fbc\u6c34", termEn:"to dilute with water; to adulterate", definition:"\u3010ch\u00e0n shu\u01d0\u3011to dilute with water; to adulterate\u3002", definitionEn:"to dilute with water; to adulterate"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'第一人称旁观视角',pointEn:'dì yī rén chēng páng guān shì jiǎo',example:'first-person observer perspective',exampleEn:'我从十二岁起，便在镇口的咸亨酒店里当伙计。',explanation:'From the age of twelve I worked as a helper at the Xianheng Tavern at the edge of town.',explanationEn:'小说以酒店小伙计的视角叙述，既是参与者又是旁观者，增强了叙事的客观性和可信度。'},
@@ -421,11 +441,15 @@ units: [
         {word:'筛子',pinyin:'shāi zi',en:'sieve',sentence:'跟着一个火红色头发的巡警，端着一个筛子。',sentenceEn:'Following him was a red-haired policeman carrying a sieve.'}
       ],
       footnotes: [
-        {term:"\u65e0\u7cbe\u6253\u91c7", termEn:"listless; lacking energy", definition:"(w\u00fa j\u012bng d\u01ce c\u01cei) listless; lacking energy", definitionEn:"listless; lacking energy"},
-        {term:"\u5f02\u60f3\u5929\u5f00", termEn:"to have a fantastic idea; absurd", definition:"(y\u00ec xi\u01ceng ti\u0101n k\u0101i) to have a fantastic idea; absurd", definitionEn:"to have a fantastic idea; absurd"},
-        {term:"\u60e9\u5904", termEn:"to punish; to penalize", definition:"(ch\u00e9ng ch\u01d4) to punish; to penalize", definitionEn:"to punish; to penalize"},
-        {term:"\u6d0b\u6ea2", termEn:"to overflow; brimming with", definition:"(y\u00e1ng y\u00ec) to overflow; brimming with", definitionEn:"to overflow; brimming with"},
-        {term:"\u7b5b\u5b50", termEn:"sieve", definition:"(sh\u0101i zi) sieve", definitionEn:"sieve"}
+        {term:"\u65e0\u7cbe\u6253\u91c7", termEn:"listless; lacking energy", definition:"\u3010w\u00fa j\u012bng d\u01ce c\u01cei\u3011listless; lacking energy\u3002", definitionEn:"listless; lacking energy"},
+        {term:"\u5f02\u60f3\u5929\u5f00", termEn:"to have a fantastic idea; absurd", definition:"\u3010y\u00ec xi\u01ceng ti\u0101n k\u0101i\u3011to have a fantastic idea; absurd\u3002", definitionEn:"to have a fantastic idea; absurd"},
+        {term:"\u60e9\u5904", termEn:"to punish; to penalize", definition:"\u3010ch\u00e9ng ch\u01d4\u3011to punish; to penalize\u3002", definitionEn:"to punish; to penalize"},
+        {term:"\u6d0b\u6ea2", termEn:"to overflow; brimming with", definition:"\u3010y\u00e1ng y\u00ec\u3011to overflow; brimming with\u3002", definitionEn:"to overflow; brimming with"},
+        {term:"\u7b5b\u5b50", termEn:"sieve", definition:"\u3010sh\u0101i zi\u3011sieve\u3002", definitionEn:"sieve"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'讽刺小说中的对比',pointEn:'fěng cì xiǎo shuō zhōng de duì bǐ',example:'contrast in satirical fiction',exampleEn:'好哇，你咬人？该死的东西！',explanation:'Aha, you bite people? You cursed thing!',explanationEn:'奥楚蔑洛夫对同一条狗态度的反复变化，形成鲜明对比，深刻揭示了见风使舵的丑态。'}
@@ -496,11 +520,15 @@ units: [
         {word:'俯望',pinyin:'fǔ wàng',en:'to look down at; to gaze downward',sentence:'俯望那江，蓦地心中一颤。',sentenceEn:'Looking down at the river, my heart suddenly trembled.'}
       ],
       footnotes: [
-        {term:"\u4e07\u4e08\u7edd\u58c1", termEn:"towering sheer cliff", definition:"(w\u00e0n zh\u00e0ng ju\u00e9 b\u00ec) towering sheer cliff", definitionEn:"towering sheer cliff"},
-        {term:"\u9531\u94e2", termEn:"a tiny amount; a trifle", definition:"(z\u012b zh\u016b) a tiny amount; a trifle", definitionEn:"a tiny amount; a trifle"},
-        {term:"\u76d8\u6853", termEn:"to linger; to wind around", definition:"(p\u00e1n hu\u00e1n) to linger; to wind around", definitionEn:"to linger; to wind around"},
-        {term:"\u6d93\u6d93", termEn:"trickling; flowing gently", definition:"(ju\u0101n ju\u0101n) trickling; flowing gently", definitionEn:"trickling; flowing gently"},
-        {term:"\u4fef\u671b", termEn:"to look down at; to gaze downward", definition:"(f\u01d4 w\u00e0ng) to look down at; to gaze downward", definitionEn:"to look down at; to gaze downward"}
+        {term:"\u4e07\u4e08\u7edd\u58c1", termEn:"towering sheer cliff", definition:"\u3010w\u00e0n zh\u00e0ng ju\u00e9 b\u00ec\u3011towering sheer cliff\u3002", definitionEn:"towering sheer cliff"},
+        {term:"\u9531\u94e2", termEn:"a tiny amount; a trifle", definition:"\u3010z\u012b zh\u016b\u3011a tiny amount; a trifle\u3002", definitionEn:"a tiny amount; a trifle"},
+        {term:"\u76d8\u6853", termEn:"to linger; to wind around", definition:"\u3010p\u00e1n hu\u00e1n\u3011to linger; to wind around\u3002", definitionEn:"to linger; to wind around"},
+        {term:"\u6d93\u6d93", termEn:"trickling; flowing gently", definition:"\u3010ju\u0101n ju\u0101n\u3011trickling; flowing gently\u3002", definitionEn:"trickling; flowing gently"},
+        {term:"\u4fef\u671b", termEn:"to look down at; to gaze downward", definition:"\u3010f\u01d4 w\u00e0ng\u3011to look down at; to gaze downward\u3002", definitionEn:"to look down at; to gaze downward"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       authorBio: {cn:"阿城（1949— ），原名钟阿城，北京人，当代作家。\u201c寻根文学\u201d代表人物之一。代表作有《棋王》《树王》《孩子王》等。", en:"A Cheng (b. 1949), original name Zhong Acheng, from Beijing. Contemporary writer and a representative of the 'Root-seeking Literature' movement. Major works include The Chess Master, The Tree King, and The Child King."},
       isSelfRead: true,
@@ -549,11 +577,15 @@ units: [
         {word:'嘎咕',pinyin:'gā gu',en:'to make noise; to squabble',sentence:'何满子天不怕地不怕，却怕爷爷。',sentenceEn:'He Manzi feared nothing in heaven or earth, except his grandfather.'}
       ],
       footnotes: [
-        {term:"\u4e00\u4e08\u9752", termEn:"a tall, strong woman (nickname)", definition:"(y\u012b zh\u00e0ng q\u012bng) a tall, strong woman (nickname)", definitionEn:"a tall, strong woman (nickname)"},
-        {term:"\u9690\u533f", termEn:"to hide; to conceal", definition:"(y\u01d0n n\u00ec) to hide; to conceal", definitionEn:"to hide; to conceal"},
-        {term:"\u814c\u81dc", termEn:"dirty; filthy", definition:"(\u0101 z\u0101) dirty; filthy", definitionEn:"dirty; filthy"},
-        {term:"\u620f\u8c11", termEn:"to banter; to tease", definition:"(x\u00ec xu\u00e8) to banter; to tease", definitionEn:"to banter; to tease"},
-        {term:"\u560e\u5495", termEn:"to make noise; to squabble", definition:"(g\u0101 gu) to make noise; to squabble", definitionEn:"to make noise; to squabble"}
+        {term:"\u4e00\u4e08\u9752", termEn:"a tall, strong woman (nickname)", definition:"\u3010y\u012b zh\u00e0ng q\u012bng\u3011a tall, strong woman (nickname)\u3002", definitionEn:"a tall, strong woman (nickname)"},
+        {term:"\u9690\u533f", termEn:"to hide; to conceal", definition:"\u3010y\u01d0n n\u00ec\u3011to hide; to conceal\u3002", definitionEn:"to hide; to conceal"},
+        {term:"\u814c\u81dc", termEn:"dirty; filthy", definition:"\u3010\u0101 z\u0101\u3011dirty; filthy\u3002", definitionEn:"dirty; filthy"},
+        {term:"\u620f\u8c11", termEn:"to banter; to tease", definition:"\u3010x\u00ec xu\u00e8\u3011to banter; to tease\u3002", definitionEn:"to banter; to tease"},
+        {term:"\u560e\u5495", termEn:"to make noise; to squabble", definition:"\u3010g\u0101 gu\u3011to make noise; to squabble\u3002", definitionEn:"to make noise; to squabble"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       authorBio: {cn:"刘绍棠（1936—1997），北京通县人，当代作家。13岁开始发表作品，被誉为\u201c神童作家\u201d。代表作有《蒲柳人家》《京门脸子》等。", en:"Liu Shaotang (1936–1997), from Tongxian, Beijing. Contemporary writer. He began publishing at age 13 and was praised as a 'prodigy writer.' Major works include The Wicker and Willow Family and Faces of the Capital."},
       isSelfRead: true,
@@ -751,11 +783,15 @@ units: [
         {word:'万钟',pinyin:'wàn zhōng',en:'a very generous salary',sentence:'万钟则不辩礼义而受之。',sentenceEn:'For a generous salary one may accept without considering propriety and righteousness.'}
       ],
       footnotes: [
-        {term:"\u82df\u5f97", termEn:"to gain something by improper means; to scrape by", definition:"(g\u01d2u d\u00e9) to gain something by improper means; to scrape by", definitionEn:"to gain something by improper means; to scrape by"},
-        {term:"\u8e74\u5c14", termEn:"to kick at someone contemptuously", definition:"(c\u00f9 \u011br) to kick at someone contemptuously", definitionEn:"to kick at someone contemptuously"},
-        {term:"\u672c\u5fc3", termEn:"original heart; innate moral sense", definition:"(b\u011bn x\u012bn) original heart; innate moral sense", definitionEn:"original heart; innate moral sense"},
-        {term:"\u6240\u6b32", termEn:"what one desires", definition:"(su\u01d2 y\u00f9) what one desires", definitionEn:"what one desires"},
-        {term:"\u4e07\u949f", termEn:"a very generous salary", definition:"(w\u00e0n zh\u014dng) a very generous salary", definitionEn:"a very generous salary"}
+        {term:"\u82df\u5f97", termEn:"to gain something by improper means; to scrape by", definition:"\u3010g\u01d2u d\u00e9\u3011to gain something by improper means; to scrape by\u3002", definitionEn:"to gain something by improper means; to scrape by"},
+        {term:"\u8e74\u5c14", termEn:"to kick at someone contemptuously", definition:"\u3010c\u00f9 \u011br\u3011to kick at someone contemptuously\u3002", definitionEn:"to kick at someone contemptuously"},
+        {term:"\u672c\u5fc3", termEn:"original heart; innate moral sense", definition:"\u3010b\u011bn x\u012bn\u3011original heart; innate moral sense\u3002", definitionEn:"original heart; innate moral sense"},
+        {term:"\u6240\u6b32", termEn:"what one desires", definition:"\u3010su\u01d2 y\u00f9\u3011what one desires\u3002", definitionEn:"what one desires"},
+        {term:"\u4e07\u949f", termEn:"a very generous salary", definition:"\u3010w\u00e0n zh\u014dng\u3011a very generous salary\u3002", definitionEn:"a very generous salary"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'类比论证',pointEn:'lèi bǐ lùn zhèng',example:'argument by analogy',exampleEn:'鱼，我所欲也；熊掌，亦我所欲也。二者不可得兼，舍鱼而取熊掌者也。',explanation:'Fish is what I desire; bear paw is also what I desire. If I cannot have both, I will give up fish and take bear paw.',explanationEn:'用生活中常见的取舍作类比，引出舍生取义的论点，使抽象道理变得浅显易懂。'},
@@ -809,11 +845,15 @@ units: [
         {word:'挺剑',pinyin:'tǐng jiàn',en:'to draw one’s sword',sentence:'挺剑而起。',sentenceEn:'He drew his sword and rose.'}
       ],
       footnotes: [
-        {term:"\u5e03\u8863", termEn:"a commoner; plain-clothed person", definition:"(b\u00f9 y\u012b) a commoner; plain-clothed person", definitionEn:"a commoner; plain-clothed person"},
-        {term:"\u602b\u7136", termEn:"furiously; in a rage", definition:"(f\u00fa r\u00e1n) furiously; in a rage", definitionEn:"furiously; in a rage"},
-        {term:"\u514d\u51a0\u5f92\u8de3", termEn:"to remove one\u2019s cap and go barefoot (sign of distress)", definition:"(mi\u01cen gu\u0101n t\u00fa xi\u01cen) to remove one\u2019s cap and go barefoot (sign of distress)", definitionEn:"to remove one\u2019s cap and go barefoot (sign of distress)"},
-        {term:"\u8272\u6320", termEn:"to look cowed; to lose composure", definition:"(s\u00e8 n\u00e1o) to look cowed; to lose composure", definitionEn:"to look cowed; to lose composure"},
-        {term:"\u633a\u5251", termEn:"to draw one\u2019s sword", definition:"(t\u01d0ng ji\u00e0n) to draw one\u2019s sword", definitionEn:"to draw one\u2019s sword"}
+        {term:"\u5e03\u8863", termEn:"a commoner; plain-clothed person", definition:"\u3010b\u00f9 y\u012b\u3011a commoner; plain-clothed person\u3002", definitionEn:"a commoner; plain-clothed person"},
+        {term:"\u602b\u7136", termEn:"furiously; in a rage", definition:"\u3010f\u00fa r\u00e1n\u3011furiously; in a rage\u3002", definitionEn:"furiously; in a rage"},
+        {term:"\u514d\u51a0\u5f92\u8de3", termEn:"to remove one\u2019s cap and go barefoot (sign of distress)", definition:"\u3010mi\u01cen gu\u0101n t\u00fa xi\u01cen\u3011to remove one\u2019s cap and go barefoot (sign of distress)\u3002", definitionEn:"to remove one\u2019s cap and go barefoot (sign of distress)"},
+        {term:"\u8272\u6320", termEn:"to look cowed; to lose composure", definition:"\u3010s\u00e8 n\u00e1o\u3011to look cowed; to lose composure\u3002", definitionEn:"to look cowed; to lose composure"},
+        {term:"\u633a\u5251", termEn:"to draw one\u2019s sword", definition:"\u3010t\u01d0ng ji\u00e0n\u3011to draw one\u2019s sword\u3002", definitionEn:"to draw one\u2019s sword"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'外交辞令',pointEn:'wài jiāo cí lìng',example:'diplomatic language',exampleEn:'安陵君受地于先王而守之，虽千里不敢易也，岂直五百里哉？',explanation:'Anling’s lord received this land from the former king and guards it; he would not dare exchange even a thousand li, let alone a mere five hundred.',explanationEn:'唐雎的外交辞令有理有节，既坚守立场又不直接冒犯对方，体现了高超的论辩艺术。'}
@@ -868,11 +908,15 @@ units: [
         {word:'缊袍敝衣',pinyin:'yùn páo bì yī',en:'ragged clothes stuffed with old cotton',sentence:'余则缊袍敝衣处其间。',sentenceEn:'I sat among them in ragged clothes stuffed with old cotton.'}
       ],
       footnotes: [
-        {term:"\u55dc\u5b66", termEn:"to love learning; devoted to study", definition:"(sh\u00ec xu\u00e9) to love learning; devoted to study", definitionEn:"to love learning; devoted to study"},
-        {term:"\u5047\u501f", termEn:"to borrow", definition:"(ji\u01ce ji\u00e8) to borrow", definitionEn:"to borrow"},
-        {term:"\u903e\u7ea6", termEn:"to exceed the deadline", definition:"(y\u00fa yu\u0113) to exceed the deadline", definitionEn:"to exceed the deadline"},
-        {term:"\u53f1\u5484", termEn:"to scold harshly; to berate", definition:"(ch\u00ec du\u014d) to scold harshly; to berate", definitionEn:"to scold harshly; to berate"},
-        {term:"\u7f0a\u888d\u655d\u8863", termEn:"ragged clothes stuffed with old cotton", definition:"(y\u00f9n p\u00e1o b\u00ec y\u012b) ragged clothes stuffed with old cotton", definitionEn:"ragged clothes stuffed with old cotton"}
+        {term:"\u55dc\u5b66", termEn:"to love learning; devoted to study", definition:"\u3010sh\u00ec xu\u00e9\u3011to love learning; devoted to study\u3002", definitionEn:"to love learning; devoted to study"},
+        {term:"\u5047\u501f", termEn:"to borrow", definition:"\u3010ji\u01ce ji\u00e8\u3011to borrow\u3002", definitionEn:"to borrow"},
+        {term:"\u903e\u7ea6", termEn:"to exceed the deadline", definition:"\u3010y\u00fa yu\u0113\u3011to exceed the deadline\u3002", definitionEn:"to exceed the deadline"},
+        {term:"\u53f1\u5484", termEn:"to scold harshly; to berate", definition:"\u3010ch\u00ec du\u014d\u3011to scold harshly; to berate\u3002", definitionEn:"to scold harshly; to berate"},
+        {term:"\u7f0a\u888d\u655d\u8863", termEn:"ragged clothes stuffed with old cotton", definition:"\u3010y\u00f9n p\u00e1o b\u00ec y\u012b\u3011ragged clothes stuffed with old cotton\u3002", definitionEn:"ragged clothes stuffed with old cotton"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'contrast technique',exampleEn:'同舍生皆被绮绣……余则缊袍敝衣处其间，略无慕艳意。',explanation:'My fellow students all wore fine embroidered clothes... I sat among them in ragged clothing, without the slightest envy.',explanationEn:'通过作者求学的艰苦条件与同舍生的优越条件进行对比，突出了作者以学为乐的精神。'}
@@ -926,11 +970,15 @@ units: [
         {word:'四面楚歌',pinyin:'sì miàn chǔ gē',en:'to be besieged on all sides',sentence:'四面歌残终破楚。',sentenceEn:'Songs dying on all four sides, Chu is finally broken.'}
       ],
       footnotes: [
-        {term:"\u71d5\u7136\u672a\u52d2", termEn:"the deed at Mount Yanran remains unaccomplished (military glory not yet achieved)", definition:"(y\u0101n r\u00e1n w\u00e8i l\u00e8) the deed at Mount Yanran remains unaccomplished (military glory not yet achieved)", definitionEn:"the deed at Mount Yanran remains unaccomplished (military glory not yet achieved)"},
-        {term:"\u5343\u9a91", termEn:"a thousand riders", definition:"(qi\u0101n j\u00ec) a thousand riders", definitionEn:"a thousand riders"},
-        {term:"\u633d\u96d5\u5f13", termEn:"to draw a carved bow", definition:"(w\u01cen di\u0101o g\u014dng) to draw a carved bow", definitionEn:"to draw a carved bow"},
-        {term:"\u4e86\u5374", termEn:"to accomplish; to settle", definition:"(li\u01ceo qu\u00e8) to accomplish; to settle", definitionEn:"to accomplish; to settle"},
-        {term:"\u56db\u9762\u695a\u6b4c", termEn:"to be besieged on all sides", definition:"(s\u00ec mi\u00e0n ch\u01d4 g\u0113) to be besieged on all sides", definitionEn:"to be besieged on all sides"}
+        {term:"\u71d5\u7136\u672a\u52d2", termEn:"the deed at Mount Yanran remains unaccomplished (military glory not yet achieved)", definition:"\u3010y\u0101n r\u00e1n w\u00e8i l\u00e8\u3011the deed at Mount Yanran remains unaccomplished (military glory not yet achieved)\u3002", definitionEn:"the deed at Mount Yanran remains unaccomplished (military glory not yet achieved)"},
+        {term:"\u5343\u9a91", termEn:"a thousand riders", definition:"\u3010qi\u0101n j\u00ec\u3011a thousand riders\u3002", definitionEn:"a thousand riders"},
+        {term:"\u633d\u96d5\u5f13", termEn:"to draw a carved bow", definition:"\u3010w\u01cen di\u0101o g\u014dng\u3011to draw a carved bow\u3002", definitionEn:"to draw a carved bow"},
+        {term:"\u4e86\u5374", termEn:"to accomplish; to settle", definition:"\u3010li\u01ceo qu\u00e8\u3011to accomplish; to settle\u3002", definitionEn:"to accomplish; to settle"},
+        {term:"\u56db\u9762\u695a\u6b4c", termEn:"to be besieged on all sides", definition:"\u3010s\u00ec mi\u00e0n ch\u01d4 g\u0113\u3011to be besieged on all sides\u3002", definitionEn:"to be besieged on all sides"}
+      ],
+      readingTips: [
+        {cn:"\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f3\u97f5\u7f8e\u548c\u610f\u5883\u7f8e\u3002\u6ce8\u610f\u5206\u6790\u8bd7\u4e2d\u7684\u610f\u8c61\u548c\u4fee\u8f9e\u624b\u6cd5\u3002", en:"Read aloud repeatedly to appreciate the phonetic beauty and artistic conception. Analyze the imagery and rhetorical devices used."},
+        {cn:"\u7ed3\u5408\u8bd7\u4eba\u7684\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u4e2d\u8574\u542b\u7684\u601d\u60f3\u611f\u60c5\u3002", en:"Consider the poet's life and the context of writing to understand the deeper emotions expressed."}
       ],
       grammarPoints: [
         {point:'豪放词',pointEn:'háo fàng cí',example:'bold and unconstrained ci poetry',exampleEn:'老夫聊发少年狂，左牵黄，右擎苍。',explanation:'Let this old man indulge once more in youthful fervor: holding a yellow hound on the left, a grey falcon on the right.',explanationEn:'豪放词以气势磅礴、意境开阔为特征，抒发的多是报国壮志和英雄情怀。'}
@@ -1039,11 +1087,15 @@ units: [
         {word:'欣然',pinyin:'xīn rán',en:'with delight; gladly',sentence:'每有会意，便欣然忘食。',sentenceEn:'Whenever something struck him, he would forget to eat with delight.'}
       ],
       footnotes: [
-        {term:"\u6021\u60c5", termEn:"to bring delight to the mind", definition:"(y\u00ed q\u00edng) to bring delight to the mind", definitionEn:"to bring delight to the mind"},
-        {term:"\u5085\u5f69", termEn:"to ornament; to add color", definition:"(f\u00f9 c\u01cei) to ornament; to add color", definitionEn:"to ornament; to add color"},
-        {term:"\u957f\u624d", termEn:"to develop ability", definition:"(zh\u01ceng c\u00e1i) to develop ability", definitionEn:"to develop ability"},
-        {term:"\u4e0d\u6c42\u751a\u89e3", termEn:"not seeking thorough understanding", definition:"(b\u00f9 qi\u00fa sh\u00e8n ji\u011b) not seeking thorough understanding", definitionEn:"not seeking thorough understanding"},
-        {term:"\u6b23\u7136", termEn:"with delight; gladly", definition:"(x\u012bn r\u00e1n) with delight; gladly", definitionEn:"with delight; gladly"}
+        {term:"\u6021\u60c5", termEn:"to bring delight to the mind", definition:"\u3010y\u00ed q\u00edng\u3011to bring delight to the mind\u3002", definitionEn:"to bring delight to the mind"},
+        {term:"\u5085\u5f69", termEn:"to ornament; to add color", definition:"\u3010f\u00f9 c\u01cei\u3011to ornament; to add color\u3002", definitionEn:"to ornament; to add color"},
+        {term:"\u957f\u624d", termEn:"to develop ability", definition:"\u3010zh\u01ceng c\u00e1i\u3011to develop ability\u3002", definitionEn:"to develop ability"},
+        {term:"\u4e0d\u6c42\u751a\u89e3", termEn:"not seeking thorough understanding", definition:"\u3010b\u00f9 qi\u00fa sh\u00e8n ji\u011b\u3011not seeking thorough understanding\u3002", definitionEn:"not seeking thorough understanding"},
+        {term:"\u6b23\u7136", termEn:"with delight; gladly", definition:"\u3010x\u012bn r\u00e1n\u3011with delight; gladly\u3002", definitionEn:"with delight; gladly"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'格言体议论文',pointEn:'gé yán tǐ yì lùn wén',example:'aphoristic essay',exampleEn:'读史使人明智，读诗使人灵秀。',explanation:'Histories make men wise; poets make men witty.',explanationEn:'培根的《谈读书》以格言式的精炼语言，高度概括读书的功用和方法，言简意赅。'},
@@ -1100,11 +1152,15 @@ units: [
         {word:'胸有丘壑',pinyin:'xiōng yǒu qiū hè',en:'to have hills and valleys in one’s breast (artistic vision)',sentence:'画家必须胸有丘壑。',sentenceEn:'A painter must have an inner landscape in his mind.'}
       ],
       footnotes: [
-        {term:"\u610f\u5883", termEn:"artistic conception; mood and atmosphere", definition:"(y\u00ec j\u00ecng) artistic conception; mood and atmosphere", definitionEn:"artistic conception; mood and atmosphere"},
-        {term:"\u60c5\u666f\u4ea4\u878d", termEn:"the blending of emotion and scenery", definition:"(q\u00edng j\u01d0ng ji\u0101o r\u00f3ng) the blending of emotion and scenery", definitionEn:"the blending of emotion and scenery"},
-        {term:"\u60c6\u6005", termEn:"melancholy; wistful", definition:"(ch\u00f3u ch\u00e0ng) melancholy; wistful", definitionEn:"melancholy; wistful"},
-        {term:"\u8eab\u4e34\u5176\u5883", termEn:"to be there in person; immersive", definition:"(sh\u0113n l\u00edn q\u00ed j\u00ecng) to be there in person; immersive", definitionEn:"to be there in person; immersive"},
-        {term:"\u80f8\u6709\u4e18\u58d1", termEn:"to have hills and valleys in one\u2019s breast (artistic vision)", definition:"(xi\u014dng y\u01d2u qi\u016b h\u00e8) to have hills and valleys in one\u2019s breast (artistic vision)", definitionEn:"to have hills and valleys in one\u2019s breast (artistic vision)"}
+        {term:"\u610f\u5883", termEn:"artistic conception; mood and atmosphere", definition:"\u3010y\u00ec j\u00ecng\u3011artistic conception; mood and atmosphere\u3002", definitionEn:"artistic conception; mood and atmosphere"},
+        {term:"\u60c5\u666f\u4ea4\u878d", termEn:"the blending of emotion and scenery", definition:"\u3010q\u00edng j\u01d0ng ji\u0101o r\u00f3ng\u3011the blending of emotion and scenery\u3002", definitionEn:"the blending of emotion and scenery"},
+        {term:"\u60c6\u6005", termEn:"melancholy; wistful", definition:"\u3010ch\u00f3u ch\u00e0ng\u3011melancholy; wistful\u3002", definitionEn:"melancholy; wistful"},
+        {term:"\u8eab\u4e34\u5176\u5883", termEn:"to be there in person; immersive", definition:"\u3010sh\u0113n l\u00edn q\u00ed j\u00ecng\u3011to be there in person; immersive\u3002", definitionEn:"to be there in person; immersive"},
+        {term:"\u80f8\u6709\u4e18\u58d1", termEn:"to have hills and valleys in one\u2019s breast (artistic vision)", definition:"\u3010xi\u014dng y\u01d2u qi\u016b h\u00e8\u3011to have hills and valleys in one\u2019s breast (artistic vision)\u3002", definitionEn:"to have hills and valleys in one\u2019s breast (artistic vision)"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'以诗论画',pointEn:'yǐ shī lùn huà',example:'discussing painting through poetry',exampleEn:'故人西辞黄鹤楼，烟花三月下扬州。',explanation:'My old friend bids farewell west of Yellow Crane Tower, descending to Yangzhou amid the misty blossoms of March.',explanationEn:'作者引用古诗来阐释绘画中的意境理论，实现了诗与画的相互印证。'}
@@ -1151,11 +1207,15 @@ units: [
         {word:'尽善尽美',pinyin:'jìn shàn jìn měi',en:'to be perfect in every way',sentence:'尽美尽善的条件很多。',sentenceEn:'There are many conditions for achieving perfection.'}
       ],
       footnotes: [
-        {term:"\u610f\u8574", termEn:"implied meaning; connotation", definition:"(y\u00ec y\u00f9n) implied meaning; connotation", definitionEn:"implied meaning; connotation"},
-        {term:"\u8a00\u4e0d\u5c3d\u610f", termEn:"words cannot fully express meaning", definition:"(y\u00e1n b\u00f9 j\u00ecn y\u00ec) words cannot fully express meaning", definitionEn:"words cannot fully express meaning"},
-        {term:"\u542b\u84c4\u4e0d\u9732", termEn:"implicit and restrained", definition:"(h\u00e1n x\u00f9 b\u00f9 l\u00f9) implicit and restrained", definitionEn:"implicit and restrained"},
-        {term:"\u94e2\u4e24\u6089\u79f0", termEn:"to match exactly in every detail", definition:"(zh\u016b li\u01ceng x\u012b ch\u00e8n) to match exactly in every detail", definitionEn:"to match exactly in every detail"},
-        {term:"\u5c3d\u5584\u5c3d\u7f8e", termEn:"to be perfect in every way", definition:"(j\u00ecn sh\u00e0n j\u00ecn m\u011bi) to be perfect in every way", definitionEn:"to be perfect in every way"}
+        {term:"\u610f\u8574", termEn:"implied meaning; connotation", definition:"\u3010y\u00ec y\u00f9n\u3011implied meaning; connotation\u3002", definitionEn:"implied meaning; connotation"},
+        {term:"\u8a00\u4e0d\u5c3d\u610f", termEn:"words cannot fully express meaning", definition:"\u3010y\u00e1n b\u00f9 j\u00ecn y\u00ec\u3011words cannot fully express meaning\u3002", definitionEn:"words cannot fully express meaning"},
+        {term:"\u542b\u84c4\u4e0d\u9732", termEn:"implicit and restrained", definition:"\u3010h\u00e1n x\u00f9 b\u00f9 l\u00f9\u3011implicit and restrained\u3002", definitionEn:"implicit and restrained"},
+        {term:"\u94e2\u4e24\u6089\u79f0", termEn:"to match exactly in every detail", definition:"\u3010zh\u016b li\u01ceng x\u012b ch\u00e8n\u3011to match exactly in every detail\u3002", definitionEn:"to match exactly in every detail"},
+        {term:"\u5c3d\u5584\u5c3d\u7f8e", termEn:"to be perfect in every way", definition:"\u3010j\u00ecn sh\u00e0n j\u00ecn m\u011bi\u3011to be perfect in every way\u3002", definitionEn:"to be perfect in every way"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       authorBio: {cn:"朱光潜（1897—1986），安徽桐城人，美学家、文艺理论家、翻译家。中国现代美学的开拓者和奠基者之一。著有《谈美》《西方美学史》等。", en:"Zhu Guangqian (1897–1986), from Tongcheng, Anhui. Aesthetician, literary theorist, and translator. A pioneer and founder of modern Chinese aesthetics. Works include On Beauty and A History of Western Aesthetics."},
       isSelfRead: true,
@@ -1199,11 +1259,15 @@ units: [
         {word:'受用',pinyin:'shòu yòng',en:'to benefit; to enjoy',sentence:'得到人生的受用。',sentenceEn:'To gain enjoyment and benefit in life.'}
       ],
       footnotes: [
-        {term:"\u9a71\u9063", termEn:"to drive; to deploy", definition:"(q\u016b qi\u01cen) to drive; to deploy", definitionEn:"to drive; to deploy"},
-        {term:"\u62d8\u6ce5", termEn:"to be rigid; to stick stubbornly to", definition:"(j\u016b n\u00ec) to be rigid; to stick stubbornly to", definitionEn:"to be rigid; to stick stubbornly to"},
-        {term:"\u9274\u8d4f", termEn:"to appreciate; to appraise", definition:"(ji\u00e0n sh\u01ceng) to appreciate; to appraise", definitionEn:"to appreciate; to appraise"},
-        {term:"\u610f\u5883", termEn:"artistic mood; conception", definition:"(y\u00ec j\u00ecng) artistic mood; conception", definitionEn:"artistic mood; conception"},
-        {term:"\u53d7\u7528", termEn:"to benefit; to enjoy", definition:"(sh\u00f2u y\u00f2ng) to benefit; to enjoy", definitionEn:"to benefit; to enjoy"}
+        {term:"\u9a71\u9063", termEn:"to drive; to deploy", definition:"\u3010q\u016b qi\u01cen\u3011to drive; to deploy\u3002", definitionEn:"to drive; to deploy"},
+        {term:"\u62d8\u6ce5", termEn:"to be rigid; to stick stubbornly to", definition:"\u3010j\u016b n\u00ec\u3011to be rigid; to stick stubbornly to\u3002", definitionEn:"to be rigid; to stick stubbornly to"},
+        {term:"\u9274\u8d4f", termEn:"to appreciate; to appraise", definition:"\u3010ji\u00e0n sh\u01ceng\u3011to appreciate; to appraise\u3002", definitionEn:"to appreciate; to appraise"},
+        {term:"\u610f\u5883", termEn:"artistic mood; conception", definition:"\u3010y\u00ec j\u00ecng\u3011artistic mood; conception\u3002", definitionEn:"artistic mood; conception"},
+        {term:"\u53d7\u7528", termEn:"to benefit; to enjoy", definition:"\u3010sh\u00f2u y\u00f2ng\u3011to benefit; to enjoy\u3002", definitionEn:"to benefit; to enjoy"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       authorBio: {cn:"叶圣陶（1894—1988），原名叶绍钧，江苏苏州人，作家、教育家、编辑家。有\u201c优秀的语言艺术家\u201d之称。代表作有《倪焕之》《稻草人》等。", en:"Ye Shengtao (1894–1988), original name Ye Shaojun, from Suzhou, Jiangsu. Writer, educator, and editor. Known as 'an excellent language artist.' Major works include Ni Huanzhi and The Scarecrow."},
       isSelfRead: true,
@@ -1296,11 +1360,15 @@ units: [
         {word:'炸裂',pinyin:'zhà liè',en:'to burst; to explode',sentence:'炸裂呀，我的身体！',sentenceEn:'Burst apart, my body!'}
       ],
       footnotes: [
-        {term:"\u5486\u54ee", termEn:"to roar; to howl", definition:"(p\u00e1o xi\u00e0o) to roar; to howl", definitionEn:"to roar; to howl"},
-        {term:"\u4f2b\u7acb", termEn:"to stand for a long time", definition:"(zh\u00f9 l\u00ec) to stand for a long time", definitionEn:"to stand for a long time"},
-        {term:"\u7765\u7768", termEn:"to look down upon with disdain", definition:"(p\u00ec n\u00ec) to look down upon with disdain", definitionEn:"to look down upon with disdain"},
-        {term:"\u7280\u5229", termEn:"sharp; incisive", definition:"(x\u012b l\u00ec) sharp; incisive", definitionEn:"sharp; incisive"},
-        {term:"\u70b8\u88c2", termEn:"to burst; to explode", definition:"(zh\u00e0 li\u00e8) to burst; to explode", definitionEn:"to burst; to explode"}
+        {term:"\u5486\u54ee", termEn:"to roar; to howl", definition:"\u3010p\u00e1o xi\u00e0o\u3011to roar; to howl\u3002", definitionEn:"to roar; to howl"},
+        {term:"\u4f2b\u7acb", termEn:"to stand for a long time", definition:"\u3010zh\u00f9 l\u00ec\u3011to stand for a long time\u3002", definitionEn:"to stand for a long time"},
+        {term:"\u7765\u7768", termEn:"to look down upon with disdain", definition:"\u3010p\u00ec n\u00ec\u3011to look down upon with disdain\u3002", definitionEn:"to look down upon with disdain"},
+        {term:"\u7280\u5229", termEn:"sharp; incisive", definition:"\u3010x\u012b l\u00ec\u3011sharp; incisive\u3002", definitionEn:"sharp; incisive"},
+        {term:"\u70b8\u88c2", termEn:"to burst; to explode", definition:"\u3010zh\u00e0 li\u00e8\u3011to burst; to explode\u3002", definitionEn:"to burst; to explode"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'戏剧独白',pointEn:'xì jù dú bái',example:'dramatic monologue',exampleEn:'风！你咆哮吧！咆哮吧！尽力地咆哮吧！',explanation:'Wind! Roar! Roar! Roar with all your might!',explanationEn:'大段独白是表达人物内心世界的重要手段，屈原的独白借风雷电抒发了对黑暗的愤怒和对光明的渴望。'},
@@ -1425,11 +1493,15 @@ units: [
         {word:'怯懦',pinyin:'qiè nuò',en:'timid; cowardly',sentence:'王子西怯懦地应声。',sentenceEn:'Wang Zixi timidly responded.'}
       ],
       footnotes: [
-        {term:"\u9f0e\u76db", termEn:"at the peak; flourishing", definition:"(d\u01d0ng sh\u00e8ng) at the peak; flourishing", definitionEn:"at the peak; flourishing"},
-        {term:"\u540d\u566a\u4eac\u5e08", termEn:"famous throughout the capital", definition:"(m\u00edng z\u00e0o j\u012bng sh\u012b) famous throughout the capital", definitionEn:"famous throughout the capital"},
-        {term:"\u6482\u6746", termEn:"to put down one\u2019s tools (quit)", definition:"(li\u00e0o g\u0101n) to put down one\u2019s tools (quit)", definitionEn:"to put down one\u2019s tools (quit)"},
-        {term:"\u7a9d\u56ca", termEn:"cowardly; weak", definition:"(w\u014d nang) cowardly; weak", definitionEn:"cowardly; weak"},
-        {term:"\u602f\u61e6", termEn:"timid; cowardly", definition:"(qi\u00e8 nu\u00f2) timid; cowardly", definitionEn:"timid; cowardly"}
+        {term:"\u9f0e\u76db", termEn:"at the peak; flourishing", definition:"\u3010d\u01d0ng sh\u00e8ng\u3011at the peak; flourishing\u3002", definitionEn:"at the peak; flourishing"},
+        {term:"\u540d\u566a\u4eac\u5e08", termEn:"famous throughout the capital", definition:"\u3010m\u00edng z\u00e0o j\u012bng sh\u012b\u3011famous throughout the capital\u3002", definitionEn:"famous throughout the capital"},
+        {term:"\u6482\u6746", termEn:"to put down one\u2019s tools (quit)", definition:"\u3010li\u00e0o g\u0101n\u3011to put down one\u2019s tools (quit)\u3002", definitionEn:"to put down one\u2019s tools (quit)"},
+        {term:"\u7a9d\u56ca", termEn:"cowardly; weak", definition:"\u3010w\u014d nang\u3011cowardly; weak\u3002", definitionEn:"cowardly; weak"},
+        {term:"\u602f\u61e6", termEn:"timid; cowardly", definition:"\u3010qi\u00e8 nu\u00f2\u3011timid; cowardly\u3002", definitionEn:"timid; cowardly"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'戏剧冲突',pointEn:'xì jù chōng tū',example:'dramatic conflict',exampleEn:'一个人干，八个人拆。',explanation:'One person builds, eight people tear down.',explanationEn:'话剧通过多重矛盾冲突推动情节发展：东家与掌柜、师傅与徒弟、内部与外部的矛盾层层叠加。'}
@@ -1958,11 +2030,15 @@ units: [
         {word:'皱巴巴',pinyin:'zhòu bā bā',en:'wrinkled; shriveled',sentence:'和你脸一样，皱巴巴的。',sentenceEn:'Just like your face, all wrinkled.'}
       ],
       footnotes: [
-        {term:"\u5583\u5583\u81ea\u8bed", termEn:"to murmur to oneself", definition:"(n\u00e1n n\u00e1n z\u00ec y\u01d4) to murmur to oneself", definitionEn:"to murmur to oneself"},
-        {term:"\u8e51\u624b\u8e51\u811a", termEn:"on tiptoe; stealthily", definition:"(ni\u00e8 sh\u01d2u ni\u00e8 ji\u01ceo) on tiptoe; stealthily", definitionEn:"on tiptoe; stealthily"},
-        {term:"\u559c\u51fa\u671b\u5916", termEn:"overjoyed; pleasantly surprised", definition:"(x\u01d0 ch\u016b w\u00e0ng w\u00e0i) overjoyed; pleasantly surprised", definitionEn:"overjoyed; pleasantly surprised"},
-        {term:"\u5a01\u4e25", termEn:"stern; dignified", definition:"(w\u0113i y\u00e1n) stern; dignified", definitionEn:"stern; dignified"},
-        {term:"\u76b1\u5df4\u5df4", termEn:"wrinkled; shriveled", definition:"(zh\u00f2u b\u0101 b\u0101) wrinkled; shriveled", definitionEn:"wrinkled; shriveled"}
+        {term:"\u5583\u5583\u81ea\u8bed", termEn:"to murmur to oneself", definition:"\u3010n\u00e1n n\u00e1n z\u00ec y\u01d4\u3011to murmur to oneself\u3002", definitionEn:"to murmur to oneself"},
+        {term:"\u8e51\u624b\u8e51\u811a", termEn:"on tiptoe; stealthily", definition:"\u3010ni\u00e8 sh\u01d2u ni\u00e8 ji\u01ceo\u3011on tiptoe; stealthily\u3002", definitionEn:"on tiptoe; stealthily"},
+        {term:"\u559c\u51fa\u671b\u5916", termEn:"overjoyed; pleasantly surprised", definition:"\u3010x\u01d0 ch\u016b w\u00e0ng w\u00e0i\u3011overjoyed; pleasantly surprised\u3002", definitionEn:"overjoyed; pleasantly surprised"},
+        {term:"\u5a01\u4e25", termEn:"stern; dignified", definition:"\u3010w\u0113i y\u00e1n\u3011stern; dignified\u3002", definitionEn:"stern; dignified"},
+        {term:"\u76b1\u5df4\u5df4", termEn:"wrinkled; shriveled", definition:"\u3010zh\u00f2u b\u0101 b\u0101\u3011wrinkled; shriveled\u3002", definitionEn:"wrinkled; shriveled"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'舞台象征',pointEn:'wǔ tái xiàng zhēng',example:'stage symbolism',exampleEn:'一棵挂满红枣的老树。',explanation:'An old tree laden with red dates.',explanationEn:'枣树象征故乡和传统，枣儿象征亲情与牵挂，整个舞台意象寄托了对乡土文化流失的感伤。'}
@@ -2358,11 +2434,15 @@ units: [
         {word:'败绩',pinyin:'bài jì',en:'to suffer a crushing defeat',sentence:'齐师败绩。',sentenceEn:'The army of Qi was routed.'}
       ],
       footnotes: [
-        {term:"\u8089\u98df\u8005", termEn:"meat-eaters (those in power)", definition:"(r\u00f2u sh\u00ed zh\u011b) meat-eaters (those in power)", definitionEn:"meat-eaters (those in power)"},
-        {term:"\u5c0f\u60e0", termEn:"small favor", definition:"(xi\u01ceo hu\u00ec) small favor", definitionEn:"small favor"},
-        {term:"\u4e00\u9f13\u4f5c\u6c14", termEn:"to succeed in one vigorous effort", definition:"(y\u012b g\u01d4 zu\u00f2 q\u00ec) to succeed in one vigorous effort", definitionEn:"to succeed in one vigorous effort"},
-        {term:"\u8f99\u4e71\u65d7\u9761", termEn:"wheel-tracks in disorder and banners fallen (signs of rout)", definition:"(zh\u00e9 lu\u00e0n q\u00ed m\u01d0) wheel-tracks in disorder and banners fallen (signs of rout)", definitionEn:"wheel-tracks in disorder and banners fallen (signs of rout)"},
-        {term:"\u8d25\u7ee9", termEn:"to suffer a crushing defeat", definition:"(b\u00e0i j\u00ec) to suffer a crushing defeat", definitionEn:"to suffer a crushing defeat"}
+        {term:"\u8089\u98df\u8005", termEn:"meat-eaters (those in power)", definition:"\u3010r\u00f2u sh\u00ed zh\u011b\u3011meat-eaters (those in power)\u3002", definitionEn:"meat-eaters (those in power)"},
+        {term:"\u5c0f\u60e0", termEn:"small favor", definition:"\u3010xi\u01ceo hu\u00ec\u3011small favor\u3002", definitionEn:"small favor"},
+        {term:"\u4e00\u9f13\u4f5c\u6c14", termEn:"to succeed in one vigorous effort", definition:"\u3010y\u012b g\u01d4 zu\u00f2 q\u00ec\u3011to succeed in one vigorous effort\u3002", definitionEn:"to succeed in one vigorous effort"},
+        {term:"\u8f99\u4e71\u65d7\u9761", termEn:"wheel-tracks in disorder and banners fallen (signs of rout)", definition:"\u3010zh\u00e9 lu\u00e0n q\u00ed m\u01d0\u3011wheel-tracks in disorder and banners fallen (signs of rout)\u3002", definitionEn:"wheel-tracks in disorder and banners fallen (signs of rout)"},
+        {term:"\u8d25\u7ee9", termEn:"to suffer a crushing defeat", definition:"\u3010b\u00e0i j\u00ec\u3011to suffer a crushing defeat\u3002", definitionEn:"to suffer a crushing defeat"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'详略得当',pointEn:'xiáng lüè dé dàng',example:'appropriate balance of detail and brevity',exampleEn:'公将鼓之。刿曰：未可。',explanation:'The Duke was about to order the drums struck. Gui said: Not yet.',explanationEn:'本文详写论战，略写战争过程，突出曹刿的军事才能和远见卓识。'}
@@ -2422,11 +2502,15 @@ units: [
         {word:'蔽',pinyin:'bì',en:'to be deceived; to have one’s vision obscured',sentence:'王之蔽甚矣。',sentenceEn:'Your Majesty has been greatly deceived.'}
       ],
       footnotes: [
-        {term:"\u8bbd\u8c0f", termEn:"to remonstrate through analogy; indirect admonishment", definition:"(f\u011bng ji\u00e0n) to remonstrate through analogy; indirect admonishment", definitionEn:"to remonstrate through analogy; indirect admonishment"},
-        {term:"\u6633\u4e3d", termEn:"handsome; beautiful", definition:"(y\u00ec l\u00ec) handsome; beautiful", definitionEn:"handsome; beautiful"},
-        {term:"\u95e8\u5ead\u82e5\u5e02", termEn:"the courtyard was like a marketplace (crowded with visitors)", definition:"(m\u00e9n t\u00edng ru\u00f2 sh\u00ec) the courtyard was like a marketplace (crowded with visitors)", definitionEn:"the courtyard was like a marketplace (crowded with visitors)"},
-        {term:"\u9762\u523a", termEn:"to criticize face to face", definition:"(mi\u00e0n c\u00ec) to criticize face to face", definitionEn:"to criticize face to face"},
-        {term:"\u853d", termEn:"to be deceived; to have one\u2019s vision obscured", definition:"(b\u00ec) to be deceived; to have one\u2019s vision obscured", definitionEn:"to be deceived; to have one\u2019s vision obscured"}
+        {term:"\u8bbd\u8c0f", termEn:"to remonstrate through analogy; indirect admonishment", definition:"\u3010f\u011bng ji\u00e0n\u3011to remonstrate through analogy; indirect admonishment\u3002", definitionEn:"to remonstrate through analogy; indirect admonishment"},
+        {term:"\u6633\u4e3d", termEn:"handsome; beautiful", definition:"\u3010y\u00ec l\u00ec\u3011handsome; beautiful\u3002", definitionEn:"handsome; beautiful"},
+        {term:"\u95e8\u5ead\u82e5\u5e02", termEn:"the courtyard was like a marketplace (crowded with visitors)", definition:"\u3010m\u00e9n t\u00edng ru\u00f2 sh\u00ec\u3011the courtyard was like a marketplace (crowded with visitors)\u3002", definitionEn:"the courtyard was like a marketplace (crowded with visitors)"},
+        {term:"\u9762\u523a", termEn:"to criticize face to face", definition:"\u3010mi\u00e0n c\u00ec\u3011to criticize face to face\u3002", definitionEn:"to criticize face to face"},
+        {term:"\u853d", termEn:"to be deceived; to have one\u2019s vision obscured", definition:"\u3010b\u00ec\u3011to be deceived; to have one\u2019s vision obscured\u3002", definitionEn:"to be deceived; to have one\u2019s vision obscured"}
+      ],
+      readingTips: [
+        {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+        {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
       grammarPoints: [
         {point:'设喻说理',pointEn:'shè yù shuō lǐ',example:'reasoning through analogy',exampleEn:'臣之妻私臣，臣之妾畏臣，臣之客欲有求于臣。',explanation:'My wife favors me, my concubine fears me, and my guest wants something from me.',explanationEn:'邹忌用自身比美的小事类比治国的大道理，由家及国，由小见大，委婉而有说服力。'},

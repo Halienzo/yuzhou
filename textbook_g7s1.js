@@ -37,11 +37,15 @@ var TB_G7S1 = {
             {word:'花枝招展',pinyin:'huā zhī zhāo zhǎn',en:'gorgeously dressed',sentence:'春天像小姑娘，花枝招展的，笑着，走着。',sentenceEn:'Spring is like a young girl, gorgeously dressed, smiling and walking.'}
           ],
           footnotes: [
-            {term:"\u6717\u6da6", termEn:"bright and moist", definition:"(l\u01ceng r\u00f9n) bright and moist", definitionEn:"bright and moist"},
-            {term:"\u915d\u917f", termEn:"brew; develop gradually", definition:"(y\u00f9n ni\u00e0ng) brew; develop gradually", definitionEn:"brew; develop gradually"},
-            {term:"\u5ae9\u7eff", termEn:"tender green", definition:"(n\u00e8n l\u01dc) tender green", definitionEn:"tender green"},
-            {term:"\u6296\u64de", termEn:"invigorate", definition:"(d\u01d2u s\u01d2u) invigorate", definitionEn:"invigorate"},
-            {term:"\u82b1\u679d\u62db\u5c55", termEn:"gorgeously dressed", definition:"(hu\u0101 zh\u012b zh\u0101o zh\u01cen) gorgeously dressed", definitionEn:"gorgeously dressed"}
+            {term:"\u6717\u6da6", termEn:"bright and moist", definition:"\u3010l\u01ceng r\u00f9n\u3011bright and moist\u3002", definitionEn:"bright and moist"},
+            {term:"\u915d\u917f", termEn:"brew; develop gradually", definition:"\u3010y\u00f9n ni\u00e0ng\u3011brew; develop gradually\u3002", definitionEn:"brew; develop gradually"},
+            {term:"\u5ae9\u7eff", termEn:"tender green", definition:"\u3010n\u00e8n l\u01dc\u3011tender green\u3002", definitionEn:"tender green"},
+            {term:"\u6296\u64de", termEn:"invigorate", definition:"\u3010d\u01d2u s\u01d2u\u3011invigorate\u3002", definitionEn:"invigorate"},
+            {term:"\u82b1\u679d\u62db\u5c55", termEn:"gorgeously dressed", definition:"\u3010hu\u0101 zh\u012b zh\u0101o zh\u01cen\u3011gorgeously dressed\u3002", definitionEn:"gorgeously dressed"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'比喻',pointEn:'bǐ yù',example:'simile and metaphor',exampleEn:'春天像刚落地的娃娃，从头到脚都是新的。',explanation:'Spring is like a newborn baby, new from head to toe.',explanationEn:'用比喻修辞手法将春天具体化，增强形象感'},
@@ -136,11 +140,15 @@ var TB_G7S1 = {
             {word:'空灵',pinyin:'kōng líng',en:'ethereal; crystalline',sentence:'整个的是块空灵的蓝水晶。',sentenceEn:'The whole thing is an ethereal blue crystal.'}
           ],
           footnotes: [
-            {term:"\u6e29\u6674", termEn:"warm and sunny", definition:"(w\u0113n q\u00edng) warm and sunny", definitionEn:"warm and sunny"},
-            {term:"\u54cd\u6674", termEn:"perfectly clear", definition:"(xi\u01ceng q\u00edng) perfectly clear", definitionEn:"perfectly clear"},
-            {term:"\u5b89\u9002", termEn:"comfortable and cozy", definition:"(\u0101n sh\u00ec) comfortable and cozy", definitionEn:"comfortable and cozy"},
-            {term:"\u6c34\u58a8\u753b", termEn:"ink wash painting", definition:"(shu\u01d0 m\u00f2 hu\u00e0) ink wash painting", definitionEn:"ink wash painting"},
-            {term:"\u7a7a\u7075", termEn:"ethereal; crystalline", definition:"(k\u014dng l\u00edng) ethereal; crystalline", definitionEn:"ethereal; crystalline"}
+            {term:"\u6e29\u6674", termEn:"warm and sunny", definition:"\u3010w\u0113n q\u00edng\u3011warm and sunny\u3002", definitionEn:"warm and sunny"},
+            {term:"\u54cd\u6674", termEn:"perfectly clear", definition:"\u3010xi\u01ceng q\u00edng\u3011perfectly clear\u3002", definitionEn:"perfectly clear"},
+            {term:"\u5b89\u9002", termEn:"comfortable and cozy", definition:"\u3010\u0101n sh\u00ec\u3011comfortable and cozy\u3002", definitionEn:"comfortable and cozy"},
+            {term:"\u6c34\u58a8\u753b", termEn:"ink wash painting", definition:"\u3010shu\u01d0 m\u00f2 hu\u00e0\u3011ink wash painting\u3002", definitionEn:"ink wash painting"},
+            {term:"\u7a7a\u7075", termEn:"ethereal; crystalline", definition:"\u3010k\u014dng l\u00edng\u3011ethereal; crystalline\u3002", definitionEn:"ethereal; crystalline"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'对比',pointEn:'duì bǐ',example:'contrast',exampleEn:'对于一个在北平住惯的人，像我，冬天要是不刮大风，便觉得是奇迹。',explanation:'For someone used to living in Beiping, like me, it is a miracle if there is no strong wind in winter.',explanationEn:'通过与北平、伦敦对比突出济南冬天的温暖'}
@@ -220,11 +228,15 @@ var TB_G7S1 = {
             {word:'吝啬',pinyin:'lìn sè',en:'stingy; sparing',sentence:'它变得更吝啬了。',sentenceEn:'It becomes more sparing.'}
           ],
           footnotes: [
-            {term:"\u9759\u8c27", termEn:"tranquil; serene", definition:"(j\u00ecng m\u00ec) tranquil; serene", definitionEn:"tranquil; serene"},
-            {term:"\u9ad8\u9088", termEn:"high and distant", definition:"(g\u0101o mi\u01ceo) high and distant", definitionEn:"high and distant"},
-            {term:"\u8385\u4e34", termEn:"arrive (of honored guests)", definition:"(l\u00ec l\u00edn) arrive (of honored guests)", definitionEn:"arrive (of honored guests)"},
-            {term:"\u7c97\u72b7", termEn:"bold and uninhibited", definition:"(c\u016b gu\u01ceng) bold and uninhibited", definitionEn:"bold and uninhibited"},
-            {term:"\u541d\u556c", termEn:"stingy; sparing", definition:"(l\u00ecn s\u00e8) stingy; sparing", definitionEn:"stingy; sparing"}
+            {term:"\u9759\u8c27", termEn:"tranquil; serene", definition:"\u3010j\u00ecng m\u00ec\u3011tranquil; serene\u3002", definitionEn:"tranquil; serene"},
+            {term:"\u9ad8\u9088", termEn:"high and distant", definition:"\u3010g\u0101o mi\u01ceo\u3011high and distant\u3002", definitionEn:"high and distant"},
+            {term:"\u8385\u4e34", termEn:"arrive (of honored guests)", definition:"\u3010l\u00ec l\u00edn\u3011arrive (of honored guests)\u3002", definitionEn:"arrive (of honored guests)"},
+            {term:"\u7c97\u72b7", termEn:"bold and uninhibited", definition:"\u3010c\u016b gu\u01ceng\u3011bold and uninhibited\u3002", definitionEn:"bold and uninhibited"},
+            {term:"\u541d\u556c", termEn:"stingy; sparing", definition:"\u3010l\u00ecn s\u00e8\u3011stingy; sparing\u3002", definitionEn:"stingy; sparing"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           authorBio: {
             cn: "刘湛秋，当代诗人、散文家。",
@@ -269,10 +281,10 @@ var TB_G7S1 = {
             { id: 5, term: "吝啬", pinyin: "lìnsè", definition: "过分爱惜自己的财物，不舍得给别人，也不舍得自己用。", definitionEn: "Excessively protective of one's possessions; stingy." },
             { id: 6, term: "淅淅沥沥", pinyin: "xīxīlìlì", definition: "形容轻微的风声、雨声、落叶声等。", definitionEn: "Describes the soft sounds of wind, rain, or falling leaves." }
           ],
-          readingTips: {
+          readingTips: [{
             cn: "优美的写景散文常常用饱含感情的、细腻生动的笔墨，把景物描写得分外美丽，分外灵动。文中的四季之雨，\u201C容貌\u201D有别，\u201C性情\u201D各异。作者用诗一般的语言，调动我们的各种感官，全面感受这四季之雨，让我们亲近雨，体会雨的不同情致与风韵。",
             en: "Beautiful landscape prose often uses emotionally charged, delicate and vivid writing to depict scenery with extraordinary beauty and spirit. The rain of four seasons in this text has different 'appearances' and 'temperaments.' The author uses poetic language to engage all our senses, letting us fully experience the rain of four seasons and appreciate its different moods and charms."
-          },
+          }],
           teachingPoints: [
             { cn: "学习从视觉、听觉、嗅觉等多角度描写景物的方法。", en: "Learn methods of describing scenery from multiple sensory perspectives including visual, auditory, and olfactory." }
           ],
@@ -297,11 +309,15 @@ var TB_G7S1 = {
             {word:'残夜',pinyin:'cán yè',en:'the last moments of night',sentence:'海日生残夜，江春入旧年。',sentenceEn:'The sea sun rises from the last moments of night, river spring enters the old year.'}
           ],
           footnotes: [
-            {term:"\u6fb9\u6fb9", termEn:"rippling", definition:"(d\u00e0n d\u00e0n) rippling", definitionEn:"rippling"},
-            {term:"\u7ae6\u5cd9", termEn:"stand tall", definition:"(s\u01d2ng zh\u00ec) stand tall", definitionEn:"stand tall"},
-            {term:"\u67af\u85e4", termEn:"withered vines", definition:"(k\u016b t\u00e9ng) withered vines", definitionEn:"withered vines"},
-            {term:"\u65ad\u80a0", termEn:"heartbroken", definition:"(du\u00e0n ch\u00e1ng) heartbroken", definitionEn:"heartbroken"},
-            {term:"\u6b8b\u591c", termEn:"the last moments of night", definition:"(c\u00e1n y\u00e8) the last moments of night", definitionEn:"the last moments of night"}
+            {term:"\u6fb9\u6fb9", termEn:"rippling", definition:"\u3010d\u00e0n d\u00e0n\u3011rippling\u3002", definitionEn:"rippling"},
+            {term:"\u7ae6\u5cd9", termEn:"stand tall", definition:"\u3010s\u01d2ng zh\u00ec\u3011stand tall\u3002", definitionEn:"stand tall"},
+            {term:"\u67af\u85e4", termEn:"withered vines", definition:"\u3010k\u016b t\u00e9ng\u3011withered vines\u3002", definitionEn:"withered vines"},
+            {term:"\u65ad\u80a0", termEn:"heartbroken", definition:"\u3010du\u00e0n ch\u00e1ng\u3011heartbroken\u3002", definitionEn:"heartbroken"},
+            {term:"\u6b8b\u591c", termEn:"the last moments of night", definition:"\u3010c\u00e1n y\u00e8\u3011the last moments of night\u3002", definitionEn:"the last moments of night"}
+          ],
+          readingTips: [
+            {cn:"\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f3\u97f5\u7f8e\u548c\u610f\u5883\u7f8e\u3002\u6ce8\u610f\u5206\u6790\u8bd7\u4e2d\u7684\u610f\u8c61\u548c\u4fee\u8f9e\u624b\u6cd5\u3002", en:"Read aloud repeatedly to appreciate the phonetic beauty and artistic conception. Analyze the imagery and rhetorical devices used."},
+            {cn:"\u7ed3\u5408\u8bd7\u4eba\u7684\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u4e2d\u8574\u542b\u7684\u601d\u60f3\u611f\u60c5\u3002", en:"Consider the poet's life and the context of writing to understand the deeper emotions expressed."}
           ],
           grammarPoints: [
             {point:'借景抒情',pointEn:'jiè jǐng shū qíng',example:'express feelings through scenery',exampleEn:'枯藤老树昏鸦，小桥流水人家，古道西风瘦马。',explanation:'Withered vines, old trees, crows at dusk; a small bridge, flowing water, cottages; an ancient road, west wind, a lean horse.',explanationEn:'通过罗列意象营造凄凉氛围，表达游子思乡之情'}
@@ -454,11 +470,15 @@ var TB_G7S1 = {
             {word:'烂漫',pinyin:'làn màn',en:'bright and colorful',sentence:'北海的菊花开了，烂漫极了。',sentenceEn:'The chrysanthemums at Beihai bloomed, bright and colorful.'}
           ],
           footnotes: [
-            {term:"\u762b\u75ea", termEn:"paralyzed", definition:"(t\u0101n hu\u00e0n) paralyzed", definitionEn:"paralyzed"},
-            {term:"\u66b4\u6012", termEn:"furious rage", definition:"(b\u00e0o n\u00f9) furious rage", definitionEn:"furious rage"},
-            {term:"\u6194\u60b4", termEn:"haggard; worn out", definition:"(qi\u00e1o cu\u00ec) haggard; worn out", definitionEn:"haggard; worn out"},
-            {term:"\u8bc0\u522b", termEn:"final farewell", definition:"(ju\u00e9 bi\u00e9) final farewell", definitionEn:"final farewell"},
-            {term:"\u70c2\u6f2b", termEn:"bright and colorful", definition:"(l\u00e0n m\u00e0n) bright and colorful", definitionEn:"bright and colorful"}
+            {term:"\u762b\u75ea", termEn:"paralyzed", definition:"\u3010t\u0101n hu\u00e0n\u3011paralyzed\u3002", definitionEn:"paralyzed"},
+            {term:"\u66b4\u6012", termEn:"furious rage", definition:"\u3010b\u00e0o n\u00f9\u3011furious rage\u3002", definitionEn:"furious rage"},
+            {term:"\u6194\u60b4", termEn:"haggard; worn out", definition:"\u3010qi\u00e1o cu\u00ec\u3011haggard; worn out\u3002", definitionEn:"haggard; worn out"},
+            {term:"\u8bc0\u522b", termEn:"final farewell", definition:"\u3010ju\u00e9 bi\u00e9\u3011final farewell\u3002", definitionEn:"final farewell"},
+            {term:"\u70c2\u6f2b", termEn:"bright and colorful", definition:"\u3010l\u00e0n m\u00e0n\u3011bright and colorful\u3002", definitionEn:"bright and colorful"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'反复',pointEn:'fǎn fù',example:'repetition',exampleEn:'她出去了，就再也没回来。',explanation:'She went out and never came back again.',explanationEn:'用简洁的语言表达深沉的母爱与永恒的遗憾'},
@@ -536,11 +556,15 @@ var TB_G7S1 = {
             {word:'熬',pinyin:'áo',en:'endure; pull through',sentence:'她又熬过了一个严冬。',sentenceEn:'She endured through another harsh winter.'}
           ],
           footnotes: [
-            {term:"\u5206\u6b67", termEn:"disagreement", definition:"(f\u0113n q\u00ed) disagreement", definitionEn:"disagreement"},
-            {term:"\u970e\u65f6", termEn:"in an instant", definition:"(sh\u00e0 sh\u00ed) in an instant", definitionEn:"in an instant"},
-            {term:"\u7cbc\u7cbc", termEn:"shimmering (of water)", definition:"(l\u00edn l\u00edn) shimmering (of water)", definitionEn:"shimmering (of water)"},
-            {term:"\u5ae9\u82bd", termEn:"tender buds", definition:"(n\u00e8n y\u00e1) tender buds", definitionEn:"tender buds"},
-            {term:"\u71ac", termEn:"endure; pull through", definition:"(\u00e1o) endure; pull through", definitionEn:"endure; pull through"}
+            {term:"\u5206\u6b67", termEn:"disagreement", definition:"\u3010f\u0113n q\u00ed\u3011disagreement\u3002", definitionEn:"disagreement"},
+            {term:"\u970e\u65f6", termEn:"in an instant", definition:"\u3010sh\u00e0 sh\u00ed\u3011in an instant\u3002", definitionEn:"in an instant"},
+            {term:"\u7cbc\u7cbc", termEn:"shimmering (of water)", definition:"\u3010l\u00edn l\u00edn\u3011shimmering (of water)\u3002", definitionEn:"shimmering (of water)"},
+            {term:"\u5ae9\u82bd", termEn:"tender buds", definition:"\u3010n\u00e8n y\u00e1\u3011tender buds\u3002", definitionEn:"tender buds"},
+            {term:"\u71ac", termEn:"endure; pull through", definition:"\u3010\u00e1o\u3011endure; pull through\u3002", definitionEn:"endure; pull through"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'以小见大',pointEn:'yǐ xiǎo jiàn dà',example:'reveal the big through the small',exampleEn:'好像我背上的同她背上的加起来，就是整个世界。',explanation:'As if what was on my back and hers together was the whole world.',explanationEn:'通过一次散步展现家庭的责任与爱'}
@@ -613,11 +637,15 @@ var TB_G7S1 = {
             {word:'慈怜',pinyin:'cí lián',en:'tender compassion',sentence:'心中的雨点来了，除了你，谁是我无遮拦天空下的荫蔽？',sentenceEn:'When the rain of my heart comes, except for you, who is my shelter under the open sky?'}
           ],
           footnotes: [
-            {term:"\u91d1\u8272\u82b1", termEn:"golden flower", definition:"(j\u012bn s\u00e8 hu\u0101) golden flower", definitionEn:"golden flower"},
-            {term:"\u8377\u53f6", termEn:"lotus leaf", definition:"(h\u00e9 y\u00e8) lotus leaf", definitionEn:"lotus leaf"},
-            {term:"\u533f\u7b11", termEn:"snicker; laugh secretly", definition:"(n\u00ec xi\u00e0o) snicker; laugh secretly", definitionEn:"snicker; laugh secretly"},
-            {term:"\u4ead\u4ead", termEn:"gracefully upright", definition:"(t\u00edng t\u00edng) gracefully upright", definitionEn:"gracefully upright"},
-            {term:"\u6148\u601c", termEn:"tender compassion", definition:"(c\u00ed li\u00e1n) tender compassion", definitionEn:"tender compassion"}
+            {term:"\u91d1\u8272\u82b1", termEn:"golden flower", definition:"\u3010j\u012bn s\u00e8 hu\u0101\u3011golden flower\u3002", definitionEn:"golden flower"},
+            {term:"\u8377\u53f6", termEn:"lotus leaf", definition:"\u3010h\u00e9 y\u00e8\u3011lotus leaf\u3002", definitionEn:"lotus leaf"},
+            {term:"\u533f\u7b11", termEn:"snicker; laugh secretly", definition:"\u3010n\u00ec xi\u00e0o\u3011snicker; laugh secretly\u3002", definitionEn:"snicker; laugh secretly"},
+            {term:"\u4ead\u4ead", termEn:"gracefully upright", definition:"\u3010t\u00edng t\u00edng\u3011gracefully upright\u3002", definitionEn:"gracefully upright"},
+            {term:"\u6148\u601c", termEn:"tender compassion", definition:"\u3010c\u00ed li\u00e1n\u3011tender compassion\u3002", definitionEn:"tender compassion"}
+          ],
+          readingTips: [
+            {cn:"\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f3\u97f5\u7f8e\u548c\u610f\u5883\u7f8e\u3002\u6ce8\u610f\u5206\u6790\u8bd7\u4e2d\u7684\u610f\u8c61\u548c\u4fee\u8f9e\u624b\u6cd5\u3002", en:"Read aloud repeatedly to appreciate the phonetic beauty and artistic conception. Analyze the imagery and rhetorical devices used."},
+            {cn:"\u7ed3\u5408\u8bd7\u4eba\u7684\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u4e2d\u8574\u542b\u7684\u601d\u60f3\u611f\u60c5\u3002", en:"Consider the poet's life and the context of writing to understand the deeper emotions expressed."}
           ],
           grammarPoints: [
             {point:'象征',pointEn:'xiàng zhēng',example:'symbolism',exampleEn:'母亲呵！你是荷叶，我是红莲。',explanation:'Mother! You are the lotus leaf, I am the red lotus.',explanationEn:'以荷叶护红莲象征母爱的庇护'}
@@ -647,10 +675,10 @@ var TB_G7S1 = {
             { id: 2, term: "菡萏", pinyin: "hàndàn", definition: "荷花的别称，这里指红莲含苞未放。", definitionEn: "Another name for lotus; here referring to an unopened red lotus bud." },
             { id: 3, term: "攲斜", pinyin: "qīxié", definition: "倾斜，歪斜。", definitionEn: "Tilted, leaning." }
           ],
-          readingTips: {
+          readingTips: [{
             cn: "散文诗有诗的情绪与想象，像诗一样精粹、凝练，但不像诗歌那样分行与押韵，而是以散文形式呈现。《金色花》写想象之事，以儿童的视角表达对母亲的依恋；而《荷叶·母亲》则写现实与联想，以荷叶比喻母亲，赞颂伟大的母爱。",
             en: "Prose poems have the emotion and imagination of poetry and are as refined and concentrated, but they don't use line breaks or rhyme like poetry — they are presented in prose form. The Golden Flower uses imagination from a child's perspective to express attachment to a mother; Lotus Leaf and Mother uses reality and association, comparing a mother to a lotus leaf to praise great maternal love."
-          },
+          }],
           teachingPoints: [
             { cn: "理解散文诗的文体特点：兼具诗的情感与散文的形式。", en: "Understand the genre characteristics of prose poetry: combining poetic emotion with prose form." }
           ],
@@ -675,11 +703,15 @@ var TB_G7S1 = {
             {word:'惭愧',pinyin:'cán kuì',en:'ashamed',sentence:'友人惭，下车引之。',sentenceEn:'The friend was ashamed and got off his carriage to greet him.'}
           ],
           footnotes: [
-            {term:"\u6b23\u7136", termEn:"joyfully", definition:"(x\u012bn r\u00e1n) joyfully", definitionEn:"joyfully"},
-            {term:"\u7eb7\u7eb7", termEn:"falling in profusion", definition:"(f\u0113n f\u0113n) falling in profusion", definitionEn:"falling in profusion"},
-            {term:"\u671f\u884c", termEn:"make an appointment to travel together", definition:"(q\u012b x\u00edng) make an appointment to travel together", definitionEn:"make an appointment to travel together"},
-            {term:"\u820d\u53bb", termEn:"leave and depart", definition:"(sh\u011b q\u00f9) leave and depart", definitionEn:"leave and depart"},
-            {term:"\u60ed\u6127", termEn:"ashamed", definition:"(c\u00e1n ku\u00ec) ashamed", definitionEn:"ashamed"}
+            {term:"\u6b23\u7136", termEn:"joyfully", definition:"\u3010x\u012bn r\u00e1n\u3011joyfully\u3002", definitionEn:"joyfully"},
+            {term:"\u7eb7\u7eb7", termEn:"falling in profusion", definition:"\u3010f\u0113n f\u0113n\u3011falling in profusion\u3002", definitionEn:"falling in profusion"},
+            {term:"\u671f\u884c", termEn:"make an appointment to travel together", definition:"\u3010q\u012b x\u00edng\u3011make an appointment to travel together\u3002", definitionEn:"make an appointment to travel together"},
+            {term:"\u820d\u53bb", termEn:"leave and depart", definition:"\u3010sh\u011b q\u00f9\u3011leave and depart\u3002", definitionEn:"leave and depart"},
+            {term:"\u60ed\u6127", termEn:"ashamed", definition:"\u3010c\u00e1n ku\u00ec\u3011ashamed\u3002", definitionEn:"ashamed"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'文言虚词',pointEn:'wén yán xū cí',example:'classical Chinese function words',exampleEn:'太丘舍去，去后乃至。',explanation:'Taiqiu left, and the friend arrived after he had gone.',explanationEn:'理解乃、之、而等虚词在文言文中的用法'}
@@ -807,11 +839,15 @@ var TB_G7S1 = {
             {word:'拗',pinyin:'ǎo',en:'bend',sentence:'用力地拗开它的角。',sentenceEn:'Forcefully bend open its horns.'}
           ],
           footnotes: [
-            {term:"\u786e\u51ff", termEn:"definite; certain", definition:"(qu\u00e8 z\u00e1o) definite; certain", definitionEn:"definite; certain"},
-            {term:"\u6512", termEn:"gather together", definition:"(cu\u00e1n) gather together", definitionEn:"gather together"},
-            {term:"\u6e0a\u535a", termEn:"profound and extensive (knowledge)", definition:"(yu\u0101n b\u00f3) profound and extensive (knowledge)", definitionEn:"profound and extensive (knowledge)"},
-            {term:"\u4eba\u8ff9\u7f55\u81f3", termEn:"seldom visited by people", definition:"(r\u00e9n j\u00ec h\u01cen zh\u00ec) seldom visited by people", definitionEn:"seldom visited by people"},
-            {term:"\u62d7", termEn:"bend", definition:"(\u01ceo) bend", definitionEn:"bend"}
+            {term:"\u786e\u51ff", termEn:"definite; certain", definition:"\u3010qu\u00e8 z\u00e1o\u3011definite; certain\u3002", definitionEn:"definite; certain"},
+            {term:"\u6512", termEn:"gather together", definition:"\u3010cu\u00e1n\u3011gather together\u3002", definitionEn:"gather together"},
+            {term:"\u6e0a\u535a", termEn:"profound and extensive (knowledge)", definition:"\u3010yu\u0101n b\u00f3\u3011profound and extensive (knowledge)\u3002", definitionEn:"profound and extensive (knowledge)"},
+            {term:"\u4eba\u8ff9\u7f55\u81f3", termEn:"seldom visited by people", definition:"\u3010r\u00e9n j\u00ec h\u01cen zh\u00ec\u3011seldom visited by people\u3002", definitionEn:"seldom visited by people"},
+            {term:"\u62d7", termEn:"bend", definition:"\u3010\u01ceo\u3011bend\u3002", definitionEn:"bend"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'对比',pointEn:'duì bǐ',example:'contrast',exampleEn:'百草园的自由快乐与三味书屋的枯燥对比。',explanation:'Contrast between the freedom and joy of Hundred-Herb Garden and the dullness of Three-Flavour Study.',explanationEn:'通过两个空间的对比表达作者对童年自由的怀念'},
@@ -919,11 +955,15 @@ var TB_G7S1 = {
             {word:'唤醒',pinyin:'huàn xǐng',en:'awaken',sentence:'她唤醒了我的灵魂，给予我光明和希望。',sentenceEn:'She awakened my soul, giving me light and hope.'}
           ],
           footnotes: [
-            {term:"\u622a\u7136\u4e0d\u540c", termEn:"completely different", definition:"(ji\u00e9 r\u00e1n b\u00f9 t\u00f3ng) completely different", definitionEn:"completely different"},
-            {term:"\u611f\u6168", termEn:"sigh with emotion", definition:"(g\u01cen k\u01cei) sigh with emotion", definitionEn:"sigh with emotion"},
-            {term:"\u604d\u7136\u5927\u609f", termEn:"suddenly see the light", definition:"(hu\u01ceng r\u00e1n d\u00e0 w\u00f9) suddenly see the light", definitionEn:"suddenly see the light"},
-            {term:"\u4f01\u76fc", termEn:"eagerly hope", definition:"(q\u01d0 p\u00e0n) eagerly hope", definitionEn:"eagerly hope"},
-            {term:"\u5524\u9192", termEn:"awaken", definition:"(hu\u00e0n x\u01d0ng) awaken", definitionEn:"awaken"}
+            {term:"\u622a\u7136\u4e0d\u540c", termEn:"completely different", definition:"\u3010ji\u00e9 r\u00e1n b\u00f9 t\u00f3ng\u3011completely different\u3002", definitionEn:"completely different"},
+            {term:"\u611f\u6168", termEn:"sigh with emotion", definition:"\u3010g\u01cen k\u01cei\u3011sigh with emotion\u3002", definitionEn:"sigh with emotion"},
+            {term:"\u604d\u7136\u5927\u609f", termEn:"suddenly see the light", definition:"\u3010hu\u01ceng r\u00e1n d\u00e0 w\u00f9\u3011suddenly see the light\u3002", definitionEn:"suddenly see the light"},
+            {term:"\u4f01\u76fc", termEn:"eagerly hope", definition:"\u3010q\u01d0 p\u00e0n\u3011eagerly hope\u3002", definitionEn:"eagerly hope"},
+            {term:"\u5524\u9192", termEn:"awaken", definition:"\u3010hu\u00e0n x\u01d0ng\u3011awaken\u3002", definitionEn:"awaken"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'细节描写',pointEn:'xì jié miáo xiě',example:'detailed description',exampleEn:'莎莉文老师把洋娃娃放在我的手中，然后在我手心里慢慢拼写。',explanation:'Miss Sullivan put a doll in my hand, then slowly spelled in my palm.',explanationEn:'通过感官细节展现海伦的内心世界'}
@@ -980,10 +1020,10 @@ var TB_G7S1 = {
             { id: 2, term: "美不胜收", pinyin: "měibùshèngshōu", definition: "美好的东西太多，一时接受不完。胜，完、尽。", definitionEn: "So many beautiful things that one cannot take them all in. 胜 means to exhaust." },
             { id: 3, term: "不求甚解", pinyin: "bùqiúshènjiě", definition: "原指领会大意。现在多指读书学习只求懂得大概，不求深刻了解。", definitionEn: "Originally meant to grasp the general meaning. Now often means only seeking a rough understanding without deep comprehension." }
           ],
-          readingTips: {
+          readingTips: [{
             cn: "阅读文章，要关注标题，尤其是那些能揭示主旨的标题。本文题为《再塑生命的人》，为什么生命要\u201C再塑\u201D呢？谁来\u201C再塑\u201D生命？如何做到的？带着这些问题阅读课文，你就会注意到一些与标题照应的语句。文章在叙事之中常常穿插一些抒情或议论，从中可以了解到\u201C再塑生命\u201D过程中\u201C我\u201D的心理感受。",
             en: "When reading, pay attention to the title, especially those that reveal the theme. This text is titled 'The One Who Remade My Life' — why does life need 'remaking'? Who 'remakes' it? How? Reading with these questions, you'll notice sentences that echo the title. The text often interweaves narration with lyrical or reflective passages, revealing the narrator's psychological experience during the 'remaking' process."
-          },
+          }],
           teachingPoints: [
             { cn: "学习在叙事中穿插抒情和议论的写法。", en: "Learn the technique of interweaving narration with lyrical and reflective passages." },
             { cn: "理解\u201C再塑生命\u201D的含义——莎莉文老师对海伦的教育不仅传授知识，更唤醒了她的灵魂。", en: "Understand the meaning of 'remaking life' — Sullivan's education not only imparted knowledge but also awakened Helen's soul." }
@@ -1009,11 +1049,15 @@ var TB_G7S1 = {
             {word:'博学',pinyin:'bó xué',en:'broad learning',sentence:'博学而笃志，切问而近思。',sentenceEn:'Learn broadly and hold firm to your aspirations, question earnestly and reflect on what is near.'}
           ],
           footnotes: [
-            {term:"\u4e0d\u4ea6\u4e50\u4e4e", termEn:"is it not a joy", definition:"(b\u00f9 y\u00ec l\u00e8 h\u016b) is it not a joy", definitionEn:"is it not a joy"},
-            {term:"\u4e09\u7701", termEn:"examine oneself in three ways", definition:"(s\u0101n x\u01d0ng) examine oneself in three ways", definitionEn:"examine oneself in three ways"},
-            {term:"\u6e29\u6545\u77e5\u65b0", termEn:"review the old to learn the new", definition:"(w\u0113n g\u00f9 zh\u012b x\u012bn) review the old to learn the new", definitionEn:"review the old to learn the new"},
-            {term:"\u903e\u77e9", termEn:"overstep the rules", definition:"(y\u00fa j\u01d4) overstep the rules", definitionEn:"overstep the rules"},
-            {term:"\u535a\u5b66", termEn:"broad learning", definition:"(b\u00f3 xu\u00e9) broad learning", definitionEn:"broad learning"}
+            {term:"\u4e0d\u4ea6\u4e50\u4e4e", termEn:"is it not a joy", definition:"\u3010b\u00f9 y\u00ec l\u00e8 h\u016b\u3011is it not a joy\u3002", definitionEn:"is it not a joy"},
+            {term:"\u4e09\u7701", termEn:"examine oneself in three ways", definition:"\u3010s\u0101n x\u01d0ng\u3011examine oneself in three ways\u3002", definitionEn:"examine oneself in three ways"},
+            {term:"\u6e29\u6545\u77e5\u65b0", termEn:"review the old to learn the new", definition:"\u3010w\u0113n g\u00f9 zh\u012b x\u012bn\u3011review the old to learn the new\u3002", definitionEn:"review the old to learn the new"},
+            {term:"\u903e\u77e9", termEn:"overstep the rules", definition:"\u3010y\u00fa j\u01d4\u3011overstep the rules\u3002", definitionEn:"overstep the rules"},
+            {term:"\u535a\u5b66", termEn:"broad learning", definition:"\u3010b\u00f3 xu\u00e9\u3011broad learning\u3002", definitionEn:"broad learning"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'对偶',pointEn:'duì ǒu',example:'parallelism',exampleEn:'学而不思则罔，思而不学则殆。',explanation:'Learning without thinking leads to confusion; thinking without learning leads to peril.',explanationEn:'用对偶句式阐明学与思的辩证关系'},
@@ -1220,11 +1264,15 @@ var TB_G7S1 = {
             {word:'精益求精',pinyin:'jīng yì qiú jīng',en:'strive for perfection',sentence:'他的医术是精益求精的。',sentenceEn:'His medical skills were ever striving for perfection.'}
           ],
           footnotes: [
-            {term:"\u56fd\u9645\u4e3b\u4e49", termEn:"internationalism", definition:"(gu\u00f3 j\u00ec zh\u01d4 y\u00ec) internationalism", definitionEn:"internationalism"},
-            {term:"\u70ed\u5ff1", termEn:"enthusiasm; fervor", definition:"(r\u00e8 ch\u00e9n) enthusiasm; fervor", definitionEn:"enthusiasm; fervor"},
-            {term:"\u7eaf\u7cb9", termEn:"pure; genuine", definition:"(ch\u00fan cu\u00ec) pure; genuine", definitionEn:"pure; genuine"},
-            {term:"\u72ed\u9698", termEn:"narrow-minded", definition:"(xi\u00e1 \u00e0i) narrow-minded", definitionEn:"narrow-minded"},
-            {term:"\u7cbe\u76ca\u6c42\u7cbe", termEn:"strive for perfection", definition:"(j\u012bng y\u00ec qi\u00fa j\u012bng) strive for perfection", definitionEn:"strive for perfection"}
+            {term:"\u56fd\u9645\u4e3b\u4e49", termEn:"internationalism", definition:"\u3010gu\u00f3 j\u00ec zh\u01d4 y\u00ec\u3011internationalism\u3002", definitionEn:"internationalism"},
+            {term:"\u70ed\u5ff1", termEn:"enthusiasm; fervor", definition:"\u3010r\u00e8 ch\u00e9n\u3011enthusiasm; fervor\u3002", definitionEn:"enthusiasm; fervor"},
+            {term:"\u7eaf\u7cb9", termEn:"pure; genuine", definition:"\u3010ch\u00fan cu\u00ec\u3011pure; genuine\u3002", definitionEn:"pure; genuine"},
+            {term:"\u72ed\u9698", termEn:"narrow-minded", definition:"\u3010xi\u00e1 \u00e0i\u3011narrow-minded\u3002", definitionEn:"narrow-minded"},
+            {term:"\u7cbe\u76ca\u6c42\u7cbe", termEn:"strive for perfection", definition:"\u3010j\u012bng y\u00ec qi\u00fa j\u012bng\u3011strive for perfection\u3002", definitionEn:"strive for perfection"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'对比论证',pointEn:'duì bǐ lùn zhèng',example:'argument by contrast',exampleEn:'白求恩毫不利己专门利人的精神与不少人对工作不负责任进行对比。',explanation:'Contrast Bethune selfless spirit with many people being irresponsible.',explanationEn:'通过正反对比突出白求恩精神的伟大'},
@@ -1297,11 +1345,15 @@ var TB_G7S1 = {
             {word:'沃土',pinyin:'wò tǔ',en:'fertile land',sentence:'昔日的荒地如今生机勃勃，成为一片沃土。',sentenceEn:'The once barren land was now vibrant with life, becoming fertile land.'}
           ],
           footnotes: [
-            {term:"\u6177\u6168", termEn:"generous", definition:"(k\u0101ng k\u01cei) generous", definitionEn:"generous"},
-            {term:"\u8352\u5730", termEn:"wasteland", definition:"(hu\u0101ng d\u00ec) wasteland", definitionEn:"wasteland"},
-            {term:"\u4e0d\u6bdb\u4e4b\u5730", termEn:"barren land", definition:"(b\u00f9 m\u00e1o zh\u012b d\u00ec) barren land", definitionEn:"barren land"},
-            {term:"\u6c89\u9ed8\u5be1\u8a00", termEn:"taciturn", definition:"(ch\u00e9n m\u00f2 gu\u01ce y\u00e1n) taciturn", definitionEn:"taciturn"},
-            {term:"\u6c83\u571f", termEn:"fertile land", definition:"(w\u00f2 t\u01d4) fertile land", definitionEn:"fertile land"}
+            {term:"\u6177\u6168", termEn:"generous", definition:"\u3010k\u0101ng k\u01cei\u3011generous\u3002", definitionEn:"generous"},
+            {term:"\u8352\u5730", termEn:"wasteland", definition:"\u3010hu\u0101ng d\u00ec\u3011wasteland\u3002", definitionEn:"wasteland"},
+            {term:"\u4e0d\u6bdb\u4e4b\u5730", termEn:"barren land", definition:"\u3010b\u00f9 m\u00e1o zh\u012b d\u00ec\u3011barren land\u3002", definitionEn:"barren land"},
+            {term:"\u6c89\u9ed8\u5be1\u8a00", termEn:"taciturn", definition:"\u3010ch\u00e9n m\u00f2 gu\u01ce y\u00e1n\u3011taciturn\u3002", definitionEn:"taciturn"},
+            {term:"\u6c83\u571f", termEn:"fertile land", definition:"\u3010w\u00f2 t\u01d4\u3011fertile land\u3002", definitionEn:"fertile land"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'以时间为线索',pointEn:'yǐ shí jiān wéi xiàn suǒ',example:'using time as a thread',exampleEn:'1913年、1920年、1945年，三次到访展现变化。',explanation:'Visits in 1913, 1920, and 1945 show the transformation.',explanationEn:'以三次访问为时间线索，展现荒地到绿洲的巨大变化'}
@@ -1381,11 +1433,15 @@ var TB_G7S1 = {
             {word:'成就感',pinyin:'chéng jiù gǎn',en:'sense of achievement',sentence:'我产生了一种巨大的成就感。',sentenceEn:'I felt an enormous sense of achievement.'}
           ],
           footnotes: [
-            {term:"\u707c\u4eba", termEn:"scorching", definition:"(zhu\u00f3 r\u00e9n) scorching", definitionEn:"scorching"},
-            {term:"\u72b9\u8c6b", termEn:"hesitate", definition:"(y\u00f3u y\u00f9) hesitate", definitionEn:"hesitate"},
-            {term:"\u604d\u60da", termEn:"dazed; absent-minded", definition:"(hu\u01ceng h\u016b) dazed; absent-minded", definitionEn:"dazed; absent-minded"},
-            {term:"\u5c0f\u5fc3\u7ffc\u7ffc", termEn:"extremely carefully", definition:"(xi\u01ceo x\u012bn y\u00ec y\u00ec) extremely carefully", definitionEn:"extremely carefully"},
-            {term:"\u6210\u5c31\u611f", termEn:"sense of achievement", definition:"(ch\u00e9ng ji\u00f9 g\u01cen) sense of achievement", definitionEn:"sense of achievement"}
+            {term:"\u707c\u4eba", termEn:"scorching", definition:"\u3010zhu\u00f3 r\u00e9n\u3011scorching\u3002", definitionEn:"scorching"},
+            {term:"\u72b9\u8c6b", termEn:"hesitate", definition:"\u3010y\u00f3u y\u00f9\u3011hesitate\u3002", definitionEn:"hesitate"},
+            {term:"\u604d\u60da", termEn:"dazed; absent-minded", definition:"\u3010hu\u01ceng h\u016b\u3011dazed; absent-minded\u3002", definitionEn:"dazed; absent-minded"},
+            {term:"\u5c0f\u5fc3\u7ffc\u7ffc", termEn:"extremely carefully", definition:"\u3010xi\u01ceo x\u012bn y\u00ec y\u00ec\u3011extremely carefully\u3002", definitionEn:"extremely carefully"},
+            {term:"\u6210\u5c31\u611f", termEn:"sense of achievement", definition:"\u3010ch\u00e9ng ji\u00f9 g\u01cen\u3011sense of achievement\u3002", definitionEn:"sense of achievement"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'心理描写',pointEn:'xīn lǐ miáo xiě',example:'psychological description',exampleEn:'我趴在岩石上，神情恍惚，害怕和疲劳已经让我麻木。',explanation:'I lay on the rock, dazed; fear and exhaustion had numbed me.',explanationEn:'通过细腻的心理描写展现主人公的恐惧与成长'}
@@ -1457,10 +1513,10 @@ var TB_G7S1 = {
             { id: 2, term: "恍惚", pinyin: "huǎnghū", definition: "神志不清，精神不集中。", definitionEn: "Dazed, absent-minded." },
             { id: 3, term: "抽噎", pinyin: "chōuyē", definition: "一吸一顿地哭泣。", definitionEn: "To sob with hiccupping breaths." }
           ],
-          readingTips: {
+          readingTips: [{
             cn: "本文是作者对自己童年时代一件往事的回忆。文章按照时间顺序，讲述了自己从冒险到遇险，再到脱险的全过程。这个过程，其实也是\u201C我\u201D从胆怯、恐惧到克服心理障碍，收获自信，甚至有了一种成就感的心路历程。默读课文，勾画出文中标志事件发展和描写\u201C我\u201D不同阶段心理活动的语句，试着复述这个故事。",
             en: "This text is the author's recollection of a childhood experience. Following chronological order, it tells the entire process from taking a risk to being in danger to being rescued. This is also the narrator's psychological journey from timidity and fear to overcoming mental barriers and gaining confidence. While reading silently, mark the sentences that signal plot development and describe the narrator's changing psychology."
-          },
+          }],
           teachingPoints: [
             { cn: "学习心理描写的方法——通过内心独白和环境烘托表现人物心理。", en: "Learn methods of psychological description — expressing a character's psychology through inner monologue and environmental atmosphere." },
             { cn: "理解\u201C走一步，再走一步\u201D的深层含义：面对大困难时，将其分解为小步骤。", en: "Understand the deeper meaning of 'one step, then another': when facing great difficulties, break them into small steps." }
@@ -1486,11 +1542,15 @@ var TB_G7S1 = {
             {word:'险躁',pinyin:'xiǎn zào',en:'reckless and impatient',sentence:'险躁则不能治性。',sentenceEn:'Recklessness and impatience prevent one from cultivating character.'}
           ],
           footnotes: [
-            {term:"\u6de1\u6cca", termEn:"indifferent to fame and fortune", definition:"(d\u00e0n b\u00f3) indifferent to fame and fortune", definitionEn:"indifferent to fame and fortune"},
-            {term:"\u5b81\u9759", termEn:"tranquil", definition:"(n\u00edng j\u00ecng) tranquil", definitionEn:"tranquil"},
-            {term:"\u5fd7", termEn:"aspiration; ambition", definition:"(zh\u00ec) aspiration; ambition", definitionEn:"aspiration; ambition"},
-            {term:"\u6deb\u6162", termEn:"indulgent and slack", definition:"(y\u00edn m\u00e0n) indulgent and slack", definitionEn:"indulgent and slack"},
-            {term:"\u9669\u8e81", termEn:"reckless and impatient", definition:"(xi\u01cen z\u00e0o) reckless and impatient", definitionEn:"reckless and impatient"}
+            {term:"\u6de1\u6cca", termEn:"indifferent to fame and fortune", definition:"\u3010d\u00e0n b\u00f3\u3011indifferent to fame and fortune\u3002", definitionEn:"indifferent to fame and fortune"},
+            {term:"\u5b81\u9759", termEn:"tranquil", definition:"\u3010n\u00edng j\u00ecng\u3011tranquil\u3002", definitionEn:"tranquil"},
+            {term:"\u5fd7", termEn:"aspiration; ambition", definition:"\u3010zh\u00ec\u3011aspiration; ambition\u3002", definitionEn:"aspiration; ambition"},
+            {term:"\u6deb\u6162", termEn:"indulgent and slack", definition:"\u3010y\u00edn m\u00e0n\u3011indulgent and slack\u3002", definitionEn:"indulgent and slack"},
+            {term:"\u9669\u8e81", termEn:"reckless and impatient", definition:"\u3010xi\u01cen z\u00e0o\u3011reckless and impatient\u3002", definitionEn:"reckless and impatient"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'正反论证',pointEn:'zhèng fǎn lùn zhèng',example:'argument from both sides',exampleEn:'非淡泊无以明志，非宁静无以致远。',explanation:'Without indifference, no clear aspiration; without tranquility, no far-reaching goals.',explanationEn:'用双重否定从正反两面论证修身治学的道理'}
@@ -1599,11 +1659,15 @@ var TB_G7S1 = {
             {word:'冤枉',pinyin:'yuān wǎng',en:'falsely accuse',sentence:'我没有判断明白，便妄下断语，冤枉了一只不能说话辩诉的动物。',sentenceEn:'Without judging clearly, I rashly made a verdict and falsely accused an animal that could not speak in its own defense.'}
           ],
           footnotes: [
-            {term:"\u6c61\u6da9", termEn:"dirty and rough", definition:"(w\u016b s\u00e8) dirty and rough", definitionEn:"dirty and rough"},
-            {term:"\u6002\u607f", termEn:"urge; egg on", definition:"(s\u01d2ng y\u01d2ng) urge; egg on", definitionEn:"urge; egg on"},
-            {term:"\u6005\u7136", termEn:"melancholy", definition:"(ch\u00e0ng r\u00e1n) melancholy", definitionEn:"melancholy"},
-            {term:"\u8737\u4f0f", termEn:"curl up", definition:"(qu\u00e1n f\u00fa) curl up", definitionEn:"curl up"},
-            {term:"\u51a4\u6789", termEn:"falsely accuse", definition:"(yu\u0101n w\u01ceng) falsely accuse", definitionEn:"falsely accuse"}
+            {term:"\u6c61\u6da9", termEn:"dirty and rough", definition:"\u3010w\u016b s\u00e8\u3011dirty and rough\u3002", definitionEn:"dirty and rough"},
+            {term:"\u6002\u607f", termEn:"urge; egg on", definition:"\u3010s\u01d2ng y\u01d2ng\u3011urge; egg on\u3002", definitionEn:"urge; egg on"},
+            {term:"\u6005\u7136", termEn:"melancholy", definition:"\u3010ch\u00e0ng r\u00e1n\u3011melancholy\u3002", definitionEn:"melancholy"},
+            {term:"\u8737\u4f0f", termEn:"curl up", definition:"\u3010qu\u00e1n f\u00fa\u3011curl up\u3002", definitionEn:"curl up"},
+            {term:"\u51a4\u6789", termEn:"falsely accuse", definition:"\u3010yu\u0101n w\u01ceng\u3011falsely accuse\u3002", definitionEn:"falsely accuse"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'首尾呼应',pointEn:'shǒu wěi hū yìng',example:'beginning and end echo each other',exampleEn:'自此，我家永不养猫。',explanation:'From then on, my family never kept cats again.',explanationEn:'三次养猫经历层层递进，最后的永不养猫呼应全文主题'},
@@ -1699,21 +1763,25 @@ var TB_G7S1 = {
             {word:'蹒跚',pinyin:'pán shān',en:'stagger; hobble',sentence:'老先生弯着身子，蹒跚地走过来。',sentenceEn:'The old man bent over and staggered toward me.'}
           ],
           footnotes: [
-            {term:"\u55d4\u602a", termEn:"reproach", definition:"(ch\u0113n gu\u00e0i) reproach", definitionEn:"reproach"},
-            {term:"\u602a\u8bde\u4e0d\u7ecf", termEn:"absurd and preposterous", definition:"(gu\u00e0i d\u00e0n b\u00f9 j\u012bng) absurd and preposterous", definitionEn:"absurd and preposterous"},
-            {term:"\u5927\u76f8\u5f84\u5ead", termEn:"vastly different", definition:"(d\u00e0 xi\u0101ng j\u00ecng t\u00edng) vastly different", definitionEn:"vastly different"},
-            {term:"\u7981\u9522", termEn:"imprison; confine", definition:"(j\u00ecn g\u00f9) imprison; confine", definitionEn:"imprison; confine"},
-            {term:"\u8e52\u8dda", termEn:"stagger; hobble", definition:"(p\u00e1n sh\u0101n) stagger; hobble", definitionEn:"stagger; hobble"}
+            {term:"\u55d4\u602a", termEn:"reproach", definition:"\u3010ch\u0113n gu\u00e0i\u3011reproach\u3002", definitionEn:"reproach"},
+            {term:"\u602a\u8bde\u4e0d\u7ecf", termEn:"absurd and preposterous", definition:"\u3010gu\u00e0i d\u00e0n b\u00f9 j\u012bng\u3011absurd and preposterous\u3002", definitionEn:"absurd and preposterous"},
+            {term:"\u5927\u76f8\u5f84\u5ead", termEn:"vastly different", definition:"\u3010d\u00e0 xi\u0101ng j\u00ecng t\u00edng\u3011vastly different\u3002", definitionEn:"vastly different"},
+            {term:"\u7981\u9522", termEn:"imprison; confine", definition:"\u3010j\u00ecn g\u00f9\u3011imprison; confine\u3002", definitionEn:"imprison; confine"},
+            {term:"\u8e52\u8dda", termEn:"stagger; hobble", definition:"\u3010p\u00e1n sh\u0101n\u3011stagger; hobble\u3002", definitionEn:"stagger; hobble"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           authorBio: {
             cn: "康拉德·劳伦兹（1903—1989），奥地利动物行为学家、科普作家。获1973年诺贝尔生理学或医学奖。",
             en: "Konrad Lorenz (1903–1989) was an Austrian animal behaviorist and science writer. He received the 1973 Nobel Prize in Physiology or Medicine."
           },
           isSelfRead: true,
-          readingTips: {
+          readingTips: [{
             cn: "\u201C动物笑谈\u201D意思是谈论和动物有关的趣事、笑话。作者专注于动物行为研究，为了探求科学真理，\u201C常常需要不顾自己的尊严\u201D，与动物们打成一片。作者的语言诙谐风趣，透过课文风趣的文字，可以感受到科学工作者专注忘我的精神和极高的专业素养。",
             en: "'Animal Anecdotes' means talking about funny stories related to animals. The author, dedicated to studying animal behavior, 'often had to disregard his own dignity' to bond with animals. Through the text's witty words, we can feel the scientist's devoted, selfless spirit and high professional quality."
-          },
+          }],
           text: [
         "\u5728\u7814\u7a76\u9ad8\u7b49\u52a8\u7269\u7684\u884c\u4e3a\u65f6\uff0c\u5e38\u5e38\u4f1a\u53d1\u751f\u4e00\u4e9b\u8da3\u4e8b\uff0c\u4e0d\u8fc7\u9017\u7b11\u7684\u4e3b\u89d2\u5e38\u5e38\u4e0d\u662f\u52a8\u7269\uff0c\u800c\u662f\u89c2\u5bdf\u8005\u81ea\u5df1\u3002\u4ed6\u4e0d\u5f97\u4e0d\u4f7f\u51fa\u6d51\u8eab\u89e3\u6570\u624d\u80fd\u4e0d\u88ab\u4ed6\u7684\u7814\u7a76\u5bf9\u8c61\u53d1\u73b0\u3002\u4f60\u5982\u679c\u4ece\u65c1\u770b\u5230\u4ed6\u7684\u8fd9\u4e9b\u602a\u6a21\u6837\uff0c\u8bf4\u4e0d\u5b9a\u4f1a\u7591\u5fc3\u4ed6\u53d1\u4e86\u75af\u5462\u3002",
         "\u6709\u4e00\u6bb5\u65f6\u95f4\u6211\u81f4\u529b\u4e8e\u6c34\u9e2d\u5b50\u7684\u7814\u7a76\uff0c\u6211\u5f97\u51fa\u7684\u7ed3\u8bba\u662f\uff1a\u8981\u5c0f\u51eb\u8ddf\u7740\u6211\u8d70\uff0c\u6211\u5f97\u8e72\u4e0b\u6765\u5b66\u6bcd\u51eb\u90a3\u6837\u53eb\u624d\u884c\u3002\u679c\u7136\uff0c\u8fd9\u4e00\u6b21\u8fd9\u4e9b\u5c0f\u9e2d\u5b50\u4e00\u70b9\u513f\u4e5f\u4e0d\u6015\u6211\uff0c\u5b83\u4eec\u4fe1\u4efb\u5730\u671b\u7740\u6211\uff0c\u6324\u6210\u4e00\u5806\uff0c\u542c\u5019\u6211\u7684\u53f7\u4ee4\u3002\u6211\u5e26\u7740\u90a3\u7fa4\u5c0f\u51eb\u5230\u9644\u8fd1\u7684\u591a\u7459\u6cb3\u53bb\u6e38\u6cf3\u3002",
@@ -1768,11 +1836,15 @@ var TB_G7S1 = {
             {word:'黠',pinyin:'xiá',en:'cunning',sentence:'狼亦黠矣，而顷刻两毙。',sentenceEn:'The wolves were indeed cunning, yet both were killed in a moment.'}
           ],
           footnotes: [
-            {term:"\u7f00\u884c", termEn:"follow closely", definition:"(zhu\u00ec x\u00edng) follow closely\u3002\u4f8b\uff1a\u7f00\u884c\u751a\u8fdc\u3002", definitionEn:"follow closely"},
-            {term:"\u5c60", termEn:"butcher", definition:"(t\u00fa) butcher\u3002\u4f8b\uff1a\u4e00\u5c60\u665a\u5f52\uff0c\u62c5\u4e2d\u8089\u5c3d\u3002", definitionEn:"butcher"},
-            {term:"\u7a98", termEn:"desperate; cornered", definition:"(ji\u01d2ng) desperate; cornered\u3002\u4f8b\uff1a\u5c60\u5927\u7a98\uff0c\u6050\u524d\u540e\u53d7\u5176\u654c\u3002", definitionEn:"desperate; cornered"},
-            {term:"\u5047\u5bd0", termEn:"pretend to sleep", definition:"(ji\u01ce m\u00e8i) pretend to sleep\u3002\u4f8b\uff1a\u4e00\u72fc\u5f84\u53bb\uff0c\u5176\u4e00\u72ac\u5750\u4e8e\u524d\uff0c\u76ee\u4f3c\u7791\uff0c\u610f\u6687\u751a\u3002", definitionEn:"pretend to sleep"},
-            {term:"\u9ee0", termEn:"cunning", definition:"(xi\u00e1) cunning\u3002\u4f8b\uff1a\u72fc\u4ea6\u9ee0\u77e3\uff0c\u800c\u9877\u523b\u4e24\u6bd9\u3002", definitionEn:"cunning"}
+            {term:"\u7f00\u884c", termEn:"follow closely", definition:"\u3010zhu\u00ec x\u00edng\u3011follow closely\u3002", definitionEn:"follow closely"},
+            {term:"\u5c60", termEn:"butcher", definition:"\u3010t\u00fa\u3011butcher\u3002", definitionEn:"butcher"},
+            {term:"\u7a98", termEn:"desperate; cornered", definition:"\u3010ji\u01d2ng\u3011desperate; cornered\u3002", definitionEn:"desperate; cornered"},
+            {term:"\u5047\u5bd0", termEn:"pretend to sleep", definition:"\u3010ji\u01ce m\u00e8i\u3011pretend to sleep\u3002", definitionEn:"pretend to sleep"},
+            {term:"\u9ee0", termEn:"cunning", definition:"\u3010xi\u00e1\u3011cunning\u3002", definitionEn:"cunning"}
+          ],
+          readingTips: [
+            {cn:"\u5148\u7ed3\u5408\u6ce8\u91ca\u7586\u901a\u6587\u610f\uff0c\u518d\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u6587\u8a00\u6587\u7684\u7b80\u7ec3\u4e0e\u97f5\u5f8b\u3002\u6ce8\u610f\u79ef\u7d2f\u5e38\u89c1\u7684\u6587\u8a00\u5b9e\u8bcd\u548c\u865a\u8bcd\u3002", en:"First understand the text with annotations, then read aloud repeatedly to appreciate the conciseness and rhythm of classical Chinese. Note common content and function words."},
+            {cn:"\u601d\u8003\u6587\u7ae0\u7684\u5199\u4f5c\u80cc\u666f\u548c\u4f5c\u8005\u7684\u601d\u60f3\u611f\u60c5\u3002\u6587\u8a00\u6587\u4e2d\u7684\u54ea\u4e9b\u601d\u60f3\u5bf9\u4eca\u5929\u4ecd\u6709\u542f\u53d1\uff1f", en:"Consider the historical context and the author's thoughts and feelings. Which ideas from this classical text still resonate today?"}
           ],
           grammarPoints: [
             {point:'文言叙事',pointEn:'wén yán xù shì',example:'classical narrative',exampleEn:'一屠晚归，担中肉尽，止有剩骨。',explanation:'A butcher returning late, the meat all gone, only leftover bones remained.',explanationEn:'文言文用简练的语言叙述紧张的故事情节'}
@@ -1897,11 +1969,15 @@ var TB_G7S1 = {
             {word:'赤裸',pinyin:'chì luǒ',en:'naked; bare',sentence:'他实在没有穿什么衣服啊！',sentenceEn:'He really has nothing on at all!'}
           ],
           footnotes: [
-            {term:"\u70ab\u8000", termEn:"show off", definition:"(xu\u00e0n y\u00e0o) show off", definitionEn:"show off"},
-            {term:"\u611a\u8822", termEn:"foolish; stupid", definition:"(y\u00fa ch\u01d4n) foolish; stupid", definitionEn:"foolish; stupid"},
-            {term:"\u9a97\u5b50", termEn:"swindler", definition:"(pi\u00e0n zi) swindler", definitionEn:"swindler"},
-            {term:"\u79f0\u804c", termEn:"competent", definition:"(ch\u00e8n zh\u00ed) competent", definitionEn:"competent"},
-            {term:"\u8d64\u88f8", termEn:"naked; bare", definition:"(ch\u00ec lu\u01d2) naked; bare", definitionEn:"naked; bare"}
+            {term:"\u70ab\u8000", termEn:"show off", definition:"\u3010xu\u00e0n y\u00e0o\u3011show off\u3002", definitionEn:"show off"},
+            {term:"\u611a\u8822", termEn:"foolish; stupid", definition:"\u3010y\u00fa ch\u01d4n\u3011foolish; stupid\u3002", definitionEn:"foolish; stupid"},
+            {term:"\u9a97\u5b50", termEn:"swindler", definition:"\u3010pi\u00e0n zi\u3011swindler\u3002", definitionEn:"swindler"},
+            {term:"\u79f0\u804c", termEn:"competent", definition:"\u3010ch\u00e8n zh\u00ed\u3011competent\u3002", definitionEn:"competent"},
+            {term:"\u8d64\u88f8", termEn:"naked; bare", definition:"\u3010ch\u00ec lu\u01d2\u3011naked; bare\u3002", definitionEn:"naked; bare"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           grammarPoints: [
             {point:'讽刺',pointEn:'fěng cì',example:'satire',exampleEn:'通过一个荒诞的故事讽刺了虚伪和愚蠢。',explanation:'Through an absurd story, it satirizes hypocrisy and foolishness.',explanationEn:'用儿童视角戳穿成人世界的虚伪'},
@@ -1983,11 +2059,15 @@ var TB_G7S1 = {
             {word:'闲游',pinyin:'xián yóu',en:'stroll leisurely',sentence:'定然在天街闲游。',sentenceEn:'Surely strolling leisurely on the heavenly street.'}
           ],
           footnotes: [
-            {term:"\u7f25\u7f08", termEn:"ethereal; illusory", definition:"(pi\u0101o mi\u01ceo) ethereal; illusory", definitionEn:"ethereal; illusory"},
-            {term:"\u73cd\u5947", termEn:"rare and precious", definition:"(zh\u0113n q\u00ed) rare and precious", definitionEn:"rare and precious"},
-            {term:"\u8857\u706f", termEn:"street lights", definition:"(ji\u0113 d\u0113ng) street lights", definitionEn:"street lights"},
-            {term:"\u660e\u661f", termEn:"bright stars", definition:"(m\u00edng x\u012bng) bright stars", definitionEn:"bright stars"},
-            {term:"\u95f2\u6e38", termEn:"stroll leisurely", definition:"(xi\u00e1n y\u00f3u) stroll leisurely", definitionEn:"stroll leisurely"}
+            {term:"\u7f25\u7f08", termEn:"ethereal; illusory", definition:"\u3010pi\u0101o mi\u01ceo\u3011ethereal; illusory\u3002", definitionEn:"ethereal; illusory"},
+            {term:"\u73cd\u5947", termEn:"rare and precious", definition:"\u3010zh\u0113n q\u00ed\u3011rare and precious\u3002", definitionEn:"rare and precious"},
+            {term:"\u8857\u706f", termEn:"street lights", definition:"\u3010ji\u0113 d\u0113ng\u3011street lights\u3002", definitionEn:"street lights"},
+            {term:"\u660e\u661f", termEn:"bright stars", definition:"\u3010m\u00edng x\u012bng\u3011bright stars\u3002", definitionEn:"bright stars"},
+            {term:"\u95f2\u6e38", termEn:"stroll leisurely", definition:"\u3010xi\u00e1n y\u00f3u\u3011stroll leisurely\u3002", definitionEn:"stroll leisurely"}
+          ],
+          readingTips: [
+            {cn:"\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f3\u97f5\u7f8e\u548c\u610f\u5883\u7f8e\u3002\u6ce8\u610f\u5206\u6790\u8bd7\u4e2d\u7684\u610f\u8c61\u548c\u4fee\u8f9e\u624b\u6cd5\u3002", en:"Read aloud repeatedly to appreciate the phonetic beauty and artistic conception. Analyze the imagery and rhetorical devices used."},
+            {cn:"\u7ed3\u5408\u8bd7\u4eba\u7684\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u4e2d\u8574\u542b\u7684\u601d\u60f3\u611f\u60c5\u3002", en:"Consider the poet's life and the context of writing to understand the deeper emotions expressed."}
           ],
           grammarPoints: [
             {point:'联想与想象',pointEn:'lián xiǎng yǔ xiǎng xiàng',example:'association and imagination',exampleEn:'远远的街灯明了，好像闪着无数的明星。',explanation:'The distant street lights lit up, like countless bright stars twinkling.',explanationEn:'从街灯联想到星星，从星星想象到天上的街市'}
@@ -2054,21 +2134,25 @@ var TB_G7S1 = {
             {word:'孤独',pinyin:'gū dú',en:'lonely',sentence:'感到非常孤独。',sentenceEn:'Felt very lonely.'}
           ],
           footnotes: [
-            {term:"\u795e\u901a\u5e7f\u5927", termEn:"infinitely powerful", definition:"(sh\u00e9n t\u014dng gu\u01ceng d\u00e0) infinitely powerful", definitionEn:"infinitely powerful"},
-            {term:"\u83bd\u83bd\u699b\u699b", termEn:"thick and wild vegetation", definition:"(m\u01ceng m\u01ceng zh\u0113n zh\u0113n) thick and wild vegetation", definitionEn:"thick and wild vegetation"},
-            {term:"\u7709\u5f00\u773c\u7b11", termEn:"beaming with joy", definition:"(m\u00e9i k\u0101i y\u01cen xi\u00e0o) beaming with joy", definitionEn:"beaming with joy"},
-            {term:"\u7ef5\u5ef6", termEn:"extend continuously", definition:"(mi\u00e1n y\u00e1n) extend continuously", definitionEn:"extend continuously"},
-            {term:"\u5b64\u72ec", termEn:"lonely", definition:"(g\u016b d\u00fa) lonely", definitionEn:"lonely"}
+            {term:"\u795e\u901a\u5e7f\u5927", termEn:"infinitely powerful", definition:"\u3010sh\u00e9n t\u014dng gu\u01ceng d\u00e0\u3011infinitely powerful\u3002", definitionEn:"infinitely powerful"},
+            {term:"\u83bd\u83bd\u699b\u699b", termEn:"thick and wild vegetation", definition:"\u3010m\u01ceng m\u01ceng zh\u0113n zh\u0113n\u3011thick and wild vegetation\u3002", definitionEn:"thick and wild vegetation"},
+            {term:"\u7709\u5f00\u773c\u7b11", termEn:"beaming with joy", definition:"\u3010m\u00e9i k\u0101i y\u01cen xi\u00e0o\u3011beaming with joy\u3002", definitionEn:"beaming with joy"},
+            {term:"\u7ef5\u5ef6", termEn:"extend continuously", definition:"\u3010mi\u00e1n y\u00e1n\u3011extend continuously\u3002", definitionEn:"extend continuously"},
+            {term:"\u5b64\u72ec", termEn:"lonely", definition:"\u3010g\u016b d\u00fa\u3011lonely\u3002", definitionEn:"lonely"}
+          ],
+          readingTips: [
+            {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
+            {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
           authorBio: {
             cn: "袁珂（1916—2001），四川新都人，神话学家。著有《中国古代神话》《山海经校注》等。",
             en: "Yuan Ke (1916–2001) was from Xindu, Sichuan. Mythologist and author of Ancient Chinese Myths and Annotated Classic of Mountains and Seas."
           },
           isSelfRead: true,
-          readingTips: {
+          readingTips: [{
             cn: "人类童年时期，对自然界许多现象缺乏科学的认识，就想象出各种解释，由此产生了神话。女娲造人的故事，是汉民族先祖对人类起源的神奇想象。本文是根据古代记述改写的，对照《风俗通》里的记载，看看课文增添了哪些内容。",
             en: "In humanity's childhood, lacking scientific understanding, people imagined explanations — thus myths were born. The story of Nüwa creating humans is the Han people's marvelous imagination about human origins. Compare with the Fengsu Tong records to see what content was added."
-          },
+          }],
           text: [
         "\u5929\u5730\u5f00\u8f9f\u4ee5\u540e\uff0c\u5929\u4e0a\u6709\u4e86\u592a\u9633\u3001\u6708\u4eae\u548c\u661f\u661f\uff0c\u5730\u4e0a\u6709\u4e86\u5c71\u5ddd\u8349\u6728\uff0c\u751a\u81f3\u6709\u4e86\u9e1f\u517d\u866b\u9c7c\u4e86\uff0c\u53ef\u662f\u5355\u5355\u6ca1\u6709\u4eba\u7c7b\u3002\u8fd9\u4e16\u95f4\uff0c\u65e0\u8bba\u600e\u6837\u8bf4\u5427\uff0c\u603b\u4e0d\u514d\u663e\u5f97\u6709\u4e9b\u8352\u51c9\u5bc2\u5bde\u3002",
         "\u4e0d\u77e5\u9053\u5728\u4ec0\u4e48\u65f6\u5019\uff0c\u51fa\u73b0\u4e86\u4e00\u4e2a\u795e\u901a\u5e7f\u5927\u7684\u5973\u795e\uff0c\u53eb\u4f5c\u5973\u5a32\u3002\u636e\u8bf4\uff0c\u5979\u4e00\u5929\u5f53\u4e2d\u80fd\u591f\u53d8\u5316\u4e03\u5341\u6b21\u3002\u6709\u4e00\u5929\uff0c\u5927\u795e\u5973\u5a32\u884c\u8d70\u5728\u8fd9\u7247\u83bd\u83bd\u699b\u699b\u7684\u539f\u91ce\u4e0a\uff0c\u770b\u770b\u5468\u56f4\u7684\u666f\u8c61\uff0c\u611f\u5230\u975e\u5e38\u5b64\u72ec\u3002\u5979\u89c9\u5f97\u5728\u8fd9\u5929\u5730\u4e4b\u95f4\uff0c\u5e94\u8be5\u6dfb\u4e00\u70b9\u4ec0\u4e48\u4e1c\u897f\u8fdb\u53bb\uff0c\u8ba9\u5b83\u751f\u6c14\u84ec\u52c3\u8d77\u6765\u624d\u597d\u3002",
@@ -2130,11 +2214,15 @@ var TB_G7S1 = {
             {word:'道听途说',pinyin:'dào tīng tú shuō',en:'hearsay',sentence:'求闻之若此，不若无闻也。',sentenceEn:'Seeking news like this is worse than hearing nothing at all.'}
           ],
           footnotes: [
-            {term:"\u96d5\u50cf", termEn:"sculpture; statue", definition:"(di\u0101o xi\u00e0ng) sculpture; statue\u3002\u4f8b\uff1a\u8d6b\u8033\u58a8\u65af\u6765\u5230\u4e00\u4e2a\u96d5\u50cf\u8005\u7684\u5e97\u91cc\u3002", definitionEn:"sculpture; statue"},
-            {term:"\u865a\u8363", termEn:"vanity", definition:"(x\u016b r\u00f3ng) vanity\u3002\u4f8b\uff1a\u8d6b\u8033\u58a8\u65af\u7684\u865a\u8363\u5fc3\u4f7f\u4ed6\u81ea\u53d6\u5176\u8fb1\u3002", definitionEn:"vanity"},
-            {term:"\u675e\u4eba\u5fe7\u5929", termEn:"needless anxiety", definition:"(q\u01d0 r\u00e9n y\u014du ti\u0101n) needless anxiety\u3002\u4f8b\uff1a\u675e\u56fd\u6709\u4eba\u5fe7\u5929\u5730\u5d29\u5760\u3002", definitionEn:"needless anxiety"},
-            {term:"\u7a7f\u4e95\u5f97\u4e00\u4eba", termEn:"digging a well yields a person", definition:"(chu\u0101n j\u01d0ng d\u00e9 y\u012b r\u00e9n) digging a well yields a person\u3002\u4f8b\uff1a\u5b8b\u4e4b\u4e01\u6c0f\uff0c\u5bb6\u65e0\u4e95\u800c\u51fa\u6e89\u6c72\u3002", definitionEn:"digging a well yields a person"},
-            {term:"\u9053\u542c\u9014\u8bf4", termEn:"hearsay", definition:"(d\u00e0o t\u012bng t\u00fa shu\u014d) hearsay\u3002\u4f8b\uff1a\u6c42\u95fb\u4e4b\u82e5\u6b64\uff0c\u4e0d\u82e5\u65e0\u95fb\u4e5f\u3002", definitionEn:"hearsay"}
+            {term:"\u96d5\u50cf", termEn:"sculpture; statue", definition:"\u3010di\u0101o xi\u00e0ng\u3011sculpture; statue\u3002", definitionEn:"sculpture; statue"},
+            {term:"\u865a\u8363", termEn:"vanity", definition:"\u3010x\u016b r\u00f3ng\u3011vanity\u3002", definitionEn:"vanity"},
+            {term:"\u675e\u4eba\u5fe7\u5929", termEn:"needless anxiety", definition:"\u3010q\u01d0 r\u00e9n y\u014du ti\u0101n\u3011needless anxiety\u3002", definitionEn:"needless anxiety"},
+            {term:"\u7a7f\u4e95\u5f97\u4e00\u4eba", termEn:"digging a well yields a person", definition:"\u3010chu\u0101n j\u01d0ng d\u00e9 y\u012b r\u00e9n\u3011digging a well yields a person\u3002", definitionEn:"digging a well yields a person"},
+            {term:"\u9053\u542c\u9014\u8bf4", termEn:"hearsay", definition:"\u3010d\u00e0o t\u012bng t\u00fa shu\u014d\u3011hearsay\u3002", definitionEn:"hearsay"}
+          ],
+          readingTips: [
+            {cn:"\u5148\u7ed3\u5408\u6ce8\u91ca\u7586\u901a\u6587\u610f\uff0c\u518d\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u6587\u8a00\u6587\u7684\u7b80\u7ec3\u4e0e\u97f5\u5f8b\u3002\u6ce8\u610f\u79ef\u7d2f\u5e38\u89c1\u7684\u6587\u8a00\u5b9e\u8bcd\u548c\u865a\u8bcd\u3002", en:"First understand the text with annotations, then read aloud repeatedly to appreciate the conciseness and rhythm of classical Chinese. Note common content and function words."},
+            {cn:"\u601d\u8003\u6587\u7ae0\u7684\u5199\u4f5c\u80cc\u666f\u548c\u4f5c\u8005\u7684\u601d\u60f3\u611f\u60c5\u3002\u6587\u8a00\u6587\u4e2d\u7684\u54ea\u4e9b\u601d\u60f3\u5bf9\u4eca\u5929\u4ecd\u6709\u542f\u53d1\uff1f", en:"Consider the historical context and the author's thoughts and feelings. Which ideas from this classical text still resonate today?"}
           ],
           grammarPoints: [
             {point:'寓言寓意',pointEn:'yù yán yù yì',example:'fable and its moral',exampleEn:'蚊子打败了狮子，却被蜘蛛网粘住了。',explanation:'The mosquito defeated the lion but got stuck in a spider web.',explanationEn:'通过简短的故事传达深刻的道理'}
