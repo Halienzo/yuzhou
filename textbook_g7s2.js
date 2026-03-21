@@ -43,6 +43,10 @@ var TB_G7S2 = {
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u6768\u632f\u5b81\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Yang Zhenning to understand their writing style and the context of this text."}
+          ],
           grammarPoints: [
             {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'contrast technique',exampleEn:'邓稼先与奥本海默的性格截然不同——甚至可以说他们走向了两个相反的极端。',explanation:'The personalities of Deng Jiaxian and Oppenheimer were completely different — one could even say they went to two opposite extremes.',explanationEn:'通过对比两个人物的性格差异，突出邓稼先忠厚朴实的品质。'},
             {point:'记叙与抒情结合',pointEn:'jì xù yǔ shū qíng jié hé',example:'combining narration with lyrical expression',exampleEn:'稼先为人忠诚纯正，是我最敬爱的挚友。他的无私的精神与巨大的贡献是你的也是我的永恒的骄傲。',explanation:'Jiaxian was loyal and sincere, my most beloved close friend. His selfless spirit and great contributions are your and my eternal pride.',explanationEn:'文章在叙述事实的基础上融入深沉的抒情，使读者感受到作者对邓稼先的敬仰与怀念。'}
@@ -128,6 +132,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+          ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u81e7\u514b\u5bb6\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Zang Kejia to understand their writing style and the context of this text."}
           ],
           grammarPoints: [
             {point:'夹叙夹议',pointEn:'jiā xù jiā yì',example:'interweaving narration and commentary',exampleEn:'文章夹叙夹议，在叙述闻一多先生言行的同时加入评论，使人物形象更加鲜明。',explanation:'The article interweaves narration and commentary, adding evaluation while recounting Mr. Wen Yiduo’s words and deeds, making the figure more vivid.',explanationEn:'在记叙文中穿插议论，能深化主题，揭示人物精神品质。'}
@@ -230,6 +238,20 @@ var TB_G7S2 = {
           readingTips: [
             { cn: "\u8fd9\u662f\u4e00\u7bc7\u522b\u5177\u4e00\u683c\u7684\u56de\u5fc6\u6587\u7ae0\u3002\u4f5c\u8005\u4ee5\u5973\u6027\u7279\u6709\u7684\u7ec6\u817b\u611f\u89c9\uff0c\u6355\u6349\u9c81\u8fc5\u5148\u751f\u65e5\u5e38\u751f\u6d3b\u4e2d\u7684\u4e00\u4e9b\u7410\u4e8b\uff0c\u70d8\u6258\u51fa\u4e00\u4e2a\u771f\u5b9e\u7684\u3001\u5bcc\u6709\u4eba\u60c5\u5473\u7684\u9c81\u8fc5\u5f62\u8c61\u3002", en: "This is a uniquely styled memoir. The author captures Lu Xun\u2019s daily life with feminine sensitivity, presenting a real, humanized Lu Xun." }
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u8427\u7ea2\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Xiao Hong to understand their writing style and the context of this text."}
+          ],
+          accumExtend: [
+            {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u8f7b\u6377\u3001\u8349\u7387\u3001\u6df1\u6076\u75db\u7edd\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u8f7b\u6377\u3001\u8349\u7387\u3001\u6df1\u6076\u75db\u7edd\". Collect the words and sentences you like and try using them in your own writing."},
+            {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+            {cn: "\u8bfe\u5916\u9605\u8bfb\u8427\u7ea2\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Xiao Hong and compare them with this text. Write a short essay sharing your findings."}
+          ],
+          thinkExplore: [
+            {cn: "\u6717\u8bfb\u8bfe\u6587\uff0c\u6982\u62ec\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u4f5c\u8005\u60f3\u8981\u8868\u8fbe\u7684\u4e2d\u5fc3\u601d\u60f3\u662f\u4ec0\u4e48\uff1f", en: "Read the text aloud and summarize its main content. What central idea does the author wish to convey?"},
+            {cn: "\u6587\u4e2d\u6709\u54ea\u4e9b\u7cbe\u5f69\u7684\u8bed\u53e5\u6216\u6bb5\u843d\uff1f\u627e\u51fa\u6765\u54c1\u5473\u5176\u4e2d\u7684\u8868\u8fbe\u6548\u679c\uff0c\u5e76\u4e0e\u540c\u5b66\u5206\u4eab\u4f60\u7684\u611f\u53d7\u3002", en: "Which sentences or paragraphs are most impressive? Identify them, appreciate their expressive effects, and share your feelings with classmates."},
+            {cn: "\u7ed3\u5408\u4f5c\u8005\u8427\u7ea2\u7684\u5199\u4f5c\u80cc\u666f\uff0c\u8c08\u8c08\u4f60\u5bf9\u8fd9\u7bc7\u6587\u7ae0\u7684\u7406\u89e3\u3002\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\uff1f", en: "Considering the author Xiao Hong's background, discuss your understanding. Why did the author write this?"}
+          ],
           teachingPoints: [
             { cn: "\u4f53\u4f1a\u901a\u8fc7\u751f\u6d3b\u7410\u4e8b\u5c55\u73b0\u4eba\u7269\u5f62\u8c61\u7684\u5199\u6cd5\u3002", en: "Appreciate how everyday details can reveal character." }
           ],
@@ -259,6 +281,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u5148\u7ed3\u5408\u6ce8\u91ca\u7586\u901a\u6587\u610f\uff0c\u518d\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u6587\u8a00\u6587\u7684\u7b80\u7ec3\u4e0e\u97f5\u5f8b\u3002\u6ce8\u610f\u79ef\u7d2f\u5e38\u89c1\u7684\u6587\u8a00\u5b9e\u8bcd\u548c\u865a\u8bcd\u3002", en:"First understand the text with annotations, then read aloud repeatedly to appreciate the conciseness and rhythm of classical Chinese. Note common content and function words."},
             {cn:"\u601d\u8003\u6587\u7ae0\u7684\u5199\u4f5c\u80cc\u666f\u548c\u4f5c\u8005\u7684\u601d\u60f3\u611f\u60c5\u3002\u6587\u8a00\u6587\u4e2d\u7684\u54ea\u4e9b\u601d\u60f3\u5bf9\u4eca\u5929\u4ecd\u6709\u542f\u53d1\uff1f", en:"Consider the historical context and the author's thoughts and feelings. Which ideas from this classical text still resonate today?"}
+          ],
+          preview: [
+            {cn: "\u501f\u52a9\u8bfe\u6587\u6ce8\u91ca\u548c\u5de5\u5177\u4e66\uff0c\u5c1d\u8bd5\u901a\u8bfb\u5168\u6587\uff0c\u6807\u8bb0\u51fa\u4e0d\u7406\u89e3\u7684\u5b57\u8bcd\u548c\u53e5\u5b50\u3002", en: "With the help of annotations and reference books, try reading through the full text. Mark any characters, words, or sentences you don't understand."},
+            {cn: "\u4e86\u89e3\u4f5c\u8005\u53ca\u5176\u6240\u5904\u65f6\u4ee3\u7684\u80cc\u666f\uff0c\u60f3\u60f3\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\u3002", en: "Learn about the author and the historical context. Think about why the author wrote this text."}
           ],
           grammarPoints: [
             {point:'对话推动叙事',pointEn:'duì huà tuī dòng xù shì',example:'dialogue-driven narration',exampleEn:'全文主要通过孙权与吕蒙、鲁肃与吕蒙的对话展开叙事。',explanation:'The entire text unfolds its narrative mainly through dialogues between Sun Quan and Lu Meng, and between Lu Su and Lu Meng.',explanationEn:'以对话为主的叙事方式，言简意丰，既推动情节又展现人物性格。'}
@@ -368,6 +394,10 @@ var TB_G7S2 = {
             {cn:"\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f3\u97f5\u7f8e\u548c\u610f\u5883\u7f8e\u3002\u6ce8\u610f\u5206\u6790\u8bd7\u4e2d\u7684\u610f\u8c61\u548c\u4fee\u8f9e\u624b\u6cd5\u3002", en:"Read aloud repeatedly to appreciate the phonetic beauty and artistic conception. Analyze the imagery and rhetorical devices used."},
             {cn:"\u7ed3\u5408\u8bd7\u4eba\u7684\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u4e2d\u8574\u542b\u7684\u601d\u60f3\u611f\u60c5\u3002", en:"Consider the poet's life and the context of writing to understand the deeper emotions expressed."}
           ],
+          preview: [
+            {cn: "\u6717\u8bfb\u8fd9\u9996\u8bd7\uff0c\u611f\u53d7\u8bd7\u6b4c\u7684\u8282\u594f\u548c\u97f3\u97f5\u3002\u60f3\u60f3\u8bd7\u4eba\u5728\u4ec0\u4e48\u60c5\u5883\u4e0b\u5199\u4e0b\u8fd9\u9996\u8bd7\u3002", en: "Read this poem aloud and feel its rhythm and rhyme. Think about the circumstances in which the poet wrote it."},
+            {cn: "\u67e5\u627e\u4e0e\u672c\u8bd7\u76f8\u5173\u7684\u80cc\u666f\u8d44\u6599\uff0c\u5305\u62ec\u4f5c\u8005\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\u3002", en: "Look up background information related to this poem, including the poet's life and the context of writing."}
+          ],
           grammarPoints: [
             {point:'反复与呼告',pointEn:'fǎn fù yǔ hū gào',example:'repetition and apostrophe',exampleEn:'啊！黄河！反复出现三次，营造出回环往复的韵律美。',explanation:'Ah! Yellow River! appears three times, creating a rhythmic beauty of cyclical repetition.',explanationEn:'反复使用相同的句式和呼告，能增强诗歌的气势和感染力。'}
           ],
@@ -436,6 +466,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+          ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u9646\u5b9a\u4e00\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Lu Dingyi to understand their writing style and the context of this text."}
           ],
           grammarPoints: [
             {point:'时间顺序',pointEn:'shí jiān shùn xù',example:'chronological order',exampleEn:'文章按时间顺序叙述红军翻越老山界的经过，从下午出发到第二天下午翻过山顶。',explanation:'The article narrates the Red Army crossing Laoshan Pass in chronological order, from departure in the afternoon to crossing the summit the next afternoon.',explanationEn:'按时间顺序组织材料，能清晰地展现事件的发展过程。'}
@@ -506,6 +540,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+          ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u9b4f\u5dcd\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Wei Wei to understand their writing style and the context of this text."}
           ],
           grammarPoints: [
             {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'他们的品质是那样地纯洁和高尚，他们的意志是那样地坚韧和刚强，他们的气质是那样地淳朴和谦逊。',explanation:'Their character is so pure and noble, their willpower so tenacious and unyielding, their temperament so simple and modest.',explanationEn:'连续使用相同句式的排比，增强了语势，充分表达了作者对志愿军战士的赞美之情。'}
@@ -605,6 +643,20 @@ var TB_G7S2 = {
           readingTips: [
             { cn: "\u672c\u6587\u5927\u91cf\u8fd0\u7528\u6392\u6bd4\u3001\u547c\u544a\u7b49\u4fee\u8f9e\u624b\u6cd5\uff0c\u62d2\u53d1\u5bf9\u6545\u571f\u7684\u70c8\u7231\u3002\u6ce8\u610f\u4f53\u4f1a\u5176\u4e2d\u7684\u611f\u60c5\u529b\u91cf\u3002", en: "This text uses parallelism and apostrophe extensively to express passionate love for the homeland. Notice the emotional power." }
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u7aef\u6728\u857b\u826f\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Duanmu Hongliang to understand their writing style and the context of this text."}
+          ],
+          accumExtend: [
+            {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u631a\u75db\u3001\u6cdb\u6ee5\u3001\u4e98\u53e4\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u631a\u75db\u3001\u6cdb\u6ee5\u3001\u4e98\u53e4\". Collect the words and sentences you like and try using them in your own writing."},
+            {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+            {cn: "\u8bfe\u5916\u9605\u8bfb\u7aef\u6728\u857b\u826f\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Duanmu Hongliang and compare them with this text. Write a short essay sharing your findings."}
+          ],
+          thinkExplore: [
+            {cn: "\u6717\u8bfb\u8bfe\u6587\uff0c\u6982\u62ec\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u4f5c\u8005\u60f3\u8981\u8868\u8fbe\u7684\u4e2d\u5fc3\u601d\u60f3\u662f\u4ec0\u4e48\uff1f", en: "Read the text aloud and summarize its main content. What central idea does the author wish to convey?"},
+            {cn: "\u6587\u4e2d\u6709\u54ea\u4e9b\u7cbe\u5f69\u7684\u8bed\u53e5\u6216\u6bb5\u843d\uff1f\u627e\u51fa\u6765\u54c1\u5473\u5176\u4e2d\u7684\u8868\u8fbe\u6548\u679c\uff0c\u5e76\u4e0e\u540c\u5b66\u5206\u4eab\u4f60\u7684\u611f\u53d7\u3002", en: "Which sentences or paragraphs are most impressive? Identify them, appreciate their expressive effects, and share your feelings with classmates."},
+            {cn: "\u7ed3\u5408\u4f5c\u8005\u7aef\u6728\u857b\u826f\u7684\u5199\u4f5c\u80cc\u666f\uff0c\u8c08\u8c08\u4f60\u5bf9\u8fd9\u7bc7\u6587\u7ae0\u7684\u7406\u89e3\u3002\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\uff1f", en: "Considering the author Duanmu Hongliang's background, discuss your understanding. Why did the author write this?"}
+          ],
           teachingPoints: [
             { cn: "\u4f53\u4f1a\u6392\u6bd4\u3001\u547c\u544a\u4fee\u8f9e\u624b\u6cd5\u7684\u62d2\u60c5\u6548\u679c\u3002", en: "Appreciate the emotional effect of parallelism and apostrophe." }
           ],
@@ -634,6 +686,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u5148\u7ed3\u5408\u6ce8\u91ca\u7586\u901a\u6587\u610f\uff0c\u518d\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u6587\u8a00\u6587\u7684\u7b80\u7ec3\u4e0e\u97f5\u5f8b\u3002\u6ce8\u610f\u79ef\u7d2f\u5e38\u89c1\u7684\u6587\u8a00\u5b9e\u8bcd\u548c\u865a\u8bcd\u3002", en:"First understand the text with annotations, then read aloud repeatedly to appreciate the conciseness and rhythm of classical Chinese. Note common content and function words."},
             {cn:"\u601d\u8003\u6587\u7ae0\u7684\u5199\u4f5c\u80cc\u666f\u548c\u4f5c\u8005\u7684\u601d\u60f3\u611f\u60c5\u3002\u6587\u8a00\u6587\u4e2d\u7684\u54ea\u4e9b\u601d\u60f3\u5bf9\u4eca\u5929\u4ecd\u6709\u542f\u53d1\uff1f", en:"Consider the historical context and the author's thoughts and feelings. Which ideas from this classical text still resonate today?"}
+          ],
+          preview: [
+            {cn: "\u501f\u52a9\u8bfe\u6587\u6ce8\u91ca\u548c\u5de5\u5177\u4e66\uff0c\u5c1d\u8bd5\u901a\u8bfb\u5168\u6587\uff0c\u6807\u8bb0\u51fa\u4e0d\u7406\u89e3\u7684\u5b57\u8bcd\u548c\u53e5\u5b50\u3002", en: "With the help of annotations and reference books, try reading through the full text. Mark any characters, words, or sentences you don't understand."},
+            {cn: "\u4e86\u89e3\u4f5c\u8005\u53ca\u5176\u6240\u5904\u65f6\u4ee3\u7684\u80cc\u666f\uff0c\u60f3\u60f3\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\u3002", en: "Learn about the author and the historical context. Think about why the author wrote this text."}
           ],
           grammarPoints: [
             {point:'互文',pointEn:'hù wén',example:'mutual text (a rhetorical device where two clauses complete each other)',exampleEn:'东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭。',explanation:'At the east market she bought a fine horse, at the west market a saddle pad, at the south market a bridle, at the north market a long whip.',explanationEn:'互文是古诗常用的修辞手法，上下句互相补充，合起来表达一个完整意思。'},
@@ -769,6 +825,10 @@ var TB_G7S2 = {
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u9c81\u8fc5\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Lu Xun to understand their writing style and the context of this text."}
+          ],
           grammarPoints: [
             {point:'欲扬先抑',pointEn:'yù yáng xiān yì',example:'to praise by first criticizing',exampleEn:'作者先写阿长的种种缺点和令人讨厌的习惯，再写她为我买来山海经的感人之举。',explanation:'The author first writes about Ah Chang’s various shortcomings and annoying habits, then describes her touching act of buying the Classic of Mountains and Seas for him.',explanationEn:'先写不好的方面，再转折写好的方面，形成强烈对比，使人物形象更加丰满。'}
           ],
@@ -845,6 +905,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+          ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u6768\u7edb\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Yang Jiang to understand their writing style and the context of this text."}
           ],
           author: "\u6768\u7edb",
           authorEn: "Yang Jiang",
@@ -942,6 +1006,20 @@ var TB_G7S2 = {
           readingTips: [
             { cn: "\u5c0f\u8bf4\u7528\u7b2c\u4e00\u4eba\u79f0\u53d9\u8ff0\u4e86\u7236\u4eb2\u4e0e\u53f0\u9636\u7684\u6545\u4e8b\u3002\u53f0\u9636\u65e2\u662f\u5bb6\u5883\u53d8\u5316\u7684\u6807\u5fd7\uff0c\u4e5f\u662f\u7236\u4eb2\u4eba\u751f\u8ffd\u6c42\u7684\u8c61\u5f81\u3002", en: "This story uses first person to tell the tale of Father and the steps. The steps symbolize both family improvement and Father\u2019s life aspirations." }
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u674e\u68ee\u7965\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Li Senxiang to understand their writing style and the context of this text."}
+          ],
+          accumExtend: [
+            {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u51f9\u51fc\u3001\u5c34\u5c2c\u3001\u70e6\u8e81\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u51f9\u51fc\u3001\u5c34\u5c2c\u3001\u70e6\u8e81\". Collect the words and sentences you like and try using them in your own writing."},
+            {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+            {cn: "\u8bfe\u5916\u9605\u8bfb\u674e\u68ee\u7965\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Li Senxiang and compare them with this text. Write a short essay sharing your findings."}
+          ],
+          thinkExplore: [
+            {cn: "\u6717\u8bfb\u8bfe\u6587\uff0c\u6982\u62ec\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u4f5c\u8005\u60f3\u8981\u8868\u8fbe\u7684\u4e2d\u5fc3\u601d\u60f3\u662f\u4ec0\u4e48\uff1f", en: "Read the text aloud and summarize its main content. What central idea does the author wish to convey?"},
+            {cn: "\u6587\u4e2d\u6709\u54ea\u4e9b\u7cbe\u5f69\u7684\u8bed\u53e5\u6216\u6bb5\u843d\uff1f\u627e\u51fa\u6765\u54c1\u5473\u5176\u4e2d\u7684\u8868\u8fbe\u6548\u679c\uff0c\u5e76\u4e0e\u540c\u5b66\u5206\u4eab\u4f60\u7684\u611f\u53d7\u3002", en: "Which sentences or paragraphs are most impressive? Identify them, appreciate their expressive effects, and share your feelings with classmates."},
+            {cn: "\u7ed3\u5408\u4f5c\u8005\u674e\u68ee\u7965\u7684\u5199\u4f5c\u80cc\u666f\uff0c\u8c08\u8c08\u4f60\u5bf9\u8fd9\u7bc7\u6587\u7ae0\u7684\u7406\u89e3\u3002\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\uff1f", en: "Considering the author Li Senxiang's background, discuss your understanding. Why did the author write this?"}
+          ],
           teachingPoints: [
             { cn: "\u4f53\u4f1a\u8c61\u5f81\u624b\u6cd5\u548c\u7ec6\u8282\u63cf\u5199\u5728\u5c0f\u8bf4\u4e2d\u7684\u4f5c\u7528\u3002", en: "Appreciate the role of symbolism and detail in fiction." }
           ],
@@ -971,6 +1049,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u5148\u7ed3\u5408\u6ce8\u91ca\u7586\u901a\u6587\u610f\uff0c\u518d\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u6587\u8a00\u6587\u7684\u7b80\u7ec3\u4e0e\u97f5\u5f8b\u3002\u6ce8\u610f\u79ef\u7d2f\u5e38\u89c1\u7684\u6587\u8a00\u5b9e\u8bcd\u548c\u865a\u8bcd\u3002", en:"First understand the text with annotations, then read aloud repeatedly to appreciate the conciseness and rhythm of classical Chinese. Note common content and function words."},
             {cn:"\u601d\u8003\u6587\u7ae0\u7684\u5199\u4f5c\u80cc\u666f\u548c\u4f5c\u8005\u7684\u601d\u60f3\u611f\u60c5\u3002\u6587\u8a00\u6587\u4e2d\u7684\u54ea\u4e9b\u601d\u60f3\u5bf9\u4eca\u5929\u4ecd\u6709\u542f\u53d1\uff1f", en:"Consider the historical context and the author's thoughts and feelings. Which ideas from this classical text still resonate today?"}
+          ],
+          preview: [
+            {cn: "\u501f\u52a9\u8bfe\u6587\u6ce8\u91ca\u548c\u5de5\u5177\u4e66\uff0c\u5c1d\u8bd5\u901a\u8bfb\u5168\u6587\uff0c\u6807\u8bb0\u51fa\u4e0d\u7406\u89e3\u7684\u5b57\u8bcd\u548c\u53e5\u5b50\u3002", en: "With the help of annotations and reference books, try reading through the full text. Mark any characters, words, or sentences you don't understand."},
+            {cn: "\u4e86\u89e3\u4f5c\u8005\u53ca\u5176\u6240\u5904\u65f6\u4ee3\u7684\u80cc\u666f\uff0c\u60f3\u60f3\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\u3002", en: "Learn about the author and the historical context. Think about why the author wrote this text."}
           ],
           grammarPoints: [
             {point:'以小见大',pointEn:'yǐ xiǎo jiàn dà',example:'illustrating a big principle through a small matter',exampleEn:'卖油翁通过倒油这一小技巧说明了熟能生巧的道理。',explanation:'The oil seller uses the small skill of pouring oil to illustrate the principle that practice makes perfect.',explanationEn:'通过一件小事来揭示普遍道理，使文章说理深入浅出、生动有力。'}
@@ -1105,6 +1187,10 @@ var TB_G7S2 = {
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u5f20\u4e2d\u884c\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Zhang Zhongxing to understand their writing style and the context of this text."}
+          ],
           author: "\u5f20\u4e2d\u884c",
           authorEn: "Zhang Zhongxing",
           source: "\u9009\u81ea\u300a\u8bfb\u4e66\u300b1990\u5e74\u7b2c1\u671f\u3002\u6709\u5220\u6539\u3002",
@@ -1170,6 +1256,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+          ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u5f6d\u8346\u98ce\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Peng Jingfeng to understand their writing style and the context of this text."}
           ],
           grammarPoints: [
             {point:'悬念设置',pointEn:'xuán niàn shè zhì',example:'creating suspense',exampleEn:'文章多次设置悬念：小茅屋的主人是谁？层层揭开，引人入胜。',explanation:'The article creates suspense multiple times: Who is the owner of the hut? The answer is revealed layer by layer, drawing the reader in.',explanationEn:'设置悬念能激发读者的阅读兴趣，增强文章的吸引力。'}
@@ -1259,6 +1349,20 @@ var TB_G7S2 = {
           readingTips: [
             { cn: "\u8fd9\u662f\u4e00\u7bc7\u8bae\u8bba\u6587\uff0c\u7528\u8bbe\u95ee\u3001\u53cd\u95ee\u5f00\u7bc7\uff0c\u5c42\u5c42\u9012\u8fdb\u3002\u4e2d\u5fc3\u8bba\u70b9\uff1a\u8d23\u4efb\u662f\u4eba\u751f\u6700\u5927\u7684\u82e6\u4e0e\u4e50\u3002", en: "This is an argumentative essay that opens with rhetorical questions, building layer by layer. Central thesis: responsibility is both the greatest suffering and the greatest joy in life." }
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u6881\u542f\u8d85\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Liang Qichao to understand their writing style and the context of this text."}
+          ],
+          accumExtend: [
+            {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u5951\u7ea6\u3001\u8fbe\u89c2\u3001\u5982\u91ca\u91cd\u8d1f\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u5951\u7ea6\u3001\u8fbe\u89c2\u3001\u5982\u91ca\u91cd\u8d1f\". Collect the words and sentences you like and try using them in your own writing."},
+            {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+            {cn: "\u8bfe\u5916\u9605\u8bfb\u6881\u542f\u8d85\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Liang Qichao and compare them with this text. Write a short essay sharing your findings."}
+          ],
+          thinkExplore: [
+            {cn: "\u6717\u8bfb\u8bfe\u6587\uff0c\u6982\u62ec\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u4f5c\u8005\u60f3\u8981\u8868\u8fbe\u7684\u4e2d\u5fc3\u601d\u60f3\u662f\u4ec0\u4e48\uff1f", en: "Read the text aloud and summarize its main content. What central idea does the author wish to convey?"},
+            {cn: "\u6587\u4e2d\u6709\u54ea\u4e9b\u7cbe\u5f69\u7684\u8bed\u53e5\u6216\u6bb5\u843d\uff1f\u627e\u51fa\u6765\u54c1\u5473\u5176\u4e2d\u7684\u8868\u8fbe\u6548\u679c\uff0c\u5e76\u4e0e\u540c\u5b66\u5206\u4eab\u4f60\u7684\u611f\u53d7\u3002", en: "Which sentences or paragraphs are most impressive? Identify them, appreciate their expressive effects, and share your feelings with classmates."},
+            {cn: "\u7ed3\u5408\u4f5c\u8005\u6881\u542f\u8d85\u7684\u5199\u4f5c\u80cc\u666f\uff0c\u8c08\u8c08\u4f60\u5bf9\u8fd9\u7bc7\u6587\u7ae0\u7684\u7406\u89e3\u3002\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\uff1f", en: "Considering the author Liang Qichao's background, discuss your understanding. Why did the author write this?"}
+          ],
           teachingPoints: [
             { cn: "\u5b66\u4e60\u8bae\u8bba\u6587\u7684\u57fa\u672c\u7ed3\u6784\uff1a\u63d0\u51fa\u95ee\u9898\u3001\u5206\u6790\u95ee\u9898\u3001\u89e3\u51b3\u95ee\u9898\u3002", en: "Learn the basic structure of argumentative essays: posing, analyzing, and resolving questions." }
           ],
@@ -1311,6 +1415,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u5148\u7ed3\u5408\u6ce8\u91ca\u7586\u901a\u6587\u610f\uff0c\u518d\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u6587\u8a00\u6587\u7684\u7b80\u7ec3\u4e0e\u97f5\u5f8b\u3002\u6ce8\u610f\u79ef\u7d2f\u5e38\u89c1\u7684\u6587\u8a00\u5b9e\u8bcd\u548c\u865a\u8bcd\u3002", en:"First understand the text with annotations, then read aloud repeatedly to appreciate the conciseness and rhythm of classical Chinese. Note common content and function words."},
             {cn:"\u601d\u8003\u6587\u7ae0\u7684\u5199\u4f5c\u80cc\u666f\u548c\u4f5c\u8005\u7684\u601d\u60f3\u611f\u60c5\u3002\u6587\u8a00\u6587\u4e2d\u7684\u54ea\u4e9b\u601d\u60f3\u5bf9\u4eca\u5929\u4ecd\u6709\u542f\u53d1\uff1f", en:"Consider the historical context and the author's thoughts and feelings. Which ideas from this classical text still resonate today?"}
+          ],
+          preview: [
+            {cn: "\u501f\u52a9\u8bfe\u6587\u6ce8\u91ca\u548c\u5de5\u5177\u4e66\uff0c\u5c1d\u8bd5\u901a\u8bfb\u5168\u6587\uff0c\u6807\u8bb0\u51fa\u4e0d\u7406\u89e3\u7684\u5b57\u8bcd\u548c\u53e5\u5b50\u3002", en: "With the help of annotations and reference books, try reading through the full text. Mark any characters, words, or sentences you don't understand."},
+            {cn: "\u4e86\u89e3\u4f5c\u8005\u53ca\u5176\u6240\u5904\u65f6\u4ee3\u7684\u80cc\u666f\uff0c\u60f3\u60f3\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\u3002", en: "Learn about the author and the historical context. Think about why the author wrote this text."}
           ],
           grammarPoints: [
             {point:'托物言志',pointEn:'tuō wù yán zhì',example:'expressing aspirations through objects',exampleEn:'刘禹锡借陋室表达安贫乐道的志趣；周敦颐借莲花比喻君子品格。',explanation:'Liu Yuxi uses the humble room to express his aspiration for contentment in poverty; Zhou Dunyi compares the lotus to the character of a gentleman.',explanationEn:'通过描写某一事物来表达作者的志向或品格，使抽象的品质借具体的事物得以呈现。'}
@@ -1411,6 +1519,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+          ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u5b97\u7490\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Zong Pu to understand their writing style and the context of this text."}
           ],
           grammarPoints: [
             {point:'借物抒情',pointEn:'jiè wù shū qíng',example:'expressing emotion through objects',exampleEn:'作者借紫藤萝花的由衰到盛，表达了对生命的感悟。',explanation:'The author uses the wisteria’s transition from decline to flourishing to express an insight about life.',explanationEn:'通过对具体事物的细致描写来表达作者的情感变化，使情感表达更加含蓄深沉。'}
@@ -1532,6 +1644,20 @@ var TB_G7S2 = {
             { cn: "\u6570\u4e00\u6570\u4f5c\u8005\u7528\u4e86\u591a\u5c11\u6b21\u201c\u6211\u7684\u5c0f\u6843\u6811\u201d\u8fd9\u4e00\u79f0\u547c\uff0c\u60f3\u60f3\u4e3a\u4ec0\u4e48\u5982\u6b64\u6267\u7740\u3002\u5c0f\u6843\u6811\u662f\u4ed6\u4ece\u513f\u65f6\u4fbf\u6000\u6709\u7684\u3001\u5411\u5f80\u5e78\u798f\u751f\u6d3b\u7684\u201c\u68a6\u201d\u7684\u5316\u8eab\u3002", en: "Count how many times the author uses \u2018my little peach tree.\u2019 The peach tree is the embodiment of his childhood dream of a happy life." },
             { cn: "\u672c\u6587\u4e0e\u300a\u7d2b\u85e4\u841d\u7011\u5e03\u300b\u5728\u5199\u6cd5\u4e0a\u6709\u4ec0\u4e48\u76f8\u540c\u548c\u4e0d\u540c\u4e4b\u5904\uff1f", en: "What are the similarities and differences in writing techniques between this text and The Wisteria Waterfall?" }
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u8d3e\u5e73\u51f9\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Jia Pingwa to understand their writing style and the context of this text."}
+          ],
+          accumExtend: [
+            {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u77dc\u6301\u3001\u7325\u7410\u3001\u5fcf\u6094\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u77dc\u6301\u3001\u7325\u7410\u3001\u5fcf\u6094\". Collect the words and sentences you like and try using them in your own writing."},
+            {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+            {cn: "\u8bfe\u5916\u9605\u8bfb\u8d3e\u5e73\u51f9\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Jia Pingwa and compare them with this text. Write a short essay sharing your findings."}
+          ],
+          thinkExplore: [
+            {cn: "\u6717\u8bfb\u8bfe\u6587\uff0c\u6982\u62ec\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u4f5c\u8005\u60f3\u8981\u8868\u8fbe\u7684\u4e2d\u5fc3\u601d\u60f3\u662f\u4ec0\u4e48\uff1f", en: "Read the text aloud and summarize its main content. What central idea does the author wish to convey?"},
+            {cn: "\u6587\u4e2d\u6709\u54ea\u4e9b\u7cbe\u5f69\u7684\u8bed\u53e5\u6216\u6bb5\u843d\uff1f\u627e\u51fa\u6765\u54c1\u5473\u5176\u4e2d\u7684\u8868\u8fbe\u6548\u679c\uff0c\u5e76\u4e0e\u540c\u5b66\u5206\u4eab\u4f60\u7684\u611f\u53d7\u3002", en: "Which sentences or paragraphs are most impressive? Identify them, appreciate their expressive effects, and share your feelings with classmates."},
+            {cn: "\u7ed3\u5408\u4f5c\u8005\u8d3e\u5e73\u51f9\u7684\u5199\u4f5c\u80cc\u666f\uff0c\u8c08\u8c08\u4f60\u5bf9\u8fd9\u7bc7\u6587\u7ae0\u7684\u7406\u89e3\u3002\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\uff1f", en: "Considering the author Jia Pingwa's background, discuss your understanding. Why did the author write this?"}
+          ],
           readWriteWords: ["\u5fe0\u6094", "\u6dc5\u6dc5\u6ca5\u6ca5", "\u77f6\u6d51", "\u6241\u62a3", "\u7ec4\u53e3", "\u5bb6\u5f53"],
           teachingPoints: [
             { cn: "\u4f53\u4f1a\u6563\u6587\u4e2d\u53cd\u590d\u51fa\u73b0\u7684\u63cf\u5199\u5bc4\u6258\u7684\u6df1\u610f\u3002", en: "Appreciate the deep meaning behind repeatedly appearing descriptions in prose." }
@@ -1585,6 +1711,20 @@ var TB_G7S2 = {
           readingTips: [
             { cn: "\u300a\u5047\u5982\u751f\u6d3b\u6b3a\u9a97\u4e86\u4f60\u300b\u76f4\u629b\u80f8\u81c6\uff0c\u300a\u672a\u9009\u62e9\u7684\u8def\u300b\u5219\u7528\u5177\u4f53\u7684\u5f62\u8c61\u9610\u91ca\u54f2\u7406\u3002\u4e24\u79cd\u5199\u6cd5\uff0c\u4f60\u559c\u6b22\u54ea\u4e00\u79cd\uff1f", en: "If Life Deceives You expresses feelings directly; The Road Not Taken uses concrete imagery to illustrate philosophy. Which style do you prefer?" }
           ],
+          preview: [
+            {cn: "\u6717\u8bfb\u8fd9\u9996\u8bd7\uff0c\u611f\u53d7\u8bd7\u6b4c\u7684\u8282\u594f\u548c\u97f3\u97f5\u3002\u60f3\u60f3\u8bd7\u4eba\u5728\u4ec0\u4e48\u60c5\u5883\u4e0b\u5199\u4e0b\u8fd9\u9996\u8bd7\u3002", en: "Read this poem aloud and feel its rhythm and rhyme. Think about the circumstances in which the poet wrote it."},
+            {cn: "\u67e5\u627e\u4e0e\u672c\u8bd7\u76f8\u5173\u7684\u80cc\u666f\u8d44\u6599\uff0c\u5305\u62ec\u4f5c\u8005\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\u3002", en: "Look up background information related to this poem, including the poet's life and the context of writing."}
+          ],
+          accumExtend: [
+            {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u5fe7\u90c1\u3001\u77ac\u606f\u3001\u6000\u604b\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u5fe7\u90c1\u3001\u77ac\u606f\u3001\u6000\u604b\". Collect the words and sentences you like and try using them in your own writing."},
+            {cn: "\u5c1d\u8bd5\u80cc\u8bf5\u8fd9\u9996\u8bd7\u3002\u53ef\u4ee5\u914d\u4e0a\u97f3\u4e50\u6216\u56fe\u753b\uff0c\u8fdb\u884c\u521b\u610f\u6717\u8bf5\u3002", en: "Try to recite this poem. You can pair it with music or illustrations for a creative reading."},
+            {cn: "\u4eff\u7167\u8fd9\u9996\u8bd7\u7684\u98ce\u683c\uff0c\u8bd5\u7740\u5199\u4e00\u9996\u5c0f\u8bd7\uff0c\u8868\u8fbe\u4f60\u5bf9\u67d0\u4e2a\u4e3b\u9898\u7684\u611f\u60f3\u3002", en: "Following the style of this poem, try writing a short poem expressing your thoughts on a topic."}
+          ],
+          thinkExplore: [
+            {cn: "\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8fd9\u9996\u8bd7\uff0c\u6ce8\u610f\u8282\u594f\u548c\u97f5\u5f8b\u3002\u8bd7\u4e2d\u8425\u9020\u4e86\u600e\u6837\u7684\u610f\u5883\uff1f\u8bd7\u4eba\u8868\u8fbe\u4e86\u600e\u6837\u7684\u60c5\u611f\uff1f", en: "Read the poem aloud with feeling, paying attention to rhythm and rhyme. What atmosphere does it create? What emotions does the poet express?"},
+            {cn: "\u627e\u51fa\u8bd7\u4e2d\u7684\u610f\u8c61\u548c\u5173\u952e\u8bcd\u8bed\uff0c\u5206\u6790\u5b83\u4eec\u5982\u4f55\u5851\u9020\u8bd7\u6b4c\u7684\u4e3b\u9898\u548c\u60c5\u611f\u57fa\u8c03\u3002", en: "Identify the imagery and key phrases. Analyze how they shape the poem's theme and emotional tone."},
+            {cn: "\u6bd4\u8f83\u8fd9\u9996\u8bd7\u4e0e\u4f60\u8bfb\u8fc7\u7684\u5176\u4ed6\u540c\u4e3b\u9898\u8bd7\u6b4c\uff0c\u8bf4\u8bf4\u5b83\u4eec\u5728\u8868\u8fbe\u65b9\u5f0f\u4e0a\u6709\u4ec0\u4e48\u5f02\u540c\u3002", en: "Compare this poem with other poems of similar themes you've read. How do they differ in expression?"}
+          ],
           readWriteWords: ["\u60b2\u4f24", "\u5fe7\u90c1", "\u9547\u9759", "\u77ac\u606f", "\u6000\u604b", "\u6d89\u8db3", "\u4f2b\u7acb", "\u8404\u8404"],
           teachingPoints: [
             { cn: "\u6bd4\u8f83\u4e24\u9996\u8bd7\u7684\u4e0d\u540c\u5199\u6cd5\uff1a\u76f4\u629b\u80f8\u81c6\u4e0e\u5f62\u8c61\u5316\u8868\u8fbe\u3002", en: "Compare the two poems\u2019 different approaches: direct expression vs. imagery-based expression." }
@@ -1615,6 +1755,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u5148\u7ed3\u5408\u6ce8\u91ca\u7586\u901a\u6587\u610f\uff0c\u518d\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u6587\u8a00\u6587\u7684\u7b80\u7ec3\u4e0e\u97f5\u5f8b\u3002\u6ce8\u610f\u79ef\u7d2f\u5e38\u89c1\u7684\u6587\u8a00\u5b9e\u8bcd\u548c\u865a\u8bcd\u3002", en:"First understand the text with annotations, then read aloud repeatedly to appreciate the conciseness and rhythm of classical Chinese. Note common content and function words."},
             {cn:"\u601d\u8003\u6587\u7ae0\u7684\u5199\u4f5c\u80cc\u666f\u548c\u4f5c\u8005\u7684\u601d\u60f3\u611f\u60c5\u3002\u6587\u8a00\u6587\u4e2d\u7684\u54ea\u4e9b\u601d\u60f3\u5bf9\u4eca\u5929\u4ecd\u6709\u542f\u53d1\uff1f", en:"Consider the historical context and the author's thoughts and feelings. Which ideas from this classical text still resonate today?"}
+          ],
+          preview: [
+            {cn: "\u501f\u52a9\u8bfe\u6587\u6ce8\u91ca\u548c\u5de5\u5177\u4e66\uff0c\u5c1d\u8bd5\u901a\u8bfb\u5168\u6587\uff0c\u6807\u8bb0\u51fa\u4e0d\u7406\u89e3\u7684\u5b57\u8bcd\u548c\u53e5\u5b50\u3002", en: "With the help of annotations and reference books, try reading through the full text. Mark any characters, words, or sentences you don't understand."},
+            {cn: "\u4e86\u89e3\u4f5c\u8005\u53ca\u5176\u6240\u5904\u65f6\u4ee3\u7684\u80cc\u666f\uff0c\u60f3\u60f3\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\u3002", en: "Learn about the author and the historical context. Think about why the author wrote this text."}
           ],
           grammarPoints: [
             {point:'借景抒情',pointEn:'jiè jǐng shū qíng',example:'expressing feelings through scenery',exampleEn:'会当凌绝顶，一览众山小。杜甫借泰山之景抒发远大志向。',explanation:'I shall ascend the highest peak and see all other mountains appear small. Du Fu expresses his lofty ambitions through the scenery of Mount Tai.',explanationEn:'诗人通过描写自然景物来寄托自己的情感和志向，情景交融。'},
@@ -1741,6 +1885,10 @@ var TB_G7S2 = {
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u8328\u5a01\u683c\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Stefan Zweig to understand their writing style and the context of this text."}
+          ],
           grammarPoints: [
             {point:'传记文学',pointEn:'zhuàn jì wén xué',example:'biographical literature',exampleEn:'茨威格以文学的笔法记述斯科特探险队的悲壮故事，既有历史的真实又有文学的感染力。',explanation:'Zweig recounts the heroic tragedy of Scott’s expedition with literary technique, combining historical truth with literary emotional power.',explanationEn:'传记文学将真实事件与文学手法结合，在尊重事实的基础上进行艺术加工。'}
           ],
@@ -1824,6 +1972,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
             {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+          ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u6768\u5229\u4f1f\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Yang Liwei to understand their writing style and the context of this text."}
           ],
           grammarPoints: [
             {point:'科学精神',pointEn:'kē xué jīng shén',example:'scientific spirit',exampleEn:'杨利伟详细描述了飞行中的每一个细节，体现了航天员严谨的科学精神。',explanation:'Yang Liwei described every detail of the flight in detail, reflecting the rigorous scientific spirit of astronauts.',explanationEn:'对航天员来说最基本的要求是严谨，文章处处体现了科学的严谨态度。'}
@@ -1940,6 +2092,20 @@ var TB_G7S2 = {
             { cn: "\u8fd9\u7bc7\u5c0f\u8bf4\u60f3\u8c61\u5947\u7279\uff0c\u6784\u601d\u5de7\u5999\uff0c\u5584\u4e8e\u5236\u9020\u60ac\u5ff5\u3002\u6587\u4e2d\u591a\u5904\u57cb\u4e0b\u4f0f\u7b14\uff0c\u6700\u540e\u7684\u8c1c\u5e95\u65e2\u51fa\u4eba\u610f\u6599\u53c8\u5728\u60c5\u7406\u4e4b\u4e2d\u3002", en: "This story features remarkable imagination and clever construction, with suspense and foreshadowing throughout. The final revelation is both surprising and logical." },
             { cn: "\u8bfe\u5916\u53ef\u4ee5\u9605\u8bfb\u5218\u6148\u6b23\u7684\u300a\u671d\u95fb\u9053\u300b\u7b49\u79d1\u5e7b\u540d\u4f5c\u3002", en: "Recommended extracurricular reading: Liu Cixin\u2019s The Coming of Dao and other sci-fi classics." }
           ],
+          preview: [
+            {cn: "\u901a\u8bfb\u8bfe\u6587\uff0c\u521d\u6b65\u4e86\u89e3\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u6807\u8bb0\u51fa\u4f60\u8ba4\u4e3a\u91cd\u8981\u7684\u8bcd\u8bed\u548c\u4e0d\u7406\u89e3\u7684\u5730\u65b9\u3002", en: "Read through the text for an initial understanding of the main content. Mark important vocabulary and parts you don't understand."},
+            {cn: "\u67e5\u627e\u4f5c\u8005\u5218\u6148\u6b23\u7684\u76f8\u5173\u8d44\u6599\uff0c\u4e86\u89e3\u5176\u5199\u4f5c\u98ce\u683c\u548c\u672c\u6587\u7684\u5199\u4f5c\u80cc\u666f\u3002", en: "Research the author Liu Cixin to understand their writing style and the context of this text."}
+          ],
+          accumExtend: [
+            {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u4f20\u611f\u3001\u538b\u6291\u3001\u8499\u8499\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u4f20\u611f\u3001\u538b\u6291\u3001\u8499\u8499\". Collect the words and sentences you like and try using them in your own writing."},
+            {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+            {cn: "\u8bfe\u5916\u9605\u8bfb\u5218\u6148\u6b23\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Liu Cixin and compare them with this text. Write a short essay sharing your findings."}
+          ],
+          thinkExplore: [
+            {cn: "\u6717\u8bfb\u8bfe\u6587\uff0c\u6982\u62ec\u6587\u7ae0\u7684\u4e3b\u8981\u5185\u5bb9\u3002\u4f5c\u8005\u60f3\u8981\u8868\u8fbe\u7684\u4e2d\u5fc3\u601d\u60f3\u662f\u4ec0\u4e48\uff1f", en: "Read the text aloud and summarize its main content. What central idea does the author wish to convey?"},
+            {cn: "\u6587\u4e2d\u6709\u54ea\u4e9b\u7cbe\u5f69\u7684\u8bed\u53e5\u6216\u6bb5\u843d\uff1f\u627e\u51fa\u6765\u54c1\u5473\u5176\u4e2d\u7684\u8868\u8fbe\u6548\u679c\uff0c\u5e76\u4e0e\u540c\u5b66\u5206\u4eab\u4f60\u7684\u611f\u53d7\u3002", en: "Which sentences or paragraphs are most impressive? Identify them, appreciate their expressive effects, and share your feelings with classmates."},
+            {cn: "\u7ed3\u5408\u4f5c\u8005\u5218\u6148\u6b23\u7684\u5199\u4f5c\u80cc\u666f\uff0c\u8c08\u8c08\u4f60\u5bf9\u8fd9\u7bc7\u6587\u7ae0\u7684\u7406\u89e3\u3002\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\uff1f", en: "Considering the author Liu Cixin's background, discuss your understanding. Why did the author write this?"}
+          ],
           readWriteWords: ["\u4f20\u611f", "\u5bfb\u5f15", "\u5c01\u95ed", "\u64cd\u4f5c\u76d2", "\u6d6e\u5c40", "\u901a\u4fe1", "\u5730\u5fc3", "\u6db2\u6001"],
           teachingPoints: [
             { cn: "\u4f53\u4f1a\u79d1\u5e7b\u5c0f\u8bf4\u60ac\u5ff5\u8bbe\u7f6e\u548c\u4f0f\u7b14\u7684\u5199\u4f5c\u6280\u5de7\u3002", en: "Appreciate the writing techniques of suspense and foreshadowing in science fiction." },
@@ -1971,6 +2137,10 @@ var TB_G7S2 = {
           readingTips: [
             {cn:"\u5148\u7ed3\u5408\u6ce8\u91ca\u7586\u901a\u6587\u610f\uff0c\u518d\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u6587\u8a00\u6587\u7684\u7b80\u7ec3\u4e0e\u97f5\u5f8b\u3002\u6ce8\u610f\u79ef\u7d2f\u5e38\u89c1\u7684\u6587\u8a00\u5b9e\u8bcd\u548c\u865a\u8bcd\u3002", en:"First understand the text with annotations, then read aloud repeatedly to appreciate the conciseness and rhythm of classical Chinese. Note common content and function words."},
             {cn:"\u601d\u8003\u6587\u7ae0\u7684\u5199\u4f5c\u80cc\u666f\u548c\u4f5c\u8005\u7684\u601d\u60f3\u611f\u60c5\u3002\u6587\u8a00\u6587\u4e2d\u7684\u54ea\u4e9b\u601d\u60f3\u5bf9\u4eca\u5929\u4ecd\u6709\u542f\u53d1\uff1f", en:"Consider the historical context and the author's thoughts and feelings. Which ideas from this classical text still resonate today?"}
+          ],
+          preview: [
+            {cn: "\u501f\u52a9\u8bfe\u6587\u6ce8\u91ca\u548c\u5de5\u5177\u4e66\uff0c\u5c1d\u8bd5\u901a\u8bfb\u5168\u6587\uff0c\u6807\u8bb0\u51fa\u4e0d\u7406\u89e3\u7684\u5b57\u8bcd\u548c\u53e5\u5b50\u3002", en: "With the help of annotations and reference books, try reading through the full text. Mark any characters, words, or sentences you don't understand."},
+            {cn: "\u4e86\u89e3\u4f5c\u8005\u53ca\u5176\u6240\u5904\u65f6\u4ee3\u7684\u80cc\u666f\uff0c\u60f3\u60f3\u4f5c\u8005\u4e3a\u4ec0\u4e48\u8981\u5199\u8fd9\u7bc7\u6587\u7ae0\u3002", en: "Learn about the author and the historical context. Think about why the author wrote this text."}
           ],
           grammarPoints: [
             {point:'说明顺序',pointEn:'shuō míng shùn xù',example:'expository order',exampleEn:'文章按照制字、排版、印刷的程序逐层说明活字印刷术。',explanation:'The article explains movable type printing layer by layer in the order of making type, typesetting, and printing.',explanationEn:'说明文常按照逻辑顺序或工序流程来组织内容，使复杂事物条理清楚。'}

@@ -141,7 +141,11 @@ units: [
       thinkExplore: [
         {cn: "\u4f53\u4f1a\u9769\u547d\u8005\u6df1\u6c89\u535a\u5927\u800c\u53c8\u70bd\u70ed\u6fc0\u8d8a\u7684\u60c5\u611f\u3002", en: "Appreciate the revolutionary\u2019s deep, broad yet ardent and passionate emotions."}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u6cc9\u53f0\u3001\u65cc\u65d7\u3001\u70fd\u70df\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u6cc9\u53f0\u3001\u65cc\u65d7\u3001\u70fd\u70df\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u9648\u6bc5\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Chen Yi and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u628a\u63e1\u8bd7\u4e2d\u610f\u8c61\uff0c\u4f53\u4f1a\u9769\u547d\u8005\u4e0d\u5c48\u7684\u6218\u6597\u610f\u5fd7\u548c\u5bf9\u9769\u547d\u5fc5\u80dc\u7684\u4fe1\u5ff5\u3002", en: "Grasp the imagery and appreciate the revolutionary\u2019s indomitable fighting spirit and faith in certain victory."}
       ],
@@ -204,7 +208,11 @@ units: [
       thinkExplore: [
         {cn: "\u8054\u7cfb\u8bd7\u4eba\u751f\u5e73\u548c\u521b\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u5185\u5bb9\uff0c\u628a\u63e1\u8bd7\u4eba\u7684\u601d\u60f3\u60c5\u611f\u3002", en: "Connect the poets\u2019 lives and creative backgrounds to understand the poems\u2019 content and grasp their emotions."}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u971c\u98ce\u3001\u53e3\u5360\u3001\u88c5\u9970\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u971c\u98ce\u3001\u53e3\u5360\u3001\u88c5\u9970\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u5c1d\u8bd5\u80cc\u8bf5\u8fd9\u9996\u8bd7\u3002\u53ef\u4ee5\u914d\u4e0a\u97f3\u4e50\u6216\u56fe\u753b\uff0c\u8fdb\u884c\u521b\u610f\u6717\u8bf5\u3002", en: "Try to recite this poem. You can pair it with music or illustrations for a creative reading."},
+        {cn: "\u4eff\u7167\u8fd9\u9996\u8bd7\u7684\u98ce\u683c\uff0c\u8bd5\u7740\u5199\u4e00\u9996\u5c0f\u8bd7\uff0c\u8868\u8fbe\u4f60\u5bf9\u67d0\u4e2a\u4e3b\u9898\u7684\u611f\u60f3\u3002", en: "Following the style of this poem, try writing a short poem expressing your thoughts on a topic."}
+      ],
       teachingPoints: [
         {cn: "\u4f53\u4f1a\u77ed\u8bd7\u51dd\u7ec3\u542b\u84c4\u7684\u8bed\u8a00\uff0c\u611f\u53d7\u610f\u8c61\u8425\u9020\u7684\u4e0d\u540c\u6c1b\u56f4\u3002", en: "Appreciate the concise, suggestive language of short poems and feel the different atmospheres created by imagery."}
       ],
@@ -419,7 +427,11 @@ units: [
         {cn: "\u5b54\u4e59\u5df1\u662f\u4e00\u4e2a\u600e\u6837\u7684\u4eba\uff1f\u7ed3\u5408\u5177\u4f53\u63cf\u5199\uff0c\u8054\u7cfb\u4eba\u7269\u6240\u5904\u7684\u793e\u4f1a\u73af\u5883\u3002", en: "What kind of person is Kong Yiji? Connect specific descriptions to his social environment."},
         {cn: "\u5c0f\u8bf4\u591a\u6b21\u5199\u5230\u4eba\u4eec\u7684\u201c\u7b11\u201d\uff0c\u4f5c\u8005\u7528\u201c\u7b11\u201d\u6765\u8d2f\u7a7f\u6545\u4e8b\uff0c\u6709\u4ec0\u4e48\u7528\u610f\uff1f", en: "The novel repeatedly mentions people\u2019s \u2018laughter.\u2019 What is the author\u2019s purpose in using laughter as a thread?"}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u9614\u7ef0\u3001\u9893\u5510\u3001\u4e0d\u5c51\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u9614\u7ef0\u3001\u9893\u5510\u3001\u4e0d\u5c51\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u9c81\u8fc5\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Lu Xun and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u5206\u6790\u5c0f\u8bf4\u7684\u53d9\u8ff0\u89c6\u89d2\u3001\u4eba\u7269\u5f62\u8c61\u548c\u793e\u4f1a\u610f\u4e49\uff0c\u7406\u89e3\u5c01\u5efa\u79d1\u4e3e\u5236\u5ea6\u5bf9\u4eba\u7684\u6bc4\u5bb3\u3002", en: "Analyze the narrative perspective, character, and social significance; understand the harm of the imperial examination system."},
         {cn: "\u54c1\u5473\u9c81\u8fc5\u5c0f\u8bf4\u4e2d\u201c\u770b\u5ba2\u201d\u5f62\u8c61\u7684\u6df1\u5c42\u542b\u4e49\u3002", en: "Appreciate the deeper meaning of the \u2018spectator\u2019 figures in Lu Xun\u2019s fiction."}
@@ -498,7 +510,11 @@ units: [
         {cn: "\u5965\u695a\u8511\u6d1b\u592b\u201c\u53d8\u8272\u201d\u7684\u539f\u56e0\u662f\u4ec0\u4e48\uff1f\u8fd9\u4e00\u4eba\u7269\u5f62\u8c61\u53cd\u6620\u4e86\u600e\u6837\u7684\u793e\u4f1a\u73b0\u5b9e\uff1f", en: "Why does Ochumelov keep \u2018changing color\u2019? What social reality does this character reflect?"},
         {cn: "\u8fd9\u7bc7\u8bbd\u523a\u5c0f\u8bf4\u5982\u4f55\u8fd0\u7528\u5bf9\u6bd4\u3001\u5938\u5f20\u7b49\u624b\u6cd5\u8868\u73b0\u8bbd\u523a\u6548\u679c\uff1f", en: "How does this satirical story use contrast and exaggeration to achieve its satirical effect?"}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u65e0\u7cbe\u6253\u91c7\u3001\u5f02\u60f3\u5929\u5f00\u3001\u60e9\u5904\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u65e0\u7cbe\u6253\u91c7\u3001\u5f02\u60f3\u5929\u5f00\u3001\u60e9\u5904\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u5951\u8bc3\u592b\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Anton Chekhov and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u7406\u89e3\u8bbd\u523a\u5c0f\u8bf4\u7684\u7279\u70b9\uff0c\u5206\u6790\u5bf9\u6bd4\u3001\u5938\u5f20\u7b49\u8bbd\u523a\u624b\u6cd5\u3002", en: "Understand the characteristics of satirical fiction; analyze devices like contrast and exaggeration."},
         {cn: "\u4f53\u4f1a\u5951\u8bc3\u592b\u5c0f\u8bf4\u7684\u5e7d\u9ed8\u4e0e\u6df1\u523b\u3002", en: "Appreciate the humor and depth of Chekhov\u2019s fiction."}
@@ -556,7 +572,11 @@ units: [
       thinkExplore: [
         {cn: "\u5c0f\u8bf4\u5904\u5904\u901a\u8fc7\u201c\u6211\u201d\u7684\u89c2\u5bdf\u548c\u611f\u53d7\u6765\u5199\uff0c\u4f53\u4f1a\u8eab\u4e34\u5176\u5883\u4e4b\u611f\u3002", en: "The story is written entirely through \u2018my\u2019 observations and feelings \u2014 experience the sense of being there."}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u4e07\u4e08\u7edd\u58c1\u3001\u9531\u94e2\u3001\u76d8\u6853\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u4e07\u4e08\u7edd\u58c1\u3001\u9531\u94e2\u3001\u76d8\u6853\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u963f\u57ce\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by A Cheng and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u54c1\u5473\u963f\u57ce\u7b80\u6d01\u51dd\u7ec3\u7684\u8bed\u8a00\u98ce\u683c\uff0c\u611f\u53d7\u9a6c\u5e2e\u6c49\u5b50\u7684\u82f1\u96c4\u672c\u8272\u3002", en: "Appreciate A Cheng\u2019s concise, polished language and feel the heroism of the caravan muleteers."}
       ],
@@ -718,7 +738,11 @@ units: [
       thinkExplore: [
         {cn: "\u4f53\u4f1a\u4f5c\u8005\u751f\u52a8\u7684\u4eba\u7269\u5851\u9020\u548c\u6d53\u539a\u7684\u4e61\u571f\u6c14\u606f\u3002", en: "Appreciate the author\u2019s vivid character portrayal and strong local flavor."}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u4e00\u4e08\u9752\u3001\u9690\u533f\u3001\u814c\u81dc\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u4e00\u4e08\u9752\u3001\u9690\u533f\u3001\u814c\u81dc\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u5218\u7ecd\u68e0\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Liu Shaotang and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u5b66\u4e60\u5c0f\u8bf4\u4eba\u7269\u5851\u9020\u7684\u591a\u79cd\u624b\u6cd5\uff1a\u5916\u8c8c\u3001\u8bed\u8a00\u3001\u52a8\u4f5c\u3001\u5938\u5f20\u7b49\u3002", en: "Study various techniques for character portrayal: appearance, language, action, exaggeration."},
         {cn: "\u54c1\u5473\u5c0f\u8bf4\u5bcc\u6709\u7279\u8272\u7684\u53e3\u8bed\u3001\u4fd7\u8bed\u548c\u4f20\u7edf\u8bc4\u4e66\u8bed\u8a00\u3002", en: "Appreciate the distinctive colloquial language, proverbs, and traditional storytelling style."}
@@ -887,7 +911,11 @@ units: [
       thinkExplore: [
         {cn: "\u5510\u96ce\u4e3a\u4ec0\u4e48\u80fd\u8ba9\u79e6\u738b\u5c48\u670d\uff1f", en: "Why was Tang Ju able to make the King of Qin yield?"}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u5e03\u8863\u3001\u602b\u7136\u3001\u514d\u51a0\u5f92\u8de3\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u5e03\u8863\u3001\u602b\u7136\u3001\u514d\u51a0\u5f92\u8de3\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u300a\u6218\u56fd\u7b56\u300b\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Strategies of the Warring States and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u901a\u8fc7\u4eba\u7269\u8bed\u8a00\u5851\u9020\u201c\u58eb\u201d\u7684\u5f62\u8c61\uff0c\u7406\u89e3\u5916\u4ea4\u8f9e\u4ee4\u7684\u827a\u672f\u3002", en: "Understand how character dialogue shapes the image of a \u2018true warrior\u2019 and appreciate the art of diplomatic rhetoric."}
       ],
@@ -948,7 +976,11 @@ units: [
         {cn: "\u4f5c\u8005\u5728\u6c42\u5b66\u8fc7\u7a0b\u4e2d\u9047\u5230\u4e86\u54ea\u4e9b\u56f0\u96be\uff1f\u4ed6\u662f\u5982\u4f55\u514b\u670d\u7684\uff1f", en: "What difficulties did the author face in his studies? How did he overcome them?"},
         {cn: "\u8bfe\u6587\u591a\u5904\u8fd0\u7528\u5bf9\u6bd4\u624b\u6cd5\uff0c\u627e\u51fa\u6765\uff0c\u8c08\u8c08\u8fd9\u6837\u5199\u7684\u597d\u5904\u3002", en: "The text uses contrast extensively. Find examples and discuss the benefits."}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u55dc\u5b66\u3001\u5047\u501f\u3001\u903e\u7ea6\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u55dc\u5b66\u3001\u5047\u501f\u3001\u903e\u7ea6\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u5b8b\u6fc2\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Song Lian and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u7406\u89e3\u8d60\u5e8f\u7684\u6587\u4f53\u7279\u70b9\uff0c\u4f53\u4f1a\u4f5c\u8005\u7684\u826f\u82e6\u7528\u5fc3\u3002", en: "Understand the characteristics of farewell prefaces and appreciate the author\u2019s earnest good intentions."},
         {cn: "\u5b66\u4e60\u5bf9\u6bd4\u624b\u6cd5\u7684\u8fd0\u7528\uff0c\u79ef\u7d2f\u6587\u8a00\u8bcd\u6c47\u3002", en: "Study the use of contrast and accumulate classical Chinese vocabulary."}
@@ -1131,7 +1163,11 @@ units: [
       thinkExplore: [
         {cn: "\u300a\u8c08\u8bfb\u4e66\u300b\u548c\u300a\u4e0d\u6c42\u751a\u89e3\u300b\u5206\u522b\u8868\u8fbe\u4e86\u4ec0\u4e48\u89c2\u70b9\uff1f\u4f60\u66f4\u8d5e\u540c\u54ea\u4e00\u79cd\uff1f", en: "What views do \u2018Of Studies\u2019 and \u2018Don\u2019t Seek to Understand Everything\u2019 express? Which do you agree with more?"}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u6021\u60c5\u3001\u5085\u5f69\u3001\u957f\u624d\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u6021\u60c5\u3001\u5085\u5f69\u3001\u957f\u624d\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u57f9\u6839\u3001\u9a6c\u5357\u90a8\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Francis Bacon & Ma Nancun (Deng Tuo) and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u7406\u89e3\u4e24\u7bc7\u77ed\u6587\u7684\u8bba\u70b9\u548c\u8bba\u8bc1\u65b9\u6cd5\uff0c\u5b66\u4e60\u6279\u5224\u6027\u601d\u7ef4\u3002", en: "Understand the viewpoints and argumentative methods of both essays; learn critical thinking."}
       ],
@@ -1186,7 +1222,11 @@ units: [
       thinkExplore: [
         {cn: "\u4f5c\u8005\u8ba4\u4e3a\u610f\u5883\u662f\u4ec0\u4e48\uff1f\u5982\u4f55\u83b7\u5f97\u610f\u5883\uff1f", en: "What does the author believe artistic conception is? How is it achieved?"}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u610f\u5883\u3001\u60c5\u666f\u4ea4\u878d\u3001\u60c6\u6005\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u610f\u5883\u3001\u60c5\u666f\u4ea4\u878d\u3001\u60c6\u6005\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u674e\u53ef\u67d3\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Li Keran and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u7406\u89e3\u201c\u610f\u5883\u201d\u7684\u6982\u5ff5\uff0c\u5b66\u4e60\u827a\u672f\u9274\u8d4f\u7684\u65b9\u6cd5\u3002", en: "Understand the concept of \u2018artistic conception\u2019 and learn methods of art appreciation."}
       ],
@@ -1238,7 +1278,11 @@ units: [
       thinkExplore: [
         {cn: "\u4f5c\u8005\u4ee5\u6587\u5b66\u3001\u97f3\u4e50\u3001\u96d5\u5851\u7b49\u4e3e\u4f8b\u8bf4\u660e\u201c\u65e0\u8a00\u4e4b\u7f8e\u201d\uff0c\u4f60\u8fd8\u80fd\u4e3e\u51fa\u5176\u4ed6\u4f8b\u5b50\u5417\uff1f", en: "The author illustrates \u2018the beauty of silence\u2019 with literature, music, and sculpture. Can you give other examples?"}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u610f\u8574\u3001\u8a00\u4e0d\u5c3d\u610f\u3001\u542b\u84c4\u4e0d\u9732\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u610f\u8574\u3001\u8a00\u4e0d\u5c3d\u610f\u3001\u542b\u84c4\u4e0d\u9732\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u6731\u5149\u6f5c\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Zhu Guangqian and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u7406\u89e3\u201c\u65e0\u8a00\u4e4b\u7f8e\u201d\u7684\u6982\u5ff5\uff0c\u5b66\u4e60\u542b\u84c4\u4e4b\u7f8e\u7684\u9274\u8d4f\u65b9\u6cd5\u3002", en: "Understand the concept of \u2018the beauty of silence\u2019 and learn to appreciate understated beauty."}
       ],
@@ -1293,7 +1337,11 @@ units: [
       thinkExplore: [
         {cn: "\u4f5c\u8005\u662f\u5982\u4f55\u5f15\u5bfc\u6211\u4eec\u9a71\u9063\u60f3\u8c61\u53bb\u6b23\u8d4f\u4f5c\u54c1\u7684\uff1f", en: "How does the author guide us in using our imagination to appreciate works?"}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u9a71\u9063\u3001\u62d8\u6ce5\u3001\u9274\u8d4f\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u9a71\u9063\u3001\u62d8\u6ce5\u3001\u9274\u8d4f\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u53f6\u5723\u9676\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Ye Shengtao and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "\u5b66\u4e60\u9a71\u9063\u60f3\u8c61\u6765\u9274\u8d4f\u6587\u827a\u4f5c\u54c1\u7684\u65b9\u6cd5\u3002", en: "Learn the method of using imagination to appreciate literary works."}
       ],
@@ -2008,7 +2056,11 @@ units: [
         {cn: "\u201c一个人干，八个人拆\u201d道出了福聚德由盛转衰的直接原因。结合课文具体内容，说说你对福聚德衰落根本原因的认识。", en: "\u2018One man builds while eight tear it down\u2019 reveals the direct cause of Fujude\u2019s decline. Based on the text, discuss your understanding of the fundamental reasons for its downfall."},
         {cn: "《天下第一楼》被称为\u201c京味话剧\u201d，其语言有什么特色？", en: "The Best Restaurant is called a \u2018Beijing-flavor play.\u2019 What are its linguistic characteristics?"}
       ],
-      accumExtend: [],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u9f0e\u76db\u3001\u540d\u566a\u4eac\u5e08\u3001\u6482\u6746\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u9f0e\u76db\u3001\u540d\u566a\u4eac\u5e08\u3001\u6482\u6746\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u4f55\u5180\u5e73\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by He Jiping and compare them with this text. Write a short essay sharing your findings."}
+      ],
       teachingPoints: [
         {cn: "京味话剧的语言特色：北京方言、行业术语、生活气息浓厚", en: "Beijing-flavor drama: characterized by Beijing dialect, trade jargon, and vivid everyday atmosphere"},
         {cn: "多重戏剧冲突的编织：东家与掌柜、师傅与学徒、旧势力与新秩序", en: "Weaving multiple dramatic conflicts: owner vs. manager, master vs. apprentice, old order vs. new"}

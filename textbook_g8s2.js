@@ -306,6 +306,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u4ea2\u594b\u3001\u7f81\u7eca\u3001\u84e6\u7136\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u4ea2\u594b\u3001\u7f81\u7eca\u3001\u84e6\u7136\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u5218\u6210\u7ae0\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Liu Chengzhang and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'骤雨一样，是急促的鼓点；旋风一样，是飞扬的流苏。',explanation:'Like a sudden rainstorm are the rapid drumbeats; like a whirlwind are the flying tassels.',explanationEn:'连续使用排比句式，增强语言气势，营造出激昂奔放的节奏感。'},
         {point:'反复',pointEn:'fǎn fù',example:'repetition',exampleEn:'好一个安塞腰鼓！',explanation:'What a magnificent Ansai waist drum!',explanationEn:'反复出现的感叹句贯穿全文，起到强调主题、深化情感的作用。'}
@@ -448,6 +453,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u65a1\u65cb\u3001\u6005\u60d8\u3001\u7199\u7199\u7136\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u65a1\u65cb\u3001\u6005\u60d8\u3001\u7199\u7199\u7136\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u5434\u4f2f\u7bab\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Wu Boxiao and compare them with this text. Write a short essay sharing your findings."}
+      ],
       authorBio: {
         cn: "\u5434\u4f2f\u7bab\uff081906\u20141982\uff09\uff0c\u539f\u540d\u7199\u6210\uff0c\u5c71\u4e1c\u83b1\u829c\u4eba\uff0c\u6563\u6587\u5bb6\u3001\u6559\u80b2\u5bb6\u3002",
         en: "Wu Boxiao (1906\u20131982), original name Xicheng, from Laiwu, Shandong. Essayist and educator."
@@ -559,6 +569,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u7269\u5019\u3001\u7fe9\u7136\u3001\u9500\u58f0\u533f\u8ff9\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u7269\u5019\u3001\u7fe9\u7136\u3001\u9500\u58f0\u533f\u8ff9\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u7afa\u53ef\u6862\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Zhu Kezhen and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'说明顺序',pointEn:'shuō míng shùn xù',example:'order of explanation',exampleEn:'首先是纬度。经度的差异是影响物候的第二个因素。影响物候的第三个因素是高下的差异。',explanation:'First comes latitude. Longitude is the second factor. The third factor is altitude.',explanationEn:'按照由主到次的逻辑顺序说明物候现象的决定因素，条理清晰。'},
         {point:'举例子',pointEn:'jǔ lì zi',example:'giving examples',exampleEn:'北京的物候记录，1962年的山桃、杏花、苹果的花期比1961年迟十天左右。',explanation:'Beijing phenological records show that the blooming of mountain peach, apricot, and apple in 1962 was about ten days later than in 1961.',explanationEn:'用具体的数据和实例来支持说明，增强文章的说服力和可信度。'}
@@ -653,6 +668,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u9aa8\u9abc\u3001\u6f02\u79fb\u3001\u8936\u76b1\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u9aa8\u9abc\u3001\u6f02\u79fb\u3001\u8936\u76b1\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u963f\u897f\u83ab\u592b\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Isaac Asimov and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'逻辑推理',pointEn:'luó jí tuī lǐ',example:'logical reasoning',exampleEn:'恐龙不可能在每一块大陆上独立生存，那么它们是如何越过大洋到另一个大陆上去的呢？',explanation:'Dinosaurs could not have evolved independently on each continent, so how did they cross the oceans?',explanationEn:'通过提出问题并逐步推理得出结论，体现科学说明文的严密逻辑。'}
       ],
@@ -715,6 +735,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u7f04\u9ed8\u3001\u8fc1\u5f99\u3001\u51cb\u96f6\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u7f04\u9ed8\u3001\u8fc1\u5f99\u3001\u51cb\u96f6\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u5229\u5965\u6ce2\u5fb7\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Aldo Leopold and compare them with this text. Write a short essay sharing your findings."}
+      ],
       authorBio: {
         cn: "\u5229\u5965\u6ce2\u5fb7\uff081887\u20141948\uff09\uff0c\u7f8e\u56fd\u751f\u6001\u5b66\u5bb6\u3002",
         en: "Aldo Leopold (1887\u20131948), American ecologist."
@@ -772,6 +797,11 @@ units: [
       readingTips: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+      ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u8e2a\u8ff9\u3001\u8150\u8680\u3001\u80f6\u7ed3\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u8e2a\u8ff9\u3001\u8150\u8680\u3001\u80f6\u7ed3\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u9676\u4e16\u9f99\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Tao Shilong and compare them with this text. Write a short essay sharing your findings."}
       ],
       authorBio: {
         cn: "\u9676\u4e16\u9f99\uff081929\u2014\u2014\uff09\uff0c\u79d1\u666e\u4f5c\u5bb6\u3002",
@@ -858,6 +888,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u7f24\u7eb7\u3001\u8c41\u7136\u5f00\u6717\u3001\u4fe8\u7136\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u7f24\u7eb7\u3001\u8c41\u7136\u5f00\u6717\u3001\u4fe8\u7136\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u9676\u6e0a\u660e\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Tao Yuanming and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'虚实相映',pointEn:'xū shí xiāng yìng',example:'interplay of reality and fantasy',exampleEn:'寻向所志，遂迷，不复得路。',explanation:'They looked for the marks he had made, but lost their way and never found the path again.',explanationEn:'通过虚实结合，既描写了桃花源的美好，又暗示其不可复得，寄寓理想与现实的矛盾。'},
         {point:'古今异义',pointEn:'gǔ jīn yì yì',example:'words with different ancient and modern meanings',exampleEn:'率妻子邑人来此绝境。',explanation:'He brought his wife, children, and townspeople to this isolated place.',explanationEn:'文言文中"妻子"指妻子和儿女，"绝境"指与世隔绝的地方，与现代汉语含义不同。'}
@@ -934,6 +969,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u6e05\u51bd\u3001\u4f41\u7136\u3001\u7fd5\u5ffd\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u6e05\u51bd\u3001\u4f41\u7136\u3001\u7fd5\u5ffd\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u67f3\u5b97\u5143\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Liu Zongyuan and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'情景交融',pointEn:'qíng jǐng jiāo róng',example:'blending emotion with scenery',exampleEn:'坐潭上，四面竹树环合，寂寥无人，凄神寒骨，悄怆幽邃。',explanation:'Sitting beside the pond, bamboo and trees enclosed it on all sides, lonely and deserted, chilling the spirit and the bones, sad and profoundly deep.',explanationEn:'先写景物之幽美，后转为凄清孤寂，借景抒发被贬后的抑郁之情。'}
       ],
@@ -1003,6 +1043,11 @@ units: [
       readingTips: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+      ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u7f54\u4e0d\u3001\u5ce8\u51a0\u3001\u77eb\u9996\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u7f54\u4e0d\u3001\u5ce8\u51a0\u3001\u77eb\u9996\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u9b4f\u5b66\u6d22\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Wei Xueyi and compare them with this text. Write a short essay sharing your findings."}
       ],
       authorBio: {
         cn: "\u9b4f\u5b66\u6d22\uff08\u7ea61596\u2014\u7ea61625\uff09\uff0c\u5b57\u5b50\u656c\uff0c\u660e\u672b\u5609\u5584\uff08\u4eca\u6d59\u6c5f\u5609\u5174\uff09\u4eba\u3002",
@@ -1074,6 +1119,11 @@ units: [
       readingTips: [
         {cn:"\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f3\u97f5\u7f8e\u548c\u610f\u5883\u7f8e\u3002\u6ce8\u610f\u5206\u6790\u8bd7\u4e2d\u7684\u610f\u8c61\u548c\u4fee\u8f9e\u624b\u6cd5\u3002", en:"Read aloud repeatedly to appreciate the phonetic beauty and artistic conception. Analyze the imagery and rhetorical devices used."},
         {cn:"\u7ed3\u5408\u8bd7\u4eba\u7684\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u4e2d\u8574\u542b\u7684\u601d\u60f3\u611f\u60c5\u3002", en:"Consider the poet's life and the context of writing to understand the deeper emotions expressed."}
+      ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u7a88\u7a95\u3001\u8f97\u8f6c\u53cd\u4fa7\u3001\u84b9\u846d\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u7a88\u7a95\u3001\u8f97\u8f6c\u53cd\u4fa7\u3001\u84b9\u846d\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u5c1d\u8bd5\u80cc\u8bf5\u8fd9\u9996\u8bd7\u3002\u53ef\u4ee5\u914d\u4e0a\u97f3\u4e50\u6216\u56fe\u753b\uff0c\u8fdb\u884c\u521b\u610f\u6717\u8bf5\u3002", en: "Try to recite this poem. You can pair it with music or illustrations for a creative reading."},
+        {cn: "\u4eff\u7167\u8fd9\u9996\u8bd7\u7684\u98ce\u683c\uff0c\u8bd5\u7740\u5199\u4e00\u9996\u5c0f\u8bd7\uff0c\u8868\u8fbe\u4f60\u5bf9\u67d0\u4e2a\u4e3b\u9898\u7684\u611f\u60f3\u3002", en: "Following the style of this poem, try writing a short poem expressing your thoughts on a topic."}
       ],
       grammarPoints: [
         {point:'重章叠句',pointEn:'chóng zhāng dié jù',example:'repeated stanzas with slight variations',exampleEn:'蒹葭苍苍……蒹葭萋萋……蒹葭采采。',explanation:'The reeds grow thick... the reeds grow lush... the reeds grow bright.',explanationEn:'每章只更换少数词语，反复咏唱，形成回环往复的表达效果，深化思念之情。'}
@@ -1171,6 +1221,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u5351\u52a3\u3001\u6bd2\u624b\u3001\u8bec\u8511\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u5351\u52a3\u3001\u6bd2\u624b\u3001\u8bec\u8511\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u95fb\u4e00\u591a\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Wen Yiduo and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'演讲技巧',pointEn:'yǎn jiǎng jì qiǎo',example:'public speaking techniques',exampleEn:'你站出来！是好汉的站出来！你出来讲！凭什么要杀死李先生？',explanation:'You come out! If you are a real man, come out! Speak up! What justification was there to kill Mr. Li?',explanationEn:'使用短句、感叹句、反问句，配合直接呼告，使演讲慷慨激昂、直击人心。'}
       ],
@@ -1235,6 +1290,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u683c\u7269\u81f4\u77e5\u3001\u5f77\u5fa8\u3001\u63a2\u7d22\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u683c\u7269\u81f4\u77e5\u3001\u5f77\u5fa8\u3001\u63a2\u7d22\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u4e01\u8087\u4e2d\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Ding Zhaozhong (Samuel Ting) and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'举例论证',pointEn:'jǔ lì lùn zhèng',example:'argumentation by example',exampleEn:'明朝大理论家王阳明要依照朱熹的方法来格物致知，结果他格了七天竹子也没有格出什么道理来。',explanation:'The great Ming theorist Wang Yangming tried to study things following Zhu Xi’s method, but after contemplating bamboo for seven days he found no principles.',explanationEn:'用王阳明格竹的典型事例来论证纯粹内省不能获得科学知识，增强了说服力。'}
       ],
@@ -1298,6 +1358,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u6289\u62e9\u3001\u9633\u5173\u9053\u3001\u524d\u6cbf\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u6289\u62e9\u3001\u9633\u5173\u9053\u3001\u524d\u6cbf\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u738b\u9009\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Wang Xuan and compare them with this text. Write a short essay sharing your findings."}
+      ],
       authorBio: {
         cn: "\u738b\u9009\uff081937\u20142006\uff09\uff0c\u6c5f\u82cf\u65e0\u9521\u4eba\uff0c\u8ba1\u7b97\u673a\u6587\u5b57\u4fe1\u606f\u5904\u7406\u4e13\u5bb6\uff0c\u88ab\u8a89\u4e3a\u201c\u5f53\u4ee3\u6bd5\u6607\u201d\u30022002\u5e74\u83b7\u56fd\u5bb6\u6700\u9ad8\u79d1\u5b66\u6280\u672f\u5956\u3002",
         en: "Wang Xuan (1937\u20132006), from Wuxi, Jiangsu. Computer typesetting expert, known as \u2018the modern Bi Sheng.\u2019 Received the State Preeminent Science and Technology Award in 2002."
@@ -1357,6 +1422,11 @@ units: [
       readingTips: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+      ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u6d69\u52ab\u3001\u8426\u7ed5\u3001\u62d9\u52a3\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u6d69\u52ab\u3001\u8426\u7ed5\u3001\u62d9\u52a3\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u987e\u62dc\u65e6\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Pierre de Coubertin and compare them with this text. Write a short essay sharing your findings."}
       ],
       grammarPoints: [
         {point:'演讲词结构',pointEn:'yǎn jiǎng cí jié gòu',example:'structure of a speech',exampleEn:'五年前，在美丽的巴黎……如今在这光辉的周年纪念日。',explanation:'Five years ago, in beautiful Paris... now on this glorious anniversary.',explanationEn:'演讲词以时间推进和层层深入的方式展开，从回顾历史到展望未来，结构严谨。'}
@@ -1446,6 +1516,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u9707\u8033\u6b32\u804b\u3001\u63a8\u6421\u3001\u9a70\u9a8b\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u9707\u8033\u6b32\u804b\u3001\u63a8\u6421\u3001\u9a70\u9a8b\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u6881\u8861\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Liang Heng and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'移步换景',pointEn:'yí bù huàn jǐng',example:'changing scenes with each step',exampleEn:'第一次是雨季……第二次我专选了个枯水季节。',explanation:'The first time was during rainy season... the second time I chose a dry season.',explanationEn:'两次游览壶口呈现不同景象，体现了移步换景、时空对比的写作手法。'},
         {point:'象征手法',pointEn:'xiàng zhēng shǒu fǎ',example:'symbolism',exampleEn:'这伟大只在冲过壶口的一刹那才闪现出来被我们看见。',explanation:'This greatness only flashes into view the instant it surges through the Hukou.',explanationEn:'以黄河之水的博大和壮美象征中华民族百折不挠的精神力量。'}
@@ -1523,6 +1598,11 @@ units: [
       readingTips: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+      ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u63a5\u8e35\u800c\u81f3\u3001\u783e\u77f3\u3001\u6d88\u957f\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u63a5\u8e35\u800c\u81f3\u3001\u783e\u77f3\u3001\u6d88\u957f\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u9a6c\u4e3d\u534e\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Ma Lihua and compare them with this text. Write a short essay sharing your findings."}
       ],
       authorBio: {
         cn: "\u9a6c\u4e3d\u534e\uff0c1953\u5e74\u751f\uff0c\u5c71\u4e1c\u6d4e\u5357\u4eba\uff0c\u5f53\u4ee3\u4f5c\u5bb6\u3002\u957f\u671f\u5728\u897f\u85cf\u5de5\u4f5c\uff0c\u4ee3\u8868\u4f5c\u6709\u300a\u85cf\u5317\u6e38\u5386\u300b\u7b49\u3002",
@@ -1619,6 +1699,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u7fcc\u65e5\u3001\u7edc\u7ece\u4e0d\u7edd\u3001\u5dc9\u5cfb\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u7fcc\u65e5\u3001\u7edc\u7ece\u4e0d\u7edd\u3001\u5dc9\u5cfb\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u9a6c\u514b\u00b7\u5410\u6e29\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Mark Twain and compare them with this text. Write a short essay sharing your findings."}
+      ],
       authorBio: {
         cn: "\u9a6c\u514b\u00b7\u5410\u6e29\uff081835\u20141910\uff09\uff0c\u7f8e\u56fd\u4f5c\u5bb6\u3002\u4ee3\u8868\u4f5c\u6709\u5c0f\u8bf4\u300a\u6c64\u59c6\u00b7\u7d22\u4e9a\u5386\u9669\u8bb0\u300b\u300a\u54c8\u514b\u8d1d\u5229\u00b7\u8d39\u6069\u5386\u9669\u8bb0\u300b\u7b49\u3002",
         en: "Mark Twain (1835\u20131910), American writer. Representative works include The Adventures of Tom Sawyer and Adventures of Huckleberry Finn."
@@ -1681,6 +1766,11 @@ units: [
       readingTips: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+      ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u9a7f\u9053\u3001\u7fe1\u7fe0\u3001\u76ee\u7729\u795e\u8ff7\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u9a7f\u9053\u3001\u7fe1\u7fe0\u3001\u76ee\u7729\u795e\u8ff7\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u963f\u6765\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by A Lai and compare them with this text. Write a short essay sharing your findings."}
       ],
       authorBio: {
         cn: "\u963f\u6765\uff0c1959\u5e74\u751f\uff0c\u56db\u5ddd\u9a6c\u5c14\u5eb7\u4eba\uff0c\u85cf\u65cf\u5f53\u4ee3\u4f5c\u5bb6\u3002\u4ee3\u8868\u4f5c\u6709\u300a\u5c18\u57c3\u843d\u5b9a\u300b\uff08\u83b7\u7b2c\u4e94\u5c4a\u8305\u76fe\u6587\u5b66\u5956\uff09\u7b49\u3002",
@@ -1767,6 +1857,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u9cb2\u9e4f\u3001\u6276\u6447\u3001\u4ece\u5bb9\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u9cb2\u9e4f\u3001\u6276\u6447\u3001\u4ece\u5bb9\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u5e84\u5b50\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Zhuangzi and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'寓言说理',pointEn:'yù yán shuō lǐ',example:'reasoning through fables',exampleEn:'北冥有鱼，其名为鲲。鲲之大，不知其几千里也。',explanation:'In the northern sea there is a fish called Kun. The Kun is so huge that no one knows how many thousands of miles it stretches.',explanationEn:'庄子善于用寓言故事来表达哲学思想，鲲鹏的寓言寄托了对精神自由的向往。'},
         {point:'论辩技巧',pointEn:'lùn biàn jì qiǎo',example:'debating technique',exampleEn:'子非鱼，安知鱼之乐？子非我，安知我不知鱼之乐？',explanation:'You are not a fish; how do you know the joy of fish? You are not me; how do you know I do not know the joy of fish?',explanationEn:'庄子巧妙地用对方的逻辑来反驳对方，体现了高超的论辩技巧。'}
@@ -1837,6 +1932,11 @@ units: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
       ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u5609\u80b4\u3001\u6559\u5b66\u76f8\u957f\u3001\u5929\u4e0b\u4e3a\u516c\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u5609\u80b4\u3001\u6559\u5b66\u76f8\u957f\u3001\u5929\u4e0b\u4e3a\u516c\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u300a\u793c\u8bb0\u300b\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by The Book of Rites and compare them with this text. Write a short essay sharing your findings."}
+      ],
       grammarPoints: [
         {point:'类比论证',pointEn:'lèi bǐ lùn zhèng',example:'argument by analogy',exampleEn:'虽有嘉肴，弗食，不知其旨也；虽有至道，弗学，不知其善也。',explanation:'Even with fine delicacies, without tasting you will not know the flavor; even with the best teachings, without studying you will not know their value.',explanationEn:'用品尝美食来类比学习道理，深入浅出，使抽象道理变得具体易懂。'}
       ],
@@ -1904,6 +2004,11 @@ units: [
       readingTips: [
         {cn:"\u6ce8\u610f\u4f5c\u8005\u7684\u53d9\u8ff0\u89c6\u89d2\u548c\u8868\u8fbe\u65b9\u5f0f\u3002\u6587\u7ae0\u4f7f\u7528\u4e86\u54ea\u4e9b\u5199\u4f5c\u624b\u6cd5\uff08\u5982\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\uff09\uff1f", en:"Pay attention to the author's narrative perspective and expression. What writing techniques are used (description, argument, lyricism, exposition)?"},
         {cn:"\u8bfb\u5b8c\u540e\u601d\u8003\uff1a\u4f5c\u8005\u60f3\u8868\u8fbe\u4ec0\u4e48\u4e3b\u9898\uff1f\u6587\u7ae0\u7684\u6807\u9898\u4e0e\u5185\u5bb9\u6709\u4ec0\u4e48\u5173\u7cfb\uff1f", en:"After reading, think: what theme does the author convey? How does the title relate to the content?"}
+      ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u4f2f\u4e50\u3001\u9a88\u6b7b\u3001\u5343\u91cc\u9a6c\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u4f2f\u4e50\u3001\u9a88\u6b7b\u3001\u5343\u91cc\u9a6c\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u9009\u62e9\u8bfe\u6587\u4e2d\u4f60\u6700\u559c\u6b22\u7684\u4e00\u4e2a\u6bb5\u843d\uff0c\u6709\u611f\u60c5\u5730\u6717\u8bfb\uff0c\u6807\u51fa\u91cd\u97f3\u548c\u505c\u8fde\uff0c\u5728\u5c0f\u7ec4\u91cc\u4e92\u76f8\u8bc4\u4ef7\u3002", en: "Choose your favorite paragraph, read it with feeling, mark stress and pauses, and do peer evaluation in groups."},
+        {cn: "\u8bfe\u5916\u9605\u8bfb\u97e9\u6108\u7684\u5176\u4ed6\u4f5c\u54c1\uff0c\u6bd4\u8f83\u4e0e\u672c\u6587\u7684\u5f02\u540c\uff0c\u5199\u4e00\u7bc7\u77ed\u6587\u5206\u4eab\u4f60\u7684\u53d1\u73b0\u3002", en: "Read other works by Han Yu and compare them with this text. Write a short essay sharing your findings."}
       ],
       grammarPoints: [
         {point:'托物言志',pointEn:'tuō wù yán zhì',example:'expressing aspirations through objects',exampleEn:'其真无马邪？其真不知马也！',explanation:'Is it really that there are no good horses? They simply do not recognize them!',explanationEn:'借千里马不被赏识的命运，寄托作者怀才不遇的悲愤之情。'}
@@ -1973,6 +2078,11 @@ units: [
       readingTips: [
         {cn:"\u53cd\u590d\u8bf5\u8bfb\uff0c\u4f53\u4f1a\u8bd7\u6b4c\u7684\u97f3\u97f5\u7f8e\u548c\u610f\u5883\u7f8e\u3002\u6ce8\u610f\u5206\u6790\u8bd7\u4e2d\u7684\u610f\u8c61\u548c\u4fee\u8f9e\u624b\u6cd5\u3002", en:"Read aloud repeatedly to appreciate the phonetic beauty and artistic conception. Analyze the imagery and rhetorical devices used."},
         {cn:"\u7ed3\u5408\u8bd7\u4eba\u7684\u751f\u5e73\u548c\u5199\u4f5c\u80cc\u666f\uff0c\u7406\u89e3\u8bd7\u6b4c\u4e2d\u8574\u542b\u7684\u601d\u60f3\u611f\u60c5\u3002", en:"Consider the poet's life and the context of writing to understand the deeper emotions expressed."}
+      ],
+      accumExtend: [
+        {cn: "\u8bfe\u6587\u4e2d\u6709\u4e0d\u5c11\u597d\u8bcd\u4f73\u53e5\uff0c\u5982\u201c\u903e\u5899\u3001\u620d\u3001\u5e03\u887e\u201d\u7b49\u3002\u8bf7\u6458\u5f55\u4f60\u559c\u6b22\u7684\u8bcd\u8bed\u548c\u53e5\u5b50\uff0c\u5e76\u8bd5\u7740\u5728\u81ea\u5df1\u7684\u5199\u4f5c\u4e2d\u8fd0\u7528\u3002", en: "The text contains fine words and phrases such as \"\u903e\u5899\u3001\u620d\u3001\u5e03\u887e\". Collect the words and sentences you like and try using them in your own writing."},
+        {cn: "\u5c1d\u8bd5\u80cc\u8bf5\u8fd9\u9996\u8bd7\u3002\u53ef\u4ee5\u914d\u4e0a\u97f3\u4e50\u6216\u56fe\u753b\uff0c\u8fdb\u884c\u521b\u610f\u6717\u8bf5\u3002", en: "Try to recite this poem. You can pair it with music or illustrations for a creative reading."},
+        {cn: "\u4eff\u7167\u8fd9\u9996\u8bd7\u7684\u98ce\u683c\uff0c\u8bd5\u7740\u5199\u4e00\u9996\u5c0f\u8bd7\uff0c\u8868\u8fbe\u4f60\u5bf9\u67d0\u4e2a\u4e3b\u9898\u7684\u611f\u60f3\u3002", en: "Following the style of this poem, try writing a short poem expressing your thoughts on a topic."}
       ],
       grammarPoints: [
         {point:'叙事诗',pointEn:'xù shì shī',example:'narrative poetry',exampleEn:'暮投石壕村，有吏夜捉人。',explanation:'At dusk I sought lodging at Shihao Village; an officer came at night to seize men.',explanationEn:'《石壕吏》以叙事为主，通过客观记叙反映战乱中百姓的苦难。'},
