@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(dir E:\\\\chinese\\\\tests\\\\G7-G9:*)",
+      "Bash(ls:*)",
+      "Bash(node:*)",
+      "Bash(pip3 list:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(wc:*)",
+      "Bash(du:*)",
+      "Bash(sed:*)",
+      "Bash(IFS=: read linenum:*)",
+      "Bash(grep:*)",
+      "Bash(do echo:*)",
+      "Bash(do:*)",
+      "Bash(/tmp/test_esc3.js:*)",
+      "Bash(do node:*)"
+    ]
+  }
+}
