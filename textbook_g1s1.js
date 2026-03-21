@@ -247,7 +247,7 @@ units: [
     },
     {id:2,title:"i u ü y w",titleEn:"Vowels i u ü & Initials y w",
       difficulty: 1,
-      text:["i u ü","y w"],textEn:["Learn vowels i, u, ü and initials y, w"],
+      text:["i u ü","y w"],textEn:["Learn vowels i, u, ü","Learn initials y, w"],
       textPinyin:["ī í ǐ ì / ū ú ǔ ù / ǖ ǘ ǚ ǜ"],
       recognizeChars:["文","数","学","音","乐"],writeChars:[],
       exercises:[
