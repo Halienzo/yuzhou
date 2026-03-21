@@ -1393,6 +1393,7 @@ var TB_G7S2 = {
           id: 18,
           title: "\u7d2b\u85e4\u841d\u7011\u5e03",
           titleEn: "The Wisteria Waterfall",
+          difficulty: 4,
           vocabWords: [
             {word:'迸溅',pinyin:'bèng jiàn',en:'to splash; to burst forth',sentence:'紫色的大条幅上，泛着点点银光，就像迸溅的水花。',sentenceEn:'Silver sparkles dotted the great purple banner, like splashing water.'},
             {word:'伫立',pinyin:'zhù lì',en:'to stand for a long time',sentence:'我只是伫立凝望。',sentenceEn:'I merely stood still and gazed intently.'},
@@ -1462,6 +1463,7 @@ var TB_G7S2 = {
           id: 19,
           title: "\u4e00\u68f5\u5c0f\u6843\u6811",
           titleEn: "A Little Peach Tree",
+          difficulty: 4,
           vocabWords: [
             {word:'矜持',pinyin:'jīn chí',en:'reserved; restrained',sentence:'往日多么傲慢的我，多么矜持的我。',sentenceEn:'How arrogant I used to be, how reserved I was.'},
             {word:'猥琐',pinyin:'wěi suǒ',en:'shabby; insignificant-looking',sentence:'样子也极猥琐。',sentenceEn:'Its appearance was also extremely shabby.'},
@@ -1542,6 +1544,7 @@ var TB_G7S2 = {
           id: 20,
           title: "\u5916\u56fd\u8bd7\u4e8c\u9996",
           titleEn: "Two Foreign Poems",
+          difficulty: 4,
           vocabWords: [
             {word:'忧郁',pinyin:'yōu yù',en:'melancholy; gloomy',sentence:'忧郁的日子里须要镇静。',sentenceEn:'In melancholy days one must remain calm.'},
             {word:'瞬息',pinyin:'shùn xī',en:'in an instant',sentence:'一切都是瞬息，一切都将会过去。',sentenceEn:'Everything is fleeting, everything will pass.'},
@@ -1594,6 +1597,7 @@ var TB_G7S2 = {
           id: 21,
           title: "\u53e4\u4ee3\u8bd7\u6b4c\u4e94\u9996",
           titleEn: "Five Ancient Poems",
+          difficulty: 4,
           vocabWords: [
             {word:'怆然',pinyin:'chuàng rán',en:'sorrowful; desolate',sentence:'独怆然而涕下。',sentenceEn:'Alone and desolate, tears fell.'},
             {word:'造化',pinyin:'zào huà',en:'nature; creation',sentence:'造化钟神秀，阴阳割昏晓。',sentenceEn:'Nature concentrates its beauty here; light and shadow divide dawn from dusk.'},
@@ -1718,6 +1722,7 @@ var TB_G7S2 = {
           id: 22,
           title: "\u4f1f\u5927\u7684\u60b2\u5267",
           titleEn: "A Great Tragedy",
+          difficulty: 4,
           vocabWords: [
             {word:'毛骨悚然',pinyin:'máo gǔ sǒng rán',en:'hair-raising; terrifying',sentence:'在这严酷的事实面前也就不必再怀疑，这令人毛骨悚然。',sentenceEn:'In the face of this harsh reality there was no room for doubt; it was terrifying.'},
             {word:'怏怏不乐',pinyin:'yàng yàng bù lè',en:'discontented and unhappy',sentence:'他们怏怏不乐地在阿蒙森的胜利旗帜旁边插上英国国旗。',sentenceEn:'Discontented and unhappy, they planted the British flag beside Amundsen’s victory banner.'},
@@ -1801,6 +1806,7 @@ var TB_G7S2 = {
           id: 23,
           title: "\u592a\u7a7a\u4e00\u65e5",
           titleEn: "A Day in Space",
+          difficulty: 4,
           vocabWords: [
             {word:'共振',pinyin:'gòng zhèn',en:'resonance; vibration',sentence:'火箭和飞船开始急剧抖动，产生共振。',sentenceEn:'The rocket and spacecraft began to shake violently, producing resonance.'},
             {word:'屏息凝神',pinyin:'bǐng xī níng shén',en:'to hold one’s breath and concentrate',sentence:'我怀抱着操作盒，屏息凝神地等待着。',sentenceEn:'I held the control panel, holding my breath and concentrating as I waited.'},
@@ -1876,6 +1882,7 @@ var TB_G7S2 = {
           id: 24,
           title: "\u5e26\u4e0a\u5979\u7684\u773c\u775b",
           titleEn: "Take Her Eyes Along",
+          difficulty: 4,
           vocabWords: [
             {word:'传感',pinyin:'chuán gǎn',en:'sensor; sensory transmission',sentence:'所谓眼睛就是一副传感眼镜。',sentenceEn:'The so-called eyes were a pair of sensory transmission glasses.'},
             {word:'压抑',pinyin:'yā yì',en:'oppressive; stifling',sentence:'飞船上方那巨量的地层物质产生了一种压抑感。',sentenceEn:'The enormous mass of geological material above the spacecraft created a sense of oppression.'},
@@ -1946,6 +1953,7 @@ var TB_G7S2 = {
           id: 25,
           title: "\u6d3b\u677f",
           titleEn: "Movable Type Printing",
+          difficulty: 4,
           vocabWords: [
             {word:'布衣',pinyin:'bù yī',en:'commoner; person of humble origin',sentence:'庆历中，有布衣毕昇，又为活板。',sentenceEn:'During the Qingli era, a commoner named Bi Sheng invented movable type printing.'},
             {word:'胶泥',pinyin:'jiāo ní',en:'adhesive clay',sentence:'其法：用胶泥刻字。',sentenceEn:'The method: carve characters from adhesive clay.'},

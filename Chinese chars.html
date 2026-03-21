@@ -1613,8 +1613,11 @@ body{background:#fff!important;color:#000!important}
 .tb-vocab-table .pinyin-col{color:var(--t3);font-size:12px;white-space:nowrap}
 .tb-author-bio{background:linear-gradient(135deg,rgba(160,109,216,.08),rgba(68,131,219,.08));padding:14px 16px;border-radius:10px;border-left:3px solid var(--purple2);margin-bottom:12px}
 .tb-author-bio .name{font-family:'Noto Serif SC',serif;font-weight:700;font-size:16px;margin-bottom:4px}
-.tb-footnote{font-size:12px;padding:4px 0;color:var(--ink3);border-bottom:1px dashed var(--rice3)}
+.tb-footnote{font-size:12px;padding:4px 0;color:var(--ink3);border-bottom:1px dashed var(--rice3);transition:background .3s}
 .tb-footnote .num{display:inline-block;min-width:18px;font-weight:700;color:var(--ink2)}
+.tb-fn-flash{background:#fff3cd;border-radius:4px}
+.tb-vocab-hl{border-bottom:2px solid var(--orange);background:rgba(245,166,35,.12);border-radius:2px}
+.tb-tts-active{background:rgba(74,163,223,.1);border-left:3px solid var(--blue);padding-left:8px;transition:background .3s}
 .tb-mini-writing{background:#fffbf0;border:1.5px dashed var(--orange);border-radius:10px;padding:14px 16px;margin-top:12px}
 .tb-info-box{background:#f0f8ff;border-radius:10px;padding:14px 16px;border-left:3px solid var(--blue);margin-top:12px}
 .tb-self-read-badge{display:inline-block;padding:2px 8px;border-radius:10px;background:var(--warning);color:#fff;font-size:10px;font-weight:700;margin-left:6px}
@@ -6209,7 +6212,7 @@ h+='</div><div class="home-stats"><div class="home-stat"><div class="home-stat-v
 h+='<div class="home-stat"><div class="home-stat-val">'+lc.length+'</div><div class="home-stat-lbl">\u5DF2\u5B66<br>Learned</div></div>';
 h+='<div class="home-stat"><div class="home-stat-val">'+(du>0?du:'\u2014')+'</div><div class="home-stat-lbl">\u5F85\u590D\u4E60<br>Due</div></div></div>';
 h+='<div style="text-align:center;margin-top:16px;font-size:11px;color:var(--ink4)">\u6309 Ctrl+K \u641C\u7D22\u6C49\u5B57</div>';
-h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v56</div></div>';
+h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v57</div></div>';
 w.innerHTML=h;w.style.display='';currentView='home';
 }
 function navigateFromHome(id){if(VIEWS[id]){navigateTo(id);updateRail();return;}updateRail();}
@@ -17916,9 +17919,8 @@ function tbShowLesson(uid,lid){
   h+='<div class="tb-toggle active" id="tbToggleEn" onclick="tbToggleEn()">English</div>';
   h+='<div class="tb-toggle" id="tbToggleAn" onclick="tbToggleAnalysis()" style="border-color:var(--purple);color:var(--purple)">\u6587\u5b66\u5206\u6790 Analysis</div>';
   h+='<div class="tb-toggle" id="tbToggleWt" onclick="wtToggle()" style="border-color:var(--teal);color:var(--teal)">\u624b\u6cd5\u6807\u6ce8 Techniques</div>';
-  var _ttsFullText=l.text.join('');
   h+='<span class="tts-ctrl-group" style="display:inline-flex;gap:4px">';
-  h+='<button class="rv-tts-btn tts-play" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid var(--ink3);cursor:pointer" onclick="ttsPlay(\''+_ttsFullText.replace(/'/g,"\\'")+'\',0.5)">\u25B6 \u6717\u8BFB Read</button>';
+  h+='<button class="rv-tts-btn tts-play" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid var(--ink3);cursor:pointer" onclick="tbTtsReadParas()">\u25B6 \u6717\u8BFB Read</button>';
   h+='<button class="rv-tts-btn tts-pause" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid var(--ink3);cursor:pointer;display:none" onclick="ttsState===\'paused\'?ttsResume():ttsPause()">\u23F8 \u6682\u505C Pause</button>';
   h+='<button class="rv-tts-btn tts-stop" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid #e74c3c;color:#e74c3c;cursor:pointer;display:none" onclick="ttsStop()">\u23F9 \u505C\u6B62 Stop</button>';
   h+='</span>';
@@ -18075,7 +18077,7 @@ function tbShowLesson(uid,lid){
   if(l.footnotes&&l.footnotes.length){
     h+='<div class="tb-tips-section"><div class="tb-section-title">\uD83D\uDCCC \u6CE8\u91CA Footnotes</div>';
     l.footnotes.forEach(function(fn,i){
-      h+='<div class="tb-footnote"><span class="num">['+(i+1)+']</span> <b>'+fn.term+'</b>';
+      h+='<div class="tb-footnote" id="tbFn_'+i+'"><span class="num">['+(i+1)+']</span> <b>'+fn.term+'</b>';
       if(fn.termEn)h+=' <span class="en">'+fn.termEn+'</span>';
       h+=': '+fn.definition;
       if(fn.definitionEn)h+=' <span class="en">\u2014 '+fn.definitionEn+'</span>';
@@ -18114,13 +18116,14 @@ function tbShowLesson(uid,lid){
   h+='</div>';
   document.getElementById('tbUnitArea').innerHTML=h;
   document.getElementById('content').scrollTop=0;
-  /* Deferred WT button state — needed when loadWtData returns synchronously before innerHTML is set */
+  /* Deferred WT button state + vocab highlight */
   setTimeout(function(){
     var btn=document.getElementById('tbToggleWt');
     if(btn){
       if(window._wtCurrentAnns&&window._wtCurrentAnns.length>0){btn.style.opacity='1';}
       else{btn.style.opacity='.4';btn.title='\u6682\u65e0\u6807\u6ce8\u6570\u636e No technique annotations for this lesson';}
     }
+    _tbHighlightVocab();
   },0);
 }
 
@@ -18154,6 +18157,107 @@ function tbSaveNote(uid,lid){
   btn.textContent='\u2705 \u5DF2\u4FDD\u5B58 Saved!';
   setTimeout(function(){btn.textContent='\uD83D\uDCBE \u4FDD\u5B58 Save';},1500);
 }
+
+/* ========== Vocab Highlight 生词高亮 ========== */
+function _tbHighlightVocab(){
+  var l=tbState._currentLesson;if(!l)return;
+  var terms=[];
+  if(l.footnotes&&l.footnotes.length){
+    l.footnotes.forEach(function(fn,i){if(fn.term)terms.push({term:fn.term,id:'tbFn_'+i});});
+  }
+  if(!terms.length)return;
+  /* Sort by length descending so longer terms match first */
+  terms.sort(function(a,b){return b.term.length-a.term.length;});
+  var area=document.getElementById('tbTextArea');if(!area)return;
+  var paras=area.querySelectorAll('p');
+  paras.forEach(function(p){
+    var spans=p.querySelectorAll('.tc');if(!spans.length)return;
+    var chars=[];spans.forEach(function(s){chars.push({el:s,ch:s.getAttribute('data-ch')||s.textContent});});
+    var fullText='';chars.forEach(function(c){fullText+=c.ch;});
+    /* For each term, find occurrences in the full text */
+    terms.forEach(function(t){
+      var pos=0;
+      while(true){
+        var idx=fullText.indexOf(t.term,pos);
+        if(idx===-1)break;
+        /* Mark character spans for this term */
+        for(var k=idx;k<idx+t.term.length;k++){
+          if(chars[k]&&!chars[k].el.classList.contains('tb-vocab-hl')){
+            chars[k].el.classList.add('tb-vocab-hl');
+            chars[k].el.setAttribute('data-fn',t.id);
+            chars[k].el.style.cursor='pointer';
+            chars[k].el.addEventListener('click',function(e){
+              e.stopPropagation();
+              var fnId=this.getAttribute('data-fn');
+              var fnEl=document.getElementById(fnId);
+              if(fnEl){fnEl.scrollIntoView({behavior:'smooth',block:'center'});fnEl.classList.add('tb-fn-flash');setTimeout(function(){fnEl.classList.remove('tb-fn-flash');},1500);}
+            });
+          }
+        }
+        pos=idx+t.term.length;
+      }
+    });
+  });
+}
+
+/* ========== Paragraph-by-Paragraph TTS 逐段朗读 ========== */
+var _tbTtsParas=[];
+var _tbTtsIdx=-1;
+var _tbTtsActive=false;
+function tbTtsReadParas(){
+  var l=tbState._currentLesson;if(!l)return;
+  _tbTtsParas=Array.isArray(l.text)?l.text.slice():(typeof l.text==='string'?[l.text]:[]);
+  if(!_tbTtsParas.length)return;
+  _tbTtsIdx=0;_tbTtsActive=true;
+  _tbTtsReadCurrent();
+}
+function _tbTtsReadCurrent(){
+  if(_tbTtsIdx<0||_tbTtsIdx>=_tbTtsParas.length){_tbTtsFinish();return;}
+  /* Highlight current paragraph */
+  var area=document.getElementById('tbTextArea');
+  if(area){
+    var paras=area.querySelectorAll('p');
+    paras.forEach(function(p,i){
+      if(i===_tbTtsIdx){p.classList.add('tb-tts-active');}
+      else{p.classList.remove('tb-tts-active');}
+    });
+    if(paras[_tbTtsIdx])paras[_tbTtsIdx].scrollIntoView({behavior:'smooth',block:'center'});
+  }
+  /* Speak current paragraph */
+  speechSynthesis.cancel();
+  var u=new SpeechSynthesisUtterance(_tbTtsParas[_tbTtsIdx]);
+  u.lang='zh-CN';u.rate=0.5;
+  var v=S.ttsVoice==='female'?ttsFemaleVoice:ttsMaleVoice;
+  if(v)u.voice=v;
+  if(ttsSameVoice){
+    if(S.ttsVoice==='female'){u.pitch=1.4;u.rate=0.525;}
+    else{u.pitch=0.5;u.rate=0.46;}
+  }
+  ttsState='playing';ttsUpdateBtns();
+  u.onend=function(){
+    if(!_tbTtsActive)return;
+    /* Remove highlight from finished paragraph */
+    var area2=document.getElementById('tbTextArea');
+    if(area2){var ps=area2.querySelectorAll('p');if(ps[_tbTtsIdx])ps[_tbTtsIdx].classList.remove('tb-tts-active');}
+    _tbTtsIdx++;
+    if(_tbTtsIdx<_tbTtsParas.length){_tbTtsReadCurrent();}
+    else{_tbTtsFinish();}
+  };
+  u.onerror=function(){_tbTtsFinish();};
+  speechSynthesis.speak(u);
+}
+function _tbTtsFinish(){
+  _tbTtsActive=false;_tbTtsIdx=-1;
+  ttsState='idle';ttsUpdateBtns();
+  var area=document.getElementById('tbTextArea');
+  if(area){area.querySelectorAll('p').forEach(function(p){p.classList.remove('tb-tts-active');});}
+}
+/* Override ttsStop for paragraph mode */
+var _origTtsStop=ttsStop;
+ttsStop=function(){_tbTtsActive=false;_tbTtsIdx=-1;_origTtsStop();
+  var area=document.getElementById('tbTextArea');
+  if(area){area.querySelectorAll('p').forEach(function(p){p.classList.remove('tb-tts-active');});}
+};
 
 /* ========== Writing Technique Annotations 写作手法标注 ========== */
 var _wtCache={};
@@ -18915,14 +19019,14 @@ function tbShowLessonJH(uid,lid){
     if(bioEn)h+='<div style="font-size:12px;color:var(--ink4);font-style:italic;margin-top:4px">'+bioEn+'</div>';
     h+='</div>';
   }
-  /* Toggle buttons (no pinyin for JH) */
+  /* Toggle buttons */
   h+='<div class="tb-toggle-row">';
+  h+='<div class="tb-toggle active" id="tbTogglePy" onclick="tbTogglePinyin()">\u62FC\u97F3 Pinyin</div>';
   h+='<div class="tb-toggle active" id="tbToggleEn" onclick="tbToggleEn()">English</div>';
   h+='<div class="tb-toggle" id="tbToggleAn" onclick="tbToggleAnalysis()" style="border-color:var(--purple);color:var(--purple)">\u6587\u5b66\u5206\u6790 Analysis</div>';
   h+='<div class="tb-toggle" id="tbToggleWt" onclick="wtToggle()" style="border-color:var(--teal);color:var(--teal)">\u624b\u6cd5\u6807\u6ce8 Techniques</div>';
-  var _ttsFullTextJH=Array.isArray(l.text)?l.text.join(''):l.text;
   h+='<span class="tts-ctrl-group" style="display:inline-flex;gap:4px">';
-  h+='<button class="rv-tts-btn tts-play" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid var(--ink3);cursor:pointer" onclick="ttsPlay(\''+_ttsFullTextJH.replace(/'/g,"\\'")+'\',0.5)">\u25B6 \u6717\u8BFB Read</button>';
+  h+='<button class="rv-tts-btn tts-play" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid var(--ink3);cursor:pointer" onclick="tbTtsReadParas()">\u25B6 \u6717\u8BFB Read</button>';
   h+='<button class="rv-tts-btn tts-pause" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid var(--ink3);cursor:pointer;display:none" onclick="ttsState===\'paused\'?ttsResume():ttsPause()">\u23F8 \u6682\u505C Pause</button>';
   h+='<button class="rv-tts-btn tts-stop" style="font-size:13px;padding:4px 10px;border-radius:14px;border:1px solid #e74c3c;color:#e74c3c;cursor:pointer;display:none" onclick="ttsStop()">\u23F9 \u505C\u6B62 Stop</button>';
   h+='</span>';
@@ -18954,10 +19058,11 @@ function tbShowLessonJH(uid,lid){
   var _isPJH=_tbIsPoem(l);
   window._tbIsCurrentPoem=_isPJH;
   var _textArrJH=Array.isArray(l.text)?l.text:(typeof l.text==='string'?[l.text]:[]);
+  var _pyArrJH=l.textPinyin?(Array.isArray(l.textPinyin)?l.textPinyin:[l.textPinyin]):null;
   var _enArrJH=l.textEn?(Array.isArray(l.textEn)?l.textEn:[l.textEn]):null;
   if(_isPJH){
     h+='<div class="tb-reading-text" id="tbTextArea">';
-    h+=_renderPoemBlock(_textArrJH,null,_enArrJH,false);
+    h+=_renderPoemBlock(_textArrJH,_pyArrJH,_enArrJH,false);
     h+='</div>';
   }else{
     h+='<div class="tb-reading-text" id="tbTextArea">';
@@ -18979,6 +19084,7 @@ function tbShowLessonJH(uid,lid){
       _cnParas=_split;
     }
     _cnParas.forEach(function(line,i){
+      if(_pyArrJH&&_pyArrJH[i])h+='<span class="tb-pinyin-line tbPyLine">'+_pyArrJH[i]+'</span>';
       h+='<p>'+makeCharsClickable(line)+'</p>';
       if(_enArrJH&&_enArrJH[i])h+='<span class="tb-en-line tbEnLine">'+_enArrJH[i]+'</span>';
     });
@@ -18993,7 +19099,7 @@ function tbShowLessonJH(uid,lid){
   /* Literary Analysis Panel */
   h+='<div id="tbAnalysisPanel" style="display:none"></div>';
   /* Load WT data for JH */
-  window._wtPlainLines=_textArrJH.map(function(line,i){return{text:line,py:'',en:(_enArrJH&&_enArrJH[i])||''};});
+  window._wtPlainLines=_textArrJH.map(function(line,i){return{text:line,py:(_pyArrJH&&_pyArrJH[i])||'',en:(_enArrJH&&_enArrJH[i])||''};});
   window._wtCurrentAnns=null;_wtActive=false;_wtPopupStore=[];
   var _wtGenJH=++_wtLoadGen;
   loadWtData(d.grade,d.semester,function(wtData){
@@ -19120,7 +19226,7 @@ function tbShowLessonJH(uid,lid){
   if(l.footnotes&&l.footnotes.length){
     h+='<div class="tb-tips-section"><div class="tb-section-title">\uD83D\uDCCC \u6CE8\u91CA Footnotes</div>';
     l.footnotes.forEach(function(fn,i){
-      h+='<div class="tb-footnote"><span class="num">['+(i+1)+']</span> <b>'+fn.term+'</b>';
+      h+='<div class="tb-footnote" id="tbFn_'+i+'"><span class="num">['+(i+1)+']</span> <b>'+fn.term+'</b>';
       if(fn.termEn)h+=' <span class="en">'+fn.termEn+'</span>';
       h+=': '+fn.definition;
       if(fn.definitionEn)h+=' <span class="en">\u2014 '+fn.definitionEn+'</span>';
@@ -19182,13 +19288,14 @@ function tbShowLessonJH(uid,lid){
   h+='</div>';
   document.getElementById('tbUnitArea').innerHTML=h;
   document.getElementById('content').scrollTop=0;
-  /* Deferred WT button state — needed when loadWtData returns synchronously before innerHTML is set */
+  /* Deferred WT button state + vocab highlight */
   setTimeout(function(){
     var btn=document.getElementById('tbToggleWt');
     if(btn){
       if(window._wtCurrentAnns&&window._wtCurrentAnns.length>0){btn.style.opacity='1';}
       else{btn.style.opacity='.4';btn.title='\u6682\u65e0\u6807\u6ce8\u6570\u636e No technique annotations for this lesson';}
     }
+    _tbHighlightVocab();
   },0);
 }
 
