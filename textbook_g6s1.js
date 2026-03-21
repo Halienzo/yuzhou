@@ -47,6 +47,13 @@ units: [
         {word:'拘束',pinyin:'jū shù',en:'restrained; constrained',sentence:'谁都有礼貌，谁都又那么亲热，一点儿不拘束。',sentenceEn:'Everyone was polite yet warm, completely at ease.'},
         {word:'洒脱',pinyin:'sǎ tuō',en:'carefree; unrestrained',sentence:'草原上行车十分洒脱，只要方向不错，怎么走都可以。',sentenceEn:'Driving on the grassland was carefree — any direction would do.'}
       ],
+      footnotes: [
+        {term:"\u4e00\u78a7\u5343\u91cc", termEn:"a boundless stretch of green", definition:"(y\u012b b\u00ec qi\u0101n l\u01d0) a boundless stretch of green", definitionEn:"a boundless stretch of green"},
+        {term:"\u6e32\u67d3", termEn:"to render; to wash (in painting)", definition:"(xu\u00e0n r\u01cen) to render; to wash (in painting)", definitionEn:"to render; to wash (in painting)"},
+        {term:"\u895f\u98d8\u5e26\u821e", termEn:"sashes and ribbons fluttering", definition:"(j\u012bn pi\u0101o d\u00e0i w\u01d4) sashes and ribbons fluttering", definitionEn:"sashes and ribbons fluttering"},
+        {term:"\u62d8\u675f", termEn:"restrained; constrained", definition:"(j\u016b sh\u00f9) restrained; constrained", definitionEn:"restrained; constrained"},
+        {term:"\u6d12\u8131", termEn:"carefree; unrestrained", definition:"(s\u01ce tu\u014d) carefree; unrestrained", definitionEn:"carefree; unrestrained"}
+      ],
       grammarPoints: [
         {point:'情景交融',pointEn:'qíng jǐng jiāo róng',example:'blending scenery with emotion',exampleEn:'这种境界，既使人惊叹，又叫人舒服。',explanation:'This scene both amazed and soothed.',explanationEn:'将作者的感受融入景物描写中'},
         {point:'比喻',pointEn:'bǐ yù',example:'metaphor',exampleEn:'羊群一会儿上了小丘，一会儿又下来，走在哪里都像给无边的绿毯绣上了白色的大花。',explanation:'Sheep went up and down the hills, like white flowers embroidered on an endless green carpet.',explanationEn:'用比喻使描写更加生动'}
@@ -101,6 +108,13 @@ units: [
         {word:'妩媚',pinyin:'wǔ mèi',en:'charming',sentence:'着了水滴的丁香格外妩媚。',sentenceEn:'Water-touched lilacs are especially charming.'},
         {word:'恍然',pinyin:'huǎng rán',en:'suddenly (realize)',sentence:'我才恍然，果然是丁香结。',sentenceEn:'Then it dawned on me: indeed, a lilac knot.'}
       ],
+      footnotes: [
+        {term:"\u5e7d\u96c5", termEn:"quiet and elegant", definition:"(y\u014du y\u01ce) quiet and elegant", definitionEn:"quiet and elegant"},
+        {term:"\u6726\u80e7", termEn:"hazy; dim", definition:"(m\u00e9ng l\u00f3ng) hazy; dim", definitionEn:"hazy; dim"},
+        {term:"\u6101\u6028", termEn:"sorrow and resentment", definition:"(ch\u00f3u yu\u00e0n) sorrow and resentment", definitionEn:"sorrow and resentment"},
+        {term:"\u59a9\u5a9a", termEn:"charming", definition:"(w\u01d4 m\u00e8i) charming", definitionEn:"charming"},
+        {term:"\u604d\u7136", termEn:"suddenly (realize)", definition:"(hu\u01ceng r\u00e1n) suddenly (realize)", definitionEn:"suddenly (realize)"}
+      ],
       grammarPoints: [
         {point:'借物喻理',pointEn:'jiè wù yù lǐ',example:'using an object to convey a truth',exampleEn:'丁香结，年年都有。结，是解不完的。',explanation:'Lilac knots appear year after year. Knots can never be fully untied.',explanationEn:'借丁香结象征人生的愁绪与问题'}
       ],
@@ -142,6 +156,13 @@ units: [
         {word:'丰年',pinyin:'fēng nián',en:'bountiful year',sentence:'稻花香里说丰年，听取蛙声一片。',sentenceEn:'In the fragrance of rice flowers they speak of harvest; listen to the chorus of frogs.'},
         {word:'翻墨',pinyin:'fān mò',en:'overturned ink',sentence:'黑云翻墨未遮山，白雨跳珠乱入船。',sentenceEn:'Black clouds like overturned ink, not yet hiding the hills; white rain like jumping pearls.'},
         {word:'茅店',pinyin:'máo diàn',en:'thatched inn',sentence:'旧时茅店社林边，路转溪桥忽见。',sentenceEn:'By the old thatched inn near the village shrine, the path turns and there it appears.'}
+      ],
+      footnotes: [
+        {term:"\u70df\u6e1a", termEn:"misty islet", definition:"(y\u0101n zh\u01d4) misty islet", definitionEn:"misty islet"},
+        {term:"\u91ce\u65f7", termEn:"vast wilderness", definition:"(y\u011b ku\u00e0ng) vast wilderness", definitionEn:"vast wilderness"},
+        {term:"\u4e30\u5e74", termEn:"bountiful year", definition:"(f\u0113ng ni\u00e1n) bountiful year", definitionEn:"bountiful year"},
+        {term:"\u7ffb\u58a8", termEn:"overturned ink", definition:"(f\u0101n m\u00f2) overturned ink", definitionEn:"overturned ink"},
+        {term:"\u8305\u5e97", termEn:"thatched inn", definition:"(m\u00e1o di\u00e0n) thatched inn", definitionEn:"thatched inn"}
       ],
       exercises: [
         {type:"read",cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\u3002\u80cc\u8bf5\u8bfe\u6587\u3002\u9ed8\u5199\u300a\u897f\u6c5f\u6708\u00b7\u591c\u884c\u9ec4\u6c99\u9053\u4e2d\u300b\u3002",en:"Read with feeling. Recite all poems. Write \u201CXi Jiang Yue\u201D from memory."},
@@ -193,6 +214,13 @@ units: [
         {word:'孕育',pinyin:'yùn yù',en:'to nurture; to conceive',sentence:'冬将我孕育，春使我开放。',sentenceEn:'Winter conceives me, Spring unfolds me.'},
         {word:'冠冕',pinyin:'guān miǎn',en:'crown',sentence:'我是婚礼的冠冕。',sentenceEn:'I am the crown of weddings.'},
         {word:'心驰神往',pinyin:'xīn chí shén wǎng',en:'filled with longing',sentence:'我总是仰望高空，对光明心驰神往。',sentenceEn:'I always look upward, yearning for the light.'}
+      ],
+      footnotes: [
+        {term:"\u5927\u81ea\u7136", termEn:"nature", definition:"(d\u00e0 z\u00ec r\u00e1n) nature", definitionEn:"nature"},
+        {term:"\u82cd\u7a79", termEn:"the blue dome of heaven", definition:"(c\u0101ng qi\u00f3ng) the blue dome of heaven", definitionEn:"the blue dome of heaven"},
+        {term:"\u5b55\u80b2", termEn:"to nurture; to conceive", definition:"(y\u00f9n y\u00f9) to nurture; to conceive", definitionEn:"to nurture; to conceive"},
+        {term:"\u51a0\u5195", termEn:"crown", definition:"(gu\u0101n mi\u01cen) crown", definitionEn:"crown"},
+        {term:"\u5fc3\u9a70\u795e\u5f80", termEn:"filled with longing", definition:"(x\u012bn ch\u00ed sh\u00e9n w\u01ceng) filled with longing", definitionEn:"filled with longing"}
       ],
       exercises: [
         {type:"read",cn:"\u6717\u8bfb\u8bfe\u6587\u3002\u60f3\u60f3\u4ece\u54ea\u4e9b\u5730\u65b9\u53ef\u4ee5\u770b\u51fa\u201c\u6211\u201d\u662f\u82b1\u3002",en:"Read aloud. Think about which details reveal that \u201CI\u201D am a flower."},
@@ -271,6 +299,13 @@ units: [
         {word:'铁索',pinyin:'tiě suǒ',en:'iron chains',sentence:'大渡桥横铁索寒。',sentenceEn:'Cold are the iron chains spanning the Dadu Bridge.'},
         {word:'开颜',pinyin:'kāi yán',en:'to beam with delight',sentence:'三军过后尽开颜。',sentenceEn:'After crossing, every face beams with delight.'}
       ],
+      footnotes: [
+        {term:"\u7b49\u95f2", termEn:"trivial; ordinary", definition:"(d\u011bng xi\u00e1n) trivial; ordinary", definitionEn:"trivial; ordinary"},
+        {term:"\u9036\u8fe4", termEn:"winding; meandering", definition:"(w\u0113i y\u00ed) winding; meandering", definitionEn:"winding; meandering"},
+        {term:"\u78c5\u7934", termEn:"majestic; boundless", definition:"(p\u00e1ng b\u00f3) majestic; boundless", definitionEn:"majestic; boundless"},
+        {term:"\u94c1\u7d22", termEn:"iron chains", definition:"(ti\u011b su\u01d2) iron chains", definitionEn:"iron chains"},
+        {term:"\u5f00\u989c", termEn:"to beam with delight", definition:"(k\u0101i y\u00e1n) to beam with delight", definitionEn:"to beam with delight"}
+      ],
       grammarPoints: [
         {point:'夸张',pointEn:'kuā zhāng',example:'hyperbole',exampleEn:'五岭逶迤腾细浪，乌蒙磅礴走泥丸。',explanation:'The Five Ridges wind like gentle ripples, the vast Wumeng rolls by like mud balls.',explanationEn:'用夸张手法表现红军的英雄气概'}
       ],
@@ -320,6 +355,13 @@ units: [
         {word:'豪迈',pinyin:'háo mài',en:'bold and heroic',sentence:'狼牙山上响起了他们壮烈豪迈的口号声。',sentenceEn:'Their heroic battle cries echoed across Langya Mountain.'},
         {word:'全神贯注',pinyin:'quán shén guàn zhù',en:'fully concentrated',sentence:'全神贯注地瞄准敌人射击。',sentenceEn:'They aimed at the enemy with intense concentration.'},
         {word:'掩护',pinyin:'yǎn hù',en:'to cover; to provide cover',sentence:'把掩护群众和连队转移的任务交给了六班。',sentenceEn:'The task of covering the retreat was assigned to the Sixth Squad.'}
+      ],
+      footnotes: [
+        {term:"\u65a9\u9489\u622a\u94c1", termEn:"resolute; decisive", definition:"(zh\u01cen d\u012bng ji\u00e9 ti\u011b) resolute; decisive", definitionEn:"resolute; decisive"},
+        {term:"\u5c45\u9ad8\u4e34\u4e0b", termEn:"to command from a height", definition:"(j\u016b g\u0101o l\u00edn xi\u00e0) to command from a height", definitionEn:"to command from a height"},
+        {term:"\u8c6a\u8fc8", termEn:"bold and heroic", definition:"(h\u00e1o m\u00e0i) bold and heroic", definitionEn:"bold and heroic"},
+        {term:"\u5168\u795e\u8d2f\u6ce8", termEn:"fully concentrated", definition:"(qu\u00e1n sh\u00e9n gu\u00e0n zh\u00f9) fully concentrated", definitionEn:"fully concentrated"},
+        {term:"\u63a9\u62a4", termEn:"to cover; to provide cover", definition:"(y\u01cen h\u00f9) to cover; to provide cover", definitionEn:"to cover; to provide cover"}
       ],
       grammarPoints: [
         {point:'点面结合',pointEn:'diǎn miàn jié hé',example:'combining individual focus with group overview',exampleEn:'班长马宝玉沉着地指挥战斗……副班长葛振林打一枪就大吼一声。',explanation:'Squad Leader Ma calmly directed; Deputy Squad Leader Ge roared with each shot.',explanationEn:'先写群体再写个人，使场面更生动'}
@@ -398,6 +440,13 @@ units: [
         {word:'宣布',pinyin:'xuān bù',en:'to proclaim',sentence:'毛泽东主席宣布："中华人民共和国中央人民政府今天成立了！"',sentenceEn:'Chairman Mao proclaimed the founding of the government.'},
         {word:'肃立',pinyin:'sù lì',en:'to stand solemnly',sentence:'三十万人一齐脱帽肃立。',sentenceEn:'Three hundred thousand people stood at attention.'}
       ],
+      footnotes: [
+        {term:"\u5178\u793c", termEn:"ceremony", definition:"(di\u01cen l\u01d0) ceremony", definitionEn:"ceremony"},
+        {term:"\u6392\u5c71\u5012\u6d77", termEn:"overwhelming; earth-shattering", definition:"(p\u00e1i sh\u0101n d\u01ceo h\u01cei) overwhelming; earth-shattering", definitionEn:"overwhelming; earth-shattering"},
+        {term:"\u77bb\u4ef0", termEn:"to gaze up with reverence", definition:"(zh\u0101n y\u01ceng) to gaze up with reverence", definitionEn:"to gaze up with reverence"},
+        {term:"\u5ba3\u5e03", termEn:"to proclaim", definition:"(xu\u0101n b\u00f9) to proclaim", definitionEn:"to proclaim"},
+        {term:"\u8083\u7acb", termEn:"to stand solemnly", definition:"(s\u00f9 l\u00ec) to stand solemnly", definitionEn:"to stand solemnly"}
+      ],
       grammarPoints: [
         {point:'场面描写',pointEn:'chǎng jǐng miáo xiě',example:'scene description',exampleEn:'开头是海军两个排，雪白的帽子，跟海洋一个颜色的蓝制服。',explanation:'First came two platoons of the Navy in snow-white caps and ocean-blue uniforms.',explanationEn:'按顺序描写阅兵式各兵种，层次分明'}
       ],
@@ -465,6 +514,13 @@ units: [
         {word:'微弱',pinyin:'wēi ruò',en:'faint; feeble',sentence:'他借着微弱的亮光看一本书上的插图。',sentenceEn:'By firelight he studied a book illustration.'},
         {word:'牺牲',pinyin:'xī shēng',en:'to sacrifice',sentence:'他自己却没有来得及见一见电灯。',sentenceEn:'He himself never got to see an electric light.'},
         {word:'沉入',pinyin:'chén rù',en:'to sink into',sentence:'于是，我沉入了深深的回忆。',sentenceEn:'I sank into deep memory.'}
+      ],
+      footnotes: [
+        {term:"\u7480\u74a8", termEn:"brilliant; dazzling", definition:"(cu\u01d0 c\u00e0n) brilliant; dazzling", definitionEn:"brilliant; dazzling"},
+        {term:"\u8d5e\u53f9", termEn:"to exclaim with admiration", definition:"(z\u00e0n t\u00e0n) to exclaim with admiration", definitionEn:"to exclaim with admiration"},
+        {term:"\u5fae\u5f31", termEn:"faint; feeble", definition:"(w\u0113i ru\u00f2) faint; feeble", definitionEn:"faint; feeble"},
+        {term:"\u727a\u7272", termEn:"to sacrifice", definition:"(x\u012b sh\u0113ng) to sacrifice", definitionEn:"to sacrifice"},
+        {term:"\u6c89\u5165", termEn:"to sink into", definition:"(ch\u00e9n r\u00f9) to sink into", definitionEn:"to sink into"}
       ],
       exercises: [
         {type:"read",cn:"\u7528\u8f83\u5feb\u7684\u901f\u5ea6\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u5929\u5b89\u95e8\u524d\u7684\u706f\u5149\u3001\u4e66\u4e0a\u63d2\u56fe\u4e2d\u7684\u706f\u5149\u548c\u6218\u573a\u4e0a\u5fae\u5f31\u7684\u706b\u5149\u4e4b\u95f4\u6709\u4ec0\u4e48\u8054\u7cfb\u3002",en:"Read silently at a brisk pace. Discuss how the three types of light in the text are connected."}
@@ -541,6 +597,13 @@ units: [
         {word:'燃烧弹',pinyin:'rán shāo dàn',en:'incendiary bomb',sentence:'敌人用燃烧弹进行搜索。',sentenceEn:'The enemy launched a search with incendiary bombs.'},
         {word:'纹丝不动',pinyin:'wén sī bù dòng',en:'motionless; perfectly still',sentence:'像千斤巨石，伏在那儿纹丝不动。',sentenceEn:'He lay motionless like a thousand-jin boulder.'},
         {word:'严守纪律',pinyin:'yán shǒu jì lǜ',en:'to strictly observe discipline',sentence:'直到牺牲前的最后一息，都没发出哪怕是极轻微的一声呻吟。',sentenceEn:'Until his very last breath, he did not utter even the faintest moan.'}
+      ],
+      footnotes: [
+        {term:"\u6f5c\u4f0f", termEn:"to lie hidden", definition:"(qi\u00e1n f\u00fa) to lie hidden", definitionEn:"to lie hidden"},
+        {term:"\u50f5\u5367", termEn:"to lie rigidly still", definition:"(ji\u0101ng w\u00f2) to lie rigidly still", definitionEn:"to lie rigidly still"},
+        {term:"\u71c3\u70e7\u5f39", termEn:"incendiary bomb", definition:"(r\u00e1n sh\u0101o d\u00e0n) incendiary bomb", definitionEn:"incendiary bomb"},
+        {term:"\u7eb9\u4e1d\u4e0d\u52a8", termEn:"motionless; perfectly still", definition:"(w\u00e9n s\u012b b\u00f9 d\u00f2ng) motionless; perfectly still", definitionEn:"motionless; perfectly still"},
+        {term:"\u4e25\u5b88\u7eaa\u5f8b", termEn:"to strictly observe discipline", definition:"(y\u00e1n sh\u01d2u j\u00ec l\u01dc) to strictly observe discipline", definitionEn:"to strictly observe discipline"}
       ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u627e\u51fa\u63cf\u5199\u201c\u6211\u201d\u5fc3\u7406\u6d3b\u52a8\u7684\u53e5\u5b50\uff0c\u4f53\u4f1a\u90b1\u5c11\u4e91\u662f\u600e\u6837\u4e00\u4f4d\u201c\u4f1f\u5927\u7684\u6218\u58eb\u201d\u3002",en:"Read silently. Find sentences describing the narrator\u2019s thoughts and appreciate what made Qiu Shaoyun a \u201Cgreat soldier.\u201D"}
@@ -703,6 +766,13 @@ units: [
         {word:'心满意足',pinyin:'xīn mǎn yì zú',en:'content and satisfied',sentence:'虽两手空空，但心满意足。',sentenceEn:'Empty-handed but content.'},
         {word:'全神贯注',pinyin:'quán shén guàn zhù',en:'fully absorbed',sentence:'全神贯注，忘乎所以。',sentenceEn:'Completely absorbed, oblivious to everything else.'}
       ],
+      footnotes: [
+        {term:"\u98ce\u9761", termEn:"to sweep through; to become wildly popular", definition:"(f\u0113ng m\u01d0) to sweep through; to become wildly popular", definitionEn:"to sweep through; to become wildly popular"},
+        {term:"\u5a01\u98ce\u51db\u51db", termEn:"awe-inspiring; imposing", definition:"(w\u0113i f\u0113ng l\u01d0n l\u01d0n) awe-inspiring; imposing", definitionEn:"awe-inspiring; imposing"},
+        {term:"\u522b\u51fa\u5fc3\u88c1", termEn:"to come up with something original", definition:"(bi\u00e9 ch\u016b x\u012bn c\u00e1i) to come up with something original", definitionEn:"to come up with something original"},
+        {term:"\u5fc3\u6ee1\u610f\u8db3", termEn:"content and satisfied", definition:"(x\u012bn m\u01cen y\u00ec z\u00fa) content and satisfied", definitionEn:"content and satisfied"},
+        {term:"\u5168\u795e\u8d2f\u6ce8", termEn:"fully absorbed", definition:"(qu\u00e1n sh\u00e9n gu\u00e0n zh\u00f9) fully absorbed", definitionEn:"fully absorbed"}
+      ],
       grammarPoints: [
         {point:'有目的地阅读',pointEn:'yǒu mù dì de yuè dú',example:'reading with purpose',exampleEn:'同一篇文章，阅读目的不同，关注的内容和方法也不同。',explanation:'The same article can be read differently depending on your purpose.',explanationEn:'根据阅读目的选择阅读方法'}
       ],
@@ -763,6 +833,13 @@ units: [
         {word:'抵御',pinyin:'dǐ yù',en:'to resist; to defend against',sentence:'火星上没有磁场，因而不能抵御紫外线的照射。',sentenceEn:'Mars has no magnetic field and therefore cannot block ultraviolet radiation.'},
         {word:'探测器',pinyin:'tàn cè qì',en:'probe; detector',sentence:'科学家们利用探测器对火星作近距离的观测。',sentenceEn:'Scientists used probes for close-range observation of Mars.'},
         {word:'适合',pinyin:'shì hé',en:'suitable',sentence:'适合生物生存的温度。',sentenceEn:'Temperature suitable for biological survival.'}
+      ],
+      footnotes: [
+        {term:"\u731c\u6d4b", termEn:"to speculate", definition:"(c\u0101i c\u00e8) to speculate", definitionEn:"to speculate"},
+        {term:"\u67af\u7aed", termEn:"to be exhausted; depleted", definition:"(k\u016b ji\u00e9) to be exhausted; depleted", definitionEn:"to be exhausted; depleted"},
+        {term:"\u62b5\u5fa1", termEn:"to resist; to defend against", definition:"(d\u01d0 y\u00f9) to resist; to defend against", definitionEn:"to resist; to defend against"},
+        {term:"\u63a2\u6d4b\u5668", termEn:"probe; detector", definition:"(t\u00e0n c\u00e8 q\u00ec) probe; detector", definitionEn:"probe; detector"},
+        {term:"\u9002\u5408", termEn:"suitable", definition:"(sh\u00ec h\u00e9) suitable", definitionEn:"suitable"}
       ],
       exercises: [
         {type:"think",cn:"\u4e3a\u4e86\u4e86\u89e3\u5176\u4ed6\u661f\u7403\u662f\u5426\u5b58\u5728\u751f\u547d\uff0c\u4f60\u5728\u9605\u8bfb\u65f6\u662f\u600e\u4e48\u505a\u7684\uff1f",en:"What reading strategies did you use to explore whether other planets have life?"},
@@ -840,6 +917,13 @@ units: [
         {word:'井然有序',pinyin:'jǐng rán yǒu xù',en:'orderly and well-arranged',sentence:'错综相连而又井然有序。',sentenceEn:'Intricately connected yet orderly.'},
         {word:'中轴线',pinyin:'zhōng zhóu xiàn',en:'central axis',sentence:'三大殿建在紫禁城的中轴线上。',sentenceEn:'The Three Great Halls stand on the central axis.'},
         {word:'俗称',pinyin:'sú chēng',en:'commonly known as',sentence:'太和殿俗称金銮殿。',sentenceEn:'The Hall of Supreme Harmony is commonly known as the Golden Throne Hall.'}
+      ],
+      footnotes: [
+        {term:"\u77d7\u7acb", termEn:"to stand tall", definition:"(ch\u00f9 l\u00ec) to stand tall", definitionEn:"to stand tall"},
+        {term:"\u5b8f\u4f1f", termEn:"grand; magnificent", definition:"(h\u00f3ng w\u011bi) grand; magnificent", definitionEn:"grand; magnificent"},
+        {term:"\u4e95\u7136\u6709\u5e8f", termEn:"orderly and well-arranged", definition:"(j\u01d0ng r\u00e1n y\u01d2u x\u00f9) orderly and well-arranged", definitionEn:"orderly and well-arranged"},
+        {term:"\u4e2d\u8f74\u7ebf", termEn:"central axis", definition:"(zh\u014dng zh\u00f3u xi\u00e0n) central axis", definitionEn:"central axis"},
+        {term:"\u4fd7\u79f0", termEn:"commonly known as", definition:"(s\u00fa ch\u0113ng) commonly known as", definitionEn:"commonly known as"}
       ],
       exercises: [
         {type:"think",cn:"\u6839\u636e\u4e0d\u540c\u7684\u4efb\u52a1\uff0c\u4f60\u4f1a\u600e\u6837\u9605\u8bfb\u8fd9\u4e9b\u6750\u6599\uff1f",en:"How would you read these materials differently for different tasks (e.g., planning a tour vs. giving a guided talk)?"}
@@ -995,6 +1079,13 @@ units: [
         {word:'沙哑',pinyin:'shā yǎ',en:'hoarse',sentence:'老汉沙哑地喝话。',sentenceEn:'The old man spoke in a hoarse voice.'},
         {word:'祭奠',pinyin:'jì diàn',en:'to hold a memorial',sentence:'一个老太太，被人搀扶着，来这里祭奠。',sentenceEn:'An old woman, supported by others, came to pay her respects.'}
       ],
+      footnotes: [
+        {term:"\u5486\u54ee", termEn:"to roar", definition:"(p\u00e1o xi\u00e0o) to roar", definitionEn:"to roar"},
+        {term:"\u72de\u7b11", termEn:"fierce grin (of the flood)", definition:"(n\u00edng xi\u00e0o) fierce grin (of the flood)", definitionEn:"fierce grin (of the flood)"},
+        {term:"\u62e5\u6234", termEn:"to support and trust", definition:"(y\u014dng d\u00e0i) to support and trust", definitionEn:"to support and trust"},
+        {term:"\u6c99\u54d1", termEn:"hoarse", definition:"(sh\u0101 y\u01ce) hoarse", definitionEn:"hoarse"},
+        {term:"\u796d\u5960", termEn:"to hold a memorial", definition:"(j\u00ec di\u00e0n) to hold a memorial", definitionEn:"to hold a memorial"}
+      ],
       grammarPoints: [
         {point:'短句营造紧张',pointEn:'duǎn jù yíng zào jǐn zhāng',example:'short sentences create tension',exampleEn:'雨突然大了。像泼。像倒。',explanation:'The rain suddenly intensified. Pouring. Dumping.',explanationEn:'用极短的句子营造紧迫的气氛'},
         {point:'结尾反转',pointEn:'jié wěi fǎn zhuǎn',example:'surprise ending',exampleEn:'她来祭奠两个人。她丈夫和她儿子。',explanation:'She came to mourn two people. Her husband and her son.',explanationEn:'结尾揭示人物关系，出人意料'}
@@ -1106,6 +1197,13 @@ units: [
         {word:'自作自受',pinyin:'zì zuò zì shòu',en:'to suffer the consequences of one’s own actions',sentence:'那也活该，我自作自受。',sentenceEn:'Well, I deserve it — I brought this upon myself.'},
         {word:'熬过去',pinyin:'áo guò qù',en:'to endure; to get through',sentence:'我们总能熬过去的！',sentenceEn:'We will manage somehow!'},
         {word:'勉强',pinyin:'miǎn qiǎng',en:'barely; with difficulty',sentence:'还只能勉强填饱肚子。',sentenceEn:'They could barely feed themselves.'}
+      ],
+      footnotes: [
+        {term:"\u6c79\u6d8c\u6f8e\u6e43", termEn:"surging and turbulent", definition:"(xi\u014dng y\u01d2ng p\u00e9ng p\u00e0i) surging and turbulent", definitionEn:"surging and turbulent"},
+        {term:"\u5fd0\u5fd1\u4e0d\u5b89", termEn:"anxious and uneasy", definition:"(t\u01cen t\u00e8 b\u00f9 \u0101n) anxious and uneasy", definitionEn:"anxious and uneasy"},
+        {term:"\u81ea\u4f5c\u81ea\u53d7", termEn:"to suffer the consequences of one\u2019s own actions", definition:"(z\u00ec zu\u00f2 z\u00ec sh\u00f2u) to suffer the consequences of one\u2019s own actions", definitionEn:"to suffer the consequences of one\u2019s own actions"},
+        {term:"\u71ac\u8fc7\u53bb", termEn:"to endure; to get through", definition:"(\u00e1o gu\u00f2 q\u00f9) to endure; to get through", definitionEn:"to endure; to get through"},
+        {term:"\u52c9\u5f3a", termEn:"barely; with difficulty", definition:"(mi\u01cen qi\u01ceng) barely; with difficulty", definitionEn:"barely; with difficulty"}
       ],
       grammarPoints: [
         {point:'心理描写',pointEn:'xīn lǐ miáo xiě',example:'psychological description',exampleEn:'他会说什么呢？……他会揍我的！那也活该。',explanation:'What will he say? He will beat me! Well, I deserve it.',explanationEn:'通过内心独白展现桑娜善良而矛盾的心理'}
@@ -1241,6 +1339,13 @@ units: [
         {word:'闪烁',pinyin:'shǎn shuò',en:'to gleam; to glitter',sentence:'在这个长满了红锈的鱼钩上，闪烁着灿烂的金色的光芒！',sentenceEn:'On that rust-covered hook gleamed a brilliant golden light!'},
         {word:'缝衣针',pinyin:'féng yī zhēn',en:'sewing needle',sentence:'老班长用缝衣针弯成个钓鱼钩。',sentenceEn:'Old Squad Leader bent a sewing needle into a fishhook.'}
       ],
+      footnotes: [
+        {term:"\u8001\u73ed\u957f", termEn:"old squad leader", definition:"(l\u01ceo b\u0101n zh\u01ceng) old squad leader", definitionEn:"old squad leader"},
+        {term:"\u4e25\u5cfb", termEn:"severe; grim", definition:"(y\u00e1n j\u00f9n) severe; grim", definitionEn:"severe; grim"},
+        {term:"\u5944\u5944\u4e00\u606f", termEn:"on the verge of death", definition:"(y\u01cen y\u01cen y\u012b x\u012b) on the verge of death", definitionEn:"on the verge of death"},
+        {term:"\u95ea\u70c1", termEn:"to gleam; to glitter", definition:"(sh\u01cen shu\u00f2) to gleam; to glitter", definitionEn:"to gleam; to glitter"},
+        {term:"\u7f1d\u8863\u9488", termEn:"sewing needle", definition:"(f\u00e9ng y\u012b zh\u0113n) sewing needle", definitionEn:"sewing needle"}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u5c0f\u8bf4\u5199\u4e86\u4e00\u4f4d\u600e\u6837\u7684\u8001\u73ed\u957f\u3002",en:"Read silently. What kind of person is the Old Squad Leader?"}
       ],
@@ -1327,6 +1432,13 @@ units: [
         {word:'谚语',pinyin:'yàn yǔ',en:'proverb',sentence:'北方农家的谚语说："六月六，看谷秀。"',sentenceEn:'A farmer’s proverb says: On the sixth of the sixth month, check the grain.'},
         {word:'威力',pinyin:'wēi lì',en:'power; might',sentence:'随着太阳威力的增加，什么都在生长。',sentenceEn:'As the sun’s power increases, everything grows.'},
         {word:'收成',pinyin:'shōu chéng',en:'harvest',sentence:'农作物到了该长的时候不长，就没有收成的希望。',sentenceEn:'Crops that do not grow when they should have no hope of harvest.'}
+      ],
+      footnotes: [
+        {term:"\u98de\u5feb", termEn:"extremely fast", definition:"(f\u0113i ku\u00e0i) extremely fast", definitionEn:"extremely fast"},
+        {term:"\u82d4\u85d3", termEn:"moss", definition:"(t\u00e1i xi\u01cen) moss", definitionEn:"moss"},
+        {term:"\u8c1a\u8bed", termEn:"proverb", definition:"(y\u00e0n y\u01d4) proverb", definitionEn:"proverb"},
+        {term:"\u5a01\u529b", termEn:"power; might", definition:"(w\u0113i l\u00ec) power; might", definitionEn:"power; might"},
+        {term:"\u6536\u6210", termEn:"harvest", definition:"(sh\u014du ch\u00e9ng) harvest", definitionEn:"harvest"}
       ],
       grammarPoints: [
         {point:'围绕中心句',pointEn:'wéi rào zhōng xīn jù',example:'writing around a central sentence',exampleEn:'夏天是万物迅速生长的季节。',explanation:'Summer is the season of rapid growth for all things.',explanationEn:'从不同角度围绕中心句展开论述'}
@@ -1420,6 +1532,13 @@ units: [
         {word:'理直气壮',pinyin:'lǐ zhí qì zhuàng',en:'with full confidence',sentence:'理直气壮地打开柜门，拿出雨衣。',sentenceEn:'I triumphantly opened the closet and grabbed my raincoat.'},
         {word:'甩',pinyin:'shuǎi',en:'to swing; to fling',sentence:'我走在街上，甩着两只透明的绿袖子。',sentenceEn:'I walked down the street, swinging my transparent green sleeves.'}
       ],
+      footnotes: [
+        {term:"\u76fc\u671b", termEn:"to long for; to yearn", definition:"(p\u00e0n w\u00e0ng) to long for; to yearn", definitionEn:"to long for; to yearn"},
+        {term:"\u6597\u7bf7", termEn:"poncho; cape", definition:"(d\u01d2u p\u00e9ng) poncho; cape", definitionEn:"poncho; cape"},
+        {term:"\u56b7", termEn:"to yell; to shout", definition:"(r\u01ceng) to yell; to shout", definitionEn:"to yell; to shout"},
+        {term:"\u7406\u76f4\u6c14\u58ee", termEn:"with full confidence", definition:"(l\u01d0 zh\u00ed q\u00ec zhu\u00e0ng) with full confidence", definitionEn:"with full confidence"},
+        {term:"\u7529", termEn:"to swing; to fling", definition:"(shu\u01cei) to swing; to fling", definitionEn:"to swing; to fling"}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u60f3\u60f3\u8bfe\u6587\u56f4\u7ed5\u201c\u76fc\u201d\u5199\u4e86\u201c\u6211\u201d\u7684\u54ea\u4e9b\u8868\u73b0\u3002",en:"Read silently. What actions around \u201Clonging\u201D are described?"},
         {type:"think",cn:"\u56f4\u7ed5\u201c\u76fc\u201d\u8fd9\u4e00\u5fc3\u7406\u6d3b\u52a8\uff0c\u54ea\u4e9b\u90e8\u5206\u5199\u5f97\u6bd4\u8f83\u5177\u4f53\uff1f\u8bf4\u8bf4\u597d\u5904\u3002",en:"Which parts are most vividly detailed? Discuss the effect."}
@@ -1506,6 +1625,13 @@ units: [
         {word:'酒旗',pinyin:'jiǔ qí',en:'wine flag; tavern banner',sentence:'水村山郭酒旗风。',sentenceEn:'Water villages, mountain towns, wine flags in the breeze.'},
         {word:'茅檐',pinyin:'máo yán',en:'thatched eaves',sentence:'茅檐长扫净无苔。',sentenceEn:'The thatched eaves, long swept, are free of moss.'}
       ],
+      footnotes: [
+        {term:"\u6d6a\u6dd8\u6c99", termEn:"waves washing sand", definition:"(l\u00e0ng t\u00e1o sh\u0101) waves washing sand", definitionEn:"waves washing sand"},
+        {term:"\u83ba\u557c", termEn:"orioles sing", definition:"(y\u012bng t\u00ed) orioles sing", definitionEn:"orioles sing"},
+        {term:"\u6392\u95fc", termEn:"to push open the gate", definition:"(p\u00e1i t\u00e0) to push open the gate", definitionEn:"to push open the gate"},
+        {term:"\u9152\u65d7", termEn:"wine flag; tavern banner", definition:"(ji\u01d4 q\u00ed) wine flag; tavern banner", definitionEn:"wine flag; tavern banner"},
+        {term:"\u8305\u6a90", termEn:"thatched eaves", definition:"(m\u00e1o y\u00e1n) thatched eaves", definitionEn:"thatched eaves"}
+      ],
       exercises: [
         {type:"recite",prompt:"有感情地朗读课文。背诵课文。",promptEn:"Read aloud with expression. Recite the poems from memory."},
         {type:"discuss",prompt:"读读《浪淘沙》（其一），说说你从哪里体会到了黄河的磅礴气势。",promptEn:"Read 'Waves of Sand' and tell where you feel the Yellow River's mighty power."},
@@ -1559,6 +1685,13 @@ units: [
         {word:'枯竭',pinyin:'kū jié',en:'to be depleted',sentence:'必将加速地球上矿产资源的枯竭。',sentenceEn:'This will accelerate the depletion of mineral reserves.'},
         {word:'生态',pinyin:'shēng tài',en:'ecology; ecological',sentence:'我们要精心地保护地球，保护地球的生态环境。',sentenceEn:'We must carefully protect Earth and its ecological environment.'}
       ],
+      footnotes: [
+        {term:"\u6676\u83b9", termEn:"crystal-clear", definition:"(j\u012bng y\u00edng) crystal-clear", definitionEn:"crystal-clear"},
+        {term:"\u6e3a\u5c0f", termEn:"tiny; insignificant", definition:"(mi\u01ceo xi\u01ceo) tiny; insignificant", definitionEn:"tiny; insignificant"},
+        {term:"\u6177\u6168", termEn:"generous", definition:"(k\u0101ng k\u01cei) generous", definitionEn:"generous"},
+        {term:"\u67af\u7aed", termEn:"to be depleted", definition:"(k\u016b ji\u00e9) to be depleted", definitionEn:"to be depleted"},
+        {term:"\u751f\u6001", termEn:"ecology; ecological", definition:"(sh\u0113ng t\u00e0i) ecology; ecological", definitionEn:"ecology; ecological"}
+      ],
       grammarPoints: [
         {point:'层层论证',pointEn:'céng céng lùn zhèng',example:'step-by-step argumentation',exampleEn:'地球渺小→资源有限→不能移居→必须保护',explanation:'Earth is tiny, resources limited, cannot move, must protect.',explanationEn:'用层层递进的方式论证观点'}
       ],
@@ -1607,6 +1740,13 @@ units: [
         {word:'绿洲',pinyin:'lǜ zhōu',en:'oasis',sentence:'竟创造了这块绿洲。',sentenceEn:'He had created this green oasis.'},
         {word:'治理',pinyin:'zhì lǐ',en:'to manage; to reclaim',sentence:'六十五岁那年，他组织了七位老汉开始治理这条沟。',sentenceEn:'At sixty-five, he organized seven old men to start reclaiming this gully.'},
         {word:'归宿',pinyin:'guī sù',en:'final resting place; destination',sentence:'屋后的青山就是生命的归宿。',sentenceEn:'The green mountains behind the house were his final resting place.'}
+      ],
+      footnotes: [
+        {term:"\u8086\u8650", termEn:"to ravage; to wreak havoc", definition:"(s\u00ec n\u00fc\u00e8) to ravage; to wreak havoc", definitionEn:"to ravage; to wreak havoc"},
+        {term:"\u76d8\u8e1e", termEn:"to occupy; to entrench", definition:"(p\u00e1n j\u00f9) to occupy; to entrench", definitionEn:"to occupy; to entrench"},
+        {term:"\u7eff\u6d32", termEn:"oasis", definition:"(l\u01dc zh\u014du) oasis", definitionEn:"oasis"},
+        {term:"\u6cbb\u7406", termEn:"to manage; to reclaim", definition:"(zh\u00ec l\u01d0) to manage; to reclaim", definitionEn:"to manage; to reclaim"},
+        {term:"\u5f52\u5bbf", termEn:"final resting place; destination", definition:"(gu\u012b s\u00f9) final resting place; destination", definitionEn:"final resting place; destination"}
       ],
       exercises: [
         {type:"comprehension",prompt:"默读课文，说说文中的老人创造了怎样的奇迹，是在什么样的条件下创造的。",promptEn:"Read silently and explain what miracle the old man created and under what conditions."},
@@ -1676,6 +1816,13 @@ units: [
         {word:'土疙瘩',pinyin:'tǔ gē da',en:'clump of earth',sentence:'每一块土疙瘩都给细细打碎。',sentenceEn:'Every clump of earth was finely crumbled.'},
         {word:'荞麦',pinyin:'qiáo mài',en:'buckwheat',sentence:'看见自己种的荞麦已经开花，白霎霎的像一片雪。',sentenceEn:'His buckwheat had bloomed, white as a blanket of snow.'},
         {word:'蝈蝈',pinyin:'guō guō',en:'katydid',sentence:'荞麦地里还有两个蝈蝈儿在叫唤。',sentenceEn:'Two katydids were calling in the buckwheat field.'}
+      ],
+      footnotes: [
+        {term:"\u7ffb\u8eab", termEn:"to be liberated; to turn over", definition:"(f\u0101n sh\u0113n) to be liberated; to turn over", definitionEn:"to be liberated; to turn over"},
+        {term:"\u8019\u5730", termEn:"to harrow the land", definition:"(b\u00e0 d\u00ec) to harrow the land", definitionEn:"to harrow the land"},
+        {term:"\u571f\u7599\u7629", termEn:"clump of earth", definition:"(t\u01d4 g\u0113 da) clump of earth", definitionEn:"clump of earth"},
+        {term:"\u835e\u9ea6", termEn:"buckwheat", definition:"(qi\u00e1o m\u00e0i) buckwheat", definitionEn:"buckwheat"},
+        {term:"\u8748\u8748", termEn:"katydid", definition:"(gu\u014d gu\u014d) katydid", definitionEn:"katydid"}
       ],
       exercises: [
         {type:"comprehension",prompt:"有感情地朗读课文。说说三黑是怎样看待土地的。",promptEn:"Read with feeling. Explain how Sanhei views the land."},
@@ -1758,6 +1905,13 @@ units: [
         {word:'知音',pinyin:'zhī yīn',en:'a true friend who understands',sentence:'以为世无足复为鼓琴者。',sentenceEn:'He believed there was no one left in the world worthy of his music.'},
         {word:'拊掌',pinyin:'fǔ zhǎng',en:'to clap hands',sentence:'有一牧童见之，拊掌大笑。',sentenceEn:'A shepherd boy saw it and clapped his hands laughing.'}
       ],
+      footnotes: [
+        {term:"\u9f13\u7434", termEn:"to play the qin", definition:"(g\u01d4 q\u00edn) to play the qin", definitionEn:"to play the qin"},
+        {term:"\u5dcd\u5dcd", termEn:"towering; lofty", definition:"(w\u0113i w\u0113i) towering; lofty", definitionEn:"towering; lofty"},
+        {term:"\u6c64\u6c64", termEn:"vast and sweeping (of water)", definition:"(sh\u0101ng sh\u0101ng) vast and sweeping (of water)", definitionEn:"vast and sweeping (of water)"},
+        {term:"\u77e5\u97f3", termEn:"a true friend who understands", definition:"(zh\u012b y\u012bn) a true friend who understands", definitionEn:"a true friend who understands"},
+        {term:"\u62ca\u638c", termEn:"to clap hands", definition:"(f\u01d4 zh\u01ceng) to clap hands", definitionEn:"to clap hands"}
+      ],
       grammarPoints: [
         {point:'文言文阅读',pointEn:'wén yán wén yuè dú',example:'classical Chinese reading',exampleEn:'伯牙破琴绝弦，终身不复鼓琴。',explanation:'Boya broke his qin and severed its strings, never playing again.',explanationEn:'借助注释理解文言文大意'},
         {point:'实践出真知',pointEn:'shí jiàn chū zhēn zhī',example:'practice yields true knowledge',exampleEn:'耕当问奴，织当问婢。',explanation:'Ask the farmhand about plowing, ask the maid about weaving.',explanationEn:'实际经验比书本知识更可靠'}
@@ -1820,6 +1974,13 @@ units: [
         {word:'陶醉',pinyin:'táo zuì',en:'intoxicated; enchanted',sentence:'兄妹俩被美妙的琴声陶醉了。',sentenceEn:'The brother and sister were intoxicated by the beautiful music.'},
         {word:'恬静',pinyin:'tián jìng',en:'tranquil; peaceful',sentence:'月光正照在她那恬静的脸上。',sentenceEn:'Moonlight fell on her tranquil face.'}
       ],
+      footnotes: [
+        {term:"\u7eaf\u719f", termEn:"skillful; proficient", definition:"(ch\u00fan sh\u00fa) skillful; proficient", definitionEn:"skillful; proficient"},
+        {term:"\u6e05\u5e7d", termEn:"serene; tranquil", definition:"(q\u012bng y\u014du) serene; tranquil", definitionEn:"serene; tranquil"},
+        {term:"\u5fae\u6ce2\u7cbc\u7cbc", termEn:"rippling gently", definition:"(w\u0113i b\u014d l\u00edn l\u00edn) rippling gently", definitionEn:"rippling gently"},
+        {term:"\u9676\u9189", termEn:"intoxicated; enchanted", definition:"(t\u00e1o zu\u00ec) intoxicated; enchanted", definitionEn:"intoxicated; enchanted"},
+        {term:"\u606c\u9759", termEn:"tranquil; peaceful", definition:"(ti\u00e1n j\u00ecng) tranquil; peaceful", definitionEn:"tranquil; peaceful"}
+      ],
       grammarPoints: [
         {point:'联想和想象',pointEn:'lián xiǎng hé xiǎng xiàng',example:'association and imagination',exampleEn:'他好像面对着大海，月亮正从水天相接的地方升起来。',explanation:'It was as if he were facing the sea, with the moon rising where water met sky.',explanationEn:'用联想和想象将音乐转化为画面'}
       ],
@@ -1865,6 +2026,13 @@ units: [
         {word:'亮相',pinyin:'liàng xiàng',en:'to strike a pose',sentence:'双方脸对着脸，眼睛对着眼睛，一切都像被定身术给制服了。',sentenceEn:'Face to face, eyes locked, as if some spell had immobilized them all.'},
         {word:'戛然而止',pinyin:'jiá rán ér zhǐ',en:'to stop abruptly',sentence:'那紧张而又整齐的锣鼓声忽然一停，人物的动作也戛然而止。',sentenceEn:'The drumbeats suddenly stopped, and the actors froze.'},
         {word:'约定俗成',pinyin:'yuē dìng sú chéng',en:'established by convention',sentence:'不同人物在使用马鞭时，形成了一套约定俗成的方法。',sentenceEn:'Different characters have developed their own established ways of using the whip.'}
+      ],
+      footnotes: [
+        {term:"\u9a6c\u97ad", termEn:"horse whip; riding crop", definition:"(m\u01ce bi\u0101n) horse whip; riding crop", definitionEn:"horse whip; riding crop"},
+        {term:"\u865a\u62df", termEn:"virtual; imaginary", definition:"(x\u016b n\u01d0) virtual; imaginary", definitionEn:"virtual; imaginary"},
+        {term:"\u4eae\u76f8", termEn:"to strike a pose", definition:"(li\u00e0ng xi\u00e0ng) to strike a pose", definitionEn:"to strike a pose"},
+        {term:"\u621b\u7136\u800c\u6b62", termEn:"to stop abruptly", definition:"(ji\u00e1 r\u00e1n \u00e9r zh\u01d0) to stop abruptly", definitionEn:"to stop abruptly"},
+        {term:"\u7ea6\u5b9a\u4fd7\u6210", termEn:"established by convention", definition:"(yu\u0113 d\u00ecng s\u00fa ch\u00e9ng) established by convention", definitionEn:"established by convention"}
       ],
       exercises: [
         {type:"comprehension",prompt:"默读课文，说说你对京剧有了哪些了解。",promptEn:"Read silently and share what you have learned about Peking opera."},
@@ -1982,6 +2150,13 @@ units: [
         {word:'郑重',pinyin:'zhèng zhòng',en:'solemn; serious',sentence:'这祭祀说是三十多年才能轮到一回，所以很郑重。',sentenceEn:'The sacrifice came around only once in thirty years, so it was very solemn.'},
         {word:'如许',pinyin:'rú xǔ',en:'so many; such',sentence:'海边有如许五色的贝壳。',sentenceEn:'The seashore had so many colorful shells.'}
       ],
+      footnotes: [
+        {term:"\u4e00\u671b\u65e0\u9645", termEn:"stretching endlessly", definition:"(y\u012b w\u00e0ng w\u00fa j\u00ec) stretching endlessly", definitionEn:"stretching endlessly"},
+        {term:"\u7d20\u4e0d\u77e5\u9053", termEn:"never knew; had no idea", definition:"(s\u00f9 b\u00f9 zh\u012b d\u00e0o) never knew; had no idea", definitionEn:"never knew; had no idea"},
+        {term:"\u65e0\u7a77\u65e0\u5c3d", termEn:"infinite; endless", definition:"(w\u00fa qi\u00f3ng w\u00fa j\u00ecn) infinite; endless", definitionEn:"infinite; endless"},
+        {term:"\u90d1\u91cd", termEn:"solemn; serious", definition:"(zh\u00e8ng zh\u00f2ng) solemn; serious", definitionEn:"solemn; serious"},
+        {term:"\u5982\u8bb8", termEn:"so many; such", definition:"(r\u00fa x\u01d4) so many; such", definitionEn:"so many; such"}
+      ],
       grammarPoints: [
         {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'the technique of contrast',exampleEn:'他们都和我一样只看见院子里高墙上的四角的天空。',explanation:'They, like me, could see only the small square of sky above the high walls.',explanationEn:'用闰土丰富的生活经验与"我"狭窄的世界形成对比'}
       ],
@@ -2047,6 +2222,13 @@ units: [
         {word:'凝视',pinyin:'níng shì',en:'to gaze intently',sentence:'我就要凝视他们。',sentenceEn:'I was about to gaze at them.'},
         {word:'皱蹙',pinyin:'zhòu cù',en:'crumpled; furrowed',sentence:'云锦也已皱蹙，凌乱。',sentenceEn:'The cloud tapestry was already crumpled and disordered.'}
       ],
+      footnotes: [
+        {term:"\u8499\u80e7", termEn:"hazy; dim", definition:"(m\u00e9ng l\u00f3ng) hazy; dim", definitionEn:"hazy; dim"},
+        {term:"\u9519\u7efc", termEn:"intricate; interwoven", definition:"(cu\u00f2 z\u014dng) intricate; interwoven", definitionEn:"intricate; interwoven"},
+        {term:"\u6f84\u78a7", termEn:"crystal-clear and green", definition:"(ch\u00e9ng b\u00ec) crystal-clear and green", definitionEn:"crystal-clear and green"},
+        {term:"\u51dd\u89c6", termEn:"to gaze intently", definition:"(n\u00edng sh\u00ec) to gaze intently", definitionEn:"to gaze intently"},
+        {term:"\u76b1\u8e59", termEn:"crumpled; furrowed", definition:"(zh\u00f2u c\u00f9) crumpled; furrowed", definitionEn:"crumpled; furrowed"}
+      ],
       exercises: [
         {type:"comprehension",prompt:"\u201c好的故事\u201d其实是一个梦境。这故事的美丽、幽雅、有趣体现在哪里？结合课文内容说一说。",promptEn:"'The good story' is actually a dream. Where does its beauty, elegance, and interest lie? Discuss using the text."},
         {type:"discuss",prompt:"结合\u201c阅读链接\u201d中的材料，说说对课文最后两个自然段的理解。",promptEn:"Using the reading link materials, share your understanding of the last two paragraphs."},
@@ -2096,6 +2278,13 @@ units: [
         {word:'碰壁',pinyin:'pèng bì',en:'to hit a wall (to be blocked or persecuted)',sentence:'可是到了后来，碰了几次壁，把鼻子碰扁了。',sentenceEn:'But later, I bumped into walls a few times and flattened my nose.'},
         {word:'追悼',pinyin:'zhuī dào',en:'to mourn; to pay tribute',sentence:'许多人都来追悼他，向他致敬。',sentenceEn:'Many people came to mourn him and pay respects.'}
       ],
+      footnotes: [
+        {term:"\u56eb\u56f5\u541e\u67a3", termEn:"to swallow dates whole (read without understanding)", definition:"(h\u00fa l\u00fan t\u016bn z\u01ceo) to swallow dates whole (read without understanding)", definitionEn:"to swallow dates whole (read without understanding)"},
+        {term:"\u5f20\u51a0\u674e\u6234", termEn:"to attribute to the wrong person", definition:"(zh\u0101ng gu\u0101n l\u01d0 d\u00e0i) to attribute to the wrong person", definitionEn:"to attribute to the wrong person"},
+        {term:"\u9971\u7ecf\u98ce\u971c", termEn:"to have weathered many hardships", definition:"(b\u01ceo j\u012bng f\u0113ng shu\u0101ng) to have weathered many hardships", definitionEn:"to have weathered many hardships"},
+        {term:"\u78b0\u58c1", termEn:"to hit a wall (to be blocked or persecuted)", definition:"(p\u00e8ng b\u00ec) to hit a wall (to be blocked or persecuted)", definitionEn:"to hit a wall (to be blocked or persecuted)"},
+        {term:"\u8ffd\u60bc", termEn:"to mourn; to pay tribute", definition:"(zhu\u012b d\u00e0o) to mourn; to pay tribute", definitionEn:"to mourn; to pay tribute"}
+      ],
       grammarPoints: [
         {point:'用事写人',pointEn:'yòng shì xiě rén',example:'revealing character through events',exampleEn:'伯父就是这样的一个人，他为自己想得少，为别人想得多。',explanation:'That was the kind of person my uncle was — he thought little of himself and much of others.',explanationEn:'通过多件具体事例展现人物品质'}
       ],
@@ -2143,6 +2332,13 @@ units: [
         {word:'野草',pinyin:'yě cǎo',en:'wild grass',sentence:'有的人情愿作野草，等着地下的火烧。',sentenceEn:'Some would rather be wild grass, waiting for underground fire to burn.'},
         {word:'抬举',pinyin:'tái jǔ',en:'to raise high; to hold in esteem',sentence:'群众把他抬举得很高，很高。',sentenceEn:'The masses raise them high, so high.'},
         {word:'摔垮',pinyin:'shuāi kuǎ',en:'to topple; to overthrow',sentence:'骑在人民头上的，人民把他摔垮。',sentenceEn:'Those who ride on the people — the people topple them.'}
+      ],
+      footnotes: [
+        {term:"\u4fef\u4e0b\u8eab\u5b50", termEn:"to bend down", definition:"(f\u01d4 xi\u00e0 sh\u0113n zi) to bend down", definitionEn:"to bend down"},
+        {term:"\u4e0d\u673d", termEn:"immortal; everlasting", definition:"(b\u00f9 xi\u01d4) immortal; everlasting", definitionEn:"immortal; everlasting"},
+        {term:"\u91ce\u8349", termEn:"wild grass", definition:"(y\u011b c\u01ceo) wild grass", definitionEn:"wild grass"},
+        {term:"\u62ac\u4e3e", termEn:"to raise high; to hold in esteem", definition:"(t\u00e1i j\u01d4) to raise high; to hold in esteem", definitionEn:"to raise high; to hold in esteem"},
+        {term:"\u6454\u57ae", termEn:"to topple; to overthrow", definition:"(shu\u0101i ku\u01ce) to topple; to overthrow", definitionEn:"to topple; to overthrow"}
       ],
       grammarPoints: [
         {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'the technique of contrast',exampleEn:'有的人活着，他已经死了；有的人死了，他还活着。',explanation:'Some are alive but already dead; some are dead but still live.',explanationEn:'用鲜明对比揭示两种截然不同的人生价值'}

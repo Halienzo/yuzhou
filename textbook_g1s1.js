@@ -36,6 +36,11 @@ units: [
         {word:'上学',pinyin:'shàng xué',en:'go to school',sentence:'我上学了。',sentenceEn:'I go to school.'},
         {word:'中国',pinyin:'zhōng guó',en:'China',sentence:'我是中国人。',sentenceEn:'I am Chinese.'}
       ],
+      footnotes: [
+        {term:"\u6211", termEn:"I; me", definition:"(w\u01d2) I; me", definitionEn:"I; me"},
+        {term:"\u4e0a\u5b66", termEn:"go to school", definition:"(sh\u00e0ng xu\u00e9) go to school", definitionEn:"go to school"},
+        {term:"\u4e2d\u56fd", termEn:"China", definition:"(zh\u014dng gu\u00f3) China", definitionEn:"China"}
+      ],
       parentTips: [
         {cn:"帮助孩子准备学习用品，建立上学的期待感",en:"Help prepare school supplies and build excitement for school"},
         {cn:"陪孩子一起唱《上学歌》",en:"Sing the School Song together"}
@@ -67,6 +72,14 @@ units: [
         {word:'我',pinyin:'wǒ',en:'I; me',sentence:'我是小学生。',sentenceEn:'I am a primary school student.'},
         {word:'他',pinyin:'tā',en:'he; him',sentence:'他是我的好朋友。',sentenceEn:'He is my good friend.'}
       ],
+      footnotes: [
+        {term:"\u5929", termEn:"sky; heaven; day", definition:"(ti\u0101n) sky; heaven; day", definitionEn:"sky; heaven; day"},
+        {term:"\u5730", termEn:"earth; ground", definition:"(d\u00ec) earth; ground", definitionEn:"earth; ground"},
+        {term:"\u4eba", termEn:"person; people", definition:"(r\u00e9n) person; people", definitionEn:"person; people"},
+        {term:"\u4f60", termEn:"you", definition:"(n\u01d0) you", definitionEn:"you"},
+        {term:"\u6211", termEn:"I; me", definition:"(w\u01d2) I; me", definitionEn:"I; me"},
+        {term:"\u4ed6", termEn:"he; him", definition:"(t\u0101) he; him", definitionEn:"he; him"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"match",cn:"看图片，指出对应的字",en:"Look at pictures and point to the matching character"}
@@ -94,6 +107,13 @@ units: [
         {word:'水',pinyin:'shuǐ',en:'water',sentence:'金木水火土。',sentenceEn:'Metal, wood, water, fire, earth.'},
         {word:'上',pinyin:'shàng',en:'up; above',sentence:'天地分上下。',sentenceEn:'Heaven and earth divide above and below.'},
         {word:'下',pinyin:'xià',en:'down; below',sentence:'天地分上下。',sentenceEn:'Heaven and earth divide above and below.'}
+      ],
+      footnotes: [
+        {term:"\u91d1", termEn:"metal; gold", definition:"(j\u012bn) metal; gold", definitionEn:"metal; gold"},
+        {term:"\u6728", termEn:"wood; tree", definition:"(m\u00f9) wood; tree", definitionEn:"wood; tree"},
+        {term:"\u6c34", termEn:"water", definition:"(shu\u01d0) water", definitionEn:"water"},
+        {term:"\u4e0a", termEn:"up; above", definition:"(sh\u00e0ng) up; above", definitionEn:"up; above"},
+        {term:"\u4e0b", termEn:"down; below", definition:"(xi\u00e0) down; below", definitionEn:"down; below"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite the text"},
@@ -124,6 +144,13 @@ units: [
         {word:'手',pinyin:'shǒu',en:'hand',sentence:'手足。',sentenceEn:'Hand and foot.'},
         {word:'站',pinyin:'zhàn',en:'stand',sentence:'站如松，坐如钟。',sentenceEn:'Stand like a pine, sit like a bell.'}
       ],
+      footnotes: [
+        {term:"\u53e3", termEn:"mouth", definition:"(k\u01d2u) mouth", definitionEn:"mouth"},
+        {term:"\u8033", termEn:"ear", definition:"(\u011br) ear", definitionEn:"ear"},
+        {term:"\u76ee", termEn:"eye", definition:"(m\u00f9) eye", definitionEn:"eye"},
+        {term:"\u624b", termEn:"hand", definition:"(sh\u01d2u) hand", definitionEn:"hand"},
+        {term:"\u7ad9", termEn:"stand", definition:"(zh\u00e0n) stand", definitionEn:"stand"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"我们的口、耳、目、手、足能做哪些事？",en:"What can our mouth, ears, eyes, hands, and feet do?"}
@@ -152,6 +179,13 @@ units: [
         {word:'田',pinyin:'tián',en:'field',sentence:'山石田禾。',sentenceEn:'Mountain, stone, field, grain.'},
         {word:'禾',pinyin:'hé',en:'grain; rice plant',sentence:'山石田禾。',sentenceEn:'Mountain, stone, field, grain.'}
       ],
+      footnotes: [
+        {term:"\u65e5", termEn:"sun; day", definition:"(r\u00ec) sun; day", definitionEn:"sun; day"},
+        {term:"\u6708", termEn:"moon; month", definition:"(yu\u00e8) moon; month", definitionEn:"moon; month"},
+        {term:"\u5c71", termEn:"mountain", definition:"(sh\u0101n) mountain", definitionEn:"mountain"},
+        {term:"\u7530", termEn:"field", definition:"(ti\u00e1n) field", definitionEn:"field"},
+        {term:"\u79be", termEn:"grain; rice plant", definition:"(h\u00e9) grain; rice plant", definitionEn:"grain; rice plant"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"match",cn:"猜一猜，连一连（象形字与图片配对）",en:"Guess and match (match pictographic characters to pictures)"}
@@ -179,6 +213,13 @@ units: [
         {word:'风',pinyin:'fēng',en:'wind',sentence:'云对雨，雪对风。',sentenceEn:'Clouds pair with rain, snow with wind.'},
         {word:'花',pinyin:'huā',en:'flower',sentence:'花对树，鸟对虫。',sentenceEn:'Flowers pair with trees, birds with insects.'},
         {word:'鸟',pinyin:'niǎo',en:'bird',sentence:'花对树，鸟对虫。',sentenceEn:'Flowers pair with trees, birds with insects.'}
+      ],
+      footnotes: [
+        {term:"\u4e91", termEn:"cloud", definition:"(y\u00fan) cloud", definitionEn:"cloud"},
+        {term:"\u96e8", termEn:"rain", definition:"(y\u01d4) rain", definitionEn:"rain"},
+        {term:"\u98ce", termEn:"wind", definition:"(f\u0113ng) wind", definitionEn:"wind"},
+        {term:"\u82b1", termEn:"flower", definition:"(hu\u0101) flower", definitionEn:"flower"},
+        {term:"\u9e1f", termEn:"bird", definition:"(ni\u01ceo) bird", definitionEn:"bird"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
@@ -269,6 +310,10 @@ units: [
         {word:'啊',pinyin:'a',en:'ah (exclamation)',sentence:'啊，真好看！',sentenceEn:'Ah, how beautiful!'},
         {word:'鹅',pinyin:'é',en:'goose',sentence:'鹅鹅鹅。',sentenceEn:'Goose, goose, goose.'}
       ],
+      footnotes: [
+        {term:"\u554a", termEn:"ah (exclamation)", definition:"(a) ah (exclamation)", definitionEn:"ah (exclamation)"},
+        {term:"\u9e45", termEn:"goose", definition:"(\u00e9) goose", definitionEn:"goose"}
+      ],
       exercises:[
         {type:"read",cn:"学会a o e的四声读法",en:"Learn the four tones of a, o, e"},
         {type:"write",cn:"在四线格中正确书写a o e",en:"Write a o e correctly on four-line grid"}
@@ -292,6 +337,11 @@ units: [
         {word:'音乐',pinyin:'yīn yuè',en:'music',sentence:'音乐课。',sentenceEn:'Music class.'},
         {word:'数学',pinyin:'shù xué',en:'mathematics',sentence:'数学课。',sentenceEn:'Math class.'}
       ],
+      footnotes: [
+        {term:"\u6587", termEn:"writing; language", definition:"(w\u00e9n) writing; language", definitionEn:"writing; language"},
+        {term:"\u97f3\u4e50", termEn:"music", definition:"(y\u012bn yu\u00e8) music", definitionEn:"music"},
+        {term:"\u6570\u5b66", termEn:"mathematics", definition:"(sh\u00f9 xu\u00e9) mathematics", definitionEn:"mathematics"}
+      ],
       exercises:[
         {type:"read",cn:"学会i u ü的四声，认识声母y w",en:"Learn four tones of i u ü; learn initials y w"},
         {type:"write",cn:"在四线格中正确书写i u ü y w",en:"Write correctly on four-line grid"}
@@ -313,6 +363,10 @@ units: [
       vocabWords: [
         {word:'爸',pinyin:'bà',en:'dad; father',sentence:'爸爸好。',sentenceEn:'Dad is great.'},
         {word:'妈',pinyin:'mā',en:'mom; mother',sentence:'妈妈好。',sentenceEn:'Mom is great.'}
+      ],
+      footnotes: [
+        {term:"\u7238", termEn:"dad; father", definition:"(b\u00e0) dad; father", definitionEn:"dad; father"},
+        {term:"\u5988", termEn:"mom; mother", definition:"(m\u0101) mom; mother", definitionEn:"mom; mother"}
       ],
       exercises:[
         {type:"read",cn:"准确拼读b p m f与韵母的组合",en:"Accurately spell combinations of b p m f with vowels"},
@@ -337,6 +391,11 @@ units: [
         {word:'土',pinyin:'tǔ',en:'earth; soil',sentence:'土地。',sentenceEn:'Land; soil.'},
         {word:'不',pinyin:'bù',en:'not; no',sentence:'不好。',sentenceEn:'Not good.'}
       ],
+      footnotes: [
+        {term:"\u9a6c", termEn:"horse", definition:"(m\u01ce) horse", definitionEn:"horse"},
+        {term:"\u571f", termEn:"earth; soil", definition:"(t\u01d4) earth; soil", definitionEn:"earth; soil"},
+        {term:"\u4e0d", termEn:"not; no", definition:"(b\u00f9) not; no", definitionEn:"not; no"}
+      ],
       exercises:[
         {type:"read",cn:"学习d t n l的发音及与韵母的拼读",en:"Learn d t n l pronunciation and syllable spelling"},
         {type:"spell",cn:"拼读练习：dà（大）、tǔ（土）、nǚ（女）、lù（路）",en:"Practice: dà, tǔ, nǚ, lù"}
@@ -359,6 +418,10 @@ units: [
         {word:'画',pinyin:'huà',en:'painting; to draw',sentence:'画画。',sentenceEn:'Draw a picture.'},
         {word:'打',pinyin:'dǎ',en:'hit; play',sentence:'打球。',sentenceEn:'Play ball.'}
       ],
+      footnotes: [
+        {term:"\u753b", termEn:"painting; to draw", definition:"(hu\u00e0) painting; to draw", definitionEn:"painting; to draw"},
+        {term:"\u6253", termEn:"hit; play", definition:"(d\u01ce) hit; play", definitionEn:"hit; play"}
+      ],
       exercises:[
         {type:"read",cn:"区分g k h的送气与不送气",en:"Distinguish aspirated and unaspirated sounds"},
         {type:"spell",cn:"三拼音节练习：guā（瓜）、kuā（夸）、huā（花）",en:"Three-component syllable practice: guā, kuā, huā"}
@@ -380,6 +443,10 @@ units: [
       vocabWords: [
         {word:'鸡',pinyin:'jī',en:'chicken',sentence:'大公鸡。',sentenceEn:'Big rooster.'},
         {word:'棋',pinyin:'qí',en:'chess; board game',sentence:'下棋。',sentenceEn:'Play chess.'}
+      ],
+      footnotes: [
+        {term:"\u9e21", termEn:"chicken", definition:"(j\u012b) chicken", definitionEn:"chicken"},
+        {term:"\u68cb", termEn:"chess; board game", definition:"(q\u00ed) chess; board game", definitionEn:"chess; board game"}
       ],
       exercises:[
         {type:"read",cn:"j q x与ü相拼去两点的规则",en:"Rule: j q x + ü removes the two dots"},
@@ -404,6 +471,11 @@ units: [
         {word:'词',pinyin:'cí',en:'word; phrase',sentence:'词语。',sentenceEn:'Words and phrases.'},
         {word:'子',pinyin:'zǐ',en:'child; son',sentence:'孩子。',sentenceEn:'Child.'}
       ],
+      footnotes: [
+        {term:"\u5b57", termEn:"character; word", definition:"(z\u00ec) character; word", definitionEn:"character; word"},
+        {term:"\u8bcd", termEn:"word; phrase", definition:"(c\u00ed) word; phrase", definitionEn:"word; phrase"},
+        {term:"\u5b50", termEn:"child; son", definition:"(z\u01d0) child; son", definitionEn:"child; son"}
+      ],
       exercises:[
         {type:"read",cn:"区分z c s的平舌发音",en:"Distinguish flat tongue sounds z c s"},
         {type:"spell",cn:"认识整体认读音节zi ci si",en:"Learn whole-syllable recognition: zi ci si"}
@@ -425,6 +497,10 @@ units: [
       vocabWords: [
         {word:'桌',pinyin:'zhuō',en:'table; desk',sentence:'桌子。',sentenceEn:'Table.'},
         {word:'纸',pinyin:'zhǐ',en:'paper',sentence:'一张纸。',sentenceEn:'A piece of paper.'}
+      ],
+      footnotes: [
+        {term:"\u684c", termEn:"table; desk", definition:"(zhu\u014d) table; desk", definitionEn:"table; desk"},
+        {term:"\u7eb8", termEn:"paper", definition:"(zh\u01d0) paper", definitionEn:"paper"}
       ],
       exercises:[
         {type:"read",cn:"区分zh ch sh r的翘舌发音",en:"Distinguish curled tongue sounds zh ch sh r"},
@@ -475,6 +551,10 @@ units: [
         {word:'白',pinyin:'bái',en:'white',sentence:'白云。',sentenceEn:'White clouds.'},
         {word:'水',pinyin:'shuǐ',en:'water',sentence:'喝水。',sentenceEn:'Drink water.'}
       ],
+      footnotes: [
+        {term:"\u767d", termEn:"white", definition:"(b\u00e1i) white", definitionEn:"white"},
+        {term:"\u6c34", termEn:"water", definition:"(shu\u01d0) water", definitionEn:"water"}
+      ],
       exercises:[
         {type:"read",cn:"正确拼读ai ei ui与声母的组合",en:"Correctly spell ai ei ui with initials"},
         {type:"tone",cn:"注意声调标在哪个韵母上",en:"Notice which vowel gets the tone mark"}
@@ -498,6 +578,11 @@ units: [
         {word:'狗',pinyin:'gǒu',en:'dog',sentence:'小狗。',sentenceEn:'Little dog.'},
         {word:'牛',pinyin:'niú',en:'cow; ox',sentence:'大牛。',sentenceEn:'Big cow.'}
       ],
+      footnotes: [
+        {term:"\u732b", termEn:"cat", definition:"(m\u0101o) cat", definitionEn:"cat"},
+        {term:"\u72d7", termEn:"dog", definition:"(g\u01d2u) dog", definitionEn:"dog"},
+        {term:"\u725b", termEn:"cow; ox", definition:"(ni\u00fa) cow; ox", definitionEn:"cow; ox"}
+      ],
       exercises:[
         {type:"read",cn:"正确拼读ao ou iu",en:"Correctly spell ao ou iu"},
         {type:"spell",cn:"练习：māo（猫）、gǒu（狗）、niú（牛）",en:"Practice: māo (cat), gǒu (dog), niú (cow)"}
@@ -518,6 +603,10 @@ units: [
       vocabWords: [
         {word:'叶',pinyin:'yè',en:'leaf',sentence:'树叶。',sentenceEn:'Tree leaf.'},
         {word:'二',pinyin:'èr',en:'two',sentence:'一二三。',sentenceEn:'One, two, three.'}
+      ],
+      footnotes: [
+        {term:"\u53f6", termEn:"leaf", definition:"(y\u00e8) leaf", definitionEn:"leaf"},
+        {term:"\u4e8c", termEn:"two", definition:"(\u00e8r) two", definitionEn:"two"}
       ],
       exercises:[
         {type:"read",cn:"正确拼读ie üe er",en:"Correctly spell ie üe er"},
@@ -540,6 +629,10 @@ units: [
         {word:'山',pinyin:'shān',en:'mountain',sentence:'大山。',sentenceEn:'Big mountain.'},
         {word:'人',pinyin:'rén',en:'person',sentence:'好人。',sentenceEn:'Good person.'}
       ],
+      footnotes: [
+        {term:"\u5c71", termEn:"mountain", definition:"(sh\u0101n) mountain", definitionEn:"mountain"},
+        {term:"\u4eba", termEn:"person", definition:"(r\u00e9n) person", definitionEn:"person"}
+      ],
       exercises:[
         {type:"read",cn:"正确发出前鼻音-n的音",en:"Correctly produce the front nasal -n sound"},
         {type:"spell",cn:"练习：shān（山）、rén（人）",en:"Practice: shān (mountain), rén (person)"}
@@ -561,6 +654,10 @@ units: [
       vocabWords: [
         {word:'羊',pinyin:'yáng',en:'sheep',sentence:'小羊。',sentenceEn:'Little sheep.'},
         {word:'星',pinyin:'xīng',en:'star',sentence:'星星。',sentenceEn:'Stars.'}
+      ],
+      footnotes: [
+        {term:"\u7f8a", termEn:"sheep", definition:"(y\u00e1ng) sheep", definitionEn:"sheep"},
+        {term:"\u661f", termEn:"star", definition:"(x\u012bng) star", definitionEn:"star"}
       ],
       exercises:[
         {type:"read",cn:"正确发出后鼻音-ng的音",en:"Correctly produce the back nasal -ng sound"},
@@ -625,6 +722,14 @@ units: [
         {word:'大雁',pinyin:'dà yàn',en:'wild goose',sentence:'一群大雁往南飞。',sentenceEn:'A flock of geese fly south.'},
         {word:'一会儿',pinyin:'yī huìr',en:'a moment',sentence:'一会儿排成"人"字。',sentenceEn:'Now forming a "人" shape.'}
       ],
+      footnotes: [
+        {term:"\u79cb\u5929", termEn:"autumn", definition:"(qi\u016b ti\u0101n) autumn", definitionEn:"autumn"},
+        {term:"\u6811\u53f6", termEn:"leaf", definition:"(sh\u00f9 y\u00e8) leaf", definitionEn:"leaf"},
+        {term:"\u5929\u6c14", termEn:"weather", definition:"(ti\u0101n q\u00ec) weather", definitionEn:"weather"},
+        {term:"\u4e00\u7247\u7247", termEn:"piece by piece", definition:"(y\u012b pi\u00e0n pi\u00e0n) piece by piece", definitionEn:"piece by piece"},
+        {term:"\u5927\u96c1", termEn:"wild goose", definition:"(d\u00e0 y\u00e0n) wild goose", definitionEn:"wild goose"},
+        {term:"\u4e00\u4f1a\u513f", termEn:"a moment", definition:"(y\u012b hu\u00ecr) a moment", definitionEn:"a moment"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"read",cn:"注意“一”的不同读音",en:"Notice the different tones of 一"},
@@ -656,6 +761,13 @@ units: [
         {word:'蓝蓝',pinyin:'lán lán',en:'very blue',sentence:'蓝蓝的天。',sentenceEn:'The blue, blue sky.'},
         {word:'闪闪',pinyin:'shǎn shǎn',en:'twinkling',sentence:'闪闪的星星。',sentenceEn:'Twinkling stars.'}
       ],
+      footnotes: [
+        {term:"\u5f2f\u5f2f", termEn:"curved", definition:"(w\u0101n w\u0101n) curved", definitionEn:"curved"},
+        {term:"\u6708\u513f", termEn:"moon (affectionate)", definition:"(yu\u00e8r) moon (affectionate)", definitionEn:"moon (affectionate)"},
+        {term:"\u661f\u661f", termEn:"star", definition:"(x\u012bng xing) star", definitionEn:"star"},
+        {term:"\u84dd\u84dd", termEn:"very blue", definition:"(l\u00e1n l\u00e1n) very blue", definitionEn:"very blue"},
+        {term:"\u95ea\u95ea", termEn:"twinkling", definition:"(sh\u01cen sh\u01cen) twinkling", definitionEn:"twinkling"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"extend",cn:"读一读照样子说一说：弯弯的月儿→弯弯的小河",en:"Read and extend: curved moon → curved river, twinkling stars → twinkling..."}
@@ -683,6 +795,12 @@ units: [
         {word:'莲叶',pinyin:'lián yè',en:'lotus leaf',sentence:'莲叶何田田。',sentenceEn:'How lush the lotus leaves are.'},
         {word:'鱼',pinyin:'yú',en:'fish',sentence:'鱼戏莲叶间。',sentenceEn:'Fish play among the lotus.'},
         {word:'东西南北',pinyin:'dōng xī nán běi',en:'east west south north',sentence:'鱼戏莲叶东，鱼戏莲叶西。',sentenceEn:'Fish play east, fish play west.'}
+      ],
+      footnotes: [
+        {term:"\u6c5f\u5357", termEn:"south of Yangtze", definition:"(ji\u0101ng n\u00e1n) south of Yangtze", definitionEn:"south of Yangtze"},
+        {term:"\u83b2\u53f6", termEn:"lotus leaf", definition:"(li\u00e1n y\u00e8) lotus leaf", definitionEn:"lotus leaf"},
+        {term:"\u9c7c", termEn:"fish", definition:"(y\u00fa) fish", definitionEn:"fish"},
+        {term:"\u4e1c\u897f\u5357\u5317", termEn:"east west south north", definition:"(d\u014dng x\u012b n\u00e1n b\u011bi) east west south north", definitionEn:"east west south north"}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
@@ -713,6 +831,16 @@ units: [
         {word:'荷叶',pinyin:'hé yè',en:'lotus leaf',sentence:'荷叶圆圆。',sentenceEn:'Round lotus leaves.'},
         {word:'谷穗',pinyin:'gǔ suì',en:'grain ear',sentence:'谷穗弯弯。',sentenceEn:'Bending grain ears.'},
         {word:'雪人',pinyin:'xuě rén',en:'snowman',sentence:'雪人大肚子一挺。',sentenceEn:'The snowman pushes out his belly.'}
+      ],
+      footnotes: [
+        {term:"\u6625\u5929", termEn:"spring", definition:"(ch\u016bn ti\u0101n) spring", definitionEn:"spring"},
+        {term:"\u590f\u5929", termEn:"summer", definition:"(xi\u00e0 ti\u0101n) summer", definitionEn:"summer"},
+        {term:"\u79cb\u5929", termEn:"autumn", definition:"(qi\u016b ti\u0101n) autumn", definitionEn:"autumn"},
+        {term:"\u51ac\u5929", termEn:"winter", definition:"(d\u014dng ti\u0101n) winter", definitionEn:"winter"},
+        {term:"\u8349\u82bd", termEn:"grass sprout", definition:"(c\u01ceo y\u00e1) grass sprout", definitionEn:"grass sprout"},
+        {term:"\u8377\u53f6", termEn:"lotus leaf", definition:"(h\u00e9 y\u00e8) lotus leaf", definitionEn:"lotus leaf"},
+        {term:"\u8c37\u7a57", termEn:"grain ear", definition:"(g\u01d4 su\u00ec) grain ear", definitionEn:"grain ear"},
+        {term:"\u96ea\u4eba", termEn:"snowman", definition:"(xu\u011b r\u00e9n) snowman", definitionEn:"snowman"}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
@@ -786,6 +914,14 @@ units: [
         {word:'来',pinyin:'lái',en:'come',sentence:'人来鸟不惊。',sentenceEn:'People come but birds are not startled.'},
         {word:'去',pinyin:'qù',en:'go',sentence:'春去花还在。',sentenceEn:'Spring goes but flowers remain.'}
       ],
+      footnotes: [
+        {term:"\u8fdc", termEn:"far", definition:"(yu\u01cen) far", definitionEn:"far"},
+        {term:"\u8fd1", termEn:"near", definition:"(j\u00ecn) near", definitionEn:"near"},
+        {term:"\u6709", termEn:"have", definition:"(y\u01d2u) have", definitionEn:"have"},
+        {term:"\u65e0", termEn:"without", definition:"(w\u00fa) without", definitionEn:"without"},
+        {term:"\u6765", termEn:"come", definition:"(l\u00e1i) come", definitionEn:"come"},
+        {term:"\u53bb", termEn:"go", definition:"(q\u00f9) go", definitionEn:"go"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"discuss",cn:"为什么水无声、鸟不惊？（因为是一幅画）",en:"Why is the water silent and the birds unfrightened? (Because it's a painting)"}
@@ -814,6 +950,14 @@ units: [
         {word:'黄牛',pinyin:'huáng niú',en:'ox',sentence:'一头黄牛一只猫。',sentenceEn:'One ox, one cat.'},
         {word:'苹果',pinyin:'píng guǒ',en:'apple',sentence:'一个苹果一颗枣。',sentenceEn:'One apple, one date.'}
       ],
+      footnotes: [
+        {term:"\u5927", termEn:"big", definition:"(d\u00e0) big", definitionEn:"big"},
+        {term:"\u5c0f", termEn:"small", definition:"(xi\u01ceo) small", definitionEn:"small"},
+        {term:"\u591a", termEn:"many", definition:"(du\u014d) many", definitionEn:"many"},
+        {term:"\u5c11", termEn:"few", definition:"(sh\u01ceo) few", definitionEn:"few"},
+        {term:"\u9ec4\u725b", termEn:"ox", definition:"(hu\u00e1ng ni\u00fa) ox", definitionEn:"ox"},
+        {term:"\u82f9\u679c", termEn:"apple", definition:"(p\u00edng gu\u01d2) apple", definitionEn:"apple"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"学习量词：头、只、群、个、颗、堆",en:"Learn measure words: tóu, zhī, qún, gè, kē, duī"}
@@ -840,6 +984,13 @@ units: [
         {word:'铅笔',pinyin:'qiān bǐ',en:'pencil',sentence:'铅笔是好朋友。',sentenceEn:'The pencil is a friend.'},
         {word:'尺子',pinyin:'chǐ zi',en:'ruler',sentence:'尺子画直线。',sentenceEn:'Ruler draws straight lines.'},
         {word:'橡皮',pinyin:'xiàng pí',en:'eraser',sentence:'橡皮擦错字。',sentenceEn:'Eraser removes mistakes.'}
+      ],
+      footnotes: [
+        {term:"\u4e66\u5305", termEn:"school bag", definition:"(sh\u016b b\u0101o) school bag", definitionEn:"school bag"},
+        {term:"\u8bfe\u672c", termEn:"textbook", definition:"(k\u00e8 b\u011bn) textbook", definitionEn:"textbook"},
+        {term:"\u94c5\u7b14", termEn:"pencil", definition:"(qi\u0101n b\u01d0) pencil", definitionEn:"pencil"},
+        {term:"\u5c3a\u5b50", termEn:"ruler", definition:"(ch\u01d0 zi) ruler", definitionEn:"ruler"},
+        {term:"\u6a61\u76ae", termEn:"eraser", definition:"(xi\u00e0ng p\u00ed) eraser", definitionEn:"eraser"}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，说说你的书包里有哪些文具",en:"Read aloud; describe what's in your schoolbag"},
@@ -869,6 +1020,14 @@ units: [
         {word:'众',pinyin:'zhòng',en:'crowd (人×3)',sentence:'三人众。',sentenceEn:'Three people=crowd.'},
         {word:'力',pinyin:'lì',en:'strength',sentence:'众人一条心，黄土变成金。',sentenceEn:'United hearts turn soil to gold.'}
       ],
+      footnotes: [
+        {term:"\u660e", termEn:"bright (\u65e5+\u6708)", definition:"(m\u00edng) bright (\u65e5+\u6708)", definitionEn:"bright (\u65e5+\u6708)"},
+        {term:"\u5c16", termEn:"sharp (\u5c0f+\u5927)", definition:"(ji\u0101n) sharp (\u5c0f+\u5927)", definitionEn:"sharp (\u5c0f+\u5927)"},
+        {term:"\u5c18", termEn:"dust (\u5c0f+\u571f)", definition:"(ch\u00e9n) dust (\u5c0f+\u571f)", definitionEn:"dust (\u5c0f+\u571f)"},
+        {term:"\u4ece", termEn:"follow (\u4eba+\u4eba)", definition:"(c\u00f3ng) follow (\u4eba+\u4eba)", definitionEn:"follow (\u4eba+\u4eba)"},
+        {term:"\u4f17", termEn:"crowd (\u4eba\u00d73)", definition:"(zh\u00f2ng) crowd (\u4eba\u00d73)", definitionEn:"crowd (\u4eba\u00d73)"},
+        {term:"\u529b", termEn:"strength", definition:"(l\u00ec) strength", definitionEn:"strength"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"guess",cn:"猜猜这些字的意思：鲜 歪 休 泪",en:"Guess the meanings: 鲜(fish+sheep=fresh) 歪(not+straight=crooked) 休(person+tree=rest) 泪(water+eye=tears)"}
@@ -895,6 +1054,13 @@ units: [
         {word:'中国',pinyin:'zhōng guó',en:'China',sentence:'我是中国人。',sentenceEn:'I am Chinese.'},
         {word:'立正',pinyin:'lì zhèng',en:'stand at attention',sentence:'我们立正。',sentenceEn:'We stand at attention.'},
         {word:'敬礼',pinyin:'jìng lǐ',en:'salute',sentence:'向国旗敬礼。',sentenceEn:'Salute the flag.'}
+      ],
+      footnotes: [
+        {term:"\u56fd\u65d7", termEn:"national flag", definition:"(gu\u00f3 q\u00ed) national flag", definitionEn:"national flag"},
+        {term:"\u5347\u65d7", termEn:"raise the flag", definition:"(sh\u0113ng q\u00ed) raise the flag", definitionEn:"raise the flag"},
+        {term:"\u4e2d\u56fd", termEn:"China", definition:"(zh\u014dng gu\u00f3) China", definitionEn:"China"},
+        {term:"\u7acb\u6b63", termEn:"stand at attention", definition:"(l\u00ec zh\u00e8ng) stand at attention", definitionEn:"stand at attention"},
+        {term:"\u656c\u793c", termEn:"salute", definition:"(j\u00ecng l\u01d0) salute", definitionEn:"salute"}
       ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -961,6 +1127,14 @@ units: [
         {word:'右',pinyin:'yòu',en:'right',sentence:'影子在右。',sentenceEn:'Shadow on right.'},
         {word:'好朋友',pinyin:'hǎo péng you',en:'good friend',sentence:'影子是我的好朋友。',sentenceEn:'Shadow is my good friend.'}
       ],
+      footnotes: [
+        {term:"\u5f71\u5b50", termEn:"shadow", definition:"(y\u01d0ng zi) shadow", definitionEn:"shadow"},
+        {term:"\u524d", termEn:"front", definition:"(qi\u00e1n) front", definitionEn:"front"},
+        {term:"\u540e", termEn:"behind", definition:"(h\u00f2u) behind", definitionEn:"behind"},
+        {term:"\u5de6", termEn:"left", definition:"(zu\u01d2) left", definitionEn:"left"},
+        {term:"\u53f3", termEn:"right", definition:"(y\u00f2u) right", definitionEn:"right"},
+        {term:"\u597d\u670b\u53cb", termEn:"good friend", definition:"(h\u01ceo p\u00e9ng you) good friend", definitionEn:"good friend"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"do",cn:"到操场上找找你的影子",en:"Go to the playground and find your shadow"}
@@ -990,6 +1164,15 @@ units: [
         {word:'松鼠',pinyin:'sōng shǔ',en:'squirrel',sentence:'松鼠的尾巴好像一把伞。',sentenceEn:'The squirrel has a tail like an umbrella.'},
         {word:'孔雀',pinyin:'kǒng què',en:'peacock',sentence:'孔雀的尾巴最好看。',sentenceEn:'The peacock has the prettiest tail.'}
       ],
+      footnotes: [
+        {term:"\u5c3e\u5df4", termEn:"tail", definition:"(w\u011bi ba) tail", definitionEn:"tail"},
+        {term:"\u957f", termEn:"long", definition:"(ch\u00e1ng) long", definitionEn:"long"},
+        {term:"\u77ed", termEn:"short", definition:"(du\u01cen) short", definitionEn:"short"},
+        {term:"\u7334\u5b50", termEn:"monkey", definition:"(h\u00f3u zi) monkey", definitionEn:"monkey"},
+        {term:"\u5154\u5b50", termEn:"rabbit", definition:"(t\u00f9 zi) rabbit", definitionEn:"rabbit"},
+        {term:"\u677e\u9f20", termEn:"squirrel", definition:"(s\u014dng sh\u01d4) squirrel", definitionEn:"squirrel"},
+        {term:"\u5b54\u96c0", termEn:"peacock", definition:"(k\u01d2ng qu\u00e8) peacock", definitionEn:"peacock"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"extend",cn:"你还知道哪些动物的尾巴有什么特点？",en:"What other animals' tails do you know about?"}
@@ -1016,6 +1199,13 @@ units: [
         {word:'蝌蚪',pinyin:'kē dǒu',en:'tadpole',sentence:'小蝌蚪当逗号。',sentenceEn:'Tadpoles become commas.'},
         {word:'逗号',pinyin:'dòu hào',en:'comma',sentence:'小蝌蚪说："我来当逗号。"',sentenceEn:'The tadpole says: "I will be a comma."'},
         {word:'句号',pinyin:'jù hào',en:'period',sentence:'水泡泡说："我来当句号。"',sentenceEn:'Bubbles say: "I will be a period."'}
+      ],
+      footnotes: [
+        {term:"\u9752\u86d9", termEn:"frog", definition:"(q\u012bng w\u0101) frog", definitionEn:"frog"},
+        {term:"\u5199\u8bd7", termEn:"write poetry", definition:"(xi\u011b sh\u012b) write poetry", definitionEn:"write poetry"},
+        {term:"\u874c\u86aa", termEn:"tadpole", definition:"(k\u0113 d\u01d2u) tadpole", definitionEn:"tadpole"},
+        {term:"\u9017\u53f7", termEn:"comma", definition:"(d\u00f2u h\u00e0o) comma", definitionEn:"comma"},
+        {term:"\u53e5\u53f7", termEn:"period", definition:"(j\u00f9 h\u00e0o) period", definitionEn:"period"}
       ],
       exercises:[
         {type:"read",cn:"分角色朗读课文",en:"Role-play reading"},
@@ -1044,6 +1234,12 @@ units: [
         {word:'数不清',pinyin:'shǔ bu qīng',en:'countless',sentence:'数不清的雨点儿从云彩里飘落下来。',sentenceEn:'Countless raindrops fall from clouds.'},
         {word:'云彩',pinyin:'yún cai',en:'cloud',sentence:'从云彩里飘落下来。',sentenceEn:'Drifting down from the clouds.'},
         {word:'飘落',pinyin:'piāo luò',en:'drift down',sentence:'雨点儿飘落下来。',sentenceEn:'Raindrops drift down.'}
+      ],
+      footnotes: [
+        {term:"\u96e8\u70b9\u513f", termEn:"raindrop", definition:"(y\u01d4 di\u01cenr) raindrop", definitionEn:"raindrop"},
+        {term:"\u6570\u4e0d\u6e05", termEn:"countless", definition:"(sh\u01d4 bu q\u012bng) countless", definitionEn:"countless"},
+        {term:"\u4e91\u5f69", termEn:"cloud", definition:"(y\u00fan cai) cloud", definitionEn:"cloud"},
+        {term:"\u98d8\u843d", termEn:"drift down", definition:"(pi\u0101o lu\u00f2) drift down", definitionEn:"drift down"}
       ],
       exercises:[
         {type:"read",cn:"分角色朗读课文",en:"Role-play reading"},
@@ -1120,6 +1316,13 @@ units: [
         {word:'大海',pinyin:'dà hǎi',en:'ocean',sentence:'那地方的海真的很蓝吗？',sentenceEn:'Is the sea there really blue?'},
         {word:'老师',pinyin:'lǎo shī',en:'teacher',sentence:'老师说海是蓝色的。',sentenceEn:'Teacher says the sea is blue.'}
       ],
+      footnotes: [
+        {term:"\u8fdc\u8db3", termEn:"field trip", definition:"(yu\u01cen z\u00fa) field trip", definitionEn:"field trip"},
+        {term:"\u660e\u5929", termEn:"tomorrow", definition:"(m\u00edng ti\u0101n) tomorrow", definitionEn:"tomorrow"},
+        {term:"\u7761\u4e0d\u7740", termEn:"cannot sleep", definition:"(shu\u00ec bu zh\u00e1o) cannot sleep", definitionEn:"cannot sleep"},
+        {term:"\u5927\u6d77", termEn:"ocean", definition:"(d\u00e0 h\u01cei) ocean", definitionEn:"ocean"},
+        {term:"\u8001\u5e08", termEn:"teacher", definition:"(l\u01ceo sh\u012b) teacher", definitionEn:"teacher"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"你有过这样的心情吗？和同学说一说",en:"Have you ever felt this way? Tell your classmates"}
@@ -1148,6 +1351,12 @@ units: [
         {word:'穿衣服',pinyin:'chuān yī fu',en:'get dressed',sentence:'自己穿衣服的时候。',sentenceEn:'When I dress myself.'},
         {word:'快点儿',pinyin:'kuài diǎnr',en:'hurry up',sentence:'我盼着快点儿长大。',sentenceEn:'I wish I could grow up fast.'}
       ],
+      footnotes: [
+        {term:"\u89c9\u5f97", termEn:"feel; think", definition:"(ju\u00e9 de) feel; think", definitionEn:"feel; think"},
+        {term:"\u6709\u65f6\u5019", termEn:"sometimes", definition:"(y\u01d2u sh\u00ed hou) sometimes", definitionEn:"sometimes"},
+        {term:"\u7a7f\u8863\u670d", termEn:"get dressed", definition:"(chu\u0101n y\u012b fu) get dressed", definitionEn:"get dressed"},
+        {term:"\u5feb\u70b9\u513f", termEn:"hurry up", definition:"(ku\u00e0i di\u01cenr) hurry up", definitionEn:"hurry up"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"你什么时候觉得自己大？什么时候觉得自己小？",en:"When do you feel big? When do you feel small?"}
@@ -1174,6 +1383,13 @@ units: [
         {word:'浪花',pinyin:'làng huā',en:'wave',sentence:'浪花哗哗地笑着。',sentenceEn:'Waves laugh with a splash.'},
         {word:'贝壳',pinyin:'bèi ké',en:'seashell',sentence:'小娃娃捡贝壳。',sentenceEn:'The child picks up seashells.'},
         {word:'脚印',pinyin:'jiǎo yìn',en:'footprint',sentence:'沙滩上的小小的脚印。',sentenceEn:'Little footprints on the beach.'}
+      ],
+      footnotes: [
+        {term:"\u9879\u94fe", termEn:"necklace", definition:"(xi\u00e0ng li\u00e0n) necklace", definitionEn:"necklace"},
+        {term:"\u6c99\u6ee9", termEn:"beach", definition:"(sh\u0101 t\u0101n) beach", definitionEn:"beach"},
+        {term:"\u6d6a\u82b1", termEn:"wave", definition:"(l\u00e0ng hu\u0101) wave", definitionEn:"wave"},
+        {term:"\u8d1d\u58f3", termEn:"seashell", definition:"(b\u00e8i k\u00e9) seashell", definitionEn:"seashell"},
+        {term:"\u811a\u5370", termEn:"footprint", definition:"(ji\u01ceo y\u00ecn) footprint", definitionEn:"footprint"}
       ],
       exercises:[
         {type:"read",cn:"朗读课文，说说：大海的项链是什么？",en:"Read aloud; what is the sea's necklace?"},
@@ -1251,6 +1467,14 @@ units: [
         {word:'枫叶',pinyin:'fēng yè',en:'maple leaf',sentence:'小鸭画枫叶。',sentenceEn:'Duckling draws maple leaves.'},
         {word:'月牙',pinyin:'yuè yá',en:'crescent',sentence:'小马画月牙。',sentenceEn:'Pony draws crescents.'}
       ],
+      footnotes: [
+        {term:"\u4e0b\u96ea", termEn:"to snow", definition:"(xi\u00e0 xu\u011b) to snow", definitionEn:"to snow"},
+        {term:"\u753b\u5bb6", termEn:"artist", definition:"(hu\u00e0 ji\u0101) artist", definitionEn:"artist"},
+        {term:"\u7af9\u53f6", termEn:"bamboo leaf", definition:"(zh\u00fa y\u00e8) bamboo leaf", definitionEn:"bamboo leaf"},
+        {term:"\u6885\u82b1", termEn:"plum blossom", definition:"(m\u00e9i hu\u0101) plum blossom", definitionEn:"plum blossom"},
+        {term:"\u67ab\u53f6", termEn:"maple leaf", definition:"(f\u0113ng y\u00e8) maple leaf", definitionEn:"maple leaf"},
+        {term:"\u6708\u7259", termEn:"crescent", definition:"(yu\u00e8 y\u00e1) crescent", definitionEn:"crescent"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"为什么小动物的脚印像这些图案？",en:"Why do the animals' footprints look like these patterns?"},
@@ -1281,6 +1505,14 @@ units: [
         {word:'石子',pinyin:'shí zi',en:'pebble',sentence:'把小石子放进瓶子里。',sentenceEn:'Put pebbles into the bottle.'},
         {word:'渐渐',pinyin:'jiàn jiàn',en:'gradually',sentence:'水渐渐升高了。',sentenceEn:'Water gradually rose.'}
       ],
+      footnotes: [
+        {term:"\u4e4c\u9e26", termEn:"crow", definition:"(w\u016b y\u0101) crow", definitionEn:"crow"},
+        {term:"\u53e3\u6e34", termEn:"thirsty", definition:"(k\u01d2u k\u011b) thirsty", definitionEn:"thirsty"},
+        {term:"\u74f6\u5b50", termEn:"bottle", definition:"(p\u00edng zi) bottle", definitionEn:"bottle"},
+        {term:"\u529e\u6cd5", termEn:"method", definition:"(b\u00e0n f\u01ce) method", definitionEn:"method"},
+        {term:"\u77f3\u5b50", termEn:"pebble", definition:"(sh\u00ed zi) pebble", definitionEn:"pebble"},
+        {term:"\u6e10\u6e10", termEn:"gradually", definition:"(ji\u00e0n ji\u00e0n) gradually", definitionEn:"gradually"}
+      ],
       exercises:[
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"乌鸦是怎么喝到水的？",en:"How did the crow manage to drink the water?"},
@@ -1307,6 +1539,12 @@ units: [
         {word:'妈妈',pinyin:'mā ma',en:'mom',sentence:'蜗牛妈妈说。',sentenceEn:'Mother snail said.'},
         {word:'草莓',pinyin:'cǎo méi',en:'strawberry',sentence:'去摘草莓。',sentenceEn:'Go pick strawberries.'},
         {word:'已经',pinyin:'yǐ jīng',en:'already',sentence:'已经是秋天了。',sentenceEn:'It is already autumn.'}
+      ],
+      footnotes: [
+        {term:"\u8717\u725b", termEn:"snail", definition:"(w\u014d ni\u00fa) snail", definitionEn:"snail"},
+        {term:"\u5988\u5988", termEn:"mom", definition:"(m\u0101 ma) mom", definitionEn:"mom"},
+        {term:"\u8349\u8393", termEn:"strawberry", definition:"(c\u01ceo m\u00e9i) strawberry", definitionEn:"strawberry"},
+        {term:"\u5df2\u7ecf", termEn:"already", definition:"(y\u01d0 j\u012bng) already", definitionEn:"already"}
       ],
       exercises:[
         {type:"read",cn:"对照图画，读一读课文",en:"Read the text while looking at the pictures"},

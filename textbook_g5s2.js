@@ -42,6 +42,13 @@ units: [
         {word:'银钲',pinyin:'yín zhēng',en:'silver gong',sentence:'彩丝穿取当银钲。',sentenceEn:'Threading it with colored string as a silver gong.'},
         {word:'信口',pinyin:'xìn kǒu',en:'casually',sentence:'短笛无腔信口吹。',sentenceEn:'Playing the short flute casually without a tune.'}
       ],
+      footnotes: [
+        {term:"\u8018\u7530", termEn:"weed the fields", definition:"(y\u00fan ti\u00e1n) weed the fields", definitionEn:"weed the fields"},
+        {term:"\u7a1a\u5b50", termEn:"young child", definition:"(zh\u00ec z\u01d0) young child", definitionEn:"young child"},
+        {term:"\u7267\u7ae5", termEn:"shepherd boy", definition:"(m\u00f9 t\u00f3ng) shepherd boy", definitionEn:"shepherd boy"},
+        {term:"\u94f6\u94b2", termEn:"silver gong", definition:"(y\u00edn zh\u0113ng) silver gong", definitionEn:"silver gong"},
+        {term:"\u4fe1\u53e3", termEn:"casually", definition:"(x\u00ecn k\u01d2u) casually", definitionEn:"casually"}
+      ],
       grammarPoints: [
         {point:'田园诗',pointEn:'tián yuán shī',example:'pastoral poetry',exampleEn:'昼出耘田夜绩麻，村庄儿女各当家。',explanation:'They weed by day and spin at night; village children each do their part.',explanationEn:'描写农村生活和自然风光的诗歌体裁'}
       ],
@@ -109,6 +116,13 @@ units: [
         {word:'闪烁',pinyin:'shǎn shuò',en:'shimmer',sentence:'榆树的叶子闪烁得和蚌壳一样。',sentenceEn:'The elm leaves shimmered like clam shells.'},
         {word:'自由',pinyin:'zì yóu',en:'free',sentence:'花园里一切都是自由的。',sentenceEn:'Everything in the garden was free.'}
       ],
+      footnotes: [
+        {term:"\u8774\u8776", termEn:"butterfly", definition:"(h\u00fa di\u00e9) butterfly", definitionEn:"butterfly"},
+        {term:"\u873b\u8713", termEn:"dragonfly", definition:"(q\u012bng t\u00edng) dragonfly", definitionEn:"dragonfly"},
+        {term:"\u6986\u6811", termEn:"elm tree", definition:"(y\u00fa sh\u00f9) elm tree", definitionEn:"elm tree"},
+        {term:"\u95ea\u70c1", termEn:"shimmer", definition:"(sh\u01cen shu\u00f2) shimmer", definitionEn:"shimmer"},
+        {term:"\u81ea\u7531", termEn:"free", definition:"(z\u00ec y\u00f3u) free", definitionEn:"free"}
+      ],
       grammarPoints: [
         {point:'借景抒情',pointEn:'jiè jǐng shū qíng',example:'express feelings through scenery',exampleEn:'花开了，就像睡醒了似的。鸟飞了，就像在天上逛似的。',explanation:'Flowers bloomed as if waking up. Birds flew as if strolling in the sky.',explanationEn:'通过描写祖父的园子表达童年自由快乐'}
       ],
@@ -162,6 +176,13 @@ units: [
         {word:'澄澈',pinyin:'chéng chè',en:'clear',sentence:'大石头旁边的水面清澈澄澈。',sentenceEn:'The water near the big rocks was clear and limpid.'},
         {word:'思念',pinyin:'sī niàn',en:'miss',sentence:'思念故乡的月亮。',sentenceEn:'Missing the moon of the hometown.'},
         {word:'离乡',pinyin:'lí xiāng',en:'leave hometown',sentence:'离开故乡已经很多年了。',sentenceEn:'It has been many years since leaving the hometown.'}
+      ],
+      footnotes: [
+        {term:"\u6545\u4e61", termEn:"hometown", definition:"(g\u00f9 xi\u0101ng) hometown", definitionEn:"hometown"},
+        {term:"\u7bdd\u706b", termEn:"bonfire", definition:"(g\u014du hu\u01d2) bonfire", definitionEn:"bonfire"},
+        {term:"\u6f84\u6f88", termEn:"clear", definition:"(ch\u00e9ng ch\u00e8) clear", definitionEn:"clear"},
+        {term:"\u601d\u5ff5", termEn:"miss", definition:"(s\u012b ni\u00e0n) miss", definitionEn:"miss"},
+        {term:"\u79bb\u4e61", termEn:"leave hometown", definition:"(l\u00ed xi\u0101ng) leave hometown", definitionEn:"leave hometown"}
       ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u4f5c\u8005\u7531\u6708\u4eae\u60f3\u5230\u4e86\u54ea\u4e9b\u5f80\u4e8b\uff0c\u62b1\u53d1\u4e86\u54ea\u4e9b\u611f\u53d7\u3002",en:"Read silently; say what memories the moon evoked and what feelings the author expressed."}
@@ -218,6 +239,13 @@ units: [
         {word:'眷恋',pinyin:'juàn liàn',en:'attachment',sentence:'外祖父眷恋祖国。',sentenceEn:'Grandfather was deeply attached to the motherland.'},
         {word:'凌寒',pinyin:'líng hán',en:'brave the cold',sentence:'梅花不怕凌寒独自开。',sentenceEn:'Plum blossoms bloom alone, braving the cold.'},
         {word:'气节',pinyin:'qì jié',en:'integrity',sentence:'梅花象征中国人的气节。',sentenceEn:'Plum blossoms symbolize the integrity of Chinese people.'}
+      ],
+      footnotes: [
+        {term:"\u6885\u82b1", termEn:"plum blossom", definition:"(m\u00e9i hu\u0101) plum blossom", definitionEn:"plum blossom"},
+        {term:"\u79c9\u6027", termEn:"character; nature", definition:"(b\u01d0ng x\u00ecng) character; nature", definitionEn:"character; nature"},
+        {term:"\u7737\u604b", termEn:"attachment", definition:"(ju\u00e0n li\u00e0n) attachment", definitionEn:"attachment"},
+        {term:"\u51cc\u5bd2", termEn:"brave the cold", definition:"(l\u00edng h\u00e1n) brave the cold", definitionEn:"brave the cold"},
+        {term:"\u6c14\u8282", termEn:"integrity", definition:"(q\u00ec ji\u00e9) integrity", definitionEn:"integrity"}
       ],
       grammarPoints: [
         {point:'借物喻人',pointEn:'jiè wù yù rén',example:'use objects to describe people',exampleEn:'梅花的精神就是中华民族的精神。',explanation:'The spirit of plum blossoms is the spirit of the Chinese nation.',explanationEn:'用梅花的品格比喻中国人的气节'}
@@ -328,6 +356,13 @@ units: [
         {word:'擂鼓',pinyin:'léi gǔ',en:'beat drums',sentence:'船上的军士一边擂鼓一边呐喊。',sentenceEn:'The soldiers on board beat drums and shouted.'},
         {word:'弓弩手',pinyin:'gōng nǔ shǒu',en:'archers',sentence:'曹操调来六千名弓弩手。',sentenceEn:'Cao Cao dispatched six thousand archers.'}
       ],
+      footnotes: [
+        {term:"\u5992\u5fcc", termEn:"jealous", definition:"(d\u00f9 j\u00ec) jealous", definitionEn:"jealous"},
+        {term:"\u519b\u4ee4\u72b6", termEn:"military pledge", definition:"(j\u016bn l\u00ecng zhu\u00e0ng) military pledge", definitionEn:"military pledge"},
+        {term:"\u795e\u673a\u5999\u7b97", termEn:"brilliant strategy", definition:"(sh\u00e9n j\u012b mi\u00e0o su\u00e0n) brilliant strategy", definitionEn:"brilliant strategy"},
+        {term:"\u64c2\u9f13", termEn:"beat drums", definition:"(l\u00e9i g\u01d4) beat drums", definitionEn:"beat drums"},
+        {term:"\u5f13\u5f29\u624b", termEn:"archers", definition:"(g\u014dng n\u01d4 sh\u01d2u) archers", definitionEn:"archers"}
+      ],
       grammarPoints: [
         {point:'人物对比',pointEn:'rén wù duì bǐ',example:'character contrast',exampleEn:'周瑜长叹一声说诸葛亮神机妙算，他真比不上。',explanation:'Zhou Yu sighed and said he was no match for Zhuge Liang.',explanationEn:'通过周瑜与诸葛亮的对比突出人物特点'}
       ],
@@ -382,6 +417,13 @@ units: [
         {word:'景阳冈',pinyin:'jǐng yáng gāng',en:'Jingyang Ridge',sentence:'景阳冈上有大虫。',sentenceEn:'There is a tiger on Jingyang Ridge.'},
         {word:'勇猛',pinyin:'yǒng měng',en:'brave and fierce',sentence:'武松十分勇猛。',sentenceEn:'Wu Song was extremely brave and fierce.'}
       ],
+      footnotes: [
+        {term:"\u6b66\u677e", termEn:"Wu Song", definition:"(w\u01d4 s\u014dng) Wu Song", definitionEn:"Wu Song"},
+        {term:"\u8001\u864e", termEn:"tiger", definition:"(l\u01ceo h\u01d4) tiger", definitionEn:"tiger"},
+        {term:"\u54e8\u68d2", termEn:"staff", definition:"(sh\u00e0o b\u00e0ng) staff", definitionEn:"staff"},
+        {term:"\u666f\u9633\u5188", termEn:"Jingyang Ridge", definition:"(j\u01d0ng y\u00e1ng g\u0101ng) Jingyang Ridge", definitionEn:"Jingyang Ridge"},
+        {term:"\u52c7\u731b", termEn:"brave and fierce", definition:"(y\u01d2ng m\u011bng) brave and fierce", definitionEn:"brave and fierce"}
+      ],
       grammarPoints: [
         {point:'动作描写',pointEn:'dòng zuò miáo xiě',example:'action description',exampleEn:'武松把半截棒丢在一边，两只手就势把大虫揪住。',explanation:'Wu Song tossed aside the broken staff and seized the tiger with both hands.',explanationEn:'通过连续的动作描写表现人物的英勇'}
       ],
@@ -430,6 +472,13 @@ units: [
         {word:'拱伏',pinyin:'gǒng fú',en:'bow down',sentence:'众猴拱伏无违。',sentenceEn:'All the monkeys bowed down in obedience.'},
         {word:'花果山',pinyin:'huā guǒ shān',en:'Mountain of Flowers and Fruit',sentence:'花果山上的石猴成了美猴王。',sentenceEn:'The stone monkey of the Mountain of Flowers and Fruit became the Handsome Monkey King.'}
       ],
+      footnotes: [
+        {term:"\u77f3\u7334", termEn:"stone monkey", definition:"(sh\u00ed h\u00f3u) stone monkey", definitionEn:"stone monkey"},
+        {term:"\u7011\u5e03", termEn:"waterfall", definition:"(p\u00f9 b\u00f9) waterfall", definitionEn:"waterfall"},
+        {term:"\u6c34\u5e18\u6d1e", termEn:"Water Curtain Cave", definition:"(shu\u01d0 li\u00e1n d\u00f2ng) Water Curtain Cave", definitionEn:"Water Curtain Cave"},
+        {term:"\u62f1\u4f0f", termEn:"bow down", definition:"(g\u01d2ng f\u00fa) bow down", definitionEn:"bow down"},
+        {term:"\u82b1\u679c\u5c71", termEn:"Mountain of Flowers and Fruit", definition:"(hu\u0101 gu\u01d2 sh\u0101n) Mountain of Flowers and Fruit", definitionEn:"Mountain of Flowers and Fruit"}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u7528\u81ea\u5df1\u7684\u8bdd\u8bf4\u4e00\u8bf4\u77f3\u7334\u662f\u600e\u4e48\u51fa\u4e16\u7684\uff0c\u53c8\u662f\u600e\u4e48\u6210\u4e3a\u7334\u738b\u7684\u3002",en:"Read silently; use your own words to tell how the stone monkey was born and became the Monkey King."}
       ],
@@ -467,6 +516,13 @@ units: [
         {word:'蝴蝶风筝',pinyin:'hú dié fēng zhēng',en:'butterfly kite',sentence:'那是一个大蝴蝶风筝。',sentenceEn:'That was a large butterfly kite.'},
         {word:'剪断',pinyin:'jiǎn duàn',en:'cut off',sentence:'把线剪断，让风筝飞走。',sentenceEn:'Cut the string and let the kite fly away.'},
         {word:'大观园',pinyin:'dà guān yuán',en:'Grand View Garden',sentence:'大观园里春意盎然。',sentenceEn:'The Grand View Garden was full of spring atmosphere.'}
+      ],
+      footnotes: [
+        {term:"\u98ce\u7b5d", termEn:"kite", definition:"(f\u0113ng zh\u0113ng) kite", definitionEn:"kite"},
+        {term:"\u4e2b\u9b1f", termEn:"maid servant", definition:"(y\u0101 huan) maid servant", definitionEn:"maid servant"},
+        {term:"\u8774\u8776\u98ce\u7b5d", termEn:"butterfly kite", definition:"(h\u00fa di\u00e9 f\u0113ng zh\u0113ng) butterfly kite", definitionEn:"butterfly kite"},
+        {term:"\u526a\u65ad", termEn:"cut off", definition:"(ji\u01cen du\u00e0n) cut off", definitionEn:"cut off"},
+        {term:"\u5927\u89c2\u56ed", termEn:"Grand View Garden", definition:"(d\u00e0 gu\u0101n yu\u00e1n) Grand View Garden", definitionEn:"Grand View Garden"}
       ],
       exercises: [
         {type:"read",cn:"\u8bfb\u8bfe\u6587\uff0c\u80fd\u5927\u81f4\u8bfb\u61c2\u5c31\u53ef\u4ee5\u3002\u8bf4\u8bf4\u5b9d\u7389\u7ed9\u4f60\u7559\u4e0b\u4e86\u4ec0\u4e48\u6837\u7684\u5370\u8c61\u3002",en:"Read the text\u2014getting the general idea is fine. What impression does Baoyu leave on you?"}
@@ -566,6 +622,13 @@ units: [
         {word:'造字',pinyin:'zào zì',en:'character creation',sentence:'汉字有多种造字方法。',sentenceEn:'Chinese characters have multiple methods of creation.'},
         {word:'演变',pinyin:'yǎn biàn',en:'evolution',sentence:'汉字经历了漫长的演变过程。',sentenceEn:'Chinese characters went through a long evolution.'}
       ],
+      footnotes: [
+        {term:"\u6c49\u5b57", termEn:"Chinese characters", definition:"(h\u00e0n z\u00ec) Chinese characters", definitionEn:"Chinese characters"},
+        {term:"\u8c10\u97f3", termEn:"homophone", definition:"(xi\u00e9 y\u012bn) homophone", definitionEn:"homophone"},
+        {term:"\u7532\u9aa8\u6587", termEn:"oracle bone script", definition:"(ji\u01ce g\u01d4 w\u00e9n) oracle bone script", definitionEn:"oracle bone script"},
+        {term:"\u9020\u5b57", termEn:"character creation", definition:"(z\u00e0o z\u00ec) character creation", definitionEn:"character creation"},
+        {term:"\u6f14\u53d8", termEn:"evolution", definition:"(y\u01cen bi\u00e0n) evolution", definitionEn:"evolution"}
+      ],
       grammarPoints: [
         {point:'象形字',pointEn:'xiàng xíng zì',example:'pictographic characters',exampleEn:'日、月、水、火都是象形字。',explanation:'Sun, moon, water, and fire are all pictographic characters.',explanationEn:'根据事物形状创造的文字'}
       ],
@@ -616,6 +679,13 @@ units: [
         {word:'遗骨',pinyin:'yí gǔ',en:'remains',sentence:'是否将岸英的遗骨运回国内。',sentenceEn:'Whether to bring Anying remains back to the homeland.'},
         {word:'忠骨',pinyin:'zhōng gǔ',en:'loyal bones',sentence:'青山处处埋忠骨。',sentenceEn:'Green mountains everywhere bury loyal bones.'},
         {word:'电报',pinyin:'diàn bào',en:'telegram',sentence:'毛主席签了字，把电报放下了。',sentenceEn:'Chairman Mao signed and set down the telegram.'}
+      ],
+      footnotes: [
+        {term:"\u5fd7\u613f\u519b", termEn:"volunteer army", definition:"(zh\u00ec yu\u00e0n j\u016bn) volunteer army", definitionEn:"volunteer army"},
+        {term:"\u727a\u7272", termEn:"sacrifice", definition:"(x\u012b sh\u0113ng) sacrifice", definitionEn:"sacrifice"},
+        {term:"\u9057\u9aa8", termEn:"remains", definition:"(y\u00ed g\u01d4) remains", definitionEn:"remains"},
+        {term:"\u5fe0\u9aa8", termEn:"loyal bones", definition:"(zh\u014dng g\u01d4) loyal bones", definitionEn:"loyal bones"},
+        {term:"\u7535\u62a5", termEn:"telegram", definition:"(di\u00e0n b\u00e0o) telegram", definitionEn:"telegram"}
       ],
       grammarPoints: [
         {point:'细节描写',pointEn:'xì jié miáo xiě',example:'detail description',exampleEn:'毛主席用食指按着紧锁的眉头，情不自禁地喃喃着。',explanation:'Chairman Mao pressed his tightly furrowed brow with his index finger, murmuring involuntarily.',explanationEn:'通过细节展现人物内心的悲痛'}
@@ -668,6 +738,13 @@ units: [
         {word:'崭新',pinyin:'zhǎn xīn',en:'brand new',sentence:'刘伯承的伤口需要做崭新的手术方案。',sentenceEn:'A brand new surgical plan was needed for Liu Bocheng.'},
         {word:'坚毅',pinyin:'jiān yì',en:'resolute',sentence:'他的表情十分坚毅。',sentenceEn:'His expression was extremely resolute.'}
       ],
+      footnotes: [
+        {term:"\u519b\u795e", termEn:"war god", definition:"(j\u016bn sh\u00e9n) war god", definitionEn:"war god"},
+        {term:"\u624b\u672f", termEn:"surgery", definition:"(sh\u01d2u sh\u00f9) surgery", definitionEn:"surgery"},
+        {term:"\u9ebb\u9189", termEn:"anesthesia", definition:"(m\u00e1 zu\u00ec) anesthesia", definitionEn:"anesthesia"},
+        {term:"\u5d2d\u65b0", termEn:"brand new", definition:"(zh\u01cen x\u012bn) brand new", definitionEn:"brand new"},
+        {term:"\u575a\u6bc5", termEn:"resolute", definition:"(ji\u0101n y\u00ec) resolute", definitionEn:"resolute"}
+      ],
       grammarPoints: [
         {point:'侧面描写',pointEn:'cè miàn miáo xiě',example:'indirect characterization',exampleEn:'沃克医生惊呆了，大声嚷道：你是一个真正的男子汉，一块会说话的钢板！',explanation:'Doctor Walker was stunned and exclaimed: You are a true man, a talking steel plate!',explanationEn:'通过旁人反应衬托主要人物的品质'}
       ],
@@ -715,6 +792,13 @@ units: [
         {word:'俘虏',pinyin:'fú lǔ',en:'capture',sentence:'方志敏被敌人俘虏了。',sentenceEn:'Fang Zhimin was captured by the enemy.'},
         {word:'搜查',pinyin:'sōu chá',en:'search',sentence:'两个兵士搜查了方志敏全身。',sentenceEn:'Two soldiers searched Fang Zhimin thoroughly.'},
         {word:'威胁',pinyin:'wēi xié',en:'threaten',sentence:'敌人用手榴弹威胁他。',sentenceEn:'The enemy threatened him with a hand grenade.'}
+      ],
+      footnotes: [
+        {term:"\u6e05\u8d2b", termEn:"noble poverty", definition:"(q\u012bng p\u00edn) noble poverty", definitionEn:"noble poverty"},
+        {term:"\u77dc\u6301", termEn:"composed", definition:"(j\u012bn ch\u00ed) composed", definitionEn:"composed"},
+        {term:"\u4fd8\u864f", termEn:"capture", definition:"(f\u00fa l\u01d4) capture", definitionEn:"capture"},
+        {term:"\u641c\u67e5", termEn:"search", definition:"(s\u014du ch\u00e1) search", definitionEn:"search"},
+        {term:"\u5a01\u80c1", termEn:"threaten", definition:"(w\u0113i xi\u00e9) threaten", definitionEn:"threaten"}
       ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u4f60\u4ece\u65b9\u5fd7\u654f\u7684\u81ea\u8ff0\u4e2d\u4f53\u4f1a\u5230\u4ed6\u600e\u6837\u7684\u54c1\u8d28\u3002",en:"Read silently; tell what qualities you sense from Fang Zhimin\u2019s account."}
@@ -800,6 +884,13 @@ units: [
         {word:'灯草',pinyin:'dēng cǎo',en:'lamp wick',sentence:'严监生伸着两个指头指着两茎灯草。',sentenceEn:'Yan Jiansheng held up two fingers pointing at the two lamp wicks.'},
         {word:'破绽',pinyin:'pò zhàn',en:'opening; flaw',sentence:'小胖墩儿不露一点儿破绽。',sentenceEn:'Little Fatty did not show any opening.'}
       ],
+      footnotes: [
+        {term:"\u560e\u5b50", termEn:"Ga Zi (nickname)", definition:"(g\u01ce z\u01d0) Ga Zi (nickname)", definitionEn:"Ga Zi (nickname)"},
+        {term:"\u6454\u8de4", termEn:"wrestle", definition:"(shu\u0101i ji\u0101o) wrestle", definitionEn:"wrestle"},
+        {term:"\u633a\u8131", termEn:"sturdy and upright", definition:"(t\u01d0ng tu\u014d) sturdy and upright", definitionEn:"sturdy and upright"},
+        {term:"\u706f\u8349", termEn:"lamp wick", definition:"(d\u0113ng c\u01ceo) lamp wick", definitionEn:"lamp wick"},
+        {term:"\u7834\u7efd", termEn:"opening; flaw", definition:"(p\u00f2 zh\u00e0n) opening; flaw", definitionEn:"opening; flaw"}
+      ],
       grammarPoints: [
         {point:'动作描写',pointEn:'dòng zuò miáo xiě',example:'action description',exampleEn:'小嘎子围着他猴儿似的蹦来蹦去，总想使巧招，下冷绊子。',explanation:'Little Ga Zi bounced around him like a monkey, trying to use clever moves and trip him.',explanationEn:'通过具体动作刻画人物性格'},
         {point:'细节刻画',pointEn:'xì jié kè huà',example:'detail portrayal',exampleEn:'严监生伸着两个指头，总不得断气。',explanation:'Yan Jiansheng held up two fingers, unable to pass away.',explanationEn:'用极简的细节揭示人物特征'}
@@ -857,6 +948,13 @@ units: [
         {word:'黑衣',pinyin:'hēi yī',en:'black clothes',sentence:'他干活穿一身黑衣。',sentenceEn:'He wore all black while working.'},
         {word:'白点',pinyin:'bái diǎn',en:'white spot',sentence:'身上只要有一个白点，白刷不要钱。',sentenceEn:'If there was even one white spot on his clothes, the job would be free.'},
         {word:'绝活',pinyin:'jué huó',en:'unique skill',sentence:'刷子李的绝活闻名天下。',sentenceEn:'Master Painter Li was famous for his unique skill.'}
+      ],
+      footnotes: [
+        {term:"\u5237\u5b50\u674e", termEn:"Master Painter Li", definition:"(shu\u0101 zi l\u01d0) Master Painter Li", definitionEn:"Master Painter Li"},
+        {term:"\u89c4\u77e9", termEn:"rule", definition:"(gu\u012b j\u01d4) rule", definitionEn:"rule"},
+        {term:"\u9ed1\u8863", termEn:"black clothes", definition:"(h\u0113i y\u012b) black clothes", definitionEn:"black clothes"},
+        {term:"\u767d\u70b9", termEn:"white spot", definition:"(b\u00e1i di\u01cen) white spot", definitionEn:"white spot"},
+        {term:"\u7edd\u6d3b", termEn:"unique skill", definition:"(ju\u00e9 hu\u00f3) unique skill", definitionEn:"unique skill"}
       ],
       exercises: [
         {cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u7ed3\u5408\u8bfe\u6587\u5185\u5bb9\uff0c\u8bf4\u8bf4\u5237\u5b50\u674e\u8fd9\u4e2a\u4eba\u7269\u7684\u7279\u70b9\u3002",en:"Read silently and describe the traits of Master Painter Li, citing the text."},
@@ -939,6 +1037,13 @@ units: [
         {word:'誉',pinyin:'yù',en:'praise; boast',sentence:'誉之曰：吾矛之利，于物无不陷也。',sentenceEn:'He boasted: My spear is so sharp it can pierce anything.'},
         {word:'弗能应',pinyin:'fú néng yìng',en:'unable to answer',sentence:'其人弗能应也。',sentenceEn:'The man was unable to answer.'}
       ],
+      footnotes: [
+        {term:"\u77db", termEn:"spear", definition:"(m\u00e1o) spear", definitionEn:"spear"},
+        {term:"\u76fe", termEn:"shield", definition:"(d\u00f9n) shield", definitionEn:"shield"},
+        {term:"\u9677", termEn:"pierce", definition:"(xi\u00e0n) pierce", definitionEn:"pierce"},
+        {term:"\u8a89", termEn:"praise; boast", definition:"(y\u00f9) praise; boast", definitionEn:"praise; boast"},
+        {term:"\u5f17\u80fd\u5e94", termEn:"unable to answer", definition:"(f\u00fa n\u00e9ng y\u00ecng) unable to answer", definitionEn:"unable to answer"}
+      ],
       grammarPoints: [
         {point:'文言文寓言',pointEn:'wén yán wén yù yán',example:'classical fable',exampleEn:'以子之矛陷子之盾，何如？其人弗能应也。',explanation:'What if your spear strikes your shield? The man could not answer.',explanationEn:'通过简短的文言文故事说明逻辑矛盾'}
       ],
@@ -992,6 +1097,13 @@ units: [
         {word:'策略',pinyin:'cè lüè',en:'strategy',sentence:'孙膑的策略非常巧妙。',sentenceEn:'Sun Bin strategy was very clever.'},
         {word:'胜负',pinyin:'shèng fù',en:'victory or defeat',sentence:'调换顺序就改变了胜负。',sentenceEn:'Changing the order changed the outcome.'}
       ],
+      footnotes: [
+        {term:"\u8d5b\u9a6c", termEn:"horse race", definition:"(s\u00e0i m\u01ce) horse race", definitionEn:"horse race"},
+        {term:"\u5b59\u8191", termEn:"Sun Bin", definition:"(s\u016bn b\u00ecn) Sun Bin", definitionEn:"Sun Bin"},
+        {term:"\u4e0a\u7b49\u9a6c", termEn:"top-class horse", definition:"(sh\u00e0ng d\u011bng m\u01ce) top-class horse", definitionEn:"top-class horse"},
+        {term:"\u7b56\u7565", termEn:"strategy", definition:"(c\u00e8 l\u00fc\u00e8) strategy", definitionEn:"strategy"},
+        {term:"\u80dc\u8d1f", termEn:"victory or defeat", definition:"(sh\u00e8ng f\u00f9) victory or defeat", definitionEn:"victory or defeat"}
+      ],
       grammarPoints: [
         {point:'策略思维',pointEn:'cè lüè sī wéi',example:'strategic thinking',exampleEn:'用下等马对上等马，用上等马对中等马，用中等马对下等马。',explanation:'Use the lowest horse against the best, the best against the middle, the middle against the lowest.',explanationEn:'通过调换出场顺序以弱胜强'}
       ],
@@ -1042,6 +1154,13 @@ units: [
         {word:'船长',pinyin:'chuán zhǎng',en:'captain',sentence:'船长命令儿子跳水。',sentenceEn:'The captain ordered his son to jump into the water.'},
         {word:'瞄准',pinyin:'miáo zhǔn',en:'take aim',sentence:'船长拿起枪瞄准儿子。',sentenceEn:'The captain raised his gun and aimed at his son.'},
         {word:'得救',pinyin:'dé jiù',en:'be rescued',sentence:'孩子跳入水中被水手们救起。',sentenceEn:'The child jumped into the water and was rescued by the sailors.'}
+      ],
+      footnotes: [
+        {term:"\u7334\u5b50", termEn:"monkey", definition:"(h\u00f3u zi) monkey", definitionEn:"monkey"},
+        {term:"\u6845\u6746", termEn:"mast", definition:"(w\u00e9i g\u0101n) mast", definitionEn:"mast"},
+        {term:"\u8239\u957f", termEn:"captain", definition:"(chu\u00e1n zh\u01ceng) captain", definitionEn:"captain"},
+        {term:"\u7784\u51c6", termEn:"take aim", definition:"(mi\u00e1o zh\u01d4n) take aim", definitionEn:"take aim"},
+        {term:"\u5f97\u6551", termEn:"be rescued", definition:"(d\u00e9 ji\u00f9) be rescued", definitionEn:"be rescued"}
       ],
       grammarPoints: [
         {point:'情节转折',pointEn:'qíng jié zhuǎn zhé',example:'plot twist',exampleEn:'船长拿起枪瞄准儿子喊道：跳到水里，不然我就开枪了！',explanation:'The captain aimed his gun at his son and shouted: Jump into the water, or I will shoot!',explanationEn:'通过突然的情节转折展现人物的果断'}
@@ -1142,6 +1261,13 @@ units: [
         {word:'簇拥',pinyin:'cù yōng',en:'cluster',sentence:'许多小艇簇拥在一起。',sentenceEn:'Many gondolas clustered together.'},
         {word:'静寂',pinyin:'jìng jì',en:'silent',sentence:'夜晚的威尼斯静寂无声。',sentenceEn:'Venice at night was silent.'}
       ],
+      footnotes: [
+        {term:"\u5c0f\u8247", termEn:"gondola", definition:"(xi\u01ceo t\u01d0ng) gondola", definitionEn:"gondola"},
+        {term:"\u8239\u592b", termEn:"boatman", definition:"(chu\u00e1n f\u016b) boatman", definitionEn:"boatman"},
+        {term:"\u7eb5\u6a2a\u4ea4\u53c9", termEn:"crisscross", definition:"(z\u00f2ng h\u00e9ng ji\u0101o ch\u0101) crisscross", definitionEn:"crisscross"},
+        {term:"\u7c07\u62e5", termEn:"cluster", definition:"(c\u00f9 y\u014dng) cluster", definitionEn:"cluster"},
+        {term:"\u9759\u5bc2", termEn:"silent", definition:"(j\u00ecng j\u00ec) silent", definitionEn:"silent"}
+      ],
       grammarPoints: [
         {point:'动静结合',pointEn:'dòng jìng jié hé',example:'combining movement and stillness',exampleEn:'水面上渐渐沉寂，只见月亮的影子在水中摇晃。',explanation:'The water surface gradually fell silent, with only the reflection of the moon swaying in the water.',explanationEn:'白天的喧闹与夜晚的静寂形成对比'}
       ],
@@ -1190,6 +1316,13 @@ units: [
         {word:'骏马',pinyin:'jùn mǎ',en:'fine horse',sentence:'成群的骏马在草原上飞驰。',sentenceEn:'Herds of fine horses galloped across the grassland.'},
         {word:'安闲',pinyin:'ān xián',en:'leisurely; at ease',sentence:'牛羊安闲地吃着草。',sentenceEn:'Cattle and sheep grazed leisurely.'}
       ],
+      footnotes: [
+        {term:"\u7267\u573a", termEn:"pasture", definition:"(m\u00f9 ch\u01ceng) pasture", definitionEn:"pasture"},
+        {term:"\u78a7\u7eff", termEn:"emerald green", definition:"(b\u00ec l\u01dc) emerald green", definitionEn:"emerald green"},
+        {term:"\u5976\u725b", termEn:"dairy cow", definition:"(n\u01cei ni\u00fa) dairy cow", definitionEn:"dairy cow"},
+        {term:"\u9a8f\u9a6c", termEn:"fine horse", definition:"(j\u00f9n m\u01ce) fine horse", definitionEn:"fine horse"},
+        {term:"\u5b89\u95f2", termEn:"leisurely; at ease", definition:"(\u0101n xi\u00e1n) leisurely; at ease", definitionEn:"leisurely; at ease"}
+      ],
       exercises: [
         {cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\u3002",en:"Read the text aloud with feeling."},
         {cn:"\u4f5c\u8005\u773c\u4e2d\u201c\u771f\u6b63\u7684\u8377\u5170\u201d\u662f\u4ec0\u4e48\u6837\u7684\uff1f\u4f5c\u8005\u4e3a\u4ec0\u4e48\u53cd\u590d\u5f3a\u8c03\u201c\u8fd9\u5c31\u662f\u771f\u6b63\u7684\u8377\u5170\u201d\uff1f",en:"What does the \u2018true Netherlands\u2019 look like in the author\u2019s eyes? Why does the author repeatedly emphasize this?"},
@@ -1225,6 +1358,13 @@ units: [
         {word:'精巧',pinyin:'jīng qiǎo',en:'exquisite',sentence:'金字塔的建造十分精巧。',sentenceEn:'The construction of the pyramids was exquisite.'},
         {word:'夕照',pinyin:'xī zhào',en:'sunset glow',sentence:'金字塔在夕照中显得更加壮丽。',sentenceEn:'The pyramids appeared more magnificent in the sunset glow.'},
         {word:'石块',pinyin:'shí kuài',en:'stone block',sentence:'每块石头大约有两吨半重。',sentenceEn:'Each stone block weighs about two and a half tons.'}
+      ],
+      footnotes: [
+        {term:"\u91d1\u5b57\u5854", termEn:"pyramid", definition:"(j\u012bn z\u00ec t\u01ce) pyramid", definitionEn:"pyramid"},
+        {term:"\u5dcd\u7136\u5c79\u7acb", termEn:"stand towering", definition:"(w\u0113i r\u00e1n y\u00ec l\u00ec) stand towering", definitionEn:"stand towering"},
+        {term:"\u7cbe\u5de7", termEn:"exquisite", definition:"(j\u012bng qi\u01ceo) exquisite", definitionEn:"exquisite"},
+        {term:"\u5915\u7167", termEn:"sunset glow", definition:"(x\u012b zh\u00e0o) sunset glow", definitionEn:"sunset glow"},
+        {term:"\u77f3\u5757", termEn:"stone block", definition:"(sh\u00ed ku\u00e0i) stone block", definitionEn:"stone block"}
       ],
       exercises: [
         {cn:"\u9ed8\u8bfb\u4e24\u7bc7\u77ed\u6587\uff0c\u8bf4\u8bf4\u4f60\u5bf9\u91d1\u5b57\u5854\u6709\u4e86\u54ea\u4e9b\u4e86\u89e3\u3002",en:"Read both texts silently. What did you learn about the pyramids?"},
@@ -1305,6 +1445,13 @@ units: [
         {word:'禽',pinyin:'qín',en:'bird',sentence:'未闻孔雀是夫子家禽。',sentenceEn:'I have not heard that peacocks are birds of your family.'},
         {word:'设果',pinyin:'shè guǒ',en:'set out fruit',sentence:'为设果，果有杨梅。',sentenceEn:'Fruit was set out, including bayberries.'}
       ],
+      footnotes: [
+        {term:"\u6768\u6c0f\u4e4b\u5b50", termEn:"the son of the Yang family", definition:"(y\u00e1ng sh\u00ec zh\u012b z\u01d0) the son of the Yang family", definitionEn:"the son of the Yang family"},
+        {term:"\u806a\u60e0", termEn:"clever", definition:"(c\u014dng hu\u00ec) clever", definitionEn:"clever"},
+        {term:"\u679c", termEn:"fruit", definition:"(gu\u01d2) fruit", definitionEn:"fruit"},
+        {term:"\u79bd", termEn:"bird", definition:"(q\u00edn) bird", definitionEn:"bird"},
+        {term:"\u8bbe\u679c", termEn:"set out fruit", definition:"(sh\u00e8 gu\u01d2) set out fruit", definitionEn:"set out fruit"}
+      ],
       grammarPoints: [
         {point:'文言文对话',pointEn:'wén yán wén duì huà',example:'classical dialogue',exampleEn:'未闻孔雀是夫子家禽。',explanation:'I have not heard that peacocks belong to your family.',explanationEn:'巧妙运用姓氏谐音进行机智应答'}
       ],
@@ -1355,6 +1502,13 @@ units: [
         {word:'中指',pinyin:'zhōng zhǐ',en:'middle finger',sentence:'中指相貌最堂皇。',sentenceEn:'The middle finger has the most imposing appearance.'},
         {word:'无名指',pinyin:'wú míng zhǐ',en:'ring finger',sentence:'无名指和小指最秀丽。',sentenceEn:'The ring finger and little finger are the most elegant.'},
         {word:'团结',pinyin:'tuán jié',en:'unity',sentence:'五根手指团结起来就有力量。',sentenceEn:'When five fingers unite, they have strength.'}
+      ],
+      footnotes: [
+        {term:"\u5927\u62c7\u6307", termEn:"thumb", definition:"(d\u00e0 m\u01d4 zh\u01d0) thumb", definitionEn:"thumb"},
+        {term:"\u98df\u6307", termEn:"index finger", definition:"(sh\u00ed zh\u01d0) index finger", definitionEn:"index finger"},
+        {term:"\u4e2d\u6307", termEn:"middle finger", definition:"(zh\u014dng zh\u01d0) middle finger", definitionEn:"middle finger"},
+        {term:"\u65e0\u540d\u6307", termEn:"ring finger", definition:"(w\u00fa m\u00edng zh\u01d0) ring finger", definitionEn:"ring finger"},
+        {term:"\u56e2\u7ed3", termEn:"unity", definition:"(tu\u00e1n ji\u00e9) unity", definitionEn:"unity"}
       ],
       grammarPoints: [
         {point:'拟人手法',pointEn:'nǐ rén shǒu fǎ',example:'personification',exampleEn:'大拇指在五指中，形状实在算不上美。身体矮而胖，头大而肥。',explanation:'Among the five fingers, the thumb is not beautiful. It is short and fat, with a big, plump head.',explanationEn:'用拟人手法赋予手指人的性格特点'}
@@ -1409,6 +1563,13 @@ units: [
         {word:'进化',pinyin:'jìn huà',en:'evolution',sentence:'我想到了人的进化过程。',sentenceEn:'I thought about the process of human evolution.'},
         {word:'梦境',pinyin:'mèng jìng',en:'dreamland',sentence:'每天夜里做梦我都会飞。',sentenceEn:'Every night in my dreams I would fly.'},
         {word:'驱逐',pinyin:'qū zhú',en:'expel',sentence:'我被老师驱逐出了教室。',sentenceEn:'I was expelled from the classroom by the teacher.'}
+      ],
+      footnotes: [
+        {term:"\u53d1\u73b0", termEn:"discovery", definition:"(f\u0101 xi\u00e0n) discovery", definitionEn:"discovery"},
+        {term:"\u80da\u80ce", termEn:"embryo", definition:"(p\u0113i t\u0101i) embryo", definitionEn:"embryo"},
+        {term:"\u8fdb\u5316", termEn:"evolution", definition:"(j\u00ecn hu\u00e0) evolution", definitionEn:"evolution"},
+        {term:"\u68a6\u5883", termEn:"dreamland", definition:"(m\u00e8ng j\u00ecng) dreamland", definitionEn:"dreamland"},
+        {term:"\u9a71\u9010", termEn:"expel", definition:"(q\u016b zh\u00fa) expel", definitionEn:"expel"}
       ],
       exercises: [
         {cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u627e\u51fa\u4f60\u89c9\u5f97\u6709\u8da3\u7684\u90e8\u5206\uff0c\u8bf4\u8bf4\u81ea\u5df1\u7684\u611f\u53d7\u3002",en:"Read silently, find the parts you find amusing, and share your thoughts."}

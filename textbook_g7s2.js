@@ -32,6 +32,13 @@ var TB_G7S2 = {
             {word:'截然不同',pinyin:'jié rán bù tóng',en:'completely different',sentence:'他们的性格和为人却截然不同。',sentenceEn:'Their personalities and conduct were completely different.'},
             {word:'锋芒毕露',pinyin:'fēng máng bì lù',en:'to show off talent aggressively',sentence:'奥本海默是一个拔尖的人物，锋芒毕露。',sentenceEn:'Oppenheimer was an outstanding figure who showed off his talent aggressively.'}
           ],
+          footnotes: [
+            {term:"\u5143\u52cb", termEn:"founding hero; person of great merit", definition:"(yu\u00e1n x\u016bn) founding hero; person of great merit", definitionEn:"founding hero; person of great merit"},
+            {term:"\u97a0\u8eac\u5c3d\u7601", termEn:"to devote oneself completely", definition:"(j\u016b g\u014dng j\u00ecn cu\u00ec) to devote oneself completely", definitionEn:"to devote oneself completely"},
+            {term:"\u9c9c\u4e3a\u4eba\u77e5", termEn:"rarely known to others", definition:"(xi\u01cen w\u00e9i r\u00e9n zh\u012b) rarely known to others", definitionEn:"rarely known to others"},
+            {term:"\u622a\u7136\u4e0d\u540c", termEn:"completely different", definition:"(ji\u00e9 r\u00e1n b\u00f9 t\u00f3ng) completely different", definitionEn:"completely different"},
+            {term:"\u950b\u8292\u6bd5\u9732", termEn:"to show off talent aggressively", definition:"(f\u0113ng m\u00e1ng b\u00ec l\u00f9) to show off talent aggressively", definitionEn:"to show off talent aggressively"}
+          ],
           grammarPoints: [
             {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'contrast technique',exampleEn:'邓稼先与奥本海默的性格截然不同——甚至可以说他们走向了两个相反的极端。',explanation:'The personalities of Deng Jiaxian and Oppenheimer were completely different — one could even say they went to two opposite extremes.',explanationEn:'通过对比两个人物的性格差异，突出邓稼先忠厚朴实的品质。'},
             {point:'记叙与抒情结合',pointEn:'jì xù yǔ shū qíng jié hé',example:'combining narration with lyrical expression',exampleEn:'稼先为人忠诚纯正，是我最敬爱的挚友。他的无私的精神与巨大的贡献是你的也是我的永恒的骄傲。',explanation:'Jiaxian was loyal and sincere, my most beloved close friend. His selfless spirit and great contributions are your and my eternal pride.',explanationEn:'文章在叙述事实的基础上融入深沉的抒情，使读者感受到作者对邓稼先的敬仰与怀念。'}
@@ -107,6 +114,13 @@ var TB_G7S2 = {
             {word:'慷慨淋漓',pinyin:'kāng kǎi lín lí',en:'impassioned and forceful',sentence:'他慷慨淋漓地发表了演说。',sentenceEn:'He delivered an impassioned and forceful speech.'},
             {word:'气冲斗牛',pinyin:'qì chōng dǒu niú',en:'anger or passion that reaches the heavens',sentence:'闻一多先生大无畏地在群众大会上大骂特务，气冲斗牛。',sentenceEn:'Mr. Wen Yiduo fearlessly cursed the secret agents at a public rally, his passion reaching the heavens.'}
           ],
+          footnotes: [
+            {term:"\u9532\u800c\u4e0d\u820d", termEn:"to persevere without giving up", definition:"(qi\u00e8 \u00e9r b\u00f9 sh\u011b) to persevere without giving up", definitionEn:"to persevere without giving up"},
+            {term:"\u6ca5\u5c3d\u5fc3\u8840", termEn:"to exhaust every drop of effort", definition:"(l\u00ec j\u00ecn x\u012bn xu\u00e8) to exhaust every drop of effort", definitionEn:"to exhaust every drop of effort"},
+            {term:"\u7fa4\u8681\u6392\u8859", termEn:"ants lined up in formation (describing dense notes)", definition:"(q\u00fan y\u01d0 p\u00e1i y\u00e1) ants lined up in formation (describing dense notes)", definitionEn:"ants lined up in formation (describing dense notes)"},
+            {term:"\u6177\u6168\u6dcb\u6f13", termEn:"impassioned and forceful", definition:"(k\u0101ng k\u01cei l\u00edn l\u00ed) impassioned and forceful", definitionEn:"impassioned and forceful"},
+            {term:"\u6c14\u51b2\u6597\u725b", termEn:"anger or passion that reaches the heavens", definition:"(q\u00ec ch\u014dng d\u01d2u ni\u00fa) anger or passion that reaches the heavens", definitionEn:"anger or passion that reaches the heavens"}
+          ],
           grammarPoints: [
             {point:'夹叙夹议',pointEn:'jiā xù jiā yì',example:'interweaving narration and commentary',exampleEn:'文章夹叙夹议，在叙述闻一多先生言行的同时加入评论，使人物形象更加鲜明。',explanation:'The article interweaves narration and commentary, adding evaluation while recounting Mr. Wen Yiduo’s words and deeds, making the figure more vivid.',explanationEn:'在记叙文中穿插议论，能深化主题，揭示人物精神品质。'}
           ],
@@ -167,6 +181,13 @@ var TB_G7S2 = {
             {word:'不以为然',pinyin:'bù yǐ wéi rán',en:'to disagree; to disapprove',sentence:'鲁迅先生对此不以为然地笑了笑。',sentenceEn:'Mr. Lu Xun smiled with gentle disapproval.'},
             {word:'忧郁',pinyin:'yōu yù',en:'melancholy; sorrowful',sentence:'鲁迅先生有时会显出忧郁的神色。',sentenceEn:'Mr. Lu Xun sometimes displayed a melancholy expression.'}
           ],
+          footnotes: [
+            {term:"\u8f7b\u6377", termEn:"light and nimble", definition:"(q\u012bng ji\u00e9) light and nimble", definitionEn:"light and nimble"},
+            {term:"\u8349\u7387", termEn:"careless; sloppy", definition:"(c\u01ceo shu\u00e0i) careless; sloppy", definitionEn:"careless; sloppy"},
+            {term:"\u6df1\u6076\u75db\u7edd", termEn:"to detest utterly", definition:"(sh\u0113n w\u00f9 t\u00f2ng ju\u00e9) to detest utterly", definitionEn:"to detest utterly"},
+            {term:"\u4e0d\u4ee5\u4e3a\u7136", termEn:"to disagree; to disapprove", definition:"(b\u00f9 y\u01d0 w\u00e9i r\u00e1n) to disagree; to disapprove", definitionEn:"to disagree; to disapprove"},
+            {term:"\u5fe7\u90c1", termEn:"melancholy; sorrowful", definition:"(y\u014du y\u00f9) melancholy; sorrowful", definitionEn:"melancholy; sorrowful"}
+          ],
           author: "\u8427\u7ea2",
           authorEn: "Xiao Hong",
           source: "\u9009\u81ea\u300a\u8427\u7ea2\u5168\u96c6\u300b\u7b2c\u4e8c\u5377\uff08\u9ed1\u9f99\u6c5f\u5927\u5b66\u51fa\u7248\u793e2011\u5e74\u7248\uff09\u3002\u6709\u6539\u52a8\u3002",
@@ -219,6 +240,13 @@ var TB_G7S2 = {
             {word:'刮目相待',pinyin:'guā mù xiāng dài',en:'to regard someone with new eyes',sentence:'士别三日，即更刮目相待。',sentenceEn:'When a scholar has been away for three days, one should regard him with entirely new eyes.'},
             {word:'吴下阿蒙',pinyin:'wú xià ā méng',en:'the simple-minded Ah Meng of Wu (used for someone who has not improved)',sentence:'卿今者才略，非复吴下阿蒙。',sentenceEn:'Your talent and strategy now are no longer that of the simple Ah Meng of old.'},
             {word:'博士',pinyin:'bó shì',en:'classical scholar; learned person',sentence:'孤岂欲卿治经为博士邪。',sentenceEn:'Do I wish for you to study the classics and become a learned scholar?'}
+          ],
+          footnotes: [
+            {term:"\u537f", termEn:"a term of address used by rulers for ministers", definition:"(q\u012bng) a term of address used by rulers for ministers\u3002\u4f8b\uff1a\u537f\u4eca\u5f53\u6d82\u638c\u4e8b\uff0c\u4e0d\u53ef\u4e0d\u5b66\u3002", definitionEn:"a term of address used by rulers for ministers"},
+            {term:"\u6d89\u730e", termEn:"to browse; to read widely", definition:"(sh\u00e8 li\u00e8) to browse; to read widely\u3002\u4f8b\uff1a\u4f46\u5f53\u6d89\u730e\uff0c\u89c1\u5f80\u4e8b\u8033\u3002", definitionEn:"to browse; to read widely"},
+            {term:"\u522e\u76ee\u76f8\u5f85", termEn:"to regard someone with new eyes", definition:"(gu\u0101 m\u00f9 xi\u0101ng d\u00e0i) to regard someone with new eyes\u3002\u4f8b\uff1a\u58eb\u522b\u4e09\u65e5\uff0c\u5373\u66f4\u522e\u76ee\u76f8\u5f85\u3002", definitionEn:"to regard someone with new eyes"},
+            {term:"\u5434\u4e0b\u963f\u8499", termEn:"the simple-minded Ah Meng of Wu (used for someone who has not improved)", definition:"(w\u00fa xi\u00e0 \u0101 m\u00e9ng) the simple-minded Ah Meng of Wu (used for someone who has not improved)\u3002\u4f8b\uff1a\u537f\u4eca\u8005\u624d\u7565\uff0c\u975e\u590d\u5434\u4e0b\u963f\u8499\u3002", definitionEn:"the simple-minded Ah Meng of Wu (used for someone who has not improved)"},
+            {term:"\u535a\u58eb", termEn:"classical scholar; learned person", definition:"(b\u00f3 sh\u00ec) classical scholar; learned person\u3002\u4f8b\uff1a\u5b64\u5c82\u6b32\u537f\u6cbb\u7ecf\u4e3a\u535a\u58eb\u90aa\u3002", definitionEn:"classical scholar; learned person"}
           ],
           grammarPoints: [
             {point:'对话推动叙事',pointEn:'duì huà tuī dòng xù shì',example:'dialogue-driven narration',exampleEn:'全文主要通过孙权与吕蒙、鲁肃与吕蒙的对话展开叙事。',explanation:'The entire text unfolds its narrative mainly through dialogues between Sun Quan and Lu Meng, and between Lu Su and Lu Meng.',explanationEn:'以对话为主的叙事方式，言简意丰，既推动情节又展现人物性格。'}
@@ -317,6 +345,13 @@ var TB_G7S2 = {
             {word:'屏障',pinyin:'píng zhàng',en:'barrier; shield',sentence:'用你那英雄的体魄筑成我们民族的屏障。',sentenceEn:'With your heroic body you form the barrier of our nation.'},
             {word:'哺育',pinyin:'bǔ yù',en:'to nurture; to nourish',sentence:'我们民族的伟大精神，将要在你的哺育下发扬滋长。',sentenceEn:'The great spirit of our nation will grow and flourish under your nurturing.'}
           ],
+          footnotes: [
+            {term:"\u6c14\u9b44", termEn:"imposing manner; grandeur", definition:"(q\u00ec p\u00f2) imposing manner; grandeur", definitionEn:"imposing manner; grandeur"},
+            {term:"\u6f8e\u6e43", termEn:"surging; roaring", definition:"(p\u00e9ng p\u00e0i) surging; roaring", definitionEn:"surging; roaring"},
+            {term:"\u72c2\u6f9c", termEn:"raging waves", definition:"(ku\u00e1ng l\u00e1n) raging waves", definitionEn:"raging waves"},
+            {term:"\u5c4f\u969c", termEn:"barrier; shield", definition:"(p\u00edng zh\u00e0ng) barrier; shield", definitionEn:"barrier; shield"},
+            {term:"\u54fa\u80b2", termEn:"to nurture; to nourish", definition:"(b\u01d4 y\u00f9) to nurture; to nourish", definitionEn:"to nurture; to nourish"}
+          ],
           grammarPoints: [
             {point:'反复与呼告',pointEn:'fǎn fù yǔ hū gào',example:'repetition and apostrophe',exampleEn:'啊！黄河！反复出现三次，营造出回环往复的韵律美。',explanation:'Ah! Yellow River! appears three times, creating a rhythmic beauty of cyclical repetition.',explanationEn:'反复使用相同的句式和呼告，能增强诗歌的气势和感染力。'}
           ],
@@ -374,6 +409,13 @@ var TB_G7S2 = {
             {word:'酣然入梦',pinyin:'hān rán rù mèng',en:'to fall into a deep sleep',sentence:'就在这山路上酣然入梦了。',sentenceEn:'They fell into a deep sleep right there on the mountain path.'},
             {word:'陡峭',pinyin:'dǒu qiào',en:'steep; precipitous',sentence:'这么陡峭的山，这么茂密的树林。',sentenceEn:'Such a steep mountain and such dense forests.'},
             {word:'矗立',pinyin:'chù lì',en:'to stand upright; to tower',sentence:'满天都是星光，火把也亮起来了，从山脚向上望，只见火把排成许多之字形。',sentenceEn:'Stars filled the sky and torches lit up; looking up from the foot of the mountain, the torches formed many zigzag shapes.'}
+          ],
+          footnotes: [
+            {term:"\u6500\u8c08", termEn:"to chat; to make conversation", definition:"(p\u0101n t\u00e1n) to chat; to make conversation", definitionEn:"to chat; to make conversation"},
+            {term:"\u82db\u6350\u6742\u7a0e", termEn:"excessive taxes and levies", definition:"(k\u0113 ju\u0101n z\u00e1 shu\u00ec) excessive taxes and levies", definitionEn:"excessive taxes and levies"},
+            {term:"\u9163\u7136\u5165\u68a6", termEn:"to fall into a deep sleep", definition:"(h\u0101n r\u00e1n r\u00f9 m\u00e8ng) to fall into a deep sleep", definitionEn:"to fall into a deep sleep"},
+            {term:"\u9661\u5ced", termEn:"steep; precipitous", definition:"(d\u01d2u qi\u00e0o) steep; precipitous", definitionEn:"steep; precipitous"},
+            {term:"\u77d7\u7acb", termEn:"to stand upright; to tower", definition:"(ch\u00f9 l\u00ec) to stand upright; to tower", definitionEn:"to stand upright; to tower"}
           ],
           grammarPoints: [
             {point:'时间顺序',pointEn:'shí jiān shùn xù',example:'chronological order',exampleEn:'文章按时间顺序叙述红军翻越老山界的经过，从下午出发到第二天下午翻过山顶。',explanation:'The article narrates the Red Army crossing Laoshan Pass in chronological order, from departure in the afternoon to crossing the summit the next afternoon.',explanationEn:'按时间顺序组织材料，能清晰地展现事件的发展过程。'}
@@ -433,6 +475,13 @@ var TB_G7S2 = {
             {word:'覆灭',pinyin:'fù miè',en:'to be destroyed; to perish',sentence:'好使自己的主力不致覆灭。',sentenceEn:'So that their main forces would not be destroyed.'},
             {word:'豪迈',pinyin:'háo mài',en:'bold and heroic',sentence:'志愿军战士们有着豪迈的气概。',sentenceEn:'The volunteer soldiers possessed bold and heroic spirit.'},
             {word:'可歌可泣',pinyin:'kě gē kě qì',en:'worthy of song and tears; deeply moving',sentence:'这是许许多多可歌可泣的英雄人物创造出来的伟大胜利。',sentenceEn:'This was a great victory created by countless deeply moving heroes.'}
+          ],
+          footnotes: [
+            {term:"\u6df3\u6734", termEn:"simple and honest", definition:"(ch\u00fan p\u01d4) simple and honest", definitionEn:"simple and honest"},
+            {term:"\u575a\u97e7", termEn:"tenacious; resilient", definition:"(ji\u0101n r\u00e8n) tenacious; resilient", definitionEn:"tenacious; resilient"},
+            {term:"\u8986\u706d", termEn:"to be destroyed; to perish", definition:"(f\u00f9 mi\u00e8) to be destroyed; to perish", definitionEn:"to be destroyed; to perish"},
+            {term:"\u8c6a\u8fc8", termEn:"bold and heroic", definition:"(h\u00e1o m\u00e0i) bold and heroic", definitionEn:"bold and heroic"},
+            {term:"\u53ef\u6b4c\u53ef\u6ce3", termEn:"worthy of song and tears; deeply moving", definition:"(k\u011b g\u0113 k\u011b q\u00ec) worthy of song and tears; deeply moving", definitionEn:"worthy of song and tears; deeply moving"}
           ],
           grammarPoints: [
             {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'他们的品质是那样地纯洁和高尚，他们的意志是那样地坚韧和刚强，他们的气质是那样地淳朴和谦逊。',explanation:'Their character is so pure and noble, their willpower so tenacious and unyielding, their temperament so simple and modest.',explanationEn:'连续使用相同句式的排比，增强了语势，充分表达了作者对志愿军战士的赞美之情。'}
@@ -494,6 +543,13 @@ var TB_G7S2 = {
             {word:'斑斓',pinyin:'bān lán',en:'colorful; brilliant',sentence:'我想起斑斓的山雕，奔驰的鹿群。',sentenceEn:'I recall the brilliant mountain eagles and galloping herds of deer.'},
             {word:'默契',pinyin:'mò qì',en:'tacit understanding; unspoken agreement',sentence:'在热情的默契里它们彼此呼唤着。',sentenceEn:'In their passionate tacit understanding they call to each other.'}
           ],
+          footnotes: [
+            {term:"\u631a\u75db", termEn:"deeply sincere and painful", definition:"(zh\u00ec t\u00f2ng) deeply sincere and painful", definitionEn:"deeply sincere and painful"},
+            {term:"\u6cdb\u6ee5", termEn:"to flood; to overflow", definition:"(f\u00e0n l\u00e0n) to flood; to overflow", definitionEn:"to flood; to overflow"},
+            {term:"\u4e98\u53e4", termEn:"since time immemorial", definition:"(g\u00e8n g\u01d4) since time immemorial", definitionEn:"since time immemorial"},
+            {term:"\u6591\u6593", termEn:"colorful; brilliant", definition:"(b\u0101n l\u00e1n) colorful; brilliant", definitionEn:"colorful; brilliant"},
+            {term:"\u9ed8\u5951", termEn:"tacit understanding; unspoken agreement", definition:"(m\u00f2 q\u00ec) tacit understanding; unspoken agreement", definitionEn:"tacit understanding; unspoken agreement"}
+          ],
           author: "\u7aef\u6728\u857b\u826f",
           authorEn: "Duanmu Hongliang",
           source: "\u9009\u81ea\u300a\u4e2d\u56fd\u73b0\u4ee3\u6563\u6587\u9009\u300b\u3002",
@@ -543,6 +599,13 @@ var TB_G7S2 = {
             {word:'朔气',pinyin:'shuò qì',en:'cold air of the north',sentence:'朔气传金柝，寒光照铁衣。',sentenceEn:'Northern cold air carried the sound of the watchman’s clapper; cold light shone on iron armor.'},
             {word:'扑朔迷离',pinyin:'pū shuò mí lí',en:'confusing and hard to distinguish',sentence:'雄兔脚扑朔，雌兔眼迷离。',sentenceEn:'The male hare hops about, the female hare has misty eyes.'},
             {word:'策勋',pinyin:'cè xūn',en:'to record meritorious deeds',sentence:'策勋十二转，赏赐百千强。',sentenceEn:'Her meritorious deeds were recorded at the highest rank, and she was richly rewarded.'}
+          ],
+          footnotes: [
+            {term:"\u673a\u677c", termEn:"loom and shuttle", definition:"(j\u012b zh\u00f9) loom and shuttle\u3002\u4f8b\uff1a\u4e0d\u95fb\u673a\u677c\u58f0\uff0c\u552f\u95fb\u5973\u53f9\u606f\u3002", definitionEn:"loom and shuttle"},
+            {term:"\u620e\u673a", termEn:"military affairs; warfare", definition:"(r\u00f3ng j\u012b) military affairs; warfare\u3002\u4f8b\uff1a\u4e07\u91cc\u8d74\u620e\u673a\uff0c\u5173\u5c71\u5ea6\u82e5\u98de\u3002", definitionEn:"military affairs; warfare"},
+            {term:"\u6714\u6c14", termEn:"cold air of the north", definition:"(shu\u00f2 q\u00ec) cold air of the north\u3002\u4f8b\uff1a\u6714\u6c14\u4f20\u91d1\u67dd\uff0c\u5bd2\u5149\u7167\u94c1\u8863\u3002", definitionEn:"cold air of the north"},
+            {term:"\u6251\u6714\u8ff7\u79bb", termEn:"confusing and hard to distinguish", definition:"(p\u016b shu\u00f2 m\u00ed l\u00ed) confusing and hard to distinguish\u3002\u4f8b\uff1a\u96c4\u5154\u811a\u6251\u6714\uff0c\u96cc\u5154\u773c\u8ff7\u79bb\u3002", definitionEn:"confusing and hard to distinguish"},
+            {term:"\u7b56\u52cb", termEn:"to record meritorious deeds", definition:"(c\u00e8 x\u016bn) to record meritorious deeds\u3002\u4f8b\uff1a\u7b56\u52cb\u5341\u4e8c\u8f6c\uff0c\u8d4f\u8d50\u767e\u5343\u5f3a\u3002", definitionEn:"to record meritorious deeds"}
           ],
           grammarPoints: [
             {point:'互文',pointEn:'hù wén',example:'mutual text (a rhetorical device where two clauses complete each other)',exampleEn:'东市买骏马，西市买鞍鞯，南市买辔头，北市买长鞭。',explanation:'At the east market she bought a fine horse, at the west market a saddle pad, at the south market a bridle, at the north market a long whip.',explanationEn:'互文是古诗常用的修辞手法，上下句互相补充，合起来表达一个完整意思。'},
@@ -667,6 +730,13 @@ var TB_G7S2 = {
             {word:'疏懒',pinyin:'shū lǎn',en:'lazy and careless',sentence:'她生得黄胖而矮，虽然也并不十分疏懒。',sentenceEn:'She was stout, yellow-skinned, and short, though not particularly lazy and careless.'},
             {word:'震悚',pinyin:'zhèn sǒng',en:'to shudder with fear',sentence:'这又使我发生新的敬意了，别人不肯做的事她却能够做成，这实在令人震悚。',sentenceEn:'This made me feel new respect for her; she could accomplish what others would not do, which was truly astonishing.'}
           ],
+          footnotes: [
+            {term:"\u60f6\u6025", termEn:"anxious and flustered", definition:"(hu\u00e1ng j\u00ed) anxious and flustered", definitionEn:"anxious and flustered"},
+            {term:"\u8bd8\u95ee", termEn:"to question closely", definition:"(ji\u00e9 w\u00e8n) to question closely", definitionEn:"to question closely"},
+            {term:"\u6e34\u6155", termEn:"to long for; to yearn for", definition:"(k\u011b m\u00f9) to long for; to yearn for", definitionEn:"to long for; to yearn for"},
+            {term:"\u758f\u61d2", termEn:"lazy and careless", definition:"(sh\u016b l\u01cen) lazy and careless", definitionEn:"lazy and careless"},
+            {term:"\u9707\u609a", termEn:"to shudder with fear", definition:"(zh\u00e8n s\u01d2ng) to shudder with fear", definitionEn:"to shudder with fear"}
+          ],
           grammarPoints: [
             {point:'欲扬先抑',pointEn:'yù yáng xiān yì',example:'to praise by first criticizing',exampleEn:'作者先写阿长的种种缺点和令人讨厌的习惯，再写她为我买来山海经的感人之举。',explanation:'The author first writes about Ah Chang’s various shortcomings and annoying habits, then describes her touching act of buying the Classic of Mountains and Seas for him.',explanationEn:'先写不好的方面，再转折写好的方面，形成强烈对比，使人物形象更加丰满。'}
           ],
@@ -733,6 +803,13 @@ var TB_G7S2 = {
             {word:'愧怍',pinyin:'kuì zuò',en:'ashamed; feeling guilty',sentence:'几年过去了，我渐渐明白：那是一个幸运的人对一个不幸者的愧怍。',sentenceEn:'Years later, I gradually understood: it was the shame of a fortunate person toward an unfortunate one.'},
             {word:'滞笨',pinyin:'zhì bèn',en:'clumsy; dull',sentence:'他那直僵僵的身体好像不能坐，稍一弯曲就会散架似的，动作显得很滞笨。',sentenceEn:'His stiff body seemed unable to sit down, as if it would fall apart with the slightest bend, making his movements seem very clumsy.'}
           ],
+          footnotes: [
+            {term:"\u4f1b\u507b", termEn:"hunched; bent over", definition:"(y\u01d4 l\u01da) hunched; bent over", definitionEn:"hunched; bent over"},
+            {term:"\u60f6\u6050", termEn:"terrified; fearful", definition:"(hu\u00e1ng k\u01d2ng) terrified; fearful", definitionEn:"terrified; fearful"},
+            {term:"\u584c\u8d25", termEn:"dilapidated; run-down", definition:"(t\u0101 b\u00e0i) dilapidated; run-down", definitionEn:"dilapidated; run-down"},
+            {term:"\u6127\u600d", termEn:"ashamed; feeling guilty", definition:"(ku\u00ec zu\u00f2) ashamed; feeling guilty", definitionEn:"ashamed; feeling guilty"},
+            {term:"\u6ede\u7b28", termEn:"clumsy; dull", definition:"(zh\u00ec b\u00e8n) clumsy; dull", definitionEn:"clumsy; dull"}
+          ],
           author: "\u6768\u7edb",
           authorEn: "Yang Jiang",
           source: "\u9009\u81ea\u300a\u6768\u7edb\u6563\u6587\u300b\uff08\u4eba\u6c11\u6587\u5b66\u51fa\u7248\u793e1994\u5e74\u7248\uff09\u3002\u6709\u6539\u52a8\u3002",
@@ -790,6 +867,13 @@ var TB_G7S2 = {
             {word:'大庭广众',pinyin:'dà tíng guǎng zhòng',en:'in public; before a large audience',sentence:'父亲在大庭广众面前总觉得不自在。',sentenceEn:'Father always felt uneasy in public.'},
             {word:'微不足道',pinyin:'wēi bù zú dào',en:'insignificant; negligible',sentence:'在别人看来微不足道的台阶，却是父亲一生的追求。',sentenceEn:'The steps, negligible in the eyes of others, were the pursuit of father’s entire life.'}
           ],
+          footnotes: [
+            {term:"\u51f9\u51fc", termEn:"a hollow; a depression", definition:"(\u0101o d\u00e0ng) a hollow; a depression", definitionEn:"a hollow; a depression"},
+            {term:"\u5c34\u5c2c", termEn:"awkward; embarrassed", definition:"(g\u0101n g\u00e0) awkward; embarrassed", definitionEn:"awkward; embarrassed"},
+            {term:"\u70e6\u8e81", termEn:"irritable; restless", definition:"(f\u00e1n z\u00e0o) irritable; restless", definitionEn:"irritable; restless"},
+            {term:"\u5927\u5ead\u5e7f\u4f17", termEn:"in public; before a large audience", definition:"(d\u00e0 t\u00edng gu\u01ceng zh\u00f2ng) in public; before a large audience", definitionEn:"in public; before a large audience"},
+            {term:"\u5fae\u4e0d\u8db3\u9053", termEn:"insignificant; negligible", definition:"(w\u0113i b\u00f9 z\u00fa d\u00e0o) insignificant; negligible", definitionEn:"insignificant; negligible"}
+          ],
           author: "\u674e\u68ee\u7965",
           authorEn: "Li Senxiang",
           authorBio: {cn: "\u674e\u68ee\u7965\uff081956\u2014 \uff09\uff0c\u6d59\u6c5f\u8862\u5dde\u4eba\uff0c\u4f5c\u5bb6\u3002\u4f5c\u54c1\u4ee5\u519c\u6751\u751f\u6d3b\u4e3a\u9898\u6750\uff0c\u4ee3\u8868\u4f5c\u6709\u5c0f\u8bf4\u300a\u53f0\u9636\u300b\u300a\u5c0f\u5b66\u8001\u5e08\u300b\u7b49\u3002", en: "Li Senxiang (1956- ), from Quzhou, Zhejiang, is a writer. His works primarily focus on rural life. His representative works include the short stories The Steps and The Village Teacher."},
@@ -840,6 +924,13 @@ var TB_G7S2 = {
             {word:'忿然',pinyin:'fèn rán',en:'angrily; indignantly',sentence:'康肃忿然曰：尔安敢轻吾射。',sentenceEn:'Kangsu said angrily: How dare you belittle my archery.'},
             {word:'酌油',pinyin:'zhuó yóu',en:'to pour oil',sentence:'乃取一葫芦置于地，以钱覆其口，徐以杓酌油沥之。',sentenceEn:'He took a gourd, placed it on the ground, covered the opening with a coin, and slowly poured oil through it.'},
             {word:'熟能生巧',pinyin:'shú néng shēng qiǎo',en:'practice makes perfect',sentence:'我亦无他，惟手熟尔。',sentenceEn:'I too have no special skill; it is merely that my hand is practiced.'}
+          ],
+          footnotes: [
+            {term:"\u81ea\u77dc", termEn:"to be proud of oneself", definition:"(z\u00ec j\u012bn) to be proud of oneself\u3002\u4f8b\uff1a\u9648\u5eb7\u8083\u516c\u5584\u5c04\uff0c\u5f53\u4e16\u65e0\u53cc\uff0c\u516c\u4ea6\u4ee5\u6b64\u81ea\u77dc\u3002", definitionEn:"to be proud of oneself"},
+            {term:"\u9894\u4e4b", termEn:"to nod at it", definition:"(h\u00e0n zh\u012b) to nod at it\u3002\u4f8b\uff1a\u4f46\u5fae\u9894\u4e4b\u3002", definitionEn:"to nod at it"},
+            {term:"\u5fff\u7136", termEn:"angrily; indignantly", definition:"(f\u00e8n r\u00e1n) angrily; indignantly\u3002\u4f8b\uff1a\u5eb7\u8083\u5fff\u7136\u66f0\uff1a\u5c14\u5b89\u6562\u8f7b\u543e\u5c04\u3002", definitionEn:"angrily; indignantly"},
+            {term:"\u914c\u6cb9", termEn:"to pour oil", definition:"(zhu\u00f3 y\u00f3u) to pour oil\u3002\u4f8b\uff1a\u4e43\u53d6\u4e00\u846b\u82a6\u7f6e\u4e8e\u5730\uff0c\u4ee5\u94b1\u8986\u5176\u53e3\uff0c\u5f90\u4ee5\u6753\u914c\u6cb9\u6ca5\u4e4b\u3002", definitionEn:"to pour oil"},
+            {term:"\u719f\u80fd\u751f\u5de7", termEn:"practice makes perfect", definition:"(sh\u00fa n\u00e9ng sh\u0113ng qi\u01ceo) practice makes perfect\u3002\u4f8b\uff1a\u6211\u4ea6\u65e0\u4ed6\uff0c\u60df\u624b\u719f\u5c14\u3002", definitionEn:"practice makes perfect"}
           ],
           grammarPoints: [
             {point:'以小见大',pointEn:'yǐ xiǎo jiàn dà',example:'illustrating a big principle through a small matter',exampleEn:'卖油翁通过倒油这一小技巧说明了熟能生巧的道理。',explanation:'The oil seller uses the small skill of pouring oil to illustrate the principle that practice makes perfect.',explanationEn:'通过一件小事来揭示普遍道理，使文章说理深入浅出、生动有力。'}
@@ -963,6 +1054,13 @@ var TB_G7S2 = {
             {word:'诲人不倦',pinyin:'huì rén bù juàn',en:'to teach tirelessly',sentence:'叶老既是躬行君子，又能学而不厌，诲人不倦。',sentenceEn:'Mr. Ye was both a principled gentleman and someone who studied without weariness and taught without fatigue.'},
             {word:'躬行君子',pinyin:'gōng xíng jūn zǐ',en:'a gentleman who practices what he preaches',sentence:'躬行君子，则吾未之有得。',sentenceEn:'To be a gentleman who practices what he preaches — that I have not yet achieved.'}
           ],
+          footnotes: [
+            {term:"\u4fee\u6da6", termEn:"to revise and polish", definition:"(xi\u016b r\u00f9n) to revise and polish", definitionEn:"to revise and polish"},
+            {term:"\u5546\u914c", termEn:"to discuss and consider", definition:"(sh\u0101ng zhu\u00f3) to discuss and consider", definitionEn:"to discuss and consider"},
+            {term:"\u6073\u5207", termEn:"earnest; sincere", definition:"(k\u011bn qi\u00e8) earnest; sincere", definitionEn:"earnest; sincere"},
+            {term:"\u8bf2\u4eba\u4e0d\u5026", termEn:"to teach tirelessly", definition:"(hu\u00ec r\u00e9n b\u00f9 ju\u00e0n) to teach tirelessly", definitionEn:"to teach tirelessly"},
+            {term:"\u8eac\u884c\u541b\u5b50", termEn:"a gentleman who practices what he preaches", definition:"(g\u014dng x\u00edng j\u016bn z\u01d0) a gentleman who practices what he preaches", definitionEn:"a gentleman who practices what he preaches"}
+          ],
           author: "\u5f20\u4e2d\u884c",
           authorEn: "Zhang Zhongxing",
           source: "\u9009\u81ea\u300a\u8bfb\u4e66\u300b1990\u5e74\u7b2c1\u671f\u3002\u6709\u5220\u6539\u3002",
@@ -1018,6 +1116,13 @@ var TB_G7S2 = {
             {word:'竹篾',pinyin:'zhú miè',en:'bamboo strips',sentence:'草顶、竹篾泥墙的小屋出现在梨树林边。',sentenceEn:'A hut with a grass roof and bamboo-strip-and-mud walls appeared at the edge of the pear grove.'},
             {word:'恍然',pinyin:'huǎng rán',en:'suddenly realizing',sentence:'我们恍然大悟，原来小茅屋的主人不是一个人。',sentenceEn:'We suddenly realized that the owner of the little thatched hut was not just one person.'}
           ],
+          footnotes: [
+            {term:"\u9661\u5ced", termEn:"steep; precipitous", definition:"(d\u01d2u qi\u00e0o) steep; precipitous", definitionEn:"steep; precipitous"},
+            {term:"\u7b80\u964b", termEn:"crude; simple", definition:"(ji\u01cen l\u00f2u) crude; simple", definitionEn:"crude; simple"},
+            {term:"\u4fee\u847a", termEn:"to repair; to renovate", definition:"(xi\u016b q\u00ec) to repair; to renovate", definitionEn:"to repair; to renovate"},
+            {term:"\u7af9\u7bfe", termEn:"bamboo strips", definition:"(zh\u00fa mi\u00e8) bamboo strips", definitionEn:"bamboo strips"},
+            {term:"\u604d\u7136", termEn:"suddenly realizing", definition:"(hu\u01ceng r\u00e1n) suddenly realizing", definitionEn:"suddenly realizing"}
+          ],
           grammarPoints: [
             {point:'悬念设置',pointEn:'xuán niàn shè zhì',example:'creating suspense',exampleEn:'文章多次设置悬念：小茅屋的主人是谁？层层揭开，引人入胜。',explanation:'The article creates suspense multiple times: Who is the owner of the hut? The answer is revealed layer by layer, drawing the reader in.',explanationEn:'设置悬念能激发读者的阅读兴趣，增强文章的吸引力。'}
           ],
@@ -1065,6 +1170,13 @@ var TB_G7S2 = {
             {word:'如释重负',pinyin:'rú shì zhòng fù',en:'as if relieved of a heavy burden',sentence:'责任完了，如释重负。',sentenceEn:'When responsibility is fulfilled, one feels as if relieved of a heavy burden.'},
             {word:'任重道远',pinyin:'rèn zhòng dào yuǎn',en:'heavy responsibility and a long road ahead',sentence:'任重而道远，死而后已。',sentenceEn:'The responsibility is heavy and the road ahead is long; only death brings rest.'},
             {word:'悲天悯人',pinyin:'bēi tiān mǐn rén',en:'to feel sorrow for heaven and pity for humanity',sentence:'那诸圣诸佛的悲天悯人。',sentenceEn:'The compassion of all the sages and Buddhas who feel sorrow for heaven and pity for humanity.'}
+          ],
+          footnotes: [
+            {term:"\u5951\u7ea6", termEn:"contract; agreement", definition:"(q\u00ec yu\u0113) contract; agreement", definitionEn:"contract; agreement"},
+            {term:"\u8fbe\u89c2", termEn:"philosophical; broad-minded", definition:"(d\u00e1 gu\u0101n) philosophical; broad-minded", definitionEn:"philosophical; broad-minded"},
+            {term:"\u5982\u91ca\u91cd\u8d1f", termEn:"as if relieved of a heavy burden", definition:"(r\u00fa sh\u00ec zh\u00f2ng f\u00f9) as if relieved of a heavy burden", definitionEn:"as if relieved of a heavy burden"},
+            {term:"\u4efb\u91cd\u9053\u8fdc", termEn:"heavy responsibility and a long road ahead", definition:"(r\u00e8n zh\u00f2ng d\u00e0o yu\u01cen) heavy responsibility and a long road ahead", definitionEn:"heavy responsibility and a long road ahead"},
+            {term:"\u60b2\u5929\u60af\u4eba", termEn:"to feel sorrow for heaven and pity for humanity", definition:"(b\u0113i ti\u0101n m\u01d0n r\u00e9n) to feel sorrow for heaven and pity for humanity", definitionEn:"to feel sorrow for heaven and pity for humanity"}
           ],
           grammarPoints: [
             {point:'举例论证',pointEn:'jǔ lì lùn zhèng',example:'argument by example',exampleEn:'答应人办一件事没有办，欠了人的钱没有还，受了人的恩惠没有报答。',explanation:'Promising to do something for someone but not doing it, owing someone money but not repaying it, receiving someone’s kindness but not returning it.',explanationEn:'通过列举日常生活中的具体事例来证明论点，使抽象的道理变得具体可感。'}
@@ -1140,6 +1252,13 @@ var TB_G7S2 = {
             {word:'案牍',pinyin:'àn dú',en:'official documents',sentence:'无案牍之劳形。',sentenceEn:'Without official documents to weary the body.'},
             {word:'淤泥',pinyin:'yū ní',en:'mud; mire',sentence:'予独爱莲之出淤泥而不染。',sentenceEn:'I alone love the lotus for emerging from the mud without being stained.'},
             {word:'亵玩',pinyin:'xiè wán',en:'to treat disrespectfully; to toy with',sentence:'可远观而不可亵玩焉。',sentenceEn:'It can be admired from afar but not treated disrespectfully.'}
+          ],
+          footnotes: [
+            {term:"\u5fb7\u99a8", termEn:"virtuous; of noble character", definition:"(d\u00e9 x\u012bn) virtuous; of noble character\u3002\u4f8b\uff1a\u65af\u662f\u964b\u5ba4\uff0c\u60df\u543e\u5fb7\u99a8\u3002", definitionEn:"virtuous; of noble character"},
+            {term:"\u9e3f\u5112", termEn:"great scholar", definition:"(h\u00f3ng r\u00fa) great scholar\u3002\u4f8b\uff1a\u8c08\u7b11\u6709\u9e3f\u5112\uff0c\u5f80\u6765\u65e0\u767d\u4e01\u3002", definitionEn:"great scholar"},
+            {term:"\u6848\u724d", termEn:"official documents", definition:"(\u00e0n d\u00fa) official documents\u3002\u4f8b\uff1a\u65e0\u6848\u724d\u4e4b\u52b3\u5f62\u3002", definitionEn:"official documents"},
+            {term:"\u6de4\u6ce5", termEn:"mud; mire", definition:"(y\u016b n\u00ed) mud; mire\u3002\u4f8b\uff1a\u4e88\u72ec\u7231\u83b2\u4e4b\u51fa\u6de4\u6ce5\u800c\u4e0d\u67d3\u3002", definitionEn:"mud; mire"},
+            {term:"\u4eb5\u73a9", termEn:"to treat disrespectfully; to toy with", definition:"(xi\u00e8 w\u00e1n) to treat disrespectfully; to toy with\u3002\u4f8b\uff1a\u53ef\u8fdc\u89c2\u800c\u4e0d\u53ef\u4eb5\u73a9\u7109\u3002", definitionEn:"to treat disrespectfully; to toy with"}
           ],
           grammarPoints: [
             {point:'托物言志',pointEn:'tuō wù yán zhì',example:'expressing aspirations through objects',exampleEn:'刘禹锡借陋室表达安贫乐道的志趣；周敦颐借莲花比喻君子品格。',explanation:'Liu Yuxi uses the humble room to express his aspiration for contentment in poverty; Zhou Dunyi compares the lotus to the character of a gentleman.',explanationEn:'通过描写某一事物来表达作者的志向或品格，使抽象的品质借具体的事物得以呈现。'}
@@ -1229,6 +1348,13 @@ var TB_G7S2 = {
             {word:'伶仃',pinyin:'líng dīng',en:'lonely; solitary',sentence:'东一穗西一串伶仃地挂在树梢。',sentenceEn:'Solitary clusters hung here and there on the treetops.'},
             {word:'盘虬卧龙',pinyin:'pán qiú wò lóng',en:'coiling like a dragon',sentence:'紫色的瀑布遮住了粗壮的盘虬卧龙般的枝干。',sentenceEn:'The purple waterfall concealed the thick branches coiling like dragons.'}
           ],
+          footnotes: [
+            {term:"\u8ff8\u6e85", termEn:"to splash; to burst forth", definition:"(b\u00e8ng ji\u00e0n) to splash; to burst forth", definitionEn:"to splash; to burst forth"},
+            {term:"\u4f2b\u7acb", termEn:"to stand for a long time", definition:"(zh\u00f9 l\u00ec) to stand for a long time", definitionEn:"to stand for a long time"},
+            {term:"\u5fcd\u4fca\u4e0d\u7981", termEn:"unable to hold back a smile", definition:"(r\u011bn j\u00f9n b\u00f9 j\u012bn) unable to hold back a smile", definitionEn:"unable to hold back a smile"},
+            {term:"\u4f36\u4ec3", termEn:"lonely; solitary", definition:"(l\u00edng d\u012bng) lonely; solitary", definitionEn:"lonely; solitary"},
+            {term:"\u76d8\u866c\u5367\u9f99", termEn:"coiling like a dragon", definition:"(p\u00e1n qi\u00fa w\u00f2 l\u00f3ng) coiling like a dragon", definitionEn:"coiling like a dragon"}
+          ],
           grammarPoints: [
             {point:'借物抒情',pointEn:'jiè wù shū qíng',example:'expressing emotion through objects',exampleEn:'作者借紫藤萝花的由衰到盛，表达了对生命的感悟。',explanation:'The author uses the wisteria’s transition from decline to flourishing to express an insight about life.',explanationEn:'通过对具体事物的细致描写来表达作者的情感变化，使情感表达更加含蓄深沉。'}
           ],
@@ -1286,6 +1412,13 @@ var TB_G7S2 = {
             {word:'忏悔',pinyin:'chàn huǐ',en:'to repent; to confess',sentence:'我也不知道是什么怪缘故，只是常常自个儿忏悔。',sentenceEn:'I did not know the strange reason; I only often repented to myself.'},
             {word:'淅淅沥沥',pinyin:'xī xī lì lì',en:'the patter of light rain',sentence:'早晨起来，就淅淅沥沥的。',sentenceEn:'In the morning, a pattering rain had already begun.'},
             {word:'懊丧',pinyin:'ào sàng',en:'dejected; frustrated',sentence:'我深深懊丧对不起我的奶奶，对不起我的小桃树了。',sentenceEn:'I felt deeply dejected for letting down my grandmother and my little peach tree.'}
+          ],
+          footnotes: [
+            {term:"\u77dc\u6301", termEn:"reserved; restrained", definition:"(j\u012bn ch\u00ed) reserved; restrained", definitionEn:"reserved; restrained"},
+            {term:"\u7325\u7410", termEn:"shabby; insignificant-looking", definition:"(w\u011bi su\u01d2) shabby; insignificant-looking", definitionEn:"shabby; insignificant-looking"},
+            {term:"\u5fcf\u6094", termEn:"to repent; to confess", definition:"(ch\u00e0n hu\u01d0) to repent; to confess", definitionEn:"to repent; to confess"},
+            {term:"\u6dc5\u6dc5\u6ca5\u6ca5", termEn:"the patter of light rain", definition:"(x\u012b x\u012b l\u00ec l\u00ec) the patter of light rain", definitionEn:"the patter of light rain"},
+            {term:"\u61ca\u4e27", termEn:"dejected; frustrated", definition:"(\u00e0o s\u00e0ng) dejected; frustrated", definitionEn:"dejected; frustrated"}
           ],
           author: "\u8d3e\u5e73\u51f9",
           authorEn: "Jia Pingwa",
@@ -1360,6 +1493,13 @@ var TB_G7S2 = {
             {word:'伫立',pinyin:'zhù lì',en:'to stand for a long time',sentence:'我在那路口久久伫立。',sentenceEn:'I stood for a long time at that fork in the road.'},
             {word:'荒草萋萋',pinyin:'huāng cǎo qī qī',en:'overgrown with wild grass',sentence:'它荒草萋萋，十分幽寂。',sentenceEn:'It was overgrown with wild grass, very quiet and secluded.'}
           ],
+          footnotes: [
+            {term:"\u5fe7\u90c1", termEn:"melancholy; gloomy", definition:"(y\u014du y\u00f9) melancholy; gloomy", definitionEn:"melancholy; gloomy"},
+            {term:"\u77ac\u606f", termEn:"in an instant", definition:"(sh\u00f9n x\u012b) in an instant", definitionEn:"in an instant"},
+            {term:"\u6000\u604b", termEn:"nostalgic longing", definition:"(hu\u00e1i li\u00e0n) nostalgic longing", definitionEn:"nostalgic longing"},
+            {term:"\u4f2b\u7acb", termEn:"to stand for a long time", definition:"(zh\u00f9 l\u00ec) to stand for a long time", definitionEn:"to stand for a long time"},
+            {term:"\u8352\u8349\u840b\u840b", termEn:"overgrown with wild grass", definition:"(hu\u0101ng c\u01ceo q\u012b q\u012b) overgrown with wild grass", definitionEn:"overgrown with wild grass"}
+          ],
           author: "\u666e\u5e0c\u91d1 / \u5f17\u7f57\u65af\u7279",
           authorEn: "Pushkin / Frost",
           source: "\u300a\u5047\u5982\u751f\u6d3b\u6b3a\u9a97\u4e86\u4f60\u300b\u9009\u81ea\u300a\u666e\u5e0c\u91d1\u8bd7\u96c6\u300b\uff1b\u300a\u672a\u9009\u62e9\u7684\u8def\u300b\u9009\u81ea\u300a\u4e2d\u5916\u54f2\u7406\u8bd7\u7cbe\u9009\u300b",
@@ -1404,6 +1544,13 @@ var TB_G7S2 = {
             {word:'凌绝顶',pinyin:'líng jué dǐng',en:'to reach the highest peak',sentence:'会当凌绝顶，一览众山小。',sentenceEn:'I shall ascend the highest peak and see all other mountains appear small below.'},
             {word:'落红',pinyin:'luò hóng',en:'fallen flowers',sentence:'落红不是无情物，化作春泥更护花。',sentenceEn:'Fallen flowers are not heartless things; they turn into spring mud to nurture more flowers.'},
             {word:'柳暗花明',pinyin:'liǔ àn huā míng',en:'finding hope in a seemingly hopeless situation',sentence:'山重水复疑无路，柳暗花明又一村。',sentenceEn:'With mountains layered and streams winding, one doubts there is any road; then willows are dark and flowers bright, and another village appears.'}
+          ],
+          footnotes: [
+            {term:"\u6006\u7136", termEn:"sorrowful; desolate", definition:"(chu\u00e0ng r\u00e1n) sorrowful; desolate\u3002\u4f8b\uff1a\u72ec\u6006\u7136\u800c\u6d95\u4e0b\u3002", definitionEn:"sorrowful; desolate"},
+            {term:"\u9020\u5316", termEn:"nature; creation", definition:"(z\u00e0o hu\u00e0) nature; creation\u3002\u4f8b\uff1a\u9020\u5316\u949f\u795e\u79c0\uff0c\u9634\u9633\u5272\u660f\u6653\u3002", definitionEn:"nature; creation"},
+            {term:"\u51cc\u7edd\u9876", termEn:"to reach the highest peak", definition:"(l\u00edng ju\u00e9 d\u01d0ng) to reach the highest peak\u3002\u4f8b\uff1a\u4f1a\u5f53\u51cc\u7edd\u9876\uff0c\u4e00\u89c8\u4f17\u5c71\u5c0f\u3002", definitionEn:"to reach the highest peak"},
+            {term:"\u843d\u7ea2", termEn:"fallen flowers", definition:"(lu\u00f2 h\u00f3ng) fallen flowers\u3002\u4f8b\uff1a\u843d\u7ea2\u4e0d\u662f\u65e0\u60c5\u7269\uff0c\u5316\u4f5c\u6625\u6ce5\u66f4\u62a4\u82b1\u3002", definitionEn:"fallen flowers"},
+            {term:"\u67f3\u6697\u82b1\u660e", termEn:"finding hope in a seemingly hopeless situation", definition:"(li\u01d4 \u00e0n hu\u0101 m\u00edng) finding hope in a seemingly hopeless situation\u3002\u4f8b\uff1a\u5c71\u91cd\u6c34\u590d\u7591\u65e0\u8def\uff0c\u67f3\u6697\u82b1\u660e\u53c8\u4e00\u6751\u3002", definitionEn:"finding hope in a seemingly hopeless situation"}
           ],
           grammarPoints: [
             {point:'借景抒情',pointEn:'jiè jǐng shū qíng',example:'expressing feelings through scenery',exampleEn:'会当凌绝顶，一览众山小。杜甫借泰山之景抒发远大志向。',explanation:'I shall ascend the highest peak and see all other mountains appear small. Du Fu expresses his lofty ambitions through the scenery of Mount Tai.',explanationEn:'诗人通过描写自然景物来寄托自己的情感和志向，情景交融。'},
@@ -1518,6 +1665,13 @@ var TB_G7S2 = {
             {word:'凛冽',pinyin:'lǐn liè',en:'bitterly cold',sentence:'在他们身后刮来凛冽的寒风。',sentenceEn:'Behind them blew a bitterly cold wind.'},
             {word:'吞噬',pinyin:'tūn shì',en:'to devour; to engulf',sentence:'刺骨的寒冷吞噬着他们已经疲惫不堪的躯体。',sentenceEn:'The bone-chilling cold devoured their exhausted bodies.'}
           ],
+          footnotes: [
+            {term:"\u6bdb\u9aa8\u609a\u7136", termEn:"hair-raising; terrifying", definition:"(m\u00e1o g\u01d4 s\u01d2ng r\u00e1n) hair-raising; terrifying", definitionEn:"hair-raising; terrifying"},
+            {term:"\u600f\u600f\u4e0d\u4e50", termEn:"discontented and unhappy", definition:"(y\u00e0ng y\u00e0ng b\u00f9 l\u00e8) discontented and unhappy", definitionEn:"discontented and unhappy"},
+            {term:"\u5fe7\u5fc3\u5fe1\u5fe1", termEn:"deeply worried", definition:"(y\u014du x\u012bn ch\u014dng ch\u014dng) deeply worried", definitionEn:"deeply worried"},
+            {term:"\u51db\u51bd", termEn:"bitterly cold", definition:"(l\u01d0n li\u00e8) bitterly cold", definitionEn:"bitterly cold"},
+            {term:"\u541e\u566c", termEn:"to devour; to engulf", definition:"(t\u016bn sh\u00ec) to devour; to engulf", definitionEn:"to devour; to engulf"}
+          ],
           grammarPoints: [
             {point:'传记文学',pointEn:'zhuàn jì wén xué',example:'biographical literature',exampleEn:'茨威格以文学的笔法记述斯科特探险队的悲壮故事，既有历史的真实又有文学的感染力。',explanation:'Zweig recounts the heroic tragedy of Scott’s expedition with literary technique, combining historical truth with literary emotional power.',explanationEn:'传记文学将真实事件与文学手法结合，在尊重事实的基础上进行艺术加工。'}
           ],
@@ -1590,6 +1744,13 @@ var TB_G7S2 = {
             {word:'耐人寻味',pinyin:'nài rén xún wèi',en:'thought-provoking; intriguing',sentence:'我甚至觉得这个过程很耐人寻味。',sentenceEn:'I even found this process quite thought-provoking.'},
             {word:'舷窗',pinyin:'xián chuāng',en:'porthole',sentence:'看到舷窗玻璃开始出现裂缝，我紧张了。',sentenceEn:'Seeing cracks begin to appear on the porthole glass, I became nervous.'}
           ],
+          footnotes: [
+            {term:"\u5171\u632f", termEn:"resonance; vibration", definition:"(g\u00f2ng zh\u00e8n) resonance; vibration", definitionEn:"resonance; vibration"},
+            {term:"\u5c4f\u606f\u51dd\u795e", termEn:"to hold one\u2019s breath and concentrate", definition:"(b\u01d0ng x\u012b n\u00edng sh\u00e9n) to hold one\u2019s breath and concentrate", definitionEn:"to hold one\u2019s breath and concentrate"},
+            {term:"\u4fef\u77b0", termEn:"to look down from above", definition:"(f\u01d4 k\u00e0n) to look down from above", definitionEn:"to look down from above"},
+            {term:"\u8010\u4eba\u5bfb\u5473", termEn:"thought-provoking; intriguing", definition:"(n\u00e0i r\u00e9n x\u00fan w\u00e8i) thought-provoking; intriguing", definitionEn:"thought-provoking; intriguing"},
+            {term:"\u8237\u7a97", termEn:"porthole", definition:"(xi\u00e1n chu\u0101ng) porthole", definitionEn:"porthole"}
+          ],
           grammarPoints: [
             {point:'科学精神',pointEn:'kē xué jīng shén',example:'scientific spirit',exampleEn:'杨利伟详细描述了飞行中的每一个细节，体现了航天员严谨的科学精神。',explanation:'Yang Liwei described every detail of the flight in detail, reflecting the rigorous scientific spirit of astronauts.',explanationEn:'对航天员来说最基本的要求是严谨，文章处处体现了科学的严谨态度。'}
           ],
@@ -1654,6 +1815,13 @@ var TB_G7S2 = {
             {word:'闷热',pinyin:'mēn rè',en:'stuffy and hot',sentence:'她在地心的世界是那个活动范围不到十立方米的闷热的控制舱。',sentenceEn:'Her world at the center of the earth was a stuffy, hot control cabin of less than ten cubic meters.'},
             {word:'迟钝',pinyin:'chí dùn',en:'dull; slow to react',sentence:'我对这个世界的美已感到有些迟钝了。',sentenceEn:'I had become somewhat dull to the beauty of this world.'}
           ],
+          footnotes: [
+            {term:"\u4f20\u611f", termEn:"sensor; sensory transmission", definition:"(chu\u00e1n g\u01cen) sensor; sensory transmission", definitionEn:"sensor; sensory transmission"},
+            {term:"\u538b\u6291", termEn:"oppressive; stifling", definition:"(y\u0101 y\u00ec) oppressive; stifling", definitionEn:"oppressive; stifling"},
+            {term:"\u8499\u8499", termEn:"misty; hazy", definition:"(m\u00e9ng m\u00e9ng) misty; hazy", definitionEn:"misty; hazy"},
+            {term:"\u95f7\u70ed", termEn:"stuffy and hot", definition:"(m\u0113n r\u00e8) stuffy and hot", definitionEn:"stuffy and hot"},
+            {term:"\u8fdf\u949d", termEn:"dull; slow to react", definition:"(ch\u00ed d\u00f9n) dull; slow to react", definitionEn:"dull; slow to react"}
+          ],
           author: "\u5218\u6148\u6b23",
           authorEn: "Liu Cixin",
           source: "\u672c\u6587\u7531\u4f5c\u8005\u6839\u636e\u81ea\u5df1\u7684\u540c\u540d\u5c0f\u8bf4\u6539\u5199",
@@ -1716,6 +1884,13 @@ var TB_G7S2 = {
             {word:'更互',pinyin:'gēng hù',en:'alternately; in turn',sentence:'更互用之，瞬息可就。',sentenceEn:'Using them alternately, the work could be completed in an instant.'},
             {word:'神速',pinyin:'shén sù',en:'amazingly fast',sentence:'若印数十百千本，则极为神速。',sentenceEn:'If printing tens, hundreds, or thousands of copies, it was amazingly fast.'},
             {word:'宝藏',pinyin:'bǎo cáng',en:'to treasure; to preserve as a treasure',sentence:'昇死，其印为余群从所得，至今宝藏。',sentenceEn:'After Sheng died, his type was obtained by my nephews and cousins and has been treasured ever since.'}
+          ],
+          footnotes: [
+            {term:"\u5e03\u8863", termEn:"commoner; person of humble origin", definition:"(b\u00f9 y\u012b) commoner; person of humble origin\u3002\u4f8b\uff1a\u5e86\u5386\u4e2d\uff0c\u6709\u5e03\u8863\u6bd5\u6607\uff0c\u53c8\u4e3a\u6d3b\u677f\u3002", definitionEn:"commoner; person of humble origin"},
+            {term:"\u80f6\u6ce5", termEn:"adhesive clay", definition:"(ji\u0101o n\u00ed) adhesive clay\u3002\u4f8b\uff1a\u5176\u6cd5\uff1a\u7528\u80f6\u6ce5\u523b\u5b57\u3002", definitionEn:"adhesive clay"},
+            {term:"\u66f4\u4e92", termEn:"alternately; in turn", definition:"(g\u0113ng h\u00f9) alternately; in turn\u3002\u4f8b\uff1a\u66f4\u4e92\u7528\u4e4b\uff0c\u77ac\u606f\u53ef\u5c31\u3002", definitionEn:"alternately; in turn"},
+            {term:"\u795e\u901f", termEn:"amazingly fast", definition:"(sh\u00e9n s\u00f9) amazingly fast\u3002\u4f8b\uff1a\u82e5\u5370\u6570\u5341\u767e\u5343\u672c\uff0c\u5219\u6781\u4e3a\u795e\u901f\u3002", definitionEn:"amazingly fast"},
+            {term:"\u5b9d\u85cf", termEn:"to treasure; to preserve as a treasure", definition:"(b\u01ceo c\u00e1ng) to treasure; to preserve as a treasure\u3002\u4f8b\uff1a\u6607\u6b7b\uff0c\u5176\u5370\u4e3a\u4f59\u7fa4\u4ece\u6240\u5f97\uff0c\u81f3\u4eca\u5b9d\u85cf\u3002", definitionEn:"to treasure; to preserve as a treasure"}
           ],
           grammarPoints: [
             {point:'说明顺序',pointEn:'shuō míng shùn xù',example:'expository order',exampleEn:'文章按照制字、排版、印刷的程序逐层说明活字印刷术。',explanation:'The article explains movable type printing layer by layer in the order of making type, typesetting, and printing.',explanationEn:'说明文常按照逻辑顺序或工序流程来组织内容，使复杂事物条理清楚。'}

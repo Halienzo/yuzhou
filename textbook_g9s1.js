@@ -28,6 +28,13 @@ units: [
         {word:'风骚',pinyin:'fēng sāo',en:'literary talent; poetic grace',sentence:'稍逊风骚。',sentenceEn:'Slightly lacking in literary talent.'},
         {word:'天骄',pinyin:'tiān jiāo',en:'heaven-favored one; proud son of heaven',sentence:'一代天骄，成吉思汗，只识弯弓射大雕。',sentenceEn:'The heaven-favored one, Genghis Khan, only knew how to bend the bow and shoot eagles.'}
       ],
+      footnotes: [
+        {term:"\u83bd\u83bd", termEn:"vast and boundless", definition:"(m\u01ceng m\u01ceng) vast and boundless", definitionEn:"vast and boundless"},
+        {term:"\u5996\u5a06", termEn:"enchanting; charming", definition:"(y\u0101o r\u00e1o) enchanting; charming", definitionEn:"enchanting; charming"},
+        {term:"\u6298\u8170", termEn:"to bow down; to submit", definition:"(zh\u00e9 y\u0101o) to bow down; to submit", definitionEn:"to bow down; to submit"},
+        {term:"\u98ce\u9a9a", termEn:"literary talent; poetic grace", definition:"(f\u0113ng s\u0101o) literary talent; poetic grace", definitionEn:"literary talent; poetic grace"},
+        {term:"\u5929\u9a84", termEn:"heaven-favored one; proud son of heaven", definition:"(ti\u0101n ji\u0101o) heaven-favored one; proud son of heaven", definitionEn:"heaven-favored one; proud son of heaven"}
+      ],
       grammarPoints: [
         {point:'词的上下阕',pointEn:'cí de shàng xià què',example:'upper and lower stanzas of ci poetry',exampleEn:'上阕写北国雪景，下阕评古今英雄。',explanation:'The upper stanza describes northern snowscapes; the lower stanza comments on heroes past and present.',explanationEn:'词分上下阕，上阕多写景叙事，下阕多抒情议论，二者相互呼应，共同表达主题。'},
         {point:'借景抒情',pointEn:'jiè jǐng shū qíng',example:'expressing emotion through scenery',exampleEn:'望长城内外，惟余莽莽；大河上下，顿失滔滔。',explanation:'Looking within and beyond the Great Wall, nothing but vastness; up and down the Yellow River, the surging torrents suddenly frozen.',explanationEn:'通过描写壮丽的自然景观来表达内心豪迈的情感，实现情景交融。'}
@@ -80,6 +87,13 @@ units: [
         {word:'沉甸甸',pinyin:'chén diàn diàn',en:'heavy; weighty',sentence:'人民的心沉甸甸的。',sentenceEn:'The hearts of the people are heavy with grief.'},
         {word:'踪迹',pinyin:'zōng jì',en:'trace; whereabouts',sentence:'周总理，我们的好总理，你在哪里啊，你在哪里？',sentenceEn:'Premier Zhou, our beloved premier, where are you, where are you?'},
         {word:'嘱咐',pinyin:'zhǔ fù',en:'to urge; to exhort',sentence:'想起你昨天的嘱咐。',sentenceEn:'Remembering your exhortation from yesterday.'}
+      ],
+      footnotes: [
+        {term:"\u7bdd\u706b", termEn:"bonfire; campfire", definition:"(g\u014du hu\u01d2) bonfire; campfire", definitionEn:"bonfire; campfire"},
+        {term:"\u5bbf\u8425", termEn:"to camp; to bivouac", definition:"(s\u00f9 y\u00edng) to camp; to bivouac", definitionEn:"to camp; to bivouac"},
+        {term:"\u6c89\u7538\u7538", termEn:"heavy; weighty", definition:"(ch\u00e9n di\u00e0n di\u00e0n) heavy; weighty", definitionEn:"heavy; weighty"},
+        {term:"\u8e2a\u8ff9", termEn:"trace; whereabouts", definition:"(z\u014dng j\u00ec) trace; whereabouts", definitionEn:"trace; whereabouts"},
+        {term:"\u5631\u5490", termEn:"to urge; to exhort", definition:"(zh\u01d4 f\u00f9) to urge; to exhort", definitionEn:"to urge; to exhort"}
       ],
       author: "\u67ef\u5ca9", authorEn: "Ke Yan",
       authorBio: {cn:"\u67ef\u5ca9\uff081929\u20142011\uff09\uff0c\u672c\u540d\u51af\u6052\uff0c\u6ee1\u65cf\uff0c\u539f\u7c4d\u5e7f\u4e1c\u5357\u6d77\uff0c\u751f\u4e8e\u6cb3\u5357\u90d1\u5dde\uff0c\u5f53\u4ee3\u4f5c\u5bb6\u3001\u8bd7\u4eba\u3002\u4ee3\u8868\u4f5c\u6709\u300a\u5468\u603b\u7406\uff0c\u4f60\u5728\u54ea\u91cc\u300b\u300a\u5bfb\u627e\u56de\u6765\u7684\u4e16\u754c\u300b\u7b49\u3002", en:"Ke Yan (1929\u20132011), pen name of Feng Heng, Manchu, born in Zhengzhou, Henan. Contemporary writer and poet. Major works include Premier Zhou, Where Are You and The World Found Again."},
@@ -138,6 +152,13 @@ units: [
         {word:'黎明',pinyin:'lí míng',en:'dawn',sentence:'那来自林间的无比温柔的黎明。',sentenceEn:'That incomparably tender dawn coming from the woods.'},
         {word:'腐烂',pinyin:'fǔ làn',en:'to decay; to rot',sentence:'然后我死了，连羽毛也腐烂在土地里面。',sentenceEn:'Then I die, and even my feathers decay in the soil.'}
       ],
+      footnotes: [
+        {term:"\u5636\u54d1", termEn:"hoarse", definition:"(s\u012b y\u01ce) hoarse", definitionEn:"hoarse"},
+        {term:"\u6c79\u6d8c", termEn:"surging; turbulent", definition:"(xi\u014dng y\u01d2ng) surging; turbulent", definitionEn:"surging; turbulent"},
+        {term:"\u60b2\u6124", termEn:"grief and indignation", definition:"(b\u0113i f\u00e8n) grief and indignation", definitionEn:"grief and indignation"},
+        {term:"\u9ece\u660e", termEn:"dawn", definition:"(l\u00ed m\u00edng) dawn", definitionEn:"dawn"},
+        {term:"\u8150\u70c2", termEn:"to decay; to rot", definition:"(f\u01d4 l\u00e0n) to decay; to rot", definitionEn:"to decay; to rot"}
+      ],
       grammarPoints: [
         {point:'象征手法',pointEn:'xiàng zhēng shǒu fǎ',example:'symbolism',exampleEn:'假如我是一只鸟。',explanation:'If I were a bird.',explanationEn:'诗人用鸟象征自己，用土地象征祖国，通过鸟对土地的深情来表达对祖国的热爱。'}
       ],
@@ -178,6 +199,13 @@ units: [
         {word:'坟墓',pinyin:'fén mù',en:'grave; tomb',sentence:'后来啊，乡愁是一方矮矮的坟墓。',sentenceEn:'Later, nostalgia was a low, low grave.'},
         {word:'窄窄',pinyin:'zhǎi zhǎi',en:'narrow',sentence:'长大后，乡愁是一张窄窄的船票。',sentenceEn:'After growing up, nostalgia was a narrow boat ticket.'},
         {word:'这头',pinyin:'zhè tóu',en:'this end; this side',sentence:'我在这头，大陆在那头。',sentenceEn:'I am on this side, the mainland is on that side.'}
+      ],
+      footnotes: [
+        {term:"\u90ae\u7968", termEn:"postage stamp", definition:"(y\u00f3u pi\u00e0o) postage stamp", definitionEn:"postage stamp"},
+        {term:"\u6d77\u5ce1", termEn:"strait; channel", definition:"(h\u01cei xi\u00e1) strait; channel", definitionEn:"strait; channel"},
+        {term:"\u575f\u5893", termEn:"grave; tomb", definition:"(f\u00e9n m\u00f9) grave; tomb", definitionEn:"grave; tomb"},
+        {term:"\u7a84\u7a84", termEn:"narrow", definition:"(zh\u01cei zh\u01cei) narrow", definitionEn:"narrow"},
+        {term:"\u8fd9\u5934", termEn:"this end; this side", definition:"(zh\u00e8 t\u00f3u) this end; this side", definitionEn:"this end; this side"}
       ],
       grammarPoints: [
         {point:'意象叠加',pointEn:'yì xiàng dié jiā',example:'layering of imagery',exampleEn:'邮票、船票、坟墓、海峡四个意象层层递进。',explanation:'The four images — stamp, ticket, grave, strait — progress layer by layer.',explanationEn:'诗歌通过四个具体意象的叠加，将个人乡愁从亲情思念升华为家国情怀。'}
@@ -222,6 +250,13 @@ units: [
         {word:'娉婷',pinyin:'pīng tíng',en:'graceful and slender',sentence:'那轻，那娉婷。',sentenceEn:'That lightness, that grace.'},
         {word:'冠冕',pinyin:'guān miǎn',en:'crown; coronet',sentence:'你是一树一树的花开，是燕在梁间呢喃，你是爱，是暖，是希望，你是人间的四月天。',sentenceEn:'You are blossoms opening tree by tree, swallows murmuring between the beams; you are love, warmth, and hope; you are April on earth.'},
         {word:'呢喃',pinyin:'ní nán',en:'to murmur; to whisper',sentence:'是燕在梁间呢喃。',sentenceEn:'Swallows murmuring between the beams.'}
+      ],
+      footnotes: [
+        {term:"\u8f7b\u7075", termEn:"light and graceful", definition:"(q\u012bng l\u00edng) light and graceful", definitionEn:"light and graceful"},
+        {term:"\u9c9c\u598d", termEn:"fresh and beautiful", definition:"(xi\u0101n y\u00e1n) fresh and beautiful", definitionEn:"fresh and beautiful"},
+        {term:"\u5a09\u5a77", termEn:"graceful and slender", definition:"(p\u012bng t\u00edng) graceful and slender", definitionEn:"graceful and slender"},
+        {term:"\u51a0\u5195", termEn:"crown; coronet", definition:"(gu\u0101n mi\u01cen) crown; coronet", definitionEn:"crown; coronet"},
+        {term:"\u5462\u5583", termEn:"to murmur; to whisper", definition:"(n\u00ed n\u00e1n) to murmur; to whisper", definitionEn:"to murmur; to whisper"}
       ],
       author: "\u6797\u5fbd\u56e0", authorEn: "Lin Huiyin",
       authorBio: {cn:"\u6797\u5fbd\u56e0\uff081904\u20141955\uff09\uff0c\u798f\u5efa\u95fd\u4faf\uff08\u4eca\u798f\u5dde\uff09\u4eba\uff0c\u5efa\u7b51\u5b66\u5bb6\u3001\u6587\u5b66\u5bb6\u3002\u5979\u662f\u4e2d\u56fd\u7b2c\u4e00\u4f4d\u5973\u6027\u5efa\u7b51\u5b66\u5bb6\uff0c\u53c2\u4e0e\u4e86\u56fd\u5fbd\u548c\u4eba\u6c11\u82f1\u96c4\u7eaa\u5ff5\u7891\u7684\u8bbe\u8ba1\u3002", en:"Lin Huiyin (1904\u20131955), from Minhou (now Fuzhou), Fujian. Architect and literary figure. China\u2019s first female architect; she participated in the design of the national emblem and the Monument to the People\u2019s Heroes."},
@@ -269,6 +304,13 @@ units: [
         {word:'摇曳',pinyin:'yáo yè',en:'to sway; to flutter',sentence:'远远的土丘上闪着哀怜的翠光，一片蓬蒿在摇曳。',sentenceEn:'On distant hills gleams a pitiful emerald light; a patch of mugwort sways.'},
         {word:'蓬蒿',pinyin:'péng hāo',en:'mugwort; wild grass',sentence:'一片蓬蒿在摇曳。',sentenceEn:'A patch of mugwort sways.'},
         {word:'飘逸',pinyin:'piāo yì',en:'graceful and flowing',sentence:'那飘逸的云朵在天空中变幻。',sentenceEn:'The graceful clouds shift and change in the sky.'}
+      ],
+      footnotes: [
+        {term:"\u4e30\u6da6", termEn:"rich and moist", definition:"(f\u0113ng r\u00f9n) rich and moist", definitionEn:"rich and moist"},
+        {term:"\u6c89\u9189", termEn:"intoxicated; deeply immersed", definition:"(ch\u00e9n zu\u00ec) intoxicated; deeply immersed", definitionEn:"intoxicated; deeply immersed"},
+        {term:"\u6447\u66f3", termEn:"to sway; to flutter", definition:"(y\u00e1o y\u00e8) to sway; to flutter", definitionEn:"to sway; to flutter"},
+        {term:"\u84ec\u84bf", termEn:"mugwort; wild grass", definition:"(p\u00e9ng h\u0101o) mugwort; wild grass", definitionEn:"mugwort; wild grass"},
+        {term:"\u98d8\u9038", termEn:"graceful and flowing", definition:"(pi\u0101o y\u00ec) graceful and flowing", definitionEn:"graceful and flowing"}
       ],
       author: "\u7a46\u65e6", authorEn: "Mu Dan",
       authorBio: {cn:"\u7a46\u65e6\uff081918\u20141977\uff09\uff0c\u539f\u540d\u67e5\u826f\u94ee\uff0c\u751f\u4e8e\u5929\u6d25\uff0c\u7956\u7c4d\u6d59\u6c5f\u6d77\u5b81\uff0c\u8bd7\u4eba\u3001\u7ffb\u8bd1\u5bb6\u3002\u662f\u201c\u4e5d\u53f6\u8bd7\u6d3e\u201d\u7684\u4ee3\u8868\u4eba\u7269\uff0c\u7ffb\u8bd1\u6709\u666e\u5e0c\u91d1\u3001\u62dc\u4f26\u7b49\u4eba\u7684\u4f5c\u54c1\u3002", en:"Mu Dan (1918\u20131977), original name Zha Liangzheng, born in Tianjin, ancestral home in Haining, Zhejiang. Poet and translator. A leading figure of the Nine Leaves school; translated works of Pushkin, Byron, and others."},
@@ -367,6 +409,13 @@ units: [
         {word:'强聒不舍',pinyin:'qiáng guō bù shě',en:'to keep chattering',sentence:'但我确信这话是对的，虽然强聒不舍。',sentenceEn:'But I firmly believe this is correct, even if I keep insisting.'},
         {word:'旁骛',pinyin:'páng wù',en:'to be distracted; to pursue other things',sentence:'坐这山，望那山，一事无成。专心致志不可旁骛。',sentenceEn:'Sitting on this mountain, gazing at that one, accomplishing nothing. One must focus and not be distracted.'}
       ],
+      footnotes: [
+        {term:"\u656c\u4e1a", termEn:"devotion to work; professionalism", definition:"(j\u00ecng y\u00e8) devotion to work; professionalism", definitionEn:"devotion to work; professionalism"},
+        {term:"\u4eb5\u6e0e", termEn:"to profane; to desecrate", definition:"(xi\u00e8 d\u00fa) to profane; to desecrate", definitionEn:"to profane; to desecrate"},
+        {term:"\u65ad\u7ae0\u53d6\u4e49", termEn:"to quote out of context", definition:"(du\u00e0n zh\u0101ng q\u01d4 y\u00ec) to quote out of context", definitionEn:"to quote out of context"},
+        {term:"\u5f3a\u8052\u4e0d\u820d", termEn:"to keep chattering", definition:"(qi\u00e1ng gu\u014d b\u00f9 sh\u011b) to keep chattering", definitionEn:"to keep chattering"},
+        {term:"\u65c1\u9a9b", termEn:"to be distracted; to pursue other things", definition:"(p\u00e1ng w\u00f9) to be distracted; to pursue other things", definitionEn:"to be distracted; to pursue other things"}
+      ],
       grammarPoints: [
         {point:'举例论证',pointEn:'jǔ lì lùn zhèng',example:'argumentation by example',exampleEn:'百丈禅师每日必做事，否则不吃饭。',explanation:'Master Baizhang insisted on doing work every day, or else he would not eat.',explanationEn:'通过引用百丈禅师、佝偻丈人等具体事例来支持敬业乐业的观点，增强说服力。'},
         {point:'引用论证',pointEn:'yǐn yòng lùn zhèng',example:'argumentation by quotation',exampleEn:'主一无适便是敬。——朱熹',explanation:'To focus on one thing without distraction is devotion. — Zhu Xi',explanationEn:'文章大量引用儒家经典和名人名言，如孔子、朱熹、曾国藩等人的话，增加论证的权威性。'}
@@ -436,6 +485,13 @@ units: [
         {word:'赃物',pinyin:'zāng wù',en:'stolen goods; loot',sentence:'将受到历史制裁的这两个强盗，一个叫法兰西，一个叫英吉利。',sentenceEn:'The two bandits who will face the judgment of history: one is called France, the other is called England.'},
         {word:'制裁',pinyin:'zhì cái',en:'to sanction; judgment',sentence:'将受到历史制裁的这两个强盗。',sentenceEn:'These two bandits will face the judgment of history.'}
       ],
+      footnotes: [
+        {term:"\u8d5e\u8a89", termEn:"praise; acclaim", definition:"(z\u00e0n y\u00f9) praise; acclaim", definitionEn:"praise; acclaim"},
+        {term:"\u5178\u8303", termEn:"exemplar; model", definition:"(di\u01cen f\u00e0n) exemplar; model", definitionEn:"exemplar; model"},
+        {term:"\u77a5\u89c1", termEn:"to catch a glimpse", definition:"(pi\u0113 ji\u00e0n) to catch a glimpse", definitionEn:"to catch a glimpse"},
+        {term:"\u8d43\u7269", termEn:"stolen goods; loot", definition:"(z\u0101ng w\u00f9) stolen goods; loot", definitionEn:"stolen goods; loot"},
+        {term:"\u5236\u88c1", termEn:"to sanction; judgment", definition:"(zh\u00ec c\u00e1i) to sanction; judgment", definitionEn:"to sanction; judgment"}
+      ],
       grammarPoints: [
         {point:'反语讽刺',pointEn:'fǎn yǔ fěng cì',example:'verbal irony and sarcasm',exampleEn:'丰功伟绩！收获巨大！两个胜利者装满了口袋。',explanation:'What a great achievement! What enormous gains! Two victors with pockets stuffed full.',explanationEn:'雨果用反语将侵略者的所谓"胜利"写成"丰功伟绩"，强烈讽刺了英法联军的强盗行为。'}
       ],
@@ -496,6 +552,13 @@ units: [
         {word:'矫揉造作',pinyin:'jiǎo róu zào zuò',en:'affected; artificial',sentence:'真正有教养的人从不矫揉造作。',sentenceEn:'A truly well-mannered person is never affected or artificial.'},
         {word:'絮絮叨叨',pinyin:'xù xù dāo dāo',en:'to prattle on and on',sentence:'请原谅我絮絮叨叨说了这么多。',sentenceEn:'Please forgive me for prattling on so much.'},
         {word:'彬彬有礼',pinyin:'bīn bīn yǒu lǐ',en:'refined and courteous',sentence:'彬彬有礼的人在社会交往中如鱼得水。',sentenceEn:'A refined and courteous person navigates social interactions with ease.'}
+      ],
+      footnotes: [
+        {term:"\u6db5\u517b", termEn:"self-cultivation; inner refinement", definition:"(h\u00e1n y\u01ceng) self-cultivation; inner refinement", definitionEn:"self-cultivation; inner refinement"},
+        {term:"\u606a\u5b88", termEn:"to strictly observe", definition:"(k\u00e8 sh\u01d2u) to strictly observe", definitionEn:"to strictly observe"},
+        {term:"\u77eb\u63c9\u9020\u4f5c", termEn:"affected; artificial", definition:"(ji\u01ceo r\u00f3u z\u00e0o zu\u00f2) affected; artificial", definitionEn:"affected; artificial"},
+        {term:"\u7d6e\u7d6e\u53e8\u53e8", termEn:"to prattle on and on", definition:"(x\u00f9 x\u00f9 d\u0101o d\u0101o) to prattle on and on", definitionEn:"to prattle on and on"},
+        {term:"\u5f6c\u5f6c\u6709\u793c", termEn:"refined and courteous", definition:"(b\u012bn b\u012bn y\u01d2u l\u01d0) refined and courteous", definitionEn:"refined and courteous"}
       ],
       author: "\u5229\u54c8\u4e54\u592b", authorEn: "Dmitry Likhachov",
       authorBio: {cn:"\u5fb7\u7c73\u7279\u91cc\u00b7\u8c22\u5c14\u76d6\u8036\u7ef4\u5947\u00b7\u5229\u54c8\u4e54\u592b\uff081906\u20141999\uff09\uff0c\u82cf\u8054\u548c\u4fc4\u7f57\u65af\u8457\u540d\u5b66\u8005\u3001\u6587\u5316\u5b66\u5bb6\u3001\u6587\u827a\u7406\u8bba\u5bb6\uff0c\u88ab\u8a89\u4e3a\u201c\u4fc4\u7f57\u65af\u77e5\u8bc6\u5206\u5b50\u7684\u826f\u5fc3\u201d\u3002", en:"Dmitry Sergeyevich Likhachov (1906\u20131999), a renowned Soviet and Russian scholar, cultural theorist, and literary critic, known as \u2018the conscience of the Russian intelligentsia.\u2019"},
@@ -581,6 +644,13 @@ units: [
         {word:'自惭形秽',pinyin:'zì cán xíng huì',en:'to feel ashamed of one’s inadequacy',sentence:'面对伟大的心灵，不必自惭形秽。',sentenceEn:'Facing great souls, one need not feel ashamed of inadequacy.'},
         {word:'襟怀',pinyin:'jīn huái',en:'breadth of mind; bosom',sentence:'拥有宽广的襟怀才能建好精神的房屋。',sentenceEn:'Only with a broad mind can one build the houses of the spirit well.'}
       ],
+      footnotes: [
+        {term:"\u5bbd\u5ba5", termEn:"to forgive; to pardon", definition:"(ku\u0101n y\u00f2u) to forgive; to pardon", definitionEn:"to forgive; to pardon"},
+        {term:"\u9e20\u5360\u9e4a\u5de2", termEn:"a dove occupying the magpie\u2019s nest; usurping another\u2019s place", definition:"(ji\u016b zh\u00e0n qu\u00e8 ch\u00e1o) a dove occupying the magpie\u2019s nest; usurping another\u2019s place", definitionEn:"a dove occupying the magpie\u2019s nest; usurping another\u2019s place"},
+        {term:"\u574d\u584c", termEn:"to collapse", definition:"(t\u0101n t\u0101) to collapse", definitionEn:"to collapse"},
+        {term:"\u81ea\u60ed\u5f62\u79fd", termEn:"to feel ashamed of one\u2019s inadequacy", definition:"(z\u00ec c\u00e1n x\u00edng hu\u00ec) to feel ashamed of one\u2019s inadequacy", definitionEn:"to feel ashamed of one\u2019s inadequacy"},
+        {term:"\u895f\u6000", termEn:"breadth of mind; bosom", definition:"(j\u012bn hu\u00e1i) breadth of mind; bosom", definitionEn:"breadth of mind; bosom"}
+      ],
       grammarPoints: [
         {point:'比喻论证',pointEn:'bǐ yù lùn zhèng',example:'argumentation by analogy',exampleEn:'人的精神需要三间小屋来安放：情感、事业和自身。',explanation:'The human spirit needs three small houses for its dwelling: emotion, career, and the self.',explanationEn:'用三间小屋比喻精神世界的三个维度，将抽象的精神追求具象化，使论述更加生动形象。'}
       ],
@@ -662,6 +732,13 @@ units: [
         {word:'心旷神怡',pinyin:'xīn kuàng shén yí',en:'carefree and happy',sentence:'登斯楼也，则有心旷神怡，宠辱偕忘。',sentenceEn:'Climbing this tower, one feels carefree and happy, forgetting both favor and disgrace.'},
         {word:'先忧后乐',pinyin:'xiān yōu hòu lè',en:'to worry before others and rejoice after them',sentence:'先天下之忧而忧，后天下之乐而乐。',sentenceEn:'Worry before all under heaven worry; rejoice after all under heaven rejoice.'}
       ],
+      footnotes: [
+        {term:"\u8c2a\u5b88", termEn:"to be demoted and sent as a governor", definition:"(zh\u00e9 sh\u01d2u) to be demoted and sent as a governor", definitionEn:"to be demoted and sent as a governor"},
+        {term:"\u6d69\u6d69\u6c64\u6c64", termEn:"vast and mighty (of water)", definition:"(h\u00e0o h\u00e0o sh\u0101ng sh\u0101ng) vast and mighty (of water)", definitionEn:"vast and mighty (of water)"},
+        {term:"\u5fe7\u8c17\u754f\u8ba5", termEn:"worried about slander and fearful of criticism", definition:"(y\u014du ch\u00e1n w\u00e8i j\u012b) worried about slander and fearful of criticism", definitionEn:"worried about slander and fearful of criticism"},
+        {term:"\u5fc3\u65f7\u795e\u6021", termEn:"carefree and happy", definition:"(x\u012bn ku\u00e0ng sh\u00e9n y\u00ed) carefree and happy", definitionEn:"carefree and happy"},
+        {term:"\u5148\u5fe7\u540e\u4e50", termEn:"to worry before others and rejoice after them", definition:"(xi\u0101n y\u014du h\u00f2u l\u00e8) to worry before others and rejoice after them", definitionEn:"to worry before others and rejoice after them"}
+      ],
       grammarPoints: [
         {point:'骈散结合',pointEn:'pián sàn jié hé',example:'combining parallel and free prose',exampleEn:'衔远山，吞长江，浩浩汤汤，横无际涯。',explanation:'Embracing distant mountains, swallowing the Yangtze, vast and mighty, stretching boundlessly.',explanationEn:'文章骈散结合，既有整齐对仗的骈句增强气势，又有自由灵活的散句使行文流畅。'},
         {point:'对比手法',pointEn:'duì bǐ shǒu fǎ',example:'contrast technique',exampleEn:'悲观者见阴雨则忧，乐观者见晴明则喜。',explanation:'Pessimists feel sorrow in rain; optimists feel joy in sunshine.',explanationEn:'通过"悲"与"喜"两种心境的对比，引出"不以物喜，不以己悲"的人生境界。'}
@@ -718,6 +795,13 @@ units: [
         {word:'苍颜',pinyin:'cāng yán',en:'aged face',sentence:'苍颜白发，颓然乎其间者，太守醉也。',sentenceEn:'With an aged face and white hair, slumping among them — the governor is drunk.'},
         {word:'伛偻',pinyin:'yǔ lǚ',en:'bent and stooped',sentence:'伛偻提携，往来而不绝者。',sentenceEn:'The bent old and the led young, coming and going without end.'}
       ],
+      footnotes: [
+        {term:"\u7ffc\u7136", termEn:"like wings spread open", definition:"(y\u00ec r\u00e1n) like wings spread open", definitionEn:"like wings spread open"},
+        {term:"\u917f\u6cc9", termEn:"Brewing Spring (a spring name)", definition:"(ni\u00e0ng qu\u00e1n) Brewing Spring (a spring name)", definitionEn:"Brewing Spring (a spring name)"},
+        {term:"\u89e5\u7b79\u4ea4\u9519", termEn:"wine cups and drinking tallies intermingled (a lively banquet)", definition:"(g\u014dng ch\u00f3u ji\u0101o cu\u00f2) wine cups and drinking tallies intermingled (a lively banquet)", definitionEn:"wine cups and drinking tallies intermingled (a lively banquet)"},
+        {term:"\u82cd\u989c", termEn:"aged face", definition:"(c\u0101ng y\u00e1n) aged face", definitionEn:"aged face"},
+        {term:"\u4f1b\u507b", termEn:"bent and stooped", definition:"(y\u01d4 l\u01da) bent and stooped", definitionEn:"bent and stooped"}
+      ],
       grammarPoints: [
         {point:'层层剥笋',pointEn:'céng céng bāo sǔn',example:'peeling layers like bamboo shoots',exampleEn:'环滁皆山也→西南诸峰→琅琊→酿泉→醉翁亭。',explanation:'Surrounding Chu are mountains → the southwestern peaks → Langya → Brewing Spring → the Old Drunkard’s Pavilion.',explanationEn:'文章开篇由远及近、层层推进，如同剥竹笋一般，最终引出醉翁亭，构思精妙。'}
       ],
@@ -764,6 +848,13 @@ units: [
         {word:'毳衣',pinyin:'cuì yī',en:'fur garment',sentence:'拥毳衣炉火。',sentenceEn:'Wrapped in fur garments by the stove.'},
         {word:'痴',pinyin:'chī',en:'obsessed; crazy',sentence:'莫说相公痴，更有痴似相公者。',sentenceEn:'Do not say the gentleman is obsessed — there are others even more obsessed than he.'}
       ],
+      footnotes: [
+        {term:"\u96fe\u51c7", termEn:"rime; frost flowers", definition:"(w\u00f9 s\u014dng) rime; frost flowers", definitionEn:"rime; frost flowers"},
+        {term:"\u6c86\u7800", termEn:"vast and hazy", definition:"(h\u00e0ng d\u00e0ng) vast and hazy", definitionEn:"vast and hazy"},
+        {term:"\u62cf", termEn:"to row (a boat)", definition:"(n\u00e1) to row (a boat)", definitionEn:"to row (a boat)"},
+        {term:"\u6bf3\u8863", termEn:"fur garment", definition:"(cu\u00ec y\u012b) fur garment", definitionEn:"fur garment"},
+        {term:"\u75f4", termEn:"obsessed; crazy", definition:"(ch\u012b) obsessed; crazy", definitionEn:"obsessed; crazy"}
+      ],
       grammarPoints: [
         {point:'白描手法',pointEn:'bái miáo shǒu fǎ',example:'plain sketching technique',exampleEn:'天与云与山与水，上下一白。惟长堤一痕、湖心亭一点。',explanation:'Sky, clouds, mountains, and water were all white. Only a trace of the long embankment, a dot of the pavilion.',explanationEn:'用简洁朴素的语言勾勒景物轮廓，不加渲染，以少写多，意境深远。'}
       ],
@@ -804,6 +895,13 @@ units: [
         {word:'婵娟',pinyin:'chán juān',en:'the beauty of the moon',sentence:'但愿人长久，千里共婵娟。',sentenceEn:'May we all be blessed with longevity, sharing the beauty of the moon though a thousand miles apart.'},
         {word:'凄凉',pinyin:'qī liáng',en:'desolate; bleak',sentence:'巴山楚水凄凉地，二十三年弃置身。',sentenceEn:'In the desolate lands of Bashan and Chushui, I was cast aside for twenty-three years.'},
         {word:'琼楼玉宇',pinyin:'qióng lóu yù yǔ',en:'jade palaces and towers',sentence:'又恐琼楼玉宇，高处不胜寒。',sentenceEn:'Yet fearing those jade palaces and towers, where high up the cold is unbearable.'}
+      ],
+      footnotes: [
+        {term:"\u91d1\u6a3d", termEn:"golden goblet", definition:"(j\u012bn z\u016bn) golden goblet", definitionEn:"golden goblet"},
+        {term:"\u6d4e\u6ca7\u6d77", termEn:"to cross the vast sea", definition:"(j\u00ec c\u0101ng h\u01cei) to cross the vast sea", definitionEn:"to cross the vast sea"},
+        {term:"\u5a75\u5a1f", termEn:"the beauty of the moon", definition:"(ch\u00e1n ju\u0101n) the beauty of the moon", definitionEn:"the beauty of the moon"},
+        {term:"\u51c4\u51c9", termEn:"desolate; bleak", definition:"(q\u012b li\u00e1ng) desolate; bleak", definitionEn:"desolate; bleak"},
+        {term:"\u743c\u697c\u7389\u5b87", termEn:"jade palaces and towers", definition:"(qi\u00f3ng l\u00f3u y\u00f9 y\u01d4) jade palaces and towers", definitionEn:"jade palaces and towers"}
       ],
       grammarPoints: [
         {point:'豪放词风',pointEn:'háo fàng cí fēng',example:'bold and unrestrained ci style',exampleEn:'明月几时有？把酒问青天。',explanation:'When did the bright moon first appear? Raising my cup, I ask the blue sky.',explanationEn:'苏轼的《水调歌头》以豪放的笔触写月思亲，将个人情感与宇宙哲思相融，超越了一般的离别之叹。'}
@@ -887,6 +985,13 @@ units: [
         {word:'愕然',pinyin:'è rán',en:'stunned; astonished',sentence:'他站住了，脸上现出欢喜和凄凉的神情。',sentenceEn:'He stood still, his face showing both joy and sorrow.'},
         {word:'惘然',pinyin:'wǎng rán',en:'bewildered; at a loss',sentence:'我感到四面有看不见的高墙，使我气闷，又使我惘然。',sentenceEn:'I felt invisible walls closing in on all sides, making me suffocate and feel bewildered.'}
       ],
+      footnotes: [
+        {term:"\u8427\u7d22", termEn:"bleak; desolate", definition:"(xi\u0101o su\u01d2) bleak; desolate", definitionEn:"bleak; desolate"},
+        {term:"\u6063\u7762", termEn:"unruly; unbridled", definition:"(z\u00ec su\u012b) unruly; unbridled", definitionEn:"unruly; unbridled"},
+        {term:"\u9694\u819c", termEn:"estranged; a barrier", definition:"(g\u00e9 m\u00f3) estranged; a barrier", definitionEn:"estranged; a barrier"},
+        {term:"\u6115\u7136", termEn:"stunned; astonished", definition:"(\u00e8 r\u00e1n) stunned; astonished", definitionEn:"stunned; astonished"},
+        {term:"\u60d8\u7136", termEn:"bewildered; at a loss", definition:"(w\u01ceng r\u00e1n) bewildered; at a loss", definitionEn:"bewildered; at a loss"}
+      ],
       grammarPoints: [
         {point:'对比刻画',pointEn:'duì bǐ kè huà',example:'character portrayal through contrast',exampleEn:'少年闰土天真活泼，中年闰土麻木迟钝。',explanation:'The young Runtu was innocent and lively; the middle-aged Runtu was numb and dull.',explanationEn:'通过少年闰土和中年闰土的外貌、语言、动作的对比，揭示封建社会对农民精神的摧残。'},
         {point:'环境描写',pointEn:'huán jìng miáo xiě',example:'environmental description',exampleEn:'苍黄的天底下，远近横着几个萧索的荒村。',explanation:'Under the pale yellow sky, scattered here and there lay a few bleak, desolate villages.',explanationEn:'开篇的荒凉景象暗示了故乡的衰败，奠定了全文悲凉的感情基调。'}
@@ -933,6 +1038,13 @@ units: [
         {word:'阔绰',pinyin:'kuò chuò',en:'lavish; extravagant',sentence:'只要这个好心的于勒一回来，我们的境况就不同了，他可是个阔绰的人。',sentenceEn:'As soon as this good-hearted Jules returns, our situation will change — he is a lavish man.'},
         {word:'煞白',pinyin:'shà bái',en:'deathly pale',sentence:'母亲的脸色煞白。',sentenceEn:'My mother’s face turned deathly pale.'}
       ],
+      footnotes: [
+        {term:"\u62ee\u636e", termEn:"financially strained", definition:"(ji\u00e9 j\u016b) financially strained", definitionEn:"financially strained"},
+        {term:"\u6808\u6865", termEn:"pier; wharf", definition:"(zh\u00e0n qi\u00e1o) pier; wharf", definitionEn:"pier; wharf"},
+        {term:"\u8934\u891b", termEn:"ragged; tattered", definition:"(l\u00e1n l\u01da) ragged; tattered", definitionEn:"ragged; tattered"},
+        {term:"\u9614\u7ef0", termEn:"lavish; extravagant", definition:"(ku\u00f2 chu\u00f2) lavish; extravagant", definitionEn:"lavish; extravagant"},
+        {term:"\u715e\u767d", termEn:"deathly pale", definition:"(sh\u00e0 b\u00e1i) deathly pale", definitionEn:"deathly pale"}
+      ],
       grammarPoints: [
         {point:'第一人称叙事',pointEn:'dì yī rén chēng xù shì',example:'first-person narration',exampleEn:'通过少年若瑟夫的视角讲述故事。',explanation:'The story is told through the perspective of the young Joseph.',explanationEn:'用少年视角叙述成人世界的势利与冷漠，形成天真与世故的对照，增强讽刺效果。'}
       ],
@@ -971,6 +1083,13 @@ units: [
         {word:'撩逗',pinyin:'liáo dòu',en:'to tease; to provoke',sentence:'风撩逗着芦苇的叶子。',sentenceEn:'The wind teased the leaves of the reeds.'},
         {word:'旷野',pinyin:'kuàng yě',en:'wilderness; open field',sentence:'前方是一片旷野，没有一个人影。',sentenceEn:'Ahead was a wilderness, without a single person in sight.'},
         {word:'歇斯底里',pinyin:'xiē sī dǐ lǐ',en:'hysterical',sentence:'暴风雨中杜小康歇斯底里地呼喊。',sentenceEn:'During the storm, Du Xiaokang screamed hysterically.'}
+      ],
+      footnotes: [
+        {term:"\u832b\u7136", termEn:"at a loss; bewildered", definition:"(m\u00e1ng r\u00e1n) at a loss; bewildered", definitionEn:"at a loss; bewildered"},
+        {term:"\u5b09\u95f9", termEn:"to play and frolic", definition:"(x\u012b n\u00e0o) to play and frolic", definitionEn:"to play and frolic"},
+        {term:"\u64a9\u9017", termEn:"to tease; to provoke", definition:"(li\u00e1o d\u00f2u) to tease; to provoke", definitionEn:"to tease; to provoke"},
+        {term:"\u65f7\u91ce", termEn:"wilderness; open field", definition:"(ku\u00e0ng y\u011b) wilderness; open field", definitionEn:"wilderness; open field"},
+        {term:"\u6b47\u65af\u5e95\u91cc", termEn:"hysterical", definition:"(xi\u0113 s\u012b d\u01d0 l\u01d0) hysterical", definitionEn:"hysterical"}
       ],
       grammarPoints: [
         {point:'成长小说',pointEn:'chéng zhǎng xiǎo shuō',example:'coming-of-age fiction',exampleEn:'杜小康从胆怯恐惧到坚强独立。',explanation:'Du Xiaokang grows from timidity and fear to strength and independence.',explanationEn:'通过一个少年在芦苇荡中放鸭的孤独经历，展示人在困境中的精神成长过程。'}
@@ -1050,6 +1169,13 @@ units: [
         {word:'前仆后继',pinyin:'qián pū hòu jì',en:'one after another; in relentless succession',sentence:'中华民族前仆后继地奋斗。',sentenceEn:'The Chinese nation fights on in relentless succession.'},
         {word:'自欺',pinyin:'zì qī',en:'self-deception',sentence:'失掉的不是自信力，而是自欺力。',sentenceEn:'What was lost is not self-confidence, but self-deception.'}
       ],
+      footnotes: [
+        {term:"\u7384\u865a", termEn:"mystical and hollow", definition:"(xu\u00e1n x\u016b) mystical and hollow", definitionEn:"mystical and hollow"},
+        {term:"\u8bd3\u9a97", termEn:"to deceive; to swindle", definition:"(ku\u0101ng pi\u00e0n) to deceive; to swindle", definitionEn:"to deceive; to swindle"},
+        {term:"\u810a\u6881", termEn:"backbone; spine", definition:"(j\u01d0 li\u00e1ng) backbone; spine", definitionEn:"backbone; spine"},
+        {term:"\u524d\u4ec6\u540e\u7ee7", termEn:"one after another; in relentless succession", definition:"(qi\u00e1n p\u016b h\u00f2u j\u00ec) one after another; in relentless succession", definitionEn:"one after another; in relentless succession"},
+        {term:"\u81ea\u6b3a", termEn:"self-deception", definition:"(z\u00ec q\u012b) self-deception", definitionEn:"self-deception"}
+      ],
       grammarPoints: [
         {point:'驳论文',pointEn:'bó lùn wén',example:'refutational essay',exampleEn:'先树靶子再逐一反驳。',explanation:'First set up the target, then refute point by point.',explanationEn:'鲁迅先摆出对方的论点和论据，然后逐步驳斥，指出其论证的逻辑错误。'},
         {point:'正面立论',pointEn:'zhèng miàn lì lùn',example:'positive argumentation',exampleEn:'这就是中国的脊梁。',explanation:'These are the backbone of China.',explanationEn:'在驳斥错误观点的同时，正面提出自己的论点，用大量事实证明中国人并未失去自信。'}
@@ -1120,6 +1246,13 @@ units: [
         {word:'大儒',pinyin:'dà rú',en:'great Confucian scholar',sentence:'古今大学问家、大哲学家都是从怀疑中锻炼出来的。',sentenceEn:'The great scholars and philosophers of all ages were forged through doubt.'},
         {word:'锻炼',pinyin:'duàn liàn',en:'to forge; to temper',sentence:'一切学问家不但对流俗传说要善于怀疑，对于过去学者的学说也要善于怀疑。',sentenceEn:'All scholars should not only doubt popular legends but also the teachings of past scholars.'}
       ],
+      footnotes: [
+        {term:"\u58a8\u5b88", termEn:"to cling obstinately to", definition:"(m\u00f2 sh\u01d2u) to cling obstinately to", definitionEn:"to cling obstinately to"},
+        {term:"\u8fa8\u4f2a", termEn:"to distinguish the genuine from the false", definition:"(bi\u00e0n w\u011bi) to distinguish the genuine from the false", definitionEn:"to distinguish the genuine from the false"},
+        {term:"\u4e0d\u653b\u81ea\u7834", termEn:"to collapse on its own", definition:"(b\u00f9 g\u014dng z\u00ec p\u00f2) to collapse on its own", definitionEn:"to collapse on its own"},
+        {term:"\u5927\u5112", termEn:"great Confucian scholar", definition:"(d\u00e0 r\u00fa) great Confucian scholar", definitionEn:"great Confucian scholar"},
+        {term:"\u953b\u70bc", termEn:"to forge; to temper", definition:"(du\u00e0n li\u00e0n) to forge; to temper", definitionEn:"to forge; to temper"}
+      ],
       grammarPoints: [
         {point:'层递论证',pointEn:'céng dì lùn zhèng',example:'progressive argumentation',exampleEn:'怀疑→思索→辨别→新学说的产生。',explanation:'Doubt → reflection → discernment → emergence of new theories.',explanationEn:'文章按层次递进的方式展开论证：从怀疑的消极作用（辨伪去妄）到积极作用（建设新学说），逻辑严密。'}
       ],
@@ -1172,6 +1305,13 @@ units: [
         {word:'孜孜不倦',pinyin:'zī zī bù juàn',en:'diligent and tireless',sentence:'创造性人才总是孜孜不倦地汲取知识。',sentenceEn:'Creative talents are always diligently and tirelessly absorbing knowledge.'},
         {word:'持之以恒',pinyin:'chí zhī yǐ héng',en:'to persevere; to keep at it',sentence:'创造力需要持之以恒地探索。',sentenceEn:'Creativity requires persistent exploration.'},
         {word:'推敲',pinyin:'tuī qiāo',en:'to deliberate; to weigh carefully',sentence:'对问题要反复推敲，不满足于一个答案。',sentenceEn:'One must deliberate on problems repeatedly, not settling for a single answer.'}
+      ],
+      footnotes: [
+        {term:"\u6c72\u53d6", termEn:"to draw; to absorb", definition:"(j\u00ed q\u01d4) to draw; to absorb", definitionEn:"to draw; to absorb"},
+        {term:"\u6839\u6df1\u8482\u56fa", termEn:"deep-rooted", definition:"(g\u0113n sh\u0113n d\u00ec g\u00f9) deep-rooted", definitionEn:"deep-rooted"},
+        {term:"\u5b5c\u5b5c\u4e0d\u5026", termEn:"diligent and tireless", definition:"(z\u012b z\u012b b\u00f9 ju\u00e0n) diligent and tireless", definitionEn:"diligent and tireless"},
+        {term:"\u6301\u4e4b\u4ee5\u6052", termEn:"to persevere; to keep at it", definition:"(ch\u00ed zh\u012b y\u01d0 h\u00e9ng) to persevere; to keep at it", definitionEn:"to persevere; to keep at it"},
+        {term:"\u63a8\u6572", termEn:"to deliberate; to weigh carefully", definition:"(tu\u012b qi\u0101o) to deliberate; to weigh carefully", definitionEn:"to deliberate; to weigh carefully"}
       ],
       author: "\u7f57\u8fe6\u00b7\u8d39\u00b7\u56e0\u683c", authorEn: "Roger von Oech",
       authorBio: {cn:"\u7f57\u8fe6\u00b7\u8d39\u00b7\u56e0\u683c\uff081948\u2014 \uff09\uff0c\u7f8e\u56fd\u5b9e\u4e1a\u5bb6\u3001\u521b\u9020\u5b66\u5bb6\u3002\u8457\u6709\u300a\u5f53\u5934\u68d2\u559d\u300b\u7b49\uff0c\u81f4\u529b\u4e8e\u7814\u7a76\u521b\u9020\u6027\u601d\u7ef4\u3002", en:"Roger von Oech (b. 1948), American entrepreneur and creativity theorist. Author of A Whack on the Side of the Head, dedicated to the study of creative thinking."},
@@ -1263,6 +1403,13 @@ units: [
         {word:'豢养',pinyin:'huàn yǎng',en:'to raise; to keep (animals)',sentence:'不能因为环境限制就被困境所豢养。',sentenceEn:'One must not be kept captive by limitations of the environment.'},
         {word:'画龙点睛',pinyin:'huà lóng diǎn jīng',en:'to add the finishing touch',sentence:'处处是创造之地，天天是创造之时，人人是创造之人。',sentenceEn:'Every place is a place for creation, every day is a time for creation, every person is a person of creation.'},
         {word:'懦夫',pinyin:'nuò fū',en:'coward',sentence:'只有不愿丢掉旧的一切的懦夫才会这样想。',sentenceEn:'Only cowards who refuse to abandon the old would think this way.'}
+      ],
+      footnotes: [
+        {term:"\u4e2d\u4f24", termEn:"to slander; to smear", definition:"(zh\u00f2ng sh\u0101ng) to slander; to smear", definitionEn:"to slander; to smear"},
+        {term:"\u9c81\u949d", termEn:"dull; slow-witted", definition:"(l\u01d4 d\u00f9n) dull; slow-witted", definitionEn:"dull; slow-witted"},
+        {term:"\u8c62\u517b", termEn:"to raise; to keep (animals)", definition:"(hu\u00e0n y\u01ceng) to raise; to keep (animals)", definitionEn:"to raise; to keep (animals)"},
+        {term:"\u753b\u9f99\u70b9\u775b", termEn:"to add the finishing touch", definition:"(hu\u00e0 l\u00f3ng di\u01cen j\u012bng) to add the finishing touch", definitionEn:"to add the finishing touch"},
+        {term:"\u61e6\u592b", termEn:"coward", definition:"(nu\u00f2 f\u016b) coward", definitionEn:"coward"}
       ],
       grammarPoints: [
         {point:'排比驳论',pointEn:'pái bǐ bó lùn',example:'refutation through parallel structure',exampleEn:'环境太平凡了，不能创造→生活太单调了，不能创造→年纪太小了，不能创造。',explanation:'The environment is too ordinary for creativity → life is too monotonous → one is too young.',explanationEn:'陶行知列举多种借口并逐一反驳，运用排比结构增强气势，彻底推翻不能创造的种种理由。'}
@@ -1383,6 +1530,13 @@ units: [
         {word:'干系',pinyin:'gān xì',en:'responsibility; liability',sentence:'这干系须是俺的。',sentenceEn:'This responsibility falls on me.'},
         {word:'面面厮觑',pinyin:'miàn miàn sī qù',en:'to stare at each other in dismay',sentence:'众军汉面面厮觑，各自不敢动弹。',sentenceEn:'The soldiers stared at each other in dismay, none daring to move.'}
       ],
+      footnotes: [
+        {term:"\u8db1\u884c", termEn:"to hasten on a journey", definition:"(z\u01cen x\u00edng) to hasten on a journey", definitionEn:"to hasten on a journey"},
+        {term:"\u55d4\u6012", termEn:"to be angry; to fly into a rage", definition:"(ch\u0113n n\u00f9) to be angry; to fly into a rage", definitionEn:"to be angry; to fly into a rage"},
+        {term:"\u6041\u5730", termEn:"like this; in such a way", definition:"(n\u00e8n d\u00ec) like this; in such a way", definitionEn:"like this; in such a way"},
+        {term:"\u5e72\u7cfb", termEn:"responsibility; liability", definition:"(g\u0101n x\u00ec) responsibility; liability", definitionEn:"responsibility; liability"},
+        {term:"\u9762\u9762\u53ae\u89d1", termEn:"to stare at each other in dismay", definition:"(mi\u00e0n mi\u00e0n s\u012b q\u00f9) to stare at each other in dismay", definitionEn:"to stare at each other in dismay"}
+      ],
       grammarPoints: [
         {point:'智谋叙事',pointEn:'zhì móu xù shì',example:'narrative of strategy',exampleEn:'吴用设计智取生辰纲，杨志精明却仍上当。',explanation:'Wu Yong devised a plan to cleverly seize the birthday convoy; Yang Zhi was shrewd yet still fell for it.',explanationEn:'通过双线叙事，明写杨志押送的小心谨慎，暗写吴用的周密计划，最后在黄泥冈交汇，展现以智胜力的主题。'}
       ],
@@ -1491,6 +1645,13 @@ units: [
         {word:'腆着',pinyin:'tiǎn zhe',en:'shamelessly presenting',sentence:'胡屠户腆着肚子来了。',sentenceEn:'Butcher Hu came shamelessly puffing out his belly.'},
         {word:'醉醺醺',pinyin:'zuì xūn xūn',en:'tipsy; drunk',sentence:'胡屠户醉醺醺地走了。',sentenceEn:'Butcher Hu left in a drunken stupor.'}
       ],
+      footnotes: [
+        {term:"\u4f5c\u63d6", termEn:"to bow with hands clasped", definition:"(zu\u014d y\u012b) to bow with hands clasped", definitionEn:"to bow with hands clasped"},
+        {term:"\u661f\u5bbf", termEn:"constellation; star", definition:"(x\u012bng xi\u00f9) constellation; star", definitionEn:"constellation; star"},
+        {term:"\u4f53\u7edf", termEn:"propriety; decorum", definition:"(t\u01d0 t\u01d2ng) propriety; decorum", definitionEn:"propriety; decorum"},
+        {term:"\u8146\u7740", termEn:"shamelessly presenting", definition:"(ti\u01cen zhe) shamelessly presenting", definitionEn:"shamelessly presenting"},
+        {term:"\u9189\u91ba\u91ba", termEn:"tipsy; drunk", definition:"(zu\u00ec x\u016bn x\u016bn) tipsy; drunk", definitionEn:"tipsy; drunk"}
+      ],
       grammarPoints: [
         {point:'讽刺手法',pointEn:'fěng cì shǒu fǎ',example:'satirical technique',exampleEn:'范进中举前后，众人态度天壤之别。',explanation:'Before and after Fan Jin passed the exam, people’s attitudes were worlds apart.',explanationEn:'通过胡屠户中举前后判若两人的态度对比，以及范进喜极而疯的夸张描写，深刻讽刺了科举制度对人性的扭曲。'}
       ],
@@ -1590,6 +1751,13 @@ units: [
         {word:'经世奇才',pinyin:'jīng shì qí cái',en:'extraordinary talent for governance',sentence:'此人有经天纬地之才。',sentenceEn:'This person possesses extraordinary talent for governing the world.'},
         {word:'三分天下',pinyin:'sān fēn tiān xià',en:'dividing the realm into three',sentence:'孔明为刘备分析天下三分之势。',sentenceEn:'Kongming analyzed for Liu Bei the strategic situation of dividing the realm into three.'}
       ],
+      footnotes: [
+        {term:"\u62dc\u8c12", termEn:"to pay a formal visit", definition:"(b\u00e0i y\u00e8) to pay a formal visit", definitionEn:"to pay a formal visit"},
+        {term:"\u758f\u61d2", termEn:"idle and lazy", definition:"(sh\u016b l\u01cen) idle and lazy", definitionEn:"idle and lazy"},
+        {term:"\u5982\u9c7c\u5f97\u6c34", termEn:"like a fish in water", definition:"(r\u00fa y\u00fa d\u00e9 shu\u01d0) like a fish in water", definitionEn:"like a fish in water"},
+        {term:"\u7ecf\u4e16\u5947\u624d", termEn:"extraordinary talent for governance", definition:"(j\u012bng sh\u00ec q\u00ed c\u00e1i) extraordinary talent for governance", definitionEn:"extraordinary talent for governance"},
+        {term:"\u4e09\u5206\u5929\u4e0b", termEn:"dividing the realm into three", definition:"(s\u0101n f\u0113n ti\u0101n xi\u00e0) dividing the realm into three", definitionEn:"dividing the realm into three"}
+      ],
       author: "\u7f57\u8d2f\u4e2d", authorEn: "Luo Guanzhong",
       authorBio: {cn:"\u7f57\u8d2f\u4e2d\uff08\u7ea61330\u2014\u7ea61400\uff09\uff0c\u540d\u672c\uff0c\u53f7\u6e56\u6d77\u6563\u4eba\uff0c\u5c71\u897f\u592a\u539f\u4eba\u3002\u5143\u672b\u660e\u521d\u5c0f\u8bf4\u5bb6\uff0c\u8457\u6709\u4e2d\u56fd\u7b2c\u4e00\u90e8\u957f\u7bc7\u7ae0\u56de\u4f53\u5c0f\u8bf4\u300a\u4e09\u56fd\u6f14\u4e49\u300b\u3002", en:"Luo Guanzhong (c. 1330\u2013c. 1400), literary name Huhai Sanren, from Taiyuan, Shanxi. Late Yuan and early Ming novelist. Author of Romance of the Three Kingdoms, China\u2019s first full-length chapter novel."},
       isSelfRead: true,
@@ -1678,6 +1846,13 @@ units: [
         {word:'篾片',pinyin:'miè piàn',en:'bamboo strip; sycophant',sentence:'那刘姥姥也不过是个篾片相公做的引子。',sentenceEn:'That Granny Liu was merely a bamboo strip used as an introduction.'},
         {word:'忍俊不禁',pinyin:'rěn jùn bù jīn',en:'unable to hold back laughter',sentence:'众人忍俊不禁。',sentenceEn:'Everyone was unable to hold back their laughter.'},
         {word:'插科打诨',pinyin:'chā kē dǎ hùn',en:'comic banter; to crack jokes',sentence:'刘姥姥故意插科打诨，逗得众人大笑。',sentenceEn:'Granny Liu deliberately made comic remarks, making everyone laugh heartily.'}
+      ],
+      footnotes: [
+        {term:"\u84fc\u6e86", termEn:"reed and stream scenery", definition:"(li\u01ceo x\u00f9) reed and stream scenery", definitionEn:"reed and stream scenery"},
+        {term:"\u8c03\u505c", termEn:"to mediate; to manage", definition:"(ti\u00e1o t\u00edng) to mediate; to manage", definitionEn:"to mediate; to manage"},
+        {term:"\u7bfe\u7247", termEn:"bamboo strip; sycophant", definition:"(mi\u00e8 pi\u00e0n) bamboo strip; sycophant", definitionEn:"bamboo strip; sycophant"},
+        {term:"\u5fcd\u4fca\u4e0d\u7981", termEn:"unable to hold back laughter", definition:"(r\u011bn j\u00f9n b\u00f9 j\u012bn) unable to hold back laughter", definitionEn:"unable to hold back laughter"},
+        {term:"\u63d2\u79d1\u6253\u8be8", termEn:"comic banter; to crack jokes", definition:"(ch\u0101 k\u0113 d\u01ce h\u00f9n) comic banter; to crack jokes", definitionEn:"comic banter; to crack jokes"}
       ],
       grammarPoints: [
         {point:'群像描写',pointEn:'qún xiàng miáo xiě',example:'group portrait description',exampleEn:'众人笑的形态各不相同：史湘云喷饭、林黛玉伏案、贾母搂着宝玉、王夫人指着凤姐。',explanation:'Everyone laughed differently: Shi Xiangyun sprayed her rice, Lin Daiyu collapsed on the table, the Matriarch embraced Baoyu, and Lady Wang pointed at Sister Feng.',explanationEn:'曹雪芹通过一个共同场景中各人不同的笑态，精准展现了每个人物的性格特征，以群像刻画达到传神效果。'}

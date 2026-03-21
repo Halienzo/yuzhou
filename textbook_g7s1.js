@@ -36,6 +36,13 @@ var TB_G7S1 = {
             {word:'抖擞',pinyin:'dǒu sǒu',en:'invigorate',sentence:'舒活舒活筋骨，抖擞抖擞精神。',sentenceEn:'Stretch the muscles and bones, invigorate the spirit.'},
             {word:'花枝招展',pinyin:'huā zhī zhāo zhǎn',en:'gorgeously dressed',sentence:'春天像小姑娘，花枝招展的，笑着，走着。',sentenceEn:'Spring is like a young girl, gorgeously dressed, smiling and walking.'}
           ],
+          footnotes: [
+            {term:"\u6717\u6da6", termEn:"bright and moist", definition:"(l\u01ceng r\u00f9n) bright and moist", definitionEn:"bright and moist"},
+            {term:"\u915d\u917f", termEn:"brew; develop gradually", definition:"(y\u00f9n ni\u00e0ng) brew; develop gradually", definitionEn:"brew; develop gradually"},
+            {term:"\u5ae9\u7eff", termEn:"tender green", definition:"(n\u00e8n l\u01dc) tender green", definitionEn:"tender green"},
+            {term:"\u6296\u64de", termEn:"invigorate", definition:"(d\u01d2u s\u01d2u) invigorate", definitionEn:"invigorate"},
+            {term:"\u82b1\u679d\u62db\u5c55", termEn:"gorgeously dressed", definition:"(hu\u0101 zh\u012b zh\u0101o zh\u01cen) gorgeously dressed", definitionEn:"gorgeously dressed"}
+          ],
           grammarPoints: [
             {point:'比喻',pointEn:'bǐ yù',example:'simile and metaphor',exampleEn:'春天像刚落地的娃娃，从头到脚都是新的。',explanation:'Spring is like a newborn baby, new from head to toe.',explanationEn:'用比喻修辞手法将春天具体化，增强形象感'},
             {point:'拟人',pointEn:'nǐ rén',example:'personification',exampleEn:'小草偷偷地从土里钻出来。',explanation:'The grass secretly poked out of the earth.',explanationEn:'赋予植物人的动作，表现春天的生机'}
@@ -128,6 +135,13 @@ var TB_G7S1 = {
             {word:'水墨画',pinyin:'shuǐ mò huà',en:'ink wash painting',sentence:'这是张小水墨画，也许是唐代的名手画的吧。',sentenceEn:'This is a small ink wash painting, perhaps by a master of the Tang dynasty.'},
             {word:'空灵',pinyin:'kōng líng',en:'ethereal; crystalline',sentence:'整个的是块空灵的蓝水晶。',sentenceEn:'The whole thing is an ethereal blue crystal.'}
           ],
+          footnotes: [
+            {term:"\u6e29\u6674", termEn:"warm and sunny", definition:"(w\u0113n q\u00edng) warm and sunny", definitionEn:"warm and sunny"},
+            {term:"\u54cd\u6674", termEn:"perfectly clear", definition:"(xi\u01ceng q\u00edng) perfectly clear", definitionEn:"perfectly clear"},
+            {term:"\u5b89\u9002", termEn:"comfortable and cozy", definition:"(\u0101n sh\u00ec) comfortable and cozy", definitionEn:"comfortable and cozy"},
+            {term:"\u6c34\u58a8\u753b", termEn:"ink wash painting", definition:"(shu\u01d0 m\u00f2 hu\u00e0) ink wash painting", definitionEn:"ink wash painting"},
+            {term:"\u7a7a\u7075", termEn:"ethereal; crystalline", definition:"(k\u014dng l\u00edng) ethereal; crystalline", definitionEn:"ethereal; crystalline"}
+          ],
           grammarPoints: [
             {point:'对比',pointEn:'duì bǐ',example:'contrast',exampleEn:'对于一个在北平住惯的人，像我，冬天要是不刮大风，便觉得是奇迹。',explanation:'For someone used to living in Beiping, like me, it is a miracle if there is no strong wind in winter.',explanationEn:'通过与北平、伦敦对比突出济南冬天的温暖'}
           ],
@@ -205,6 +219,13 @@ var TB_G7S1 = {
             {word:'粗犷',pinyin:'cū guǎng',en:'bold and uninhibited',sentence:'夏天的雨也有夏天的性格，热烈而又粗犷。',sentenceEn:'Summer rain has the character of summer, passionate and bold.'},
             {word:'吝啬',pinyin:'lìn sè',en:'stingy; sparing',sentence:'它变得更吝啬了。',sentenceEn:'It becomes more sparing.'}
           ],
+          footnotes: [
+            {term:"\u9759\u8c27", termEn:"tranquil; serene", definition:"(j\u00ecng m\u00ec) tranquil; serene", definitionEn:"tranquil; serene"},
+            {term:"\u9ad8\u9088", termEn:"high and distant", definition:"(g\u0101o mi\u01ceo) high and distant", definitionEn:"high and distant"},
+            {term:"\u8385\u4e34", termEn:"arrive (of honored guests)", definition:"(l\u00ec l\u00edn) arrive (of honored guests)", definitionEn:"arrive (of honored guests)"},
+            {term:"\u7c97\u72b7", termEn:"bold and uninhibited", definition:"(c\u016b gu\u01ceng) bold and uninhibited", definitionEn:"bold and uninhibited"},
+            {term:"\u541d\u556c", termEn:"stingy; sparing", definition:"(l\u00ecn s\u00e8) stingy; sparing", definitionEn:"stingy; sparing"}
+          ],
           authorBio: {
             cn: "刘湛秋，当代诗人、散文家。",
             en: "Liu Zhanqiu is a contemporary poet and essayist."
@@ -274,6 +295,13 @@ var TB_G7S1 = {
             {word:'枯藤',pinyin:'kū téng',en:'withered vines',sentence:'枯藤老树昏鸦。',sentenceEn:'Withered vines, old trees, crows at dusk.'},
             {word:'断肠',pinyin:'duàn cháng',en:'heartbroken',sentence:'断肠人在天涯。',sentenceEn:'A heartbroken traveler at the edge of the world.'},
             {word:'残夜',pinyin:'cán yè',en:'the last moments of night',sentence:'海日生残夜，江春入旧年。',sentenceEn:'The sea sun rises from the last moments of night, river spring enters the old year.'}
+          ],
+          footnotes: [
+            {term:"\u6fb9\u6fb9", termEn:"rippling", definition:"(d\u00e0n d\u00e0n) rippling", definitionEn:"rippling"},
+            {term:"\u7ae6\u5cd9", termEn:"stand tall", definition:"(s\u01d2ng zh\u00ec) stand tall", definitionEn:"stand tall"},
+            {term:"\u67af\u85e4", termEn:"withered vines", definition:"(k\u016b t\u00e9ng) withered vines", definitionEn:"withered vines"},
+            {term:"\u65ad\u80a0", termEn:"heartbroken", definition:"(du\u00e0n ch\u00e1ng) heartbroken", definitionEn:"heartbroken"},
+            {term:"\u6b8b\u591c", termEn:"the last moments of night", definition:"(c\u00e1n y\u00e8) the last moments of night", definitionEn:"the last moments of night"}
           ],
           grammarPoints: [
             {point:'借景抒情',pointEn:'jiè jǐng shū qíng',example:'express feelings through scenery',exampleEn:'枯藤老树昏鸦，小桥流水人家，古道西风瘦马。',explanation:'Withered vines, old trees, crows at dusk; a small bridge, flowing water, cottages; an ancient road, west wind, a lean horse.',explanationEn:'通过罗列意象营造凄凉氛围，表达游子思乡之情'}
@@ -425,6 +453,13 @@ var TB_G7S1 = {
             {word:'诀别',pinyin:'jué bié',en:'final farewell',sentence:'她出去了，就再也没回来。',sentenceEn:'She went out and never came back again.'},
             {word:'烂漫',pinyin:'làn màn',en:'bright and colorful',sentence:'北海的菊花开了，烂漫极了。',sentenceEn:'The chrysanthemums at Beihai bloomed, bright and colorful.'}
           ],
+          footnotes: [
+            {term:"\u762b\u75ea", termEn:"paralyzed", definition:"(t\u0101n hu\u00e0n) paralyzed", definitionEn:"paralyzed"},
+            {term:"\u66b4\u6012", termEn:"furious rage", definition:"(b\u00e0o n\u00f9) furious rage", definitionEn:"furious rage"},
+            {term:"\u6194\u60b4", termEn:"haggard; worn out", definition:"(qi\u00e1o cu\u00ec) haggard; worn out", definitionEn:"haggard; worn out"},
+            {term:"\u8bc0\u522b", termEn:"final farewell", definition:"(ju\u00e9 bi\u00e9) final farewell", definitionEn:"final farewell"},
+            {term:"\u70c2\u6f2b", termEn:"bright and colorful", definition:"(l\u00e0n m\u00e0n) bright and colorful", definitionEn:"bright and colorful"}
+          ],
           grammarPoints: [
             {point:'反复',pointEn:'fǎn fù',example:'repetition',exampleEn:'她出去了，就再也没回来。',explanation:'She went out and never came back again.',explanationEn:'用简洁的语言表达深沉的母爱与永恒的遗憾'},
             {point:'象征',pointEn:'xiàng zhēng',example:'symbolism',exampleEn:'黄色的花淡雅、白色的花高洁、紫红色的花热烈而深沉。',explanation:'Yellow flowers are elegant, white flowers are noble, purple-red flowers are passionate and deep.',explanationEn:'用菊花象征生命的美好，暗示母亲的期望'}
@@ -500,6 +535,13 @@ var TB_G7S1 = {
             {word:'嫩芽',pinyin:'nèn yá',en:'tender buds',sentence:'这南方初春的田野，大块小块的新绿随意地铺着。',sentenceEn:'In these fields of early spring in the south, patches of new green lay scattered freely.'},
             {word:'熬',pinyin:'áo',en:'endure; pull through',sentence:'她又熬过了一个严冬。',sentenceEn:'She endured through another harsh winter.'}
           ],
+          footnotes: [
+            {term:"\u5206\u6b67", termEn:"disagreement", definition:"(f\u0113n q\u00ed) disagreement", definitionEn:"disagreement"},
+            {term:"\u970e\u65f6", termEn:"in an instant", definition:"(sh\u00e0 sh\u00ed) in an instant", definitionEn:"in an instant"},
+            {term:"\u7cbc\u7cbc", termEn:"shimmering (of water)", definition:"(l\u00edn l\u00edn) shimmering (of water)", definitionEn:"shimmering (of water)"},
+            {term:"\u5ae9\u82bd", termEn:"tender buds", definition:"(n\u00e8n y\u00e1) tender buds", definitionEn:"tender buds"},
+            {term:"\u71ac", termEn:"endure; pull through", definition:"(\u00e1o) endure; pull through", definitionEn:"endure; pull through"}
+          ],
           grammarPoints: [
             {point:'以小见大',pointEn:'yǐ xiǎo jiàn dà',example:'reveal the big through the small',exampleEn:'好像我背上的同她背上的加起来，就是整个世界。',explanation:'As if what was on my back and hers together was the whole world.',explanationEn:'通过一次散步展现家庭的责任与爱'}
           ],
@@ -570,6 +612,13 @@ var TB_G7S1 = {
             {word:'亭亭',pinyin:'tíng tíng',en:'gracefully upright',sentence:'亭亭的荷叶覆盖在红莲上面。',sentenceEn:'The gracefully upright lotus leaf covered the red lotus.'},
             {word:'慈怜',pinyin:'cí lián',en:'tender compassion',sentence:'心中的雨点来了，除了你，谁是我无遮拦天空下的荫蔽？',sentenceEn:'When the rain of my heart comes, except for you, who is my shelter under the open sky?'}
           ],
+          footnotes: [
+            {term:"\u91d1\u8272\u82b1", termEn:"golden flower", definition:"(j\u012bn s\u00e8 hu\u0101) golden flower", definitionEn:"golden flower"},
+            {term:"\u8377\u53f6", termEn:"lotus leaf", definition:"(h\u00e9 y\u00e8) lotus leaf", definitionEn:"lotus leaf"},
+            {term:"\u533f\u7b11", termEn:"snicker; laugh secretly", definition:"(n\u00ec xi\u00e0o) snicker; laugh secretly", definitionEn:"snicker; laugh secretly"},
+            {term:"\u4ead\u4ead", termEn:"gracefully upright", definition:"(t\u00edng t\u00edng) gracefully upright", definitionEn:"gracefully upright"},
+            {term:"\u6148\u601c", termEn:"tender compassion", definition:"(c\u00ed li\u00e1n) tender compassion", definitionEn:"tender compassion"}
+          ],
           grammarPoints: [
             {point:'象征',pointEn:'xiàng zhēng',example:'symbolism',exampleEn:'母亲呵！你是荷叶，我是红莲。',explanation:'Mother! You are the lotus leaf, I am the red lotus.',explanationEn:'以荷叶护红莲象征母爱的庇护'}
           ],
@@ -624,6 +673,13 @@ var TB_G7S1 = {
             {word:'期行',pinyin:'qī xíng',en:'make an appointment to travel together',sentence:'陈太丘与友期行。',sentenceEn:'Chen Taiqiu made an appointment to travel with a friend.'},
             {word:'舍去',pinyin:'shě qù',en:'leave and depart',sentence:'过中不至，太丘舍去。',sentenceEn:'Past noon he had not arrived, so Taiqiu left.'},
             {word:'惭愧',pinyin:'cán kuì',en:'ashamed',sentence:'友人惭，下车引之。',sentenceEn:'The friend was ashamed and got off his carriage to greet him.'}
+          ],
+          footnotes: [
+            {term:"\u6b23\u7136", termEn:"joyfully", definition:"(x\u012bn r\u00e1n) joyfully", definitionEn:"joyfully"},
+            {term:"\u7eb7\u7eb7", termEn:"falling in profusion", definition:"(f\u0113n f\u0113n) falling in profusion", definitionEn:"falling in profusion"},
+            {term:"\u671f\u884c", termEn:"make an appointment to travel together", definition:"(q\u012b x\u00edng) make an appointment to travel together", definitionEn:"make an appointment to travel together"},
+            {term:"\u820d\u53bb", termEn:"leave and depart", definition:"(sh\u011b q\u00f9) leave and depart", definitionEn:"leave and depart"},
+            {term:"\u60ed\u6127", termEn:"ashamed", definition:"(c\u00e1n ku\u00ec) ashamed", definitionEn:"ashamed"}
           ],
           grammarPoints: [
             {point:'文言虚词',pointEn:'wén yán xū cí',example:'classical Chinese function words',exampleEn:'太丘舍去，去后乃至。',explanation:'Taiqiu left, and the friend arrived after he had gone.',explanationEn:'理解乃、之、而等虚词在文言文中的用法'}
@@ -750,6 +806,13 @@ var TB_G7S1 = {
             {word:'人迹罕至',pinyin:'rén jì hǎn zhì',en:'seldom visited by people',sentence:'拍雪人和塑雪罗汉需要人迹罕至的地方。',sentenceEn:'Making snow figures and snow Buddhas requires a place seldom visited by people.'},
             {word:'拗',pinyin:'ǎo',en:'bend',sentence:'用力地拗开它的角。',sentenceEn:'Forcefully bend open its horns.'}
           ],
+          footnotes: [
+            {term:"\u786e\u51ff", termEn:"definite; certain", definition:"(qu\u00e8 z\u00e1o) definite; certain", definitionEn:"definite; certain"},
+            {term:"\u6512", termEn:"gather together", definition:"(cu\u00e1n) gather together", definitionEn:"gather together"},
+            {term:"\u6e0a\u535a", termEn:"profound and extensive (knowledge)", definition:"(yu\u0101n b\u00f3) profound and extensive (knowledge)", definitionEn:"profound and extensive (knowledge)"},
+            {term:"\u4eba\u8ff9\u7f55\u81f3", termEn:"seldom visited by people", definition:"(r\u00e9n j\u00ec h\u01cen zh\u00ec) seldom visited by people", definitionEn:"seldom visited by people"},
+            {term:"\u62d7", termEn:"bend", definition:"(\u01ceo) bend", definitionEn:"bend"}
+          ],
           grammarPoints: [
             {point:'对比',pointEn:'duì bǐ',example:'contrast',exampleEn:'百草园的自由快乐与三味书屋的枯燥对比。',explanation:'Contrast between the freedom and joy of Hundred-Herb Garden and the dullness of Three-Flavour Study.',explanationEn:'通过两个空间的对比表达作者对童年自由的怀念'},
             {point:'详略得当',pointEn:'xiáng lüè dé dàng',example:'proper balance of detail',exampleEn:'不必说碧绿的菜畦……单是周围的短短的泥墙根一带，就有无限趣味。',explanation:'No need to mention the emerald vegetable plots... Just around the short mud wall base, there is infinite fun.',explanationEn:'用不必说……单是……的句式突出重点'}
@@ -855,6 +918,13 @@ var TB_G7S1 = {
             {word:'企盼',pinyin:'qǐ pàn',en:'eagerly hope',sentence:'我企盼着新的一天快些来到。',sentenceEn:'I eagerly hoped for a new day to come soon.'},
             {word:'唤醒',pinyin:'huàn xǐng',en:'awaken',sentence:'她唤醒了我的灵魂，给予我光明和希望。',sentenceEn:'She awakened my soul, giving me light and hope.'}
           ],
+          footnotes: [
+            {term:"\u622a\u7136\u4e0d\u540c", termEn:"completely different", definition:"(ji\u00e9 r\u00e1n b\u00f9 t\u00f3ng) completely different", definitionEn:"completely different"},
+            {term:"\u611f\u6168", termEn:"sigh with emotion", definition:"(g\u01cen k\u01cei) sigh with emotion", definitionEn:"sigh with emotion"},
+            {term:"\u604d\u7136\u5927\u609f", termEn:"suddenly see the light", definition:"(hu\u01ceng r\u00e1n d\u00e0 w\u00f9) suddenly see the light", definitionEn:"suddenly see the light"},
+            {term:"\u4f01\u76fc", termEn:"eagerly hope", definition:"(q\u01d0 p\u00e0n) eagerly hope", definitionEn:"eagerly hope"},
+            {term:"\u5524\u9192", termEn:"awaken", definition:"(hu\u00e0n x\u01d0ng) awaken", definitionEn:"awaken"}
+          ],
           grammarPoints: [
             {point:'细节描写',pointEn:'xì jié miáo xiě',example:'detailed description',exampleEn:'莎莉文老师把洋娃娃放在我的手中，然后在我手心里慢慢拼写。',explanation:'Miss Sullivan put a doll in my hand, then slowly spelled in my palm.',explanationEn:'通过感官细节展现海伦的内心世界'}
           ],
@@ -937,6 +1007,13 @@ var TB_G7S1 = {
             {word:'温故知新',pinyin:'wēn gù zhī xīn',en:'review the old to learn the new',sentence:'温故而知新，可以为师矣。',sentenceEn:'Review the old and learn the new, and you can be a teacher.'},
             {word:'逾矩',pinyin:'yú jǔ',en:'overstep the rules',sentence:'七十而从心所欲，不逾矩。',sentenceEn:'At seventy I could follow my heart desire without overstepping the rules.'},
             {word:'博学',pinyin:'bó xué',en:'broad learning',sentence:'博学而笃志，切问而近思。',sentenceEn:'Learn broadly and hold firm to your aspirations, question earnestly and reflect on what is near.'}
+          ],
+          footnotes: [
+            {term:"\u4e0d\u4ea6\u4e50\u4e4e", termEn:"is it not a joy", definition:"(b\u00f9 y\u00ec l\u00e8 h\u016b) is it not a joy", definitionEn:"is it not a joy"},
+            {term:"\u4e09\u7701", termEn:"examine oneself in three ways", definition:"(s\u0101n x\u01d0ng) examine oneself in three ways", definitionEn:"examine oneself in three ways"},
+            {term:"\u6e29\u6545\u77e5\u65b0", termEn:"review the old to learn the new", definition:"(w\u0113n g\u00f9 zh\u012b x\u012bn) review the old to learn the new", definitionEn:"review the old to learn the new"},
+            {term:"\u903e\u77e9", termEn:"overstep the rules", definition:"(y\u00fa j\u01d4) overstep the rules", definitionEn:"overstep the rules"},
+            {term:"\u535a\u5b66", termEn:"broad learning", definition:"(b\u00f3 xu\u00e9) broad learning", definitionEn:"broad learning"}
           ],
           grammarPoints: [
             {point:'对偶',pointEn:'duì ǒu',example:'parallelism',exampleEn:'学而不思则罔，思而不学则殆。',explanation:'Learning without thinking leads to confusion; thinking without learning leads to peril.',explanationEn:'用对偶句式阐明学与思的辩证关系'},
@@ -1142,6 +1219,13 @@ var TB_G7S1 = {
             {word:'狭隘',pinyin:'xiá ài',en:'narrow-minded',sentence:'这就是我们用以反对狭隘民族主义的国际主义。',sentenceEn:'This is the internationalism we use to oppose narrow-minded nationalism.'},
             {word:'精益求精',pinyin:'jīng yì qiú jīng',en:'strive for perfection',sentence:'他的医术是精益求精的。',sentenceEn:'His medical skills were ever striving for perfection.'}
           ],
+          footnotes: [
+            {term:"\u56fd\u9645\u4e3b\u4e49", termEn:"internationalism", definition:"(gu\u00f3 j\u00ec zh\u01d4 y\u00ec) internationalism", definitionEn:"internationalism"},
+            {term:"\u70ed\u5ff1", termEn:"enthusiasm; fervor", definition:"(r\u00e8 ch\u00e9n) enthusiasm; fervor", definitionEn:"enthusiasm; fervor"},
+            {term:"\u7eaf\u7cb9", termEn:"pure; genuine", definition:"(ch\u00fan cu\u00ec) pure; genuine", definitionEn:"pure; genuine"},
+            {term:"\u72ed\u9698", termEn:"narrow-minded", definition:"(xi\u00e1 \u00e0i) narrow-minded", definitionEn:"narrow-minded"},
+            {term:"\u7cbe\u76ca\u6c42\u7cbe", termEn:"strive for perfection", definition:"(j\u012bng y\u00ec qi\u00fa j\u012bng) strive for perfection", definitionEn:"strive for perfection"}
+          ],
           grammarPoints: [
             {point:'对比论证',pointEn:'duì bǐ lùn zhèng',example:'argument by contrast',exampleEn:'白求恩毫不利己专门利人的精神与不少人对工作不负责任进行对比。',explanation:'Contrast Bethune selfless spirit with many people being irresponsible.',explanationEn:'通过正反对比突出白求恩精神的伟大'},
             {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'一个高尚的人，一个纯粹的人，一个有道德的人，一个脱离了低级趣味的人，一个有益于人民的人。',explanation:'A noble person, a pure person, a moral person, a person free from vulgar tastes, a person beneficial to the people.',explanationEn:'五个并列短语层层递进，增强论证力度'}
@@ -1211,6 +1295,13 @@ var TB_G7S1 = {
             {word:'不毛之地',pinyin:'bù máo zhī dì',en:'barren land',sentence:'他就像这块不毛之地上涌出的神秘泉水。',sentenceEn:'He was like a mysterious spring welling up from this barren land.'},
             {word:'沉默寡言',pinyin:'chén mò guǎ yán',en:'taciturn',sentence:'他还是那么沉默寡言。',sentenceEn:'He was still as taciturn as ever.'},
             {word:'沃土',pinyin:'wò tǔ',en:'fertile land',sentence:'昔日的荒地如今生机勃勃，成为一片沃土。',sentenceEn:'The once barren land was now vibrant with life, becoming fertile land.'}
+          ],
+          footnotes: [
+            {term:"\u6177\u6168", termEn:"generous", definition:"(k\u0101ng k\u01cei) generous", definitionEn:"generous"},
+            {term:"\u8352\u5730", termEn:"wasteland", definition:"(hu\u0101ng d\u00ec) wasteland", definitionEn:"wasteland"},
+            {term:"\u4e0d\u6bdb\u4e4b\u5730", termEn:"barren land", definition:"(b\u00f9 m\u00e1o zh\u012b d\u00ec) barren land", definitionEn:"barren land"},
+            {term:"\u6c89\u9ed8\u5be1\u8a00", termEn:"taciturn", definition:"(ch\u00e9n m\u00f2 gu\u01ce y\u00e1n) taciturn", definitionEn:"taciturn"},
+            {term:"\u6c83\u571f", termEn:"fertile land", definition:"(w\u00f2 t\u01d4) fertile land", definitionEn:"fertile land"}
           ],
           grammarPoints: [
             {point:'以时间为线索',pointEn:'yǐ shí jiān wéi xiàn suǒ',example:'using time as a thread',exampleEn:'1913年、1920年、1945年，三次到访展现变化。',explanation:'Visits in 1913, 1920, and 1945 show the transformation.',explanationEn:'以三次访问为时间线索，展现荒地到绿洲的巨大变化'}
@@ -1288,6 +1379,13 @@ var TB_G7S1 = {
             {word:'恍惚',pinyin:'huǎng hū',en:'dazed; absent-minded',sentence:'我趴在岩石上，神情恍惚。',sentenceEn:'I lay on the rock, dazed.'},
             {word:'小心翼翼',pinyin:'xiǎo xīn yì yì',en:'extremely carefully',sentence:'我小心翼翼地感觉着岩石。',sentenceEn:'I felt for the rock extremely carefully.'},
             {word:'成就感',pinyin:'chéng jiù gǎn',en:'sense of achievement',sentence:'我产生了一种巨大的成就感。',sentenceEn:'I felt an enormous sense of achievement.'}
+          ],
+          footnotes: [
+            {term:"\u707c\u4eba", termEn:"scorching", definition:"(zhu\u00f3 r\u00e9n) scorching", definitionEn:"scorching"},
+            {term:"\u72b9\u8c6b", termEn:"hesitate", definition:"(y\u00f3u y\u00f9) hesitate", definitionEn:"hesitate"},
+            {term:"\u604d\u60da", termEn:"dazed; absent-minded", definition:"(hu\u01ceng h\u016b) dazed; absent-minded", definitionEn:"dazed; absent-minded"},
+            {term:"\u5c0f\u5fc3\u7ffc\u7ffc", termEn:"extremely carefully", definition:"(xi\u01ceo x\u012bn y\u00ec y\u00ec) extremely carefully", definitionEn:"extremely carefully"},
+            {term:"\u6210\u5c31\u611f", termEn:"sense of achievement", definition:"(ch\u00e9ng ji\u00f9 g\u01cen) sense of achievement", definitionEn:"sense of achievement"}
           ],
           grammarPoints: [
             {point:'心理描写',pointEn:'xīn lǐ miáo xiě',example:'psychological description',exampleEn:'我趴在岩石上，神情恍惚，害怕和疲劳已经让我麻木。',explanation:'I lay on the rock, dazed; fear and exhaustion had numbed me.',explanationEn:'通过细腻的心理描写展现主人公的恐惧与成长'}
@@ -1386,6 +1484,13 @@ var TB_G7S1 = {
             {word:'志',pinyin:'zhì',en:'aspiration; ambition',sentence:'非学无以广才，非志无以成学。',sentenceEn:'Without learning, one cannot broaden talent; without ambition, one cannot achieve learning.'},
             {word:'淫慢',pinyin:'yín màn',en:'indulgent and slack',sentence:'淫慢则不能励精。',sentenceEn:'Indulgence and slackness prevent one from cultivating spirit.'},
             {word:'险躁',pinyin:'xiǎn zào',en:'reckless and impatient',sentence:'险躁则不能治性。',sentenceEn:'Recklessness and impatience prevent one from cultivating character.'}
+          ],
+          footnotes: [
+            {term:"\u6de1\u6cca", termEn:"indifferent to fame and fortune", definition:"(d\u00e0n b\u00f3) indifferent to fame and fortune", definitionEn:"indifferent to fame and fortune"},
+            {term:"\u5b81\u9759", termEn:"tranquil", definition:"(n\u00edng j\u00ecng) tranquil", definitionEn:"tranquil"},
+            {term:"\u5fd7", termEn:"aspiration; ambition", definition:"(zh\u00ec) aspiration; ambition", definitionEn:"aspiration; ambition"},
+            {term:"\u6deb\u6162", termEn:"indulgent and slack", definition:"(y\u00edn m\u00e0n) indulgent and slack", definitionEn:"indulgent and slack"},
+            {term:"\u9669\u8e81", termEn:"reckless and impatient", definition:"(xi\u01cen z\u00e0o) reckless and impatient", definitionEn:"reckless and impatient"}
           ],
           grammarPoints: [
             {point:'正反论证',pointEn:'zhèng fǎn lùn zhèng',example:'argument from both sides',exampleEn:'非淡泊无以明志，非宁静无以致远。',explanation:'Without indifference, no clear aspiration; without tranquility, no far-reaching goals.',explanationEn:'用双重否定从正反两面论证修身治学的道理'}
@@ -1493,6 +1598,13 @@ var TB_G7S1 = {
             {word:'蜷伏',pinyin:'quán fú',en:'curl up',sentence:'冬天的早晨，门口蜷伏着一只很可怜的小猫。',sentenceEn:'On a winter morning, a pitiful kitten was curled up at the door.'},
             {word:'冤枉',pinyin:'yuān wǎng',en:'falsely accuse',sentence:'我没有判断明白，便妄下断语，冤枉了一只不能说话辩诉的动物。',sentenceEn:'Without judging clearly, I rashly made a verdict and falsely accused an animal that could not speak in its own defense.'}
           ],
+          footnotes: [
+            {term:"\u6c61\u6da9", termEn:"dirty and rough", definition:"(w\u016b s\u00e8) dirty and rough", definitionEn:"dirty and rough"},
+            {term:"\u6002\u607f", termEn:"urge; egg on", definition:"(s\u01d2ng y\u01d2ng) urge; egg on", definitionEn:"urge; egg on"},
+            {term:"\u6005\u7136", termEn:"melancholy", definition:"(ch\u00e0ng r\u00e1n) melancholy", definitionEn:"melancholy"},
+            {term:"\u8737\u4f0f", termEn:"curl up", definition:"(qu\u00e1n f\u00fa) curl up", definitionEn:"curl up"},
+            {term:"\u51a4\u6789", termEn:"falsely accuse", definition:"(yu\u0101n w\u01ceng) falsely accuse", definitionEn:"falsely accuse"}
+          ],
           grammarPoints: [
             {point:'首尾呼应',pointEn:'shǒu wěi hū yìng',example:'beginning and end echo each other',exampleEn:'自此，我家永不养猫。',explanation:'From then on, my family never kept cats again.',explanationEn:'三次养猫经历层层递进，最后的永不养猫呼应全文主题'},
             {point:'对比',pointEn:'duì bǐ',example:'contrast',exampleEn:'三只猫的不同命运形成鲜明对比。',explanation:'The different fates of the three cats form a sharp contrast.',explanationEn:'通过三只猫的对比深化主题——不要妄下结论'}
@@ -1586,6 +1698,13 @@ var TB_G7S1 = {
             {word:'禁锢',pinyin:'jìn gù',en:'imprison; confine',sentence:'从长期被禁锢所受的精神虐待中恢复过来。',sentenceEn:'Recovering from the mental abuse of long-term confinement.'},
             {word:'蹒跚',pinyin:'pán shān',en:'stagger; hobble',sentence:'老先生弯着身子，蹒跚地走过来。',sentenceEn:'The old man bent over and staggered toward me.'}
           ],
+          footnotes: [
+            {term:"\u55d4\u602a", termEn:"reproach", definition:"(ch\u0113n gu\u00e0i) reproach", definitionEn:"reproach"},
+            {term:"\u602a\u8bde\u4e0d\u7ecf", termEn:"absurd and preposterous", definition:"(gu\u00e0i d\u00e0n b\u00f9 j\u012bng) absurd and preposterous", definitionEn:"absurd and preposterous"},
+            {term:"\u5927\u76f8\u5f84\u5ead", termEn:"vastly different", definition:"(d\u00e0 xi\u0101ng j\u00ecng t\u00edng) vastly different", definitionEn:"vastly different"},
+            {term:"\u7981\u9522", termEn:"imprison; confine", definition:"(j\u00ecn g\u00f9) imprison; confine", definitionEn:"imprison; confine"},
+            {term:"\u8e52\u8dda", termEn:"stagger; hobble", definition:"(p\u00e1n sh\u0101n) stagger; hobble", definitionEn:"stagger; hobble"}
+          ],
           authorBio: {
             cn: "康拉德·劳伦兹（1903—1989），奥地利动物行为学家、科普作家。获1973年诺贝尔生理学或医学奖。",
             en: "Konrad Lorenz (1903–1989) was an Austrian animal behaviorist and science writer. He received the 1973 Nobel Prize in Physiology or Medicine."
@@ -1647,6 +1766,13 @@ var TB_G7S1 = {
             {word:'窘',pinyin:'jiǒng',en:'desperate; cornered',sentence:'屠大窘，恐前后受其敌。',sentenceEn:'The butcher was desperate, fearing attack from front and back.'},
             {word:'假寐',pinyin:'jiǎ mèi',en:'pretend to sleep',sentence:'一狼径去，其一犬坐于前，目似瞑，意暇甚。',sentenceEn:'One wolf left, the other sat like a dog in front, eyes seemingly closed, looking very relaxed.'},
             {word:'黠',pinyin:'xiá',en:'cunning',sentence:'狼亦黠矣，而顷刻两毙。',sentenceEn:'The wolves were indeed cunning, yet both were killed in a moment.'}
+          ],
+          footnotes: [
+            {term:"\u7f00\u884c", termEn:"follow closely", definition:"(zhu\u00ec x\u00edng) follow closely\u3002\u4f8b\uff1a\u7f00\u884c\u751a\u8fdc\u3002", definitionEn:"follow closely"},
+            {term:"\u5c60", termEn:"butcher", definition:"(t\u00fa) butcher\u3002\u4f8b\uff1a\u4e00\u5c60\u665a\u5f52\uff0c\u62c5\u4e2d\u8089\u5c3d\u3002", definitionEn:"butcher"},
+            {term:"\u7a98", termEn:"desperate; cornered", definition:"(ji\u01d2ng) desperate; cornered\u3002\u4f8b\uff1a\u5c60\u5927\u7a98\uff0c\u6050\u524d\u540e\u53d7\u5176\u654c\u3002", definitionEn:"desperate; cornered"},
+            {term:"\u5047\u5bd0", termEn:"pretend to sleep", definition:"(ji\u01ce m\u00e8i) pretend to sleep\u3002\u4f8b\uff1a\u4e00\u72fc\u5f84\u53bb\uff0c\u5176\u4e00\u72ac\u5750\u4e8e\u524d\uff0c\u76ee\u4f3c\u7791\uff0c\u610f\u6687\u751a\u3002", definitionEn:"pretend to sleep"},
+            {term:"\u9ee0", termEn:"cunning", definition:"(xi\u00e1) cunning\u3002\u4f8b\uff1a\u72fc\u4ea6\u9ee0\u77e3\uff0c\u800c\u9877\u523b\u4e24\u6bd9\u3002", definitionEn:"cunning"}
           ],
           grammarPoints: [
             {point:'文言叙事',pointEn:'wén yán xù shì',example:'classical narrative',exampleEn:'一屠晚归，担中肉尽，止有剩骨。',explanation:'A butcher returning late, the meat all gone, only leftover bones remained.',explanationEn:'文言文用简练的语言叙述紧张的故事情节'}
@@ -1770,6 +1896,13 @@ var TB_G7S1 = {
             {word:'称职',pinyin:'chèn zhí',en:'competent',sentence:'不称职的人看不见这布。',sentenceEn:'Incompetent people could not see the cloth.'},
             {word:'赤裸',pinyin:'chì luǒ',en:'naked; bare',sentence:'他实在没有穿什么衣服啊！',sentenceEn:'He really has nothing on at all!'}
           ],
+          footnotes: [
+            {term:"\u70ab\u8000", termEn:"show off", definition:"(xu\u00e0n y\u00e0o) show off", definitionEn:"show off"},
+            {term:"\u611a\u8822", termEn:"foolish; stupid", definition:"(y\u00fa ch\u01d4n) foolish; stupid", definitionEn:"foolish; stupid"},
+            {term:"\u9a97\u5b50", termEn:"swindler", definition:"(pi\u00e0n zi) swindler", definitionEn:"swindler"},
+            {term:"\u79f0\u804c", termEn:"competent", definition:"(ch\u00e8n zh\u00ed) competent", definitionEn:"competent"},
+            {term:"\u8d64\u88f8", termEn:"naked; bare", definition:"(ch\u00ec lu\u01d2) naked; bare", definitionEn:"naked; bare"}
+          ],
           grammarPoints: [
             {point:'讽刺',pointEn:'fěng cì',example:'satire',exampleEn:'通过一个荒诞的故事讽刺了虚伪和愚蠢。',explanation:'Through an absurd story, it satirizes hypocrisy and foolishness.',explanationEn:'用儿童视角戳穿成人世界的虚伪'},
             {point:'夸张',pointEn:'kuā zhāng',example:'exaggeration',exampleEn:'他每一天每一点钟都要换一套衣服。',explanation:'He changed his clothes every hour of every day.',explanationEn:'用夸张手法突出皇帝爱虚荣的性格'}
@@ -1849,6 +1982,13 @@ var TB_G7S1 = {
             {word:'明星',pinyin:'míng xīng',en:'bright stars',sentence:'好像闪着无数的明星。',sentenceEn:'Like countless bright stars twinkling.'},
             {word:'闲游',pinyin:'xián yóu',en:'stroll leisurely',sentence:'定然在天街闲游。',sentenceEn:'Surely strolling leisurely on the heavenly street.'}
           ],
+          footnotes: [
+            {term:"\u7f25\u7f08", termEn:"ethereal; illusory", definition:"(pi\u0101o mi\u01ceo) ethereal; illusory", definitionEn:"ethereal; illusory"},
+            {term:"\u73cd\u5947", termEn:"rare and precious", definition:"(zh\u0113n q\u00ed) rare and precious", definitionEn:"rare and precious"},
+            {term:"\u8857\u706f", termEn:"street lights", definition:"(ji\u0113 d\u0113ng) street lights", definitionEn:"street lights"},
+            {term:"\u660e\u661f", termEn:"bright stars", definition:"(m\u00edng x\u012bng) bright stars", definitionEn:"bright stars"},
+            {term:"\u95f2\u6e38", termEn:"stroll leisurely", definition:"(xi\u00e1n y\u00f3u) stroll leisurely", definitionEn:"stroll leisurely"}
+          ],
           grammarPoints: [
             {point:'联想与想象',pointEn:'lián xiǎng yǔ xiǎng xiàng',example:'association and imagination',exampleEn:'远远的街灯明了，好像闪着无数的明星。',explanation:'The distant street lights lit up, like countless bright stars twinkling.',explanationEn:'从街灯联想到星星，从星星想象到天上的街市'}
           ],
@@ -1912,6 +2052,13 @@ var TB_G7S1 = {
             {word:'眉开眼笑',pinyin:'méi kāi yǎn xiào',en:'beaming with joy',sentence:'不由得满心欢喜，眉开眼笑。',sentenceEn:'Could not help but feel overjoyed, beaming with delight.'},
             {word:'绵延',pinyin:'mián yán',en:'extend continuously',sentence:'人类就世世代代绵延下来。',sentenceEn:'Humanity extended continuously from generation to generation.'},
             {word:'孤独',pinyin:'gū dú',en:'lonely',sentence:'感到非常孤独。',sentenceEn:'Felt very lonely.'}
+          ],
+          footnotes: [
+            {term:"\u795e\u901a\u5e7f\u5927", termEn:"infinitely powerful", definition:"(sh\u00e9n t\u014dng gu\u01ceng d\u00e0) infinitely powerful", definitionEn:"infinitely powerful"},
+            {term:"\u83bd\u83bd\u699b\u699b", termEn:"thick and wild vegetation", definition:"(m\u01ceng m\u01ceng zh\u0113n zh\u0113n) thick and wild vegetation", definitionEn:"thick and wild vegetation"},
+            {term:"\u7709\u5f00\u773c\u7b11", termEn:"beaming with joy", definition:"(m\u00e9i k\u0101i y\u01cen xi\u00e0o) beaming with joy", definitionEn:"beaming with joy"},
+            {term:"\u7ef5\u5ef6", termEn:"extend continuously", definition:"(mi\u00e1n y\u00e1n) extend continuously", definitionEn:"extend continuously"},
+            {term:"\u5b64\u72ec", termEn:"lonely", definition:"(g\u016b d\u00fa) lonely", definitionEn:"lonely"}
           ],
           authorBio: {
             cn: "袁珂（1916—2001），四川新都人，神话学家。著有《中国古代神话》《山海经校注》等。",
@@ -1981,6 +2128,13 @@ var TB_G7S1 = {
             {word:'杞人忧天',pinyin:'qǐ rén yōu tiān',en:'needless anxiety',sentence:'杞国有人忧天地崩坠。',sentenceEn:'In the state of Qi, someone worried the sky would collapse.'},
             {word:'穿井得一人',pinyin:'chuān jǐng dé yī rén',en:'digging a well yields a person',sentence:'宋之丁氏，家无井而出溉汲。',sentenceEn:'The Ding family of Song had no well and went out to draw water.'},
             {word:'道听途说',pinyin:'dào tīng tú shuō',en:'hearsay',sentence:'求闻之若此，不若无闻也。',sentenceEn:'Seeking news like this is worse than hearing nothing at all.'}
+          ],
+          footnotes: [
+            {term:"\u96d5\u50cf", termEn:"sculpture; statue", definition:"(di\u0101o xi\u00e0ng) sculpture; statue\u3002\u4f8b\uff1a\u8d6b\u8033\u58a8\u65af\u6765\u5230\u4e00\u4e2a\u96d5\u50cf\u8005\u7684\u5e97\u91cc\u3002", definitionEn:"sculpture; statue"},
+            {term:"\u865a\u8363", termEn:"vanity", definition:"(x\u016b r\u00f3ng) vanity\u3002\u4f8b\uff1a\u8d6b\u8033\u58a8\u65af\u7684\u865a\u8363\u5fc3\u4f7f\u4ed6\u81ea\u53d6\u5176\u8fb1\u3002", definitionEn:"vanity"},
+            {term:"\u675e\u4eba\u5fe7\u5929", termEn:"needless anxiety", definition:"(q\u01d0 r\u00e9n y\u014du ti\u0101n) needless anxiety\u3002\u4f8b\uff1a\u675e\u56fd\u6709\u4eba\u5fe7\u5929\u5730\u5d29\u5760\u3002", definitionEn:"needless anxiety"},
+            {term:"\u7a7f\u4e95\u5f97\u4e00\u4eba", termEn:"digging a well yields a person", definition:"(chu\u0101n j\u01d0ng d\u00e9 y\u012b r\u00e9n) digging a well yields a person\u3002\u4f8b\uff1a\u5b8b\u4e4b\u4e01\u6c0f\uff0c\u5bb6\u65e0\u4e95\u800c\u51fa\u6e89\u6c72\u3002", definitionEn:"digging a well yields a person"},
+            {term:"\u9053\u542c\u9014\u8bf4", termEn:"hearsay", definition:"(d\u00e0o t\u012bng t\u00fa shu\u014d) hearsay\u3002\u4f8b\uff1a\u6c42\u95fb\u4e4b\u82e5\u6b64\uff0c\u4e0d\u82e5\u65e0\u95fb\u4e5f\u3002", definitionEn:"hearsay"}
           ],
           grammarPoints: [
             {point:'寓言寓意',pointEn:'yù yán yù yì',example:'fable and its moral',exampleEn:'蚊子打败了狮子，却被蜘蛛网粘住了。',explanation:'The mosquito defeated the lion but got stuck in a spider web.',explanationEn:'通过简短的故事传达深刻的道理'}

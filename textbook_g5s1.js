@@ -68,6 +68,13 @@ units: [
         {word:'悠然',pinyin:'yōu rán',en:'leisurely',sentence:'它悠然地站着。',sentenceEn:'It stands leisurely.'},
         {word:'韵味',pinyin:'yùn wèi',en:'charm',sentence:'别有一番韵味。',sentenceEn:'Has a special charm.'}
       ],
+      footnotes: [
+        {term:"\u767d\u9e6d", termEn:"white egret", definition:"(b\u00e1i l\u00f9) white egret", definitionEn:"white egret"},
+        {term:"\u7cbe\u5de7", termEn:"exquisite", definition:"(j\u012bng qi\u01ceo) exquisite", definitionEn:"exquisite"},
+        {term:"\u5d4c", termEn:"set; inlay", definition:"(qi\u00e0n) set; inlay", definitionEn:"set; inlay"},
+        {term:"\u60a0\u7136", termEn:"leisurely", definition:"(y\u014du r\u00e1n) leisurely", definitionEn:"leisurely"},
+        {term:"\u97f5\u5473", termEn:"charm", definition:"(y\u00f9n w\u00e8i) charm", definitionEn:"charm"}
+      ],
       grammarPoints: [
         {point:'借物抒情',pointEn:'jiè wù shū qíng',example:'express feelings through things',exampleEn:'白鹭实在是一首诗，一首韵在骨子里的散文诗。',explanation:'The egret is truly a poem, a prose poem.',explanationEn:'通过描写白鹭表达对美的感悟'}
       ],
@@ -137,6 +144,13 @@ units: [
         {word:'爱慕',pinyin:'ài mù',en:'admire',sentence:'不要只做外表好看让人爱慕的人。',sentenceEn:'Do not only be someone admired for looks.'},
         {word:'有用',pinyin:'yǒu yòng',en:'useful',sentence:'做有用的人。',sentenceEn:'Be a useful person.'}
       ],
+      footnotes: [
+        {term:"\u82b1\u751f", termEn:"peanut", definition:"(hu\u0101 sh\u0113ng) peanut", definitionEn:"peanut"},
+        {term:"\u6536\u83b7", termEn:"harvest", definition:"(sh\u014du hu\u00f2) harvest", definitionEn:"harvest"},
+        {term:"\u4f53\u9762", termEn:"dignified", definition:"(t\u01d0 mi\u00e0n) dignified", definitionEn:"dignified"},
+        {term:"\u7231\u6155", termEn:"admire", definition:"(\u00e0i m\u00f9) admire", definitionEn:"admire"},
+        {term:"\u6709\u7528", termEn:"useful", definition:"(y\u01d2u y\u00f2ng) useful", definitionEn:"useful"}
+      ],
       grammarPoints: [
         {point:'借物喻人',pointEn:'jiè wù yù rén',example:'use things to describe people',exampleEn:'做有用的人，不要只讲体面。',explanation:'Be useful, not just dignified.',explanationEn:'通过花生说明做人的道理'}
       ],
@@ -199,6 +213,13 @@ units: [
         {word:'摇花',pinyin:'yáo huā',en:'shake flowers down',sentence:'摇桂花是件大事。',sentenceEn:'Shaking osmanthus is a big event.'},
         {word:'故乡',pinyin:'gù xiāng',en:'hometown',sentence:'这里的桂花比不上家乡的。',sentenceEn:'The osmanthus here cannot compare to hometown.'},
         {word:'怀念',pinyin:'huái niàn',en:'miss; nostalgia',sentence:'怀念故乡的桂花。',sentenceEn:'Missing hometown osmanthus.'}
+      ],
+      footnotes: [
+        {term:"\u6842\u82b1", termEn:"osmanthus", definition:"(gu\u00ec hu\u0101) osmanthus", definitionEn:"osmanthus"},
+        {term:"\u6c89\u6d78", termEn:"immerse", definition:"(ch\u00e9n j\u00ecn) immerse", definitionEn:"immerse"},
+        {term:"\u6447\u82b1", termEn:"shake flowers down", definition:"(y\u00e1o hu\u0101) shake flowers down", definitionEn:"shake flowers down"},
+        {term:"\u6545\u4e61", termEn:"hometown", definition:"(g\u00f9 xi\u0101ng) hometown", definitionEn:"hometown"},
+        {term:"\u6000\u5ff5", termEn:"miss; nostalgia", definition:"(hu\u00e1i ni\u00e0n) miss; nostalgia", definitionEn:"miss; nostalgia"}
       ],
       exercises: [
         {type:"read",cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\u3002\u8bf4\u8bf4\u6842\u82b1\u7ed9\u201c\u6211\u201d\u5e26\u6765\u4e86\u54ea\u4e9b\u7f8e\u597d\u7684\u56de\u5fc6\u3002",en:"Read with feeling. Say what beautiful memories the osmanthus brought to \u2018me.\u2019"},
@@ -268,6 +289,13 @@ units: [
         {word:'巢',pinyin:'cháo',en:'nest',sentence:'它们在笼子里筑了巢。',sentenceEn:'They built a nest in the cage.'},
         {word:'肩膀',pinyin:'jiān bǎng',en:'shoulder',sentence:'小鸟落在我的肩膀上。',sentenceEn:'The little bird landed on my shoulder.'},
         {word:'渐渐',pinyin:'jiàn jiàn',en:'gradually',sentence:'小鸟渐渐胆大了。',sentenceEn:'The little bird gradually became bolder.'}
+      ],
+      footnotes: [
+        {term:"\u73cd\u73e0\u9e1f", termEn:"pearl bird", definition:"(zh\u0113n zh\u016b ni\u01ceo) pearl bird", definitionEn:"pearl bird"},
+        {term:"\u4fe1\u8d56", termEn:"trust", definition:"(x\u00ecn l\u00e0i) trust", definitionEn:"trust"},
+        {term:"\u5de2", termEn:"nest", definition:"(ch\u00e1o) nest", definitionEn:"nest"},
+        {term:"\u80a9\u8180", termEn:"shoulder", definition:"(ji\u0101n b\u01ceng) shoulder", definitionEn:"shoulder"},
+        {term:"\u6e10\u6e10", termEn:"gradually", definition:"(ji\u00e0n ji\u00e0n) gradually", definitionEn:"gradually"}
       ],
       grammarPoints: [
         {point:'以小见大',pointEn:'yǐ xiǎo jiàn dà',example:'see the big through the small',exampleEn:'信赖，往往创造出美好的境界。',explanation:'Trust often creates a beautiful realm.',explanationEn:'从小事中感悟大道理'}
@@ -355,6 +383,13 @@ units: [
         {word:'谦让',pinyin:'qiān ràng',en:'yield; courteous',sentence:'人们互相谦让。',sentenceEn:'People yield to each other courteously.'},
         {word:'风景',pinyin:'fēng jǐng',en:'scenery',sentence:'这是家乡一道美丽的风景。',sentenceEn:'This is a beautiful scene of the hometown.'}
       ],
+      footnotes: [
+        {term:"\u642d\u77f3", termEn:"stepping stones", definition:"(d\u0101 sh\u00ed) stepping stones", definitionEn:"stepping stones"},
+        {term:"\u534f\u8c03", termEn:"coordinated", definition:"(xi\u00e9 ti\u00e1o) coordinated", definitionEn:"coordinated"},
+        {term:"\u4fd7\u8bed", termEn:"folk saying", definition:"(s\u00fa y\u01d4) folk saying", definitionEn:"folk saying"},
+        {term:"\u8c26\u8ba9", termEn:"yield; courteous", definition:"(qi\u0101n r\u00e0ng) yield; courteous", definitionEn:"yield; courteous"},
+        {term:"\u98ce\u666f", termEn:"scenery", definition:"(f\u0113ng j\u01d0ng) scenery", definitionEn:"scenery"}
+      ],
       exercises: [
         {type:"read",cn:"\u8bf4\u8bf4\u8bfe\u6587\u7ed9\u4f60\u7559\u4e0b\u5370\u8c61\u6700\u6df1\u7684\u753b\u9762\u662f\u4ec0\u4e48\uff0c\u4ece\u54ea\u4e9b\u8bed\u53e5\u4e2d\u53ef\u4ee5\u4f53\u4f1a\u5230\u4e61\u4eb2\u4eec\u7f8e\u597d\u7684\u60c5\u611f\u3002",en:"Which scene impressed you most? Which sentences show the villagers\u2019 good feelings?"},
         {type:"speed",cn:"\u4f60\u8bfb\u8fd9\u7bc7\u8bfe\u6587\u7528\u4e86\u51e0\u5206\u949f\uff1f\u4e86\u89e3\u4e86\u54ea\u4e9b\u5185\u5bb9\uff1f",en:"How many minutes did it take you to read this? What did you learn?"}
@@ -430,6 +465,13 @@ units: [
         {word:'完璧归赵',pinyin:'wán bì guī zhào',en:'return the jade intact',sentence:'蔺相如完璧归赵。',sentenceEn:'Lin Xiangru returned the jade intact to Zhao.'},
         {word:'负荆请罪',pinyin:'fù jīng qǐng zuì',en:'offer humble apology',sentence:'廉颇负荆请罪。',sentenceEn:'Lian Po humbly apologized.'}
       ],
+      footnotes: [
+        {term:"\u5c06\u76f8", termEn:"general and minister", definition:"(ji\u00e0ng xi\u00e0ng) general and minister", definitionEn:"general and minister"},
+        {term:"\u5ec9\u9887", termEn:"Lian Po", definition:"(li\u00e1n p\u014d) Lian Po", definitionEn:"Lian Po"},
+        {term:"\u853a\u76f8\u5982", termEn:"Lin Xiangru", definition:"(l\u00ecn xi\u0101ng r\u00fa) Lin Xiangru", definitionEn:"Lin Xiangru"},
+        {term:"\u5b8c\u74a7\u5f52\u8d75", termEn:"return the jade intact", definition:"(w\u00e1n b\u00ec gu\u012b zh\u00e0o) return the jade intact", definitionEn:"return the jade intact"},
+        {term:"\u8d1f\u8346\u8bf7\u7f6a", termEn:"offer humble apology", definition:"(f\u00f9 j\u012bng q\u01d0ng zu\u00ec) offer humble apology", definitionEn:"offer humble apology"}
+      ],
       grammarPoints: [
         {point:'因果关系',pointEn:'yīn guǒ guān xì',example:'cause and effect',exampleEn:'因为蔺相如顾全大局，所以廉颇负荆请罪。',explanation:'Because Lin put the big picture first, Lian Po apologized.',explanationEn:'原因和结果之间的逻辑关系'}
       ],
@@ -487,6 +529,13 @@ units: [
         {word:'比较',pinyin:'bǐ jiào',en:'compare',sentence:'通过比较了解速度。',sentenceEn:'Understand speed through comparison.'},
         {word:'宇宙',pinyin:'yǔ zhòu',en:'universe',sentence:'宇宙中的速度。',sentenceEn:'Speeds in the universe.'}
       ],
+      footnotes: [
+        {term:"\u730e\u8c79", termEn:"cheetah", definition:"(li\u00e8 b\u00e0o) cheetah", definitionEn:"cheetah"},
+        {term:"\u5149\u901f", termEn:"speed of light", definition:"(gu\u0101ng s\u00f9) speed of light", definitionEn:"speed of light"},
+        {term:"\u58f0\u901f", termEn:"speed of sound", definition:"(sh\u0113ng s\u00f9) speed of sound", definitionEn:"speed of sound"},
+        {term:"\u6bd4\u8f83", termEn:"compare", definition:"(b\u01d0 ji\u00e0o) compare", definitionEn:"compare"},
+        {term:"\u5b87\u5b99", termEn:"universe", definition:"(y\u01d4 zh\u00f2u) universe", definitionEn:"universe"}
+      ],
       exercises: [
         {type:"think",cn:"\u6839\u636e\u8bfe\u6587\u5185\u5bb9\uff0c\u6309\u8fd0\u52a8\u901f\u5ea6\u7684\u5feb\u6162\u7ed9\u4e8b\u7269\u6392\u5e8f\u3002",en:"Rank the items by speed based on the text."},
         {type:"speed",cn:"\u4f60\u8bfb\u8fd9\u7bc7\u8bfe\u6587\u7528\u4e86\u51e0\u5206\u949f\uff1f",en:"How many minutes did this text take you?"}
@@ -540,6 +589,13 @@ units: [
         {word:'隐蔽',pinyin:'yǐn bì',en:'concealed',sentence:'地道隐蔽巧妙。',sentenceEn:'The tunnels were cleverly concealed.'},
         {word:'设计',pinyin:'shè jì',en:'design',sentence:'地道设计精巧。',sentenceEn:'The tunnels were ingeniously designed.'},
         {word:'防御',pinyin:'fáng yù',en:'defense',sentence:'有效的防御方式。',sentenceEn:'An effective method of defense.'}
+      ],
+      footnotes: [
+        {term:"\u5730\u9053", termEn:"tunnel", definition:"(d\u00ec d\u00e0o) tunnel", definitionEn:"tunnel"},
+        {term:"\u6297\u65e5", termEn:"anti-Japanese", definition:"(k\u00e0ng r\u00ec) anti-Japanese", definitionEn:"anti-Japanese"},
+        {term:"\u9690\u853d", termEn:"concealed", definition:"(y\u01d0n b\u00ec) concealed", definitionEn:"concealed"},
+        {term:"\u8bbe\u8ba1", termEn:"design", definition:"(sh\u00e8 j\u00ec) design", definitionEn:"design"},
+        {term:"\u9632\u5fa1", termEn:"defense", definition:"(f\u00e1ng y\u00f9) defense", definitionEn:"defense"}
       ],
       exercises: [
         {type:"think",cn:"\u5730\u9053\u6218\u53d6\u5f97\u6210\u529f\u7684\u5173\u952e\u662f\u4ec0\u4e48\uff1f\u7ed3\u5408\u8bfe\u6587\u5185\u5bb9\u8bf4\u4e00\u8bf4\u3002",en:"What was the key to tunnel warfare\u2019s success? Discuss with reference to the text."},
@@ -609,6 +665,13 @@ units: [
         {word:'变成',pinyin:'biàn chéng',en:'turn into',sentence:'他变成了石头。',sentenceEn:'He turned into stone.'},
         {word:'善良',pinyin:'shàn liáng',en:'kind',sentence:'海力布很善良。',sentenceEn:'Hailib was very kind.'}
       ],
+      footnotes: [
+        {term:"\u730e\u4eba", termEn:"hunter", definition:"(li\u00e8 r\u00e9n) hunter", definitionEn:"hunter"},
+        {term:"\u5b9d\u77f3", termEn:"gem", definition:"(b\u01ceo sh\u00ed) gem", definitionEn:"gem"},
+        {term:"\u727a\u7272", termEn:"sacrifice", definition:"(x\u012b sh\u0113ng) sacrifice", definitionEn:"sacrifice"},
+        {term:"\u53d8\u6210", termEn:"turn into", definition:"(bi\u00e0n ch\u00e9ng) turn into", definitionEn:"turn into"},
+        {term:"\u5584\u826f", termEn:"kind", definition:"(sh\u00e0n li\u00e1ng) kind", definitionEn:"kind"}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u8bfe\u6587\u5199\u4e86\u6d77\u529b\u5e03\u7684\u54ea\u51e0\u4ef6\u4e8b\u3002",en:"Read silently and say what events the text describes about Hailib."},
         {type:"retell",cn:"\u8bd5\u7740\u4ee5\u6d77\u529b\u5e03\u6216\u4e61\u4eb2\u4eec\u7684\u53e3\u543b\uff0c\u8bb2\u4e00\u8bb2\u6d77\u529b\u5e03\u529d\u8bf4\u4e61\u4eb2\u4eec\u8d76\u5feb\u642c\u5bb6\u7684\u90e8\u5206\u3002",en:"Retell the part where Hailib urges the villagers to flee, from his or their perspective."}
@@ -660,6 +723,13 @@ units: [
         {word:'勤劳',pinyin:'qín láo',en:'hardworking',sentence:'牛郎很勤劳。',sentenceEn:'The Cowherd was very hardworking.'},
         {word:'嫂子',pinyin:'sǎo zi',en:'sister-in-law',sentence:'嫂子对他很不好。',sentenceEn:'His sister-in-law treated him badly.'}
       ],
+      footnotes: [
+        {term:"\u725b\u90ce", termEn:"cowherd", definition:"(ni\u00fa l\u00e1ng) cowherd", definitionEn:"cowherd"},
+        {term:"\u7ec7\u5973", termEn:"weaving maid", definition:"(zh\u012b n\u01da) weaving maid", definitionEn:"weaving maid"},
+        {term:"\u8001\u725b", termEn:"old ox", definition:"(l\u01ceo ni\u00fa) old ox", definitionEn:"old ox"},
+        {term:"\u52e4\u52b3", termEn:"hardworking", definition:"(q\u00edn l\u00e1o) hardworking", definitionEn:"hardworking"},
+        {term:"\u5ac2\u5b50", termEn:"sister-in-law", definition:"(s\u01ceo zi) sister-in-law", definitionEn:"sister-in-law"}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u725b\u90ce\u548c\u8001\u725b\u662f\u600e\u4e48\u76f8\u5904\u7684\uff0c\u4ed6\u548c\u7ec7\u5973\u662f\u600e\u4e48\u8ba4\u8bc6\u7684\u3002",en:"Read silently. Describe how Niulang got along with the ox and how he met the Weaving Maid."},
         {type:"think",cn:"\u8bfe\u6587\u4e2d\u6709\u4e9b\u60c5\u8282\u5199\u5f97\u5f88\u7b80\u7565\uff0c\u53d1\u6325\u60f3\u8c61\u628a\u4e0b\u9762\u7684\u60c5\u8282\u8bf4\u5f97\u66f4\u5177\u4f53\u3002",en:"Some plot points are brief. Use your imagination to expand them."}
@@ -710,6 +780,13 @@ units: [
         {word:'七夕',pinyin:'qī xī',en:'Qixi Festival',sentence:'每年七月七日相会。',sentenceEn:'They meet every July 7th.'},
         {word:'思念',pinyin:'sī niàn',en:'miss',sentence:'他们非常思念对方。',sentenceEn:'They missed each other deeply.'},
         {word:'团圆',pinyin:'tuán yuán',en:'reunion',sentence:'一年一次的团圆。',sentenceEn:'A once-a-year reunion.'}
+      ],
+      footnotes: [
+        {term:"\u94f6\u6cb3", termEn:"Milky Way", definition:"(y\u00edn h\u00e9) Milky Way", definitionEn:"Milky Way"},
+        {term:"\u559c\u9e4a", termEn:"magpie", definition:"(x\u01d0 qu\u00e8) magpie", definitionEn:"magpie"},
+        {term:"\u4e03\u5915", termEn:"Qixi Festival", definition:"(q\u012b x\u012b) Qixi Festival", definitionEn:"Qixi Festival"},
+        {term:"\u601d\u5ff5", termEn:"miss", definition:"(s\u012b ni\u00e0n) miss", definitionEn:"miss"},
+        {term:"\u56e2\u5706", termEn:"reunion", definition:"(tu\u00e1n yu\u00e1n) reunion", definitionEn:"reunion"}
       ],
       exercises: [
         {type:"read",cn:"\u7528\u4e0a\u4e00\u5355\u5143\u5b66\u5230\u7684\u9605\u8bfb\u65b9\u6cd5\uff0c\u5c3d\u53ef\u80fd\u5feb\u5730\u9ed8\u8bfb\u8bfe\u6587\uff0c\u4e86\u89e3\u725b\u90ce\u7ec7\u5973\u6545\u4e8b\u7684\u7ed3\u5c40\u3002",en:"Using the reading skills from the last unit, read as quickly as possible to learn the ending of the story."},
@@ -769,6 +846,13 @@ units: [
         {word:'爱国',pinyin:'ài guó',en:'patriotic',sentence:'这些诗都表达了爱国情感。',sentenceEn:'These poems all express patriotic feelings.'},
         {word:'忧国忧民',pinyin:'yōu guó yōu mín',en:'worry about the country and people',sentence:'诗人忧国忧民。',sentenceEn:'The poet worried about country and people.'}
       ],
+      footnotes: [
+        {term:"\u793a\u513f", termEn:"Showing to My Sons", definition:"(sh\u00ec \u00e9r) Showing to My Sons", definitionEn:"Showing to My Sons"},
+        {term:"\u9898\u4e34\u5b89\u90b8", termEn:"Written at an Inn in Lin an", definition:"(t\u00ed l\u00edn \u0101n d\u01d0) Written at an Inn in Lin an", definitionEn:"Written at an Inn in Lin an"},
+        {term:"\u5df1\u4ea5\u6742\u8bd7", termEn:"Poems of 1839", definition:"(j\u01d0 h\u00e0i z\u00e1 sh\u012b) Poems of 1839", definitionEn:"Poems of 1839"},
+        {term:"\u7231\u56fd", termEn:"patriotic", definition:"(\u00e0i gu\u00f3) patriotic", definitionEn:"patriotic"},
+        {term:"\u5fe7\u56fd\u5fe7\u6c11", termEn:"worry about the country and people", definition:"(y\u014du gu\u00f3 y\u014du m\u00edn) worry about the country and people", definitionEn:"worry about the country and people"}
+      ],
       exercises: [
         {type:"recite",cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\u3002\u80cc\u8bf5\u8bfe\u6587\u3002\u9ed8\u5199\u300a\u793a\u513f\u300b\u3002",en:"Read with feeling. Recite all three. Write \u2018To My Sons\u2019 from memory."},
         {type:"think",cn:"\u7ed3\u5408\u6ce8\u91ca\u548c\u76f8\u5173\u8d44\u6599\uff0c\u8bf4\u8bf4\u4e0b\u5217\u8bd7\u53e5\u7684\u610f\u601d\uff0c\u60f3\u60f3\u5b83\u4eec\u8868\u8fbe\u4e86\u8bd7\u4eba\u600e\u6837\u7684\u60c5\u611f\u3002",en:"Using notes and resources, explain the meaning of key lines and the poet\u2019s emotions."}
@@ -810,6 +894,13 @@ units: [
         {word:'前途',pinyin:'qián tú',en:'future',sentence:'前途似海，来日方长。',sentenceEn:'Future like the sea, days ahead are long.'},
         {word:'崛起',pinyin:'jué qǐ',en:'rise',sentence:'中国崛起。',sentenceEn:'China rises.'},
         {word:'壮丽',pinyin:'zhuàng lì',en:'magnificent',sentence:'壮丽的未来。',sentenceEn:'A magnificent future.'}
+      ],
+      footnotes: [
+        {term:"\u5c11\u5e74", termEn:"youth", definition:"(sh\u00e0o ni\u00e1n) youth", definitionEn:"youth"},
+        {term:"\u4e2d\u56fd", termEn:"China", definition:"(zh\u014dng gu\u00f3) China", definitionEn:"China"},
+        {term:"\u524d\u9014", termEn:"future", definition:"(qi\u00e1n t\u00fa) future", definitionEn:"future"},
+        {term:"\u5d1b\u8d77", termEn:"rise", definition:"(ju\u00e9 q\u01d0) rise", definitionEn:"rise"},
+        {term:"\u58ee\u4e3d", termEn:"magnificent", definition:"(zhu\u00e0ng l\u00ec) magnificent", definitionEn:"magnificent"}
       ],
       grammarPoints: [
         {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'少年智则国智，少年富则国富，少年强则国强。',explanation:'When youth are wise, the nation is wise...',explanationEn:'用结构相同的句子加强气势'}
@@ -859,6 +950,13 @@ units: [
         {word:'侵略',pinyin:'qīn lüè',en:'invade',sentence:'英法联军侵入北京。',sentenceEn:'Anglo-French forces invaded Beijing.'},
         {word:'不可估量',pinyin:'bù kě gū liáng',en:'incalculable',sentence:'这是不可估量的损失。',sentenceEn:'This is an incalculable loss.'}
       ],
+      footnotes: [
+        {term:"\u5706\u660e\u56ed", termEn:"Yuanmingyuan (Old Summer Palace)", definition:"(yu\u00e1n m\u00edng yu\u00e1n) Yuanmingyuan (Old Summer Palace)", definitionEn:"Yuanmingyuan (Old Summer Palace)"},
+        {term:"\u7470\u5b9d", termEn:"treasure", definition:"(gu\u012b b\u01ceo) treasure", definitionEn:"treasure"},
+        {term:"\u6bc1\u706d", termEn:"destroy", definition:"(hu\u01d0 mi\u00e8) destroy", definitionEn:"destroy"},
+        {term:"\u4fb5\u7565", termEn:"invade", definition:"(q\u012bn l\u00fc\u00e8) invade", definitionEn:"invade"},
+        {term:"\u4e0d\u53ef\u4f30\u91cf", termEn:"incalculable", definition:"(b\u00f9 k\u011b g\u016b li\u00e1ng) incalculable", definitionEn:"incalculable"}
+      ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u60f3\u60f3\u8bfe\u6587\u4e3b\u8981\u8868\u8fbe\u4e86\u600e\u6837\u7684\u60c5\u611f\u3002\u53cd\u590d\u6717\u8bfb\uff0c\u8bfb\u51fa\u60c5\u611f\u7684\u53d8\u5316\u3002",en:"Read silently, considering the dominant emotion. Read aloud repeatedly, conveying the shifts in feeling."},
         {type:"think",cn:"\u8bfe\u6587\u9898\u76ee\u662f\u201c\u5706\u660e\u56ed\u7684\u6bc1\u706d\u201d\uff0c\u4f5c\u8005\u4e3a\u4ec0\u4e48\u7528\u90a3\u4e48\u591a\u7b14\u58a8\u5199\u5706\u660e\u56ed\u6614\u65e5\u7684\u8f89\u714c\uff1f",en:"The title is \u2018The Destruction\u2019 \u2014 why does the author devote so much space to Yuanmingyuan\u2019s former glory?"}
@@ -906,6 +1004,13 @@ units: [
         {word:'蔬菜',pinyin:'shū cài',en:'vegetables',sentence:'在岛上种蔬菜。',sentenceEn:'Growing vegetables on the island.'},
         {word:'坚守',pinyin:'jiān shǒu',en:'hold firm',sentence:'战士们坚守岗位。',sentenceEn:'Soldiers hold firm at their posts.'},
         {word:'奉献',pinyin:'fèng xiàn',en:'dedicate',sentence:'默默奉献。',sentenceEn:'Silently dedicated.'}
+      ],
+      footnotes: [
+        {term:"\u5c0f\u5c9b", termEn:"small island", definition:"(xi\u01ceo d\u01ceo) small island", definitionEn:"small island"},
+        {term:"\u6218\u58eb", termEn:"soldier", definition:"(zh\u00e0n sh\u00ec) soldier", definitionEn:"soldier"},
+        {term:"\u852c\u83dc", termEn:"vegetables", definition:"(sh\u016b c\u00e0i) vegetables", definitionEn:"vegetables"},
+        {term:"\u575a\u5b88", termEn:"hold firm", definition:"(ji\u0101n sh\u01d2u) hold firm", definitionEn:"hold firm"},
+        {term:"\u5949\u732e", termEn:"dedicate", definition:"(f\u00e8ng xi\u00e0n) dedicate", definitionEn:"dedicate"}
       ],
       exercises: [
         {type:"read",cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u7528\u5c06\u519b\u7684\u53e3\u543b\uff0c\u8bb2\u8ff0\u767b\u4e0a\u5c0f\u5c9b\u540e\u53d1\u751f\u7684\u6545\u4e8b\u3002",en:"Read silently and retell the story from the general\u2019s perspective after landing on the island."},
@@ -977,6 +1082,13 @@ units: [
         {word:'繁殖',pinyin:'fán zhí',en:'reproduce',sentence:'鸟兽虫鱼才能生存、繁殖。',sentenceEn:'Birds, beasts, insects and fish can survive and reproduce.'},
         {word:'杀菌',pinyin:'shā jūn',en:'sterilize',sentence:'太阳光有杀菌的作用。',sentenceEn:'Sunlight has a sterilizing effect.'}
       ],
+      footnotes: [
+        {term:"\u592a\u9633", termEn:"sun", definition:"(t\u00e0i y\u00e1ng) sun", definitionEn:"sun"},
+        {term:"\u6e29\u5ea6", termEn:"temperature", definition:"(w\u0113n d\u00f9) temperature", definitionEn:"temperature"},
+        {term:"\u5bc6\u5207", termEn:"closely related", definition:"(m\u00ec qi\u00e8) closely related", definitionEn:"closely related"},
+        {term:"\u7e41\u6b96", termEn:"reproduce", definition:"(f\u00e1n zh\u00ed) reproduce", definitionEn:"reproduce"},
+        {term:"\u6740\u83cc", termEn:"sterilize", definition:"(sh\u0101 j\u016bn) sterilize", definitionEn:"sterilize"}
+      ],
       grammarPoints: [
         {point:'列数字',pointEn:'liè shù zì',example:'using numbers',exampleEn:'约一百三十万个地球的体积才能抵得上一个太阳。',explanation:'About 1.3 million Earths could fit inside the sun.',explanationEn:'用具体数字说明事物特点'},
         {point:'作比较',pointEn:'zuò bǐ jiào',example:'making comparisons',exampleEn:'太阳离我们约有一亿五千万千米远，步行要走三千五百年。',explanation:'The sun is 150 million km away; walking would take 3,500 years.',explanationEn:'通过比较让读者理解抽象概念'}
@@ -1025,6 +1137,13 @@ units: [
         {word:'矫健',pinyin:'jiǎo jiàn',en:'agile',sentence:'身体矫健，四肢轻快。',sentenceEn:'Agile body, nimble limbs.'},
         {word:'玲珑',pinyin:'líng lóng',en:'exquisite',sentence:'玲珑的小面孔。',sentenceEn:'An exquisite little face.'},
         {word:'敏捷',pinyin:'mǐn jié',en:'agile; quick',sentence:'松鼠动作十分敏捷。',sentenceEn:'Squirrels are very agile.'}
+      ],
+      footnotes: [
+        {term:"\u677e\u9f20", termEn:"squirrel", definition:"(s\u014dng sh\u01d4) squirrel", definitionEn:"squirrel"},
+        {term:"\u4e56\u5de7", termEn:"clever and cute", definition:"(gu\u0101i qi\u01ceo) clever and cute", definitionEn:"clever and cute"},
+        {term:"\u77eb\u5065", termEn:"agile", definition:"(ji\u01ceo ji\u00e0n) agile", definitionEn:"agile"},
+        {term:"\u73b2\u73d1", termEn:"exquisite", definition:"(l\u00edng l\u00f3ng) exquisite", definitionEn:"exquisite"},
+        {term:"\u654f\u6377", termEn:"agile; quick", definition:"(m\u01d0n ji\u00e9) agile; quick", definitionEn:"agile; quick"}
       ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u628a\u4ece\u8bfe\u6587\u4e2d\u83b7\u5f97\u7684\u6709\u5173\u677e\u9f20\u7684\u4fe1\u606f\u5206\u6761\u5199\u4e0b\u6765\u3002",en:"Read silently and list the information about squirrels you learned from the text."}},
@@ -1103,6 +1222,13 @@ units: [
         {word:'疲惫',pinyin:'pí bèi',en:'exhausted',sentence:'一双眼神疲惫的眼睛吃惊地望着我。',sentenceEn:'A pair of exhausted eyes looked at me in surprise.'},
         {word:'龟裂',pinyin:'jūn liè',en:'chapped; cracked',sentence:'用龟裂的手指数着钱。',sentenceEn:'Counting money with chapped fingers.'}
       ],
+      footnotes: [
+        {term:"\u6148\u6bcd", termEn:"loving mother", definition:"(c\u00ed m\u01d4) loving mother", definitionEn:"loving mother"},
+        {term:"\u60c5\u6df1", termEn:"deep affection", definition:"(q\u00edng sh\u0113n) deep affection", definitionEn:"deep affection"},
+        {term:"\u7f1d\u7eab\u673a", termEn:"sewing machine", definition:"(f\u00e9ng r\u00e8n j\u012b) sewing machine", definitionEn:"sewing machine"},
+        {term:"\u75b2\u60eb", termEn:"exhausted", definition:"(p\u00ed b\u00e8i) exhausted", definitionEn:"exhausted"},
+        {term:"\u9f9f\u88c2", termEn:"chapped; cracked", definition:"(j\u016bn li\u00e8) chapped; cracked", definitionEn:"chapped; cracked"}
+      ],
       grammarPoints: [
         {point:'反复',pointEn:'fǎn fù',example:'repetition',exampleEn:'背直起来了，我的母亲。转过身来了，我的母亲。',explanation:'Her back straightened up, my mother. She turned around, my mother.',explanationEn:'重复相同结构强调情感'}
       ],
@@ -1161,6 +1287,13 @@ units: [
         {word:'心酸',pinyin:'xīn suān',en:'heartache',sentence:'这是我第一次真正心酸的哭。',sentenceEn:'This was my first truly heartfelt cry.'},
         {word:'艰难',pinyin:'jiān nán',en:'difficult; hard',sentence:'我深深体会到父亲挣钱的艰难。',sentenceEn:'I deeply understood how hard it was for father to earn money.'}
       ],
+      footnotes: [
+        {term:"\u7236\u7231", termEn:"fatherly love", definition:"(f\u00f9 \u00e0i) fatherly love", definitionEn:"fatherly love"},
+        {term:"\u8282\u7701", termEn:"save; economize", definition:"(ji\u00e9 sh\u011bng) save; economize", definitionEn:"save; economize"},
+        {term:"\u80cc\u5f71", termEn:"rear view; back", definition:"(b\u00e8i y\u01d0ng) rear view; back", definitionEn:"rear view; back"},
+        {term:"\u5fc3\u9178", termEn:"heartache", definition:"(x\u012bn su\u0101n) heartache", definitionEn:"heartache"},
+        {term:"\u8270\u96be", termEn:"difficult; hard", definition:"(ji\u0101n n\u00e1n) difficult; hard", definitionEn:"difficult; hard"}
+      ],
       grammarPoints: [
         {point:'场景描写',pointEn:'chǎng jǐng miáo xiě',example:'scene description',exampleEn:'人山人海，卖小吃的挤得密密层层。',explanation:'Crowds of people, snack sellers packed together.',explanationEn:'通过具体场景传达情感'}
       ],
@@ -1214,6 +1347,13 @@ units: [
         {word:'赞扬',pinyin:'zàn yáng',en:'praise',sentence:'赞扬声雨点般落到我身上。',sentenceEn:'Praise rained down on me.'},
         {word:'严厉',pinyin:'yán lì',en:'strict',sentence:'父亲的批评是严厉的。',sentenceEn:'The criticism from father was strict.'},
         {word:'鼓舞',pinyin:'gǔ wǔ',en:'encourage; inspire',sentence:'在爱的鼓舞下，我努力地向前驶去。',sentenceEn:'Inspired by love, I pressed forward.'}
+      ],
+      footnotes: [
+        {term:"\u7cbe\u5f69", termEn:"wonderful", definition:"(j\u012bng c\u01cei) wonderful", definitionEn:"wonderful"},
+        {term:"\u7cdf\u7cd5", termEn:"terrible", definition:"(z\u0101o g\u0101o) terrible", definitionEn:"terrible"},
+        {term:"\u8d5e\u626c", termEn:"praise", definition:"(z\u00e0n y\u00e1ng) praise", definitionEn:"praise"},
+        {term:"\u4e25\u5389", termEn:"strict", definition:"(y\u00e1n l\u00ec) strict", definitionEn:"strict"},
+        {term:"\u9f13\u821e", termEn:"encourage; inspire", definition:"(g\u01d4 w\u01d4) encourage; inspire", definitionEn:"encourage; inspire"}
       ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u60f3\u60f3\u7236\u4eb2\u548c\u6bcd\u4eb2\u5bf9\u5df4\u8fea\u7684\u8bd7\u4e3a\u4ec0\u4e48\u4f1a\u6709\u4e0d\u540c\u7684\u770b\u6cd5\u3002",en:"Think about why Father and Mother had different opinions about Buddy\u2019s poem."}},
@@ -1270,6 +1410,13 @@ units: [
         {word:'动静结合',pinyin:'dòng jìng jié hé',en:'combining movement and stillness',sentence:'明月松间照，清泉石上流。',sentenceEn:'Bright moon shines through pines, clear spring flows over rocks.'},
         {word:'羁旅思乡',pinyin:'jī lǚ sī xiāng',en:'homesickness while traveling',sentence:'风一更，雪一更，聒碎乡心梦不成。',sentenceEn:'Wind howls, snow falls, shattering dreams of home.'}
       ],
+      footnotes: [
+        {term:"\u5c71\u5c45\u79cb\u669d", termEn:"Autumn Evening in the Mountains", definition:"(sh\u0101n j\u016b qi\u016b m\u00edng) Autumn Evening in the Mountains", definitionEn:"Autumn Evening in the Mountains"},
+        {term:"\u67ab\u6865\u591c\u6cca", termEn:"Mooring at Night by Maple Bridge", definition:"(f\u0113ng qi\u00e1o y\u00e8 b\u00f3) Mooring at Night by Maple Bridge", definitionEn:"Mooring at Night by Maple Bridge"},
+        {term:"\u957f\u76f8\u601d", termEn:"Everlasting Longing", definition:"(ch\u00e1ng xi\u0101ng s\u012b) Everlasting Longing", definitionEn:"Everlasting Longing"},
+        {term:"\u52a8\u9759\u7ed3\u5408", termEn:"combining movement and stillness", definition:"(d\u00f2ng j\u00ecng ji\u00e9 h\u00e9) combining movement and stillness", definitionEn:"combining movement and stillness"},
+        {term:"\u7f81\u65c5\u601d\u4e61", termEn:"homesickness while traveling", definition:"(j\u012b l\u01da s\u012b xi\u0101ng) homesickness while traveling", definitionEn:"homesickness while traveling"}
+      ],
       exercises:[
         {type:"recitation",prompt:{cn:"\u6709\u611f\u60c5\u5730\u6717\u8bfb\u8bfe\u6587\u3002\u80cc\u8bf5\u8bfe\u6587\u3002\u9ed8\u5199\u300a\u67ab\u6865\u591c\u6cca\u300b\u3002",en:"Read the poems aloud with feeling. Recite them from memory. Write \u2018Mooring by Maple Bridge at Night\u2019 from memory."}},
         {type:"analysis",prompt:{cn:"\u8bfb\u4e00\u8bfb\uff0c\u60f3\u8c61\u8bd7\u53e5\u63cf\u7ed8\u7684\u666f\u8c61\uff0c\u4f53\u4f1a\u5176\u4e2d\u7684\u9759\u6001\u63cf\u5199\u548c\u52a8\u6001\u63cf\u5199\u3002",en:"Read and imagine the scenes depicted; experience the static and dynamic descriptions within."}}
@@ -1311,6 +1458,13 @@ units: [
         {word:'闲逸',pinyin:'xián yì',en:'leisurely',sentence:'秋天闲逸的心情。',sentenceEn:'The leisurely mood of autumn.'},
         {word:'凛冽',pinyin:'lǐn liè',en:'piercing cold',sentence:'冬天凛冽的早晨。',sentenceEn:'The piercing cold winter mornings.'},
         {word:'静态描写',pinyin:'jìng tài miáo xiě',en:'static description',sentence:'东方一点儿一点儿泛着鱼肚色的天空。',sentenceEn:'The eastern sky gradually turning the color of a fish belly.'}
+      ],
+      footnotes: [
+        {term:"\u9ece\u660e", termEn:"dawn", definition:"(l\u00ed m\u00edng) dawn", definitionEn:"dawn"},
+        {term:"\u591c\u5e55", termEn:"nightfall", definition:"(y\u00e8 m\u00f9) nightfall", definitionEn:"nightfall"},
+        {term:"\u95f2\u9038", termEn:"leisurely", definition:"(xi\u00e1n y\u00ec) leisurely", definitionEn:"leisurely"},
+        {term:"\u51db\u51bd", termEn:"piercing cold", definition:"(l\u01d0n li\u00e8) piercing cold", definitionEn:"piercing cold"},
+        {term:"\u9759\u6001\u63cf\u5199", termEn:"static description", definition:"(j\u00ecng t\u00e0i mi\u00e1o xi\u011b) static description", definitionEn:"static description"}
       ],
       grammarPoints: [
         {point:'动静结合',pointEn:'dòng jìng jié hé',example:'combining movement and stillness',exampleEn:'明亮的月夜固然美，漆黑漆黑的暗夜也有萤火虫翩翩飞舞。',explanation:'Bright moonlit nights are beautiful, but dark nights have fireflies dancing.',explanationEn:'将动态与静态描写结合展现景色'}
@@ -1372,6 +1526,13 @@ units: [
         {word:'应接不暇',pinyin:'yìng jiē bù xiá',en:'too many to take in',sentence:'群鸟纷飞，应接不暇。',sentenceEn:'Birds flew in all directions, too many to take in.'},
         {word:'不可计数',pinyin:'bù kě jì shù',en:'countless',sentence:'不可计数的枝叶。',sentenceEn:'Countless branches and leaves.'}
       ],
+      footnotes: [
+        {term:"\u5929\u5802", termEn:"paradise", definition:"(ti\u0101n t\u00e1ng) paradise", definitionEn:"paradise"},
+        {term:"\u6995\u6811", termEn:"banyan tree", definition:"(r\u00f3ng sh\u00f9) banyan tree", definitionEn:"banyan tree"},
+        {term:"\u8302\u76db", termEn:"luxuriant", definition:"(m\u00e0o sh\u00e8ng) luxuriant", definitionEn:"luxuriant"},
+        {term:"\u5e94\u63a5\u4e0d\u6687", termEn:"too many to take in", definition:"(y\u00ecng ji\u0113 b\u00f9 xi\u00e1) too many to take in", definitionEn:"too many to take in"},
+        {term:"\u4e0d\u53ef\u8ba1\u6570", termEn:"countless", definition:"(b\u00f9 k\u011b j\u00ec sh\u00f9) countless", definitionEn:"countless"}
+      ],
       grammarPoints: [
         {point:'点面结合',pointEn:'diǎn miàn jié hé',example:'combining detail and overview',exampleEn:'到处是鸟声，到处是鸟影……一只画眉鸟飞了出来。',explanation:'Birdsong and bird shadows everywhere... A thrush flew out.',explanationEn:'先写整体场面再聚焦个体'}
       ],
@@ -1423,6 +1584,13 @@ units: [
         {word:'嫉妒',pinyin:'jí dù',en:'jealous',sentence:'月亮是属于我们每个人的。',sentenceEn:'The moon belongs to each of us.'},
         {word:'踪迹',pinyin:'zōng jì',en:'trace',sentence:'月亮的踪迹无处不在。',sentenceEn:'Traces of the moon are everywhere.'}
       ],
+      footnotes: [
+        {term:"\u6708\u8ff9", termEn:"moon traces", definition:"(yu\u00e8 j\u00ec) moon traces", definitionEn:"moon traces"},
+        {term:"\u7a7f\u8863\u955c", termEn:"dressing mirror", definition:"(chu\u0101n y\u012b j\u00ecng) dressing mirror", definitionEn:"dressing mirror"},
+        {term:"\u6ee1\u76c8", termEn:"brimming", definition:"(m\u01cen y\u00edng) brimming", definitionEn:"brimming"},
+        {term:"\u5ac9\u5992", termEn:"jealous", definition:"(j\u00ed d\u00f9) jealous", definitionEn:"jealous"},
+        {term:"\u8e2a\u8ff9", termEn:"trace", definition:"(z\u014dng j\u00ec) trace", definitionEn:"trace"}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u6708\u4eae\u7684\u8db3\u8ff9\u90fd\u51fa\u73b0\u5728\u54ea\u91cc\u3002",en:"Read silently and say where the moon\u2019s traces appear throughout the text."}},
         {type:"appreciation",prompt:{cn:"\u628a\u4f60\u89c9\u5f97\u6709\u8da3\u7684\u5730\u65b9\u627e\u51fa\u6765\uff0c\u4f53\u4f1a\u4f5c\u8005\u7ec6\u817b\u7684\u611f\u53d7\u548c\u52a8\u4eba\u7684\u63cf\u5199\u3002",en:"Find the parts you find interesting and appreciate the author\u2019s delicate feelings and moving descriptions."}}
@@ -1473,6 +1641,13 @@ units: [
         {word:'好学',pinyin:'hào xué',en:'love learning',sentence:'敏而好学，不耻下问。',sentenceEn:'Quick to learn, not ashamed to ask those below.'},
         {word:'诵读',pinyin:'sòng dú',en:'recite',sentence:'漫浪诵读，决不能记。',sentenceEn:'Reading carelessly, one can never remember.'},
         {word:'专一',pinyin:'zhuān yī',en:'focused',sentence:'心眼既不专一，却只漫浪诵读。',sentenceEn:'If mind and eyes are not focused, one only reads carelessly.'}
+      ],
+      footnotes: [
+        {term:"\u8bba\u8bed", termEn:"The Analects", definition:"(l\u00fan y\u01d4) The Analects", definitionEn:"The Analects"},
+        {term:"\u6731\u71b9", termEn:"Zhu Xi", definition:"(zh\u016b x\u012b) Zhu Xi", definitionEn:"Zhu Xi"},
+        {term:"\u597d\u5b66", termEn:"love learning", definition:"(h\u00e0o xu\u00e9) love learning", definitionEn:"love learning"},
+        {term:"\u8bf5\u8bfb", termEn:"recite", definition:"(s\u00f2ng d\u00fa) recite", definitionEn:"recite"},
+        {term:"\u4e13\u4e00", termEn:"focused", definition:"(zhu\u0101n y\u012b) focused", definitionEn:"focused"}
       ],
       grammarPoints: [
         {point:'文言文阅读',pointEn:'wén yán wén yuè dú',example:'classical Chinese reading',exampleEn:'知之为知之，不知为不知，是知也。',explanation:'To know what you know and not what you do not — that is wisdom.',explanationEn:'借助注释理解文言文大意'}
@@ -1528,6 +1703,13 @@ units: [
         {word:'总而言之',pinyin:'zǒng ér yán zhī',en:'in summary',sentence:'总而言之，读书好。',sentenceEn:'In summary, reading is good.'},
         {word:'质朴',pinyin:'zhì pǔ',en:'simple and natural',sentence:'冰心的文字质朴而深刻。',sentenceEn:'Bing Xin writes simply yet profoundly.'}
       ],
+      footnotes: [
+        {term:"\u8bfb\u4e66", termEn:"reading", definition:"(d\u00fa sh\u016b) reading", definitionEn:"reading"},
+        {term:"\u6d25\u6d25\u6709\u5473", termEn:"with great relish", definition:"(j\u012bn j\u012bn y\u01d2u w\u00e8i) with great relish", definitionEn:"with great relish"},
+        {term:"\u4e00\u77e5\u534a\u89e3", termEn:"half understanding", definition:"(y\u012b zh\u012b b\u00e0n ji\u011b) half understanding", definitionEn:"half understanding"},
+        {term:"\u603b\u800c\u8a00\u4e4b", termEn:"in summary", definition:"(z\u01d2ng \u00e9r y\u00e1n zh\u012b) in summary", definitionEn:"in summary"},
+        {term:"\u8d28\u6734", termEn:"simple and natural", definition:"(zh\u00ec p\u01d4) simple and natural", definitionEn:"simple and natural"}
+      ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u7528\u8f83\u5feb\u7684\u901f\u5ea6\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u4f5c\u8005\u56de\u5fc6\u4e86\u81ea\u5df1\u8bfb\u4e66\u7684\u54ea\u4e9b\u7ecf\u5386\uff0c\u5979\u8ba4\u4e3a\u4ec0\u4e48\u6837\u7684\u4e66\u624d\u662f\u597d\u4e66\u3002",en:"Read quickly and say what reading experiences the author recalls and what she considers a good book."}},
         {type:"discussion",prompt:{cn:"\u7ed3\u5408\u81ea\u5df1\u7684\u8bfb\u4e66\u7ecf\u5386\uff0c\u8c08\u8c08\u4f60\u5bf9\u201c\u6211\u6c38\u8fdc\u611f\u5230\u8bfb\u4e66\u662f\u6211\u751f\u547d\u4e2d\u6700\u5927\u7684\u5feb\u4e50\u201d\u8fd9\u53e5\u8bdd\u7684\u4f53\u4f1a\u3002",en:"Share your thoughts on \u2018I always feel reading is my life\u2019s greatest joy,\u2019 drawing from your own reading experiences."}}
@@ -1581,6 +1763,13 @@ units: [
         {word:'心扉',pinyin:'xīn fēi',en:'heart',sentence:'书打开了我的心扉。',sentenceEn:'Books opened my heart.'},
         {word:'馈赠',pinyin:'kuì zèng',en:'gift',sentence:'读书带给我丰厚的馈赠。',sentenceEn:'Reading brought me generous gifts.'},
         {word:'真情实感',pinyin:'zhēn qíng shí gǎn',en:'true feelings',sentence:'作文要写出真情实感。',sentenceEn:'Writing should express true feelings.'}
+      ],
+      footnotes: [
+        {term:"\u957f\u751f\u679c", termEn:"elixir of life", definition:"(ch\u00e1ng sh\u0113ng gu\u01d2) elixir of life", definitionEn:"elixir of life"},
+        {term:"\u5982\u9965\u4f3c\u6e34", termEn:"thirstily; eagerly", definition:"(r\u00fa j\u012b s\u00ec k\u011b) thirstily; eagerly", definitionEn:"thirstily; eagerly"},
+        {term:"\u5fc3\u6249", termEn:"heart", definition:"(x\u012bn f\u0113i) heart", definitionEn:"heart"},
+        {term:"\u9988\u8d60", termEn:"gift", definition:"(ku\u00ec z\u00e8ng) gift", definitionEn:"gift"},
+        {term:"\u771f\u60c5\u5b9e\u611f", termEn:"true feelings", definition:"(zh\u0113n q\u00edng sh\u00ed g\u01cen) true feelings", definitionEn:"true feelings"}
       ],
       exercises:[
         {type:"comprehension",prompt:{cn:"\u7528\u8f83\u5feb\u7684\u901f\u5ea6\u9ed8\u8bfb\u8bfe\u6587\uff0c\u8bf4\u8bf4\u4f5c\u8005\u8bfb\u8fc7\u54ea\u4e9b\u7c7b\u578b\u7684\u4e66\uff0c\u4ece\u7ae5\u5e74\u8bfb\u4e66\u3001\u4f5c\u6587\u4e2d\u609f\u51fa\u4e86\u54ea\u4e9b\u9053\u7406\u3002",en:"Read quickly and say what types of books the author read and what lessons she drew from childhood reading and writing."}}

@@ -55,6 +55,14 @@ units: [
         {word:'捕食',pinyin:'bǔ shí',en:'catch food',sentence:'鲤鱼妈妈在教小鲤鱼捕食。',sentenceEn:'Mother Carp teaches baby carps to catch food.'},
         {word:'害虫',pinyin:'hài chóng',en:'pest',sentence:'天天去捉害虫。',sentenceEn:'Catch pests every day.'}
       ],
+      footnotes: [
+        {term:"\u874c\u86aa", termEn:"tadpole", definition:"(k\u0113 d\u01d2u) tadpole", definitionEn:"tadpole"},
+        {term:"\u6c60\u5858", termEn:"pond", definition:"(ch\u00ed t\u00e1ng) pond", definitionEn:"pond"},
+        {term:"\u8111\u888b", termEn:"head", definition:"(n\u01ceo dai) head", definitionEn:"head"},
+        {term:"\u62ab\u7740", termEn:"wear; drape", definition:"(p\u012b zhe) wear; drape", definitionEn:"wear; drape"},
+        {term:"\u6355\u98df", termEn:"catch food", definition:"(b\u01d4 sh\u00ed) catch food", definitionEn:"catch food"},
+        {term:"\u5bb3\u866b", termEn:"pest", definition:"(h\u00e0i ch\u00f3ng) pest", definitionEn:"pest"}
+      ],
       exercises: [
         {type:"read",cn:"分角色朗读课文",en:"Read the text aloud with assigned roles"},
         {type:"order",cn:"小蝌蚪是怎样长成青蛙的？按顺序把图片连起来，再讲一讲小蝌蚪找妈妈的故事",en:"How did tadpoles grow into frogs? Connect the pictures in order and retell the story"},
@@ -106,6 +114,13 @@ units: [
         {word:'冰雹',pinyin:'bīng báo',en:'hail',sentence:'有时候我变成冰雹。',sentenceEn:'Sometimes I become hail.'},
         {word:'庄稼',pinyin:'zhuāng jia',en:'crops',sentence:'我灌溉田地，帮助庄稼。',sentenceEn:'I irrigate fields and help crops.'}
       ],
+      footnotes: [
+        {term:"\u53d8\u6210", termEn:"become", definition:"(bi\u00e0n ch\u00e9ng) become", definitionEn:"become"},
+        {term:"\u4e91", termEn:"cloud", definition:"(y\u00fan) cloud", definitionEn:"cloud"},
+        {term:"\u96e8", termEn:"rain", definition:"(y\u01d4) rain", definitionEn:"rain"},
+        {term:"\u51b0\u96f9", termEn:"hail", definition:"(b\u012bng b\u00e1o) hail", definitionEn:"hail"},
+        {term:"\u5e84\u7a3c", termEn:"crops", definition:"(zhu\u0101ng jia) crops", definitionEn:"crops"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"说一说\u201C我\u201D是什么，\u201C我\u201D会变成什么",en:"Discuss what \u201CI\u201D am and what \u201CI\u201D can change into"},
@@ -153,6 +168,13 @@ units: [
         {word:'蒲公英',pinyin:'pú gōng yīng',en:'dandelion',sentence:'蒲公英靠风传播种子。',sentenceEn:'Dandelions spread seeds by wind.'},
         {word:'降落伞',pinyin:'jiàng luò sǎn',en:'parachute',sentence:'种子像降落伞一样飘。',sentenceEn:'Seeds float like parachutes.'},
         {word:'旅行',pinyin:'lǚ xíng',en:'travel',sentence:'种子也要去旅行。',sentenceEn:'Seeds also want to travel.'}
+      ],
+      footnotes: [
+        {term:"\u690d\u7269", termEn:"plant", definition:"(zh\u00ed w\u00f9) plant", definitionEn:"plant"},
+        {term:"\u529e\u6cd5", termEn:"method", definition:"(b\u00e0n f\u01ce) method", definitionEn:"method"},
+        {term:"\u84b2\u516c\u82f1", termEn:"dandelion", definition:"(p\u00fa g\u014dng y\u012bng) dandelion", definitionEn:"dandelion"},
+        {term:"\u964d\u843d\u4f1e", termEn:"parachute", definition:"(ji\u00e0ng lu\u00f2 s\u01cen) parachute", definitionEn:"parachute"},
+        {term:"\u65c5\u884c", termEn:"travel", definition:"(l\u01da x\u00edng) travel", definitionEn:"travel"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite the text"},
@@ -219,6 +241,13 @@ units: [
         {word:'稻田',pinyin:'dào tián',en:'rice paddy',sentence:'一块稻田绿油油。',sentenceEn:'A rice paddy, lush and green.'},
         {word:'量词',pinyin:'liàng cí',en:'measure word',sentence:'学习不同的量词。',sentenceEn:'Learn different measure words.'}
       ],
+      footnotes: [
+        {term:"\u6d77\u9e25", termEn:"seagull", definition:"(h\u01cei \u014du) seagull", definitionEn:"seagull"},
+        {term:"\u519b\u8230", termEn:"warship", definition:"(j\u016bn ji\u00e0n) warship", definitionEn:"warship"},
+        {term:"\u5e06\u8239", termEn:"sailboat", definition:"(f\u0101n chu\u00e1n) sailboat", definitionEn:"sailboat"},
+        {term:"\u7a3b\u7530", termEn:"rice paddy", definition:"(d\u00e0o ti\u00e1n) rice paddy", definitionEn:"rice paddy"},
+        {term:"\u91cf\u8bcd", termEn:"measure word", definition:"(li\u00e0ng c\u00ed) measure word", definitionEn:"measure word"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"vocab",cn:"说说还知道哪些量词：一（ ）什么",en:"What other measure words do you know? A ( ) something"}
@@ -262,6 +291,14 @@ units: [
         {word:'枫树',pinyin:'fēng shù',en:'maple',sentence:'枫树秋天叶儿红。',sentenceEn:'Maple leaves turn red in autumn.'},
         {word:'松柏',pinyin:'sōng bǎi',en:'pine and cypress',sentence:'松柏四季披绿装。',sentenceEn:'Pines and cypresses stay green all year.'},
         {word:'银杏',pinyin:'yín xìng',en:'ginkgo',sentence:'银杏活了几千年。',sentenceEn:'Ginkgo trees have lived thousands of years.'}
+      ],
+      footnotes: [
+        {term:"\u6768\u6811", termEn:"poplar", definition:"(y\u00e1ng sh\u00f9) poplar", definitionEn:"poplar"},
+        {term:"\u6995\u6811", termEn:"banyan", definition:"(r\u00f3ng sh\u00f9) banyan", definitionEn:"banyan"},
+        {term:"\u68a7\u6850", termEn:"parasol tree", definition:"(w\u00fa t\u00f3ng) parasol tree", definitionEn:"parasol tree"},
+        {term:"\u67ab\u6811", termEn:"maple", definition:"(f\u0113ng sh\u00f9) maple", definitionEn:"maple"},
+        {term:"\u677e\u67cf", termEn:"pine and cypress", definition:"(s\u014dng b\u01cei) pine and cypress", definitionEn:"pine and cypress"},
+        {term:"\u94f6\u674f", termEn:"ginkgo", definition:"(y\u00edn x\u00ecng) ginkgo", definitionEn:"ginkgo"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite the text"},
@@ -325,6 +362,13 @@ units: [
         {word:'雄鹰',pinyin:'xióng yīng',en:'eagle',sentence:'雄鹰飞翔在蓝天。',sentenceEn:'Eagles soar in the blue sky.'},
         {word:'保护',pinyin:'bǎo hù',en:'protect',sentence:'大家都来保护动物。',sentenceEn:'Everyone should protect animals.'}
       ],
+      footnotes: [
+        {term:"\u52a8\u7269", termEn:"animal", definition:"(d\u00f2ng w\u00f9) animal", definitionEn:"animal"},
+        {term:"\u5b54\u96c0", termEn:"peacock", definition:"(k\u01d2ng qu\u00e8) peacock", definitionEn:"peacock"},
+        {term:"\u9526\u9e21", termEn:"golden pheasant", definition:"(j\u01d0n j\u012b) golden pheasant", definitionEn:"golden pheasant"},
+        {term:"\u96c4\u9e70", termEn:"eagle", definition:"(xi\u00f3ng y\u012bng) eagle", definitionEn:"eagle"},
+        {term:"\u4fdd\u62a4", termEn:"protect", definition:"(b\u01ceo h\u00f9) protect", definitionEn:"protect"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite the text"},
         {type:"game",cn:"同桌合作，边拍手边读课文",en:"Pair up with your deskmate and clap while reading"}
@@ -368,6 +412,13 @@ units: [
         {word:'丰收',pinyin:'fēng shōu',en:'harvest',sentence:'秋季里，稻上场，谷像黄金粒粒香。',sentenceEn:'In autumn, grain is harvested, golden and fragrant.'},
         {word:'棉衣',pinyin:'mián yī',en:'cotton-padded clothes',sentence:'冬季里，雪初晴，新制棉衣暖又轻。',sentenceEn:'In winter after snow, new cotton clothes are warm and light.'},
         {word:'农事',pinyin:'nóng shì',en:'farming work',sentence:'四季农事各不同。',sentenceEn:'Farming differs with each season.'}
+      ],
+      footnotes: [
+        {term:"\u64ad\u79cd", termEn:"sow seeds", definition:"(b\u014d zh\u01d2ng) sow seeds", definitionEn:"sow seeds"},
+        {term:"\u63d2\u79e7", termEn:"transplant rice", definition:"(ch\u0101 y\u0101ng) transplant rice", definitionEn:"transplant rice"},
+        {term:"\u4e30\u6536", termEn:"harvest", definition:"(f\u0113ng sh\u014du) harvest", definitionEn:"harvest"},
+        {term:"\u68c9\u8863", termEn:"cotton-padded clothes", definition:"(mi\u00e1n y\u012b) cotton-padded clothes", definitionEn:"cotton-padded clothes"},
+        {term:"\u519c\u4e8b", termEn:"farming work", definition:"(n\u00f3ng sh\u00ec) farming work", definitionEn:"farming work"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite the text"},
@@ -432,6 +483,13 @@ units: [
         {word:'秤',pinyin:'chèng',en:'scale',sentence:'大象太重，秤称不了。',sentenceEn:'The elephant is too heavy for a scale.'},
         {word:'下沉',pinyin:'xià chén',en:'sink',sentence:'船下沉了一些。',sentenceEn:'The boat sank a little.'}
       ],
+      footnotes: [
+        {term:"\u79f0\u8c61", termEn:"weigh the elephant", definition:"(ch\u0113ng xi\u00e0ng) weigh the elephant", definitionEn:"weigh the elephant"},
+        {term:"\u5b98\u5458", termEn:"official", definition:"(gu\u0101n yu\u00e1n) official", definitionEn:"official"},
+        {term:"\u77f3\u5934", termEn:"stone", definition:"(sh\u00ed tou) stone", definitionEn:"stone"},
+        {term:"\u79e4", termEn:"scale", definition:"(ch\u00e8ng) scale", definitionEn:"scale"},
+        {term:"\u4e0b\u6c89", termEn:"sink", definition:"(xi\u00e0 ch\u00e9n) sink", definitionEn:"sink"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，画出两种称象的办法，说说为什么曹冲的办法好",en:"Read aloud. Highlight two methods of weighing the elephant and explain why Cao Chong\u2019s was better"},
         {type:"order",cn:"给曹冲称象的过程排序",en:"Put Cao Chong\u2019s weighing process in order"},
@@ -494,6 +552,13 @@ units: [
         {word:'弄脏',pinyin:'nòng zāng',en:'make dirty',sentence:'不小心弄脏了画。',sentenceEn:'Accidentally made the painting dirty.'},
         {word:'哭',pinyin:'kū',en:'cry',sentence:'玲玲伤心地哭了。',sentenceEn:'Lingling cried sadly.'},
         {word:'动脑筋',pinyin:'dòng nǎo jīn',en:'use your brain',sentence:'只要肯动脑筋，坏事也能变好事。',sentenceEn:'If you use your brain, bad things can become good.'}
+      ],
+      footnotes: [
+        {term:"\u753b", termEn:"painting; draw", definition:"(hu\u00e0) painting; draw", definitionEn:"painting; draw"},
+        {term:"\u6ee1\u610f", termEn:"satisfied", definition:"(m\u01cen y\u00ec) satisfied", definitionEn:"satisfied"},
+        {term:"\u5f04\u810f", termEn:"make dirty", definition:"(n\u00f2ng z\u0101ng) make dirty", definitionEn:"make dirty"},
+        {term:"\u54ed", termEn:"cry", definition:"(k\u016b) cry", definitionEn:"cry"},
+        {term:"\u52a8\u8111\u7b4b", termEn:"use your brain", definition:"(d\u00f2ng n\u01ceo j\u012bn) use your brain", definitionEn:"use your brain"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文。试着用上\u201C得意\u201D\u201C伤心\u201D\u201C满意\u201D讲讲这个故事",en:"Read aloud. Retell the story using \u201Cproud,\u201D \u201Csad,\u201D and \u201Csatisfied\u201D"},
@@ -566,6 +631,13 @@ units: [
         {word:'修理',pinyin:'xiū lǐ',en:'repair',sentence:'邻居帮忙修理。',sentenceEn:'The neighbor helped repair it.'},
         {word:'开心',pinyin:'kāi xīn',en:'happy',sentence:'我过得很开心。',sentenceEn:'I am very happy.'}
       ],
+      footnotes: [
+        {term:"\u4fe1", termEn:"letter", definition:"(x\u00ecn) letter", definitionEn:"letter"},
+        {term:"\u60f3\u5ff5", termEn:"miss", definition:"(xi\u01ceng ni\u00e0n) miss", definitionEn:"miss"},
+        {term:"\u7535\u706f", termEn:"electric lamp", definition:"(di\u00e0n d\u0113ng) electric lamp", definitionEn:"electric lamp"},
+        {term:"\u4fee\u7406", termEn:"repair", definition:"(xi\u016b l\u01d0) repair", definitionEn:"repair"},
+        {term:"\u5f00\u5fc3", termEn:"happy", definition:"(k\u0101i x\u012bn) happy", definitionEn:"happy"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"露西前后写了两封信，你更喜欢哪一封？为什么？",en:"Lucy wrote two letters. Which do you prefer and why?"},
@@ -610,6 +682,13 @@ units: [
         {word:'弯弯',pinyin:'wān wān',en:'curved',sentence:'弯弯的眉毛。',sentenceEn:'Curved eyebrows.'},
         {word:'红润',pinyin:'hóng rùn',en:'rosy',sentence:'红润的脸。',sentenceEn:'A rosy face.'},
         {word:'安静',pinyin:'ān jìng',en:'quiet',sentence:'妈妈睡了，房间很安静。',sentenceEn:'Mom is asleep, the room is quiet.'}
+      ],
+      footnotes: [
+        {term:"\u7761\u7740", termEn:"fall asleep", definition:"(shu\u00ec zh\u00e1o) fall asleep", definitionEn:"fall asleep"},
+        {term:"\u660e\u4eae", termEn:"bright", definition:"(m\u00edng li\u00e0ng) bright", definitionEn:"bright"},
+        {term:"\u5f2f\u5f2f", termEn:"curved", definition:"(w\u0101n w\u0101n) curved", definitionEn:"curved"},
+        {term:"\u7ea2\u6da6", termEn:"rosy", definition:"(h\u00f3ng r\u00f9n) rosy", definitionEn:"rosy"},
+        {term:"\u5b89\u9759", termEn:"quiet", definition:"(\u0101n j\u00ecng) quiet", definitionEn:"quiet"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -678,6 +757,13 @@ units: [
         {word:'异乡',pinyin:'yì xiāng',en:'foreign land',sentence:'独在异乡为异客。',sentenceEn:'Alone in a foreign land, a stranger.'},
         {word:'茱萸',pinyin:'zhū yú',en:'cornel',sentence:'遍插茱萸少一人。',sentenceEn:'With cornel sprigs pinned, one person is missing.'}
       ],
+      footnotes: [
+        {term:"\u767b\u9ad8", termEn:"climb high", definition:"(d\u0113ng g\u0101o) climb high", definitionEn:"climb high"},
+        {term:"\u601d\u5ff5", termEn:"miss", definition:"(s\u012b ni\u00e0n) miss", definitionEn:"miss"},
+        {term:"\u4f73\u8282", termEn:"festival", definition:"(ji\u0101 ji\u00e9) festival", definitionEn:"festival"},
+        {term:"\u5f02\u4e61", termEn:"foreign land", definition:"(y\u00ec xi\u0101ng) foreign land", definitionEn:"foreign land"},
+        {term:"\u8331\u8438", termEn:"cornel", definition:"(zh\u016b y\u00fa) cornel", definitionEn:"cornel"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"discuss",cn:"说说诗句的意思，想象诗中描绘的景象",en:"Explain the poem\u2019s meaning and imagine the scenes described"}
@@ -728,6 +814,13 @@ units: [
         {word:'陡峭',pinyin:'dǒu qiào',en:'steep',sentence:'陡峭的山峰上。',sentenceEn:'On the steep mountain peak.'},
         {word:'秀丽',pinyin:'xiù lì',en:'beautiful',sentence:'秀丽的风景。',sentenceEn:'Beautiful scenery.'}
       ],
+      footnotes: [
+        {term:"\u5947\u77f3", termEn:"strange rock", definition:"(q\u00ed sh\u00ed) strange rock", definitionEn:"strange rock"},
+        {term:"\u98ce\u666f\u533a", termEn:"scenic area", definition:"(f\u0113ng j\u01d0ng q\u016b) scenic area", definitionEn:"scenic area"},
+        {term:"\u4ed9\u4eba", termEn:"immortal", definition:"(xi\u0101n r\u00e9n) immortal", definitionEn:"immortal"},
+        {term:"\u9661\u5ced", termEn:"steep", definition:"(d\u01d2u qi\u00e0o) steep", definitionEn:"steep"},
+        {term:"\u79c0\u4e3d", termEn:"beautiful", definition:"(xi\u00f9 l\u00ec) beautiful", definitionEn:"beautiful"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"用自己的话说说课文写了黄山哪些奇石",en:"Describe in your own words which strange rocks the text mentions"}
@@ -775,6 +868,13 @@ units: [
         {word:'隐隐约约',pinyin:'yǐn yǐn yuē yuē',en:'faintly',sentence:'晨星和灯光隐隐约约地倒映在湖面上。',sentenceEn:'Stars and lights faintly reflect on the lake.'},
         {word:'吸引',pinyin:'xī yǐn',en:'attract',sentence:'日月潭吸引了很多游客。',sentenceEn:'Sun Moon Lake attracts many tourists.'}
       ],
+      footnotes: [
+        {term:"\u65e5\u6708\u6f6d", termEn:"Sun Moon Lake", definition:"(r\u00ec yu\u00e8 t\u00e1n) Sun Moon Lake", definitionEn:"Sun Moon Lake"},
+        {term:"\u6e56\u6c34", termEn:"lake water", definition:"(h\u00fa shu\u01d0) lake water", definitionEn:"lake water"},
+        {term:"\u73af\u7ed5", termEn:"surround", definition:"(hu\u00e1n r\u00e0o) surround", definitionEn:"surround"},
+        {term:"\u9690\u9690\u7ea6\u7ea6", termEn:"faintly", definition:"(y\u01d0n y\u01d0n yu\u0113 yu\u0113) faintly", definitionEn:"faintly"},
+        {term:"\u5438\u5f15", termEn:"attract", definition:"(x\u012b y\u01d0n) attract", definitionEn:"attract"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"日月潭的名字是怎么来的？",en:"How did Sun Moon Lake get its name?"}
@@ -818,6 +918,13 @@ units: [
         {word:'凉棚',pinyin:'liáng péng',en:'shade pergola',sentence:'茂密的枝叶搭起凉棚。',sentenceEn:'Dense vines form a shade pergola.'},
         {word:'五光十色',pinyin:'wǔ guāng shí sè',en:'colorful',sentence:'葡萄五光十色。',sentenceEn:'Grapes are brilliantly colorful.'},
         {word:'葡萄干',pinyin:'pú tao gān',en:'raisin',sentence:'阴房里晾葡萄干。',sentenceEn:'Raisins are dried in drying rooms.'}
+      ],
+      footnotes: [
+        {term:"\u8461\u8404", termEn:"grape", definition:"(p\u00fa tao) grape", definitionEn:"grape"},
+        {term:"\u7ef4\u543e\u5c14\u65cf", termEn:"Uyghur", definition:"(w\u00e9i w\u00fa \u011br z\u00fa) Uyghur", definitionEn:"Uyghur"},
+        {term:"\u51c9\u68da", termEn:"shade pergola", definition:"(li\u00e1ng p\u00e9ng) shade pergola", definitionEn:"shade pergola"},
+        {term:"\u4e94\u5149\u5341\u8272", termEn:"colorful", definition:"(w\u01d4 gu\u0101ng sh\u00ed s\u00e8) colorful", definitionEn:"colorful"},
+        {term:"\u8461\u8404\u5e72", termEn:"raisin", definition:"(p\u00fa tao g\u0101n) raisin", definitionEn:"raisin"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -890,6 +997,13 @@ units: [
         {word:'弄错',pinyin:'nòng cuò',en:'mistake',sentence:'你弄错了。',sentenceEn:'You are mistaken.'},
         {word:'小鸟',pinyin:'xiǎo niǎo',en:'bird',sentence:'小鸟飞过来。',sentenceEn:'A little bird flies over.'}
       ],
+      footnotes: [
+        {term:"\u4e95", termEn:"well", definition:"(j\u01d0ng) well", definitionEn:"well"},
+        {term:"\u5929", termEn:"sky", definition:"(ti\u0101n) sky", definitionEn:"sky"},
+        {term:"\u65e0\u8fb9\u65e0\u9645", termEn:"boundless", definition:"(w\u00fa bi\u0101n w\u00fa j\u00ec) boundless", definitionEn:"boundless"},
+        {term:"\u5f04\u9519", termEn:"mistake", definition:"(n\u00f2ng cu\u00f2) mistake", definitionEn:"mistake"},
+        {term:"\u5c0f\u9e1f", termEn:"bird", definition:"(xi\u01ceo ni\u01ceo) bird", definitionEn:"bird"}
+      ],
       exercises: [
         {type:"read",cn:"分角色朗读课文",en:"Read aloud with assigned roles"},
         {type:"discuss",cn:"青蛙和小鸟在争论什么？你认为谁说得对？",en:"What are the frog and bird arguing about? Who do you think is right?"}
@@ -949,6 +1063,13 @@ units: [
         {word:'喜鹊',pinyin:'xǐ què',en:'magpie',sentence:'喜鹊一早就忙着做窝。',sentenceEn:'The magpie was busy building a nest early on.'},
         {word:'温暖',pinyin:'wēn nuǎn',en:'warm',sentence:'喜鹊的窝又暖又舒服。',sentenceEn:'The magpie nest was warm and comfortable.'}
       ],
+      footnotes: [
+        {term:"\u5bd2\u53f7\u9e1f", termEn:"shivering bird", definition:"(h\u00e1n h\u00e0o ni\u01ceo) shivering bird", definitionEn:"shivering bird"},
+        {term:"\u61d2\u60f0", termEn:"lazy", definition:"(l\u01cen du\u00f2) lazy", definitionEn:"lazy"},
+        {term:"\u51bb\u6b7b", termEn:"freeze to death", definition:"(d\u00f2ng s\u01d0) freeze to death", definitionEn:"freeze to death"},
+        {term:"\u559c\u9e4a", termEn:"magpie", definition:"(x\u01d0 qu\u00e8) magpie", definitionEn:"magpie"},
+        {term:"\u6e29\u6696", termEn:"warm", definition:"(w\u0113n nu\u01cen) warm", definitionEn:"warm"}
+      ],
       exercises: [
         {type:"read",cn:"分角色朗读课文",en:"Read aloud with assigned roles"},
         {type:"discuss",cn:"寒号鸟为什么会冻死？你从这个故事里明白了什么道理？",en:"Why did the shivering bird freeze? What lesson did you learn?"}
@@ -992,6 +1113,13 @@ units: [
         {word:'蚜虫',pinyin:'yá chóng',en:'aphid',sentence:'他不治蚜虫。',sentenceEn:'He did not treat the aphids.'},
         {word:'邻居',pinyin:'lín jū',en:'neighbor',sentence:'邻居劝他治虫。',sentenceEn:'The neighbor advised him to treat the pests.'},
         {word:'可惜',pinyin:'kě xī',en:'pity',sentence:'可惜葫芦都落了。',sentenceEn:'What a pity, all the gourds fell.'}
+      ],
+      footnotes: [
+        {term:"\u846b\u82a6", termEn:"gourd", definition:"(h\u00fa lu) gourd", definitionEn:"gourd"},
+        {term:"\u53f6\u5b50", termEn:"leaf", definition:"(y\u00e8 zi) leaf", definitionEn:"leaf"},
+        {term:"\u869c\u866b", termEn:"aphid", definition:"(y\u00e1 ch\u00f3ng) aphid", definitionEn:"aphid"},
+        {term:"\u90bb\u5c45", termEn:"neighbor", definition:"(l\u00edn j\u016b) neighbor", definitionEn:"neighbor"},
+        {term:"\u53ef\u60dc", termEn:"pity", definition:"(k\u011b x\u012b) pity", definitionEn:"pity"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1057,6 +1185,13 @@ units: [
         {word:'著作',pinyin:'zhù zuò',en:'writings',sentence:'写下了不朽的著作。',sentenceEn:'Wrote immortal works.'},
         {word:'井冈山',pinyin:'jǐng gāng shān',en:'Jinggang Mountain',sentence:'在井冈山上。',sentenceEn:'On Jinggang Mountain.'}
       ],
+      footnotes: [
+        {term:"\u6cb9\u706f", termEn:"oil lamp", definition:"(y\u00f3u d\u0113ng) oil lamp", definitionEn:"oil lamp"},
+        {term:"\u591c\u6df1", termEn:"late at night", definition:"(y\u00e8 sh\u0113n) late at night", definitionEn:"late at night"},
+        {term:"\u5149\u8f89", termEn:"radiance", definition:"(gu\u0101ng hu\u012b) radiance", definitionEn:"radiance"},
+        {term:"\u8457\u4f5c", termEn:"writings", definition:"(zh\u00f9 zu\u00f2) writings", definitionEn:"writings"},
+        {term:"\u4e95\u5188\u5c71", termEn:"Jinggang Mountain", definition:"(j\u01d0ng g\u0101ng sh\u0101n) Jinggang Mountain", definitionEn:"Jinggang Mountain"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"毛主席在什么环境下写文章？",en:"In what conditions did Chairman Mao write?"}
@@ -1106,6 +1241,13 @@ units: [
         {word:'同志',pinyin:'tóng zhì',en:'comrade',sentence:'朱德同志和战士们一起劳动。',sentenceEn:'Comrade Zhu De worked alongside the soldiers.'},
         {word:'藏起来',pinyin:'cáng qǐ lái',en:'hide',sentence:'战士们把扁担藏起来。',sentenceEn:'The soldiers hid the carrying pole.'},
         {word:'敬爱',pinyin:'jìng ài',en:'respect and love',sentence:'大家都敬爱朱德同志。',sentenceEn:'Everyone respected and loved Comrade Zhu De.'}
+      ],
+      footnotes: [
+        {term:"\u6241\u62c5", termEn:"carrying pole", definition:"(bi\u01cen dan) carrying pole", definitionEn:"carrying pole"},
+        {term:"\u7cae\u98df", termEn:"grain", definition:"(li\u00e1ng shi) grain", definitionEn:"grain"},
+        {term:"\u540c\u5fd7", termEn:"comrade", definition:"(t\u00f3ng zh\u00ec) comrade", definitionEn:"comrade"},
+        {term:"\u85cf\u8d77\u6765", termEn:"hide", definition:"(c\u00e1ng q\u01d0 l\u00e1i) hide", definitionEn:"hide"},
+        {term:"\u656c\u7231", termEn:"respect and love", definition:"(j\u00ecng \u00e0i) respect and love", definitionEn:"respect and love"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1162,6 +1304,13 @@ units: [
         {word:'总理',pinyin:'zǒng lǐ',en:'premier',sentence:'周总理来了。',sentenceEn:'Premier Zhou came.'},
         {word:'欢呼',pinyin:'huān hū',en:'cheer',sentence:'人们欢呼起来。',sentenceEn:'People cheered.'},
         {word:'象脚鼓',pinyin:'xiàng jiǎo gǔ',en:'elephant-foot drum',sentence:'敲响了象脚鼓。',sentenceEn:'Beat the elephant-foot drums.'}
+      ],
+      footnotes: [
+        {term:"\u6cfc\u6c34\u8282", termEn:"Water-Splashing Festival", definition:"(p\u014d shu\u01d0 ji\u00e9) Water-Splashing Festival", definitionEn:"Water-Splashing Festival"},
+        {term:"\u50a3\u65cf", termEn:"Dai ethnic group", definition:"(d\u01cei z\u00fa) Dai ethnic group", definitionEn:"Dai ethnic group"},
+        {term:"\u603b\u7406", termEn:"premier", definition:"(z\u01d2ng l\u01d0) premier", definitionEn:"premier"},
+        {term:"\u6b22\u547c", termEn:"cheer", definition:"(hu\u0101n h\u016b) cheer", definitionEn:"cheer"},
+        {term:"\u8c61\u811a\u9f13", termEn:"elephant-foot drum", definition:"(xi\u00e0ng ji\u01ceo g\u01d4) elephant-foot drum", definitionEn:"elephant-foot drum"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1227,6 +1376,13 @@ units: [
         {word:'勇敢',pinyin:'yǒng gǎn',en:'brave',sentence:'刘胡兰很勇敢。',sentenceEn:'Liu Hulan was very brave.'},
         {word:'牺牲',pinyin:'xī shēng',en:'sacrifice',sentence:'她英勇牺牲了。',sentenceEn:'She heroically sacrificed her life.'},
         {word:'伟大',pinyin:'wěi dà',en:'great',sentence:'伟大的生，光荣的死。',sentenceEn:'A great life, a glorious death.'}
+      ],
+      footnotes: [
+        {term:"\u82f1\u96c4", termEn:"hero", definition:"(y\u012bng xi\u00f3ng) hero", definitionEn:"hero"},
+        {term:"\u654c\u4eba", termEn:"enemy", definition:"(d\u00ed r\u00e9n) enemy", definitionEn:"enemy"},
+        {term:"\u52c7\u6562", termEn:"brave", definition:"(y\u01d2ng g\u01cen) brave", definitionEn:"brave"},
+        {term:"\u727a\u7272", termEn:"sacrifice", definition:"(x\u012b sh\u0113ng) sacrifice", definitionEn:"sacrifice"},
+        {term:"\u4f1f\u5927", termEn:"great", definition:"(w\u011bi d\u00e0) great", definitionEn:"great"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1294,6 +1450,13 @@ units: [
         {word:'苍苍',pinyin:'cāng cāng',en:'deep blue; vast',sentence:'天苍苍，野茫茫。',sentenceEn:'The sky is deep blue, the plains stretch endlessly.'},
         {word:'穹庐',pinyin:'qióng lú',en:'great dome; yurt',sentence:'天似穹庐，笼盖四野。',sentenceEn:'The sky is like a great dome covering the vast land.'}
       ],
+      footnotes: [
+        {term:"\u5371\u697c", termEn:"towering building", definition:"(w\u0113i l\u00f3u) towering building", definitionEn:"towering building"},
+        {term:"\u661f\u8fb0", termEn:"stars", definition:"(x\u012bng ch\u00e9n) stars", definitionEn:"stars"},
+        {term:"\u6050", termEn:"fear; afraid", definition:"(k\u01d2ng) fear; afraid", definitionEn:"fear; afraid"},
+        {term:"\u82cd\u82cd", termEn:"deep blue; vast", definition:"(c\u0101ng c\u0101ng) deep blue; vast", definitionEn:"deep blue; vast"},
+        {term:"\u7a79\u5e90", termEn:"great dome; yurt", definition:"(qi\u00f3ng l\u00fa) great dome; yurt", definitionEn:"great dome; yurt"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，背诵课文",en:"Read aloud and recite"},
         {type:"discuss",cn:"想象诗中描绘的画面",en:"Imagine the scenes described in the poems"}
@@ -1346,6 +1509,13 @@ units: [
         {word:'躲藏',pinyin:'duǒ cáng',en:'hide',sentence:'大海躲藏起来了。',sentenceEn:'The sea hid itself.'},
         {word:'岸边',pinyin:'àn biān',en:'shore',sentence:'岸边的城市不见了。',sentenceEn:'The coastal city disappeared.'},
         {word:'连同',pinyin:'lián tóng',en:'together with',sentence:'连同大海一起藏起来。',sentenceEn:'Hidden together with the sea.'}
+      ],
+      footnotes: [
+        {term:"\u96fe", termEn:"fog", definition:"(w\u00f9) fog", definitionEn:"fog"},
+        {term:"\u6dd8\u6c14", termEn:"naughty", definition:"(t\u00e1o q\u00ec) naughty", definitionEn:"naughty"},
+        {term:"\u8eb2\u85cf", termEn:"hide", definition:"(du\u01d2 c\u00e1ng) hide", definitionEn:"hide"},
+        {term:"\u5cb8\u8fb9", termEn:"shore", definition:"(\u00e0n bi\u0101n) shore", definitionEn:"shore"},
+        {term:"\u8fde\u540c", termEn:"together with", definition:"(li\u00e1n t\u00f3ng) together with", definitionEn:"together with"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1412,6 +1582,13 @@ units: [
         {word:'着火',pinyin:'zháo huǒ',en:'catch fire',sentence:'房子着火了。',sentenceEn:'The house caught fire.'},
         {word:'救',pinyin:'jiù',en:'save; rescue',sentence:'雪孩子冲进去救了小白兔。',sentenceEn:'The snow child rushed in and saved the rabbit.'},
         {word:'化了',pinyin:'huà le',en:'melted',sentence:'雪孩子化了。',sentenceEn:'The snow child melted.'}
+      ],
+      footnotes: [
+        {term:"\u96ea\u4eba", termEn:"snowman", definition:"(xu\u011b r\u00e9n) snowman", definitionEn:"snowman"},
+        {term:"\u67f4\u706b", termEn:"firewood", definition:"(ch\u00e1i huo) firewood", definitionEn:"firewood"},
+        {term:"\u7740\u706b", termEn:"catch fire", definition:"(zh\u00e1o hu\u01d2) catch fire", definitionEn:"catch fire"},
+        {term:"\u6551", termEn:"save; rescue", definition:"(ji\u00f9) save; rescue", definitionEn:"save; rescue"},
+        {term:"\u5316\u4e86", termEn:"melted", definition:"(hu\u00e0 le) melted", definitionEn:"melted"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
@@ -1487,6 +1664,13 @@ units: [
         {word:'害怕',pinyin:'hài pà',en:'afraid',sentence:'百兽都害怕了。',sentenceEn:'All the animals were afraid.'},
         {word:'狡猾',pinyin:'jiǎo huá',en:'cunning',sentence:'狐狸很狡猾。',sentenceEn:'The fox was very cunning.'}
       ],
+      footnotes: [
+        {term:"\u72d0\u72f8", termEn:"fox", definition:"(h\u00fa li) fox", definitionEn:"fox"},
+        {term:"\u8001\u864e", termEn:"tiger", definition:"(l\u01ceo h\u01d4) tiger", definitionEn:"tiger"},
+        {term:"\u5a01\u98ce", termEn:"imposing", definition:"(w\u0113i f\u0113ng) imposing", definitionEn:"imposing"},
+        {term:"\u5bb3\u6015", termEn:"afraid", definition:"(h\u00e0i p\u00e0) afraid", definitionEn:"afraid"},
+        {term:"\u72e1\u733e", termEn:"cunning", definition:"(ji\u01ceo hu\u00e1) cunning", definitionEn:"cunning"}
+      ],
       exercises: [
         {type:"read",cn:"分角色朗读课文",en:"Read aloud with assigned roles"},
         {type:"discuss",cn:"百兽是被谁吓跑的？\u201C狐假虎威\u201D是什么意思？",en:"Who actually scared the animals? What does \u201Cfox borrowing tiger\u2019s authority\u201D mean?"},
@@ -1553,6 +1737,13 @@ units: [
         {word:'道歉',pinyin:'dào qiàn',en:'apologize',sentence:'他们想向对方道歉。',sentenceEn:'They wanted to apologize to each other.'},
         {word:'和好',pinyin:'hé hǎo',en:'make up',sentence:'他们又和好了。',sentenceEn:'They made up again.'}
       ],
+      footnotes: [
+        {term:"\u7eb8\u8239", termEn:"paper boat", definition:"(zh\u01d0 chu\u00e1n) paper boat", definitionEn:"paper boat"},
+        {term:"\u98ce\u7b5d", termEn:"kite", definition:"(f\u0113ng zheng) kite", definitionEn:"kite"},
+        {term:"\u53cb\u8c0a", termEn:"friendship", definition:"(y\u01d2u y\u00ec) friendship", definitionEn:"friendship"},
+        {term:"\u9053\u6b49", termEn:"apologize", definition:"(d\u00e0o qi\u00e0n) apologize", definitionEn:"apologize"},
+        {term:"\u548c\u597d", termEn:"make up", definition:"(h\u00e9 h\u01ceo) make up", definitionEn:"make up"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},
         {type:"discuss",cn:"松鼠和小熊吵架后各自是怎么想的？",en:"What were Squirrel and Little Bear thinking after their fight?"},
@@ -1609,6 +1800,13 @@ units: [
         {word:'力气',pinyin:'lì qi',en:'strength',sentence:'他使劲吹。',sentenceEn:'He blew with all his might.'},
         {word:'好事',pinyin:'hǎo shì',en:'good deed',sentence:'做了好事和坏事。',sentenceEn:'Did good and bad things.'},
         {word:'伤心',pinyin:'shāng xīn',en:'sad',sentence:'风娃娃很伤心。',sentenceEn:'Wind Child was very sad.'}
+      ],
+      footnotes: [
+        {term:"\u98ce\u5a03\u5a03", termEn:"Wind Child", definition:"(f\u0113ng w\u00e1 wa) Wind Child", definitionEn:"Wind Child"},
+        {term:"\u5e2e\u5fd9", termEn:"help", definition:"(b\u0101ng m\u00e1ng) help", definitionEn:"help"},
+        {term:"\u529b\u6c14", termEn:"strength", definition:"(l\u00ec qi) strength", definitionEn:"strength"},
+        {term:"\u597d\u4e8b", termEn:"good deed", definition:"(h\u01ceo sh\u00ec) good deed", definitionEn:"good deed"},
+        {term:"\u4f24\u5fc3", termEn:"sad", definition:"(sh\u0101ng x\u012bn) sad", definitionEn:"sad"}
       ],
       exercises: [
         {type:"read",cn:"朗读课文",en:"Read the text aloud"},

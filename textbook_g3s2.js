@@ -52,6 +52,13 @@ units: [
         {word:'芦芽',pinyin:'lú yá',en:'reed shoots',sentence:'蒌蒿满地芦芽短。',sentenceEn:'Mugwort covers the ground, reed shoots still short.'},
         {word:'黄鹂',pinyin:'huáng lí',en:'oriole',sentence:'添得黄鹂四五声。',sentenceEn:'Adding four or five oriole songs.'}
       ],
+      footnotes: [
+        {term:"\u8fdf\u65e5", termEn:"lingering spring sun", definition:"(ch\u00ed r\u00ec) lingering spring sun", definitionEn:"lingering spring sun"},
+        {term:"\u6ce5\u878d", termEn:"mud thaws", definition:"(n\u00ed r\u00f3ng) mud thaws", definitionEn:"mud thaws"},
+        {term:"\u9e33\u9e2f", termEn:"mandarin ducks", definition:"(yu\u0101n y\u0101ng) mandarin ducks", definitionEn:"mandarin ducks"},
+        {term:"\u82a6\u82bd", termEn:"reed shoots", definition:"(l\u00fa y\u00e1) reed shoots", definitionEn:"reed shoots"},
+        {term:"\u9ec4\u9e42", termEn:"oriole", definition:"(hu\u00e1ng l\u00ed) oriole", definitionEn:"oriole"}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文。背诵课文。默写《绝句》。",en:"Read the text with feeling. Recite all three poems. Write 'Quatrain' from memory."},
         {type:"think",cn:"结合诗句的意思，想象画面，说说三首诗分别写了怎样的景象。",en:"Based on the meaning of the verses, imagine the scenes and describe the scenery depicted in each poem."},
@@ -102,6 +109,13 @@ units: [
         {word:'烂漫',pinyin:'làn màn',en:'splendid',sentence:'形成了烂漫无比的春天。',sentenceEn:'Forming a splendidly beautiful spring.'},
         {word:'偶尔',pinyin:'ǒu ěr',en:'occasionally',sentence:'偶尔沾了一下水面。',sentenceEn:'Occasionally touching the water surface.'},
         {word:'荡漾',pinyin:'dàng yàng',en:'ripple',sentence:'小圆晕便一圈一圈地荡漾开去。',sentenceEn:'Tiny ripples spread out in circles.'}
+      ],
+      footnotes: [
+        {term:"\u4f36\u4fd0", termEn:"nimble; clever", definition:"(l\u00edng l\u00ec) nimble; clever", definitionEn:"nimble; clever"},
+        {term:"\u8f7b\u5feb", termEn:"light and swift", definition:"(q\u012bng ku\u00e0i) light and swift", definitionEn:"light and swift"},
+        {term:"\u70c2\u6f2b", termEn:"splendid", definition:"(l\u00e0n m\u00e0n) splendid", definitionEn:"splendid"},
+        {term:"\u5076\u5c14", termEn:"occasionally", definition:"(\u01d2u \u011br) occasionally", definitionEn:"occasionally"},
+        {term:"\u8361\u6f3e", termEn:"ripple", definition:"(d\u00e0ng y\u00e0ng) ripple", definitionEn:"ripple"}
       ],
       grammarPoints: [
         {point:'比喻句',pointEn:'bǐ yù jù',example:'simile',exampleEn:'一身乌黑的羽毛，加上剪刀似的尾巴。',explanation:'Jet-black feathers plus a scissors-like tail.',explanationEn:'用"似的""像"把一个事物比作另一个事物'}
@@ -156,6 +170,13 @@ units: [
         {word:'饱胀',pinyin:'bǎo zhàng',en:'swollen; plump',sentence:'饱胀得马上要破裂似的。',sentenceEn:'So swollen it seemed about to burst.'},
         {word:'翩翩起舞',pinyin:'piān piān qǐ wǔ',en:'dance gracefully',sentence:'我就翩翩起舞。',sentenceEn:'I danced gracefully.'},
         {word:'姿势',pinyin:'zī shì',en:'pose; posture',sentence:'一朵有一朵的姿势。',sentenceEn:'Each in its own pose.'}
+      ],
+      footnotes: [
+        {term:"\u82b1\u74e3", termEn:"petal", definition:"(hu\u0101 b\u00e0n) petal", definitionEn:"petal"},
+        {term:"\u83b2\u84ec", termEn:"lotus seed pod", definition:"(li\u00e1n peng) lotus seed pod", definitionEn:"lotus seed pod"},
+        {term:"\u9971\u80c0", termEn:"swollen; plump", definition:"(b\u01ceo zh\u00e0ng) swollen; plump", definitionEn:"swollen; plump"},
+        {term:"\u7fe9\u7fe9\u8d77\u821e", termEn:"dance gracefully", definition:"(pi\u0101n pi\u0101n q\u01d0 w\u01d4) dance gracefully", definitionEn:"dance gracefully"},
+        {term:"\u59ff\u52bf", termEn:"pose; posture", definition:"(z\u012b sh\u00ec) pose; posture", definitionEn:"pose; posture"}
       ],
       grammarPoints: [
         {point:'有的……有的……有的……',pointEn:'some...some...some...',example:'有的才展开两三片花瓣儿。有的花瓣儿全展开了。有的还是花骨朵儿。',exampleEn:'Some opened two or three petals. Some fully opened. Some were still buds.',explanation:'排比句式描写事物的不同状态',explanationEn:'Parallel structure to describe different states'}
@@ -222,6 +243,13 @@ units: [
         {word:'瓢虫',pinyin:'piáo chóng',en:'ladybug',sentence:'瓢虫款款地落下来了。',sentenceEn:'The ladybug lands gracefully.'},
         {word:'益虫',pinyin:'yì chóng',en:'beneficial insect',sentence:'有的瓢虫吃蚜虫，是益虫。',sentenceEn:'Some ladybugs eat aphids and are beneficial insects.'},
         {word:'独角仙',pinyin:'dú jiǎo xiān',en:'rhinoceros beetle',sentence:'独角仙是昆虫里的霸王。',sentenceEn:'The rhinoceros beetle is the king of insects.'}
+      ],
+      footnotes: [
+        {term:"\u590d\u773c", termEn:"compound eyes", definition:"(f\u00f9 y\u01cen) compound eyes", definitionEn:"compound eyes"},
+        {term:"\u7075\u654f", termEn:"keen; sensitive", definition:"(l\u00edng m\u01d0n) keen; sensitive", definitionEn:"keen; sensitive"},
+        {term:"\u74e2\u866b", termEn:"ladybug", definition:"(pi\u00e1o ch\u00f3ng) ladybug", definitionEn:"ladybug"},
+        {term:"\u76ca\u866b", termEn:"beneficial insect", definition:"(y\u00ec ch\u00f3ng) beneficial insect", definitionEn:"beneficial insect"},
+        {term:"\u72ec\u89d2\u4ed9", termEn:"rhinoceros beetle", definition:"(d\u00fa ji\u01ceo xi\u0101n) rhinoceros beetle", definitionEn:"rhinoceros beetle"}
       ],
       exercises: [
         {type:"read",cn:"默读课文，说说你最感兴趣的内容。",en:"Read silently and talk about the content that interests you most."},
@@ -309,6 +337,13 @@ units: [
         {word:'耒',pinyin:'lěi',en:'plow',sentence:'释其耒而守株。',sentenceEn:'He let go of his plow and guarded the stump.'},
         {word:'笑',pinyin:'xiào',en:'laugh at',sentence:'而身为宋国笑。',sentenceEn:'And he became the laughingstock of Song.'}
       ],
+      footnotes: [
+        {term:"\u8015\u8005", termEn:"farmer", definition:"(g\u0113ng zh\u011b) farmer", definitionEn:"farmer"},
+        {term:"\u89e6", termEn:"bump into", definition:"(ch\u00f9) bump into", definitionEn:"bump into"},
+        {term:"\u91ca", termEn:"release; let go", definition:"(sh\u00ec) release; let go", definitionEn:"release; let go"},
+        {term:"\u8012", termEn:"plow", definition:"(l\u011bi) plow", definitionEn:"plow"},
+        {term:"\u7b11", termEn:"laugh at", definition:"(xi\u00e0o) laugh at", definitionEn:"laugh at"}
+      ],
       grammarPoints: [
         {point:'文言文寓言',pointEn:'wén yán wén yù yán',example:'classical Chinese fable',exampleEn:'因释其耒而守株，冀复得兔。',explanation:'So he abandoned his plow and guarded the stump, hoping to get another rabbit.',explanationEn:'用简短文言讲道理，一词多义'}
       ],
@@ -390,6 +425,13 @@ units: [
         {word:'懦弱',pinyin:'nuò ruò',en:'cowardly',sentence:'你这个懦弱的东西！',sentenceEn:'You cowardly thing!'},
         {word:'朴素',pinyin:'pǔ sù',en:'plain; simple',sentence:'陶罐依然那么朴素。',sentenceEn:'The clay pot remained plain and simple.'}
       ],
+      footnotes: [
+        {term:"\u595a\u843d", termEn:"mock; ridicule", definition:"(x\u012b lu\u00f2) mock; ridicule", definitionEn:"mock; ridicule"},
+        {term:"\u8c26\u865a", termEn:"modest; humble", definition:"(qi\u0101n x\u016b) modest; humble", definitionEn:"modest; humble"},
+        {term:"\u50b2\u6162", termEn:"arrogant", definition:"(\u00e0o m\u00e0n) arrogant", definitionEn:"arrogant"},
+        {term:"\u61e6\u5f31", termEn:"cowardly", definition:"(nu\u00f2 ru\u00f2) cowardly", definitionEn:"cowardly"},
+        {term:"\u6734\u7d20", termEn:"plain; simple", definition:"(p\u01d4 s\u00f9) plain; simple", definitionEn:"plain; simple"}
+      ],
       grammarPoints: [
         {point:'对比',pointEn:'duì bǐ',example:'contrast',exampleEn:'铁罐傲慢，陶罐谦虚。',explanation:'The iron pot was arrogant; the clay pot was modest.',explanationEn:'通过对比突出不同性格和结局'}
       ],
@@ -449,6 +491,13 @@ units: [
         {word:'抱怨',pinyin:'bào yuàn',en:'complain',sentence:'他抱怨自己的腿太细。',sentenceEn:'He complained that his legs were too thin.'},
         {word:'逼近',pinyin:'bī jìn',en:'close in on',sentence:'狮子逼近了。',sentenceEn:'The lion closed in.'},
         {word:'挣脱',pinyin:'zhèng tuō',en:'break free',sentence:'鹿角被树枝挂住了。',sentenceEn:'The antlers got caught on branches.'}
+      ],
+      footnotes: [
+        {term:"\u5300\u79f0", termEn:"well-proportioned", definition:"(y\u00fan ch\u00e8n) well-proportioned", definitionEn:"well-proportioned"},
+        {term:"\u6b23\u8d4f", termEn:"admire", definition:"(x\u012bn sh\u01ceng) admire", definitionEn:"admire"},
+        {term:"\u62b1\u6028", termEn:"complain", definition:"(b\u00e0o yu\u00e0n) complain", definitionEn:"complain"},
+        {term:"\u903c\u8fd1", termEn:"close in on", definition:"(b\u012b j\u00ecn) close in on", definitionEn:"close in on"},
+        {term:"\u6323\u8131", termEn:"break free", definition:"(zh\u00e8ng tu\u014d) break free", definitionEn:"break free"}
       ],
       grammarPoints: [
         {point:'寓言道理',pointEn:'yù yán dào lǐ',example:'fable moral',exampleEn:'美丽的角差点送了命，难看的腿却救了命。',explanation:'The beautiful antlers nearly cost his life, while the ugly legs saved him.',explanationEn:'事物各有长短，不能只看外表'}
@@ -512,6 +561,13 @@ units: [
         {word:'淤塞',pinyin:'yū sè',en:'silted up; blocked',sentence:'池子渐渐淤塞了。',sentenceEn:'The pond gradually silted up.'},
         {word:'奔流不息',pinyin:'bēn liú bù xī',en:'flow ceaselessly',sentence:'河流奔流不息。',sentenceEn:'The river flows ceaselessly.'},
         {word:'源源不断',pinyin:'yuán yuán bù duàn',en:'continuous; unending',sentence:'河流的水源源不断。',sentenceEn:'The river water flows continuously.'}
+      ],
+      footnotes: [
+        {term:"\u61d2\u60f0", termEn:"lazy", definition:"(l\u01cen du\u00f2) lazy", definitionEn:"lazy"},
+        {term:"\u5b89\u9038", termEn:"comfortable; easy", definition:"(\u0101n y\u00ec) comfortable; easy", definitionEn:"comfortable; easy"},
+        {term:"\u6de4\u585e", termEn:"silted up; blocked", definition:"(y\u016b s\u00e8) silted up; blocked", definitionEn:"silted up; blocked"},
+        {term:"\u5954\u6d41\u4e0d\u606f", termEn:"flow ceaselessly", definition:"(b\u0113n li\u00fa b\u00f9 x\u012b) flow ceaselessly", definitionEn:"flow ceaselessly"},
+        {term:"\u6e90\u6e90\u4e0d\u65ad", termEn:"continuous; unending", definition:"(yu\u00e1n yu\u00e1n b\u00f9 du\u00e0n) continuous; unending", definitionEn:"continuous; unending"}
       ],
       exercises: [
         {type:"read",cn:"分角色朗读课文。",en:"Read the text with assigned roles."},
@@ -613,6 +669,14 @@ units: [
         {word:'茱萸',pinyin:'zh\u016B y\u00FA',en:'dogwood (plant)',sentence:'\u904D\u63D2\u8331\u8438\u5C11\u4E00\u4EBA\u3002',sentenceEn:'Each wearing dogwood \u2014 but one person is missing.'},
         {word:'异乡',pinyin:'y\u00EC xi\u0101ng',en:'foreign land',sentence:'\u72EC\u5728\u5F02\u4E61\u4E3A\u5F02\u5BA2\u3002',sentenceEn:'Alone in a foreign land, I am a stranger.'}
       ],
+      footnotes: [
+        {term:"\u7206\u7af9", termEn:"firecrackers", definition:"(b\u00e0o zh\u00fa) firecrackers", definitionEn:"firecrackers"},
+        {term:"\u5c60\u82cf", termEn:"tusu wine (New Year wine)", definition:"(t\u00fa s\u016b) tusu wine (New Year wine)", definitionEn:"tusu wine (New Year wine)"},
+        {term:"\u65ad\u9b42", termEn:"heartbroken; grief-stricken", definition:"(du\u00e0n h\u00fan) heartbroken; grief-stricken", definitionEn:"heartbroken; grief-stricken"},
+        {term:"\u4f73\u8282", termEn:"festival; holiday", definition:"(ji\u0101 ji\u00e9) festival; holiday", definitionEn:"festival; holiday"},
+        {term:"\u8331\u8438", termEn:"dogwood (plant)", definition:"(zh\u016b y\u00fa) dogwood (plant)", definitionEn:"dogwood (plant)"},
+        {term:"\u5f02\u4e61", termEn:"foreign land", definition:"(y\u00ec xi\u0101ng) foreign land", definitionEn:"foreign land"}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文。背诵课文。默写《清明》。",en:"Read with feeling. Recite all poems. Write 'Qingming' from memory."},
         {type:"think",cn:"这三首诗分别写的是哪个传统节日？写出了什么样的节日情景？",en:"Which traditional festival does each poem describe? What festival scenes do they depict?"},
@@ -661,6 +725,13 @@ units: [
         {word:'传承',pinyin:'chuán chéng',en:'pass down; inherit',sentence:'造纸术是伟大的传承。',sentenceEn:'Papermaking is a great inheritance.'},
         {word:'贡献',pinyin:'gòng xiàn',en:'contribution',sentence:'蔡伦对世界做出了巨大贡献。',sentenceEn:'Cai Lun made a great contribution to the world.'}
       ],
+      footnotes: [
+        {term:"\u53d1\u660e", termEn:"invent", definition:"(f\u0101 m\u00edng) invent", definitionEn:"invent"},
+        {term:"\u8bb0\u5f55", termEn:"record", definition:"(j\u00ec l\u00f9) record", definitionEn:"record"},
+        {term:"\u4fdd\u5b58", termEn:"preserve", definition:"(b\u01ceo c\u00fan) preserve", definitionEn:"preserve"},
+        {term:"\u4f20\u627f", termEn:"pass down; inherit", definition:"(chu\u00e1n ch\u00e9ng) pass down; inherit", definitionEn:"pass down; inherit"},
+        {term:"\u8d21\u732e", termEn:"contribution", definition:"(g\u00f2ng xi\u00e0n) contribution", definitionEn:"contribution"}
+      ],
       grammarPoints: [
         {point:'按时间顺序说明',pointEn:'àn shí jiān shùn xù shuō míng',example:'explain in chronological order',exampleEn:'早在几千年前……西汉时代……东汉时代……后来……',explanation:'As early as thousands of years ago...Western Han...Eastern Han...Later...',explanationEn:'用时间线索组织说明文内容'}
       ],
@@ -708,6 +779,13 @@ units: [
         {word:'精美',pinyin:'jīng měi',en:'exquisite',sentence:'桥面两侧有精美的石栏。',sentenceEn:'There are exquisite stone railings on both sides.'},
         {word:'图案',pinyin:'tú àn',en:'pattern; design',sentence:'栏板上雕刻着精美的图案。',sentenceEn:'Beautiful patterns are carved on the railings.'},
         {word:'智慧',pinyin:'zhì huì',en:'wisdom',sentence:'赵州桥体现了古代劳动人民的智慧。',sentenceEn:'Zhaozhou Bridge reflects the wisdom of ancient working people.'}
+      ],
+      footnotes: [
+        {term:"\u96c4\u4f1f", termEn:"magnificent", definition:"(xi\u00f3ng w\u011bi) magnificent", definitionEn:"magnificent"},
+        {term:"\u521b\u4e3e", termEn:"pioneering feat", definition:"(chu\u00e0ng j\u01d4) pioneering feat", definitionEn:"pioneering feat"},
+        {term:"\u7cbe\u7f8e", termEn:"exquisite", definition:"(j\u012bng m\u011bi) exquisite", definitionEn:"exquisite"},
+        {term:"\u56fe\u6848", termEn:"pattern; design", definition:"(t\u00fa \u00e0n) pattern; design", definitionEn:"pattern; design"},
+        {term:"\u667a\u6167", termEn:"wisdom", definition:"(zh\u00ec hu\u00ec) wisdom", definitionEn:"wisdom"}
       ],
       grammarPoints: [
         {point:'总分总结构',pointEn:'zǒng-fēn-zǒng',example:'general-specific-general',exampleEn:'赵州桥非常雄伟。……这座桥……体现了劳动人民的智慧和才干。',explanation:'Zhaozhou Bridge is magnificent...This bridge...reflects the wisdom and talent of working people.',explanationEn:'先总说特点，再分别介绍，最后总结'}
@@ -762,6 +840,13 @@ units: [
         {word:'摊贩',pinyin:'tān fàn',en:'street vendor',sentence:'街上有做买卖的摊贩。',sentenceEn:'There are street vendors on the road.'},
         {word:'形态各异',pinyin:'xíng tài gè yì',en:'varied forms',sentence:'画上的人形态各异。',sentenceEn:'The people in the painting have varied forms.'},
         {word:'传神',pinyin:'chuán shén',en:'vivid; lifelike',sentence:'画得非常传神。',sentenceEn:'Painted very vividly.'}
+      ],
+      footnotes: [
+        {term:"\u540d\u626c\u4e2d\u5916", termEn:"famous at home and abroad", definition:"(m\u00edng y\u00e1ng zh\u014dng w\u00e0i) famous at home and abroad", definitionEn:"famous at home and abroad"},
+        {term:"\u6c74\u4eac", termEn:"Bianjing (ancient Kaifeng)", definition:"(bi\u00e0n j\u012bng) Bianjing (ancient Kaifeng)", definitionEn:"Bianjing (ancient Kaifeng)"},
+        {term:"\u644a\u8d29", termEn:"street vendor", definition:"(t\u0101n f\u00e0n) street vendor", definitionEn:"street vendor"},
+        {term:"\u5f62\u6001\u5404\u5f02", termEn:"varied forms", definition:"(x\u00edng t\u00e0i g\u00e8 y\u00ec) varied forms", definitionEn:"varied forms"},
+        {term:"\u4f20\u795e", termEn:"vivid; lifelike", definition:"(chu\u00e1n sh\u00e9n) vivid; lifelike", definitionEn:"vivid; lifelike"}
       ],
       exercises: [
         {type:"read",cn:"默读课文，说一说为什么《清明上河图》会名扬中外。",en:"Read silently and explain why 'Along the River During the Qingming Festival' is famous worldwide."},
@@ -852,6 +937,13 @@ units: [
         {word:'大致',pinyin:'dà zhì',en:'roughly; approximately',sentence:'植物开花的时间与温度、湿度大致有关。',sentenceEn:'The blooming time is roughly related to temperature and humidity.'},
         {word:'吻合',pinyin:'wěn hé',en:'match; coincide',sentence:'观察结果与规律吻合。',sentenceEn:'The observations match the pattern.'}
       ],
+      footnotes: [
+        {term:"\u6de1\u96c5", termEn:"elegant; understated", definition:"(d\u00e0n y\u01ce) elegant; understated", definitionEn:"elegant; understated"},
+        {term:"\u8273\u4e3d", termEn:"gorgeous", definition:"(y\u00e0n l\u00ec) gorgeous", definitionEn:"gorgeous"},
+        {term:"\u7efd\u653e", termEn:"bloom", definition:"(zh\u00e0n f\u00e0ng) bloom", definitionEn:"bloom"},
+        {term:"\u5927\u81f4", termEn:"roughly; approximately", definition:"(d\u00e0 zh\u00ec) roughly; approximately", definitionEn:"roughly; approximately"},
+        {term:"\u543b\u5408", termEn:"match; coincide", definition:"(w\u011bn h\u00e9) match; coincide", definitionEn:"match; coincide"}
+      ],
       grammarPoints: [
         {point:'因果关系',pointEn:'yīn guǒ guān xì',example:'cause and effect',exampleEn:'植物开花的时间，与……有关系。',explanation:'The blooming time of plants is related to...',explanationEn:'用原因解释现象，学习说明方法'}
       ],
@@ -912,6 +1004,13 @@ units: [
         {word:'陌生',pinyin:'mò shēng',en:'unfamiliar',sentence:'把蜜蜂带到陌生的地方。',sentenceEn:'Brought the bees to an unfamiliar place.'},
         {word:'准确无误',pinyin:'zhǔn què wú wù',en:'accurate; without error',sentence:'蜜蜂准确无误地飞回来了。',sentenceEn:'The bees flew back accurately without error.'}
       ],
+      footnotes: [
+        {term:"\u8fa8\u8ba4", termEn:"identify; recognize", definition:"(bi\u00e0n r\u00e8n) identify; recognize", definitionEn:"identify; recognize"},
+        {term:"\u5b9e\u9a8c", termEn:"experiment", definition:"(sh\u00ed y\u00e0n) experiment", definitionEn:"experiment"},
+        {term:"\u63a8\u6d4b", termEn:"infer; speculate", definition:"(tu\u012b c\u00e8) infer; speculate", definitionEn:"infer; speculate"},
+        {term:"\u964c\u751f", termEn:"unfamiliar", definition:"(m\u00f2 sh\u0113ng) unfamiliar", definitionEn:"unfamiliar"},
+        {term:"\u51c6\u786e\u65e0\u8bef", termEn:"accurate; without error", definition:"(zh\u01d4n qu\u00e8 w\u00fa w\u00f9) accurate; without error", definitionEn:"accurate; without error"}
+      ],
       grammarPoints: [
         {point:'实验记录',pointEn:'shí yàn jì lù',example:'experiment log',exampleEn:'为了证实……我做了一个实验：先……然后……结果……',explanation:'To verify...I did an experiment: first...then...the result...',explanationEn:'用实验过程组织文章，按步骤叙述'}
       ],
@@ -962,6 +1061,13 @@ units: [
         {word:'追逐',pinyin:'zhuī zhú',en:'chase',sentence:'小虾在水中追逐嬉戏。',sentenceEn:'Little shrimp chase and play in the water.'},
         {word:'一张一合',pinyin:'yì zhāng yì hé',en:'open and close',sentence:'腮一张一合的。',sentenceEn:'The gills open and close.'},
         {word:'猛烈',pinyin:'měng liè',en:'fierce',sentence:'小虾受到惊扰就猛烈地蹦跳。',sentenceEn:'When disturbed, the shrimp jump fiercely.'}
+      ],
+      footnotes: [
+        {term:"\u901a\u4f53", termEn:"entire body", definition:"(t\u014dng t\u01d0) entire body", definitionEn:"entire body"},
+        {term:"\u7a7a\u9699", termEn:"gap; space", definition:"(k\u00f2ng x\u00ec) gap; space", definitionEn:"gap; space"},
+        {term:"\u8ffd\u9010", termEn:"chase", definition:"(zhu\u012b zh\u00fa) chase", definitionEn:"chase"},
+        {term:"\u4e00\u5f20\u4e00\u5408", termEn:"open and close", definition:"(y\u00ec zh\u0101ng y\u00ec h\u00e9) open and close", definitionEn:"open and close"},
+        {term:"\u731b\u70c8", termEn:"fierce", definition:"(m\u011bng li\u00e8) fierce", definitionEn:"fierce"}
       ],
       exercises: [
         {type:"read",cn:"默读课文，说说第3自然段主要写了什么。",en:"Read silently and explain the main content of paragraph 3."},
@@ -1076,6 +1182,13 @@ units: [
         {word:'穿越',pinyin:'chuān yuè',en:'travel through',sentence:'穿越到宇宙的另一边。',sentenceEn:'Travel through to the other side of the universe.'},
         {word:'无穷',pinyin:'wú qióng',en:'infinite',sentence:'宇宙是无穷的。',sentenceEn:'The universe is infinite.'}
       ],
+      footnotes: [
+        {term:"\u79d8\u5bc6", termEn:"secret", definition:"(m\u00ec m\u00ec) secret", definitionEn:"secret"},
+        {term:"\u76f8\u53cd", termEn:"opposite", definition:"(xi\u0101ng f\u01cen) opposite", definitionEn:"opposite"},
+        {term:"\u52a0\u6cd5", termEn:"addition", definition:"(ji\u0101 f\u01ce) addition", definitionEn:"addition"},
+        {term:"\u7a7f\u8d8a", termEn:"travel through", definition:"(chu\u0101n yu\u00e8) travel through", definitionEn:"travel through"},
+        {term:"\u65e0\u7a77", termEn:"infinite", definition:"(w\u00fa qi\u00f3ng) infinite", definitionEn:"infinite"}
+      ],
       grammarPoints: [
         {point:'想象写法',pointEn:'xiǎng xiàng xiě fǎ',example:'imaginative writing',exampleEn:'在宇宙的另一边，加法是这样的：大地上的花+花=一片花海。',explanation:'On the other side, addition is: flowers on earth + flowers = a sea of flowers.',explanationEn:'用想象创造新奇的世界，让文章充满趣味'}
       ],
@@ -1144,6 +1257,13 @@ units: [
         {word:'丁零丁零',pinyin:'dīng líng dīng líng',en:'jingle',sentence:'风一吹，丁零丁零响。',sentenceEn:'When the wind blew, it jingled.'},
         {word:'馋',pinyin:'chán',en:'greedy for food',sentence:'我开始馋妈妈做的饭了。',sentenceEn:'I started craving the food Mom makes.'},
         {word:'失望',pinyin:'shī wàng',en:'disappointed',sentence:'我有点儿失望。',sentenceEn:'I was a little disappointed.'}
+      ],
+      footnotes: [
+        {term:"\u75d2\u75d2", termEn:"itchy", definition:"(y\u01ceng yang) itchy", definitionEn:"itchy"},
+        {term:"\u5f62\u72b6", termEn:"shape", definition:"(x\u00edng zhu\u00e0ng) shape", definitionEn:"shape"},
+        {term:"\u4e01\u96f6\u4e01\u96f6", termEn:"jingle", definition:"(d\u012bng l\u00edng d\u012bng l\u00edng) jingle", definitionEn:"jingle"},
+        {term:"\u998b", termEn:"greedy for food", definition:"(ch\u00e1n) greedy for food", definitionEn:"greedy for food"},
+        {term:"\u5931\u671b", termEn:"disappointed", definition:"(sh\u012b w\u00e0ng) disappointed", definitionEn:"disappointed"}
       ],
       exercises: [
         {type:"read",cn:"默读课文，说说你觉得哪些想象有意思。",en:"Read silently and share which parts of the imagination you find interesting."},
@@ -1234,6 +1354,13 @@ units: [
         {word:'浪花',pinyin:'làng huā',en:'spray; waves',sentence:'浪花和人影在嬉戏。',sentenceEn:'Waves and reflections are playing.'},
         {word:'清清爽爽',pinyin:'qīng qīng shuǎng shuǎng',en:'fresh and crisp',sentence:'清清爽爽的夏日。',sentenceEn:'A fresh and crisp summer day.'}
       ],
+      footnotes: [
+        {term:"\u6c34\u58a8\u753b", termEn:"ink wash painting", definition:"(shu\u01d0 m\u00f2 hu\u00e0) ink wash painting", definitionEn:"ink wash painting"},
+        {term:"\u67d3\u7eff", termEn:"dye green", definition:"(r\u01cen l\u01dc) dye green", definitionEn:"dye green"},
+        {term:"\u8611\u83c7", termEn:"mushroom", definition:"(m\u00f3 gu) mushroom", definitionEn:"mushroom"},
+        {term:"\u6d6a\u82b1", termEn:"spray; waves", definition:"(l\u00e0ng hu\u0101) spray; waves", definitionEn:"spray; waves"},
+        {term:"\u6e05\u6e05\u723d\u723d", termEn:"fresh and crisp", definition:"(q\u012bng q\u012bng shu\u01ceng shu\u01ceng) fresh and crisp", definitionEn:"fresh and crisp"}
+      ],
       grammarPoints: [
         {point:'诗歌意象',pointEn:'shī gē yì xiàng',example:'poetic imagery',exampleEn:'人影给溪水染绿了。',explanation:'Reflections dye the stream green.',explanationEn:'用意象组合画面，体会诗歌语言的美'}
       ],
@@ -1303,6 +1430,13 @@ units: [
         {word:'摆布',pinyin:'bǎi bu',en:'handle; manipulate',sentence:'随我怎么摆布。',sentenceEn:'Let me handle it however I want.'},
         {word:'耿耿于怀',pinyin:'gěng gěng yú huái',en:'brood over',sentence:'小沙对剃头耿耿于怀。',sentenceEn:'Little Sha brooded over haircuts.'}
       ],
+      footnotes: [
+        {term:"\u5243\u5934", termEn:"haircut", definition:"(t\u00ec t\u00f3u) haircut", definitionEn:"haircut"},
+        {term:"\u80c6\u5c0f\u9b3c", termEn:"coward", definition:"(d\u01cen xi\u01ceo gu\u01d0) coward", definitionEn:"coward"},
+        {term:"\u4ec7\u4eba", termEn:"enemy", definition:"(ch\u00f3u r\u00e9n) enemy", definitionEn:"enemy"},
+        {term:"\u6446\u5e03", termEn:"handle; manipulate", definition:"(b\u01cei bu) handle; manipulate", definitionEn:"handle; manipulate"},
+        {term:"\u803f\u803f\u4e8e\u6000", termEn:"brood over", definition:"(g\u011bng g\u011bng y\u00fa hu\u00e1i) brood over", definitionEn:"brood over"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文。说说老剃头师傅和\u201C我\u201D给小沙剃头的过程有什么不同。",en:"Read aloud. Compare how the old barber and 'I' gave Xiaosha a haircut."},
         {type:"think",cn:"\u201C剃头大师\u201D和\u201C害人精\u201D分别指谁？为什么这样称呼他们？",en:"Who are the 'master barber' and the 'torturer'? Why are they called that?"},
@@ -1350,6 +1484,13 @@ units: [
         {word:'透明',pinyin:'tòu míng',en:'transparent',sentence:'那轻圆的球儿透明的。',sentenceEn:'The light, round sphere is transparent.'},
         {word:'玲珑',pinyin:'líng lóng',en:'delicate; exquisite',sentence:'玲珑娇软的小球。',sentenceEn:'A delicate, soft little sphere.'},
         {word:'骄傲',pinyin:'jiāo ào',en:'proud',sentence:'这是多么骄傲的事啊。',sentenceEn:'What a proud thing this is.'}
+      ],
+      footnotes: [
+        {term:"\u80a5\u7682", termEn:"soap", definition:"(f\u00e9i z\u00e0o) soap", definitionEn:"soap"},
+        {term:"\u548c\u5f04", termEn:"mix up; stir", definition:"(hu\u00f2 nong) mix up; stir", definitionEn:"mix up; stir"},
+        {term:"\u900f\u660e", termEn:"transparent", definition:"(t\u00f2u m\u00edng) transparent", definitionEn:"transparent"},
+        {term:"\u73b2\u73d1", termEn:"delicate; exquisite", definition:"(l\u00edng l\u00f3ng) delicate; exquisite", definitionEn:"delicate; exquisite"},
+        {term:"\u9a84\u50b2", termEn:"proud", definition:"(ji\u0101o \u00e0o) proud", definitionEn:"proud"}
       ],
       grammarPoints: [
         {point:'拟人',pointEn:'nǐ rén',example:'personification',exampleEn:'那么透明，那么圆润，那么美丽。',explanation:'So transparent, so smooth, so beautiful.',explanationEn:'把肥皂泡当作有生命的东西来描写'}
@@ -1416,6 +1557,13 @@ units: [
         {word:'忘记',pinyin:'wàng jì',en:'forget',sentence:'我忘记了约好的事。',sentenceEn:'I forgot the appointment.'},
         {word:'道理',pinyin:'dào lǐ',en:'principle; truth',sentence:'守信用是做人的道理。',sentenceEn:'Keeping promises is a principle of being a good person.'},
         {word:'盼望',pinyin:'pàn wàng',en:'look forward to',sentence:'小珍盼望我去教她。',sentenceEn:'Little Zhen looked forward to me teaching her.'}
+      ],
+      footnotes: [
+        {term:"\u5931\u4fe1", termEn:"break a promise", definition:"(sh\u012b x\u00ecn) break a promise", definitionEn:"break a promise"},
+        {term:"\u89e3\u91ca", termEn:"explain", definition:"(ji\u011b sh\u00ec) explain", definitionEn:"explain"},
+        {term:"\u5fd8\u8bb0", termEn:"forget", definition:"(w\u00e0ng j\u00ec) forget", definitionEn:"forget"},
+        {term:"\u9053\u7406", termEn:"principle; truth", definition:"(d\u00e0o l\u01d0) principle; truth", definitionEn:"principle; truth"},
+        {term:"\u76fc\u671b", termEn:"look forward to", definition:"(p\u00e0n w\u00e0ng) look forward to", definitionEn:"look forward to"}
       ],
       exercises: [
         {type:"read",cn:"默读课文，联系生活实际，说说你对\u201C一个人在家，是很没劲。可是，我并不后悔，因为我没有失信\u201D这句话的理解。",en:"Read silently. Connect to real life and explain your understanding of 'Being home alone is dull, but I don't regret it because I kept my promise.'"},
@@ -1545,6 +1693,13 @@ units: [
         {word:'呈现',pinyin:'chéng xiàn',en:'display; present',sentence:'大自然呈现出各种色彩。',sentenceEn:'Nature displays all kinds of colors.'},
         {word:'模型',pinyin:'mó xíng',en:'model; shape',sentence:'水洼里的落叶像模型。',sentenceEn:'Fallen leaves in puddles look like models.'}
       ],
+      footnotes: [
+        {term:"\u5947\u5999", termEn:"wonderful; marvelous", definition:"(q\u00ed mi\u00e0o) wonderful; marvelous", definitionEn:"wonderful; marvelous"},
+        {term:"\u5149\u8292", termEn:"radiance", definition:"(gu\u0101ng m\u00e1ng) radiance", definitionEn:"radiance"},
+        {term:"\u96d5\u9970", termEn:"carve; adorn", definition:"(di\u0101o sh\u00ec) carve; adorn", definitionEn:"carve; adorn"},
+        {term:"\u5448\u73b0", termEn:"display; present", definition:"(ch\u00e9ng xi\u00e0n) display; present", definitionEn:"display; present"},
+        {term:"\u6a21\u578b", termEn:"model; shape", definition:"(m\u00f3 x\u00edng) model; shape", definitionEn:"model; shape"}
+      ],
       grammarPoints: [
         {point:'总分总结构',pointEn:'zǒng-fēn-zǒng',example:'general-specific-general',exampleEn:'天空是一个奇妙的世界。……大地也是。……只要你留心观察。',explanation:'The sky is a wonderful world...So is the earth...As long as you observe carefully.',explanationEn:'先总写奇妙，再分写天空和大地，最后总结'}
       ],
@@ -1602,6 +1757,13 @@ units: [
         {word:'稀有',pinyin:'xī yǒu',en:'rare',sentence:'海底有很多稀有金属。',sentenceEn:'The seabed has many rare metals.'},
         {word:'景色奇异',pinyin:'jǐng sè qí yì',en:'wondrous scenery',sentence:'海底真是景色奇异。',sentenceEn:'The seabed truly has wondrous scenery.'}
       ],
+      footnotes: [
+        {term:"\u6ce2\u6d9b\u6f8e\u6e43", termEn:"surging waves", definition:"(b\u014d t\u0101o p\u00e9ng p\u00e0i) surging waves", definitionEn:"surging waves"},
+        {term:"\u7a83\u7a83\u79c1\u8bed", termEn:"whisper", definition:"(qi\u00e8 qi\u00e8 s\u012b y\u01d4) whisper", definitionEn:"whisper"},
+        {term:"\u8574\u85cf", termEn:"contain; hold", definition:"(y\u00f9n c\u00e1ng) contain; hold", definitionEn:"contain; hold"},
+        {term:"\u7a00\u6709", termEn:"rare", definition:"(x\u012b y\u01d2u) rare", definitionEn:"rare"},
+        {term:"\u666f\u8272\u5947\u5f02", termEn:"wondrous scenery", definition:"(j\u01d0ng s\u00e8 q\u00ed y\u00ec) wondrous scenery", definitionEn:"wondrous scenery"}
+      ],
       grammarPoints: [
         {point:'拟人手法',pointEn:'nǐ rén shǒu fǎ',example:'personification technique',exampleEn:'海底的动物常常在窃窃私语。',explanation:'Undersea animals often whisper to each other.',explanationEn:'把动物当作人来描写，使说明文更生动'}
       ],
@@ -1658,6 +1820,13 @@ units: [
         {word:'恍恍惚惚',pinyin:'huǎng huǎng hū hū',en:'dazed; in a trance',sentence:'看得恍恍惚惚的。',sentenceEn:'Watching in a daze.'},
         {word:'威武',pinyin:'wēi wǔ',en:'mighty',sentence:'那匹马是威武的。',sentenceEn:'That horse was mighty.'},
         {word:'变化',pinyin:'biàn huà',en:'change',sentence:'火烧云的变化极多。',sentenceEn:'Fire clouds change in many ways.'}
+      ],
+      footnotes: [
+        {term:"\u706b\u70e7\u4e91", termEn:"fire clouds", definition:"(hu\u01d2 sh\u0101o y\u00fan) fire clouds", definitionEn:"fire clouds"},
+        {term:"\u7b11\u76c8\u76c8", termEn:"beaming", definition:"(xi\u00e0o y\u00edng y\u00edng) beaming", definitionEn:"beaming"},
+        {term:"\u604d\u604d\u60da\u60da", termEn:"dazed; in a trance", definition:"(hu\u01ceng hu\u01ceng h\u016b h\u016b) dazed; in a trance", definitionEn:"dazed; in a trance"},
+        {term:"\u5a01\u6b66", termEn:"mighty", definition:"(w\u0113i w\u01d4) mighty", definitionEn:"mighty"},
+        {term:"\u53d8\u5316", termEn:"change", definition:"(bi\u00e0n hu\u00e0) change", definitionEn:"change"}
       ],
       grammarPoints: [
         {point:'排比描写',pointEn:'pái bǐ miáo xiě',example:'parallel description',exampleEn:'一会儿红彤彤的，一会儿金灿灿的，一会儿半紫半黄。',explanation:'Now fiery red, now golden, now half purple and half yellow.',explanationEn:'用排比展现火烧云颜色和形状的丰富变化'}
@@ -1781,6 +1950,13 @@ units: [
         {word:'交货',pinyin:'jiāo huò',en:'deliver goods',sentence:'什么时候交货？',sentenceEn:'When will you deliver?'},
         {word:'耐心',pinyin:'nài xīn',en:'patience',sentence:'裁缝很有耐心。',sentenceEn:'The tailor was very patient.'}
       ],
+      footnotes: [
+        {term:"\u6027\u5b50", termEn:"temperament", definition:"(x\u00ecng zi) temperament", definitionEn:"temperament"},
+        {term:"\u88c1\u7f1d", termEn:"tailor", definition:"(c\u00e1i feng) tailor", definitionEn:"tailor"},
+        {term:"\u5e03\u6599", termEn:"fabric", definition:"(b\u00f9 li\u00e0o) fabric", definitionEn:"fabric"},
+        {term:"\u4ea4\u8d27", termEn:"deliver goods", definition:"(ji\u0101o hu\u00f2) deliver goods", definitionEn:"deliver goods"},
+        {term:"\u8010\u5fc3", termEn:"patience", definition:"(n\u00e0i x\u012bn) patience", definitionEn:"patience"}
+      ],
       exercises: [
         {type:"read",cn:"分角色朗读课文，注意读出裁缝和顾客对话的语气。",en:"Read with assigned roles, paying attention to the tailor's and customer's tones of voice."},
         {type:"retell",cn:"默读课文，填写表格（时间/急性子顾客的要求/慢性子裁缝的反应），再借助表格复述故事。",en:"Read silently, fill in a chart (time/impatient customer's request/slow tailor's response), then use it to retell the story."},
@@ -1843,6 +2019,13 @@ units: [
         {word:'舒服',pinyin:'shū fu',en:'comfortable',sentence:'圆帽子戴着舒服。',sentenceEn:'Round hats are comfortable to wear.'},
         {word:'密密麻麻',pinyin:'mì mi mā ma',en:'densely packed',sentence:'密密麻麻的人。',sentenceEn:'Densely packed crowds.'},
         {word:'新鲜',pinyin:'xīn xiān',en:'novel; fresh',sentence:'圆帽子是新鲜事物。',sentenceEn:'Round hats were a novelty.'}
+      ],
+      footnotes: [
+        {term:"\u6a71\u7a97", termEn:"shop window", definition:"(ch\u00fa chu\u0101ng) shop window", definitionEn:"shop window"},
+        {term:"\u89c4\u77e9", termEn:"rule; custom", definition:"(gu\u012b ju) rule; custom", definitionEn:"rule; custom"},
+        {term:"\u8212\u670d", termEn:"comfortable", definition:"(sh\u016b fu) comfortable", definitionEn:"comfortable"},
+        {term:"\u5bc6\u5bc6\u9ebb\u9ebb", termEn:"densely packed", definition:"(m\u00ec mi m\u0101 ma) densely packed", definitionEn:"densely packed"},
+        {term:"\u65b0\u9c9c", termEn:"novel; fresh", definition:"(x\u012bn xi\u0101n) novel; fresh", definitionEn:"novel; fresh"}
       ],
       exercises: [
         {type:"read",cn:"默读课文，说说故事中的哪部分内容是你最意想不到的，再用自己的话复述这个部分。",en:"Read silently and describe which part surprised you most, then retell that part in your own words."},
@@ -1910,6 +2093,13 @@ units: [
         {word:'厉害',pinyin:'lì hai',en:'powerful; formidable',sentence:'漏比老虎还厉害。',sentenceEn:'The Leak is more formidable than a tiger.'},
         {word:'惊恐',pinyin:'jīng kǒng',en:'terrified',sentence:'贼和老虎都惊恐万分。',sentenceEn:'Both the thief and tiger were terrified.'}
       ],
+      footnotes: [
+        {term:"\u8d3c", termEn:"thief", definition:"(z\u00e9i) thief", definitionEn:"thief"},
+        {term:"\u98a0\u7c38", termEn:"bump; jolt", definition:"(di\u0101n b\u01d2) bump; jolt", definitionEn:"bump; jolt"},
+        {term:"\u7c98\u80f6", termEn:"sticky", definition:"(ni\u00e1n ji\u0101o) sticky", definitionEn:"sticky"},
+        {term:"\u5389\u5bb3", termEn:"powerful; formidable", definition:"(l\u00ec hai) powerful; formidable", definitionEn:"powerful; formidable"},
+        {term:"\u60ca\u6050", termEn:"terrified", definition:"(j\u012bng k\u01d2ng) terrified", definitionEn:"terrified"}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，说说故事中的哪些内容你觉得最有意思。",en:"Read silently and share which parts you find most interesting."},
         {type:"retell",cn:"借助示意图和文字提示，按照地点变化的顺序，复述这个故事。",en:"Using a diagram and text prompts, retell the story in order of location changes."},
@@ -1972,6 +2162,13 @@ units: [
         {word:'本领',pinyin:'běn lǐng',en:'skill; ability',sentence:'枣核有大本领。',sentenceEn:'Date Pit had great skills.'},
         {word:'官府',pinyin:'guān fǔ',en:'government office',sentence:'县官派人来抢东西。',sentenceEn:'The county magistrate sent people to steal things.'},
         {word:'机灵',pinyin:'jī ling',en:'clever; quick-witted',sentence:'枣核非常机灵。',sentenceEn:'Date Pit was very clever.'}
+      ],
+      footnotes: [
+        {term:"\u67a3\u6838", termEn:"date pit", definition:"(z\u01ceo h\u00e9) date pit", definitionEn:"date pit"},
+        {term:"\u52e4\u5feb", termEn:"diligent; hardworking", definition:"(q\u00edn ku\u00e0i) diligent; hardworking", definitionEn:"diligent; hardworking"},
+        {term:"\u672c\u9886", termEn:"skill; ability", definition:"(b\u011bn l\u01d0ng) skill; ability", definitionEn:"skill; ability"},
+        {term:"\u5b98\u5e9c", termEn:"government office", definition:"(gu\u0101n f\u01d4) government office", definitionEn:"government office"},
+        {term:"\u673a\u7075", termEn:"clever; quick-witted", definition:"(j\u012b ling) clever; quick-witted", definitionEn:"clever; quick-witted"}
       ],
       exercises: [
         {type:"read",cn:"默读课文，用自己的话复述这个故事。",en:"Read silently and retell the story in your own words."},

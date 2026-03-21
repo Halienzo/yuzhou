@@ -51,6 +51,14 @@ units: [
         {word:'山崩地裂',pinyin:'shān bēng dì liè',en:'earth-shattering',sentence:'那声音如同山崩地裂。',sentenceEn:'The sound was earth-shattering.'},
         {word:'余波',pinyin:'yú bō',en:'afterwave',sentence:'霎时潮头奔腾西去，余波还在涌来。',sentenceEn:'The crest rushed west while afterwaves kept surging.'}
       ],
+      footnotes: [
+        {term:"\u5947\u89c2", termEn:"spectacle", definition:"(q\u00ed gu\u0101n) spectacle", definitionEn:"spectacle"},
+        {term:"\u5c79\u7acb", termEn:"stand towering", definition:"(y\u00ec l\u00ec) stand towering", definitionEn:"stand towering"},
+        {term:"\u4eba\u5c71\u4eba\u6d77", termEn:"huge crowds", definition:"(r\u00e9n sh\u0101n r\u00e9n h\u01cei) huge crowds", definitionEn:"huge crowds"},
+        {term:"\u6a2a\u8d2f", termEn:"span across", definition:"(h\u00e9ng gu\u00e0n) span across", definitionEn:"span across"},
+        {term:"\u5c71\u5d29\u5730\u88c2", termEn:"earth-shattering", definition:"(sh\u0101n b\u0113ng d\u00ec li\u00e8) earth-shattering", definitionEn:"earth-shattering"},
+        {term:"\u4f59\u6ce2", termEn:"afterwave", definition:"(y\u00fa b\u014d) afterwave", definitionEn:"afterwave"}
+      ],
       grammarPoints: [
         {point:'按时间顺序写景',pointEn:'describe scenery in chronological order',example:'潮来前……潮来时……潮过后……',exampleEn:'Before the tide... during the tide... after the tide...',explanation:'按照事物发展的先后顺序来描写，使文章条理清晰',explanationEn:'Describe things in order of occurrence for clear organization'}
       ],
@@ -114,6 +122,13 @@ units: [
         {word:'风俗',pinyin:'fēng sú',en:'custom',sentence:'收庄稼前修补道路，这是村里的风俗。',sentenceEn:'Repairing roads before harvest is the village custom.'},
         {word:'闪闪烁烁',pinyin:'shǎn shǎn shuò shuò',en:'twinkling',sentence:'闪闪烁烁的小星星。',sentenceEn:'Twinkling little stars.'}
       ],
+      footnotes: [
+        {term:"\u67d4\u548c", termEn:"gentle; soft", definition:"(r\u00f3u h\u00e9) gentle; soft", definitionEn:"gentle; soft"},
+        {term:"\u6d12\u6ee1", termEn:"bathed in", definition:"(s\u01ce m\u01cen) bathed in", definitionEn:"bathed in"},
+        {term:"\u8fd0\u8f7d", termEn:"carry; transport", definition:"(y\u00f9n z\u00e0i) carry; transport", definitionEn:"carry; transport"},
+        {term:"\u98ce\u4fd7", termEn:"custom", definition:"(f\u0113ng s\u00fa) custom", definitionEn:"custom"},
+        {term:"\u95ea\u95ea\u70c1\u70c1", termEn:"twinkling", definition:"(sh\u01cen sh\u01cen shu\u00f2 shu\u00f2) twinkling", definitionEn:"twinkling"}
+      ],
       grammarPoints: [
         {point:'反复手法',pointEn:'repetition technique',example:'啊，我和阿妈走月亮！',exampleEn:'Ah, Mother and I walked under the moonlight!',explanation:'通过反复出现的语句增强感情和节奏感',explanationEn:'Repetition of phrases strengthens emotion and rhythm'}
       ],
@@ -155,6 +170,12 @@ units: [
         {word:'霸占',pinyin:'bà zhàn',en:'occupy; claim',sentence:'白云霸占了半个天。',sentenceEn:'White clouds claimed half the sky.'},
         {word:'偷渡',pinyin:'tōu dù',en:'sneak across',sentence:'太阳偷渡了西山的青峰。',sentenceEn:'The sun sneaked across the western peak.'}
       ],
+      footnotes: [
+        {term:"\u5f52\u5de2", termEn:"return to nest", definition:"(gu\u012b ch\u00e1o) return to nest", definitionEn:"return to nest"},
+        {term:"\u659c\u9633", termEn:"setting sun", definition:"(xi\u00e9 y\u00e1ng) setting sun", definitionEn:"setting sun"},
+        {term:"\u9738\u5360", termEn:"occupy; claim", definition:"(b\u00e0 zh\u00e0n) occupy; claim", definitionEn:"occupy; claim"},
+        {term:"\u5077\u6e21", termEn:"sneak across", definition:"(t\u014du d\u00f9) sneak across", definitionEn:"sneak across"}
+      ],
       exercises: [
         {type:"read",cn:"反复朗读这两首诗，说说诗中描绘了哪些景物，这些景物构成了怎样的画面",en:"Read both poems repeatedly and describe the scenes they paint"},
         {type:"discuss",cn:"体会两首诗不同的风格：一首是宁静的傍晚，一首是悠闲的田园",en:"Appreciate the different styles: one depicts a tranquil evening, the other a carefree pastoral scene"}
@@ -195,6 +216,13 @@ units: [
         {word:'半明半昧',pinyin:'bàn míng bàn mèi',en:'half-bright half-dim',sentence:'悬着无数半明半昧的星。',sentenceEn:'Countless half-bright half-dim stars hung in the sky.'},
         {word:'摇摇欲坠',pinyin:'yáo yáo yù zhuì',en:'tottering',sentence:'它们是这样低，真是摇摇欲坠呢！',sentenceEn:'They hung so low they seemed about to fall!'},
         {word:'梦幻',pinyin:'mèng huàn',en:'dreamlike',sentence:'海上的夜是梦幻的。',sentenceEn:'The night at sea is dreamlike.'}
+      ],
+      footnotes: [
+        {term:"\u5bc6\u5bc6\u9ebb\u9ebb", termEn:"dense; countless", definition:"(m\u00ec mi m\u00e1 m\u00e1) dense; countless", definitionEn:"dense; countless"},
+        {term:"\u9759\u5bc2", termEn:"silent; still", definition:"(j\u00ecng j\u00ec) silent; still", definitionEn:"silent; still"},
+        {term:"\u534a\u660e\u534a\u6627", termEn:"half-bright half-dim", definition:"(b\u00e0n m\u00edng b\u00e0n m\u00e8i) half-bright half-dim", definitionEn:"half-bright half-dim"},
+        {term:"\u6447\u6447\u6b32\u5760", termEn:"tottering", definition:"(y\u00e1o y\u00e1o y\u00f9 zhu\u00ec) tottering", definitionEn:"tottering"},
+        {term:"\u68a6\u5e7b", termEn:"dreamlike", definition:"(m\u00e8ng hu\u00e0n) dreamlike", definitionEn:"dreamlike"}
       ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文，根据课文的描述想象繁星满天的画面",en:"Read expressively and imagine the sky full of stars as described"},
@@ -302,6 +330,14 @@ units: [
         {word:'盛开',pinyin:'shèng kāi',en:'bloom',sentence:'她面前是一朵盛开的紫色豌豆花。',sentenceEn:'Before her bloomed a purple pea flower.'},
         {word:'洋溢',pinyin:'yáng yì',en:'overflow; brim with',sentence:'她的脸上洋溢着健康的光彩。',sentenceEn:'Her face brimmed with a healthy glow.'}
       ],
+      footnotes: [
+        {term:"\u8c4c\u8c46", termEn:"pea", definition:"(w\u0101n d\u00f2u) pea", definitionEn:"pea"},
+        {term:"\u50f5\u786c", termEn:"stiff", definition:"(ji\u0101ng y\u00ecng) stiff", definitionEn:"stiff"},
+        {term:"\u9884\u611f", termEn:"premonition", definition:"(y\u00f9 g\u01cen) premonition", definitionEn:"premonition"},
+        {term:"\u865a\u5f31", termEn:"frail; weak", definition:"(x\u016b ru\u00f2) frail; weak", definitionEn:"frail; weak"},
+        {term:"\u76db\u5f00", termEn:"bloom", definition:"(sh\u00e8ng k\u0101i) bloom", definitionEn:"bloom"},
+        {term:"\u6d0b\u6ea2", termEn:"overflow; brim with", definition:"(y\u00e1ng y\u00ec) overflow; brim with", definitionEn:"overflow; brim with"}
+      ],
       grammarPoints: [
         {point:'在阅读中提问',pointEn:'asking questions while reading',example:'伴随着豌豆苗的成长，为什么小女孩的病就慢慢好了呢？',exampleEn:'Why did the girl get better as the pea plant grew?',explanation:'学习在阅读中主动提出问题，加深理解',explanationEn:'Learn to actively ask questions while reading to deepen comprehension'}
       ],
@@ -356,6 +392,13 @@ units: [
         {word:'障碍物',pinyin:'zhàng ài wù',en:'obstacle',sentence:'超声波遇到障碍物就反射回来。',sentenceEn:'Ultrasound bounces back when it hits an obstacle.'},
         {word:'雷达',pinyin:'léi dá',en:'radar',sentence:'现代飞机上安装了雷达。',sentenceEn:'Modern planes are equipped with radar.'}
       ],
+      footnotes: [
+        {term:"\u8759\u8760", termEn:"bat", definition:"(bi\u0101n f\u00fa) bat", definitionEn:"bat"},
+        {term:"\u654f\u9510", termEn:"sharp; keen", definition:"(m\u01d0n ru\u00ec) sharp; keen", definitionEn:"sharp; keen"},
+        {term:"\u8d85\u58f0\u6ce2", termEn:"ultrasound", definition:"(ch\u0101o sh\u0113ng b\u014d) ultrasound", definitionEn:"ultrasound"},
+        {term:"\u969c\u788d\u7269", termEn:"obstacle", definition:"(zh\u00e0ng \u00e0i w\u00f9) obstacle", definitionEn:"obstacle"},
+        {term:"\u96f7\u8fbe", termEn:"radar", definition:"(l\u00e9i d\u00e1) radar", definitionEn:"radar"}
+      ],
       grammarPoints: [
         {point:'科学说明文的结构',pointEn:'structure of scientific exposition',example:'科学家做了一次实验……又做了两次实验……三次实验的结果证明……',exampleEn:'Scientists ran one experiment... then two more... the three experiments proved...',explanation:'通过实验→结论的逻辑顺序说明科学道理',explanationEn:'Explain scientific principles through the logic of experiment then conclusion'}
       ],
@@ -406,6 +449,13 @@ units: [
         {word:'寄托',pinyin:'jì tuō',en:'place hopes on',sentence:'用神话来寄托美好愿望。',sentenceEn:'Using myths to place their hopes and dreams.'},
         {word:'改善',pinyin:'gǎi shàn',en:'improve',sentence:'科学技术不断改善我们的生活。',sentenceEn:'Science and technology constantly improve our lives.'}
       ],
+      footnotes: [
+        {term:"\u53d1\u73b0", termEn:"discovery", definition:"(f\u0101 xi\u00e0n) discovery", definitionEn:"discovery"},
+        {term:"\u53d1\u660e", termEn:"invention", definition:"(f\u0101 m\u00edng) invention", definitionEn:"invention"},
+        {term:"\u4f9d\u8d56", termEn:"depend on", definition:"(y\u012b l\u00e0i) depend on", definitionEn:"depend on"},
+        {term:"\u5bc4\u6258", termEn:"place hopes on", definition:"(j\u00ec tu\u014d) place hopes on", definitionEn:"place hopes on"},
+        {term:"\u6539\u5584", termEn:"improve", definition:"(g\u01cei sh\u00e0n) improve", definitionEn:"improve"}
+      ],
       grammarPoints: [
         {point:'对比手法',pointEn:'contrast technique',example:'过去没有电灯、电视……现在人类登上月球、潜入深海。',exampleEn:'In the past there were no lights or TV... Now humans land on the moon and dive into the deep sea.',explanation:'用古今对比突出科技带来的巨大变化',explanationEn:'Use past-present contrast to highlight huge changes brought by technology'}
       ],
@@ -455,6 +505,12 @@ units: [
         {word:'素洁',pinyin:'sù jié',en:'plain and clean',sentence:'蝴蝶是那样素洁。',sentenceEn:'Butterflies are so delicate and clean.'},
         {word:'喧嚷',pinyin:'xuān rǎng',en:'clamor',sentence:'雨点密集地喧嚷着。',sentenceEn:'Raindrops clamored densely.'},
         {word:'避开',pinyin:'bì kāi',en:'avoid',sentence:'蝴蝶怎么避开风雨？',sentenceEn:'How do butterflies avoid the wind and rain?'}
+      ],
+      footnotes: [
+        {term:"\u9707\u64bc", termEn:"shake; shock", definition:"(zh\u00e8n h\u00e0n) shake; shock", definitionEn:"shake; shock"},
+        {term:"\u7d20\u6d01", termEn:"plain and clean", definition:"(s\u00f9 ji\u00e9) plain and clean", definitionEn:"plain and clean"},
+        {term:"\u55a7\u56b7", termEn:"clamor", definition:"(xu\u0101n r\u01ceng) clamor", definitionEn:"clamor"},
+        {term:"\u907f\u5f00", termEn:"avoid", definition:"(b\u00ec k\u0101i) avoid", definitionEn:"avoid"}
       ],
       exercises: [
         {type:"read",cn:"读课文，提出自己的问题，再试着把问题分分类，选出你认为最值得思考的问题",en:"Read the text, raise questions, classify them, and choose the most thought-provoking ones"},
@@ -545,6 +601,13 @@ units: [
         {word:'横看',pinyin:'héng kàn',en:'view from the front',sentence:'横看成岭侧成峰。',sentenceEn:'Viewed from the front it forms a ridge, from the side a peak.'},
         {word:'逊',pinyin:'xùn',en:'inferior to',sentence:'梅须逊雪三分白。',sentenceEn:'Plum must concede three shades of white to snow.'}
       ],
+      footnotes: [
+        {term:"\u6b8b\u9633", termEn:"setting sun", definition:"(c\u00e1n y\u00e1ng) setting sun", definitionEn:"setting sun"},
+        {term:"\u745f\u745f", termEn:"shimmering blue-green", definition:"(s\u00e8 s\u00e8) shimmering blue-green", definitionEn:"shimmering blue-green"},
+        {term:"\u5e90\u5c71", termEn:"Lushan Mountain", definition:"(l\u00fa sh\u0101n) Lushan Mountain", definitionEn:"Lushan Mountain"},
+        {term:"\u6a2a\u770b", termEn:"view from the front", definition:"(h\u00e9ng k\u00e0n) view from the front", definitionEn:"view from the front"},
+        {term:"\u900a", termEn:"inferior to", definition:"(x\u00f9n) inferior to", definitionEn:"inferior to"}
+      ],
       grammarPoints: [
         {point:'借景喻理',pointEn:'use scenery to convey philosophy',example:'不识庐山真面目，只缘身在此山中。',exampleEn:'We cannot see Lushan’s true face because we stand within the mountain.',explanation:'通过描写景物来表达人生哲理',explanationEn:'Express life philosophy through descriptions of scenery'}
       ],
@@ -595,6 +658,13 @@ units: [
         {word:'触角',pinyin:'chù jiǎo',en:'antenna; feeler',sentence:'细丝很像蜗牛的触角。',sentenceEn:'The tendrils look like a snail’s antennae.'},
         {word:'萎',pinyin:'wěi',en:'wither',sentence:'没触着墙的脚不几天就萎了。',sentenceEn:'Feet that fail to touch the wall wither within days.'},
         {word:'牢固',pinyin:'láo gù',en:'firm; secure',sentence:'那些脚巴在墙上相当牢固。',sentenceEn:'Those feet grip the wall quite firmly.'}
+      ],
+      footnotes: [
+        {term:"\u5747\u5300", termEn:"even; uniform", definition:"(j\u016bn y\u00fan) even; uniform", definitionEn:"even; uniform"},
+        {term:"\u91cd\u53e0", termEn:"overlap", definition:"(ch\u00f3ng di\u00e9) overlap", definitionEn:"overlap"},
+        {term:"\u89e6\u89d2", termEn:"antenna; feeler", definition:"(ch\u00f9 ji\u01ceo) antenna; feeler", definitionEn:"antenna; feeler"},
+        {term:"\u840e", termEn:"wither", definition:"(w\u011bi) wither", definitionEn:"wither"},
+        {term:"\u7262\u56fa", termEn:"firm; secure", definition:"(l\u00e1o g\u00f9) firm; secure", definitionEn:"firm; secure"}
       ],
       grammarPoints: [
         {point:'连续细致观察',pointEn:'continuous detailed observation',example:'爬山虎的脚触着墙的时候……变成小圆片……巴住墙。',exampleEn:'When the feet touch the wall... turn into tiny discs... grip the wall.',explanation:'通过长期连续的观察，写出事物细微的变化过程',explanationEn:'Through long-term continuous observation, describe the subtle process of change'}
@@ -651,6 +721,13 @@ units: [
         {word:'慎重',pinyin:'shèn zhòng',en:'cautious; careful',sentence:'它常常慎重地选择住址。',sentenceEn:'It carefully chooses a building site.'},
         {word:'挖掘',pinyin:'wā jué',en:'dig; excavate',sentence:'蟋蟀并不是挖掘技术的专家。',sentenceEn:'The cricket is no excavation expert.'},
         {word:'简朴',pinyin:'jiǎn pǔ',en:'simple; plain',sentence:'住所是很简朴的，清洁、干燥。',sentenceEn:'The dwelling is simple, clean, and dry.'}
+      ],
+      footnotes: [
+        {term:"\u4f4f\u5b85", termEn:"residence; home", definition:"(zh\u00f9 zh\u00e1i) residence; home", definitionEn:"residence; home"},
+        {term:"\u9690\u853d", termEn:"hidden; concealed", definition:"(y\u01d0n b\u00ec) hidden; concealed", definitionEn:"hidden; concealed"},
+        {term:"\u614e\u91cd", termEn:"cautious; careful", definition:"(sh\u00e8n zh\u00f2ng) cautious; careful", definitionEn:"cautious; careful"},
+        {term:"\u6316\u6398", termEn:"dig; excavate", definition:"(w\u0101 ju\u00e9) dig; excavate", definitionEn:"dig; excavate"},
+        {term:"\u7b80\u6734", termEn:"simple; plain", definition:"(ji\u01cen p\u01d4) simple; plain", definitionEn:"simple; plain"}
       ],
       grammarPoints: [
         {point:'拟人手法',pointEn:'personification',example:'蟋蟀就在这平台上弹琴。',exampleEn:'The cricket plays its violin on this terrace.',explanation:'把动物当作人来描写，使文章生动有趣',explanationEn:'Describe animals as if they were people, making the text vivid and interesting'}
@@ -752,6 +829,13 @@ units: [
         {word:'奔流不息',pinyin:'bēn liú bù xī',en:'ever-flowing',sentence:'他的血液变成了奔流不息的江河。',sentenceEn:'His blood became ever-flowing rivers.'},
         {word:'滋润',pinyin:'zī rùn',en:'nourish; moisten',sentence:'他的汗水变成了滋润万物的雨露。',sentenceEn:'His sweat became nourishing rain and dew.'}
       ],
+      footnotes: [
+        {term:"\u6df7\u6c8c", termEn:"chaos", definition:"(h\u00f9n d\u00f9n) chaos", definitionEn:"chaos"},
+        {term:"\u5dcd\u5ce8", termEn:"towering; majestic", definition:"(w\u0113i \u00e9) towering; majestic", definitionEn:"towering; majestic"},
+        {term:"\u7cbe\u75b2\u529b\u7aed", termEn:"utterly exhausted", definition:"(j\u012bng p\u00ed l\u00ec ji\u00e9) utterly exhausted", definitionEn:"utterly exhausted"},
+        {term:"\u5954\u6d41\u4e0d\u606f", termEn:"ever-flowing", definition:"(b\u0113n li\u00fa b\u00f9 x\u012b) ever-flowing", definitionEn:"ever-flowing"},
+        {term:"\u6ecb\u6da6", termEn:"nourish; moisten", definition:"(z\u012b r\u00f9n) nourish; moisten", definitionEn:"nourish; moisten"}
+      ],
       grammarPoints: [
         {point:'神话想象的特点',pointEn:'characteristics of mythical imagination',example:'他的左眼变成了太阳……右眼变成了月亮。',exampleEn:'His left eye became the sun... his right eye became the moon.',explanation:'神话中用大胆的想象解释自然现象的起源',explanationEn:'Myths use bold imagination to explain the origin of natural phenomena'}
       ],
@@ -788,6 +872,12 @@ units: [
         {word:'溺',pinyin:'nì',en:'drown',sentence:'女娃游于东海，溺而不返。',sentenceEn:'Nuwa swam in the Eastern Sea and drowned, never returning.'},
         {word:'衔',pinyin:'xián',en:'carry in mouth',sentence:'常衔西山之木石。',sentenceEn:'She ceaselessly carried twigs and stones in her beak.'},
         {word:'堙',pinyin:'yīn',en:'fill; block',sentence:'以堙于东海。',sentenceEn:'To fill the Eastern Sea.'}
+      ],
+      footnotes: [
+        {term:"\u708e\u5e1d", termEn:"Emperor Yan", definition:"(y\u00e1n d\u00ec) Emperor Yan", definitionEn:"Emperor Yan"},
+        {term:"\u6eba", termEn:"drown", definition:"(n\u00ec) drown", definitionEn:"drown"},
+        {term:"\u8854", termEn:"carry in mouth", definition:"(xi\u00e1n) carry in mouth", definitionEn:"carry in mouth"},
+        {term:"\u5819", termEn:"fill; block", definition:"(y\u012bn) fill; block", definitionEn:"fill; block"}
       ],
       grammarPoints: [
         {point:'文言文阅读方法',pointEn:'approach to classical Chinese',example:'女娃游于东海，溺而不返，故为精卫。',exampleEn:'Nuwa swam in the East Sea, drowned and never returned, thus became Jingwei.',explanation:'借助注释，逐字逐句理解文言文的含义',explanationEn:'Use annotations to understand classical Chinese word by word'}
@@ -843,6 +933,13 @@ units: [
         {word:'屈服',pinyin:'qū fú',en:'yield; submit',sentence:'普罗米修斯就是不向宙斯屈服。',sentenceEn:'Prometheus never yielded to Zeus.'},
         {word:'自由',pinyin:'zì yóu',en:'freedom',sentence:'这位英雄终于获得了自由。',sentenceEn:'The hero finally gained his freedom.'}
       ],
+      footnotes: [
+        {term:"\u706b\u79cd", termEn:"fire seed; spark", definition:"(hu\u01d2 zh\u01d2ng) fire seed; spark", definitionEn:"fire seed; spark"},
+        {term:"\u6c14\u6025\u8d25\u574f", termEn:"furious; livid", definition:"(q\u00ec j\u00ed b\u00e0i hu\u00e0i) furious; livid", definitionEn:"furious; livid"},
+        {term:"\u60e9\u7f5a", termEn:"punishment", definition:"(ch\u00e9ng f\u00e1) punishment", definitionEn:"punishment"},
+        {term:"\u5c48\u670d", termEn:"yield; submit", definition:"(q\u016b f\u00fa) yield; submit", definitionEn:"yield; submit"},
+        {term:"\u81ea\u7531", termEn:"freedom", definition:"(z\u00ec y\u00f3u) freedom", definitionEn:"freedom"}
+      ],
       exercises: [
         {type:"read",cn:"朗读课文，注意读好众神的名字",en:"Read aloud, paying attention to the pronunciation of the gods\u2019 names"},
         {type:"discuss",cn:"按照起因、经过、结果的顺序，讲一讲普罗米修斯\u201C盗\u201D火的故事",en:"Retell the story of Prometheus stealing fire in order of cause, process, and result"},
@@ -890,6 +987,13 @@ units: [
         {word:'熔炼',pinyin:'róng liàn',en:'smelt',sentence:'燃起神火熔炼五色石头。',sentenceEn:'She kindled divine fire to smelt the five-colored stones.'},
         {word:'坍塌',pinyin:'tān tā',en:'collapse',sentence:'担心补好的天再坍塌下来。',sentenceEn:'Worried that the mended sky might collapse again.'},
         {word:'传颂',pinyin:'chuán sòng',en:'celebrate; praise',sentence:'人们世世代代传颂着她的伟大功绩。',sentenceEn:'People celebrated her great achievements through generations.'}
+      ],
+      footnotes: [
+        {term:"\u7a9f\u7abf", termEn:"hole; gap", definition:"(k\u016b long) hole; gap", definitionEn:"hole; gap"},
+        {term:"\u60ca\u614c\u5931\u63aa", termEn:"panic-stricken", definition:"(j\u012bng hu\u0101ng sh\u012b cu\u00f2) panic-stricken", definitionEn:"panic-stricken"},
+        {term:"\u7194\u70bc", termEn:"smelt", definition:"(r\u00f3ng li\u00e0n) smelt", definitionEn:"smelt"},
+        {term:"\u574d\u584c", termEn:"collapse", definition:"(t\u0101n t\u0101) collapse", definitionEn:"collapse"},
+        {term:"\u4f20\u9882", termEn:"celebrate; praise", definition:"(chu\u00e1n s\u00f2ng) celebrate; praise", definitionEn:"celebrate; praise"}
       ],
       exercises: [
         {type:"read",cn:"默读课文，说说故事的起因、经过和结果",en:"Read silently and summarize the story\u2019s cause, process, and result"},
@@ -992,6 +1096,13 @@ units: [
         {word:'庞大',pinyin:'páng dà',en:'enormous',sentence:'猎狗是个多么庞大的怪物啊！',sentenceEn:'What an enormous monster the hound was!'},
         {word:'搏斗',pinyin:'bó dòu',en:'fight; struggle',sentence:'它准备着一场搏斗。',sentenceEn:'It was ready for a fight.'}
       ],
+      footnotes: [
+        {term:"\u55c5", termEn:"sniff; smell", definition:"(xi\u00f9) sniff; smell", definitionEn:"sniff; smell"},
+        {term:"\u65e0\u53ef\u5948\u4f55", termEn:"helpless", definition:"(w\u00fa k\u011b n\u00e0i h\u00e9) helpless", definitionEn:"helpless"},
+        {term:"\u62ef\u6551", termEn:"rescue", definition:"(zh\u011bng ji\u00f9) rescue", definitionEn:"rescue"},
+        {term:"\u5e9e\u5927", termEn:"enormous", definition:"(p\u00e1ng d\u00e0) enormous", definitionEn:"enormous"},
+        {term:"\u640f\u6597", termEn:"fight; struggle", definition:"(b\u00f3 d\u00f2u) fight; struggle", definitionEn:"fight; struggle"}
+      ],
       grammarPoints: [
         {point:'所见所闻所想',pointEn:'what one sees, hears, and thinks',example:'老麻雀用自己的身躯掩护着小麻雀。一种强大的力量使它飞了下来。',exampleEn:'The old sparrow shielded the baby with its body. A powerful force drove it down.',explanation:'把看到的、听到的、想到的都写下来，使叙述更完整',explanationEn:'Write what you see, hear, and think to make narration more complete'}
       ],
@@ -1047,6 +1158,13 @@ units: [
         {word:'奋力',pinyin:'fèn lì',en:'with all one’s might',sentence:'我奋力向峰顶爬去。',sentenceEn:'I climbed toward the summit with all my might.'},
         {word:'汲取',pinyin:'jí qǔ',en:'draw; absorb',sentence:'都会从别人身上汲取力量！',sentenceEn:'Both drew strength from each other!'},
         {word:'鼓舞',pinyin:'gǔ wǔ',en:'inspire; encourage',sentence:'要不是你的勇气鼓舞我。',sentenceEn:'If not for your courage inspiring me.'}
+      ],
+      footnotes: [
+        {term:"\u77f3\u7ea7", termEn:"stone steps", definition:"(sh\u00ed j\u00ed) stone steps", definitionEn:"stone steps"},
+        {term:"\u53d1\u98a4", termEn:"tremble", definition:"(f\u0101 ch\u00e0n) tremble", definitionEn:"tremble"},
+        {term:"\u594b\u529b", termEn:"with all one\u2019s might", definition:"(f\u00e8n l\u00ec) with all one\u2019s might", definitionEn:"with all one\u2019s might"},
+        {term:"\u6c72\u53d6", termEn:"draw; absorb", definition:"(j\u00ed q\u01d4) draw; absorb", definitionEn:"draw; absorb"},
+        {term:"\u9f13\u821e", termEn:"inspire; encourage", definition:"(g\u01d4 w\u01d4) inspire; encourage", definitionEn:"inspire; encourage"}
       ],
       exercises: [
         {type:"read",cn:"这篇课文写了一件什么事？是按照什么顺序写的？",en:"What event does this text describe? In what order is it written?"},
@@ -1152,6 +1270,13 @@ units: [
         {word:'凭',pinyin:'píng',en:'rely on',sentence:'它要是凭这点来欺负人。',sentenceEn:'If it relies on this to bully people.'},
         {word:'无缘无故',pinyin:'wú yuán wú gù',en:'for no reason',sentence:'我也不再无缘无故欺负它了。',sentenceEn:'I also stopped picking on it for no reason.'}
       ],
+      footnotes: [
+        {term:"\u65e0\u6240\u8c13", termEn:"indifferent", definition:"(w\u00fa su\u01d2 w\u00e8i) indifferent", definitionEn:"indifferent"},
+        {term:"\u987d\u76ae", termEn:"mischievous", definition:"(w\u00e1n p\u00ed) mischievous", definitionEn:"mischievous"},
+        {term:"\u60f9\u6012", termEn:"anger; provoke", definition:"(r\u011b n\u00f9) anger; provoke", definitionEn:"anger; provoke"},
+        {term:"\u51ed", termEn:"rely on", definition:"(p\u00edng) rely on", definitionEn:"rely on"},
+        {term:"\u65e0\u7f18\u65e0\u6545", termEn:"for no reason", definition:"(w\u00fa yu\u00e1n w\u00fa g\u00f9) for no reason", definitionEn:"for no reason"}
+      ],
       grammarPoints: [
         {point:'批注式阅读',pointEn:'annotated reading',example:'它虽然把我们看得比它小，可我们实在比它强啊！',exampleEn:'Even if they see us as small, we are actually stronger!',explanation:'在阅读时在精彩处、疑问处做标记和写感想',explanationEn:'Annotate brilliant or puzzling passages with marks and reflections while reading'}
       ],
@@ -1211,6 +1336,13 @@ units: [
         {word:'通情达理',pinyin:'tōng qíng dá lǐ',en:'sensible; understanding',sentence:'老师真是个通情达理的好老师。',sentenceEn:'The teacher was truly a sensible, understanding teacher.'},
         {word:'哄堂大笑',pinyin:'hōng táng dà xiào',en:'burst into laughter',sentence:'只听见台下一阵哄堂大笑。',sentenceEn:'The audience burst into laughter.'}
       ],
+      footnotes: [
+        {term:"\u7fa1\u6155", termEn:"envy", definition:"(xi\u00e0n m\u00f9) envy", definitionEn:"envy"},
+        {term:"\u6bb7\u5207", termEn:"earnest; eager", definition:"(y\u012bn qi\u00e8) earnest; eager", definitionEn:"earnest; eager"},
+        {term:"\u6392\u7ec3", termEn:"rehearse", definition:"(p\u00e1i li\u00e0n) rehearse", definitionEn:"rehearse"},
+        {term:"\u901a\u60c5\u8fbe\u7406", termEn:"sensible; understanding", definition:"(t\u014dng q\u00edng d\u00e1 l\u01d0) sensible; understanding", definitionEn:"sensible; understanding"},
+        {term:"\u54c4\u5802\u5927\u7b11", termEn:"burst into laughter", definition:"(h\u014dng t\u00e1ng d\u00e0 xi\u00e0o) burst into laughter", definitionEn:"burst into laughter"}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，在你不理解的地方作批注，和同学交流",en:"Read silently, annotate what you don\u2019t understand, and discuss with classmates"},
         {type:"discuss",cn:"从开始期待到最后疑惑，\u201C我\u201D的心情有怎样的变化？为什么会有那样的变化？",en:"How did \u2018my\u2019 feelings change from initial excitement to final confusion? Why?"},
@@ -1263,6 +1395,13 @@ units: [
         {word:'手舞足蹈',pinyin:'shǒu wǔ zú dǎo',en:'dance with joy',sentence:'更是手舞足蹈。',sentenceEn:'I danced with joy even more.'},
         {word:'不动声色',pinyin:'bù dòng shēng sè',en:'stay cool; unfazed',sentence:'我的鸭蛋则不动声色地闪躲。',sentenceEn:'My egg coolly dodged.'},
         {word:'溃败',pinyin:'kuì bài',en:'utterly defeated',sentence:'大陀螺彻底溃败了。',sentenceEn:'The big top was utterly defeated.'}
+      ],
+      footnotes: [
+        {term:"\u4e0d\u7518\u4eba\u540e", termEn:"refuse to lag behind", definition:"(b\u00f9 g\u0101n r\u00e9n h\u00f2u) refuse to lag behind", definitionEn:"refuse to lag behind"},
+        {term:"\u604d\u60da", termEn:"dazed; trance-like", definition:"(hu\u01ceng h\u016b) dazed; trance-like", definitionEn:"dazed; trance-like"},
+        {term:"\u624b\u821e\u8db3\u8e48", termEn:"dance with joy", definition:"(sh\u01d2u w\u01d4 z\u00fa d\u01ceo) dance with joy", definitionEn:"dance with joy"},
+        {term:"\u4e0d\u52a8\u58f0\u8272", termEn:"stay cool; unfazed", definition:"(b\u00f9 d\u00f2ng sh\u0113ng s\u00e8) stay cool; unfazed", definitionEn:"stay cool; unfazed"},
+        {term:"\u6e83\u8d25", termEn:"utterly defeated", definition:"(ku\u00ec b\u00e0i) utterly defeated", definitionEn:"utterly defeated"}
       ],
       grammarPoints: [
         {point:'心情变化线索',pointEn:'tracing emotional changes',example:'沮丧→期待→兴奋→被嘲笑→意外获胜→自豪',exampleEn:'Dejection → anticipation → excitement → mockery → unexpected victory → pride',explanation:'抓住人物心情变化的线索来理解文章',explanationEn:'Trace the thread of emotional changes to understand the text'}
@@ -1358,6 +1497,13 @@ units: [
         {word:'沙场',pinyin:'shā chǎng',en:'battlefield',sentence:'醉卧沙场君莫笑。',sentenceEn:'Don’t laugh if we lie drunk on the battlefield.'},
         {word:'项羽',pinyin:'xiàng yǔ',en:'Xiang Yu',sentence:'至今思项羽，不肯过江东。',sentenceEn:'Even now we think of Xiang Yu, who refused to cross east.'}
       ],
+      footnotes: [
+        {term:"\u5f81", termEn:"expedition; campaign", definition:"(zh\u0113ng) expedition; campaign", definitionEn:"expedition; campaign"},
+        {term:"\u98de\u5c06", termEn:"Flying General", definition:"(f\u0113i ji\u00e0ng) Flying General", definitionEn:"Flying General"},
+        {term:"\u4eba\u6770", termEn:"outstanding person", definition:"(r\u00e9n ji\u00e9) outstanding person", definitionEn:"outstanding person"},
+        {term:"\u6c99\u573a", termEn:"battlefield", definition:"(sh\u0101 ch\u01ceng) battlefield", definitionEn:"battlefield"},
+        {term:"\u9879\u7fbd", termEn:"Xiang Yu", definition:"(xi\u00e0ng y\u01d4) Xiang Yu", definitionEn:"Xiang Yu"}
+      ],
       exercises: [
         {type:"read",cn:"有感情地朗读课文。背诵课文。默写《出塞》《夏日绝句》",en:"Read expressively. Recite all poems. Write \u2018Beyond the Border\u2019 and \u2018A Summer Quatrain\u2019 from memory"},
         {type:"discuss",cn:"结合注释，说说\u201C但使龙城飞将在，不教胡马度阴山\u201D\u201C醉卧沙场君莫笑，古来征战几人回\u201D\u201C生当作人杰，死亦为鬼雄\u201D的意思，你从中体会到了什么",en:"Using the notes, explain these famous lines and share what you understand from them"},
@@ -1411,6 +1557,14 @@ units: [
         {word:'中华不振',pinyin:'zhōng huá bù zhèn',en:'China is weak',sentence:'中华不振哪！',sentenceEn:'China is weak!'},
         {word:'训斥',pinyin:'xùn chì',en:'scold; rebuke',sentence:'中国巡警反而训斥她。',sentenceEn:'The Chinese police scolded her instead.'},
         {word:'屈辱',pinyin:'qū rǔ',en:'humiliation',sentence:'把人民从苦难和屈辱中拯救出来。',sentenceEn:'Rescue the people from suffering and humiliation.'}
+      ],
+      footnotes: [
+        {term:"\u5d1b\u8d77", termEn:"rise", definition:"(ju\u00e9 q\u01d0) rise", definitionEn:"rise"},
+        {term:"\u62b1\u8d1f", termEn:"ambition", definition:"(b\u00e0o f\u00f9) ambition", definitionEn:"ambition"},
+        {term:"\u5360\u636e", termEn:"occupy; control", definition:"(zh\u00e0n j\u00f9) occupy; control", definitionEn:"occupy; control"},
+        {term:"\u4e2d\u534e\u4e0d\u632f", termEn:"China is weak", definition:"(zh\u014dng hu\u00e1 b\u00f9 zh\u00e8n) China is weak", definitionEn:"China is weak"},
+        {term:"\u8bad\u65a5", termEn:"scold; rebuke", definition:"(x\u00f9n ch\u00ec) scold; rebuke", definitionEn:"scold; rebuke"},
+        {term:"\u5c48\u8fb1", termEn:"humiliation", definition:"(q\u016b r\u01d4) humiliation", definitionEn:"humiliation"}
       ],
       grammarPoints: [
         {point:'多件事概括主要内容',pointEn:'summarizing main content from multiple events',example:'听伯父叹息→亲见中华不振→立志为中华崛起而读书',exampleEn:'Hearing uncle’s sigh → witnessing China’s weakness → vowing to study for China’s rise',explanation:'把文章中的几件事连起来，概括文章的主要内容',explanationEn:'Connect multiple events in the text to summarize the main content'}
@@ -1466,6 +1620,13 @@ units: [
         {word:'斩钉截铁',pinyin:'zhǎn dīng jié tiě',en:'adamantly; firmly',sentence:'梅兰芳斩钉截铁地说。',sentenceEn:'Mei Lanfang said adamantly.'},
         {word:'民族气节',pinyin:'mín zú qì jié',en:'national integrity',sentence:'他的民族气节更令人敬佩。',sentenceEn:'His national integrity won even greater respect.'}
       ],
+      footnotes: [
+        {term:"\u84c4\u987b", termEn:"grow a beard", definition:"(x\u00f9 x\u016b) grow a beard", definitionEn:"grow a beard"},
+        {term:"\u6df1\u5c45\u7b80\u51fa", termEn:"live in seclusion", definition:"(sh\u0113n j\u016b ji\u01cen ch\u016b) live in seclusion", definitionEn:"live in seclusion"},
+        {term:"\u9a9a\u6270", termEn:"harass", definition:"(s\u0101o r\u01ceo) harass", definitionEn:"harass"},
+        {term:"\u65a9\u9489\u622a\u94c1", termEn:"adamantly; firmly", definition:"(zh\u01cen d\u012bng ji\u00e9 ti\u011b) adamantly; firmly", definitionEn:"adamantly; firmly"},
+        {term:"\u6c11\u65cf\u6c14\u8282", termEn:"national integrity", definition:"(m\u00edn z\u00fa q\u00ec ji\u00e9) national integrity", definitionEn:"national integrity"}
+      ],
       exercises: [
         {type:"read",cn:"默读课文，说说梅兰芳用了哪些办法拒绝为日本人演戏，在这个过程中经历了哪些危险和困难",en:"Read silently and list the methods Mei Lanfang used to refuse performing for Japan, and the dangers he faced"},
         {type:"discuss",cn:"你从梅兰芳身上感受到了什么精神？",en:"What spirit do you sense in Mei Lanfang?"}
@@ -1514,6 +1675,12 @@ units: [
         {word:'茁壮',pinyin:'zhuó zhuàng',en:'sturdy; thriving',sentence:'像茁壮成长的小树。',sentenceEn:'Like saplings growing strong.'},
         {word:'灿烂辉煌',pinyin:'càn làn huī huáng',en:'brilliant; splendid',sentence:'延安，你的精神灿烂辉煌！',sentenceEn:'Yan’an, your spirit shines brilliantly!'},
         {word:'展翅飞翔',pinyin:'zhǎn chì fēi xiáng',en:'soar; spread wings',sentence:'怎能向美好的未来展翅飞翔？',sentenceEn:'How could we soar toward a beautiful future?'}
+      ],
+      footnotes: [
+        {term:"\u8ffd\u5bfb", termEn:"pursue", definition:"(zhu\u012b x\u00fan) pursue", definitionEn:"pursue"},
+        {term:"\u8301\u58ee", termEn:"sturdy; thriving", definition:"(zhu\u00f3 zhu\u00e0ng) sturdy; thriving", definitionEn:"sturdy; thriving"},
+        {term:"\u707f\u70c2\u8f89\u714c", termEn:"brilliant; splendid", definition:"(c\u00e0n l\u00e0n hu\u012b hu\u00e1ng) brilliant; splendid", definitionEn:"brilliant; splendid"},
+        {term:"\u5c55\u7fc5\u98de\u7fd4", termEn:"soar; spread wings", definition:"(zh\u01cen ch\u00ec f\u0113i xi\u00e1ng) soar; spread wings", definitionEn:"soar; spread wings"}
       ],
       exercises: [
         {type:"read",cn:"有感情地朗读这首诗。想一想：诗中多次提到\u201C追寻\u201D，是在追寻什么？",en:"Read the poem expressively. Think: what is being \u2018pursued\u2019 through the repeated word?"},
@@ -1597,6 +1764,12 @@ units: [
         {word:'唯',pinyin:'wéi',en:'only',sentence:'唯戎不动。',sentenceEn:'Only Wang Rong did not move.'},
         {word:'信然',pinyin:'xìn rán',en:'indeed so',sentence:'取之，信然。',sentenceEn:'They tasted them, and indeed it was so.'}
       ],
+      footnotes: [
+        {term:"\u8bf8", termEn:"all; various", definition:"(zh\u016b) all; various", definitionEn:"all; various"},
+        {term:"\u7ade\u8d70", termEn:"race to run", definition:"(j\u00ecng z\u01d2u) race to run", definitionEn:"race to run"},
+        {term:"\u552f", termEn:"only", definition:"(w\u00e9i) only", definitionEn:"only"},
+        {term:"\u4fe1\u7136", termEn:"indeed so", definition:"(x\u00ecn r\u00e1n) indeed so", definitionEn:"indeed so"}
+      ],
       grammarPoints: [
         {point:'文言文中的推理',pointEn:'logical reasoning in classical Chinese',example:'树在道边而多子，此必苦李。',exampleEn:'The tree stands by the road yet is laden with fruit — these must be bitter plums.',explanation:'根据现象进行逻辑推理，得出结论',explanationEn:'Draw conclusions through logical reasoning based on observable phenomena'}
       ],
@@ -1654,6 +1827,13 @@ units: [
         {word:'面如土色',pinyin:'miàn rú tǔ sè',en:'ashen-faced',sentence:'官绅一个个吓得面如土色。',sentenceEn:'The officials turned ashen-faced with fear.'},
         {word:'灌溉',pinyin:'guàn gài',en:'irrigate',sentence:'庄稼得到灌溉。',sentenceEn:'Crops received irrigation.'}
       ],
+      footnotes: [
+        {term:"\u7530\u5730\u8352\u829c", termEn:"barren fields", definition:"(ti\u00e1n d\u00ec hu\u0101ng w\u00fa) barren fields", definitionEn:"barren fields"},
+        {term:"\u5deb\u5a46", termEn:"witch", definition:"(w\u016b p\u00f3) witch", definitionEn:"witch"},
+        {term:"\u63d0\u5fc3\u540a\u80c6", termEn:"on tenterhooks", definition:"(t\u00ed x\u012bn di\u00e0o d\u01cen) on tenterhooks", definitionEn:"on tenterhooks"},
+        {term:"\u9762\u5982\u571f\u8272", termEn:"ashen-faced", definition:"(mi\u00e0n r\u00fa t\u01d4 s\u00e8) ashen-faced", definitionEn:"ashen-faced"},
+        {term:"\u704c\u6e89", termEn:"irrigate", definition:"(gu\u00e0n g\u00e0i) irrigate", definitionEn:"irrigate"}
+      ],
       grammarPoints: [
         {point:'以其人之道还治其人之身',pointEn:'using their own methods against them',example:'把新娘领来让我看看……麻烦你去跟河神说一声。',exampleEn:'Bring the bride for me to see... Go tell the River God.',explanation:'用对方的逻辑反过来惩治对方，不用暴力揭露骗局',explanationEn:'Use the opponents’ own logic to punish them, exposing fraud without violence'}
       ],
@@ -1710,6 +1890,13 @@ units: [
         {word:'骨髓',pinyin:'gǔ suǐ',en:'marrow',sentence:'一旦深入骨髓，只能等死。',sentenceEn:'Once it enters the marrow, one can only await death.'},
         {word:'百发百中',pinyin:'bǎi fā bǎi zhòng',en:'never miss',sentence:'纪昌成了百发百中的射箭能手。',sentenceEn:'Ji Chang became an archer who never missed.'},
         {word:'聚精会神',pinyin:'jù jīng huì shén',en:'with full concentration',sentence:'每天聚精会神地盯着虱子。',sentenceEn:'He stared at the louse with full concentration every day.'}
+      ],
+      footnotes: [
+        {term:"\u62dc\u89c1", termEn:"pay a formal visit", definition:"(b\u00e0i ji\u00e0n) pay a formal visit", definitionEn:"pay a formal visit"},
+        {term:"\u8bb3\u75be\u5fcc\u533b", termEn:"avoid treatment out of fear", definition:"(hu\u00ec j\u00ed j\u00ec y\u012b) avoid treatment out of fear", definitionEn:"avoid treatment out of fear"},
+        {term:"\u9aa8\u9ad3", termEn:"marrow", definition:"(g\u01d4 su\u01d0) marrow", definitionEn:"marrow"},
+        {term:"\u767e\u53d1\u767e\u4e2d", termEn:"never miss", definition:"(b\u01cei f\u0101 b\u01cei zh\u00f2ng) never miss", definitionEn:"never miss"},
+        {term:"\u805a\u7cbe\u4f1a\u795e", termEn:"with full concentration", definition:"(j\u00f9 j\u012bng hu\u00ec sh\u00e9n) with full concentration", definitionEn:"with full concentration"}
       ],
       grammarPoints: [
         {point:'寓言的道理',pointEn:'morals of fables',example:'病在皮肤上用热敷就能治好……一旦深入骨髓，医生再也无能为力了。',exampleEn:'On the skin, a warm compress cures it... in the marrow, even a doctor is powerless.',explanation:'通过故事讲述道理：要善于听取意见，学习要打好基本功',explanationEn:'Convey lessons through story: heed good advice, and master fundamentals in learning'}

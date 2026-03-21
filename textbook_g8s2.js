@@ -31,6 +31,13 @@ units: [
         {word:'踊跃',pinyin:'yǒng yuè',en:'eager; enthusiastic',sentence:'淡黑的起伏的连山，仿佛是踊跃的铁的兽脊似的。',sentenceEn:'The undulating dark hills looked like the leaping iron spines of beasts.'},
         {word:'皎洁',pinyin:'jiǎo jié',en:'bright and clean (of moonlight)',sentence:'一离赵庄，月光又显得格外的皎洁。',sentenceEn:'Once we left Zhaozhuang, the moonlight seemed especially bright and clean.'}
       ],
+      footnotes: [
+        {term:"\u6d88\u590f", termEn:"to spend the summer; to escape the heat", definition:"(xi\u0101o xi\u00e0) to spend the summer; to escape the heat", definitionEn:"to spend the summer; to escape the heat"},
+        {term:"\u64ba\u6387", termEn:"to urge; to egg on", definition:"(cu\u0101n duo) to urge; to egg on", definitionEn:"to urge; to egg on"},
+        {term:"\u6726\u80e7", termEn:"hazy; dim", definition:"(m\u00e9ng l\u00f3ng) hazy; dim", definitionEn:"hazy; dim"},
+        {term:"\u8e0a\u8dc3", termEn:"eager; enthusiastic", definition:"(y\u01d2ng yu\u00e8) eager; enthusiastic", definitionEn:"eager; enthusiastic"},
+        {term:"\u768e\u6d01", termEn:"bright and clean (of moonlight)", definition:"(ji\u01ceo ji\u00e9) bright and clean (of moonlight)", definitionEn:"bright and clean (of moonlight)"}
+      ],
       grammarPoints: [
         {point:'多种表达方式',pointEn:'duō zhǒng biǎo dá fāng shì',example:'multiple modes of expression',exampleEn:'两岸的豆麦和河底的水草所发散出来的清香，夹杂在水气中扑面的吹来。',explanation:'The fragrance of beans and wheat from both banks and waterweed from the river bottom mingled in the mist and blew into our faces.',explanationEn:'综合运用叙述、描写、抒情等多种表达方式，使文章更加生动感人。'},
         {point:'侧面烘托',pointEn:'cè miàn hōng tuō',example:'indirect portrayal',exampleEn:'那航船，就像一条大白鱼背着一群孩子在浪花里蹿。',explanation:'The boat was like a great white fish carrying a group of children and leaping through the spray.',explanationEn:'通过比喻和侧面描写来衬托人物心情或环境氛围。'}
@@ -206,6 +213,13 @@ units: [
         {word:'脑畔',pinyin:'nǎo pàn',en:'hillside; slope (Shaanxi dialect)',sentence:'杨家岭的红旗啊高高地飘，革命万里起高潮。',sentenceEn:'The red flag at Yangjia Hill flies high, revolution surges across ten thousand miles.'},
         {word:'几回回',pinyin:'jǐ huí huí',en:'time after time (dialect)',sentence:'几回回梦里回延安，双手搂定宝塔山。',sentenceEn:'Time after time I dreamed of returning to Yan’an, embracing Pagoda Hill with both arms.'}
       ],
+      footnotes: [
+        {term:"\u4fe1\u5929\u6e38", termEn:"a folk song style of northern Shaanxi", definition:"(x\u00ecn ti\u0101n y\u00f3u) a folk song style of northern Shaanxi", definitionEn:"a folk song style of northern Shaanxi"},
+        {term:"\u7cdc\u5b50", termEn:"broomcorn millet", definition:"(m\u00e9i zi) broomcorn millet", definitionEn:"broomcorn millet"},
+        {term:"\u6ee1\u7a91", termEn:"a full cave dwelling", definition:"(m\u01cen y\u00e1o) a full cave dwelling", definitionEn:"a full cave dwelling"},
+        {term:"\u8111\u7554", termEn:"hillside; slope (Shaanxi dialect)", definition:"(n\u01ceo p\u00e0n) hillside; slope (Shaanxi dialect)", definitionEn:"hillside; slope (Shaanxi dialect)"},
+        {term:"\u51e0\u56de\u56de", termEn:"time after time (dialect)", definition:"(j\u01d0 hu\u00ed hu\u00ed) time after time (dialect)", definitionEn:"time after time (dialect)"}
+      ],
       authorBio: {
         cn: "\u8d3a\u656c\u4e4b\uff081924\u2014\u2014\uff09\uff0c\u5c71\u4e1c\u5cef\u53bf\u4eba\uff0c\u8bd7\u4eba\u3001\u5267\u4f5c\u5bb6\u3002\u4ee3\u8868\u4f5c\u6709\u6b4c\u5267\u300a\u767d\u6bdb\u5973\u300b\uff08\u4e0e\u4e01\u6bd5\u5408\u4f5c\uff09\u7b49\u3002",
         en: "He Jingzhi (1924\u2013), from Yi County, Shandong. Poet and dramatist. Representative works include the opera The White-Haired Girl (co-authored with Ding Yi)."
@@ -272,6 +286,13 @@ units: [
         {word:'蓦然',pinyin:'mò rán',en:'suddenly; abruptly',sentence:'山崖蓦然变成牛皮鼓面了。',sentenceEn:'The cliff suddenly became a cowhide drumhead.'},
         {word:'磅礴',pinyin:'páng bó',en:'majestic; boundless',sentence:'居然可以释放出那么奇伟磅礴的能量。',sentenceEn:'They could actually release such magnificent and boundless energy.'},
         {word:'戛然而止',pinyin:'jiá rán ér zhǐ',en:'to come to an abrupt stop',sentence:'当它戛然而止的时候，世界出奇地寂静。',sentenceEn:'When it came to an abrupt stop, the world was remarkably silent.'}
+      ],
+      footnotes: [
+        {term:"\u4ea2\u594b", termEn:"extremely excited; exhilarated", definition:"(k\u00e0ng f\u00e8n) extremely excited; exhilarated", definitionEn:"extremely excited; exhilarated"},
+        {term:"\u7f81\u7eca", termEn:"fetters; restraints", definition:"(j\u012b b\u00e0n) fetters; restraints", definitionEn:"fetters; restraints"},
+        {term:"\u84e6\u7136", termEn:"suddenly; abruptly", definition:"(m\u00f2 r\u00e1n) suddenly; abruptly", definitionEn:"suddenly; abruptly"},
+        {term:"\u78c5\u7934", termEn:"majestic; boundless", definition:"(p\u00e1ng b\u00f3) majestic; boundless", definitionEn:"majestic; boundless"},
+        {term:"\u621b\u7136\u800c\u6b62", termEn:"to come to an abrupt stop", definition:"(ji\u00e1 r\u00e1n \u00e9r zh\u01d0) to come to an abrupt stop", definitionEn:"to come to an abrupt stop"}
       ],
       grammarPoints: [
         {point:'排比',pointEn:'pái bǐ',example:'parallelism',exampleEn:'骤雨一样，是急促的鼓点；旋风一样，是飞扬的流苏。',explanation:'Like a sudden rainstorm are the rapid drumbeats; like a whirlwind are the flying tassels.',explanationEn:'连续使用排比句式，增强语言气势，营造出激昂奔放的节奏感。'},
@@ -404,6 +425,13 @@ units: [
         {word:'锵然',pinyin:'qiāng rán',en:'with a clear ringing sound',sentence:'遍悬珠玉金银而风至锵然。',sentenceEn:'Hung all over with jewels and gold that rang clearly when the wind blew.'},
         {word:'燎原',pinyin:'liáo yuán',en:'to spread like wildfire',sentence:'正萧萧班马鸣也，我愿就是那灯笼下的马前卒。',sentenceEn:'As war horses neigh in farewell, I would be the foot soldier carrying a lantern.'}
       ],
+      footnotes: [
+        {term:"\u65a1\u65cb", termEn:"to mediate; to negotiate", definition:"(w\u00f2 xu\u00e1n) to mediate; to negotiate", definitionEn:"to mediate; to negotiate"},
+        {term:"\u6005\u60d8", termEn:"melancholy; wistful", definition:"(ch\u00e0ng w\u01ceng) melancholy; wistful", definitionEn:"melancholy; wistful"},
+        {term:"\u7199\u7199\u7136", termEn:"warm and peaceful", definition:"(x\u012b x\u012b r\u00e1n) warm and peaceful", definitionEn:"warm and peaceful"},
+        {term:"\u9535\u7136", termEn:"with a clear ringing sound", definition:"(qi\u0101ng r\u00e1n) with a clear ringing sound", definitionEn:"with a clear ringing sound"},
+        {term:"\u71ce\u539f", termEn:"to spread like wildfire", definition:"(li\u00e1o yu\u00e1n) to spread like wildfire", definitionEn:"to spread like wildfire"}
+      ],
       authorBio: {
         cn: "\u5434\u4f2f\u7bab\uff081906\u20141982\uff09\uff0c\u539f\u540d\u7199\u6210\uff0c\u5c71\u4e1c\u83b1\u829c\u4eba\uff0c\u6563\u6587\u5bb6\u3001\u6559\u80b2\u5bb6\u3002",
         en: "Wu Boxiao (1906\u20131982), original name Xicheng, from Laiwu, Shandong. Essayist and educator."
@@ -504,6 +532,13 @@ units: [
         {word:'次第',pinyin:'cì dì',en:'one after another; in order',sentence:'各种花次第开放。',sentenceEn:'Various flowers bloom one after another.'},
         {word:'悬殊',pinyin:'xuán shū',en:'vastly different; disparity',sentence:'冬季南北温度悬殊。',sentenceEn:'In winter the temperature difference between north and south is vast.'}
       ],
+      footnotes: [
+        {term:"\u7269\u5019", termEn:"phenology; seasonal phenomena", definition:"(w\u00f9 h\u00f2u) phenology; seasonal phenomena", definitionEn:"phenology; seasonal phenomena"},
+        {term:"\u7fe9\u7136", termEn:"gracefully; lightly", definition:"(pi\u0101n r\u00e1n) gracefully; lightly", definitionEn:"gracefully; lightly"},
+        {term:"\u9500\u58f0\u533f\u8ff9", termEn:"to vanish without a trace", definition:"(xi\u0101o sh\u0113ng n\u00ec j\u00ec) to vanish without a trace", definitionEn:"to vanish without a trace"},
+        {term:"\u6b21\u7b2c", termEn:"one after another; in order", definition:"(c\u00ec d\u00ec) one after another; in order", definitionEn:"one after another; in order"},
+        {term:"\u60ac\u6b8a", termEn:"vastly different; disparity", definition:"(xu\u00e1n sh\u016b) vastly different; disparity", definitionEn:"vastly different; disparity"}
+      ],
       grammarPoints: [
         {point:'说明顺序',pointEn:'shuō míng shùn xù',example:'order of explanation',exampleEn:'首先是纬度。经度的差异是影响物候的第二个因素。影响物候的第三个因素是高下的差异。',explanation:'First comes latitude. Longitude is the second factor. The third factor is altitude.',explanationEn:'按照由主到次的逻辑顺序说明物候现象的决定因素，条理清晰。'},
         {point:'举例子',pointEn:'jǔ lì zi',example:'giving examples',exampleEn:'北京的物候记录，1962年的山桃、杏花、苹果的花期比1961年迟十天左右。',explanation:'Beijing phenological records show that the blooming of mountain peach, apricot, and apple in 1962 was about ten days later than in 1961.',explanationEn:'用具体的数据和实例来支持说明，增强文章的说服力和可信度。'}
@@ -587,6 +622,13 @@ units: [
         {word:'致密',pinyin:'zhì mì',en:'extremely dense; compact',sentence:'如果二氧化硅处于超高压的状态，那么它的原子相距很近，从而变得极为致密。',sentenceEn:'If silicon dioxide is under extreme pressure, its atoms are so close together that it becomes extremely dense.'},
         {word:'衍射',pinyin:'yǎn shè',en:'diffraction',sentence:'利用核磁共振和X光衍射，他们确实检测到了斯石英中存在的一种原子排列。',sentenceEn:'Using NMR and X-ray diffraction, they did detect an atomic arrangement found in stishovite.'}
       ],
+      footnotes: [
+        {term:"\u9aa8\u9abc", termEn:"skeleton; bones", definition:"(g\u01d4 g\u00e9) skeleton; bones", definitionEn:"skeleton; bones"},
+        {term:"\u6f02\u79fb", termEn:"to drift", definition:"(pi\u0101o y\u00ed) to drift", definitionEn:"to drift"},
+        {term:"\u8936\u76b1", termEn:"folds; creases (geological)", definition:"(zh\u011b zh\u00f2u) folds; creases (geological)", definitionEn:"folds; creases (geological)"},
+        {term:"\u81f4\u5bc6", termEn:"extremely dense; compact", definition:"(zh\u00ec m\u00ec) extremely dense; compact", definitionEn:"extremely dense; compact"},
+        {term:"\u884d\u5c04", termEn:"diffraction", definition:"(y\u01cen sh\u00e8) diffraction", definitionEn:"diffraction"}
+      ],
       grammarPoints: [
         {point:'逻辑推理',pointEn:'luó jí tuī lǐ',example:'logical reasoning',exampleEn:'恐龙不可能在每一块大陆上独立生存，那么它们是如何越过大洋到另一个大陆上去的呢？',explanation:'Dinosaurs could not have evolved independently on each continent, so how did they cross the oceans?',explanationEn:'通过提出问题并逐步推理得出结论，体现科学说明文的严密逻辑。'}
       ],
@@ -638,6 +680,13 @@ units: [
         {word:'喧闹',pinyin:'xuān nào',en:'noisy; clamorous',sentence:'从早到晚，它们一群一群地喧闹着往收割后的玉米地飞去。',sentenceEn:'From dawn to dusk they fly in noisy groups to the harvested cornfields.'},
         {word:'弥漫',pinyin:'mí màn',en:'to fill; to permeate',sentence:'我们的沼泽便再次成为弥漫着青草气息的地方。',sentenceEn:'Our marsh once again becomes a place permeated with the scent of green grass.'}
       ],
+      footnotes: [
+        {term:"\u7f04\u9ed8", termEn:"silence; reticence", definition:"(ji\u0101n m\u00f2) silence; reticence", definitionEn:"silence; reticence"},
+        {term:"\u8fc1\u5f99", termEn:"to migrate", definition:"(qi\u0101n x\u01d0) to migrate", definitionEn:"to migrate"},
+        {term:"\u51cb\u96f6", termEn:"withered; fallen", definition:"(di\u0101o l\u00edng) withered; fallen", definitionEn:"withered; fallen"},
+        {term:"\u55a7\u95f9", termEn:"noisy; clamorous", definition:"(xu\u0101n n\u00e0o) noisy; clamorous", definitionEn:"noisy; clamorous"},
+        {term:"\u5f25\u6f2b", termEn:"to fill; to permeate", definition:"(m\u00ed m\u00e0n) to fill; to permeate", definitionEn:"to fill; to permeate"}
+      ],
       authorBio: {
         cn: "\u5229\u5965\u6ce2\u5fb7\uff081887\u20141948\uff09\uff0c\u7f8e\u56fd\u751f\u6001\u5b66\u5bb6\u3002",
         en: "Aldo Leopold (1887\u20131948), American ecologist."
@@ -684,6 +733,13 @@ units: [
         {word:'胶结',pinyin:'jiāo jié',en:'to cement together',sentence:'有一些物质填充到泥沙中的孔隙里去，就使泥沙胶结得更紧密了。',sentenceEn:'Some substances filled the gaps in the sediment, cementing it more tightly.'},
         {word:'沉淀',pinyin:'chén diàn',en:'to precipitate; to settle',sentence:'有许多泥沙沉淀下来的结果。',sentenceEn:'The result of much sediment settling down.'},
         {word:'浑浊',pinyin:'hún zhuó',en:'muddy; turbid',sentence:'黄河中下游河水变得浑浊。',sentenceEn:'The water of the middle and lower Yellow River becomes turbid.'}
+      ],
+      footnotes: [
+        {term:"\u8e2a\u8ff9", termEn:"trace; track", definition:"(z\u014dng j\u00ec) trace; track", definitionEn:"trace; track"},
+        {term:"\u8150\u8680", termEn:"to corrode; to erode", definition:"(f\u01d4 sh\u00ed) to corrode; to erode", definitionEn:"to corrode; to erode"},
+        {term:"\u80f6\u7ed3", termEn:"to cement together", definition:"(ji\u0101o ji\u00e9) to cement together", definitionEn:"to cement together"},
+        {term:"\u6c89\u6dc0", termEn:"to precipitate; to settle", definition:"(ch\u00e9n di\u00e0n) to precipitate; to settle", definitionEn:"to precipitate; to settle"},
+        {term:"\u6d51\u6d4a", termEn:"muddy; turbid", definition:"(h\u00fan zhu\u00f3) muddy; turbid", definitionEn:"muddy; turbid"}
       ],
       authorBio: {
         cn: "\u9676\u4e16\u9f99\uff081929\u2014\u2014\uff09\uff0c\u79d1\u666e\u4f5c\u5bb6\u3002",
@@ -759,6 +815,13 @@ units: [
         {word:'怡然自乐',pinyin:'yí rán zì lè',en:'happy and content',sentence:'黄发垂髫，并怡然自乐。',sentenceEn:'The old and the young were all happy and content.'},
         {word:'叹惋',pinyin:'tàn wǎn',en:'to sigh with regret',sentence:'此人一一为具言所闻，皆叹惋。',sentenceEn:'This man told them everything he had heard, and they all sighed with regret.'}
       ],
+      footnotes: [
+        {term:"\u7f24\u7eb7", termEn:"in great abundance; profuse", definition:"(b\u012bn f\u0113n) in great abundance; profuse", definitionEn:"in great abundance; profuse"},
+        {term:"\u8c41\u7136\u5f00\u6717", termEn:"suddenly seeing the light; wide and open", definition:"(hu\u00f2 r\u00e1n k\u0101i l\u01ceng) suddenly seeing the light; wide and open", definitionEn:"suddenly seeing the light; wide and open"},
+        {term:"\u4fe8\u7136", termEn:"neat and orderly", definition:"(y\u01cen r\u00e1n) neat and orderly", definitionEn:"neat and orderly"},
+        {term:"\u6021\u7136\u81ea\u4e50", termEn:"happy and content", definition:"(y\u00ed r\u00e1n z\u00ec l\u00e8) happy and content", definitionEn:"happy and content"},
+        {term:"\u53f9\u60cb", termEn:"to sigh with regret", definition:"(t\u00e0n w\u01cen) to sigh with regret", definitionEn:"to sigh with regret"}
+      ],
       grammarPoints: [
         {point:'虚实相映',pointEn:'xū shí xiāng yìng',example:'interplay of reality and fantasy',exampleEn:'寻向所志，遂迷，不复得路。',explanation:'They looked for the marks he had made, but lost their way and never found the path again.',explanationEn:'通过虚实结合，既描写了桃花源的美好，又暗示其不可复得，寄寓理想与现实的矛盾。'},
         {point:'古今异义',pointEn:'gǔ jīn yì yì',example:'words with different ancient and modern meanings',exampleEn:'率妻子邑人来此绝境。',explanation:'He brought his wife, children, and townspeople to this isolated place.',explanationEn:'文言文中"妻子"指妻子和儿女，"绝境"指与世隔绝的地方，与现代汉语含义不同。'}
@@ -824,6 +887,13 @@ units: [
         {word:'悄怆',pinyin:'qiǎo chuàng',en:'sad and desolate',sentence:'凄神寒骨，悄怆幽邃。',sentenceEn:'It chilled the spirit and the bones, sad, desolate, and profoundly deep.'},
         {word:'犬牙差互',pinyin:'quǎn yá cī hù',en:'jagged like dog teeth',sentence:'其岸势犬牙差互。',sentenceEn:'The banks were jagged like dog teeth.'}
       ],
+      footnotes: [
+        {term:"\u6e05\u51bd", termEn:"clear and cool", definition:"(q\u012bng li\u00e8) clear and cool", definitionEn:"clear and cool"},
+        {term:"\u4f41\u7136", termEn:"still; motionless", definition:"(y\u01d0 r\u00e1n) still; motionless", definitionEn:"still; motionless"},
+        {term:"\u7fd5\u5ffd", termEn:"swift and darting", definition:"(x\u012b h\u016b) swift and darting", definitionEn:"swift and darting"},
+        {term:"\u6084\u6006", termEn:"sad and desolate", definition:"(qi\u01ceo chu\u00e0ng) sad and desolate", definitionEn:"sad and desolate"},
+        {term:"\u72ac\u7259\u5dee\u4e92", termEn:"jagged like dog teeth", definition:"(qu\u01cen y\u00e1 c\u012b h\u00f9) jagged like dog teeth", definitionEn:"jagged like dog teeth"}
+      ],
       grammarPoints: [
         {point:'情景交融',pointEn:'qíng jǐng jiāo róng',example:'blending emotion with scenery',exampleEn:'坐潭上，四面竹树环合，寂寥无人，凄神寒骨，悄怆幽邃。',explanation:'Sitting beside the pond, bamboo and trees enclosed it on all sides, lonely and deserted, chilling the spirit and the bones, sad and profoundly deep.',explanationEn:'先写景物之幽美，后转为凄清孤寂，借景抒发被贬后的抑郁之情。'}
       ],
@@ -882,6 +952,13 @@ units: [
         {word:'矫首',pinyin:'jiǎo shǒu',en:'to raise the head',sentence:'矫首昂视。',sentenceEn:'He raised his head and gazed upward.'},
         {word:'历历',pinyin:'lì lì',en:'clearly; distinctly',sentence:'珠可历历数也。',sentenceEn:'The beads could be clearly counted one by one.'},
         {word:'叹为观止',pinyin:'tàn wéi guān zhǐ',en:'to gasp in admiration',sentence:'技亦灵怪矣哉！',sentenceEn:'What marvelous and wondrous skill!'}
+      ],
+      footnotes: [
+        {term:"\u7f54\u4e0d", termEn:"without exception; all", definition:"(w\u01ceng b\u00f9) without exception; all", definitionEn:"without exception; all"},
+        {term:"\u5ce8\u51a0", termEn:"tall hat", definition:"(\u00e9 gu\u0101n) tall hat", definitionEn:"tall hat"},
+        {term:"\u77eb\u9996", termEn:"to raise the head", definition:"(ji\u01ceo sh\u01d2u) to raise the head", definitionEn:"to raise the head"},
+        {term:"\u5386\u5386", termEn:"clearly; distinctly", definition:"(l\u00ec l\u00ec) clearly; distinctly", definitionEn:"clearly; distinctly"},
+        {term:"\u53f9\u4e3a\u89c2\u6b62", termEn:"to gasp in admiration", definition:"(t\u00e0n w\u00e9i gu\u0101n zh\u01d0) to gasp in admiration", definitionEn:"to gasp in admiration"}
       ],
       authorBio: {
         cn: "\u9b4f\u5b66\u6d22\uff08\u7ea61596\u2014\u7ea61625\uff09\uff0c\u5b57\u5b50\u656c\uff0c\u660e\u672b\u5609\u5584\uff08\u4eca\u6d59\u6c5f\u5609\u5174\uff09\u4eba\u3002",
@@ -942,6 +1019,13 @@ units: [
         {word:'蒹葭',pinyin:'jiān jiā',en:'reeds',sentence:'蒹葭苍苍，白露为霜。',sentenceEn:'The reeds grow thick and green, the white dew has turned to frost.'},
         {word:'溯洄',pinyin:'sù huí',en:'to go against the current',sentence:'溯洄从之，道阻且长。',sentenceEn:'I follow against the current, the road is difficult and long.'},
         {word:'伊人',pinyin:'yī rén',en:'that person; the one I love',sentence:'所谓伊人，在水一方。',sentenceEn:'The one I love is on the other side of the water.'}
+      ],
+      footnotes: [
+        {term:"\u7a88\u7a95", termEn:"graceful and beautiful", definition:"(y\u01ceo ti\u01ceo) graceful and beautiful", definitionEn:"graceful and beautiful"},
+        {term:"\u8f97\u8f6c\u53cd\u4fa7", termEn:"to toss and turn in bed", definition:"(zh\u01cen zhu\u01cen f\u01cen c\u00e8) to toss and turn in bed", definitionEn:"to toss and turn in bed"},
+        {term:"\u84b9\u846d", termEn:"reeds", definition:"(ji\u0101n ji\u0101) reeds", definitionEn:"reeds"},
+        {term:"\u6eaf\u6d04", termEn:"to go against the current", definition:"(s\u00f9 hu\u00ed) to go against the current", definitionEn:"to go against the current"},
+        {term:"\u4f0a\u4eba", termEn:"that person; the one I love", definition:"(y\u012b r\u00e9n) that person; the one I love", definitionEn:"that person; the one I love"}
       ],
       grammarPoints: [
         {point:'重章叠句',pointEn:'chóng zhāng dié jù',example:'repeated stanzas with slight variations',exampleEn:'蒹葭苍苍……蒹葭萋萋……蒹葭采采。',explanation:'The reeds grow thick... the reeds grow lush... the reeds grow bright.',explanationEn:'每章只更换少数词语，反复咏唱，形成回环往复的表达效果，深化思念之情。'}
@@ -1028,6 +1112,13 @@ units: [
         {word:'赋予',pinyin:'fù yǔ',en:'to bestow; to give',sentence:'争取民主和平是要付出代价的，但历史赋予我们的任务是争取民主。',sentenceEn:'The struggle for democracy and peace comes at a cost, but history has bestowed on us the task of fighting for democracy.'},
         {word:'光明正大',pinyin:'guāng míng zhèng dà',en:'open and aboveboard',sentence:'为什么不敢光明正大地来打来杀？',sentenceEn:'Why do they not dare to act in the open?'}
       ],
+      footnotes: [
+        {term:"\u5351\u52a3", termEn:"despicable; contemptible", definition:"(b\u0113i li\u00e8) despicable; contemptible", definitionEn:"despicable; contemptible"},
+        {term:"\u6bd2\u624b", termEn:"murderous hand", definition:"(d\u00fa sh\u01d2u) murderous hand", definitionEn:"murderous hand"},
+        {term:"\u8bec\u8511", termEn:"to slander; to vilify", definition:"(w\u016b mi\u00e8) to slander; to vilify", definitionEn:"to slander; to vilify"},
+        {term:"\u8d4b\u4e88", termEn:"to bestow; to give", definition:"(f\u00f9 y\u01d4) to bestow; to give", definitionEn:"to bestow; to give"},
+        {term:"\u5149\u660e\u6b63\u5927", termEn:"open and aboveboard", definition:"(gu\u0101ng m\u00edng zh\u00e8ng d\u00e0) open and aboveboard", definitionEn:"open and aboveboard"}
+      ],
       grammarPoints: [
         {point:'演讲技巧',pointEn:'yǎn jiǎng jì qiǎo',example:'public speaking techniques',exampleEn:'你站出来！是好汉的站出来！你出来讲！凭什么要杀死李先生？',explanation:'You come out! If you are a real man, come out! Speak up! What justification was there to kill Mr. Li?',explanationEn:'使用短句、感叹句、反问句，配合直接呼告，使演讲慷慨激昂、直击人心。'}
       ],
@@ -1081,6 +1172,13 @@ units: [
         {word:'袖手旁观',pinyin:'xiù shǒu páng guān',en:'to stand by with folded arms',sentence:'传统的中国教育重视理论而忽视实验，让学生袖手旁观。',sentenceEn:'Traditional Chinese education values theory over experiment, letting students stand by passively.'},
         {word:'推究',pinyin:'tuī jiū',en:'to investigate; to deduce',sentence:'一切推究事物的道理都叫做格物。',sentenceEn:'All investigation into the principles of things is called the study of things.'}
       ],
+      footnotes: [
+        {term:"\u683c\u7269\u81f4\u77e5", termEn:"to investigate things and extend knowledge", definition:"(g\u00e9 w\u00f9 zh\u00ec zh\u012b) to investigate things and extend knowledge", definitionEn:"to investigate things and extend knowledge"},
+        {term:"\u5f77\u5fa8", termEn:"to hesitate; to waver", definition:"(p\u00e1ng hu\u00e1ng) to hesitate; to waver", definitionEn:"to hesitate; to waver"},
+        {term:"\u63a2\u7d22", termEn:"to explore; to probe", definition:"(t\u00e0n su\u01d2) to explore; to probe", definitionEn:"to explore; to probe"},
+        {term:"\u8896\u624b\u65c1\u89c2", termEn:"to stand by with folded arms", definition:"(xi\u00f9 sh\u01d2u p\u00e1ng gu\u0101n) to stand by with folded arms", definitionEn:"to stand by with folded arms"},
+        {term:"\u63a8\u7a76", termEn:"to investigate; to deduce", definition:"(tu\u012b ji\u016b) to investigate; to deduce", definitionEn:"to investigate; to deduce"}
+      ],
       grammarPoints: [
         {point:'举例论证',pointEn:'jǔ lì lùn zhèng',example:'argumentation by example',exampleEn:'明朝大理论家王阳明要依照朱熹的方法来格物致知，结果他格了七天竹子也没有格出什么道理来。',explanation:'The great Ming theorist Wang Yangming tried to study things following Zhu Xi’s method, but after contemplating bamboo for seven days he found no principles.',explanationEn:'用王阳明格竹的典型事例来论证纯粹内省不能获得科学知识，增强了说服力。'}
       ],
@@ -1133,6 +1231,13 @@ units: [
         {word:'芯片',pinyin:'xīn piàn',en:'microchip',sentence:'发展汉字激光照排系统，用芯片存储字库。',sentenceEn:'Developing a Chinese laser typesetting system using microchips to store character libraries.'},
         {word:'权衡',pinyin:'quán héng',en:'to weigh; to balance',sentence:'抉择就是一种权衡。',sentenceEn:'Making a choice involves weighing alternatives.'}
       ],
+      footnotes: [
+        {term:"\u6289\u62e9", termEn:"choice; decision", definition:"(ju\u00e9 z\u00e9) choice; decision", definitionEn:"choice; decision"},
+        {term:"\u9633\u5173\u9053", termEn:"the broad highway; a promising path", definition:"(y\u00e1ng gu\u0101n d\u00e0o) the broad highway; a promising path", definitionEn:"the broad highway; a promising path"},
+        {term:"\u524d\u6cbf", termEn:"forefront; cutting edge", definition:"(qi\u00e1n y\u00e1n) forefront; cutting edge", definitionEn:"forefront; cutting edge"},
+        {term:"\u82af\u7247", termEn:"microchip", definition:"(x\u012bn pi\u00e0n) microchip", definitionEn:"microchip"},
+        {term:"\u6743\u8861", termEn:"to weigh; to balance", definition:"(qu\u00e1n h\u00e9ng) to weigh; to balance", definitionEn:"to weigh; to balance"}
+      ],
       authorBio: {
         cn: "\u738b\u9009\uff081937\u20142006\uff09\uff0c\u6c5f\u82cf\u65e0\u9521\u4eba\uff0c\u8ba1\u7b97\u673a\u6587\u5b57\u4fe1\u606f\u5904\u7406\u4e13\u5bb6\uff0c\u88ab\u8a89\u4e3a\u201c\u5f53\u4ee3\u6bd5\u6607\u201d\u30022002\u5e74\u83b7\u56fd\u5bb6\u6700\u9ad8\u79d1\u5b66\u6280\u672f\u5956\u3002",
         en: "Wang Xuan (1937\u20132006), from Wuxi, Jiangsu. Computer typesetting expert, known as \u2018the modern Bi Sheng.\u2019 Received the State Preeminent Science and Technology Award in 2002."
@@ -1181,6 +1286,13 @@ units: [
         {word:'拙劣',pinyin:'zhuō liè',en:'clumsy; inferior',sentence:'拙劣的作假行为是对奥林匹克精神的亵渎。',sentenceEn:'Clumsy acts of cheating are a desecration of the Olympic spirit.'},
         {word:'分崩离析',pinyin:'fēn bēng lí xī',en:'to fall apart; to disintegrate',sentence:'如果没有这种精神，人类社会将分崩离析。',sentenceEn:'Without this spirit, human society would fall apart.'},
         {word:'自圆其说',pinyin:'zì yuán qí shuō',en:'to make a self-consistent argument',sentence:'奥林匹克精神包含但又超越了竞技体育，这并非自圆其说。',sentenceEn:'The Olympic spirit encompasses but transcends competitive sports; this is not mere self-justification.'}
+      ],
+      footnotes: [
+        {term:"\u6d69\u52ab", termEn:"catastrophe; great disaster", definition:"(h\u00e0o ji\u00e9) catastrophe; great disaster", definitionEn:"catastrophe; great disaster"},
+        {term:"\u8426\u7ed5", termEn:"to linger; to hover", definition:"(y\u00edng r\u00e0o) to linger; to hover", definitionEn:"to linger; to hover"},
+        {term:"\u62d9\u52a3", termEn:"clumsy; inferior", definition:"(zhu\u014d li\u00e8) clumsy; inferior", definitionEn:"clumsy; inferior"},
+        {term:"\u5206\u5d29\u79bb\u6790", termEn:"to fall apart; to disintegrate", definition:"(f\u0113n b\u0113ng l\u00ed x\u012b) to fall apart; to disintegrate", definitionEn:"to fall apart; to disintegrate"},
+        {term:"\u81ea\u5706\u5176\u8bf4", termEn:"to make a self-consistent argument", definition:"(z\u00ec yu\u00e1n q\u00ed shu\u014d) to make a self-consistent argument", definitionEn:"to make a self-consistent argument"}
       ],
       grammarPoints: [
         {point:'演讲词结构',pointEn:'yǎn jiǎng cí jié gòu',example:'structure of a speech',exampleEn:'五年前，在美丽的巴黎……如今在这光辉的周年纪念日。',explanation:'Five years ago, in beautiful Paris... now on this glorious anniversary.',explanationEn:'演讲词以时间推进和层层深入的方式展开，从回顾历史到展望未来，结构严谨。'}
@@ -1259,6 +1371,13 @@ units: [
         {word:'怒不可遏',pinyin:'nù bù kě è',en:'to be unable to contain one’s fury',sentence:'至柔至和的水一旦被压迫竟会这样怒不可遏。',sentenceEn:'Water, the gentlest and most yielding of things, once pressed can become furious beyond restraint.'},
         {word:'漩涡',pinyin:'xuán wō',en:'whirlpool; vortex',sentence:'沟底飞转着一个个漩涡。',sentenceEn:'Whirlpools spun rapidly at the bottom of the gorge.'}
       ],
+      footnotes: [
+        {term:"\u9707\u8033\u6b32\u804b", termEn:"deafening", definition:"(zh\u00e8n \u011br y\u00f9 l\u00f3ng) deafening", definitionEn:"deafening"},
+        {term:"\u63a8\u6421", termEn:"to push and shove", definition:"(tu\u012b s\u01ceng) to push and shove", definitionEn:"to push and shove"},
+        {term:"\u9a70\u9a8b", termEn:"to gallop; to race freely", definition:"(ch\u00ed ch\u011bng) to gallop; to race freely", definitionEn:"to gallop; to race freely"},
+        {term:"\u6012\u4e0d\u53ef\u904f", termEn:"to be unable to contain one\u2019s fury", definition:"(n\u00f9 b\u00f9 k\u011b \u00e8) to be unable to contain one\u2019s fury", definitionEn:"to be unable to contain one\u2019s fury"},
+        {term:"\u6f29\u6da1", termEn:"whirlpool; vortex", definition:"(xu\u00e1n w\u014d) whirlpool; vortex", definitionEn:"whirlpool; vortex"}
+      ],
       grammarPoints: [
         {point:'移步换景',pointEn:'yí bù huàn jǐng',example:'changing scenes with each step',exampleEn:'第一次是雨季……第二次我专选了个枯水季节。',explanation:'The first time was during rainy season... the second time I chose a dry season.',explanationEn:'两次游览壶口呈现不同景象，体现了移步换景、时空对比的写作手法。'},
         {point:'象征手法',pointEn:'xiàng zhēng shǒu fǎ',example:'symbolism',exampleEn:'这伟大只在冲过壶口的一刹那才闪现出来被我们看见。',explanation:'This greatness only flashes into view the instant it surges through the Hukou.',explanationEn:'以黄河之水的博大和壮美象征中华民族百折不挠的精神力量。'}
@@ -1325,6 +1444,13 @@ units: [
         {word:'消长',pinyin:'xiāo zhǎng',en:'to ebb and flow; wax and wane',sentence:'冰塔林的消长是大自然的杰作。',sentenceEn:'The waxing and waning of the ice tower forest is a masterpiece of nature.'},
         {word:'虔诚',pinyin:'qián chéng',en:'devout; reverent',sentence:'我以十分虔诚的目光注视着这片冰雪世界。',sentenceEn:'I gazed at this world of ice and snow with utterly reverent eyes.'},
         {word:'蜿蜒',pinyin:'wān yán',en:'winding; meandering',sentence:'远方是蜿蜒的冰河。',sentenceEn:'In the distance was a meandering glacier.'}
+      ],
+      footnotes: [
+        {term:"\u63a5\u8e35\u800c\u81f3", termEn:"to come one after another", definition:"(ji\u0113 zh\u01d2ng \u00e9r zh\u00ec) to come one after another", definitionEn:"to come one after another"},
+        {term:"\u783e\u77f3", termEn:"gravel; pebbles", definition:"(l\u00ec sh\u00ed) gravel; pebbles", definitionEn:"gravel; pebbles"},
+        {term:"\u6d88\u957f", termEn:"to ebb and flow; wax and wane", definition:"(xi\u0101o zh\u01ceng) to ebb and flow; wax and wane", definitionEn:"to ebb and flow; wax and wane"},
+        {term:"\u8654\u8bda", termEn:"devout; reverent", definition:"(qi\u00e1n ch\u00e9ng) devout; reverent", definitionEn:"devout; reverent"},
+        {term:"\u873f\u8712", termEn:"winding; meandering", definition:"(w\u0101n y\u00e1n) winding; meandering", definitionEn:"winding; meandering"}
       ],
       authorBio: {
         cn: "\u9a6c\u4e3d\u534e\uff0c1953\u5e74\u751f\uff0c\u5c71\u4e1c\u6d4e\u5357\u4eba\uff0c\u5f53\u4ee3\u4f5c\u5bb6\u3002\u957f\u671f\u5728\u897f\u85cf\u5de5\u4f5c\uff0c\u4ee3\u8868\u4f5c\u6709\u300a\u85cf\u5317\u6e38\u5386\u300b\u7b49\u3002",
@@ -1410,6 +1536,13 @@ units: [
         {word:'拾级',pinyin:'shè jí',en:'to climb steps; to ascend',sentence:'沿途拾级而上。',sentenceEn:'We ascended step by step along the way.'},
         {word:'纷至沓来',pinyin:'fēn zhì tà lái',en:'to come in swarms',sentence:'美景纷至沓来，让人目不暇接。',sentenceEn:'Beautiful scenery came in a flood, more than the eye could take in.'}
       ],
+      footnotes: [
+        {term:"\u7fcc\u65e5", termEn:"the next day", definition:"(y\u00ec r\u00ec) the next day", definitionEn:"the next day"},
+        {term:"\u7edc\u7ece\u4e0d\u7edd", termEn:"in an endless stream", definition:"(lu\u00f2 y\u00ec b\u00f9 ju\u00e9) in an endless stream", definitionEn:"in an endless stream"},
+        {term:"\u5dc9\u5cfb", termEn:"steep and precipitous", definition:"(ch\u00e1n j\u00f9n) steep and precipitous", definitionEn:"steep and precipitous"},
+        {term:"\u62fe\u7ea7", termEn:"to climb steps; to ascend", definition:"(sh\u00e8 j\u00ed) to climb steps; to ascend", definitionEn:"to climb steps; to ascend"},
+        {term:"\u7eb7\u81f3\u6c93\u6765", termEn:"to come in swarms", definition:"(f\u0113n zh\u00ec t\u00e0 l\u00e1i) to come in swarms", definitionEn:"to come in swarms"}
+      ],
       authorBio: {
         cn: "\u9a6c\u514b\u00b7\u5410\u6e29\uff081835\u20141910\uff09\uff0c\u7f8e\u56fd\u4f5c\u5bb6\u3002\u4ee3\u8868\u4f5c\u6709\u5c0f\u8bf4\u300a\u6c64\u59c6\u00b7\u7d22\u4e9a\u5386\u9669\u8bb0\u300b\u300a\u54c8\u514b\u8d1d\u5229\u00b7\u8d39\u6069\u5386\u9669\u8bb0\u300b\u7b49\u3002",
         en: "Mark Twain (1835\u20131910), American writer. Representative works include The Adventures of Tom Sawyer and Adventures of Huckleberry Finn."
@@ -1461,6 +1594,13 @@ units: [
         {word:'目眩神迷',pinyin:'mù xuàn shén mí',en:'dazzled and mesmerized',sentence:'那壮丽的雪山让人目眩神迷。',sentenceEn:'The magnificent snow mountain left people dazzled and mesmerized.'},
         {word:'苍劲',pinyin:'cāng jìng',en:'bold and vigorous',sentence:'纳西族的东巴文字苍劲有力。',sentenceEn:'The Dongba script of the Naxi people is bold and vigorous.'},
         {word:'喧哗',pinyin:'xuān huá',en:'clamor; hubbub',sentence:'不同民族的人使四方街一片喧哗。',sentenceEn:'People of different ethnic groups filled Sifang Street with a clamor.'}
+      ],
+      footnotes: [
+        {term:"\u9a7f\u9053", termEn:"post road; courier route", definition:"(y\u00ec d\u00e0o) post road; courier route", definitionEn:"post road; courier route"},
+        {term:"\u7fe1\u7fe0", termEn:"jade; emerald", definition:"(f\u011bi cu\u00ec) jade; emerald", definitionEn:"jade; emerald"},
+        {term:"\u76ee\u7729\u795e\u8ff7", termEn:"dazzled and mesmerized", definition:"(m\u00f9 xu\u00e0n sh\u00e9n m\u00ed) dazzled and mesmerized", definitionEn:"dazzled and mesmerized"},
+        {term:"\u82cd\u52b2", termEn:"bold and vigorous", definition:"(c\u0101ng j\u00ecng) bold and vigorous", definitionEn:"bold and vigorous"},
+        {term:"\u55a7\u54d7", termEn:"clamor; hubbub", definition:"(xu\u0101n hu\u00e1) clamor; hubbub", definitionEn:"clamor; hubbub"}
       ],
       authorBio: {
         cn: "\u963f\u6765\uff0c1959\u5e74\u751f\uff0c\u56db\u5ddd\u9a6c\u5c14\u5eb7\u4eba\uff0c\u85cf\u65cf\u5f53\u4ee3\u4f5c\u5bb6\u3002\u4ee3\u8868\u4f5c\u6709\u300a\u5c18\u57c3\u843d\u5b9a\u300b\uff08\u83b7\u7b2c\u4e94\u5c4a\u8305\u76fe\u6587\u5b66\u5956\uff09\u7b49\u3002",
@@ -1536,6 +1676,13 @@ units: [
         {word:'濠梁',pinyin:'háo liáng',en:'the bridge over the Hao River',sentence:'庄子与惠子游于濠梁之上。',sentenceEn:'Zhuangzi and Huizi were strolling on the bridge over the Hao River.'},
         {word:'循其本',pinyin:'xún qí běn',en:'to trace back to the origin',sentence:'请循其本。',sentenceEn:'Please let us go back to the beginning of this argument.'}
       ],
+      footnotes: [
+        {term:"\u9cb2\u9e4f", termEn:"the great Kun fish and Peng bird", definition:"(k\u016bn p\u00e9ng) the great Kun fish and Peng bird", definitionEn:"the great Kun fish and Peng bird"},
+        {term:"\u6276\u6447", termEn:"whirlwind; rising wind", definition:"(f\u00fa y\u00e1o) whirlwind; rising wind", definitionEn:"whirlwind; rising wind"},
+        {term:"\u4ece\u5bb9", termEn:"leisurely; unhurried", definition:"(c\u00f3ng r\u00f3ng) leisurely; unhurried", definitionEn:"leisurely; unhurried"},
+        {term:"\u6fe0\u6881", termEn:"the bridge over the Hao River", definition:"(h\u00e1o li\u00e1ng) the bridge over the Hao River", definitionEn:"the bridge over the Hao River"},
+        {term:"\u5faa\u5176\u672c", termEn:"to trace back to the origin", definition:"(x\u00fan q\u00ed b\u011bn) to trace back to the origin", definitionEn:"to trace back to the origin"}
+      ],
       grammarPoints: [
         {point:'寓言说理',pointEn:'yù yán shuō lǐ',example:'reasoning through fables',exampleEn:'北冥有鱼，其名为鲲。鲲之大，不知其几千里也。',explanation:'In the northern sea there is a fish called Kun. The Kun is so huge that no one knows how many thousands of miles it stretches.',explanationEn:'庄子善于用寓言故事来表达哲学思想，鲲鹏的寓言寄托了对精神自由的向往。'},
         {point:'论辩技巧',pointEn:'lùn biàn jì qiǎo',example:'debating technique',exampleEn:'子非鱼，安知鱼之乐？子非我，安知我不知鱼之乐？',explanation:'You are not a fish; how do you know the joy of fish? You are not me; how do you know I do not know the joy of fish?',explanationEn:'庄子巧妙地用对方的逻辑来反驳对方，体现了高超的论辩技巧。'}
@@ -1595,6 +1742,13 @@ units: [
         {word:'选贤与能',pinyin:'xuǎn xián jǔ néng',en:'to select the virtuous and capable',sentence:'选贤与能，讲信修睦。',sentenceEn:'Select the virtuous and capable, cultivate trust and harmony.'},
         {word:'大同',pinyin:'dà tóng',en:'great unity; utopia',sentence:'是谓大同。',sentenceEn:'This is called the Great Unity.'}
       ],
+      footnotes: [
+        {term:"\u5609\u80b4", termEn:"fine delicacies", definition:"(ji\u0101 y\u00e1o) fine delicacies", definitionEn:"fine delicacies"},
+        {term:"\u6559\u5b66\u76f8\u957f", termEn:"teaching and learning promote each other", definition:"(ji\u00e0o xu\u00e9 xi\u0101ng zh\u01ceng) teaching and learning promote each other", definitionEn:"teaching and learning promote each other"},
+        {term:"\u5929\u4e0b\u4e3a\u516c", termEn:"the world belongs to all", definition:"(ti\u0101n xi\u00e0 w\u00e9i g\u014dng) the world belongs to all", definitionEn:"the world belongs to all"},
+        {term:"\u9009\u8d24\u4e0e\u80fd", termEn:"to select the virtuous and capable", definition:"(xu\u01cen xi\u00e1n j\u01d4 n\u00e9ng) to select the virtuous and capable", definitionEn:"to select the virtuous and capable"},
+        {term:"\u5927\u540c", termEn:"great unity; utopia", definition:"(d\u00e0 t\u00f3ng) great unity; utopia", definitionEn:"great unity; utopia"}
+      ],
       grammarPoints: [
         {point:'类比论证',pointEn:'lèi bǐ lùn zhèng',example:'argument by analogy',exampleEn:'虽有嘉肴，弗食，不知其旨也；虽有至道，弗学，不知其善也。',explanation:'Even with fine delicacies, without tasting you will not know the flavor; even with the best teachings, without studying you will not know their value.',explanationEn:'用品尝美食来类比学习道理，深入浅出，使抽象道理变得具体易懂。'}
       ],
@@ -1651,6 +1805,13 @@ units: [
         {word:'千里马',pinyin:'qiān lǐ mǎ',en:'a horse that can run a thousand miles; a person of great talent',sentence:'千里马常有，而伯乐不常有。',sentenceEn:'Thousand-mile horses are common, but Boles are rare.'},
         {word:'策之',pinyin:'cè zhī',en:'to whip it; to drive it',sentence:'策之不以其道。',sentenceEn:'They whip it without using the proper method.'},
         {word:'食马者',pinyin:'sì mǎ zhě',en:'the one who feeds the horse',sentence:'食马者不知其能千里而食也。',sentenceEn:'The one who feeds it does not realize it can run a thousand miles.'}
+      ],
+      footnotes: [
+        {term:"\u4f2f\u4e50", termEn:"Bole, a legendary judge of horses", definition:"(b\u00f3 l\u00e8) Bole, a legendary judge of horses", definitionEn:"Bole, a legendary judge of horses"},
+        {term:"\u9a88\u6b7b", termEn:"to die side by side (with common horses)", definition:"(pi\u00e1n s\u01d0) to die side by side (with common horses)", definitionEn:"to die side by side (with common horses)"},
+        {term:"\u5343\u91cc\u9a6c", termEn:"a horse that can run a thousand miles; a person of great talent", definition:"(qi\u0101n l\u01d0 m\u01ce) a horse that can run a thousand miles; a person of great talent", definitionEn:"a horse that can run a thousand miles; a person of great talent"},
+        {term:"\u7b56\u4e4b", termEn:"to whip it; to drive it", definition:"(c\u00e8 zh\u012b) to whip it; to drive it", definitionEn:"to whip it; to drive it"},
+        {term:"\u98df\u9a6c\u8005", termEn:"the one who feeds the horse", definition:"(s\u00ec m\u01ce zh\u011b) the one who feeds the horse", definitionEn:"the one who feeds the horse"}
       ],
       grammarPoints: [
         {point:'托物言志',pointEn:'tuō wù yán zhì',example:'expressing aspirations through objects',exampleEn:'其真无马邪？其真不知马也！',explanation:'Is it really that there are no good horses? They simply do not recognize them!',explanationEn:'借千里马不被赏识的命运，寄托作者怀才不遇的悲愤之情。'}
@@ -1709,6 +1870,13 @@ units: [
         {word:'布衾',pinyin:'bù qīn',en:'cloth quilt',sentence:'布衾多年冷似铁。',sentenceEn:'The cloth quilt, old for many years, was cold as iron.'},
         {word:'广厦',pinyin:'guǎng shà',en:'great mansions',sentence:'安得广厦千万间，大庇天下寒士俱欢颜。',sentenceEn:'If only I could have great mansions by the thousands to shelter all the poor scholars of the world!'},
         {word:'翩翩',pinyin:'piān piān',en:'dashing; graceful',sentence:'翩翩两骑来是谁？',sentenceEn:'Who are the two dashing riders that come?'}
+      ],
+      footnotes: [
+        {term:"\u903e\u5899", termEn:"to climb over the wall", definition:"(y\u00fa qi\u00e1ng) to climb over the wall", definitionEn:"to climb over the wall"},
+        {term:"\u620d", termEn:"to garrison; to guard", definition:"(sh\u00f9) to garrison; to guard", definitionEn:"to garrison; to guard"},
+        {term:"\u5e03\u887e", termEn:"cloth quilt", definition:"(b\u00f9 q\u012bn) cloth quilt", definitionEn:"cloth quilt"},
+        {term:"\u5e7f\u53a6", termEn:"great mansions", definition:"(gu\u01ceng sh\u00e0) great mansions", definitionEn:"great mansions"},
+        {term:"\u7fe9\u7fe9", termEn:"dashing; graceful", definition:"(pi\u0101n pi\u0101n) dashing; graceful", definitionEn:"dashing; graceful"}
       ],
       grammarPoints: [
         {point:'叙事诗',pointEn:'xù shì shī',example:'narrative poetry',exampleEn:'暮投石壕村，有吏夜捉人。',explanation:'At dusk I sought lodging at Shihao Village; an officer came at night to seize men.',explanationEn:'《石壕吏》以叙事为主，通过客观记叙反映战乱中百姓的苦难。'},
