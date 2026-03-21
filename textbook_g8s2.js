@@ -217,6 +217,10 @@ units: [
         {word:'脑畔',pinyin:'nǎo pàn',en:'hillside; slope (Shaanxi dialect)',sentence:'杨家岭的红旗啊高高地飘，革命万里起高潮。',sentenceEn:'The red flag at Yangjia Hill flies high, revolution surges across ten thousand miles.'},
         {word:'几回回',pinyin:'jǐ huí huí',en:'time after time (dialect)',sentence:'几回回梦里回延安，双手搂定宝塔山。',sentenceEn:'Time after time I dreamed of returning to Yan’an, embracing Pagoda Hill with both arms.'}
       ],
+      grammarPoints: [
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u7d27\u7d27\u513f\u8d34\u5728\u5fc3\u7a9d\u4e0a\u3002", exampleEn: "My heart, don't pound so fiercely!\nDust, don't block my eyes!\nI grasp the yellow", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"},
+        {point: "\u4e2d\u5fc3\u601d\u60f3", pointEn: "Central idea", example: "\u7d27\u7d27\u513f\u8d34\u5728\u5fc3\u7a9d\u4e0a\u3002", exampleEn: "My heart, don't pound so fiercely!\nDust, don't block my eyes!\nI grasp the yellow", explanation: "\u6587\u7ae0\u7684\u4e3b\u9898\u548c\u4f5c\u8005\u60f3\u8981\u8868\u8fbe\u7684\u6838\u5fc3\u601d\u60f3", explanationEn: "The theme and core idea the author wishes to convey"}
+      ],
       footnotes: [
         {term:"\u4fe1\u5929\u6e38", termEn:"a folk song style of northern Shaanxi", definition:"\u3010x\u00ecn ti\u0101n y\u00f3u\u3011a folk song style of northern Shaanxi\u3002", definitionEn:"a folk song style of northern Shaanxi"},
         {term:"\u7cdc\u5b50", termEn:"broomcorn millet", definition:"\u3010m\u00e9i zi\u3011broomcorn millet\u3002", definitionEn:"broomcorn millet"},
@@ -441,6 +445,10 @@ units: [
         {word:'熙熙然',pinyin:'xī xī rán',en:'warm and peaceful',sentence:'那种熙熙然庭院的静穆。',sentenceEn:'That warm and peaceful tranquility of the courtyard.'},
         {word:'锵然',pinyin:'qiāng rán',en:'with a clear ringing sound',sentence:'遍悬珠玉金银而风至锵然。',sentenceEn:'Hung all over with jewels and gold that rang clearly when the wind blew.'},
         {word:'燎原',pinyin:'liáo yuán',en:'to spread like wildfire',sentence:'正萧萧班马鸣也，我愿就是那灯笼下的马前卒。',sentenceEn:'As war horses neigh in farewell, I would be the foot soldier carrying a lantern.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u867d\u4e0d\u50cf\u6251\u706f\u86fe\uff0c\u7231\u5149\u660e\u800c\u81f3\u711a\u8eab\uff0c\u5c0f\u5b69\u5b50\u559c\u6b22\u706b\uff0c\u559c\u6b22\u4eae\u5149\uff0c\u5374\u4eff\u4f5b\u662f\u5929\u6027\u3002", exampleEn: "Unlike the moth that loves the light even unto self-immolation, a child's love o", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u867d\u4e0d\u50cf\u6251\u706f\u86fe\uff0c\u7231\u5149\u660e\u800c\u81f3\u711a\u8eab\uff0c\u5c0f\u5b69\u5b50\u559c\u6b22\u706b\uff0c\u559c\u6b22\u4eae\u5149\uff0c\u5374\u4eff\u4f5b\u662f\u5929\u6027\u3002", exampleEn: "Unlike the moth that loves the light even unto self-immolation, a child's love o", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
       ],
       footnotes: [
         {term:"\u65a1\u65cb", termEn:"to mediate; to negotiate", definition:"\u3010w\u00f2 xu\u00e1n\u3011to mediate; to negotiate\u3002", definitionEn:"to mediate; to negotiate"},
@@ -724,6 +732,10 @@ units: [
         {word:'喧闹',pinyin:'xuān nào',en:'noisy; clamorous',sentence:'从早到晚，它们一群一群地喧闹着往收割后的玉米地飞去。',sentenceEn:'From dawn to dusk they fly in noisy groups to the harvested cornfields.'},
         {word:'弥漫',pinyin:'mí màn',en:'to fill; to permeate',sentence:'我们的沼泽便再次成为弥漫着青草气息的地方。',sentenceEn:'Our marsh once again becomes a place permeated with the scent of green grass.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u5229\u5965\u6ce2\u5fb7\u4e00\u53ea\u71d5\u5b50\u7684\u6765\u4e34\u8bf4\u660e\u4e0d\u4e86\u6625\u5929\uff0c\u4f46\u5f53\u4e00\u7fa4\u5927\u96c1\u51b2\u7834\u4e863\u6708\u6696\u2026", exampleEn: "One swallow does not make a spring, but when a skein of wild geese breaks throug", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u5229\u5965\u6ce2\u5fb7\u4e00\u53ea\u71d5\u5b50\u7684\u6765\u4e34\u8bf4\u660e\u4e0d\u4e86\u6625\u5929\uff0c\u4f46\u5f53\u4e00\u7fa4\u5927\u96c1\u51b2\u7834\u4e863\u6708\u6696\u2026", exampleEn: "One swallow does not make a spring, but when a skein of wild geese breaks throug", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
+      ],
       footnotes: [
         {term:"\u7f04\u9ed8", termEn:"silence; reticence", definition:"\u3010ji\u0101n m\u00f2\u3011silence; reticence\u3002", definitionEn:"silence; reticence"},
         {term:"\u8fc1\u5f99", termEn:"to migrate", definition:"\u3010qi\u0101n x\u01d0\u3011to migrate\u3002", definitionEn:"to migrate"},
@@ -786,6 +798,10 @@ units: [
         {word:'胶结',pinyin:'jiāo jié',en:'to cement together',sentence:'有一些物质填充到泥沙中的孔隙里去，就使泥沙胶结得更紧密了。',sentenceEn:'Some substances filled the gaps in the sediment, cementing it more tightly.'},
         {word:'沉淀',pinyin:'chén diàn',en:'to precipitate; to settle',sentence:'有许多泥沙沉淀下来的结果。',sentenceEn:'The result of much sediment settling down.'},
         {word:'浑浊',pinyin:'hún zhuó',en:'muddy; turbid',sentence:'黄河中下游河水变得浑浊。',sentenceEn:'The water of the middle and lower Yellow River becomes turbid.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u9676\u4e16\u9f99\u65f6\u95f4\u4e00\u5e74\u4e00\u5e74\u5730\u8fc7\u53bb\u3002", exampleEn: "Year after year, time passes. Time has no feet of its own, yet people have devis", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u9676\u4e16\u9f99\u65f6\u95f4\u4e00\u5e74\u4e00\u5e74\u5730\u8fc7\u53bb\u3002", exampleEn: "Year after year, time passes. Time has no feet of its own, yet people have devis", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
       ],
       footnotes: [
         {term:"\u8e2a\u8ff9", termEn:"trace; track", definition:"\u3010z\u014dng j\u00ec\u3011trace; track\u3002", definitionEn:"trace; track"},
@@ -1032,6 +1048,10 @@ units: [
         {word:'矫首',pinyin:'jiǎo shǒu',en:'to raise the head',sentence:'矫首昂视。',sentenceEn:'He raised his head and gazed upward.'},
         {word:'历历',pinyin:'lì lì',en:'clearly; distinctly',sentence:'珠可历历数也。',sentenceEn:'The beads could be clearly counted one by one.'},
         {word:'叹为观止',pinyin:'tàn wéi guān zhǐ',en:'to gasp in admiration',sentence:'技亦灵怪矣哉！',sentenceEn:'What marvelous and wondrous skill!'}
+      ],
+      grammarPoints: [
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u660e\u6709\u5947\u5de7\u4eba\u66f0\u738b\u53d4\u8fdc\uff0c\u80fd\u4ee5\u5f84\u5bf8\u4e4b\u6728\uff0c\u4e3a\u5bab\u5ba4\u3001\u5668\u76bf\u3001\u4eba\u7269\uff0c\u4ee5\u81f3\u9e1f\u2026", exampleEn: "In the Ming Dynasty there was a man of extraordinary ingenuity named Wang Shuyua", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"},
+        {point: "\u4e2d\u5fc3\u601d\u60f3", pointEn: "Central idea", example: "\u660e\u6709\u5947\u5de7\u4eba\u66f0\u738b\u53d4\u8fdc\uff0c\u80fd\u4ee5\u5f84\u5bf8\u4e4b\u6728\uff0c\u4e3a\u5bab\u5ba4\u3001\u5668\u76bf\u3001\u4eba\u7269\uff0c\u4ee5\u81f3\u9e1f\u2026", exampleEn: "In the Ming Dynasty there was a man of extraordinary ingenuity named Wang Shuyua", explanation: "\u6587\u7ae0\u7684\u4e3b\u9898\u548c\u4f5c\u8005\u60f3\u8981\u8868\u8fbe\u7684\u6838\u5fc3\u601d\u60f3", explanationEn: "The theme and core idea the author wishes to convey"}
       ],
       footnotes: [
         {term:"\u7f54\u4e0d", termEn:"without exception; all", definition:"\u3010w\u01ceng b\u00f9\u3011without exception; all\u3002", definitionEn:"without exception; all"},
@@ -1347,6 +1367,10 @@ units: [
         {word:'芯片',pinyin:'xīn piàn',en:'microchip',sentence:'发展汉字激光照排系统，用芯片存储字库。',sentenceEn:'Developing a Chinese laser typesetting system using microchips to store character libraries.'},
         {word:'权衡',pinyin:'quán héng',en:'to weigh; to balance',sentence:'抉择就是一种权衡。',sentenceEn:'Making a choice involves weighing alternatives.'}
       ],
+      grammarPoints: [
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u738b\u9009\u6211\u5728\u4e94\u5e74\u524d\u8131\u79bb\u6280\u672f\u7b2c\u4e00\u7ebf\uff0c\u4e00\u5e74\u6765\u9010\u6e10\u8131\u79bb\u7ba1\u7406\u7684\u7b2c\u4e00\u7ebf\u3002", exampleEn: "I stepped away from the frontlines of technology five years ago, and over the pa", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"},
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u738b\u9009\u6211\u5728\u4e94\u5e74\u524d\u8131\u79bb\u6280\u672f\u7b2c\u4e00\u7ebf\uff0c\u4e00\u5e74\u6765\u9010\u6e10\u8131\u79bb\u7ba1\u7406\u7684\u7b2c\u4e00\u7ebf\u3002", exampleEn: "I stepped away from the frontlines of technology five years ago, and over the pa", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
+      ],
       footnotes: [
         {term:"\u6289\u62e9", termEn:"choice; decision", definition:"\u3010ju\u00e9 z\u00e9\u3011choice; decision\u3002", definitionEn:"choice; decision"},
         {term:"\u9633\u5173\u9053", termEn:"the broad highway; a promising path", definition:"\u3010y\u00e1ng gu\u0101n d\u00e0o\u3011the broad highway; a promising path\u3002", definitionEn:"the broad highway; a promising path"},
@@ -1588,6 +1612,10 @@ units: [
         {word:'虔诚',pinyin:'qián chéng',en:'devout; reverent',sentence:'我以十分虔诚的目光注视着这片冰雪世界。',sentenceEn:'I gazed at this world of ice and snow with utterly reverent eyes.'},
         {word:'蜿蜒',pinyin:'wān yán',en:'winding; meandering',sentence:'远方是蜿蜒的冰河。',sentenceEn:'In the distance was a meandering glacier.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "1987\u5e743\u6708\u4e0a\u65ec\uff0c\u6211\u968f\u7535\u5f71\u6444\u5236\u7ec4\u8d70\u5411\u5404\u62c9\u4e39\u51ac\uff0c\u5c31\u8fd1\u5b89\u8425\u624e\u5be8\u3002", exampleEn: "In early March 1987, I accompanied a film crew toward Geladandong, setting up ca", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "1987\u5e743\u6708\u4e0a\u65ec\uff0c\u6211\u968f\u7535\u5f71\u6444\u5236\u7ec4\u8d70\u5411\u5404\u62c9\u4e39\u51ac\uff0c\u5c31\u8fd1\u5b89\u8425\u624e\u5be8\u3002", exampleEn: "In early March 1987, I accompanied a film crew toward Geladandong, setting up ca", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
+      ],
       footnotes: [
         {term:"\u63a5\u8e35\u800c\u81f3", termEn:"to come one after another", definition:"\u3010ji\u0113 zh\u01d2ng \u00e9r zh\u00ec\u3011to come one after another\u3002", definitionEn:"to come one after another"},
         {term:"\u783e\u77f3", termEn:"gravel; pebbles", definition:"\u3010l\u00ec sh\u00ed\u3011gravel; pebbles\u3002", definitionEn:"gravel; pebbles"},
@@ -1688,6 +1716,10 @@ units: [
         {word:'拾级',pinyin:'shè jí',en:'to climb steps; to ascend',sentence:'沿途拾级而上。',sentenceEn:'We ascended step by step along the way.'},
         {word:'纷至沓来',pinyin:'fēn zhì tà lái',en:'to come in swarms',sentence:'美景纷至沓来，让人目不暇接。',sentenceEn:'Beautiful scenery came in a flood, more than the eye could take in.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u524d\u5f80\u52c3\u6717\u5cf0\u7684\u9014\u4e2d\uff0c\u6211\u4eec\u5148\u5750\u706b\u8f66\u53bb\u4e86\u9a6c\u8482\u5c3c\uff0c\u7fcc\u65e5\u65e9\u6668\u516b\u70b9\u591a\uff0c\u4fbf\u5f92\u6b65\u51fa\u53d1\u3002", exampleEn: "On our way to Mont Blanc, we first took a train to Martigny, and the next mornin", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u524d\u5f80\u52c3\u6717\u5cf0\u7684\u9014\u4e2d\uff0c\u6211\u4eec\u5148\u5750\u706b\u8f66\u53bb\u4e86\u9a6c\u8482\u5c3c\uff0c\u7fcc\u65e5\u65e9\u6668\u516b\u70b9\u591a\uff0c\u4fbf\u5f92\u6b65\u51fa\u53d1\u3002", exampleEn: "On our way to Mont Blanc, we first took a train to Martigny, and the next mornin", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
+      ],
       footnotes: [
         {term:"\u7fcc\u65e5", termEn:"the next day", definition:"\u3010y\u00ec r\u00ec\u3011the next day\u3002", definitionEn:"the next day"},
         {term:"\u7edc\u7ece\u4e0d\u7edd", termEn:"in an endless stream", definition:"\u3010lu\u00f2 y\u00ec b\u00f9 ju\u00e9\u3011in an endless stream\u3002", definitionEn:"in an endless stream"},
@@ -1755,6 +1787,10 @@ units: [
         {word:'目眩神迷',pinyin:'mù xuàn shén mí',en:'dazzled and mesmerized',sentence:'那壮丽的雪山让人目眩神迷。',sentenceEn:'The magnificent snow mountain left people dazzled and mesmerized.'},
         {word:'苍劲',pinyin:'cāng jìng',en:'bold and vigorous',sentence:'纳西族的东巴文字苍劲有力。',sentenceEn:'The Dongba script of the Naxi people is bold and vigorous.'},
         {word:'喧哗',pinyin:'xuān huá',en:'clamor; hubbub',sentence:'不同民族的人使四方街一片喧哗。',sentenceEn:'People of different ethnic groups filled Sifang Street with a clamor.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u963f\u6765\u6211\u662f\u4e00\u7247\u96ea\uff0c\u8f7b\u76c8\u5730\u843d\u5728\u4e86\u7389\u9f99\u96ea\u5c71\u9876\u4e0a\u3002", exampleEn: "I am a snowflake, drifting lightly down upon the summit of the Jade Dragon Snow ", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u963f\u6765\u6211\u662f\u4e00\u7247\u96ea\uff0c\u8f7b\u76c8\u5730\u843d\u5728\u4e86\u7389\u9f99\u96ea\u5c71\u9876\u4e0a\u3002", exampleEn: "I am a snowflake, drifting lightly down upon the summit of the Jade Dragon Snow ", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
       ],
       footnotes: [
         {term:"\u9a7f\u9053", termEn:"post road; courier route", definition:"\u3010y\u00ec d\u00e0o\u3011post road; courier route\u3002", definitionEn:"post road; courier route"},

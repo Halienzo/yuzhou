@@ -30,6 +30,9 @@ units: [
         {word:'青草',pinyin:'qīng cǎo',en:'green grass',sentence:'池草青。',sentenceEn:'The pond grass is green.'},
         {word:'红花',pinyin:'hóng huā',en:'red flowers',sentence:'山花红。',sentenceEn:'Mountain flowers are red.'}
       ],
+      grammarPoints: [
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u6625\u98ce  \u590f\u96e8  \u79cb\u971c  \u51ac\u96ea", exampleEn: "Spring wind  Summer rain  Autumn frost  Winter snow", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
+      ],
       footnotes: [
         {term:"\u6625\u98ce", termEn:"spring breeze", definition:"ch\u016bn f\u0113ng\uff0cspring breeze\u3002", definitionEn:"spring breeze"},
         {term:"\u590f\u96e8", termEn:"summer rain", definition:"xi\u00e0 y\u01d4\uff0csummer rain\u3002", definitionEn:"summer rain"},
@@ -69,6 +72,10 @@ units: [
         {word:'国',pinyin:'guó',en:'country',sentence:'中国姓氏有很多。',sentenceEn:'China has many surnames.'},
         {word:'方',pinyin:'fāng',en:'direction; square',sentence:'东方。',sentenceEn:'Dongfang (Eastern).'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u5417\uff1f / \u2026\u2026\u5462\uff1f", pointEn: "...ma? / ...ne? (question particles)", example: "\u4f60\u59d3\u4ec0\u4e48\uff1f", exampleEn: "What is your surname? My surname is Li.", explanation: "\u7528\u8bed\u6c14\u8bcd\u6784\u6210\u7591\u95ee\u53e5", explanationEn: "Question particles form interrogative sentences"},
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u4f60\u59d3\u4ec0\u4e48\uff1f", exampleEn: "What is your surname? My surname is Li.", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
+      ],
       footnotes: [
         {term:"\u59d3\u6c0f", termEn:"surname", definition:"x\u00ecng sh\u00ec\uff0csurname\u3002", definitionEn:"surname"},
         {term:"\u4ec0\u4e48", termEn:"what", definition:"sh\u00e9n me\uff0cwhat\u3002", definitionEn:"what"},
@@ -107,6 +114,10 @@ units: [
         {word:'事情',pinyin:'shì qíng',en:'matter; deed',sentence:'做了不少好事情。',sentenceEn:'Did many good deeds.'},
         {word:'爱护',pinyin:'ài hù',en:'cherish; protect',sentence:'请你爱护小青蛙。',sentenceEn:'Please protect the little frog.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u6cb3\u6c34\u6e05\u6e05\u5929\u6c14\u6674\uff0c", exampleEn: "The river is clear and the weather is fine,", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"},
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u6cb3\u6c34\u6e05\u6e05\u5929\u6c14\u6674\uff0c", exampleEn: "The river is clear and the weather is fine,", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
+      ],
       footnotes: [
         {term:"\u9752\u86d9", termEn:"frog", definition:"q\u012bng w\u0101\uff0cfrog\u3002", definitionEn:"frog"},
         {term:"\u4fdd\u62a4", termEn:"protect", definition:"b\u01ceo h\u00f9\uff0cprotect\u3002", definitionEn:"protect"},
@@ -144,6 +155,10 @@ units: [
         {word:'尊重',pinyin:'zūn zhòng',en:'respect',sentence:'言来互相尊重。',sentenceEn:'With speech comes mutual respect.'},
         {word:'感动',pinyin:'gǎn dòng',en:'moved; touched',sentence:'心至令人感动。',sentenceEn:'With heart comes something moving.'},
         {word:'纯净',pinyin:'chún jìng',en:'pure; clean',sentence:'水到纯净透明。',sentenceEn:'Water arrives pure and clear.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u5de6\u8fb9\u7eff\uff0c\u53f3\u8fb9\u7ea2\uff0c", exampleEn: "Green on the left, red on the right,", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u5de6\u8fb9\u7eff\uff0c\u53f3\u8fb9\u7ea2\uff0c", exampleEn: "Green on the left, red on the right,", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
       ],
       footnotes: [
         {term:"\u5b57\u8c1c", termEn:"character riddle", definition:"z\u00ec m\u00ed\uff0ccharacter riddle\u3002", definitionEn:"character riddle"},
@@ -231,6 +246,10 @@ units: [
         {word:'忘记',pinyin:'wàng jì',en:'forget',sentence:'吃水不忘挖井人。',sentenceEn:'When drinking water, remember the well digger.'},
         {word:'战士',pinyin:'zhàn shì',en:'soldier',sentence:'带领战士挖井。',sentenceEn:'Led soldiers to dig wells.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u745e\u91d1\u57ce\u5916\u6709\u4e2a\u6751\u5b50\u53eb\u6c99\u6d32\u575d\u3002", exampleEn: "Outside Ruijin city there is a village called Shazhou Dam.", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u745e\u91d1\u57ce\u5916\u6709\u4e2a\u6751\u5b50\u53eb\u6c99\u6d32\u575d\u3002", exampleEn: "Outside Ruijin city there is a village called Shazhou Dam.", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
+      ],
       footnotes: [
         {term:"\u6751\u5b50", termEn:"village", definition:"c\u016bn zi\uff0cvillage\u3002", definitionEn:"village"},
         {term:"\u4e95", termEn:"well", definition:"j\u01d0ng\uff0cwell\u3002", definitionEn:"well"},
@@ -268,6 +287,10 @@ units: [
         {word:'广场',pinyin:'guǎng chǎng',en:'square; plaza',sentence:'天安门广场多壮观。',sentenceEn:'How grand Tiananmen Square is.'},
         {word:'告诉',pinyin:'gào su',en:'tell',sentence:'妈妈告诉我。',sentenceEn:'Mom told me.'},
         {word:'壮观',pinyin:'zhuàng guān',en:'spectacular',sentence:'升旗仪式非常壮观。',sentenceEn:'The flag ceremony is spectacular.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u5988\u5988\u544a\u8bc9\u6211\uff0c", exampleEn: "Mama tells me,", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u5988\u5988\u544a\u8bc9\u6211\uff0c", exampleEn: "Mama tells me,", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
       ],
       footnotes: [
         {term:"\u5317\u4eac", termEn:"Beijing", definition:"b\u011bi j\u012bng\uff0cBeijing\u3002", definitionEn:"Beijing"},
@@ -307,6 +330,10 @@ units: [
         {word:'有趣',pinyin:'yǒu qù',en:'interesting',sentence:'上课也很有趣呀。',sentenceEn:'Classes are interesting too.'},
         {word:'操场',pinyin:'cāo chǎng',en:'playground',sentence:'在操场上玩。',sentenceEn:'Play on the playground.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u6708\u591c\uff0c\u6b63\u73a9\u7740\u8e29\u5f71\u5b50\uff0c", exampleEn: "On a moonlit night, just playing shadow-stepping,", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u6708\u591c\uff0c\u6b63\u73a9\u7740\u8e29\u5f71\u5b50\uff0c", exampleEn: "On a moonlit night, just playing shadow-stepping,", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
+      ],
       footnotes: [
         {term:"\u6708\u4eae", termEn:"moon", definition:"yu\u00e8 liang\uff0cmoon\u3002", definitionEn:"moon"},
         {term:"\u5404\u79cd\u5404\u6837", termEn:"all kinds", definition:"g\u00e8 zh\u01d2ng g\u00e8 y\u00e0ng\uff0call kinds\u3002", definitionEn:"all kinds"},
@@ -344,6 +371,10 @@ units: [
         {word:'温暖',pinyin:'wēn nuǎn',en:'warm',sentence:'红红的太阳温暖大家。',sentenceEn:'The red sun warms everyone.'},
         {word:'果园',pinyin:'guǒ yuán',en:'orchard',sentence:'金黄的太阳照耀果园。',sentenceEn:'The golden sun shines on the orchard.'},
         {word:'色彩',pinyin:'sè cǎi',en:'color',sentence:'春天是多彩的季节。',sentenceEn:'Spring is a colorful season.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u6211\u753b\u4e86\u4e2a\u7eff\u7eff\u7684\u592a\u9633\uff0c\u6302\u5728\u590f\u5929\u7684\u5929\u7a7a\u3002", exampleEn: "I drew a green sun and hung it in the summer sky. Mountains,", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u6211\u753b\u4e86\u4e2a\u7eff\u7eff\u7684\u592a\u9633\uff0c\u6302\u5728\u590f\u5929\u7684\u5929\u7a7a\u3002", exampleEn: "I drew a green sun and hung it in the summer sky. Mountains,", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
       ],
       footnotes: [
         {term:"\u592a\u9633", termEn:"sun", definition:"t\u00e0i y\u00e1ng\uff0csun\u3002", definitionEn:"sun"},
@@ -424,6 +455,10 @@ units: [
         {word:'游泳',pinyin:'yóu yǒng',en:'swim',sentence:'小鸭子会游泳。',sentenceEn:'The duckling can swim.'},
         {word:'感谢',pinyin:'gǎn xiè',en:'thank',sentence:'小鸭子感谢小公鸡。',sentenceEn:'The duckling thanked the rooster.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u5c0f\u516c\u9e21\u548c\u5c0f\u9e2d\u5b50\u4e00\u5757\u513f\u51fa\u53bb\u73a9\u3002", exampleEn: "Little Rooster and Little Duck went out to play together. Th", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u5c0f\u516c\u9e21\u548c\u5c0f\u9e2d\u5b50\u4e00\u5757\u513f\u51fa\u53bb\u73a9\u3002", exampleEn: "Little Rooster and Little Duck went out to play together. Th", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
+      ],
       footnotes: [
         {term:"\u4e00\u5757\u513f", termEn:"together", definition:"y\u012b ku\u00e0ir\uff0ctogether\u3002", definitionEn:"together"},
         {term:"\u6349\u866b", termEn:"catch bugs", definition:"zhu\u014d ch\u00f3ng\uff0ccatch bugs\u3002", definitionEn:"catch bugs"},
@@ -460,6 +495,10 @@ units: [
         {word:'邻居',pinyin:'lín jū',en:'neighbor',sentence:'树有了邻居。',sentenceEn:'The tree has neighbors.'},
         {word:'快乐',pinyin:'kuài lè',en:'happy',sentence:'大家都很快乐。',sentenceEn:'Everyone is happy.'},
         {word:'喜鹊',pinyin:'xǐ què',en:'magpie',sentence:'喜鹊叽叽喳喳。',sentenceEn:'Magpies chatter away.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u4ece\u524d\uff0c\u8fd9\u91cc\u53ea\u6709\u4e00\u68f5\u6811\uff0c\u6811\u4e0a\u53ea\u6709\u4e00\u4e2a\u9e1f\u7a9d\uff0c\u9e1f\u7a9d\u91cc\u53ea\u6709\u4e00\u53ea\u559c\u9e4a\u3002", exampleEn: "Once, there was only one tree here, with only one nest in it", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u4ece\u524d\uff0c\u8fd9\u91cc\u53ea\u6709\u4e00\u68f5\u6811\uff0c\u6811\u4e0a\u53ea\u6709\u4e00\u4e2a\u9e1f\u7a9d\uff0c\u9e1f\u7a9d\u91cc\u53ea\u6709\u4e00\u53ea\u559c\u9e4a\u3002", exampleEn: "Once, there was only one tree here, with only one nest in it", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
       ],
       footnotes: [
         {term:"\u5b64\u5355", termEn:"lonely", definition:"g\u016b d\u0101n\uff0clonely\u3002", definitionEn:"lonely"},
@@ -498,6 +537,10 @@ units: [
         {word:'排球',pinyin:'pái qiú',en:'volleyball',sentence:'大家一起打排球。',sentenceEn:'Everyone plays volleyball together.'},
         {word:'篮球',pinyin:'lán qiú',en:'basketball',sentence:'可以打篮球。',sentenceEn:'Can play basketball.'},
         {word:'快乐',pinyin:'kuài lè',en:'happy',sentence:'怎么都快乐！',sentenceEn:'Happy no matter what!'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u4e00\u4e2a\u4eba\u73a9\uff0c\u5f88\u597d\uff01", exampleEn: "Playing alone \u2014 great!", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u4e00\u4e2a\u4eba\u73a9\uff0c\u5f88\u597d\uff01", exampleEn: "Playing alone \u2014 great!", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
       ],
       footnotes: [
         {term:"\u72ec\u81ea", termEn:"alone", definition:"d\u00fa z\u00ec\uff0calone\u3002", definitionEn:"alone"},
@@ -587,6 +630,10 @@ units: [
         {word:'举头',pinyin:'jǔ tóu',en:'raise head',sentence:'举头望明月。',sentenceEn:'Raising my head, I gaze at the moon.'},
         {word:'思念',pinyin:'sī niàn',en:'miss; long for',sentence:'思念远方的故乡。',sentenceEn:'Missing the faraway hometown.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u662f\u2026\u2026", pointEn: "...sh\u00ec... (is/are)", example: "\u5e8a\u524d\u660e\u6708\u5149\uff0c", exampleEn: "Bright moonlight before my bed,", explanation: "\u201c\u662f\u201d\u8868\u793a\u5224\u65ad\u5173\u7cfb\uff0c\u8fde\u63a5\u4e3b\u8bed\u548c\u8868\u8bed", explanationEn: "\"sh\u00ec\" connects subject and predicate to express identity or equivalence"},
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u5e8a\u524d\u660e\u6708\u5149\uff0c", exampleEn: "Bright moonlight before my bed,", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
+      ],
       footnotes: [
         {term:"\u5e8a\u524d", termEn:"before the bed", definition:"chu\u00e1ng qi\u00e1n\uff0cbefore the bed\u3002", definitionEn:"before the bed"},
         {term:"\u6708\u5149", termEn:"moonlight", definition:"yu\u00e8 gu\u0101ng\uff0cmoonlight\u3002", definitionEn:"moonlight"},
@@ -624,6 +671,10 @@ units: [
         {word:'勇敢',pinyin:'yǒng gǎn',en:'brave',sentence:'变得越来越勇敢。',sentenceEn:'Becoming braver and braver.'},
         {word:'微笑',pinyin:'wēi xiào',en:'smile',sentence:'花儿在微笑。',sentenceEn:'Flowers are smiling.'},
         {word:'散步',pinyin:'sàn bù',en:'take a walk',sentence:'和爸爸出去散步。',sentenceEn:'Go for a walk with dad.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u6211\u4ece\u524d\u80c6\u5b50\u5f88\u5c0f\u5f88\u5c0f\uff0c", exampleEn: "I used to be very, very timid,", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u6211\u4ece\u524d\u80c6\u5b50\u5f88\u5c0f\u5f88\u5c0f\uff0c", exampleEn: "I used to be very, very timid,", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
       ],
       footnotes: [
         {term:"\u80c6\u5b50", termEn:"courage", definition:"d\u01cen zi\uff0ccourage\u3002", definitionEn:"courage"},
@@ -663,6 +714,10 @@ units: [
         {word:'糯米',pinyin:'nuò mǐ',en:'glutinous rice',sentence:'里面裹着糯米。',sentenceEn:'Filled with glutinous rice inside.'},
         {word:'纪念',pinyin:'jì niàn',en:'commemorate',sentence:'纪念爱国诗人屈原。',sentenceEn:'Commemorating the patriotic poet Qu Yuan.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u4e00\u5230\u7aef\u5348\u8282\uff0c\u5916\u5a46\u603b\u4f1a\u716e\u597d\u4e00\u9505\u7cbd\u5b50\uff0c\u76fc\u7740\u6211\u4eec\u56de\u53bb\u3002", exampleEn: "Every Dragon Boat Festival, Grandma would always cook a pot ", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u4e00\u5230\u7aef\u5348\u8282\uff0c\u5916\u5a46\u603b\u4f1a\u716e\u597d\u4e00\u9505\u7cbd\u5b50\uff0c\u76fc\u7740\u6211\u4eec\u56de\u53bb\u3002", exampleEn: "Every Dragon Boat Festival, Grandma would always cook a pot ", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
+      ],
       footnotes: [
         {term:"\u7aef\u5348\u8282", termEn:"Dragon Boat Festival", definition:"du\u0101n w\u01d4 ji\u00e9\uff0cDragon Boat Festival\u3002", definitionEn:"Dragon Boat Festival"},
         {term:"\u7cbd\u5b50", termEn:"rice dumpling", definition:"z\u00f2ng zi\uff0crice dumpling\u3002", definitionEn:"rice dumpling"},
@@ -700,6 +755,10 @@ units: [
         {word:'镜子',pinyin:'jìng zi',en:'mirror',sentence:'彩虹像镜子。',sentenceEn:'The rainbow is like a mirror.'},
         {word:'高兴',pinyin:'gāo xìng',en:'happy',sentence:'你高兴吗？',sentenceEn:'Are you happy?'},
         {word:'秋千',pinyin:'qiū qiān',en:'swing',sentence:'彩虹像秋千。',sentenceEn:'The rainbow is like a swing.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u96e8\u505c\u4e86\uff0c\u5929\u4e0a\u6709\u4e00\u5ea7\u7f8e\u4e3d\u7684\u6865\u3002", exampleEn: "The rain stopped, and there's a beautiful bridge in the sky.", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u96e8\u505c\u4e86\uff0c\u5929\u4e0a\u6709\u4e00\u5ea7\u7f8e\u4e3d\u7684\u6865\u3002", exampleEn: "The rain stopped, and there's a beautiful bridge in the sky.", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
       ],
       footnotes: [
         {term:"\u5f69\u8679", termEn:"rainbow", definition:"c\u01cei h\u00f3ng\uff0crainbow\u3002", definitionEn:"rainbow"},
@@ -781,6 +840,9 @@ units: [
         {word:'蝌蚪',pinyin:'kē dǒu',en:'tadpole',sentence:'蝌蚪池中游得欢。',sentenceEn:'Tadpoles swim happily in the pond.'},
         {word:'蜘蛛',pinyin:'zhī zhū',en:'spider',sentence:'蜘蛛房前结网忙。',sentenceEn:'Spiders busily weave webs by the house.'}
       ],
+      grammarPoints: [
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u873b\u8713\u534a\u7a7a\u5c55\u7fc5\u98de\uff0c", exampleEn: "Dragonflies spread wings and fly in mid-air,", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
+      ],
       footnotes: [
         {term:"\u873b\u8713", termEn:"dragonfly", definition:"q\u012bng t\u00edng\uff0cdragonfly\u3002", definitionEn:"dragonfly"},
         {term:"\u8774\u8776", termEn:"butterfly", definition:"h\u00fa di\u00e9\uff0cbutterfly\u3002", definitionEn:"butterfly"},
@@ -820,6 +882,9 @@ units: [
         {word:'酷暑',pinyin:'kù shǔ',en:'intense heat',sentence:'严寒对酷暑。',sentenceEn:'Severe cold pairs with intense heat.'},
         {word:'鸟语花香',pinyin:'niǎo yǔ huā xiāng',en:'birds singing, flowers fragrant',sentence:'鸟语花香，春光明媚。',sentenceEn:'Birds sing and flowers bloom in bright spring.'}
       ],
+      grammarPoints: [
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u53e4\u5bf9\u4eca\uff0c\u5706\u5bf9\u65b9\u3002", exampleEn: "Ancient pairs with modern, round pairs with square.", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
+      ],
       footnotes: [
         {term:"\u53e4\u4eca", termEn:"ancient and modern", definition:"g\u01d4 j\u012bn\uff0cancient and modern\u3002", definitionEn:"ancient and modern"},
         {term:"\u671d\u971e", termEn:"morning glow", definition:"zh\u0101o xi\u00e1\uff0cmorning glow\u3002", definitionEn:"morning glow"},
@@ -858,6 +923,10 @@ units: [
         {word:'跑步',pinyin:'pǎo bù',en:'run',sentence:'铃声响，回教室，跑步走。',sentenceEn:'Bell rings, run back to class.'},
         {word:'锻炼',pinyin:'duàn liàn',en:'exercise',sentence:'锻炼身体很重要。',sentenceEn:'Exercise is very important.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u6253\u7403  \u62d4\u6cb3  \u62cd\u76ae\u7403", exampleEn: "Playing ball  Tug-of-war  Bouncing balls", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"},
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u6253\u7403  \u62d4\u6cb3  \u62cd\u76ae\u7403", exampleEn: "Playing ball  Tug-of-war  Bouncing balls", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
+      ],
       footnotes: [
         {term:"\u64cd\u573a", termEn:"playground", definition:"c\u0101o ch\u01ceng\uff0cplayground\u3002", definitionEn:"playground"},
         {term:"\u6253\u7403", termEn:"play ball", definition:"d\u01ce qi\u00fa\uff0cplay ball\u3002", definitionEn:"play ball"},
@@ -895,6 +964,9 @@ units: [
         {word:'习',pinyin:'xí',en:'practice; learn',sentence:'性相近，习相远。',sentenceEn:'Nature is similar, habits make us different.'},
         {word:'教',pinyin:'jiào',en:'teach',sentence:'苟不教，性乃迁。',sentenceEn:'Without teaching, nature will stray.'},
         {word:'勤',pinyin:'qín',en:'diligent',sentence:'幼不学，非所宜。',sentenceEn:'Not studying when young is unwise.'}
+      ],
+      grammarPoints: [
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u4eba\u4e4b\u521d\uff0c\u6027\u672c\u5584\u3002", exampleEn: "At the beginning of man, nature is good.", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
       ],
       footnotes: [
         {term:"\u6027", termEn:"nature; character", definition:"x\u00ecng\uff0cnature; character\u3002", definitionEn:"nature; character"},
@@ -973,6 +1045,9 @@ units: [
         {word:'蜻蜓',pinyin:'qīng tíng',en:'dragonfly',sentence:'早有蜻蜓立上头。',sentenceEn:'A dragonfly already stands upon it.'},
         {word:'首',pinyin:'shǒu',en:'measure word for poems',sentence:'古诗二首。',sentenceEn:'Two ancient poems.'}
       ],
+      grammarPoints: [
+        {point: "\u53e5\u5b50\u7ed3\u6784\uff1a\u8c01 + \u505a\u4ec0\u4e48", pointEn: "Sentence structure: Who + does what", example: "\u6c60\u4e0a", exampleEn: "On the Pond (by Bai Juyi)", explanation: "\u57fa\u672c\u53e5\u5f0f\uff1a\u4e3b\u8bed + \u8c13\u8bed", explanationEn: "Basic pattern: subject + predicate"}
+      ],
       footnotes: [
         {term:"\u6c60\u5858", termEn:"pond", definition:"ch\u00ed t\u00e1ng\uff0cpond\u3002", definitionEn:"pond"},
         {term:"\u8377\u82b1", termEn:"lotus flower", definition:"h\u00e9 hu\u0101\uff0clotus flower\u3002", definitionEn:"lotus flower"},
@@ -1009,6 +1084,10 @@ units: [
         {word:'摇篮',pinyin:'yáo lán',en:'cradle',sentence:'荷叶是小水珠的摇篮。',sentenceEn:'The lotus leaf is a cradle for droplets.'},
         {word:'停机坪',pinyin:'tíng jī píng',en:'landing pad',sentence:'荷叶是蜻蜓的停机坪。',sentenceEn:'The lotus leaf is a landing pad for dragonflies.'},
         {word:'歌台',pinyin:'gē tái',en:'singing stage',sentence:'荷叶是小青蛙的歌台。',sentenceEn:'The lotus leaf is a singing stage for frogs.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u8377\u53f6\u5706\u5706\u7684\uff0c\u7eff\u7eff\u7684\u3002", exampleEn: "The lotus leaves are round and green.", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u5728\u2026\u2026", pointEn: "z\u00e0i... (location/ongoing)", example: "\u8377\u53f6\u5706\u5706\u7684\uff0c\u7eff\u7eff\u7684\u3002", exampleEn: "The lotus leaves are round and green.", explanation: "\u201c\u5728\u201d\u8868\u793a\u5730\u70b9\u6216\u6b63\u5728\u8fdb\u884c\u7684\u52a8\u4f5c", explanationEn: "\"z\u00e0i\" indicates location or an ongoing action"}
       ],
       footnotes: [
         {term:"\u8377\u53f6", termEn:"lotus leaf", definition:"h\u00e9 y\u00e8\uff0clotus leaf\u3002", definitionEn:"lotus leaf"},
@@ -1047,6 +1126,10 @@ units: [
         {word:'虫子',pinyin:'chóng zi',en:'bug',sentence:'虫子飞不高。',sentenceEn:'Bugs cannot fly high.'},
         {word:'蚂蚁',pinyin:'mǎ yǐ',en:'ant',sentence:'蚂蚁忙着搬家。',sentenceEn:'Ants are busy moving house.'},
         {word:'消息',pinyin:'xiāo xi',en:'news; message',sentence:'小鱼知道下雨的消息。',sentenceEn:'The little fish knows the rain is coming.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u5c0f\u767d\u5154\u5f2f\u7740\u8170\u5728\u5c71\u5761\u4e0a\u5272\u8349\u3002", exampleEn: "Little White Rabbit was bending down cutting grass on the hi", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u5c0f\u767d\u5154\u5f2f\u7740\u8170\u5728\u5c71\u5761\u4e0a\u5272\u8349\u3002", exampleEn: "Little White Rabbit was bending down cutting grass on the hi", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
       ],
       footnotes: [
         {term:"\u4e0b\u96e8", termEn:"rain", definition:"xi\u00e0 y\u01d4\uff0crain\u3002", definitionEn:"rain"},
@@ -1133,6 +1216,10 @@ units: [
         {word:'检查',pinyin:'jiǎn chá',en:'check',sentence:'每天都要检查。',sentenceEn:'Check every day.'},
         {word:'平平安安',pinyin:'píng píng ān ān',en:'safe and sound',sentence:'让文具平平安安回家。',sentenceEn:'Let stationery return home safely.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u8d1d\u8d1d\u4e00\u56de\u5230\u5bb6\uff0c\u5c31\u5411\u5988\u5988\u8981\u65b0\u7684\u94c5\u7b14\u3001\u65b0\u7684\u6a61\u76ae\u3002", exampleEn: "As soon as Beibei got home, she asked Mama for new pencils a", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u8d1d\u8d1d\u4e00\u56de\u5230\u5bb6\uff0c\u5c31\u5411\u5988\u5988\u8981\u65b0\u7684\u94c5\u7b14\u3001\u65b0\u7684\u6a61\u76ae\u3002", exampleEn: "As soon as Beibei got home, she asked Mama for new pencils a", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
+      ],
       footnotes: [
         {term:"\u6587\u5177", termEn:"stationery", definition:"w\u00e9n j\u00f9\uff0cstationery\u3002", definitionEn:"stationery"},
         {term:"\u4e22", termEn:"lose", definition:"di\u016b\uff0close\u3002", definitionEn:"lose"},
@@ -1170,6 +1257,10 @@ units: [
         {word:'后悔',pinyin:'hòu huǐ',en:'regret',sentence:'元元非常后悔。',sentenceEn:'Yuanyuan deeply regretted it.'},
         {word:'叹气',pinyin:'tàn qì',en:'sigh',sentence:'元元叹了口气。',sentenceEn:'Yuanyuan sighed.'},
         {word:'决定',pinyin:'jué dìng',en:'decide',sentence:'决定再睡一分钟。',sentenceEn:'Decided to sleep one more minute.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u4e01\u96f6\u96f6\uff0c\u95f9\u949f\u54cd\u4e86\u3002", exampleEn: "Ring ring, the alarm went off. Yuanyuan yawned and rolled ov", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u4e01\u96f6\u96f6\uff0c\u95f9\u949f\u54cd\u4e86\u3002", exampleEn: "Ring ring, the alarm went off. Yuanyuan yawned and rolled ov", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
       ],
       footnotes: [
         {term:"\u95f9\u949f", termEn:"alarm clock", definition:"n\u00e0o zh\u014dng\uff0calarm clock\u3002", definitionEn:"alarm clock"},
@@ -1209,6 +1300,10 @@ units: [
         {word:'准时',pinyin:'zhǔn shí',en:'on time',sentence:'请大家准时参加。',sentenceEn:'Please attend on time.'},
         {word:'注意',pinyin:'zhù yì',en:'pay attention',sentence:'注意通知的要素。',sentenceEn:'Pay attention to notice elements.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u52a8\u7269\u738b\u56fd\u8981\u5f00\u5927\u4f1a\uff0c\u8001\u864e\u8ba9\u72d7\u718a\u901a\u77e5\u5927\u5bb6\u3002", exampleEn: "The Animal Kingdom was going to hold a meeting. Tiger asked ", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u52a8\u7269\u738b\u56fd\u8981\u5f00\u5927\u4f1a\uff0c\u8001\u864e\u8ba9\u72d7\u718a\u901a\u77e5\u5927\u5bb6\u3002", exampleEn: "The Animal Kingdom was going to hold a meeting. Tiger asked ", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
+      ],
       footnotes: [
         {term:"\u901a\u77e5", termEn:"notice; notify", definition:"t\u014dng zh\u012b\uff0cnotice; notify\u3002", definitionEn:"notice; notify"},
         {term:"\u5927\u4f1a", termEn:"big meeting", definition:"d\u00e0 hu\u00ec\uff0cbig meeting\u3002", definitionEn:"big meeting"},
@@ -1246,6 +1341,10 @@ units: [
         {word:'桃子',pinyin:'táo zi',en:'peach',sentence:'他看见满树的桃子。',sentenceEn:'He saw a tree full of peaches.'},
         {word:'西瓜',pinyin:'xī guā',en:'watermelon',sentence:'他看见满地的西瓜。',sentenceEn:'He saw watermelons everywhere.'},
         {word:'空着手',pinyin:'kōng zhe shǒu',en:'empty-handed',sentence:'最后空着手回家。',sentenceEn:'In the end, returned empty-handed.'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u6709\u4e00\u5929\uff0c\u5c0f\u7334\u5b50\u4e0b\u5c71\u6765\u3002", exampleEn: "One day, Little Monkey came down the mountain. In a cornfiel", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u6709\u4e00\u5929\uff0c\u5c0f\u7334\u5b50\u4e0b\u5c71\u6765\u3002", exampleEn: "One day, Little Monkey came down the mountain. In a cornfiel", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
       ],
       footnotes: [
         {term:"\u7334\u5b50", termEn:"monkey", definition:"h\u00f3u zi\uff0cmonkey\u3002", definitionEn:"monkey"},
@@ -1325,6 +1424,10 @@ units: [
         {word:'七星瓢虫',pinyin:'qī xīng piáo chóng',en:'ladybug',sentence:'七星瓢虫来了。',sentenceEn:'The ladybug has come.'},
         {word:'碧绿',pinyin:'bì lǜ',en:'emerald green',sentence:'棉花姑娘长出碧绿的叶子。',sentenceEn:'Miss Cotton grew emerald green leaves.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u68c9\u82b1\u59d1\u5a18\u751f\u75c5\u4e86\uff0c\u53f6\u5b50\u4e0a\u6709\u8bb8\u591a\u53ef\u6076\u7684\u869c\u866b\u3002", exampleEn: "Miss Cotton was sick \u2014 hateful aphids covered her leaves. Ho", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u68c9\u82b1\u59d1\u5a18\u751f\u75c5\u4e86\uff0c\u53f6\u5b50\u4e0a\u6709\u8bb8\u591a\u53ef\u6076\u7684\u869c\u866b\u3002", exampleEn: "Miss Cotton was sick \u2014 hateful aphids covered her leaves. Ho", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
+      ],
       footnotes: [
         {term:"\u68c9\u82b1", termEn:"cotton", definition:"mi\u00e1n hua\uff0ccotton\u3002", definitionEn:"cotton"},
         {term:"\u869c\u866b", termEn:"aphid", definition:"y\u00e1 ch\u00f3ng\uff0caphid\u3002", definitionEn:"aphid"},
@@ -1363,6 +1466,10 @@ units: [
         {word:'拦住',pinyin:'lán zhù',en:'stop; block',sentence:'野牛拦住了大家。',sentenceEn:'The buffalo stopped everyone.'},
         {word:'害怕',pinyin:'hài pà',en:'afraid',sentence:'大家都害怕。',sentenceEn:'Everyone was afraid.'}
       ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u6728\u74dc\u719f\u4e86\u3002", exampleEn: "A papaya was ripe. It fell from the tall tree into the lake ", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u6728\u74dc\u719f\u4e86\u3002", exampleEn: "A papaya was ripe. It fell from the tall tree into the lake ", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
+      ],
       footnotes: [
         {term:"\u5495\u549a", termEn:"thud; splash", definition:"g\u016b d\u014dng\uff0cthud; splash\u3002", definitionEn:"thud; splash"},
         {term:"\u6728\u74dc", termEn:"papaya", definition:"m\u00f9 gu\u0101\uff0cpapaya\u3002", definitionEn:"papaya"},
@@ -1400,6 +1507,10 @@ units: [
         {word:'借',pinyin:'jiè',en:'borrow',sentence:'小壁虎去借尾巴。',sentenceEn:'The gecko went to borrow a tail.'},
         {word:'摇',pinyin:'yáo',en:'wag; shake',sentence:'小鱼摇着尾巴游。',sentenceEn:'The fish swims wagging its tail.'},
         {word:'长出',pinyin:'zhǎng chū',en:'grow out',sentence:'新尾巴长出来了！',sentenceEn:'A new tail has grown!'}
+      ],
+      grammarPoints: [
+        {point: "\u2026\u2026\u7684\u2026\u2026", pointEn: "...de... (descriptive particle)", example: "\u5c0f\u58c1\u864e\u5728\u5899\u89d2\u6349\u868a\u5b50\uff0c\u4e00\u6761\u86c7\u54ac\u4f4f\u4e86\u4ed6\u7684\u5c3e\u5df4\u3002", exampleEn: "Little Gecko was catching mosquitoes on a wall when a snake ", explanation: "\u201c\u7684\u201d\u7528\u5728\u540d\u8bcd\u524d\u9762\uff0c\u8868\u793a\u4fee\u9970\u5173\u7cfb", explanationEn: "\"de\" is placed before a noun to show a descriptive relationship"},
+        {point: "\u2026\u2026\u4e86", pointEn: "...le (completed action)", example: "\u5c0f\u58c1\u864e\u5728\u5899\u89d2\u6349\u868a\u5b50\uff0c\u4e00\u6761\u86c7\u54ac\u4f4f\u4e86\u4ed6\u7684\u5c3e\u5df4\u3002", exampleEn: "Little Gecko was catching mosquitoes on a wall when a snake ", explanation: "\u201c\u4e86\u201d\u8868\u793a\u52a8\u4f5c\u5df2\u7ecf\u5b8c\u6210", explanationEn: "\"le\" indicates a completed action"}
       ],
       footnotes: [
         {term:"\u58c1\u864e", termEn:"gecko", definition:"b\u00ec h\u01d4\uff0cgecko\u3002", definitionEn:"gecko"},

@@ -214,6 +214,9 @@ units: [
         {word:'脉脉',pinyin:'mò mò',en:'gazing silently with deep feeling',sentence:'盈盈一水间，脉脉不得语。',sentenceEn:'With just one brimming river between them, they gaze and gaze but cannot speak.'},
         {word:'栖',pinyin:'qī',en:'to roost; to perch',sentence:'中庭地白树栖鸦。',sentenceEn:'The courtyard ground is white, crows roost in the trees.'}
       ],
+      grammarPoints: [
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u5bd2\u98df\u4e1c\u98ce\u5fa1\u67f3\u659c\u3002", exampleEn: "Cold Food Festival\n[Tang] Han Hong\nSpring fills the capital with flying blossoms", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u5bd2\u98df", termEn:"Cold Food Festival", definition:"\u3010h\u00e1n sh\u00ed\u3011Cold Food Festival\u3002", definitionEn:"Cold Food Festival"},
         {term:"\u8fe2\u8fe2", termEn:"far, far away", definition:"\u3010ti\u00e1o ti\u00e1o\u3011far, far away\u3002", definitionEn:"far, far away"},
@@ -281,6 +284,10 @@ units: [
         {word:'僧人',pinyin:'sēng rén',en:'monk',sentence:'年轻的僧人唐东杰布许下宏愿。',sentenceEn:'The young monk Tang Dong Gyalpo made a solemn vow.'},
         {word:'雪域高原',pinyin:'xuě yù gāo yuán',en:'snowy plateau',sentence:'藏戏的种子随之撒遍了雪域高原。',sentenceEn:'The seeds of Tibetan Opera were scattered across the snowy plateau.'},
         {word:'随心所欲',pinyin:'suí xīn suǒ yù',en:'as one pleases',sentence:'双方随心所欲，优哉游哉。',sentenceEn:'Both sides did as they pleased, relaxed and unhurried.'}
+      ],
+      grammarPoints: [
+        {point: "\u88ab\u5b57\u53e5", pointEn: "b\u00e8i-construction (passive)", example: "\u4e16\u754c\u4e0a\u8fd8\u6709\u51e0\u4e2a\u5267\u79cd\u662f\u6234\u7740\u9762\u5177\u6f14\u51fa\u7684\u5462\uff1f", exampleEn: "How many forms of drama in the world are performed wearing masks?\nHow many forms", explanation: "\u88ab\u52a8\u53e5\uff0c\u8868\u793a\u4e3b\u8bed\u662f\u52a8\u4f5c\u7684\u627f\u53d7\u8005", explanationEn: "Passive construction where the subject receives the action"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u4e16\u754c\u4e0a\u8fd8\u6709\u51e0\u4e2a\u5267\u79cd\u662f\u6234\u7740\u9762\u5177\u6f14\u51fa\u7684\u5462\uff1f", exampleEn: "How many forms of drama in the world are performed wearing masks?\nHow many forms", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u5267\u79cd", termEn:"type of drama", definition:"\u3010j\u00f9 zh\u01d2ng\u3011type of drama\u3002", definitionEn:"type of drama"},
@@ -495,6 +502,10 @@ units: [
         {word:'九牛二虎之力',pinyin:'jiǔ niú èr hǔ zhī lì',en:'tremendous effort',sentence:'他费了九牛二虎之力总算爬了上去。',sentenceEn:'With tremendous effort he finally managed to climb up.'},
         {word:'候鸟',pinyin:'hòu niǎo',en:'migratory birds',sentence:'候鸟都回来了。',sentenceEn:'The migratory birds had returned.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u7537\u5b69\u7b80\u76f4\u4e0d\u6562\u76f8\u4fe1\u4ed6\u4f1a\u53d8\u6210\u5c0f\u72d0\u4ed9\u3002", exampleEn: "The boy could hardly believe he had been turned into an elf. 'It must be a dream", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u7537\u5b69\u7b80\u76f4\u4e0d\u6562\u76f8\u4fe1\u4ed6\u4f1a\u53d8\u6210\u5c0f\u72d0\u4ed9\u3002", exampleEn: "The boy could hardly believe he had been turned into an elf. 'It must be a dream", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"}
+      ],
       footnotes: [
         {term:"\u5c0f\u72d0\u4ed9", termEn:"little elf", definition:"\u3010xi\u01ceo h\u00fa xi\u0101n\u3011little elf\u3002", definitionEn:"little elf"},
         {term:"\u8bb2\u548c", termEn:"to make peace", definition:"\u3010ji\u01ceng h\u00e9\u3011to make peace\u3002", definitionEn:"to make peace"},
@@ -566,6 +577,10 @@ units: [
         {word:'辉煌',pinyin:'huī huáng',en:'glorious; magnificent',sentence:'这是这个小镇前所未有的最辉煌的一个夜晚。',sentenceEn:'It was the most glorious night the little town had ever known.'},
         {word:'吹嘘',pinyin:'chuī xū',en:'to brag; to boast',sentence:'他给他们讲着这次精彩的历险过程，同时还夸张地吹嘘了一番。',sentenceEn:'He told them about his adventure, embellishing it considerably.'},
         {word:'煞白',pinyin:'shà bái',en:'deathly pale',sentence:'汤姆的脸立刻变得煞白。',sentenceEn:'Tom’s face went deathly pale.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u5230\u4e86\u661f\u671f\u4e8c\u7684\u9ec4\u660f\uff0c\u5723\u5f7c\u5f97\u65af\u5821\u9547\u4ecd\u7136\u7b3c\u7f69\u5728\u4e00\u7247\u60b2\u4f24\u4e4b\u4e2d\uff0c\u4e24\u4e2a\u8d70\u5931\u7684\u5b69\u5b50\u8fd8\u6ca1\u6709\u627e\u5230\u3002", exampleEn: "By Tuesday evening, the town of St. Petersburg was still shrouded in sorrow \u2014 th", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u5230\u4e86\u661f\u671f\u4e8c\u7684\u9ec4\u660f\uff0c\u5723\u5f7c\u5f97\u65af\u5821\u9547\u4ecd\u7136\u7b3c\u7f69\u5728\u4e00\u7247\u60b2\u4f24\u4e4b\u4e2d\uff0c\u4e24\u4e2a\u8d70\u5931\u7684\u5b69\u5b50\u8fd8\u6ca1\u6709\u627e\u5230\u3002", exampleEn: "By Tuesday evening, the town of St. Petersburg was still shrouded in sorrow \u2014 th", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"}
       ],
       footnotes: [
         {term:"\u7b3c\u7f69", termEn:"to envelop; to shroud", definition:"\u3010l\u01d2ng zh\u00e0o\u3011to envelop; to shroud\u3002", definitionEn:"to envelop; to shroud"},
@@ -1043,6 +1058,10 @@ units: [
         {word:'导火索',pinyin:'dǎo huǒ suǒ',en:'fuse',sentence:'右手猛地一拉导火索。',sentenceEn:'He pulled the fuse with his right hand.'},
         {word:'坚毅',pinyin:'jiān yì',en:'firm; resolute',sentence:'两眼放射着坚毅的光芒。',sentenceEn:'His eyes shone with determination.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "1948\u5e745\u670825\u65e5\uff0c\u653b\u57ce\u7684\u5927\u70ae\u9707\u64bc\u7740\u6574\u4e2a\u9686\u5316\u57ce\uff0c\u89e3\u653e\u9686\u5316\u7684\u6218\u6597\u6253\u54cd\u4e86\u3002", exampleEn: "On May 25, 1948, the siege cannons shook all of Longhua city as the battle for i", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "1948\u5e745\u670825\u65e5\uff0c\u653b\u57ce\u7684\u5927\u70ae\u9707\u64bc\u7740\u6574\u4e2a\u9686\u5316\u57ce\uff0c\u89e3\u653e\u9686\u5316\u7684\u6218\u6597\u6253\u54cd\u4e86\u3002", exampleEn: "On May 25, 1948, the siege cannons shook all of Longhua city as the battle for i", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
+      ],
       footnotes: [
         {term:"\u6697\u5821", termEn:"bunker; hidden fortress", definition:"\u3010\u00e0n b\u01ceo\u3011bunker; hidden fortress\u3002", definitionEn:"bunker; hidden fortress"},
         {term:"\u4ec7\u6068", termEn:"hatred", definition:"\u3010ch\u00f3u h\u00e8n\u3011hatred\u3002", definitionEn:"hatred"},
@@ -1238,6 +1257,10 @@ units: [
         {word:'齿轮',pinyin:'chǐ lún',en:'gear',sentence:'几个金黄色的齿轮。',sentenceEn:'Several golden gears.'},
         {word:'猜测',pinyin:'cāi cè',en:'to guess; to speculate',sentence:'证实我的猜测没有错。',sentenceEn:'My guess was confirmed correct.'}
       ],
+      grammarPoints: [
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u6211\u5c0f\u65f6\u5019\u4f4f\u5728\u4e00\u5ea7\u5c0f\u57ce\u91cc\uff0c\u57ce\u91cc\u6ca1\u6709\u5de5\u5382\uff0c\u6240\u4ee5\u4e5f\u6ca1\u6709\u673a\u5668\u7684\u58f0\u97f3\u3002", exampleEn: "When I was small, I lived in a town without factories or the sound of machines. ", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"},
+        {point: "\u4e0d\u4f46\u2026\u2026\u800c\u4e14\u2026\u2026", pointEn: "not only...but also...", example: "\u6211\u5c0f\u65f6\u5019\u4f4f\u5728\u4e00\u5ea7\u5c0f\u57ce\u91cc\uff0c\u57ce\u91cc\u6ca1\u6709\u5de5\u5382\uff0c\u6240\u4ee5\u4e5f\u6ca1\u6709\u673a\u5668\u7684\u58f0\u97f3\u3002", exampleEn: "When I was small, I lived in a town without factories or the sound of machines. ", explanation: "\u9012\u8fdb\u590d\u53e5\uff0c\u540e\u4e00\u5206\u53e5\u6bd4\u524d\u4e00\u5206\u53e5\u7a0b\u5ea6\u66f4\u6df1", explanationEn: "Progressive compound sentence where the second clause goes further than the first"}
+      ],
       footnotes: [
         {term:"\u79d2\u9488", termEn:"second hand (of a clock)", definition:"\u3010mi\u01ceo zh\u0113n\u3011second hand (of a clock)\u3002", definitionEn:"second hand (of a clock)"},
         {term:"\u6e05\u8106", termEn:"clear and crisp", definition:"\u3010q\u012bng cu\u00ec\u3011clear and crisp\u3002", definitionEn:"clear and crisp"},
@@ -1310,6 +1333,10 @@ units: [
         {word:'憎恶',pinyin:'zēng wù',en:'to detest; to loathe',sentence:'现在她比以往任何时候都更憎恶它。',sentenceEn:'Now she detested it more than ever.'},
         {word:'机器老师',pinyin:'jī qì lǎo shī',en:'mechanical teacher',sentence:'那个机器老师一次又一次地给她做地理测验。',sentenceEn:'The mechanical teacher kept testing her on geography.'},
         {word:'老式学校',pinyin:'lǎo shì xué xiào',en:'old-fashioned school',sentence:'那是几百年前的那种老式学校。',sentenceEn:'That was the old kind of school from centuries ago.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u90a3\u5929\u665a\u4e0a\uff0c\u739b\u742a\u751a\u81f3\u628a\u8fd9\u4ef6\u4e8b\u8bb0\u5728\u81ea\u5df1\u7684\u65e5\u8bb0\u91cc\u4e86\u3002", exampleEn: "That evening, Margie even recorded it in her diary. On May 17, 2155, she wrote: ", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u4e0d\u4f46\u2026\u2026\u800c\u4e14\u2026\u2026", pointEn: "not only...but also...", example: "\u90a3\u5929\u665a\u4e0a\uff0c\u739b\u742a\u751a\u81f3\u628a\u8fd9\u4ef6\u4e8b\u8bb0\u5728\u81ea\u5df1\u7684\u65e5\u8bb0\u91cc\u4e86\u3002", exampleEn: "That evening, Margie even recorded it in her diary. On May 17, 2155, she wrote: ", explanation: "\u9012\u8fdb\u590d\u53e5\uff0c\u540e\u4e00\u5206\u53e5\u6bd4\u524d\u4e00\u5206\u53e5\u7a0b\u5ea6\u66f4\u6df1", explanationEn: "Progressive compound sentence where the second clause goes further than the first"}
       ],
       footnotes: [
         {term:"\u8367\u5149\u5c4f", termEn:"screen; display", definition:"\u3010y\u00edng gu\u0101ng p\u00edng\u3011screen; display\u3002", definitionEn:"screen; display"},
@@ -1400,6 +1427,10 @@ units: [
         {word:'评语',pinyin:'píng yǔ',en:'comments; remarks',sentence:'我都期待着看到刘老师的评语。',sentenceEn:'I looked forward to seeing Mrs. Liu’s comments.'},
         {word:'扉页',pinyin:'fēi yè',en:'flyleaf; title page',sentence:'扉页上写着鼓励的话。',sentenceEn:'Words of encouragement were written on the flyleaf.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u6211\u65f6\u5e38\u6000\u7740\u6df1\u6df1\u7684\u611f\u6fc0\u4e4b\u60c5\uff0c\u601d\u5ff5\u7740\u6211\u7684\u542f\u8499\u8001\u5e08\u4eec\u3002", exampleEn: "I often think of my first teachers with deep gratitude. They planted beautiful s", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u4e0d\u4f46\u2026\u2026\u800c\u4e14\u2026\u2026", pointEn: "not only...but also...", example: "\u6211\u65f6\u5e38\u6000\u7740\u6df1\u6df1\u7684\u611f\u6fc0\u4e4b\u60c5\uff0c\u601d\u5ff5\u7740\u6211\u7684\u542f\u8499\u8001\u5e08\u4eec\u3002", exampleEn: "I often think of my first teachers with deep gratitude. They planted beautiful s", explanation: "\u9012\u8fdb\u590d\u53e5\uff0c\u540e\u4e00\u5206\u53e5\u6bd4\u524d\u4e00\u5206\u53e5\u7a0b\u5ea6\u66f4\u6df1", explanationEn: "Progressive compound sentence where the second clause goes further than the first"}
+      ],
       footnotes: [
         {term:"\u542f\u8499", termEn:"enlightenment; first lessons", definition:"\u3010q\u01d0 m\u00e9ng\u3011enlightenment; first lessons\u3002", definitionEn:"enlightenment; first lessons"},
         {term:"\u64ad\u4e0b", termEn:"to sow; to plant", definition:"\u3010b\u014d xi\u00e0\u3011to sow; to plant\u3002", definitionEn:"to sow; to plant"},
@@ -1456,6 +1487,10 @@ units: [
         {word:'纸条',pinyin:'zhǐ tiáo',en:'note; slip of paper',sentence:'小宇悄悄在我桌上放了一张纸条。',sentenceEn:'Xiao Yu quietly slipped a note on my desk.'},
         {word:'闪亮',pinyin:'shǎn liàng',en:'shining; brilliant',sentence:'那些记忆都会是我小学生活中最闪亮的篇章。',sentenceEn:'Those memories will be the brightest chapters of my primary school years.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u516d\u5e74\u7684\u65f6\u5149\uff0c\u8bf4\u957f\u4e0d\u957f\uff0c\u8bf4\u77ed\u4e0d\u77ed\u3002", exampleEn: "Six years \u2014 not so long, not so short. But when I open the yellowed autograph bo", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u516d\u5e74\u7684\u65f6\u5149\uff0c\u8bf4\u957f\u4e0d\u957f\uff0c\u8bf4\u77ed\u4e0d\u77ed\u3002", exampleEn: "Six years \u2014 not so long, not so short. But when I open the yellowed autograph bo", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"}
+      ],
       footnotes: [
         {term:"\u540c\u7a97", termEn:"classmates; schoolmates", definition:"\u3010t\u00f3ng chu\u0101ng\u3011classmates; schoolmates\u3002", definitionEn:"classmates; schoolmates"},
         {term:"\u540c\u684c", termEn:"desk-mate", definition:"\u3010t\u00f3ng zhu\u014d\u3011desk-mate\u3002", definitionEn:"desk-mate"},
@@ -1510,6 +1545,10 @@ units: [
         {word:'枝繁叶茂',pinyin:'zhī fán yè mào',en:'branches lush with leaves',sentence:'如今它已经枝繁叶茂。',sentenceEn:'Now its branches are lush with leaves.'},
         {word:'黑板报',pinyin:'hēi bǎn bào',en:'blackboard bulletin',sentence:'每个月，我和宣传委员一起出黑板报。',sentenceEn:'Every month I helped design the blackboard bulletin.'},
         {word:'无忧无虑',pinyin:'wú yōu wú lǜ',en:'carefree',sentence:'我在您的怀抱里度过了人生中最无忧无虑的六年。',sentenceEn:'I spent the six most carefree years of my life in your embrace.'}
+      ],
+      grammarPoints: [
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u60a8\u597d\uff01", exampleEn: "Dear Alma Mater,\n\nAs I write this letter, the parasol trees outside have turned ", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u60a8\u597d\uff01", exampleEn: "Dear Alma Mater,\n\nAs I write this letter, the parasol trees outside have turned ", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u6bcd\u6821", termEn:"alma mater", definition:"\u3010m\u01d4 xi\u00e0o\u3011alma mater\u3002", definitionEn:"alma mater"},

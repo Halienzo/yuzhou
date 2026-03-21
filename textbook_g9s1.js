@@ -97,6 +97,10 @@ units: [
         {word:'踪迹',pinyin:'zōng jì',en:'trace; whereabouts',sentence:'周总理，我们的好总理，你在哪里啊，你在哪里？',sentenceEn:'Premier Zhou, our beloved premier, where are you, where are you?'},
         {word:'嘱咐',pinyin:'zhǔ fù',en:'to urge; to exhort',sentence:'想起你昨天的嘱咐。',sentenceEn:'Remembering your exhortation from yesterday.'}
       ],
+      grammarPoints: [
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u4f60\u5728\u54ea\u91cc\u554a\uff0c\u4f60\u5728\u54ea\u91cc\uff1f", exampleEn: "Premier Zhou, our beloved Premier,\nwhere are you, where are you?\nDo you know how", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"},
+        {point: "\u4e2d\u5fc3\u601d\u60f3", pointEn: "Central idea", example: "\u4f60\u5728\u54ea\u91cc\u554a\uff0c\u4f60\u5728\u54ea\u91cc\uff1f", exampleEn: "Premier Zhou, our beloved Premier,\nwhere are you, where are you?\nDo you know how", explanation: "\u6587\u7ae0\u7684\u4e3b\u9898\u548c\u4f5c\u8005\u60f3\u8981\u8868\u8fbe\u7684\u6838\u5fc3\u601d\u60f3", explanationEn: "The theme and core idea the author wishes to convey"}
+      ],
       footnotes: [
         {term:"\u7bdd\u706b", termEn:"bonfire; campfire", definition:"\u3010g\u014du hu\u01d2\u3011bonfire; campfire\u3002", definitionEn:"bonfire; campfire"},
         {term:"\u5bbf\u8425", termEn:"to camp; to bivouac", definition:"\u3010s\u00f9 y\u00edng\u3011to camp; to bivouac\u3002", definitionEn:"to camp; to bivouac"},
@@ -287,6 +291,10 @@ units: [
         {word:'冠冕',pinyin:'guān miǎn',en:'crown; coronet',sentence:'你是一树一树的花开，是燕在梁间呢喃，你是爱，是暖，是希望，你是人间的四月天。',sentenceEn:'You are blossoms opening tree by tree, swallows murmuring between the beams; you are love, warmth, and hope; you are April on earth.'},
         {word:'呢喃',pinyin:'ní nán',en:'to murmur; to whisper',sentence:'是燕在梁间呢喃。',sentenceEn:'Swallows murmuring between the beams.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u8f7b\u7075\u5728\u6625\u7684\u5149\u8273\u4e2d\u4ea4\u821e\u7740\u53d8\u3002", exampleEn: "I say you are April on earth;\nyour laughter lights up the four winds;\nlightly yo", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u8f7b\u7075\u5728\u6625\u7684\u5149\u8273\u4e2d\u4ea4\u821e\u7740\u53d8\u3002", exampleEn: "I say you are April on earth;\nyour laughter lights up the four winds;\nlightly yo", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
+      ],
       footnotes: [
         {term:"\u8f7b\u7075", termEn:"light and graceful", definition:"\u3010q\u012bng l\u00edng\u3011light and graceful\u3002", definitionEn:"light and graceful"},
         {term:"\u9c9c\u598d", termEn:"fresh and beautiful", definition:"\u3010xi\u0101n y\u00e1n\u3011fresh and beautiful\u3002", definitionEn:"fresh and beautiful"},
@@ -349,6 +357,10 @@ units: [
         {word:'摇曳',pinyin:'yáo yè',en:'to sway; to flutter',sentence:'远远的土丘上闪着哀怜的翠光，一片蓬蒿在摇曳。',sentenceEn:'On distant hills gleams a pitiful emerald light; a patch of mugwort sways.'},
         {word:'蓬蒿',pinyin:'péng hāo',en:'mugwort; wild grass',sentence:'一片蓬蒿在摇曳。',sentenceEn:'A patch of mugwort sways.'},
         {word:'飘逸',pinyin:'piāo yì',en:'graceful and flowing',sentence:'那飘逸的云朵在天空中变幻。',sentenceEn:'The graceful clouds shift and change in the sky.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u6211\u770b\u4e00\u9635\u5411\u665a\u7684\u6625\u98ce\n\u6084\u6084\u63c9\u8fc7\u4e30\u6da6\u7684\u9752\u8349\uff0c\n\u6211\u770b\u5b83\u4eec\u4f4e\u9996\u53c8\u4f4e\u9996\u2026", exampleEn: "I see a late spring breeze\nquietly caressing the lush green grass;\nI see them bo", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u6211\u770b\u4e00\u9635\u5411\u665a\u7684\u6625\u98ce\n\u6084\u6084\u63c9\u8fc7\u4e30\u6da6\u7684\u9752\u8349\uff0c\n\u6211\u770b\u5b83\u4eec\u4f4e\u9996\u53c8\u4f4e\u9996\u2026", exampleEn: "I see a late spring breeze\nquietly caressing the lush green grass;\nI see them bo", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
       ],
       footnotes: [
         {term:"\u4e30\u6da6", termEn:"rich and moist", definition:"\u3010f\u0113ng r\u00f9n\u3011rich and moist\u3002", definitionEn:"rich and moist"},
@@ -619,6 +631,10 @@ units: [
         {word:'矫揉造作',pinyin:'jiǎo róu zào zuò',en:'affected; artificial',sentence:'真正有教养的人从不矫揉造作。',sentenceEn:'A truly well-mannered person is never affected or artificial.'},
         {word:'絮絮叨叨',pinyin:'xù xù dāo dāo',en:'to prattle on and on',sentence:'请原谅我絮絮叨叨说了这么多。',sentenceEn:'Please forgive me for prattling on so much.'},
         {word:'彬彬有礼',pinyin:'bīn bīn yǒu lǐ',en:'refined and courteous',sentence:'彬彬有礼的人在社会交往中如鱼得水。',sentenceEn:'A refined and courteous person navigates social interactions with ease.'}
+      ],
+      grammarPoints: [
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u826f\u597d\u7684\u6559\u517b\u4e0d\u4ec5\u6765\u81ea\u5bb6\u5ead\u548c\u5b66\u6821\uff0c\u800c\u4e14\u53ef\u4ee5\u5f97\u4e4b\u4e8e\u81ea\u8eab\u3002", exampleEn: "Good manners come not only from family and school \u2014 they can also be cultivated ", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"},
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u826f\u597d\u7684\u6559\u517b\u4e0d\u4ec5\u6765\u81ea\u5bb6\u5ead\u548c\u5b66\u6821\uff0c\u800c\u4e14\u53ef\u4ee5\u5f97\u4e4b\u4e8e\u81ea\u8eab\u3002", exampleEn: "Good manners come not only from family and school \u2014 they can also be cultivated ", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
       ],
       footnotes: [
         {term:"\u6db5\u517b", termEn:"self-cultivation; inner refinement", definition:"\u3010h\u00e1n y\u01ceng\u3011self-cultivation; inner refinement\u3002", definitionEn:"self-cultivation; inner refinement"},
@@ -1472,6 +1488,10 @@ units: [
         {word:'持之以恒',pinyin:'chí zhī yǐ héng',en:'to persevere; to keep at it',sentence:'创造力需要持之以恒地探索。',sentenceEn:'Creativity requires persistent exploration.'},
         {word:'推敲',pinyin:'tuī qiāo',en:'to deliberate; to weigh carefully',sentence:'对问题要反复推敲，不满足于一个答案。',sentenceEn:'One must deliberate on problems repeatedly, not settling for a single answer.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u5bf9\u4e0a\u9762\u8fd9\u4e2a\u95ee\u9898\uff0c\u4f60\u662f\u600e\u4e48\u56de\u7b54\u7684\u5462\uff1f", exampleEn: "How did you answer the question above? If you chose B, then congratulations \u2014 yo", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u5bf9\u4e0a\u9762\u8fd9\u4e2a\u95ee\u9898\uff0c\u4f60\u662f\u600e\u4e48\u56de\u7b54\u7684\u5462\uff1f", exampleEn: "How did you answer the question above? If you chose B, then congratulations \u2014 yo", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
+      ],
       footnotes: [
         {term:"\u6c72\u53d6", termEn:"to draw; to absorb", definition:"\u3010j\u00ed q\u01d4\u3011to draw; to absorb\u3002", definitionEn:"to draw; to absorb"},
         {term:"\u6839\u6df1\u8482\u56fa", termEn:"deep-rooted", definition:"\u3010g\u0113n sh\u0113n d\u00ec g\u00f9\u3011deep-rooted\u3002", definitionEn:"deep-rooted"},
@@ -1952,6 +1972,10 @@ units: [
         {word:'如鱼得水',pinyin:'rú yú dé shuǐ',en:'like a fish in water',sentence:'孤之有孔明，犹鱼之有水也。',sentenceEn:'My having Kongming is like a fish having water.'},
         {word:'经世奇才',pinyin:'jīng shì qí cái',en:'extraordinary talent for governance',sentence:'此人有经天纬地之才。',sentenceEn:'This person possesses extraordinary talent for governing the world.'},
         {word:'三分天下',pinyin:'sān fēn tiān xià',en:'dividing the realm into three',sentence:'孔明为刘备分析天下三分之势。',sentenceEn:'Kongming analyzed for Liu Bei the strategic situation of dividing the realm into three.'}
+      ],
+      grammarPoints: [
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u5374\u8bf4\u7384\u5fb7\u8bbf\u5b54\u660e\u4e24\u6b21\u4e0d\u9047\uff0c\u6b32\u518d\u5f80\u8bbf\u4e4b\u3002", exampleEn: "It is told that Liu Bei had called on Zhuge Liang twice without finding him at h", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"},
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u5374\u8bf4\u7384\u5fb7\u8bbf\u5b54\u660e\u4e24\u6b21\u4e0d\u9047\uff0c\u6b32\u518d\u5f80\u8bbf\u4e4b\u3002", exampleEn: "It is told that Liu Bei had called on Zhuge Liang twice without finding him at h", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
       ],
       footnotes: [
         {term:"\u62dc\u8c12", termEn:"to pay a formal visit", definition:"\u3010b\u00e0i y\u00e8\u3011to pay a formal visit\u3002", definitionEn:"to pay a formal visit"},

@@ -185,6 +185,10 @@ units: [
         {word:'思念',pinyin:'sī niàn',en:'miss',sentence:'思念故乡的月亮。',sentenceEn:'Missing the moon of the hometown.'},
         {word:'离乡',pinyin:'lí xiāng',en:'leave hometown',sentence:'离开故乡已经很多年了。',sentenceEn:'It has been many years since leaving the hometown.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u6bcf\u4e2a\u4eba\u90fd\u6709\u4e2a\u6545\u4e61\uff0c\u6bcf\u4e2a\u4eba\u7684\u6545\u4e61\u90fd\u6709\u4e2a\u6708\u4eae\u3002", exampleEn: "Everyone has a hometown, and every hometown has a moon. Everyone loves the moon ", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u6bcf\u4e2a\u4eba\u90fd\u6709\u4e2a\u6545\u4e61\uff0c\u6bcf\u4e2a\u4eba\u7684\u6545\u4e61\u90fd\u6709\u4e2a\u6708\u4eae\u3002", exampleEn: "Everyone has a hometown, and every hometown has a moon. Everyone loves the moon ", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"}
+      ],
       footnotes: [
         {term:"\u6545\u4e61", termEn:"hometown", definition:"\u3010g\u00f9 xi\u0101ng\u3011hometown\u3002", definitionEn:"hometown"},
         {term:"\u7bdd\u706b", termEn:"bonfire", definition:"\u3010g\u014du hu\u01d2\u3011bonfire\u3002", definitionEn:"bonfire"},
@@ -496,6 +500,10 @@ units: [
         {word:'拱伏',pinyin:'gǒng fú',en:'bow down',sentence:'众猴拱伏无违。',sentenceEn:'All the monkeys bowed down in obedience.'},
         {word:'花果山',pinyin:'huā guǒ shān',en:'Mountain of Flowers and Fruit',sentence:'花果山上的石猴成了美猴王。',sentenceEn:'The stone monkey of the Mountain of Flowers and Fruit became the Handsome Monkey King.'}
       ],
+      grammarPoints: [
+        {point: "\u5148\u2026\u2026\u518d\u2026\u2026", pointEn: "first...then...", example: "\u6d77\u5916\u6709\u4e00\u56fd\u571f\uff0c\u540d\u66f0\u50b2\u6765\u56fd\u3002", exampleEn: "Across the sea there was a land called the Country of Aolai. Near the great sea ", explanation: "\u8868\u793a\u52a8\u4f5c\u7684\u5148\u540e\u987a\u5e8f", explanationEn: "Indicates sequential order of actions"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u6d77\u5916\u6709\u4e00\u56fd\u571f\uff0c\u540d\u66f0\u50b2\u6765\u56fd\u3002", exampleEn: "Across the sea there was a land called the Country of Aolai. Near the great sea ", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u77f3\u7334", termEn:"stone monkey", definition:"\u3010sh\u00ed h\u00f3u\u3011stone monkey\u3002", definitionEn:"stone monkey"},
         {term:"\u7011\u5e03", termEn:"waterfall", definition:"\u3010p\u00f9 b\u00f9\u3011waterfall\u3002", definitionEn:"waterfall"},
@@ -544,6 +552,10 @@ units: [
         {word:'蝴蝶风筝',pinyin:'hú dié fēng zhēng',en:'butterfly kite',sentence:'那是一个大蝴蝶风筝。',sentenceEn:'That was a large butterfly kite.'},
         {word:'剪断',pinyin:'jiǎn duàn',en:'cut off',sentence:'把线剪断，让风筝飞走。',sentenceEn:'Cut the string and let the kite fly away.'},
         {word:'大观园',pinyin:'dà guān yuán',en:'Grand View Garden',sentence:'大观园里春意盎然。',sentenceEn:'The Grand View Garden was full of spring atmosphere.'}
+      ],
+      grammarPoints: [
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u4e00\u8bed\u672a\u4e86\uff0c\u53ea\u542c\u7a97\u5916\u7af9\u5b50\u4e0a\u4e00\u58f0\u54cd\uff0c\u6070\u4f3c\u7a97\u5c49\u5b50\u5012\u4e86\u4e00\u822c\uff0c\u4f17\u4eba\u5413\u4e86\u4e00\u8df3\u3002", exampleEn: "Before anyone could finish speaking, there was a sound from the bamboo outside t", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u4e00\u8bed\u672a\u4e86\uff0c\u53ea\u542c\u7a97\u5916\u7af9\u5b50\u4e0a\u4e00\u58f0\u54cd\uff0c\u6070\u4f3c\u7a97\u5c49\u5b50\u5012\u4e86\u4e00\u822c\uff0c\u4f17\u4eba\u5413\u4e86\u4e00\u8df3\u3002", exampleEn: "Before anyone could finish speaking, there was a sound from the bamboo outside t", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u98ce\u7b5d", termEn:"kite", definition:"\u3010f\u0113ng zh\u0113ng\u3011kite\u3002", definitionEn:"kite"},
@@ -837,6 +849,10 @@ units: [
         {word:'搜查',pinyin:'sōu chá',en:'search',sentence:'两个兵士搜查了方志敏全身。',sentenceEn:'Two soldiers searched Fang Zhimin thoroughly.'},
         {word:'威胁',pinyin:'wēi xié',en:'threaten',sentence:'敌人用手榴弹威胁他。',sentenceEn:'The enemy threatened him with a hand grenade.'}
       ],
+      grammarPoints: [
+        {point: "\u88ab\u5b57\u53e5", pointEn: "b\u00e8i-construction (passive)", example: "\u6211\u4ece\u4e8b\u9769\u547d\u6597\u4e89\uff0c\u5df2\u7ecf\u5341\u4f59\u5e74\u4e86\u3002", exampleEn: "I have been engaged in revolutionary struggle for over ten years. Throughout thi", explanation: "\u88ab\u52a8\u53e5\uff0c\u8868\u793a\u4e3b\u8bed\u662f\u52a8\u4f5c\u7684\u627f\u53d7\u8005", explanationEn: "Passive construction where the subject receives the action"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u6211\u4ece\u4e8b\u9769\u547d\u6597\u4e89\uff0c\u5df2\u7ecf\u5341\u4f59\u5e74\u4e86\u3002", exampleEn: "I have been engaged in revolutionary struggle for over ten years. Throughout thi", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u6e05\u8d2b", termEn:"noble poverty", definition:"\u3010q\u012bng p\u00edn\u3011noble poverty\u3002", definitionEn:"noble poverty"},
         {term:"\u77dc\u6301", termEn:"composed", definition:"\u3010j\u012bn ch\u00ed\u3011composed\u3002", definitionEn:"composed"},
@@ -1000,6 +1016,10 @@ units: [
         {word:'黑衣',pinyin:'hēi yī',en:'black clothes',sentence:'他干活穿一身黑衣。',sentenceEn:'He wore all black while working.'},
         {word:'白点',pinyin:'bái diǎn',en:'white spot',sentence:'身上只要有一个白点，白刷不要钱。',sentenceEn:'If there was even one white spot on his clothes, the job would be free.'},
         {word:'绝活',pinyin:'jué huó',en:'unique skill',sentence:'刷子李的绝活闻名天下。',sentenceEn:'Master Painter Li was famous for his unique skill.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u5237\u5b50\u674e\u4e13\u5e72\u7c89\u5237\u8fd9\u4e00\u884c\u3002", exampleEn: "Master Painter Li made his living exclusively as a whitewasher. If he painted a ", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u5148\u2026\u2026\u518d\u2026\u2026", pointEn: "first...then...", example: "\u5237\u5b50\u674e\u4e13\u5e72\u7c89\u5237\u8fd9\u4e00\u884c\u3002", exampleEn: "Master Painter Li made his living exclusively as a whitewasher. If he painted a ", explanation: "\u8868\u793a\u52a8\u4f5c\u7684\u5148\u540e\u987a\u5e8f", explanationEn: "Indicates sequential order of actions"}
       ],
       footnotes: [
         {term:"\u5237\u5b50\u674e", termEn:"Master Painter Li", definition:"\u3010shu\u0101 zi l\u01d0\u3011Master Painter Li\u3002", definitionEn:"Master Painter Li"},
@@ -1388,6 +1408,10 @@ units: [
         {word:'骏马',pinyin:'jùn mǎ',en:'fine horse',sentence:'成群的骏马在草原上飞驰。',sentenceEn:'Herds of fine horses galloped across the grassland.'},
         {word:'安闲',pinyin:'ān xián',en:'leisurely; at ease',sentence:'牛羊安闲地吃着草。',sentenceEn:'Cattle and sheep grazed leisurely.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u8377\u5170\uff0c\u662f\u6c34\u4e4b\u56fd\uff0c\u82b1\u4e4b\u56fd\uff0c\u4e5f\u662f\u7267\u573a\u4e4b\u56fd\u3002", exampleEn: "The Netherlands\u2014a country of water, a country of flowers, and also a country of ", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u8377\u5170\uff0c\u662f\u6c34\u4e4b\u56fd\uff0c\u82b1\u4e4b\u56fd\uff0c\u4e5f\u662f\u7267\u573a\u4e4b\u56fd\u3002", exampleEn: "The Netherlands\u2014a country of water, a country of flowers, and also a country of ", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u7267\u573a", termEn:"pasture", definition:"\u3010m\u00f9 ch\u01ceng\u3011pasture\u3002", definitionEn:"pasture"},
         {term:"\u78a7\u7eff", termEn:"emerald green", definition:"\u3010b\u00ec l\u01dc\u3011emerald green\u3002", definitionEn:"emerald green"},
@@ -1434,6 +1458,10 @@ units: [
         {word:'精巧',pinyin:'jīng qiǎo',en:'exquisite',sentence:'金字塔的建造十分精巧。',sentenceEn:'The construction of the pyramids was exquisite.'},
         {word:'夕照',pinyin:'xī zhào',en:'sunset glow',sentence:'金字塔在夕照中显得更加壮丽。',sentenceEn:'The pyramids appeared more magnificent in the sunset glow.'},
         {word:'石块',pinyin:'shí kuài',en:'stone block',sentence:'每块石头大约有两吨半重。',sentenceEn:'Each stone block weighs about two and a half tons.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u4e5d\u6708\u7684\u5f00\u7f57\u662f\u91d1\u8272\u7684\u3002", exampleEn: "Pyramids at Sunset\nSeptember Cairo is golden.\nUnder the golden sunset, golden fi", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u4e5d\u6708\u7684\u5f00\u7f57\u662f\u91d1\u8272\u7684\u3002", exampleEn: "Pyramids at Sunset\nSeptember Cairo is golden.\nUnder the golden sunset, golden fi", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
       ],
       footnotes: [
         {term:"\u91d1\u5b57\u5854", termEn:"pyramid", definition:"\u3010j\u012bn z\u00ec t\u01ce\u3011pyramid\u3002", definitionEn:"pyramid"},
@@ -1651,6 +1679,10 @@ units: [
         {word:'进化',pinyin:'jìn huà',en:'evolution',sentence:'我想到了人的进化过程。',sentenceEn:'I thought about the process of human evolution.'},
         {word:'梦境',pinyin:'mèng jìng',en:'dreamland',sentence:'每天夜里做梦我都会飞。',sentenceEn:'Every night in my dreams I would fly.'},
         {word:'驱逐',pinyin:'qū zhú',en:'expel',sentence:'我被老师驱逐出了教室。',sentenceEn:'I was expelled from the classroom by the teacher.'}
+      ],
+      grammarPoints: [
+        {point: "\u88ab\u5b57\u53e5", pointEn: "b\u00e8i-construction (passive)", example: "\u6211\u5728\u4e5d\u5c81\u7684\u65f6\u5019\u5c31\u53d1\u73b0\u4e86\u6709\u5173\u80da\u80ce\u53d1\u80b2\u7684\u89c4\u5f8b\uff0c\u8fd9\u5b8c\u5168\u662f\u6211\u72ec\u7acb\u601d\u8003\u7684\u7ed3\u679c\u3002", exampleEn: "At the age of nine, I discovered the laws of embryonic development\u2014entirely thro", explanation: "\u88ab\u52a8\u53e5\uff0c\u8868\u793a\u4e3b\u8bed\u662f\u52a8\u4f5c\u7684\u627f\u53d7\u8005", explanationEn: "Passive construction where the subject receives the action"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u6211\u5728\u4e5d\u5c81\u7684\u65f6\u5019\u5c31\u53d1\u73b0\u4e86\u6709\u5173\u80da\u80ce\u53d1\u80b2\u7684\u89c4\u5f8b\uff0c\u8fd9\u5b8c\u5168\u662f\u6211\u72ec\u7acb\u601d\u8003\u7684\u7ed3\u679c\u3002", exampleEn: "At the age of nine, I discovered the laws of embryonic development\u2014entirely thro", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u53d1\u73b0", termEn:"discovery", definition:"\u3010f\u0101 xi\u00e0n\u3011discovery\u3002", definitionEn:"discovery"},

@@ -197,6 +197,10 @@ var TB_G7S2 = {
             {word:'不以为然',pinyin:'bù yǐ wéi rán',en:'to disagree; to disapprove',sentence:'鲁迅先生对此不以为然地笑了笑。',sentenceEn:'Mr. Lu Xun smiled with gentle disapproval.'},
             {word:'忧郁',pinyin:'yōu yù',en:'melancholy; sorrowful',sentence:'鲁迅先生有时会显出忧郁的神色。',sentenceEn:'Mr. Lu Xun sometimes displayed a melancholy expression.'}
           ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u8427\u7ea2\u9c81\u8fc5\u5148\u751f\u7684\u7b11\u58f0\u662f\u660e\u6717\u7684\uff0c\u662f\u4ece\u5fc3\u91cc\u7684\u6b22\u559c\u3002", exampleEn: "Xiao Hong. Mr. Lu Xun's laughter was bright and clear, rising from genuine joy d", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u8427\u7ea2\u9c81\u8fc5\u5148\u751f\u7684\u7b11\u58f0\u662f\u660e\u6717\u7684\uff0c\u662f\u4ece\u5fc3\u91cc\u7684\u6b22\u559c\u3002", exampleEn: "Xiao Hong. Mr. Lu Xun's laughter was bright and clear, rising from genuine joy d", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
+          ],
           footnotes: [
             {term:"\u8f7b\u6377", termEn:"light and nimble", definition:"\u3010q\u012bng ji\u00e9\u3011light and nimble\u3002", definitionEn:"light and nimble"},
             {term:"\u8349\u7387", termEn:"careless; sloppy", definition:"\u3010c\u01ceo shu\u00e0i\u3011careless; sloppy\u3002", definitionEn:"careless; sloppy"},
@@ -605,6 +609,10 @@ var TB_G7S2 = {
             {word:'斑斓',pinyin:'bān lán',en:'colorful; brilliant',sentence:'我想起斑斓的山雕，奔驰的鹿群。',sentenceEn:'I recall the brilliant mountain eagles and galloping herds of deer.'},
             {word:'默契',pinyin:'mò qì',en:'tacit understanding; unspoken agreement',sentence:'在热情的默契里它们彼此呼唤着。',sentenceEn:'In their passionate tacit understanding they call to each other.'}
           ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u7aef\u6728\u857b\u826f\u5bf9\u4e8e\u5e7f\u5927\u7684\u5173\u4e1c\u539f\u91ce\uff0c\u6211\u5fc3\u91cc\u6000\u7740\u631a\u75db\u7684\u70ed\u7231\u3002", exampleEn: "For the vast wilderness of Guandong, I hold a deep and aching love in my heart. ", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u7aef\u6728\u857b\u826f\u5bf9\u4e8e\u5e7f\u5927\u7684\u5173\u4e1c\u539f\u91ce\uff0c\u6211\u5fc3\u91cc\u6000\u7740\u631a\u75db\u7684\u70ed\u7231\u3002", exampleEn: "For the vast wilderness of Guandong, I hold a deep and aching love in my heart. ", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
+          ],
           footnotes: [
             {term:"\u631a\u75db", termEn:"deeply sincere and painful", definition:"\u3010zh\u00ec t\u00f2ng\u3011deeply sincere and painful\u3002", definitionEn:"deeply sincere and painful"},
             {term:"\u6cdb\u6ee5", termEn:"to flood; to overflow", definition:"\u3010f\u00e0n l\u00e0n\u3011to flood; to overflow\u3002", definitionEn:"to flood; to overflow"},
@@ -895,6 +903,10 @@ var TB_G7S2 = {
             {word:'愧怍',pinyin:'kuì zuò',en:'ashamed; feeling guilty',sentence:'几年过去了，我渐渐明白：那是一个幸运的人对一个不幸者的愧怍。',sentenceEn:'Years later, I gradually understood: it was the shame of a fortunate person toward an unfortunate one.'},
             {word:'滞笨',pinyin:'zhì bèn',en:'clumsy; dull',sentence:'他那直僵僵的身体好像不能坐，稍一弯曲就会散架似的，动作显得很滞笨。',sentenceEn:'His stiff body seemed unable to sit down, as if it would fall apart with the slightest bend, making his movements seem very clumsy.'}
           ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u6211\u5e38\u5750\u8001\u738b\u7684\u4e09\u8f6e\u3002", exampleEn: "I often rode Old Wang's pedicab. He pedaled, I sat, and along the way we chatted", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u6211\u5e38\u5750\u8001\u738b\u7684\u4e09\u8f6e\u3002", exampleEn: "I often rode Old Wang's pedicab. He pedaled, I sat, and along the way we chatted", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
+          ],
           footnotes: [
             {term:"\u4f1b\u507b", termEn:"hunched; bent over", definition:"\u3010y\u01d4 l\u01da\u3011hunched; bent over\u3002", definitionEn:"hunched; bent over"},
             {term:"\u60f6\u6050", termEn:"terrified; fearful", definition:"\u3010hu\u00e1ng k\u01d2ng\u3011terrified; fearful\u3002", definitionEn:"terrified; fearful"},
@@ -966,6 +978,10 @@ var TB_G7S2 = {
             {word:'烦躁',pinyin:'fán zào',en:'irritable; restless',sentence:'父亲变得越来越烦躁。',sentenceEn:'Father became increasingly irritable.'},
             {word:'大庭广众',pinyin:'dà tíng guǎng zhòng',en:'in public; before a large audience',sentence:'父亲在大庭广众面前总觉得不自在。',sentenceEn:'Father always felt uneasy in public.'},
             {word:'微不足道',pinyin:'wēi bù zú dào',en:'insignificant; negligible',sentence:'在别人看来微不足道的台阶，却是父亲一生的追求。',sentenceEn:'The steps, negligible in the eyes of others, were the pursuit of father’s entire life.'}
+          ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u674e\u68ee\u7965\u7236\u4eb2\u603b\u89c9\u5f97\u6211\u4eec\u5bb6\u7684\u53f0\u9636\u4f4e\u3002", exampleEn: "My father always felt that the front steps of our house were too low. Our steps ", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u674e\u68ee\u7965\u7236\u4eb2\u603b\u89c9\u5f97\u6211\u4eec\u5bb6\u7684\u53f0\u9636\u4f4e\u3002", exampleEn: "My father always felt that the front steps of our house were too low. Our steps ", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
           ],
           footnotes: [
             {term:"\u51f9\u51fc", termEn:"a hollow; a depression", definition:"\u3010\u0101o d\u00e0ng\u3011a hollow; a depression\u3002", definitionEn:"a hollow; a depression"},
@@ -1176,6 +1192,10 @@ var TB_G7S2 = {
             {word:'诲人不倦',pinyin:'huì rén bù juàn',en:'to teach tirelessly',sentence:'叶老既是躬行君子，又能学而不厌，诲人不倦。',sentenceEn:'Mr. Ye was both a principled gentleman and someone who studied without weariness and taught without fatigue.'},
             {word:'躬行君子',pinyin:'gōng xíng jūn zǐ',en:'a gentleman who practices what he preaches',sentence:'躬行君子，则吾未之有得。',sentenceEn:'To be a gentleman who practices what he preaches — that I have not yet achieved.'}
           ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u5f20\u4e2d\u884c\u53f6\u5723\u9676\u5148\u751f\u4e8e\u5e74\u6708\u65e5\u901d\u4e16\u3002", exampleEn: "Mr. Ye Shengtao passed away on a date I well remember. It was New Year's Eve by ", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u5f20\u4e2d\u884c\u53f6\u5723\u9676\u5148\u751f\u4e8e\u5e74\u6708\u65e5\u901d\u4e16\u3002", exampleEn: "Mr. Ye Shengtao passed away on a date I well remember. It was New Year's Eve by ", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
+          ],
           footnotes: [
             {term:"\u4fee\u6da6", termEn:"to revise and polish", definition:"\u3010xi\u016b r\u00f9n\u3011to revise and polish\u3002", definitionEn:"to revise and polish"},
             {term:"\u5546\u914c", termEn:"to discuss and consider", definition:"\u3010sh\u0101ng zhu\u00f3\u3011to discuss and consider\u3002", definitionEn:"to discuss and consider"},
@@ -1246,6 +1266,13 @@ var TB_G7S2 = {
             {word:'竹篾',pinyin:'zhú miè',en:'bamboo strips',sentence:'草顶、竹篾泥墙的小屋出现在梨树林边。',sentenceEn:'A hut with a grass roof and bamboo-strip-and-mud walls appeared at the edge of the pear grove.'},
             {word:'恍然',pinyin:'huǎng rán',en:'suddenly realizing',sentence:'我们恍然大悟，原来小茅屋的主人不是一个人。',sentenceEn:'We suddenly realized that the owner of the little thatched hut was not just one person.'}
           ],
+          annotations: [
+            {term: "\u9661\u5ced", termEn: "steep; precipitous", pinyin: "d\u01d2u qi\u00e0o", definition: "\u8fd9\u4e48\u9661\u5ced\u7684\u5c71\uff0c\u8fd9\u4e48\u8302\u5bc6\u7684\u6811\u6797\u3002", definitionEn: "Such steep mountains, such dense forests."},
+            {term: "\u7b80\u964b", termEn: "crude; simple", pinyin: "ji\u01cen l\u00f2u", definition: "\u4e00\u5f20\u7b80\u964b\u7684\u5927\u7af9\u5e8a\u94fa\u7740\u539a\u539a\u7684\u7a3b\u8349\u3002", definitionEn: "A crude bamboo bed was covered with thick straw."},
+            {term: "\u4fee\u847a", termEn: "to repair; to renovate", pinyin: "xi\u016b q\u00ec", definition: "\u89e3\u653e\u519b\u53d4\u53d4\u7ecf\u5e38\u6765\u4fee\u847a\u5c0f\u8305\u5c4b\u3002", definitionEn: "The PLA soldiers often came to repair the little thatched hut."},
+            {term: "\u7af9\u7bfe", termEn: "bamboo strips", pinyin: "zh\u00fa mi\u00e8", definition: "\u8349\u9876\u3001\u7af9\u7bfe\u6ce5\u5899\u7684\u5c0f\u5c4b\u51fa\u73b0\u5728\u68a8\u6811\u6797\u8fb9\u3002", definitionEn: "A hut with a grass roof and bamboo-strip-and-mud walls appeared at the edge of the pear grove."},
+            {term: "\u604d\u7136", termEn: "suddenly realizing", pinyin: "hu\u01ceng r\u00e1n", definition: "\u6211\u4eec\u604d\u7136\u5927\u609f\uff0c\u539f\u6765\u5c0f\u8305\u5c4b\u7684\u4e3b\u4eba\u4e0d\u662f\u4e00\u4e2a\u4eba\u3002", definitionEn: "We suddenly realized that the owner of the little thatched hut was not just one person."}
+          ],
           footnotes: [
             {term:"\u9661\u5ced", termEn:"steep; precipitous", definition:"\u3010d\u01d2u qi\u00e0o\u3011steep; precipitous\u3002", definitionEn:"steep; precipitous"},
             {term:"\u7b80\u964b", termEn:"crude; simple", definition:"\u3010ji\u01cen l\u00f2u\u3011crude; simple\u3002", definitionEn:"crude; simple"},
@@ -1308,6 +1335,13 @@ var TB_G7S2 = {
             {word:'如释重负',pinyin:'rú shì zhòng fù',en:'as if relieved of a heavy burden',sentence:'责任完了，如释重负。',sentenceEn:'When responsibility is fulfilled, one feels as if relieved of a heavy burden.'},
             {word:'任重道远',pinyin:'rèn zhòng dào yuǎn',en:'heavy responsibility and a long road ahead',sentence:'任重而道远，死而后已。',sentenceEn:'The responsibility is heavy and the road ahead is long; only death brings rest.'},
             {word:'悲天悯人',pinyin:'bēi tiān mǐn rén',en:'to feel sorrow for heaven and pity for humanity',sentence:'那诸圣诸佛的悲天悯人。',sentenceEn:'The compassion of all the sages and Buddhas who feel sorrow for heaven and pity for humanity.'}
+          ],
+          annotations: [
+            {term: "\u5951\u7ea6", termEn: "contract; agreement", pinyin: "q\u00ec yu\u0113", definition: "\u4fbf\u662f\u73b0\u5728\u7684\u81ea\u5df1\u548c\u5c06\u6765\u7684\u81ea\u5df1\u7acb\u4e86\u4e00\u79cd\u5951\u7ea6\u3002", definitionEn: "It is like making a contract between the present self and the future self."},
+            {term: "\u8fbe\u89c2", termEn: "philosophical; broad-minded", pinyin: "d\u00e1 gu\u0101n", definition: "\u8fbe\u89c2\u7684\u4eba\u770b\u5f97\u5f88\u5e73\u5e38\u3002", definitionEn: "Philosophical people view these matters as quite ordinary."},
+            {term: "\u5982\u91ca\u91cd\u8d1f", termEn: "as if relieved of a heavy burden", pinyin: "r\u00fa sh\u00ec zh\u00f2ng f\u00f9", definition: "\u8d23\u4efb\u5b8c\u4e86\uff0c\u5982\u91ca\u91cd\u8d1f\u3002", definitionEn: "When responsibility is fulfilled, one feels as if relieved of a heavy burden."},
+            {term: "\u4efb\u91cd\u9053\u8fdc", termEn: "heavy responsibility and a long road ahead", pinyin: "r\u00e8n zh\u00f2ng d\u00e0o yu\u01cen", definition: "\u4efb\u91cd\u800c\u9053\u8fdc\uff0c\u6b7b\u800c\u540e\u5df2\u3002", definitionEn: "The responsibility is heavy and the road ahead is long; only death brings rest."},
+            {term: "\u60b2\u5929\u60af\u4eba", termEn: "to feel sorrow for heaven and pity for humanity", pinyin: "b\u0113i ti\u0101n m\u01d0n r\u00e9n", definition: "\u90a3\u8bf8\u5723\u8bf8\u4f5b\u7684\u60b2\u5929\u60af\u4eba\u3002", definitionEn: "The compassion of all the sages and Buddhas who feel sorrow for heaven and pity for humanity."}
           ],
           footnotes: [
             {term:"\u5951\u7ea6", termEn:"contract; agreement", definition:"\u3010q\u00ec yu\u0113\u3011contract; agreement\u3002", definitionEn:"contract; agreement"},
@@ -1583,6 +1617,10 @@ var TB_G7S2 = {
             {word:'淅淅沥沥',pinyin:'xī xī lì lì',en:'the patter of light rain',sentence:'早晨起来，就淅淅沥沥的。',sentenceEn:'In the morning, a pattering rain had already begun.'},
             {word:'懊丧',pinyin:'ào sàng',en:'dejected; frustrated',sentence:'我深深懊丧对不起我的奶奶，对不起我的小桃树了。',sentenceEn:'I felt deeply dejected for letting down my grandmother and my little peach tree.'}
           ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u6211\u5e38\u5e38\u60f3\u8981\u7ed9\u6211\u7684\u5c0f\u6843\u6811\u5199\u70b9\u6587\u7ae0\uff0c\u4f46\u5374\u7ec8\u6ca1\u6709\u5199\u5c31\u4e00\u4e2a\u5b57\u6765\u3002", exampleEn: "I have often wanted to write something about my little peach tree, but have neve", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u6211\u5e38\u5e38\u60f3\u8981\u7ed9\u6211\u7684\u5c0f\u6843\u6811\u5199\u70b9\u6587\u7ae0\uff0c\u4f46\u5374\u7ec8\u6ca1\u6709\u5199\u5c31\u4e00\u4e2a\u5b57\u6765\u3002", exampleEn: "I have often wanted to write something about my little peach tree, but have neve", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
+          ],
           footnotes: [
             {term:"\u77dc\u6301", termEn:"reserved; restrained", definition:"\u3010j\u012bn ch\u00ed\u3011reserved; restrained\u3002", definitionEn:"reserved; restrained"},
             {term:"\u7325\u7410", termEn:"shabby; insignificant-looking", definition:"\u3010w\u011bi su\u01d2\u3011shabby; insignificant-looking\u3002", definitionEn:"shabby; insignificant-looking"},
@@ -1677,6 +1715,10 @@ var TB_G7S2 = {
             {word:'怀恋',pinyin:'huái liàn',en:'nostalgic longing',sentence:'而那过去了的，就会成为亲切的怀恋。',sentenceEn:'And what has passed will become a fond nostalgic memory.'},
             {word:'伫立',pinyin:'zhù lì',en:'to stand for a long time',sentence:'我在那路口久久伫立。',sentenceEn:'I stood for a long time at that fork in the road.'},
             {word:'荒草萋萋',pinyin:'huāng cǎo qī qī',en:'overgrown with wild grass',sentence:'它荒草萋萋，十分幽寂。',sentenceEn:'It was overgrown with wild grass, very quiet and secluded.'}
+          ],
+          grammarPoints: [
+            {point: "\u610f\u8c61\u4e0e\u610f\u5883", pointEn: "Imagery and atmosphere", example: "\u666e\u5e0c\u91d1\u5047\u5982\u751f\u6d3b\u6b3a\u9a97\u4e86\u4f60\uff0c\u4e0d\u8981\u60b2\u4f24\uff0c\u4e0d\u8981\u5fc3\u6025\uff01", exampleEn: "If life deceives you, do not grieve, do not despair! In gloomy days be calm and ", explanation: "\u8bd7\u4eba\u901a\u8fc7\u610f\u8c61\u7684\u9009\u62e9\u548c\u7ec4\u5408\u8425\u9020\u7279\u5b9a\u7684\u610f\u5883\uff0c\u4f20\u8fbe\u60c5\u611f", explanationEn: "Poets create atmosphere through selecting and combining imagery to convey emotions"},
+            {point: "\u97f5\u5f8b\u4e0e\u8282\u594f", pointEn: "Rhyme and rhythm", example: "\u666e\u5e0c\u91d1\u5047\u5982\u751f\u6d3b\u6b3a\u9a97\u4e86\u4f60\uff0c\u4e0d\u8981\u60b2\u4f24\uff0c\u4e0d\u8981\u5fc3\u6025\uff01", exampleEn: "If life deceives you, do not grieve, do not despair! In gloomy days be calm and ", explanation: "\u8bd7\u6b4c\u901a\u8fc7\u62bc\u97f5\u3001\u5bf9\u4ed7\u3001\u53e5\u5f0f\u53d8\u5316\u4ea7\u751f\u97f3\u4e50\u7f8e", explanationEn: "Poetry achieves musicality through rhyme, parallelism, and varying line structures"}
           ],
           footnotes: [
             {term:"\u5fe7\u90c1", termEn:"melancholy; gloomy", definition:"\u3010y\u014du y\u00f9\u3011melancholy; gloomy\u3002", definitionEn:"melancholy; gloomy"},
@@ -2041,6 +2083,10 @@ var TB_G7S2 = {
             {word:'蒙蒙',pinyin:'méng méng',en:'misty; hazy',sentence:'那个没有日出的细雨蒙蒙的草原早晨。',sentenceEn:'That misty, drizzling grassland morning without a sunrise.'},
             {word:'闷热',pinyin:'mēn rè',en:'stuffy and hot',sentence:'她在地心的世界是那个活动范围不到十立方米的闷热的控制舱。',sentenceEn:'Her world at the center of the earth was a stuffy, hot control cabin of less than ten cubic meters.'},
             {word:'迟钝',pinyin:'chí dùn',en:'dull; slow to react',sentence:'我对这个世界的美已感到有些迟钝了。',sentenceEn:'I had become somewhat dull to the beauty of this world.'}
+          ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u6211\u8981\u53bb\u5ea6\u5047\uff0c\u4e3b\u4efb\u8ba9\u6211\u518d\u5e26\u4e00\u53cc\u773c\u775b\u53bb\u3002", exampleEn: "I was going on vacation, and the director asked me to take a pair of eyes along.", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u6211\u8981\u53bb\u5ea6\u5047\uff0c\u4e3b\u4efb\u8ba9\u6211\u518d\u5e26\u4e00\u53cc\u773c\u775b\u53bb\u3002", exampleEn: "I was going on vacation, and the director asked me to take a pair of eyes along.", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
           ],
           footnotes: [
             {term:"\u4f20\u611f", termEn:"sensor; sensory transmission", definition:"\u3010chu\u00e1n g\u01cen\u3011sensor; sensory transmission\u3002", definitionEn:"sensor; sensory transmission"},

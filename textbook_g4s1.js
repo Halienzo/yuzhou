@@ -178,6 +178,10 @@ units: [
         {word:'霸占',pinyin:'bà zhàn',en:'occupy; claim',sentence:'白云霸占了半个天。',sentenceEn:'White clouds claimed half the sky.'},
         {word:'偷渡',pinyin:'tōu dù',en:'sneak across',sentence:'太阳偷渡了西山的青峰。',sentenceEn:'The sun sneaked across the western peak.'}
       ],
+      grammarPoints: [
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u8fd8\u9a6e\u7740\u659c\u9633\u56de\u53bb\u3002", exampleEn: "Evening on the River in Autumn\nby Liu Dabai\n\nThe birds returning to their nests,", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u8fd8\u9a6e\u7740\u659c\u9633\u56de\u53bb\u3002", exampleEn: "Evening on the River in Autumn\nby Liu Dabai\n\nThe birds returning to their nests,", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u5f52\u5de2", termEn:"return to nest", definition:"\u3010gu\u012b ch\u00e1o\u3011return to nest\u3002", definitionEn:"return to nest"},
         {term:"\u659c\u9633", termEn:"setting sun", definition:"\u3010xi\u00e9 y\u00e1ng\u3011setting sun\u3002", definitionEn:"setting sun"},
@@ -228,6 +232,10 @@ units: [
         {word:'半明半昧',pinyin:'bàn míng bàn mèi',en:'half-bright half-dim',sentence:'悬着无数半明半昧的星。',sentenceEn:'Countless half-bright half-dim stars hung in the sky.'},
         {word:'摇摇欲坠',pinyin:'yáo yáo yù zhuì',en:'tottering',sentence:'它们是这样低，真是摇摇欲坠呢！',sentenceEn:'They hung so low they seemed about to fall!'},
         {word:'梦幻',pinyin:'mèng huàn',en:'dreamlike',sentence:'海上的夜是梦幻的。',sentenceEn:'The night at sea is dreamlike.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u6211\u7231\u6708\u591c\uff0c\u4f46\u6211\u4e5f\u7231\u661f\u5929\u3002", exampleEn: "I love moonlit nights, but I also love starry skies. In the past, on July and Au", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u6211\u7231\u6708\u591c\uff0c\u4f46\u6211\u4e5f\u7231\u661f\u5929\u3002", exampleEn: "I love moonlit nights, but I also love starry skies. In the past, on July and Au", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"}
       ],
       footnotes: [
         {term:"\u5bc6\u5bc6\u9ebb\u9ebb", termEn:"dense; countless", definition:"\u3010m\u00ec mi m\u00e1 m\u00e1\u3011dense; countless\u3002", definitionEn:"dense; countless"},
@@ -533,6 +541,10 @@ units: [
         {word:'素洁',pinyin:'sù jié',en:'plain and clean',sentence:'蝴蝶是那样素洁。',sentenceEn:'Butterflies are so delicate and clean.'},
         {word:'喧嚷',pinyin:'xuān rǎng',en:'clamor',sentence:'雨点密集地喧嚷着。',sentenceEn:'Raindrops clamored densely.'},
         {word:'避开',pinyin:'bì kāi',en:'avoid',sentence:'蝴蝶怎么避开风雨？',sentenceEn:'How do butterflies avoid the wind and rain?'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u6211\u5e38\u60f3\uff0c\u4e0b\u5927\u96e8\u7684\u65f6\u5019\uff0c\u9752\u9e1f\u3001\u9ebb\u96c0\u8fd9\u4e9b\u9e1f\u90fd\u8981\u8eb2\u907f\u8d77\u6765\uff0c\u8774\u8776\u600e\u4e48\u529e\u5462\uff1f", exampleEn: "I often wonder: when it pours, birds like kingfishers and sparrows take shelter,", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u6211\u5e38\u60f3\uff0c\u4e0b\u5927\u96e8\u7684\u65f6\u5019\uff0c\u9752\u9e1f\u3001\u9ebb\u96c0\u8fd9\u4e9b\u9e1f\u90fd\u8981\u8eb2\u907f\u8d77\u6765\uff0c\u8774\u8776\u600e\u4e48\u529e\u5462\uff1f", exampleEn: "I often wonder: when it pours, birds like kingfishers and sparrows take shelter,", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"}
       ],
       footnotes: [
         {term:"\u9707\u64bc", termEn:"shake; shock", definition:"\u3010zh\u00e8n h\u00e0n\u3011shake; shock\u3002", definitionEn:"shake; shock"},
@@ -985,6 +997,10 @@ units: [
         {word:'屈服',pinyin:'qū fú',en:'yield; submit',sentence:'普罗米修斯就是不向宙斯屈服。',sentenceEn:'Prometheus never yielded to Zeus.'},
         {word:'自由',pinyin:'zì yóu',en:'freedom',sentence:'这位英雄终于获得了自由。',sentenceEn:'The hero finally gained his freedom.'}
       ],
+      grammarPoints: [
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u5f88\u4e45\u5f88\u4e45\u4ee5\u524d\uff0c\u5730\u9762\u4e0a\u6ca1\u6709\u706b\uff0c\u4eba\u4eec\u53ea\u597d\u5403\u751f\u7684\u4e1c\u897f\uff0c\u5728\u65e0\u8fb9\u7684\u9ed1\u6697\u2026", exampleEn: "Long ago there was no fire on earth. People ate raw food and spent night after n", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"},
+        {point: "\u88ab\u5b57\u53e5", pointEn: "b\u00e8i-construction (passive)", example: "\u5f88\u4e45\u5f88\u4e45\u4ee5\u524d\uff0c\u5730\u9762\u4e0a\u6ca1\u6709\u706b\uff0c\u4eba\u4eec\u53ea\u597d\u5403\u751f\u7684\u4e1c\u897f\uff0c\u5728\u65e0\u8fb9\u7684\u9ed1\u6697\u2026", exampleEn: "Long ago there was no fire on earth. People ate raw food and spent night after n", explanation: "\u88ab\u52a8\u53e5\uff0c\u8868\u793a\u4e3b\u8bed\u662f\u52a8\u4f5c\u7684\u627f\u53d7\u8005", explanationEn: "Passive construction where the subject receives the action"}
+      ],
       footnotes: [
         {term:"\u706b\u79cd", termEn:"fire seed; spark", definition:"\u3010hu\u01d2 zh\u01d2ng\u3011fire seed; spark\u3002", definitionEn:"fire seed; spark"},
         {term:"\u6c14\u6025\u8d25\u574f", termEn:"furious; livid", definition:"\u3010q\u00ec j\u00ed b\u00e0i hu\u00e0i\u3011furious; livid\u3002", definitionEn:"furious; livid"},
@@ -1043,6 +1059,10 @@ units: [
         {word:'熔炼',pinyin:'róng liàn',en:'smelt',sentence:'燃起神火熔炼五色石头。',sentenceEn:'She kindled divine fire to smelt the five-colored stones.'},
         {word:'坍塌',pinyin:'tān tā',en:'collapse',sentence:'担心补好的天再坍塌下来。',sentenceEn:'Worried that the mended sky might collapse again.'},
         {word:'传颂',pinyin:'chuán sòng',en:'celebrate; praise',sentence:'人们世世代代传颂着她的伟大功绩。',sentenceEn:'People celebrated her great achievements through generations.'}
+      ],
+      grammarPoints: [
+        {point: "\u5148\u2026\u2026\u518d\u2026\u2026", pointEn: "first...then...", example: "\u81ea\u4ece\u5973\u5a32\u521b\u9020\u4e86\u4eba\u7c7b\uff0c\u5927\u5730\u4e0a\u5230\u5904\u6b22\u58f0\u7b11\u8bed\uff0c\u4eba\u4eec\u8fc7\u7740\u5feb\u4e50\u5e78\u798f\u7684\u751f\u6d3b\u3002", exampleEn: "After N\u00fcwa created humankind, the earth was filled with laughter and people live", explanation: "\u8868\u793a\u52a8\u4f5c\u7684\u5148\u540e\u987a\u5e8f", explanationEn: "Indicates sequential order of actions"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u81ea\u4ece\u5973\u5a32\u521b\u9020\u4e86\u4eba\u7c7b\uff0c\u5927\u5730\u4e0a\u5230\u5904\u6b22\u58f0\u7b11\u8bed\uff0c\u4eba\u4eec\u8fc7\u7740\u5feb\u4e50\u5e78\u798f\u7684\u751f\u6d3b\u3002", exampleEn: "After N\u00fcwa created humankind, the earth was filled with laughter and people live", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
       ],
       footnotes: [
         {term:"\u7a9f\u7abf", termEn:"hole; gap", definition:"\u3010k\u016b long\u3011hole; gap\u3002", definitionEn:"hole; gap"},
@@ -1222,6 +1242,10 @@ units: [
         {word:'奋力',pinyin:'fèn lì',en:'with all one’s might',sentence:'我奋力向峰顶爬去。',sentenceEn:'I climbed toward the summit with all my might.'},
         {word:'汲取',pinyin:'jí qǔ',en:'draw; absorb',sentence:'都会从别人身上汲取力量！',sentenceEn:'Both drew strength from each other!'},
         {word:'鼓舞',pinyin:'gǔ wǔ',en:'inspire; encourage',sentence:'要不是你的勇气鼓舞我。',sentenceEn:'If not for your courage inspiring me.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u5047\u65e5\u91cc\uff0c\u7238\u7238\u5e26\u6211\u53bb\u9ec4\u5c71\uff0c\u722c\u5929\u90fd\u5cf0\u3002", exampleEn: "During the holiday, Dad took me to climb Tiandu Peak at Huangshan.", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u5047\u65e5\u91cc\uff0c\u7238\u7238\u5e26\u6211\u53bb\u9ec4\u5c71\uff0c\u722c\u5929\u90fd\u5cf0\u3002", exampleEn: "During the holiday, Dad took me to climb Tiandu Peak at Huangshan.", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u77f3\u7ea7", termEn:"stone steps", definition:"\u3010sh\u00ed j\u00ed\u3011stone steps\u3002", definitionEn:"stone steps"},
@@ -1408,6 +1432,10 @@ units: [
         {word:'通情达理',pinyin:'tōng qíng dá lǐ',en:'sensible; understanding',sentence:'老师真是个通情达理的好老师。',sentenceEn:'The teacher was truly a sensible, understanding teacher.'},
         {word:'哄堂大笑',pinyin:'hōng táng dà xiào',en:'burst into laughter',sentence:'只听见台下一阵哄堂大笑。',sentenceEn:'The audience burst into laughter.'}
       ],
+      grammarPoints: [
+        {point: "\u5148\u2026\u2026\u518d\u2026\u2026", pointEn: "first...then...", example: "\u6211\u5ff5\u7684\u90a3\u6240\u5c0f\u5b66\u6bcf\u661f\u671f\u516d\u4e0b\u5348\u5168\u6821\u5f00\u5468\u4f1a\uff0c\u4f1a\u4e0a\u603b\u6709\u6587\u827a\u8868\u6f14\u3002", exampleEn: "At my primary school, every Saturday afternoon there was an assembly with perfor", explanation: "\u8868\u793a\u52a8\u4f5c\u7684\u5148\u540e\u987a\u5e8f", explanationEn: "Indicates sequential order of actions"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u6211\u5ff5\u7684\u90a3\u6240\u5c0f\u5b66\u6bcf\u661f\u671f\u516d\u4e0b\u5348\u5168\u6821\u5f00\u5468\u4f1a\uff0c\u4f1a\u4e0a\u603b\u6709\u6587\u827a\u8868\u6f14\u3002", exampleEn: "At my primary school, every Saturday afternoon there was an assembly with perfor", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
+      ],
       footnotes: [
         {term:"\u7fa1\u6155", termEn:"envy", definition:"\u3010xi\u00e0n m\u00f9\u3011envy\u3002", definitionEn:"envy"},
         {term:"\u6bb7\u5207", termEn:"earnest; eager", definition:"\u3010y\u012bn qi\u00e8\u3011earnest; eager\u3002", definitionEn:"earnest; eager"},
@@ -1577,6 +1605,9 @@ units: [
         {word:'沙场',pinyin:'shā chǎng',en:'battlefield',sentence:'醉卧沙场君莫笑。',sentenceEn:'Don’t laugh if we lie drunk on the battlefield.'},
         {word:'项羽',pinyin:'xiàng yǔ',en:'Xiang Yu',sentence:'至今思项羽，不肯过江东。',sentenceEn:'Even now we think of Xiang Yu, who refused to cross east.'}
       ],
+      grammarPoints: [
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u4e07\u91cc\u957f\u5f81\u4eba\u672a\u8fd8\u3002", exampleEn: "Beyond the Border\nby Wang Changling (Tang)\nThe same moon of Qin, the same passes", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u5f81", termEn:"expedition; campaign", definition:"\u3010zh\u0113ng\u3011expedition; campaign\u3002", definitionEn:"expedition; campaign"},
         {term:"\u98de\u5c06", termEn:"Flying General", definition:"\u3010f\u0113i ji\u00e0ng\u3011Flying General\u3002", definitionEn:"Flying General"},
@@ -1708,6 +1739,10 @@ units: [
         {word:'斩钉截铁',pinyin:'zhǎn dīng jié tiě',en:'adamantly; firmly',sentence:'梅兰芳斩钉截铁地说。',sentenceEn:'Mei Lanfang said adamantly.'},
         {word:'民族气节',pinyin:'mín zú qì jié',en:'national integrity',sentence:'他的民族气节更令人敬佩。',sentenceEn:'His national integrity won even greater respect.'}
       ],
+      grammarPoints: [
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u6885\u5170\u82b3\u5148\u751f\u662f\u95fb\u540d\u4e16\u754c\u7684\u4eac\u5267\u8868\u6f14\u827a\u672f\u5bb6\u3002", exampleEn: "Mei Lanfang was a world-renowned Peking opera artist. On stage he played female ", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"},
+        {point: "\u5148\u2026\u2026\u518d\u2026\u2026", pointEn: "first...then...", example: "\u6885\u5170\u82b3\u5148\u751f\u662f\u95fb\u540d\u4e16\u754c\u7684\u4eac\u5267\u8868\u6f14\u827a\u672f\u5bb6\u3002", exampleEn: "Mei Lanfang was a world-renowned Peking opera artist. On stage he played female ", explanation: "\u8868\u793a\u52a8\u4f5c\u7684\u5148\u540e\u987a\u5e8f", explanationEn: "Indicates sequential order of actions"}
+      ],
       footnotes: [
         {term:"\u84c4\u987b", termEn:"grow a beard", definition:"\u3010x\u00f9 x\u016b\u3011grow a beard\u3002", definitionEn:"grow a beard"},
         {term:"\u6df1\u5c45\u7b80\u51fa", termEn:"live in seclusion", definition:"\u3010sh\u0113n j\u016b ji\u01cen ch\u016b\u3011live in seclusion\u3002", definitionEn:"live in seclusion"},
@@ -1767,6 +1802,10 @@ units: [
         {word:'茁壮',pinyin:'zhuó zhuàng',en:'sturdy; thriving',sentence:'像茁壮成长的小树。',sentenceEn:'Like saplings growing strong.'},
         {word:'灿烂辉煌',pinyin:'càn làn huī huáng',en:'brilliant; splendid',sentence:'延安，你的精神灿烂辉煌！',sentenceEn:'Yan’an, your spirit shines brilliantly!'},
         {word:'展翅飞翔',pinyin:'zhǎn chì fēi xiáng',en:'soar; spread wings',sentence:'怎能向美好的未来展翅飞翔？',sentenceEn:'How could we soar toward a beautiful future?'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u5728\u8ffd\u5bfb\u96e8\u9732\u548c\u592a\u9633\u3002", exampleEn: "Like swallows gracefully returning,\npursuing the springtime of old;\nlike sapling", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u5728\u8ffd\u5bfb\u96e8\u9732\u548c\u592a\u9633\u3002", exampleEn: "Like swallows gracefully returning,\npursuing the springtime of old;\nlike sapling", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
       ],
       footnotes: [
         {term:"\u8ffd\u5bfb", termEn:"pursue", definition:"\u3010zhu\u012b x\u00fan\u3011pursue\u3002", definitionEn:"pursue"},

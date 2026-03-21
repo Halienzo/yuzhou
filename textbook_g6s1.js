@@ -165,6 +165,9 @@ units: [
         {word:'翻墨',pinyin:'fān mò',en:'overturned ink',sentence:'黑云翻墨未遮山，白雨跳珠乱入船。',sentenceEn:'Black clouds like overturned ink, not yet hiding the hills; white rain like jumping pearls.'},
         {word:'茅店',pinyin:'máo diàn',en:'thatched inn',sentence:'旧时茅店社林边，路转溪桥忽见。',sentenceEn:'By the old thatched inn near the village shrine, the path turns and there it appears.'}
       ],
+      grammarPoints: [
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u79fb\u821f\u6cca\u70df\u6e1a\uff0c\u65e5\u66ae\u5ba2\u6101\u65b0\u3002", exampleEn: "Mooring on the Jiande River\n[Tang] Meng Haoran\nMoving the boat to moor by a mist", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u70df\u6e1a", termEn:"misty islet", definition:"\u3010y\u0101n zh\u01d4\u3011misty islet\u3002", definitionEn:"misty islet"},
         {term:"\u91ce\u65f7", termEn:"vast wilderness", definition:"\u3010y\u011b ku\u00e0ng\u3011vast wilderness\u3002", definitionEn:"vast wilderness"},
@@ -226,6 +229,9 @@ units: [
         {word:'孕育',pinyin:'yùn yù',en:'to nurture; to conceive',sentence:'冬将我孕育，春使我开放。',sentenceEn:'Winter conceives me, Spring unfolds me.'},
         {word:'冠冕',pinyin:'guān miǎn',en:'crown',sentence:'我是婚礼的冠冕。',sentenceEn:'I am the crown of weddings.'},
         {word:'心驰神往',pinyin:'xīn chí shén wǎng',en:'filled with longing',sentence:'我总是仰望高空，对光明心驰神往。',sentenceEn:'I always look upward, yearning for the light.'}
+      ],
+      grammarPoints: [
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u6211\u662f\u5927\u81ea\u7136\u7684\u8bdd\u8bed\uff0c\u5927\u81ea\u7136\u8bf4\u51fa\u6765\uff0c\u53c8\u6536\u56de\u53bb\uff0c\u85cf\u5728\u5fc3\u95f4\uff0c\u7136\u540e\u53c8\u8bf4\u2026", exampleEn: "I am a word uttered by Nature, which she then takes back and hides in her heart,", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u5927\u81ea\u7136", termEn:"nature", definition:"\u3010d\u00e0 z\u00ec r\u00e1n\u3011nature\u3002", definitionEn:"nature"},
@@ -543,6 +549,10 @@ units: [
         {word:'牺牲',pinyin:'xī shēng',en:'to sacrifice',sentence:'他自己却没有来得及见一见电灯。',sentenceEn:'He himself never got to see an electric light.'},
         {word:'沉入',pinyin:'chén rù',en:'to sink into',sentence:'于是，我沉入了深深的回忆。',sentenceEn:'I sank into deep memory.'}
       ],
+      grammarPoints: [
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u6211\u7231\u5230\u5929\u5b89\u95e8\u5e7f\u573a\u8d70\u8d70\uff0c\u5c24\u5176\u662f\u665a\u4e0a\u3002", exampleEn: "I love to stroll around Tiananmen Square, especially at night. Thousands of ligh", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u6211\u7231\u5230\u5929\u5b89\u95e8\u5e7f\u573a\u8d70\u8d70\uff0c\u5c24\u5176\u662f\u665a\u4e0a\u3002", exampleEn: "I love to stroll around Tiananmen Square, especially at night. Thousands of ligh", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
+      ],
       footnotes: [
         {term:"\u7480\u74a8", termEn:"brilliant; dazzling", definition:"\u3010cu\u01d0 c\u00e0n\u3011brilliant; dazzling\u3002", definitionEn:"brilliant; dazzling"},
         {term:"\u8d5e\u53f9", termEn:"to exclaim with admiration", definition:"\u3010z\u00e0n t\u00e0n\u3011to exclaim with admiration\u3002", definitionEn:"to exclaim with admiration"},
@@ -629,6 +639,10 @@ units: [
         {word:'燃烧弹',pinyin:'rán shāo dàn',en:'incendiary bomb',sentence:'敌人用燃烧弹进行搜索。',sentenceEn:'The enemy launched a search with incendiary bombs.'},
         {word:'纹丝不动',pinyin:'wén sī bù dòng',en:'motionless; perfectly still',sentence:'像千斤巨石，伏在那儿纹丝不动。',sentenceEn:'He lay motionless like a thousand-jin boulder.'},
         {word:'严守纪律',pinyin:'yán shǒu jì lǜ',en:'to strictly observe discipline',sentence:'直到牺牲前的最后一息，都没发出哪怕是极轻微的一声呻吟。',sentenceEn:'Until his very last breath, he did not utter even the faintest moan.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u5929\u4eae\u4ee5\u524d\uff0c\u6211\u4eec\u5728391\u9ad8\u5730\u7684\u5c71\u5773\u91cc\uff0c\u627e\u4e86\u4e00\u6761\u6bd4\u8f83\u9690\u853d\u7684\u5c71\u6c9f\u6f5c\u4f0f\u8d77\u6765\u3002", exampleEn: "Before dawn, we found a concealed gully in the hills of Height 391 and lay in am", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u5929\u4eae\u4ee5\u524d\uff0c\u6211\u4eec\u5728391\u9ad8\u5730\u7684\u5c71\u5773\u91cc\uff0c\u627e\u4e86\u4e00\u6761\u6bd4\u8f83\u9690\u853d\u7684\u5c71\u6c9f\u6f5c\u4f0f\u8d77\u6765\u3002", exampleEn: "Before dawn, we found a concealed gully in the hills of Height 391 and lay in am", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"}
       ],
       footnotes: [
         {term:"\u6f5c\u4f0f", termEn:"to lie hidden", definition:"\u3010qi\u00e1n f\u00fa\u3011to lie hidden\u3002", definitionEn:"to lie hidden"},
@@ -874,6 +888,10 @@ units: [
         {word:'探测器',pinyin:'tàn cè qì',en:'probe; detector',sentence:'科学家们利用探测器对火星作近距离的观测。',sentenceEn:'Scientists used probes for close-range observation of Mars.'},
         {word:'适合',pinyin:'shì hé',en:'suitable',sentence:'适合生物生存的温度。',sentenceEn:'Temperature suitable for biological survival.'}
       ],
+      grammarPoints: [
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u53e4\u65f6\u5019\uff0c\u79d1\u5b66\u4e0d\u53d1\u8fbe\uff0c\u4eba\u4eec\u4e00\u76f4\u5411\u5f80\u7740\u201c\u5929\u4e0a\u7684\u4e16\u754c\u201d\u3002", exampleEn: "In ancient times, science was undeveloped and people yearned for \u201cthe world abov", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"},
+        {point: "\u4e0d\u4f46\u2026\u2026\u800c\u4e14\u2026\u2026", pointEn: "not only...but also...", example: "\u53e4\u65f6\u5019\uff0c\u79d1\u5b66\u4e0d\u53d1\u8fbe\uff0c\u4eba\u4eec\u4e00\u76f4\u5411\u5f80\u7740\u201c\u5929\u4e0a\u7684\u4e16\u754c\u201d\u3002", exampleEn: "In ancient times, science was undeveloped and people yearned for \u201cthe world abov", explanation: "\u9012\u8fdb\u590d\u53e5\uff0c\u540e\u4e00\u5206\u53e5\u6bd4\u524d\u4e00\u5206\u53e5\u7a0b\u5ea6\u66f4\u6df1", explanationEn: "Progressive compound sentence where the second clause goes further than the first"}
+      ],
       footnotes: [
         {term:"\u731c\u6d4b", termEn:"to speculate", definition:"\u3010c\u0101i c\u00e8\u3011to speculate\u3002", definitionEn:"to speculate"},
         {term:"\u67af\u7aed", termEn:"to be exhausted; depleted", definition:"\u3010k\u016b ji\u00e9\u3011to be exhausted; depleted\u3002", definitionEn:"to be exhausted; depleted"},
@@ -961,6 +979,10 @@ units: [
         {word:'井然有序',pinyin:'jǐng rán yǒu xù',en:'orderly and well-arranged',sentence:'错综相连而又井然有序。',sentenceEn:'Intricately connected yet orderly.'},
         {word:'中轴线',pinyin:'zhōng zhóu xiàn',en:'central axis',sentence:'三大殿建在紫禁城的中轴线上。',sentenceEn:'The Three Great Halls stand on the central axis.'},
         {word:'俗称',pinyin:'sú chēng',en:'commonly known as',sentence:'太和殿俗称金銮殿。',sentenceEn:'The Hall of Supreme Harmony is commonly known as the Golden Throne Hall.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u5728\u5317\u4eac\u57ce\u7684\u4e2d\u5fc3\uff0c\u6709\u4e00\u5ea7\u57ce\u4e2d\u4e4b\u57ce\uff0c\u8fd9\u5c31\u662f\u7d2b\u7981\u57ce\u3002", exampleEn: "At the center of Beijing lies a city within a city\u2014the Forbidden City. Now calle", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u5728\u5317\u4eac\u57ce\u7684\u4e2d\u5fc3\uff0c\u6709\u4e00\u5ea7\u57ce\u4e2d\u4e4b\u57ce\uff0c\u8fd9\u5c31\u662f\u7d2b\u7981\u57ce\u3002", exampleEn: "At the center of Beijing lies a city within a city\u2014the Forbidden City. Now calle", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
       ],
       footnotes: [
         {term:"\u77d7\u7acb", termEn:"to stand tall", definition:"\u3010ch\u00f9 l\u00ec\u3011to stand tall\u3002", definitionEn:"to stand tall"},
@@ -1395,6 +1417,10 @@ units: [
         {word:'闪烁',pinyin:'shǎn shuò',en:'to gleam; to glitter',sentence:'在这个长满了红锈的鱼钩上，闪烁着灿烂的金色的光芒！',sentenceEn:'On that rust-covered hook gleamed a brilliant golden light!'},
         {word:'缝衣针',pinyin:'féng yī zhēn',en:'sewing needle',sentence:'老班长用缝衣针弯成个钓鱼钩。',sentenceEn:'Old Squad Leader bent a sewing needle into a fishhook.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "1935\u5e74\u79cb\u5929\uff0c\u7ea2\u56db\u65b9\u9762\u519b\u8fdb\u5165\u8349\u5730\uff0c\u8bb8\u591a\u540c\u5fd7\u5f97\u4e86\u80a0\u80c3\u75c5\u3002", exampleEn: "In autumn 1935, the Fourth Front Army entered the grasslands, and many comrades ", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "1935\u5e74\u79cb\u5929\uff0c\u7ea2\u56db\u65b9\u9762\u519b\u8fdb\u5165\u8349\u5730\uff0c\u8bb8\u591a\u540c\u5fd7\u5f97\u4e86\u80a0\u80c3\u75c5\u3002", exampleEn: "In autumn 1935, the Fourth Front Army entered the grasslands, and many comrades ", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"}
+      ],
       footnotes: [
         {term:"\u8001\u73ed\u957f", termEn:"old squad leader", definition:"\u3010l\u01ceo b\u0101n zh\u01ceng\u3011old squad leader\u3002", definitionEn:"old squad leader"},
         {term:"\u4e25\u5cfb", termEn:"severe; grim", definition:"\u3010y\u00e1n j\u00f9n\u3011severe; grim\u3002", definitionEn:"severe; grim"},
@@ -1596,6 +1622,10 @@ units: [
         {word:'理直气壮',pinyin:'lǐ zhí qì zhuàng',en:'with full confidence',sentence:'理直气壮地打开柜门，拿出雨衣。',sentenceEn:'I triumphantly opened the closet and grabbed my raincoat.'},
         {word:'甩',pinyin:'shuǎi',en:'to swing; to fling',sentence:'我走在街上，甩着两只透明的绿袖子。',sentenceEn:'I walked down the street, swinging my transparent green sleeves.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u6709\u4e00\u5929\uff0c\u5988\u5988\u4e0b\u73ed\u56de\u6765\uff0c\u9012\u7ed9\u6211\u4e00\u4e2a\u6241\u6241\u7684\u7eb8\u76d2\u5b50\u3002", exampleEn: "One day, Mom came home from work and handed me a flat paper box. Inside was a ne", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u56e0\u4e3a\u2026\u2026\u6240\u4ee5\u2026\u2026", pointEn: "because...therefore...", example: "\u6709\u4e00\u5929\uff0c\u5988\u5988\u4e0b\u73ed\u56de\u6765\uff0c\u9012\u7ed9\u6211\u4e00\u4e2a\u6241\u6241\u7684\u7eb8\u76d2\u5b50\u3002", exampleEn: "One day, Mom came home from work and handed me a flat paper box. Inside was a ne", explanation: "\u56e0\u679c\u590d\u53e5\uff0c\u8868\u793a\u539f\u56e0\u548c\u7ed3\u679c\u7684\u5173\u7cfb", explanationEn: "Causal compound sentence expressing cause and effect"}
+      ],
       footnotes: [
         {term:"\u76fc\u671b", termEn:"to long for; to yearn", definition:"\u3010p\u00e0n w\u00e0ng\u3011to long for; to yearn\u3002", definitionEn:"to long for; to yearn"},
         {term:"\u6597\u7bf7", termEn:"poncho; cape", definition:"\u3010d\u01d2u p\u00e9ng\u3011poncho; cape\u3002", definitionEn:"poncho; cape"},
@@ -1692,6 +1722,9 @@ units: [
         {word:'排闼',pinyin:'pái tà',en:'to push open the gate',sentence:'两山排闼送青来。',sentenceEn:'Two hills push open the gate, sending blue-green in.'},
         {word:'酒旗',pinyin:'jiǔ qí',en:'wine flag; tavern banner',sentence:'水村山郭酒旗风。',sentenceEn:'Water villages, mountain towns, wine flags in the breeze.'},
         {word:'茅檐',pinyin:'máo yán',en:'thatched eaves',sentence:'茅檐长扫净无苔。',sentenceEn:'The thatched eaves, long swept, are free of moss.'}
+      ],
+      grammarPoints: [
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u6d6a\u6dd8\u98ce\u7c38\u81ea\u5929\u6daf\u3002", exampleEn: "Waves of Sand (No. 1)\n[Tang] Liu Yuxi\nThe Yellow River winds ten thousand li thr", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u6d6a\u6dd8\u6c99", termEn:"waves washing sand", definition:"\u3010l\u00e0ng t\u00e1o sh\u0101\u3011waves washing sand\u3002", definitionEn:"waves washing sand"},
@@ -1817,6 +1850,10 @@ units: [
         {word:'治理',pinyin:'zhì lǐ',en:'to manage; to reclaim',sentence:'六十五岁那年，他组织了七位老汉开始治理这条沟。',sentenceEn:'At sixty-five, he organized seven old men to start reclaiming this gully.'},
         {word:'归宿',pinyin:'guī sù',en:'final resting place; destination',sentence:'屋后的青山就是生命的归宿。',sentenceEn:'The green mountains behind the house were his final resting place.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u7a97\u5916\u662f\u53c2\u5929\u7684\u6768\u67f3\u3002", exampleEn: "Outside the window stood towering willows. The courtyard sat in a mountain gully", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u7a97\u5916\u662f\u53c2\u5929\u7684\u6768\u67f3\u3002", exampleEn: "Outside the window stood towering willows. The courtyard sat in a mountain gully", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
+      ],
       footnotes: [
         {term:"\u8086\u8650", termEn:"to ravage; to wreak havoc", definition:"\u3010s\u00ec n\u00fc\u00e8\u3011to ravage; to wreak havoc\u3002", definitionEn:"to ravage; to wreak havoc"},
         {term:"\u76d8\u8e1e", termEn:"to occupy; to entrench", definition:"\u3010p\u00e1n j\u00f9\u3011to occupy; to entrench\u3002", definitionEn:"to occupy; to entrench"},
@@ -1896,6 +1933,10 @@ units: [
         {word:'土疙瘩',pinyin:'tǔ gē da',en:'clump of earth',sentence:'每一块土疙瘩都给细细打碎。',sentenceEn:'Every clump of earth was finely crumbled.'},
         {word:'荞麦',pinyin:'qiáo mài',en:'buckwheat',sentence:'看见自己种的荞麦已经开花，白霎霎的像一片雪。',sentenceEn:'His buckwheat had bloomed, white as a blanket of snow.'},
         {word:'蝈蝈',pinyin:'guō guō',en:'katydid',sentence:'荞麦地里还有两个蝈蝈儿在叫唤。',sentenceEn:'Two katydids were calling in the buckwheat field.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u5c31\u628a\u6574\u4e2a\u751f\u547d\u6295\u5165\u4e86\u571f\u5730\u3002", exampleEn: "Once a farmer has land,\nHe throws his whole life into it.\nLike a goose in drough", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u56e0\u4e3a\u2026\u2026\u6240\u4ee5\u2026\u2026", pointEn: "because...therefore...", example: "\u5c31\u628a\u6574\u4e2a\u751f\u547d\u6295\u5165\u4e86\u571f\u5730\u3002", exampleEn: "Once a farmer has land,\nHe throws his whole life into it.\nLike a goose in drough", explanation: "\u56e0\u679c\u590d\u53e5\uff0c\u8868\u793a\u539f\u56e0\u548c\u7ed3\u679c\u7684\u5173\u7cfb", explanationEn: "Causal compound sentence expressing cause and effect"}
       ],
       footnotes: [
         {term:"\u7ffb\u8eab", termEn:"to be liberated; to turn over", definition:"\u3010f\u0101n sh\u0113n\u3011to be liberated; to turn over\u3002", definitionEn:"to be liberated; to turn over"},
@@ -2119,6 +2160,10 @@ units: [
         {word:'戛然而止',pinyin:'jiá rán ér zhǐ',en:'to stop abruptly',sentence:'那紧张而又整齐的锣鼓声忽然一停，人物的动作也戛然而止。',sentenceEn:'The drumbeats suddenly stopped, and the actors froze.'},
         {word:'约定俗成',pinyin:'yuē dìng sú chéng',en:'established by convention',sentence:'不同人物在使用马鞭时，形成了一套约定俗成的方法。',sentenceEn:'Different characters have developed their own established ways of using the whip.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u4e2d\u56fd\u53e4\u4eba\u65f6\u5e38\u8981\u9a91\u9a6c\u3002", exampleEn: "The Horse Whip\nAncient Chinese people frequently rode horses. But riding a horse", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u4e0d\u4f46\u2026\u2026\u800c\u4e14\u2026\u2026", pointEn: "not only...but also...", example: "\u4e2d\u56fd\u53e4\u4eba\u65f6\u5e38\u8981\u9a91\u9a6c\u3002", exampleEn: "The Horse Whip\nAncient Chinese people frequently rode horses. But riding a horse", explanation: "\u9012\u8fdb\u590d\u53e5\uff0c\u540e\u4e00\u5206\u53e5\u6bd4\u524d\u4e00\u5206\u53e5\u7a0b\u5ea6\u66f4\u6df1", explanationEn: "Progressive compound sentence where the second clause goes further than the first"}
+      ],
       footnotes: [
         {term:"\u9a6c\u97ad", termEn:"horse whip; riding crop", definition:"\u3010m\u01ce bi\u0101n\u3011horse whip; riding crop\u3002", definitionEn:"horse whip; riding crop"},
         {term:"\u865a\u62df", termEn:"virtual; imaginary", definition:"\u3010x\u016b n\u01d0\u3011virtual; imaginary\u3002", definitionEn:"virtual; imaginary"},
@@ -2321,6 +2366,10 @@ units: [
         {word:'澄碧',pinyin:'chéng bì',en:'crystal-clear and green',sentence:'都倒影在澄碧的小河中。',sentenceEn:'All reflected in the crystal-clear river.'},
         {word:'凝视',pinyin:'níng shì',en:'to gaze intently',sentence:'我就要凝视他们。',sentenceEn:'I was about to gaze at them.'},
         {word:'皱蹙',pinyin:'zhòu cù',en:'crumpled; furrowed',sentence:'云锦也已皱蹙，凌乱。',sentenceEn:'The cloud tapestry was already crumpled and disordered.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u706f\u706b\u6e10\u6e10\u5730\u7f29\u5c0f\u4e86\uff0c\u5728\u9884\u544a\u77f3\u6cb9\u7684\u5df2\u7ecf\u4e0d\u591a\uff1b\u77f3\u6cb9\u53c8\u4e0d\u662f\u8001\u724c\uff0c\u65e9\u718f\u5f97\u706f\u7f69\u5f88\u660f\u6697\u3002", exampleEn: "The lamplight gradually shrank, warning that the kerosene was running low; it wa", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u4e0d\u4f46\u2026\u2026\u800c\u4e14\u2026\u2026", pointEn: "not only...but also...", example: "\u706f\u706b\u6e10\u6e10\u5730\u7f29\u5c0f\u4e86\uff0c\u5728\u9884\u544a\u77f3\u6cb9\u7684\u5df2\u7ecf\u4e0d\u591a\uff1b\u77f3\u6cb9\u53c8\u4e0d\u662f\u8001\u724c\uff0c\u65e9\u718f\u5f97\u706f\u7f69\u5f88\u660f\u6697\u3002", exampleEn: "The lamplight gradually shrank, warning that the kerosene was running low; it wa", explanation: "\u9012\u8fdb\u590d\u53e5\uff0c\u540e\u4e00\u5206\u53e5\u6bd4\u524d\u4e00\u5206\u53e5\u7a0b\u5ea6\u66f4\u6df1", explanationEn: "Progressive compound sentence where the second clause goes further than the first"}
       ],
       footnotes: [
         {term:"\u8499\u80e7", termEn:"hazy; dim", definition:"\u3010m\u00e9ng l\u00f3ng\u3011hazy; dim\u3002", definitionEn:"hazy; dim"},

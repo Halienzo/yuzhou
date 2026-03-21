@@ -291,6 +291,9 @@ units: [
         {word:'赠刘景文',pinyin:'zèng liú jǐng wén',en:'gift to Liu Jingwen',sentence:'赠刘景文。',sentenceEn:'Gift to Liu Jingwen.'},
         {word:'残荷',pinyin:'cán hé',en:'withered lotus',sentence:'荷尽已无擎雨盖。',sentenceEn:'The lotus gone, no umbrella shields the rain.'}
       ],
+      grammarPoints: [
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u8fdc\u4e0a\u5bd2\u5c71\u77f3\u5f84\u659c\uff0c\u767d\u4e91\u751f\u5904\u6709\u4eba\u5bb6\u3002", exampleEn: "Mountain Walk\n[Tang] Du Mu\nFar up the cold mountain, a stone path winds aslant; ", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u591c\u4e66\u6240\u89c1", termEn:"what I wrote seeing at night", definition:"\u3010y\u00e8 sh\u016b su\u01d2 ji\u00e0n\u3011what I wrote seeing at night\u3002", definitionEn:"what I wrote seeing at night"},
         {term:"\u8427\u8427", termEn:"rustling", definition:"\u3010xi\u0101o xi\u0101o\u3011rustling\u3002", definitionEn:"rustling"},
@@ -492,6 +495,9 @@ units: [
         {word:'歌吟',pinyin:'gē yín',en:'sing softly',sentence:'秋的声音在歌吟。',sentenceEn:'The sounds of autumn are singing.'},
         {word:'道别',pinyin:'dào bié',en:'say goodbye',sentence:'黄叶道别。',sentenceEn:'Yellow leaves say goodbye.'},
         {word:'辽阔',pinyin:'liáo kuò',en:'vast',sentence:'辽阔的田野。',sentenceEn:'The vast fields.'}
+      ],
+      grammarPoints: [
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u542c\u542c\uff0c\u79cb\u7684\u58f0\u97f3\uff0c\u5927\u6811\u6296\u6296\u624b\u81c2\uff0c\u201c\u5530\u5530\u201d\uff0c\u662f\u9ec4\u53f6\u9053\u522b\u7684\u8bdd\u97f3\u3002", exampleEn: "Listen \u2014 the sounds of autumn. A big tree shakes its arms: \u201cSwoosh, swoosh\u201d \u2014 th", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u53ee\u549b", termEn:"urge gently", definition:"\u3010d\u012bng n\u00edng\u3011urge gently\u3002", definitionEn:"urge gently"},
@@ -702,6 +708,10 @@ units: [
         {word:'阳台',pinyin:'yáng tái',en:'balcony',sentence:'坐在阳台上晒太阳。',sentenceEn:'Sitting on the balcony in the sun.'},
         {word:'舒服',pinyin:'shū fu',en:'comfortable',sentence:'那一定会很舒服。',sentenceEn:'That must feel very comfortable.'}
       ],
+      grammarPoints: [
+        {point: "\u4e00\u8fb9\u2026\u2026\u4e00\u8fb9\u2026\u2026", pointEn: "while doing...at the same time...", example: "\u79cd\u5b50\u88ab\u6ce5\u571f\u7d27\u7d27\u5730\u5305\u88f9\u7740\uff0c\u5b83\u4e0d\u5f97\u4e0d\u628a\u8eab\u4f53\u7f29\u6210\u4e00\u56e2\u3002", exampleEn: "The seed was tightly wrapped in soil and had to curl its body into a ball.", explanation: "\u8868\u793a\u4e24\u4e2a\u52a8\u4f5c\u540c\u65f6\u8fdb\u884c", explanationEn: "Indicates two actions happening simultaneously"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u79cd\u5b50\u88ab\u6ce5\u571f\u7d27\u7d27\u5730\u5305\u88f9\u7740\uff0c\u5b83\u4e0d\u5f97\u4e0d\u628a\u8eab\u4f53\u7f29\u6210\u4e00\u56e2\u3002", exampleEn: "The seed was tightly wrapped in soil and had to curl its body into a ball.", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
+      ],
       footnotes: [
         {term:"\u79cd\u5b50", termEn:"seed", definition:"\u3010zh\u01d2ng zi\u3011seed\u3002", definitionEn:"seed"},
         {term:"\u52aa\u529b", termEn:"strive", definition:"\u3010n\u01d4 l\u00ec\u3011strive\u3002", definitionEn:"strive"},
@@ -888,6 +898,10 @@ units: [
         {word:'犹豫',pinyin:'yóu yù',en:'hesitate',sentence:'蚂蚁队长犹豫了一下。',sentenceEn:'The ant captain hesitated.'},
         {word:'分配',pinyin:'fēn pèi',en:'distribute',sentence:'公平地分配食物。',sentenceEn:'Distribute food fairly.'},
         {word:'以身作则',pinyin:'yǐ shēn zuò zé',en:'lead by example',sentence:'队长以身作则。',sentenceEn:'The captain leads by example.'}
+      ],
+      grammarPoints: [
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u8682\u8681\u961f\u957f\u96c6\u5408\u597d\u961f\u4f0d\uff0c\u5411\u5927\u5bb6\u5ba3\u5e03\uff1a\u201c\u4eca\u5929\u642c\u8fd0\u7cae\u98df\uff0c\u53ea\u8bb8\u51fa\u529b\uff0c\u4e0d\u8bb8\u5077\u5634\u3002", exampleEn: "The ant captain assembled the troops and announced: \u201cToday we\u2019re transporting fo", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"},
+        {point: "\u88ab\u5b57\u53e5", pointEn: "b\u00e8i-construction (passive)", example: "\u8682\u8681\u961f\u957f\u96c6\u5408\u597d\u961f\u4f0d\uff0c\u5411\u5927\u5bb6\u5ba3\u5e03\uff1a\u201c\u4eca\u5929\u642c\u8fd0\u7cae\u98df\uff0c\u53ea\u8bb8\u51fa\u529b\uff0c\u4e0d\u8bb8\u5077\u5634\u3002", exampleEn: "The ant captain assembled the troops and announced: \u201cToday we\u2019re transporting fo", explanation: "\u88ab\u52a8\u53e5\uff0c\u8868\u793a\u4e3b\u8bed\u662f\u52a8\u4f5c\u7684\u627f\u53d7\u8005", explanationEn: "Passive construction where the subject receives the action"}
       ],
       footnotes: [
         {term:"\u5976\u916a", termEn:"cheese", definition:"\u3010n\u01cei l\u00e0o\u3011cheese\u3002", definitionEn:"cheese"},
@@ -1096,6 +1110,10 @@ units: [
         {word:'风筝',pinyin:'fēng zheng',en:'kite',sentence:'胡子被当成了风筝线。',sentenceEn:'His beard was used as kite string.'},
         {word:'晾衣绳',pinyin:'liàng yī shéng',en:'clothesline',sentence:'胡子被用作晾衣绳。',sentenceEn:'His beard was used as a clothesline.'}
       ],
+      grammarPoints: [
+        {point: "\u56e0\u4e3a\u2026\u2026\u6240\u4ee5\u2026\u2026", pointEn: "because...therefore...", example: "\u80e1\u841d\u535c\u5148\u751f\u5e38\u5e38\u4e3a\u80e1\u5b50\u53d1\u6101\uff0c\u56e0\u4e3a\u4ed6\u957f\u7740\u6d53\u5bc6\u7684\u80e1\u5b50\uff0c\u5fc5\u987b\u6bcf\u5929\u522e\u3002", exampleEn: "Mr. Carrot was always troubled by his beard, because he had a very thick beard t", explanation: "\u56e0\u679c\u590d\u53e5\uff0c\u8868\u793a\u539f\u56e0\u548c\u7ed3\u679c\u7684\u5173\u7cfb", explanationEn: "Causal compound sentence expressing cause and effect"},
+        {point: "\u88ab\u5b57\u53e5", pointEn: "b\u00e8i-construction (passive)", example: "\u80e1\u841d\u535c\u5148\u751f\u5e38\u5e38\u4e3a\u80e1\u5b50\u53d1\u6101\uff0c\u56e0\u4e3a\u4ed6\u957f\u7740\u6d53\u5bc6\u7684\u80e1\u5b50\uff0c\u5fc5\u987b\u6bcf\u5929\u522e\u3002", exampleEn: "Mr. Carrot was always troubled by his beard, because he had a very thick beard t", explanation: "\u88ab\u52a8\u53e5\uff0c\u8868\u793a\u4e3b\u8bed\u662f\u52a8\u4f5c\u7684\u627f\u53d7\u8005", explanationEn: "Passive construction where the subject receives the action"}
+      ],
       footnotes: [
         {term:"\u80e1\u841d\u535c", termEn:"carrot", definition:"\u3010h\u00fa lu\u00f3 bo\u3011carrot\u3002", definitionEn:"carrot"},
         {term:"\u53d1\u6101", termEn:"worry", definition:"\u3010f\u0101 ch\u00f3u\u3011worry\u3002", definitionEn:"worry"},
@@ -1164,6 +1182,10 @@ units: [
         {word:'嘲笑',pinyin:'cháo xiào',en:'ridicule',sentence:'有人嘲笑小狗。',sentenceEn:'Someone ridiculed the dog.'},
         {word:'尝试',pinyin:'cháng shì',en:'try',sentence:'小狗不断尝试。',sentenceEn:'The dog kept trying.'},
         {word:'自信',pinyin:'zì xìn',en:'confident',sentence:'最后小狗找到了自信。',sentenceEn:'Finally the dog found confidence.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u4ece\u524d\uff0c\u6709\u4e00\u6761\u4e0d\u4f1a\u53eb\u7684\u72d7\u3002", exampleEn: "Once upon a time, there was a dog that couldn\u2019t bark. It couldn\u2019t bark like a do", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u4ece\u524d\uff0c\u6709\u4e00\u6761\u4e0d\u4f1a\u53eb\u7684\u72d7\u3002", exampleEn: "Once upon a time, there was a dog that couldn\u2019t bark. It couldn\u2019t bark like a do", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u540c\u60c5", termEn:"sympathize", definition:"\u3010t\u00f3ng q\u00edng\u3011sympathize\u3002", definitionEn:"sympathize"},
@@ -1330,6 +1352,10 @@ units: [
         {word:'张开',pinyin:'zhāng kāi',en:'open up',sentence:'花朵张开了。',sentenceEn:'The flowers opened up.'},
         {word:'发现',pinyin:'fā xiàn',en:'discover',sentence:'我发现了草地变色的秘密。',sentenceEn:'I discovered the secret of the color-changing meadow.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u6211\u4eec\u4f4f\u5728\u4e61\u4e0b\uff0c\u7a97\u524d\u662f\u4e00\u5927\u7247\u8349\u5730\u3002", exampleEn: "We lived in the countryside. In front of our window was a large meadow full of d", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u6211\u4eec\u4f4f\u5728\u4e61\u4e0b\uff0c\u7a97\u524d\u662f\u4e00\u5927\u7247\u8349\u5730\u3002", exampleEn: "We lived in the countryside. In front of our window was a large meadow full of d", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
+      ],
       footnotes: [
         {term:"\u84b2\u516c\u82f1", termEn:"dandelion", definition:"\u3010p\u00fa g\u014dng y\u012bng\u3011dandelion\u3002", definitionEn:"dandelion"},
         {term:"\u7ed2\u6bdb", termEn:"fluff", definition:"\u3010r\u00f3ng m\u00e1o\u3011fluff\u3002", definitionEn:"fluff"},
@@ -1428,6 +1454,10 @@ units: [
         {word:'\u76F8\u5B9C',pinyin:'xi\u0101ng y\u00ED',en:'suitable; fitting',sentence:'\u6DE1\u5986\u6D53\u62B9\u603B\u76F8\u5B9C\u3002',sentenceEn:'Whether lightly or heavily adorned, she is always lovely.'},
         {word:'\u9065\u671B',pinyin:'y\u00E1o w\u00E0ng',en:'to gaze from afar',sentence:'\u9065\u671B\u6D1E\u5EAD\u5C71\u6C34\u7FE0\u3002',sentenceEn:'Gazing far at Dongting\u2019s green mountains and water.'},
         {word:'\u78A7\u6C34',pinyin:'b\u00EC shu\u01D0',en:'green/clear water',sentence:'\u78A7\u6C34\u4E1C\u6D41\u81F3\u6B64\u56DE\u3002',sentenceEn:'The blue water flows east and turns back here.'}
+      ],
+      grammarPoints: [
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u5929\u95e8\u4e2d\u65ad\u695a\u6c5f\u5f00\uff0c\u78a7\u6c34\u4e1c\u6d41\u81f3\u6b64\u56de\u3002", exampleEn: "Gazing at Tianmen Mountain\n[Tang] Li Bai\nTianmen Mountain splits open for the Ch", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u5929\u95e8\u4e2d\u65ad\u695a\u6c5f\u5f00\uff0c\u78a7\u6c34\u4e1c\u6d41\u81f3\u6b64\u56de\u3002", exampleEn: "Gazing at Tianmen Mountain\n[Tang] Li Bai\nTianmen Mountain splits open for the Ch", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
       ],
       footnotes: [
         {term:"\u5b64\u5e06", termEn:"a lone sail", definition:"\u3010g\u016b f\u0101n\u3011a lone sail\u3002", definitionEn:"a lone sail"},
@@ -1557,6 +1587,10 @@ units: [
         {word:'庭院',pinyin:'tíng yuàn',en:'courtyard',sentence:'庭院里种满了鲜花。',sentenceEn:'Courtyards are full of flowers.'},
         {word:'整洁',pinyin:'zhěng jié',en:'tidy',sentence:'小城的街道很整洁。',sentenceEn:'The town streets are very tidy.'},
         {word:'凤凰树',pinyin:'fèng huáng shù',en:'phoenix tree',sentence:'凤凰树开花了。',sentenceEn:'The phoenix tree is blooming.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u6211\u7684\u5bb6\u4e61\u5728\u5e7f\u4e1c\uff0c\u662f\u4e00\u5ea7\u6d77\u6ee8\u5c0f\u57ce\u3002", exampleEn: "My hometown in Guangdong is a seaside town. Walking to the end of any street, yo", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "\u6211\u7684\u5bb6\u4e61\u5728\u5e7f\u4e1c\uff0c\u662f\u4e00\u5ea7\u6d77\u6ee8\u5c0f\u57ce\u3002", exampleEn: "My hometown in Guangdong is a seaside town. Walking to the end of any street, yo", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"}
       ],
       footnotes: [
         {term:"\u6d77\u6ee8", termEn:"seaside", definition:"\u3010h\u01cei b\u012bn\u3011seaside\u3002", definitionEn:"seaside"},
@@ -1792,6 +1826,10 @@ units: [
         {word:'花鸟虫鱼',pinyin:'huā niǎo chóng yú',en:'flowers birds insects fish',sentence:'花鸟虫鱼都是老师。',sentenceEn:'Flowers, birds, insects, fish are all teachers.'},
         {word:'奥秘',pinyin:'ào mì',en:'mystery',sentence:'大自然充满了奥秘。',sentenceEn:'Nature is full of mysteries.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u6211\u4e94\u516d\u5c81\u65f6\uff0c\u5c31\u559c\u6b22\u5230\u5927\u81ea\u7136\u4e2d\u53bb\u5bfb\u627e\u597d\u73a9\u7684\u4e1c\u897f\u3002", exampleEn: "When I was five or six, I loved exploring nature for interesting things. The hig", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u6211\u4e94\u516d\u5c81\u65f6\uff0c\u5c31\u559c\u6b22\u5230\u5927\u81ea\u7136\u4e2d\u53bb\u5bfb\u627e\u597d\u73a9\u7684\u4e1c\u897f\u3002", exampleEn: "When I was five or six, I loved exploring nature for interesting things. The hig", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u5927\u81ea\u7136", termEn:"nature", definition:"\u3010d\u00e0 z\u00ec r\u00e1n\u3011nature\u3002", definitionEn:"nature"},
         {term:"\u8682\u8681", termEn:"ant", definition:"\u3010m\u01ce y\u01d0\u3011ant\u3002", definitionEn:"ant"},
@@ -1901,6 +1939,10 @@ units: [
         {word:'热腾腾',pinyin:'rè téng téng',en:'steaming',sentence:'鸟的气味热腾腾的。',sentenceEn:'The scent of birds is steamy.'},
         {word:'舒畅',pinyin:'shū chàng',en:'relaxed; happy',sentence:'鸟唱歌最舒畅。',sentenceEn:'Birds are happiest when singing.'},
         {word:'猎人',pinyin:'liè rén',en:'hunter',sentence:'最怕的是猎人。',sentenceEn:'What they fear most is hunters.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb\u53e5", pointEn: "Simile", example: "\u7236\u4eb2\u4e00\u751f\u6700\u559c\u6b22\u6811\u6797\u548c\u6b4c\u5531\u7684\u9e1f\u3002", exampleEn: "My father loved trees and singing birds his whole life.", explanation: "\u7528\u201c\u50cf\u201d\u201c\u4eff\u4f5b\u201d\u201c\u5982\u540c\u201d\u7b49\u8fdb\u884c\u6bd4\u8f83\uff0c\u4f7f\u8868\u8fbe\u66f4\u751f\u52a8", explanationEn: "Using \"like\" or \"as if\" for comparison to make descriptions more vivid"},
+        {point: "\u88ab\u5b57\u53e5", pointEn: "b\u00e8i-construction (passive)", example: "\u7236\u4eb2\u4e00\u751f\u6700\u559c\u6b22\u6811\u6797\u548c\u6b4c\u5531\u7684\u9e1f\u3002", exampleEn: "My father loved trees and singing birds his whole life.", explanation: "\u88ab\u52a8\u53e5\uff0c\u8868\u793a\u4e3b\u8bed\u662f\u52a8\u4f5c\u7684\u627f\u53d7\u8005", explanationEn: "Passive construction where the subject receives the action"}
       ],
       footnotes: [
         {term:"\u9ece\u660e", termEn:"dawn", definition:"\u3010l\u00ed m\u00edng\u3011dawn\u3002", definitionEn:"dawn"},
@@ -2084,6 +2126,10 @@ units: [
         {word:'果然',pinyin:'guǒ rán',en:'as expected',sentence:'灰雀果然飞回来了。',sentenceEn:'The sparrow returned, as expected.'},
         {word:'可惜',pinyin:'kě xī',en:'pity',sentence:'那只灰雀不见了，多可惜。',sentenceEn:'The sparrow is gone, what a pity.'}
       ],
+      grammarPoints: [
+        {point: "\u56e0\u4e3a\u2026\u2026\u6240\u4ee5\u2026\u2026", pointEn: "because...therefore...", example: "\u6709\u4e00\u5e74\u51ac\u5929\uff0c\u5217\u5b81\u5728\u90ca\u5916\u517b\u75c5\u3002", exampleEn: "One winter, Lenin was recuperating in the countryside. Every day he walked in th", explanation: "\u56e0\u679c\u590d\u53e5\uff0c\u8868\u793a\u539f\u56e0\u548c\u7ed3\u679c\u7684\u5173\u7cfb", explanationEn: "Causal compound sentence expressing cause and effect"},
+        {point: "\u603b\u5206\u7ed3\u6784", pointEn: "General-specific structure", example: "\u6709\u4e00\u5e74\u51ac\u5929\uff0c\u5217\u5b81\u5728\u90ca\u5916\u517b\u75c5\u3002", exampleEn: "One winter, Lenin was recuperating in the countryside. Every day he walked in th", explanation: "\u5148\u603b\u8ff0\u518d\u5206\u8ff0\uff0c\u6216\u5148\u5206\u8ff0\u518d\u603b\u7ed3\uff0c\u4f7f\u6587\u7ae0\u6761\u7406\u6e05\u6670", explanationEn: "Start with overview then details, or vice versa, for clear organization"}
+      ],
       footnotes: [
         {term:"\u7070\u96c0", termEn:"gray sparrow", definition:"\u3010hu\u012b qu\u00e8\u3011gray sparrow\u3002", definitionEn:"gray sparrow"},
         {term:"\u4ef0\u671b", termEn:"look up", definition:"\u3010y\u01ceng w\u00e0ng\u3011look up\u3002", definitionEn:"look up"},
@@ -2145,6 +2191,10 @@ units: [
         {word:'撤退',pinyin:'chè tuì',en:'retreat',sentence:'其他人撤退了。',sentenceEn:'Others retreated.'},
         {word:'坚持',pinyin:'jiān chí',en:'persist',sentence:'白求恩坚持做手术。',sentenceEn:'Bethune persisted in operating.'},
         {word:'白求恩',pinyin:'bái qiú ēn',en:'Norman Bethune',sentence:'白求恩是加拿大医生。',sentenceEn:'Bethune was a Canadian doctor.'}
+      ],
+      grammarPoints: [
+        {point: "\u628a\u5b57\u53e5", pointEn: "b\u01ce-construction", example: "1939\u5e74\u6625\uff0c\u9f50\u4f1a\u6218\u6597\u6253\u54cd\u4e86\u3002", exampleEn: "In the spring of 1939, the Battle of Qihui broke out. The arrogant Japanese troo", explanation: "\u7528\u201c\u628a\u201d\u5c06\u5bbe\u8bed\u63d0\u524d\uff0c\u5f3a\u8c03\u52a8\u4f5c\u5bf9\u5bf9\u8c61\u7684\u5f71\u54cd", explanationEn: "Moves the object before the verb using \"b\u01ce\" to emphasize the effect of the action"},
+        {point: "\u88ab\u5b57\u53e5", pointEn: "b\u00e8i-construction (passive)", example: "1939\u5e74\u6625\uff0c\u9f50\u4f1a\u6218\u6597\u6253\u54cd\u4e86\u3002", exampleEn: "In the spring of 1939, the Battle of Qihui broke out. The arrogant Japanese troo", explanation: "\u88ab\u52a8\u53e5\uff0c\u8868\u793a\u4e3b\u8bed\u662f\u52a8\u4f5c\u7684\u627f\u53d7\u8005", explanationEn: "Passive construction where the subject receives the action"}
       ],
       footnotes: [
         {term:"\u624b\u672f\u53f0", termEn:"operating table", definition:"\u3010sh\u01d2u sh\u00f9 t\u00e1i\u3011operating table\u3002", definitionEn:"operating table"},
@@ -2219,6 +2269,10 @@ units: [
         {word:'战士',pinyin:'zhàn shì',en:'soldier',sentence:'战士们送给她碗。',sentenceEn:'Soldiers gave her a bowl.'},
         {word:'粮食',pinyin:'liáng shi',en:'grain',sentence:'粮食很紧张。',sentenceEn:'Grain was very scarce.'},
         {word:'关心',pinyin:'guān xīn',en:'care about',sentence:'她关心战士们的生活。',sentenceEn:'She cared about the soldiers lives.'}
+      ],
+      grammarPoints: [
+        {point: "\u867d\u7136\u2026\u2026\u4f46\u662f\u2026\u2026", pointEn: "although...but...", example: "\u4e2d\u56fd\u4eba\u6c11\u9769\u547d\u519b\u4e8b\u535a\u7269\u9986\u91cc\uff0c\u9648\u5217\u7740\u4e00\u4e2a\u7c97\u74f7\u5927\u7897\uff0c\u662f\u8d75\u4e00\u66fc\u5728\u4e1c\u5317\u2026", exampleEn: "In the Military Museum of the Chinese People\u2019s Revolution, there is a large roug", explanation: "\u8f6c\u6298\u590d\u53e5\uff0c\u8868\u793a\u524d\u540e\u610f\u601d\u7684\u8f6c\u6298", explanationEn: "Adversative compound sentence showing contrast between clauses"},
+        {point: "\u56e0\u4e3a\u2026\u2026\u6240\u4ee5\u2026\u2026", pointEn: "because...therefore...", example: "\u4e2d\u56fd\u4eba\u6c11\u9769\u547d\u519b\u4e8b\u535a\u7269\u9986\u91cc\uff0c\u9648\u5217\u7740\u4e00\u4e2a\u7c97\u74f7\u5927\u7897\uff0c\u662f\u8d75\u4e00\u66fc\u5728\u4e1c\u5317\u2026", exampleEn: "In the Military Museum of the Chinese People\u2019s Revolution, there is a large roug", explanation: "\u56e0\u679c\u590d\u53e5\uff0c\u8868\u793a\u539f\u56e0\u548c\u7ed3\u679c\u7684\u5173\u7cfb", explanationEn: "Causal compound sentence expressing cause and effect"}
       ],
       footnotes: [
         {term:"\u7c97\u74f7", termEn:"coarse porcelain", definition:"\u3010c\u016b c\u00ed\u3011coarse porcelain\u3002", definitionEn:"coarse porcelain"},

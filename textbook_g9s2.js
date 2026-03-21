@@ -165,6 +165,10 @@ units: [
         {word:'卑微',pinyin:'bēi wēi',en:'humble; lowly',sentence:'我和一株顶高的树并排立着。',sentenceEn:'I stand side by side with the tallest tree.'},
         {word:'统一',pinyin:'tǒng yī',en:'unity; unification',sentence:'叶是不一样的，但是花是一样的。',sentenceEn:'The leaves are different, but the flowers are the same.'}
       ],
+      grammarPoints: [
+        {point: "\u610f\u8c61\u4e0e\u610f\u5883", pointEn: "Imagery and atmosphere", example: "\u971c\u98ce\u547c\u547c\u7684\u5439\u7740\uff0c\u6708\u5149\u660e\u660e\u7684\u7167\u7740\u3002", exampleEn: "Moonlit Night \u2014 Shen Yinmo\nThe frosty wind blows and blows, the moonlight shines", explanation: "\u8bd7\u4eba\u901a\u8fc7\u610f\u8c61\u7684\u9009\u62e9\u548c\u7ec4\u5408\u8425\u9020\u7279\u5b9a\u7684\u610f\u5883\uff0c\u4f20\u8fbe\u60c5\u611f", explanationEn: "Poets create atmosphere through selecting and combining imagery to convey emotions"},
+        {point: "\u97f5\u5f8b\u4e0e\u8282\u594f", pointEn: "Rhyme and rhythm", example: "\u971c\u98ce\u547c\u547c\u7684\u5439\u7740\uff0c\u6708\u5149\u660e\u660e\u7684\u7167\u7740\u3002", exampleEn: "Moonlit Night \u2014 Shen Yinmo\nThe frosty wind blows and blows, the moonlight shines", explanation: "\u8bd7\u6b4c\u901a\u8fc7\u62bc\u97f5\u3001\u5bf9\u4ed7\u3001\u53e5\u5f0f\u53d8\u5316\u4ea7\u751f\u97f3\u4e50\u7f8e", explanationEn: "Poetry achieves musicality through rhyme, parallelism, and varying line structures"}
+      ],
       footnotes: [
         {term:"\u971c\u98ce", termEn:"frosty wind", definition:"\u3010shu\u0101ng f\u0113ng\u3011frosty wind\u3002", definitionEn:"frosty wind"},
         {term:"\u53e3\u5360", termEn:"to compose a poem orally; impromptu verse", definition:"\u3010k\u01d2u zh\u00e0n\u3011to compose a poem orally; impromptu verse\u3002", definitionEn:"to compose a poem orally; impromptu verse"},
@@ -535,6 +539,10 @@ units: [
         {word:'涓涓',pinyin:'juān juān',en:'trickling; flowing gently',sentence:'怒江自西北天际亮亮而来，深远似涓涓细流。',sentenceEn:'The Nu River came shining from the northwest horizon, appearing deep and distant like a gentle trickle.'},
         {word:'俯望',pinyin:'fǔ wàng',en:'to look down at; to gaze downward',sentence:'俯望那江，蓦地心中一颤。',sentenceEn:'Looking down at the river, my heart suddenly trembled.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u963f\u57ce\u4e0d\u4fe1\u8fd9\u58f0\u97f3\u5c31\u662f\u6012\u6c5f\u3002", exampleEn: "Ah Cheng refused to believe that dull roar was the Nujiang. The head porter said", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u963f\u57ce\u4e0d\u4fe1\u8fd9\u58f0\u97f3\u5c31\u662f\u6012\u6c5f\u3002", exampleEn: "Ah Cheng refused to believe that dull roar was the Nujiang. The head porter said", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
+      ],
       footnotes: [
         {term:"\u4e07\u4e08\u7edd\u58c1", termEn:"towering sheer cliff", definition:"\u3010w\u00e0n zh\u00e0ng ju\u00e9 b\u00ec\u3011towering sheer cliff\u3002", definitionEn:"towering sheer cliff"},
         {term:"\u9531\u94e2", termEn:"a tiny amount; a trifle", definition:"\u3010z\u012b zh\u016b\u3011a tiny amount; a trifle\u3002", definitionEn:"a tiny amount; a trifle"},
@@ -595,6 +603,10 @@ units: [
         {word:'腌臜',pinyin:'ā zā',en:'dirty; filthy',sentence:'你这个腌臜泼才。',sentenceEn:'You filthy rascal.'},
         {word:'戏谑',pinyin:'xì xuè',en:'to banter; to tease',sentence:'他只顾嘻嘻哈哈地戏谑一番。',sentenceEn:'He just kept laughing and bantering.'},
         {word:'嘎咕',pinyin:'gā gu',en:'to make noise; to squabble',sentence:'何满子天不怕地不怕，却怕爷爷。',sentenceEn:'He Manzi feared nothing in heaven or earth, except his grandfather.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u4e03\u6708\u5929\uff0c\u4e2d\u4f0f\u5927\u664c\u5348\uff0c\u70ed\u5f97\u50cf\u5929\u4e0a\u4e0b\u706b\u3002", exampleEn: "It was the seventh lunar month, the height of the midsummer dog days, and the mi", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u4e03\u6708\u5929\uff0c\u4e2d\u4f0f\u5927\u664c\u5348\uff0c\u70ed\u5f97\u50cf\u5929\u4e0a\u4e0b\u706b\u3002", exampleEn: "It was the seventh lunar month, the height of the midsummer dog days, and the mi", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
       ],
       footnotes: [
         {term:"\u4e00\u4e08\u9752", termEn:"a tall, strong woman (nickname)", definition:"\u3010y\u012b zh\u00e0ng q\u012bng\u3011a tall, strong woman (nickname)\u3002", definitionEn:"a tall, strong woman (nickname)"},
@@ -1246,6 +1258,10 @@ units: [
         {word:'铢两悉称',pinyin:'zhū liǎng xī chèn',en:'to match exactly in every detail',sentence:'笔之于书的和存之于心的铢两悉称。',sentenceEn:'What is written matches what is in the heart in every detail.'},
         {word:'尽善尽美',pinyin:'jìn shàn jìn měi',en:'to be perfect in every way',sentence:'尽美尽善的条件很多。',sentenceEn:'There are many conditions for achieving perfection.'}
       ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u6731\u5149\u6f5c\u5b54\u5b50\u6709\u4e00\u5929\u7a81\u7136\u5f88\u9ad8\u5174\u5730\u5bf9\u4ed6\u7684\u5b66\u751f\u8bf4\uff1a\u201c\u4e88\u6b32\u65e0\u8a00\u3002", exampleEn: "Zhu Guangqian. One day Confucius said cheerfully to his disciples: \u201cI wish to sa", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u6731\u5149\u6f5c\u5b54\u5b50\u6709\u4e00\u5929\u7a81\u7136\u5f88\u9ad8\u5174\u5730\u5bf9\u4ed6\u7684\u5b66\u751f\u8bf4\uff1a\u201c\u4e88\u6b32\u65e0\u8a00\u3002", exampleEn: "Zhu Guangqian. One day Confucius said cheerfully to his disciples: \u201cI wish to sa", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
+      ],
       footnotes: [
         {term:"\u610f\u8574", termEn:"implied meaning; connotation", definition:"\u3010y\u00ec y\u00f9n\u3011implied meaning; connotation\u3002", definitionEn:"implied meaning; connotation"},
         {term:"\u8a00\u4e0d\u5c3d\u610f", termEn:"words cannot fully express meaning", definition:"\u3010y\u00e1n b\u00f9 j\u00ecn y\u00ec\u3011words cannot fully express meaning\u3002", definitionEn:"words cannot fully express meaning"},
@@ -1301,6 +1317,10 @@ units: [
         {word:'鉴赏',pinyin:'jiàn shǎng',en:'to appreciate; to appraise',sentence:'鉴赏文艺，最大目的无非是接受美感的经验。',sentenceEn:'The greatest purpose of appreciating literature is to receive the experience of beauty.'},
         {word:'意境',pinyin:'yì jìng',en:'artistic mood; conception',sentence:'在想象中睁开眼睛来看这十个文字所构成的一幅图画。',sentenceEn:'Open your eyes in your imagination to see the picture formed by these ten characters.'},
         {word:'受用',pinyin:'shòu yòng',en:'to benefit; to enjoy',sentence:'得到人生的受用。',sentenceEn:'To gain enjoyment and benefit in life.'}
+      ],
+      grammarPoints: [
+        {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u53f6\u5723\u9676\u5728\u539f\u59cb\u793e\u4f1a\u91cc\uff0c\u6587\u5b57\u8fd8\u6ca1\u6709\u521b\u9020\u51fa\u6765\uff0c\u5374\u5148\u6709\u4e86\u6b4c\u8c23\u4e00\u7c7b\u7684\u4e1c\u897f\u3002", exampleEn: "In primitive society, before writing had been invented, songs and rhymes of some", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+        {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u53f6\u5723\u9676\u5728\u539f\u59cb\u793e\u4f1a\u91cc\uff0c\u6587\u5b57\u8fd8\u6ca1\u6709\u521b\u9020\u51fa\u6765\uff0c\u5374\u5148\u6709\u4e86\u6b4c\u8c23\u4e00\u7c7b\u7684\u4e1c\u897f\u3002", exampleEn: "In primitive society, before writing had been invented, songs and rhymes of some", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
       ],
       footnotes: [
         {term:"\u9a71\u9063", termEn:"to drive; to deploy", definition:"\u3010q\u016b qi\u01cen\u3011to drive; to deploy\u3002", definitionEn:"to drive; to deploy"},

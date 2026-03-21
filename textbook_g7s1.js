@@ -227,6 +227,10 @@ var TB_G7S1 = {
             {word:'粗犷',pinyin:'cū guǎng',en:'bold and uninhibited',sentence:'夏天的雨也有夏天的性格，热烈而又粗犷。',sentenceEn:'Summer rain has the character of summer, passionate and bold.'},
             {word:'吝啬',pinyin:'lìn sè',en:'stingy; sparing',sentence:'它变得更吝啬了。',sentenceEn:'It becomes more sparing.'}
           ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u6211\u559c\u6b22\u96e8\uff0c\u65e0\u8bba\u4ec0\u4e48\u5b63\u8282\u7684\u96e8\uff0c\u6211\u90fd\u559c\u6b22\u3002", exampleEn: "I love rain \u2014 rain of any season, I love it all. The image and memory she gives ", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u6211\u559c\u6b22\u96e8\uff0c\u65e0\u8bba\u4ec0\u4e48\u5b63\u8282\u7684\u96e8\uff0c\u6211\u90fd\u559c\u6b22\u3002", exampleEn: "I love rain \u2014 rain of any season, I love it all. The image and memory she gives ", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
+          ],
           footnotes: [
             {term:"\u9759\u8c27", termEn:"tranquil; serene", definition:"\u3010j\u00ecng m\u00ec\u3011tranquil; serene\u3002", definitionEn:"tranquil; serene"},
             {term:"\u9ad8\u9088", termEn:"high and distant", definition:"\u3010g\u0101o mi\u01ceo\u3011high and distant\u3002", definitionEn:"high and distant"},
@@ -614,7 +618,13 @@ var TB_G7S1 = {
             "d\u00e0n sh\u00ec m\u01d4 q\u012bn m\u014d m\u014d s\u016bn \u00e9r de xi\u01ceo n\u01ceo gu\u0101\uff0c bi\u00e0n le zh\u01d4 y\u00ec\uff1a \u201c h\u00e1i sh\u00ec z\u01d2u xi\u01ceo l\u00f9 ba\uff01 \u201d t\u0101 de y\u01cen j\u012bng sh\u00f9n xi\u01ceo l\u00f9 w\u00e0ng gu\u00f2 q\u00f9\uff1a n\u00e0 l\u01d0 y\u01d2u j\u012bn s\u00e8 de c\u00e0i hu\u0101\u3001 li\u01ceng h\u00e1ng zh\u011bng q\u00ed de s\u0101ng sh\u00f9\uff0c j\u00ecn t\u00f3u y\u00ec k\u01d2u shu\u01d0 b\u014d l\u00edn l\u00edn de y\u00fa t\u00e1ng\u3002 \u201c w\u01d2 z\u01d2u b\u00fa gu\u00f2 q\u00f9 de d\u00ec f\u0101ng\uff0c n\u01d0 ji\u00f9 b\u00e8i zhe w\u01d2\u3002 \u201d m\u01d4 q\u012bn shu\u014d\u3002",
             "zh\u00e8 y\u00e0ng\uff0c w\u01d2 men ji\u00f9 z\u00e0i y\u00e1ng gu\u0101ng xi\u00e0\uff0c xi\u00e0ng zhe n\u00e0 c\u00e0i hu\u0101\u3001 s\u0101ng sh\u00f9 h\u00e9 y\u00fa t\u00e1ng z\u01d2u q\u00f9 le\u3002 d\u00e0o le y\u00ed ch\u00f9\uff0c w\u01d2 d\u016bn xi\u00e0 l\u00e1i\uff0c b\u00e8i q\u01d0 le w\u01d2 de m\u01d4 q\u012bn\uff0c q\u012b z\u01d0 y\u011b d\u016bn xi\u00e0 l\u00e1i\uff0c b\u00e8i q\u01d0 le w\u01d2 men de \u00e9r zi\u3002 w\u01d2 de m\u01d4 q\u012bn su\u012b r\u00e1n g\u0101o d\u00e0\uff0c r\u00e1n \u00e9r h\u011bn sh\u00f2u\uff0c z\u00ec r\u00e1n b\u00fa su\u00e0n zh\u00f2ng\uff1b \u00e9r zi su\u012b r\u00e1n h\u011bn p\u00e0ng\uff0c b\u00ec j\u00ecng y\u00f2u xi\u01ceo\uff0c z\u00ec r\u00e1n y\u011b h\u011bn q\u012bng\u3002 d\u00e0n w\u01d2 h\u00e9 q\u012b z\u01d0 d\u014du sh\u00ec m\u00e0n m\u00e0n d\u00ec\uff0c w\u011bn w\u011bn d\u00ec\uff0c z\u01d2u d\u00e9 h\u011bn z\u01cei x\u00ec\uff0c h\u01ceo xi\u00e0ng w\u01d2 b\u00e8i sh\u00e0ng de t\u00f3ng t\u0101 b\u00e8i sh\u00e0ng de ji\u0101 q\u01d0 l\u00e1i\uff0c ji\u00f9 sh\u00ec zh\u011bng g\u00e8 sh\u00ec ji\u00e8\u3002"
           ],
-          annotations: [],
+          annotations: [
+            {term: "\u5206\u6b67", termEn: "disagreement", pinyin: "f\u0113n q\u00ed", definition: "\u540e\u6765\u53d1\u751f\u4e86\u5206\u6b67\u3002", definitionEn: "Later a disagreement arose."},
+            {term: "\u970e\u65f6", termEn: "in an instant", pinyin: "sh\u00e0 sh\u00ed", definition: "\u90a3\u91cc\u6709\u91d1\u8272\u7684\u83dc\u82b1\uff0c\u4e24\u884c\u6574\u9f50\u7684\u6851\u6811\u3002", definitionEn: "There were golden rapeseed flowers, two rows of neat mulberry trees."},
+            {term: "\u7cbc\u7cbc", termEn: "shimmering (of water)", pinyin: "l\u00edn l\u00edn", definition: "\u6c34\u6ce2\u7cbc\u7cbc\u7684\u9c7c\u5858\u3002", definitionEn: "A shimmering fish pond."},
+            {term: "\u5ae9\u82bd", termEn: "tender buds", pinyin: "n\u00e8n y\u00e1", definition: "\u8fd9\u5357\u65b9\u521d\u6625\u7684\u7530\u91ce\uff0c\u5927\u5757\u5c0f\u5757\u7684\u65b0\u7eff\u968f\u610f\u5730\u94fa\u7740\u3002", definitionEn: "In these fields of early spring in the south, patches of new green lay scattered freely."},
+            {term: "\u71ac", termEn: "endure; pull through", pinyin: "\u00e1o", definition: "\u5979\u53c8\u71ac\u8fc7\u4e86\u4e00\u4e2a\u4e25\u51ac\u3002", definitionEn: "She endured through another harsh winter."}
+          ],
           thinkExplore: [
             { cn: "朗读课文，说说文章为什么取题为《散步》。如果换个角度另拟一个题目，你会以什么为题？", en: "Read aloud and explain why the article is titled 'A Walk.' If you could give it another title from a different angle, what would it be?" },
             { cn: "品味结尾语句，结合全文，说说你对课文深层意蕴的理解。", en: "Savor the concluding sentences and discuss your understanding of the text's deeper meaning." }
@@ -1802,6 +1812,10 @@ var TB_G7S1 = {
             {word:'禁锢',pinyin:'jìn gù',en:'imprison; confine',sentence:'从长期被禁锢所受的精神虐待中恢复过来。',sentenceEn:'Recovering from the mental abuse of long-term confinement.'},
             {word:'蹒跚',pinyin:'pán shān',en:'stagger; hobble',sentence:'老先生弯着身子，蹒跚地走过来。',sentenceEn:'The old man bent over and staggered toward me.'}
           ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u5728\u7814\u7a76\u9ad8\u7b49\u52a8\u7269\u7684\u884c\u4e3a\u65f6\uff0c\u5e38\u5e38\u4f1a\u53d1\u751f\u4e00\u4e9b\u8da3\u4e8b\uff0c\u4e0d\u8fc7\u9017\u7b11\u7684\u4e3b\u89d2\u5e38\u2026", exampleEn: "When studying the behavior of higher animals, funny things often happen, but the", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u5bf9\u6bd4\u624b\u6cd5", pointEn: "Contrast", example: "\u5728\u7814\u7a76\u9ad8\u7b49\u52a8\u7269\u7684\u884c\u4e3a\u65f6\uff0c\u5e38\u5e38\u4f1a\u53d1\u751f\u4e00\u4e9b\u8da3\u4e8b\uff0c\u4e0d\u8fc7\u9017\u7b11\u7684\u4e3b\u89d2\u5e38\u2026", exampleEn: "When studying the behavior of higher animals, funny things often happen, but the", explanation: "\u901a\u8fc7\u5bf9\u6bd4\u7a81\u51fa\u4e8b\u7269\u7684\u7279\u5f81\uff0c\u4f7f\u8868\u8fbe\u66f4\u9c9c\u660e", explanationEn: "Using contrast to highlight characteristics and sharpen the expression"}
+          ],
           footnotes: [
             {term:"\u55d4\u602a", termEn:"reproach", definition:"\u3010ch\u0113n gu\u00e0i\u3011reproach\u3002", definitionEn:"reproach"},
             {term:"\u602a\u8bde\u4e0d\u7ecf", termEn:"absurd and preposterous", definition:"\u3010gu\u00e0i d\u00e0n b\u00f9 j\u012bng\u3011absurd and preposterous\u3002", definitionEn:"absurd and preposterous"},
@@ -2186,6 +2200,10 @@ var TB_G7S1 = {
             {word:'眉开眼笑',pinyin:'méi kāi yǎn xiào',en:'beaming with joy',sentence:'不由得满心欢喜，眉开眼笑。',sentenceEn:'Could not help but feel overjoyed, beaming with delight.'},
             {word:'绵延',pinyin:'mián yán',en:'extend continuously',sentence:'人类就世世代代绵延下来。',sentenceEn:'Humanity extended continuously from generation to generation.'},
             {word:'孤独',pinyin:'gū dú',en:'lonely',sentence:'感到非常孤独。',sentenceEn:'Felt very lonely.'}
+          ],
+          grammarPoints: [
+            {point: "\u6bd4\u55bb", pointEn: "Simile/Metaphor", example: "\u5929\u5730\u5f00\u8f9f\u4ee5\u540e\uff0c\u5929\u4e0a\u6709\u4e86\u592a\u9633\u3001\u6708\u4eae\u548c\u661f\u661f\uff0c\u5730\u4e0a\u6709\u4e86\u5c71\u5ddd\u8349\u6728\uff0c\u751a\u2026", exampleEn: "After heaven and earth were created, the sky had sun, moon, and stars; the earth", explanation: "\u901a\u8fc7\u6bd4\u55bb\u4f7f\u62bd\u8c61\u7684\u4e8b\u7269\u5177\u4f53\u5316\uff0c\u589e\u5f3a\u8868\u8fbe\u6548\u679c", explanationEn: "Using metaphor to make abstract things concrete and enhance expressive effect"},
+            {point: "\u8868\u8fbe\u65b9\u5f0f", pointEn: "Modes of expression", example: "\u5929\u5730\u5f00\u8f9f\u4ee5\u540e\uff0c\u5929\u4e0a\u6709\u4e86\u592a\u9633\u3001\u6708\u4eae\u548c\u661f\u661f\uff0c\u5730\u4e0a\u6709\u4e86\u5c71\u5ddd\u8349\u6728\uff0c\u751a\u2026", exampleEn: "After heaven and earth were created, the sky had sun, moon, and stars; the earth", explanation: "\u53d9\u8ff0\u3001\u63cf\u5199\u3001\u8bae\u8bba\u3001\u6292\u60c5\u3001\u8bf4\u660e\u4e94\u79cd\u57fa\u672c\u8868\u8fbe\u65b9\u5f0f", explanationEn: "Five basic modes: narration, description, argumentation, lyrical expression, and exposition"}
           ],
           footnotes: [
             {term:"\u795e\u901a\u5e7f\u5927", termEn:"infinitely powerful", definition:"\u3010sh\u00e9n t\u014dng gu\u01ceng d\u00e0\u3011infinitely powerful\u3002", definitionEn:"infinitely powerful"},
