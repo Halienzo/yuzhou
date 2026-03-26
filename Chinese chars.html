@@ -6212,7 +6212,7 @@ h+='</div><div class="home-stats"><div class="home-stat"><div class="home-stat-v
 h+='<div class="home-stat"><div class="home-stat-val">'+lc.length+'</div><div class="home-stat-lbl">\u5DF2\u5B66<br>Learned</div></div>';
 h+='<div class="home-stat"><div class="home-stat-val">'+(du>0?du:'\u2014')+'</div><div class="home-stat-lbl">\u5F85\u590D\u4E60<br>Due</div></div></div>';
 h+='<div style="text-align:center;margin-top:16px;font-size:11px;color:var(--ink4)">\u6309 Ctrl+K \u641C\u7D22\u6C49\u5B57</div>';
-h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v59</div></div>';
+h+='<div style="text-align:center;margin-top:8px;font-size:10px;color:var(--ink4)">v60</div></div>';
 w.innerHTML=h;w.style.display='';currentView='home';
 }
 function navigateFromHome(id){if(VIEWS[id]){navigateTo(id);updateRail();return;}updateRail();}
@@ -17949,9 +17949,9 @@ function tbShowLesson(uid,lid){
   }else{
     h+='<div class="tb-reading-text" id="tbTextArea">';
     _textArr.forEach(function(line,i){
-      if(_pyArr&&_pyArr[i])h+='<span class="tb-pinyin-line tbPyLine">'+_pyArr[i]+'</span>';
+      if(_pyArr&&_pyArr[i]&&_pyArr[i].indexOf('pending')<0)h+='<span class="tb-pinyin-line tbPyLine">'+_pyArr[i]+'</span>';
       h+='<p>'+makeCharsClickable(line)+'</p>';
-      if(_enArr&&_enArr[i])h+='<span class="tb-en-line tbEnLine">'+_enArr[i]+'</span>';
+      if(_enArr&&_enArr[i]&&_enArr[i].indexOf('pending')<0)h+='<span class="tb-en-line tbEnLine">'+_enArr[i]+'</span>';
     });
     h+='</div>';
   }
@@ -18442,9 +18442,9 @@ function _wtRefresh(){
       }else{
         var h='';
         window._wtPlainLines.forEach(function(obj){
-          if(obj.py)h+='<span class="tb-pinyin-line tbPyLine" style="display:'+pyDisp+'">'+obj.py+'</span>';
+          if(obj.py&&obj.py.indexOf('pending')<0)h+='<span class="tb-pinyin-line tbPyLine" style="display:'+pyDisp+'">'+obj.py+'</span>';
           h+='<p>'+makeCharsClickable(obj.text)+'</p>';
-          if(obj.en)h+='<span class="tb-en-line tbEnLine" style="display:'+enDisp+'">'+obj.en+'</span>';
+          if(obj.en&&obj.en.indexOf('pending')<0)h+='<span class="tb-en-line tbEnLine" style="display:'+enDisp+'">'+obj.en+'</span>';
         });
         area.innerHTML=h;
       }
@@ -18467,9 +18467,9 @@ function _wtRefresh(){
   lines.forEach(function(obj,i){
     var paraAnns=anns.filter(function(a){return a.para===i;});
     paraAnns.forEach(function(a){usedCats[a.cat]=true;});
-    if(obj.py)h+='<span class="tb-pinyin-line tbPyLine" style="display:'+pyDisp+'">'+obj.py+'</span>';
+    if(obj.py&&obj.py.indexOf('pending')<0)h+='<span class="tb-pinyin-line tbPyLine" style="display:'+pyDisp+'">'+obj.py+'</span>';
     h+='<p>'+wtAnnotatePara(obj.text,paraAnns)+'</p>';
-    if(obj.en)h+='<span class="tb-en-line tbEnLine" style="display:'+enDisp+'">'+obj.en+'</span>';
+    if(obj.en&&obj.en.indexOf('pending')<0)h+='<span class="tb-en-line tbEnLine" style="display:'+enDisp+'">'+obj.en+'</span>';
   });
   area.innerHTML=h;
   /* Update legend — highlight used categories */
@@ -19084,13 +19084,14 @@ function tbShowLessonJH(uid,lid){
       _cnParas=_split;
     }
     _cnParas.forEach(function(line,i){
-      if(_pyArrJH&&_pyArrJH[i])h+='<span class="tb-pinyin-line tbPyLine">'+_pyArrJH[i]+'</span>';
+      if(_pyArrJH&&_pyArrJH[i]&&_pyArrJH[i].indexOf('pending')<0)h+='<span class="tb-pinyin-line tbPyLine">'+_pyArrJH[i]+'</span>';
       h+='<p>'+makeCharsClickable(line)+'</p>';
-      if(_enArrJH&&_enArrJH[i])h+='<span class="tb-en-line tbEnLine">'+_enArrJH[i]+'</span>';
+      if(_enArrJH&&_enArrJH[i]&&_enArrJH[i].indexOf('pending')<0)h+='<span class="tb-en-line tbEnLine">'+_enArrJH[i]+'</span>';
     });
     /* Render any remaining textEn paragraphs that exceed cnParas count */
     if(_enArrJH&&_enArrJH.length>_cnParas.length){
       for(var _ei=_cnParas.length;_ei<_enArrJH.length;_ei++){
+        if(_enArrJH[_ei].indexOf('pending')>=0)continue;
         h+='<span class="tb-en-line tbEnLine">'+_enArrJH[_ei]+'</span>';
       }
     }

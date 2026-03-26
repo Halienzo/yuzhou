@@ -1488,29 +1488,35 @@ units: [
       id: 18, title: "富饶的西沙群岛", titleEn: "The Rich Xisha Islands",
       difficulty: 3,
       text: [
-        "西沙群岛位于南海的西北部，是我国海南省三沙市的一部分。那里风景优美，物产丰富，是个可爱的地方。",
-        "西沙群岛一带海水五光十色，瑰丽无比：有深蓝的，淡青的，浅绿的，杏黄的。一块块，一条条，相互交错着。因为海底高低不平，有山崖，有峡谷，海水有深有浅，从海面看，色彩就不同了。",
-        "海底的岩石上生长着各种各样的珊瑚，有的像绽开的花朵，有的像分枝的鹿角。海参到处都是，在海底懒洋洋地蠕动。大龙虾全身披甲，划过来，划过去，样子挺威武。",
-        "鱼成群结队地在珊瑚丛中穿来穿去，好看极了。有的全身布满彩色的条纹；有的头上长着一簇红缨；有的周身像插着好些扇子，游动的时候飘飘摇摇；有的眼睛圆溜溜的，身上长满了刺，鼓起气来像皮球一样圆。各种各样的鱼多得数不清。正像人们说的那样，西沙群岛的海里一半是水，一半是鱼。",
-        "西沙群岛也是鸟的天下。岛上有一片片茂密的树林，树林里栖息着各种海鸟。遍地都是鸟蛋。树下堆积着一层厚厚的鸟粪，这是非常宝贵的肥料。",
-        "富饶的西沙群岛，是我们祖祖辈辈生活的地方。随着祖国建设事业的发展，可爱的西沙群岛，必将变得更加美丽，更加富饶。"
-      ],
+"西沙群岛位于南海的西北部，是我国的海南海省三沙市的一部分。那里风景优美，物产丰富，是个可爱的地方。",
+"西沙群岛一带海水五光十色，瑰丽无比：有深蓝的，淡青的，淡绿的，杏黄的。一块块，一条条，相互交错着。因为海底高低不平，有山崖，有峡谷，海水有深有浅，从海面看，色彩就不同了。",
+"海底的岩石上长着各种各样的珊瑚，有的像绽开的花朵，有的像分枝的鹿角。海参到处都是，在海底懒洋洋地蠕动。大龙全身披甲，划过来，划过去，样子挺威武。",
+"鱼成群结队地在珊瑚丛中穿来穿去，好看极了。有的全身部布满彩色的条纹；有的头上长着一簇红缨；有的周身像插着好些扇子，游动的时候飘飘摇摇；有的眼睛圆溜溜的，身上长满了刺，鼓起气来像皮球一样圆。各种各样的鱼多得数不清。正像人们说的那样，西沙群岛的海里一半是水，一半是鱼。",
+"西沙群岛也是鸟的天下。岛上有一片茂密的树林，树林里栖息着各种海鸟。遍地都是鸟蛋。树下堆积着一层厚厚的鸟粪，这是非常宝贵的肥料。",
+"海滩上有拣不完的美丽的贝壳，大的，小的，颜色不一，形状千奇百怪。最有趣的要算海龟了。每年四五月间，庞大的海龟成群爬到沙滩上来产卵。渔业工人把海龟翻一个身，它就四脚朝天，没法逃跑了。",
+"西沙群岛也是鸟的天下。岛上有一片片茂密的树林，树林里栖息着各种海鸟。遍地都是鸟蛋。树下堆积着一层厚厚的鸟粪，这是非常宝贵的肥料。",
+"富饶的西沙群岛，是我们祖祖辈辈生活的地方。随着祖国建设事业的发展，可爱的西沙群岛，必将变得更加美丽，更加富饶。"
+],
       textEn: [
-        "The Xisha Islands are located in the northwest of the South China Sea, part of Sansha City, Hainan Province. The scenery is beautiful, the products abundant \u2014 it is a lovely place.",
-        "The sea around the Xisha Islands shimmers with dazzling colors: deep blue, pale turquoise, light green, apricot yellow \u2014 blocks and bands interweaving. Because the seabed is uneven, with cliffs and valleys, the water varies in depth, creating different colors when seen from above.",
-        "On the rocky seabed grow all kinds of coral \u2014 some like blooming flowers, some like branching antlers. Sea cucumbers are everywhere, crawling lazily on the bottom. Great lobsters in full armor glide back and forth, looking quite imposing.",
-        "Schools of fish weave through the coral in beautiful formations. Some are covered in colorful stripes; some have a tuft of red tassels on their heads; some look as if they have fans stuck all over them, swaying as they swim; some have perfectly round eyes and bodies covered in spines, puffing up like balls. The variety of fish is beyond counting. As people say, half of the Xisha sea is water, and half is fish.",
-        "The Xisha Islands are also a paradise for birds. Dense forests cover the islands, sheltering many kinds of seabirds. Bird eggs are scattered everywhere. Thick layers of bird droppings pile under the trees \u2014 extremely valuable fertilizer.",
-        "The rich Xisha Islands are where our families have lived for generations. As our nation develops, these lovely islands will become even more beautiful and bountiful."
-      ],
+"The Xisha Islands are located in the northwest of the South China Sea, part of Sansha City, Hainan Province. The scenery is beautiful, the products abundant — it is a lovely place.",
+"The sea around the Xisha Islands shimmers with dazzling colors: deep blue, pale turquoise, light green, apricot yellow — blocks and bands interweaving. Because the seabed is uneven, with cliffs and valleys, the water varies in depth, creating different colors when seen from above.",
+"On the rocky seabed grow all kinds of coral — some like blooming flowers, some like branching antlers. Sea cucumbers are everywhere, crawling lazily on the bottom. Great lobsters in full armor glide back and forth, looking quite imposing.",
+"Schools of fish weave through the coral in beautiful formations. Some are covered in colorful stripes; some have a tuft of red tassels on their heads; some look as if they have fans stuck all over them, swaying as they swim; some have perfectly round eyes and bodies covered in spines, puffing up like balls. The variety of fish is beyond counting. As people say, half of the Xisha sea is water, and half is fish.",
+"The Xisha Islands are also a paradise for birds. Dense forests cover the islands, sheltering many kinds of seabirds. Bird eggs are scattered everywhere. Thick layers of bird droppings pile under the trees — extremely valuable fertilizer.",
+"The rich Xisha Islands are where our families have lived for generations. As our nation develops, these lovely islands will become even more beautiful and bountiful.",
+"(Classical Chinese passage, 64 characters)",
+"(Classical Chinese passage, 55 characters)"
+],
       textPinyin: [
-        "x\u012b sh\u0101 q\u00fan d\u01ceo w\u00e8i y\u00fa n\u00e1n h\u01cei de x\u012b b\u011bi b\u00f9\uff0c sh\u00ec w\u01d2 gu\u00f3 h\u01cei n\u00e1n sh\u011bng s\u0101n sh\u0101 sh\u00ec de y\u00ed b\u00f9 fen\u3002 n\u00e0 l\u01d0 f\u0113ng j\u01d0ng y\u014du m\u011bi\uff0c w\u00f9 ch\u01cen f\u0113ng f\u00f9\uff0c sh\u00ec g\u00e8 k\u011b \u00e0i de d\u00ec f\u0101ng\u3002",
-        "x\u012b sh\u0101 q\u00fan d\u01ceo y\u00ed d\u00e0i h\u01cei shu\u01d0 w\u01d4 gu\u0101ng sh\u00ed s\u00e8\uff0c gu\u012b l\u00ec w\u00fa b\u01d0\uff1a y\u01d2u sh\u0113n l\u00e1n de\uff0c d\u00e0n q\u012bng de\uff0c qi\u01cen l\u01dc de\uff0c x\u00ecng hu\u00e1ng de\u3002 y\u00ed ku\u00e0i ku\u00e0i\uff0c y\u00ec ti\u00e1o ti\u00e1o\uff0c xi\u0101ng h\u00f9 ji\u0101o cu\u00f2 zhe\u3002 y\u012bn w\u00e8i h\u01cei d\u01d0 g\u0101o d\u012b b\u00f9 p\u00edng\uff0c y\u01d2u sh\u0101n y\u00e1\uff0c y\u01d2u xi\u00e1 g\u01d4\uff0c h\u01cei shu\u01d0 y\u01d2u sh\u0113n y\u01d2u qi\u01cen\uff0c c\u00f3ng h\u01cei mi\u00e0n k\u00e0n\uff0c s\u00e8 c\u01cei ji\u00f9 b\u00f9 t\u00f3ng le\u3002",
-        "h\u01cei d\u01d0 de y\u00e1n sh\u00ed sh\u00e0ng sh\u0113ng zh\u01ceng zhe g\u00e8 zh\u01d2ng g\u00e8 y\u00e0ng de sh\u0101n h\u00fa\uff0c y\u01d2u de xi\u00e0ng zh\u00e0n k\u0101i de hu\u0101 du\u01d2\uff0c y\u01d2u de xi\u00e0ng f\u0113n zh\u012b de l\u00f9 ji\u01ceo\u3002 h\u01cei sh\u0113n d\u00e0o ch\u00f9 d\u014du sh\u00ec\uff0c z\u00e0i h\u01cei d\u01d0 l\u01cen y\u00e1ng y\u00e1ng d\u00ec r\u00fa d\u00f2ng\u3002 d\u00e0 l\u00f3ng xi\u0101 qu\u00e1n sh\u0113n p\u012b ji\u01ce\uff0c hu\u00e1 gu\u00f2 l\u00e1i\uff0c hu\u00e1 gu\u00f2 q\u00f9\uff0c y\u00e0ng zi t\u01d0ng w\u0113i w\u01d4\u3002",
-        "y\u00fa ch\u00e9ng q\u00fan ji\u00e9 du\u00ec d\u00ec z\u00e0i sh\u0101n h\u00fa c\u00f3ng zh\u014dng chu\u0101n l\u00e1i chu\u0101n q\u00f9\uff0c h\u01ceo k\u00e0n j\u00ed le\u3002 y\u01d2u de qu\u00e1n sh\u0113n b\u00f9 m\u01cen c\u01cei s\u00e8 de ti\u00e1o w\u00e9n\uff1b y\u01d2u de t\u00f3u sh\u00e0ng ch\u00e1ng zhe y\u00ed c\u00f9 h\u00f3ng y\u012bng\uff1b y\u01d2u de zh\u014du sh\u0113n xi\u00e0ng ch\u0101 zhe h\u01ceo xi\u0113 sh\u00e0n zi\uff0c y\u00f3u d\u00f2ng de sh\u00ed h\u00f2u pi\u0101o pi\u0101o y\u00e1o y\u00e1o\uff1b y\u01d2u de y\u01cen j\u012bng yu\u00e1n li\u016b li\u016b de\uff0c sh\u0113n sh\u00e0ng ch\u00e1ng m\u01cen le c\u00ec\uff0c g\u01d4 q\u01d0 q\u00ec l\u00e1i xi\u00e0ng p\u00ed qi\u00fa y\u00ed y\u00e0ng yu\u00e1n\u3002 g\u00e8 zh\u01d2ng g\u00e8 y\u00e0ng de y\u00fa du\u014d d\u00e9 sh\u01d4 b\u00f9 q\u012bng\u3002 zh\u00e8ng xi\u00e0ng r\u00e9n men shu\u014d de n\u00e0 y\u00e0ng\uff0c x\u012b sh\u0101 q\u00fan d\u01ceo de h\u01cei l\u01d0 y\u00ed b\u00e0n sh\u00ec shu\u01d0\uff0c y\u00ed b\u00e0n sh\u00ec y\u00fa\u3002",
-        "x\u012b sh\u0101 q\u00fan d\u01ceo y\u011b sh\u00ec ni\u01ceo de ti\u0101n xi\u00e0\u3002 d\u01ceo sh\u00e0ng y\u01d2u y\u00ed pi\u00e0n pi\u00e0n m\u00e0o m\u00ec de sh\u00f9 l\u00edn\uff0c sh\u00f9 l\u00edn l\u01d0 q\u012b x\u012b zhe g\u00e8 zh\u01d2ng h\u01cei ni\u01ceo\u3002 bi\u00e0n d\u00ec d\u014du sh\u00ec ni\u01ceo d\u00e0n\u3002 sh\u00f9 xi\u00e0 du\u012b j\u012b zhe y\u00ec c\u00e9ng h\u00f2u h\u00f2u de ni\u01ceo f\u00e8n\uff0c zh\u00e8 sh\u00ec f\u0113i ch\u00e1ng b\u01ceo gu\u00ec de f\u00e9i li\u00e0o\u3002",
-        "f\u00f9 r\u00e1o de x\u012b sh\u0101 q\u00fan d\u01ceo\uff0c sh\u00ec w\u01d2 men z\u01d4 z\u01d4 b\u00e8i b\u00e8i sh\u0113ng hu\u00f3 de d\u00ec f\u0101ng\u3002 su\u00ed zhe z\u01d4 gu\u00f3 ji\u00e0n sh\u00e8 sh\u00ec y\u00e8 de f\u0101 zh\u01cen\uff0c k\u011b \u00e0i de x\u012b sh\u0101 q\u00fan d\u01ceo\uff0c b\u00ec ji\u0101ng bi\u00e0n de g\u00e8ng ji\u0101 m\u011bi l\u00ec\uff0c g\u00e8ng ji\u0101 f\u00f9 r\u00e1o\u3002"
-      ],
+"xī shā qún dǎo wèi yú nán hǎi de xī běi bù， shì wǒ guó hǎi nán shěng sān shā shì de yí bù fen。 nà lǐ fēng jǐng yōu měi， wù chǎn fēng fù， shì gè kě ài de dì fāng。",
+"xī shā qún dǎo yí dài hǎi shuǐ wǔ guāng shí sè， guī lì wú bǐ： yǒu shēn lán de， dàn qīng de， qiǎn lǜ de， xìng huáng de。 yí kuài kuài， yì tiáo tiáo， xiāng hù jiāo cuò zhe。 yīn wèi hǎi dǐ gāo dī bù píng， yǒu shān yá， yǒu xiá gǔ， hǎi shuǐ yǒu shēn yǒu qiǎn， cóng hǎi miàn kàn， sè cǎi jiù bù tóng le。",
+"hǎi dǐ de yán shí shàng shēng zhǎng zhe gè zhǒng gè yàng de shān hú， yǒu de xiàng zhàn kāi de huā duǒ， yǒu de xiàng fēn zhī de lù jiǎo。 hǎi shēn dào chù dōu shì， zài hǎi dǐ lǎn yáng yáng dì rú dòng。 dà lóng xiā quán shēn pī jiǎ， huá guò lái， huá guò qù， yàng zi tǐng wēi wǔ。",
+"yú chéng qún jié duì dì zài shān hú cóng zhōng chuān lái chuān qù， hǎo kàn jí le。 yǒu de quán shēn bù mǎn cǎi sè de tiáo wén； yǒu de tóu shàng cháng zhe yí cù hóng yīng； yǒu de zhōu shēn xiàng chā zhe hǎo xiē shàn zi， yóu dòng de shí hòu piāo piāo yáo yáo； yǒu de yǎn jīng yuán liū liū de， shēn shàng cháng mǎn le cì， gǔ qǐ qì lái xiàng pí qiú yí yàng yuán。 gè zhǒng gè yàng de yú duō dé shǔ bù qīng。 zhèng xiàng rén men shuō de nà yàng， xī shā qún dǎo de hǎi lǐ yí bàn shì shuǐ， yí bàn shì yú。",
+"xī shā qún dǎo yě shì niǎo de tiān xià。 dǎo shàng yǒu yí piàn piàn mào mì de shù lín， shù lín lǐ qī xī zhe gè zhǒng hǎi niǎo。 biàn dì dōu shì niǎo dàn。 shù xià duī jī zhe yì céng hòu hòu de niǎo fèn， zhè shì fēi cháng bǎo guì de féi liào。",
+"fù ráo de xī shā qún dǎo， shì wǒ men zǔ zǔ bèi bèi shēng huó de dì fāng。 suí zhe zǔ guó jiàn shè shì yè de fā zhǎn， kě ài de xī shā qún dǎo， bì jiāng biàn de gèng jiā měi lì， gèng jiā fù ráo。",
+"xī shā qún dǎo yě shì niǎo de tiān xià 。 dǎo shàng yǒu yí piàn piàn mào mì de shù lín ， shù lín lǐ qī xī zhe gè zhǒng hǎi niǎo 。 biàn dì dōu shì niǎo dàn 。 shù xià duī jī zhe yì céng hòu hòu de niǎo fèn ， zhè shì fēi cháng bǎo guì de féi liào 。",
+"fù ráo de xī shā qún dǎo ， shì wǒ men zǔ zǔ bèi bèi shēng huó de dì fāng 。 suí zhe zǔ guó jiàn shè shì yè de fā zhǎn ， kě ài de xī shā qún dǎo ， bì jiāng biàn de gèng jiā měi lì ， gèng jiā fù ráo 。"
+],
       recognizeChars: ["饶","优","瑰","岩","参","武","栖","粪","辈","设"],
       writeChars: ["优","淡","浅","错","岩","虾","挺","刺","鼓","数","厚","宝","贵"],
       vocabWords: [
